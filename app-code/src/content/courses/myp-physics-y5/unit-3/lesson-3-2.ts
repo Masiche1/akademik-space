@@ -1,0 +1,915 @@
+import type { Lesson } from "../../../types.ts";
+
+export const lesson32: Lesson = {
+  id: "mypp5-u3-lesson-3-2",
+  code: "3-2",
+  title: "Electromagnetic Induction and Transformers",
+  goal: "I CAN explain electromagnetic induction, use Faraday's law, and calculate transformer voltages, currents and turns ratios.",
+  standards: [
+    "Key concept: Magnetism and electromagnetism",
+    "MYP Sciences: Forces",
+    "Criterion A: Knowing and understanding",
+  ],
+  vocabulary: [
+    { term: "Electromagnetic induction", definition: "Generation of an e.m.f. in a conductor when magnetic flux through it changes; discovered by Faraday." },
+    { term: "Magnetic flux", definition: "Measure of magnetic field through a loop; changes when field strength, area or orientation changes." },
+    { term: "Faraday's law", definition: "Induced e.m.f. is proportional to the rate of change of magnetic flux linkage." },
+    { term: "Lenz's law", definition: "Induced current opposes the change that produced it; ensures energy conservation." },
+    { term: "Transformer", definition: "Device using two coils on an iron core to change a.c. voltage up or down." },
+    { term: "Turns ratio", definition: "$V_{in}/V_{out} = N_{in}/N_{out}$; power conserved in ideal transformers." },
+  ],
+  concepts: [
+    {
+      id: "mypp5-u3-indtr",
+      title: "Electromagnetic induction and transformers",
+      skill: "Explain induction and calculate transformer ratios for voltage and current.",
+      lesson: {
+        sections: [
+          {
+            heading: "Faraday's discovery",
+            body: "Moving a magnet in and out of a coil induces an e.m.f.; rotating a coil in a magnetic field generates a.c. — the principle of generators and dynamos. Induced e.m.f. depends on rate of flux change: faster movement, stronger magnet or more turns → larger e.m.f.",
+          },
+          {
+            heading: "Lenz's law",
+            body: "The induced current flows so as to oppose the change causing it — if the magnet approaches, the coil repels it; if it recedes, the coil attracts it. This opposition means mechanical work is done to generate electricity, satisfying energy conservation.",
+          },
+          {
+            heading: "Transformers",
+            body: "Step-up transformers raise voltage for efficient long-distance transmission (lower current → less $I^2R$ loss); step-down transformers reduce it for safe use. Ideal transformer: power in = power out, so $V_pI_p = V_sI_s$. Ratio: $\\frac{V_p}{V_s} = \\frac{N_p}{N_s}$.",
+          },
+        ],
+        keyFormulas: [
+          { name: "Faraday", statement: "$\\varepsilon = -N\\frac{\\Delta\\Phi}{\\Delta t}$" },
+          { name: "Turns ratio", statement: "$\\frac{V_p}{V_s} = \\frac{N_p}{N_s}$" },
+          { name: "Power conservation", statement: "$V_pI_p = V_sI_s$" },
+        ],
+        workedExample: {
+          problem: "A transformer with 500 primary turns and 100 secondary turns has 230 V input. Find the output voltage.",
+          solution: "$V_s = 230 \\times \\frac{100}{500} = 46$ V — a step-down transformer.",
+        },
+      },
+      questions: [
+        {
+          id: "mypp5-u3-indtr-q1",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is required to induce an e.m.f. in a coil of wire?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A steady magnetic field" },
+              { id: "b", text: "A changing magnetic flux through the coil" },
+              { id: "c", text: "A large current in the coil" },
+              { id: "d", text: "A battery connected" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Faraday", statement: "Induction requires change in flux, not steady field." }],
+            steps: [
+              { reasoning: "Only changing flux induces e.m.f.", working: "\\Delta\\Phi \\neq 0", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** changing flux",
+            commonErrors: ["Thinking any magnetic field induces current."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q2",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A transformer steps 230 V down to 12 V. If the primary has 1150 turns, how many turns does the secondary have?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "60" },
+              { id: "b", text: "600" },
+              { id: "c", text: "115" },
+              { id: "d", text: "10" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Turns ratio", statement: "$N_s = N_p \\times V_s/V_p = 1150 \\times 12/230$" }],
+            steps: [
+              { reasoning: "Turns ratio equals voltage ratio.", working: "\\frac{N_s}{N_p}=\\frac{12}{230}", marks: 1, markCode: "M" },
+              { reasoning: "$N_s = 1150 \\times 12/230 = 60$.", working: "60", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "60 turns",
+            commonErrors: ["Inverting the ratio → 22 000 turns."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q3",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "An ideal transformer has primary voltage 240 V, primary current 2 A, and steps down to 12 V. What is the secondary current?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "2 A" },
+              { id: "b", text: "10 A" },
+              { id: "c", text: "40 A" },
+              { id: "d", text: "0.1 A" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Power conservation", statement: "$V_pI_p = V_sI_s$ → $I_s = 240 \\times 2/12$" }],
+            steps: [
+              { reasoning: "Power in = power out for ideal transformer.", working: "V_pI_p=V_sI_s", marks: 1, markCode: "M" },
+              { reasoning: "$I_s = \\frac{240 \\times 2}{12} = 40$ A.", working: "\\frac{480}{12}", marks: 1, markCode: "M" },
+              { reasoning: "Step-down → higher current.", working: "40\\ \\text{A}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "40 A",
+            commonErrors: ["Keeping current the same; inverting voltage ratio."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q4",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "A power station generates electricity at 25 kV, which is stepped up to 400 kV for transmission and stepped down to 230 V for homes.",
+          parts: [
+            { label: "a", prompt: "Explain why electricity is transmitted at very high voltage.", marks: 2 },
+            { label: "b", prompt: "A step-up transformer has 2000 primary turns and output 400 kV from 25 kV. Calculate secondary turns.", marks: 2 },
+            { label: "c", prompt: "If the generator supplies 800 A at 25 kV, calculate the power output.", marks: 1 },
+            { label: "d", prompt: "Calculate the current in the 400 kV transmission line for the same power.", marks: 1 },
+            { label: "e", prompt: "Describe a fair test to compare the output of two model transformers, identifying variables.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Transmission", statement: "High V → low I → less $I^2R$ heating loss in cables." },
+              { kind: "formula", name: "Power", statement: "$P = VI$ conserved through ideal transformers." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Higher voltage means lower current for same power → lower $I^2R$ losses in cables.", working: "P=VI, I\\downarrow \\Rightarrow loss\\downarrow", marks: 2, markCode: "B" },
+              { part: "b", reasoning: "$N_s = 2000 \\times 400/25$.", working: "2000\\times16", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "$N_s = 32\\,000$ turns.", working: "32000", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$P = 25\\,000 \\times 800 = 20$ MW.", working: "20\\times10^6\\ \\text{W}", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "$I = P/V = 20\\times10^6/400\\,000 = 50$ A.", working: "I=50\\ \\text{A}", marks: 1, markCode: "A" },
+              { part: "e", reasoning: "Use same input voltage and measure output voltage with different turn ratios; independent = turns ratio, dependent = output voltage, controlled = input V, core, frequency.", working: "\\text{fair test}", marks: 2, markCode: "B" },
+            ],
+            finalAnswer: "(a) high V → low I → less loss (b) 32 000 turns (c) 20 MW (d) 50 A (e) vary turns, measure V_out",
+            commonErrors: ["Thinking high voltage increases losses; forgetting to use kV consistently."],
+            examinerNote: "B2 for (a); M1 A1 for (b); A1 each for (c),(d); B2 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "According to Faraday's law, an e.m.f. is induced in a coil when:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The coil is stationary in a magnetic field" },
+              { id: "b", text: "The magnetic flux through the coil changes" },
+              { id: "c", text: "The coil has many turns of thick wire" },
+              { id: "d", text: "The magnet is demagnetised" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Faraday's law", statement: "Induced e.m.f. proportional to rate of change of magnetic flux linkage." }],
+            steps: [
+              { reasoning: "Only changing flux induces e.m.f.", working: "\\Delta\\Phi \\neq 0", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** magnetic flux changes",
+            commonErrors: ["Thinking a stationary magnet in a coil induces current."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A transformer has 500 primary turns and 100 secondary turns. The primary voltage is 230 V. Calculate the secondary voltage.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 46, unit: "V" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Transformer ratio", statement: "$V_s = V_p \\times N_s/N_p = 230 \\times 100/500$" }],
+            steps: [
+              { reasoning: "$V_s = 46$ V.", working: "230\\times\\frac{100}{500}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "46 V",
+            commonErrors: ["Inverting the turns ratio."],
+            examinerNote: "A1 for 46.",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A magnet is pushed towards a coil connected to a galvanometer. What does Lenz's law predict about the induced current?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It flows so as to attract the approaching magnet" },
+              { id: "b", text: "It flows so as to oppose the change — the coil repels the approaching magnet" },
+              { id: "c", text: "No current is induced" },
+              { id: "d", text: "It flows in the same direction as the magnet's motion" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Lenz's law", statement: "Induced current opposes the change producing it." }],
+            steps: [
+              { reasoning: "Approaching magnet increases flux → induced field opposes increase → repels magnet.", working: "\\text{oppose change}", marks: 1, markCode: "M" },
+              { reasoning: "Answer (b).", working: "(b)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** coil repels approaching magnet",
+            commonErrors: ["Thinking induced current aids the change — it opposes it."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A step-up transformer has primary to secondary turns ratio 1:5. If the primary voltage is 12 V, calculate the secondary voltage.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 60, unit: "V" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Transformer ratio", statement: "$V_s = V_p \\times N_s/N_p = 12 \\times 5$" }],
+            steps: [
+              { reasoning: "$V_s = 12 \\times 5 = 60$ V.", working: "12\\times5", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "60\\ \\text{V}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "60 V",
+            commonErrors: ["Dividing instead of multiplying for step-up."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q9",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Why is electricity transmitted at very high voltage over long distances?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "High voltage is safer for homes" },
+              { id: "b", text: "Higher voltage allows lower current for the same power, reducing $I^2R$ energy losses in cables" },
+              { id: "c", text: "It makes transformers unnecessary" },
+              { id: "d", text: "Cables conduct better at high voltage" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Power transmission", statement: "$P = VI$ fixed → higher V → lower I → less $I^2R$ loss." }],
+            steps: [
+              { reasoning: "Power $VI$ conserved; stepping up V steps down I.", working: "P=VI", marks: 1, markCode: "M" },
+              { reasoning: "Cable loss $= I^2R$ — smaller I gives much less loss.", working: "loss \\propto I^2", marks: 1, markCode: "M" },
+              { reasoning: "Answer (b).", working: "(b)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** lower current → less I²R loss",
+            commonErrors: ["Thinking high voltage increases losses."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "An ideal transformer steps 230 V down to 11.5 V. The secondary current is 20 A. What is the primary current?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1, unit: "A" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Power conservation", statement: "$V_pI_p = V_sI_s$ → $I_p = 11.5 \\times 20/230$" }],
+            steps: [
+              { reasoning: "$I_p = V_sI_s/V_p = \\frac{11.5 \\times 20}{230}$.", working: "\\frac{11.5\\times20}{230}", marks: 1, markCode: "M" },
+              { reasoning: "$I_p = 1$ A.", working: "1\\ \\text{A}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "1\\ \\text{A}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "1 A",
+            commonErrors: ["Inverting the power equation; using turns ratio for current wrongly."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q11",
+          difficulty: "foundation",
+          totalMarks: 6,
+          stem: "Electromagnetic induction is the basis of generators and transformers.",
+          parts: [
+            { label: "a", prompt: "State Faraday's law of electromagnetic induction.", marks: 1 },
+            { label: "b", prompt: "State Lenz's law.", marks: 1 },
+            { label: "c", prompt: "Name two factors that increase the induced e.m.f.", marks: 1 },
+            { label: "d", prompt: "Explain how a simple a.c. generator produces electricity.", marks: 2 },
+            { label: "e", prompt: "Give one household application of a transformer.", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Faraday + Lenz", statement: "Changing flux induces e.m.f.; induced current opposes the change." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Induced e.m.f. proportional to rate of change of magnetic flux linkage.", working: "\\varepsilon \\propto \\Delta\\Phi/\\Delta t", marks: 1, markCode: "B" },
+              { part: "b", reasoning: "Induced current opposes the change causing it (conserves energy).", working: "\\text{oppose change}", marks: 1, markCode: "B" },
+              { part: "c", reasoning: "Faster movement, stronger magnet/field, more turns.", working: "v,B,N", marks: 1, markCode: "B" },
+              { part: "d", reasoning: "Coil rotates in magnetic field → flux through coil changes sinusoidally → alternating e.m.f. induced.", working: "\\text{rotating coil}", marks: 2, markCode: "A" },
+              { part: "e", reasoning: "Any one: mains adapter/phone charger (step-down), power station transformers (step-up/down).", working: "\\text{charger}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "(a) e.m.f. ∝ flux change rate (b) oppose change (c) speed, field, turns (d) rotating coil → a.c. (e) phone charger",
+            commonErrors: ["Thinking DC is produced — rotation gives alternating e.m.f."],
+            examinerNote: "B1 each for (a)-(c); A2 for (d); B1 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q12",
+          difficulty: "core",
+          totalMarks: 7,
+          stem: "A student investigates electromagnetic induction using a bar magnet, a coil of wire and a galvanometer.",
+          parts: [
+            { label: "a", prompt: "State the independent, dependent and controlled variables.", marks: 2 },
+            { label: "b", prompt: "Predict what happens to the galvanometer reading when the magnet is stationary inside the coil.", marks: 1 },
+            { label: "c", prompt: "Explain why moving the magnet faster gives a larger deflection.", marks: 1 },
+            { label: "d", prompt: "Describe how you would show that direction of motion affects the sign of the deflection.", marks: 2 },
+            { label: "e", prompt: "Suggest one improvement to make the measurement more sensitive.", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Faraday", statement: "$\\varepsilon \\propto \\Delta\\Phi/\\Delta t$" },
+              { kind: "law", name: "Lenz", statement: "Direction of induced current depends on direction of change." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Independent = magnet speed/direction; dependent = galvanometer deflection; controlled = magnet strength, coil turns, distance, magnet orientation.", working: "v \\rightarrow \\text{deflection}", marks: 2, markCode: "B" },
+              { part: "b", reasoning: "No deflection — flux is constant when magnet is stationary.", working: "\\text{no } \\Delta\\Phi", marks: 1, markCode: "B" },
+              { part: "c", reasoning: "Faster movement → larger rate of flux change → larger induced e.m.f./current.", working: "\\Delta\\Phi/\\Delta t \\uparrow", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Push magnet in then withdraw at same speed; deflection reverses sign because induced current opposes each change direction.", working: "\\text{reverses}", marks: 2, markCode: "B" },
+              { part: "e", reasoning: "More coil turns, stronger magnet, or amplifier for galvanometer.", working: "\\text{more turns}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "(a) speed→deflection (b) no deflection (c) faster flux change (d) direction reverses (e) more turns",
+            commonErrors: ["Expecting deflection with stationary magnet."],
+            examinerNote: "B2 for (a); B1 for (b); A1 for (c); B2 for (d); B1 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which change would NOT increase the induced e.m.f. in a coil?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Moving the magnet faster" },
+              { id: "b", text: "Using more turns of wire" },
+              { id: "c", text: "Using a stronger magnet" },
+              { id: "d", text: "Holding the magnet stationary inside the coil" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Faraday", statement: "e.m.f. needs changing flux — stationary magnet gives zero." }],
+            steps: [
+              { reasoning: "Stationary magnet → constant flux → no induced e.m.f.", working: "\\Delta\\Phi=0", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(d)** stationary magnet",
+            commonErrors: ["Thinking stronger stationary field induces current."],
+            examinerNote: "B1 for (d).",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "How does a bicycle dynamo (generator) produce electricity?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "By chemical reaction in the hub" },
+              { id: "b", text: "A rotating coil in a magnetic field changes flux, inducing an alternating e.m.f." },
+              { id: "c", text: "By friction heating the wire" },
+              { id: "d", text: "By static electricity" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Generator", statement: "Rotation changes flux linkage → induced a.c. e.m.f." }],
+            steps: [
+              { reasoning: "Wheel rotation spins coil/magnet → changing flux → induced e.m.f.", working: "\\text{rotating coil}", marks: 1, markCode: "M" },
+              { reasoning: "Answer (b).", working: "(b)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** rotating coil → a.c.",
+            commonErrors: ["Thinking generators produce d.c. directly without commutator."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q15",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "A step-down transformer converts 230 V mains to 12 V for a model railway. It has 2000 primary turns.",
+          parts: [
+            { label: "a", prompt: "Calculate the number of secondary turns needed.", marks: 2 },
+            { label: "b", prompt: "If the secondary current is 5 A, calculate the primary current assuming ideal transformer.", marks: 2 },
+            { label: "c", prompt: "Calculate the power delivered to the secondary circuit.", marks: 1 },
+            { label: "d", prompt: "Explain why the secondary current is larger than the primary current.", marks: 1 },
+            { label: "e", prompt: "Suggest why real transformers are not 100% efficient and name one energy loss.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Transformer", statement: "$V_p/V_s = N_p/N_s$; $V_pI_p = V_sI_s$" },
+            ],
+            steps: [
+              { part: "a", reasoning: "$N_s = N_p \\times V_s/V_p = 2000 \\times 12/230$.", working: "2000\\times\\frac{12}{230}", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "$N_s \\approx 104$ turns (accept 100–105).", working: "\\approx 104", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$I_p = V_sI_s/V_p = 12 \\times 5/230$.", working: "\\frac{60}{230}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "$I_p \\approx 0.26$ A.", working: "0.26\\ \\text{A}", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$P_s = 12 \\times 5 = 60$ W.", working: "60\\ \\text{W}", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Power conserved: lower voltage needs higher current for same power.", working: "P=VI", marks: 1, markCode: "A" },
+              { part: "e", reasoning: "Eddy currents in core, resistance of windings, hysteresis, flux leakage; any one.", working: "\\text{eddy currents}", marks: 2, markCode: "B" },
+            ],
+            finalAnswer: "(a) ~104 turns (b) 0.26 A (c) 60 W (d) V down → I up for same P (e) eddy currents/resistance",
+            commonErrors: ["Rounding turns to non-integer wrongly; forgetting ideal = power conserved."],
+            examinerNote: "M1 A1 for (a); M1 A1 for (b); A1 for (c); A1 for (d); B2 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-indtr-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A transformer has 2000 primary turns and 50 secondary turns. The primary voltage is 240 V.",
+          parts: [
+            { label: "a", prompt: "Calculate the secondary voltage.", marks: 1 },
+            { label: "b", prompt: "Calculate the turns ratio $N_s/N_p$.", marks: 1 },
+            { label: "c", prompt: "If the secondary current is 2 A, calculate the primary current for an ideal transformer.", marks: 1 },
+            { label: "d", prompt: "Calculate the power output of the transformer.", marks: 1 },
+          ],
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 6, unit: "V" },
+              { label: "b", answer: 0.025, unit: "" },
+              { label: "c", answer: 0.05, unit: "A" },
+              { label: "d", answer: 12, unit: "W" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Transformer", statement: "$V_s = V_p N_s/N_p$; $V_pI_p = V_sI_s$" },
+            ],
+            steps: [
+              { part: "a", reasoning: "$V_s = 240 \\times 50/2000 = 6$ V.", working: "6\\ \\text{V}", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$N_s/N_p = 50/2000 = 0.025$.", working: "0.025", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$I_p = V_sI_s/V_p = 6 \\times 2/240 = 0.05$ A.", working: "0.05\\ \\text{A}", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "$P = V_sI_s = 6 \\times 2 = 12$ W.", working: "12\\ \\text{W}", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "(a) 6 V (b) 0.025 (c) 0.05 A (d) 12 W",
+            commonErrors: ["Inverting turns ratio; using VpIp=VsIs wrongly."],
+            examinerNote: "A1 for (a),(b); M1 A1 for (c),(d).",
+          },
+        },
+      ],
+    },
+    {
+      id: "mypp5-u3-radio",
+      title: "Radioactive decay: alpha, beta and gamma",
+      skill: "Distinguish alpha, beta and gamma radiation by properties, penetration and uses.",
+      lesson: {
+        sections: [
+          {
+            heading: "Three types of decay",
+            body: "**Alpha**: helium nucleus (2p+2n), charge +2, mass 4 — stopped by paper/skin, highly ionising, deflected slightly by fields. **Beta**: fast electron, charge −1 — stopped by thin aluminium, moderate ionising, deflected strongly. **Gamma**: EM wave, no charge/mass — needs lead/concrete, least ionising per particle but very penetrating.",
+          },
+          {
+            heading: "Penetration and detection",
+            body: "Alpha: paper or dead skin layer stops it — dangerous only if inhaled/ingested. Beta: thin metal sheet stops it; can burn skin. Gamma: attenuated by lead; used in medical imaging and sterilisation. Geiger counters detect all three.",
+          },
+          {
+            heading: "Uses",
+            body: "Alpha: smoke detectors (americium ionises air), static eliminators. Beta: thickness gauges, tracers in medicine, carbon dating uses C-14 beta decay. Gamma: cancer radiotherapy, sterilising medical equipment, food irradiation.",
+          },
+        ],
+        keyFormulas: [
+          { name: "Alpha", statement: "Helium-4 nucleus (${}^{4}_{2}\\text{He}$); stopped by paper" },
+          { name: "Beta", statement: "Fast electron (${}^{-1}_{0}e$); stopped by thin aluminium" },
+          { name: "Gamma", statement: "EM wave; attenuated by lead" },
+        ],
+        workedExample: {
+          problem: "Which radiation type would you use to sterilise surgical instruments without damaging them?",
+          solution: "Gamma rays — penetrate the instruments and kill microbes, and the instruments are not harmed by the radiation itself.",
+        },
+      },
+      questions: [
+        {
+          id: "mypp5-u3-radio-q1",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which type of radiation is stopped by a sheet of paper?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Alpha" },
+              { id: "b", text: "Beta" },
+              { id: "c", text: "Gamma" },
+              { id: "d", text: "All three equally" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Alpha", statement: "Alpha particles are heavy and charged → stopped by paper/skin." }],
+            steps: [
+              { reasoning: "Alpha has lowest penetration.", working: "\\alpha", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Alpha",
+            commonErrors: ["Confusing ionising power with penetration."],
+            examinerNote: "B1 for (a).",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q2",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What is emitted during beta-minus decay?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A helium nucleus" },
+              { id: "b", text: "A fast electron and antineutrino" },
+              { id: "c", text: "A gamma photon" },
+              { id: "d", text: "A proton" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Beta decay", statement: "Neutron → proton + electron + antineutrino." }],
+            steps: [
+              { reasoning: "Beta-minus emits an electron.", working: "e^{-}", marks: 1, markCode: "M" },
+              { reasoning: "Plus antineutrino to conserve energy/momentum.", working: "\\bar{\\nu}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(b) electron + antineutrino",
+            commonErrors: ["Confusing beta with alpha emission."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q3",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A sample has an activity of 800 Bq. After 10 days the activity is 200 Bq. How many half-lives have passed?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "1" },
+              { id: "b", text: "2" },
+              { id: "c", text: "3" },
+              { id: "d", text: "4" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Half-life", statement: "Each half-life halves activity: 800 → 400 → 200." }],
+            steps: [
+              { reasoning: "800 → 400 (1 half-life) → 200 (2 half-lives).", working: "800\\to400\\to200", marks: 1, markCode: "M" },
+              { reasoning: "Two halvings = 2 half-lives.", working: "n=2", marks: 1, markCode: "M" },
+              { reasoning: "Match choice.", working: "\\text{(b)}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(b) 2 half-lives",
+            commonErrors: ["Dividing 10 days by 2 instead of counting halvings."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q4",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "A hospital physics department is choosing a radioactive source for a new treatment room.",
+          parts: [
+            { label: "a", prompt: "Compare alpha, beta and gamma radiation in terms of penetration and ionising power.", marks: 2 },
+            { label: "b", prompt: "Explain why gamma is used for external beam radiotherapy rather than alpha.", marks: 2 },
+            { label: "c", prompt: "Describe how you would safely handle and store a beta-emitting source.", marks: 2 },
+            { label: "d", prompt: "State one benefit and one risk of using radioisotopes in medicine.", marks: 1 },
+            { label: "e", prompt: "Conclude whether their use is justified and justify your conclusion.", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Radiation types", statement: "Alpha: high ionising, low penetration; beta: medium; gamma: low ionising, high penetration." },
+              { kind: "principle", name: "ALARA", statement: "Radiation use justified when dose is minimised and benefit exceeds risk." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Alpha stopped by paper, most ionising; beta by aluminium, medium; gamma needs lead, least ionising per particle.", working: "\\alpha>\\beta>\\gamma \\text{ ionising}", marks: 2, markCode: "A" },
+              { part: "b", reasoning: "Gamma penetrates tissue to reach deep tumours; alpha would deposit all energy in skin/surface layers.", working: "\\text{gamma reaches tumour}", marks: 2, markCode: "A" },
+              { part: "c", reasoning: "Use tongs/remote handling, store in lead-lined container, wear dosimeter, follow half-life disposal protocols.", working: "\\text{shield+monitor}", marks: 2, markCode: "B" },
+              { part: "d", reasoning: "Benefit e.g. tumour treatment/imaging; risk e.g. radiation damage or cancer from exposure.", working: "\\text{benefit vs risk}", marks: 1, markCode: "D" },
+              { part: "e", reasoning: "Justified when doses are controlled and supervised, since diagnostic/therapeutic benefit exceeds risk.", working: "\\text{justified}", marks: 1, markCode: "D" },
+            ],
+            finalAnswer: "(a) alpha high ionising/low penetration, gamma opposite (b) gamma penetrates to tumour (c) tongs, lead storage, dosimeter (d) treatment vs exposure risk (e) justified with dose control",
+            commonErrors: ["Confusing penetration with ionising power; ignoring safety."],
+            examinerNote: "A2 each for (a),(b); B2 for (c); D1 each for (d),(e).",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is an alpha particle?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A fast electron" },
+              { id: "b", text: "A helium nucleus (2 protons + 2 neutrons)" },
+              { id: "c", text: "An electromagnetic wave" },
+              { id: "d", text: "A neutron" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Alpha", statement: "${}^{4}_{2}\\text{He}$ nucleus; charge +2, mass 4." }],
+            steps: [
+              { reasoning: "Alpha = helium-4 nucleus.", working: "{}^{4}_{2}\\text{He}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** helium nucleus",
+            commonErrors: ["Confusing alpha with beta (electron)."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the mass number of an alpha particle?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 4, unit: "" }],
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Alpha", statement: "Mass number 4 (2p + 2n)." }],
+            steps: [
+              { reasoning: "Alpha contains 2 protons + 2 neutrons → A = 4.", working: "A=4", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "4",
+            commonErrors: ["Confusing mass number with charge (+2)."],
+            examinerNote: "A1 for 4.",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Which type of radiation is the most penetrating?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Alpha" },
+              { id: "b", text: "Beta" },
+              { id: "c", text: "Gamma" },
+              { id: "d", text: "All equal" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "comparison", name: "Penetration", statement: "Gamma > beta > alpha in penetration." }],
+            steps: [
+              { reasoning: "Gamma is EM radiation with no charge/mass → least interaction → most penetrating.", working: "\\gamma \\text{ most penetrating}", marks: 1, markCode: "M" },
+              { reasoning: "Answer (c).", working: "(c)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(c)** gamma",
+            commonErrors: ["Thinking alpha is most penetrating because it's 'heaviest'."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What is the charge of a beta particle?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: -1, unit: "" }],
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Beta", statement: "Fast electron; charge $-1$ (i.e. $-e$)." }],
+            steps: [
+              { reasoning: "Beta is an electron → charge −1 elementary charge.", working: "q=-e", marks: 1, markCode: "M" },
+              { reasoning: "Answer: −1.", working: "-1", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "−1 (elementary charges)",
+            commonErrors: ["Confusing beta with alpha's +2 charge."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q9",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Which material would stop alpha radiation most effectively?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Thick concrete" },
+              { id: "b", text: "A sheet of paper or human skin" },
+              { id: "c", text: "Thin aluminium foil" },
+              { id: "d", text: "Air at any distance" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "comparison", name: "Penetration", statement: "Alpha stopped by paper/skin; beta needs thin metal; gamma needs lead/concrete." }],
+            steps: [
+              { reasoning: "Alpha is large and highly ionising → stopped easily.", working: "\\alpha \\text{ stopped by paper}", marks: 1, markCode: "M" },
+              { reasoning: "Thick concrete/foil are for beta/gamma.", working: "\\text{(b)}", marks: 1, markCode: "M" },
+              { reasoning: "Answer (b).", working: "(b)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** paper or skin",
+            commonErrors: ["Thinking alpha needs lead like gamma."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "The elementary charge is $e = 1.6 \\times 10^{-19}$ C. Calculate the charge of an alpha particle in coulombs.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3.2e-19, tolerance: 1e-21, unit: "C" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Alpha charge", statement: "$q = +2e = 2 \\times 1.6 \\times 10^{-19}$" }],
+            steps: [
+              { reasoning: "$q = 2 \\times 1.6 \\times 10^{-19} = 3.2 \\times 10^{-19}$ C.", working: "2\\times1.6\\times10^{-19}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "3.2\\times10^{-19}\\ \\text{C}", marks: 1, markCode: "M" },
+              { reasoning: "Positive sign (2 protons).", working: "+3.2\\times10^{-19}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$+3.2 \\times 10^{-19}$ C",
+            commonErrors: ["Forgetting the factor of 2 or the positive sign."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which type of radiation is used in smoke detectors?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Gamma" },
+              { id: "b", text: "Beta" },
+              { id: "c", text: "Alpha" },
+              { id: "d", text: "None" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "context", name: "Uses", statement: "Alpha ionises air in smoke detectors; smoke particles reduce ion current." }],
+            steps: [
+              { reasoning: "Americium-241 alpha source ionises air between electrodes.", working: "\\alpha \\text{ source}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(c)** alpha",
+            commonErrors: ["Choosing gamma — it would not create the ionisation current reliably in this design."],
+            examinerNote: "B1 for (c).",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What is the charge of a beta particle in coulombs? ($e = 1.6 \\times 10^{-19}$ C)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: -1.6e-19, tolerance: 1e-21, unit: "C" }],
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Beta", statement: "Charge $= -e = -1.6 \\times 10^{-19}$ C." }],
+            steps: [
+              { reasoning: "$q = -1.6 \\times 10^{-19}$ C.", working: "-1.6\\times10^{-19}", marks: 2, markCode: "A" },
+            ],
+            finalAnswer: "$-1.6 \\times 10^{-19}$ C",
+            commonErrors: ["Forgetting the negative sign."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which radiation type is most used for killing bacteria on medical equipment and for cancer radiotherapy?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Alpha" },
+              { id: "b", text: "Beta" },
+              { id: "c", text: "Gamma" },
+              { id: "d", text: "Visible light" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "context", name: "Gamma uses", statement: "Penetrates equipment/tissue; sterilisation and radiotherapy." }],
+            steps: [
+              { reasoning: "Gamma penetrates to kill microbes inside instruments and target tumours.", working: "\\gamma", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(c)** gamma",
+            commonErrors: ["Choosing alpha — it cannot penetrate equipment."],
+            examinerNote: "B1 for (c).",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q14",
+          difficulty: "core",
+          totalMarks: 7,
+          stem: "A source emits alpha, beta and gamma radiation.",
+          parts: [
+            { label: "a", prompt: "State the charge of each radiation type in units of $e$.", marks: 1 },
+            { label: "b", prompt: "State the mass number of each radiation type.", marks: 1 },
+            { label: "c", prompt: "Rank the three in order of increasing penetration.", marks: 1 },
+            { label: "d", prompt: "Name the material that stops each type most effectively.", marks: 2 },
+            { label: "e", prompt: "Explain why alpha is the most dangerous type if the source is inhaled or ingested.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "comparison", name: "Alpha/beta/gamma", statement: "Charge: α=+2, β=−1, γ=0; mass: α=4, β≈0, γ=0; penetration α<β<γ." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Alpha +2, beta −1, gamma 0.", working: "+2,-1,0", marks: 1, markCode: "B" },
+              { part: "b", reasoning: "Alpha 4, beta ~0 (electron), gamma 0.", working: "4,0,0", marks: 1, markCode: "B" },
+              { part: "c", reasoning: "Alpha < beta < gamma.", working: "\\alpha<\\beta<\\gamma", marks: 1, markCode: "B" },
+              { part: "d", reasoning: "Alpha: paper/skin; beta: thin aluminium; gamma: thick lead/concrete.", working: "\\text{paper/Al/lead}", marks: 2, markCode: "B" },
+              { part: "e", reasoning: "Alpha is highly ionising; inside the body it deposits all energy in nearby cells → severe damage; outside skin it's stopped by dead skin layer.", working: "\\text{high ionisation in tissue}", marks: 2, markCode: "A" },
+            ],
+            finalAnswer: "(a) +2,−1,0 (b) 4,~0,0 (c) α<β<γ (d) paper/Al/lead (e) all energy in cells",
+            commonErrors: ["Reversing penetration order; forgetting alpha's high ionising power."],
+            examinerNote: "B1 each for (a),(b),(c); B2 for (d); A2 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Why is beta radiation used in thickness gauges in manufacturing?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Beta is the cheapest radiation" },
+              { id: "b", text: "Beta penetrates thin sheets partially; the amount transmitted depends on thickness" },
+              { id: "c", text: "Beta is visible to the eye" },
+              { id: "d", text: "Beta does not interact with matter" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "context", name: "Beta uses", statement: "Partial penetration of thin metal → transmission varies with thickness." }],
+            steps: [
+              { reasoning: "Detector measures transmitted fraction → infer thickness.", working: "T=f(\\text{thickness})", marks: 1, markCode: "M" },
+              { reasoning: "Answer (b).", working: "(b)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** partial penetration varies with thickness",
+            commonErrors: ["Choosing gamma — it would pass through regardless of thin-sheet thickness."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-radio-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Radioactive decay emits alpha, beta and gamma radiation. The elementary charge is $e = 1.6 \\times 10^{-19}$ C.",
+          parts: [
+            { label: "a", prompt: "Calculate the charge of an alpha particle in coulombs.", marks: 1 },
+            { label: "b", prompt: "Calculate the charge of a beta particle in coulombs.", marks: 1 },
+            { label: "c", prompt: "State the mass number of an alpha particle.", marks: 1 },
+            { label: "d", prompt: "State how many neutrons an alpha particle contains.", marks: 1 },
+          ],
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3.2e-19, tolerance: 1e-21, unit: "C" },
+              { label: "b", answer: -1.6e-19, tolerance: 1e-21, unit: "C" },
+              { label: "c", answer: 4, unit: "" },
+              { label: "d", answer: 2, unit: "" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Decay particles", statement: "Alpha = He-4 nucleus (+2e, A=4, 2n); beta = electron (−e)." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$q_\\alpha = +2e = 3.2 \\times 10^{-19}$ C.", working: "3.2\\times10^{-19}\\ \\text{C}", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$q_\\beta = -e = -1.6 \\times 10^{-19}$ C.", working: "-1.6\\times10^{-19}\\ \\text{C}", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "A = 4.", working: "4", marks: 1, markCode: "B" },
+              { part: "d", reasoning: "2 protons + 2 neutrons → 2 neutrons.", working: "2", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "(a) $3.2\\times10^{-19}$ C (b) $-1.6\\times10^{-19}$ C (c) 4 (d) 2",
+            commonErrors: ["Sign errors on beta; counting protons as neutrons."],
+            examinerNote: "A1 for (a),(b); B1 for (c),(d).",
+          },
+        },
+      ],
+    },
+  ],
+};

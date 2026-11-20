@@ -1,0 +1,78 @@
+        {
+          id: "aihl-u1-eigenvalues-q5",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "The eigenvalues of $A=\\begin{pmatrix} 3 & 0 \\\\ 0 & -2 \\end{pmatrix}$ are:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$3$ and $-2$" },
+              { id: "b", text: "$1$ and $-5$" },
+              { id: "c", text: "$5$ and $6$" },
+              { id: "d", text: "$-3$ and $2$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Characteristic equation", statement: "$\\det(A-\\lambda I)=0$" }],
+            steps: [
+              { reasoning: "For a diagonal matrix the characteristic equation is $(3-\\lambda)(-2-\\lambda)=0$.", working: "(3-\\lambda)(-2-\\lambda)=0", marks: 1, markCode: "M" },
+              { reasoning: "The eigenvalues are the diagonal entries.", working: "\\lambda=3,\\,-2", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $3$ and $-2$",
+            commonErrors: ["Using the trace $1$ and determinant $-6$ as the eigenvalues."],
+          },
+        },
+        {
+          id: "aihl-u1-eigenvalues-q6",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "The eigenvalues of $A=\\begin{pmatrix} 2 & 1 \\\\ 1 & 2 \\end{pmatrix}$ are:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$1$ and $3$" },
+              { id: "b", text: "$2$ and $2$" },
+              { id: "c", text: "$-1$ and $-3$" },
+              { id: "d", text: "$4$ and $3$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "$2\\times2$ shortcut", statement: "$\\lambda^2-(\\text{trace})\\lambda+\\det A=0$" }],
+            steps: [
+              { reasoning: "Trace is 4 and determinant is $4-1=3$.", working: "\\lambda^2-4\\lambda+3=0", marks: 1, markCode: "M" },
+              { reasoning: "Factorise: $(\\lambda-1)(\\lambda-3)=0$.", working: "\\lambda=1,\\,3", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $1$ and $3$",
+            commonErrors: ["Computing the determinant as $4+1=5$."],
+          },
+        },
+        {
+          id: "aihl-u1-eigenvalues-q7",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "An eigenvector of $A=\\begin{pmatrix} 1 & 2 \\\\ 2 & 1 \\end{pmatrix}$ corresponding to the eigenvalue $3$ is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Eigenvector", statement: "$A\\boldsymbol v=\\lambda\\boldsymbol v$" }],
+            steps: [
+              { reasoning: "Check each candidate: $\\begin{pmatrix}1&2\\\\2&1\\end{pmatrix}\\begin{pmatrix}1\\\\1\\end{pmatrix}=\\begin{pmatrix}3\\\\3\\end{pmatrix}=3\\begin{pmatrix}1\\\\1\\end{pmatrix}$.", working: "A\\begin{pmatrix}1\\\\1\\end{pmatrix}=3\\begin{pmatrix}1\\\\1\\end{pmatrix}", marks: 1, markCode: "M" },
+              { reasoning: "The other candidates fail the eigenvector equation.", working: "\\text{only (a) works}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$",
+            commonErrors: ["Picking the eigenvector for $\\lambda=-1$, which is $\\begin{pmatrix}1\\\\-1\\end{pmatrix}$."],
+          },
+        },

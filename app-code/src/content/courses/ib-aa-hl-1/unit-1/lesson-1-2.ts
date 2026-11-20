@@ -1,0 +1,766 @@
+import type { Lesson } from "../../../types.ts";
+
+export const lesson12: Lesson = {
+  id: "aahl-u1-lesson-1-2",
+  code: "1-2",
+  title: "Complex Numbers",
+  goal: "I CAN calculate with complex numbers in Cartesian, modulus-argument and Euler forms and use conjugate pairs to find roots of polynomials.",
+  standards: ["AHL 1.12", "AHL 1.13", "AHL 1.14"],
+  vocabulary: [
+    { term: "Imaginary unit", definition: "The number $i$ satisfying $i^2=-1$." },
+    { term: "Complex conjugate", definition: "For $z=a+bi$, the conjugate is $z^*=a-bi$. Then $zz^*=a^2+b^2$ is real." },
+    { term: "Modulus", definition: "$|z|=\\sqrt{a^2+b^2}$, the distance from the origin to $z$ on the Argand diagram." },
+    { term: "Argument", definition: "The angle $\\arg z=\\theta$ measured anticlockwise from the positive real axis; the principal value satisfies $-\\pi<\\theta\\le\\pi$." },
+    { term: "Euler form", definition: "$z=re^{i\\theta}$, equivalent to $r(\\cos\\theta+i\\sin\\theta)=r\\,\\mathrm{cis}\\,\\theta$." },
+    { term: "Conjugate root theorem", definition: "If a polynomial has real coefficients and $z$ is a root, then $z^*$ is also a root." },
+  ],
+  concepts: [
+    {
+      id: "aahl-u1-cartesian-complex",
+      title: "Cartesian form, conjugates and polynomial roots",
+      skill: "Add, multiply and divide complex numbers in Cartesian form and use conjugate pairs to factor real polynomials.",
+      lesson: {
+        sections: [
+          {
+            heading: "Arithmetic in Cartesian form",
+            body: "Write $z=a+bi$ with $a,b$ real. Add and subtract real and imaginary parts separately. Multiply by expanding and replacing $i^2$ by $-1$. To divide, multiply numerator and denominator by the conjugate of the denominator, so the new denominator is the real number $c^2+d^2$.",
+          },
+          {
+            heading: "Conjugates and real polynomials",
+            body: "If $p(z)$ has real coefficients and $p(\\alpha)=0$, then $p(\\alpha^*)=0$. So non-real roots come in pairs, and each pair gives a real quadratic factor $z^2-2\\,\\mathrm{Re}(\\alpha)\\,z+|\\alpha|^2$. A real polynomial of odd degree therefore has at least one real root.",
+          },
+        ],
+        keyFormulas: [
+          { name: "Division", statement: "$\\frac{a+bi}{c+di}=\\frac{(a+bi)(c-di)}{c^2+d^2}$" },
+          { name: "Quadratic factor from a conjugate pair", statement: "$(z-\\alpha)(z-\\alpha^*)=z^2-2\\,\\mathrm{Re}(\\alpha)z+|\\alpha|^2$" },
+        ],
+        workedExample: {
+          problem: "Find $\\frac{2+i}{1-i}$ in the form $a+bi$.",
+          solution: "Multiply by $\\frac{1+i}{1+i}$: $\\frac{(2+i)(1+i)}{2}=\\frac{2+2i+i+i^2}{2}=\\frac{1+3i}{2}$. So $a=\\frac12$, $b=\\frac32$.",
+        },
+      },
+      questions: [
+        {
+          id: "aahl-u1-cartesian-q1",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Given $z=2+3i$ and $w=1-i$, which expression equals $zw$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$5+i$" },
+              { id: "b", text: "$-1+5i$" },
+              { id: "c", text: "$2-3i$" },
+              { id: "d", text: "$-1+i$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Imaginary unit", statement: "$i^2=-1$." },
+            ],
+            steps: [
+              { reasoning: "Expand the product.", working: "(2+3i)(1-i)=2-2i+3i-3i^2", marks: 1, markCode: "M" },
+              { reasoning: "Replace $i^2$ by $-1$ and collect terms.", working: "2+i+3=5+i", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $5+i$",
+            commonErrors: ["Treating $-3i^2$ as $-3$ instead of $+3$ (giving $-1+i$)."],
+          },
+        },
+        {
+          id: "aahl-u1-cartesian-q2",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 3,
+          stem: "Write $\\frac{3+4i}{1-2i}$ in the form $a+bi$, where $a,b\\in\\mathbb{R}$.",
+          response: { type: "numeric", parts: [{ label: "$a$", answer: -1 }, { label: "$b$", answer: 2 }] },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Conjugate product", statement: "$(c+di)(c-di)=c^2+d^2$, which is real." },
+            ],
+            steps: [
+              { reasoning: "Multiply numerator and denominator by the conjugate of the denominator.", working: "\\frac{(3+4i)(1+2i)}{(1-2i)(1+2i)}", marks: 1, markCode: "M" },
+              { reasoning: "Expand: numerator $3+6i+4i+8i^2=-5+10i$; denominator $1+4=5$.", working: "\\frac{-5+10i}{5}", marks: 1, markCode: "A" },
+              { reasoning: "Divide through.", working: "-1+2i", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$-1+2i$, so $a=-1$, $b=2$",
+            commonErrors: ["Multiplying by $1-2i$ instead of its conjugate.", "Using denominator $1-4=-3$."],
+          },
+        },
+        {
+          id: "aahl-u1-cartesian-q3",
+          difficulty: "challenge",
+          paper: "1",
+          totalMarks: 4,
+          stem: "The cubic equation $z^3+az^2+bz-10=0$, where $a,b\\in\\mathbb{R}$, has a root $1+2i$. Find the values of $a$ and $b$.",
+          response: { type: "numeric", parts: [{ label: "$a$", answer: -4 }, { label: "$b$", answer: 9 }] },
+          markscheme: {
+            principles: [
+              { kind: "theorem", name: "Conjugate root theorem", statement: "A polynomial with real coefficients has non-real roots in conjugate pairs." },
+            ],
+            steps: [
+              { reasoning: "$1-2i$ is also a root, so $(z-(1+2i))(z-(1-2i))$ is a real quadratic factor.", working: "z^2-2z+5", marks: 1, markCode: "M" },
+              { reasoning: "The cubic is this quadratic times a linear factor $(z+c)$; compare constant terms.", working: "(z^2-2z+5)(z+c),\\quad 5c=-10\\Rightarrow c=-2", marks: 1, markCode: "M" },
+              { reasoning: "Expand $(z^2-2z+5)(z-2)$.", working: "z^3-4z^2+9z-10", marks: 1, markCode: "A" },
+              { reasoning: "Read off the coefficients.", working: "a=-4,\\quad b=9", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$a=-4$, $b=9$ (the other roots are $1-2i$ and $2$)",
+            commonErrors: ["Forgetting that $1-2i$ must also be a root.", "Substituting $z=1+2i$ directly and failing to separate real and imaginary parts."],
+          },
+        },
+        {
+          id: "aahl-u1-cartesian-q4",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 10,
+          stem: "Consider the polynomial $p(z)=z^4-4z^3+11z^2-14z+10$, where $z\\in\\mathbb{C}$.",
+          parts: [
+            { label: "a", prompt: "Show that $1+i$ is a root of $p(z)=0$.", marks: 3 },
+            { label: "b", prompt: "Write down another root of $p(z)=0$, and hence find a quadratic factor of $p(z)$ with real coefficients.", marks: 2 },
+            { label: "c", prompt: "Hence find the two remaining roots of $p(z)=0$.", marks: 3 },
+            { label: "d", prompt: "Find the sum of the squares of the moduli of the four roots.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "theorem", name: "Conjugate root theorem", statement: "Non-real roots of a real polynomial occur in conjugate pairs." },
+              { kind: "definition", name: "Modulus", statement: "$|a+bi|^2=a^2+b^2$." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Compute the powers of $1+i$.", working: "(1+i)^2=2i,\\quad (1+i)^3=-2+2i,\\quad (1+i)^4=-4", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Substitute into $p$.", working: "-4-4(-2+2i)+11(2i)-14(1+i)+10", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Collect real and imaginary parts: real $-4+8-14+10=0$, imaginary $-8+22-14=0$.", working: "0+0i=0\\quad\\text{(AG)}", marks: 1, markCode: "R" },
+              { part: "b", reasoning: "Real coefficients, so the conjugate is also a root.", working: "1-i", marks: 1, markCode: "B" },
+              { part: "b", reasoning: "Form the quadratic factor from the conjugate pair.", working: "(z-1-i)(z-1+i)=z^2-2z+2", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Divide $p(z)$ by $z^2-2z+2$ to find the other quadratic factor $z^2+pz+5$.", working: "p(z)=(z^2-2z+2)(z^2-2z+5)", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Solve $z^2-2z+5=0$.", working: "z=\\frac{2\\pm\\sqrt{4-20}}{2}=1\\pm2i", marks: 2, markCode: "A" },
+              { part: "d", reasoning: "Use $|a+bi|^2=a^2+b^2$ for each root.", working: "2+2+5+5", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Add.", working: "14", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) shown (b) $1-i$; $z^2-2z+2$ (c) $1+2i$, $1-2i$ (d) $14$",
+            commonErrors: ["Writing $(1+i)^3=2+2i$.", "Taking the modulus squared of a root as $a^2-b^2$."],
+            examinerNote: "Check of the factorization: $(z^2-2z+2)(z^2-2z+5)$ with $w=z^2-2z$ gives $w^2+7w+10=z^4-4z^3+11z^2-14z+10$.",
+          },
+        },
+        {
+          id: "aahl-u1-cartesian-q5",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Given $z=3-i$ and $w=2+4i$, which expression equals $z+w$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$5+3i$" },
+              { id: "b", text: "$1+5i$" },
+              { id: "c", text: "$6-4i$" },
+              { id: "d", text: "$-1-5i$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Addition of complex numbers", statement: "Add real parts and imaginary parts separately." },
+            ],
+            steps: [
+              { reasoning: "Add the real parts and the imaginary parts.", working: "(3+2)+(-1+4)i", marks: 1, markCode: "M" },
+              { reasoning: "Simplify.", working: "5+3i", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $5+3i$",
+            commonErrors: ["Adding $-i$ and $4i$ as $-4i$.", "Adding real and imaginary parts together."],
+          },
+        },
+        {
+          id: "aahl-u1-cartesian-q6",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 3,
+          stem: "Evaluate $(1+2i)(3-i)$, giving your answer in the form $a+bi$.",
+          response: { type: "numeric", parts: [{ label: "$a$", answer: 5 }, { label: "$b$", answer: 5 }] },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Imaginary unit", statement: "$i^2=-1$." },
+            ],
+            steps: [
+              { reasoning: "Expand the product.", working: "(1+2i)(3-i)=3-i+6i-2i^2", marks: 1, markCode: "M" },
+              { reasoning: "Replace $i^2$ by $-1$.", working: "3-i+6i+2", marks: 1, markCode: "M" },
+              { reasoning: "Collect like terms.", working: "5+5i", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$5+5i$, so $a=5$, $b=5$",
+            commonErrors: ["Treating $-2i^2$ as $-2$ instead of $+2$.", "Writing $5i$ instead of $5+5i$."],
+          },
+        },
+        {
+          id: "aahl-u1-cartesian-q7",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Which expression equals $\\frac{4+2i}{1+i}$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$3-i$" },
+              { id: "b", text: "$1+3i$" },
+              { id: "c", text: "$2-i$" },
+              { id: "d", text: "$3+i$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Conjugate product", statement: "$(c+di)(c-di)=c^2+d^2$, which is real." },
+            ],
+            steps: [
+              { reasoning: "Multiply numerator and denominator by $1-i$: numerator $(4+2i)(1-i)=4-4i+2i-2i^2=6-2i$; denominator $2$.", working: "\\frac{6-2i}{2}", marks: 1, markCode: "M" },
+              { reasoning: "Divide.", working: "3-i", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $3-i$",
+            commonErrors: ["Multiplying by $1+i$ instead of the conjugate $1-i$.", "Using denominator $1-1=0$ or $1+1=1$."],
+          },
+        },
+        {
+          id: "aahl-u1-cartesian-q8",
+          difficulty: "challenge",
+          paper: "1",
+          totalMarks: 4,
+          stem: "The quadratic equation $z^2+bz+c=0$, where $b,c\\in\\mathbb{R}$, has $2-i$ as a root. Find the values of $b$ and $c$.",
+          response: { type: "numeric", parts: [{ label: "$b$", answer: -4 }, { label: "$c$", answer: 5 }] },
+          markscheme: {
+            principles: [
+              { kind: "theorem", name: "Conjugate root theorem", statement: "A polynomial with real coefficients has non-real roots in conjugate pairs." },
+              { kind: "property", name: "Sum and product of roots", statement: "For $z^2+bz+c$, the sum of roots is $-b$ and the product is $c$." },
+            ],
+            steps: [
+              { reasoning: "Real coefficients, so $2+i$ is also a root.", working: "2+i", marks: 1, markCode: "M" },
+              { reasoning: "Form the quadratic factor from the conjugate pair: sum $4$, product $|2-i|^2=5$.", working: "z^2-4z+5", marks: 1, markCode: "M" },
+              { reasoning: "Compare with $z^2+bz+c$.", working: "b=-4,\\ c=5", marks: 1, markCode: "A" },
+              { reasoning: "State both values.", working: "b=-4,\\quad c=5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$b=-4$, $c=5$ (the equation is $z^2-4z+5=0$)",
+            commonErrors: ["Using sum $=b$ instead of $-b$.", "Computing the product as $4+1=5$ correctly but pairing it with the wrong sign."],
+          },
+        },
+        {
+          id: "aahl-u1-cartesian-q9",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 8,
+          stem: "Consider the polynomial $p(z)=z^3-5z^2+8z-6$, where $z\\in\\mathbb{C}$.",
+          parts: [
+            { label: "a", prompt: "Show that $1+i$ is a root of $p(z)=0$.", marks: 3 },
+            { label: "b", prompt: "Write down another root of $p(z)=0$, and hence find a quadratic factor of $p(z)$ with real coefficients.", marks: 2 },
+            { label: "c", prompt: "Hence find the remaining root of $p(z)=0$.", marks: 1 },
+            { label: "d", prompt: "Find the sum of the squares of the moduli of the three roots.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "theorem", name: "Conjugate root theorem", statement: "Non-real roots of a real polynomial occur in conjugate pairs." },
+              { kind: "definition", name: "Modulus", statement: "$|a+bi|^2=a^2+b^2$." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Compute the powers of $1+i$.", working: "(1+i)^2=2i,\\quad (1+i)^3=-2+2i", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Substitute into $p$.", working: "(-2+2i)-5(2i)+8(1+i)-6", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Real part $-2-10+8-6=-10+10=0$ wait — collect properly: real $-2+8-6=0$, imaginary $2-10+8=0$.", working: "0+0i=0\\quad\\text{(AG)}", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Real coefficients, so the conjugate is also a root.", working: "1-i", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Form the quadratic factor from the conjugate pair.", working: "(z-1-i)(z-1+i)=z^2-2z+2", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Divide $p(z)$ by $z^2-2z+2$ to get the linear factor $z-3$.", working: "p(z)=(z^2-2z+2)(z-3)", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Use $|a+bi|^2=a^2+b^2$ for each root.", working: "2+2+9", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Add.", working: "13", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) shown (b) $1-i$; $z^2-2z+2$ (c) $3$ (d) $13$",
+            commonErrors: ["Writing $(1+i)^3=2+2i$.", "Taking the modulus squared of $3$ as $9$ but forgetting it counts once."],
+            examinerNote: "Check the factorization: $(z^2-2z+2)(z-3)=z^3-5z^2+8z-6$.",
+          },
+        },
+        {
+          id: "aahl-u1-cartesian-q10",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 3,
+          stem: "Let $z=1+2i$. Find $|z|^2$ and $\\mathrm{Re}(z^2)$.",
+          response: { type: "numeric", parts: [{ label: "$|z|^2$", answer: 5 }, { label: "$\\mathrm{Re}(z^2)$", answer: -3 }] },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Modulus squared", statement: "$|a+bi|^2=a^2+b^2$." },
+              { kind: "property", name: "Imaginary unit", statement: "$i^2=-1$." },
+            ],
+            steps: [
+              { reasoning: "Compute $|z|^2$ from the real and imaginary parts.", working: "1^2+2^2", marks: 1, markCode: "M" },
+              { reasoning: "Square $z$: $z^2=(1+2i)^2=1+4i+4i^2$.", working: "1+4i-4=-3+4i", marks: 1, markCode: "M" },
+              { reasoning: "Read off the two answers.", working: "|z|^2=5,\\quad \\mathrm{Re}(z^2)=-3", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$|z|^2=5$, $\\mathrm{Re}(z^2)=-3$",
+            commonErrors: ["Computing $z^2$ as $1+4i^2=1-4=-3$ and forgetting the $4i$ term.", "Taking $|z|^2$ as $|z|=\\sqrt5$ without squaring."],
+          },
+        },
+        {
+          id: "aahl-u1-cartesian-q11",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Which expression equals $(2+i)^2$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$3+4i$" },
+              { id: "b", text: "$5+4i$" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$1+4i$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Imaginary unit", statement: "$i^2=-1$." },
+            ],
+            steps: [
+              { reasoning: "Expand the square.", working: "(2+i)^2=4+4i+i^2", marks: 1, markCode: "M" },
+              { reasoning: "Replace $i^2$ by $-1$ and collect terms.", working: "4+4i-1=3+4i", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $3+4i$",
+            commonErrors: ["Writing $(2+i)^2=4+i^2=3$, forgetting the cross term.", "Keeping $i^2=1$, giving $5+4i$."],
+          },
+        },
+        {
+          id: "aahl-u1-cartesian-q12",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Which expression equals $\\frac{3-2i}{2+i}$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{4-7i}{5}$" },
+              { id: "b", text: "$\\frac{8-i}{5}$" },
+              { id: "c", text: "$\\frac{4+7i}{5}$" },
+              { id: "d", text: "$\\frac{2-i}{5}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Conjugate product", statement: "Multiply numerator and denominator by the conjugate of the denominator." },
+            ],
+            steps: [
+              { reasoning: "Multiply by $\\frac{2-i}{2-i}$: numerator $(3-2i)(2-i)=6-3i-4i+2i^2=4-7i$; denominator $4+1=5$.", working: "\\frac{4-7i}{5}", marks: 1, markCode: "M" },
+              { reasoning: "State the quotient.", working: "\\frac{4-7i}{5}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $\\frac{4-7i}{5}$",
+            commonErrors: ["Multiplying by $2+i$ instead of the conjugate $2-i$, giving $\\frac{8-i}{5}$.", "Using denominator $4-1=3$."],
+          },
+        },
+        {
+          id: "aahl-u1-cartesian-q13",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 6,
+          stem: "Consider the polynomial $p(z)=z^3+z^2+9z+9$, where $z\\in\\mathbb{C}$.",
+          parts: [
+            { label: "a", prompt: "Factorize $p(z)$ by grouping.", marks: 2 },
+            { label: "b", prompt: "Solve the quadratic factor.", marks: 2 },
+            { label: "c", prompt: "Write down all three roots of $p(z)=0$.", marks: 1 },
+            { label: "d", prompt: "Verify that the sum of the roots equals $-1$, the negative of the coefficient of $z^2$.", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Grouping", statement: "$z^3+z^2+9z+9=z^2(z+1)+9(z+1)=(z+1)(z^2+9)$." },
+              { kind: "property", name: "Sum of roots", statement: "For a monic cubic $z^3+az^2+\\cdots$, the sum of the roots is $-a$." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Group the first two and last two terms.", working: "z^2(z+1)+9(z+1)", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Factor out $(z+1)$.", working: "(z+1)(z^2+9)", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Solve $z^2+9=0$, so $z^2=-9$.", working: "z=\\pm3i", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State both roots.", working: "z=3i\\ \\text{and}\\ z=-3i", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Combine the root of the linear factor with the two imaginary roots.", working: "-1,\\ 3i,\\ -3i", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Add the roots: $-1+3i-3i=-1$, matching $-$ (coefficient of $z^2$).", working: "-1+3i-3i=-1", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $(z+1)(z^2+9)$ (b) $\\pm3i$ (c) $-1$, $3i$, $-3i$ (d) sum $=-1$ as required",
+            commonErrors: ["Writing $z^2=-9$ implies $z=\\pm9i$ instead of $\\pm3i$.", "Forgetting the root $-1$ from the linear factor."],
+          },
+        },
+      ],
+    },
+    {
+      id: "aahl-u1-modarg-euler",
+      title: "Modulus-argument and Euler forms",
+      skill: "Convert between Cartesian, modulus-argument and Euler forms and use them to multiply and divide on the Argand diagram.",
+      lesson: {
+        sections: [
+          {
+            heading: "Polar descriptions",
+            body: "A non-zero complex number $z=a+bi$ has modulus $r=\\sqrt{a^2+b^2}$ and argument $\\theta$ with $\\cos\\theta=\\frac ar$, $\\sin\\theta=\\frac br$. Choose the quadrant from the signs of $a$ and $b$. Then $z=r(\\cos\\theta+i\\sin\\theta)=re^{i\\theta}$.",
+          },
+          {
+            heading: "Multiplication and division",
+            body: "In Euler form the laws of indices do the work: $r_1e^{i\\theta_1}\\cdot r_2e^{i\\theta_2}=r_1r_2e^{i(\\theta_1+\\theta_2)}$ and $\\frac{r_1e^{i\\theta_1}}{r_2e^{i\\theta_2}}=\\frac{r_1}{r_2}e^{i(\\theta_1-\\theta_2)}$. Multiplying by $z$ scales by $|z|$ and rotates by $\\arg z$. The conjugate satisfies $\\arg z^*=-\\arg z$.",
+          },
+        ],
+        keyFormulas: [
+          { name: "Euler form", statement: "$re^{i\\theta}=r(\\cos\\theta+i\\sin\\theta)$" },
+          { name: "Products and quotients", statement: "$|z_1z_2|=|z_1||z_2|,\\ \\arg(z_1z_2)=\\arg z_1+\\arg z_2$" },
+          { name: "Half-angle sum", statement: "$e^{i\\alpha}+e^{-i\\alpha}=2\\cos\\alpha$" },
+        ],
+        workedExample: {
+          problem: "Write $-1+i$ in the form $re^{i\\theta}$ with $-\\pi<\\theta\\le\\pi$.",
+          solution: "$r=\\sqrt{(-1)^2+1^2}=\\sqrt2$. The point lies in the second quadrant with reference angle $\\frac\\pi4$, so $\\theta=\\pi-\\frac\\pi4=\\frac{3\\pi}{4}$. Hence $-1+i=\\sqrt2\\,e^{i3\\pi/4}$.",
+        },
+      },
+      questions: [
+        {
+          id: "aahl-u1-euler-q1",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Which is the Euler form of $\\sqrt3+i$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$2e^{i\\pi/6}$" },
+              { id: "b", text: "$2e^{i\\pi/3}$" },
+              { id: "c", text: "$4e^{i\\pi/6}$" },
+              { id: "d", text: "$\\sqrt2\\,e^{i\\pi/6}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Modulus and argument", statement: "$r=\\sqrt{a^2+b^2}$ and $\\tan\\theta=\\frac ba$ (first quadrant)." },
+            ],
+            steps: [
+              { reasoning: "Find the modulus.", working: "r=\\sqrt{3+1}=2", marks: 1, markCode: "M" },
+              { reasoning: "Find the argument: $\\tan\\theta=\\frac1{\\sqrt3}$ in the first quadrant.", working: "\\theta=\\frac\\pi6", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $2e^{i\\pi/6}$",
+            commonErrors: ["Using $\\tan\\theta=\\sqrt3$, giving $\\frac\\pi3$.", "Using $r=a^2+b^2=4$."],
+          },
+        },
+        {
+          id: "aahl-u1-euler-q2",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 3,
+          stem: "Let $z_1=6e^{i5\\pi/6}$ and $z_2=2e^{i\\pi/3}$. Find $\\frac{z_1}{z_2}$ in the form $a+bi$.",
+          response: { type: "numeric", parts: [{ label: "$a$", answer: 0 }, { label: "$b$", answer: 3 }] },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Division in Euler form", statement: "$\\frac{r_1e^{i\\theta_1}}{r_2e^{i\\theta_2}}=\\frac{r_1}{r_2}e^{i(\\theta_1-\\theta_2)}$." },
+            ],
+            steps: [
+              { reasoning: "Divide moduli and subtract arguments.", working: "\\frac62e^{i(5\\pi/6-\\pi/3)}", marks: 1, markCode: "M" },
+              { reasoning: "Simplify the angle: $\\frac{5\\pi}{6}-\\frac{2\\pi}{6}=\\frac{\\pi}{2}$.", working: "3e^{i\\pi/2}", marks: 1, markCode: "A" },
+              { reasoning: "Convert to Cartesian form with $\\cos\\frac\\pi2=0$, $\\sin\\frac\\pi2=1$.", working: "3i", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$3i$, so $a=0$, $b=3$",
+            commonErrors: ["Adding the arguments instead of subtracting.", "Dividing the arguments."],
+          },
+        },
+        {
+          id: "aahl-u1-euler-q3",
+          difficulty: "challenge",
+          paper: "1",
+          totalMarks: 4,
+          stem: "Let $z=\\frac{1+\\sqrt3\\,i}{1-i}$. Find $|z|$ and $\\arg z$ (principal value). Enter both as decimals, correct to 3 decimal places.",
+          response: { type: "numeric", parts: [{ label: "$|z|$", answer: 1.414, tolerance: 0.005 }, { label: "$\\arg z$ (radians)", answer: 1.833, tolerance: 0.005 }] },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Modulus and argument of a quotient", statement: "$\\left|\\frac{z_1}{z_2}\\right|=\\frac{|z_1|}{|z_2|}$ and $\\arg\\frac{z_1}{z_2}=\\arg z_1-\\arg z_2$." },
+            ],
+            steps: [
+              { reasoning: "Write numerator in polar form: $|1+\\sqrt3 i|=2$, argument $\\frac\\pi3$.", working: "1+\\sqrt3i=2e^{i\\pi/3}", marks: 1, markCode: "A" },
+              { reasoning: "Write denominator in polar form: $|1-i|=\\sqrt2$, argument $-\\frac\\pi4$.", working: "1-i=\\sqrt2\\,e^{-i\\pi/4}", marks: 1, markCode: "A" },
+              { reasoning: "Divide moduli.", working: "|z|=\\frac{2}{\\sqrt2}=\\sqrt2", marks: 1, markCode: "M" },
+              { reasoning: "Subtract arguments.", working: "\\arg z=\\frac\\pi3+\\frac\\pi4=\\frac{7\\pi}{12}\\approx1.833", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$|z|=\\sqrt2\\approx1.414$, $\\arg z=\\frac{7\\pi}{12}\\approx1.833$",
+            commonErrors: ["Subtracting in the wrong order, giving $-\\frac{\\pi}{12}$.", "Using $\\arg(1-i)=\\frac{\\pi}{4}$."],
+            examinerNote: "In the exam, leave the answer as exact values $\\sqrt2$ and $\\frac{7\\pi}{12}$.",
+          },
+        },
+        {
+          id: "aahl-u1-euler-q4",
+          difficulty: "challenge",
+          paper: "3",
+          totalMarks: 12,
+          stem: "In this question you investigate the complex number $w=1+e^{i\\theta}$, where $-\\pi<\\theta<\\pi$, and generalize the results.",
+          parts: [
+            { label: "a", prompt: "For $\\theta=\\frac\\pi2$, write $w$ in the form $re^{i\\phi}$, where $r>0$ and $-\\pi<\\phi\\le\\pi$.", marks: 2 },
+            { label: "b", prompt: "For $\\theta=\\frac{2\\pi}3$, find the modulus and argument of $w$.", marks: 3 },
+            { label: "c", prompt: "Show that, for general $\\theta$, $w=2\\cos\\left(\\frac\\theta2\\right)e^{i\\theta/2}$.", marks: 3 },
+            { label: "d", prompt: "Hence state $|w|$ and $\\arg w$ in terms of $\\theta$, justifying why the factor $2\\cos\\frac\\theta2$ may be used as the modulus.", marks: 2 },
+            { label: "e", prompt: "Hence find an expression for $\\mathrm{Re}\\left(1+e^{i\\theta}\\right)^n$, $n\\in\\mathbb{Z}^+$, in terms of $n$ and $\\theta$.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Euler form", statement: "$e^{i\\theta}=\\cos\\theta+i\\sin\\theta$." },
+              { kind: "law", name: "Powers in Euler form", statement: "$(re^{i\\phi})^n=r^ne^{in\\phi}$." },
+              { kind: "property", name: "Cosine from exponentials", statement: "$e^{i\\alpha}+e^{-i\\alpha}=2\\cos\\alpha$." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$e^{i\\pi/2}=i$, so $w=1+i$ with $r=\\sqrt2$ and argument $\\frac\\pi4$.", working: "w=1+i=\\sqrt2\\,e^{i\\pi/4}", marks: 2, markCode: "A" },
+              { part: "b", reasoning: "Evaluate $e^{2i\\pi/3}=-\\frac12+\\frac{\\sqrt3}2i$ and add 1.", working: "w=\\tfrac12+\\tfrac{\\sqrt3}{2}i", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Modulus.", working: "|w|=\\sqrt{\\tfrac14+\\tfrac34}=1", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Argument: $\\tan\\phi=\\sqrt3$ in the first quadrant.", working: "\\arg w=\\frac\\pi3", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Factor out $e^{i\\theta/2}$ from both terms.", working: "1+e^{i\\theta}=e^{i\\theta/2}\\left(e^{-i\\theta/2}+e^{i\\theta/2}\\right)", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Use $e^{i\\alpha}+e^{-i\\alpha}=2\\cos\\alpha$ with $\\alpha=\\frac\\theta2$.", working: "e^{i\\theta/2}\\cdot2\\cos\\tfrac\\theta2", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State the result.", working: "w=2\\cos\\left(\\tfrac\\theta2\\right)e^{i\\theta/2}\\quad\\text{(AG)}", marks: 1, markCode: "R" },
+              { part: "d", reasoning: "For $-\\pi<\\theta<\\pi$, $\\frac\\theta2\\in\\left(-\\frac\\pi2,\\frac\\pi2\\right)$ so $\\cos\\frac\\theta2>0$, making it a valid modulus.", working: "|w|=2\\cos\\tfrac\\theta2", marks: 1, markCode: "R" },
+              { part: "d", reasoning: "The remaining factor gives the argument.", working: "\\arg w=\\tfrac\\theta2", marks: 1, markCode: "A" },
+              { part: "e", reasoning: "Raise to the power $n$ using the law for powers.", working: "w^n=2^n\\cos^n\\left(\\tfrac\\theta2\\right)e^{in\\theta/2}", marks: 1, markCode: "M" },
+              { part: "e", reasoning: "Take the real part.", working: "\\mathrm{Re}(w^n)=2^n\\cos^n\\left(\\tfrac\\theta2\\right)\\cos\\left(\\tfrac{n\\theta}2\\right)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $\\sqrt2e^{i\\pi/4}$ (b) $|w|=1$, $\\arg w=\\frac\\pi3$ (c) shown (d) $|w|=2\\cos\\frac\\theta2$, $\\arg w=\\frac\\theta2$ (e) $2^n\\cos^n\\frac\\theta2\\cos\\frac{n\\theta}2$",
+            commonErrors: ["Stating $|w|=2\\cos\\theta$ instead of $2\\cos\\frac\\theta2$.", "Forgetting to justify that $\\cos\\frac\\theta2>0$ so the modulus is positive."],
+            examinerNote: "Consistency check: $\\theta=\\frac{2\\pi}3$ gives $2\\cos\\frac\\pi3=1$ and argument $\\frac\\pi3$, matching part (b).",
+          },
+        },
+        {
+          id: "aahl-u1-euler-q5",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "The principal value of $\\arg(-1-i)$ is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$-\\frac{\\pi}{4}$" },
+              { id: "b", text: "$-\\frac{3\\pi}{4}$" },
+              { id: "c", text: "$\\frac{3\\pi}{4}$" },
+              { id: "d", text: "$\\frac{5\\pi}{4}$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Argument", statement: "The argument is the angle from the positive real axis; the principal value lies in $(-\\pi,\\pi]$." },
+            ],
+            steps: [
+              { reasoning: "$-1-i$ is in the third quadrant with reference angle $\\frac\\pi4$ below the negative real axis.", working: "\\theta=-\\pi+\\frac\\pi4", marks: 1, markCode: "M" },
+              { reasoning: "Simplify.", working: "-\\frac{3\\pi}{4}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** $-\\frac{3\\pi}{4}$",
+            commonErrors: ["Choosing $\\frac{5\\pi}{4}$, which is equivalent but outside the principal range.", "Choosing $\\frac{3\\pi}{4}$, which is the argument of $-1+i$."],
+          },
+        },
+        {
+          id: "aahl-u1-euler-q6",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "The modulus of $z=1-i$ is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\sqrt2$" },
+              { id: "b", text: "$2$" },
+              { id: "c", text: "$1$" },
+              { id: "d", text: "$\\sqrt5$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Modulus", statement: "$|a+bi|=\\sqrt{a^2+b^2}$." },
+            ],
+            steps: [
+              { reasoning: "Compute $\\sqrt{1^2+(-1)^2}$.", working: "\\sqrt{1+1}", marks: 1, markCode: "M" },
+              { reasoning: "Simplify.", working: "\\sqrt2", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $\\sqrt2$",
+            commonErrors: ["Computing $1^2+(-1)^2=2$ and reporting $2$ instead of $\\sqrt2$.", "Using $a^2-b^2=0$."],
+          },
+        },
+        {
+          id: "aahl-u1-euler-q7",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Which expression equals $(2e^{i\\pi/3})(3e^{i\\pi/6})$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$6i$" },
+              { id: "b", text: "$6e^{i\\pi}$" },
+              { id: "c", text: "$5e^{i\\pi/2}$" },
+              { id: "d", text: "$6e^{i5\\pi/6}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Product in Euler form", statement: "$r_1e^{i\\theta_1}\\cdot r_2e^{i\\theta_2}=r_1r_2e^{i(\\theta_1+\\theta_2)}$." },
+            ],
+            steps: [
+              { reasoning: "Multiply the moduli and add the arguments.", working: "6e^{i(\\pi/3+\\pi/6)}=6e^{i\\pi/2}", marks: 1, markCode: "M" },
+              { reasoning: "Convert to Cartesian form: $\\cos\\frac\\pi2=0$, $\\sin\\frac\\pi2=1$.", working: "6i", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $6i$",
+            commonErrors: ["Subtracting the arguments, giving $6e^{i\\pi/6}$.", "Adding the moduli to get $5e^{i\\pi/2}$."],
+          },
+        },
+        {
+          id: "aahl-u1-euler-q8",
+          difficulty: "challenge",
+          paper: "1",
+          totalMarks: 4,
+          stem: "Let $z=\\frac{1+i}{\\sqrt3+i}$. Find $|z|$ and $\\arg z$ (principal value, in radians).",
+          response: { type: "numeric", parts: [{ label: "$|z|$", answer: 0.7071, tolerance: 0.005 }, { label: "$\\arg z$ (radians)", answer: 0.2618, tolerance: 0.005 }] },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Modulus and argument of a quotient", statement: "$\\left|\\frac{z_1}{z_2}\\right|=\\frac{|z_1|}{|z_2|}$ and $\\arg\\frac{z_1}{z_2}=\\arg z_1-\\arg z_2$." },
+            ],
+            steps: [
+              { reasoning: "Write the numerator in polar form: $|1+i|=\\sqrt2$, argument $\\frac\\pi4$.", working: "1+i=\\sqrt2\\,e^{i\\pi/4}", marks: 1, markCode: "A" },
+              { reasoning: "Write the denominator in polar form: $|\\sqrt3+i|=2$, argument $\\frac\\pi6$.", working: "\\sqrt3+i=2e^{i\\pi/6}", marks: 1, markCode: "A" },
+              { reasoning: "Divide the moduli.", working: "|z|=\\frac{\\sqrt2}{2}=\\frac{1}{\\sqrt2}\\approx0.7071", marks: 1, markCode: "M" },
+              { reasoning: "Subtract the arguments.", working: "\\arg z=\\frac\\pi4-\\frac\\pi6=\\frac{\\pi}{12}\\approx0.2618", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$|z|=\\frac{1}{\\sqrt2}\\approx0.7071$, $\\arg z=\\frac{\\pi}{12}\\approx0.2618$",
+            commonErrors: ["Adding the arguments instead of subtracting.", "Using $|\\sqrt3+i|=\\sqrt3+1$ or $\\sqrt{3-1}=\\sqrt2$."],
+            examinerNote: "In the exam, leave exact answers $\\frac{1}{\\sqrt2}$ and $\\frac{\\pi}{12}$.",
+          },
+        },
+        {
+          id: "aahl-u1-euler-q9",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 7,
+          stem: "Let $z_1=6e^{i2\\pi/3}$ and $z_2=2e^{-i\\pi/6}$.",
+          parts: [
+            { label: "a", prompt: "Find $z_1z_2$ in the form $re^{i\\theta}$.", marks: 2 },
+            { label: "b", prompt: "Find $\\frac{z_1}{z_2}$ in the form $a+bi$.", marks: 3 },
+            { label: "c", prompt: "Find the principal argument of $z_1^2$.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Product and quotient in Euler form", statement: "$z_1z_2=r_1r_2e^{i(\\theta_1+\\theta_2)}$ and $\\frac{z_1}{z_2}=\\frac{r_1}{r_2}e^{i(\\theta_1-\\theta_2)}$." },
+              { kind: "law", name: "Powers in Euler form", statement: "$(re^{i\\theta})^2=r^2e^{2i\\theta}$." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Multiply moduli and add arguments.", working: "12e^{i(2\\pi/3-\\pi/6)}", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Simplify the angle.", working: "12e^{i\\pi/2}", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Divide moduli and subtract arguments.", working: "3e^{i(2\\pi/3+\\pi/6)}=3e^{i5\\pi/6}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Evaluate the trigonometric values at $\\frac{5\\pi}6$.", working: "3\\left(-\\frac{\\sqrt3}{2}+\\frac12i\\right)", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State the Cartesian form.", working: "-\\frac{3\\sqrt3}{2}+\\frac{3}{2}i", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Square $z_1$ in Euler form.", working: "z_1^2=36e^{i4\\pi/3}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Reduce $\\frac{4\\pi}3$ to the principal range by subtracting $2\\pi$.", working: "\\arg z_1^2=-\\frac{2\\pi}{3}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $12e^{i\\pi/2}$ (b) $-\\frac{3\\sqrt3}{2}+\\frac{3}{2}i$ (c) $-\\frac{2\\pi}{3}$",
+            commonErrors: ["In (c), giving $\\frac{4\\pi}{3}$ instead of the principal value $-\\frac{2\\pi}{3}$.", "In (b), adding the arguments instead of subtracting."],
+          },
+        },
+        {
+          id: "aahl-u1-euler-q10",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 3,
+          stem: "Write $-2+2i$ in the form $re^{i\\theta}$ with $-\\pi<\\theta\\le\\pi$. Enter the modulus $r$ and the argument $\\theta$ (radians) as decimals, correct to 3 decimal places.",
+          response: { type: "numeric", parts: [{ label: "$r$", answer: 2.828, tolerance: 0.005 }, { label: "$\\theta$ (radians)", answer: 2.356, tolerance: 0.005 }] },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Modulus and argument", statement: "$r=\\sqrt{a^2+b^2}$ and $\\theta$ is chosen from the quadrant of $a+bi$." },
+            ],
+            steps: [
+              { reasoning: "Find the modulus.", working: "r=\\sqrt{4+4}=2\\sqrt2", marks: 1, markCode: "M" },
+              { reasoning: "The point is in the second quadrant with reference angle $\\frac\\pi4$.", working: "\\theta=\\pi-\\frac\\pi4=\\frac{3\\pi}{4}", marks: 1, markCode: "M" },
+              { reasoning: "Give decimal values.", working: "r\\approx2.828,\\quad \\theta\\approx2.356", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$r=2\\sqrt2\\approx2.828$, $\\theta=\\frac{3\\pi}{4}\\approx2.356$",
+            commonErrors: ["Using $\\theta=\\frac\\pi4$ (first-quadrant angle).", "Reporting $r=4$ instead of $2\\sqrt2$."],
+          },
+        },
+        {
+          id: "aahl-u1-euler-q11",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "If $z=re^{i\\theta}$ with $r>0$, then the complex conjugate $z^*$ equals:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$re^{-i\\theta}$" },
+              { id: "b", text: "$re^{i\\theta}$" },
+              { id: "c", text: "$r^{-1}e^{i\\theta}$" },
+              { id: "d", text: "$re^{i(\\pi-\\theta)}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Conjugate in Euler form", statement: "Conjugation negates the argument: $(re^{i\\theta})^*=re^{-i\\theta}$." },
+            ],
+            steps: [
+              { reasoning: "Conjugation reflects the point in the real axis, changing the sign of the argument but not the modulus.", working: "r\\ \\text{unchanged},\\ \\theta\\mapsto-\\theta", marks: 1, markCode: "M" },
+              { reasoning: "Write the Euler form.", working: "re^{-i\\theta}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $re^{-i\\theta}$",
+            commonErrors: ["Thinking conjugation changes the modulus.", "Writing $re^{i(\\pi-\\theta)}$, which is not equal to $re^{-i\\theta}$ in general."],
+          },
+        },
+        {
+          id: "aahl-u1-euler-q12",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 4,
+          stem: "Evaluate $\\frac{(2e^{i\\pi/6})(3e^{i\\pi/2})}{e^{i\\pi/3}}$ and give the answer in the form $a+bi$ with exact values.",
+          response: { type: "numeric", parts: [{ label: "$a$", answer: 3 }, { label: "$b$", answer: 5.196, tolerance: 0.005 }] },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Products and quotients in Euler form", statement: "Multiply/divide moduli and add/subtract arguments." },
+            ],
+            steps: [
+              { reasoning: "Combine moduli: $2\\times3\\div1=6$; combine arguments: $\\frac\\pi6+\\frac\\pi2-\\frac\\pi3=\\frac\\pi3$.", working: "6e^{i\\pi/3}", marks: 1, markCode: "M" },
+              { reasoning: "Convert to Cartesian form.", working: "6\\left(\\frac12+\\frac{\\sqrt3}{2}i\\right)", marks: 1, markCode: "M" },
+              { reasoning: "Read off $a$ and $b=3\\sqrt3\\approx5.196$.", working: "a=3,\\quad b\\approx5.196", marks: 1, markCode: "A" },
+              { reasoning: "State the decimal value of $b$ to 3 decimal places.", working: "b=3\\sqrt3\\approx5.196", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$3+3\\sqrt3\\,i$, so $a=3$, $b\\approx5.196$",
+            commonErrors: ["Adding the denominator's argument instead of subtracting it."],
+          },
+        },
+        {
+          id: "aahl-u1-euler-q13",
+          difficulty: "challenge",
+          paper: "3",
+          totalMarks: 11,
+          stem: "Let $z=a+bi$ with $a>0$ and $b>0$, and consider $w=\\frac{z}{z^*}$, where $z^*$ is the complex conjugate of $z$. This question investigates $w$.",
+          parts: [
+            { label: "a", prompt: "For $z=1+i$, find $w$ in the form $re^{i\\theta}$.", marks: 2 },
+            { label: "b", prompt: "Show that for general $z=re^{i\\theta}$, $w=e^{2i\\theta}$, and hence that $|w|=1$ and $\\arg w=2\\arg z$.", marks: 3 },
+            { label: "c", prompt: "Find the value of $\\arg z$ for which $w=-1$.", marks: 2 },
+            { label: "d", prompt: "Describe the locus of $z$ for which $w=1$.", marks: 2 },
+            { label: "e", prompt: "For $z=2e^{i\\pi/6}$, find $w$ in the form $a+bi$.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Quotient in Euler form", statement: "$\\frac{re^{i\\theta}}{re^{-i\\theta}}=e^{2i\\theta}$." },
+              { kind: "definition", name: "Euler form", statement: "$e^{i\\phi}=\\cos\\phi+i\\sin\\phi$." },
+              { kind: "property", name: "Conjugate", statement: "If $z=re^{i\\theta}$ then $z^*=re^{-i\\theta}$." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$z^*=1-i$, so $w=\\frac{1+i}{1-i}=\\frac{(1+i)^2}{2}=i$.", working: "w=i=e^{i\\pi/2}", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State the Euler form with $r=1$.", working: "w=1\\cdot e^{i\\pi/2}", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Write $z=re^{i\\theta}$, so $z^*=re^{-i\\theta}$.", working: "z^*=re^{-i\\theta}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Divide in Euler form: the moduli cancel and the arguments subtract.", working: "w=\\frac{re^{i\\theta}}{re^{-i\\theta}}=e^{2i\\theta}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Read off modulus and argument.", working: "|w|=1,\\quad \\arg w=2\\theta", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Set $e^{2i\\theta}=-1=e^{i\\pi}$, so $2\\theta=\\pi$ for the principal value.", working: "2\\theta=\\pi", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Solve for $\\theta$.", working: "\\theta=\\frac{\\pi}{2}", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Set $e^{2i\\theta}=1$, so $\\theta=0$ (or $\\pi$ in general).", working: "\\arg z=0", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Points with zero argument lie on the positive real axis.", working: "z\\ \\text{real and positive}", marks: 1, markCode: "A" },
+              { part: "e", reasoning: "Apply part (b): $w=e^{2i\\pi/6}=e^{i\\pi/3}$.", working: "w=\\cos\\tfrac\\pi3+i\\sin\\tfrac\\pi3", marks: 1, markCode: "M" },
+              { part: "e", reasoning: "Evaluate.", working: "w=\\frac12+\\frac{\\sqrt3}{2}i", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $e^{i\\pi/2}$ (b) $w=e^{2i\\theta}$, $|w|=1$, $\\arg w=2\\arg z$ (c) $\\arg z=\\frac{\\pi}{2}$ (d) $z$ is real and positive (e) $\\frac12+\\frac{\\sqrt3}{2}i$",
+            commonErrors: ["In (b), giving $w=e^{i\\theta}$ by forgetting the conjugate's argument is $-\\theta$.", "In (d), forgetting that $\\arg z=\\pi$ also gives $w=1$ when the first-quadrant restriction is dropped."],
+            examinerNote: "Since $a,b>0$ in the stem, $\\arg z\\in(0,\\frac\\pi2)$, so strictly $w\\ne1$ inside the open quadrant; the locus answer refers to the closure on the real axis.",
+          },
+        },
+      ],
+    },
+  ],
+};

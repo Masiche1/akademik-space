@@ -1,0 +1,915 @@
+import type { Lesson } from "../../../types.ts";
+
+export const lesson31: Lesson = {
+  id: "mypp5-u3-lesson-3-1",
+  code: "3-1",
+  title: "Advanced Circuits and Fuses",
+  goal: "I CAN analyse series-parallel circuits, calculate power using $P = I^2R = V^2/R$, and explain fuse ratings and circuit safety.",
+  standards: [
+    "Key concept: Electricity",
+    "MYP Sciences: Energy",
+    "Criterion A: Knowing and understanding",
+  ],
+  vocabulary: [
+    { term: "Series circuit", definition: "Components in a single path; same current everywhere; voltages add." },
+    { term: "Parallel circuit", definition: "Components on separate branches; same voltage across each; currents add." },
+    { term: "Equivalent resistance", definition: "Single resistance replacing a network: series $R_{tot} = R_1+R_2$, parallel $1/R_{tot} = 1/R_1+1/R_2$." },
+    { term: "Power", definition: "Rate of energy transfer; $P = VI = I^2R = V^2/R$, measured in watts." },
+    { term: "Fuse", definition: "Safety device containing a wire that melts when current exceeds its rating, breaking the circuit." },
+    { term: "Earth wire", definition: "Safety wire carrying fault current to earth if live wire touches casing, preventing shock." },
+  ],
+  concepts: [
+    {
+      id: "mypp5-u3-pwr",
+      title: "Series-parallel circuits and power",
+      skill: "Combine series and parallel resistors and calculate electrical power in multiple forms.",
+      lesson: {
+        sections: [
+          {
+            heading: "Combined circuits",
+            body: "Real circuits mix series and parallel. Strategy: simplify step by step — combine resistors in series first, parallel branches second, then apply $V = IR$ to the equivalent resistance. Current splits at junctions in inverse proportion to branch resistance.",
+          },
+          {
+            heading: "Power calculations",
+            body: "Three equivalent forms: $P = VI$, $P = I^2R$ (use when you know current and resistance), $P = V^2/R$ (when you know voltage and resistance). For a resistor, all give the same answer; power dissipated becomes heat — why heaters glow and wires warm.",
+          },
+          {
+            heading: "Energy and cost",
+            body: "Energy $E = Pt$ in joules or kWh for bills ($1$ kWh $= 3.6 \\times 10^6$ J). A 2 kW kettle for 3 minutes uses $0.1$ kWh. Efficiency $= \\frac{\\text{useful output}}{\\text{total input}} \\times 100\\%$.",
+          },
+        ],
+        keyFormulas: [
+          { name: "Power", statement: "$P = VI = I^2R = \\frac{V^2}{R}$ W" },
+          { name: "Energy", statement: "$E = Pt$; $1\\ \\text{kWh} = 3.6\\times10^6$ J" },
+          { name: "Parallel resistance", statement: "$\\frac{1}{R} = \\frac{1}{R_1}+\\frac{1}{R_2}$" },
+        ],
+        workedExample: {
+          problem: "A 12 V battery drives 3 A through a heater. What power does it dissipate?",
+          solution: "$P = VI = 12 \\times 3 = 36$ W.",
+        },
+      },
+      questions: [
+        {
+          id: "mypp5-u3-pwr-q1",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In a parallel circuit, what is the same across all branches?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Current" },
+              { id: "b", text: "Voltage" },
+              { id: "c", text: "Resistance" },
+              { id: "d", text: "Power" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Parallel", statement: "Branches connect same two points → same p.d." }],
+            steps: [
+              { reasoning: "Voltage is common in parallel branches.", working: "\\text{same } V", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Voltage",
+            commonErrors: ["Confusing with series (same current)."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q2",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A 240 V appliance draws 5 A. What is its power?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "48 W" },
+              { id: "b", text: "200 W" },
+              { id: "c", text: "1200 W" },
+              { id: "d", text: "2400 W" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Power", statement: "$P = VI = 240 \\times 5$" }],
+            steps: [
+              { reasoning: "Power = voltage × current.", working: "240\\times5", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "1200\\ \\text{W}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "1200 W",
+            commonErrors: ["Dividing instead of multiplying."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q3",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Two 6 Ω resistors are connected in parallel across a 12 V supply. What is the total current drawn?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "1 A" },
+              { id: "b", text: "2 A" },
+              { id: "c", text: "4 A" },
+              { id: "d", text: "8 A" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Parallel", statement: "$R_{eq} = 3$ Ω; $I = V/R = 12/3$" }],
+            steps: [
+              { reasoning: "Parallel: $1/R = 1/6 + 1/6$ → $R = 3$ Ω.", working: "R=3\\ \\text{Ω}", marks: 1, markCode: "M" },
+              { reasoning: "$I = V/R = 12/3 = 4$ A.", working: "I=\\frac{12}{3}", marks: 1, markCode: "M" },
+              { reasoning: "State value.", working: "4\\ \\text{A}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "4 A",
+            commonErrors: ["Treating parallel as series (12 Ω) → wrong current."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q4",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "A bathroom has a 3 kW shower and a 2.5 kW hairdryer, both running on a 240 V mains supply. The shower and hairdryer each draw current through separate plugs.",
+          parts: [
+            { label: "a", prompt: "Calculate the current drawn by the shower alone.", marks: 1 },
+            { label: "b", prompt: "Calculate the total current drawn when both appliances run.", marks: 2 },
+            { label: "c", prompt: "A 13 A fuse protects the shower circuit. Explain whether it will blow with both appliances on one socket circuit rated at 13 A — justify with calculations.", marks: 2 },
+            { label: "d", prompt: "Explain why a kettle's flex wire gets warm after extended use using $P = I^2R$.", marks: 1 },
+            { label: "e", prompt: "Describe a fair test to compare the power of two electric heaters, identifying variables.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Power", statement: "$P = VI$ and $P = I^2R$; currents add for parallel appliances." },
+              { kind: "principle", name: "Fuse", statement: "Fuse rating must exceed normal current but melt on overload." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$I = P/V = 3000/240$.", working: "\\frac{3000}{240}", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Hairdryer $I = 2500/240 \\approx 10.4$ A; total $\\approx 12.5 + 10.4 = 22.9$ A.", working: "\\frac{5500}{240}\\approx22.9\\ \\text{A}", marks: 2, markCode: "M" },
+              { part: "c", reasoning: "Total ~22.9 A exceeds 13 A rating → fuse melts/blows, protecting circuit.", working: "22.9 > 13 \\Rightarrow \\text{blows}", marks: 2, markCode: "A" },
+              { part: "d", reasoning: "Wire has resistance $R$; $P = I^2R$ dissipates heat in the flex, warming it.", working: "P=I^2R", marks: 1, markCode: "A" },
+              { part: "e", reasoning: "Measure voltage and current for each heater over fixed time, or energy used; independent = heater, dependent = power/energy, controlled = voltage, time, water mass/temperature.", working: "\\text{fair test}", marks: 2, markCode: "B" },
+            ],
+            finalAnswer: "(a) 12.5 A (b) 22.9 A (c) exceeds 13 A so fuse blows (d) I²R heating in wire (e) measure V, I over same conditions",
+            commonErrors: ["Adding powers then dividing wrongly; forgetting parallel currents add."],
+            examinerNote: "A1 for (a); M2 for (b); A2 for (c); A1 for (d); B2 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the formula for total resistance of resistors in series?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{1}{R} = \\frac{1}{R_1} + \\frac{1}{R_2}$" },
+              { id: "b", text: "$R = R_1 + R_2$" },
+              { id: "c", text: "$R = \\frac{R_1R_2}{R_1+R_2}$" },
+              { id: "d", text: "$R = R_1R_2$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Series resistance", statement: "$R_{total} = R_1 + R_2$." }],
+            steps: [
+              { reasoning: "Series resistances add.", working: "R=R_1+R_2", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $R = R_1 + R_2$",
+            commonErrors: ["Using the parallel formula for series."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A device draws 2 A from a 12 V supply. Calculate its power.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 24, unit: "W" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Power", statement: "$P = VI = 12 \\times 2$" }],
+            steps: [
+              { reasoning: "$P = 24$ W.", working: "12\\times2", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "24 W",
+            commonErrors: ["Adding V and I instead of multiplying."],
+            examinerNote: "A1 for 24.",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Two resistors of 4 Ω and 12 Ω are connected in parallel. What is the total resistance?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "16 Ω" },
+              { id: "b", text: "3 Ω" },
+              { id: "c", text: "8 Ω" },
+              { id: "d", text: "48 Ω" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Parallel resistance", statement: "$\\frac{1}{R} = \\frac{1}{4} + \\frac{1}{12} = \\frac{4}{12}$ → $R = 3$ Ω" }],
+            steps: [
+              { reasoning: "$\\frac{1}{R} = \\frac{1}{4} + \\frac{1}{12} = \\frac{3+1}{12} = \\frac{1}{3}$.", working: "\\frac{1}{4}+\\frac{1}{12}", marks: 1, markCode: "M" },
+              { reasoning: "$R = 3$ Ω.", working: "R=3\\ \\Omega", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** 3 Ω",
+            commonErrors: ["Adding resistances for parallel; answer must be less than smallest."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A current of 3 A flows through a 4 Ω resistor. Calculate the power dissipated.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 36, unit: "W" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Power", statement: "$P = I^2R = 9 \\times 4$" }],
+            steps: [
+              { reasoning: "$P = 3^2 \\times 4 = 36$ W.", working: "9\\times4", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "36\\ \\text{W}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "36 W",
+            commonErrors: ["Using $P = VI$ with wrong V; forgetting to square I."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q9",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Two identical bulbs are connected in parallel across a battery, and a third identical bulb is added in series with the battery. Compared with before, the bulbs in the parallel pair:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Get brighter" },
+              { id: "b", text: "Get dimmer" },
+              { id: "c", text: "Stay the same brightness" },
+              { id: "d", text: "Turn off completely" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Circuit analysis", statement: "Series resistor reduces total current → less voltage across parallel pair → dimmer bulbs." }],
+            steps: [
+              { reasoning: "Series bulb adds resistance → total current drops.", working: "I\\downarrow", marks: 1, markCode: "M" },
+              { reasoning: "Parallel pair voltage = supply − drop across series bulb → falls.", working: "V_{pair}\\downarrow", marks: 1, markCode: "M" },
+              { reasoning: "Lower V → lower P = V²/R → dimmer.", working: "P\\downarrow", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** dimmer",
+            commonErrors: ["Ignoring the voltage drop across the series bulb."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q10",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "An appliance rated at 2 kW runs for 3 hours. Calculate the energy used in kWh.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 6, unit: "kWh" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Energy", statement: "$E = Pt = 2 \\times 3$ kWh" }],
+            steps: [
+              { reasoning: "$E = 2 \\text{ kW} \\times 3 \\text{ h} = 6$ kWh.", working: "2\\times3", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "6\\ \\text{kWh}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "6 kWh",
+            commonErrors: ["Using joules without converting to kWh."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q11",
+          difficulty: "foundation",
+          totalMarks: 6,
+          stem: "Household circuits use parallel wiring for sockets and lights.",
+          parts: [
+            { label: "a", prompt: "State two advantages of parallel wiring over series wiring for house circuits.", marks: 2 },
+            { label: "b", prompt: "Explain why each appliance gets the full mains voltage in a parallel circuit.", marks: 1 },
+            { label: "c", prompt: "State the three forms of the electrical power formula.", marks: 2 },
+            { label: "d", prompt: "Give one example of energy dissipation in a resistor.", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Power", statement: "$P = VI = I^2R = V^2/R$" },
+              { kind: "principle", name: "Parallel circuits", statement: "Each branch gets full voltage; appliances work independently." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Each appliance gets full voltage; if one fails others still work; each can be switched independently.", working: "\\text{full V, independent}", marks: 2, markCode: "B" },
+              { part: "b", reasoning: "In parallel each branch connects directly across the supply → same p.d.", working: "V_{branch}=V_{supply}", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$P = VI$, $P = I^2R$, $P = V^2/R$ — all equivalent.", working: "P=VI=I^2R=V^2/R", marks: 2, markCode: "B" },
+              { part: "d", reasoning: "Heating effect — e.g. electric heater, glowing filament, warm wires.", working: "\\text{heat}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "(a) full voltage, independent (b) same p.d. across each branch (c) VI, I²R, V²/R (d) heat",
+            commonErrors: ["Thinking series wiring saves energy — it doesn't for appliances."],
+            examinerNote: "B2 for (a); A1 for (b); B2 for (c); B1 for (d).",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q12",
+          difficulty: "core",
+          totalMarks: 7,
+          stem: "A 230 V mains supply powers a 1150 W heater.",
+          parts: [
+            { label: "a", prompt: "Calculate the current drawn by the heater.", marks: 1 },
+            { label: "b", prompt: "Calculate the heater's resistance using $P = V^2/R$.", marks: 2 },
+            { label: "c", prompt: "Calculate the energy used in 30 minutes, in joules.", marks: 2 },
+            { label: "d", prompt: "Explain why the fuse rating for this appliance should be slightly above the operating current.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Power", statement: "$P = VI = V^2/R$" },
+              { kind: "formula", name: "Energy", statement: "$E = Pt$" },
+            ],
+            steps: [
+              { part: "a", reasoning: "$I = P/V = 1150/230 = 5$ A.", working: "5\\ \\text{A}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "$R = V^2/P = 230^2/1150 = 52900/1150$.", working: "\\frac{230^2}{1150}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "$R = 46$ Ω.", working: "46\\ \\Omega", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$E = Pt = 1150 \\times 1800$.", working: "1150\\times1800", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "$E = 2.07 \\times 10^6$ J (2.07 MJ).", working: "2.07\\times10^6\\ \\text{J}", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Fuse must not melt during normal use; rating slightly above 5 A (e.g. 13 A) so it only blows on faults.", working: "\\text{rating} > I_{normal}", marks: 2, markCode: "A" },
+            ],
+            finalAnswer: "(a) 5 A (b) 46 Ω (c) 2.07 MJ (d) rating above normal current",
+            commonErrors: ["Using 230 V² wrong; forgetting to convert 30 min to seconds."],
+            examinerNote: "M1 A1 for (a); M1 A1 for (b); M1 A1 for (c); A2 for (d).",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Why are house lights and sockets wired in parallel rather than series?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To use less wire" },
+              { id: "b", text: "So each appliance gets full mains voltage and works independently" },
+              { id: "c", text: "To reduce the current" },
+              { id: "d", text: "It makes no difference" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Parallel circuits", statement: "Full voltage to each branch; appliances independent." }],
+            steps: [
+              { reasoning: "Series would share voltage and one failure would break all.", working: "\\text{parallel}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** full voltage, independent operation",
+            commonErrors: ["Thinking parallel increases current dangerously — each branch is protected by its own fuse."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A motor uses 400 J of electrical energy to do 320 J of useful mechanical work. What is its efficiency?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "80%" },
+              { id: "b", text: "125%" },
+              { id: "c", text: "20%" },
+              { id: "d", text: "400%" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Efficiency", statement: "$\\eta = \\frac{\\text{useful}}{\\text{input}} \\times 100\\% = \\frac{320}{400}$" }],
+            steps: [
+              { reasoning: "$\\eta = 320/400 = 0.8 = 80\\%$.", working: "\\frac{320}{400}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "80\\%", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** 80%",
+            commonErrors: ["Inverting the ratio → 125%."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q15",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "A student builds a circuit with a 12 V battery, two resistors of 4 Ω and 6 Ω in series, and measures the current.",
+          parts: [
+            { label: "a", prompt: "Calculate the total resistance.", marks: 1 },
+            { label: "b", prompt: "Calculate the current in the circuit.", marks: 2 },
+            { label: "c", prompt: "Calculate the power dissipated in the 4 Ω resistor using $P = I^2R$.", marks: 2 },
+            { label: "d", prompt: "Explain why the same current flows through both resistors.", marks: 1 },
+            { label: "e", prompt: "Describe how you would measure the current and voltage to verify $P = VI$, identifying equipment and variables.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Series", statement: "$R = R_1 + R_2$; $I = V/R$" },
+              { kind: "formula", name: "Power", statement: "$P = I^2R$" },
+            ],
+            steps: [
+              { part: "a", reasoning: "$R = 4 + 6 = 10$ Ω.", working: "10\\ \\Omega", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$I = 12/10 = 1.2$ A.", working: "1.2\\ \\text{A}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Evaluate.", working: "1.2\\ \\text{A}", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$P = 1.2^2 \\times 4 = 5.76$ W.", working: "1.44\\times4", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Evaluate.", working: "5.76\\ \\text{W}", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Series circuit — only one path, so charge flow rate is the same everywhere.", working: "\\text{single path}", marks: 1, markCode: "A" },
+              { part: "e", reasoning: "Ammeter in series for I, voltmeter in parallel across resistor for V; vary supply voltage/resistance, repeat; independent = V or R, dependent = P, controlled = connections.", working: "\\text{ammeter+voltmeter}", marks: 2, markCode: "B" },
+            ],
+            finalAnswer: "(a) 10 Ω (b) 1.2 A (c) 5.76 W (d) single path same I (e) measure V,I → P=VI",
+            commonErrors: ["Using total resistance for P of one resistor."],
+            examinerNote: "A1 for (a); M1 A1 for (b); M1 A1 for (c); A1 for (d); B2 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-pwr-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A 12 V battery drives a current through two resistors of 4 Ω and 6 Ω connected in series.",
+          parts: [
+            { label: "a", prompt: "Calculate the total resistance.", marks: 1 },
+            { label: "b", prompt: "Calculate the current in the circuit.", marks: 1 },
+            { label: "c", prompt: "Calculate the total power supplied by the battery.", marks: 1 },
+            { label: "d", prompt: "Calculate the power dissipated in the 4 Ω resistor.", marks: 1 },
+          ],
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 10, unit: "Ω" },
+              { label: "b", answer: 1.2, unit: "A" },
+              { label: "c", answer: 14.4, unit: "W" },
+              { label: "d", answer: 5.76, unit: "W" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Series + power", statement: "$R = R_1+R_2$; $P = VI = I^2R$" },
+            ],
+            steps: [
+              { part: "a", reasoning: "$R = 10$ Ω.", working: "10\\ \\Omega", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$I = 12/10 = 1.2$ A.", working: "1.2\\ \\text{A}", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$P = VI = 12 \\times 1.2 = 14.4$ W.", working: "14.4\\ \\text{W}", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "$P = I^2R = 1.44 \\times 4 = 5.76$ W.", working: "5.76\\ \\text{W}", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "(a) 10 Ω (b) 1.2 A (c) 14.4 W (d) 5.76 W",
+            commonErrors: ["Using 12 V across one resistor for its power."],
+            examinerNote: "A1 for (a),(b); M1 A1 for (c),(d).",
+          },
+        },
+      ],
+    },
+    {
+      id: "mypp5-u3-fuse",
+      title: "Fuses and electrical safety",
+      skill: "Select correct fuse ratings and explain wiring and earthing for safety.",
+      lesson: {
+        sections: [
+          {
+            heading: "How fuses work",
+            body: "A fuse contains a thin wire that melts when current exceeds its rating, breaking the circuit before wires overheat. Fuse rating should be slightly above the appliance's normal operating current. A 13 A plug fuse suits most UK appliances; kettles and heaters often need higher-rated plugs or dedicated circuits.",
+          },
+          {
+            heading: "Wiring and earthing",
+            body: "Three-pin plug: live (brown), neutral (blue), earth (green/yellow). The **earth wire** carries fault current if insulation fails, blowing the fuse and preventing the casing becoming live. Double-insulated appliances don't need earth. Circuit breakers and RCDs are modern alternatives/additions to fuses.",
+          },
+          {
+            heading: "Safe practices",
+            body: "Never overload sockets with adaptors; check flexes for damage; keep appliances away from water; unplug before cleaning. Water conducts — appliances near baths need extra protection (RCD). Understanding ratings prevents fires and electrocution.",
+          },
+        ],
+        keyFormulas: [
+          { name: "Fuse rule", statement: "Rating slightly above normal current" },
+          { name: "Plug colours", statement: "Live brown, neutral blue, earth green/yellow" },
+          { name: "Fault protection", statement: "Earth wire → low resistance path → fuse blows" },
+        ],
+        workedExample: {
+          problem: "An appliance draws 6 A normally. What fuse rating should be chosen?",
+          solution: "Next standard rating above 6 A, e.g. 13 A, so it doesn't melt during normal use but protects against faults.",
+        },
+      },
+      questions: [
+        {
+          id: "mypp5-u3-fuse-q1",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the function of the earth wire in a three-pin plug?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It carries the main current" },
+              { id: "b", text: "It provides a low-resistance path for fault current to earth" },
+              { id: "c", text: "It powers the appliance" },
+              { id: "d", text: "It reduces the voltage" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Earth wire", statement: "Safety wire carrying fault current away from casing." }],
+            steps: [
+              { reasoning: "Earth wire diverts fault current safely to ground.", working: "\\text{fault path}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** fault current to earth",
+            commonErrors: ["Thinking earth wire is part of normal circuit."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q2",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "An appliance normally draws 4 A. Which fuse rating is most appropriate?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "2 A" },
+              { id: "b", text: "4 A" },
+              { id: "c", text: "5 A" },
+              { id: "d", text: "13 A" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Fuse rating", statement: "Choose the smallest standard rating above the normal current." }],
+            steps: [
+              { reasoning: "Rating must exceed 4 A; smallest standard rating above 4 A is 5 A.", working: "I_{rating} = 5\\ \\text{A}", marks: 1, markCode: "M" },
+              { reasoning: "4 A would blow at normal current; 13 A gives less protection.", working: "\\text{5 A best}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(c)** 5 A",
+            commonErrors: ["Choosing a rating equal to or below the operating current."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q3",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A faulty appliance develops a live-to-case short circuit. Trace what happens step by step until the circuit is protected.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Current flows through earth wire, fuse blows, power cut" },
+              { id: "b", text: "Fuse blows first, then earth wire melts" },
+              { id: "c", text: "The appliance keeps working normally" },
+              { id: "d", text: "Neutral wire carries the fault" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Fault current", statement: "Live-case fault → low resistance path through earth → large current → fuse melts." }],
+            steps: [
+              { reasoning: "Fault current flows live → casing → earth wire (low resistance).", working: "\\text{fault path}", marks: 1, markCode: "M" },
+              { reasoning: "Large current melts fuse wire → circuit opens.", working: "\\text{fuse melts}", marks: 1, markCode: "M" },
+              { reasoning: "Power cut before user touches live casing.", working: "\\text{protected}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) earth wire carries fault, fuse blows",
+            commonErrors: ["Thinking fuse blows before current flows, or that earth wire is optional."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q4",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "A student investigates which plug fuse rating protects a model circuit best. She has fuses rated 3 A, 5 A and 13 A and a variable power supply.",
+          parts: [
+            { label: "a", prompt: "State the independent, dependent and controlled variables.", marks: 2 },
+            { label: "b", prompt: "Describe how you would test whether each fuse protects the circuit from overload.", marks: 2 },
+            { label: "c", prompt: "Explain why the 3 A fuse might blow during normal operation of a 4 A appliance.", marks: 1 },
+            { label: "d", prompt: "A kettle draws 10 A. Justify which fuse rating is appropriate and explain the consequence of using a 13 A fuse instead.", marks: 2 },
+            { label: "e", prompt: "Discuss one limitation of fuses compared with modern circuit breakers.", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Fuse operation", statement: "Fuse melts when I exceeds rating; rating chosen just above normal current." },
+              { kind: "principle", name: "Fair test", statement: "Vary current via supply; observe which fuse melts at which current." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Independent = fuse rating / current; dependent = whether fuse blows / current at which it blows; controlled = supply voltage, circuit resistance, fuse type, temperature.", working: "\\text{variables}", marks: 2, markCode: "B" },
+              { part: "b", reasoning: "Gradually increase supply current, record current when each fuse melts, repeat for reliability; compare ratings.", working: "\\text{vary } I, \\text{observe}", marks: 2, markCode: "B" },
+              { part: "c", reasoning: "3 A rating < 4 A operating current → fuse melts during normal use (nuisance blowing).", working: "3 < 4 \\Rightarrow \\text{blows}", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "10 A needs rating above 10 A → 13 A correct. If a higher-rated fuse (e.g. 30 A) were used, it would allow overload current that overheats wiring before melting.", working: "13 > 10; \\text{higher} = \\text{risk}", marks: 2, markCode: "A" },
+              { part: "e", reasoning: "Fuses must be replaced after blowing and can't reset; breakers can be reset and may detect earth faults faster.", working: "\\text{replaceable vs resettable}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) rating→blow current (b) vary I, record melt current (c) rating below operating current (d) 13 A needed; higher risks fire (e) breakers resettable",
+            commonErrors: ["Choosing fuse rating below normal current; not repeating trials."],
+            examinerNote: "B2 for (a); B2 for (b); A1 for (c); A2 for (d); A1 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the function of a fuse in an electrical circuit?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To increase the current" },
+              { id: "b", text: "To break the circuit when current exceeds its rating" },
+              { id: "c", text: "To store electrical energy" },
+              { id: "d", text: "To reduce the voltage" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Fuse", statement: "Thin wire melts on excessive current, breaking the circuit." }],
+            steps: [
+              { reasoning: "Fuse is a sacrificial safety device.", working: "\\text{melts on overload}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** breaks circuit on overload",
+            commonErrors: ["Thinking fuses regulate voltage or current continuously."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "An appliance rated at 2300 W is plugged into a 230 V supply. Calculate the current it draws.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 10, unit: "A" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Power", statement: "$I = P/V = 2300/230$" }],
+            steps: [
+              { reasoning: "$I = 10$ A.", working: "\\frac{2300}{230}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "10 A",
+            commonErrors: ["Multiplying P and V instead of dividing."],
+            examinerNote: "A1 for 10.",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What is the purpose of the earth wire in a three-pin plug?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To carry normal current to the appliance" },
+              { id: "b", text: "To provide a low-resistance path for fault current so the fuse blows if insulation fails" },
+              { id: "c", text: "To reduce the voltage" },
+              { id: "d", text: "To make the plug heavier" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Earthing", statement: "Earth wire carries fault current → blows fuse → prevents live casing." }],
+            steps: [
+              { reasoning: "Fault current flows through earth wire instead of through a person.", working: "\\text{fault path}", marks: 1, markCode: "M" },
+              { reasoning: "Large fault current blows the fuse quickly.", working: "I_{fault}\\uparrow \\Rightarrow \\text{fuse blows}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** fault-current path",
+            commonErrors: ["Thinking earth wire carries normal operating current — that's neutral/live."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A lamp is rated 230 V, 920 W. Calculate its operating current.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 4, unit: "A" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Power", statement: "$I = P/V = 920/230$" }],
+            steps: [
+              { reasoning: "$I = 4$ A.", working: "\\frac{920}{230}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "4\\ \\text{A}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "4 A",
+            commonErrors: ["Inverting the formula: V/P."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q9",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Why does a fuse melt during an overload rather than immediately at normal current?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Because the fuse is made of a material with a high melting point" },
+              { id: "b", text: "The fuse wire is thin, so normal current produces little heating, but excessive current heats it past its melting point" },
+              { id: "c", text: "Because current always flows through the earth wire" },
+              { id: "d", text: "It doesn't — fuses melt randomly" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Fuse physics", statement: "Thin wire has high resistance per length; $I^2R$ heating melts it on overload." }],
+            steps: [
+              { reasoning: "Heating $\\propto I^2R$ — overload current produces much more heat.", working: "Q \\propto I^2", marks: 1, markCode: "M" },
+              { reasoning: "Rating chosen above normal current → only melts on fault.", working: "I_{rating} > I_{normal}", marks: 1, markCode: "M" },
+              { reasoning: "Answer (b).", working: "(b)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** thin wire melts on excess heating",
+            commonErrors: ["Thinking the fuse is a switch that opens mechanically."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A 2 kW heater runs for 5 hours at a cost of $0.15 per kWh. Calculate the total cost.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1.5, unit: "" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Energy cost", statement: "$E = Pt = 2 \\times 5 = 10$ kWh; cost $= 10 \\times 0.15$" }],
+            steps: [
+              { reasoning: "$E = 10$ kWh.", working: "10\\ \\text{kWh}", marks: 1, markCode: "M" },
+              { reasoning: "Cost $= 10 \\times 0.15 = 1.5$ (currency units).", working: "10\\times0.15", marks: 2, markCode: "A" },
+            ],
+            finalAnswer: "$1.50",
+            commonErrors: ["Using joules instead of kWh; multiplying by hours wrong."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What are the correct wire colours in a modern three-pin plug?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Live red, neutral black, earth green" },
+              { id: "b", text: "Live brown, neutral blue, earth green/yellow" },
+              { id: "c", text: "Live blue, neutral brown, earth red" },
+              { id: "d", text: "All wires are the same colour" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "convention", name: "Plug colours", statement: "Live brown, neutral blue, earth green/yellow." }],
+            steps: [
+              { reasoning: "Standard colour code for UK/EU plugs.", working: "brown/blue/green-yellow", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** brown, blue, green/yellow",
+            commonErrors: ["Using old red/black colour code."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A device normally draws 6 A. Which standard plug fuse rating should be fitted? (available: 3 A, 5 A, 13 A)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 13, unit: "A" }],
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Fuse selection", statement: "Choose rating slightly above normal current; next standard size up." }],
+            steps: [
+              { reasoning: "5 A < 6 A would blow in normal use; 13 A is the smallest rating above 6 A.", working: "13 > 6 > 5", marks: 1, markCode: "M" },
+              { reasoning: "Answer: 13 A.", working: "13\\ \\text{A}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "13 A",
+            commonErrors: ["Choosing 5 A because it's 'close' — it would blow during normal use."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does an RCD (residual current device) protect against that a fuse does not?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Overload current" },
+              { id: "b", text: "Earth fault current — it detects current leaking to earth and cuts supply in milliseconds" },
+              { id: "c", text: "Low voltage" },
+              { id: "d", text: "Static electricity" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "RCD", statement: "Detects imbalance between live and neutral → cuts supply on earth leakage." }],
+            steps: [
+              { reasoning: "RCD protects against shocks from insulation failure; fuses protect against overload/fire.", working: "\\text{earth leakage}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** earth-fault protection",
+            commonErrors: ["Thinking RCDs replace fuses for overload protection."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q14",
+          difficulty: "core",
+          totalMarks: 7,
+          stem: "A student is designing a safe electrical circuit for a model electric motor drawing 2 A at 12 V.",
+          parts: [
+            { label: "a", prompt: "Calculate the power of the motor.", marks: 1 },
+            { label: "b", prompt: "State the minimum fuse rating needed if only 1 A, 2 A and 5 A fuses are available.", marks: 1 },
+            { label: "c", prompt: "Explain why a fuse is preferred over a thicker wire for protection.", marks: 2 },
+            { label: "d", prompt: "Describe how an earth wire protects a user if the motor casing becomes live.", marks:2 },
+            { label: "e", prompt: "Suggest two additional safety features for the circuit.", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Power", statement: "$P = VI$" },
+              { kind: "principle", name: "Electrical safety", statement: "Fuse + earth + insulation prevent fire and shock." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$P = 12 \\times 2 = 24$ W.", working: "24\\ \\text{W}", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "5 A — smallest rating above 2 A (a 2 A fuse might blow on minor fluctuations).", working: "5\\ \\text{A}", marks: 1, markCode: "B" },
+              { part: "c", reasoning: "Fuse melts quickly on overload, breaking circuit; a thick wire would just carry more current and overheat wiring → fire risk.", working: "\\text{breaks circuit}", marks: 2, markCode: "A" },
+              { part: "d", reasoning: "If live wire touches casing, fault current flows through earth wire (low resistance) → large current → fuse blows → casing no longer live.", working: "\\text{fuse blows}", marks: 2, markCode: "A" },
+              { part: "e", reasoning: "Any two: insulated casing/double insulation, RCD, switch, strain relief on flex, fuse in correct position.", working: "\\text{e.g. RCD, insulation}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "(a) 24 W (b) 5 A (c) melts on overload (d) fault current blows fuse (e) RCD/insulation",
+            commonErrors: ["Choosing 2 A fuse — should be above normal current."],
+            examinerNote: "A1 for (a); B1 for (b); A2 for (c); A2 for (d); B1 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "What does 'double insulated' mean for an appliance, and why does it not need an earth wire?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It has two fuses" },
+              { id: "b", text: "It has two layers of insulation so a fault cannot make the casing live" },
+              { id: "c", text: "It uses less current" },
+              { id: "d", text: "It is made of metal" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Double insulation", statement: "Two insulation barriers prevent live parts touching accessible casing → no earth needed." }],
+            steps: [
+              { reasoning: "No accessible conductive parts → casing can't become live → earth unnecessary.", working: "\\text{no live casing}", marks: 1, markCode: "M" },
+              { reasoning: "Answer (b).", working: "(b)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** two insulation layers prevent live casing",
+            commonErrors: ["Thinking double-insulated means two fuses."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-fuse-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "An electric kettle is rated 2300 W at 230 V and is used for 2 hours each day. Electricity costs $0.20 per kWh.",
+          parts: [
+            { label: "a", prompt: "Calculate the current drawn by the kettle.", marks: 1 },
+            { label: "b", prompt: "Select a suitable fuse rating from 3 A, 5 A, 13 A and 45 A.", marks: 1 },
+            { label: "c", prompt: "Calculate the energy used per day in kWh.", marks: 1 },
+            { label: "d", prompt: "Calculate the daily cost of running the kettle.", marks: 1 },
+          ],
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 10, unit: "A" },
+              { label: "b", answer: 13, unit: "A" },
+              { label: "c", answer: 4.6, unit: "kWh" },
+              { label: "d", answer: 0.92, unit: "" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Power", statement: "$I = P/V$" },
+              { kind: "formula", name: "Energy/cost", statement: "$E = Pt$ kWh; cost $= E \\times$ rate" },
+            ],
+            steps: [
+              { part: "a", reasoning: "$I = 2300/230 = 10$ A.", working: "10\\ \\text{A}", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Smallest rating above 10 A → 13 A.", working: "13\\ \\text{A}", marks: 1, markCode: "B" },
+              { part: "c", reasoning: "$E = 2.3 \\text{ kW} \\times 2 \\text{ h} = 4.6$ kWh.", working: "4.6\\ \\text{kWh}", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Cost $= 4.6 \\times 0.20 = 0.92$ (currency).", working: "0.92", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "(a) 10 A (b) 13 A (c) 4.6 kWh (d) $0.92",
+            commonErrors: ["Choosing 10 A fuse (not available/too tight); using W instead of kW."],
+            examinerNote: "A1 for (a); B1 for (b); M1 A1 for (c); M1 A1 for (d).",
+          },
+        },
+      ],
+    },
+  ],
+};

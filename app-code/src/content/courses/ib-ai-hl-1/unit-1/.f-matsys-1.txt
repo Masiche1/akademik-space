@@ -1,0 +1,78 @@
+        {
+          id: "aihl-u1-matrix-systems-q5",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "A system of equations is written $AX=B$, where $A$ is a non-singular square matrix. How many solutions does the system have?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "No solution" },
+              { id: "b", text: "Infinitely many solutions" },
+              { id: "c", text: "Exactly one solution" },
+              { id: "d", text: "It depends on $B$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "property", name: "Matrix solution", statement: "$X=A^{-1}B$ exists and is unique when $\\det A\\ne0$." }],
+            steps: [
+              { reasoning: "Since $A$ is non-singular, $A^{-1}$ exists.", working: "X=A^{-1}B", marks: 1, markCode: "M" },
+              { reasoning: "The product is a single matrix, so there is exactly one solution.", working: "\\text{unique solution}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(c)** Exactly one solution",
+            commonErrors: ["Thinking the number of solutions depends on $B$ — it does not when $\\det A\\ne0$."],
+          },
+        },
+        {
+          id: "aihl-u1-matrix-systems-q6",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Solve the system $x+y=5$, $x-y=1$. What is the value of $x$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$2$" },
+              { id: "b", text: "$3$" },
+              { id: "c", text: "$4$" },
+              { id: "d", text: "$1$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Elimination", statement: "Add or subtract the equations to eliminate one variable." }],
+            steps: [
+              { reasoning: "Add the two equations to eliminate $y$.", working: "2x=6", marks: 1, markCode: "M" },
+              { reasoning: "Solve for $x$.", working: "x=3", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** $x=3$",
+            commonErrors: ["Subtracting the equations in the wrong order and losing a sign."],
+          },
+        },
+        {
+          id: "aihl-u1-matrix-systems-q7",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Solve the system $2x+3y=12$, $x+2y=7$. What is the value of $y$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$2$" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$4$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Elimination", statement: "Multiply one equation so a variable can be eliminated." }],
+            steps: [
+              { reasoning: "From the second equation $x=7-2y$; substitute into the first.", working: "2(7-2y)+3y=12", marks: 1, markCode: "M" },
+              { reasoning: "Solve: $14-y=12$, so $y=2$.", working: "y=2", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** $y=2$",
+            commonErrors: ["Substituting $x=7-2y$ incorrectly as $x=7+2y$."],
+          },
+        },

@@ -1,0 +1,498 @@
+{
+ "cie-a-level-biology": {
+  "concepts": 56,
+  "totalQ": 224,
+  "need16": 56,
+  "deficit": 672,
+  "min": 4,
+  "max": 4
+ },
+ "cie-a-level-business": {
+  "concepts": 17,
+  "totalQ": 68,
+  "need16": 17,
+  "deficit": 204,
+  "min": 4,
+  "max": 4
+ },
+ "cie-a-level-chemistry": {
+  "concepts": 36,
+  "totalQ": 144,
+  "need16": 36,
+  "deficit": 432,
+  "min": 4,
+  "max": 4
+ },
+ "cie-a-level-computer-science": {
+  "concepts": 20,
+  "totalQ": 80,
+  "need16": 20,
+  "deficit": 240,
+  "min": 4,
+  "max": 4
+ },
+ "cie-a-level-economics": {
+  "concepts": 16,
+  "totalQ": 64,
+  "need16": 16,
+  "deficit": 192,
+  "min": 4,
+  "max": 4
+ },
+ "cie-a-level-english": {
+  "concepts": 41,
+  "totalQ": 164,
+  "need16": 41,
+  "deficit": 492,
+  "min": 4,
+  "max": 4
+ },
+ "cie-a-level-further-maths": {
+  "concepts": 48,
+  "totalQ": 192,
+  "need16": 48,
+  "deficit": 576,
+  "min": 4,
+  "max": 4
+ },
+ "cie-a-level-geography": {
+  "concepts": 16,
+  "totalQ": 64,
+  "need16": 16,
+  "deficit": 192,
+  "min": 4,
+  "max": 4
+ },
+ "cie-a-level-history": {
+  "concepts": 16,
+  "totalQ": 64,
+  "need16": 16,
+  "deficit": 192,
+  "min": 4,
+  "max": 4
+ },
+ "cie-a-level-maths": {
+  "concepts": 43,
+  "totalQ": 172,
+  "need16": 43,
+  "deficit": 516,
+  "min": 4,
+  "max": 4
+ },
+ "cie-a-level-physics": {
+  "concepts": 36,
+  "totalQ": 144,
+  "need16": 36,
+  "deficit": 432,
+  "min": 4,
+  "max": 4
+ },
+ "cie-a-level-psychology": {
+  "concepts": 16,
+  "totalQ": 64,
+  "need16": 16,
+  "deficit": 192,
+  "min": 4,
+  "max": 4
+ },
+ "cie-a-level-sociology": {
+  "concepts": 39,
+  "totalQ": 156,
+  "need16": 39,
+  "deficit": 468,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-accounting": {
+  "concepts": 36,
+  "totalQ": 314,
+  "need16": 36,
+  "deficit": 262,
+  "min": 4,
+  "max": 10
+ },
+ "cie-igcse-additional-maths": {
+  "concepts": 50,
+  "totalQ": 200,
+  "need16": 50,
+  "deficit": 600,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-biology": {
+  "concepts": 69,
+  "totalQ": 276,
+  "need16": 69,
+  "deficit": 828,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-business-studies": {
+  "concepts": 20,
+  "totalQ": 80,
+  "need16": 20,
+  "deficit": 240,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-chemistry": {
+  "concepts": 67,
+  "totalQ": 268,
+  "need16": 67,
+  "deficit": 804,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-computer-science": {
+  "concepts": 19,
+  "totalQ": 76,
+  "need16": 19,
+  "deficit": 228,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-development-studies": {
+  "concepts": 16,
+  "totalQ": 324,
+  "need16": 6,
+  "deficit": 72,
+  "min": 4,
+  "max": 30
+ },
+ "cie-igcse-economics": {
+  "concepts": 15,
+  "totalQ": 60,
+  "need16": 15,
+  "deficit": 180,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-english": {
+  "concepts": 36,
+  "totalQ": 144,
+  "need16": 36,
+  "deficit": 432,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-geography": {
+  "concepts": 18,
+  "totalQ": 72,
+  "need16": 18,
+  "deficit": 216,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-global-perspectives": {
+  "concepts": 13,
+  "totalQ": 52,
+  "need16": 13,
+  "deficit": 156,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-history": {
+  "concepts": 18,
+  "totalQ": 72,
+  "need16": 18,
+  "deficit": 216,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-ict": {
+  "concepts": 16,
+  "totalQ": 64,
+  "need16": 16,
+  "deficit": 192,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-literature": {
+  "concepts": 12,
+  "totalQ": 334,
+  "need16": 6,
+  "deficit": 72,
+  "min": 4,
+  "max": 60
+ },
+ "cie-igcse-maths": {
+  "concepts": 58,
+  "totalQ": 232,
+  "need16": 58,
+  "deficit": 696,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-maths-core": {
+  "concepts": 39,
+  "totalQ": 156,
+  "need16": 39,
+  "deficit": 468,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-physics": {
+  "concepts": 66,
+  "totalQ": 264,
+  "need16": 66,
+  "deficit": 792,
+  "min": 4,
+  "max": 4
+ },
+ "cie-igcse-psychology": {
+  "concepts": 16,
+  "totalQ": 324,
+  "need16": 6,
+  "deficit": 72,
+  "min": 4,
+  "max": 30
+ },
+ "cie-igcse-sociology": {
+  "concepts": 13,
+  "totalQ": 374,
+  "need16": 6,
+  "deficit": 72,
+  "min": 4,
+  "max": 50
+ },
+ "cie-ls-computing": {
+  "concepts": 22,
+  "totalQ": 88,
+  "need16": 22,
+  "deficit": 264,
+  "min": 4,
+  "max": 4
+ },
+ "cie-ls-english": {
+  "concepts": 63,
+  "totalQ": 252,
+  "need16": 63,
+  "deficit": 756,
+  "min": 4,
+  "max": 4
+ },
+ "cie-ls-global-perspectives": {
+  "concepts": 16,
+  "totalQ": 64,
+  "need16": 16,
+  "deficit": 192,
+  "min": 4,
+  "max": 4
+ },
+ "cie-ls-maths": {
+  "concepts": 75,
+  "totalQ": 290,
+  "need16": 75,
+  "deficit": 910,
+  "min": 3,
+  "max": 4
+ },
+ "cie-ls-science": {
+  "concepts": 86,
+  "totalQ": 344,
+  "need16": 86,
+  "deficit": 1032,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-accounting": {
+  "concepts": 42,
+  "totalQ": 168,
+  "need16": 42,
+  "deficit": 504,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-additional-maths": {
+  "concepts": 50,
+  "totalQ": 200,
+  "need16": 50,
+  "deficit": 600,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-biology": {
+  "concepts": 69,
+  "totalQ": 276,
+  "need16": 69,
+  "deficit": 828,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-business": {
+  "concepts": 36,
+  "totalQ": 144,
+  "need16": 36,
+  "deficit": 432,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-chemistry": {
+  "concepts": 67,
+  "totalQ": 268,
+  "need16": 67,
+  "deficit": 804,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-computer-science": {
+  "concepts": 56,
+  "totalQ": 224,
+  "need16": 56,
+  "deficit": 672,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-economics": {
+  "concepts": 36,
+  "totalQ": 144,
+  "need16": 36,
+  "deficit": 432,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-english-as-a-second-language": {
+  "concepts": 42,
+  "totalQ": 168,
+  "need16": 42,
+  "deficit": 504,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-english-first-language": {
+  "concepts": 60,
+  "totalQ": 240,
+  "need16": 60,
+  "deficit": 720,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-english-language": {
+  "concepts": 78,
+  "totalQ": 312,
+  "need16": 78,
+  "deficit": 936,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-geography": {
+  "concepts": 24,
+  "totalQ": 96,
+  "need16": 24,
+  "deficit": 288,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-history": {
+  "concepts": 31,
+  "totalQ": 124,
+  "need16": 31,
+  "deficit": 372,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-ict": {
+  "concepts": 34,
+  "totalQ": 136,
+  "need16": 34,
+  "deficit": 408,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-maths": {
+  "concepts": 84,
+  "totalQ": 336,
+  "need16": 84,
+  "deficit": 1008,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-physics": {
+  "concepts": 66,
+  "totalQ": 264,
+  "need16": 66,
+  "deficit": 792,
+  "min": 4,
+  "max": 4
+ },
+ "cie-o-level-psychology": {
+  "concepts": 36,
+  "totalQ": 144,
+  "need16": 36,
+  "deficit": 432,
+  "min": 4,
+  "max": 4
+ },
+ "cie-pre-u-biology": {
+  "concepts": 16,
+  "totalQ": 324,
+  "need16": 6,
+  "deficit": 72,
+  "min": 4,
+  "max": 30
+ },
+ "cie-pre-u-chemistry": {
+  "concepts": 18,
+  "totalQ": 384,
+  "need16": 6,
+  "deficit": 72,
+  "min": 4,
+  "max": 30
+ },
+ "cie-pre-u-maths": {
+  "concepts": 24,
+  "totalQ": 330,
+  "need16": 15,
+  "deficit": 180,
+  "min": 4,
+  "max": 30
+ },
+ "cie-pre-u-physics": {
+  "concepts": 17,
+  "totalQ": 354,
+  "need16": 6,
+  "deficit": 72,
+  "min": 4,
+  "max": 30
+ },
+ "cie-primary-computing": {
+  "concepts": 26,
+  "totalQ": 104,
+  "need16": 26,
+  "deficit": 312,
+  "min": 4,
+  "max": 4
+ },
+ "cie-primary-english": {
+  "concepts": 39,
+  "totalQ": 156,
+  "need16": 39,
+  "deficit": 468,
+  "min": 4,
+  "max": 4
+ },
+ "cie-primary-global-perspectives": {
+  "concepts": 16,
+  "totalQ": 64,
+  "need16": 16,
+  "deficit": 192,
+  "min": 4,
+  "max": 4
+ },
+ "cie-primary-maths": {
+  "concepts": 40,
+  "totalQ": 160,
+  "need16": 40,
+  "deficit": 480,
+  "min": 4,
+  "max": 4
+ },
+ "cie-primary-science": {
+  "concepts": 47,
+  "totalQ": 188,
+  "need16": 47,
+  "deficit": 564,
+  "min": 4,
+  "max": 4
+ }
+}

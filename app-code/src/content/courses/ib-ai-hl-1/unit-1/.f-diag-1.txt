@@ -1,0 +1,78 @@
+        {
+          id: "aihl-u1-diagonalization-q5",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "If $D=\\begin{pmatrix} 2 & 0 \\\\ 0 & 3 \\end{pmatrix}$, then $D^4=$",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\begin{pmatrix} 16 & 0 \\\\ 0 & 81 \\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix} 8 & 0 \\\\ 0 & 12 \\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix} 6 & 0 \\\\ 0 & 9 \\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix} 16 & 0 \\\\ 0 & 27 \\end{pmatrix}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "property", name: "Powers of a diagonal matrix", statement: "$D^n=\\operatorname{diag}(\\lambda_1^n,\\lambda_2^n)$" }],
+            steps: [
+              { reasoning: "Raise each diagonal entry to the power 4.", working: "2^4=16,\\quad 3^4=81", marks: 1, markCode: "M" },
+              { reasoning: "Write the matrix.", working: "D^4=\\begin{pmatrix} 16 & 0 \\\\ 0 & 81 \\end{pmatrix}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $\\begin{pmatrix} 16 & 0 \\\\ 0 & 81 \\end{pmatrix}$",
+            commonErrors: ["Multiplying the diagonal entries by 4 instead of raising to the power 4."],
+          },
+        },
+        {
+          id: "aihl-u1-diagonalization-q6",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "In the diagonalization $A=PDP^{-1}$, the diagonal matrix $D$ contains:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The eigenvectors of $A$" },
+              { id: "b", text: "The eigenvalues of $A$" },
+              { id: "c", text: "The inverse of $A$" },
+              { id: "d", text: "The powers of $A$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Diagonalization", statement: "$A=PDP^{-1}$ where $D$ has the eigenvalues and the columns of $P$ are the eigenvectors." }],
+            steps: [
+              { reasoning: "Recall the roles of $P$ and $D$.", working: "D=\\operatorname{diag}(\\lambda_1,\\lambda_2)", marks: 1, markCode: "M" },
+              { reasoning: "State what $D$ contains.", working: "\\text{eigenvalues}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** The eigenvalues of $A$",
+            commonErrors: ["Confusing the roles of $P$ (eigenvectors) and $D$ (eigenvalues)."],
+          },
+        },
+        {
+          id: "aihl-u1-diagonalization-q7",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "A matrix $A$ has eigenvalues $1$ and $0.8$. As $n\\to\\infty$, the behaviour of $A^n$ is dominated by:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The eigenvalue $0.8$, since it is smaller" },
+              { id: "b", text: "The eigenvalue $1$, since $|1|$ is largest" },
+              { id: "c", text: "Both eigenvalues equally" },
+              { id: "d", text: "Neither; $A^n$ tends to zero" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "property", name: "Long-term behaviour", statement: "Terms with $|\\lambda|<1$ die away; the eigenvalue with the largest modulus dominates." }],
+            steps: [
+              { reasoning: "$0.8^n\\to0$ while $1^n=1$ for all $n$.", working: "0.8^n\\to0,\\ 1^n=1", marks: 1, markCode: "M" },
+              { reasoning: "So the eigenvalue-1 component survives.", working: "\\lambda=1\\ \\text{dominates}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** The eigenvalue $1$",
+            commonErrors: ["Thinking the smaller eigenvalue dominates."],
+          },
+        },

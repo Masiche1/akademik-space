@@ -1,0 +1,321 @@
+import type { Lesson, TextExtract } from "../../../types.ts";
+
+const TWO_VOYAGES: TextExtract = {
+  title: "Two Accounts of a Sea Crossing",
+  author: "Written for Akademik Space",
+  source: "Source A: a diary entry from 1868. Source B: a modern blog post. Both original.",
+  text: "SOURCE A: from a passenger's diary, 1868\n\nWe were four days out from Liverpool before I could bring myself to leave my berth. The ship, which the company's handbills had described as 'a floating palace', is in truth a damp and creaking vessel that rolls like a drunkard in every swell. My cabin, shared with a stout lady from Leeds who prays loudly in her sleep, measures six feet by five, and the only window is a porthole through which the Atlantic periodically looks in upon us.\n\nYet I will own that I am not wholly miserable. This morning, being at last able to stand, I climbed to the deck and beheld such a sky as I never saw in Yorkshire: a vast bowl of pearl and rose, with the sun rising from an ocean so level that it seemed the world's edge had been ironed flat. An old sailor, observing my wonder, told me he had crossed some two hundred times and that the sea had never once repeated itself. I believe him. I find, to my surprise, that I am quite ready to begin the voyage over again.\n\nSOURCE B: from a travel blog, 2024\n\nDay 3 on board and I am officially a convert to slow travel. Yes, the ferry is basically a floating shopping centre with a gift shop, three cafes and Wi-Fi that works about half the time, but who cares? I spent the morning on the top deck with a flat white, watching the coast of Spain turn from a smudge into actual hills, and honestly, I have never felt so relaxed.\n\nThe crossing takes thirty hours, which most people would say is thirty hours too long. I say it is the best thing about it. No inbox, no commuting, no queues. Just a book, a deck chair and a view that changes every few minutes. A crew member told me she has worked the route for eleven years and still goes out to look at the sunrise. I get it. If you ever have the chance, skip the flight. Your future self will thank you.",
+};
+
+export const lesson23: Lesson = {
+  id: "el9-u2-lesson-2-3",
+  code: "2-3",
+  title: "Comparing Perspectives and Synthesising Texts",
+  goal: "I CAN compare writers' perspectives across time and combine information from two texts into a clear summary.",
+  standards: ["KS3 Reading", "AO3", "AO1"],
+  vocabulary: [
+    { term: "Perspective", definition: "A particular way of seeing or thinking about something, shaped by a writer's time, background and purpose." },
+    { term: "Compare", definition: "Identify similarities and differences between two texts or ideas." },
+    { term: "Synthesise", definition: "Combine information from two or more sources into one clear, connected account." },
+    { term: "Comparative connective", definition: "A word or phrase that links ideas across texts, such as 'similarly', 'whereas' or 'in contrast'." },
+    { term: "Register", definition: "The level of formality of language, from formal to colloquial." },
+    { term: "Colloquial", definition: "Informal, conversational language used in everyday speech." },
+    { term: "Inference", definition: "A conclusion based on evidence in the text rather than stated directly." },
+  ],
+  concepts: [
+    {
+      id: "el9-u2-comparing-perspectives",
+      title: "Comparing perspectives across time",
+      skill: "Compare how writers from different periods present similar experiences, using evidence from both texts.",
+      lesson: {
+        sections: [
+          {
+            heading: "Same experience, different eyes",
+            body: "Two writers can describe the same experience, a sea crossing for example, very differently depending on **when** they write, **who** they are writing for and **why**. A Victorian diarist writes in formal, elaborate language for private reflection; a modern blogger writes colloquially to entertain and persuade readers. Comparing perspectives means asking what each writer feels, and how word choice and tone reveal it.",
+          },
+          {
+            heading: "How to compare",
+            body: "Do not write about each text separately. Make a point about **both** in one paragraph using comparative connectives: 'Whereas the diarist describes the ship as \"a damp and creaking vessel\", the blogger calls the ferry \"a floating shopping centre\", which is lighter and more humorous.' Include a short quotation from each text, say what each shows, and comment on the difference in attitude, language or purpose, noting context where it helps.",
+          },
+        ],
+        keyFormulas: [
+          { name: "Comparative connectives", statement: "Similarly, likewise, whereas, in contrast, however, on the other hand." },
+          { name: "Compare point by point", statement: "One paragraph, one point, evidence from both texts." },
+          { name: "Context", statement: "Explain how time period and audience shape language and attitude." },
+        ],
+        workedExample: {
+          problem: "Compare how the two writers present their feelings about the voyage.",
+          solution: "Both writers begin with some negativity but end positively. In Source A the diarist is initially miserable, calling the ship 'damp and creaking', and ends by admitting 'I am quite ready to begin the voyage over again'. In Source B, the blogger concedes the ferry is 'basically a floating shopping centre' but declares 'I am officially a convert to slow travel'. However, the diarist's change is gradual and surprised ('to my surprise'), whereas the blogger's enthusiasm is immediate and confident. The diarist's formal register suits a private nineteenth-century journal, while the blogger's casual language, 'who cares?', suits a modern online audience.",
+        },
+      },
+      questions: [
+        {
+          id: "el9-u2-comparing-perspectives-q1",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: TWO_VOYAGES,
+          stem: "Which statement is true of BOTH sources?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Both writers are won over by the view from the deck" },
+              { id: "b", text: "Both writers hate the voyage from start to finish" },
+              { id: "c", text: "Both writers complain about the cost of the ticket" },
+              { id: "d", text: "Both writers are travelling for business" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Comparison", statement: "Find a point that applies to both texts." }],
+            steps: [{ reasoning: "Source A is moved by the sky and sunrise; Source B watches the coast and sunrise with pleasure.", evidence: "a vast bowl of pearl and rose", marks: 1, markCode: "AO3" }],
+            finalAnswer: "**(a)** Both writers respond positively to what they see from the deck.",
+            commonErrors: ["Choosing (b) because Source A begins miserably, but both end positively."],
+          },
+        },
+        {
+          id: "el9-u2-comparing-perspectives-q2",
+          difficulty: "core",
+          totalMarks: 4,
+          extract: TWO_VOYAGES,
+          stem: "Compare how the two writers describe their ship. Use a quotation from each source.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Comparative paragraph", statement: "Make one point about both texts, with evidence from each." },
+              { kind: "technique", name: "Contrasting tone", statement: "Different word choice shows different attitudes." },
+            ],
+            steps: [
+              { reasoning: "Source A: the ship is uncomfortable and disappointing, contradicting the advertisement.", evidence: "a damp and creaking vessel", marks: 1, markCode: "AO3" },
+              { reasoning: "The simile 'rolls like a drunkard' adds humour and shows the ship's instability.", evidence: "rolls like a drunkard", marks: 1, markCode: "AO3" },
+              { reasoning: "Source B: the ferry is modern and full of comforts, treated lightly and humorously.", evidence: "a floating shopping centre", marks: 1, markCode: "AO3" },
+              { reasoning: "A comparative judgement: A emphasises discomfort and hardship, B emphasises convenience, reflecting different eras.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Whereas the diarist presents the ship as 'a damp and creaking vessel' that 'rolls like a drunkard', the blogger calls the ferry 'a floating shopping centre', showing modern comforts; the contrast reflects how travel has changed.",
+            commonErrors: ["Writing about the ships in separate paragraphs.", "No comparative connective.", "Quoting only one source."],
+          },
+        },
+        {
+          id: "el9-u2-comparing-perspectives-q3",
+          difficulty: "challenge",
+          totalMarks: 8,
+          extract: TWO_VOYAGES,
+          stem: "Compare how the writers use language to show their different attitudes to the length of the journey. Support your answer with detailed reference to both sources.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Comparing methods", statement: "Compare language choices as well as ideas." },
+              { kind: "context", name: "Historical context", statement: "A nineteenth-century crossing was long, uncomfortable and dangerous; a modern ferry is a leisure choice." },
+            ],
+            steps: [
+              { reasoning: "Source A: the length is endured through hardship, 'four days out ... before I could bring myself to leave my berth', showing seasickness.", evidence: "four days out from Liverpool", marks: 2, markCode: "AO3" },
+              { reasoning: "Source A: the writer reluctantly changes his mind, 'to my surprise', 'begin the voyage over again', showing a formal, reflective tone.", evidence: "I am quite ready to begin the voyage over again", marks: 2, markCode: "AO3" },
+              { reasoning: "Source B: the length is embraced, 'thirty hours too long' turned into 'the best thing', in colloquial, confident language.", evidence: "I say it is the best thing about it", marks: 2, markCode: "AO3" },
+              { reasoning: "Comparative: A's attitude evolves from endurance to delight; B's is chosen and persuasive, using short fragments 'No inbox, no commuting, no queues'. Context explains the difference.", evidence: "No inbox, no commuting, no queues", marks: 2, markCode: "AO3" },
+            ],
+            levels: [
+              { level: "Level 4", marks: "7-8", descriptor: "Perceptive, discriminating comparison of attitude and language, with well-chosen references to both sources." },
+              { level: "Level 3", marks: "5-6", descriptor: "Clear comparison with relevant references to both sources." },
+              { level: "Level 2", marks: "3-4", descriptor: "Some comparison; some relevant references, may be unbalanced." },
+              { level: "Level 1", marks: "1-2", descriptor: "Simple, limited comment; may deal with sources separately." },
+            ],
+            finalAnswer: "The diarist endures a long voyage, four days before leaving the berth, and only gradually and 'to my surprise' welcomes it; the blogger embraces thirty hours as 'the best thing', using colloquial fragments ('No inbox, no commuting, no queues'). The difference reflects a nineteenth-century necessity versus a modern leisure choice.",
+            commonErrors: ["Writing about each source in turn.", "Ignoring the language and only comparing ideas."],
+          },
+        },
+        {
+          id: "el9-u2-comparing-perspectives-q4",
+          difficulty: "challenge",
+          totalMarks: 26,
+          extract: TWO_VOYAGES,
+          stem: "Use both sources to answer the questions below.",
+          parts: [
+            { label: "a", prompt: "Give two things the diarist says about their cabin in Source A.", marks: 2 },
+            { label: "b", prompt: "What does Source B suggest about the writer's attitude to modern travel by plane?", marks: 4 },
+            { label: "c", prompt: "Compare how the two writers use the sunrise and the sea to convey their feelings.", marks: 8 },
+            { label: "d", prompt: "'Modern travel is more enjoyable than travel in the past.' To what extent do these sources support this view? Compare the writers' perspectives and methods.", marks: 12 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Comparison (AO3)", statement: "Link ideas and methods across two texts." },
+              { kind: "context", name: "Context", statement: "Time period and audience shape language and attitude." },
+              { kind: "skill", name: "Evaluating a view", statement: "Test a statement against evidence from both sources." },
+            ],
+            steps: [
+              { part: "a", reasoning: "It is small: six feet by five.", evidence: "measures six feet by five", marks: 1, markCode: "AO1" },
+              { part: "a", reasoning: "It is shared and has only a porthole.", evidence: "shared with a stout lady from Leeds", marks: 1, markCode: "AO1" },
+              { part: "b", reasoning: "He prefers slow travel to flying: 'skip the flight'.", evidence: "skip the flight", marks: 2, markCode: "AO1" },
+              { part: "b", reasoning: "He sees the long journey as a benefit: relaxing, free from stress like 'No inbox'.", evidence: "No inbox, no commuting, no queues", marks: 2, markCode: "AO1" },
+              { part: "c", reasoning: "Source A: the sky is described in elevated, poetic language 'a vast bowl of pearl and rose', conveying awe.", evidence: "a vast bowl of pearl and rose", marks: 2, markCode: "AO3" },
+              { part: "c", reasoning: "Source A: the sea is limitless and never repeats itself, which conveys wonder and changes his mood.", evidence: "the sea had never once repeated itself", marks: 2, markCode: "AO3" },
+              { part: "c", reasoning: "Source B: the view is simpler and more casual: 'a smudge into actual hills' and 'a view that changes every few minutes', conveying calm and relaxation.", evidence: "a view that changes every few minutes", marks: 2, markCode: "AO3" },
+              { part: "c", reasoning: "Comparative: both link the sea to change and renewal, but A is awed and formal, B is relaxed and informal.", marks: 2, markCode: "AO3" },
+              { part: "d", reasoning: "Support: B's comfort (cafes, Wi-Fi) is a clear improvement on A's cramped cabin.", evidence: "a floating shopping centre", marks: 3, markCode: "AO3" },
+              { part: "d", reasoning: "Challenge: A finds deep wonder despite hardship, and B makes enjoyment a choice, not a given.", evidence: "I am quite ready to begin the voyage over again", marks: 3, markCode: "AO3" },
+              { part: "d", reasoning: "Methods: A's formal, descriptive language versus B's colloquial persuasive tone shows different purposes.", evidence: "who cares?", marks: 3, markCode: "AO3" },
+              { part: "d", reasoning: "Evaluative conclusion: modern travel is more comfortable, but not necessarily more enjoyable; enjoyment depends on attitude and the view.", marks: 3, markCode: "AO3" },
+            ],
+            levels: [
+              { part: "c", level: "Level 4", marks: "7-8", descriptor: "Perceptive comparison of language and feeling with well-chosen references to both." },
+              { part: "c", level: "Level 3", marks: "5-6", descriptor: "Clear comparison with relevant references." },
+              { part: "c", level: "Level 2", marks: "3-4", descriptor: "Some comparison with some relevant references." },
+              { part: "c", level: "Level 1", marks: "1-2", descriptor: "Simple, limited comments." },
+              { part: "d", level: "Level 5", marks: "11-12", descriptor: "Perceptive, discriminating evaluation and comparison, assured use of evidence from both sources." },
+              { part: "d", level: "Level 4", marks: "9-10", descriptor: "Thorough, balanced evaluation with well-chosen evidence from both sources." },
+              { part: "d", level: "Level 3", marks: "6-8", descriptor: "Clear evaluation with relevant evidence from both sources." },
+              { part: "d", level: "Level 2", marks: "3-5", descriptor: "Some evaluation; some relevant references." },
+              { part: "d", level: "Level 1", marks: "1-2", descriptor: "Simple, limited comment." },
+            ],
+            finalAnswer: "(a) It is six feet by five; it is shared and has a porthole. (b) The blogger prefers slow travel and tells readers to 'skip the flight' for its calm. (c) A uses poetic imagery ('pearl and rose') and awe at a sea that 'never once repeated itself'; B uses casual language ('a view that changes every few minutes') to show relaxation; both find renewal in the sea. (d) The sources partly support the view because B's ferry is far more comfortable, but A finds profound enjoyment despite hardship and B's pleasure comes from attitude, so enjoyment is not simply a matter of era.",
+            commonErrors: ["Treating the sources separately.", "No comment on language or method.", "Agreeing with the statement without testing it."],
+          },
+        },
+      ],
+    },
+    {
+      id: "el9-u2-summarise-synthesise",
+      title: "Summarising and synthesising two texts",
+      skill: "Select information from two sources and combine it into a clear, concise summary.",
+      lesson: {
+        sections: [
+          {
+            heading: "Selecting and grouping",
+            body: "A synthesis question asks you to use **both** texts to explain something, such as 'the differences between the two voyages'. First, highlight relevant points in each text. Then group the points into themes: comfort, feelings, activities. Finally write sentences that bring a point from each source together, rather than summarising one text and then the other.",
+          },
+          {
+            heading: "Writing the synthesis",
+            body: "Use your own words and keep it concise. Link the sources with connectives ('Both... whereas...'). Include only what answers the question. Make inferences if the question asks for them, but do not add opinions the sources do not support. A good synthesis reads as one connected paragraph, not two lists.",
+          },
+        ],
+        keyFormulas: [
+          { name: "Synthesis", statement: "Combine points from both sources into one connected account." },
+          { name: "Group by theme", statement: "Organise points by topic, not by source." },
+          { name: "Own words", statement: "Rephrase rather than copy, and keep the summary concise." },
+        ],
+        workedExample: {
+          problem: "Use both sources to summarise the differences between the two journeys.",
+          solution: "The diarist's 1868 voyage was cramped and uncomfortable, spent in a shared six-foot cabin and rolling seas, while the blogger's modern ferry offers shops, cafes and Wi-Fi. The diarist took days to recover from seasickness, whereas the blogger relaxes immediately. However, both are moved by the sea and sunrise, and both come to enjoy the journey.",
+        },
+      },
+      questions: [
+        {
+          id: "el9-u2-summarise-synthesise-q1",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: TWO_VOYAGES,
+          stem: "Which pair of details correctly matches the sources?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A: shared cabin with a porthole; B: ferry with cafes and a gift shop" },
+              { id: "b", text: "A: ferry with Wi-Fi; B: damp and creaking ship" },
+              { id: "c", text: "A: a crossing lasting thirty hours; B: a crossing from Liverpool" },
+              { id: "d", text: "A: a crew member of eleven years; B: a sailor of two hundred crossings" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Selecting accurately", statement: "Match each detail to the correct source." }],
+            steps: [{ reasoning: "Source A has the shared cabin and porthole; Source B has the cafes and gift shop.", evidence: "a floating shopping centre with a gift shop", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(a)** The cabin belongs to Source A and the cafes to Source B.",
+            commonErrors: ["Mixing up the crew member (B) and the sailor (A)."],
+          },
+        },
+        {
+          id: "el9-u2-summarise-synthesise-q2",
+          difficulty: "core",
+          totalMarks: 4,
+          extract: TWO_VOYAGES,
+          stem: "Use details from both sources to summarise what the writers enjoyed about their journeys. Write in your own words.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Synthesis", statement: "Combine evidence from both texts in one account." },
+              { kind: "skill", name: "Own words", statement: "Rephrase rather than copy." },
+            ],
+            steps: [
+              { reasoning: "Source A: enjoyed the spectacular sunrise and sky.", evidence: "a vast bowl of pearl and rose", marks: 1, markCode: "AO1" },
+              { reasoning: "Source A: was moved by the sailor's remark that the sea never repeats itself, and wants to travel again.", evidence: "the sea had never once repeated itself", marks: 1, markCode: "AO1" },
+              { reasoning: "Source B: enjoyed watching the coast approach from the deck and the relaxation of time away from daily pressures.", evidence: "watching the coast of Spain turn from a smudge into actual hills", marks: 1, markCode: "AO1" },
+              { reasoning: "Source B: valued the peace of no inbox or queues, and the changing view.", evidence: "No inbox, no commuting, no queues", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "Both writers enjoyed the changing sea and sky from the deck: the diarist was awed by a spectacular sunrise and the idea that the ocean never repeats itself, while the blogger loved the relaxation and watching the coast change without the stresses of daily life.",
+            commonErrors: ["Summarising one source only.", "Copying phrases directly."],
+          },
+        },
+        {
+          id: "el9-u2-summarise-synthesise-q3",
+          difficulty: "challenge",
+          totalMarks: 6,
+          extract: TWO_VOYAGES,
+          stem: "Using both sources, explain what each writer learns from a stranger they meet on the voyage, and what this shows about their attitudes. Write in your own words.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Synthesis", statement: "Draw out connected points from both texts." },
+              { kind: "skill", name: "Inference", statement: "Show what the details imply about attitude." },
+            ],
+            steps: [
+              { reasoning: "A: the old sailor has crossed about two hundred times and says the sea never repeats itself.", evidence: "two hundred times", marks: 1, markCode: "AO1" },
+              { reasoning: "A: the diarist believes him, showing humility and growing wonder.", evidence: "I believe him", marks: 1, markCode: "AO1" },
+              { reasoning: "B: the crew member has worked the route eleven years and still watches the sunrise.", evidence: "still goes out to look at the sunrise", marks: 1, markCode: "AO1" },
+              { reasoning: "B: the blogger says 'I get it', showing agreement and delight.", evidence: "I get it", marks: 1, markCode: "AO1" },
+              { reasoning: "Both strangers show familiarity does not dull the sea's wonder, which influences both writers positively.", marks: 2, markCode: "AO3" },
+            ],
+            levels: [
+              { level: "Level 3", marks: "5-6", descriptor: "Clear synthesis of both sources with relevant inference about attitude." },
+              { level: "Level 2", marks: "3-4", descriptor: "Some synthesis, some relevant references from both sources." },
+              { level: "Level 1", marks: "1-2", descriptor: "Simple, limited comment, may cover one source." },
+            ],
+            finalAnswer: "The diarist learns from an old sailor of two hundred crossings that the sea never repeats itself and is humbled; the blogger learns from a crew member of eleven years that she still watches the sunrise and says 'I get it'. Both strangers show the sea never loses its wonder, which deepens each writer's appreciation.",
+            commonErrors: ["Mixing up who said what.", "Not explaining the attitude."],
+          },
+        },
+        {
+          id: "el9-u2-summarise-synthesise-q4",
+          difficulty: "challenge",
+          totalMarks: 20,
+          extract: TWO_VOYAGES,
+          stem: "Use both sources to answer the questions below.",
+          parts: [
+            { label: "a", prompt: "Give two ways in which the diarist's journey in Source A is difficult.", marks: 2 },
+            { label: "b", prompt: "Using your own words, summarise the main differences between the ships in the two sources.", marks: 4 },
+            { label: "c", prompt: "Write a synthesis of how the two writers' feelings change during their journeys, using evidence from both sources.", marks: 6 },
+            { label: "d", prompt: "Explain how the writers' purposes and audiences affect the language they use.", marks: 8 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Synthesis", statement: "Group and combine information from both texts." },
+              { kind: "context", name: "Purpose and audience", statement: "Private diary versus public blog shapes register." },
+              { kind: "skill", name: "Own words", statement: "Rephrase and keep it concise." },
+            ],
+            steps: [
+              { part: "a", reasoning: "The diarist is seasick for four days and does not leave the berth.", evidence: "four days out from Liverpool", marks: 1, markCode: "AO1" },
+              { part: "a", reasoning: "The cabin is cramped and shared with a loud sleeper.", evidence: "prays loudly in her sleep", marks: 1, markCode: "AO1" },
+              { part: "b", reasoning: "A's ship is damp, creaking and unsteady, nothing like its advertising.", evidence: "damp and creaking vessel", marks: 2, markCode: "AO1" },
+              { part: "b", reasoning: "B's ferry is large, modern and comfortable, with shops, cafes and Wi-Fi.", evidence: "three cafes and Wi-Fi", marks: 2, markCode: "AO1" },
+              { part: "c", reasoning: "A moves from misery to eager enjoyment as the sunrise wins him over.", evidence: "quite ready to begin the voyage over again", marks: 2, markCode: "AO3" },
+              { part: "c", reasoning: "B moves from a mild apology about the ferry to confident delight in slow travel.", evidence: "officially a convert to slow travel", marks: 2, markCode: "AO3" },
+              { part: "c", reasoning: "Synthesis: both writers are changed by the sea and the experience, though A's change is surprised and B's is announced.", marks: 2, markCode: "AO3" },
+              { part: "d", reasoning: "A is a private diary: formal, descriptive and reflective, with elaborate vocabulary typical of the period.", evidence: "I will own that I am not wholly miserable", marks: 3, markCode: "AO3" },
+              { part: "d", reasoning: "B is a public blog meant to entertain and persuade: colloquial, with rhetorical questions and direct address.", evidence: "If you ever have the chance, skip the flight.", marks: 3, markCode: "AO3" },
+              { part: "d", reasoning: "Conclusion: purpose and audience explain the register, with A reflective and B persuasive.", marks: 2, markCode: "AO3" },
+            ],
+            levels: [
+              { part: "c", level: "Level 3", marks: "5-6", descriptor: "Clear, connected synthesis of both sources with relevant evidence." },
+              { part: "c", level: "Level 2", marks: "3-4", descriptor: "Some synthesis with some relevant references." },
+              { part: "c", level: "Level 1", marks: "1-2", descriptor: "Simple, limited comments." },
+              { part: "d", level: "Level 4", marks: "7-8", descriptor: "Perceptive, well-supported explanation of how purpose and audience shape language in both sources." },
+              { part: "d", level: "Level 3", marks: "5-6", descriptor: "Clear explanation with relevant evidence from both." },
+              { part: "d", level: "Level 2", marks: "3-4", descriptor: "Some explanation; some relevant references." },
+              { part: "d", level: "Level 1", marks: "1-2", descriptor: "Simple, limited comment." },
+            ],
+            finalAnswer: "(a) He is seasick for four days; the cabin is cramped and shared. (b) A's ship is damp, creaking and unstable; B's ferry is large and modern with shops, cafes and Wi-Fi. (c) A moves from misery to eager enjoyment, B from mild apology to confident delight; both are won over by the sea. (d) The diary is private, so A writes formally and reflectively; the blog is public, so B writes colloquially and persuasively, addressing the reader directly.",
+            commonErrors: ["Summarising each source separately.", "Copying phrases.", "Ignoring purpose and audience in (d)."],
+          },
+        },
+      ],
+    },
+  ],
+};

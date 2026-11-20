@@ -1,0 +1,49 @@
+        {
+          id: "aihl-u1-matrix-operations-q13",
+          difficulty: "challenge",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Which of the following matrices is singular (has determinant zero)?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\begin{pmatrix} 1 & 2 \\\\ 2 & 4 \\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix} 1 & 2 \\\\ 2 & 3 \\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix} 2 & 1 \\\\ 1 & 2 \\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Singular matrix", statement: "A square matrix is singular when its determinant is zero." }],
+            steps: [
+              { reasoning: "Check each determinant.", working: "1\\times4-2\\times2=0", marks: 1, markCode: "M" },
+              { reasoning: "The other determinants are $-1$, $3$ and $1$, all non-zero.", working: "\\det=0\\ \\text{only for (a)}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $\\begin{pmatrix} 1 & 2 \\\\ 2 & 4 \\end{pmatrix}$",
+            commonErrors: ["Thinking a matrix with repeated rows must be singular — here the second row is twice the first."],
+          },
+        },
+        {
+          id: "aihl-u1-matrix-operations-q14",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 4,
+          stem: "Let $A$ and $B$ be $2\\times2$ matrices with $\\det A=6$ and $\\det B=-4$.",
+          parts: [
+            { label: "a", prompt: "Find $\\det(AB)$.", marks: 2 },
+            { label: "b", prompt: "Find $\\det(A^2)$.", marks: 2 },
+          ],
+          response: { type: "numeric", parts: [{ label: "(a) $\\det(AB)$", answer: -24 }, { label: "(b) $\\det(A^2)$", answer: 36 }] },
+          markscheme: {
+            principles: [{ kind: "property", name: "Product of determinants", statement: "$\\det(AB)=\\det A\\,\\det B$" }],
+            steps: [
+              { part: "a", reasoning: "Apply the product rule.", working: "\\det(AB)=\\det A\\times\\det B", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Evaluate.", working: "6\\times(-4)=-24", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$\\det(A^2)=\\det A\\times\\det A$.", working: "\\det(A^2)=6\\times6", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Evaluate.", working: "=36", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $-24$ (b) $36$",
+            commonErrors: ["Adding the determinants instead of multiplying them."],
+          },
+        },

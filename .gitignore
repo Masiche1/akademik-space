@@ -1,0 +1,17 @@
+# Archives and source dumps (too large / not for VCS)
+*.zip
+*.tar.gz
+*.tgz
+*.tar
+.revhub-sample/
+Akademik-Space-files/
+
+# Logs
+*.log
+
+# Windows reserved-name stray files
+nul
+
+# OS / editor
+.DS_Store
+Thumbs.db

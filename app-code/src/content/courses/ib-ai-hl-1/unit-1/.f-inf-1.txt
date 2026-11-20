@@ -1,0 +1,78 @@
+        {
+          id: "aihl-u1-inf-q5",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "The sum of $6+3+1.5+0.75+\\cdots$ is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$12$" },
+              { id: "b", text: "$9$" },
+              { id: "c", text: "$6$" },
+              { id: "d", text: "Does not exist" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Infinite geometric sum", statement: "$S_\\infty=\\frac{a}{1-r}$ for $|r|<1$" }],
+            steps: [
+              { reasoning: "$a=6$ and $r=\\frac12$, so $|r|<1$ and the series converges.", working: "r=\\frac{3}{6}=\\frac12", marks: 1, markCode: "M" },
+              { reasoning: "Apply the formula.", working: "S=\\frac{6}{1-1/2}=12", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $12$",
+            commonErrors: ["Using $a=3$ (the second term) instead of the first term 6."],
+          },
+        },
+        {
+          id: "aihl-u1-inf-q6",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Which of the following infinite geometric series converges?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$r=0.9$" },
+              { id: "b", text: "$r=1$" },
+              { id: "c", text: "$r=-1.5$" },
+              { id: "d", text: "$r=2$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Convergence", statement: "A geometric series converges iff $|r|<1$" }],
+            steps: [
+              { reasoning: "Check each modulus against 1.", working: "|0.9|<1;\\ |1|=1;\\ |-1.5|>1;\\ |2|>1", marks: 1, markCode: "M" },
+              { reasoning: "Only $r=0.9$ satisfies $|r|<1$.", working: "r=0.9", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $r=0.9$",
+            commonErrors: ["Thinking $r=1$ converges because the ratio is constant."],
+          },
+        },
+        {
+          id: "aihl-u1-inf-q7",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "The recurring decimal $0.\\dot{4}=0.444\\ldots$ is equal to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{4}{9}$" },
+              { id: "b", text: "$\\frac{4}{11}$" },
+              { id: "c", text: "$\\frac{9}{44}$" },
+              { id: "d", text: "$\\frac{44}{9}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Recurring decimals as series", statement: "$0.\\dot{4}=0.4+0.04+0.004+\\cdots$ with $a=0.4$, $r=0.1$" }],
+            steps: [
+              { reasoning: "Sum the series: $S=\\frac{0.4}{1-0.1}=\\frac{0.4}{0.9}$.", working: "\\frac{0.4}{0.9}", marks: 1, markCode: "M" },
+              { reasoning: "Simplify.", working: "\\frac{4}{9}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $\\frac{4}{9}$",
+            commonErrors: ["Using $r=0.01$ as for a two-digit repeat."],
+          },
+        },

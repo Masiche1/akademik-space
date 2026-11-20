@@ -1,0 +1,70 @@
+        {
+          id: "aihl-u1-rat-q5",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "The value of $27^{-2/3}$ is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{1}{9}$" },
+              { id: "b", text: "$9$" },
+              { id: "c", text: "$-9$" },
+              { id: "d", text: "$\\frac{1}{3}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Rational exponent", statement: "$a^{-m/n}=\\frac{1}{a^{m/n}}=\\frac{1}{(\\sqrt[n]{a})^m}$" }],
+            steps: [
+              { reasoning: "Take the reciprocal first, then evaluate $27^{2/3}$.", working: "27^{-2/3}=\\frac{1}{27^{2/3}}", marks: 1, markCode: "M" },
+              { reasoning: "$27^{2/3}=(\\sqrt[3]{27})^2=3^2=9$.", working: "\\frac{1}{9}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $\\frac{1}{9}$",
+            commonErrors: ["Dropping the negative sign and answering $9$."],
+          },
+        },
+        {
+          id: "aihl-u1-rat-q6",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "For $x>0$, the expression $x^{1/2}\\cdot x^{1/3}$ simplifies to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x^{1/6}$" },
+              { id: "b", text: "$x^{5/6}$" },
+              { id: "c", text: "$x^{2/3}$" },
+              { id: "d", text: "$x^{3/2}$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Product of powers", statement: "$a^p\\cdot a^q=a^{p+q}$ for rational $p,q$" }],
+            steps: [
+              { reasoning: "Add the exponents.", working: "\\frac12+\\frac13=\\frac{3+2}{6}=\\frac56", marks: 1, markCode: "M" },
+              { reasoning: "State the simplified power.", working: "x^{5/6}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** $x^{5/6}$",
+            commonErrors: ["Multiplying the exponents instead of adding them."],
+          },
+        },
+        {
+          id: "aihl-u1-rat-q7",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 3,
+          stem: "Solve $x^{2/3}=4$ for $x>0$.",
+          response: { type: "numeric", parts: [{ label: "$x$", answer: 8 }] },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Solving power equations", statement: "$x^{p/q}=k \\Rightarrow x=k^{q/p}$" }],
+            steps: [
+              { reasoning: "Raise both sides to the reciprocal power $\\frac32$.", working: "x=4^{3/2}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate $4^{3/2}=(\\sqrt4)^3=2^3$.", working: "4^{3/2}=8", marks: 1, markCode: "M" },
+              { reasoning: "State the solution.", working: "x=8", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$x=8$",
+            commonErrors: ["Taking the cube root instead of the $\\frac32$ power, giving $x=\\sqrt[3]{16}$."],
+          },
+        },

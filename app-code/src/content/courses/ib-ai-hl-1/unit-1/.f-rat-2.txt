@@ -1,0 +1,72 @@
+        {
+          id: "aihl-u1-rat-q8",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 3,
+          stem: "Evaluate $32^{3/5}$.",
+          response: { type: "numeric", parts: [{ label: "Value", answer: 8 }] },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Rational exponent", statement: "$a^{m/n}=(\\sqrt[n]{a})^m$" }],
+            steps: [
+              { reasoning: "Write 32 as a power of 2: $32=2^5$.", working: "32^{3/5}=(2^5)^{3/5}", marks: 1, markCode: "M" },
+              { reasoning: "Multiply the exponents.", working: "=2^{5\\times3/5}=2^3", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "=8", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$8$",
+            commonErrors: ["Taking the fifth root of 3 instead of of 32."],
+          },
+        },
+        {
+          id: "aihl-u1-rat-q9",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "For $x>0$, $(x^{2/3})^3$ simplifies to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x^2$" },
+              { id: "b", text: "$x^{8/9}$" },
+              { id: "c", text: "$x^3$" },
+              { id: "d", text: "$x^{1/2}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Power of a power", statement: "$(a^p)^q=a^{pq}$" }],
+            steps: [
+              { reasoning: "Multiply the exponents: $\\frac23\\times3$.", working: "\\frac23\\times3=2", marks: 1, markCode: "M" },
+              { reasoning: "State the result.", working: "x^2", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $x^2$",
+            commonErrors: ["Adding the exponents instead of multiplying them."],
+          },
+        },
+        {
+          id: "aihl-u1-rat-q10",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 6,
+          stem: "Solve $\\sqrt{x}=x-2$ for $x\\ge0$.",
+          parts: [
+            { label: "a", prompt: "Rearrange to form a quadratic in $x$.", marks: 2 },
+            { label: "b", prompt: "Solve the quadratic.", marks: 2 },
+            { label: "c", prompt: "Check which solution is valid and explain.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Squaring", statement: "Squaring both sides may introduce extraneous solutions, so check each candidate." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Let $u=\\sqrt{x}$, so $x=u^2$; or square directly: $x=(x-2)^2$.", working: "x=x^2-4x+4", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Rearrange.", working: "x^2-5x+4=0", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Factorise.", working: "(x-1)(x-4)=0", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State both candidates.", working: "x=1\\ \\text{or}\\ x=4", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Check $x=1$: $\\sqrt1=1$ but $x-2=-1$ — fails.", working: "x=1\\ \\text{rejected}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Check $x=4$: $\\sqrt4=2$ and $4-2=2$ — valid.", working: "x=4", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$x=4$",
+            commonErrors: ["Accepting $x=1$ without substituting back."],
+          },
+        },

@@ -1,0 +1,335 @@
+import type { Lesson, TextExtract } from "../../../types.ts";
+
+const ARGUMENT_MODEL: TextExtract = {
+  title: "Should Homework Be Abolished?",
+  author: "Written for Akademik Space",
+  source: "Original model argument",
+  text: "Homework is the one tax that every young person pays and no young person voted for. Each evening, millions of students trudge home with bags that weigh as much as small children, to sit at kitchen tables and complete tasks that their teachers could have set during the day. I believe it is time to ask whether this ritual still deserves its place.\n\nSupporters of homework claim that it builds discipline. There is some truth in this: a student who learns to work alone develops independence. However, discipline is a habit of mind, not a product of worksheets, and it can be taught through projects that students choose and care about. A task completed through boredom teaches only how to endure boredom.\n\nMore troubling is the question of fairness. A student with a quiet bedroom, a fast computer and a patient parent can finish homework easily; a student sharing a crowded flat with a younger brother cannot. Homework, supposedly a ladder, therefore becomes a barrier, widening the very gaps that schools exist to close.\n\nFinally, consider what is lost. Childhood is short. Evenings spent in sport, music, conversation or simple rest are not wasted hours; they are where young people grow. Should we really trade all of that for a page of sums?\n\nHomework has had its day. Let us make learning shorter, sharper and better, and let students go home.",
+};
+
+const SPEECH_MODEL: TextExtract = {
+  title: "A Speech on Litter",
+  author: "Written for Akademik Space",
+  source: "Original model speech",
+  text: "Good morning, everyone. Look around you. Look at the playground, the corridor, the field. How many pieces of litter can you count before the bell rings?\n\nI counted forty-three.\n\nForty-three crisp packets, bottles and wrappers, dropped by people who simply did not think. And that is the problem: not cruelty, not malice, but thoughtlessness. We are not a school of vandals; we are a school of people who walk past.\n\nNow some of you will say, 'It is the cleaners' job.' I say: would you leave your bedroom floor for someone else to tidy? This school is our shared home, and a home is only as clean as the people who live in it.\n\nSo here is my challenge. For one week, every one of us picks up three pieces of litter a day. Three. Not thirty. Three. Together, that is over two thousand pieces gone every week.\n\nLet us be the school that other schools talk about, not because of what we left behind, but because of what we picked up. Thank you.",
+};
+
+export const lesson32: Lesson = {
+  id: "el9-u3-lesson-3-2",
+  code: "3-2",
+  title: "Writing to Argue and Persuade",
+  goal: "I CAN structure a well-developed argument and write a persuasive speech using rhetorical techniques.",
+  standards: ["KS3 Writing", "AO4", "AO5"],
+  vocabulary: [
+    { term: "Argument", definition: "A reasoned case for a point of view, supported by evidence and explanation." },
+    { term: "Counter-argument", definition: "An opposing point which the writer raises in order to answer it." },
+    { term: "Rhetorical question", definition: "A question asked for effect, not to be answered." },
+    { term: "Rule of three", definition: "Grouping three words, phrases or ideas together for rhythm and emphasis." },
+    { term: "Direct address", definition: "Speaking straight to the audience, using 'you' and 'we'." },
+    { term: "Anaphora", definition: "Repeating a word or phrase at the start of successive clauses or sentences." },
+    { term: "Call to action", definition: "A closing appeal asking the audience to do something." },
+  ],
+  concepts: [
+    {
+      id: "el9-u3-structuring-argument",
+      title: "Structuring an argument",
+      skill: "Plan and write a coherent argument with an engaging opening, developed paragraphs, a counter-argument and a strong conclusion.",
+      lesson: {
+        sections: [
+          {
+            heading: "The architecture of an argument",
+            body: "A strong argument is built, not blurted out. Open with a hook that states your viewpoint clearly. Then develop three or four paragraphs, each with one main point: a **topic sentence**, evidence or an example, and an explanation of why it matters. Include a **counter-argument** paragraph, where you admit an opposing point and answer it. End with a conclusion that returns to your opening idea and leaves the reader with a final thought.",
+          },
+          {
+            heading: "Linking and persuading",
+            body: "Use discourse markers to guide the reader: 'Firstly', 'However', 'More troubling still', 'Finally'. Vary sentences, using rhetorical questions and short punchy sentences at key moments. Keep a consistent, controlled tone, formal enough to be credible but with some personality. Choose precise vocabulary and be specific: 'a student sharing a crowded flat' is more persuasive than 'some students have problems'.",
+          },
+        ],
+        keyFormulas: [
+          { name: "Paragraph pattern", statement: "Point, evidence, explanation, link back to the argument." },
+          { name: "Counter-argument", statement: "Admit a fair opposing point, then explain why your view is stronger." },
+          { name: "Discourse markers", statement: "Firstly, however, moreover, finally: signpost the shape of the argument." },
+        ],
+        workedExample: {
+          problem: "Explain how the model article is structured to build its argument.",
+          solution: "It opens with a striking metaphor ('the one tax') and a clear statement of position. The second paragraph introduces and answers a counter-argument about discipline, using 'However' to pivot. The third deepens the case with the more serious issue of fairness, signalled by 'More troubling'. The fourth uses a rhetorical question to appeal to emotions about childhood. The short final paragraph repeats the idea of the opening in a punchy conclusion: 'let students go home'. Escalating the points from mild to serious gives the argument momentum.",
+        },
+      },
+      questions: [
+        {
+          id: "el9-u3-structuring-argument-q1",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: ARGUMENT_MODEL,
+          stem: "What is the purpose of the second paragraph of the model article?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To raise a counter-argument and answer it" },
+              { id: "b", text: "To introduce the writer's family" },
+              { id: "c", text: "To summarise the whole argument" },
+              { id: "d", text: "To describe a school day in detail" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Counter-argument", statement: "Raising an opposing view in order to answer it." }],
+            steps: [{ reasoning: "The paragraph states what supporters claim and then answers it with 'However'.", evidence: "Supporters of homework claim that it builds discipline.", marks: 1, markCode: "AO2" }],
+            finalAnswer: "**(a)** It raises the discipline argument and answers it.",
+            commonErrors: ["Choosing (c), which describes the conclusion, not the second paragraph."],
+          },
+        },
+        {
+          id: "el9-u3-structuring-argument-q2",
+          difficulty: "core",
+          totalMarks: 3,
+          extract: ARGUMENT_MODEL,
+          stem: "Explain the effect of the final paragraph of the model article ('Homework has had its day...').",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Short punchy conclusion", statement: "A brief final paragraph gives memorable emphasis." },
+              { kind: "technique", name: "Call to action", statement: "An imperative that asks the reader to share the view." },
+            ],
+            steps: [
+              { reasoning: "It is short, which gives emphasis and finality.", evidence: "Homework has had its day.", marks: 1, markCode: "AO2" },
+              { reasoning: "The idiom is confident and dismissive, strengthening the writer's authority.", evidence: "has had its day", marks: 1, markCode: "AO2" },
+              { reasoning: "The imperative 'let students go home' is a call to action, ending with a vivid image of freedom.", evidence: "let students go home", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "The short, confident final paragraph gives emphasis, and the imperative 'let students go home' is a call to action that ends on a freeing image.",
+            commonErrors: ["Repeating the paragraph's content.", "Not commenting on length or form."],
+          },
+        },
+        {
+          id: "el9-u3-structuring-argument-q3",
+          difficulty: "challenge",
+          totalMarks: 12,
+          stem: "Write two paragraphs of an article arguing that students should be allowed to use phones in school. One paragraph must develop an argument and one must include a counter-argument and answer it. You will be assessed on structure and development (AO4) and technical accuracy (AO5).",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "PEE in argument", statement: "Point, evidence, explanation in each paragraph." },
+              { kind: "technique", name: "Counter-argument", statement: "Admit and answer an opposing view." },
+              { kind: "skill", name: "Technical accuracy", statement: "Accurate spelling, punctuation and sentence variety." },
+            ],
+            steps: [
+              { reasoning: "A clear, developed point with specific evidence or example.", marks: 3, markCode: "AO4" },
+              { reasoning: "A fair counter-argument followed by a convincing rebuttal using a pivot word.", marks: 3, markCode: "AO4" },
+              { reasoning: "Controlled tone, discourse markers and persuasive devices.", marks: 3, markCode: "AO4" },
+              { reasoning: "Accurate punctuation, spelling and varied sentence structures.", marks: 3, markCode: "AO5" },
+            ],
+            levels: [
+              { level: "Level 4", marks: "10-12", descriptor: "Assured, convincing argument with a secure counter-argument and precise language; accurate and varied." },
+              { level: "Level 3", marks: "7-9", descriptor: "Clear, developed argument with some effective devices; mostly accurate." },
+              { level: "Level 2", marks: "4-6", descriptor: "Some development and structure; some errors." },
+              { level: "Level 1", marks: "1-3", descriptor: "Simple, limited points; frequent errors." },
+            ],
+            finalAnswer: "A top answer might argue that phones are tools for research and safety, specify an example (a student looking up a word mid-lesson), concede that phones can distract, then answer that the solution is rules and trust, not a ban.",
+            commonErrors: ["Listing reasons without developing them.", "A counter-argument that is never answered.", "Informal language such as 'u' or 'gonna'."],
+          },
+        },
+        {
+          id: "el9-u3-structuring-argument-q4",
+          difficulty: "challenge",
+          totalMarks: 30,
+          extract: ARGUMENT_MODEL,
+          stem: "Use the model article to answer the questions below.",
+          parts: [
+            { label: "a", prompt: "Give two reasons the writer gives against homework.", marks: 2 },
+            { label: "b", prompt: "Explain how the writer uses the phrase 'Homework, supposedly a ladder, therefore becomes a barrier' to make a point.", marks: 4 },
+            { label: "c", prompt: "How does the writer structure the article to persuade the reader? Write about the opening, the development and the ending.", marks: 12 },
+            { label: "d", prompt: "Write an article (about 300 words) for your school website arguing for or against a longer lunch break. Plan your structure, include a counter-argument and end powerfully.", marks: 12 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Metaphor and antithesis", statement: "'Ladder' and 'barrier' contrast opposites to make a point memorable." },
+              { kind: "skill", name: "Structure for persuasion", statement: "Hook, developed points, counter-argument and conclusion." },
+              { kind: "skill", name: "Technical accuracy", statement: "AO5 accuracy and sentence variety." },
+            ],
+            steps: [
+              { part: "a", reasoning: "It is unfair because students have different home environments.", evidence: "A student with a quiet bedroom", marks: 1, markCode: "AO1" },
+              { part: "a", reasoning: "It takes away time for sport, music and rest.", evidence: "Evenings spent in sport, music, conversation", marks: 1, markCode: "AO1" },
+              { part: "b", reasoning: "The metaphor of a ladder suggests homework is meant to help students climb upwards.", evidence: "supposedly a ladder", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "'Supposedly' signals the writer's scepticism about the claim.", evidence: "supposedly", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "'Barrier' is the opposite of a ladder, creating antithesis that shows homework blocks progress.", evidence: "becomes a barrier", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "It links to widening 'gaps', developing the point about fairness.", evidence: "widening the very gaps", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "Opening: the metaphor 'tax' and clear position hook the reader.", evidence: "the one tax that every young person pays", marks: 3, markCode: "AO2" },
+              { part: "c", reasoning: "Development: counter-argument with 'However', then escalating points ('More troubling').", evidence: "However, discipline is a habit of mind", marks: 4, markCode: "AO2" },
+              { part: "c", reasoning: "Rhetorical question and emotional appeal about childhood.", evidence: "Should we really trade all of that for a page of sums?", marks: 2, markCode: "AO2" },
+              { part: "c", reasoning: "Ending: short paragraph with a call to action returns to the opening theme.", evidence: "let students go home", marks: 3, markCode: "AO2" },
+              { part: "d", reasoning: "A clear, engaging opening and consistent viewpoint.", marks: 3, markCode: "AO4" },
+              { part: "d", reasoning: "Developed paragraphs with evidence, a counter-argument and rebuttal, and discourse markers.", marks: 3, markCode: "AO4" },
+              { part: "d", reasoning: "Persuasive devices (rhetorical question, rule of three) and a powerful conclusion.", marks: 3, markCode: "AO4" },
+              { part: "d", reasoning: "Accurate spelling, punctuation and varied, ambitious sentences.", marks: 3, markCode: "AO5" },
+            ],
+            levels: [
+              { part: "c", level: "Level 5", marks: "11-12", descriptor: "Perceptive, discriminating analysis of structure from opening to ending; assured use of evidence." },
+              { part: "c", level: "Level 4", marks: "9-10", descriptor: "Thorough analysis of structure with well-chosen evidence." },
+              { part: "c", level: "Level 3", marks: "6-8", descriptor: "Clear, relevant analysis of several structural features." },
+              { part: "c", level: "Level 2", marks: "3-5", descriptor: "Some understanding of structure; some relevant references." },
+              { part: "c", level: "Level 1", marks: "1-2", descriptor: "Simple, limited comments." },
+              { part: "d", level: "Level 5", marks: "11-12", descriptor: "Assured, persuasive article with precise structure, sophisticated language and secure accuracy." },
+              { part: "d", level: "Level 4", marks: "9-10", descriptor: "Convincing article with well-developed argument and counter-argument; accurate and varied." },
+              { part: "d", level: "Level 3", marks: "6-8", descriptor: "Clear article with some effective devices; mostly accurate." },
+              { part: "d", level: "Level 2", marks: "3-5", descriptor: "Some structure and development; errors present." },
+              { part: "d", level: "Level 1", marks: "1-2", descriptor: "Simple, limited writing; frequent errors." },
+            ],
+            finalAnswer: "(a) Unfair because home circumstances differ; it removes time for sport, music and rest. (b) 'Ladder' versus 'barrier' is a neat antithesis, with 'supposedly' showing scepticism. (c) The article opens with the 'tax' metaphor, builds from a conceded counter-argument to fairness to emotion with a rhetorical question, and closes on a short call to action. (d) A strong article follows the same shape with its own ideas, a fair counter-argument, and a punchy conclusion.",
+            commonErrors: ["Simply summarising the article in (c).", "No counter-argument in (d).", "Over-informal tone."],
+          },
+        },
+      ],
+    },
+    {
+      id: "el9-u3-persuasive-speeches",
+      title: "Persuasive speeches",
+      skill: "Write a speech that uses direct address, rhetorical techniques and a clear call to action for a live audience.",
+      lesson: {
+        sections: [
+          {
+            heading: "Writing for the ear",
+            body: "A speech is heard, not read, so use shorter sentences, repetition and a clear signposted structure. Open with direct address and a hook ('Look around you.'). Use the **rule of three**, **rhetorical questions**, **anaphora** (repeating a phrase) and **direct address** ('we', 'us', 'you') to build a sense of shared purpose. Short, punchy lines such as 'Three. Not thirty. Three.' help the audience remember.",
+          },
+          {
+            heading: "Tone and call to action",
+            body: "Match your register to the audience: a school assembly allows a warm, direct tone. Use facts and statistics for credibility (the writer counted 'forty-three' pieces) and emotive language to move your audience. End with a **call to action** that is specific and achievable, and a memorable final line. Finish by thanking your audience.",
+          },
+        ],
+        keyFormulas: [
+          { name: "Rule of three", statement: "Group three items or ideas for rhythm and emphasis." },
+          { name: "Anaphora", statement: "Repeat a phrase at the start of successive sentences." },
+          { name: "Call to action", statement: "A specific request that tells the audience what to do." },
+        ],
+        workedExample: {
+          problem: "How does the writer engage the audience at the start of 'A Speech on Litter'?",
+          solution: "The speech opens with a friendly greeting and then the imperative 'Look around you', which involves the audience at once. A repeated 'Look at' builds a short list of familiar places. The rhetorical question 'How many pieces of litter can you count before the bell rings?' invites them to take part. The one-line paragraph 'I counted forty-three' delivers a surprising statistic with dramatic impact, hooking attention and establishing the problem.",
+        },
+      },
+      questions: [
+        {
+          id: "el9-u3-persuasive-speeches-q1",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: SPEECH_MODEL,
+          stem: "'Three. Not thirty. Three.' Which technique is mainly used here?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Repetition for emphasis" },
+              { id: "b", text: "Simile" },
+              { id: "c", text: "Personification" },
+              { id: "d", text: "Onomatopoeia" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Repetition", statement: "Repeating a word for emphasis and memorability." }],
+            steps: [{ reasoning: "The number 'three' is repeated to stress how small and achievable the request is.", evidence: "Three. Not thirty. Three.", marks: 1, markCode: "AO2" }],
+            finalAnswer: "**(a)** Repetition: 'Three' is repeated to make the request memorable and achievable.",
+            commonErrors: ["Choosing (b) because it sounds rhythmic; no comparison is made."],
+          },
+        },
+        {
+          id: "el9-u3-persuasive-speeches-q2",
+          difficulty: "core",
+          totalMarks: 3,
+          extract: SPEECH_MODEL,
+          stem: "Explain how the writer uses the phrase 'a school of people who walk past' to persuade the audience.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Direct address and inclusive pronouns", statement: "'We' and 'us' include the audience and share responsibility." },
+              { kind: "technique", name: "Antithesis", statement: "Contrasting 'vandals' with 'people who walk past' to refine the accusation." },
+            ],
+            steps: [
+              { reasoning: "The inclusive 'we' avoids blaming the audience and makes the problem a shared one.", evidence: "We are not a school of vandals", marks: 1, markCode: "AO2" },
+              { reasoning: "It softens the criticism: the problem is thoughtlessness, not cruelty, so the audience feel able to change.", evidence: "not cruelty, not malice, but thoughtlessness", marks: 1, markCode: "AO2" },
+              { reasoning: "'Walk past' is a vivid, accusing image of passivity that makes everyone responsible.", evidence: "people who walk past", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "The inclusive 'we' shares the responsibility instead of blaming, softening the criticism, while 'walk past' accuses everyone of passivity, which motivates them to act.",
+            commonErrors: ["Not commenting on the effect on the audience.", "Missing the contrast with 'vandals'."],
+          },
+        },
+        {
+          id: "el9-u3-persuasive-speeches-q3",
+          difficulty: "challenge",
+          totalMarks: 12,
+          stem: "Write the opening and the closing of a speech (about 200 words in total) to your year group persuading them to volunteer for a local charity. Use at least three rhetorical techniques. You will be assessed on AO4 and AO5.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Rhetorical devices", statement: "Rule of three, rhetorical question, direct address, anaphora." },
+              { kind: "skill", name: "Audience awareness", statement: "Appropriate register and a specific call to action." },
+              { kind: "skill", name: "Technical accuracy", statement: "Accurate spelling and punctuation." },
+            ],
+            steps: [
+              { reasoning: "A confident opening with direct address and a hook.", marks: 3, markCode: "AO4" },
+              { reasoning: "Effective, varied rhetorical devices used purposefully.", marks: 3, markCode: "AO4" },
+              { reasoning: "A specific, achievable call to action and memorable final line.", marks: 3, markCode: "AO4" },
+              { reasoning: "Accurate and varied sentence structures with secure punctuation.", marks: 3, markCode: "AO5" },
+            ],
+            levels: [
+              { level: "Level 4", marks: "10-12", descriptor: "Assured speech with a compelling hook, varied devices and a powerful call to action; accurate and fluent." },
+              { level: "Level 3", marks: "7-9", descriptor: "Clear speech with some effective devices; mostly accurate." },
+              { level: "Level 2", marks: "4-6", descriptor: "Some attempt at speech techniques; errors present." },
+              { level: "Level 1", marks: "1-3", descriptor: "Simple, limited; frequent errors." },
+            ],
+            finalAnswer: "A top answer opens with a direct hook (for example a surprising statistic or a question to the audience), uses a rule of three, and closes with a specific call such as 'one hour, one Saturday, one difference'.",
+            commonErrors: ["Writing an essay instead of something spoken.", "Vague call to action.", "Overusing techniques without purpose."],
+          },
+        },
+        {
+          id: "el9-u3-persuasive-speeches-q4",
+          difficulty: "challenge",
+          totalMarks: 28,
+          extract: SPEECH_MODEL,
+          stem: "Use the model speech to answer the questions below.",
+          parts: [
+            { label: "a", prompt: "Give two facts or figures the speaker uses in the speech.", marks: 2 },
+            { label: "b", prompt: "Explain why the speaker asks 'would you leave your bedroom floor for someone else to tidy?'", marks: 4 },
+            { label: "c", prompt: "How does the writer use language and structure to persuade the audience? Refer to specific words and phrases.", marks: 10 },
+            { label: "d", prompt: "Write a speech (about 300 words) to your school council persuading them to introduce a new rule or change. Use a range of rhetorical techniques and a clear call to action.", marks: 12 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Analogy and rhetorical question", statement: "Comparing to the audience's own experience persuades them to see the issue personally." },
+              { kind: "technique", name: "Structure of a speech", statement: "Hook, problem, counter-argument, solution and call to action." },
+              { kind: "skill", name: "Technical accuracy", statement: "AO5 accuracy and sentence variety." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Forty-three pieces of litter counted.", evidence: "I counted forty-three.", marks: 1, markCode: "AO1" },
+              { part: "a", reasoning: "Over two thousand pieces a week if everyone picks up three a day.", evidence: "over two thousand pieces gone every week", marks: 1, markCode: "AO1" },
+              { part: "b", reasoning: "It is a rhetorical question that makes the audience imagine a familiar, personal situation.", evidence: "would you leave your bedroom floor", marks: 2, markCode: "AO2" },
+              { part: "b", reasoning: "It exposes the weakness in the counter-argument 'it is the cleaners' job' and links to the extended metaphor of the school as a shared home.", evidence: "This school is our shared home", marks: 2, markCode: "AO2" },
+              { part: "c", reasoning: "Direct address and imperatives ('Look around you') involve the audience immediately.", evidence: "Look around you.", marks: 2, markCode: "AO2" },
+              { part: "c", reasoning: "Statistic and one-line paragraph give shocking impact.", evidence: "I counted forty-three.", marks: 2, markCode: "AO2" },
+              { part: "c", reasoning: "Triplet 'crisp packets, bottles and wrappers' and 'not cruelty, not malice, but thoughtlessness' give rhythm and persuasive balance.", evidence: "not cruelty, not malice, but thoughtlessness", marks: 2, markCode: "AO2" },
+              { part: "c", reasoning: "The structure moves from problem to counter-argument to a specific, achievable challenge.", evidence: "Three. Not thirty. Three.", marks: 2, markCode: "AO2" },
+              { part: "c", reasoning: "The final sentence uses antithesis and positive imagery to end memorably.", evidence: "not because of what we left behind, but because of what we picked up", marks: 2, markCode: "AO2" },
+              { part: "d", reasoning: "A clear proposal, convincing reasons and audience-appropriate register.", marks: 3, markCode: "AO4" },
+              { part: "d", reasoning: "A range of rhetorical techniques and a counter-argument answered.", marks: 3, markCode: "AO4" },
+              { part: "d", reasoning: "A specific call to action and memorable ending with a clear structure.", marks: 3, markCode: "AO4" },
+              { part: "d", reasoning: "Accurate and varied punctuation, spelling and sentence structures.", marks: 3, markCode: "AO5" },
+            ],
+            levels: [
+              { part: "c", level: "Level 5", marks: "9-10", descriptor: "Perceptive, discriminating analysis of language and structure; assured, well-chosen references." },
+              { part: "c", level: "Level 4", marks: "7-8", descriptor: "Thorough analysis of language and structure with well-chosen quotations." },
+              { part: "c", level: "Level 3", marks: "5-6", descriptor: "Clear, relevant analysis of several features." },
+              { part: "c", level: "Level 2", marks: "3-4", descriptor: "Some understanding; some relevant references." },
+              { part: "c", level: "Level 1", marks: "1-2", descriptor: "Simple, limited comments." },
+              { part: "d", level: "Level 5", marks: "11-12", descriptor: "Assured, compelling speech with sophisticated techniques and secure accuracy." },
+              { part: "d", level: "Level 4", marks: "9-10", descriptor: "Convincing speech with a range of techniques; accurate and varied." },
+              { part: "d", level: "Level 3", marks: "6-8", descriptor: "Clear speech with some effective techniques; mostly accurate." },
+              { part: "d", level: "Level 2", marks: "3-5", descriptor: "Some attempt at speech form; errors present." },
+              { part: "d", level: "Level 1", marks: "1-2", descriptor: "Simple, limited; frequent errors." },
+            ],
+            finalAnswer: "(a) Forty-three pieces of litter counted; over two thousand pieces a week if everyone picks up three a day. (b) The question links the issue to the audience's own homes and undermines the 'cleaners' job' objection. (c) Direct address, shocking statistic, triplets, a shared-home metaphor, a specific challenge and an antithetical final line persuade the audience. (d) A strong speech has a hook, reasons, an answered objection and a clear call to action.",
+            commonErrors: ["Describing the speech instead of analysing it.", "Missing the effect on the audience.", "Writing in essay style without spoken features."],
+          },
+        },
+      ],
+    },
+  ],
+};

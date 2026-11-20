@@ -1,0 +1,912 @@
+import type { Lesson } from "../../../types.ts";
+
+export const lesson33: Lesson = {
+  id: "mypp5-u3-lesson-3-3",
+  code: "3-3",
+  title: "Half-life, Nuclear Energy and Space Physics",
+  goal: "I CAN calculate half-life and decay, compare fission and fusion, and use escape velocity and orbital speed calculations.",
+  standards: [
+    "Key concept: Modern physics and space",
+    "MYP Sciences: Energy and Space",
+    "Criterion D: Communicating scientifically",
+  ],
+  vocabulary: [
+    { term: "Half-life", definition: "Time for half the undecayed nuclei in a sample to decay; constant for each isotope." },
+    { term: "Activity", definition: "Rate of radioactive decays per second, measured in becquerels (Bq = decays/s)." },
+    { term: "Fission", definition: "Heavy nucleus splits into lighter nuclei, releasing energy; used in nuclear reactors." },
+    { term: "Fusion", definition: "Light nuclei join to form heavier nucleus, releasing energy; powers the Sun; requires extreme conditions." },
+    { term: "Escape velocity", definition: "Minimum speed to escape a body's gravitational pull without further propulsion; $v = \\sqrt{2gR}$ near surface." },
+    { term: "Orbital speed", definition: "Speed needed to stay in circular orbit: $v = \\sqrt{GM/r}$; low Earth orbit ≈ 7.9 km/s." },
+  ],
+  concepts: [
+    {
+      id: "mypp5-u3-nuc",
+      title: "Half-life, uses, hazards, fission and fusion",
+      skill: "Calculate decay over time and compare fission and fusion for energy applications.",
+      lesson: {
+        sections: [
+          {
+            heading: "Half-life calculations",
+            body: "Activity $A$ falls exponentially: $A = A_0 \\times (\\frac{1}{2})^n$ where $n = t/T_{1/2}$. A 100 g sample with half-life 5 days has ~3 g left after 25 days (5 half-lives). Activity is measured in Bq; shorter half-life → more decays per second → more hazardous initially but decays faster.",
+          },
+          {
+            heading: "Uses and hazards",
+            body: "Uses: medical tracers (Tc-99m, short half-life), cancer treatment (Co-60 gamma), carbon dating (C-14, 5730 yr half-life), thickness gauges. Hazards: ionising radiation damages cells/DNA; risks managed by shielding, distance, limited exposure time and half-life choice.",
+          },
+          {
+            heading: "Fission vs fusion",
+            body: "**Fission**: heavy nuclei (U-235) split when struck by neutrons, releasing energy and more neutrons (chain reaction) — used in power stations with control rods absorbing neutrons. Waste is radioactive for millennia. **Fusion**: light nuclei (hydrogen isotopes) fuse at ~10⁷ K, releasing more energy per mass; powers stars but requires containment we haven't sustained — ITER aims to change that.",
+          },
+        ],
+        keyFormulas: [
+          { name: "Half-life", statement: "$A = A_0 \\times (\\frac{1}{2})^{t/T_{1/2}}$" },
+          { name: "Fission", statement: "Heavy nucleus → lighter nuclei + neutrons + energy" },
+          { name: "Fusion", statement: "Light nuclei → heavier nucleus + energy; needs ~$10^7$ K" },
+        ],
+        workedExample: {
+          problem: "A radioisotope has half-life 8 hours and initial activity 640 Bq. What is its activity after 24 hours?",
+          solution: "$24/8 = 3$ half-lives; $A = 640 \\times (1/2)^3 = 80$ Bq.",
+        },
+      },
+      questions: [
+        {
+          id: "mypp5-u3-nuc-q1",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the SI unit of activity?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "J" },
+              { id: "b", text: "Bq" },
+              { id: "c", text: "Gy" },
+              { id: "d", text: "Sv" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Activity", statement: "Activity measured in becquerels = decays per second." }],
+            steps: [
+              { reasoning: "Bq is the SI unit of activity.", working: "\\text{Bq}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Bq",
+            commonErrors: ["Confusing Bq with dose units Gy/Sv."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q2",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A sample with half-life 10 years has an activity of 400 Bq. What will its activity be after 30 years?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "200 Bq" },
+              { id: "b", text: "100 Bq" },
+              { id: "c", text: "50 Bq" },
+              { id: "d", text: "25 Bq" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Half-life", statement: "30 yr = 3 half-lives; $400 \\times (1/2)^3$" }],
+            steps: [
+              { reasoning: "$30/10 = 3$ half-lives.", working: "n=3", marks: 1, markCode: "M" },
+              { reasoning: "$A = 400/8 = 50$ Bq.", working: "50\\ \\text{Bq}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "50 Bq",
+            commonErrors: ["Halving once instead of three times."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q3",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Which statement correctly compares fission and fusion?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Fission uses light nuclei and produces less waste" },
+              { id: "b", text: "Fusion powers the Sun; fission is used in nuclear reactors" },
+              { id: "c", text: "Both occur at room temperature" },
+              { id: "d", text: "Fusion produces long-lived radioactive waste" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Fission vs fusion", statement: "Fission: heavy nuclei, reactors; fusion: light nuclei, stars, needs extreme T." }],
+            steps: [
+              { reasoning: "Fusion occurs in stars at millions of degrees.", working: "\\text{stars}", marks: 1, markCode: "M" },
+              { reasoning: "Fission used in controlled reactors.", working: "\\text{reactors}", marks: 1, markCode: "M" },
+              { reasoning: "Match choice.", working: "\\text{(b)}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(b)",
+            commonErrors: ["Reversing which is used in power stations."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q4",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "A national energy review compares fission reactors with a proposed fusion power plant.",
+          parts: [
+            { label: "a", prompt: "Explain the chain reaction in a fission reactor and the role of control rods.", marks: 2 },
+            { label: "b", prompt: "Calculate the activity of a 200 Bq sample after two half-lives of 6 years each.", marks: 1 },
+            { label: "c", prompt: "State two advantages and two disadvantages of fusion over fission for power generation.", marks: 2 },
+            { label: "d", prompt: "Explain why fusion is difficult to achieve on Earth.", marks: 1 },
+            { label: "e", prompt: "Evaluate whether investing in fusion research is justified compared with expanding fission, considering waste and safety.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Fission chain reaction", statement: "Neutrons released split more nuclei; control rods absorb neutrons to regulate." },
+              { kind: "principle", name: "Fusion challenges", statement: "Requires ~10⁷ K plasma confinement; fuel abundant, waste minimal." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Each fission releases neutrons that cause further fissions; control rods absorb neutrons to keep reaction steady.", working: "\\text{chain + rods}", marks: 2, markCode: "B" },
+              { part: "b", reasoning: "$200 \\times (1/2)^2 = 50$ Bq.", working: "50\\ \\text{Bq}", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Advantages: abundant fuel, no long-lived waste, no meltdown risk; disadvantages: not yet practical, huge energy input needed.", working: "\\text{fuel vs tech}", marks: 2, markCode: "D" },
+              { part: "d", reasoning: "Needs plasma at millions of degrees contained without touching walls — engineering challenge.", working: "\\text{confinement}", marks: 1, markCode: "A" },
+              { part: "e", reasoning: "Fusion justified long-term (clean, safe) but fission needed now for low-carbon baseload; research both, phase fusion as mature.", working: "\\text{both needed}", marks: 2, markCode: "D" },
+            ],
+            finalAnswer: "(a) neutrons sustain chain; rods absorb them (b) 50 Bq (c) fusion: clean fuel, no waste; hard to sustain (d) extreme T containment (e) invest both",
+            commonErrors: ["Thinking control rods speed up the reaction; ignoring fusion's current impracticality."],
+            examinerNote: "B2 for (a); A1 for (b); D2 for (c); A1 for (d); D2 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is meant by the half-life of a radioactive isotope?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The time for the sample to decay completely" },
+              { id: "b", text: "The time for half of the radioactive nuclei (or activity) to decay" },
+              { id: "c", text: "The time for the sample to double in mass" },
+              { id: "d", text: "The average lifetime of one nucleus" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Half-life", statement: "Time for activity/nuclei to halve." }],
+            steps: [
+              { reasoning: "Half-life = time for 50% decay.", working: "T_{1/2}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** time for half to decay",
+            commonErrors: ["Thinking half-life means complete decay."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A sample of 80 g of a radioactive isotope has a half-life of 5 days. How much remains after 10 days?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 20, unit: "g" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Half-life", statement: "$m = m_0 \\times (1/2)^n$, $n = 10/5 = 2$" }],
+            steps: [
+              { reasoning: "$m = 80 \\times (1/2)^2 = 20$ g.", working: "80\\times0.25", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "20 g",
+            commonErrors: ["Halving once instead of twice."],
+            examinerNote: "A1 for 20.",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What is the unit of radioactive activity?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Joules" },
+              { id: "b", text: "Becquerel (Bq)" },
+              { id: "c", text: "Watts" },
+              { id: "d", text: "Grays" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Activity", statement: "Decays per second; 1 Bq = 1 decay/s." }],
+            steps: [
+              { reasoning: "Activity = decays per unit time → becquerel.", working: "\\text{Bq}", marks: 1, markCode: "M" },
+              { reasoning: "Answer (b).", working: "(b)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** becquerel",
+            commonErrors: ["Confusing activity with absorbed dose (gray)."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A source has initial activity 800 Bq and half-life 4 hours. What is its activity after 8 hours?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 200, unit: "Bq" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Half-life", statement: "$A = A_0(1/2)^n$, $n = 8/4 = 2$" }],
+            steps: [
+              { reasoning: "$A = 800 \\times (1/2)^2 = 200$ Bq.", working: "800\\times0.25", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "200\\ \\text{Bq}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "200 Bq",
+            commonErrors: ["Using elapsed time instead of number of half-lives."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q9",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Which process is currently used in nuclear power stations to generate electricity?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Nuclear fusion of hydrogen" },
+              { id: "b", text: "Nuclear fission of heavy nuclei like uranium-235" },
+              { id: "c", text: "Radioactive decay of carbon-14" },
+              { id: "d", text: "Alpha emission" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Fission", statement: "U-235 fission chain reaction → heat → steam → turbines." }],
+            steps: [
+              { reasoning: "Power stations use controlled fission chain reactions.", working: "\\text{fission}", marks: 1, markCode: "M" },
+              { reasoning: "Fusion is not yet sustained on Earth.", working: "\\text{(b)}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** fission",
+            commonErrors: ["Choosing fusion — it powers stars but isn't yet practical."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A radioisotope has initial activity 1600 Bq and half-life 6 hours. What is its activity after 18 hours?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 200, unit: "Bq" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Half-life", statement: "$n = 18/6 = 3$; $A = 1600 \\times (1/2)^3$" }],
+            steps: [
+              { reasoning: "$n = 3$ half-lives.", working: "n=3", marks: 1, markCode: "M" },
+              { reasoning: "$A = 1600 \\times 1/8 = 200$ Bq.", working: "1600\\times\\frac{1}{8}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "200\\ \\text{Bq}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "200 Bq",
+            commonErrors: ["Halving only once or twice."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q11",
+          difficulty: "foundation",
+          totalMarks: 6,
+          stem: "Radioactive isotopes have important uses and hazards.",
+          parts: [
+            { label: "a", prompt: "Define half-life.", marks: 1 },
+            { label: "b", prompt: "State the unit of activity.", marks: 1 },
+            { label: "c", prompt: "Name two medical uses of radioisotopes.", marks: 1 },
+            { label: "d", prompt: "Explain why a short half-life is preferred for medical tracers injected into the body.", marks: 2 },
+            { label: "e", prompt: "Name two ways radiation exposure is reduced in practice.", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Half-life/activity", statement: "T½ = time to halve; activity in Bq." },
+              { kind: "principle", name: "Radiation safety", statement: "Shielding, distance, limited time reduce dose." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Time for half the nuclei/activity to decay.", working: "T_{1/2}", marks: 1, markCode: "B" },
+              { part: "b", reasoning: "Becquerel (Bq).", working: "\\text{Bq}", marks: 1, markCode: "B" },
+              { part: "c", reasoning: "Any two: tracers (Tc-99m), cancer radiotherapy (Co-60), imaging.", working: "\\text{tracers/radiotherapy}", marks: 1, markCode: "B" },
+              { part: "d", reasoning: "Short half-life → decays quickly to safe levels, minimising long-term dose to patient.", working: "T_{1/2}\\downarrow \\Rightarrow \\text{dose}\\downarrow", marks: 2, markCode: "A" },
+              { part: "e", reasoning: "Any two: lead shielding, distance, short exposure time.", working: "\\text{shielding/distance/time}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "(a) time to halve (b) Bq (c) tracers/radiotherapy (d) quick decay lowers dose (e) shielding, distance",
+            commonErrors: ["Thinking long half-life is safer — it means longer irradiation."],
+            examinerNote: "B1 each for (a),(b),(c); A2 for (d); B1 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q12",
+          difficulty: "core",
+          totalMarks: 7,
+          stem: "A student measures the count rate from a radioactive source every 10 minutes: 800, 400, 200, 100 counts per minute.",
+          parts: [
+            { label: "a", prompt: "State the half-life of the source from the data.", marks: 1 },
+            { label: "b", prompt: "Predict the count rate after another 10 minutes.", marks: 1 },
+            { label: "c", prompt: "Explain why the count rate never reaches zero in practice.", marks: 1 },
+            { label: "d", prompt: "Suggest two factors that could affect the accuracy of the measurement.", marks: 2 },
+            { label: "e", prompt: "Explain how this decay data could be used in carbon dating.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Half-life", statement: "Count halves every 10 min → T½ = 10 min." },
+              { kind: "context", name: "Carbon dating", statement: "C-14 half-life 5730 yr; compare remaining C-14 to living matter." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Count halves each 10 min interval → T½ = 10 min.", working: "T_{1/2}=10\\ \\text{min}", marks: 1, markCode: "B" },
+              { part: "b", reasoning: "Next reading = 50 counts/min.", working: "50\\ \\text{cpm}", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Decay is random/exponential — a few nuclei remain for a long time; also background radiation contributes.", working: "\\text{random + background}", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Any two: background radiation, dead time of detector, statistical fluctuations, source movement.", working: "\\text{background/statistics}", marks: 2, markCode: "B" },
+              { part: "e", reasoning: "Compare C-14 activity in sample with living matter; fewer half-lives elapsed → younger; known T½ = 5730 yr gives age.", working: "\\text{C-14 dating}", marks: 2, markCode: "A" },
+            ],
+            finalAnswer: "(a) 10 min (b) 50 cpm (c) random decay + background (d) background/fluctuations (e) compare C-14 fraction",
+            commonErrors: ["Forgetting background counts; assuming linear decay."],
+            examinerNote: "B1 for (a); A1 for (b); A1 for (c); B2 for (d); A2 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the role of control rods in a nuclear fission reactor?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To absorb neutrons and control the chain reaction" },
+              { id: "b", text: "To cool the reactor" },
+              { id: "c", text: "To reflect neutrons back" },
+              { id: "d", text: "To generate electricity directly" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Control rods", statement: "Absorb neutrons → regulate fission rate → prevent meltdown." }],
+            steps: [
+              { reasoning: "Control rods absorb neutrons to keep reaction controlled.", working: "\\text{absorb } n", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** absorb neutrons",
+            commonErrors: ["Thinking control rods produce energy."],
+            examinerNote: "B1 for (a).",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why does nuclear fusion require extremely high temperatures?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To melt the reactor walls" },
+              { id: "b", text: "To give nuclei enough kinetic energy to overcome electrostatic repulsion and fuse" },
+              { id: "c", text: "To create pressure for steam" },
+              { id: "d", text: "To ionise the fuel" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Fusion conditions", statement: "Nuclei must overcome Coulomb repulsion → need ~$10^7$ K." }],
+            steps: [
+              { reasoning: "Protons repel; high KE needed to get close enough for strong force.", working: "E_k \\text{ overcomes repulsion}", marks: 1, markCode: "M" },
+              { reasoning: "Answer (b).", working: "(b)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** overcome electrostatic repulsion",
+            commonErrors: ["Thinking fusion needs low temperature like chemical reactions."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q15",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "A country is deciding between expanding nuclear fission power and investing in fusion research.",
+          parts: [
+            { label: "a", prompt: "State two advantages of nuclear fission for electricity generation.", marks: 1 },
+            { label: "b", prompt: "State two disadvantages of nuclear fission.", marks: 1 },
+            { label: "c", prompt: "Explain the difference between fission and fusion in terms of the nuclei involved.", marks: 2 },
+            { label: "d", prompt: "Evaluate whether a country should invest more in fission now or wait for fusion.", marks: 2 },
+            { label: "e", prompt: "Describe how a chain reaction is controlled in a fission reactor.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Fission vs fusion", statement: "Fission: heavy nucleus splits; fusion: light nuclei join." },
+              { kind: "principle", name: "Chain reaction", statement: "Neutrons released → more fissions; control rods absorb excess neutrons." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Any two: high energy density, low CO₂ during operation, reliable baseload power.", working: "\\text{dense, low CO}_2", marks: 1, markCode: "B" },
+              { part: "b", reasoning: "Any two: radioactive waste for millennia, meltdown risk, proliferation concerns, decommissioning cost.", working: "\\text{waste, risk}", marks: 1, markCode: "B" },
+              { part: "c", reasoning: "Fission: heavy nucleus (U-235) splits into lighter nuclei + neutrons + energy; fusion: light nuclei (H isotopes) join into heavier nucleus + energy.", working: "\\text{split vs join}", marks: 2, markCode: "A" },
+              { part: "d", reasoning: "Balanced answer: fission proven now but waste issues; fusion cleaner but not yet viable — invest in both, fission for now with waste management, fusion R&D for future.", working: "\\text{both}", marks: 2, markCode: "D" },
+              { part: "e", reasoning: "Control rods absorb neutrons to keep reaction rate steady; moderators slow neutrons; cooling removes heat; shutdown rods fully inserted to stop reaction.", working: "\\text{control rods}", marks: 2, markCode: "A" },
+            ],
+            finalAnswer: "(a) dense energy, low CO₂ (b) waste, meltdown risk (c) split vs join (d) both, fission now (e) control rods absorb neutrons",
+            commonErrors: ["One-sided evaluation; confusing fission and fusion."],
+            examinerNote: "B1 for (a); B1 for (b); A2 for (c); D2 for (d); A2 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-nuc-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A sample of radioactive material has mass 640 g and half-life 10 years.",
+          parts: [
+            { label: "a", prompt: "Calculate the mass remaining after 20 years.", marks: 1 },
+            { label: "b", prompt: "Calculate the mass remaining after 30 years.", marks: 1 },
+            { label: "c", prompt: "Calculate the number of half-lives elapsed after 50 years.", marks: 1 },
+            { label: "d", prompt: "Calculate the mass remaining after 50 years.", marks: 1 },
+          ],
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 160, unit: "g" },
+              { label: "b", answer: 80, unit: "g" },
+              { label: "c", answer: 5, unit: "" },
+              { label: "d", answer: 20, unit: "g" },
+            ],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Half-life", statement: "$m = m_0(1/2)^n$, $n = t/T_{1/2}$" }],
+            steps: [
+              { part: "a", reasoning: "$n = 2$; $m = 640 \\times 1/4 = 160$ g.", working: "160\\ \\text{g}", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$n = 3$; $m = 640 \\times 1/8 = 80$ g.", working: "80\\ \\text{g}", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$n = 50/10 = 5$.", working: "5", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "$m = 640 \\times (1/2)^5 = 20$ g.", working: "20\\ \\text{g}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) 160 g (b) 80 g (c) 5 (d) 20 g",
+            commonErrors: ["Halving the wrong number of times; using t directly in exponent."],
+            examinerNote: "A1 for each part.",
+          },
+        },
+      ],
+    },
+    {
+      id: "mypp5-u3-space",
+      title: "Escape velocity and orbital speed",
+      skill: "Calculate escape velocity and orbital speed for Earth and compare satellite orbits.",
+      lesson: {
+        sections: [
+          {
+            heading: "Escape velocity",
+            body: "To leave a body's gravity permanently, an object needs enough KE to overcome gravitational PE to infinity: $\\frac{1}{2}mv^2 = \\frac{GMm}{R}$, giving $v_{esc} = \\sqrt{\\frac{2GM}{R}}$. For Earth this is 11.2 km/s — much higher than orbital speed 7.9 km/s because escaping needs to reach infinity, not just orbit.",
+          },
+          {
+            heading: "Orbital speed",
+            body: "For circular orbit, gravity provides centripetal force: $\\frac{GMm}{r^2} = \\frac{mv^2}{r}$ → $v = \\sqrt{\\frac{GM}{r}}$. Lower orbit → faster required speed but shorter period. Geostationary orbit at 36 000 km has period 24 h and speed ~3 km/s.",
+          },
+          {
+            heading: "Applications",
+            body: "Satellites: LEO (~400 km, fast, short period) for imaging/GPS; GEO (36 000 km) for comms/weather. Rockets must exceed escape velocity for interplanetary missions; orbital insertion only needs orbital speed plus margin.",
+          },
+        ],
+        keyFormulas: [
+          { name: "Escape velocity", statement: "$v_{esc} = \\sqrt{\\frac{2GM}{R}}$" },
+          { name: "Orbital speed", statement: "$v = \\sqrt{\\frac{GM}{r}}$" },
+          { name: "Earth values", statement: "$v_{esc} = 11.2$ km/s; LEO $v \\approx 7.9$ km/s" },
+        ],
+        workedExample: {
+          problem: "Why is escape velocity (11.2 km/s) higher than orbital speed (7.9 km/s) for Earth?",
+          solution: "Orbital motion only needs enough speed to keep falling around Earth; escape needs enough energy to reach infinite distance, requiring $\\sqrt{2}$ times the circular-orbit speed at surface.",
+        },
+      },
+      questions: [
+        {
+          id: "mypp5-u3-space-q1",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is Earth's escape velocity approximately?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "7.9 km/s" },
+              { id: "b", text: "11.2 km/s" },
+              { id: "c", text: "3 km/s" },
+              { id: "d", text: "300 km/s" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Escape velocity", statement: "$v_{esc} = \\sqrt{2GM/R} \\approx 11.2$ km/s for Earth." }],
+            steps: [
+              { reasoning: "Escape velocity for Earth is 11.2 km/s.", working: "11.2\\ \\text{km/s}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** 11.2 km/s",
+            commonErrors: ["Confusing with orbital speed 7.9 km/s."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q2",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A satellite in low Earth orbit moves at about 7.9 km/s. If it moves to a higher orbit, its orbital speed will:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "increase" },
+              { id: "b", text: "decrease" },
+              { id: "c", text: "stay the same" },
+              { id: "d", text: "become zero" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Orbital speed", statement: "$v = \\sqrt{GM/r}$ — larger r → smaller v." }],
+            steps: [
+              { reasoning: "Speed inversely related to orbital radius.", working: "v \\propto r^{-1/2}", marks: 1, markCode: "M" },
+              { reasoning: "Higher orbit → lower speed.", working: "v\\downarrow", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(b) decrease",
+            commonErrors: ["Thinking higher orbit means faster."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q3",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A spacecraft leaves Earth's surface. It reaches orbit at 7.9 km/s but must reach 11.2 km/s to escape Earth's gravity entirely. Why the difference?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Escape velocity accounts for Earth's rotation" },
+              { id: "b", text: "Orbital speed only needs to keep falling around Earth; escape needs energy to reach infinity" },
+              { id: "c", text: "Escape velocity is measured at sea level" },
+              { id: "d", text: "The values are the same thing" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Orbit vs escape", statement: "Orbit = centripetal balance; escape = reach infinity against gravity." }],
+            steps: [
+              { reasoning: "Orbital motion is a closed path — no energy needed to leave.", working: "\\text{orbit bound}", marks: 1, markCode: "M" },
+              { reasoning: "Escape requires overcoming gravitational PE entirely.", working: "\\text{escape to } \\infty", marks: 1, markCode: "M" },
+              { reasoning: "Match choice.", working: "\\text{(b)}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(b)",
+            commonErrors: ["Thinking orbit speed and escape speed are interchangeable."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q4",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "A satellite company must choose between a low Earth orbit (LEO, ~400 km) and a geostationary orbit (GEO, ~36 000 km) for a new service.",
+          parts: [
+            { label: "a", prompt: "State the orbital period required for a geostationary satellite.", marks: 1 },
+            { label: "b", prompt: "Compare the orbital speeds of LEO and GEO satellites, explaining using $v = \\sqrt{GM/r}$.", marks: 2 },
+            { label: "c", prompt: "Calculate how many times faster a LEO satellite orbits Earth than Earth's rotation (LEO period ≈ 90 min, Earth rotation = 24 h).", marks: 2 },
+            { label: "d", prompt: "Give one advantage of LEO and one of GEO for the service.", marks: 2 },
+            { label: "e", prompt: "Evaluate which orbit is better for a global communications constellation and justify.", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Orbital speed", statement: "$v = \\sqrt{GM/r}$; smaller r → larger v." },
+              { kind: "principle", name: "Orbit choice", statement: "LEO: low latency, high resolution; GEO: fixed position, wide coverage." },
+            ],
+            steps: [
+              { part: "a", reasoning: "24 hours — matches Earth's rotation.", working: "24\\ \\text{h}", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "LEO has smaller r → higher orbital speed; GEO ~3 km/s vs LEO ~7.9 km/s.", working: "v_{LEO} > v_{GEO}", marks: 2, markCode: "M" },
+              { part: "c", reasoning: "$24\\ \\text{h} = 1440$ min; $1440/90 = 16$ orbits per day.", working: "\\frac{1440}{90}=16", marks: 2, markCode: "M" },
+              { part: "d", reasoning: "LEO advantage: closer → stronger signal, sharper imaging; GEO advantage: stays fixed above one point → simple tracking.", working: "\\text{LEO vs GEO}", marks: 2, markCode: "A" },
+              { part: "e", reasoning: "GEO better for continuous wide-area comms (fewer satellites); LEO better for low-latency/constellation; justified choice.", working: "\\text{justified}", marks: 1, markCode: "D" },
+            ],
+            finalAnswer: "(a) 24 h (b) LEO faster (smaller r) (c) ~16 orbits/day (d) LEO: resolution; GEO: fixed position (e) justified choice",
+            commonErrors: ["Thinking GEO is faster because higher; confusing altitude with speed."],
+            examinerNote: "A1 for (a); M2 for (b); M2 for (c); A2 for (d); D1 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is escape velocity?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The speed needed to orbit a planet" },
+              { id: "b", text: "The minimum speed needed to escape a body's gravitational pull permanently" },
+              { id: "c", text: "The speed of light" },
+              { id: "d", text: "The speed of sound in space" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Escape velocity", statement: "$v_{esc} = \\sqrt{2GM/R}$ — enough KE to reach infinity." }],
+            steps: [
+              { reasoning: "Escape velocity allows the object to reach infinite distance.", working: "v_{esc}=\\sqrt{2GM/R}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** minimum speed to escape gravity",
+            commonErrors: ["Confusing escape velocity with orbital speed."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is approximately the orbital speed for a low Earth orbit satellite?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 7.9, unit: "km/s" }],
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "LEO speed", statement: "$v = \\sqrt{GM/r} \\approx 7.9$ km/s near Earth's surface." }],
+            steps: [
+              { reasoning: "LEO orbital speed ≈ 7.9 km/s.", working: "7.9\\ \\text{km/s}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "7.9 km/s",
+            commonErrors: ["Confusing with escape velocity 11.2 km/s."],
+            examinerNote: "A1 for 7.9.",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why is Earth's escape velocity (11.2 km/s) higher than its orbital speed (7.9 km/s)?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Orbital speed is measured at the equator only" },
+              { id: "b", text: "Orbiting only requires enough speed to keep falling around Earth; escaping needs enough energy to reach infinite distance" },
+              { id: "c", text: "Escape velocity is smaller" },
+              { id: "d", text: "They are equal" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Orbit vs escape", statement: "Orbit: gravity provides centripetal force; escape: KE must overcome PE to infinity ($\\sqrt{2}$ factor)." }],
+            steps: [
+              { reasoning: "Orbital motion is continuous free-fall; escape needs energy to reach infinity.", working: "v_{esc}=\\sqrt{2}\\,v_{orb}", marks: 1, markCode: "M" },
+              { reasoning: "Answer (b).", working: "(b)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** escape needs energy to infinity",
+            commonErrors: ["Thinking escape is easier than orbiting."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Orbital speed varies as $v = \\sqrt{GM/r}$. For Earth, surface orbital speed is 7.9 km/s. What is the orbital speed at 4 times Earth's radius ($r = 4R_E$)?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3.95, unit: "km/s" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Orbital speed", statement: "$v \\propto 1/\\sqrt{r}$; at $4R_E$, $v = 7.9/\\sqrt{4}$" }],
+            steps: [
+              { reasoning: "$v = 7.9/\\sqrt{4} = 7.9/2 = 3.95$ km/s.", working: "7.9/2", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "3.95\\ \\text{km/s}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "3.95 km/s",
+            commonErrors: ["Dividing by 4 instead of $\\sqrt{4}$; thinking speed increases with radius."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q9",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "What is special about a geostationary orbit?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It is the fastest possible orbit" },
+              { id: "b", text: "Its period is 24 hours and it stays above the same point on Earth's equator" },
+              { id: "c", text: "It is at sea level" },
+              { id: "d", text: "It has zero orbital speed" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Geostationary orbit", statement: "Period = 24 h, equatorial, matches Earth's rotation → appears fixed." }],
+            steps: [
+              { reasoning: "Period matches Earth's rotation → satellite appears stationary in sky.", working: "T=24\\ \\text{h}", marks: 1, markCode: "M" },
+              { reasoning: "Used for comms/weather satellites.", working: "\\text{fixed position}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** 24 h period, fixed above equator",
+            commonErrors: ["Confusing geostationary (equatorial, fixed) with polar orbits."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A planet has twice Earth's mass but the same radius. Earth's escape velocity is 11.2 km/s. Calculate the planet's escape velocity. ($v_{esc} \\propto \\sqrt{M}$)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 15.8, unit: "km/s" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Escape velocity", statement: "$v_{esc} = \\sqrt{2GM/R}$; doubling M → $v \\times \\sqrt{2}$" }],
+            steps: [
+              { reasoning: "$v = 11.2 \\times \\sqrt{2}$.", working: "11.2\\times1.414", marks: 1, markCode: "M" },
+              { reasoning: "$v \\approx 15.8$ km/s.", working: "15.8\\ \\text{km/s}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "15.8\\ \\text{km/s}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "15.8 km/s",
+            commonErrors: ["Doubling v instead of multiplying by $\\sqrt{2}$."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What must a rocket achieve to place a satellite into a stable orbit?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Escape velocity" },
+              { id: "b", text: "Sufficient horizontal orbital speed so gravity provides the centripetal force" },
+              { id: "c", text: "Zero velocity" },
+              { id: "d", text: "The speed of light" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Orbit", statement: "Orbital speed ~$7.9$ km/s horizontal; gravity curves path into orbit." }],
+            steps: [
+              { reasoning: "Satellite must move fast enough tangentially that it keeps missing Earth.", working: "v_{orb} \\approx 7.9", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** orbital speed",
+            commonErrors: ["Thinking rockets must reach escape velocity for satellites."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A geostationary satellite orbits at radius $4.2 \\times 10^7$ m with period 24 h ($8.64 \\times 10^4$ s). Calculate its orbital speed.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3054, tolerance: 10, unit: "m/s" }],
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Orbital speed", statement: "$v = 2\\pi r/T = 2\\pi \\times 4.2\\times10^7/8.64\\times10^4$" }],
+            steps: [
+              { reasoning: "$v = \\frac{2\\pi \\times 4.2 \\times 10^7}{8.64 \\times 10^4} \\approx 3054$ m/s.", working: "3054\\ \\text{m/s}", marks: 1, markCode: "M" },
+              { reasoning: "≈ 3.1 km/s.", working: "3.05\\ \\text{km/s}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "3050 m/s (≈3.1 km/s)",
+            commonErrors: ["Using diameter instead of radius; forgetting 2π."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which type of satellite orbit is used for GPS and high-resolution imaging?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Geostationary" },
+              { id: "b", text: "Low Earth orbit" },
+              { id: "c", text: "Escape trajectory" },
+              { id: "d", text: "Sub-orbital hop" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "context", name: "Satellite orbits", statement: "LEO (~400 km) for imaging/GPS; GEO (36 000 km) for comms." }],
+            steps: [
+              { reasoning: "LEO gives detailed views and short signal delay — ideal for imaging/GPS.", working: "\\text{LEO}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Low Earth orbit",
+            commonErrors: ["Choosing geostationary — too far for detailed imaging."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q14",
+          difficulty: "core",
+          totalMarks: 7,
+          stem: "A rocket must launch a satellite into low Earth orbit (~400 km altitude).",
+          parts: [
+            { label: "a", prompt: "State the approximate orbital speed required.", marks: 1 },
+            { label: "b", prompt: "Explain why the rocket needs more than orbital speed to reach orbit.", marks: 2 },
+            { label: "c", prompt: "Describe how gravity acts on the satellite once in orbit.", marks: 1 },
+            { label: "d", prompt: "Compare the energy needed for orbit versus escape from Earth.", marks: 2 },
+            { label: "e", prompt: "Suggest one advantage of launching satellites into LEO rather than GEO.", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Orbital/escape", statement: "$v_{orb} \\approx 7.9$ km/s; $v_{esc} = \\sqrt{2}v_{orb} \\approx 11.2$ km/s." },
+              { kind: "principle", name: "Gravity in orbit", statement: "Gravity still acts — it IS the centripetal force." },
+            ],
+            steps: [
+              { part: "a", reasoning: "≈ 7.9 km/s (slightly less at altitude).", working: "7.9\\ \\text{km/s}", marks: 1, markCode: "B" },
+              { part: "b", reasoning: "Must overcome gravity and air resistance during ascent, plus achieve horizontal velocity; only a fraction of fuel energy becomes orbital KE.", working: "\\text{losses + horizontal } v", marks: 2, markCode: "A" },
+              { part: "c", reasoning: "Gravity provides centripetal force — satellite is in continuous free-fall.", working: "g \\text{ = centripetal}", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Escape needs $\\sqrt{2}$ times orbital speed → about twice the kinetic energy per unit mass ($\\frac{1}{2}mv^2$ with $v^2$ doubled).", working: "KE_{esc} \\approx 2\\,KE_{orb}", marks: 2, markCode: "A" },
+              { part: "e", reasoning: "Any one: closer → sharper images, less signal delay/power needed, cheaper to launch.", working: "\\text{better imaging}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "(a) 7.9 km/s (b) losses + need horizontal speed (c) gravity = centripetal force (d) escape ~2× KE (e) better detail/less delay",
+            commonErrors: ["Thinking satellites escape Earth's gravity."],
+            examinerNote: "B1 for (a); A2 for (b); A1 for (c); A2 for (d); B1 for (e).",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Why must a rocket bound for the Moon exceed Earth's orbital speed but need not reach escape velocity?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The Moon's gravity pulls it" },
+              { id: "b", text: "It must escape Earth's gravity entirely — escape velocity is required" },
+              { id: "c", text: "It only needs enough speed to reach lunar orbit; Earth's gravity weakens with distance and the Moon's gravity helps capture it" },
+              { id: "d", text: "Rockets cannot reach the Moon" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Lunar missions", statement: "Moon missions need >orbital speed to leave LEO but gravity assist/capture means escape velocity isn't strictly required once coasting." }],
+            steps: [
+              { reasoning: "Leaving Earth needs energy beyond orbit; the Moon's gravity can capture the spacecraft without full escape velocity from Earth's surface.", working: "\\text{lunar capture}", marks: 1, markCode: "M" },
+              { reasoning: "Answer (c).", working: "(c)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(c)** lunar gravity assists capture",
+            commonErrors: ["Thinking escape velocity from Earth's surface is mandatory for Moon trips."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "mypp5-u3-space-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "For Earth, $GM = 3.99 \\times 10^{14}$ m³/s² and $R = 6.37 \\times 10^6$ m.",
+          parts: [
+            { label: "a", prompt: "Calculate the escape velocity from Earth's surface.", marks: 1 },
+            { label: "b", prompt: "Calculate the orbital speed at Earth's surface.", marks: 1 },
+            { label: "c", prompt: "Calculate the orbital speed at $r = 2R_E$.", marks: 1 },
+            { label: "d", prompt: "Calculate the ratio $v_{esc}/v_{orb}$ at the surface.", marks: 1 },
+          ],
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 11.2, unit: "km/s" },
+              { label: "b", answer: 7.9, unit: "km/s" },
+              { label: "c", answer: 5.6, unit: "km/s" },
+              { label: "d", answer: 1.41, unit: "" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Escape/orbital", statement: "$v_{esc} = \\sqrt{2GM/R}$; $v_{orb} = \\sqrt{GM/r}$" },
+            ],
+            steps: [
+              { part: "a", reasoning: "$v_{esc} = \\sqrt{2 \\times 3.99\\times10^{14}/6.37\\times10^6} \\approx 11.2$ km/s.", working: "11.2\\ \\text{km/s}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "$v_{orb} = \\sqrt{3.99\\times10^{14}/6.37\\times10^6} \\approx 7.9$ km/s.", working: "7.9\\ \\text{km/s}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "$v = 7.9/\\sqrt{2} \\approx 5.6$ km/s.", working: "5.6\\ \\text{km/s}", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Ratio $= \\sqrt{2} \\approx 1.41$.", working: "1.41", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) 11.2 km/s (b) 7.9 km/s (c) 5.6 km/s (d) 1.41",
+            commonErrors: ["Forgetting factor of 2 inside the escape velocity square root."],
+            examinerNote: "M1 A1 for each part.",
+          },
+        },
+      ],
+    },
+  ],
+};

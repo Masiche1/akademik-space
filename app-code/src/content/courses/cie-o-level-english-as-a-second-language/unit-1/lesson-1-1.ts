@@ -1,0 +1,315 @@
+import type { Lesson } from "../../../types.ts";
+
+export const lesson11: Lesson = {
+  id: "oles-u1-lesson-1-1",
+  code: "1-1",
+  title: "Literal and inferred meaning",
+  goal: "I CAN find stated facts and infer hidden meaning in unseen texts.",
+  standards: ["1120 Reading: comprehension"],
+  vocabulary: [
+    { term: "Literal meaning", definition: "What the text states directly — the facts written on the page." },
+    { term: "Inference", definition: "What the writer suggests without stating it directly." },
+    { term: "Unseen text", definition: "A passage you have not read before, usually in the exam." },
+    { term: "Evidence", definition: "Words or phrases from the text that support your answer." },
+    { term: "Context", definition: "The words around a word or sentence that help you understand it." },
+  ],
+  concepts: [
+    {
+      id: "oles-u1-literal",
+      title: "Finding literal meaning",
+      skill: "Locate and accurately report information stated in a text.",
+      lesson: {
+        sections: [
+          { heading: "What literal questions ask", body: "Literal questions ask for facts that are written directly in the text: who, what, when, where, how many. The answer is always in the passage — your job is to find it quickly and copy the key words accurately." },
+          { heading: "How to answer", body: "Skim the text first for an overview. Then read the questions, underline keywords, and scan the passage for those keywords or their synonyms. Answer in your own words unless the question says 'quote' — but keep the meaning exact. Watch for trap answers that are true in general but not in this text." },
+        ],
+        keyFormulas: [
+          { name: "Literal answers", statement: "Find the keyword → scan the text → copy the key words accurately." },
+        ],
+        workedExample: {
+          problem: "Text says: 'The ferry leaves the harbour at 6.15 every morning.' Question: When does the ferry leave?",
+          solution: "Literal fact stated directly: 6.15 in the morning. Answer: at 6.15 a.m. every morning.",
+        },
+      },
+      questions: [
+        {
+          id: "oles-u1-lit-q1", difficulty: "foundation", totalMarks: 1,
+          stem: "What does a literal comprehension question ask for?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Information stated directly in the text" },
+            { id: "b", text: "What the writer secretly thinks" },
+            { id: "c", text: "Your personal opinion" },
+            { id: "d", text: "What happened after the story" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "Literal meaning", statement: "What the text states directly." }], steps: [{ reasoning: "Literal = stated on the page.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Information stated directly in the text" },
+        },
+        {
+          id: "oles-u1-lit-q2", difficulty: "core", totalMarks: 2,
+          stem: "What is the best first step before answering comprehension questions?",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "skill", name: "Reading strategy", statement: "Skim first, then scan for keywords." }], steps: [
+            { reasoning: "Skim the whole text once to understand the topic and structure.", marks: 1, markCode: "AO2" },
+            { reasoning: "Then scan for question keywords to find answers quickly.", marks: 1, markCode: "AO3" },
+          ], finalAnswer: "Skim for overview first, then scan for the keywords in each question." },
+        },
+        {
+          id: "oles-u1-lit-q3", difficulty: "challenge", totalMarks: 4,
+          stem: "Explain three strategies for answering literal questions accurately.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "skill", name: "Accuracy strategies", statement: "Keyword scanning, exact wording, checking against the text." }], steps: [
+            { reasoning: "Underline keywords in the question and find matching words or synonyms in the text.", marks: 1, markCode: "AO2" },
+            { reasoning: "Copy the key words exactly — do not change names, numbers or technical terms.", marks: 1, markCode: "AO2" },
+            { reasoning: "Answer in your own words but keep the exact meaning; check the answer is in this text, not just generally true.", marks: 1, markCode: "AO2" },
+            { reasoning: "All three strategies clearly explained.", marks: 1, markCode: "AO3" },
+          ], finalAnswer: "Keyword scanning; exact wording; verify the answer is stated in this specific text." },
+        },
+        {
+          id: "oles-u1-lit-q4", difficulty: "challenge", totalMarks: 9,
+          stem: "Comprehension strategy review.",
+          parts: [
+            { label: "a", prompt: "What is literal meaning?", marks: 2 },
+            { label: "b", prompt: "How should you prepare before answering questions?", marks: 2 },
+            { label: "c", prompt: "Name two accuracy strategies.", marks: 2 },
+            { label: "d", prompt: "What is a common trap in literal questions?", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "skill", name: "Literal comprehension", statement: "Stated facts; prepare by skimming; exact wording; beware traps." }], steps: [
+            { part: "a", reasoning: "Literal meaning = what the text states directly.", marks: 1, markCode: "AO2" },
+            { part: "a", reasoning: "Correct definition.", marks: 1, markCode: "AO3" },
+            { part: "b", reasoning: "Skim the whole text first for overview and structure.", marks: 1, markCode: "AO2" },
+            { part: "b", reasoning: "Correct preparation step.", marks: 1, markCode: "AO3" },
+            { part: "c", reasoning: "Any two: underline keywords, scan for synonyms, copy exact words, answer in own words, check word limit.", marks: 1, markCode: "AO2" },
+            { part: "c", reasoning: "Two valid strategies.", marks: 1, markCode: "AO3" },
+            { part: "d", reasoning: "Trap answers are generally true but not stated in this text, or use similar but different words.", marks: 1, markCode: "AO2" },
+            { part: "d", reasoning: "Explains why traps mislead.", marks: 1, markCode: "AO2" },
+            { part: "d", reasoning: "Advises checking answer against the text.", marks: 1, markCode: "AO3" },
+          ], finalAnswer: "(a) stated facts (b) skim first (c) two strategies (d) true-but-unstated traps",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Vague or wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Vague or wrong.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two valid strategies.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Fewer than two.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Trap explained with check strategy.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Identifies traps only.", part: "d" },
+            ],
+          },
+        },
+        {
+          id: "oles-u1-lit-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "Which question is a literal comprehension question?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Where does the story take place?" },
+            { id: "b", text: "What do you think of the ending?" },
+            { id: "c", text: "How does the writer feel about the topic?" },
+            { id: "d", text: "What might happen next?" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "Literal question", statement: "Asks for a fact stated in the text." }], steps: [{ reasoning: "'Where' asks for a stated fact; the others ask for opinion or prediction.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Where does the story take place?" },
+        },
+        {
+          id: "oles-u1-lit-q6", difficulty: "core", totalMarks: 1,
+          stem: "A question beginning 'According to the text...' signals that…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "The answer is stated in the passage" },
+            { id: "b", text: "You must give your own opinion" },
+            { id: "c", text: "The answer is outside the text" },
+            { id: "d", text: "The question is unanswerable" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "convention", name: "Question wording", statement: "'According to the text' = find stated facts." }], steps: [{ reasoning: "This phrase tells you to locate information written in the passage.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The answer is stated in the passage" },
+        },
+        {
+          id: "oles-u1-lit-q7", difficulty: "foundation", totalMarks: 2,
+          stem: "Why must names, numbers and dates be copied exactly in a literal answer?",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "skill", name: "Accuracy", statement: "Exact details carry the marks." }], steps: [
+            { reasoning: "Names, numbers and dates are facts — changing them changes the meaning.", marks: 1, markCode: "AO2" },
+            { reasoning: "Exact copying proves the answer comes from the text.", marks: 1, markCode: "AO3" },
+          ], finalAnswer: "Exact details keep the fact accurate and show it comes from the text." },
+        },
+        {
+          id: "oles-u1-lit-q8", difficulty: "core", totalMarks: 2,
+          stem: "A question asks 'How many people attended the event?' What type of information are you looking for?",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "skill", name: "Keyword scan", statement: "'How many' signals a number in the text." }], steps: [
+            { reasoning: "You scan the text for a number or quantity related to the event.", marks: 1, markCode: "AO2" },
+            { reasoning: "The answer is a figure stated directly, e.g. 'about 200 people'.", marks: 1, markCode: "AO3" },
+          ], finalAnswer: "A number stated in the text — scan for digits or number words." },
+        },
+        {
+          id: "oles-u1-lit-q9", difficulty: "core", totalMarks: 3,
+          stem: "The question uses the word 'vehicle' but the text says 'bus'. How should you answer?",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "skill", name: "Synonym matching", statement: "Questions often paraphrase the text." }], steps: [
+            { reasoning: "Recognise that 'vehicle' is a general word covering 'bus'.", marks: 1, markCode: "AO2" },
+            { reasoning: "Scan the text for the specific word 'bus' or related ideas.", marks: 1, markCode: "AO2" },
+            { reasoning: "Answer with the text's facts about the bus.", marks: 1, markCode: "AO3" },
+          ], finalAnswer: "Match the question's synonym to the text's specific word and answer from it." },
+        },
+        {
+          id: "oles-u1-lit-q10", difficulty: "challenge", totalMarks: 4,
+          stem: "A student answers a literal question using general knowledge instead of the text. Explain why this loses marks and how to fix it.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "skill", name: "Text dependence", statement: "Literal answers must come from this text." }], steps: [
+            { reasoning: "Literal questions test whether you found the fact in the passage.", marks: 1, markCode: "AO2" },
+            { reasoning: "General knowledge may be true but is not the text's answer.", marks: 1, markCode: "AO2" },
+            { reasoning: "Fix: underline the question keywords and scan the text for them.", marks: 1, markCode: "AO2" },
+            { reasoning: "Always check the answer is written in this specific text.", marks: 1, markCode: "AO3" },
+          ], finalAnswer: "Answers must come from the text; scan for keywords and verify against the passage." },
+        },
+        {
+          id: "oles-u1-lit-q11", difficulty: "foundation", totalMarks: 1,
+          stem: "When a question says 'Quote...' or 'Find the words...', you should…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Copy the exact words from the text" },
+            { id: "b", text: "Paraphrase the idea" },
+            { id: "c", text: "Give your opinion" },
+            { id: "d", text: "Summarise in one word" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "convention", name: "Quoting", statement: "'Quote' demands exact words." }], steps: [{ reasoning: "Quoting questions require verbatim copying from the passage.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Copy the exact words" },
+        },
+        {
+          id: "oles-u1-lit-q12", difficulty: "core", totalMarks: 2,
+          stem: "What is the difference between answering in your own words and copying a sentence for a literal question?",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "skill", name: "Wording", statement: "Own words allowed unless 'quote' is used." }], steps: [
+            { reasoning: "Most answers may be in your own words as long as the meaning is exact.", marks: 1, markCode: "AO2" },
+            { reasoning: "Only when the question says 'quote' must you copy exact words.", marks: 1, markCode: "AO3" },
+          ], finalAnswer: "Paraphrase is fine unless the question demands a quotation." },
+        },
+        {
+          id: "oles-u1-lit-q13", difficulty: "core", totalMarks: 3,
+          stem: "Describe a three-step routine for answering literal comprehension questions.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "skill", name: "Literal routine", statement: "Underline → scan → verify." }], steps: [
+            { reasoning: "Underline the keywords in the question.", marks: 1, markCode: "AO2" },
+            { reasoning: "Scan the text for those words or synonyms to find the answer.", marks: 1, markCode: "AO2" },
+            { reasoning: "Check the answer is stated in the text and matches any word limit.", marks: 1, markCode: "AO3" },
+          ], finalAnswer: "Underline keywords → scan text → verify against passage." },
+        },
+        {
+          id: "oles-u1-lit-q14", difficulty: "challenge", totalMarks: 1,
+          stem: "A 'trap answer' in a literal question is one that…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Is generally true but not stated in this text" },
+            { id: "b", text: "Is written in the first paragraph" },
+            { id: "c", text: "Uses simple vocabulary" },
+            { id: "d", text: "Is the longest choice" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "skill", name: "Trap answers", statement: "True in general, absent from text." }], steps: [{ reasoning: "Traps sound right but the fact is not in this passage.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Generally true but not stated in this text" },
+        },
+        {
+          id: "oles-u1-lit-q15", difficulty: "foundation", totalMarks: 2,
+          stem: "Why should you check that your answer is in this specific text rather than just being true?",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "skill", name: "Verification", statement: "Mark schemes reward text-based answers." }], steps: [
+            { reasoning: "The examiner marks whether you found the stated fact.", marks: 1, markCode: "AO2" },
+            { reasoning: "A true-but-unstated answer earns no mark.", marks: 1, markCode: "AO3" },
+          ], finalAnswer: "Only answers found in the text earn marks." },
+        },
+        {
+          id: "oles-u1-lit-q16", difficulty: "challenge", totalMarks: 4,
+          stem: "Compare a literal question and an inference question: what does each ask for?",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "skill", name: "Literal vs inference", statement: "Stated vs implied." }], steps: [
+            { reasoning: "Literal questions ask for facts written directly in the text.", marks: 1, markCode: "AO2" },
+            { reasoning: "Inference questions ask what is implied but not stated.", marks: 1, markCode: "AO2" },
+            { reasoning: "Literal answers can be copied or paraphrased; inference needs evidence.", marks: 1, markCode: "AO2" },
+            { reasoning: "Clear comparison.", marks: 1, markCode: "AO3" },
+          ], finalAnswer: "Literal = stated facts; inference = implied meaning supported by clues." },
+        },
+      ],
+    },
+    {
+      id: "oles-u1-inference",
+      title: "Inferring meaning",
+      skill: "Read between the lines to find what the writer implies.",
+      lesson: {
+        sections: [
+          { heading: "What inference means", body: "Inference questions ask what the writer suggests but does not state. The answer is never written word-for-word — you must combine clues: word choice, actions, descriptions and the situation." },
+          { heading: "How to infer", body: "Collect the clues first, then decide what they suggest together. Always support your answer with evidence from the text. Phrases like 'it seems', 'probably' and 'this suggests' are honest inference language." },
+        ],
+        keyFormulas: [
+          { name: "Inference", statement: "Clues in text → implied meaning → support with evidence." },
+        ],
+        workedExample: {
+          problem: "Text says: 'Amara gripped the rail as the boat rocked.' What does this suggest about Amara?",
+          solution: "The action 'gripped the rail' during rocking suggests she is nervous or afraid of the boat. Answer supported by the clue 'rocked'.",
+        },
+      },
+      questions: [
+        {
+          id: "oles-u1-inf-q1", difficulty: "foundation", totalMarks: 1,
+          stem: "An inference question asks you to…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Find what is implied but not stated" },
+            { id: "b", text: "Copy a sentence from the text" },
+            { id: "c", text: "Count the paragraphs" },
+            { id: "d", text: "Translate the text" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "Inference", statement: "Implied but not stated." }], steps: [{ reasoning: "Inference = reading between the lines.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Find what is implied but not stated" },
+        },
+        {
+          id: "oles-u1-inf-q2", difficulty: "core", totalMarks: 2,
+          stem: "Why must inference answers be supported by evidence?",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "skill", name: "Evidence", statement: "Inferences are only valid when tied to text clues." }], steps: [
+            { reasoning: "An unsupported inference is just a guess.", marks: 1, markCode: "AO2" },
+            { reasoning: "Evidence shows the clues that led to your conclusion.", marks: 1, markCode: "AO3" },
+          ], finalAnswer: "Evidence proves the inference comes from the text, not imagination." },
+        },
+        {
+          id: "oles-u1-inf-q3", difficulty: "challenge", totalMarks: 4,
+          stem: "Explain the steps for answering an inference question well.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "skill", name: "Inference method", statement: "Find clues → combine them → state implied meaning → give evidence." }], steps: [
+            { reasoning: "Find the relevant clues: descriptions, actions, word choice.", marks: 1, markCode: "AO2" },
+            { reasoning: "Combine clues to decide what they suggest together.", marks: 1, markCode: "AO2" },
+            { reasoning: "State the implied meaning clearly, using cautious language like 'suggests'.", marks: 1, markCode: "AO2" },
+            { reasoning: "Support the answer with a quotation or reference to the text.", marks: 1, markCode: "AO3" },
+          ], finalAnswer: "Clues → combine → implied meaning → textual evidence." },
+        },
+        {
+          id: "oles-u1-inf-q4", difficulty: "challenge", totalMarks: 9,
+          stem: "Inference skills review.",
+          parts: [
+            { label: "a", prompt: "Define inference.", marks: 2 },
+            { label: "b", prompt: "Where do inference answers come from?", marks: 2 },
+            { label: "c", prompt: "Name two types of clues.", marks: 2 },
+            { label: "d", prompt: "Why is evidence essential?", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "skill", name: "Inference", statement: "Implied meaning from combined clues, always evidenced." }], steps: [
+            { part: "a", reasoning: "Inference = what the writer implies but does not state.", marks: 1, markCode: "AO2" },
+            { part: "a", reasoning: "Correct definition.", marks: 1, markCode: "AO3" },
+            { part: "b", reasoning: "From clues in the text — actions, descriptions, word choice — never from outside knowledge alone.", marks: 1, markCode: "AO2" },
+            { part: "b", reasoning: "Correct source.", marks: 1, markCode: "AO3" },
+            { part: "c", reasoning: "Any two: character actions, descriptive words, dialogue, situation, tone.", marks: 1, markCode: "AO2" },
+            { part: "c", reasoning: "Two valid clue types.", marks: 1, markCode: "AO3" },
+            { part: "d", reasoning: "Without evidence the answer is a guess; evidence links the inference to the text.", marks: 1, markCode: "AO2" },
+            { part: "d", reasoning: "Explains the marking reason.", marks: 1, markCode: "AO2" },
+            { part: "d", reasoning: "Shows how to cite the supporting words.", marks: 1, markCode: "AO3" },
+          ], finalAnswer: "(a) implied meaning (b) text clues (c) two clue types (d) evidence prevents guessing",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Vague or wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Vague or wrong.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two valid clue types.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Fewer than two.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Evidence linked to inference.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "States need for evidence only.", part: "d" },
+            ],
+          },
+        },
+      ],
+    },
+  ],
+  notes: [
+    { id: "oles-u1-1-1-notes", title: "Literal and inferred meaning — notes", summary: "Stated facts versus implied ideas, with exam technique.",
+      sections: [
+        { heading: "Literal vs inference", body: "Literal answers are written in the text; inference answers must be built from clues. When a question says 'suggests', 'implies' or 'shows that', it wants inference." },
+        { heading: "Exam routine", body: "Skim once → read questions → underline keywords → scan the text → answer → check wording and word limit." },
+      ] },
+  ],
+};

@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /account
+Disallow: /teach
+Disallow: /admin
+Disallow: /sets
+Disallow: /auth
+Disallow: /sign-in
+Disallow: /progress
+
+Sitemap: https://akademik.space/sitemap.xml

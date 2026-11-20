@@ -1,0 +1,328 @@
+import type { Lesson } from "../../../types.ts";
+
+const poemExtract = {
+  title: "The Empty Playground",
+  author: "Written for Akademik Space",
+  source: "Original poem",
+  text: "The swings hang still in the afternoon\n  like something somebody forgot to finish.\nA ball lies where the goal posts used to argue\n  with the wind about which way was up.\n\nThe whistle that called us out has gone quiet\n  into the pocket of a teacher's coat\nthat smells of chalk and colder weather.\nWe are smaller now than the footprints\n  we left in the wet sand of the field,\nand the field itself is learning to be a field again —\n  unremarkable, unruled, almost shy.",
+};
+
+const storyExtract = {
+  title: "The Last Ferry",
+  author: "Written for Akademik Space",
+  source: "Original story",
+  text: "The last ferry of the season pulled away from the harbour at dusk, carrying three passengers and a bicycle.\n\nMarisol sat at the front, watching the lights of the town shrink behind her. She had lived on the island for sixty-one years and was leaving it forever — not because she wanted to, but because the house had become too large for one person and the stairs had become too steep for her knees.\n\nBehind her, a young man slept against the rail, his bicycle lashed beside him. He had come for the summer and was now going home to a city Marisol could not imagine. They had spoken only twice. Once about the weather, once about his bicycle's broken bell.\n\nWhen the ferry reached the mainland, Marisol stepped onto the dock and looked back. The island was already dark. She realised she was not sad exactly — she was something more complicated: grateful, perhaps, or merely finished. The bicycle boy woke, adjusted his pack, and walked toward the train station without looking back. Marisol followed him at a distance, carrying a bag that felt heavier than it should.",
+};
+
+export const lesson33: Lesson = {
+  id: "cile-u3-lesson-3-3",
+  code: "3-3",
+  title: "Poetry and prose analysis",
+  goal: "I CAN analyse how poets and prose writers use form, structure, imagery and voice to create meaning.",
+  standards: ["0861 Reading: poetry and literary prose"],
+  vocabulary: [
+    { term: "Stanza", definition: "A group of lines in a poem, like a paragraph in prose." },
+    { term: "Volta", definition: "A turn or shift in a poem's argument or mood, often at the start of the final stanza." },
+    { term: "Enjambment", definition: "Running a sentence over a line break without punctuation — creates flow or tension." },
+    { term: "Voice", definition: "The distinctive tone and perspective of a narrator or speaker." },
+    { term: "Symbol", definition: "An object, image or action that stands for something beyond itself." },
+    { term: "Free verse", definition: "Poetry without regular rhyme or metre." },
+  ],
+  concepts: [
+    {
+      id: "cile-u3-poetry-analysis",
+      title: "Analysing poetry",
+      skill: "Analyse how form, imagery, structure and voice work together in a poem to create meaning.",
+      lesson: {
+        sections: [
+          {
+            heading: "Poetry form and structure",
+            body: "- **Stanzas**: groupings create units of thought — like paragraphs.\n- **Line breaks**: can emphasise a word or create pause.\n- **Enjambment**: running over line breaks creates flow or tension.\n- **Volta**: a turn in the poem — often where the meaning shifts.\n- **Free verse**: no regular rhyme or metre — meaning carries the structure.",
+          },
+          {
+            heading: "Imagery in poetry",
+            body: "Poets compress meaning into images. 'Swings hang still like something somebody forgot to finish' — the simile suggests abandonment and incompleteness. Every image is chosen for its connotations.",
+          },
+          {
+            heading: "Voice and tone",
+            body: "The speaker's voice — nostalgic, bitter, celebratory — shapes how we read the poem. In 'The Empty Playground', the voice is wistful and gently ironic ('almost shy').",
+          },
+        ],
+        keyFormulas: [
+          { name: "Poetry analysis", statement: "Form (stanzas, line breaks) + imagery + voice = meaning. Analyse all three, not just paraphrase." },
+        ],
+        workedExample: {
+          problem: "Poem: 'The whistle that called us out has gone quiet / into the pocket of a teacher's coat'. What does this image convey?",
+          solution: "The whistle — a symbol of childhood routine — is 'gone quiet', personified as having retired into a coat pocket. It conveys the end of childhood games and the passage of time.",
+        },
+      },
+      questions: [
+        {
+          id: "cile-u3-poem-q1",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: poemExtract,
+          stem: "What is the main subject of the poem?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A school sports day" },
+              { id: "b", text: "The loss of childhood and the passage of time" },
+              { id: "c", text: "A teacher's retirement" },
+              { id: "d", text: "A windy day at the playground" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Theme", statement: "The poem mourns the end of childhood play and the shrinking of the speaker into adulthood." },
+            ],
+            steps: [
+              { reasoning: "Images of still swings, silent whistle, shrinking footprints all signal lost childhood.", working: "\\text{lost childhood}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** The loss of childhood and the passage of time",
+            commonErrors: ["Choosing (d) — the wind is imagery, not the subject."],
+          },
+        },
+        {
+          id: "cile-u3-poem-q2",
+          difficulty: "core",
+          totalMarks: 2,
+          extract: poemExtract,
+          stem: "Explain the effect of the simile 'like something somebody forgot to finish'.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Simile", statement: "Comparison with 'like'; suggests abandonment and incompleteness." },
+            ],
+            steps: [
+              { reasoning: "The swings are compared to an unfinished task — abandoned mid-way.", working: "\\text{unfinished task}", marks: 1, markCode: "AO2" },
+              { reasoning: "Effect: conveys neglect and the sense that childhood was left incomplete.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "The simile makes the still swings feel abandoned mid-play — childhood stopped before it was finished, emphasising loss and incompleteness.",
+            commonErrors: ["Saying 'it creates a nice image' without explaining the emotional effect."],
+          },
+        },
+        {
+          id: "cile-u3-poem-q3",
+          difficulty: "challenge",
+          totalMarks: 4,
+          extract: poemExtract,
+          stem: "Analyse how the final stanza's language creates a mood of gentle acceptance rather than bitterness.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Tone", statement: "Gentle, wry word choices ('unremarkable, unruled, almost shy') soften the loss." },
+            ],
+            steps: [
+              { reasoning: "Evidence: 'the field itself is learning to be a field again' — gentle personification.", working: "\\text{learning to be a field}", marks: 1, markCode: "AO2" },
+              { reasoning: "'almost shy' — the field's return to nature is tender, not resentful.", working: "\\text{'almost shy'}", marks: 1, markCode: "AO2" },
+              { reasoning: "No blame or anger — the tone accepts time's passage.", marks: 1, markCode: "AO2" },
+              { reasoning: "Result: wistful acceptance rather than bitterness.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "The gentle personification of the field 'learning' and 'almost shy' softens the loss — there is no blame or anger, only wistful acceptance of time's passage.",
+            commonErrors: ["Calling the tone 'sad' without noting its gentleness and acceptance."],
+          },
+        },
+        {
+          id: "cile-u3-poem-q4",
+          difficulty: "challenge",
+          totalMarks: 9,
+          extract: poemExtract,
+          stem: "The poem uses a series of images to trace the end of childhood.",
+          parts: [
+            { label: "a", prompt: "Identify three images of stillness or absence.", marks: 2 },
+            { label: "b", prompt: "Explain the effect of the 'whistle' image.", marks: 2 },
+            { label: "c", prompt: "How does the poem's structure (three stanzas) support its meaning?", marks: 2 },
+            { label: "d", prompt: "What is the significance of 'We are smaller now than the footprints we left'?", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Imagery sequence", statement: "Each image develops the theme of lost childhood; structure mirrors the progression." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Images: 'swings hang still', 'ball lies where goal posts used to argue', 'whistle gone quiet'.", working: "\\text{still swings; ball; whistle}", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Accurate identification.", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "The whistle symbolises childhood routine and authority — now silent.", working: "\\text{routine/authority}", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "Its 'quiet' personification makes the loss feel personal and final.", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "Three stanzas move from image (swings/ball) to symbol (whistle) to reflection (footprints/field).", working: "\\text{image → symbol → reflection}", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "The progression mirrors the speaker's movement from memory to acceptance.", marks: 1, markCode: "AO3" },
+              { part: "d", reasoning: "The speaker has shrunk — literally (grown up) and metaphorically (less significant in the world).", working: "\\text{shrunk}", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "Childhood footprints remain but the child is smaller — time has passed.", working: "\\text{time passed}", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "It captures the bittersweet paradox of growing up: the world stays, we change.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) still swings; abandoned ball; silent whistle (b) whistle = lost routine/authority, personal finality (c) stanzas progress image→symbol→reflection mirroring acceptance (d) speaker has grown smaller — childhood's scale no longer fits",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Three images accurately identified.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Missing.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Whistle image explained.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Structure meaningfully analysed.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Line significance explained with theme link.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
+            ],
+            commonErrors: ["In (d) reading 'smaller' literally rather than as metaphor for changed perspective."],
+          },
+        },
+      ],
+    },
+    {
+      id: "cile-u3-prose-analysis",
+      title: "Analysing prose fiction",
+      skill: "Analyse how prose writers use character, setting, voice and structure to create meaning in fiction.",
+      lesson: {
+        sections: [
+          {
+            heading: "Elements of prose fiction",
+            body: "- **Character**: revealed through action, dialogue, thought, and what others say about them.\n- **Setting**: place and time — can mirror mood or symbolise themes.\n- **Voice**: the narrator's tone — reliable or unreliable, close or distant.\n- **Structure**: chronological, flashback, circular — controls revelation.",
+          },
+          {
+            heading: "Close reading prose",
+            body: "1. Who is telling the story? Can we trust them?\n2. What do characters do vs what they say — gaps reveal truth.\n3. What does the setting contribute — mood, symbol, contrast?\n4. How does the ending resolve (or refuse to resolve) the central tension?",
+          },
+        ],
+        keyFormulas: [
+          { name: "Prose analysis", statement: "Character + setting + voice + structure = meaning. Analyse how they interact, not just what happens." },
+        ],
+        workedExample: {
+          problem: "Story: 'The Last Ferry'. Marisol feels 'not sad exactly — she was something more complicated'. Why this phrasing?",
+          solution: "The refusal to name the emotion ('not sad exactly') is honest about grief's complexity — it is accurate to how people actually experience endings: mixed, unfinished, hard to categorise.",
+        },
+      },
+      questions: [
+        {
+          id: "cile-u3-prose-q1",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: storyExtract,
+          stem: "What is the main conflict in 'The Last Ferry'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Marisol vs the ferry company" },
+              { id: "b", text: "Marisol's attachment to the island vs the necessity of leaving" },
+              { id: "c", text: "The bicycle boy vs the weather" },
+              { id: "d", text: "The island vs the mainland" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Conflict", statement: "Internal conflict: love of place vs practical need to leave." },
+            ],
+            steps: [
+              { reasoning: "She lived there 61 years and is leaving out of necessity, not desire.", working: "\\text{attachment vs necessity}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** Marisol's attachment to the island vs the necessity of leaving",
+            commonErrors: ["Choosing (d) — the island/mainland is setting, not the conflict."],
+          },
+        },
+        {
+          id: "cile-u3-prose-q2",
+          difficulty: "core",
+          totalMarks: 2,
+          extract: storyExtract,
+          stem: "What does the bicycle boy's 'broken bell' detail suggest about his character?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Detail as characterisation", statement: "Small details reveal character — a broken bell suggests a quiet, unpretentious person." },
+            ],
+            steps: [
+              { reasoning: "The bell is broken — minor, unnoticed, unglamorous.", working: "\\text{broken bell}", marks: 1, markCode: "AO2" },
+              { reasoning: "It characterises him as unassuming and unbothered — he does not fix trivial things.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "The broken bell suggests he is unpretentious and unbothered by small flaws — a quiet, practical young man.",
+            commonErrors: ["Saying 'he is poor' — the detail suggests character, not economics."],
+          },
+        },
+        {
+          id: "cile-u3-prose-q3",
+          difficulty: "challenge",
+          totalMarks: 4,
+          extract: storyExtract,
+          stem: "Analyse how the setting of the ferry and harbour contributes to the story's mood.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Setting as mood", statement: "Liminal spaces (ferries, harbours) symbolise transition and departure." },
+            ],
+            steps: [
+              { reasoning: "The ferry is a threshold — neither island nor mainland, in-between.", working: "\\text{threshold}", marks: 1, markCode: "AO2" },
+              { reasoning: "Dusk and darkness — 'the island was already dark' — reinforce ending/finality.", working: "\\text{dusk/dark}", marks: 1, markCode: "AO2" },
+              { reasoning: "The harbour as departure point — 'lights of the town shrink' — visualises loss.", working: "\\text{shrinking lights}", marks: 1, markCode: "AO2" },
+              { reasoning: "Overall: setting embodies the emotional state — transition, loss, new beginning.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "The ferry is a literal threshold between island and mainland; dusk and the shrinking lights visualise departure and loss, making the setting embody Marisol's emotional transition.",
+            commonErrors: ["Describing the setting without linking it to mood or theme."],
+          },
+        },
+        {
+          id: "cile-u3-prose-q4",
+          difficulty: "challenge",
+          totalMarks: 9,
+          extract: storyExtract,
+          stem: "'The Last Ferry' is a story about endings and beginnings.",
+          parts: [
+            { label: "a", prompt: "Identify two details that show Marisol's attachment to the island.", marks: 2 },
+            { label: "b", prompt: "How does the bicycle boy function in the story?", marks: 2 },
+            { label: "c", prompt: "Explain the significance of 'grateful, perhaps, or merely finished'.", marks: 2 },
+            { label: "d", prompt: "What does the ending suggest about how we experience endings?", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Symbol and theme", statement: "The ferry/bicycle boy symbolise transition; the ending refuses simple emotion." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Detail 1: 'sixty-one years' on the island.", working: "\\text{61 years}", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Detail 2: she cannot leave until she has done X — or 'looked back' at the dark island.", working: "\\text{looked back}", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "He represents the future/young traveller — contrast with Marisol's rootedness.", working: "\\text{future vs rootedness}", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "He walks away without looking back — she follows at a distance.", working: "\\text{walks away}", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "The uncertainty ('perhaps', 'merely') refuses a simple label for grief.", working: "\\text{uncertainty}", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "It captures the complexity of endings — not sad, not happy, just finished.", working: "\\text{complexity}", marks: 1, markCode: "AO3" },
+              { part: "d", reasoning: "Endings are not single emotions — they are mixtures of relief, grief, gratitude.", working: "\\text{mixed emotions}", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "The bicycle boy's easy departure contrasts Marisol's weighted leaving — endings differ by circumstance.", working: "\\text{circumstance}", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "The story suggests endings are processes, not events — we carry them forward.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) 61 years; looking back at dark island (b) represents future/young traveller, walks away easily (c) uncertainty captures grief's complexity (d) endings are mixed emotions and processes, not single events",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Two accurate details.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Missing.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Boy's function explained.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Phrase significance explained.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Ending's theme convincingly argued.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
+            ],
+            commonErrors: ["In (b) saying 'he is a stranger' without analysing his symbolic function."],
+          },
+        },
+      ],
+    },
+  ],
+  notes: [
+    {
+      id: "cile-u3-poetry-prose-notes",
+      title: "Poetry and prose analysis — revision notes",
+      summary: "Form, imagery, voice and structure in poetry and fiction.",
+      sections: [
+        {
+          heading: "Poetry",
+          body: "Stanzas = paragraphs. Line breaks emphasise. Enjambment flows. Volta turns. Free verse relies on meaning, not metre. Analyse form + imagery + voice together.",
+        },
+        {
+          heading: "Prose fiction",
+          body: "Character (action vs words), setting (mood/symbol), voice (reliable?), structure (chronology/flashback). Look for gaps between what characters say and do.",
+        },
+        {
+          heading: "Exam technique",
+          body: "Never paraphrase. Always analyse: what technique, what effect, what it contributes to meaning. Link every observation to theme.",
+        },
+      ],
+    },
+  ],
+};

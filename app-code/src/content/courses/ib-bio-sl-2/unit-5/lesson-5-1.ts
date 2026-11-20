@@ -1,0 +1,956 @@
+import type { Lesson } from "../../../types.ts";
+
+export const lesson51: Lesson = {
+  id: "biosl-u5-lesson-5-1",
+  code: "5-1",
+  title: "The Nervous and Endocrine Systems",
+  goal: "I CAN describe how neurons transmit impulses through reflex arcs and synapses, and explain how hormones coordinate the body through negative feedback.",
+  standards: ["Topic B.1", "Topic B.2", "Paper 1", "Paper 2"],
+  vocabulary: [
+    { term: "Neuron", definition: "A specialised cell that transmits electrical impulses; consists of cell body, dendrites and axon." },
+    { term: "Synapse", definition: "The junction between two neurons where a chemical neurotransmitter carries the impulse across a small gap." },
+    { term: "Reflex arc", definition: "The automatic pathway receptor → sensory neuron → relay neuron → motor neuron → effector, mediated by the spinal cord." },
+    { term: "Hormone", definition: "A chemical messenger secreted by an endocrine gland into the blood, acting on target cells with matching receptors." },
+    { term: "Negative feedback", definition: "A control mechanism in which the output of a process reduces the stimulus that triggered it, maintaining a set point." },
+    { term: "Target cell", definition: "A cell that responds to a hormone because it carries the specific receptor for that hormone." },
+  ],
+  concepts: [
+    {
+      id: "biosl-u5-nervous-system",
+      title: "Neurons, synapses and reflexes",
+      skill: "Describe impulse transmission along neurons and across synapses, and trace the reflex arc.",
+      lesson: {
+        sections: [
+          {
+            heading: "Neuron structure and impulse",
+            body: "A **sensory neuron** carries impulses from receptors to the CNS, a **motor neuron** carries them from the CNS to effectors, and **relay neurons** connect them in the spinal cord. The impulse is a wave of **action potentials** along the axon; **myelin** insulates the axon and speeds transmission by saltatory conduction. Dendrites receive signals; the cell body contains the nucleus.",
+          },
+          {
+            heading: "Synaptic transmission",
+            body: "At a **synapse**, the arriving impulse triggers vesicles to release **neurotransmitters** (e.g. acetylcholine) into the cleft by exocytosis. The transmitter diffuses across, binds receptors on the postsynaptic membrane and triggers a new impulse. The transmitter is then broken down or reabsorbed so the synapse can reset — transmission is one-way, and drugs can block or mimic transmitters.",
+          },
+          {
+            heading: "Reflex arcs and the brain",
+            body: "A **reflex arc** bypasses conscious processing for speed: receptor → sensory neuron → relay neuron in the spinal cord → motor neuron → effector (muscle or gland). The brain receives the information slightly later, producing the sensation. The **cerebrum** handles conscious thought, the **cerebellum** coordinates movement and balance, and the **medulla oblongata** controls involuntary functions such as breathing and heart rate.",
+          },
+        ],
+        keyFormulas: [
+          { name: "Impulse pathway", statement: "Receptor → sensory neuron → CNS (relay neuron) → motor neuron → effector" },
+          { name: "Synapse", statement: "Impulse arrives → neurotransmitter released → binds receptors → new impulse in next neuron" },
+          { name: "Brain regions", statement: "Cerebrum = conscious thought; cerebellum = coordination; medulla = involuntary control" },
+        ],
+        workedExample: {
+          problem: "A person touches a hot pan and withdraws their hand before consciously feeling pain. Trace the reflex arc.",
+          solution: "Heat receptor in skin → sensory neuron → relay neuron in spinal cord → motor neuron → biceps contracts, withdrawing the arm. The impulse reaches the brain a fraction of a second later, producing the sensation of pain.",
+        },
+      },
+      questions: [
+        {
+          id: "biosl-u5-nervous-system-q1",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 1,
+          stem: "Which type of neuron carries impulses from receptors to the central nervous system?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Motor neuron" },
+              { id: "b", text: "Relay neuron" },
+              { id: "c", text: "Sensory neuron" },
+              { id: "d", text: "Effector cell" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Sensory neuron", statement: "Carries impulses from receptors towards the central nervous system." },
+            ],
+            steps: [
+              { reasoning: "Sensory neurons run receptor → CNS; motor neurons run CNS → effector.", working: "receptor → CNS", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(c)** Sensory neuron",
+            commonErrors: ["Confusing sensory and motor neurons — direction of travel is the key distinction."],
+            examinerNote: "B1 for (c).",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q2",
+          difficulty: "core",
+          paper: "2",
+          totalMarks: 2,
+          stem: "How does a neurotransmitter carry an impulse across a synapse?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It diffuses across the cleft and binds receptors on the postsynaptic neuron, generating a new impulse" },
+              { id: "b", text: "It flows through gap junctions as an electrical current" },
+              { id: "c", text: "It is carried across by red blood cells" },
+              { id: "d", text: "It enters the nucleus of the next neuron" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Synaptic transmission", statement: "Chemical messengers cross the synaptic cleft and bind receptors on the postsynaptic membrane." },
+            ],
+            steps: [
+              { reasoning: "Vesicles release neurotransmitter into the cleft by exocytosis.", working: "neurotransmitter release", marks: 1, markCode: "M" },
+              { reasoning: "Binding to receptors triggers depolarisation and a new action potential.", working: "receptor binding → new impulse", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** Diffuses across and binds receptors on the next neuron",
+            commonErrors: ["Describing electrical transmission through the synapse — synapses are chemical junctions."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q3",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 3,
+          stem: "A drug blocks the receptors for acetylcholine at neuromuscular junctions. Which effect would this most likely have?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Muscles would contract more strongly" },
+              { id: "b", text: "Transmission from motor neurons to muscles would fail, causing muscle weakness or paralysis" },
+              { id: "c", text: "Sensory neurons would fire faster" },
+              { id: "d", text: "The spinal cord would produce more reflexes" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Synaptic blocking", statement: "A drug that blocks neurotransmitter receptors prevents the postsynaptic response." },
+            ],
+            steps: [
+              { reasoning: "Acetylcholine is the transmitter at neuromuscular junctions; blocking its receptors stops muscle stimulation.", working: "ACh blocked at muscle", marks: 1, markCode: "M" },
+              { reasoning: "Without stimulation the muscle cannot contract normally, producing weakness or paralysis.", working: "no contraction signal", marks: 1, markCode: "M" },
+              { reasoning: "This is the mechanism of some muscle relaxants and poisons; it does not speed anything up.", working: "antagonist effect", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** Muscle weakness or paralysis",
+            commonErrors: ["Thinking blocking receptors increases transmission — antagonists reduce it."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q4",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 8,
+          stem: "A clinician tests a new local anaesthetic that is applied to the skin before a minor procedure. Volunteers report reduced sensation at the treated site while motor function elsewhere is normal.",
+          parts: [
+            { label: "a", prompt: "Describe the pathway of a pain impulse from skin to spinal cord and back to muscle.", marks: 2 },
+            { label: "b", prompt: "Explain how the anaesthetic might block pain without affecting movement elsewhere.", marks: 2 },
+            { label: "c", prompt: "Suggest one advantage and one disadvantage of local anaesthesia compared with a general anaesthetic.", marks: 2 },
+            { label: "d", prompt: "Evaluate why reflex actions, such as withdrawing from heat, still occur under local anaesthesia at a distant site.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Reflex arc", statement: "Receptor → sensory neuron → relay neuron in spinal cord → motor neuron → effector." },
+              { kind: "principle", name: "Local anaesthetic", statement: "Blocks voltage-gated sodium channels or nerve conduction in the treated region only." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Pain receptor → sensory neuron → spinal cord (relay neuron) → motor neuron → effector muscle.", working: "receptor → sensory → relay → motor → effector", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "The reflex is completed by the spinal cord; the brain registers the sensation afterwards.", working: "spinal cord mediation", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "The drug acts locally on nerve membranes, blocking action potentials in sensory neurons serving the treated area.", working: "blocks local nerve conduction", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Only the treated region's nerves are affected, so motor nerves elsewhere still function normally.", working: "site-specific action", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Advantage: patient stays conscious, faster recovery, fewer systemic side effects; disadvantage: only suitable for small areas or with sedation for larger procedures.", working: "conscious + limited area", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "One valid advantage and one valid disadvantage identified.", working: "both sides given", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Local anaesthesia only blocks nerves in the treated area; nerves elsewhere still conduct impulses.", working: "only treated nerves blocked", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "A reflex at a distant site travels through intact neurons and the spinal cord, so withdrawal still occurs — and the patient may feel the pain since sensation there is intact.", working: "intact pathway → reflex works", marks: 1, markCode: "R" },
+            ],
+            finalAnswer: "(a) Receptor → sensory neuron → relay neuron in spinal cord → motor neuron → muscle. (b) Blocks conduction in local sensory nerves only. (c) Advantage: patient conscious, quicker recovery; disadvantage: limited to small areas. (d) Nerves elsewhere are unaffected, so distant reflexes still fire.",
+            commonErrors: ["Suggesting local anaesthetics affect the whole nervous system.", "Forgetting that reflex arcs are mediated by the spinal cord."],
+            examinerNote: "M1 A1 (a); M1 A1 (b); M1 A1 (c); M1 R1 (d).",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q5",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Which structure insulates the axon and allows impulses to travel faster by saltatory conduction?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The synaptic cleft" },
+              { id: "b", text: "The myelin sheath" },
+              { id: "c", text: "The axon terminal" },
+              { id: "d", text: "The cell body nucleus" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Myelin sheath", statement: "Insulating layer around axons that permits saltatory conduction between nodes of Ranvier." },
+            ],
+            steps: [
+              { reasoning: "The myelin sheath insulates the axon membrane.", working: "myelin = insulation", marks: 1, markCode: "M" },
+              { reasoning: "The impulse jumps between nodes of Ranvier, which is saltatory conduction and increases speed.", working: "saltatory conduction", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** The myelin sheath",
+            commonErrors: ["Confusing myelin with the synaptic cleft, which is the gap at a synapse."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q6",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "In a simple spinal reflex arc, which neuron links the sensory neuron to the motor neuron inside the spinal cord?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A sensory neuron" },
+              { id: "b", text: "A motor neuron" },
+              { id: "c", text: "A relay neuron" },
+              { id: "d", text: "An effector cell" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Relay neuron", statement: "Neuron within the CNS that connects sensory and motor neurons in a reflex arc." },
+            ],
+            steps: [
+              { reasoning: "Sensory neurons carry impulses to the CNS and motor neurons carry them to effectors; they are joined by relay neurons.", working: "sensory → relay → motor", marks: 1, markCode: "M" },
+              { reasoning: "The connecting neuron inside the spinal cord is the relay neuron.", working: "relay neuron = connector", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(c)** A relay neuron",
+            commonErrors: ["Choosing a motor neuron — motor neurons run from the CNS to the effector, not between sensory and motor neurons."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q7",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 3,
+          stem: "A toxin prevents synaptic vesicles from fusing with the presynaptic membrane, so no neurotransmitter is released into the cleft. What would be the most likely effect on a person exposed to it?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Impulses would travel faster along the axons" },
+              { id: "b", text: "Synapses would fail to transmit and muscles supplied by them would weaken or become paralysed" },
+              { id: "c", text: "Neurotransmitter would accumulate harmlessly in the cleft" },
+              { id: "d", text: "Reflex responses would become faster" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Synaptic transmission", statement: "Neurotransmitter must be released by exocytosis to cross the cleft and trigger a new impulse." },
+            ],
+            steps: [
+              { reasoning: "Vesicle fusion is required for neurotransmitter release into the synaptic cleft.", working: "no vesicle fusion → no release", marks: 1, markCode: "M" },
+              { reasoning: "Without transmitter, receptors on the postsynaptic membrane are not activated, so no new impulse is generated.", working: "no transmitter → no postsynaptic impulse", marks: 1, markCode: "M" },
+              { reasoning: "Muscles or glands supplied by those synapses would not be stimulated, causing weakness or paralysis — this is the basis of some poisons and botulinum toxin.", working: "loss of effector control", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** Synapses fail to transmit; muscles weaken or become paralysed",
+            commonErrors: ["Thinking axonal conduction is affected — the toxin acts only at synapses."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q8",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "An action potential travels along a myelinated axon at $120$ m/s. Calculate the time, in milliseconds, taken to travel $1.5$ m.",
+          response: { type: "numeric", parts: [{ label: "Time (ms)", answer: 12.5, tolerance: 0.01 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Speed, distance and time", statement: "$v = \\frac{d}{t}$, so $t = \\frac{d}{v}$" },
+            ],
+            steps: [
+              { reasoning: "Substitute distance and speed into $t = \\frac{d}{v}$.", working: "t = \\frac{1.5}{120}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate and convert seconds to milliseconds.", working: "t = 0.0125\\ \\text{s} = 12.5\\ \\text{ms}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$12.5$ ms",
+            commonErrors: ["Forgetting to convert seconds into milliseconds.", "Dividing speed by distance instead of distance by speed."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q9",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 3,
+          stem: "A motor neuron's axon is $1.8$ m long. The impulse travels at $90$ m/s when myelinated and at $1.5$ m/s when the myelin is damaged. Calculate the conduction time (i) when myelinated and (ii) when unmyelinated, giving each answer in milliseconds.",
+          response: { type: "numeric", parts: [{ label: "Myelinated time (ms)", answer: 20 }, { label: "Unmyelinated time (ms)", answer: 1200 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Speed, distance and time", statement: "$t = \\frac{d}{v}$" },
+            ],
+            steps: [
+              { reasoning: "Use $t = \\frac{d}{v}$ for both speeds.", working: "t = \\frac{1.8}{v}", marks: 1, markCode: "M" },
+              { reasoning: "Myelinated: $\\frac{1.8}{90} = 0.02$ s.", working: "t = 0.02\\ \\text{s} = 20\\ \\text{ms}", marks: 1, markCode: "A" },
+              { reasoning: "Unmyelinated: $\\frac{1.8}{1.5} = 1.2$ s.", working: "t = 1.2\\ \\text{s} = 1200\\ \\text{ms}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Myelinated: $20$ ms; unmyelinated: $1200$ ms",
+            commonErrors: ["Quoting the times in seconds without converting to milliseconds.", "Using the wrong speed for each condition."],
+            examinerNote: "M1 A1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q10",
+          difficulty: "core",
+          paper: "2",
+          totalMarks: 4,
+          stem: "A reflex impulse travels $0.6$ m from the receptor to the spinal cord at $50$ m/s, then the motor response travels $0.4$ m back to the muscle at $50$ m/s. Each of the two synapses in the arc adds a delay of $0.5$ ms. Calculate the total reflex time in milliseconds.",
+          response: { type: "numeric", parts: [{ label: "Total reflex time (ms)", answer: 21 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Conduction time", statement: "$t = \\frac{d}{v}$ for each leg of the reflex arc, plus synaptic delay." },
+            ],
+            steps: [
+              { reasoning: "Sensory leg: $t = \\frac{0.6}{50} = 0.012$ s $= 12$ ms.", working: "t_1 = 12\\ \\text{ms}", marks: 1, markCode: "M" },
+              { reasoning: "Motor leg: $t = \\frac{0.4}{50} = 0.008$ s $= 8$ ms.", working: "t_2 = 8\\ \\text{ms}", marks: 1, markCode: "M" },
+              { reasoning: "Synaptic delay: $2 \\times 0.5 = 1$ ms.", working: "t_3 = 1\\ \\text{ms}", marks: 1, markCode: "M" },
+              { reasoning: "Total reflex time is the sum of all components.", working: "12 + 8 + 1 = 21\\ \\text{ms}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$21$ ms",
+            commonErrors: ["Forgetting the synaptic delays.", "Adding conduction times in seconds without converting to milliseconds."],
+            examinerNote: "M1 M1 M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q11",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 5,
+          stem: "At a neuromuscular junction, each presynaptic impulse causes the release of $200$ vesicles, each containing $5\\,000$ molecules of acetylcholine. A muscle fibre requires at least $1 \\times 10^{7}$ acetylcholine molecules to reach threshold. Calculate (i) the number of molecules released per impulse and (ii) how many impulses are needed to reach threshold.",
+          response: { type: "numeric", parts: [{ label: "Molecules per impulse", answer: 1000000 }, { label: "Impulses to reach threshold", answer: 10 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Quantal release", statement: "Molecules released per impulse $=$ vesicles per impulse $\\times$ molecules per vesicle." },
+            ],
+            steps: [
+              { reasoning: "Molecules per impulse $= 200 \\times 5\\,000$.", working: "200 \\times 5000", marks: 1, markCode: "M" },
+              { reasoning: "This equals $1 \\times 10^{6}$ molecules.", working: "1 \\times 10^{6}", marks: 1, markCode: "A" },
+              { reasoning: "Impulses needed $= \\frac{1 \\times 10^{7}}{1 \\times 10^{6}}$.", working: "\\frac{10^{7}}{10^{6}}", marks: 1, markCode: "M" },
+              { reasoning: "This equals $10$ impulses.", working: "= 10", marks: 1, markCode: "A" },
+              { reasoning: "The threshold is reached on the tenth impulse since each impulse releases the same number of molecules.", working: "threshold at 10th impulse", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(i) $1 \\times 10^{6}$ molecules; (ii) $10$ impulses",
+            commonErrors: ["Multiplying by the wrong vesicle count.", "Answering $1 \\times 10^{13}$ by mishandling powers of ten."],
+            examinerNote: "M1 A1 M1 A1 A1. Accept $10^{6}$ without standard form.",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q12",
+          difficulty: "core",
+          paper: "2",
+          totalMarks: 6,
+          stem: "A student touches a hot plate and quickly withdraws her hand. She then consciously feels the heat a moment later.",
+          parts: [
+            { label: "a", prompt: "Describe the pathway of the impulse that causes the withdrawal.", marks: 2 },
+            { label: "b", prompt: "Explain why the withdrawal happens before she feels the pain.", marks: 2 },
+            { label: "c", prompt: "Explain how myelin affects the speed of this reflex compared with an unmyelinated pathway.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Reflex arc", statement: "Receptor → sensory neuron → relay neuron in the spinal cord → motor neuron → effector." },
+              { kind: "principle", name: "Saltatory conduction", statement: "Myelinated axons conduct impulses faster because the impulse jumps between nodes of Ranvier." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Heat receptor in skin → sensory neuron → relay neuron in spinal cord → motor neuron → biceps muscle contracts.", working: "receptor → sensory → relay → motor → effector", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "The complete sequence from receptor to effector is described in the correct order.", working: "correct order", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "The reflex arc is completed by the spinal cord without needing the brain, so it is very fast.", working: "spinal cord mediation", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "The impulse reaches the brain slightly later, and only then is the sensation of pain consciously perceived.", working: "brain informed later", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Myelin insulates the axon so the impulse jumps between nodes of Ranvier — saltatory conduction.", working: "myelin → saltatory conduction", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "An unmyelinated axon conducts continuously along its whole length and is therefore slower.", working: "unmyelinated = slower", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) Receptor → sensory neuron → relay neuron in spinal cord → motor neuron → biceps contracts. (b) The spinal cord completes the reflex before the impulse reaches the brain. (c) Myelin speeds conduction by saltatory conduction; unmyelinated axons are slower.",
+            commonErrors: ["Forgetting the relay neuron in the spinal cord.", "Claiming the brain initiates the reflex — it only receives the information afterwards."],
+            examinerNote: "M1 A1 (a); M1 A1 (b); M1 A1 (c).",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q13",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "A patient sustains damage to the cerebellum. Which function is most likely to be affected?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Conscious thought and memory" },
+              { id: "b", text: "Coordination of movement and balance" },
+              { id: "c", text: "Control of breathing rate" },
+              { id: "d", text: "Release of hormones into the blood" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Cerebellum", statement: "Region of the brain that coordinates movement and balance." },
+            ],
+            steps: [
+              { reasoning: "The cerebellum coordinates voluntary movement and posture.", working: "cerebellum = coordination", marks: 1, markCode: "M" },
+              { reasoning: "Damage therefore affects coordination and balance; the other functions are controlled elsewhere.", working: "coordination + balance affected", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** Coordination of movement and balance",
+            commonErrors: ["Attributing breathing control to the cerebellum — that is the medulla oblongata."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q14",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 3,
+          stem: "A neurone fires at $50$ impulses per second for $2$ minutes during a test. Calculate (i) the total number of impulses fired and (ii) the number of impulses fired in the first $10$ seconds.",
+          response: { type: "numeric", parts: [{ label: "Total impulses", answer: 6000 }, { label: "Impulses in 10 s", answer: 500 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Total impulses", statement: "Total impulses $=$ firing rate $\\times$ time in seconds." },
+            ],
+            steps: [
+              { reasoning: "Convert $2$ minutes to $120$ seconds, then multiply by the rate.", working: "50 \\times 120", marks: 1, markCode: "M" },
+              { reasoning: "Total impulses $= 6000$.", working: "= 6000", marks: 1, markCode: "A" },
+              { reasoning: "First $10$ seconds: $50 \\times 10 = 500$ impulses.", working: "50 \\times 10 = 500", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(i) $6000$ impulses; (ii) $500$ impulses",
+            commonErrors: ["Using $2$ instead of $120$ seconds.", "Multiplying by $10$ twice."],
+            examinerNote: "M1 A1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q15",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 2,
+          stem: "Why is transmission across a chemical synapse described as one-way?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Because the synaptic cleft only allows diffusion in one direction" },
+              { id: "b", text: "Because neurotransmitter receptors are only on the postsynaptic membrane and vesicles only in the presynaptic neuron" },
+              { id: "c", text: "Because myelin blocks any backward flow" },
+              { id: "d", text: "Because the axon contains one-way valves" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Synaptic directionality", statement: "Transmitters are released only from the presynaptic neuron and receptors for them exist only on the postsynaptic membrane." },
+            ],
+            steps: [
+              { reasoning: "Direction is set by the asymmetric structure of the synapse: vesicles face one way, receptors the other.", working: "asymmetric synapse", marks: 1, markCode: "M" },
+              { reasoning: "Therefore an impulse can only pass from presynaptic to postsynaptic neuron.", working: "one-way transmission", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** Receptors only on postsynaptic membrane; vesicles only presynaptic",
+            commonErrors: ["Claiming diffusion can go both ways — the molecules could diffuse, but only one side has the machinery to release them and only the other has receptors."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-nervous-system-q16",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 8,
+          stem: "An insecticide blocks acetylcholinesterase, the enzyme that normally breaks down acetylcholine at neuromuscular junctions. A patient exposed to it develops muscle twitching and rigidity.",
+          parts: [
+            { label: "a", prompt: "State the normal role of acetylcholine at a neuromuscular junction.", marks: 2 },
+            { label: "b", prompt: "Predict the effect of the insecticide on muscle contraction and explain your prediction.", marks: 2 },
+            { label: "c", prompt: "Explain how the insecticide's action differs from that of a local anaesthetic applied to the skin.", marks: 2 },
+            { label: "d", prompt: "Evaluate whether giving a drug that blocks acetylcholine receptors could counteract the insecticide's effect.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Neuromuscular junction", statement: "Synapse between a motor neuron and a muscle fibre where acetylcholine triggers contraction." },
+              { kind: "principle", name: "Acetylcholinesterase", statement: "Enzyme that hydrolyses acetylcholine after transmission so the junction can reset." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Acetylcholine released by the motor neuron binds receptors on the muscle membrane and triggers contraction.", working: "ACh → receptor binding → contraction", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "It is then broken down by acetylcholinesterase so the junction can reset.", working: "AChE removes ACh", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "With the enzyme blocked, acetylcholine accumulates in the cleft and continues to stimulate the muscle.", working: "ACh accumulates", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "This causes repeated or sustained contraction — twitching and rigidity, as seen.", working: "sustained contraction", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "The insecticide acts at neuromuscular junctions to increase stimulation of muscles; a local anaesthetic blocks conduction in sensory nerves at the application site.", working: "different site and effect", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "One increases muscle stimulation while the other decreases nerve impulses — opposite actions at different locations.", working: "excitation vs block", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Blocking acetylcholine receptors would prevent the accumulated transmitter from stimulating the muscle, reducing the rigidity.", working: "receptor block stops stimulation", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "However it also blocks normal neuromuscular transmission, causing muscle weakness or paralysis — so it could counteract the twitching but at the cost of losing muscle function; risk must be weighed.", working: "benefit vs paralysis risk", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) ACh triggers muscle contraction then is broken down to reset the junction. (b) ACh accumulates → sustained contraction (twitching, rigidity). (c) Insecticide excites muscles at the NMJ; local anaesthetic blocks sensory nerve conduction locally. (d) Receptor blockers would reduce stimulation but also paralyse muscles — risky trade-off.",
+            commonErrors: ["Claiming the insecticide blocks acetylcholine release — it blocks its breakdown.", "Ignoring that receptor blockers would also stop normal muscle contraction."],
+            examinerNote: "M1 A1 (a); M1 A1 (b); M1 A1 (c); M1 A1 (d).",
+          },
+        },
+      ],
+    },
+    {
+      id: "biosl-u5-endocrine-system",
+      title: "The endocrine system and negative feedback",
+      skill: "Explain hormonal coordination, negative feedback control, and disorders of hormone regulation.",
+      lesson: {
+        sections: [
+          {
+            heading: "Hormonal coordination",
+            body: "**Endocrine glands** (pancreas, thyroid, adrenal, pituitary) secrete **hormones** directly into the blood. Hormones are slower-acting than nerve impulses but their effects are widespread and long-lasting. Only cells carrying the matching **receptor** respond — target-cell specificity.",
+          },
+          {
+            heading: "Blood glucose control",
+            body: "After a meal, rising blood glucose stimulates the pancreas to release **insulin**, which increases glucose uptake by cells and promotes glycogen storage in the liver, lowering glucose. When glucose falls, **glucagon** stimulates glycogen breakdown, raising glucose. This is **negative feedback** holding a set point.",
+          },
+          {
+            heading: "Other hormones and disorders",
+            body: "The thyroid releases **thyroxine** under pituitary **TSH** control, setting metabolic rate. **Adrenaline** from the adrenal medulla prepares the body for fight-or-flight: increased heart rate, glucose release and bronchodilation. Failure of insulin-producing beta cells causes **type 1 diabetes**; insulin resistance with relative deficiency causes **type 2 diabetes**, managed by diet, exercise and medication.",
+          },
+        ],
+        keyFormulas: [
+          { name: "High glucose", statement: "Glucose rises → insulin released → cellular uptake + glycogen storage → glucose falls" },
+          { name: "Low glucose", statement: "Glucose falls → glucagon released → glycogen breakdown → glucose rises" },
+          { name: "Nervous vs hormonal", statement: "Nerves: fast, targeted, short-lived; hormones: slower, widespread, long-lasting" },
+        ],
+        workedExample: {
+          problem: "Explain, using negative feedback, why blood glucose returns to normal after drinking a sugary solution.",
+          solution: "The sugar raises blood glucose; the pancreas detects this and secretes insulin; insulin promotes glucose uptake by cells and glycogen storage in the liver; blood glucose falls toward the set point and insulin secretion decreases.",
+        },
+      },
+      questions: [
+        {
+          id: "biosl-u5-endocrine-system-q1",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 1,
+          stem: "Which hormone lowers blood glucose concentration?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Glucagon" },
+              { id: "b", text: "Adrenaline" },
+              { id: "c", text: "Insulin" },
+              { id: "d", text: "Thyroxine" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Insulin", statement: "Pancreatic hormone that lowers blood glucose by promoting cellular uptake and glycogen storage." },
+            ],
+            steps: [
+              { reasoning: "Insulin is the glucose-lowering hormone; glucagon raises blood glucose.", working: "insulin lowers glucose", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(c)** Insulin",
+            commonErrors: ["Choosing glucagon — it raises blood glucose."],
+            examinerNote: "B1 for (c).",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q2",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "How do hormones differ from nerve impulses in their action?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Hormones act faster but on fewer cells" },
+              { id: "b", text: "Hormones are slower, widespread through the blood, and longer-lasting" },
+              { id: "c", text: "Hormones travel along nerves" },
+              { id: "d", text: "Hormones act only on the gland that produced them" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Hormonal vs nervous coordination", statement: "Hormones travel in blood — slower onset, widespread targets, longer duration." },
+            ],
+            steps: [
+              { reasoning: "Hormones diffuse through blood to all tissues carrying matching receptors.", working: "blood transport", marks: 1, markCode: "M" },
+              { reasoning: "Effects are slower to start but prolonged compared with nerve impulses.", working: "slow onset, long duration", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** Slower, widespread and longer-lasting",
+            commonErrors: ["Reversing the comparison — nerves are fast and targeted; hormones are slow and widespread."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q3",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 3,
+          stem: "A patient has chronically high blood glucose. Tests show insulin is produced normally, but cells respond poorly to it. Which statement best describes the likely condition?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Type 1 diabetes caused by failure of insulin-producing cells" },
+              { id: "b", text: "Type 2 diabetes caused by insulin resistance" },
+              { id: "c", text: "Hypoglycaemia" },
+              { id: "d", text: "Hyperthyroidism" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "context", name: "Diabetes", statement: "Type 1 = no insulin production; type 2 = insulin produced but target cells resist its action." },
+            ],
+            steps: [
+              { reasoning: "Insulin is produced normally, so beta-cell failure (type 1) is excluded.", working: "insulin present", marks: 1, markCode: "M" },
+              { reasoning: "Cells responding poorly to insulin is insulin resistance — type 2 diabetes.", working: "resistance → type 2", marks: 1, markCode: "M" },
+              { reasoning: "The result is chronically elevated blood glucose despite insulin secretion.", working: "high glucose despite insulin", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** Type 2 diabetes caused by insulin resistance",
+            commonErrors: ["Choosing type 1 — that involves absent insulin, not resistant cells."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q4",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 8,
+          stem: "A volunteer drinks 300 ml of a glucose solution. Blood glucose is measured every 15 minutes for two hours. The concentration rises from 5 mmol/L to a peak of 9 mmol/L at 45 minutes, then falls back to 5 mmol/L by 120 minutes.",
+          parts: [
+            { label: "a", prompt: "Describe the shape of the blood glucose curve and explain why it rises and then falls.", marks: 2 },
+            { label: "b", prompt: "Identify the hormone responsible for the fall and state its source.", marks: 2 },
+            { label: "c", prompt: "Explain how negative feedback operates in this system.", marks: 2 },
+            { label: "d", prompt: "Predict how the curve would differ in a person with untreated type 1 diabetes, and justify your prediction.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Negative feedback", statement: "A rise in blood glucose triggers insulin; insulin lowers glucose, which then reduces insulin secretion." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Glucose is absorbed into the blood, raising concentration to a peak.", working: "absorption → peak at 45 min", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Insulin then promotes uptake and storage, so glucose falls back toward the set point.", working: "insulin → glucose falls", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Insulin, secreted by the beta cells of the pancreas.", working: "insulin from pancreas", marks: 1, markCode: "B" },
+              { part: "b", reasoning: "Correct gland and hormone both identified.", working: "pancreas beta cells", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "The rise in glucose is the stimulus; insulin is the response that removes the stimulus.", working: "stimulus → response → stimulus removed", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "As glucose falls, insulin secretion decreases — a self-correcting loop maintaining the set point.", working: "feedback loop", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Without insulin, glucose would rise higher and stay elevated instead of returning to 5 mmol/L.", working: "no insulin → glucose stays high", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Justified because type 1 diabetes involves failure of insulin-producing cells, so uptake/storage is not stimulated.", working: "beta-cell failure", marks: 1, markCode: "R" },
+            ],
+            finalAnswer: "(a) Rise to peak then fall as insulin acts. (b) Insulin from pancreatic beta cells. (c) The response removes the stimulus, self-correcting at the set point. (d) Higher, prolonged elevation because no insulin is produced.",
+            commonErrors: ["Attributing the fall to glucagon — glucagon raises glucose.", "Forgetting that type 1 diabetes means absent insulin."],
+            examinerNote: "M1 A1 (a); B1 A1 (b); M1 A1 (c); M1 R1 (d). Accept any reasonable curve description in (d).",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q5",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 1,
+          stem: "Which hormone raises blood glucose concentration when levels fall too low?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Insulin" },
+              { id: "b", text: "Glucagon" },
+              { id: "c", text: "Thyroxine" },
+              { id: "d", text: "Adrenaline" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Glucagon", statement: "Pancreatic hormone that raises blood glucose by stimulating glycogen breakdown in the liver." },
+            ],
+            steps: [
+              { reasoning: "Glucagon raises blood glucose; insulin lowers it.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Glucagon",
+            commonErrors: ["Choosing insulin — insulin lowers blood glucose."],
+            examinerNote: "B1 for (b).",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q6",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "What determines which cells respond to a particular hormone circulating in the blood?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Cells nearest to the gland that secreted it" },
+              { id: "b", text: "Cells carrying the specific receptor for that hormone" },
+              { id: "c", text: "Cells that are the largest in the body" },
+              { id: "d", text: "All cells respond equally to every hormone" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Target cells", statement: "Hormones bind only to cells carrying complementary receptors — these are the target cells." },
+            ],
+            steps: [
+              { reasoning: "Hormones travel throughout the blood but bind only where matching receptors exist.", working: "hormone binds receptor", marks: 1, markCode: "M" },
+              { reasoning: "Cells with the specific receptor are the target cells; distance from the gland is irrelevant.", working: "receptor → target cell", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** Cells carrying the specific receptor",
+            commonErrors: ["Thinking hormones act only near their gland — they act wherever target receptors exist."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q7",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Which statement best defines negative feedback in hormone control?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The hormone always stimulates more of itself being released" },
+              { id: "b", text: "The effect of a response reduces the stimulus that triggered it, stabilising the variable" },
+              { id: "c", text: "One hormone permanently blocks another hormone" },
+              { id: "d", text: "The gland stops working once a hormone is released" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Negative feedback", statement: "The response of a control system reduces the original stimulus, keeping a variable near its set point." },
+            ],
+            steps: [
+              { reasoning: "In negative feedback the output opposes the stimulus, e.g. insulin lowering glucose which then reduces insulin secretion.", working: "response removes stimulus", marks: 1, markCode: "M" },
+              { reasoning: "This self-correcting loop maintains homeostasis rather than amplifying change.", working: "stabilises set point", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** The response reduces the stimulus, stabilising the variable",
+            commonErrors: ["Confusing negative feedback with positive feedback, which amplifies the stimulus."],
+            examinerNote: "M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q8",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 3,
+          stem: "Adrenaline is released during a 'fight or flight' situation. Which combination of effects is most likely?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Decreased heart rate and increased insulin secretion" },
+              { id: "b", text: "Increased heart rate, increased blood glucose and bronchodilation" },
+              { id: "c", text: "Decreased breathing rate and reduced blood glucose" },
+              { id: "d", text: "Increased urine production and decreased gut activity only" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Adrenaline", statement: "Hormone from the adrenal medulla preparing the body for rapid action: raises heart rate, releases glucose and dilates airways." },
+            ],
+            steps: [
+              { reasoning: "Adrenaline increases heart rate and force of contraction to boost oxygen delivery.", working: "heart rate up", marks: 1, markCode: "M" },
+              { reasoning: "It stimulates glycogen breakdown, raising blood glucose for muscle respiration.", working: "glucose released", marks: 1, markCode: "M" },
+              { reasoning: "It relaxes bronchiolar smooth muscle (bronchodilation) and redirects blood to muscles — the fight-or-flight response.", working: "bronchodilation + blood to muscles", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** Increased heart rate, increased blood glucose and bronchodilation",
+            commonErrors: ["Choosing effects of insulin or a resting state — adrenaline prepares for activity."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q9",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 3,
+          stem: "An athlete is exercising strenuously for over an hour. Blood glucose begins to fall below the normal range. Which hormone response is most appropriate, and from which cells is it released?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Insulin from beta cells of the pancreas" },
+              { id: "b", text: "Glucagon from alpha cells of the pancreas" },
+              { id: "c", text: "Thyroxine from the thyroid gland" },
+              { id: "d", text: "Progesterone from the ovaries" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Blood glucose homeostasis", statement: "Falling glucose triggers glucagon, which raises glucose via glycogenolysis in the liver." },
+            ],
+            steps: [
+              { reasoning: "Glucose is low, so the body needs a glucose-raising hormone — insulin would make it worse.", working: "low glucose → raise it", marks: 1, markCode: "M" },
+              { reasoning: "Glucagon is secreted by alpha cells of the pancreatic islets.", working: "glucagon from alpha cells", marks: 1, markCode: "M" },
+              { reasoning: "Glucagon promotes glycogen breakdown and gluconeogenesis in the liver, restoring blood glucose.", working: "glycogen → glucose", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** Glucagon from alpha cells of the pancreas",
+            commonErrors: ["Choosing insulin — that is secreted when glucose is high, not low."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q10",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 3,
+          stem: "A patient's blood glucose rises from $4.0$ mmol/L to $7.0$ mmol/L after a meal. Calculate the percentage increase.",
+          response: { type: "numeric", parts: [{ label: "Percentage increase (%)", answer: 75, tolerance: 0.1 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Percentage change", statement: "$\\%\\ \\text{change} = \\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100$" },
+            ],
+            steps: [
+              { reasoning: "Find the absolute change and divide by the original value.", working: "% = \\frac{7.0 - 4.0}{4.0} \\times 100", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate: $\\frac{3.0}{4.0} \\times 100 = 75\\%$.", working: "75%", marks: 1, markCode: "M" },
+              { reasoning: "The increase is $75\\%$, not $300\\%$ — the denominator is the original value.", working: "denominator = original", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$75\\%$",
+            commonErrors: ["Dividing by the new value instead of the original value.", "Quoting the absolute change ($3.0$ mmol/L) instead of a percentage."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q11",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 3,
+          stem: "Blood glucose was measured at $5.2$, $7.8$ and $6.4$ mmol/L at three time points after a meal. Calculate the mean blood glucose concentration, giving your answer to one decimal place.",
+          response: { type: "numeric", parts: [{ label: "Mean glucose (mmol/L)", answer: 6.5, tolerance: 0.05 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Mean", statement: "$\\bar{x} = \\frac{\\sum x}{n}$" },
+            ],
+            steps: [
+              { reasoning: "Sum the three readings: $5.2 + 7.8 + 6.4 = 19.4$ mmol/L.", working: "sum = 19.4", marks: 1, markCode: "M" },
+              { reasoning: "Divide by the number of readings: $\\frac{19.4}{3} = 6.4667$ mmol/L.", working: "19.4 / 3", marks: 1, markCode: "M" },
+              { reasoning: "Round to one decimal place: $6.5$ mmol/L.", working: "6.5 mmol/L", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$6.5$ mmol/L",
+            commonErrors: ["Rounding incorrectly — $6.4667$ rounds to $6.5$, not $6.4$.", "Dividing by $2$ instead of $3$."],
+            examinerNote: "M1 M1 A1. Accept 6.47 unrounded with working shown.",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q12",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 3,
+          stem: "After a glucose drink, blood glucose peaked at $9.0$ mmol/L at $45$ minutes and returned to $5.0$ mmol/L at $120$ minutes. Calculate the average rate at which blood glucose fell during this period, in mmol/L per minute.",
+          response: { type: "numeric", parts: [{ label: "Rate of fall (mmol/L/min)", answer: 0.0533, tolerance: 0.005 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Rate of change", statement: "$\\text{rate} = \\frac{\\Delta \\text{concentration}}{\\Delta \\text{time}}$" },
+            ],
+            steps: [
+              { reasoning: "Change in concentration: $9.0 - 5.0 = 4.0$ mmol/L; change in time: $120 - 45 = 75$ min.", working: "4.0 mmol/L over 75 min", marks: 1, markCode: "M" },
+              { reasoning: "Rate $= \\frac{4.0}{75} = 0.0533$ mmol/L per minute.", working: "4.0 / 75", marks: 1, markCode: "M" },
+              { reasoning: "State the rate with correct units; accept $0.053$ to $0.054$.", working: "mmol/L/min", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$0.053$ mmol/L per minute (accept $0.05$–$0.054$)",
+            commonErrors: ["Dividing time by concentration instead of concentration by time.", "Using $120$ minutes instead of $75$ minutes of decline."],
+            examinerNote: "M1 M1 A1. FT for correct method.",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q13",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 3,
+          stem: "An insulin injection reduces blood glucose from $8.0$ mmol/L to $5.0$ mmol/L over $60$ minutes. Calculate the average rate of decrease in blood glucose, in mmol/L per minute.",
+          response: { type: "numeric", parts: [{ label: "Rate of decrease (mmol/L/min)", answer: 0.05, tolerance: 0.005 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Rate of change", statement: "$\\text{rate} = \\frac{\\Delta \\text{concentration}}{\\Delta \\text{time}}$" },
+            ],
+            steps: [
+              { reasoning: "Glucose fell by $8.0 - 5.0 = 3.0$ mmol/L in $60$ minutes.", working: "3.0 mmol/L over 60 min", marks: 1, markCode: "M" },
+              { reasoning: "Rate $= \\frac{3.0}{60} = 0.05$ mmol/L per minute.", working: "3.0 / 60", marks: 1, markCode: "M" },
+              { reasoning: "Correct value with units.", working: "0.05 mmol/L/min", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$0.05$ mmol/L per minute",
+            commonErrors: ["Forgetting units or dividing the wrong quantities."],
+            examinerNote: "M1 M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q14",
+          difficulty: "challenge",
+          paper: "1",
+          totalMarks: 4,
+          stem: "A fasting patient's blood glucose is $5.0$ mmol/L. After drinking a glucose solution it rises to $11.0$ mmol/L before insulin acts. Calculate (i) the absolute increase and (ii) the percentage increase.",
+          response: { type: "numeric", parts: [{ label: "Absolute increase (mmol/L)", answer: 6, tolerance: 0.01 }, { label: "Percentage increase (%)", answer: 120, tolerance: 0.1 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Absolute and percentage change", statement: "Absolute change $= \\text{new} - \\text{old}$; $\\% = \\frac{\\text{change}}{\\text{old}} \\times 100$" },
+            ],
+            steps: [
+              { reasoning: "Absolute increase: $11.0 - 5.0 = 6.0$ mmol/L.", working: "11.0 - 5.0 = 6.0", marks: 1, markCode: "M" },
+              { reasoning: "Correct units (mmol/L) stated.", working: "mmol/L", marks: 1, markCode: "A" },
+              { reasoning: "Percentage: $\\frac{6.0}{5.0} \\times 100 = 120\\%$.", working: "6/5 x 100", marks: 1, markCode: "M" },
+              { reasoning: "Percentage calculated relative to the original fasting value.", working: "denominator = 5.0", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(i) $6.0$ mmol/L; (ii) $120\\%$",
+            commonErrors: ["Dividing the change by the new value ($11.0$) giving $54.5\\%$.", "Quoting only the absolute change for both parts."],
+            examinerNote: "M1 A1 M1 A1.",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q15",
+          difficulty: "core",
+          paper: "2",
+          totalMarks: 8,
+          stem: "A person skips lunch and then eats a large carbohydrate meal in the evening.",
+          parts: [
+            { label: "a", prompt: "State the normal range function of blood glucose homeostasis.", marks: 2 },
+            { label: "b", prompt: "Describe the hormonal responses expected after the missed lunch.", marks: 2 },
+            { label: "c", prompt: "Describe the hormonal responses expected after the large evening meal.", marks: 2 },
+            { label: "d", prompt: "Explain how negative feedback returns blood glucose to its set point in each case.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Blood glucose homeostasis", statement: "Insulin lowers glucose when it rises; glucagon raises it when it falls — both via negative feedback." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Blood glucose must be maintained within a narrow range so cells (especially brain and muscle) have a constant energy supply.", working: "constant energy supply", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Homeostasis of glucose is achieved by the antagonistic hormones insulin and glucagon.", working: "insulin vs glucagon", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Falling glucose triggers glucagon release from pancreatic alpha cells.", working: "glucagon from alpha cells", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Glucagon stimulates glycogen breakdown in the liver, releasing glucose into the blood.", working: "glycogenolysis in liver", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Rising glucose triggers insulin release from pancreatic beta cells.", working: "insulin from beta cells", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Insulin promotes glucose uptake by cells and conversion to glycogen in liver and muscle.", working: "uptake + glycogen storage", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "As glucose falls after the meal, insulin secretion decreases; as it rises after fasting, glucagon secretion decreases.", working: "hormone secretion tracks glucose", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "The change in the variable (glucose) reduces the response that caused it — a self-correcting negative feedback loop.", working: "negative feedback loop", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) Glucose kept in a narrow range for constant cell energy supply via insulin and glucagon. (b) Glucagon released → liver glycogen breakdown. (c) Insulin released → cellular uptake and glycogen storage. (d) Falling glucose reduces insulin; rising glucose reduces glucagon — self-correcting negative feedback.",
+            commonErrors: ["Reversing insulin and glucagon actions.", "Claiming glucagon is secreted by the beta cells — it is the alpha cells."],
+            examinerNote: "M1 A1 (a); M1 A1 (b); M1 A1 (c); M1 A1 (d).",
+          },
+        },
+        {
+          id: "biosl-u5-endocrine-system-q16",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 10,
+          stem: "Two patients both have chronically high blood glucose. Patient X produces no insulin at all and requires daily insulin injections. Patient Y produces normal or elevated insulin but cells respond poorly to it.",
+          parts: [
+            { label: "a", prompt: "Identify the likely diagnosis for each patient.", marks: 2 },
+            { label: "b", prompt: "Explain the defect in blood glucose control in each case.", marks: 3 },
+            { label: "c", prompt: "Suggest one lifestyle treatment that benefits both patients and justify it.", marks: 2 },
+            { label: "d", prompt: "Evaluate why insulin injections help Patient X but not Patient Y.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "context", name: "Diabetes mellitus", statement: "Type 1 = autoimmune destruction of beta cells → no insulin; type 2 = insulin resistance with relative insulin deficiency." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Patient X: type 1 diabetes (absent insulin production).", working: "X = type 1", marks: 1, markCode: "B" },
+              { part: "a", reasoning: "Patient Y: type 2 diabetes (insulin resistance).", working: "Y = type 2", marks: 1, markCode: "B" },
+              { part: "b", reasoning: "X: beta cells of the pancreas are destroyed, so no insulin is secreted when glucose rises.", working: "beta-cell failure", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Without insulin, glucose cannot enter cells or be stored as glycogen, so blood glucose stays high.", working: "no uptake/storage", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Y: insulin is produced but target cells have reduced sensitivity to it, so the same glucose-lowering effect is not achieved.", working: "resistance to insulin", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Regular exercise and a controlled diet help both by increasing cellular glucose uptake independently of insulin and reducing glucose intake.", working: "exercise + diet", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Justified because exercise increases insulin sensitivity and lowers blood glucose in both types.", working: "raises sensitivity", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "In X, injected insulin replaces the missing hormone, restoring glucose uptake.", working: "replaces missing insulin", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "In Y, insulin is already present in normal or high amounts; adding more does not overcome cellular resistance and may worsen resistance.", working: "resistance unchanged", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Y is better treated by improving insulin sensitivity (diet, exercise, possibly metformin) rather than simply adding insulin.", working: "treats sensitivity", marks: 1, markCode: "R" },
+            ],
+            finalAnswer: "(a) X = type 1 diabetes; Y = type 2 diabetes. (b) X: no insulin → no glucose uptake/storage. Y: insulin present but cells resist its action. (c) Exercise and diet improve glucose control in both. (d) X lacks insulin so injections replace it; Y already has insulin but cells resist it, so injections are ineffective — sensitivity must be improved instead.",
+            commonErrors: ["Treating both types identically with insulin injections.", "Claiming type 2 patients produce no insulin at all."],
+            examinerNote: "B1 B1 (a); M1 M1 M1 (b); M1 A1 (c); M1 M1 R1 (d).",
+          },
+        },
+      ],
+    },
+  ],
+};

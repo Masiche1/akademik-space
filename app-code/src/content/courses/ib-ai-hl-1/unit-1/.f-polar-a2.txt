@@ -1,0 +1,36 @@
+        {
+          id: "aihl-u1-polar-exponential-q8",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 3,
+          stem: "Write $z=-2-2i$ in the form $re^{i\\theta}$, where $r>0$ and $-\\pi<\\theta\\le\\pi$. Give $r$ and $\\theta$ to 3 significant figures.",
+          response: { type: "numeric", parts: [{ label: "$r$", answer: 2.83, tolerance: 0.005 }, { label: "$\\theta$ (radians)", answer: -2.36, tolerance: 0.005 }] },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Modulus and argument", statement: "$r=\\sqrt{a^2+b^2}$, $\\theta$ in the correct quadrant." }],
+            steps: [
+              { reasoning: "Compute the modulus.", working: "r=\\sqrt{(-2)^2+(-2)^2}=\\sqrt8", marks: 1, markCode: "M" },
+              { reasoning: "$r=2\\sqrt2\\approx2.83$.", working: "r\\approx2.83", marks: 1, markCode: "A" },
+              { reasoning: "The point $(-2,-2)$ is in quadrant III; the reference angle is $\\frac{\\pi}{4}$, so $\\theta=-\\pi+\\frac{\\pi}{4}=-\\frac{3\\pi}{4}$.", working: "\\theta=-\\frac{3\\pi}{4}\\approx-2.36", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$z=2.83e^{-2.36i}$ (exactly $2\\sqrt2\\,e^{-3\\pi i/4}$)",
+            commonErrors: ["Giving $\\theta=\\frac{5\\pi}{4}$ which is outside the required range, or $\\frac{\\pi}{4}$ ignoring the quadrant."],
+          },
+        },
+        {
+          id: "aihl-u1-polar-exponential-q9",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 3,
+          stem: "Write $z=\\sqrt3+i$ in the form $re^{i\\theta}$, giving $\\theta$ in radians to 3 significant figures.",
+          response: { type: "numeric", parts: [{ label: "$r$", answer: 2 }, { label: "$\\theta$ (radians)", answer: 0.524, tolerance: 0.0005 }] },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Modulus and argument", statement: "$r=\\sqrt{a^2+b^2}$ and $\\tan\\theta=\\frac{b}{a}$." }],
+            steps: [
+              { reasoning: "Compute the modulus.", working: "r=\\sqrt{3+1}=2", marks: 1, markCode: "M" },
+              { reasoning: "Find the reference angle: $\\arctan\\frac{1}{\\sqrt3}=\\frac{\\pi}{6}$, first quadrant.", working: "\\theta=\\frac{\\pi}{6}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate $\\theta$ in radians.", working: "\\theta\\approx0.524", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$z=2e^{0.524i}$ (exactly $2e^{\\pi i/6}$)",
+            commonErrors: ["Using degrees on the GDC and getting $30$ instead of $0.524$."],
+          },
+        },

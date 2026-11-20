@@ -1,0 +1,78 @@
+        {
+          id: "aihl-u1-polar-exponential-q5",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Find the modulus of $z=3+4i$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$5$" },
+              { id: "b", text: "$7$" },
+              { id: "c", text: "$12$" },
+              { id: "d", text: "$25$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Modulus", statement: "$|a+bi|=\\sqrt{a^2+b^2}$" }],
+            steps: [
+              { reasoning: "Apply the modulus formula.", working: "|z|=\\sqrt{3^2+4^2}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "|z|=\\sqrt{25}=5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $5$",
+            commonErrors: ["Adding $3+4=7$ instead of using the Pythagorean formula."],
+          },
+        },
+        {
+          id: "aihl-u1-polar-exponential-q6",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "The argument of $z=1-i$, where $-\\pi<\\theta\\le\\pi$, is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{\\pi}{4}$" },
+              { id: "b", text: "$-\\frac{\\pi}{4}$" },
+              { id: "c", text: "$\\frac{3\\pi}{4}$" },
+              { id: "d", text: "$-\\frac{3\\pi}{4}$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Argument", statement: "The argument is measured from the positive real axis in the correct quadrant." }],
+            steps: [
+              { reasoning: "The point $(1,-1)$ is in the fourth quadrant, so the angle is negative.", working: "\\theta=-\\arctan\\frac{1}{1}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "\\theta=-\\frac{\\pi}{4}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** $-\\frac{\\pi}{4}$",
+            commonErrors: ["Giving $+\\frac{\\pi}{4}$ without checking the quadrant."],
+          },
+        },
+        {
+          id: "aihl-u1-polar-exponential-q7",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "The real part of $2e^{i\\pi/3}$ is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$\\sqrt3$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$\\frac{\\sqrt3}{2}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Euler's formula", statement: "$re^{i\\theta}=r\\cos\\theta+ir\\sin\\theta$" }],
+            steps: [
+              { reasoning: "The real part is $r\\cos\\theta$.", working: "2\\cos\\frac{\\pi}{3}", marks: 1, markCode: "M" },
+              { reasoning: "$\\cos\\frac{\\pi}{3}=\\frac12$, so the real part is 1.", working: "2\\times\\frac12=1", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $1$",
+            commonErrors: ["Using $\\sin\\frac{\\pi}{3}$ and getting $\\sqrt3$ — that is the imaginary part."],
+          },
+        },

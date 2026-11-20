@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Akademik Space | Build by Scholars for Scholars</title>
+    <meta name="description" content="Curriculum-aligned practice with examiner markschemes. Pathways: US Grades 7-12, IB MYP and Diploma, Pearson Edexcel and Cambridge International." />
+    <meta name="author" content="Akademik Scholars" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://akademik.space/" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/brand/logo-192.png" />
+    <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0d1b35" />
+    <meta property="og:site_name" content="Akademik Space" />
+    <meta property="og:title" content="Akademik Space | The Home of International Academic Studies" />
+    <meta
+      property="og:description"
+      content="Curriculum-aligned practice with examiner markschemes. Pathways: US Grades 7-12, IB MYP and Diploma, Pearson Edexcel and Cambridge International."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://akademik.space/" />
+    <meta property="og:image" content="https://hercules-cdn.com/cdn-cgi/image/w=1200,h=630,q=85,fit=cover,format=auto/file_qcgYMV50y3eUDfAnqM0z7QNC" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="1024" />
+    <meta property="og:image:alt" content="Akademik Space logo" />
+    <meta property="article:modified_time" content="2026-11-08T00:00:00Z" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="https://hercules-cdn.com/cdn-cgi/image/w=1200,h=630,q=85,fit=cover,format=auto/file_qcgYMV50y3eUDfAnqM0z7QNC" />
+
+    <!-- Structured data: brand, site and the learning pathways, for search engines and AI answer engines -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "EducationalOrganization",
+            "@id": "https://akademik.space/#organization",
+            "name": "Akademik Space",
+            "alternateName": "Akademik Scholars",
+            "slogan": "Build by Scholars for Scholars",
+            "url": "https://akademik.space/",
+            "logo": { "@type": "ImageObject", "url": "https://akademik.space/brand/logo-512.png", "width": 512, "height": 512 },
+            "description": "Curriculum-aligned practice with examiner-style markschemes for US Grades 7-12, the IB Middle Years and Diploma Programmes, Pearson Edexcel and Cambridge International."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://akademik.space/#website",
+            "name": "Akademik Space",
+            "url": "https://akademik.space/",
+            "inLanguage": "en",
+            "publisher": { "@id": "https://akademik.space/#organization" },
+            "dateModified": "2026-11-08"
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://akademik.space/#pathways",
+            "name": "Learning pathways",
+            "itemListElement": [
+              {
+                "@type": "SiteNavigationElement",
+                "position": 1,
+                "name": "US Grades 7-12",
+                "description": "Grades 7-8 Math, Science (NGSS) and English Language Arts, then high school Algebra 1 to Precalculus, Biology, Earth and Space Science, Chemistry, Physics and English Language Arts.",
+                "url": "https://akademik.space/curricula/us"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "position": 2,
+                "name": "IB Middle Years and Diploma",
+                "description": "IB MYP 1-5 Mathematics and Sciences, then the full Diploma Programme across all six subject groups and the DP core.",
+                "url": "https://akademik.space/curricula/ib"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "position": 3,
+                "name": "Pearson Edexcel Years 8-11",
+                "description": "Maths, English Language, English Literature, Science, Biology, Chemistry and Physics, Key Stage 3 to International GCSE.",
+                "url": "https://akademik.space/curricula/edexcel"
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..800&family=Hanken+Grotesk:wght@300..800&family=JetBrains+Mono:wght@400..700&display=swap"
+      rel="stylesheet"
+      crossorigin
+    />
+
+    <!-- Detect dark mode preference and set the class before next-themes loads. This avoids a flash of unstyled content (FOUC) when the page loads. -->
+    <script>
+      try {
+        let theme = localStorage.getItem("theme");
+        if (theme === "system" || !theme) {
+          let prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+          ).matches;
+          theme = prefersDark ? "dark" : "light";
+        }
+        document.documentElement.classList.add(theme);
+      } catch (e) {}
+    </script>
+
+    <link href="/src/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+        {
+          id: "aihl-u1-matrix-systems-q11",
+          difficulty: "challenge",
+          paper: "2",
+          totalMarks: 7,
+          stem: "Consider the system of equations:\n\n$2x+y=5$\n\n$4x+2y=10$",
+          parts: [
+            { label: "a", prompt: "Write the system in the form $AX=B$ and find $\\det A$.", marks: 2 },
+            { label: "b", prompt: "Explain why the system has infinitely many solutions.", marks: 3 },
+            { label: "c", prompt: "Find $x$ in terms of $y$.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Singular systems", statement: "If $\\det A=0$, the system has no solution or infinitely many solutions." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Take the coefficients as $A$ and the constants as $B$.", working: "\\begin{pmatrix} 2 & 1 \\\\ 4 & 2 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 5 \\\\ 10 \\end{pmatrix}", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Compute the determinant.", working: "\\det A=4-4=0", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Since $\\det A=0$, $A^{-1}$ does not exist.", working: "\\det A=0", marks: 1, markCode: "R" },
+              { part: "b", reasoning: "The second equation is exactly twice the first.", working: "4x+2y=2(2x+y)", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Both equations describe the same line, so every point on it is a solution.", working: "\\text{infinitely many solutions}", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Rearrange the first equation.", working: "x=\\frac{5-y}{2}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State the relation.", working: "x=\\frac{5-y}{2}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $\\det A=0$ (b) infinitely many solutions — the equations are identical (c) $x=\\frac{5-y}{2}$",
+            commonErrors: ["Concluding there is no solution just because $\\det A=0$ — here the equations coincide."],
+          },
+        },

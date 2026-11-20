@@ -1,0 +1,78 @@
+        {
+          id: "aihl-u1-matrix-operations-q5",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "Find the determinant of $\\begin{pmatrix} 5 & 2 \\\\ 1 & 3 \\end{pmatrix}$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$13$" },
+              { id: "b", text: "$17$" },
+              { id: "c", text: "$-13$" },
+              { id: "d", text: "$11$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Determinant", statement: "$\\det\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}=ad-bc$" }],
+            steps: [
+              { reasoning: "Multiply the main diagonal and subtract the product of the other diagonal.", working: "5\\times3-2\\times1", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "15-2=13", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $13$",
+            commonErrors: ["Adding the diagonal products to get 17."],
+          },
+        },
+        {
+          id: "aihl-u1-matrix-operations-q6",
+          difficulty: "foundation",
+          paper: "1",
+          totalMarks: 2,
+          stem: "If $A$ is a $2\\times3$ matrix and $B$ is a $3\\times4$ matrix, the product $AB$ has size:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$2\\times4$" },
+              { id: "b", text: "$3\\times3$" },
+              { id: "c", text: "$2\\times3$" },
+              { id: "d", text: "The product does not exist" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Matrix product", statement: "$AB$ exists when the columns of $A$ equal the rows of $B$; the result has the rows of $A$ and columns of $B$." }],
+            steps: [
+              { reasoning: "The inner dimensions match ($3=3$), so the product exists with the outer dimensions.", working: "2\\times3 \\;\\&\\; 3\\times4 \\Rightarrow 2\\times4", marks: 1, markCode: "M" },
+              { reasoning: "State the size.", working: "2\\times4", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $2\\times4$",
+            commonErrors: ["Multiplying the two middle numbers or adding the dimensions."],
+          },
+        },
+        {
+          id: "aihl-u1-matrix-operations-q7",
+          difficulty: "core",
+          paper: "1",
+          totalMarks: 2,
+          stem: "The determinant of $\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$2$" },
+              { id: "b", text: "$-2$" },
+              { id: "c", text: "$-1$" },
+              { id: "d", text: "$10$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "formula", name: "Determinant", statement: "$\\det=ad-bc$" }],
+            steps: [
+              { reasoning: "Apply $ad-bc$.", working: "1\\times4-2\\times3", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate; note the sign.", working: "4-6=-2", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** $-2$",
+            commonErrors: ["Dropping the negative sign to get 2."],
+          },
+        },
