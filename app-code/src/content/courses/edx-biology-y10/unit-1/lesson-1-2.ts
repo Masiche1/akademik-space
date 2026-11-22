@@ -202,7 +202,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "High temperature permanently changes the shape of the active site, so the substrate no longer fits. This is denaturation.", working: "\\text{denatured}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(b)**",
             commonErrors: ["Choosing (b): denaturation is permanent, unlike the slowing caused by cold.", "Choosing (c): enzymes are not used up."],
             examinerNote: "B1 for (a).",
           },

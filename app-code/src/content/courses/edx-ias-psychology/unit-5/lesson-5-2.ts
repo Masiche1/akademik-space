@@ -280,7 +280,7 @@ export const lesson52: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Intro, Method, Results, Discussion",
+            finalAnswer: "**(c)** Intro, Method, Results, Discussion",
             commonErrors: ["Wrong acronym."],
           },
         },

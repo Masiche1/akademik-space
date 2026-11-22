@@ -182,7 +182,7 @@ export const lesson113: Lesson = {
             { id: "b", text: "Plastic" },
             { id: "c", text: "Wood" },
             { id: "d", text: "Metal" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Conductivity", statement: "Metals conduct heat well." }],
             steps: [{ reasoning: "Metal conducts heat → good for pans.", marks: 1, markCode: "A" }],
@@ -230,7 +230,7 @@ export const lesson113: Lesson = {
             { id: "b", text: "Burning wood" },
             { id: "c", text: "Tearing paper" },
             { id: "d", text: "Bending a ruler" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "New material", statement: "Burning/cooking can make a different material." }],
             steps: [{ reasoning: "Burning wood makes ash — a new material; others only change shape.", marks: 1, markCode: "A" }],

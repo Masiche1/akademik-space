@@ -83,7 +83,7 @@ export const lesson52: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Joins group",
+            finalAnswer: "**(d)** Joins group",
             commonErrors: ["Non-participant confused."],
           },
         },

@@ -69,7 +69,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall which can't invert.", working: "\\text{energy}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Pyramid of energy",
+            finalAnswer: "**(d)** Pyramid of energy",
             commonErrors: ["Choosing numbers — one tree can support many insects (inverted)."],
           },
         },
@@ -163,7 +163,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall what biomass measures.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Dry mass of organisms at each trophic level",
+            finalAnswer: "**(c)** Dry mass of organisms at each trophic level",
             commonErrors: ["Confusing biomass with numbers or energy."],
           },
         },
@@ -189,7 +189,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall which pyramids can invert.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Pyramid of numbers and sometimes biomass",
+            finalAnswer: "**(c)** Pyramid of numbers and sometimes biomass",
             commonErrors: ["Choosing energy — it cannot invert."],
           },
         },
@@ -215,7 +215,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall the stability advantage.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Organisms have alternative food sources if one is lost",
+            finalAnswer: "**(a)** Organisms have alternative food sources if one is lost",
             commonErrors: ["Saying food webs are less realistic — they are more realistic."],
           },
         },
@@ -267,7 +267,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall the defining feature.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It always decreases upward because energy is lost",
+            finalAnswer: "**(d)** It always decreases upward because energy is lost",
             commonErrors: ["Confusing it with pyramid of numbers."],
           },
         },
@@ -415,7 +415,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Match the measure to the pyramid.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Pyramid of biomass",
+            finalAnswer: "**(a)** Pyramid of biomass",
             commonErrors: ["Choosing numbers — that counts organisms, not mass."],
           },
         },
@@ -609,7 +609,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall the exponential phase.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Logarithmic/exponential phase",
+            finalAnswer: "**(a)** Logarithmic/exponential phase",
             commonErrors: ["Choosing stationary — growth slows there."],
           },
         },
@@ -635,7 +635,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall the stationary phase.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Growth slows as the population approaches carrying capacity",
+            finalAnswer: "**(a)** Growth slows as the population approaches carrying capacity",
             commonErrors: ["Choosing unlimited growth — resources limit it."],
           },
         },
@@ -661,7 +661,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The environmental factor in shortest supply that limits population size",
+            finalAnswer: "**(a)** The environmental factor in shortest supply that limits population size",
             commonErrors: ["Choosing any factor — only the shortest-supply factor limits."],
           },
         },
@@ -817,7 +817,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall the reason for randomness.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To avoid bias and obtain a representative sample",
+            finalAnswer: "**(c)** To avoid bias and obtain a representative sample",
             commonErrors: ["Saying it is for convenience — it is for validity."],
           },
         },

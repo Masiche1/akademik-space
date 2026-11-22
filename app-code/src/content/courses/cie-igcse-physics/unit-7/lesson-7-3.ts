@@ -59,7 +59,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Protection", statement: "Time/distance/shielding." }],
             steps: [{ reasoning: "Recall.", working: "\\text{TDS}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Time, distance, shielding",
+            finalAnswer: "**(c)** Time, distance, shielding",
             commonErrors: ["Missing one principle."],
           },
         },
@@ -139,7 +139,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Shielding", statement: "Lead and concrete absorb radiation." }],
             steps: [{ reasoning: "Recall effective shielding materials.", working: "\\text{lead}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Lead",
+            finalAnswer: "**(c)** Lead",
             commonErrors: ["Choosing a material that only blocks visible light."],
           },
         },
@@ -173,7 +173,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Background radiation", statement: "Includes rocks, cosmic rays and food." }],
             steps: [{ reasoning: "Recall natural background sources.", working: "\\text{radon/rocks}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Radon in rocks",
+            finalAnswer: "**(a)** Radon in rocks",
             commonErrors: ["Thinking background radiation is only man-made."],
           },
         },
@@ -204,11 +204,11 @@ export const lessonp73: Lesson = {
             { id: "b", text: "Increase exposure time" },
             { id: "c", text: "Wear dark clothing" },
             { id: "d", text: "Reduce time, increase distance and use shielding" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Protection", statement: "Use time, distance and shielding together." }],
             steps: [{ reasoning: "Recall the three protection principles.", working: "\\text{TDS}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Reduce time, increase distance and use shielding",
+            finalAnswer: "**(d)** Reduce time, increase distance and use shielding",
             commonErrors: ["Using only one protection method."],
           },
         },
@@ -226,7 +226,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Ionisation", statement: "Damages DNA and can cause mutations." }],
             steps: [{ reasoning: "Recall biological effect of ionising radiation.", working: "\\text{DNA damage}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ionising atoms and damaging DNA",
+            finalAnswer: "**(a)** Ionising atoms and damaging DNA",
             commonErrors: ["Thinking radiation only heats tissue."],
           },
         },
@@ -260,7 +260,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Geiger counter", statement: "Detector for ionising radiation." }],
             steps: [{ reasoning: "Recall the instrument's purpose.", working: "\\text{detect radiation}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Detect and measure radiation intensity",
+            finalAnswer: "**(a)** Detect and measure radiation intensity",
             commonErrors: ["Confusing it with a thermometer or X-ray machine."],
           },
         },
@@ -290,11 +290,11 @@ export const lessonp73: Lesson = {
             { id: "b", text: "It can be completely avoided" },
             { id: "c", text: "It is always dangerous" },
             { id: "d", text: "It is natural radiation present all the time" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "Background radiation", statement: "Natural ambient dose always present." }],
             steps: [{ reasoning: "Recall background radiation definition.", working: "\\text{natural, always present}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** It is natural radiation present all the time",
+            finalAnswer: "**(d)** It is natural radiation present all the time",
             commonErrors: ["Thinking background radiation is only artificial."],
           },
         },
@@ -382,7 +382,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Tracer", statement: "Tracks processes." }],
             steps: [{ reasoning: "Recall.", working: "\\text{tracking}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Tracking body processes",
+            finalAnswer: "**(d)** Tracking body processes",
             commonErrors: ["Confusing with therapy."],
           },
         },
@@ -496,7 +496,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Radiotherapy", statement: "Radiation damages cancer cell DNA." }],
             steps: [{ reasoning: "Recall radiotherapy purpose.", working: "\\text{kill cancer cells}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Kill or damage cancer cells",
+            finalAnswer: "**(a)** Kill or damage cancer cells",
             commonErrors: ["Confusing diagnosis with treatment."],
           },
         },
@@ -530,7 +530,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Sterilisation", statement: "Gamma kills microorganisms." }],
             steps: [{ reasoning: "Recall sterilisation mechanism.", working: "\\text{kills microbes}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Kills bacteria and microorganisms",
+            finalAnswer: "**(a)** Kills bacteria and microorganisms",
             commonErrors: ["Thinking sterilisation only cleans surfaces."],
           },
         },
@@ -548,7 +548,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Smoke detector", statement: "Alpha ionises air in detector." }],
             steps: [{ reasoning: "Recall smoke-detector radiation type.", working: "\\text{alpha}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Alpha",
+            finalAnswer: "**(d)** Alpha",
             commonErrors: ["Choosing gamma, which is too penetrating for this use."],
           },
         },
@@ -617,7 +617,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Tracer selection", statement: "Short half-life limits patient dose." }],
             steps: [{ reasoning: "Recall why tracers decay quickly.", working: "\\text{short half-life}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A short half-life so it decays quickly",
+            finalAnswer: "**(c)** A short half-life so it decays quickly",
             commonErrors: ["Choosing a long-lived isotope for diagnosis."],
           },
         },

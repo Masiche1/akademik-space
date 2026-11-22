@@ -397,7 +397,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $+\\frac{1}{2}$ or $-\\frac{1}{2}$",
+            finalAnswer: "**(c)** $+\\frac{1}{2}$ or $-\\frac{1}{2}$",
             commonErrors: [
               "Including $0$ — spin has only two values, unlike the magnetic quantum number.",
             ],
@@ -441,7 +441,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 2 electrons with opposite spins",
+            finalAnswer: "**(d)** 2 electrons with opposite spins",
             commonErrors: [
               "Answering 6 or 8 — those are subshell capacities ($p$ or $s+p$), not single-orbital capacities.",
             ],
@@ -461,7 +461,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "2" },
               { id: "d", text: "3" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -485,7 +485,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** 3 unpaired electrons",
+            finalAnswer: "**(d)** 3 unpaired electrons",
             commonErrors: [
               "Drawing two of the $2p$ electrons paired — that would leave only one unpaired electron.",
             ],
@@ -1365,7 +1365,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $3d$",
+            finalAnswer: "**(c)** $3d$",
             commonErrors: [
               "Assuming subshells fill strictly by principal quantum number — $4s$ precedes $3d$.",
             ],
@@ -1385,7 +1385,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$[Ar]\\,4s^2 3d^9$" },
               { id: "d", text: "$[Ar]\\,3d^{10}$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1409,7 +1409,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $[Ar]\\,3d^{10}$",
+            finalAnswer: "**(d)** $[Ar]\\,3d^{10}$",
             commonErrors: [
               "Keeping a $4s$ electron in Cu$^+$ — $4s$ is always emptied before $3d$ on ionization.",
             ],
@@ -1456,7 +1456,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** The next electron comes from an inner shell",
+            finalAnswer: "**(b)** The next electron comes from an inner shell",
             commonErrors: [
               "Thinking a large jump means the element is a metal — it marks a shell boundary instead.",
             ],

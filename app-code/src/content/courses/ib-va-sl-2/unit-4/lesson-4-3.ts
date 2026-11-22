@@ -70,7 +70,7 @@ export const lesson43: Lesson = {
               { reasoning: "Formalism evaluates purely through visual elements — line, colour, composition, technique.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Formal elements like line, colour and composition",
+            finalAnswer: "**(a)** Formal elements like line, colour and composition",
             commonErrors: [
               "Confusing formalism with contextual or biographical analysis.",
             ],
@@ -177,7 +177,7 @@ export const lesson43: Lesson = {
               { reasoning: "Postcolonial analysis addresses colonial power, representation and the 'other'.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** How colonial power relations shape representation and artistic production",
+            finalAnswer: "**(c)** How colonial power relations shape representation and artistic production",
             commonErrors: [
               "Confusing postcolonial analysis with purely formal or stylistic study.",
             ],
@@ -206,7 +206,7 @@ export const lesson43: Lesson = {
               { reasoning: "Feminist analysis centres on gender, power and the gaze.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Gender representation, power distribution and the controlling gaze",
+            finalAnswer: "**(c)** Gender representation, power distribution and the controlling gaze",
             commonErrors: [
               "Confusing feminist analysis with general social commentary.",
             ],
@@ -235,7 +235,7 @@ export const lesson43: Lesson = {
               { reasoning: "Formalism is necessary for craft evaluation but blind to context and ideology.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Because it judges visual craft well but misses context, meaning and representation",
+            finalAnswer: "**(d)** Because it judges visual craft well but misses context, meaning and representation",
             commonErrors: [
               "Claiming formalism is either useless or complete.",
             ],
@@ -264,7 +264,7 @@ export const lesson43: Lesson = {
               { reasoning: "Contextual analysis situates the work within its historical and social moment.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** How does the work relate to its historical, cultural and social moment?",
+            finalAnswer: "**(c)** How does the work relate to its historical, cultural and social moment?",
             commonErrors: [
               "Confusing contextual questions with purely formal ones.",
             ],
@@ -380,7 +380,7 @@ export const lesson43: Lesson = {
               { reasoning: "Combining frameworks broadens what the evaluation can see.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Applying multiple analytical lenses to reach a fuller judgement",
+            finalAnswer: "**(a)** Applying multiple analytical lenses to reach a fuller judgement",
             commonErrors: [
               "Assuming one framework alone suffices for evaluation.",
             ],
@@ -409,7 +409,7 @@ export const lesson43: Lesson = {
               { reasoning: "Craft quality and ethical/contextual soundness are judged on different dimensions.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Craft excellence and ethical or contextual soundness are separate dimensions",
+            finalAnswer: "**(c)** Craft excellence and ethical or contextual soundness are separate dimensions",
             commonErrors: [
               "Conflating aesthetic quality with moral or contextual value.",
             ],
@@ -559,7 +559,7 @@ export const lesson43: Lesson = {
               { reasoning: "Fair evaluation requires establishing criteria before judging.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Establish explicit criteria for judgement",
+            finalAnswer: "**(a)** Establish explicit criteria for judgement",
             commonErrors: [
               "Judging by personal taste without criteria.",
             ],
@@ -666,7 +666,7 @@ export const lesson43: Lesson = {
               { reasoning: "Coherence judges how well elements are organised into unity.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** How well the elements are organised into a unified whole",
+            finalAnswer: "**(a)** How well the elements are organised into a unified whole",
             commonErrors: [
               "Confusing coherence with technical finish or originality.",
             ],
@@ -695,7 +695,7 @@ export const lesson43: Lesson = {
               { reasoning: "Fair comparison applies identical criteria and names the dimension judged.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Applying the same criteria to both and specifying the dimension judged",
+            finalAnswer: "**(d)** Applying the same criteria to both and specifying the dimension judged",
             commonErrors: [
               "Comparing by preference or applying inconsistent criteria.",
             ],
@@ -724,7 +724,7 @@ export const lesson43: Lesson = {
               { reasoning: "Originality judges novelty of idea or treatment, not price, signature or materials.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Whether the work says or does something new or distinctive",
+            finalAnswer: "**(d)** Whether the work says or does something new or distinctive",
             commonErrors: [
               "Confusing originality with expense or rarity.",
             ],
@@ -753,7 +753,7 @@ export const lesson43: Lesson = {
               { reasoning: "A sketch's strength is economy and expressive directness, not finish.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Economy of means and expressive power",
+            finalAnswer: "**(c)** Economy of means and expressive power",
             commonErrors: [
               "Judging all works by the criteria suited to a different genre.",
             ],
@@ -869,7 +869,7 @@ export const lesson43: Lesson = {
               { reasoning: "'Better' without a criterion is undefined and unverifiable.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It does not specify the criterion or dimension of judgement",
+            finalAnswer: "**(d)** It does not specify the criterion or dimension of judgement",
             commonErrors: [
               "Accepting vague superlatives as valid evaluation.",
             ],
@@ -898,7 +898,7 @@ export const lesson43: Lesson = {
               { reasoning: "Minimalist work is judged on economy and formal purity rather than richness.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Economy of means and formal purity",
+            finalAnswer: "**(a)** Economy of means and formal purity",
             commonErrors: [
               "Judging minimalism by criteria suited to ornamented work.",
             ],

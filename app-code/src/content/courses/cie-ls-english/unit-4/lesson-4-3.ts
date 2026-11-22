@@ -65,7 +65,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "(b) is specific and creates immediate tension.", working: "\\text{specific tension}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** The letter arrived on Tuesday, three days before the exam.",
+            finalAnswer: "**(c)** The letter arrived on Tuesday, three days before the exam.",
             commonErrors: ["Choosing (d) — cliché, not a real hook."],
           },
         },
@@ -295,7 +295,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Smell imagery ('charcoal', 'mangoes') is a sensory hook.", working: "\\text{smell}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** A sensory hook",
+            finalAnswer: "**(d)** A sensory hook",
             commonErrors: ["Choosing (a) — it is not mid-action; it is a scene-setting sensory detail."],
           },
         },
@@ -321,7 +321,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "'She learned that friendship matters' tells the theme directly — a moral.", working: "\\text{tells the theme}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** It is moralising — it spells out the theme instead of trusting the reader",
+            finalAnswer: "**(c)** It is moralising — it spells out the theme instead of trusting the reader",
             commonErrors: ["Choosing (c) — it is resolved, just badly done."],
           },
         },
@@ -653,7 +653,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "(b) focuses on the dangerous edge — what a fearful character would notice.", working: "\\text{fear-relevant}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** The cliff edge crumbled under her fingers",
+            finalAnswer: "**(c)** The cliff edge crumbled under her fingers",
             commonErrors: ["Choosing (a) — beautiful flowers are not what a scared character would notice."],
           },
         },
@@ -734,7 +734,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "(b) gripping the doorframe physically shows nervousness — shown, not told.", working: "\\text{gripping = nervous}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Her fingers found the doorframe and held on",
+            finalAnswer: "**(a)** Her fingers found the doorframe and held on",
             commonErrors: ["Choosing (a) — room colour does not reveal the character's state."],
           },
         },

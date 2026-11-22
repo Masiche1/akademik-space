@@ -73,7 +73,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Gradient of distance-time graph is speed.", working: "\\text{speed}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Speed",
+            finalAnswer: "**(c)** Speed",
             commonErrors: ["Choosing acceleration — that's velocity-time."],
             examinerNote: "B1 for (b).",
           },
@@ -171,7 +171,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Velocity includes direction; speed does not.", working: "v=\\text{speed}+\\text{direction}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Speed in a given direction",
+            finalAnswer: "**(a)** Speed in a given direction",
             commonErrors: ["Confusing velocity with speed — only velocity has direction."],
             examinerNote: "B1 for (b).",
           },
@@ -273,7 +273,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The gradient of a velocity-time graph is the rate of change of velocity — acceleration.", working: "\\text{gradient}=a", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Acceleration",
+            finalAnswer: "**(d)** Acceleration",
             commonErrors: ["Choosing speed — that is the gradient of a distance-time graph."],
             examinerNote: "B1 for (b).",
           },
@@ -455,7 +455,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$8-3=5$ N to the right.", working: "8-3=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 5 N right",
+            finalAnswer: "**(d)** 5 N right",
             commonErrors: ["Adding instead of subtracting."],
             examinerNote: "B1 for (b).",
           },
@@ -552,7 +552,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Balanced forces mean no change in velocity.", working: "F_{net}=0\\Rightarrow a=0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Stay at rest or move at constant velocity",
+            finalAnswer: "**(c)** Stay at rest or move at constant velocity",
             commonErrors: ["Saying the object must stop — it could already be moving steadily."],
             examinerNote: "B1 for (b).",
           },
@@ -579,7 +579,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Moment = force × perpendicular distance.", working: "M=Fd", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Force times perpendicular distance from the pivot",
+            finalAnswer: "**(d)** Force times perpendicular distance from the pivot",
             commonErrors: ["Using the distance along the object rather than perpendicular distance."],
             examinerNote: "B1 for (b).",
           },
@@ -663,7 +663,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "A resultant force changes velocity — the object accelerates.", working: "F_{net}\\neq0\\Rightarrow a\\neq0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Accelerate",
+            finalAnswer: "**(a)** Accelerate",
             commonErrors: ["Saying it moves at constant speed — that requires balanced forces."],
             examinerNote: "B1 for (b).",
           },
@@ -701,7 +701,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Apply the force at an angle parallel to the object" },
               { id: "d", text: "Increase the perpendicular distance from the pivot" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -710,7 +710,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Moment increases with force and with perpendicular distance from the pivot.", working: "M=Fd", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Increase the perpendicular distance from the pivot",
+            finalAnswer: "**(d)** Increase the perpendicular distance from the pivot",
             commonErrors: ["Choosing to move closer — that decreases the moment."],
             examinerNote: "B1 for (c).",
           },
@@ -737,7 +737,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The handle is further from the pivot, so the same force produces a larger moment.", working: "d\\uparrow\\Rightarrow M\\uparrow", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The handle is further from the pivot, giving a larger moment for the same force",
+            finalAnswer: "**(b)** The handle is further from the pivot, giving a larger moment for the same force",
             examinerNote: "B1 for (a).",
           },
         },

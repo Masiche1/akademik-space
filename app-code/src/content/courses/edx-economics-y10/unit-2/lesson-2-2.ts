@@ -81,7 +81,7 @@ export const lesson82: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Demand = supply",
+            finalAnswer: "**(a)** Demand = supply",
             commonErrors: ["Max/min confused."],
           },
         },
@@ -279,7 +279,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "PED 2 = elastic.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Elastic",
+            finalAnswer: "**(a)** Elastic",
             commonErrors: ["Inelastic confused."],
           },
         },

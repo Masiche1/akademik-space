@@ -180,7 +180,7 @@ export const lesson23: Lesson = {
             { id: "b", text: "\\$20" },
             { id: "c", text: "\\$12" },
             { id: "d", text: "\\$15" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Ratio sharing", statement: "Total parts = 3; one share = 10." }],
             steps: [{ reasoning: "One share $= 30 \\div 3 = 10$; larger share $= 2 \\times 10 = \\$20$.", marks: 1, markCode: "A" }],
@@ -227,7 +227,7 @@ export const lesson23: Lesson = {
             { id: "b", text: "12" },
             { id: "c", text: "30" },
             { id: "d", text: "10" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Ratio sharing", statement: "Total parts = 10; one share = 4." }],
             steps: [{ reasoning: "Pencils $= 7$ parts $= 7 \\times 4 = 28$.", marks: 1, markCode: "A" }],
@@ -340,7 +340,7 @@ export const lesson23: Lesson = {
             { id: "b", text: "28 cm" },
             { id: "c", text: "21 cm" },
             { id: "d", text: "49 cm" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "formula", name: "Square perimeter", statement: "$P = 4s$." }],
             steps: [{ reasoning: "$4 \\times 7 = 28$ cm.", marks: 1, markCode: "A" }],
@@ -404,7 +404,7 @@ export const lesson23: Lesson = {
             { id: "b", text: "10 cm" },
             { id: "c", text: "25 cm" },
             { id: "d", text: "20 cm" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "formula", name: "Square perimeter", statement: "$P = 4s$." }],
             steps: [{ reasoning: "$4 \\times 5 = 20$ cm.", marks: 1, markCode: "A" }],
@@ -552,7 +552,7 @@ export const lesson23: Lesson = {
             { id: "b", text: "The square" },
             { id: "c", text: "Cannot tell" },
             { id: "d", text: "The rectangle" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "formula", name: "Perimeter", statement: "Compute both and compare." }],
             steps: [{ reasoning: "Square: $4 \\times 4 = 16$ cm; rectangle: $2(6+2) = 16$ cm — equal.", marks: 1, markCode: "A" }],

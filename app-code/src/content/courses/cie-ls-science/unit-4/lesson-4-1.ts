@@ -65,7 +65,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Small intestine has enzymes, bile, and villi for absorption.", working: "small intestine", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Small intestine",
+            finalAnswer: "**(b)** Small intestine",
             commonErrors: ["Choosing (b) — stomach digests but doesn't absorb much."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Amylase digests starch → maltose, starting in the mouth.", working: "amylase", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Amylase",
+            finalAnswer: "**(b)** Amylase",
             commonErrors: ["Choosing (b) — pepsin digests protein in the stomach, not starch."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Water absorption happens mainly in the large intestine.", working: "large intestine", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Large intestine",
+            finalAnswer: "**(b)** Large intestine",
             commonErrors: ["Choosing (b) — the stomach digests but absorbs little."],
           },
         },
@@ -305,7 +305,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Protease acts on protein; products are amino acids.", working: "protein→amino acids", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Protein into amino acids",
+            finalAnswer: "**(b)** Protein into amino acids",
             commonErrors: ["Choosing (c) — lipase digests fat."],
           },
         },
@@ -441,7 +441,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Peristalsis is active muscle action — food moves even against gravity.", working: "peristalsis", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Peristalsis pushes food along regardless of gravity",
+            finalAnswer: "**(b)** Peristalsis pushes food along regardless of gravity",
             commonErrors: ["Choosing (b) — gravity does not help move food down the gut."],
           },
         },
@@ -602,7 +602,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Left ventricle → aorta → body; needs thick wall for high pressure.", working: "left ventricle", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Left ventricle",
+            finalAnswer: "**(c)** Left ventricle",
             commonErrors: ["Choosing (b) — right ventricle pumps only to the lungs."],
           },
         },
@@ -628,7 +628,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Low pressure in veins means valves are needed to stop backflow.", working: "veins", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Veins",
+            finalAnswer: "**(d)** Veins",
             commonErrors: ["Choosing (b) — arteries have high pressure and no valves."],
           },
         },
@@ -654,7 +654,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Pulmonary = lungs; blood goes heart→lungs→heart.", working: "pulmonary", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Heart → lungs → heart",
+            finalAnswer: "**(c)** Heart → lungs → heart",
             commonErrors: ["Choosing (b) — that is the systemic circuit."],
           },
         },
@@ -737,7 +737,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Aorta = systemic delivery; pulmonary artery carries deoxygenated blood to lungs.", working: "aorta", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Aorta",
+            finalAnswer: "**(d)** Aorta",
             commonErrors: ["Choosing (b) — pulmonary artery carries deoxygenated blood to the lungs."],
           },
         },
@@ -1034,7 +1034,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Cellular respiration produces CO₂, which is breathed out.", working: "CO₂", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Carbon dioxide",
+            finalAnswer: "**(b)** Carbon dioxide",
             commonErrors: ["Choosing (b) — oxygen is LOWER in expired air."],
           },
         },
@@ -1086,7 +1086,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "One-cell-thick wall minimises distance gases must diffuse.", working: "thin wall", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** To give a short diffusion distance for gases",
+            finalAnswer: "**(b)** To give a short diffusion distance for gases",
             commonErrors: ["Choosing (c) — thin walls aid exchange, not trapping."],
           },
         },
@@ -1169,7 +1169,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Trachea splits into two bronchi entering the lungs.", working: "bronchi", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Bronchi",
+            finalAnswer: "**(b)** Bronchi",
             commonErrors: ["Choosing (b) — alveoli are air sacs at the end of bronchioles."],
           },
         },
@@ -1305,7 +1305,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Volume up = pressure down = air rushes in down the gradient.", working: "pressure drops", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It becomes lower, so air flows in",
+            finalAnswer: "**(b)** It becomes lower, so air flows in",
             commonErrors: ["Choosing (b) — higher pressure pushes air OUT (exhalation)."],
           },
         },

@@ -140,7 +140,7 @@ export const lesson11: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. The whistle is cheerful on the surface but faltering, which shows hidden anxiety. (b) is background about Ines's coat, (c) shows Ines's nervousness rather than Tomas's, and (d) shows only an unfulfilled promise.",
+              "**(b)**. The whistle is cheerful on the surface but faltering, which shows hidden anxiety. (b) is background about Ines's coat, (c) shows Ines's nervousness rather than Tomas's, and (d) shows only an unfulfilled promise.",
             commonErrors: [
               "Choosing (c) because it shows nervousness, without noticing it is about Ines, not Tomas.",
             ],

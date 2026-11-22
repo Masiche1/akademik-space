@@ -537,7 +537,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Evidence, structure, delivery, adaptation, visuals.",
+              "**(d)**. Evidence, structure, delivery, adaptation, visuals.",
             commonErrors: ["Only evaluating one dimension."],
           },
         },
@@ -756,7 +756,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Research → outline → design → practice → present.",
+              "**(d)**. Research → outline → design → practice → present.",
             commonErrors: ["Designing before researching."],
           },
         },

@@ -299,7 +299,7 @@ export const lesson11: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Insulin",
+            finalAnswer: "**(d)** Insulin",
             commonErrors: ["Glucagon confused — opposite effect."],
           },
         },

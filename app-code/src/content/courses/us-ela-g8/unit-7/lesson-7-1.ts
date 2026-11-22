@@ -115,7 +115,7 @@ export const lesson71: Lesson = {
               { id: "c", text: "Sentence 5" },
               { id: "d", text: "Sentence 1" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -134,7 +134,7 @@ export const lesson71: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(d)**. Sentence 6 — missing proper verb structure.",
+            finalAnswer: "**(a)**. Sentence 6 — missing proper verb structure.",
             commonErrors: [
               "Choosing sentence 5 — it's a misplaced modifier, not a fragment.",
             ],
@@ -355,7 +355,7 @@ export const lesson71: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Sentence 6 — possessive error.",
+            finalAnswer: "**(a)**. Sentence 6 — possessive error.",
             commonErrors: [
               "Choosing sentence 8 — 'it's' should be 'its' but that's a different error.",
             ],

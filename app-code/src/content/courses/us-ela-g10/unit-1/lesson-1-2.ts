@@ -476,7 +476,7 @@ export const lesson12: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. Hope is the bird that sings in the gale. The storm and cold land are the hardships, and the bird never begs for a crumb, so (d) reverses the poem.",
+              "**(d)**. Hope is the bird that sings in the gale. The storm and cold land are the hardships, and the bird never begs for a crumb, so (d) reverses the poem.",
             commonErrors: [
               "Confusing the storm, which is the test of hope, with hope itself.",
             ],

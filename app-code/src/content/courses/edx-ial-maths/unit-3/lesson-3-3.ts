@@ -194,7 +194,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$u=x^2$ gives $du=2x\\,dx$, matching the integrand.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x^2$",
+            finalAnswer: "**(d)** $x^2$",
             commonErrors: ["Choosing $u=\\sin(x^2)$ which does not simplify."],
           },
         },

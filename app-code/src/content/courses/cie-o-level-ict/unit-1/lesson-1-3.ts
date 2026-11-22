@@ -107,7 +107,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Point of Sale (POS)" },
             { id: "d", text: "VLE" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "POS", statement: "Sales + stock updates." }], steps: [{ reasoning: "POS records sales and updates stock.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Point of Sale (POS)" },
+          markscheme: { principles: [{ kind: "definition", name: "POS", statement: "Sales + stock updates." }], steps: [{ reasoning: "POS records sales and updates stock.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Point of Sale (POS)" },
         },
         {
           id: "olict-u1-bc-q7", difficulty: "foundation", totalMarks: 2,
@@ -158,7 +158,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Printing receipts" },
             { id: "d", text: "Scanning barcodes" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "MIS", statement: "Data → reports for decisions." }], steps: [{ reasoning: "MIS produces reports for managers.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Producing reports from organisational data" },
+          markscheme: { principles: [{ kind: "definition", name: "MIS", statement: "Data → reports for decisions." }], steps: [{ reasoning: "MIS produces reports for managers.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Producing reports from organisational data" },
         },
         {
           id: "olict-u1-bc-q12", difficulty: "core", totalMarks: 2,
@@ -188,7 +188,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "CAM-controlled cutting machines" },
             { id: "d", text: "Electronic patient records" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "CAM", statement: "Computer-controlled production." }], steps: [{ reasoning: "CAM controls manufacturing machines.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** CAM-controlled cutting machines" },
+          markscheme: { principles: [{ kind: "principle", name: "CAM", statement: "Computer-controlled production." }], steps: [{ reasoning: "CAM controls manufacturing machines.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** CAM-controlled cutting machines" },
         },
         {
           id: "olict-u1-bc-q15", difficulty: "challenge", totalMarks: 4,
@@ -254,7 +254,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Medical history and test results digitally" },
             { id: "d", text: "Only prescriptions" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "EPR", statement: "Digital medical records." }], steps: [{ reasoning: "EPR = medical data.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Medical data" },
+          markscheme: { principles: [{ kind: "definition", name: "EPR", statement: "Digital medical records." }], steps: [{ reasoning: "EPR = medical data.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Medical data" },
         },
         {
           id: "olict-u1-pb-q2", difficulty: "core", totalMarks: 2,
@@ -310,7 +310,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "An online platform for course materials, assignments and grades" },
             { id: "d", text: "A type of printer" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "VLE", statement: "Online learning platform." }], steps: [{ reasoning: "VLE holds materials, assignments, grades.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Online learning platform" },
+          markscheme: { principles: [{ kind: "definition", name: "VLE", statement: "Online learning platform." }], steps: [{ reasoning: "VLE holds materials, assignments, grades.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Online learning platform" },
         },
         {
           id: "olict-u1-pb-q6", difficulty: "core", totalMarks: 1,
@@ -321,7 +321,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Grading exams" },
             { id: "d", text: "Storing library books" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Attendance systems", statement: "Biometrics register students." }], steps: [{ reasoning: "Biometric scanners register attendance.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Recording attendance" },
+          markscheme: { principles: [{ kind: "principle", name: "Attendance systems", statement: "Biometrics register students." }], steps: [{ reasoning: "Biometric scanners register attendance.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Recording attendance" },
         },
         {
           id: "olict-u1-pb-q7", difficulty: "foundation", totalMarks: 2,
@@ -371,7 +371,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Only vote online" },
             { id: "d", text: "Design products" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "E-government", statement: "Online public services." }], steps: [{ reasoning: "E-government = online services like taxes/licences.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Apply for licences and pay taxes online" },
+          markscheme: { principles: [{ kind: "definition", name: "E-government", statement: "Online public services." }], steps: [{ reasoning: "E-government = online services like taxes/licences.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Apply for licences and pay taxes online" },
         },
         {
           id: "olict-u1-pb-q12", difficulty: "core", totalMarks: 1,
@@ -402,8 +402,8 @@ export const lesson13: Lesson = {
             { id: "b", text: "Point of Sale system" },
             { id: "c", text: "Electronic patient records" },
             { id: "d", text: "Virtual learning environment" },
-          ], correctChoiceIb: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Public sector ICT", statement: "Health, education, government." }], steps: [{ reasoning: "POS is a retail/business system.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Point of Sale system" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "principle", name: "Public sector ICT", statement: "Health, education, government." }], steps: [{ reasoning: "POS is a retail/business system.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Point of Sale system" },
         },
         {
           id: "olict-u1-pb-q15", difficulty: "challenge", totalMarks: 4,

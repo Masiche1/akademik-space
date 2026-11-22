@@ -70,7 +70,7 @@ export const lesson52: Lesson = {
               { reasoning: "Consonant harmony sounds stable and pleasant; dissonant sounds tense.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Pleasant and stable",
+            finalAnswer: "**(c)** Pleasant and stable",
             commonErrors: [
               "Confusing consonant (stable) with dissonant (tense).",
             ],
@@ -243,7 +243,7 @@ export const lesson52: Lesson = {
               { reasoning: "Form concerns how sections relate through repetition and contrast.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Repetitions, contrasts and the organisation of sections",
+            finalAnswer: "**(a)** Repetitions, contrasts and the organisation of sections",
             commonErrors: [
               "Treating instrumentation or dynamics as the definition of form.",
             ],
@@ -272,7 +272,7 @@ export const lesson52: Lesson = {
               { reasoning: "Cadences signal arrival and are reliable markers of structural boundaries.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** A phrase or section ending",
+            finalAnswer: "**(c)** A phrase or section ending",
             commonErrors: [
               "Assuming every loud moment is a cadence.",
             ],
@@ -352,7 +352,7 @@ export const lesson52: Lesson = {
               { reasoning: "A driving rhythm propels the music forward and supports its energy.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Creates forward momentum and shapes the energy",
+            finalAnswer: "**(a)** Creates forward momentum and shapes the energy",
             commonErrors: [
               "Confusing rhythmic drive with tempo alone.",
             ],
@@ -381,7 +381,7 @@ export const lesson52: Lesson = {
               { reasoning: "A boundary is confirmed by several converging structural signals.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A new combination of sustained material, cadence and changed character",
+            finalAnswer: "**(c)** A new combination of sustained material, cadence and changed character",
             commonErrors: [
               "Using one isolated event as proof of a section boundary.",
             ],
@@ -400,7 +400,7 @@ export const lesson52: Lesson = {
               { id: "c", text: "Only written notation" },
               { id: "d", text: "Improvisation and interactive development" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -410,7 +410,7 @@ export const lesson52: Lesson = {
               { reasoning: "Jazz analysis should attend to improvisation, call-and-response and player interaction.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (c) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Improvisation and interactive development",
+            finalAnswer: "**(d)** Improvisation and interactive development",
             commonErrors: [
               "Applying classical formal expectations without considering genre conventions.",
             ],
@@ -534,7 +534,7 @@ export const lesson52: Lesson = {
               { reasoning: "Jazz is defined by improvisation and interactive playing between musicians.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Improvisation and interaction between players",
+            finalAnswer: "**(a)** Improvisation and interaction between players",
             commonErrors: [
               "Applying classical listening strategies to jazz's improvisatory nature.",
             ],
@@ -635,7 +635,7 @@ export const lesson52: Lesson = {
               { reasoning: "Classical analysis benefits from tracking form and instrumental organisation.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Form, orchestration and thematic development",
+            finalAnswer: "**(d)** Form, orchestration and thematic development",
             commonErrors: [
               "Using a pop-song checklist for orchestral repertoire.",
             ],
@@ -707,7 +707,7 @@ export const lesson52: Lesson = {
               { reasoning: "Comparison highlights what is typical of a style and what is distinctive to a work.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Identify similarities, differences and what they reveal about style",
+            finalAnswer: "**(c)** Identify similarities, differences and what they reveal about style",
             commonErrors: [
               "Comparing only preference rather than musical features.",
             ],
@@ -816,7 +816,7 @@ export const lesson52: Lesson = {
               { reasoning: "Call-and-response depends on interaction between players or phrases.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** One musical idea answered or developed by another player",
+            finalAnswer: "**(c)** One musical idea answered or developed by another player",
             commonErrors: [
               "Missing interactive exchanges because only the soloist is noticed.",
             ],
@@ -845,7 +845,7 @@ export const lesson52: Lesson = {
               { reasoning: "A broad checklist prevents premature assumptions when the genre is uncertain.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Use a broad element checklist before applying genre-specific questions",
+            finalAnswer: "**(a)** Use a broad element checklist before applying genre-specific questions",
             commonErrors: [
               "Letting an early guess about genre limit later observations.",
             ],
@@ -864,7 +864,7 @@ export const lesson52: Lesson = {
               { id: "c", text: "Saying one song is better simply because it is louder" },
               { id: "d", text: "Comparing harmony and dynamic shape" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -874,7 +874,7 @@ export const lesson52: Lesson = {
               { reasoning: "Loudness alone does not explain musical organisation or effect.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (d) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(d)** Saying one song is better simply because it is louder",
+            finalAnswer: "**(c)** Saying one song is better simply because it is louder",
             commonErrors: [
               "Mistaking a single surface feature for comparative analysis.",
             ],

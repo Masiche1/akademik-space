@@ -65,7 +65,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "$x: 3+2=5$; $y: 5+(-1)=4$ → $(5,4)$.", working: "(5,4)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(5, 4)$",
+            finalAnswer: "**(c)** $(5, 4)$",
             commonErrors: ["Choosing (c) — forgot the $-1$ vertical component."],
           },
         },
@@ -250,7 +250,7 @@ export const lesson71: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Combined translations", statement: "Add both vectors to the point." }],
             steps: [{ reasoning: "$(1+3-1, 2+0+4)=(3,6)$.", working: "(3,6)", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $(3, 6)$",
+            finalAnswer: "**(b)** $(3, 6)$",
             commonErrors: ["Applying only one of the two translations."],
           },
         },
@@ -557,7 +557,7 @@ export const lesson71: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "x-axis reflection", statement: "The horizontal coordinate is unchanged and the vertical coordinate is negated." }],
             steps: [{ reasoning: "Reflection in $y=0$ changes only the $y$-coordinate.", working: "y changes", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Only the $y$-coordinate",
+            finalAnswer: "**(d)** Only the $y$-coordinate",
             commonErrors: ["Confusing the x-axis with the y-axis."],
           },
         },
@@ -592,7 +592,7 @@ export const lesson71: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Combined reflections", statement: "Apply reflections in order: $(3,-2) \\to (3,2) \\to (-3,2)$." }],
             steps: [{ reasoning: "Both coordinates change sign after the two reflections.", working: "(-3,2)", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $(-3, 2)$",
+            finalAnswer: "**(d)** $(-3, 2)$",
             commonErrors: ["Applying the y-axis reflection before the x-axis reflection."],
           },
         },
@@ -644,7 +644,7 @@ export const lesson71: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Identify mirror line", statement: "Same $x$ and opposite $y$ values indicate reflection in the x-axis." }],
             steps: [{ reasoning: "$x$ is unchanged and $y$ changes sign, so the mirror line is $y=0$.", working: "x-axis", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** The x-axis",
+            finalAnswer: "**(d)** The x-axis",
             commonErrors: ["Choosing the y-axis because the point moved vertically."],
           },
         },
@@ -748,7 +748,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "$(-3, 2)$ — both coordinates negated.", working: "(-3,2)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(-3, 2)$",
+            finalAnswer: "**(b)** $(-3, 2)$",
             commonErrors: ["Choosing (b) — only one sign flipped."],
           },
         },
@@ -896,7 +896,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "$(y,-x) = (3,-2)$.", working: "(3,-2)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(3, -2)$",
+            finalAnswer: "**(d)** $(3, -2)$",
             commonErrors: ["Choosing (b) — that is the anticlockwise result $(-y,x)$."],
           },
         },
@@ -959,7 +959,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Multiply each coordinate by $-1$: $(1,-3) \\to (-1, 3)$.", working: "(-1,3)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(-1, 3)$",
+            finalAnswer: "**(c)** $(-1, 3)$",
             commonErrors: ["Choosing (d) — that swaps coordinates; scale factor multiplies each coordinate separately."],
           },
         },
@@ -976,7 +976,7 @@ export const lesson71: Lesson = {
               { id: "c", text: "$2$" },
               { id: "d", text: "$3$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -985,7 +985,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "$\\frac{8}{2}=4$ (and $\\frac{20}{5}=4$ confirms).", working: "8/2=4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $4$",
+            finalAnswer: "**(b)** $4$",
             commonErrors: ["Choosing (d) — $16$ is the product $4\\times4$, not the scale factor."],
           },
         },
@@ -1031,7 +1031,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Shape and angles are preserved; distances double and size changes.", working: "shape, angles", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Shape and angles",
+            finalAnswer: "**(d)** Shape and angles",
             commonErrors: ["Choosing (a) — an enlargement with $k \\neq 1$ changes size."],
           },
         },

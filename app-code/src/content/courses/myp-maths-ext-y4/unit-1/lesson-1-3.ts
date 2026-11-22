@@ -71,7 +71,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$|-9|=9$, $|4|=4$, sum = 13.", working: "9+4=13", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 13",
+            finalAnswer: "**(d)** 13",
             commonErrors: ["Keeping the negative sign."],
             examinerNote: "B1 for (a).",
           },
@@ -185,7 +185,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$|{-6}|=6$, $|3|=3$, so $6-3=3$.", working: "3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 3",
+            finalAnswer: "**(d)** 3",
             commonErrors: ["Computing $|{-6}|-|3|=|-9|$ incorrectly or keeping signs."],
             examinerNote: "B1 for (a).",
           },
@@ -642,7 +642,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$4.5\\times10^{-3}=0.0045$.", working: "0.0045", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 0.0045",
+            finalAnswer: "**(b)** 0.0045",
             commonErrors: ["Moving the decimal the wrong direction."],
             examinerNote: "B1 for (a).",
           },
@@ -914,7 +914,7 @@ export const lesson13: Lesson = {
               { reasoning: "$0.8<1$ violates $1\\le a<10$ (it equals $8\\times10^1$).", working: "8\\times10^1", marks: 1, markCode: "M" },
               { reasoning: "Select the invalid form.", working: "0.8\\times10^2", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $0.8\\times10^2$",
+            finalAnswer: "**(d)** $0.8\\times10^2$",
             commonErrors: ["Thinking any number times a power of 10 is standard form."],
             examinerNote: "M1 M1 A1.",
           },

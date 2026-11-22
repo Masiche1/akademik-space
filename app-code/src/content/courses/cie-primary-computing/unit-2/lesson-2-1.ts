@@ -315,7 +315,7 @@ export const lesson21: Lesson = {
               { reasoning: "10 + 5 × 2 = 10 + 10 = 20 (multiply first).", marks: 1, markCode: "M" },
               { reasoning: "(10 + 5) × 2 = 15 × 2 = 30 — brackets force addition first.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** 20 vs 30 — brackets change the order",
+            finalAnswer: "**(b)** 20 vs 30 — brackets change the order",
           },
         },
         {

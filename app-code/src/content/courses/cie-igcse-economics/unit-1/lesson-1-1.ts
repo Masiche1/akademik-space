@@ -261,7 +261,7 @@ export const lesson271: Lesson = {
             "steps": [
               { "reasoning": "The next best alternative to revising is watching the film; its benefit is foregone.", "marks": 1, "markCode": "M" }
             ],
-            "finalAnswer": "**(b)** The benefit of having watched the film"
+            "finalAnswer": "**(d)** The benefit of having watched the film"
           }
         },
         {
@@ -311,7 +311,7 @@ export const lesson271: Lesson = {
             "steps": [
               { "reasoning": "The book is the next best alternative to the game and is foregone.", "marks": 1, "markCode": "M" }
             ],
-            "finalAnswer": "**(b)** The book he could have bought"
+            "finalAnswer": "**(c)** The book he could have bought"
           }
         },
         {
@@ -336,7 +336,7 @@ export const lesson271: Lesson = {
             "steps": [
               { "reasoning": "The next best alternative to the hospital is the motorway; giving it up is the cost of the choice.", "marks": 1, "markCode": "M" }
             ],
-            "finalAnswer": "**(b)** The motorway that could have been built instead"
+            "finalAnswer": "**(a)** The motorway that could have been built instead"
           }
         },
         {
@@ -352,7 +352,7 @@ export const lesson271: Lesson = {
               { "id": "c", "text": "All wants are essential for survival" },
               { "id": "d", "text": "Opportunity cost applies only to wants" }
             ],
-            "aorrectChoiceId": "c"
+            "correctChoiceId": "a"
           },
           markscheme: {
             "principles": [
@@ -361,7 +361,7 @@ export const lesson271: Lesson = {
             "steps": [
               { "reasoning": "Because resources are scarce relative to unlimited wants, choices must be made.", "marks": 1, "markCode": "M" }
             ],
-            "finalAnswer": "**(c)** Scarcity means not all wants can be satisfied"
+            "finalAnswer": "**(a)** Scarcity means not all wants can be satisfied"
           }
         },
         {

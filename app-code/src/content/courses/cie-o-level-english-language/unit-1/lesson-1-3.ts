@@ -220,7 +220,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Job applications are formal correspondence.", working: "job application", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** A job application",
+            finalAnswer: "**(c)** A job application",
             commonErrors: ["Choosing (b) — that's informal."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "A review evaluates critically.", working: "review", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Review",
+            finalAnswer: "**(b)** Review",
             commonErrors: ["Choosing (b) — reports are factual, not evaluative."],
           },
         },
@@ -336,7 +336,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Memo = short internal note.", working: "internal", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** A brief internal communication",
+            finalAnswer: "**(c)** A brief internal communication",
             commonErrors: ["Thinking memos are formal external letters."],
           },
         },
@@ -421,7 +421,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "A principal is an official recipient.", working: "formal", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Formal",
+            finalAnswer: "**(b)** Formal",
             commonErrors: ["Choosing (b) — school staff are not friends."],
           },
         },
@@ -501,7 +501,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Compound = two independent clauses.", working: "two clauses", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Two independent clauses joined",
+            finalAnswer: "**(d)** Two independent clauses joined",
             commonErrors: ["Choosing (c) — that's complex."],
           },
         },
@@ -606,7 +606,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Simple = one clause.", working: "one clause", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** One independent clause",
+            finalAnswer: "**(d)** One independent clause",
             commonErrors: ["Choosing (b) — that's compound."],
           },
         },
@@ -656,7 +656,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Questions end with '?'.", working: "?", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Question mark",
+            finalAnswer: "**(c)** Question mark",
             commonErrors: ["Using a full stop — loses the question signal."],
           },
         },
@@ -726,7 +726,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "(a) joins two clauses with just a comma.", working: "comma only", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** I came, I saw.",
+            finalAnswer: "**(c)** I came, I saw.",
             commonErrors: ["Choosing (b) — 'and' makes it compound, which is correct."],
           },
         },
@@ -772,7 +772,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Singular 'teacher' + 's shows possession.", working: "teacher's", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The teacher's desk",
+            finalAnswer: "**(b)** The teacher's desk",
             commonErrors: ["Choosing (c) — missing apostrophe for singular possession."],
           },
         },
@@ -937,7 +937,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Read all questions first.", working: "read", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Read all questions",
+            finalAnswer: "**(d)** Read all questions",
             commonErrors: ["Starting immediately — no plan."],
           },
         },
@@ -1042,7 +1042,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Planning comes first — brainstorm and structure.", working: "plan", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Plan your answer",
+            finalAnswer: "**(c)** Plan your answer",
             commonErrors: ["Starting to write immediately — loses structure."],
           },
         },
@@ -1092,7 +1092,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Easy questions guarantee marks and build confidence.", working: "confidence", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** It builds confidence and secures marks",
+            finalAnswer: "**(d)** It builds confidence and secures marks",
             commonErrors: ["Choosing (b) — all questions count."],
           },
         },
@@ -1162,7 +1162,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Review time catches errors and improves marks.", working: "review", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Review and proofread your answers",
+            finalAnswer: "**(c)** Review and proofread your answers",
             commonErrors: ["Starting new work — leaves it unfinished."],
           },
         },

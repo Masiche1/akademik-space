@@ -61,7 +61,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Interference", statement: "Constructive: nλ; destructive: (n+½)λ." }],
             steps: [{ reasoning: "Direct.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** nλ",
+            finalAnswer: "**(d)** nλ",
           },
         },
         {

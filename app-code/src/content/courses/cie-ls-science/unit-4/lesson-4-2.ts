@@ -65,7 +65,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Reflex = automatic, fast, protective — not conscious.", working: "automatic", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Automatic rapid response to stimulus",
+            finalAnswer: "**(d)** Automatic rapid response to stimulus",
             commonErrors: ["Choosing (b) — reflexes are unconscious."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Sensory neuron", statement: "Sensory neurons carry impulses toward the CNS." }],
             steps: [{ reasoning: "Sensory neurons detect stimuli and transmit to CNS.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** To carry impulses from receptors to the CNS",
+            finalAnswer: "**(b)** To carry impulses from receptors to the CNS",
           },
         },
         {
@@ -261,7 +261,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Effector", statement: "An effector carries out the response." }],
             steps: [{ reasoning: "Muscles and glands are effectors.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** A muscle or gland that responds",
+            finalAnswer: "**(b)** A muscle or gland that responds",
           },
         },
         {
@@ -342,7 +342,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "CNS", statement: "The CNS comprises brain and spinal cord." }],
             steps: [{ reasoning: "Brain and spinal cord are the central nervous system.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Brain and spinal cord",
+            finalAnswer: "**(c)** Brain and spinal cord",
           },
         },
       ],
@@ -397,7 +397,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Standard fact: 206 bones.", working: "206", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 206",
+            finalAnswer: "**(b)** 206",
             commonErrors: ["Choosing other numbers — memorise 206."],
           },
         },
@@ -498,7 +498,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Ball-and-socket", statement: "Ball-and-socket joints allow rotation in many directions." }],
             steps: [{ reasoning: "Hip and shoulder are ball-and-socket joints.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Ball-and-socket joint",
+            finalAnswer: "**(d)** Ball-and-socket joint",
           },
         },
         {
@@ -545,7 +545,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Cartilage", statement: "Cartilage cushions joints and reduces friction." }],
             steps: [{ reasoning: "Cartilage covers bone ends at joints.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** To cushion and reduce friction",
+            finalAnswer: "**(b)** To cushion and reduce friction",
           },
         },
         {
@@ -626,7 +626,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Antagonistic muscles", statement: "Biceps contracts for elbow flexion." }],
             steps: [{ reasoning: "Biceps pulls the forearm upward.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Biceps",
+            finalAnswer: "**(c)** Biceps",
           },
         },
         {
@@ -674,7 +674,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Bone marrow", statement: "Bone marrow produces blood cells." }],
             steps: [{ reasoning: "Marrow is the site of blood cell production.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Blood cells",
+            finalAnswer: "**(c)** Blood cells",
           },
         },
       ],
@@ -729,7 +729,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Homeostasis = internal constancy.", working: "stable", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Maintaining stable internal conditions",
+            finalAnswer: "**(c)** Maintaining stable internal conditions",
             commonErrors: ["Choosing (c) — that's response to stimuli, related but not homeostasis."],
           },
         },
@@ -830,7 +830,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Temperature set point", statement: "Normal body temperature is about 37 °C." }],
             steps: [{ reasoning: "Homeostasis maintains approximately 37 °C.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** About 37 °C",
+            finalAnswer: "**(d)** About 37 °C",
           },
         },
         {
@@ -877,7 +877,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Negative feedback", statement: "Negative feedback opposes deviations from a set point." }],
             steps: [{ reasoning: "Responses act to reverse the change.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Negative feedback",
+            finalAnswer: "**(b)** Negative feedback",
           },
         },
         {

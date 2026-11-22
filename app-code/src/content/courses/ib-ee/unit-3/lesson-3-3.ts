@@ -114,7 +114,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** One 500-word statement and a viva voce",
+            finalAnswer: "**(c)** One 500-word statement and a viva voce",
             commonErrors: [
               "Outdated knowledge of the old RPPF with three reflections.",
             ],
@@ -379,7 +379,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** An oral discussion with your supervisor",
+            finalAnswer: "**(d)** An oral discussion with your supervisor",
             commonErrors: ["Confusing the viva with a formal examination."],
           },
         },
@@ -506,7 +506,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Explain why it changed and what you learned",
+            finalAnswer: "**(a)** Explain why it changed and what you learned",
             commonErrors: [
               "Hiding changes in direction that actually show growth.",
             ],
@@ -553,7 +553,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The RPF documents the learning process behind the essay",
+              "**(a)** The RPF documents the learning process behind the essay",
             commonErrors: ["Writing the RPF as an essay summary."],
           },
         },
@@ -1022,7 +1022,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Three" },
               { id: "d", text: "Two" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1046,7 +1046,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(d)** Five",
+            finalAnswer: "**(a)** Five",
             commonErrors: [
               "Outdated knowledge of the old four-criteria system.",
             ],
@@ -1252,7 +1252,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "4" },
               { id: "d", text: "6" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1275,7 +1275,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** 8",
+            finalAnswer: "**(b)** 8",
             commonErrors: ["Misremembering criterion mark allocations."],
           },
         },
@@ -1319,7 +1319,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Quality of reflection shown in the RPF and viva",
+              "**(d)** Quality of reflection shown in the RPF and viva",
             commonErrors: [
               "Thinking Criterion E assesses the essay text itself.",
             ],
@@ -1384,7 +1384,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "C — Analysis" },
               { id: "d", text: "E — Reflection" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1408,7 +1408,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** D — Discussion and evaluation",
+            finalAnswer: "**(b)** D — Discussion and evaluation",
             commonErrors: ["Assuming all criteria carry equal marks."],
           },
         },
@@ -1449,7 +1449,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Criterion A and, downstream, Criterion B",
+            finalAnswer: "**(c)** Criterion A and, downstream, Criterion B",
             commonErrors: [
               "Believing strong writing compensates for a weak question.",
             ],
@@ -1496,7 +1496,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Rigor of analysis and a coherent, sustained argument",
+              "**(d)** Rigor of analysis and a coherent, sustained argument",
             commonErrors: ["Confusing Criterion C with surface presentation."],
           },
         },

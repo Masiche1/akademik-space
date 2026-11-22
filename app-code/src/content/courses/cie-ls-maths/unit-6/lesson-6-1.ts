@@ -67,7 +67,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "$P = 9+4+9+4 = 26$ cm.", working: "9+4+9+4=26", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $26$ cm",
+            finalAnswer: "**(b)** $26$ cm",
             commonErrors: ["Choosing (b) $36$ — that's $4 \\times 9$, area-related confusion."],
           },
         },
@@ -172,7 +172,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "$P = 7+3+7+3 = 20$ cm.", working: "2\\times10=20", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $20$ cm",
+            finalAnswer: "**(b)** $20$ cm",
             commonErrors: ["Choosing (b) — that's $7\\times3$, the area."],
           },
         },
@@ -233,7 +233,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "$P = 4\\times5 = 20$ cm.", working: "4\\times5=20", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $20$ cm",
+            finalAnswer: "**(d)** $20$ cm",
             commonErrors: ["Choosing (c) $25$ — that's $5^2$, the area."],
           },
         },
@@ -295,7 +295,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Area is measured in square units: cm².", working: "cm^2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** cm²",
+            finalAnswer: "**(c)** cm²",
             commonErrors: ["Choosing (a) — that's a length/perimeter unit."],
           },
         },
@@ -339,7 +339,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "$A = 10\\times6 = 60$ cm² (perpendicular height only).", working: "10\\times6=60", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $60$ cm²",
+            finalAnswer: "**(c)** $60$ cm²",
             commonErrors: ["Choosing (a) $90$ — used slant side $9$ instead of height $6$."],
           },
         },
@@ -400,7 +400,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "$30\\div2 = 15$; $w = 15-9 = 6$ cm.", working: "w=6", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $6$ cm",
+            finalAnswer: "**(d)** $6$ cm",
             commonErrors: ["Choosing (d) — forgot to halve the perimeter first."],
           },
         },
@@ -582,7 +582,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "$V = 2\\times3\\times4 = 24$ cm³.", working: "24", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $24$ cm³",
+            finalAnswer: "**(c)** $24$ cm³",
             commonErrors: ["Choosing (b) — that's $2+3+4$, adding instead of multiplying."],
           },
         },
@@ -634,7 +634,7 @@ export const lesson61: Lesson = {
               { id: "c", text: "cm²" },
               { id: "d", text: "cm³" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -643,7 +643,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Volume is measured in cubic units: cm³.", working: "cm^3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** cm³",
+            finalAnswer: "**(d)** cm³",
             commonErrors: ["Choosing (b) — cm² is for area."],
           },
         },
@@ -705,7 +705,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Prism volume = cross-section area × length.", working: "A_{cs}\\times L", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Area of cross-section × length",
+            finalAnswer: "**(a)** Area of cross-section × length",
             commonErrors: ["Choosing (a) — perimeter gives no volume."],
           },
         },
@@ -749,7 +749,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "$SA = 6\\times3^2 = 54$ cm².", working: "54", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $54$ cm²",
+            finalAnswer: "**(a)** $54$ cm²",
             commonErrors: ["Choosing (a) $27$ — that's the volume $3^3$."],
           },
         },
@@ -810,7 +810,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "$V = \\frac{22}{7}\\times7^2\\times10 = \\frac{22}{7}\\times490 = 1540$ cm³.", working: "1540", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $1540$ cm³",
+            finalAnswer: "**(b)** $1540$ cm³",
             commonErrors: ["Choosing (b) — used $r$ not $r^2$."],
           },
         },

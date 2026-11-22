@@ -66,7 +66,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Double the circumference angle.", working: "2\\times35^\\circ=70^\\circ", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $70^\\circ$",
+            finalAnswer: "**(b)** $70^\\circ$",
             commonErrors: ["Halving instead of doubling."],
           },
         },
@@ -157,7 +157,7 @@ export const lesson43: Lesson = {
               { id: "c", text: "$70^\\circ$" },
               { id: "d", text: "$20^\\circ$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -166,7 +166,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Circumference angle $=\\frac{1}{2}\\times70^\\circ=35^\\circ$.", working: "35^\\circ", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** $35^\\circ$",
+            finalAnswer: "**(a)** $35^\\circ$",
             commonErrors: ["Doubling to get $140^\\circ$ — the centre angle is the larger one."],
           },
         },
@@ -192,7 +192,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Opposite angle $=180^\\circ-115^\\circ=65^\\circ$.", working: "65^\\circ", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $65^\\circ$",
+            finalAnswer: "**(d)** $65^\\circ$",
             commonErrors: ["Answering $115^\\circ$ — opposite angles are supplementary, not equal."],
           },
         },
@@ -218,7 +218,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "By the angle-at-centre theorem, the centre angle is double.", working: "\\text{centre}=2\\times\\text{circumference}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** The centre angle is twice the circumference angle",
+            finalAnswer: "**(a)** The centre angle is twice the circumference angle",
             commonErrors: ["Confusing this with angles in the same segment, which are equal."],
           },
         },
@@ -406,7 +406,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Both vertices lie on the same arc (major), so the angles are in the same segment — equal.", working: "\\text{equal}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** They are equal",
+            finalAnswer: "**(c)** They are equal",
             commonErrors: ["Answering 'sum to $180^\\circ$' — that applies to opposite angles of a cyclic quadrilateral, i.e. vertices on opposite arcs."],
           },
         },
@@ -432,7 +432,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "The vertex on the major arc intercepts the minor arc. Minor arc centre angle $=120^\\circ$, so the circumference angle $=\\frac{120^\\circ}{2}=60^\\circ$.", working: "60^\\circ", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $60^\\circ$",
+            finalAnswer: "**(c)** $60^\\circ$",
             commonErrors: ["Answering $120^\\circ$ — halving $240^\\circ$ is wrong because the inscribed angle intercepts the opposite (minor) arc."],
             examinerNote: "An angle at the circumference equals half the angle at the centre subtended by the same arc — here the vertex on the major arc intercepts the minor arc with centre angle $120^\\circ$.",
           },
@@ -491,7 +491,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "State the theorem.", working: "90^\\circ", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $90^\\circ$",
+            finalAnswer: "**(c)** $90^\\circ$",
             commonErrors: ["Assuming the tangent is parallel to the radius."],
           },
         },
@@ -588,7 +588,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "The tangent is perpendicular to the radius, so the angle is $90^\\circ$ regardless of circle size.", working: "90^\\circ", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $90^\\circ$",
+            finalAnswer: "**(d)** $90^\\circ$",
             commonErrors: ["Thinking the angle depends on where the tangent touches."],
           },
         },
@@ -614,7 +614,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "$PB=PA=7$ cm.", working: "PB=7\\text{ cm}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $7$ cm",
+            finalAnswer: "**(a)** $7$ cm",
             commonErrors: ["Doubling to get $14$ cm."],
           },
         },
@@ -640,7 +640,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "$PT=\\sqrt{17^2-8^2}=\\sqrt{289-64}=\\sqrt{225}=15$ cm.", working: "PT=15\\text{ cm}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $15$ cm",
+            finalAnswer: "**(d)** $15$ cm",
             commonErrors: ["Computing $17-8=9$ — distances require Pythagoras."],
           },
         },
@@ -827,7 +827,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "$PT=\\sqrt{13^2-5^2}=\\sqrt{144}=12$ cm.", working: "PT=12\\text{ cm}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $12$ cm",
+            finalAnswer: "**(a)** $12$ cm",
             commonErrors: ["Computing $13-5=8$ — use Pythagoras."],
           },
         },
@@ -853,7 +853,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Equating the two expressions for the area of triangle $OAP$: $AM=\\frac{6\\times8}{10}=4.8$ cm.", working: "AM=\\frac{48}{10}=4.8\\text{ cm}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $4.8$ cm",
+            finalAnswer: "**(c)** $4.8$ cm",
             commonErrors: ["Answering $9.6$ — that is the full chord $AB=2\\times AM$, not $AM$."],
           },
         },

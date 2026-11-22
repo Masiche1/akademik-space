@@ -139,7 +139,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The author argues for a ban. Cost and test scores are used as reasons and evidence.",
+              "**(d)** The author argues for a ban. Cost and test scores are used as reasons and evidence.",
             commonErrors: [
               "Choosing a reason or piece of evidence (price, test scores) instead of the claim.",
             ],
@@ -171,7 +171,7 @@ export const lesson23: Lesson = {
                 text: "'The newest models cost more than a thousand dollars'",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -199,7 +199,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** The cost of phones is about money, not about learning. The other statements link phones to distraction or scores.",
+              "**(d)** The cost of phones is about money, not about learning. The other statements link phones to distraction or scores.",
             commonErrors: [
               "Choosing (d) because the reading-score claim feels weak; it is at least about learning, so it is relevant even if not sufficient.",
             ],
@@ -457,7 +457,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Both texts accept this fact. Text B disputes (b) and (c), and (d) is not stated in either.",
+              "**(b)** Both texts accept this fact. Text B disputes (b) and (c), and (d) is not stated in either.",
             commonErrors: [
               "Choosing (b), which is Text A's interpretation and which Text B challenges.",
             ],
@@ -515,7 +515,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Text B accepts that wrecks fell but argues that the lighthouse may not deserve all the credit. It never denies the tower or calls for its destruction.",
+              "**(c)** Text B accepts that wrecks fell but argues that the lighthouse may not deserve all the credit. It never denies the tower or calls for its destruction.",
             commonErrors: [
               "Choosing (d); Text B says towns should preserve lighthouses as heritage.",
             ],

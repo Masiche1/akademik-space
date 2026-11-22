@@ -65,7 +65,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the ratio.", working: "\\text{3:1}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 3 tall : 1 short",
+            finalAnswer: "**(d)** 3 tall : 1 short",
             commonErrors: ["Choosing 1:1 — that's Tt × tt."],
           },
         },
@@ -160,7 +160,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Gametes T,t × t,t give Tt and tt equally.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 1 tall : 1 short",
+            finalAnswer: "**(d)** 1 tall : 1 short",
             commonErrors: ["Choosing 3:1 — that requires Tt × Tt."],
           },
         },
@@ -186,7 +186,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Combine T gamete with t gamete.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Tt",
+            finalAnswer: "**(c)** Tt",
             commonErrors: ["Choosing TT — the tt parent can only give t."],
           },
         },
@@ -212,7 +212,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The observable characteristic of an organism",
+            finalAnswer: "**(c)** The observable characteristic of an organism",
             commonErrors: ["Confusing phenotype with genotype."],
           },
         },
@@ -229,7 +229,7 @@ export const lesson92: Lesson = {
               { id: "c", text: "Homozygous dominant TT" },
               { id: "d", text: "Homozygous recessive tt" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -238,7 +238,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recessive alleles need two copies to show.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Homozygous recessive tt",
+            finalAnswer: "**(d)** Homozygous recessive tt",
             commonErrors: ["Choosing heterozygous — the dominant allele would mask the trait."],
           },
         },
@@ -264,7 +264,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the term.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A cross involving one gene/characteristic",
+            finalAnswer: "**(c)** A cross involving one gene/characteristic",
             commonErrors: ["Choosing two genes — that would be a dihybrid cross."],
           },
         },
@@ -402,7 +402,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Two of four boxes are Tt.", working: "2/4 = 1/2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 1/2",
+            finalAnswer: "**(a)** 1/2",
             commonErrors: ["Choosing 3/4 — that is the dominant phenotype, not heterozygotes."],
           },
         },
@@ -476,7 +476,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the combination.", working: "\\text{XY}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** XY",
+            finalAnswer: "**(c)** XY",
             commonErrors: ["Choosing XX — that's female."],
           },
         },
@@ -571,7 +571,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall female gamete content.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** X only",
+            finalAnswer: "**(d)** X only",
             commonErrors: ["Choosing X or Y — that describes sperm, not eggs."],
           },
         },
@@ -588,7 +588,7 @@ export const lesson92: Lesson = {
               { id: "c", text: "Y only" },
               { id: "d", text: "X only" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -597,7 +597,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall male gamete content.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** X or Y",
+            finalAnswer: "**(b)** X or Y",
             commonErrors: ["Choosing X only — that is the egg."],
           },
         },
@@ -623,7 +623,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Match genotype to sex.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** XX",
+            finalAnswer: "**(a)** XX",
             commonErrors: ["Choosing XY — that is male."],
           },
         },
@@ -640,7 +640,7 @@ export const lesson92: Lesson = {
               { id: "c", text: "0" },
               { id: "d", text: "1/4" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -649,7 +649,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Previous children do not change the probability.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** 1/2",
+            finalAnswer: "**(a)** 1/2",
             commonErrors: ["Choosing 0 — the 'balancing' idea is a fallacy."],
           },
         },
@@ -675,7 +675,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Identify the deciding gamete.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The father's sperm",
+            finalAnswer: "**(c)** The father's sperm",
             commonErrors: ["Choosing the egg — eggs always carry X."],
           },
         },
@@ -809,7 +809,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Every fertilisation would be XY.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** All male",
+            finalAnswer: "**(a)** All male",
             commonErrors: ["Thinking the mother can override the sperm's Y chromosome."],
           },
         },

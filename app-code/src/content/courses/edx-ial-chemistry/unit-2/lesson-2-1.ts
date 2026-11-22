@@ -60,7 +60,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Group 1 + water", statement: "Alkali metal → hydroxide + H₂." }],
             steps: [{ reasoning: "2Na + 2H₂O → 2NaOH + H₂.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** NaOH and H₂",
+            finalAnswer: "**(a)** NaOH and H₂",
           },
         },
         {
@@ -176,7 +176,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "pH", statement: "7 = neutral." }],
             steps: [{ reasoning: "Pure water pH 7.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 7",
+            finalAnswer: "**(d)** 7",
           },
         },
         {

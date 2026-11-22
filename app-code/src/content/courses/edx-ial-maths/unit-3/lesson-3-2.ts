@@ -64,7 +64,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$\\ln$ and $e^x$ are inverse functions.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3$",
+            finalAnswer: "**(d)** $3$",
             commonErrors: ["Treating $\\ln(e^3)$ as $3\\ln e$ then forgetting $\\ln e=1$."],
           },
         },
@@ -194,7 +194,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The binomial series converges only for $|x|<1$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $|x|<1$",
+            finalAnswer: "**(d)** $|x|<1$",
             commonErrors: ["Omitting the absolute value."],
           },
         },

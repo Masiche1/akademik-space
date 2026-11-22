@@ -202,7 +202,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'a girl climbs a mountain and finds a cave' is events — plot. The others are themes/messages.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A girl climbs a mountain and finds a cave",
+            finalAnswer: "**(d)** A girl climbs a mountain and finds a cave",
           },
         },
         {

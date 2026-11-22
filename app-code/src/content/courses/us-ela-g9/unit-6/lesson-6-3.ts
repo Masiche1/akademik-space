@@ -117,7 +117,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Tells instead of shows — no sensory detail or reflection.",
+              "**(a)**. Tells instead of shows — no sensory detail or reflection.",
             commonErrors: ["Thinking summary = narrative."],
           },
         },
@@ -342,7 +342,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Reveal character, advance plot, create tension.",
+              "**(a)**. Reveal character, advance plot, create tension.",
             commonErrors: ["Writing dialogue as information exchange."],
           },
         },
@@ -561,7 +561,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Perspective gap between past self and present narrator.",
+              "**(d)**. Perspective gap between past self and present narrator.",
             commonErrors: ["Thinking it's about physical distance."],
           },
         },

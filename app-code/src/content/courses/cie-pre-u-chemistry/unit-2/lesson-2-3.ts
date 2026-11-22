@@ -565,7 +565,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Fe³⁺" },
               { id: "d", text: "Zn²⁺" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

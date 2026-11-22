@@ -111,7 +111,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(c)**",
             commonErrors: [
               "Omitting the factor $\\frac1a$.",
               "Using $\\frac1{a^2}$.",
@@ -441,7 +441,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\arcsin\\frac x5+C$",
+            finalAnswer: "**(d)** $\\arcsin\\frac x5+C$",
             commonErrors: [
               "Multiplying the argument by $a$ instead of dividing.",
               "Adding a spurious factor $\\frac1a$.",
@@ -488,7 +488,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac16(x^4+1)^{3/2}+C$",
+            finalAnswer: "**(b)** $\\frac16(x^4+1)^{3/2}+C$",
             commonErrors: [
               "Forgetting the factor $\\frac14$ from $du=4x^3dx$.",
               "Integrating $u^{1/2}$ as $u^{-1/2}$.",
@@ -736,7 +736,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac\\pi4$",
+            finalAnswer: "**(d)** $\\frac\\pi4$",
             commonErrors: [
               "Evaluating $\\arctan0$ as $1$ instead of $0$.",
               "Forgetting to subtract the lower limit.",
@@ -1226,7 +1226,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(b)**",
             commonErrors: [
               "Sign error giving $(x+1)e^x$.",
               "Integrating each factor separately.",
@@ -1671,7 +1671,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\pi$",
+            finalAnswer: "**(c)** $\\pi$",
             commonErrors: [
               "Evaluating $-x\\cos x$ at $x=\\pi$ as $+\\pi$ then subtracting incorrectly.",
               "Forgetting the $+\\int\\cos x$ term (which vanishes anyway).",
@@ -1717,7 +1717,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac{\\pi}{2}-1$",
+            finalAnswer: "**(b)** $\\frac{\\pi}{2}-1$",
             commonErrors: [
               "Sign error on the lower limit $\\cos0=1$.",
               "Writing $\\frac\\pi2+1$.",
@@ -1811,7 +1811,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac{e^x}{2}(\\sin x-\\cos x)+C$",
+            finalAnswer: "**(b)** $\\frac{e^x}{2}(\\sin x-\\cos x)+C$",
             commonErrors: [
               "Sign error producing $\\sin x+\\cos x$.",
               "Forgetting to halve after solving the cyclic equation.",

@@ -61,7 +61,7 @@ export const lesson311: Lesson = {
               { id: "c", text: "Solid" },
               { id: "d", text: "All have fixed" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -72,7 +72,7 @@ export const lesson311: Lesson = {
               },
             ],
             steps: [{ reasoning: "Gas properties.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Gas",
+            finalAnswer: "**(a)** Gas",
             commonErrors: ["Wrong state."],
           },
         },
@@ -235,7 +235,7 @@ export const lesson311: Lesson = {
             steps: [
               { reasoning: "Identify irreversible.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Burning wood",
+            finalAnswer: "**(d)** Burning wood",
             commonErrors: ["Choosing reversible."],
           },
         },
@@ -266,7 +266,7 @@ export const lesson311: Lesson = {
               { reasoning: "Recall rule.", marks: 1, markCode: "M" },
               { reasoning: "Answer: irreversible.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** No, new substance forms",
+            finalAnswer: "**(a)** No, new substance forms",
             commonErrors: ["Thinking reversible."],
           },
         },

@@ -59,7 +59,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Planets", statement: "Inner four rocky." }],
             steps: [{ reasoning: "Recall.", working: "M,V,E,M", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Mercury, Venus, Earth, Mars",
+            finalAnswer: "**(c)** Mercury, Venus, Earth, Mars",
             commonErrors: ["Including gas giants."],
           },
         },
@@ -139,7 +139,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Planets", statement: "Jupiter is largest." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Jupiter}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Jupiter",
+            finalAnswer: "**(d)** Jupiter",
             commonErrors: ["Saturn is second largest."],
           },
         },
@@ -173,7 +173,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Asteroid belt", statement: "Between Mars and Jupiter." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Mars--Jupiter}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Between Mars and Jupiter",
+            finalAnswer: "**(d)** Between Mars and Jupiter",
             commonErrors: ["Thinking it lies between Earth and Mars."],
           },
         },
@@ -203,11 +203,11 @@ export const lessonp102: Lesson = {
             { id: "b", text: "Uranus" },
             { id: "c", text: "Saturn" },
             { id: "d", text: "Jupiter" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Ice giants", statement: "Uranus and Neptune." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Uranus}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Uranus",
+            finalAnswer: "**(b)** Uranus",
             commonErrors: ["Jupiter and Saturn are gas giants, not ice giants."],
           },
         },
@@ -260,7 +260,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Moon", statement: "Natural satellite of a planet." }],
             steps: [{ reasoning: "Recall.", working: "\\text{natural satellite}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A natural satellite orbiting a planet",
+            finalAnswer: "**(c)** A natural satellite orbiting a planet",
             commonErrors: ["Confusing moons with dwarf planets."],
           },
         },
@@ -377,7 +377,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Gravity", statement: "Gravity provides centripetal force." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gravity}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Gravity",
+            finalAnswer: "**(a)** Gravity",
             commonErrors: ["No friction in space."],
           },
         },
@@ -453,11 +453,11 @@ export const lessonp102: Lesson = {
             { id: "b", text: "free-fall speed" },
             { id: "c", text: "terminal velocity" },
             { id: "d", text: "orbital velocity" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Escape velocity", statement: "Minimum speed to leave gravitational field." }],
             steps: [{ reasoning: "Recall.", working: "v_{\\text{escape}}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** escape velocity",
+            finalAnswer: "**(a)** escape velocity",
             commonErrors: ["Confusing with orbital velocity, which keeps an object in orbit."],
           },
         },
@@ -492,7 +492,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Orbit", statement: "Forward velocity + gravity = circular path." }],
             steps: [{ reasoning: "Recall.", working: "v + F_g \\to \\text{orbit}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** forward motion and the pull of gravity",
+            finalAnswer: "**(d)** forward motion and the pull of gravity",
             commonErrors: ["Thinking orbits need engines thrusting continuously."],
           },
         },
@@ -541,11 +541,11 @@ export const lessonp102: Lesson = {
             { id: "b", text: "Weather forecasting" },
             { id: "c", text: "Generating electricity by burning coal" },
             { id: "d", text: "GPS navigation" },
-          ], correctChoiceIc: "d" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "property", name: "Satellites", statement: "Communications, GPS, weather, astronomy." }],
             steps: [{ reasoning: "Burning coal is not a satellite use.", working: "\\text{coal} \\to \\text{power station}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(d)** Generating electricity by burning coal",
+            finalAnswer: "**(c)** Generating electricity by burning coal",
             commonErrors: ["Choosing a legitimate satellite use."],
           },
         },
@@ -597,7 +597,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Orbit", statement: "Continuous free fall around Earth." }],
             steps: [{ reasoning: "The ISS is in orbit.", working: "\\text{ISS} \\to \\text{orbit}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The International Space Station",
+            finalAnswer: "**(d)** The International Space Station",
             commonErrors: ["Thinking any object moving fast is orbiting."],
           },
         },
@@ -615,7 +615,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Geostationary orbit", statement: "Period = 24 h, above equator." }],
             steps: [{ reasoning: "Recall.", working: "T = 24\\ \\text{h},\\ \\text{equator}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** orbits Earth once every 24 hours above the equator",
+            finalAnswer: "**(a)** orbits Earth once every 24 hours above the equator",
             commonErrors: ["Forgetting it must be above the equator."],
           },
         },
@@ -633,7 +633,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Orbit", statement: "Velocity + gravity = curved path, never reaching surface." }],
             steps: [{ reasoning: "Recall.", working: "v_{\\text{forward}} + F_g", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Its forward motion means gravity only curves its path into an orbit",
+            finalAnswer: "**(a)** Its forward motion means gravity only curves its path into an orbit",
             commonErrors: ["Claiming gravity is absent in orbit."],
           },
         },

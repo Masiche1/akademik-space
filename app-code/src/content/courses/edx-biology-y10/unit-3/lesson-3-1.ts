@@ -69,7 +69,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Muscle cells are animal cells, so partly broken-down glucose becomes lactic acid.", working: "\\text{glucose} \\rightarrow \\text{lactic acid}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Lactic acid",
+            finalAnswer: "**(c)** Lactic acid",
             commonErrors: ["Choosing ethanol, which is the product in yeast and plants.", "Choosing carbon dioxide and water, the products of aerobic respiration."],
             examinerNote: "B1 for lactic acid. Allow lactate.",
           },
@@ -204,7 +204,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "If carbon dioxide were not absorbed, it would replace the oxygen used and the volume would hardly change. Absorbing it means the fall in volume equals the oxygen used.", working: "\\text{absorbs CO}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(a)**",
             commonErrors: ["Choosing (a) or (c), confusing which gas is absorbed.", "Thinking the soda lime provides water for the seeds."],
             examinerNote: "B1 for (b).",
           },

@@ -158,7 +158,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{differential survival}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Best adapted individuals survive and reproduce more",
+            finalAnswer: "**(c)** Best adapted individuals survive and reproduce more",
             commonErrors: ["Choosing 'all individuals change' — individuals do not change; allele frequencies do."],
           },
         },
@@ -175,7 +175,7 @@ export const lesson101: Lesson = {
               { id: "c", text: "Crossing over during meiosis" },
               { id: "d", text: "Random fertilisation" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -184,7 +184,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Identify the non-genetic factor.", working: "\\text{environmental effect}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Temperature experienced during an organism's lifetime",
+            finalAnswer: "**(a)** Temperature experienced during an organism's lifetime",
             commonErrors: ["Choosing mutation — it IS a source of variation."],
           },
         },
@@ -210,7 +210,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Link environment to survival.", working: "\\text{camouflage} \\to \\text{survival}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Soot darkened trees, so dark moths were camouflaged and eaten less",
+            finalAnswer: "**(b)** Soot darkened trees, so dark moths were camouflaged and eaten less",
             commonErrors: ["Saying 'moths chose to be dark' — selection is passive."],
           },
         },
@@ -236,7 +236,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Recall the speciation mechanism.", working: "\\text{isolation} \\to \\text{new species}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A population is split by a barrier and the groups evolve separately until they cannot interbreed",
+            finalAnswer: "**(b)** A population is split by a barrier and the groups evolve separately until they cannot interbreed",
             commonErrors: ["Confusing speciation with extinction — speciation creates new species."],
           },
         },
@@ -262,7 +262,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Recall selection mechanism.", working: "\\text{survive} \\to \\text{reproduce} \\to \\text{allele spreads}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Resistant bacteria survive the antibiotic and pass the allele to their offspring",
+            finalAnswer: "**(d)** Resistant bacteria survive the antibiotic and pass the allele to their offspring",
             commonErrors: ["Choosing 'bacteria learn' — resistance arises by random mutation, not learning."],
           },
         },
@@ -472,7 +472,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Recall evidence type.", working: "\\text{fossils}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fossils showing change over time",
+            finalAnswer: "**(c)** Fossils showing change over time",
             commonErrors: ["Choosing 'individual adaptation' — that's not inherited."],
           },
         },
@@ -566,7 +566,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Recall where fossils form.", working: "\\text{sedimentary rock}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sedimentary rock layers",
+            finalAnswer: "**(c)** Sedimentary rock layers",
             commonErrors: ["Choosing igneous — it forms from cooled magma and destroys remains."],
           },
         },
@@ -592,7 +592,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Recall the evidence type.", working: "\\text{homologous structures}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Homologous structures such as similar limb bones",
+            finalAnswer: "**(d)** Homologous structures such as similar limb bones",
             commonErrors: ["Choosing 'same habitat' — that is not evidence of ancestry."],
           },
         },
@@ -618,7 +618,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Recall the pattern.", working: "\\text{similarity} \\propto \\text{relatedness}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Closely related species have more similar DNA sequences",
+            finalAnswer: "**(c)** Closely related species have more similar DNA sequences",
             commonErrors: ["Saying 'identical DNA' — related species share similar, not identical, sequences."],
           },
         },
@@ -644,7 +644,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Recall their significance.", working: "\\text{intermediate forms}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Show intermediate forms linking different groups of organisms",
+            finalAnswer: "**(d)** Show intermediate forms linking different groups of organisms",
             commonErrors: ["Confusing transitional fossils with index fossils."],
           },
         },
@@ -670,7 +670,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Link to evolution mechanism.", working: "\\text{same selection mechanism}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** It shows that selection can produce rapid, dramatic change in populations",
+            finalAnswer: "**(b)** It shows that selection can produce rapid, dramatic change in populations",
             commonErrors: ["Saying 'it's artificial so irrelevant' — it demonstrates selection works."],
           },
         },
@@ -696,7 +696,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Recall the pattern.", working: "\\text{nearest mainland}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Species on the nearest mainland",
+            finalAnswer: "**(b)** Species on the nearest mainland",
             commonErrors: ["Choosing 'same ocean' — distribution follows proximity, not environment."],
           },
         },

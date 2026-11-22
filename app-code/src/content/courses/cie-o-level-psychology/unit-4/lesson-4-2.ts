@@ -99,7 +99,7 @@ export const lesson42: Lesson = {
               { reasoning: "Attitude vs action.", marks: 1, markCode: "AO1" },
             ],
             finalAnswer:
-              "**(a)** Prejudice is attitude, discrimination is behaviour",
+              "**(d)** Prejudice is attitude, discrimination is behaviour",
             commonErrors: ["Using interchangeably."],
           },
         },
@@ -277,7 +277,7 @@ export const lesson42: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Overgeneralised belief about a group",
+            finalAnswer: "**(b)** Overgeneralised belief about a group",
             commonErrors: ["Confusing with discrimination."],
           },
         },
@@ -312,7 +312,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Frustrated people blame an out-group",
+              "**(d)** Frustrated people blame an out-group",
             commonErrors: ["Confusing with realistic conflict."],
           },
         },
@@ -346,7 +346,7 @@ export const lesson42: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Groups compete for limited resources",
+            finalAnswer: "**(d)** Groups compete for limited resources",
             commonErrors: ["Confusing with contact hypothesis."],
           },
         },
@@ -381,7 +381,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Observing and imitating prejudiced models",
+              "**(c)** Observing and imitating prejudiced models",
             commonErrors: ["Confusing with scapegoat theory."],
           },
         },
@@ -421,7 +421,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Worked together on superordinate goals",
+              "**(d)** Worked together on superordinate goals",
             commonErrors: ["Saying competition reduced hostility."],
           },
         },
@@ -768,7 +768,7 @@ export const lesson42: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Unanimous group agreement",
+            finalAnswer: "**(b)** Unanimous group agreement",
             commonErrors: ["Choosing dissenter."],
           },
         },
@@ -938,7 +938,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Increases then plateaus at ~3-4",
+              "**(d)** Increases then plateaus at ~3-4",
             commonErrors: ["Saying it keeps rising forever."],
           },
         },
@@ -973,7 +973,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Unanimity increases; dissenter reduces",
+              "**(d)** Unanimity increases; dissenter reduces",
             commonErrors: ["Ignoring the dissenter effect."],
           },
         },
@@ -1008,7 +1008,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Ambiguous tasks → more conformity",
+              "**(d)** Ambiguous tasks → more conformity",
             commonErrors: ["Reversing the effect."],
           },
         },
@@ -1043,7 +1043,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Authority present + uniform",
+              "**(d)** Authority present + uniform",
             commonErrors: ["Choosing factors that reduce obedience."],
           },
         },

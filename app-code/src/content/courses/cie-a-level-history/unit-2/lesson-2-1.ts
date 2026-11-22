@@ -241,7 +241,7 @@ export const lesson621: Lesson = {
             steps: [
               { reasoning: "Gandhi led mass campaigns based on peaceful resistance.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** Non-violent resistance and civil disobedience"
+            finalAnswer: "**(b)** Non-violent resistance and civil disobedience"
           }
         },
         {
@@ -285,7 +285,7 @@ export const lesson621: Lesson = {
             steps: [
               { reasoning: "Ghana's independence encouraged wider decolonisation in Africa.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** It was the first sub-Saharan African colony to gain independence"
+            finalAnswer: "**(d)** It was the first sub-Saharan African colony to gain independence"
           }
         },
         {
@@ -349,7 +349,7 @@ export const lesson621: Lesson = {
             steps: [
               { reasoning: "The conference asserted the political voice of non-aligned nations.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** To promote cooperation among newly independent Asian and African states"
+            finalAnswer: "**(c)** To promote cooperation among newly independent Asian and African states"
           }
         },
         {
@@ -413,7 +413,7 @@ export const lesson621: Lesson = {
             steps: [
               { reasoning: "Algeria won independence after a long war in 1962.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** 1962"
+            finalAnswer: "**(d)** 1962"
           }
         },
         {
@@ -457,7 +457,7 @@ export const lesson621: Lesson = {
             steps: [
               { reasoning: "Political independence could coexist with continuing dependence.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** Continued economic and political influence by former colonial powers after independence"
+            finalAnswer: "**(b)** Continued economic and political influence by former colonial powers after independence"
           }
         },
         {

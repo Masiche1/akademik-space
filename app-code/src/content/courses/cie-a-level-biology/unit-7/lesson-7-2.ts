@@ -629,7 +629,7 @@ export const lesson712: Lesson = {
               { id: "c", text: "Mutation" },
               { id: "d", text: "Natural selection" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Evolution", statement: "Only heritable changes affect allele frequencies." }],

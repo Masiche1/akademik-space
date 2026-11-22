@@ -159,7 +159,7 @@ export const lesson71: Lesson = {
             { id: "b", text: "$\\frac{3}{4}$" },
             { id: "c", text: "1" },
             { id: "d", text: "$\\frac{1}{4}$" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Complement", statement: "$1 - P(\\text{none})$." }],
             steps: [{ reasoning: "$P(TT) = \\frac{1}{4}$, so $P(\\text{at least one H}) = 1 - \\frac{1}{4} = \\frac{3}{4}$.", marks: 1, markCode: "A" }],
@@ -258,7 +258,7 @@ export const lesson71: Lesson = {
             { id: "b", text: "$\\frac{1}{2}$" },
             { id: "c", text: "0" },
             { id: "d", text: "1" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Probability", statement: "Certain event has probability 1." }],
             steps: [{ reasoning: "Every ball is red, so $P(\\text{red}) = 1$.", marks: 1, markCode: "A" }],

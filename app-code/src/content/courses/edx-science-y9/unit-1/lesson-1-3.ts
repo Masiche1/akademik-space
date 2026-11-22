@@ -68,7 +68,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Genes are sections of DNA, found on chromosomes, that carry the instructions for making proteins.", working: "\\text{a section of DNA that codes for a protein}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A section of DNA that codes for a protein",
+            finalAnswer: "**(d)** A section of DNA that codes for a protein",
             commonErrors: ["Confusing a gene with a chromosome. A chromosome contains many genes.", "Thinking genes are only found in gametes."],
             examinerNote: "B1 for (a).",
           },

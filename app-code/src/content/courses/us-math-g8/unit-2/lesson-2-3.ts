@@ -67,7 +67,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Set the expressions for $y$ equal: $2x+1=-x+7$, so $3x=6$ and $x=2$. Then $y=2(2)+1=5$.", working: "(2,5)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $(2,5)$",
+            finalAnswer: "**(c)** $(2,5)$",
             commonErrors: ["Reversing the coordinates and choosing $(5,2)$.", "Choosing $(1,3)$, which satisfies only the first equation."],
           },
         },

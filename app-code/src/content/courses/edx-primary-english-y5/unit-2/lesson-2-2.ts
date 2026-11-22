@@ -69,7 +69,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Bias = one-sided.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Being unfairly one-sided",
+            finalAnswer: "**(b)** Being unfairly one-sided",
             commonErrors: ["Wrong definition."],
           },
         },
@@ -230,7 +230,7 @@ export const lesson112: Lesson = {
               },
             ],
             steps: [{ reasoning: "Evidence needed.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Evidence and logic",
+            finalAnswer: "**(d)** Evidence and logic",
             commonErrors: ["Emotional appeal only."],
           },
         },

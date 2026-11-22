@@ -59,7 +59,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Precision", statement: "Repeatability." }],
             steps: [{ reasoning: "Recall.", working: "\\text{repeatability}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Repeated readings close together",
+            finalAnswer: "**(c)** Repeated readings close together",
             commonErrors: ["Confusing with accuracy."],
           },
         },
@@ -139,7 +139,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Accuracy", statement: "Closeness to true value." }],
             steps: [{ reasoning: "Recall.", working: "\\text{true value}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** the reading is close to the true value",
+            finalAnswer: "**(c)** the reading is close to the true value",
             commonErrors: ["Confusing with precision."],
           },
         },
@@ -175,7 +175,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Zero error", statement: "Non-zero reading at zero input." }],
             steps: [{ reasoning: "Recall.", working: "\\text{zero error}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** the instrument does not read zero when there is no input",
+            finalAnswer: "**(d)** the instrument does not read zero when there is no input",
             commonErrors: ["A systematic offset."],
           },
         },
@@ -193,7 +193,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Significant figures", statement: "Leading zeros don't count; trailing after decimal do → 2 sf." }],
             steps: [{ reasoning: "Recall.", working: "0.050 \\to 2\\ \\text{sf}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 2",
+            finalAnswer: "**(c)** 2",
             commonErrors: ["Counting the leading zero after the decimal point."],
           },
         },
@@ -211,7 +211,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Precision", statement: "Tightly clustered readings = high precision." }],
             steps: [{ reasoning: "Recall.", working: "\\text{clustered}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 2.51, 2.52, 2.50, 2.51, 2.52",
+            finalAnswer: "**(c)** 2.51, 2.52, 2.50, 2.51, 2.52",
             commonErrors: ["Precision = spread, not closeness to true value."],
           },
         },
@@ -382,7 +382,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Practical", statement: "Repeats improve reliability." }],
             steps: [{ reasoning: "Recall.", working: "\\text{precision/anomalies}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** To check precision and find anomalies",
+            finalAnswer: "**(d)** To check precision and find anomalies",
             commonErrors: ["Single reading insufficient."],
           },
         },
@@ -462,7 +462,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Variables", statement: "IV is deliberately changed." }],
             steps: [{ reasoning: "Recall.", working: "\\text{IV changed}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** the variable deliberately changed",
+            finalAnswer: "**(c)** the variable deliberately changed",
             commonErrors: ["DV is the measured one."],
           },
         },
@@ -480,7 +480,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Fair test", statement: "Only IV varies → valid comparison." }],
             steps: [{ reasoning: "Recall.", working: "\\text{fair test}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** ensure a fair test so only the IV affects the result",
+            finalAnswer: "**(a)** ensure a fair test so only the IV affects the result",
             commonErrors: ["Controls isolate the IV effect."],
           },
         },
@@ -516,7 +516,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Graphing", statement: "Gradient = physical quantity (e.g., 1/R, density)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gradient} = \\text{quantity}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** a physical quantity",
+            finalAnswer: "**(a)** a physical quantity",
             commonErrors: ["Gradient has physical meaning."],
           },
         },
@@ -534,7 +534,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Anomalies", statement: "Investigate before excluding." }],
             steps: [{ reasoning: "Recall.", working: "\\text{anomaly}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** checked and repeated; excluded only if justified",
+            finalAnswer: "**(c)** checked and repeated; excluded only if justified",
             commonErrors: ["Never silently delete data."],
           },
         },

@@ -115,7 +115,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** I-IV-V",
+            finalAnswer: "**(c)** I-IV-V",
             commonErrors: [
               "Confusing blues progression with jazz standard or pop progressions.",
             ],
@@ -332,7 +332,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Flattened third, fifth and seventh scale degrees",
+              "**(d)** Flattened third, fifth and seventh scale degrees",
             commonErrors: [
               "Confusing blue notes with chromatic passing notes in general.",
             ],
@@ -379,7 +379,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A lilting long-short pattern that bounces rather than marches",
+              "**(d)** A lilting long-short pattern that bounces rather than marches",
             commonErrors: [
               "Describing swing as merely fast tempo rather than a rhythmic feel.",
             ],
@@ -426,7 +426,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Small groups, faster tempos and complex harmonic language",
+              "**(c)** Small groups, faster tempos and complex harmonic language",
             commonErrors: [
               "Confusing bebop with big-band swing of the same era.",
             ],
@@ -473,7 +473,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Minor pentatonic with flattened third, fifth and seventh",
+              "**(d)** Minor pentatonic with flattened third, fifth and seventh",
             commonErrors: [
               "Confusing the blues scale with the plain major or minor pentatonic.",
             ],
@@ -1207,7 +1207,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "The 1920s" },
               { id: "d", text: "The 1980s" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1231,7 +1231,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** The 1950s",
+            finalAnswer: "**(b)** The 1950s",
             commonErrors: [
               "Placing rock and roll's emergence before rhythm and blues had developed.",
             ],
@@ -1317,7 +1317,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Gospel and rhythm and blues",
+            finalAnswer: "**(a)** Gospel and rhythm and blues",
             commonErrors: [
               "Confusing soul's gospel roots with purely secular rhythm and blues.",
             ],
@@ -1364,7 +1364,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Rhythmic groove, syncopation and emphasis on the 'one'",
+              "**(c)** Rhythmic groove, syncopation and emphasis on the 'one'",
             commonErrors: [
               "Confusing funk's rhythmic focus with soul's vocal focus.",
             ],
@@ -1411,7 +1411,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** The 1970s Bronx through DJing, rapping, breakdancing and graffiti",
+              "**(b)** The 1970s Bronx through DJing, rapping, breakdancing and graffiti",
             commonErrors: [
               "Reducing hip-hop to a music genre without its cultural context.",
             ],
@@ -1458,7 +1458,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** DIY rebellion against mainstream music and society",
+              "**(d)** DIY rebellion against mainstream music and society",
             commonErrors: [
               "Treating punk as merely a musical style without its anti-establishment ethos.",
             ],

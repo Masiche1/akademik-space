@@ -59,7 +59,7 @@ export const lesson53: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Inductive step", statement: "Prove $P(k)\\Rightarrow P(k+1)$." }],
             steps: [{ reasoning: "The step shows truth propagates from $k$ to $k+1$.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $P(k)\\Rightarrow P(k+1)$",
+            finalAnswer: "**(c)** $P(k)\\Rightarrow P(k+1)$",
           },
         },
         {

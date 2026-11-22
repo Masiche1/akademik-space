@@ -74,7 +74,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The egg travels along the oviduct, where it meets sperm and is fertilised.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Oviduct",
+            finalAnswer: "**(d)** Oviduct",
             commonErrors: ["Choosing the uterus, where the embryo implants and develops, not where fertilisation occurs.", "Choosing the ovary, where eggs are released from."],
             examinerNote: "B1 for oviduct. Allow 'fallopian tube'.",
           },
@@ -194,7 +194,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Day 7" },
               { id: "d", text: "Day 28" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -203,7 +203,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Ovulation happens around the middle of the cycle, about day 14.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Day 14",
+            finalAnswer: "**(b)** Day 14",
             commonErrors: ["Choosing day 1, when the period starts."],
             examinerNote: "B1 for choice (c).",
           },
@@ -230,7 +230,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Fertilisation is the fusion of the two nuclei; implantation and ovulation are different stages.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The fusion of the nucleus of a sperm with the nucleus of an egg",
+            finalAnswer: "**(c)** The fusion of the nucleus of a sperm with the nucleus of an egg",
             commonErrors: ["Confusing fertilisation with implantation."],
             examinerNote: "B1 for choice (b).",
           },
@@ -391,7 +391,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Oestrogen is the main female sex hormone of puberty; testosterone is the male one.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Oestrogen",
+            finalAnswer: "**(c)** Oestrogen",
             commonErrors: ["Choosing testosterone, the male hormone."],
             examinerNote: "B1 for choice (b).",
           },
@@ -409,7 +409,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "The ovary" },
               { id: "d", text: "The cervix" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -418,7 +418,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "After fertilisation in the oviduct, the embryo travels to the uterus and implants in its lining.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** The lining of the uterus",
+            finalAnswer: "**(b)** The lining of the uterus",
             commonErrors: ["Choosing the oviduct, where fertilisation happens."],
             examinerNote: "B1 for choice (c).",
           },
@@ -508,7 +508,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Only the throat infection is caused by bacteria, so only it can be treated by an antibiotic.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A throat infection caused by bacteria",
+            finalAnswer: "**(a)** A throat infection caused by bacteria",
             commonErrors: ["Choosing a viral infection because antibiotics are thought to cure all diseases."],
             examinerNote: "B1 for the bacterial infection.",
           },
@@ -612,7 +612,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Pathogens are disease-causing microorganisms; white cells and antibodies are part of the immune response.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A microorganism that causes disease",
+            finalAnswer: "**(a)** A microorganism that causes disease",
             commonErrors: ["Confusing a pathogen with an antibody or white blood cell."],
             examinerNote: "B1 for choice (b).",
           },
@@ -639,7 +639,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Memory cells 'remember' the pathogen and speed up the immune response on re-exposure.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** They stay in the blood so a second infection is fought faster",
+            finalAnswer: "**(c)** They stay in the blood so a second infection is fought faster",
             commonErrors: ["Thinking memory cells make antibiotics."],
             examinerNote: "B1 for choice (b).",
           },
@@ -828,7 +828,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Infectious diseases spread by droplets, contaminated food/water, contact and vectors; they are not inherited genetically.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Through the air in coughs and sneezes, contaminated food and water, and touch",
+            finalAnswer: "**(a)** Through the air in coughs and sneezes, contaminated food and water, and touch",
             commonErrors: ["Thinking infectious diseases are inherited."],
             examinerNote: "B1 for choice (b).",
           },
@@ -855,7 +855,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Herd immunity protects the whole community because the pathogen cannot spread when most people are immune.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** When most of a population is immune, the pathogen cannot spread easily and unvaccinated people are also protected",
+            finalAnswer: "**(a)** When most of a population is immune, the pathogen cannot spread easily and unvaccinated people are also protected",
             commonErrors: ["Thinking every person must be vaccinated."],
             examinerNote: "B1 for choice (b).",
           },

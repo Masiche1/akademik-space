@@ -151,7 +151,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): emotive = emotional words — (a).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Words that trigger emotion",
+            finalAnswer: "**(b)** Words that trigger emotion",
           },
         },
         {
@@ -195,7 +195,7 @@ export const lesson22: Lesson = {
               { reasoning: "Criterion A (Analysing): three parallel items — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): creates rhythm and memorability — easier to recall than two or four.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Using three parallel items for rhythm and memorability",
+            finalAnswer: "**(a)** Using three parallel items for rhythm and memorability",
           },
         },
         {
@@ -240,7 +240,7 @@ export const lesson22: Lesson = {
               { reasoning: "Criterion A (Analysing): (b) is rhetorical — used for emotional effect, not information.", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): others are genuine information-seeking questions.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'Do we really want our children to suffer?'",
+            finalAnswer: "**(a)** 'Do we really want our children to suffer?'",
           },
         },
         {
@@ -313,7 +313,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): direct address = 'you'/'we' — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Speaking directly to the reader — 'you', 'we', 'our'",
+            finalAnswer: "**(d)** Speaking directly to the reader — 'you', 'we', 'our'",
           },
         },
         {
@@ -357,7 +357,7 @@ export const lesson22: Lesson = {
               { reasoning: "Criterion A (Analysing): time pressure = urgency — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): makes reader feel they must act immediately.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Time pressure — 'act now', 'limited time', 'last chance'",
+            finalAnswer: "**(c)** Time pressure — 'act now', 'limited time', 'last chance'",
           },
         },
         {
@@ -453,12 +453,12 @@ export const lesson22: Lesson = {
               { id: "c", text: "may" },
               { id: "d", text: "must" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Modality", statement: "Modal verbs express certainty/obligation — 'must' is strongest obligation." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'must' = strongest obligation — (c).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** must",
+            finalAnswer: "**(d)** must",
           },
         },
         {
@@ -545,7 +545,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'might' = possibility — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** might",
+            finalAnswer: "**(c)** might",
           },
         },
         {
@@ -589,7 +589,7 @@ export const lesson22: Lesson = {
               { reasoning: "Criterion A (Analysing): modality = degree of certainty/force — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): 'must' strong, 'might' weak — spectrum of force.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** How certain or forceful the writer is, expressed through modal verbs",
+            finalAnswer: "**(a)** How certain or forceful the writer is, expressed through modal verbs",
           },
         },
         {
@@ -626,7 +626,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "will" },
               { id: "d", text: "could" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Modality spectrum", statement: "Must/will strong ←→ should ←→ could/might weak." }],
@@ -634,7 +634,7 @@ export const lesson22: Lesson = {
               { reasoning: "Criterion A (Analysing): 'could' = weakest — (c).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): expresses mere possibility, not obligation.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** could",
+            finalAnswer: "**(d)** could",
           },
         },
         {
@@ -743,7 +743,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "should" },
               { id: "d", text: "will" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Modality and context", statement: "Safety warnings need strong modality; 'might' is too weak." }],
@@ -751,7 +751,7 @@ export const lesson22: Lesson = {
               { reasoning: "Criterion A (Analysing): 'might' too weak for safety — (c).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): safety requires obligation ('must', 'should').", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** might",
+            finalAnswer: "**(a)** might",
           },
         },
         {

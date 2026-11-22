@@ -101,7 +101,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Sensory trigger", statement: "A smell or sound that moves a character to the past." }],
             steps: [{ reasoning: "The text states that the smell does it.", evidence: "The smell does it", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** The smell of the apples.",
+            finalAnswer: "**(c)** The smell of the apples.",
             commonErrors: ["Choosing the child (c), whose noise is the present distraction."],
           },
         },

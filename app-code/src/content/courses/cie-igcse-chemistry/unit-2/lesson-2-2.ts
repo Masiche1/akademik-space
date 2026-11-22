@@ -57,7 +57,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Ionic bond", statement: "Attraction between oppositely charged ions." }],
             steps: [{ reasoning: "Recall.", working: "\\text{ion-ion attraction}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Electrostatic attraction between ions",
+            finalAnswer: "**(d)** Electrostatic attraction between ions",
             commonErrors: ["Confusing with covalent (shared electrons)."],
           },
         },
@@ -137,7 +137,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Ion charge", statement: "Losing two electrons gives charge $+2$." }],
             steps: [{ reasoning: "Each electron lost adds $+1$ to the charge.", working: "0 - 2(-1) = +2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $\\text{Mg}^{2+}$",
+            finalAnswer: "**(d)** $\\text{Mg}^{2+}$",
             commonErrors: ["Writing $\\text{Mg}^+$ after losing two electrons."],
           },
         },
@@ -186,11 +186,11 @@ export const lesson122: Lesson = {
             { id: "b", text: "Sodium chloride" },
             { id: "c", text: "$\\text{CH}_4$" },
             { id: "d", text: "$\\text{H}_2\\text{O}$" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "comparison", name: "Bonding type", statement: "Metal plus non-metal gives ionic bonding." }],
             steps: [{ reasoning: "NaCl is formed from a metal and a non-metal.", working: "\\text{Na} + \\text{Cl} \\to \\text{ionic}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Sodium chloride",
+            finalAnswer: "**(b)** Sodium chloride",
             commonErrors: ["Choosing a molecular compound containing only non-metals."],
           },
         },
@@ -244,7 +244,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ionic conduction", statement: "Ions must be free to move to carry charge." }],
             steps: [{ reasoning: "Molten or aqueous ions are mobile.", working: "\\text{mobile ions} \\to \\text{conduction}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Only when molten or dissolved",
+            finalAnswer: "**(c)** Only when molten or dissolved",
             commonErrors: ["Thinking solid ionic crystals conduct because they contain ions."],
           },
         },
@@ -298,7 +298,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Anion", statement: "An ion with a negative charge." }],
             steps: [{ reasoning: "Anions are formed when atoms gain electrons.", working: "\\text{gain } e^- \\to \\text{anion}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A negative ion",
+            finalAnswer: "**(c)** A negative ion",
             commonErrors: ["Confusing anion with cation."],
           },
         },
@@ -380,7 +380,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Covalent bond", statement: "Shared pair of electrons." }],
             steps: [{ reasoning: "Recall.", working: "\\text{shared pair}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Shared electron pair",
+            finalAnswer: "**(a)** Shared electron pair",
             commonErrors: ["Confusing with ionic (electron transfer)."],
           },
         },
@@ -456,11 +456,11 @@ export const lesson122: Lesson = {
             { id: "b", text: "$\\text{H}_2$" },
             { id: "c", text: "$\\text{Cl}_2$" },
             { id: "d", text: "$\\text{CO}_2$" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Double bond", statement: "Two shared electron pairs between the same atoms." }],
             steps: [{ reasoning: "In $\\text{CO}_2$, each C=O bond is double.", working: "C=O \\text{ double bond}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** $\\text{CO}_2$",
+            finalAnswer: "**(d)** $\\text{CO}_2$",
             commonErrors: ["Choosing water; its O-H bonds are single."],
           },
         },
@@ -513,7 +513,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [{ kind: "comparison", name: "Structure type", statement: "Simple molecular substances contain small covalent molecules." }],
             steps: [{ reasoning: "$\\text{CO}_2$ consists of separate molecules.", working: "\\text{CO}_2 \\text{ molecules}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $\\text{CO}_2$",
+            finalAnswer: "**(d)** $\\text{CO}_2$",
             commonErrors: ["Choosing diamond, which is a giant covalent structure."],
           },
         },
@@ -567,7 +567,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Molecular substances", statement: "Weak intermolecular forces give low melting points." }],
             steps: [{ reasoning: "Only weak forces between molecules must be overcome.", working: "\\text{weak IMF} \\to \\text{low mp}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** They have low melting points",
+            finalAnswer: "**(c)** They have low melting points",
             commonErrors: ["Attributing metallic conduction to covalent molecules."],
           },
         },
@@ -621,7 +621,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Carbon dioxide bonding", statement: "Carbon forms two double bonds, one to each oxygen." }],
             steps: [{ reasoning: "Structure is O=C=O with two bonding regions.", working: "O=C=O", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $2$ bonding pairs",
+            finalAnswer: "**(a)** $2$ bonding pairs",
             commonErrors: ["Counting four bonding pairs by treating each line of the double bond separately."],
           },
         },

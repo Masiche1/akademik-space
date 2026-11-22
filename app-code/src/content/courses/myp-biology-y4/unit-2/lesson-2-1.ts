@@ -71,7 +71,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Small intestine is the main site of absorption via villi.", working: "\\text{small intestine}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Small intestine",
+            finalAnswer: "**(c)** Small intestine",
             commonErrors: ["Thinking stomach absorbs nutrients."],
             examinerNote: "B1 for (a).",
           },
@@ -481,7 +481,7 @@ export const lesson21: Lesson = {
               { reasoning: "Larger surface area → lipase works faster.", working: "\\text{surface area}", marks: 1, markCode: "M" },
               { reasoning: "State the role.", working: "\\text{(a)}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Emulsifies fats for lipase",
+            finalAnswer: "**(b)** Emulsifies fats for lipase",
             commonErrors: ["Calling bile an enzyme or saying it digests fat chemically."],
             examinerNote: "M1 M1 A1.",
           },
@@ -540,7 +540,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Left ventricle must generate high pressure for systemic circulation.", working: "\\text{left ventricle}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Left ventricle",
+            finalAnswer: "**(b)** Left ventricle",
             commonErrors: ["Choosing right ventricle."],
             examinerNote: "B1 for (a).",
           },
@@ -646,7 +646,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Lacteal" },
               { id: "d", text: "Vein" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -655,7 +655,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Arteries = away from heart.", working: "\\text{artery}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Artery",
+            finalAnswer: "**(b)** Artery",
             commonErrors: ["Confusing with veins."],
             examinerNote: "B1 for (c).",
           },

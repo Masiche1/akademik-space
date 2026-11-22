@@ -41,7 +41,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Tasks done without human intervention" },
             { id: "d", text: "Slow processing" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Automation", statement: "No human needed." }], steps: [{ reasoning: "Automation = automatic.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Without human intervention" },
+          markscheme: { principles: [{ kind: "definition", name: "Automation", statement: "No human needed." }], steps: [{ reasoning: "Automation = automatic.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Without human intervention" },
         },
         {
           id: "olict-u6-bn-q2", difficulty: "core", totalMarks: 2,
@@ -96,7 +96,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Learning only in classrooms" },
             { id: "d", text: "A type of virus" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "E-learning", statement: "Online learning." }], steps: [{ reasoning: "E-learning uses electronic resources.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Electronic/online learning" },
+          markscheme: { principles: [{ kind: "definition", name: "E-learning", statement: "Online learning." }], steps: [{ reasoning: "E-learning uses electronic resources.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Electronic/online learning" },
         },
         {
           id: "olict-u6-bn-q6", difficulty: "core", totalMarks: 2,
@@ -116,7 +116,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Healthcare delivered remotely using ICT" },
             { id: "d", text: "Online shopping" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Telemedicine", statement: "Remote healthcare." }], steps: [{ reasoning: "Telemedicine = remote healthcare.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Remote healthcare" },
+          markscheme: { principles: [{ kind: "definition", name: "Telemedicine", statement: "Remote healthcare." }], steps: [{ reasoning: "Telemedicine = remote healthcare.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Remote healthcare" },
         },
         {
           id: "olict-u6-bn-q8", difficulty: "core", totalMarks: 1,
@@ -158,7 +158,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "The amount of work done in a given time" },
             { id: "d", text: "The number of cables" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Productivity", statement: "Work per time." }], steps: [{ reasoning: "Productivity = output over time.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Work done in a given time" },
+          markscheme: { principles: [{ kind: "definition", name: "Productivity", statement: "Work per time." }], steps: [{ reasoning: "Productivity = output over time.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Work done in a given time" },
         },
         {
           id: "olict-u6-bn-q12", difficulty: "core", totalMarks: 2,
@@ -189,7 +189,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Local file storage" },
             { id: "d", text: "Increased worldwide interconnectedness" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Globalisation", statement: "Worldwide connection." }], steps: [{ reasoning: "ICT links the world.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Worldwide interconnectedness" },
+          markscheme: { principles: [{ kind: "definition", name: "Globalisation", statement: "Worldwide connection." }], steps: [{ reasoning: "ICT links the world.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Worldwide interconnectedness" },
         },
         {
           id: "olict-u6-bn-q15", difficulty: "core", totalMarks: 2,
@@ -239,7 +239,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Gap between those with and without ICT access" },
             { id: "d", text: "A type of network" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Digital divide", statement: "Access gap." }], steps: [{ reasoning: "Divide = access gap.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Access gap" },
+          markscheme: { principles: [{ kind: "definition", name: "Digital divide", statement: "Access gap." }], steps: [{ reasoning: "Divide = access gap.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Access gap" },
         },
         {
           id: "olict-u6-db-q2", difficulty: "core", totalMarks: 2,
@@ -325,7 +325,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Back, neck and eye strain" },
             { id: "d", text: "Better posture" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Health drawbacks", statement: "Strain and posture." }], steps: [{ reasoning: "Poor setup causes strain.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Back, neck and eye strain" },
+          markscheme: { principles: [{ kind: "principle", name: "Health drawbacks", statement: "Strain and posture." }], steps: [{ reasoning: "Poor setup causes strain.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Back, neck and eye strain" },
         },
         {
           id: "olict-u6-db-q9", difficulty: "core", totalMarks: 2,
@@ -356,7 +356,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "It saves money always" },
             { id: "d", text: "Systems fail or crash and work stops" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Dependence", statement: "Fails when systems fail." }], steps: [{ reasoning: "Over-reliance fails on outages.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Systems fail and work stops" },
+          markscheme: { principles: [{ kind: "principle", name: "Dependence", statement: "Fails when systems fail." }], steps: [{ reasoning: "Over-reliance fails on outages.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Systems fail and work stops" },
         },
         {
           id: "olict-u6-db-q12", difficulty: "core", totalMarks: 2,
@@ -387,7 +387,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "False information is shared without verification" },
             { id: "d", text: "All online information is checked" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Misinformation", statement: "Unverified sharing." }], steps: [{ reasoning: "Unverified content spreads fast.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Shared without verification" },
+          markscheme: { principles: [{ kind: "principle", name: "Misinformation", statement: "Unverified sharing." }], steps: [{ reasoning: "Unverified content spreads fast.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Shared without verification" },
         },
         {
           id: "olict-u6-db-q15", difficulty: "core", totalMarks: 2,

@@ -64,7 +64,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Metaphor vs simile", statement: "Metaphor = direct; simile = like/as comparison." }],
             steps: [{ reasoning: "Criterion D (Using language): metaphor direct, simile uses like/as — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** Metaphor states directly; simile uses 'like' or 'as'",
+            finalAnswer: "**(c)** Metaphor states directly; simile uses 'like' or 'as'",
           },
         },
         {
@@ -149,7 +149,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Personification", statement: "Human qualities given to non-human things." }],
             steps: [{ reasoning: "Criterion D (Using language): personification = human qualities to non-human — (a).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(a)** Giving human qualities to non-human things",
+            finalAnswer: "**(b)** Giving human qualities to non-human things",
           },
         },
         {
@@ -195,7 +195,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Hyperbole", statement: "Exaggeration for emphasis." }],
             steps: [{ reasoning: "Criterion D (Using language): 'a million times' = exaggeration — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** Hyperbole — 'a million times' exaggerates for emphasis",
+            finalAnswer: "**(a)** Hyperbole — 'a million times' exaggerates for emphasis",
           },
         },
         {
@@ -247,7 +247,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Syntax and pace", statement: "Short sentences create urgency." }],
             steps: [{ reasoning: "Criterion D (Using language): 'flew', 'ran' + short sentences = urgency — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** Urgency and momentum — short sentences accelerate pace",
+            finalAnswer: "**(d)** Urgency and momentum — short sentences accelerate pace",
           },
         },
         {
@@ -309,7 +309,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Parallelism", statement: "Similar grammatical structure for rhythm/emphasis." }],
             steps: [{ reasoning: "Criterion D (Using language): parallelism = parallel grammatical structure — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** Using similar grammatical structure for rhythm and emphasis",
+            finalAnswer: "**(a)** Using similar grammatical structure for rhythm and emphasis",
           },
         },
         {
@@ -373,7 +373,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Precise diction", statement: "Near-synonyms carry different connotations." }],
             steps: [{ reasoning: "Criterion D (Using language): each verb implies a different manner — precise diction — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** Different gaits — 'strolled' relaxed, 'strode' confident, 'ambled' aimless",
+            finalAnswer: "**(a)** Different gaits — 'strolled' relaxed, 'strode' confident, 'ambled' aimless",
           },
         },
         {
@@ -447,7 +447,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Voice vs tone", statement: "Voice = style; tone = attitude." }],
             steps: [{ reasoning: "Criterion D (Using language): voice = style, tone = attitude — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** Voice = style/who you are; tone = attitude toward subject",
+            finalAnswer: "**(c)** Voice = style/who you are; tone = attitude toward subject",
           },
         },
         {
@@ -533,7 +533,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Voice vs tone", statement: "Voice = style; tone = attitude." }],
             steps: [{ reasoning: "Criterion D (Using language): voice = style, tone = attitude — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** Voice = the writer's style/identity; tone = attitude toward the subject",
+            finalAnswer: "**(d)** Voice = the writer's style/identity; tone = attitude toward the subject",
           },
         },
         {
@@ -574,7 +574,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Genre conventions", statement: "Journalism requires neutral, objective voice." }],
             steps: [{ reasoning: "Criterion C (Producing text): news report = clear/neutral/objective — (b).", marks: 1, markCode: "C" }],
-            finalAnswer: "**(b)** Clear, neutral and objective",
+            finalAnswer: "**(a)** Clear, neutral and objective",
           },
         },
         {
@@ -621,7 +621,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Voice and tone", statement: "Consistent style can carry varying attitudes." }],
             steps: [{ reasoning: "Criterion A (Analysing): consistent voice + varying tone = same style, different attitude — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Style is consistent, but attitude toward the subject changes",
+            finalAnswer: "**(a)** Style is consistent, but attitude toward the subject changes",
           },
         },
         {
@@ -683,7 +683,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Consistent voice", statement: "Same style/register/tone throughout." }],
             steps: [{ reasoning: "Criterion D (Using language): consistent voice = maintained style — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** Maintaining the same style, register and tone throughout a text",
+            finalAnswer: "**(a)** Maintaining the same style, register and tone throughout a text",
           },
         },
         {
@@ -753,7 +753,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Genre-appropriate voice", statement: "Academic writing requires formal register." }],
             steps: [{ reasoning: "Criterion A (Analysing): slang in academic context = register mismatch — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Inappropriate register — casual slang undermines academic credibility",
+            finalAnswer: "**(c)** Inappropriate register — casual slang undermines academic credibility",
           },
         },
         {

@@ -118,7 +118,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $E_k = \\frac{1}{2}I\\omega^2$",
+            finalAnswer: "**(c)** $E_k = \\frac{1}{2}I\\omega^2$",
             commonErrors: [
               "Using $I\\omega$ (that's angular momentum, not energy).",
             ],
@@ -365,7 +365,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$mv^2 + I\\omega^2$" },
               { id: "d", text: "$\\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -389,7 +389,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** sum of translational and rotational KE",
+            finalAnswer: "**(d)** sum of translational and rotational KE",
             commonErrors: [
               "Counting only translational KE — rotation contributes too.",
             ],
@@ -409,7 +409,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "hoop ($I = MR^2$)" },
               { id: "d", text: "solid sphere ($I = \\frac{2}{5}MR^2$)" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -434,7 +434,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** solid sphere",
+            finalAnswer: "**(d)** solid sphere",
             commonErrors: [
               "Thinking heavier rotation helps — more rotational inertia means slower rolling.",
             ],
@@ -477,7 +477,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\omega = v/r$",
+            finalAnswer: "**(c)** $\\omega = v/r$",
             commonErrors: [
               "Multiplying instead of dividing — larger radius means smaller $\\omega$ for the same $v$.",
             ],
@@ -1352,7 +1352,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** up the slope, providing torque",
+            finalAnswer: "**(c)** up the slope, providing torque",
             commonErrors: [
               "Thinking friction always opposes motion down the slope — here it acts UP the slope.",
             ],
@@ -1397,7 +1397,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** wheel A",
+            finalAnswer: "**(d)** wheel A",
             commonErrors: [
               "Thinking larger wheels spin faster — for the same $v$ they spin slower.",
             ],

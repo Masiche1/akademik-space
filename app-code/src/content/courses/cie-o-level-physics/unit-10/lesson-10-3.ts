@@ -59,7 +59,7 @@ export const lessonp103: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Stars", statement: "Fusion powers stars." }],
             steps: [{ reasoning: "Recall.", working: "\\text{fusion}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Fusion",
+            finalAnswer: "**(c)** Fusion",
             commonErrors: ["Not fission."],
           },
         },
@@ -157,7 +157,7 @@ export const lessonp103: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Stellar evolution", statement: "Hydrogen exhausted → leaves main sequence." }],
             steps: [{ reasoning: "Recall.", working: "\\text{H depleted}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** its hydrogen fuel is depleted",
+            finalAnswer: "**(a)** its hydrogen fuel is depleted",
             commonErrors: ["Leaving main sequence is about fuel, not distance."],
           },
         },
@@ -171,11 +171,11 @@ export const lessonp103: Lesson = {
             { id: "b", text: "a black hole" },
             { id: "c", text: "a neutron star" },
             { id: "d", text: "a red supergiant" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Stellar evolution", statement: "Low-mass star → red giant → white dwarf." }],
             steps: [{ reasoning: "Recall.", working: "\\text{white dwarf}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** a white dwarf",
+            finalAnswer: "**(a)** a white dwarf",
             commonErrors: ["Sun-mass stars are low mass — not supernovae."],
           },
         },
@@ -211,7 +211,7 @@ export const lessonp103: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Stellar properties", statement: "Red = cool, blue = hot." }],
             steps: [{ reasoning: "Recall.", working: "\\text{red=cool, blue=hot}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** surface temperature",
+            finalAnswer: "**(c)** surface temperature",
             commonErrors: ["Colour-temperature link is key."],
           },
         },
@@ -384,7 +384,7 @@ export const lessonp103: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Galaxy", statement: "Milky Way." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Milky Way}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Milky Way",
+            finalAnswer: "**(c)** Milky Way",
             commonErrors: ["Andromeda is separate galaxy."],
           },
         },
@@ -464,7 +464,7 @@ export const lessonp103: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Galaxy", statement: "Vast gravitationally bound collection of stars, gas, dust." }],
             steps: [{ reasoning: "Recall.", working: "\\text{stars+gas+dust}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** a huge group of stars, gas and dust held together by gravity",
+            finalAnswer: "**(c)** a huge group of stars, gas and dust held together by gravity",
             commonErrors: ["Nebula is a star-forming cloud, not a galaxy."],
           },
         },
@@ -482,7 +482,7 @@ export const lessonp103: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Galaxy types", statement: "Spiral, elliptical, irregular." }],
             steps: [{ reasoning: "Recall.", working: "\\text{spiral, elliptical, irregular}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** spiral, elliptical and irregular",
+            finalAnswer: "**(a)** spiral, elliptical and irregular",
             commonErrors: ["Types describe shape, not colour."],
           },
         },
@@ -500,7 +500,7 @@ export const lessonp103: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Redshift", statement: "Light stretched to longer wavelengths = recession." }],
             steps: [{ reasoning: "Recall.", working: "\\text{redshift} \\to \\text{recession}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** the universe is expanding and galaxies are moving away",
+            finalAnswer: "**(c)** the universe is expanding and galaxies are moving away",
             commonErrors: ["Redshift means moving away, not towards."],
           },
         },
@@ -536,7 +536,7 @@ export const lessonp103: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Expansion evidence", statement: "Redshift + cosmic microwave background." }],
             steps: [{ reasoning: "Recall.", working: "\\text{redshift + CMB}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** redshift of distant galaxies and the cosmic microwave background",
+            finalAnswer: "**(c)** redshift of distant galaxies and the cosmic microwave background",
             commonErrors: ["Only one piece of evidence is not enough."],
           },
         },

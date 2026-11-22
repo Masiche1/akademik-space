@@ -65,7 +65,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Revision addresses content/structure/clarity; proofreading addresses mechanics.", working: "\\text{content vs mechanics}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Revision improves content and structure; proofreading checks for errors",
+            finalAnswer: "**(a)** Revision improves content and structure; proofreading checks for errors",
             commonErrors: ["Choosing (a) — they are distinct stages."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson73: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Writing process", statement: "Plan → draft → revise → proofread → final check." }],
             steps: [{ reasoning: "Planning (purpose, audience, key points) precedes drafting.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Plan",
+            finalAnswer: "**(a)** Plan",
             commonErrors: ["Choosing (c) — drafting before planning produces unfocused text."],
           },
         },
@@ -217,7 +217,7 @@ export const lesson73: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Revision vs proofreading", statement: "Revision = big-picture improvements; proofreading = surface errors." }],
             steps: [{ reasoning: "Restructuring affects content and organisation — revision, not error-checking.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Restructuring paragraphs for better flow",
+            finalAnswer: "**(a)** Restructuring paragraphs for better flow",
             commonErrors: ["Choosing (a) or (c) — spelling and punctuation are proofreading."],
           },
         },
@@ -270,7 +270,7 @@ export const lesson73: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Combining sentences", statement: "Merge choppy sentences sharing a subject." }],
             steps: [{ reasoning: "One subject ('it') with two complements combines smoothly with 'and'.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** It is hot and sunny.",
+            finalAnswer: "**(d)** It is hot and sunny.",
             commonErrors: ["Choosing (c) — combining should not destroy grammar."],
           },
         },
@@ -317,12 +317,12 @@ export const lesson73: Lesson = {
               { id: "c", text: "confirms" },
               { id: "d", text: "demonstrates" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Strong verbs", statement: "Weak verbs like 'is' can be replaced by precise alternatives." }],
             steps: [{ reasoning: "'Is' carries minimal meaning — 'demonstrates', 'confirms' are stronger.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(c)** is",
+            finalAnswer: "**(b)** is",
             commonErrors: ["Choosing (a) — 'demonstrates' is already a strong verb."],
           },
         },
@@ -436,7 +436,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Register slip = formality mismatch.", working: "\\text{formality}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Using the wrong level of formality for the audience",
+            finalAnswer: "**(a)** Using the wrong level of formality for the audience",
             commonErrors: ["Choosing (a) — register is about tone, not spelling."],
           },
         },
@@ -537,7 +537,7 @@ export const lesson73: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Register slip", statement: "Informal language appearing in a formal text (or vice versa)." }],
             steps: [{ reasoning: "'Hey' is informal register misplaced in formal correspondence.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** 'Hey' used in a formal letter",
+            finalAnswer: "**(a)** 'Hey' used in a formal letter",
             commonErrors: ["Choosing (a) or (d) — punctuation and spelling are proofreading errors, not register."],
           },
         },
@@ -592,12 +592,12 @@ export const lesson73: Lesson = {
               { id: "c", text: "Remove all apologies" },
               { id: "d", text: "Keep all apologies — politeness matters" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Apology limits", statement: "One brief apology suffices — repeated apology weakens the request." }],
             steps: [{ reasoning: "A single polite acknowledgement maintains professionalism without undermining confidence.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(c)** Use one brief apology at most, then state the request",
+            finalAnswer: "**(a)** Use one brief apology at most, then state the request",
             commonErrors: ["Choosing (a) — repeated apology reads as weakness, not politeness."],
           },
         },

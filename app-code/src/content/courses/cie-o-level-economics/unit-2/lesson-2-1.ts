@@ -42,7 +42,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Demand always increases" },
             { id: "d", text: "Supply determines demand" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Law of demand", statement: "Inverse relationship." }], steps: [{ reasoning: "Correct law.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Law of demand", statement: "Inverse relationship." }], steps: [{ reasoning: "Correct law.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u2-dm-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "A change in tastes" },
             { id: "d", text: "A change in population" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Movement along demand", statement: "Caused by own price change." }], steps: [{ reasoning: "Only the good's own price causes movement along.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Movement along demand", statement: "Caused by own price change." }], steps: [{ reasoning: "Only the good's own price causes movement along.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u2-dm-q6", difficulty: "foundation", totalMarks: 1,
@@ -109,7 +109,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Upward from left to right" },
             { id: "d", text: "Horizontal" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Demand curve", statement: "Negative relationship." }], steps: [{ reasoning: "Law of demand gives a downward slope.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Demand curve", statement: "Negative relationship." }], steps: [{ reasoning: "Law of demand gives a downward slope.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u2-dm-q7", difficulty: "core", totalMarks: 1,
@@ -131,7 +131,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Decrease — curve shifts left" },
             { id: "d", text: "Increase — curve shifts right" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Substitutes", statement: "Competitor price effect." }], steps: [{ reasoning: "The substitute becomes relatively cheaper, so demand shifts to this good.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Substitutes", statement: "Competitor price effect." }], steps: [{ reasoning: "The substitute becomes relatively cheaper, so demand shifts to this good.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u2-dm-q9", difficulty: "challenge", totalMarks: 1,
@@ -142,7 +142,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Decrease because prices are expected to fall" },
             { id: "d", text: "Increase as buyers purchase before the rise" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Expectations", statement: "Expected price changes affect current demand." }], steps: [{ reasoning: "Buyers act now to avoid the higher future price.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Expectations", statement: "Expected price changes affect current demand." }], steps: [{ reasoning: "Buyers act now to avoid the higher future price.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u2-dm-q10", difficulty: "foundation", totalMarks: 1,
@@ -252,7 +252,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Supply always decreases" },
             { id: "d", text: "Demand determines supply" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Law of supply", statement: "Direct relationship." }], steps: [{ reasoning: "Correct law.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Law of supply", statement: "Direct relationship." }], steps: [{ reasoning: "Correct law.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u2-sp-q2", difficulty: "core", totalMarks: 2,
@@ -308,7 +308,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "A change in the good's own price" },
             { id: "d", text: "A change in technology" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Movement along supply", statement: "Caused by own price change." }], steps: [{ reasoning: "Only the good's own price causes movement along.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Movement along supply", statement: "Caused by own price change." }], steps: [{ reasoning: "Only the good's own price causes movement along.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u2-sp-q6", difficulty: "foundation", totalMarks: 1,
@@ -319,7 +319,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Downward from left to right" },
             { id: "d", text: "Upward from left to right" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Supply curve", statement: "Positive relationship." }], steps: [{ reasoning: "Law of supply gives an upward slope.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Supply curve", statement: "Positive relationship." }], steps: [{ reasoning: "Law of supply gives an upward slope.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u2-sp-q7", difficulty: "core", totalMarks: 1,
@@ -341,7 +341,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Move along only" },
             { id: "d", text: "Shift left — less supplied at each price" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Technology", statement: "Efficiency increases supply." }], steps: [{ reasoning: "Better technology lowers costs and raises output.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Technology", statement: "Efficiency increases supply." }], steps: [{ reasoning: "Better technology lowers costs and raises output.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u2-sp-q9", difficulty: "challenge", totalMarks: 1,
@@ -352,7 +352,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Stay the same" },
             { id: "d", text: "Increase immediately" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Expectations", statement: "Expected prices affect current supply." }], steps: [{ reasoning: "Producers may withhold supply to sell later at higher prices.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Expectations", statement: "Expected prices affect current supply." }], steps: [{ reasoning: "Producers may withhold supply to sell later at higher prices.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u2-sp-q10", difficulty: "foundation", totalMarks: 1,

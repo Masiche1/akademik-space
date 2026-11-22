@@ -62,7 +62,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Force unit", statement: "Newton (N)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{N}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Newton",
+            finalAnswer: "**(a)** Newton",
             commonErrors: ["Joule = energy."],
           },
         },
@@ -188,11 +188,11 @@ export const lessonp21: Lesson = {
             { id: "b", text: "1.33 N" },
             { id: "c", text: "0.75 N" },
             { id: "d", text: "7 N" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "formula", name: "F=ma", statement: "F = 3×4 = 12 N." }],
             steps: [{ reasoning: "Calculate.", working: "F = ma = 3 \\times 4 = 12", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** 12 N",
+            finalAnswer: "**(a)** 12 N",
             commonErrors: ["Dividing instead of multiplying."],
           },
         },
@@ -244,7 +244,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Newton's 1st", statement: "No resultant force → no change in motion." }],
             steps: [{ reasoning: "Book stays at rest with zero resultant force.", working: "\\text{no force} \\Rightarrow \\text{no change}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A book remaining at rest on a table",
+            finalAnswer: "**(d)** A book remaining at rest on a table",
             commonErrors: ["Choosing an accelerating example — that needs a force."],
           },
         },
@@ -297,11 +297,11 @@ export const lessonp21: Lesson = {
             { id: "b", text: "The object with larger mass has smaller velocity" },
             { id: "c", text: "They must have the same mass" },
             { id: "d", text: "Momentum is a scalar quantity" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "formula", name: "p=mv", statement: "Same p: larger m → smaller v." }],
             steps: [{ reasoning: "p = mv constant.", working: "p = mv = \\text{const}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** The object with larger mass has smaller velocity",
+            finalAnswer: "**(b)** The object with larger mass has smaller velocity",
             commonErrors: ["Forgetting momentum is a vector."],
           },
         },
@@ -400,7 +400,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Pressure unit", statement: "Pascal (Pa)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Pa}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Pascal",
+            finalAnswer: "**(a)** Pascal",
             commonErrors: ["Newton = force."],
           },
         },
@@ -480,7 +480,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Density unit", statement: "ρ = m/V → kg/m³." }],
             steps: [{ reasoning: "Recall.", working: "\\text{kg/m}^3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** kg/m³",
+            finalAnswer: "**(d)** kg/m³",
             commonErrors: ["Confusing with pressure unit Pa."],
           },
         },
@@ -530,7 +530,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Pressure", statement: "P = F/A = 200/0.04 = 5000 Pa." }],
             steps: [{ reasoning: "Calculate.", working: "P = \\frac{200}{0.04} = 5000", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 5000 Pa",
+            finalAnswer: "**(c)** 5000 Pa",
             commonErrors: ["Multiplying instead of dividing."],
           },
         },

@@ -237,7 +237,7 @@ export const lesson75: Lesson = {
             steps: [
               { reasoning: "A record stores all field values for one item.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** One complete row",
+            finalAnswer: "**(b)** One complete row",
           },
         },
         {
@@ -262,7 +262,7 @@ export const lesson75: Lesson = {
             steps: [
               { reasoning: "A field stores the same type of data for every record.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** One column/attribute",
+            finalAnswer: "**(d)** One column/attribute",
           },
         },
         {
@@ -278,7 +278,7 @@ export const lesson75: Lesson = {
               { id: "c", text: "UPDATE" },
               { id: "d", text: "DELETE" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -287,7 +287,7 @@ export const lesson75: Lesson = {
             steps: [
               { reasoning: "SELECT queries return data matching the specified fields and conditions.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(d)** SELECT",
+            finalAnswer: "**(b)** SELECT",
           },
         },
         {
@@ -312,7 +312,7 @@ export const lesson75: Lesson = {
             steps: [
               { reasoning: "WHERE limits returned records to those satisfying the condition.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Filters records",
+            finalAnswer: "**(d)** Filters records",
           },
         },
         {
@@ -337,7 +337,7 @@ export const lesson75: Lesson = {
             steps: [
               { reasoning: "ORDER BY arranges returned records by the chosen field.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Sorts results",
+            finalAnswer: "**(a)** Sorts results",
           },
         },
         {
@@ -362,7 +362,7 @@ export const lesson75: Lesson = {
             steps: [
               { reasoning: "Primary keys uniquely identify records and link related tables.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Unique identification and relationships",
+            finalAnswer: "**(c)** Unique identification and relationships",
           },
         },
         {

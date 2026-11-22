@@ -237,7 +237,7 @@ export const lesson443: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "ODA", statement: "Official Development Assistance." } ],
             steps: [ { reasoning: "ODA is government aid — grants or concessional loans — intended to promote economic development and welfare in developing countries.", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** government aid for development"
+            finalAnswer: "**(c)** government aid for development"
           }
         },
         {
@@ -258,7 +258,7 @@ export const lesson443: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Remittances", statement: "Money sent by migrants to home country." } ],
             steps: [ { reasoning: "Remittances provide households with foreign exchange income for consumption, saving and investment; they are significant for many developing economies.", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** steady foreign currency income to households"
+            finalAnswer: "**(c)** steady foreign currency income to households"
           }
         },
         {
@@ -279,7 +279,7 @@ export const lesson443: Lesson = {
           markscheme: {
             principles: [ { kind: "skill", name: "Microfinance", statement: "Small loans to poor entrepreneurs." } ],
             steps: [ { reasoning: "Microfinance targets poor entrepreneurs but the very poorest often lack the skills or income streams to repay even small loans, so they may be excluded.", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** may miss the very poorest"
+            finalAnswer: "**(c)** may miss the very poorest"
           }
         },
         {
@@ -300,7 +300,7 @@ export const lesson443: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Conditionality", statement: "IMF/World Bank loan conditions." } ],
             steps: [ { reasoning: "Conditions such as austerity and privatisation are meant to restore debt sustainability but can reduce public services and hurt the poor, making them politically controversial.", marks: 1, markCode: "A" } ],
-            finalAnswer: "**(a)** cuts and privatisation can harm the poor"
+            finalAnswer: "**(d)** cuts and privatisation can harm the poor"
           }
         },
         {
@@ -406,7 +406,7 @@ export const lesson443: Lesson = {
           markscheme: {
             principles: [ { kind: "skill", name: "Aid effectiveness", statement: "Governance and allocation matter." } ],
             steps: [ { reasoning: "Where governance is weak, aid may be misallocated or lost to corruption; effective allocation towards infrastructure, education and health determines development impact.", marks: 1, markCode: "A" } ],
-            finalAnswer: "**(a)** governance and allocation"
+            finalAnswer: "**(c)** governance and allocation"
           }
         },
         {

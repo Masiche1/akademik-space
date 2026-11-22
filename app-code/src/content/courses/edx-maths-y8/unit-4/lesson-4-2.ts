@@ -188,7 +188,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Range and consistency", statement: "A smaller range means the data is less spread out, so more consistent." }],
             steps: [{ reasoning: "$5<12$, so Route A varies less.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Route A is more consistent because it has the smaller range",
+            finalAnswer: "**(c)** Route A is more consistent because it has the smaller range",
             commonErrors: ["Thinking a larger range means more consistent."],
           },
         },

@@ -73,7 +73,7 @@ export const lesson12: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Single seller",
+            finalAnswer: "**(c)** Single seller",
             commonErrors: ["Oligopoly confused."],
           },
         },

@@ -62,7 +62,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The bases are the same, so add the indices.", working: "x^{3} \\times x^{4} = x^{3+4} = x^{7}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $x^7$",
+            finalAnswer: "**(a)** $x^7$",
             commonErrors: ["Multiplying the indices to get $x^{12}$.", "Subtracting the indices to get $x^{1}$."],
             examinerNote: "B1 for $x^7$ only.",
           },

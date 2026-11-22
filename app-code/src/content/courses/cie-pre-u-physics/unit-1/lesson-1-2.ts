@@ -494,7 +494,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "twice as great" },
               { id: "d", text: "half as great" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

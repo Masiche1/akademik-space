@@ -142,7 +142,7 @@ export const lesson511: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Field unit", statement: "$E = F/q$ → N/C (equivalent to V/m)." }],
             steps: [{ reasoning: "Force per unit charge → newtons per coulomb.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** $N\\ C^{-1}$",
+            finalAnswer: "**(d)** $N\\ C^{-1}$",
           },
         },
         {
@@ -182,7 +182,7 @@ export const lesson511: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Field direction", statement: "Field direction = force on positive test charge; unlike charges attract." }],
             steps: [{ reasoning: "Positive charge attracted to negative sphere → accelerates towards it.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** accelerate towards the sphere",
+            finalAnswer: "**(c)** accelerate towards the sphere",
           },
         },
         {
@@ -258,7 +258,7 @@ export const lesson511: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Uniform field", statement: "Between large parallel plates the field is uniform: $E = V/d$." }],
             steps: [{ reasoning: "Parallel plates give a uniform field (edge effects ignored).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** uniform",
+            finalAnswer: "**(d)** uniform",
           },
         },
         {
@@ -343,7 +343,7 @@ export const lesson511: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Coulomb", statement: "$F \\propto 1/r^2$ — smaller r gives larger F." }],
             steps: [{ reasoning: "Inverse-square law: reducing r increases F.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** increases",
+            finalAnswer: "**(b)** increases",
           },
         },
         {
@@ -496,12 +496,12 @@ export const lesson511: Lesson = {
               { id: "c", text: "ampere" },
               { id: "d", text: "volt" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Charge unit", statement: "Charge is measured in coulombs (C)." }],
             steps: [{ reasoning: "Charge unit = coulomb; ampere is current, volt is p.d., ohm is resistance.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** coulomb",
+            finalAnswer: "**(a)** coulomb",
           },
         },
         {
@@ -577,7 +577,7 @@ export const lesson511: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "EMF", statement: "EMF = energy per unit charge supplied by the source." }],
             steps: [{ reasoning: "EMF is total energy per coulomb; terminal p.d. is lower when current flows.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** total energy supplied per unit charge",
+            finalAnswer: "**(a)** total energy supplied per unit charge",
           },
         },
         {
@@ -653,7 +653,7 @@ export const lesson511: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Series current", statement: "Current is the same through every component in a series circuit." }],
             steps: [{ reasoning: "Series = single path → same current everywhere.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** the same at all points",
+            finalAnswer: "**(b)** the same at all points",
           },
         },
         {

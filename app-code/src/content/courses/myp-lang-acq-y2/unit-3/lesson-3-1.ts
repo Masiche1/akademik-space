@@ -69,7 +69,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'didn't go' is correct; 'went' cannot follow didn't.", working: "didn't go", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I didn't go to school.",
+            finalAnswer: "**(d)** I didn't go to school.",
             commonErrors: ["Keeping the past form after didn't."],
             examinerNote: "D1 for (b).",
           },
@@ -193,7 +193,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'didn't watch' is correct.", working: "didn't watch", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** She didn't watch TV.",
+            finalAnswer: "**(a)** She didn't watch TV.",
             commonErrors: ["Keeping the past form after didn't."],
             examinerNote: "D1 for (b).",
           },
@@ -346,7 +346,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — past simple of 'take' is 'took'.", working: "took", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** took",
+            finalAnswer: "**(c)** took",
             commonErrors: ["Choosing 'taked' — take is irregular."],
             examinerNote: "D1 for (b).",
           },
@@ -404,7 +404,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'did' is the past auxiliary: 'Did you go?' / 'I didn't go.'", working: "past questions/negatives", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** In past simple questions and negatives",
+            finalAnswer: "**(d)** In past simple questions and negatives",
             commonErrors: ["Thinking 'did' is only for questions, not negatives."],
             examinerNote: "B1 for (b).",
           },
@@ -511,7 +511,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "gooder" },
               { id: "d", text: "more good" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -520,7 +520,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'better' is the irregular comparative of 'good'.", working: "better", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** better",
+            finalAnswer: "**(a)** better",
             commonErrors: ["'gooder' or 'more good' — 'good' is irregular."],
             examinerNote: "D1 for (c).",
           },
@@ -606,7 +606,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "more tall" },
               { id: "d", text: "taller" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -615,7 +615,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'taller' is the comparative of 'tall'.", working: "taller", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** taller",
+            finalAnswer: "**(d)** taller",
             commonErrors: ["Choosing 'tallest' — that is the superlative."],
             examinerNote: "D1 for (c).",
           },
@@ -642,7 +642,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'the fastest' is the superlative.", working: "the fastest", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** the fastest",
+            finalAnswer: "**(d)** the fastest",
             commonErrors: ["Missing 'the' or using comparative -er."],
             examinerNote: "D1 for (b).",
           },
@@ -669,7 +669,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'worse' is the irregular comparative of 'bad'.", working: "worse", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** worse",
+            finalAnswer: "**(a)** worse",
             commonErrors: ["'badder' or 'more bad' — 'bad' is irregular."],
             examinerNote: "D1 for (b).",
           },
@@ -853,7 +853,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'but' marks contrast.", working: "but", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** but",
+            finalAnswer: "**(c)** but",
             commonErrors: ["Choosing 'because' — that gives a reason, not contrast."],
             examinerNote: "D1 for (b).",
           },

@@ -51,7 +51,7 @@ export const lesson22: Lesson = {
             { id: "b", text: "$\\frac{1}{2}$" },
             { id: "c", text: "$\\frac{1}{10}$" },
             { id: "d", text: "$\\frac{1}{5}$" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Percentage", statement: "Percent means per hundred." }],
             steps: [{ reasoning: "$50\\% = \\frac{50}{100} = \\frac{1}{2}$.", marks: 1, markCode: "A" }],
@@ -403,7 +403,7 @@ export const lesson22: Lesson = {
             { id: "b", text: "15" },
             { id: "c", text: "60" },
             { id: "d", text: "10" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Mean", statement: "Sum divided by count." }],
             steps: [{ reasoning: "Sum $= 60$; $60 \\div 3 = 20$.", marks: 1, markCode: "A" }],
@@ -500,7 +500,7 @@ export const lesson22: Lesson = {
             { id: "b", text: "The mean lies between the smallest and largest values" },
             { id: "c", text: "The mean is the most common value" },
             { id: "d", text: "The mean is always one of the data values" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Mean", statement: "Average sits within the range of data." }],
             steps: [{ reasoning: "The mean is an average and always lies between the smallest and largest values.", marks: 1, markCode: "A" }],
@@ -550,7 +550,7 @@ export const lesson22: Lesson = {
             { id: "b", text: "18" },
             { id: "c", text: "16" },
             { id: "d", text: "20" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "technique", name: "Reading data", statement: "Add the values." }],
             steps: [{ reasoning: "$4 + 7 + 5 + 4 = 20$.", marks: 1, markCode: "A" }],

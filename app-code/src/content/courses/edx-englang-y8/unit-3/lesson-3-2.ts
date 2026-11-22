@@ -85,7 +85,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Sign-off", statement: "Dear + name is closed with Yours sincerely." }],
             steps: [{ reasoning: "A named recipient needs 'Yours sincerely'.", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** Yours sincerely.",
+            finalAnswer: "**(d)** Yours sincerely.",
             commonErrors: ["Choosing 'Yours faithfully', which is for 'Dear Sir or Madam'."],
           },
         },
@@ -210,7 +210,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Article hook", statement: "An engaging question or striking idea draws the reader in." }],
             steps: [{ reasoning: "The rhetorical question engages the reader and introduces the theme with personality.", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** It uses a hook that involves the reader; the others are flat or state the obvious.",
+            finalAnswer: "**(b)** It uses a hook that involves the reader; the others are flat or state the obvious.",
             commonErrors: ["Choosing (b) because it sounds clear, when it does not engage."],
           },
         },

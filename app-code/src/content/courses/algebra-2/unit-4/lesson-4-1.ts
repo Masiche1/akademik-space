@@ -64,7 +64,7 @@ export const lesson41: Lesson = {
               { reasoning: "Match $3(x-2)^2-5$ to $a(x-h)^2+k$; the vertex coordinates are $h=2$ and $k=-5$.", working: "(h,k)=(2,-5)", marks: 1, markCode: "B" },
               { reasoning: "The coefficient $3$ is positive, so the vertex is a minimum and its value is the $y$-coordinate $-5$.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(a)** Vertex $(2,-5)$; minimum value $-5$.",
+            finalAnswer: "**(b)** Vertex $(2,-5)$; minimum value $-5$.",
             commonErrors: ["Reading the sign inside $(x-2)$ as a negative vertex coordinate.", "Calling $x=2$ the minimum value rather than the location of the minimum."],
           },
         },

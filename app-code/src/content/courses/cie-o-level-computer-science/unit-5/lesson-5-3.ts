@@ -97,7 +97,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Encrypts files and demands payment" },
             { id: "d", text: "Speeds up computers" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Ransomware", statement: "Encrypts files, demands ransom." }], steps: [{ reasoning: "Ransomware encrypts and demands payment.", working: "\\text{encrypt}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Encrypts files and demands payment" },
+          markscheme: { principles: [{ kind: "definition", name: "Ransomware", statement: "Encrypts files, demands ransom." }], steps: [{ reasoning: "Ransomware encrypts and demands payment.", working: "\\text{encrypt}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Encrypts files and demands payment" },
         },
         {
           id: "olcs-u5-th-q6", difficulty: "foundation", totalMarks: 1,
@@ -116,7 +116,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Only affects printers" },
             { id: "d", text: "Needs a host program to spread" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Worm", statement: "Self-replicating, no host needed." }], steps: [{ reasoning: "Worms spread on their own.", working: "\\text{self-replicate}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Self-replicates without a host" },
+          markscheme: { principles: [{ kind: "definition", name: "Worm", statement: "Self-replicating, no host needed." }], steps: [{ reasoning: "Worms spread on their own.", working: "\\text{self-replicate}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Self-replicates without a host" },
         },
         {
           id: "olcs-u5-th-q8", difficulty: "core", totalMarks: 1,
@@ -134,8 +134,8 @@ export const lesson53: Lesson = {
             { id: "b", text: "Virus" },
             { id: "c", text: "Worm" },
             { id: "d", text: "Trojan" },
-          ], aorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Firewall", statement: "A defence, not malware." }], steps: [{ reasoning: "Firewall protects; it is not malware.", working: "\\text{defence}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Firewall" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "Firewall", statement: "A defence, not malware." }], steps: [{ reasoning: "Firewall protects; it is not malware.", working: "\\text{defence}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Firewall" },
         },
         {
           id: "olcs-u5-th-q10", difficulty: "core", totalMarks: 2,
@@ -155,7 +155,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Intercept network cables" },
             { id: "d", text: "Flood a service with traffic to knock it offline" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "DDoS", statement: "Distributed denial of service." }], steps: [{ reasoning: "DDoS floods a service to take it offline.", working: "\\text{flood}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Flood a service offline" },
+          markscheme: { principles: [{ kind: "definition", name: "DDoS", statement: "Distributed denial of service." }], steps: [{ reasoning: "DDoS floods a service to take it offline.", working: "\\text{flood}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Flood a service offline" },
         },
         {
           id: "olcs-u5-th-q12", difficulty: "core", totalMarks: 1,
@@ -185,7 +185,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Entering malicious input that exploits database queries" },
             { id: "d", text: "Flooding a server with traffic" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "SQL injection", statement: "Malicious input in database queries." }], steps: [{ reasoning: "SQLi exploits queries via input.", working: "\\text{query}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Malicious input exploiting queries" },
+          markscheme: { principles: [{ kind: "definition", name: "SQL injection", statement: "Malicious input in database queries." }], steps: [{ reasoning: "SQLi exploits queries via input.", working: "\\text{query}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Malicious input exploiting queries" },
         },
         {
           id: "olcs-u5-th-q15", difficulty: "core", totalMarks: 2,
@@ -251,7 +251,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "A faster login" },
             { id: "d", text: "A second verification step beyond the password" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "2FA", statement: "Password + second factor." }], steps: [{ reasoning: "2FA = two verification steps.", working: "\\text{2FA}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Second verification" },
+          markscheme: { principles: [{ kind: "definition", name: "2FA", statement: "Password + second factor." }], steps: [{ reasoning: "2FA = two verification steps.", working: "\\text{2FA}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Second verification" },
         },
         {
           id: "olcs-u5-pr-q2", difficulty: "core", totalMarks: 2,
@@ -325,7 +325,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Patching known vulnerabilities" },
             { id: "d", text: "Changing passwords automatically" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Patching", statement: "Updates fix vulnerabilities." }], steps: [{ reasoning: "Updates patch known flaws.", working: "\\text{patch}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Patching known vulnerabilities" },
+          markscheme: { principles: [{ kind: "principle", name: "Patching", statement: "Updates fix vulnerabilities." }], steps: [{ reasoning: "Updates patch known flaws.", working: "\\text{patch}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Patching known vulnerabilities" },
         },
         {
           id: "olcs-u5-pr-q8", difficulty: "core", totalMarks: 1,
@@ -344,7 +344,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Disabling software updates" },
             { id: "d", text: "Two-factor authentication" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Patching", statement: "Updates are a defence." }], steps: [{ reasoning: "Disabling updates removes protection.", working: "\\text{updates}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Disabling software updates" },
+          markscheme: { principles: [{ kind: "principle", name: "Patching", statement: "Updates are a defence." }], steps: [{ reasoning: "Disabling updates removes protection.", working: "\\text{updates}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Disabling software updates" },
         },
         {
           id: "olcs-u5-pr-q10", difficulty: "core", totalMarks: 2,
@@ -364,7 +364,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Ransomware cannot encrypt them" },
             { id: "d", text: "They are faster to access" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Backups", statement: "Separate copies survive attacks." }], steps: [{ reasoning: "Offline backups can't be reached by ransomware.", working: "\\text{offline}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Ransomware cannot encrypt them" },
+          markscheme: { principles: [{ kind: "principle", name: "Backups", statement: "Separate copies survive attacks." }], steps: [{ reasoning: "Offline backups can't be reached by ransomware.", working: "\\text{offline}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Ransomware cannot encrypt them" },
         },
         {
           id: "olcs-u5-pr-q12", difficulty: "core", totalMarks: 1,
@@ -394,7 +394,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "No passwords are needed" },
             { id: "d", text: "Users get only the access they need" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Least privilege", statement: "Minimum necessary access." }], steps: [{ reasoning: "Least privilege = minimal access.", working: "\\text{minimal}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Users get only the access they need" },
+          markscheme: { principles: [{ kind: "principle", name: "Least privilege", statement: "Minimum necessary access." }], steps: [{ reasoning: "Least privilege = minimal access.", working: "\\text{minimal}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Users get only the access they need" },
         },
         {
           id: "olcs-u5-pr-q15", difficulty: "core", totalMarks: 2,

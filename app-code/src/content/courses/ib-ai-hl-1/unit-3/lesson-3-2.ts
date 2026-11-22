@@ -116,7 +116,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $6$",
+            finalAnswer: "**(d)** $6$",
             commonErrors: [
               "Leaving the answer as a vector, which is the componentwise product.",
               "Dropping the negative sign.",
@@ -378,7 +378,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $9$",
+            finalAnswer: "**(c)** $9$",
             commonErrors: [
               "Leaving the answer as a vector, which is the componentwise product.",
             ],
@@ -424,7 +424,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $90^\\circ$",
+            finalAnswer: "**(a)** $90^\\circ$",
             commonErrors: ["Confusing perpendicular with parallel."],
           },
         },
@@ -909,7 +909,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(c)**",
             commonErrors: ["Checking only two of the three components."],
           },
         },
@@ -966,7 +966,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(c)**",
             commonErrors: [
               "Forgetting the absolute value and reporting an obtuse angle.",
             ],
@@ -1011,7 +1011,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $k=2$",
+            finalAnswer: "**(c)** $k=2$",
             commonErrors: ["Sign error when handling $(-1)k$."],
           },
         },
@@ -1417,7 +1417,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** $\\begin{pmatrix} 0 \\\\ 0 \\\\ -1 \\end{pmatrix}$",
+              "**(a)** $\\begin{pmatrix} 0 \\\\ 0 \\\\ -1 \\end{pmatrix}$",
             commonErrors: ["Reversing the order and giving $(0,0,1)$."],
           },
         },
@@ -1464,7 +1464,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(b)**",
             commonErrors: [
               "Using the triangle area formula for a parallelogram.",
             ],
@@ -1884,7 +1884,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** They are parallel.",
+            finalAnswer: "**(c)** They are parallel.",
             commonErrors: [
               "Confusing a zero vector product with a zero scalar product (perpendicular).",
             ],
@@ -1937,7 +1937,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(c)**",
             commonErrors: [
               "Confusing the scalar product formula $|\\boldsymbol a||\\boldsymbol b|\\cos\\theta$.",
             ],
@@ -1969,7 +1969,7 @@ export const lesson32: Lesson = {
                 text: "$\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}$",
               },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1995,7 +1995,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)**",
+            finalAnswer: "**(a)**",
             commonErrors: [
               "Choosing a vector in the $xy$-plane, which cannot be perpendicular to both basis vectors.",
             ],
@@ -2041,7 +2041,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\sqrt3$",
+            finalAnswer: "**(d)** $\\sqrt3$",
             commonErrors: [
               "Using $\\frac12|\\boldsymbol a\\times\\boldsymbol b|$, which is the triangle area.",
             ],

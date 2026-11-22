@@ -59,7 +59,7 @@ export const lesson41: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "ATP", statement: "Universal energy currency." }],
             steps: [{ reasoning: "ATP stores/transfers usable energy.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Energy currency",
+            finalAnswer: "**(d)** Energy currency",
           },
         },
         {
@@ -172,7 +172,7 @@ export const lesson41: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Insulin", statement: "Lowers blood glucose." }],
             steps: [{ reasoning: "Insulin → cells absorb glucose → glycogen storage.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Insulin",
+            finalAnswer: "**(c)** Insulin",
           },
         },
         {

@@ -71,7 +71,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$E=8(0.25)+(-2)(0.75)=2-1.5=0.5$.", working: "0.5", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** 0.5",
+            finalAnswer: "**(c)** 0.5",
             commonErrors: ["Adding probabilities instead of multiplying by outcomes."],
             examinerNote: "B1 for (b).",
           },
@@ -230,7 +230,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$P(HT)=\\frac{1}{4}$, $P(TH)=\\frac{1}{4}$; sum $=\\frac{1}{2}$.", working: "\\frac{1}{2}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{1}{2}$",
+            finalAnswer: "**(d)** $\\frac{1}{2}$",
             commonErrors: ["Computing P(exactly one head) incorrectly."],
             examinerNote: "B1 for (a).",
           },

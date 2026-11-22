@@ -57,7 +57,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Metal+acid", statement: "Salt + H₂." }],
             steps: [{ reasoning: "Recall.", working: "H_2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Hydrogen",
+            finalAnswer: "**(c)** Hydrogen",
             commonErrors: ["CO₂ is for carbonates."],
           },
         },
@@ -137,7 +137,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Metal + steam", statement: "Oxide + H₂." }],
             steps: [{ reasoning: "Recall.", working: "\\text{oxide} + H_2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** metal oxide + hydrogen",
+            finalAnswer: "**(a)** metal oxide + hydrogen",
             commonErrors: ["Cold water gives hydroxides; steam gives oxides."],
           },
         },
@@ -206,7 +206,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Hydrogen test", statement: "Squeaky pop = H₂." }],
             steps: [{ reasoning: "Recall.", working: "\\text{squeaky pop}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** hydrogen",
+            finalAnswer: "**(c)** hydrogen",
             commonErrors: ["CO₂ extinguishes flame; it does not pop."],
           },
         },
@@ -239,7 +239,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Reactivity series", statement: "Below H → no H₂ displaced." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Cu below H}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** copper is below hydrogen in the reactivity series",
+            finalAnswer: "**(a)** copper is below hydrogen in the reactivity series",
             commonErrors: ["Copper reacts with other reagents — just not dilute acid."],
           },
         },
@@ -275,7 +275,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Acid + carbonate", statement: "Salt + H₂O + CO₂." }],
             steps: [{ reasoning: "Recall.", working: "\\text{salt} + H_2O + CO_2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** salt + water + carbon dioxide",
+            finalAnswer: "**(d)** salt + water + carbon dioxide",
             commonErrors: ["Hydrogen is for metals, not carbonates."],
           },
         },
@@ -380,7 +380,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Cu properties", statement: "Conductor + ductile." }],
             steps: [{ reasoning: "Recall.", working: "\\text{conduct + ductile}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Good conductor, ductile",
+            finalAnswer: "**(d)** Good conductor, ductile",
             commonErrors: ["Cheap isn't the main reason — conductivity is."],
           },
         },
@@ -460,7 +460,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Aluminium", statement: "Low density + strength." }],
             steps: [{ reasoning: "Recall.", working: "\\text{light + strong}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** light and strong",
+            finalAnswer: "**(c)** light and strong",
             commonErrors: ["Aluminium is reactive — it forms a protective oxide."],
           },
         },
@@ -478,7 +478,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Steel", statement: "Fe + C → harder." }],
             steps: [{ reasoning: "Recall.", working: "\\text{harder}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** harder and stronger",
+            finalAnswer: "**(d)** harder and stronger",
             commonErrors: ["Steel is an alloy — carbon makes it harder."],
           },
         },
@@ -526,7 +526,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Sacrificial", statement: "Must be MORE reactive." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Sn below Fe}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** tin is less reactive than iron so cannot protect sacrificially",
+            finalAnswer: "**(c)** tin is less reactive than iron so cannot protect sacrificially",
             commonErrors: ["Tin only works as barrier while coating is intact."],
           },
         },
@@ -559,7 +559,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Gold", statement: "Unreactive → no tarnish." }],
             steps: [{ reasoning: "Recall.", working: "\\text{no corrosion}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It does not corrode or tarnish",
+            finalAnswer: "**(d)** It does not corrode or tarnish",
             commonErrors: ["Gold is actually soft — its unreactivity matters."],
           },
         },
@@ -591,11 +591,11 @@ export const lesson182: Lesson = {
             { id: "b", text: "Platinum" },
             { id: "c", text: "Aluminium" },
             { id: "d", text: "Iron" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "context", name: "Catalytic converter", statement: "Pt/Pd/Rh catalysts." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Pt}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Platinum",
+            finalAnswer: "**(b)** Platinum",
             commonErrors: ["Platinum, palladium or rhodium — all unreactive catalysts."],
           },
         },

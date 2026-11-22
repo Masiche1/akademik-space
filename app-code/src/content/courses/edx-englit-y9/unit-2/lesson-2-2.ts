@@ -84,7 +84,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Onomatopoeia", statement: "Sound words imitate the noise they describe, and repeated r sounds add a harsh rattle." }],
             steps: [{ reasoning: "'Stuttering' and 'rattle' imitate gunfire, and the repeated 'r' creates a harsh sound.", evidence: "stuttering rifles' rapid rattle", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** Onomatopoeia and alliteration: the sounds copy the noise of gunfire.",
+            finalAnswer: "**(b)** Onomatopoeia and alliteration: the sounds copy the noise of gunfire.",
             commonErrors: ["Picking (c) because the poem begins with a question; this line is not a question."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Metaphor", statement: "A direct comparison: the sky is a heavy lid." }],
             steps: [{ reasoning: "Lead is heavy and dull, and a lid closes things in, suggesting oppression.", evidence: "a lid of lead", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** The sky feels heavy and trapping, like a lid on a container.",
+            finalAnswer: "**(c)** The sky feels heavy and trapping, like a lid on a container.",
             commonErrors: ["Choosing (d), reading the grey colour as rain rather than as oppression."],
           },
         },

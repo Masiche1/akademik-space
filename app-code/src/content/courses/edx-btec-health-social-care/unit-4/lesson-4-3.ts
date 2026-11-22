@@ -337,7 +337,7 @@ export const lesson403: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Intended effects",
+            finalAnswer: "**(d)** Intended effects",
             commonErrors: ["Confusing with process."],
           },
         },

@@ -72,7 +72,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Mock-authoritative tone", statement: "An exaggeratedly formal voice used to create irony." }],
             steps: [{ reasoning: "The grand phrase makes a social assumption sound like a law, creating irony.", evidence: "a truth universally acknowledged", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** A mock-serious tone inviting the reader to question the claim.",
+            finalAnswer: "**(b)** A mock-serious tone inviting the reader to question the claim.",
             commonErrors: ["Taking the narrator's statement literally."],
           },
         },
@@ -211,7 +211,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Whole-text reference", statement: "Connect the passage to the wider novel in service of the question." }],
             steps: [{ reasoning: "Whole-text reference shows knowledge and understanding of the novel.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** Link to other moments in the novel.",
+            finalAnswer: "**(c)** Link to other moments in the novel.",
             commonErrors: ["Retelling the plot instead of selecting relevant moments."],
           },
         },

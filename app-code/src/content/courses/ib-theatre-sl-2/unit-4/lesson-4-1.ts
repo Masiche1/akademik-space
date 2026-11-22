@@ -70,7 +70,7 @@ export const lesson41: Lesson = {
               { reasoning: "A comparative framework is a consistent set of criteria for fair comparison.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A consistent set of criteria applied to both plays",
+            finalAnswer: "**(d)** A consistent set of criteria applied to both plays",
             commonErrors: [
               "Comparing plays without consistent criteria.",
             ],
@@ -177,7 +177,7 @@ export const lesson41: Lesson = {
               { reasoning: "Consistent criteria ensure neither play is favoured by a rigged standard.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Because consistent criteria make the comparison fair and balanced",
+            finalAnswer: "**(a)** Because consistent criteria make the comparison fair and balanced",
             commonErrors: [
               "Thinking criteria are only a formatting device rather than a fairness tool.",
             ],
@@ -227,7 +227,7 @@ export const lesson41: Lesson = {
               { reasoning: "Listing without interpretation only describes the texts.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Descriptive",
+            finalAnswer: "**(d)** Descriptive",
             commonErrors: [
               "Assuming any comparison is automatically analytical.",
             ],
@@ -334,7 +334,7 @@ export const lesson41: Lesson = {
               { reasoning: "A criterion is a measuring standard applied to both plays equally.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A standard applied consistently to both plays",
+            finalAnswer: "**(d)** A standard applied consistently to both plays",
             commonErrors: [
               "Confusing criteria with conclusions.",
             ],
@@ -392,7 +392,7 @@ export const lesson41: Lesson = {
               { reasoning: "Cherry-picking means choosing only favourable evidence.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Selecting only evidence that supports a preferred conclusion",
+            finalAnswer: "**(d)** Selecting only evidence that supports a preferred conclusion",
             commonErrors: [
               "Not recognising biased evidence selection as a flaw.",
             ],
@@ -450,7 +450,7 @@ export const lesson41: Lesson = {
               { reasoning: "Weighing evidence and acknowledging limits is the hallmark of rigorous comparison.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Weigh evidence and acknowledge the limits of the comparison",
+            finalAnswer: "**(d)** Weigh evidence and acknowledge the limits of the comparison",
             commonErrors: [
               "Thinking good analysis must avoid judgement entirely.",
             ],
@@ -698,7 +698,7 @@ export const lesson41: Lesson = {
               { reasoning: "Context reframes theme meaning — that is the significant question.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** How does each era's context reframe the theme's meaning?",
+            finalAnswer: "**(a)** How does each era's context reframe the theme's meaning?",
             commonErrors: [
               "Focusing on superficial differences instead of contextual meaning.",
             ],
@@ -749,7 +749,7 @@ export const lesson41: Lesson = {
               { reasoning: "Criteria and evidence are chosen, so other approaches might differ.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The chosen criteria and available evidence are selected and open to interpretation",
+            finalAnswer: "**(d)** The chosen criteria and available evidence are selected and open to interpretation",
             commonErrors: [
               "Believing analysis can be completely objective.",
             ],
@@ -863,7 +863,7 @@ export const lesson41: Lesson = {
               { reasoning: "Shared theme gives common ground; difference gives meaningful contrast.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Two plays sharing a theme but written in different eras and genres",
+            finalAnswer: "**(c)** Two plays sharing a theme but written in different eras and genres",
             commonErrors: [
               "Choosing pairs too similar or too unrelated.",
             ],
@@ -921,7 +921,7 @@ export const lesson41: Lesson = {
               { reasoning: "Significance, not convenience or category, should guide prioritisation.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Whichever reveals more about intention, context or innovation",
+            finalAnswer: "**(a)** Whichever reveals more about intention, context or innovation",
             commonErrors: [
               "Assuming similarities or differences are inherently more valuable.",
             ],

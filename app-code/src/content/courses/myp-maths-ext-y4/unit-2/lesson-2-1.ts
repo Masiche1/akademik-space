@@ -528,7 +528,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Reciprocal function has vertical asymptote $x=0$ and horizontal $y=0$.", working: "x=0,\\ y=0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x=0$ and $y=0$",
+            finalAnswer: "**(c)** $x=0$ and $y=0$",
             commonErrors: ["Thinking asymptotes depend on $k$."],
             examinerNote: "B1 for (a).",
           },
@@ -645,7 +645,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Cosine has the same period as sine: $360°$.", working: "360°", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $360°$",
+            finalAnswer: "**(b)** $360°$",
             commonErrors: ["Confusing period with amplitude."],
             examinerNote: "B1 for (a).",
           },
@@ -922,7 +922,7 @@ export const lesson21: Lesson = {
               { reasoning: "$(2,3)$: $\\frac{6}{2}=3$ ✓; $(4,2)$: $\\frac{6}{4}=1.5\\ne2$; $(6,2)$: $1\\ne2$; $(3,1)$: $2\\ne1$.", working: "(2,3)", marks: 1, markCode: "M" },
               { reasoning: "Select the point that satisfies $y=\\frac{6}{x}$.", working: "(2,3)", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $(2,3)$",
+            finalAnswer: "**(d)** $(2,3)$",
             commonErrors: ["Picking a point where $x+y=6$ instead of $xy=6$."],
             examinerNote: "M1 A1.",
           },

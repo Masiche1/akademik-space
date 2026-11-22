@@ -228,7 +228,7 @@ export const lesson21: Lesson = {
             { id: "b", text: "Metaphor" },
             { id: "c", text: "Simile" },
             { id: "d", text: "Alliteration" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Personification", statement: "Giving human qualities to objects." }],
             steps: [

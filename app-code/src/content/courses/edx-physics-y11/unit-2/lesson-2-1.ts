@@ -191,7 +191,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "The direction of the magnetic field" },
               { id: "d", text: "The direction of the force (motion)" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -200,7 +200,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "The thumb gives the direction of the thrust, the force on the wire. The field is the first finger and the current is the second finger.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** The direction of the force (motion)",
+            finalAnswer: "**(d)** The direction of the force (motion)",
             commonErrors: ["Choosing (a), confusing the thumb with the first finger.", "Choosing (d); induced voltage belongs to generators, not the motor effect."],
             examinerNote: "B1 for (c).",
           },

@@ -65,7 +65,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall the monomer.", working: "\\text{amino acid}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Amino acid",
+            finalAnswer: "**(c)** Amino acid",
             commonErrors: ["Choosing glucose — that's the monomer of carbohydrates."],
           },
         },
@@ -160,7 +160,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Identify the simple sugar.", working: "\\text{glucose}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Glucose",
+            finalAnswer: "**(d)** Glucose",
             commonErrors: ["Choosing sucrose — that is a disaccharide."],
           },
         },
@@ -186,7 +186,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall the monomer.", working: "\\text{amino acid}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Amino acid",
+            finalAnswer: "**(c)** Amino acid",
             commonErrors: ["Choosing fatty acid — that is a lipid component."],
           },
         },
@@ -212,7 +212,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall where glycogen is stored.", working: "\\text{animal cells}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Animal cells (e.g. liver and muscle)",
+            finalAnswer: "**(d)** Animal cells (e.g. liver and muscle)",
             commonErrors: ["Choosing plant cell walls — that is cellulose's role."],
           },
         },
@@ -276,7 +276,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall the bond type.", working: "\\text{peptide bond}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Peptide bond",
+            finalAnswer: "**(c)** Peptide bond",
             commonErrors: ["Choosing glycosidic — that joins sugars in carbohydrates."],
           },
         },
@@ -457,7 +457,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall the test.", working: "\\text{iodine}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Iodine solution",
+            finalAnswer: "**(d)** Iodine solution",
             commonErrors: ["Choosing Benedict's — that's for reducing sugars."],
           },
         },
@@ -553,7 +553,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall the reagent.", working: "\\text{iodine}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Iodine solution",
+            finalAnswer: "**(b)** Iodine solution",
             commonErrors: ["Choosing Benedict's — that tests reducing sugars."],
           },
         },
@@ -605,7 +605,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall the test for protein.", working: "\\text{Biuret}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Biuret test (NaOH + CuSO₄)",
+            finalAnswer: "**(b)** Biuret test (NaOH + CuSO₄)",
             commonErrors: ["Choosing iodine — that detects starch."],
           },
         },
@@ -669,7 +669,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall which test needs heat.", working: "\\text{Benedict's}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Benedict's test",
+            finalAnswer: "**(c)** Benedict's test",
             commonErrors: ["Choosing Biuret — it is done at room temperature."],
           },
         },
@@ -735,7 +735,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall the positive result.", working: "\\text{cloudy white emulsion}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A cloudy white emulsion",
+            finalAnswer: "**(c)** A cloudy white emulsion",
             commonErrors: ["Choosing lilac — that is protein."],
           },
         },

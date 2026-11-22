@@ -150,7 +150,7 @@ export const lesson11: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. Macbeth names ambition as his only spur. Nothing in the excerpt mentions fear of an attack, a flaw in Duncan, or orders from others.",
+              "**(b)**. Macbeth names ambition as his only spur. Nothing in the excerpt mentions fear of an attack, a flaw in Duncan, or orders from others.",
             commonErrors: [
               "Importing ideas from other scenes that the excerpt does not support.",
             ],
@@ -455,7 +455,7 @@ export const lesson11: Lesson = {
                 text: "Wait, hush: something has caught my attention.",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -476,7 +476,7 @@ export const lesson11: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)**. Romeo stops himself because something has caught his eye. The modern meaning of 'soft' does not fit the line.",
+              "**(d)**. Romeo stops himself because something has caught his eye. The modern meaning of 'soft' does not fit the line.",
             commonErrors: [
               "Reading 'soft' with its modern meaning of gentle or weak.",
             ],

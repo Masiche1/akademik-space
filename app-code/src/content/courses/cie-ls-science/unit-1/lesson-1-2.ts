@@ -65,7 +65,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Measuring cylinders measure liquid volume in ml.", working: "cylinder", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Measuring cylinder",
+            finalAnswer: "**(d)** Measuring cylinder",
             commonErrors: ["Choosing (b) — rulers measure length, not volume."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Instruments", statement: "A balance measures mass; a ruler measures length." }],
             steps: [{ reasoning: "Balances are designed to measure mass.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Balance",
+            finalAnswer: "**(b)** Balance",
           },
         },
         {
@@ -214,7 +214,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Meniscus", statement: "Read at eye level at the bottom of the curved surface." }],
             steps: [{ reasoning: "The bottom of the meniscus gives the correct volume reading.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Bottom of the meniscus at eye level",
+            finalAnswer: "**(c)** Bottom of the meniscus at eye level",
           },
         },
         {
@@ -262,7 +262,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Precision", statement: "Precision describes consistency of repeated measurements." }],
             steps: [{ reasoning: "Precision is about repeatability, not closeness to truth.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** How consistent repeated measurements are",
+            finalAnswer: "**(c)** How consistent repeated measurements are",
           },
         },
         {
@@ -344,7 +344,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Reading scales", statement: "Estimate to one digit beyond the smallest division." }],
             steps: [{ reasoning: "14.3 cm estimates to one decimal place beyond mm marks.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 14.3 cm",
+            finalAnswer: "**(d)** 14.3 cm",
           },
         },
       ],
@@ -399,7 +399,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Temperature varies continuously → line graph shows trend.", working: "line", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Line graph",
+            finalAnswer: "**(c)** Line graph",
             commonErrors: ["Choosing (b) — bar charts compare discrete categories."],
           },
         },
@@ -500,7 +500,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Graph choice", statement: "Bar charts compare discrete categories." }],
             steps: [{ reasoning: "Fruit types are categories, so a bar chart is appropriate.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Bar chart",
+            finalAnswer: "**(c)** Bar chart",
           },
         },
         {
@@ -597,7 +597,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Graph choice", statement: "Line graphs show continuous change over time." }],
             steps: [{ reasoning: "Temperature changes continuously through the day.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Line graph",
+            finalAnswer: "**(d)** Line graph",
           },
         },
         {
@@ -630,7 +630,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Units", statement: "Measurements must include units to be meaningful." }],
             steps: [{ reasoning: "Units identify the quantity and scale of the value.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** To show what quantity and scale are being reported",
+            finalAnswer: "**(b)** To show what quantity and scale are being reported",
           },
         },
         {
@@ -679,7 +679,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Repeats", statement: "All repeat values should be recorded for analysis." }],
             steps: [{ reasoning: "Recording repeats allows means, ranges and anomalies to be assessed.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Record all values so consistency can be checked",
+            finalAnswer: "**(b)** Record all values so consistency can be checked",
           },
         },
       ],

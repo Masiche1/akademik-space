@@ -70,7 +70,7 @@ export const lesson32: Lesson = {
               { reasoning: "Objective is what a character wants to achieve in that scene.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** What they want to achieve in that moment",
+            finalAnswer: "**(c)** What they want to achieve in that moment",
             commonErrors: [
               "Confusing objective (scene goal) with superobjective (overall goal).",
             ],
@@ -177,7 +177,7 @@ export const lesson32: Lesson = {
               { reasoning: "The obstacle is the resistance — internal or external — that blocks the character's want.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** What prevents a character from achieving their objective",
+            finalAnswer: "**(c)** What prevents a character from achieving their objective",
             commonErrors: [
               "Confusing obstacle with objective.",
             ],
@@ -235,7 +235,7 @@ export const lesson32: Lesson = {
               { reasoning: "Pleading and threatening are different strategies for the same want — that is a change of tactics, not objective.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Tactics",
+            finalAnswer: "**(c)** Tactics",
             commonErrors: [
               "Confusing tactics (strategies) with objective (the want).",
             ],
@@ -293,7 +293,7 @@ export const lesson32: Lesson = {
               { reasoning: "A tactic is a strategy; when one fails the character tries another while the objective stays the same.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The character adapts strategy as the obstacle responds",
+            finalAnswer: "**(d)** The character adapts strategy as the obstacle responds",
             commonErrors: [
               "Assuming the objective changes whenever tactics change.",
             ],
@@ -322,7 +322,7 @@ export const lesson32: Lesson = {
               { reasoning: "The objective is the scene goal; knowing it tells the actor what to pursue and where emphasis belongs.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** What to pursue and where to place emphasis",
+            finalAnswer: "**(c)** What to pursue and where to place emphasis",
             commonErrors: [
               "Treating analysis as academic rather than performance preparation.",
             ],
@@ -520,7 +520,7 @@ export const lesson32: Lesson = {
               { reasoning: "Blocking is the planned movement and positioning of actors.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The planned movement and positioning of actors on stage",
+            finalAnswer: "**(c)** The planned movement and positioning of actors on stage",
             commonErrors: [
               "Confusing blocking (movement) with script or design.",
             ],
@@ -621,7 +621,7 @@ export const lesson32: Lesson = {
               { reasoning: "Delivery is the vocal performance of lines, carrying subtextual meaning.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** How lines are spoken",
+            finalAnswer: "**(d)** How lines are spoken",
             commonErrors: [
               "Confusing delivery with set or costume design.",
             ],
@@ -650,7 +650,7 @@ export const lesson32: Lesson = {
               { reasoning: "Proximity is charged — it can signal intimacy or confrontation depending on the scene.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Intimacy or threat, depending on context",
+            finalAnswer: "**(a)** Intimacy or threat, depending on context",
             commonErrors: [
               "Assuming proximity always means affection.",
             ],
@@ -737,7 +737,7 @@ export const lesson32: Lesson = {
               { reasoning: "Blocking is choreography that serves the drama; advance/retreat and proximity can externalise tension.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Movement externalises the drama's rising tension",
+            finalAnswer: "**(c)** Movement externalises the drama's rising tension",
             commonErrors: [
               "Blocking without considering emotional trajectory.",
             ],
@@ -766,7 +766,7 @@ export const lesson32: Lesson = {
               { reasoning: "A pause before a key line creates anticipation and lets subtext land.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Create anticipation and weight, revealing subtext",
+            finalAnswer: "**(a)** Create anticipation and weight, revealing subtext",
             commonErrors: [
               "Treating pauses as dead time rather than dramatic tools.",
             ],

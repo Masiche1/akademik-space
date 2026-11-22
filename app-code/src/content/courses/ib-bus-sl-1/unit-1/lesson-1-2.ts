@@ -98,7 +98,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Public limited company" },
               { id: "d", text: "Cooperative" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -123,7 +123,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Partnership",
+            finalAnswer: "**(a)** Partnership",
             commonErrors: [
               "Thinking all partnerships are limited — a limited partnership is a different, rarer form.",
             ],
@@ -348,7 +348,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Unlimited liability",
+            finalAnswer: "**(c)** Unlimited liability",
             commonErrors: [
               "Confusing sole traders with companies — sole traders do not publish accounts.",
             ],
@@ -392,7 +392,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Two",
+            finalAnswer: "**(c)** Two",
             commonErrors: [
               "Confusing the seven-member minimum for a cooperative with a partnership.",
             ],
@@ -440,7 +440,7 @@ export const lesson12: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Owners are personally responsible for all business debts",
+              "**(a)** Owners are personally responsible for all business debts",
             commonErrors: [
               "Thinking liability is limited to what the owner invested — that is limited liability.",
             ],
@@ -460,7 +460,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "The ability to sell shares publicly" },
               { id: "d", text: "Freedom from all business debts" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -484,7 +484,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(d)** Pooled capital, skills and shared workload",
+            finalAnswer: "**(b)** Pooled capital, skills and shared workload",
             commonErrors: [
               "Thinking partnerships give limited liability — they do not.",
             ],
@@ -555,7 +555,7 @@ export const lesson12: Lesson = {
                 text: "Gain limited liability and easier access to capital",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -580,7 +580,7 @@ export const lesson12: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Gain limited liability and easier access to capital",
+              "**(d)** Gain limited liability and easier access to capital",
             commonErrors: ["Thinking incorporation avoids tax — it does not."],
           },
         },
@@ -999,7 +999,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Sell shares to the general public",
+            finalAnswer: "**(a)** Sell shares to the general public",
             commonErrors: ["Thinking Ltds cannot have limited liability."],
           },
         },
@@ -1292,7 +1292,7 @@ export const lesson12: Lesson = {
                 text: "Publish full accounts and meet stricter regulation",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1317,7 +1317,7 @@ export const lesson12: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Publish full accounts and meet stricter regulation",
+              "**(d)** Publish full accounts and meet stricter regulation",
             commonErrors: [
               "Thinking PLCs hide information — they disclose far more than Ltds.",
             ],
@@ -1368,7 +1368,7 @@ export const lesson12: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The company can own property and sign contracts in its own name",
+              "**(d)** The company can own property and sign contracts in its own name",
             commonErrors: [
               "Thinking the company is just an extension of the owner — it is legally distinct.",
             ],
@@ -1416,7 +1416,7 @@ export const lesson12: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Shares are dispersed among many small owners while managers run the business",
+              "**(a)** Shares are dispersed among many small owners while managers run the business",
             commonErrors: [
               "Assuming PLC shareholders run the company day-to-day.",
             ],

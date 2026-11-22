@@ -139,7 +139,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Accuracy", statement: "Close to true value." }],
             steps: [{ reasoning: "Recall.", working: "\\text{true value}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Close to the true value",
+            finalAnswer: "**(d)** Close to the true value",
             commonErrors: ["Confusing accuracy with precision."],
           },
         },
@@ -241,7 +241,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Significant figures", statement: "Leading zeros don't count; 5,0,2 count." }],
             steps: [{ reasoning: "Count 5, 0, 2.", working: "5,0,2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 3",
+            finalAnswer: "**(c)** 3",
             commonErrors: ["Counting leading zeros."],
           },
         },
@@ -271,11 +271,11 @@ export const lessonp112: Lesson = {
             { id: "b", text: "Thermometer" },
             { id: "c", text: "Metre rule" },
             { id: "d", text: "Measuring tape" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Instruments", statement: "Micrometer: smallest division." }],
             steps: [{ reasoning: "Recall.", working: "\\text{micrometer}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Micrometer screw gauge",
+            finalAnswer: "**(a)** Micrometer screw gauge",
             commonErrors: ["Vernier calipers also good but micrometer has finer resolution."],
           },
         },
@@ -313,7 +313,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Zero error", statement: "Reading at zero input." }],
             steps: [{ reasoning: "Recall.", working: "\\text{zero input reading}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The reading shown when the input is zero",
+            finalAnswer: "**(a)** The reading shown when the input is zero",
             commonErrors: ["Confusing with uncertainty."],
           },
         },
@@ -387,7 +387,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Practical", statement: "Repeats improve reliability." }],
             steps: [{ reasoning: "Recall.", working: "\\text{precision/anomalies}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** To check precision and find anomalies",
+            finalAnswer: "**(d)** To check precision and find anomalies",
             commonErrors: ["Single reading insufficient."],
           },
         },
@@ -467,7 +467,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Line of best fit", statement: "Balance points, ignore anomalies." }],
             steps: [{ reasoning: "Recall.", working: "\\text{trend}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Show the overall trend, balancing points above and below",
+            finalAnswer: "**(d)** Show the overall trend, balancing points above and below",
             commonErrors: ["Joining dots is wrong."],
           },
         },
@@ -569,7 +569,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Anomalies", statement: "Check anomalies before discarding." }],
             steps: [{ reasoning: "Recall.", working: "\\text{check/repeat}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Check and possibly repeat the measurement",
+            finalAnswer: "**(a)** Check and possibly repeat the measurement",
             commonErrors: ["Silently deleting data."],
           },
         },
@@ -603,7 +603,7 @@ export const lessonp112: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Error bars", statement: "Show uncertainty range." }],
             steps: [{ reasoning: "Recall.", working: "\\text{uncertainty}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** The range of possible values / uncertainty",
+            finalAnswer: "**(b)** The range of possible values / uncertainty",
             commonErrors: ["Confusing with line of best fit."],
           },
         },

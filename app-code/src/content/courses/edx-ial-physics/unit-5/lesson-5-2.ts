@@ -95,7 +95,7 @@ export const lesson52: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Displacement",
+            finalAnswer: "**(c)** Displacement",
             commonErrors: ["Saying acceleration is proportional to velocity."],
           },
         },
@@ -337,7 +337,7 @@ export const lesson52: Lesson = {
               { id: "c", text: "All equally penetrating" },
               { id: "d", text: "Gamma" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -355,7 +355,7 @@ export const lesson52: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** Gamma",
+            finalAnswer: "**(d)** Gamma",
             commonErrors: [
               "Thinking alpha is most penetrating because it is heaviest.",
             ],

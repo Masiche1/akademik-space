@@ -221,7 +221,7 @@ export const lesson53: Lesson = {
               { reasoning: "Solve the resulting linear equation.", working: "x+2=3x-6 \\implies 8=2x \\implies x=4", marks: 1, markCode: "A" },
               { reasoning: "Check the arithmetic against the equation: at $x=4$, the sides are $1/2$ and $1/2$. Therefore $x=4$ is valid.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(a)** $x=4$",
+            finalAnswer: "**(d)** $x=4$",
             commonErrors: ["Reversing the cross-products and reporting $x=-4$.", "Accepting an excluded value without checking the original denominators."],
           },
         },

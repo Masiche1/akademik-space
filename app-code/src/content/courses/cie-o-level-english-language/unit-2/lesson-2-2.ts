@@ -65,7 +65,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "First person = 'I'.", working: "I", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Narrator uses 'I'",
+            finalAnswer: "**(d)** Narrator uses 'I'",
             commonErrors: ["Choosing (c) — that's third person."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Flashback = past.", working: "past", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** A scene set in an earlier time",
+            finalAnswer: "**(c)** A scene set in an earlier time",
             commonErrors: ["Choosing (b) — that's foreshadowing."],
           },
         },
@@ -336,7 +336,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "First person narrator shares inner thoughts.", working: "first person", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** First person",
+            finalAnswer: "**(d)** First person",
             commonErrors: ["Choosing (c) — omniscient knows all but isn't 'I'."],
           },
         },
@@ -421,7 +421,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Indirect = shown, not told.", working: "shown", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Actions, dialogue and thoughts",
+            finalAnswer: "**(b)** Actions, dialogue and thoughts",
             commonErrors: ["Choosing (b) — that's direct."],
           },
         },
@@ -501,7 +501,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Suspense = tension/anticipation.", working: "tension", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Tension and anticipation",
+            finalAnswer: "**(b)** Tension and anticipation",
             commonErrors: ["Choosing (b)/(c) — it's about tension, not outcome."],
           },
         },
@@ -656,7 +656,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Flashback reveals the past.", working: "past", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Reveals past events and adds depth",
+            finalAnswer: "**(c)** Reveals past events and adds depth",
             commonErrors: ["Thinking it only introduces characters."],
           },
         },
@@ -726,7 +726,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Full analysis links technique to effect and meaning.", working: "chain", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Technique → what it does → effect → meaning",
+            finalAnswer: "**(d)** Technique → what it does → effect → meaning",
             commonErrors: ["Choosing (b) — listing alone earns few marks."],
           },
         },
@@ -772,7 +772,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Foreshadowing = future hints.", working: "future", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Foreshadowing",
+            finalAnswer: "**(c)** Foreshadowing",
             commonErrors: ["Choosing (b)/(d) — those are endings."],
           },
         },
@@ -857,7 +857,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Suspense = uncertainty → tension.", working: "uncertainty", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Creating uncertainty about what happens next",
+            finalAnswer: "**(b)** Creating uncertainty about what happens next",
             commonErrors: ["Thinking suspense means slow pacing."],
           },
         },
@@ -937,7 +937,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Editorial = opinion.", working: "opinion", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Opinion piece in newspaper",
+            finalAnswer: "**(c)** Opinion piece in newspaper",
             commonErrors: ["Choosing (b) — that's a report."],
           },
         },
@@ -1042,7 +1042,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Biography = life story.", working: "life story", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The life story of a person",
+            finalAnswer: "**(d)** The life story of a person",
             commonErrors: ["Confusing with autobiography — self-written."],
           },
         },
@@ -1092,7 +1092,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Editorial = opinion.", working: "opinion", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Gives an opinion",
+            finalAnswer: "**(d)** Gives an opinion",
             commonErrors: ["Choosing (b) — that's a report."],
           },
         },
@@ -1162,7 +1162,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Statistics + formal register = non-fiction signals.", working: "statistics", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Statistics and formal register",
+            finalAnswer: "**(d)** Statistics and formal register",
             commonErrors: ["Choosing (c) — slang signals informal fiction."],
           },
         },
@@ -1208,7 +1208,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Auto=self; bio=other.", working: "self vs other", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Self-written vs written by another person",
+            finalAnswer: "**(c)** Self-written vs written by another person",
             commonErrors: ["Choosing (d) — they differ in authorship."],
           },
         },
@@ -1293,7 +1293,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Non-fiction informs or persuades.", working: "inform", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Inform or persuade the reader",
+            finalAnswer: "**(b)** Inform or persuade the reader",
             commonErrors: ["Choosing (b) — that's fiction's main job."],
           },
         },

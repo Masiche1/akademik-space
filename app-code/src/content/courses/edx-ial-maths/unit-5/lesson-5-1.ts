@@ -397,7 +397,7 @@ export const lesson51: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** $3$ m/s$^2$",
+            finalAnswer: "**(b)** $3$ m/s$^2$",
             commonErrors: [
               "Dividing by the wrong time or forgetting to subtract $u$.",
             ],

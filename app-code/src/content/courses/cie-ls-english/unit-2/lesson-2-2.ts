@@ -80,7 +80,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "The bluntness of the short sentence gives it verdict-like force.", working: "\\text{verdict-like}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** It creates emphasis and finality",
+            finalAnswer: "**(c)** It creates emphasis and finality",
             commonErrors: ["Choosing (a) — the sentence is clear, not confusing."],
           },
         },
@@ -263,7 +263,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "'Why so many of us choose...' challenges the reader without expecting an answer.", working: "\\text{'why' question}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** The real question is why so many of us choose a screen over the person sitting next to us",
+            finalAnswer: "**(c)** The real question is why so many of us choose a screen over the person sitting next to us",
             commonErrors: ["Choosing (d) — it is a statement, not a question."],
           },
         },
@@ -330,7 +330,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "The final sentence is short and carries the extract's whole point.", working: "\\text{short, conclusive}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** She had simply noticed things other people walked past.",
+            finalAnswer: "**(c)** She had simply noticed things other people walked past.",
             commonErrors: ["Choosing (d) — it is short but mid-text; the emphatic one lands the ending."],
           },
         },
@@ -509,7 +509,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Faces lit from below is a classic unsettling image.", working: "\\text{under-lighting}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Something slightly sinister or unnatural",
+            finalAnswer: "**(c)** Something slightly sinister or unnatural",
             commonErrors: ["Choosing (a) — under-lighting suggests the opposite of warmth."],
           },
         },
@@ -618,7 +618,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "A 'distraction' is something that diverts from the main focus — here, learning and people.", working: "\\text{diverts attention}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Something that diverts attention from what matters",
+            finalAnswer: "**(d)** Something that diverts attention from what matters",
             commonErrors: ["Choosing (d) — 'distraction' is negative but not as extreme as 'dangerous'."],
           },
         },
@@ -777,7 +777,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "'Read' literally means to interpret signs — like reading a text.", working: "\\text{interpreted}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Interpreted, as one interprets a text",
+            finalAnswer: "**(a)** Interpreted, as one interprets a text",
             commonErrors: ["Choosing (a) — 'read' implies active interpretation, not casual looking."],
           },
         },

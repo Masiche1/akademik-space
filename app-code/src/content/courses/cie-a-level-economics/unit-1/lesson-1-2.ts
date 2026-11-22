@@ -235,7 +235,7 @@ export const lesson412: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "PED", "statement": "%ΔQd/%ΔP; <1 inelastic." } ],
           "steps": [ { "reasoning": "PED below 1 means quantity demanded responds proportionately less than price.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** price inelastic"
+          "finalAnswer": "**(d)** price inelastic"
 },
         },
         {
@@ -254,7 +254,7 @@ export const lesson412: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "YED", "statement": "Negative YED = inferior good." } ],
           "steps": [ { "reasoning": "A negative YED means demand falls as income rises — the definition of an inferior good.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** an inferior good"
+          "finalAnswer": "**(c)** an inferior good"
 },
         },
         {
@@ -273,7 +273,7 @@ export const lesson412: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "XED", "statement": "Positive XED = substitutes." } ],
           "steps": [ { "reasoning": "When the price of good B rises and demand for good A rises, XED is positive — the goods are substitutes.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** substitutes"
+          "finalAnswer": "**(c)** substitutes"
 },
         },
         {
@@ -311,7 +311,7 @@ export const lesson412: Lesson = {
           markscheme: {
           "principles": [ { "kind": "principle", "name": "PED determinants", "statement": "Substitutes, luxury status, time." } ],
           "steps": [ { "reasoning": "Many close substitutes and discretionary (luxury) status make demand highly price elastic; necessities like insulin, salt and staple bread are inelastic.", "marks": 1, "markCode": "A" } ],
-          "finalAnswer": "**(a)** A branded smartphone with many close rivals"
+          "finalAnswer": "**(c)** A branded smartphone with many close rivals"
 },
         },
         {

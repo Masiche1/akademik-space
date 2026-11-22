@@ -63,7 +63,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Power rule", statement: "$\\frac{d}{dx}(ax^n)=anx^{n-1}$" }],
             steps: [{ reasoning: "Multiply the coefficient by the power and reduce the power by 1.", working: "3 \\times 4 x^{3}=12x^3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $12x^3$",
+            finalAnswer: "**(b)** $12x^3$",
             commonErrors: ["Forgetting to reduce the power.", "Forgetting to multiply by the coefficient 3."],
           },
         },
@@ -200,7 +200,7 @@ export const lesson13: Lesson = {
               { reasoning: "Differentiate and set equal to zero.", working: "2x-6=0", marks: 1, markCode: "M" },
               { reasoning: "Solve.", working: "x=3", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $x=3$",
+            finalAnswer: "**(b)** $x=3$",
             commonErrors: ["Solving $x^2-6x+5=0$ instead, giving $x=1$ or $5$.", "A sign error giving $x=-3$."],
           },
         },

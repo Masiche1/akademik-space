@@ -55,11 +55,11 @@ export const lessonp71: Lesson = {
             { id: "b", text: "Gamma" },
             { id: "c", text: "Alpha" },
             { id: "d", text: "Beta" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Penetration", statement: "Gamma most penetrating." }],
             steps: [{ reasoning: "Recall.", working: "\\gamma", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Gamma",
+            finalAnswer: "**(b)** Gamma",
             commonErrors: ["Alpha is most ionising, not penetrating."],
           },
         },
@@ -139,7 +139,7 @@ export const lessonp71: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Penetration", statement: "Alpha is stopped by paper." }],
             steps: [{ reasoning: "Recall the stopping materials.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Alpha",
+            finalAnswer: "**(c)** Alpha",
             commonErrors: ["Beta passes through paper and needs aluminium."],
           },
         },
@@ -226,7 +226,7 @@ export const lessonp71: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Half-life", statement: "Each half-life halves the remaining amount." }],
             steps: [{ reasoning: "Half of a half remains.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 1/4",
+            finalAnswer: "**(a)** 1/4",
             commonErrors: ["Using 1/2 instead of applying the halving twice."],
           },
         },
@@ -281,11 +281,11 @@ export const lessonp71: Lesson = {
             { id: "b", text: "Alpha" },
             { id: "c", text: "All equal" },
             { id: "d", text: "Beta" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Ionisation", statement: "Gamma is weakly ionising." }],
             steps: [{ reasoning: "Recall the ionisation order.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Gamma",
+            finalAnswer: "**(a)** Gamma",
             commonErrors: ["Gamma is most penetrating but least ionising."],
           },
         },
@@ -320,7 +320,7 @@ export const lessonp71: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Beta", statement: "Beta is a fast electron." }],
             steps: [{ reasoning: "Recall the nature of beta radiation.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A fast electron",
+            finalAnswer: "**(c)** A fast electron",
             commonErrors: ["Confusing beta with alpha or gamma."],
           },
         },
@@ -382,7 +382,7 @@ export const lessonp71: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Fission", statement: "Heavy nucleus splits." }],
             steps: [{ reasoning: "Recall.", working: "\\text{split}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Heavy nucleus splits",
+            finalAnswer: "**(d)** Heavy nucleus splits",
             commonErrors: ["Confusing with fusion."],
           },
         },
@@ -462,7 +462,7 @@ export const lessonp71: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Fusion", statement: "Light nuclei join → heavier nucleus + energy." }],
             steps: [{ reasoning: "Recall.", working: "\\text{light} \\to \\text{heavy}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Light nuclei combine to form a heavier nucleus",
+            finalAnswer: "**(c)** Light nuclei combine to form a heavier nucleus",
             commonErrors: ["Confusing fusion with fission — fusion joins, fission splits."],
           },
         },
@@ -480,7 +480,7 @@ export const lessonp71: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Nuclear energy", statement: "Both processes release large amounts of energy." }],
             steps: [{ reasoning: "Recall.", working: "E \\text{ released}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Energy",
+            finalAnswer: "**(d)** Energy",
             commonErrors: ["Thinking these are chemical reactions — the energy scale is nuclear."],
           },
         },
@@ -498,7 +498,7 @@ export const lessonp71: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Fission", statement: "Controlled fission used in reactors." }],
             steps: [{ reasoning: "Recall.", working: "\\text{reactor} \\to \\text{fission}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Fission",
+            finalAnswer: "**(d)** Fission",
             commonErrors: ["Fusion is used in stars, not current power stations."],
           },
         },
@@ -569,7 +569,7 @@ export const lessonp71: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Fission waste", statement: "Fission leaves radioactive waste products." }],
             steps: [{ reasoning: "Recall.", working: "\\text{radioactive waste}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It produces radioactive waste",
+            finalAnswer: "**(a)** It produces radioactive waste",
             commonErrors: ["Thinking fission is completely clean — waste remains for thousands of years."],
           },
         },

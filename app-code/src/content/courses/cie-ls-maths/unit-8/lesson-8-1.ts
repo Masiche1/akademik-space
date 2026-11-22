@@ -66,7 +66,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "$5$ appears $3$ times, most frequent → mode $=5$.", working: "mode=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5$",
+            finalAnswer: "**(b)** $5$",
             commonErrors: ["Choosing (c) — that's the mean, not mode."],
           },
         },
@@ -249,7 +249,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Median uses only the middle value — outliers barely change it.", working: "\\text{median}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Median",
+            finalAnswer: "**(c)** Median",
             commonErrors: ["Choosing (a) — mean uses every value including the outlier."],
           },
         },
@@ -320,7 +320,7 @@ export const lesson81: Lesson = {
               { id: "c", text: "Median" },
               { id: "d", text: "Range" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -329,7 +329,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Colours can't be averaged numerically; mode gives most frequent.", working: "\\text{mode}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Mode",
+            finalAnswer: "**(a)** Mode",
             commonErrors: ["Choosing (a) — mean needs numerical data."],
           },
         },
@@ -414,7 +414,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "$8$ values: positions $4$ and $5$ are central; median is their mean.", working: "\\text{mean of 4th,5th}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The mean of the 4th and 5th values",
+            finalAnswer: "**(c)** The mean of the 4th and 5th values",
             commonErrors: ["Choosing (a) — only valid for odd counts."],
           },
         },
@@ -470,7 +470,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "$2.5 \\times 4 = 10$ apples.", working: "2.5\\times4=10", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $10$",
+            finalAnswer: "**(b)** $10$",
             commonErrors: ["Choosing (b) — added instead of multiplied."],
           },
         },
@@ -575,7 +575,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "$3.5 \\times 5 = 17.5$ apples.", working: "3.5\\times5=17.5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $17.5$",
+            finalAnswer: "**(d)** $17.5$",
             commonErrors: ["Choosing (a) — rounded down; $0.5$ of a symbol is half the key value."],
           },
         },
@@ -619,7 +619,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Highest frequency is $14$ (Bananas).", working: "14", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Bananas",
+            finalAnswer: "**(c)** Bananas",
             commonErrors: ["Reading bar heights in the wrong order — compare values, not positions."],
           },
         },
@@ -681,7 +681,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "$3 + 0.5 = 3.5$ symbols; $3.5 \\times 2.5 = 8.75$.", working: "3.5\\times2.5=8.75", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $8.75$",
+            finalAnswer: "**(b)** $8.75$",
             commonErrors: ["Choosing (b) — ignored the half symbol."],
           },
         },
@@ -789,7 +789,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "$2.5 \\times 8 = 20$.", working: "2.5\\times8=20", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $20$",
+            finalAnswer: "**(c)** $20$",
             commonErrors: ["Choosing (a) — used $2$ symbols, ignoring the half."],
           },
         },

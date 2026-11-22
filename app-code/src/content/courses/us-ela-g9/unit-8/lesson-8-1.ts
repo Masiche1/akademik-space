@@ -327,7 +327,7 @@ export const lesson81: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Indirect — through actions, thoughts, learned behaviors.",
+              "**(d)**. Indirect — through actions, thoughts, learned behaviors.",
             commonErrors: ["Missing inference-based characterization."],
           },
         },

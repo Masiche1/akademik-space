@@ -51,7 +51,7 @@ export const lesson24: Lesson = {
             { id: "b", text: "Beautiful" },
             { id: "c", text: "Table" },
             { id: "d", text: "Quickly" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Verb", statement: "Doing or being word." }],
             steps: [{ reasoning: "'Run' is an action; the others are adverb, adjective, noun.", marks: 1, markCode: "AO2" }],
@@ -116,7 +116,7 @@ export const lesson24: Lesson = {
             { id: "b", text: "Bright" },
             { id: "c", text: "Under" },
             { id: "d", text: "Sing" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Adjective", statement: "Describing word." }],
             steps: [{ reasoning: "'Bright' describes a noun.", marks: 1, markCode: "AO2" }],

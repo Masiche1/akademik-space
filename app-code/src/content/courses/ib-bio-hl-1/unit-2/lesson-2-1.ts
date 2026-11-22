@@ -122,7 +122,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $2$ ATP",
+            finalAnswer: "**(b)** $2$ ATP",
             commonErrors: [
               "Quoting 4 ATP (gross) without subtracting the investment cost.",
             ],
@@ -398,7 +398,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Cytoplasm; no oxygen is required.",
+            finalAnswer: "**(b)** Cytoplasm; no oxygen is required.",
             commonErrors: [
               "Placing glycolysis in the mitochondrion — that is where the link reaction and Krebs cycle occur.",
             ],
@@ -503,7 +503,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Oxidation to NADH plus substrate-level phosphorylation to ATP.",
+              "**(b)** Oxidation to NADH plus substrate-level phosphorylation to ATP.",
             commonErrors: [
               "Describing oxidative phosphorylation, which occurs later in mitochondria.",
             ],
@@ -561,7 +561,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Direct phosphate transfer versus proton-gradient-driven phosphorylation.",
+              "**(d)** Direct phosphate transfer versus proton-gradient-driven phosphorylation.",
             commonErrors: [
               "Assuming all ATP production requires oxygen or mitochondria.",
             ],
@@ -616,7 +616,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Pyruvate is reduced to lactate to regenerate $NAD^+$.",
+              "**(c)** Pyruvate is reduced to lactate to regenerate $NAD^+$.",
             commonErrors: [
               "Claiming anaerobic respiration produces ATP after glycolysis.",
             ],
@@ -1088,7 +1088,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Oxidative phosphorylation",
+            finalAnswer: "**(c)** Oxidative phosphorylation",
             commonErrors: ["Choosing glycolysis, which yields only 2 ATP net."],
           },
         },
@@ -1345,7 +1345,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Acetyl CoA, $CO_2$ and NADH",
+            finalAnswer: "**(c)** Acetyl CoA, $CO_2$ and NADH",
             commonErrors: [
               "Including ATP — the link reaction produces NADH, not ATP.",
             ],
@@ -1436,7 +1436,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Oxygen, producing water.",
+            finalAnswer: "**(d)** Oxygen, producing water.",
             commonErrors: [
               "Naming $NAD^+$ as the final acceptor — it is the acceptor in glycolysis, not the ETC.",
             ],
@@ -1481,7 +1481,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $20$ ATP",
+            finalAnswer: "**(b)** $20$ ATP",
             commonErrors: [
               "Using 3 ATP per NADH from older textbook values instead of the stated 2.5.",
             ],
@@ -1533,7 +1533,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Proton return and ATP synthesis are blocked, slowing electron transport.",
+              "**(c)** Proton return and ATP synthesis are blocked, slowing electron transport.",
             commonErrors: [
               "Confusing oligomycin with cyanide, which blocks electron transfer at complex IV.",
             ],
@@ -1591,7 +1591,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Both use chemiosmosis with opposite proton-gradient orientations.",
+              "**(b)** Both use chemiosmosis with opposite proton-gradient orientations.",
             commonErrors: [
               "Assuming chloroplasts produce NADH or require oxygen as the final acceptor.",
             ],

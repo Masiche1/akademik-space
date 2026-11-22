@@ -76,7 +76,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Identify /ai/ sound.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** rain",
+            finalAnswer: "**(c)** rain",
             commonErrors: ["Choosing 'red' — different vowel sound."],
           },
         },
@@ -93,7 +93,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "play" },
               { id: "d", text: "make" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -111,7 +111,7 @@ export const lesson41: Lesson = {
               },
               { reasoning: "Answer: make.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** make",
+            finalAnswer: "**(d)** make",
             commonErrors: ["Confusing with ai/ay spellings."],
           },
         },
@@ -245,7 +245,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "-ed shows past action.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** walked",
+            finalAnswer: "**(c)** walked",
             commonErrors: ["Choosing -ing instead of -ed."],
           },
         },

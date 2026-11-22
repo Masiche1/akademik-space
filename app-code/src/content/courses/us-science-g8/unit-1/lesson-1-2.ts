@@ -64,7 +64,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The farther apart the objects are, the weaker the attraction.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It gets weaker.",
+            finalAnswer: "**(d)** It gets weaker.",
             commonErrors: ["Thinking gravity can be repulsive; gravity is always attractive.", "Thinking distance does not matter."],
             examinerNote: "B1 for weaker / decreases.",
           },
@@ -196,7 +196,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Two north poles are like poles, so they repel.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** They repel each other.",
+            finalAnswer: "**(c)** They repel each other.",
             commonErrors: ["Thinking that opposite poles repel.", "Thinking magnets only interact with iron."],
             examinerNote: "B1 for repel.",
           },

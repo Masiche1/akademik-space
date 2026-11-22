@@ -52,12 +52,12 @@ export const lesson33: Lesson = {
               { id: "c", text: "Cholera" },
               { id: "d", text: "Malaria" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Virus", statement: "Non-living, needs host cell." }],
             steps: [{ reasoning: "Influenza caused by virus.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Influenza",
+            finalAnswer: "**(b)** Influenza",
           },
         },
         {
@@ -170,7 +170,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Active immunity", statement: "Own antibodies + memory cells." }],
             steps: [{ reasoning: "Memory cells → faster/stronger secondary response.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Active immunity",
+            finalAnswer: "**(a)** Active immunity",
           },
         },
         {

@@ -196,7 +196,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$10\\%$ of 80 is 8 and $5\\%$ is 4, so add them.", working: "8+4=12", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $12$",
+            finalAnswer: "**(d)** $12$",
             commonErrors: ["Finding only $10\\%$ and choosing 8."],
           },
         },

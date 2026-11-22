@@ -251,7 +251,7 @@ export const lesson372: Lesson = {
               { id: "c", text: "Ordinary partnership" },
               { id: "d", text: "Private limited company (Ltd)" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -286,7 +286,7 @@ export const lesson372: Lesson = {
               { id: "c", text: "sole trader" },
               { id: "d", text: "public limited company" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

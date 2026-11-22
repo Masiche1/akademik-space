@@ -92,7 +92,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "See others rewarded.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Learning from seeing others rewarded",
+            finalAnswer: "**(d)** Learning from seeing others rewarded",
             commonErrors: ["Confusing with direct reinforcement."],
           },
         },
@@ -265,7 +265,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Observation of others",
+              "**(c)** Observation of others",
             commonErrors: ["Confusing with pure behaviourism."],
           },
         },
@@ -300,7 +300,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Attention, retention, reproduction, motivation",
+              "**(d)** Attention, retention, reproduction, motivation",
             commonErrors: ["Wrong order."],
           },
         },
@@ -335,7 +335,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Seeing model rewarded increases imitation",
+              "**(b)** Seeing model rewarded increases imitation",
             commonErrors: ["Confusing with direct reinforcement."],
           },
         },
@@ -370,7 +370,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Imitated more aggression",
+              "**(b)** Imitated more aggression",
             commonErrors: ["Saying no effect was found."],
           },
         },
@@ -410,7 +410,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Children imitate rewarded aggressive models",
+              "**(c)** Children imitate rewarded aggressive models",
             commonErrors: ["Claiming media causes aggression directly."],
           },
         },
@@ -758,7 +758,7 @@ export const lesson43: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Less likely to help when others present",
+            finalAnswer: "**(d)** Less likely to help when others present",
             commonErrors: ["Confusing with obedience."],
           },
         },
@@ -936,7 +936,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Helping without expecting reward",
+              "**(d)** Helping without expecting reward",
             commonErrors: ["Confusing with obedience."],
           },
         },
@@ -971,7 +971,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Less likely to help in groups",
+              "**(b)** Less likely to help in groups",
             commonErrors: ["Reversing the effect."],
           },
         },
@@ -1006,7 +1006,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Each assumes someone else will act",
+              "**(c)** Each assumes someone else will act",
             commonErrors: ["Saying responsibility increases."],
           },
         },
@@ -1041,7 +1041,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Misinterpret others' inaction as normality",
+              "**(d)** Misinterpret others' inaction as normality",
             commonErrors: ["Confusing with diffusion of responsibility."],
           },
         },
@@ -1081,7 +1081,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** 38 witnesses allegedly didn't help",
+              "**(c)** 38 witnesses allegedly didn't help",
             commonErrors: ["Saying it proved helping is common."],
           },
         },

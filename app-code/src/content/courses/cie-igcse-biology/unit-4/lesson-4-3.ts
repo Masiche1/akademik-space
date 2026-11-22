@@ -65,7 +65,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall trigger.", working: "\\text{vessel damage}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Damage to a blood vessel",
+            finalAnswer: "**(d)** Damage to a blood vessel",
             commonErrors: ["Choosing 'low oxygen' — that's a different response."],
           },
         },
@@ -212,7 +212,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall the conversion.", working: "\\text{fibrinogen} \\to \\text{fibrin}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fibrin",
+            finalAnswer: "**(b)** Fibrin",
             commonErrors: ["Saying fibrinogen 'clots itself' — it is converted to fibrin first."],
           },
         },
@@ -340,7 +340,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Link clotting to blockage risk.", working: "\\text{clot} \\to \\text{block} \\to \\text{heart attack/stroke}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Block vessels, causing a heart attack or stroke",
+            finalAnswer: "**(c)** Block vessels, causing a heart attack or stroke",
             commonErrors: ["Saying clotting is 'always good' — excessive clotting is harmful."],
           },
         },
@@ -366,7 +366,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Link rate to delivery.", working: "\\text{faster} \\to \\text{more O}_2/\\text{glucose}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Deliver more oxygen and glucose to the muscles",
+            finalAnswer: "**(b)** Deliver more oxygen and glucose to the muscles",
             commonErrors: ["Saying 'to rest the heart' — rate increases to work harder."],
           },
         },
@@ -392,7 +392,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall the structure.", working: "\\text{mesh}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A mesh",
+            finalAnswer: "**(c)** A mesh",
             commonErrors: ["Saying 'solid plug' — fibrin forms a mesh that traps cells."],
           },
         },
@@ -561,7 +561,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall the mechanism.", working: "\\text{active transport}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Active transport",
+            finalAnswer: "**(b)** Active transport",
             commonErrors: ["Choosing osmosis — that is for water, not ions."],
           },
         },
@@ -587,7 +587,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall the direction of force.", working: "\\text{push up}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Pushing water up the xylem",
+            finalAnswer: "**(d)** Pushing water up the xylem",
             commonErrors: ["Saying 'pulling' — root pressure pushes; transpiration pulls."],
           },
         },
@@ -613,7 +613,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall the gradient.", working: "\\psi_{\\text{soil}} > \\psi_{\\text{cell}}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A higher water potential than the cell sap",
+            finalAnswer: "**(c)** A higher water potential than the cell sap",
             commonErrors: ["Reversing the gradient — water flows high → low water potential."],
           },
         },
@@ -793,7 +793,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall the loading cells.", working: "\\text{companion cells}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Companion cells",
+            finalAnswer: "**(c)** Companion cells",
             commonErrors: ["Choosing xylem vessels — they are dead and transport water."],
           },
         },

@@ -65,7 +65,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Both use same molecules, opposite directions.", working: "same molecules", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Both involve glucose, CO₂ and oxygen",
+            finalAnswer: "**(b)** Both involve glucose, CO₂ and oxygen",
             commonErrors: ["Choosing (b) — only photosynthesis produces oxygen."],
           },
         },
@@ -324,7 +324,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "High temperature denatures enzymes.", working: "denature", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Enzymes denature — their shape changes permanently",
+            finalAnswer: "**(a)** Enzymes denature — their shape changes permanently",
             commonErrors: ["Thinking activity just slows — denaturation is permanent."],
           },
         },
@@ -391,7 +391,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Blood (circulation) carries O₂/glucose to muscles.", working: "circulatory", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Circulatory system",
+            finalAnswer: "**(a)** Circulatory system",
             commonErrors: ["Choosing digestive — it absorbs nutrients but blood transports them."],
           },
         },
@@ -679,7 +679,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Anomaly = doesn't fit the trend.", working: "pattern", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A result that does not fit the pattern",
+            finalAnswer: "**(b)** A result that does not fit the pattern",
             commonErrors: ["Thinking any extreme value is anomalous — it must break the pattern."],
           },
         },
@@ -766,7 +766,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Validity = accurate measurement of the intended variable.", working: "intended", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Measuring the intended variable accurately with suitable apparatus",
+            finalAnswer: "**(d)** Measuring the intended variable accurately with suitable apparatus",
             commonErrors: ["Choosing (a) — repeats improve reliability, not validity."],
           },
         },
@@ -832,7 +832,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Repeats + mean reduce random error.", working: "mean", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Repeat readings and calculate the mean",
+            finalAnswer: "**(a)** Repeat readings and calculate the mean",
             commonErrors: ["Ignoring readings without justification — anomalies need investigation."],
           },
         },
@@ -951,7 +951,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "All science studies these.", working: "unified", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Matter, energy and life",
+            finalAnswer: "**(b)** Matter, energy and life",
             commonErrors: ["Choosing single subject — science is integrated."],
           },
         },
@@ -1056,7 +1056,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Matter and energy underpin every science topic.", working: "matter/energy", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Matter, energy and their interactions",
+            finalAnswer: "**(c)** Matter, energy and their interactions",
             commonErrors: ["Choosing a single-subject answer — science is integrated."],
           },
         },
@@ -1122,7 +1122,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Decomposers recycle nutrients.", working: "decomposers", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Decomposers",
+            finalAnswer: "**(c)** Decomposers",
             commonErrors: ["Choosing producers — they capture energy, not decompose."],
           },
         },
@@ -1275,7 +1275,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Systems thinking = interactions and ripple effects.", working: "interactions", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Explaining how a change in one system affects others",
+            finalAnswer: "**(a)** Explaining how a change in one system affects others",
             commonErrors: ["Choosing isolated facts — systems thinking requires connections."],
           },
         },

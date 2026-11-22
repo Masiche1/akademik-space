@@ -64,7 +64,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Purpose", statement: "A text is judged by how well it achieves its purpose." }],
             steps: [{ reasoning: "Criterion A (Analysing): effectiveness = achieves purpose — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Does it achieve its purpose?",
+            finalAnswer: "**(c)** Does it achieve its purpose?",
           },
         },
         {
@@ -151,7 +151,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): purpose first — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Identify its purpose",
+            finalAnswer: "**(a)** Identify its purpose",
           },
         },
         {
@@ -195,7 +195,7 @@ export const lesson13: Lesson = {
               { reasoning: "Criterion A (Analysing): clarity = understandable, impact = affects reader — (a).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): different criteria measuring different qualities.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Clarity = easy to understand; impact = emotional/intellectual effect",
+            finalAnswer: "**(c)** Clarity = easy to understand; impact = emotional/intellectual effect",
           },
         },
         {
@@ -240,7 +240,7 @@ export const lesson13: Lesson = {
               { reasoning: "Criterion A (Analysing): 'very detailed', 'comprehensive', 'everything' are vague — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): repetition of similar claims adds nothing.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It uses vague, repetitive language without specifics",
+            finalAnswer: "**(c)** It uses vague, repetitive language without specifics",
           },
         },
         {
@@ -313,7 +313,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): originality = freshness — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Whether the text says something new or fresh",
+            finalAnswer: "**(c)** Whether the text says something new or fresh",
           },
         },
         {
@@ -357,7 +357,7 @@ export const lesson13: Lesson = {
               { reasoning: "Criterion A (Analysing): balance shows fairness — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): one-sided praise/criticism seems biased or unthinking.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Because acknowledging counter-arguments shows fairness and depth",
+            finalAnswer: "**(a)** Because acknowledging counter-arguments shows fairness and depth",
           },
         },
         {
@@ -542,7 +542,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): judgment comes first — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A clear judgment statement",
+            finalAnswer: "**(c)** A clear judgment statement",
           },
         },
         {
@@ -581,7 +581,7 @@ export const lesson13: Lesson = {
               { reasoning: "Criterion A (Analysing): 'I liked it' = preference, no reasoning — (a).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): 'effective because...' uses criteria and evidence — reasoned evaluation.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Because 'I liked it' gives no criteria or evidence",
+            finalAnswer: "**(d)** Because 'I liked it' gives no criteria or evidence",
           },
         },
         {
@@ -700,7 +700,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): evidence = textual support — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Specific details or quotations from the text supporting your claim",
+            finalAnswer: "**(c)** Specific details or quotations from the text supporting your claim",
           },
         },
         {
@@ -731,7 +731,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "'The poem was very good.'" },
               { id: "d", text: "'The poem was written in 1999.'" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Judgment quality", statement: "Strong judgments use criteria, evidence and balance." }],
@@ -739,7 +739,7 @@ export const lesson13: Lesson = {
               { reasoning: "Criterion A (Analysing): (c) gives criteria ('imagery vivid') and acknowledges weakness ('message unclear').", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): others are vague or factual without evaluation.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** The poem was effective — its imagery was vivid, though its message was unclear.",
+            finalAnswer: "**(b)** The poem was effective — its imagery was vivid, though its message was unclear.",
           },
         },
         {

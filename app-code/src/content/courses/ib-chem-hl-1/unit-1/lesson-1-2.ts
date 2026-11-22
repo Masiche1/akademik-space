@@ -365,7 +365,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Increasing nuclear charge with constant shielding",
+            finalAnswer: "**(b)** Increasing nuclear charge with constant shielding",
             commonErrors: [
               "Claiming atoms get larger across a period — radius actually decreases.",
             ],
@@ -412,7 +412,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Paired-electron repulsion in S's $3p^4$ configuration",
+            finalAnswer: "**(d)** Paired-electron repulsion in S's $3p^4$ configuration",
             commonErrors: [
               "Saying sulfur's IE is higher because of greater nuclear charge — the pairing effect outweighs it.",
             ],
@@ -459,7 +459,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Shielding of the $3p$ electron by the $3s^2$ pair",
+            finalAnswer: "**(d)** Shielding of the $3p$ electron by the $3s^2$ pair",
             commonErrors: [
               "Attributing the dip to atomic size alone without the subshell-shielding argument.",
             ],
@@ -1071,7 +1071,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Chlorine",
+            finalAnswer: "**(d)** Chlorine",
             commonErrors: [
               "Choosing fluorine — it is the classic anomaly because its small radius increases repulsion.",
             ],
@@ -1309,7 +1309,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Exothermic",
+            finalAnswer: "**(d)** Exothermic",
             commonErrors: [
               "Thinking gaining an electron always costs energy — only the second electron does.",
             ],
@@ -1356,7 +1356,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Electron-electron repulsion in the small fluorine atom",
+            finalAnswer: "**(b)** Electron-electron repulsion in the small fluorine atom",
             commonErrors: [
               "Assuming the trend down a group is perfectly smooth — fluorine is the classic exception.",
             ],
@@ -1403,7 +1403,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Repulsion by the negatively charged ion",
+            finalAnswer: "**(b)** Repulsion by the negatively charged ion",
             commonErrors: [
               "Thinking the second EA could be exothermic for very electronegative elements — it never is.",
             ],

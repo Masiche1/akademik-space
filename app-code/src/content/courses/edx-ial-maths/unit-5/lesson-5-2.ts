@@ -109,7 +109,7 @@ export const lesson52: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** $5$ m/s$^2$",
+            finalAnswer: "**(b)** $5$ m/s$^2$",
             commonErrors: ["Multiplying $F$ by $m$ instead of dividing."],
           },
         },

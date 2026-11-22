@@ -146,7 +146,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): correct distinction — (b).", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** 'their' = possession, 'there' = place, 'they're' = they are",
+            finalAnswer: "**(d)** 'their' = possession, 'there' = place, 'they're' = they are",
           },
         },
         {
@@ -185,7 +185,7 @@ export const lesson33: Lesson = {
               { reasoning: "Criterion D (Using language): apostrophe = possession ('dog's') or contraction ('don't') — (b).", marks: 1, markCode: "D" },
               { reasoning: "Criterion D (Using language): NOT used for simple plurals.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Possession or contraction",
+            finalAnswer: "**(c)** Possession or contraction",
           },
         },
         {
@@ -230,7 +230,7 @@ export const lesson33: Lesson = {
               { reasoning: "Criterion D (Using language): 'its' for possession — (b).", marks: 1, markCode: "D" },
               { reasoning: "Criterion D (Using language): 'it's' would mean 'it is' — wrong here.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** The dog wagged its tail",
+            finalAnswer: "**(d)** The dog wagged its tail",
           },
         },
         {
@@ -448,7 +448,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Compound sentence", statement: "Two independent clauses joined by conjunction." }],
             steps: [{ reasoning: "Criterion D (Using language): compound = two independent clauses — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** Two independent clauses joined",
+            finalAnswer: "**(c)** Two independent clauses joined",
           },
         },
         {
@@ -536,7 +536,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): simple = one clause — (b).", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** One independent clause — one complete thought",
+            finalAnswer: "**(a)** One independent clause — one complete thought",
           },
         },
         {
@@ -580,7 +580,7 @@ export const lesson33: Lesson = {
               { reasoning: "Criterion D (Using language): complex = independent + dependent — (b).", marks: 1, markCode: "D" },
               { reasoning: "Criterion D (Using language): e.g. 'Although she was tired, she ran.'", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** One independent clause plus one dependent clause",
+            finalAnswer: "**(d)** One independent clause plus one dependent clause",
           },
         },
         {
@@ -625,7 +625,7 @@ export const lesson33: Lesson = {
               { reasoning: "Criterion D (Using language): (b) has two independent clauses — compound.", marks: 1, markCode: "D" },
               { reasoning: "Criterion D (Using language): others are simple, complex, fragment.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** She ran, and he followed.",
+            finalAnswer: "**(c)** She ran, and he followed.",
           },
         },
         {
@@ -728,7 +728,7 @@ export const lesson33: Lesson = {
               { reasoning: "Criterion C (Producing text): A repeats 'The dog' — monotonous; B combines with vivid verbs ('tore', 'leapt') — (b).", marks: 1, markCode: "C" },
               { reasoning: "Criterion C (Producing text): B's varied structure creates dynamic rhythm.", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Passage B — combined structure and vivid verbs",
+            finalAnswer: "**(c)** Passage B — combined structure and vivid verbs",
           },
         },
         {
@@ -752,7 +752,7 @@ export const lesson33: Lesson = {
               { reasoning: "Criterion A (Analysing): short = urgency/tension — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): 'Stop. Look. Listen.' — punchy, memorable.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Urgency, tension, directness",
+            finalAnswer: "**(a)** Urgency, tension, directness",
           },
         },
         {

@@ -66,7 +66,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the formula.", working: "b-a", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\mathbf{b}-\\mathbf{a}$",
+            finalAnswer: "**(b)** $\\mathbf{b}-\\mathbf{a}$",
             commonErrors: ["Reversing the subtraction."],
           },
         },
@@ -164,7 +164,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "v = displacement/time", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Displacement per unit time",
+            finalAnswer: "**(b)** Displacement per unit time",
             commonErrors: ["Confusing velocity (vector) with speed (scalar)."],
           },
         },
@@ -208,7 +208,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the principle of superposition.", working: "v_R = v_1 + v_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Vector sum",
+            finalAnswer: "**(c)** Vector sum",
             commonErrors: ["Adding speeds instead of velocity vectors."],
           },
         },
@@ -273,7 +273,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Apply Pythagoras.", working: "\\sqrt{9+16}=\\sqrt{25}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 5",
+            finalAnswer: "**(d)** 5",
             commonErrors: ["Adding components $3+4=7$."],
           },
         },
@@ -340,7 +340,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "speed = |v|", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Magnitude of velocity",
+            finalAnswer: "**(d)** Magnitude of velocity",
             commonErrors: ["Confusing speed with velocity."],
           },
         },
@@ -386,7 +386,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Identify the coefficient of $t$.", working: "v=(2,2)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\begin{pmatrix}2\\\\2\\end{pmatrix}$",
+            finalAnswer: "**(d)** $\\begin{pmatrix}2\\\\2\\end{pmatrix}$",
             commonErrors: ["Giving the initial position instead of velocity."],
           },
         },
@@ -473,7 +473,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Ratio $1:3$ → fraction $\\frac{1}{1+3}=\\frac14$.", working: "\\frac14", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac14$",
+            finalAnswer: "**(d)** $\\frac14$",
             commonErrors: ["Using $\\frac13$ (the ratio part, not the fraction of the whole)."],
           },
         },
@@ -568,7 +568,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall exam technique.", working: "\\text{justify algebraically}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Algebraic justification",
+            finalAnswer: "**(b)** Algebraic justification",
             commonErrors: ["Writing only the result — unsupported answers earn no marks."],
           },
         },
@@ -612,7 +612,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "$t=\\frac13$ means $AP:PB=1:2$.", working: "t=1/3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $1:2$",
+            finalAnswer: "**(c)** $1:2$",
             commonErrors: ["Reading $t$ directly as the ratio."],
           },
         },
@@ -675,7 +675,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Weights reversed: $n=1$ on $\\mathbf{a}$, $m=2$ on $\\mathbf{b}$.", working: "\\frac{a+2b}{3}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{\\mathbf{a}+2\\mathbf{b}}{3}$",
+            finalAnswer: "**(b)** $\\frac{\\mathbf{a}+2\\mathbf{b}}{3}$",
             commonErrors: ["Not reversing the weights — $2:1$ means closer to $B$."],
           },
         },
@@ -726,7 +726,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "$\\frac12\\begin{pmatrix}9+3\\\\0+6\\end{pmatrix}=\\begin{pmatrix}6\\\\3\\end{pmatrix}$.", working: "(6,3)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(6,3)$",
+            finalAnswer: "**(c)** $(6,3)$",
             commonErrors: ["Averaging the wrong pair of points."],
           },
         },
@@ -752,7 +752,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Reason: $P$ near $A$ means position $\\approx\\mathbf{a}$.", working: "n a + m b", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\mathbf{a}$",
+            finalAnswer: "**(c)** $\\mathbf{a}$",
             commonErrors: ["Weighting the farther endpoint more."],
           },
         },

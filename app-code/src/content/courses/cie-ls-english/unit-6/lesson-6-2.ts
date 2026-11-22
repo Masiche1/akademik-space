@@ -65,7 +65,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Discussion is multi-sided; argument is one-sided.", working: "\\text{multi-sided}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Discussion presents multiple viewpoints fairly",
+            finalAnswer: "**(a)** Discussion presents multiple viewpoints fairly",
             commonErrors: ["Choosing (a) — length is irrelevant to the distinction."],
           },
         },
@@ -217,7 +217,7 @@ export const lesson62: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Formal register", statement: "Discussions use objective, precise phrasing — 'it could be argued that'." }],
             steps: [{ reasoning: "(b) is impersonal, measured and precise; the others are informal or overclaiming.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** It could be argued that homework affects wellbeing.",
+            finalAnswer: "**(d)** It could be argued that homework affects wellbeing.",
             commonErrors: ["Choosing (c) — 'obviously everyone agrees' is neither formal nor balanced."],
           },
         },
@@ -270,7 +270,7 @@ export const lesson62: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Conclusion signal", statement: "'On balance' announces the weighed judgement." }],
             steps: [{ reasoning: "'On balance' follows the weighing of viewpoints — it introduces the conclusion.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** The balanced conclusion",
+            finalAnswer: "**(a)** The balanced conclusion",
             commonErrors: ["Choosing (a) — conclusions come last, introductions first."],
           },
         },
@@ -322,7 +322,7 @@ export const lesson62: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Fair viewpoints", statement: "Viewpoints must be stated with their reasoning, not dismissed." }],
             steps: [{ reasoning: "(b) dismisses without stating the viewpoint or its reasoning — ad hominem style.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** 'Some people are just wrong about phones.'",
+            finalAnswer: "**(d)** 'Some people are just wrong about phones.'",
             commonErrors: ["Choosing (a) — summarising both sides neutrally is good discussion practice."],
           },
         },
@@ -537,7 +537,7 @@ export const lesson62: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Straw man", statement: "Misrepresenting the opponent's view so it is easier to defeat." }],
             steps: [{ reasoning: "The attacker builds a weaker version of the real argument and knocks that down.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Misrepresenting an opponent's argument to attack an easy target",
+            finalAnswer: "**(a)** Misrepresenting an opponent's argument to attack an easy target",
             commonErrors: ["Confusing it with ad hominem — straw man distorts the ARGUMENT, ad hominem attacks the PERSON."],
           },
         },
@@ -650,7 +650,7 @@ export const lesson62: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "False dilemma", statement: "'Either X or catastrophe' — ignoring middle options." }],
             steps: [{ reasoning: "The argument pretends only two choices exist when a spectrum does.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** Presenting only two options when more exist",
+            finalAnswer: "**(d)** Presenting only two options when more exist",
             commonErrors: ["Confusing it with slippery slope — false dilemma restricts options; slippery slope escalates consequences."],
           },
         },

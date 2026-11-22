@@ -59,7 +59,7 @@ export const lesson41: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Benzene", statement: "C₆H₆ aromatic ring." }],
             steps: [{ reasoning: "Direct.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** C₆H₆",
+            finalAnswer: "**(c)** C₆H₆",
           },
         },
         {

@@ -55,7 +55,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Uracil" },
               { id: "d", text: "Cytosine" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -64,7 +64,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Guanine forms three hydrogen bonds with cytosine.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Cytosine",
+            finalAnswer: "**(d)** Cytosine",
             commonErrors: ["Choosing thymine, which pairs with adenine.", "Choosing uracil, which is found in RNA and pairs with adenine."],
             examinerNote: "B1 for cytosine.",
           },

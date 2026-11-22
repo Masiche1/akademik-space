@@ -291,7 +291,7 @@ export const lesson13: Lesson = {
             { id: "b", text: "$12\\times10^2$" },
             { id: "c", text: "$45\\times10^3$" },
             { id: "d", text: "$7.2\\times10^{-2}$" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "technique", name: "Standard form", statement: "Need $1\\leq a<10$." }], steps: [{ reasoning: "Only $7.2\\times10^{-2}$ has $1\\leq a<10$.", marks: 1, markCode: "A" }], finalAnswer: "$7.2\\times10^{-2}$" },
         },
         {
@@ -344,7 +344,7 @@ export const lesson13: Lesson = {
             { id: "b", text: "$2\\times10^3$" },
             { id: "c", text: "$9\\times10^2$" },
             { id: "d", text: "$7\\times10^1$" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "technique", name: "Standard form", statement: "Compare powers of 10 first." }], steps: [{ reasoning: "$1.5\\times10^4=15000$ is larger than 2000, 900 and 70.", marks: 1, markCode: "A" }], finalAnswer: "$1.5\\times10^4$" },
         },
         {

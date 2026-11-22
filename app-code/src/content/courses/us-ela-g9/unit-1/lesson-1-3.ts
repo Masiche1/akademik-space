@@ -137,7 +137,7 @@ export const lesson13: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. The flashback supplies the watch without revealing why it matters, deepening the mystery. The story is not told in a straight line, no new characters appear, and the ending is not revealed.",
+              "**(b)**. The flashback supplies the watch without revealing why it matters, deepening the mystery. The story is not told in a straight line, no new characters appear, and the ending is not revealed.",
             commonErrors: [
               "Choosing (b) because the story seems to continue straight on.",
             ],
@@ -472,7 +472,7 @@ export const lesson13: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The narrator says skipping the tea means 'I see your money but not you'. The other choices are not suggested.",
+              "**(c)**. The narrator says skipping the tea means 'I see your money but not you'. The other choices are not suggested.",
             commonErrors: [
               "Choosing (d) because tea seems to invite someone to stay.",
             ],

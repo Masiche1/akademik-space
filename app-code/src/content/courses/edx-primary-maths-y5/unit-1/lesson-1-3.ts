@@ -82,7 +82,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "12 = 2 × 6 = 2 × 2 × 3.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 2 × 2 × 3",
+            finalAnswer: "**(c)** 2 × 2 × 3",
             commonErrors: ["Leaving 6 — not prime."],
           },
         },
@@ -258,7 +258,7 @@ export const lesson73: Lesson = {
               { id: "c", text: "4" },
               { id: "d", text: "8" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -275,7 +275,7 @@ export const lesson73: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** 2",
+            finalAnswer: "**(b)** 2",
             commonErrors: ["Forgetting 2 is prime."],
           },
         },

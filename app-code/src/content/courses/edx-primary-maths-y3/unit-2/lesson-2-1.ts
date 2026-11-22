@@ -82,7 +82,7 @@ export const lesson21: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** 56",
+            finalAnswer: "**(d)** 56",
             commonErrors: ["Confusing with 7 × 9 = 63 or 6 × 8 = 48."],
           },
         },
@@ -288,7 +288,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "54" },
               { id: "d", text: "56" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -301,7 +301,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "8 groups of 7 = 56.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** 56",
+            finalAnswer: "**(d)** 56",
             commonErrors: ["Adding 8 + 7 = 15."],
           },
         },

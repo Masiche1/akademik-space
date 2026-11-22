@@ -71,7 +71,7 @@ export const lesson31: Lesson = {
               { reasoning: "Homophonic texture features a melody line supported by chordal accompaniment.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A single melody with chordal accompaniment",
+            finalAnswer: "**(c)** A single melody with chordal accompaniment",
             commonErrors: [
               "Confusing homophonic (melody+accompaniment) with polyphonic (independent lines).",
             ],
@@ -178,7 +178,7 @@ export const lesson31: Lesson = {
               { reasoning: "Ternary form has three sections: statement (A), contrast (B), return (A).", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A-B-A structure with a return of the opening",
+            finalAnswer: "**(a)** A-B-A structure with a return of the opening",
             commonErrors: [
               "Confusing ternary (A-B-A) with binary (A-B) form.",
             ],
@@ -207,7 +207,7 @@ export const lesson31: Lesson = {
               { reasoning: "A motif is a short, recurring idea that provides unity.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** A short musical idea that recurs and unifies a composition",
+            finalAnswer: "**(b)** A short musical idea that recurs and unifies a composition",
             commonErrors: [
               "Confusing a motif (short idea) with a theme (longer, more developed idea).",
             ],
@@ -226,7 +226,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Homophonic" },
               { id: "d", text: "Heterophonic" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -236,7 +236,7 @@ export const lesson31: Lesson = {
               { reasoning: "Unison singing of one melody is a single line — monophonic texture.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (c) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Monophonic",
+            finalAnswer: "**(b)** Monophonic",
             commonErrors: [
               "Assuming multiple singers automatically creates polyphony — texture depends on independent lines, not headcount.",
             ],
@@ -358,7 +358,7 @@ export const lesson31: Lesson = {
               { reasoning: "Polyphony requires independent melodic lines — counterpoint, not just chords under a tune.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Multiple independent melodic lines sounding simultaneously",
+            finalAnswer: "**(c)** Multiple independent melodic lines sounding simultaneously",
             commonErrors: [
               "Confusing polyphony (independent lines) with homophony (melody plus accompaniment).",
             ],
@@ -409,7 +409,7 @@ export const lesson31: Lesson = {
               { reasoning: "Through-composed music develops continuously without returning to earlier sections.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Music that flows continuously without repeated sections",
+            finalAnswer: "**(d)** Music that flows continuously without repeated sections",
             commonErrors: [
               "Confusing through-composed (no section repetition) with ternary or rondo.",
             ],
@@ -520,7 +520,7 @@ export const lesson31: Lesson = {
               { reasoning: "Augmentation lengthens note values — the same pitches in slower rhythm.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Lengthening note values",
+            finalAnswer: "**(c)** Lengthening note values",
             commonErrors: [
               "Confusing augmentation (longer values) with diminution (shorter values).",
             ],
@@ -650,7 +650,7 @@ export const lesson31: Lesson = {
               { reasoning: "Diminution halves (or shortens) note values — the opposite of augmentation.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Shortening its note values",
+            finalAnswer: "**(a)** Shortening its note values",
             commonErrors: [
               "Confusing diminution (shorter values) with augmentation (longer values).",
             ],
@@ -679,7 +679,7 @@ export const lesson31: Lesson = {
               { reasoning: "Fragmentation isolates part of a motif — e.g. just its first three notes.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Using only part of a motif or theme",
+            finalAnswer: "**(c)** Using only part of a motif or theme",
             commonErrors: [
               "Confusing fragmentation with sequence or transposition.",
             ],
@@ -758,7 +758,7 @@ export const lesson31: Lesson = {
               { reasoning: "Transposition moves the whole motif to a new pitch level, preserving intervals.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Moving it to a different pitch level unchanged",
+            finalAnswer: "**(c)** Moving it to a different pitch level unchanged",
             commonErrors: [
               "Confusing transposition with inversion — transposition keeps intervals in the same direction.",
             ],
@@ -821,7 +821,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Augmentation" },
               { id: "d", text: "Inversion" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -831,7 +831,7 @@ export const lesson31: Lesson = {
               { reasoning: "Transposition shifts pitch level; intervals and rhythm stay the same.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (c) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Transposition",
+            finalAnswer: "**(b)** Transposition",
             commonErrors: [
               "Confusing transposition (pitch shift) with inversion (interval reversal).",
             ],

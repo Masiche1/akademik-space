@@ -55,7 +55,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Neutron" },
               { id: "d", text: "Electron" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -64,7 +64,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Electrons carry the negative charge in an atom.", working: "\\text{electron: relative charge } -1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Electron",
+            finalAnswer: "**(d)** Electron",
             commonErrors: ["Choosing the neutron because it is thought of as 'negative' or 'neutral-negative'.", "Choosing the nucleus, which is positive overall because it contains protons."],
             examinerNote: "B1 for electron.",
           },
@@ -195,7 +195,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "The shell nearest the nucleus is filled first and holds only 2 electrons.", working: "2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 2",
+            finalAnswer: "**(a)** 2",
             commonErrors: ["Choosing 8, which is the capacity of the second shell.", "Choosing 18, a number used for larger shells at higher levels."],
             examinerNote: "B1 for 2.",
           },

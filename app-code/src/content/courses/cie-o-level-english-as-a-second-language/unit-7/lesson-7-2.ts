@@ -41,7 +41,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Grammar task" },
             { id: "d", text: "Literal question" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Question types", statement: "'According to' = literal." }], steps: [{ reasoning: "Stated fact required.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Literal" },
+          markscheme: { principles: [{ kind: "skill", name: "Question types", statement: "'According to' = literal." }], steps: [{ reasoning: "Stated fact required.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Literal" },
         },
         {
           id: "oles-u7-re-q2", difficulty: "core", totalMarks: 2,
@@ -105,7 +105,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Translate the text" },
             { id: "d", text: "Give your personal opinion" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "Own words", statement: "Paraphrase, don't copy." }], steps: [{ reasoning: "'Own words' means restate the meaning without copying the text.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Paraphrase the answer" },
+          markscheme: { principles: [{ kind: "convention", name: "Own words", statement: "Paraphrase, don't copy." }], steps: [{ reasoning: "'Own words' means restate the meaning without copying the text.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Paraphrase the answer" },
         },
         {
           id: "oles-u7-re-q6", difficulty: "core", totalMarks: 1,
@@ -116,7 +116,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Invent two reasons from memory" },
             { id: "d", text: "Select points from the text and justify them" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Select and justify", statement: "Evidence-based reasons." }], steps: [{ reasoning: "You must pick relevant points and explain why they answer the question.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Select points from the text and justify them" },
+          markscheme: { principles: [{ kind: "convention", name: "Select and justify", statement: "Evidence-based reasons." }], steps: [{ reasoning: "You must pick relevant points and explain why they answer the question.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Select points from the text and justify them" },
         },
         {
           id: "oles-u7-re-q7", difficulty: "foundation", totalMarks: 2,
@@ -166,7 +166,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Synonyms of the question's keywords" },
             { id: "d", text: "Only the exact words" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Synonym scan", statement: "Texts paraphrase questions." }], steps: [{ reasoning: "The text often uses different words for the same idea.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Synonyms of the question's keywords" },
+          markscheme: { principles: [{ kind: "skill", name: "Synonym scan", statement: "Texts paraphrase questions." }], steps: [{ reasoning: "The text often uses different words for the same idea.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Synonyms of the question's keywords" },
         },
         {
           id: "oles-u7-re-q12", difficulty: "core", totalMarks: 2,
@@ -196,7 +196,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Memorise the whole text" },
             { id: "d", text: "Analyse why each mark was lost" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Error analysis", statement: "Find causes, not just scores." }], steps: [{ reasoning: "Knowing why marks were lost tells you what to fix.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Analyse why each mark was lost" },
+          markscheme: { principles: [{ kind: "skill", name: "Error analysis", statement: "Find causes, not just scores." }], steps: [{ reasoning: "Knowing why marks were lost tells you what to fix.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Analyse why each mark was lost" },
         },
         {
           id: "oles-u7-re-q15", difficulty: "foundation", totalMarks: 2,
@@ -247,7 +247,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "The word limits you practise with" },
             { id: "d", text: "Only the genre" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Practice variety", statement: "Different limits build adaptability." }], steps: [{ reasoning: "Different word limits train selection under pressure.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Word limits" },
+          markscheme: { principles: [{ kind: "skill", name: "Practice variety", statement: "Different limits build adaptability." }], steps: [{ reasoning: "Different word limits train selection under pressure.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Word limits" },
         },
         {
           id: "oles-u7-wr-q2", difficulty: "core", totalMarks: 2,
@@ -311,7 +311,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Only grammar marking" },
             { id: "d", text: "Strict word limits and key-point selection" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Summary rules", statement: "Strict limits, select key points." }], steps: [{ reasoning: "Summaries have strict word counts and test selection.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Strict word limits and key-point selection" },
+          markscheme: { principles: [{ kind: "convention", name: "Summary rules", statement: "Strict limits, select key points." }], steps: [{ reasoning: "Summaries have strict word counts and test selection.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Strict word limits and key-point selection" },
         },
         {
           id: "oles-u7-wr-q6", difficulty: "core", totalMarks: 1,
@@ -322,7 +322,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Trim → draft → never count" },
             { id: "d", text: "Count words → draft → forget to check" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Summary order", statement: "Draft then count then adjust." }], steps: [{ reasoning: "Write first, then measure against the limit and adjust.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Draft → count words → trim if needed" },
+          markscheme: { principles: [{ kind: "skill", name: "Summary order", statement: "Draft then count then adjust." }], steps: [{ reasoning: "Write first, then measure against the limit and adjust.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Draft → count words → trim if needed" },
         },
         {
           id: "oles-u7-wr-q7", difficulty: "foundation", totalMarks: 2,
@@ -372,7 +372,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Only spelling mistakes" },
             { id: "d", text: "The gap between your work and a strong answer" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Model answers", statement: "Reveal the quality gap." }], steps: [{ reasoning: "Models show concretely what 'good' looks like.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The gap between your work and a strong answer" },
+          markscheme: { principles: [{ kind: "skill", name: "Model answers", statement: "Reveal the quality gap." }], steps: [{ reasoning: "Models show concretely what 'good' looks like.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** The gap between your work and a strong answer" },
         },
         {
           id: "oles-u7-wr-q12", difficulty: "core", totalMarks: 2,
@@ -402,7 +402,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Resolves the main problem or answers the question" },
             { id: "d", text: "Stops mid-action" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Narrative ending", statement: "Resolution earns marks." }], steps: [{ reasoning: "A resolved ending shows control and completeness.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Resolves the main problem" },
+          markscheme: { principles: [{ kind: "skill", name: "Narrative ending", statement: "Resolution earns marks." }], steps: [{ reasoning: "A resolved ending shows control and completeness.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Resolves the main problem" },
         },
         {
           id: "oles-u7-wr-q15", difficulty: "foundation", totalMarks: 2,

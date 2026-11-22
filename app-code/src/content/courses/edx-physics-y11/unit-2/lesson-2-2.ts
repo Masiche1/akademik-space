@@ -68,7 +68,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "With no movement, the coil does not cut field lines, so no voltage is induced.", working: "V = 0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Zero, because there is no relative movement.",
+            finalAnswer: "**(d)** Zero, because there is no relative movement.",
             commonErrors: ["Choosing (a), thinking a magnet inside a coil always induces a voltage.", "Choosing (c), confusing a stationary magnet with a rotating one."],
             examinerNote: "B1 for (b).",
           },
@@ -193,7 +193,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "d.c. would melt the soft iron core" },
               { id: "d", text: "d.c. is not able to flow through coils of wire" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -202,7 +202,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "A steady direct current produces a constant field. With no change in the field, no voltage is induced.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** a constant field induces no voltage in the secondary coil.",
+            finalAnswer: "**(a)** a constant field induces no voltage in the secondary coil.",
             commonErrors: ["Choosing (d); direct current flows through coils perfectly well.", "Choosing (a), a misconception about voltage size."],
             examinerNote: "B1 for (c).",
           },

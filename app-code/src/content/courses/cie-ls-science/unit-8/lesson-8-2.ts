@@ -65,7 +65,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Ecosystem = biotic + abiotic.", working: "ecosystem", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Community of organisms + environment",
+            finalAnswer: "**(b)** Community of organisms + environment",
             commonErrors: ["Choosing (b) — includes plants, fungi, environment."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Producers", statement: "Plants make food via photosynthesis — base of food chains." }],
             steps: [{ reasoning: "Producers = plants.", working: "plants", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Plants",
+            finalAnswer: "**(b)** Plants",
           },
         },
         {
@@ -208,7 +208,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Herbivore", statement: "Eats plants — primary consumer." }],
             steps: [{ reasoning: "Herbivore = plant-eater.", working: "plants", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Plants only",
+            finalAnswer: "**(b)** Plants only",
           },
         },
         {
@@ -229,7 +229,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Energy transfer", statement: "~10% energy passes to next level; ~90% lost as heat." }],
             steps: [{ reasoning: "Only ~10% transfers.", working: "10%", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 10%",
+            finalAnswer: "**(c)** 10%",
           },
         },
         {
@@ -250,7 +250,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Food web", statement: "Multiple intersecting food chains." }],
             steps: [{ reasoning: "Web = interconnected chains.", working: "interconnected", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Interconnected feeding relationships",
+            finalAnswer: "**(b)** Interconnected feeding relationships",
           },
         },
         {
@@ -271,7 +271,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Abiotic", statement: "Non-living factors: sunlight, water, soil, temperature." }],
             steps: [{ reasoning: "Abiotic = non-living.", working: "sunlight", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Sunlight",
+            finalAnswer: "**(d)** Sunlight",
           },
         },
         {
@@ -292,7 +292,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Energy pyramid", statement: "~10% per level → little energy for top predators." }],
             steps: [{ reasoning: "Energy loss limits top predators.", working: "energy", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Little energy reaches top",
+            finalAnswer: "**(d)** Little energy reaches top",
           },
         },
         {
@@ -424,7 +424,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Deforestation = forest removal.", working: "clearing", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Clearing forests",
+            finalAnswer: "**(b)** Clearing forests",
             commonErrors: ["Choosing (b) — that's reforestation."],
           },
         },
@@ -525,7 +525,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Greenhouse gases", statement: "CO₂ from burning fossil fuels is the main human greenhouse gas." }],
             steps: [{ reasoning: "CO₂ is main culprit.", working: "CO2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Carbon dioxide",
+            finalAnswer: "**(c)** Carbon dioxide",
           },
         },
         {
@@ -546,7 +546,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Overfishing", statement: "Harvesting fish beyond sustainable levels." }],
             steps: [{ reasoning: "Overfishing = unsustainable catch.", working: "overfishing", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Catching faster than reproduction",
+            finalAnswer: "**(b)** Catching faster than reproduction",
           },
         },
         {
@@ -609,7 +609,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Deforestation", statement: "Loss of carbon sink + burning releases stored carbon." }],
             steps: [{ reasoning: "Two effects: less absorption + release.", working: "carbon", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Less absorption + released CO₂",
+            finalAnswer: "**(b)** Less absorption + released CO₂",
           },
         },
         {
@@ -630,7 +630,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "3 Rs", statement: "Reduce, reuse, recycle minimise waste." }],
             steps: [{ reasoning: "3 Rs = waste reduction.", working: "3Rs", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Sustainable waste management",
+            finalAnswer: "**(d)** Sustainable waste management",
           },
         },
         {
@@ -651,7 +651,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Fossil fuels", statement: "Combustion of coal/oil/gas releases CO₂." }],
             steps: [{ reasoning: "Fossil fuel burning = biggest source.", working: "fossil", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Burning fossil fuels",
+            finalAnswer: "**(d)** Burning fossil fuels",
           },
         },
         {
@@ -884,7 +884,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Variables", statement: "Independent = what you change; dependent = what you measure." }],
             steps: [{ reasoning: "Independent is changed.", working: "independent", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Independent variable",
+            finalAnswer: "**(b)** Independent variable",
           },
         },
         {
@@ -905,7 +905,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Reliability", statement: "Repeats check consistency of results." }],
             steps: [{ reasoning: "Repeats → reliability.", working: "reliability", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Reliability",
+            finalAnswer: "**(b)** Reliability",
           },
         },
         {
@@ -926,7 +926,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Fair test", statement: "Control all variables except the independent one." }],
             steps: [{ reasoning: "Fair = only one variable changes.", working: "one variable", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Only independent variable changes",
+            finalAnswer: "**(b)** Only independent variable changes",
           },
         },
         {
@@ -968,7 +968,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Conclusion", statement: "Draw from evidence, link to hypothesis." }],
             steps: [{ reasoning: "Conclusion backed by data.", working: "evidence", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Supported by data",
+            finalAnswer: "**(b)** Supported by data",
           },
         },
         {
@@ -1010,7 +1010,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Anomalies", statement: "Outliers noted; excluded only if justified." }],
             steps: [{ reasoning: "Identify and justify anomalies.", working: "anomaly", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Identified, justify exclusion",
+            finalAnswer: "**(c)** Identified, justify exclusion",
           },
         },
         {

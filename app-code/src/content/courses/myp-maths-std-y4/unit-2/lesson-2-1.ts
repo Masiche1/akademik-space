@@ -69,7 +69,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$f(4)=2(4)+3=11$.", working: "2(4)+3=11", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 11",
+            finalAnswer: "**(b)** 11",
             commonErrors: ["Forgetting to multiply the whole input by 2."],
             examinerNote: "B1 for (a).",
           },
@@ -184,7 +184,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$f(2)=3(2)-1=5$.", working: "3(2)-1=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 5",
+            finalAnswer: "**(d)** 5",
             commonErrors: ["Computing $3-1=2$ instead of substituting."],
             examinerNote: "B1 for (a).",
           },
@@ -273,7 +273,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "$x\\mapsto2x+1$" },
               { id: "d", text: "$x\\mapsto x-4$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -283,7 +283,7 @@ export const lesson21: Lesson = {
               { reasoning: "In $\\{(1,2),(1,3)\\}$, input 1 has two different outputs.", working: "1\\mapsto2\\text{ and }3", marks: 1, markCode: "M" },
               { reasoning: "This violates the function definition.", working: "\\text{not a function}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $\\{(1,2),(1,3)\\}$",
+            finalAnswer: "**(a)** $\\{(1,2),(1,3)\\}$",
             commonErrors: ["Thinking repeated outputs are the problem — repeated inputs are."],
             examinerNote: "M1 A1.",
           },
@@ -511,7 +511,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$m=5$.", working: "m=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 5",
+            finalAnswer: "**(a)** 5",
             commonErrors: ["Confusing gradient with intercept."],
             examinerNote: "B1 for (b).",
           },
@@ -557,7 +557,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "$\\frac{1}{4}$" },
               { id: "d", text: "$-4$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -626,7 +626,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$m=-3$.", working: "m=-3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $-3$",
+            finalAnswer: "**(c)** $-3$",
             commonErrors: ["Dropping the negative sign."],
             examinerNote: "B1 for (b).",
           },
@@ -899,7 +899,7 @@ export const lesson21: Lesson = {
               { reasoning: "Check: $0.5\\times(-2)=-1$. ✓", working: "-1", marks: 1, markCode: "M" },
               { reasoning: "Select (a).", working: "y=-2x+1", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $y=-2x+1$",
+            finalAnswer: "**(b)** $y=-2x+1$",
             commonErrors: ["Choosing (b) — $0.5\\times2=1$, not $-1$."],
             examinerNote: "M1 M1 A1.",
           },

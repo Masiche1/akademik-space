@@ -134,7 +134,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. She directly engaged his Minneapolis evidence.",
+              "**(c)**. She directly engaged his Minneapolis evidence.",
             commonErrors: [
               "Thinking speaking after = building on; it requires engagement.",
             ],

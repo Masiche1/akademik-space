@@ -118,7 +118,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Elimination", statement: "Add equations." }],
             steps: [{ reasoning: "Adding: $2x = 14 \\Rightarrow x = 7$, then $y = 3$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** $x=7, y=3$",
+            finalAnswer: "**(d)** $x=7, y=3$",
           },
         },
         {
@@ -167,7 +167,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Substitution", statement: "From first: $x = 7 - 2y$; substitute." }],
             steps: [{ reasoning: "$3(7-2y) - y = 1 \\Rightarrow 21 - 7y = 1 \\Rightarrow y = 3$, $x = 1$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** $x=1, y=3$",
+            finalAnswer: "**(c)** $x=1, y=3$",
           },
         },
         {

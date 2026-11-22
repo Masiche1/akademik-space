@@ -70,7 +70,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "0.000456 = $4.56\\times10^{-4}$ (4 decimal places moved).", working: "4.56\\times10^{-4}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $4.56\\times10^{-4}$",
+            finalAnswer: "**(c)** $4.56\\times10^{-4}$",
             commonErrors: ["Writing $4.56\\times10^{-3}$ — miscounting decimal places."],
             examinerNote: "B1 for (a).",
           },
@@ -184,7 +184,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$52000=5.2\\times10^4$ (4 zeros).", working: "5.2\\times10^4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $5.2\\times10^4$",
+            finalAnswer: "**(c)** $5.2\\times10^4$",
             commonErrors: ["Writing $5.2\\times10^3$ — miscounting the power."],
             examinerNote: "B1 for (b).",
           },
@@ -440,7 +440,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$9\\times10^3$" },
               { id: "d", text: "$7\\times10^4$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -451,7 +451,7 @@ export const lesson13: Lesson = {
               { reasoning: "$2.5\\times10^5$ has the largest power of 10.", working: "10^5", marks: 1, markCode: "M" },
               { reasoning: "Select (c).", working: "2.5\\times10^5", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $2.5\\times10^5$",
+            finalAnswer: "**(a)** $2.5\\times10^5$",
             commonErrors: ["Comparing only the $a$ values (9 is largest coefficient but not the number)."],
             examinerNote: "M1 M1 A1.",
           },
@@ -511,7 +511,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$k=\\frac{15}{3}=5$; $y=5\\times7=35$.", working: "k=5,\\ y=35", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 35",
+            finalAnswer: "**(b)** 35",
             commonErrors: ["Using $y=kx$ without finding $k$ first."],
             examinerNote: "B1 for (a).",
           },
@@ -626,7 +626,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$k=\\frac{8}{2}=4$; $y=4\\times5=20$.", working: "k=4,\\ y=20", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 20",
+            finalAnswer: "**(c)** 20",
             commonErrors: ["Adding 3 to $y$ instead of scaling."],
             examinerNote: "B1 for (b).",
           },

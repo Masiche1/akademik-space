@@ -666,7 +666,7 @@ export const lesson72: Lesson = {
       ],
     },
     {
-      id: "ela10-u7-integrated",
+      id: "ela10-u7-integrated-r2",
       title: "Integrated Grammar and Style Practice",
       skill:
         "Apply agreement, tense, voice, and style skills in comprehensive language practice.",
@@ -701,7 +701,7 @@ export const lesson72: Lesson = {
       },
       questions: [
         {
-          id: "ela10-u7-integrated-q1",
+          id: "ela10-u7-integrated-q1-r2",
           difficulty: "foundation",
           totalMarks: 1,
           extract: GRAM,
@@ -738,7 +738,7 @@ export const lesson72: Lesson = {
           },
         },
         {
-          id: "ela10-u7-integrated-q2",
+          id: "ela10-u7-integrated-q2-r2",
           difficulty: "core",
           totalMarks: 3,
           extract: GRAM,
@@ -780,7 +780,7 @@ export const lesson72: Lesson = {
           },
         },
         {
-          id: "ela10-u7-integrated-q3",
+          id: "ela10-u7-integrated-q3-r2",
           difficulty: "challenge",
           totalMarks: 8,
           extract: GRAM,
@@ -829,7 +829,7 @@ export const lesson72: Lesson = {
           },
         },
         {
-          id: "ela10-u7-integrated-q4",
+          id: "ela10-u7-integrated-q4-r2",
           difficulty: "core",
           totalMarks: 4,
           extract: GRAM,

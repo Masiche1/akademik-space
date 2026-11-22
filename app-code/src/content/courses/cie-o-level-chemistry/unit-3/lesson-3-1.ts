@@ -60,7 +60,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Mole", statement: "6.02×10²³ particles (Avogadro)." }],
             steps: [{ reasoning: "Recall definition.", working: "N_A = 6.02 \\times 10^{23}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 6.02 × 10²³ particles",
+            finalAnswer: "**(b)** 6.02 × 10²³ particles",
             commonErrors: ["Confusing mole with gram."],
           },
         },
@@ -159,7 +159,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Avogadro constant", statement: "6.02 × 10²³ particles per mole." }],
             steps: [{ reasoning: "Recall the value.", working: "N_A = 6.02 \\times 10^{23}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 6.02 × 10²³",
+            finalAnswer: "**(d)** 6.02 × 10²³",
             commonErrors: ["Confusing it with the electron mass."],
           },
         },
@@ -177,7 +177,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Molar volume", statement: "24 dm³/mol at RTP." }],
             steps: [{ reasoning: "Recall RTP molar volume.", working: "V_m = 24\\ \\text{dm}^3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 24 dm³",
+            finalAnswer: "**(c)** 24 dm³",
             commonErrors: ["Using the STP value 22.4 dm³."],
           },
         },
@@ -191,11 +191,11 @@ export const lesson131: Lesson = {
             { id: "b", text: "Numbers of atoms only" },
             { id: "c", text: "Volume ratios only" },
             { id: "d", text: "Mass ratios" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Balanced equations", statement: "Coefficients give mole ratios." }],
             steps: [{ reasoning: "Equation coefficients are mole ratios.", working: "\\text{coefficients} = \\text{mole ratio}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Mole ratios",
+            finalAnswer: "**(a)** Mole ratios",
             commonErrors: ["Treating coefficients as masses."],
           },
         },
@@ -213,7 +213,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Equation ratio", statement: "1 mol O₂ gives 2 mol H₂O." }],
             steps: [{ reasoning: "Use the 1:2 ratio for O₂ to H₂O.", working: "1\\text{ O}_2 \\rightarrow 2\\text{ H}_2\\text{O}", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** 2 mol",
+            finalAnswer: "**(d)** 2 mol",
             commonErrors: ["Using the H₂ coefficient for O₂."],
           },
         },
@@ -386,7 +386,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Indicator", statement: "Colour change = endpoint." }],
             steps: [{ reasoning: "Recall purpose.", working: "\\text{endpoint}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The endpoint of neutralisation",
+            finalAnswer: "**(c)** The endpoint of neutralisation",
             commonErrors: ["Saying 'start' — it marks completion."],
           },
         },
@@ -467,7 +467,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Moles from concentration", statement: "n = cV with V in dm³." }],
             steps: [{ reasoning: "Concentration is moles per volume.", working: "n = c \\times V", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** n = c × V",
+            finalAnswer: "**(c)** n = c × V",
             commonErrors: ["Dividing instead of multiplying."],
           },
         },
@@ -481,11 +481,11 @@ export const lesson131: Lesson = {
             { id: "b", text: "mol/dm³" },
             { id: "c", text: "g/dm³" },
             { id: "d", text: "g/mol" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Concentration", statement: "Moles of solute per dm³ of solution." }],
             steps: [{ reasoning: "Recall the unit.", working: "\\text{mol dm}^{-3}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** mol/dm³",
+            finalAnswer: "**(b)** mol/dm³",
             commonErrors: ["Using mass concentration units."],
           },
         },
@@ -503,7 +503,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Indicator", statement: "Colour change marks the endpoint." }],
             steps: [{ reasoning: "The endpoint indicates neutralisation is complete.", working: "\\text{colour change} = \\text{endpoint}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The endpoint of neutralisation",
+            finalAnswer: "**(a)** The endpoint of neutralisation",
             commonErrors: ["Saying it shows the start of the reaction."],
           },
         },
@@ -521,7 +521,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Percentage yield", statement: "actual/theoretical × 100." }],
             steps: [{ reasoning: "Recall the formula.", working: "\\%\\text{yield} = \\frac{\\text{actual}}{\\text{theoretical}} \\times 100", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** actual ÷ theoretical × 100",
+            finalAnswer: "**(c)** actual ÷ theoretical × 100",
             commonErrors: ["Inverting the ratio."],
           },
         },
@@ -539,7 +539,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "n = cV", statement: "Convert 25 cm³ to 0.025 dm³ first." }],
             steps: [{ reasoning: "n = 0.2 × 0.025.", working: "0.2 \\times 0.025 = 0.005", marks: 1, markCode: "M" }],
-            finalAnswer: "**(a)** 0.005 mol",
+            finalAnswer: "**(d)** 0.005 mol",
             commonErrors: ["Using 25 instead of 0.025 dm³."],
           },
         },

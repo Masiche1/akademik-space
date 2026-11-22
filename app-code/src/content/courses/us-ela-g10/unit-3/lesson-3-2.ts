@@ -130,7 +130,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** (Webb and Nair 22). (a) adds a comma and 'p.', (c) omits an author and (d) reverses the order and uses a date, which is APA style.",
+              "**(d)** (Webb and Nair 22). (a) adds a comma and 'p.', (c) omits an author and (d) reverses the order and uses a date, which is APA style.",
             commonErrors: [
               "Using (a), the style of other citation systems.",
               "Citing only the first author when there are two.",
@@ -196,7 +196,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. (a) names the newspaper and uses a comma, (c) puts the period before the citation and (d) cites 'anonymous' instead of the title.",
+              "**(d)**. (a) names the newspaper and uses a comma, (c) puts the period before the citation and (d) cites 'anonymous' instead of the title.",
             commonErrors: [
               "Putting the period inside the quotation and then adding the citation after it.",
               "Writing 'anonymous' when a title is available.",
@@ -468,7 +468,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The others stay vague, repeat words or use casual language.",
+              "**(a)**. The others stay vague, repeat words or use casual language.",
             commonErrors: [
               "Choosing (c) because repetition feels emphatic, though it adds no information.",
             ],
@@ -494,7 +494,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "It has too many commas and no title." },
               { id: "d", text: "It is too long and has too many sources." },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -522,7 +522,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)**. The paragraph is short, its spelling is accurate and it has no sources at all.",
+              "**(b)**. The paragraph is short, its spelling is accurate and it has no sources at all.",
             commonErrors: [
               "Focusing on surface errors when the larger problems are evidence and tone.",
             ],

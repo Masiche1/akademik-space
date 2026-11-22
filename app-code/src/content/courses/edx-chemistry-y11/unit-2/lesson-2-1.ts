@@ -69,7 +69,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "The negative electrode attracts positive ions and is called the cathode. The positive electrode is the anode.", working: "\\text{cathode} = \\text{negative}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Cathode",
+            finalAnswer: "**(d)** Cathode",
             commonErrors: ["Choosing the anode, which is the positive electrode.", "Choosing the electrolyte, which is the liquid or solution, not an electrode."],
             examinerNote: "B1 for cathode.",
           },

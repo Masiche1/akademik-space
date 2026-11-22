@@ -125,7 +125,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Output", statement: "What the computer gives back." }],
             steps: [{ reasoning: "A picture on screen is produced by the computer; taps, keys and clicks are inputs.", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** A picture on the screen",
+            finalAnswer: "**(c)** A picture on the screen",
           },
         },
         {
@@ -227,7 +227,7 @@ export const lesson11: Lesson = {
               { reasoning: "Only (b) is true — the others claim computers think or act alone.", marks: 1, markCode: "M" },
               { reasoning: "Programs are written by people; computers follow them exactly.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Computers only do what people program them to do",
+            finalAnswer: "**(a)** Computers only do what people program them to do",
           },
         },
         {
@@ -247,7 +247,7 @@ export const lesson11: Lesson = {
               { reasoning: "Your spoken question is the input; the spoken reply is the output.", marks: 1, markCode: "M" },
               { reasoning: "The stored program processes the question in between.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Input: your voice; processing: the program; output: spoken answer",
+            finalAnswer: "**(c)** Input: your voice; processing: the program; output: spoken answer",
           },
         },
         {
@@ -276,14 +276,14 @@ export const lesson11: Lesson = {
             { id: "b", text: "Play music" },
             { id: "c", text: "Store photos" },
             { id: "d", text: "Show a video" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "No own decisions", statement: "Needs instructions for every action." }],
             steps: [
               { reasoning: "Storing, playing and showing are all programmed tasks.", marks: 1, markCode: "M" },
               { reasoning: "Computers cannot decide without instructions — that is what (c) says.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Decide what to do without instructions",
+            finalAnswer: "**(a)** Decide what to do without instructions",
           },
         },
         {

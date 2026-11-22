@@ -67,7 +67,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): loaded language carries emotional weight — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Words chosen to carry emotion or judgment",
+            finalAnswer: "**(c)** Words chosen to carry emotion or judgment",
           },
         },
         {
@@ -168,7 +168,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): reading between the lines = inferring what isn't stated — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** To work out meanings and intentions that are not stated directly",
+            finalAnswer: "**(a)** To work out meanings and intentions that are not stated directly",
           },
         },
         {
@@ -193,7 +193,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'pet project' implies personal attachment and possible favouritism — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The mayor personally favours it, possibly beyond public interest",
+            finalAnswer: "**(c)** The mayor personally favours it, possibly beyond public interest",
           },
         },
         {
@@ -223,7 +223,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): Lead A is factual (vote count, date); Lead B's 'long-delayed' and 'finally' add positive emphasis — (a).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Lead A — it gives the vote count and facts",
+            finalAnswer: "**(c)** Lead A — it gives the vote count and facts",
           },
         },
         {
@@ -253,7 +253,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'unforeseen circumstances' is vague — the real reason, new date and ticket details are withheld — readers can't plan — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The real reason and a new date are missing — 'unforeseen circumstances' hides the cause",
+            finalAnswer: "**(d)** The real reason and a new date are missing — 'unforeseen circumstances' hides the cause",
           },
         },
         {
@@ -357,7 +357,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): only the organiser is quoted — students' and parents' perspectives (especially critics) are missing — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The students' or parents' views, especially any complaints",
+            finalAnswer: "**(d)** The students' or parents' views, especially any complaints",
           },
         },
         {
@@ -414,7 +414,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): vague claims avoid scrutiny — naming sources would reveal whether support was real — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Because naming sources would weaken the appearance of support",
+            finalAnswer: "**(c)** Because naming sources would weaken the appearance of support",
           },
         },
         {
@@ -439,7 +439,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): Headline A gives a checkable figure ($2 million); B dramatises with 'devastating' and 'ruins' — A is more informative — (a).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Headline A — it gives a checkable figure",
+            finalAnswer: "**(b)** Headline A — it gives a checkable figure",
           },
         },
         {
@@ -524,7 +524,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): bias = slant/preference in presentation — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A slant or preference that shapes the presentation of information",
+            finalAnswer: "**(d)** A slant or preference that shapes the presentation of information",
           },
         },
         {
@@ -624,7 +624,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): omission = leaving out information that would change the picture — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Information left out that would change the picture",
+            finalAnswer: "**(a)** Information left out that would change the picture",
           },
         },
         {
@@ -649,7 +649,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): one-sided quotes are a classic bias signal — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It only quotes people who support one side",
+            finalAnswer: "**(a)** It only quotes people who support one side",
           },
         },
         {
@@ -709,7 +709,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'thousands' is unverifiable — it could mean 2,000 or 200,000 — and refusing figures is a red flag — (b).", evidence: "thousands of families", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The number is vague and unverifiable, and the charity refused to give figures",
+            finalAnswer: "**(c)** The number is vague and unverifiable, and the charity refused to give figures",
           },
         },
         {
@@ -813,7 +813,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'okay, I guess' contradicts five stars — possible bias, sponsorship or error — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The rating contradicts the lukewarm description — something may be influencing the score",
+            finalAnswer: "**(a)** The rating contradicts the lukewarm description — something may be influencing the score",
           },
         },
         {
@@ -870,7 +870,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): only the minister is quoted — critics omitted — bias by omission — (a).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** It is biased by omission — critics' perspectives are missing",
+            finalAnswer: "**(d)** It is biased by omission — critics' perspectives are missing",
           },
         },
         {
@@ -895,7 +895,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): Review A balances praise and criticism — genuine evaluation; Review B is pure promotion — (a).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Review A — balanced evaluation seems more trustworthy",
+            finalAnswer: "**(c)** Review A — balanced evaluation seems more trustworthy",
           },
         },
         {

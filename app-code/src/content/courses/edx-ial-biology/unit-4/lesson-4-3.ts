@@ -59,7 +59,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Resting potential", statement: "Na⁺/K⁺ pump maintains −70 mV." }],
             steps: [{ reasoning: "Pump actively transports ions.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Na⁺/K⁺ pump",
+            finalAnswer: "**(c)** Na⁺/K⁺ pump",
           },
         },
         {
@@ -172,7 +172,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Adrenal", statement: "Produces adrenaline/cortisol." }],
             steps: [{ reasoning: "Adrenal medulla → adrenaline.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Adrenal",
+            finalAnswer: "**(a)** Adrenal",
           },
         },
         {

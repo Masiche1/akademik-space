@@ -65,7 +65,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall the function.", working: "\\text{dendrites}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Dendrites",
+            finalAnswer: "**(d)** Dendrites",
             commonErrors: ["Choosing axon — axon TRANSMITS, dendrites RECEIVE."],
           },
         },
@@ -160,7 +160,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall the axon's direction of transmission.", working: "\\text{axon} \\to \\text{away}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Axon",
+            finalAnswer: "**(b)** Axon",
             commonErrors: ["Choosing dendrite — dendrites receive impulses toward the cell body."],
           },
         },
@@ -204,7 +204,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall the chemical messenger at synapses.", working: "\\text{neurotransmitter}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Neurotransmitter",
+            finalAnswer: "**(c)** Neurotransmitter",
             commonErrors: ["Choosing adrenaline — it is a hormone carried in blood, not a synaptic messenger."],
           },
         },
@@ -287,7 +287,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall the relay neuron's role.", working: "\\text{sensory} \\leftrightarrow \\text{motor}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Connects sensory and motor neurons in the CNS",
+            finalAnswer: "**(b)** Connects sensory and motor neurons in the CNS",
             commonErrors: ["Choosing receptor — receptors detect stimuli; relay neurons connect neurons."],
           },
         },
@@ -445,7 +445,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall direction.", working: "\\text{sensory} \\to \\text{CNS}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sensory neuron",
+            finalAnswer: "**(c)** Sensory neuron",
             commonErrors: ["Choosing motor — motor carries impulse OUT to effector."],
           },
         },
@@ -539,7 +539,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall the first component of the pathway.", working: "\\text{receptor}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Receptor",
+            finalAnswer: "**(c)** Receptor",
             commonErrors: ["Choosing effector — the effector produces the response at the end."],
           },
         },
@@ -583,7 +583,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall the site of the relay neuron.", working: "\\text{spinal cord}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Spinal cord",
+            finalAnswer: "**(b)** Spinal cord",
             commonErrors: ["Choosing muscle — muscles are effectors, not relay neurons."],
           },
         },
@@ -666,7 +666,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall the pathway order.", working: "\\text{receptor} \\to \\text{sensory} \\to \\text{relay} \\to \\text{motor} \\to \\text{effector}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Receptor → sensory neuron → relay neuron → motor neuron → effector",
+            finalAnswer: "**(b)** Receptor → sensory neuron → relay neuron → motor neuron → effector",
             commonErrors: ["Putting the effector before the motor neuron."],
           },
         },

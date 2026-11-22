@@ -57,7 +57,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Filtration", statement: "Insoluble solid + liquid." }],
             steps: [{ reasoning: "Recall.", working: "\\text{filtration}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Filtration",
+            finalAnswer: "**(a)** Filtration",
             commonErrors: ["Crystallisation recovers dissolved solids, not insoluble."],
           },
         },
@@ -133,11 +133,11 @@ export const lesson113: Lesson = {
             { id: "b", text: "Filtration" },
             { id: "c", text: "Chromatography" },
             { id: "d", text: "Crystallisation" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "Crystallisation", statement: "Recovers dissolved solid as crystals." }],
             steps: [{ reasoning: "Recall.", working: "\\text{crystallisation}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Crystallisation",
+            finalAnswer: "**(d)** Crystallisation",
             commonErrors: ["Simple distillation recovers the liquid, not the solid."],
           },
         },
@@ -206,7 +206,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Crystallisation", statement: "Concentrate by evaporation, then cool to crystallise." }],
             steps: [{ reasoning: "Recall sequence.", working: "\\text{heat} \\to \\text{cool} \\to \\text{filter} \\to \\text{dry}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Heat to evaporate some solvent → cool → filter → dry",
+            finalAnswer: "**(a)** Heat to evaporate some solvent → cool → filter → dry",
             commonErrors: ["Evaporating ALL the solvent gives no crystals to filter."],
           },
         },
@@ -224,7 +224,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Simple distillation", statement: "Recovers the volatile solvent as distillate." }],
             steps: [{ reasoning: "Recall.", working: "\\text{distillate} = \\text{pure water}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The water (as distillate)",
+            finalAnswer: "**(d)** The water (as distillate)",
             commonErrors: ["The salt stays behind as residue."],
           },
         },
@@ -278,7 +278,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Solubility", statement: "Solubility decreases on cooling → crystals form." }],
             steps: [{ reasoning: "Recall.", working: "\\text{cool} \\to \\text{crystals}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Because solubility decreases on cooling so crystals form",
+            finalAnswer: "**(a)** Because solubility decreases on cooling so crystals form",
             commonErrors: ["Cooling does not freeze the solvent in crystallisation."],
           },
         },
@@ -384,7 +384,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Rf", statement: "Spot distance / solvent distance." }],
             steps: [{ reasoning: "Recall.", working: "R_f = \\frac{d_{spot}}{d_{solvent}}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Spot distance ÷ solvent front distance",
+            finalAnswer: "**(d)** Spot distance ÷ solvent front distance",
             commonErrors: ["Reversing numerator and denominator."],
           },
         },
@@ -464,7 +464,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Rf", statement: "Distances measured from the baseline." }],
             steps: [{ reasoning: "Recall.", working: "\\text{from baseline}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The baseline where the sample was spotted",
+            finalAnswer: "**(a)** The baseline where the sample was spotted",
             commonErrors: ["Measuring from the top of the paper gives wrong values."],
           },
         },
@@ -528,7 +528,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Rf range", statement: "0 ≤ Rf ≤ 1 — spot never passes solvent front." }],
             steps: [{ reasoning: "Recall.", working: "0 \\leq R_f \\leq 1", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 0 and 1",
+            finalAnswer: "**(b)** 0 and 1",
             commonErrors: ["Rf > 1 is impossible since the spot cannot move faster than the solvent front."],
           },
         },
@@ -583,7 +583,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Rf and movement", statement: "Highest Rf = moves furthest = least held by paper." }],
             steps: [{ reasoning: "Recall.", working: "\\text{least attracted} \\to \\text{highest } R_f", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** One least attracted to the paper and most soluble in the solvent",
+            finalAnswer: "**(a)** One least attracted to the paper and most soluble in the solvent",
             commonErrors: ["Colour/darkness does not affect Rf."],
           },
         },

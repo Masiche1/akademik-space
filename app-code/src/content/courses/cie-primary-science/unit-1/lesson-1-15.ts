@@ -231,7 +231,7 @@ export const lesson115: Lesson = {
             { id: "b", text: "A paperclip" },
             { id: "c", text: "Iron" },
             { id: "d", text: "Copper" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Magnetic materials", statement: "Only iron and steel are attracted." }],
             steps: [{ reasoning: "Copper is not magnetic; iron, steel and paperclips are.", marks: 1, markCode: "A" }],

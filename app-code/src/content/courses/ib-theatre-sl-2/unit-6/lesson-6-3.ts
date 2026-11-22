@@ -70,7 +70,7 @@ export const lesson63: Lesson = {
               { reasoning: "SL assessment comprises performance, collaborative project and reflective portfolio.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Performance, collaborative project and reflective portfolio",
+            finalAnswer: "**(d)** Performance, collaborative project and reflective portfolio",
             commonErrors: [
               "Assuming assessment is only performance or only written.",
             ],
@@ -171,7 +171,7 @@ export const lesson63: Lesson = {
               { reasoning: "The portfolio evidences sustained practice and growth across the course.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Evidencing sustained practice and growth across the course",
+            finalAnswer: "**(d)** Evidencing sustained practice and growth across the course",
             commonErrors: [
               "Assuming the portfolio replaces performance assessment.",
             ],
@@ -229,7 +229,7 @@ export const lesson63: Lesson = {
               { reasoning: "Current, representative, development-showing material is required.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Recent, representative of current ability and showing development",
+            finalAnswer: "**(a)** Recent, representative of current ability and showing development",
             commonErrors: [
               "Submitting outdated work that does not represent current ability.",
             ],
@@ -258,7 +258,7 @@ export const lesson63: Lesson = {
               { reasoning: "The log documents productions and roles across time.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Documenting all productions and roles over time",
+            finalAnswer: "**(c)** Documenting all productions and roles over time",
             commonErrors: [
               "Confusing the log's documentary role with performance recordings.",
             ],
@@ -287,7 +287,7 @@ export const lesson63: Lesson = {
               { reasoning: "Development evidence shows learning and engagement over time.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Learning, sustained engagement and critical reflection",
+            finalAnswer: "**(a)** Learning, sustained engagement and critical reflection",
             commonErrors: [
               "Assuming polished final work alone proves ability.",
             ],
@@ -521,7 +521,7 @@ export const lesson63: Lesson = {
               { reasoning: "Portfolio selection should show range and growth, not include everything.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Showing range and growth in theatrical development",
+            finalAnswer: "**(d)** Showing range and growth in theatrical development",
             commonErrors: [
               "Including everything rather than curating selectively.",
             ],
@@ -622,7 +622,7 @@ export const lesson63: Lesson = {
               { reasoning: "Curation means selecting representative material showing range and growth.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Selecting representative material that shows range and growth",
+            finalAnswer: "**(a)** Selecting representative material that shows range and growth",
             commonErrors: [
               "Confusing curation with completeness.",
             ],
@@ -651,7 +651,7 @@ export const lesson63: Lesson = {
               { reasoning: "Chronological order makes development visible to the reader.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Makes growth over time visible",
+            finalAnswer: "**(a)** Makes growth over time visible",
             commonErrors: [
               "Organising randomly so growth cannot be seen.",
             ],
@@ -680,7 +680,7 @@ export const lesson63: Lesson = {
               { reasoning: "Date, production/context and role labels make items traceable and comparable.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Date, production or context, and role where relevant",
+            finalAnswer: "**(c)** Date, production or context, and role where relevant",
             commonErrors: [
               "Leaving items unlabelled so context is lost.",
             ],
@@ -709,7 +709,7 @@ export const lesson63: Lesson = {
               { reasoning: "Digital formats support video, audio and interactive content.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Incorporating video, audio and interactive elements",
+            finalAnswer: "**(a)** Incorporating video, audio and interactive elements",
             commonErrors: [
               "Assuming digital means no organisation is needed.",
             ],
@@ -738,7 +738,7 @@ export const lesson63: Lesson = {
               { reasoning: "A weaker performance plus reflection evidences learning and honesty.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Demonstrates honest learning from experience",
+            finalAnswer: "**(c)** Demonstrates honest learning from experience",
             commonErrors: [
               "Believing only flawless work belongs in a portfolio.",
             ],
@@ -767,7 +767,7 @@ export const lesson63: Lesson = {
               { reasoning: "Presentation communicates the student's professionalism and organisation.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Signals serious, organised theatrical practice",
+            finalAnswer: "**(c)** Signals serious, organised theatrical practice",
             commonErrors: [
               "Treating presentation as irrelevant to assessment.",
             ],

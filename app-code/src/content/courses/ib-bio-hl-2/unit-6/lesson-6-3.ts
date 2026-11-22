@@ -131,7 +131,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** They persist after infection and enable a faster, stronger secondary response on re-exposure",
+              "**(c)** They persist after infection and enable a faster, stronger secondary response on re-exposure",
             commonErrors: [
               "Confusing memory cells with plasma cells — plasma cells secrete antibodies; memory cells remember.",
             ],
@@ -257,7 +257,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The immune system generates antibodies and memory cells specific to the spike protein; on real exposure the secondary response neutralises the virus before it establishes infection",
+              "**(d)** The immune system generates antibodies and memory cells specific to the spike protein; on real exposure the secondary response neutralises the virus before it establishes infection",
             commonErrors: [
               "Describing vaccination as passive immunity — passive is transferred antibodies; vaccine produces own response.",
             ],
@@ -434,7 +434,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** An antigen selects the one lymphocyte whose receptor matches it; that cell proliferates into a clone of identical effector and memory cells",
+              "**(a)** An antigen selects the one lymphocyte whose receptor matches it; that cell proliferates into a clone of identical effector and memory cells",
             commonErrors: [
               "Describing it as non-specific mass proliferation — clonal selection is highly specific to one antigen.",
             ],
@@ -697,7 +697,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Helper T cells coordinate both arms of immunity — they activate B cells for antibody production and CD8 cytotoxic T cells — so losing them disables both humoral and cell-mediated defence",
+              "**(d)** Helper T cells coordinate both arms of immunity — they activate B cells for antibody production and CD8 cytotoxic T cells — so losing them disables both humoral and cell-mediated defence",
             commonErrors: [
               "Saying antibodies are made by T cells — plasma cells (from B cells) make antibodies; helper T cells enable the process.",
             ],
@@ -802,7 +802,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Passive immunity — pre-formed antibodies transferred across the placenta (maternal IgG)",
+              "**(c)** Passive immunity — pre-formed antibodies transferred across the placenta (maternal IgG)",
             commonErrors: [
               "Calling it active immunity — active requires the body's OWN response; here antibodies are received.",
             ],
@@ -1087,7 +1087,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Autoimmune disease is an inappropriate attack on self-antigens; allergy is an IgE-mediated response to a normally harmless external antigen",
+              "**(d)** Autoimmune disease is an inappropriate attack on self-antigens; allergy is an IgE-mediated response to a normally harmless external antigen",
             commonErrors: [
               "Reversing the two — allergy is the IgE/histamine response, not the self-attack.",
             ],
@@ -1186,7 +1186,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** They cut DNA at specific recognition sequences to produce fragments that can be inserted into vectors",
+              "**(d)** They cut DNA at specific recognition sequences to produce fragments that can be inserted into vectors",
             commonErrors: [
               "Confusing restriction enzymes with ligase — enzymes cut, ligase joins.",
             ],
@@ -1247,7 +1247,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Harvest at the rate that can be sustained indefinitely because it does not exceed the population's reproductive capacity",
+              "**(a)** Harvest at the rate that can be sustained indefinitely because it does not exceed the population's reproductive capacity",
             commonErrors: [
               "Thinking MSY means maximum possible catch — it means maximum SUSTAINABLE catch, not maximum catch.",
             ],
@@ -1322,7 +1322,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** FOR: it can deliver vitamin A through a staple crop addressing deficiency at scale; AGAINST: it does not address poverty/diversity of diet, may have ecological risks, and raises seed-sovereignty concerns",
+              "**(a)** FOR: it can deliver vitamin A through a staple crop addressing deficiency at scale; AGAINST: it does not address poverty/diversity of diet, may have ecological risks, and raises seed-sovereignty concerns",
             commonErrors: [
               "One-sided answers — evaluation requires weighing benefits AND risks/limitations.",
             ],
@@ -1499,7 +1499,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** It joins DNA fragments together by forming phosphodiester bonds",
+              "**(a)** It joins DNA fragments together by forming phosphodiester bonds",
             commonErrors: [
               "Confusing ligase with restriction enzyme — enzymes cut, ligase joins.",
             ],
@@ -1771,7 +1771,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** They allow targeted pest control, reducing reliance on broad-spectrum insecticides, which can raise yield and benefit non-target species",
+              "**(d)** They allow targeted pest control, reducing reliance on broad-spectrum insecticides, which can raise yield and benefit non-target species",
             commonErrors: [
               "Claiming Bt crops have no ecological effects — gene flow and resistance are genuine concerns; evaluation must be balanced.",
             ],
@@ -1881,7 +1881,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** In situ protects species in their natural habitat; ex situ protects them outside it (zoos, seed banks, captive breeding)",
+              "**(c)** In situ protects species in their natural habitat; ex situ protects them outside it (zoos, seed banks, captive breeding)",
             commonErrors: [
               "Reversing the terms — 'in situ' means 'in place', i.e. in the wild.",
             ],
@@ -2101,7 +2101,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** It regulates international trade in endangered species through a permit system, aiming to ensure trade does not threaten survival",
+              "**(c)** It regulates international trade in endangered species through a permit system, aiming to ensure trade does not threaten survival",
             commonErrors: [
               "Confusing CITES with reserve designation — CITES governs trade, not land protection.",
             ],
@@ -2162,7 +2162,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The therapeutic gene inserts into the genome at an uncontrolled site and can disrupt a tumour-suppressor gene or activate an oncogene, potentially causing cancer",
+              "**(d)** The therapeutic gene inserts into the genome at an uncontrolled site and can disrupt a tumour-suppressor gene or activate an oncogene, potentially causing cancer",
             commonErrors: [
               "Confusing it with immune rejection — insertional mutagenesis is a genotoxic risk from random integration.",
             ],

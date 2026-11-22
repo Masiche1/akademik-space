@@ -269,7 +269,7 @@ export const lesson141: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Diamond",
+            finalAnswer: "**(b)** Diamond",
           },
         },
         {
@@ -331,7 +331,7 @@ export const lesson141: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Parallelogram",
+            finalAnswer: "**(c)** Parallelogram",
           },
         },
         {
@@ -427,7 +427,7 @@ export const lesson141: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Start or end",
+            finalAnswer: "**(d)** Start or end",
           },
         },
         {
@@ -523,7 +523,7 @@ export const lesson141: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** IF ... THEN ... ELSE ... ENDIF",
+            finalAnswer: "**(b)** IF ... THEN ... ELSE ... ENDIF",
           },
         },
         {
@@ -623,7 +623,7 @@ export const lesson141: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Focus on essential details",
+            finalAnswer: "**(b)** Focus on essential details",
           },
         },
       ],

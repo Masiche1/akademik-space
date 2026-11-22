@@ -231,7 +231,7 @@ export const lesson110: Lesson = {
             steps: [
               { reasoning: "A web browser is a program; the rest are physical hardware.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** A web browser",
+            finalAnswer: "**(c)** A web browser",
           },
         },
         {
@@ -280,7 +280,7 @@ export const lesson110: Lesson = {
             steps: [
               { reasoning: "The CPU processes instructions fast — it is the computer's brain.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Follows and processes instructions",
+            finalAnswer: "**(b)** Follows and processes instructions",
           },
         },
         {
@@ -316,7 +316,7 @@ export const lesson110: Lesson = {
               { reasoning: "Software holds the instructions/programs.", marks: 1, markCode: "M" },
               { reasoning: "Hardware physically executes them; neither alone is useful.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Software gives instructions; hardware runs them",
+            finalAnswer: "**(d)** Software gives instructions; hardware runs them",
           },
         },
         {

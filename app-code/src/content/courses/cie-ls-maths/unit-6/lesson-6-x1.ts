@@ -66,8 +66,8 @@ export const exam61: Lesson = {
           difficulty: "foundation",
           totalMarks: 1,
           stem: "Convert $2.4$ kg to grams.",
-          response: {"type":"mcq","choices":[ {"id":"a","text":"$240$ g"}, {"id":"b","text":"$24$ g"}, {"id":"c","text":"$0.0024$ g"}, {"id":"d","text":"$2400$ g"} ],"dorrectChoiceId":"c"},
-          markscheme: {"principles":[{"kind":"convention","name":"kg to g","statement":"$1$ kg $=1000$ g."}],"steps":[{"reasoning":"$2.4\\times1000=2400$ g.","working":"2400","marks":1,"markCode":"B"}],"finalAnswer":"**(c)** $2400$ g","commonErrors":["Choosing (b) — off by factor of 10."]},
+          response: {"type":"mcq","choices":[ {"id":"a","text":"$240$ g"}, {"id":"b","text":"$24$ g"}, {"id":"c","text":"$0.0024$ g"}, {"id":"d","text":"$2400$ g"} ],"correctChoiceId":"d"},
+          markscheme: {"principles":[{"kind":"convention","name":"kg to g","statement":"$1$ kg $=1000$ g."}],"steps":[{"reasoning":"$2.4\\times1000=2400$ g.","working":"2400","marks":1,"markCode":"B"}],"finalAnswer":"**(d)** $2400$ g","commonErrors":["Choosing (b) — off by factor of 10."]},
         },
         {
           id: "cilm-u6-x1-q6",
@@ -115,7 +115,7 @@ export const exam61: Lesson = {
           totalMarks: 1,
           stem: "On a $1:250$ scale drawing, a line is $4$ cm long. What is the real length in metres?",
           response: {"type":"mcq","choices":[ {"id":"a","text":"$10$ m"}, {"id":"b","text":"$100$ m"}, {"id":"c","text":"$1$ m"}, {"id":"d","text":"$40$ m"} ],"correctChoiceId":"a"},
-          markscheme: {"principles":[{"kind":"convention","name":"Scale","statement":"Real $=$ drawing $\\times$ factor; convert cm→m."}],"steps":[{"reasoning":"$4\\times250=1000$ cm $=10$ m.","working":"10\\text{ m}","marks":1,"markCode":"B"}],"finalAnswer":"**(b)** $10$ m","commonErrors":["Choosing (c) — forgot to convert cm to m."]},
+          markscheme: {"principles":[{"kind":"convention","name":"Scale","statement":"Real $=$ drawing $\\times$ factor; convert cm→m."}],"steps":[{"reasoning":"$4\\times250=1000$ cm $=10$ m.","working":"10\\text{ m}","marks":1,"markCode":"B"}],"finalAnswer":"**(a)** $10$ m","commonErrors":["Choosing (c) — forgot to convert cm to m."]},
         },
         {
           id: "cilm-u6-x1-q12",
@@ -131,7 +131,7 @@ export const exam61: Lesson = {
           totalMarks: 1,
           stem: "The volume of a cylinder is given by...",
           response: {"type":"mcq","choices":[ {"id":"a","text":"$\\pi r^2 h$"}, {"id":"b","text":"$\\frac{1}{3}\\pi r^2 h$"}, {"id":"c","text":"$\\pi r h^2$"}, {"id":"d","text":"$2\\pi rh$"} ],"correctChoiceId":"a"},
-          markscheme: {"principles":[{"kind":"convention","name":"Cylinder volume","statement":"$V=\\pi r^2 h$."}],"steps":[{"reasoning":"Cylinder volume $=\\pi r^2 h$.","working":"\\pi r^2 h","marks":1,"markCode":"B"}],"finalAnswer":"**(b)** $\\pi r^2 h$","commonErrors":["Choosing (a) — that's the curved surface area formula."]},
+          markscheme: {"principles":[{"kind":"convention","name":"Cylinder volume","statement":"$V=\\pi r^2 h$."}],"steps":[{"reasoning":"Cylinder volume $=\\pi r^2 h$.","working":"\\pi r^2 h","marks":1,"markCode":"B"}],"finalAnswer":"**(a)** $\\pi r^2 h$","commonErrors":["Choosing (a) — that's the curved surface area formula."]},
         },
         {
           id: "cilm-u6-x1-q14",
@@ -147,7 +147,7 @@ export const exam61: Lesson = {
           totalMarks: 1,
           stem: "Convert $750$ ml to litres.",
           response: {"type":"mcq","choices":[ {"id":"a","text":"$75$ L"}, {"id":"b","text":"$0.075$ L"}, {"id":"c","text":"$7.5$ L"}, {"id":"d","text":"$0.75$ L"} ],"correctChoiceId":"d"},
-          markscheme: {"principles":[{"kind":"convention","name":"ml to L","statement":"$1$ L $=1000$ ml."}],"steps":[{"reasoning":"$750\\div1000=0.75$ L.","working":"0.75","marks":1,"markCode":"B"}],"finalAnswer":"**(b)** $0.75$ L","commonErrors":["Choosing (a) — divided by $100$ not $1000$."]},
+          markscheme: {"principles":[{"kind":"convention","name":"ml to L","statement":"$1$ L $=1000$ ml."}],"steps":[{"reasoning":"$750\\div1000=0.75$ L.","working":"0.75","marks":1,"markCode":"B"}],"finalAnswer":"**(d)** $0.75$ L","commonErrors":["Choosing (a) — divided by $100$ not $1000$."]},
         },
         {
           id: "cilm-u6-x1-q16",

@@ -64,7 +64,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Active listening means watching the speaker and not interrupting; talking at the same time or looking away means you are not listening.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Watch the speaker and wait for their turn to talk",
+            finalAnswer: "**(a)** Watch the speaker and wait for their turn to talk",
             commonErrors: ["Choosing (d) — interrupting stops the speaker and shows poor listening."],
           },
         },
@@ -156,7 +156,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Only (b) shows eyes, ears and mind working together; the others mean the listener is not paying attention.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Looking at the speaker, staying quiet and thinking about the words",
+            finalAnswer: "**(a)** Looking at the speaker, staying quiet and thinking about the words",
             commonErrors: ["Choosing (a) — drawing may be allowed sometimes, but it is not listening with your whole body."],
           },
         },
@@ -283,7 +283,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Only (b) does tidy → book → line up, matching the order given.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'I tidied my desk, got my book, then lined up quietly.'",
+            finalAnswer: "**(d)** 'I tidied my desk, got my book, then lined up quietly.'",
             commonErrors: ["Choosing (d) — doing everything at once ignores the order of the instructions."],
           },
         },
@@ -347,7 +347,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Good turn-taking shares speaking time fairly — one speaks, one listens, then swap.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** One person speaks while the other listens, then they swap",
+            finalAnswer: "**(c)** One person speaks while the other listens, then they swap",
             commonErrors: ["Choosing (a) — talking at the same time is not turn-taking."],
           },
         },
@@ -373,7 +373,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Jo did the second step first — the order was wrong even though both jobs were done.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Jo did not follow the order of the instruction",
+            finalAnswer: "**(c)** Jo did not follow the order of the instruction",
             commonErrors: ["Choosing (c) — in instructions, order matters even if all steps are done."],
           },
         },
@@ -454,7 +454,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "A large hall needs a louder voice so everyone can hear; whispering fails and shouting is not clear.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Be loud enough for everyone to hear",
+            finalAnswer: "**(c)** Be loud enough for everyone to hear",
             commonErrors: ["Choosing (c) — a voice for one friend is too quiet for a whole class."],
           },
         },
@@ -546,7 +546,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The library needs a quiet voice; loud would disturb others and whispering may not be heard.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Quiet, so other classes are not disturbed",
+            finalAnswer: "**(d)** Quiet, so other classes are not disturbed",
             commonErrors: ["Choosing (a) — the volume must fit the room, not be as loud as possible."],
           },
         },
@@ -582,7 +582,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Very slow so you can think" },
               { id: "d", text: "A steady pace — not too fast, not too slow" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -591,7 +591,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Too fast is hard to follow and too slow is boring — steady is best.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** A steady pace — not too fast, not too slow",
+            finalAnswer: "**(d)** A steady pace — not too fast, not too slow",
             commonErrors: ["Choosing (a) — fast speaking makes it hard for listeners to understand."],
           },
         },
@@ -664,7 +664,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "At your notes the whole time" },
               { id: "d", text: "At your shoes" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -673,7 +673,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Eye contact with the audience is a key part of speaking clearly.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** At your listeners",
+            finalAnswer: "**(b)** At your listeners",
             commonErrors: ["Choosing (c) — notes help you remember, but looking at listeners keeps them engaged."],
           },
         },
@@ -737,7 +737,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "(b) uses 'please' and asks permission politely; the others are demanding or rude.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'Please may I borrow your pencil?'",
+            finalAnswer: "**(c)** 'Please may I borrow your pencil?'",
             commonErrors: ["Choosing (a) — it is a command, not a polite request."],
           },
         },

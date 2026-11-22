@@ -63,7 +63,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The force is inversely proportional to the square of the distance, so it becomes $1/9$ as large.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It becomes one ninth as large.",
+            finalAnswer: "**(c)** It becomes one ninth as large.",
             commonErrors: ["Using an inverse (not inverse-square) relationship, giving one third.", "Squaring in the wrong direction and choosing nine times as large."],
             examinerNote: "B1 for choice (a).",
           },
@@ -192,7 +192,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The field through the coil is constant, so no emf is induced and the meter reads zero.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** No current, because the magnetic field through the coil is not changing.",
+            finalAnswer: "**(b)** No current, because the magnetic field through the coil is not changing.",
             commonErrors: ["Thinking that being in a magnetic field is enough to induce a current, rather than a change in the field.", "Rejecting induction altogether (option d)."],
             examinerNote: "B1 for choice (a).",
           },

@@ -60,7 +60,7 @@ export const lessonp52: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Reflection", statement: "i = r from normal." }],
             steps: [{ reasoning: "Recall.", working: "i = r", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** i = r",
+            finalAnswer: "**(b)** i = r",
             commonErrors: ["Measuring from surface not normal."],
           },
         },
@@ -175,7 +175,7 @@ export const lessonp52: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Reflection", statement: "Rays and normal are coplanar." }],
             steps: [{ reasoning: "Recall the plane condition.", working: "\\text{same plane}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** In the same plane",
+            finalAnswer: "**(d)** In the same plane",
             commonErrors: ["Confusing ray direction with ray plane."],
           },
         },
@@ -262,7 +262,7 @@ export const lessonp52: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Refraction direction", statement: "Away from normal entering less dense medium." }],
             steps: [{ reasoning: "Air is less dense than glass.", working: "\\text{away from normal}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Away from the normal",
+            finalAnswer: "**(a)** Away from the normal",
             commonErrors: ["Using the entering-glass direction instead of leaving glass."],
           },
         },
@@ -387,7 +387,7 @@ export const lessonp52: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Lens", statement: "Convex converges." }],
             steps: [{ reasoning: "Recall.", working: "\\text{convex converges}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Convex",
+            finalAnswer: "**(a)** Convex",
             commonErrors: ["Reversed lens types."],
           },
         },
@@ -467,7 +467,7 @@ export const lessonp52: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Magnification", statement: "$m = h_i/h_o = d_i/d_o$" }],
             steps: [{ reasoning: "Recall the magnification definition.", working: "m = h_i/h_o", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $h_i/h_o$",
+            finalAnswer: "**(d)** $h_i/h_o$",
             commonErrors: ["Inverting the height ratio."],
           },
         },
@@ -501,7 +501,7 @@ export const lessonp52: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Concave lens", statement: "Always virtual, upright, diminished." }],
             steps: [{ reasoning: "Recall concave-lens behaviour.", working: "\\text{virtual, upright, diminished}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Virtual, upright and diminished",
+            finalAnswer: "**(d)** Virtual, upright and diminished",
             commonErrors: ["Assuming concave lenses can form real images."],
           },
         },
@@ -553,7 +553,7 @@ export const lessonp52: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Convex lens", statement: "Converging lens." }],
             steps: [{ reasoning: "Recall lens types.", working: "\\text{convex converges}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Convex",
+            finalAnswer: "**(d)** Convex",
             commonErrors: ["Reversing converging and diverging lenses."],
           },
         },
@@ -617,11 +617,11 @@ export const lessonp52: Lesson = {
             { id: "b", text: "Larger than the object" },
             { id: "c", text: "Smaller than the object" },
             { id: "d", text: "The same size as the object" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Magnification", statement: "$m>1$ means enlarged image." }],
             steps: [{ reasoning: "Interpret the magnification value.", working: "m > 1 \\to \\text{larger}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Larger than the object",
+            finalAnswer: "**(b)** Larger than the object",
             commonErrors: ["Thinking magnification is a percentage."],
           },
         },

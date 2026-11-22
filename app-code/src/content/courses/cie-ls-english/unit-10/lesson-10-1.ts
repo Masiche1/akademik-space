@@ -89,7 +89,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Dusk",
+            finalAnswer: "**(d)** Dusk",
           },
         },
         {
@@ -236,7 +236,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Salt and diesel",
+            finalAnswer: "**(a)** Salt and diesel",
           },
         },
         {
@@ -253,7 +253,7 @@ export const lesson1011: Lesson = {
               { id: "c", text: "Nine times" },
               { id: "d", text: "Twice" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -271,7 +271,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(c)** Three times",
+            finalAnswer: "**(b)** Three times",
           },
         },
         {
@@ -306,7 +306,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** A cello",
+            finalAnswer: "**(d)** A cello",
           },
         },
         {
@@ -376,7 +376,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(b)** Signs the last form",
+            finalAnswer: "**(a)** Signs the last form",
           },
         },
         {
@@ -863,7 +863,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO3",
               },
             ],
-            finalAnswer: "**(b)** He is thorough and careful with the cargo",
+            finalAnswer: "**(a)** He is thorough and careful with the cargo",
           },
         },
         {
@@ -933,7 +933,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO3",
               },
             ],
-            finalAnswer: "**(b)** To emphasise the cello's value and history",
+            finalAnswer: "**(a)** To emphasise the cello's value and history",
           },
         },
         {
@@ -968,7 +968,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO3",
               },
             ],
-            finalAnswer: "**(b)** He will do whatever is needed to take the cello with him",
+            finalAnswer: "**(a)** He will do whatever is needed to take the cello with him",
           },
         },
         {
@@ -1003,7 +1003,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO3",
               },
             ],
-            finalAnswer: "**(b)** It holds both risk and beauty — daunting but exciting",
+            finalAnswer: "**(d)** It holds both risk and beauty — daunting but exciting",
           },
         },
         {
@@ -1342,7 +1342,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Eleven",
+            finalAnswer: "**(d)** Eleven",
           },
         },
         {
@@ -1497,7 +1497,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** The list of cargo being transported",
+            finalAnswer: "**(d)** The list of cargo being transported",
           },
         },
         {
@@ -1532,7 +1532,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO3",
               },
             ],
-            finalAnswer: "**(b)** It is eager to reach the ferry or Tomas",
+            finalAnswer: "**(a)** It is eager to reach the ferry or Tomas",
           },
         },
         {
@@ -1567,7 +1567,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** A harbour at dusk",
+            finalAnswer: "**(a)** A harbour at dusk",
           },
         },
         {
@@ -1602,7 +1602,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO3",
               },
             ],
-            finalAnswer: "**(b)** Awe — vastness that is both beautiful and slightly frightening",
+            finalAnswer: "**(a)** Awe — vastness that is both beautiful and slightly frightening",
           },
         },
         {
@@ -1637,7 +1637,7 @@ export const lesson1011: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(b)** Tomas finishes his paperwork and boards the ferry with precious cargo, greeted by someone waiting",
+            finalAnswer: "**(c)** Tomas finishes his paperwork and boards the ferry with precious cargo, greeted by someone waiting",
           },
         },
         {

@@ -67,7 +67,7 @@ export const lesson71: Lesson = {
               { reasoning: "Replace each function name with its rule and keep the subtraction between the complete outputs.", working: "(f-g)(x)=(x+4)-3x", marks: 1, markCode: "M" },
               { reasoning: "Combine like terms to obtain the simplified expression.", working: "(x+4)-3x=4-2x", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $(f-g)(x)=4-2x$",
+            finalAnswer: "**(d)** $(f-g)(x)=4-2x$",
             commonErrors: ["Subtracting only the $x$ term and not the whole output $3x$.", "Multiplying the two functions instead of subtracting them."],
           },
         },

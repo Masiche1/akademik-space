@@ -71,7 +71,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "EN increases across period 2 and F is top-right of p-block.", working: "\\text{F max}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fluorine",
+            finalAnswer: "**(d)** Fluorine",
             commonErrors: ["Choosing oxygen — F is higher."],
             examinerNote: "B1 for (a).",
           },
@@ -186,7 +186,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "All are group 1; K is lowest → most shells → largest radius.", working: "K\\text{ largest}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** K",
+            finalAnswer: "**(c)** K",
             commonErrors: ["Choosing Li — it is smallest, not largest."],
             examinerNote: "B1 for (a).",
           },
@@ -377,7 +377,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Gaining e⁻ → negative charge → anion.", working: "\\text{anion}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** An anion",
+            finalAnswer: "**(c)** An anion",
             commonErrors: ["Confusing with cation (electron loss)."],
             examinerNote: "B1 for (a).",
           },
@@ -536,7 +536,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Mg (3s²) loses both outer electrons → charge +2.", working: "Mg^{2+}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 2+",
+            finalAnswer: "**(b)** 2+",
             commonErrors: ["Writing 1+ — magnesium loses two electrons."],
             examinerNote: "B1 for (a).",
           },
@@ -593,7 +593,7 @@ export const lesson12: Lesson = {
               { reasoning: "2 Al³⁺ give +6 → formula Al₂O₃.", working: "Al_2O_3", marks: 1, markCode: "M" },
               { reasoning: "Check neutrality: +6 and −6 balance.", working: "\\text{neutral}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Al₂O₃",
+            finalAnswer: "**(b)** Al₂O₃",
             commonErrors: ["Writing AlO₃ — aluminium is 3+, not 1+."],
             examinerNote: "M1 M1 A1.",
           },
@@ -651,7 +651,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Na (2,8,1) loses the outer electron → 2,8 = neon configuration.", working: "2,8", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 1s²2s²2p⁶ (2,8)",
+            finalAnswer: "**(d)** 1s²2s²2p⁶ (2,8)",
             commonErrors: ["Keeping the 3s electron — cations lose outer electrons first."],
             examinerNote: "B1 for (a).",
           },
@@ -678,7 +678,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Cl is a non-metal needing 1 electron for octet → Cl⁻.", working: "Cl^-", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Chlorine",
+            finalAnswer: "**(c)** Chlorine",
             commonErrors: ["Choosing a metal — metals form cations."],
             examinerNote: "B1 for (a).",
           },

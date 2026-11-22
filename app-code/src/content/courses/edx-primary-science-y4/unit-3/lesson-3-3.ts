@@ -69,7 +69,7 @@ export const lesson313: Lesson = {
             steps: [
               { reasoning: "Refraction = bending.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Light bending when changing medium",
+            finalAnswer: "**(c)** Light bending when changing medium",
             commonErrors: ["Confused with reflection."],
           },
         },
@@ -251,7 +251,7 @@ export const lesson313: Lesson = {
               { id: "c", text: "10 years" },
               { id: "d", text: "28 days" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -265,7 +265,7 @@ export const lesson313: Lesson = {
               { reasoning: "Recall orbit time.", marks: 1, markCode: "M" },
               { reasoning: "Answer: 365 days.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** 365 days",
+            finalAnswer: "**(b)** 365 days",
             commonErrors: ["Wrong time."],
           },
         },

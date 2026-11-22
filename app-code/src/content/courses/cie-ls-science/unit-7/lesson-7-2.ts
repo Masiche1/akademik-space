@@ -65,7 +65,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Iron/steel are ferromagnetic.", working: "iron/steel", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Iron and steel",
+            finalAnswer: "**(b)** Iron and steel",
             commonErrors: ["Choosing (b) — aluminium/copper aren't magnetic."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Field lines emerge from N, enter S outside.", working: "N→S", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** North to south",
+            finalAnswer: "**(b)** North to south",
             commonErrors: ["Choosing (b) — reversed direction."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Induced = temporary, from proximity to magnet.", working: "temporary", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Temporary magnetism in iron near a magnet",
+            finalAnswer: "**(d)** Temporary magnetism in iron near a magnet",
             commonErrors: ["Choosing (c) — that's electromagnetism."],
           },
         },
@@ -274,7 +274,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "N attracts S — compass points north because Earth's magnetic south is there.", working: "N-S attract", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** South pole of a magnet",
+            finalAnswer: "**(c)** South pole of a magnet",
             commonErrors: ["Choosing (b) — like poles repel."],
           },
         },
@@ -326,7 +326,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Copper is non-magnetic.", working: "copper", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Copper",
+            finalAnswer: "**(c)** Copper",
             commonErrors: ["Choosing (d) — nickel IS magnetic."],
           },
         },
@@ -587,7 +587,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Coil of wire around iron core carries current.", working: "coil+core", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Coil of wire around iron core",
+            finalAnswer: "**(c)** Coil of wire around iron core",
             commonErrors: ["Choosing (b) — that's a permanent magnet, not electromagnet."],
           },
         },
@@ -613,7 +613,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "No current → no magnetic field → magnetism lost.", working: "lost", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Disappears",
+            finalAnswer: "**(d)** Disappears",
             commonErrors: ["Choosing (b) — electromagnets are temporary by design."],
           },
         },
@@ -639,7 +639,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Higher current → stronger field.", working: "current", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Increasing current",
+            finalAnswer: "**(c)** Increasing current",
             commonErrors: ["Choosing (b) — removing core weakens it."],
           },
         },
@@ -691,7 +691,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Iron magnetises easily → stronger overall field.", working: "domains", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Iron concentrates field lines",
+            finalAnswer: "**(d)** Iron concentrates field lines",
             commonErrors: ["Choosing (b) — conductivity isn't the reason."],
           },
         },
@@ -717,7 +717,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Current off = magnetism off = release.", working: "switch off", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Switches off current",
+            finalAnswer: "**(b)** Switches off current",
             commonErrors: ["Choosing (b) — reversing poles still attracts/repeals, doesn't release."],
           },
         },
@@ -899,7 +899,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Current + magnetic field = force = rotation.", working: "current+field", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Current in magnetic field",
+            finalAnswer: "**(b)** Current in magnetic field",
             commonErrors: ["Choosing (d) — friction opposes, doesn't drive."],
           },
         },
@@ -1004,7 +1004,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Motor input = electricity; output = rotation.", working: "E→KE", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Electrical → kinetic",
+            finalAnswer: "**(c)** Electrical → kinetic",
             commonErrors: ["Choosing (b) — that's a generator."],
           },
         },
@@ -1030,7 +1030,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Armature = the current-carrying coil.", working: "coil", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The rotating coil",
+            finalAnswer: "**(b)** The rotating coil",
             commonErrors: ["Choosing (b) — magnets are the field, not armature."],
           },
         },
@@ -1082,7 +1082,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Current must reverse each half-turn to keep same rotation direction.", working: "oscillate", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oscillate/stop",
+            finalAnswer: "**(c)** Oscillate/stop",
             commonErrors: ["Choosing (b) — no commutator means no continuous rotation."],
           },
         },
@@ -1108,7 +1108,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Stronger current or field increases force/torque → speed.", working: "more force", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Increase voltage/current or field",
+            finalAnswer: "**(d)** Increase voltage/current or field",
             commonErrors: ["Choosing (d) — less current = slower."],
           },
         },
@@ -1134,7 +1134,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Left-hand rule gives force direction in motors.", working: "force direction", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Direction of force",
+            finalAnswer: "**(c)** Direction of force",
             commonErrors: ["Choosing (d) — not related to waves."],
           },
         },
@@ -1160,7 +1160,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Generator is the reverse energy conversion.", working: "mechanical→electrical", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Mechanical → electrical",
+            finalAnswer: "**(b)** Mechanical → electrical",
             commonErrors: ["Choosing (b) — that's a motor."],
           },
         },

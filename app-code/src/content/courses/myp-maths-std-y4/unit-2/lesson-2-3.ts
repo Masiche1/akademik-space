@@ -69,7 +69,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$\\frac{b}{2}=2$; $(x+2)^2-4$.", working: "(x+2)^2-4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(x+2)^2-4$",
+            finalAnswer: "**(c)** $(x+2)^2-4$",
             commonErrors: ["Using $b$ instead of $\\frac{b}{2}$."],
             examinerNote: "B1 for (a).",
           },
@@ -184,7 +184,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$\\frac{b}{2}=4$; $(x+4)^2-16$.", working: "(x+4)^2-16", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(x+4)^2-16$",
+            finalAnswer: "**(c)** $(x+4)^2-16$",
             commonErrors: ["Using $b$ instead of $\\frac{b}{2}$: $(x+8)^2-64$."],
             examinerNote: "B1 for (a).",
           },
@@ -627,7 +627,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$7-3=4$; $11-7=4$ — common difference is 4.", working: "d=4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 4",
+            finalAnswer: "**(a)** 4",
             commonErrors: ["Computing the ratio instead of the difference."],
             examinerNote: "B1 for (b).",
           },
@@ -726,7 +726,7 @@ export const lesson23: Lesson = {
               { reasoning: "Check differences in (b): $9-5=4$, $13-9=4$, $17-13=4$ — constant.", working: "d=4", marks: 1, markCode: "M" },
               { reasoning: "The others have no constant difference.", working: "\\text{not constant}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 5, 9, 13, 17, ...",
+            finalAnswer: "**(d)** 5, 9, 13, 17, ...",
             commonErrors: ["Choosing a geometric sequence by mistake."],
             examinerNote: "M1 A1.",
           },

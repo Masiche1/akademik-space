@@ -237,7 +237,7 @@ export const lesson622: Lesson = {
             steps: [
               { reasoning: "The law created the racial categories used to enforce apartheid.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** To classify South Africans by race for legal discrimination"
+            finalAnswer: "**(b)** To classify South Africans by race for legal discrimination"
           }
         },
         {
@@ -281,7 +281,7 @@ export const lesson622: Lesson = {
             steps: [
               { reasoning: "The act designated areas where different racial groups could live.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** Compulsory residential segregation by race"
+            finalAnswer: "**(d)** Compulsory residential segregation by race"
           }
         },
         {
@@ -345,7 +345,7 @@ export const lesson622: Lesson = {
             steps: [
               { reasoning: "State violence convinced many activists that peaceful protest alone was insufficient.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** A turn towards armed struggle after peaceful protest was violently suppressed"
+            finalAnswer: "**(b)** A turn towards armed struggle after peaceful protest was violently suppressed"
           }
         },
         {
@@ -409,7 +409,7 @@ export const lesson622: Lesson = {
             steps: [
               { reasoning: "Sanctions increased the cost of maintaining apartheid.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** To pressure the government economically and politically to end apartheid"
+            finalAnswer: "**(c)** To pressure the government economically and politically to end apartheid"
           }
         },
         {
@@ -453,7 +453,7 @@ export const lesson622: Lesson = {
             steps: [
               { reasoning: "The 1953 act entrenched educational inequality.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** Enforce racially segregated and inferior education for Black pupils"
+            finalAnswer: "**(b)** Enforce racially segregated and inferior education for Black pupils"
           }
         },
         {

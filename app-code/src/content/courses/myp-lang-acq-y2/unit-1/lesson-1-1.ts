@@ -240,7 +240,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'I'd like a coffee and a sandwich' is an order.", working: "ordering", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Ordering food and drink",
+            finalAnswer: "**(a)** Ordering food and drink",
             commonErrors: ["Thinking 'I'd like' is a request for help or the bill."],
             examinerNote: "A1 for (b).",
           },
@@ -444,7 +444,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'See you at...' is a closing instruction with place and time.", working: "final instruction", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Giving the final instruction of the announcement",
+            finalAnswer: "**(d)** Giving the final instruction of the announcement",
             commonErrors: ["Thinking it is only a goodbye with no information."],
             examinerNote: "A1 for (a).",
           },
@@ -551,7 +551,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Because" },
               { id: "d", text: "Then" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -560,7 +560,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'finally' signals the end of instructions.", working: "finally", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Finally",
+            finalAnswer: "**(b)** Finally",
             commonErrors: ["Confusing 'then' (middle) with 'finally' (end)."],
             examinerNote: "A1 for (c).",
           },
@@ -660,7 +660,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Then" },
               { id: "d", text: "First" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -669,7 +669,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'first' marks the start of instructions.", working: "first", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** First",
+            finalAnswer: "**(d)** First",
             commonErrors: ["Confusing 'first' with 'finally'."],
             examinerNote: "A1 for (c).",
           },
@@ -696,7 +696,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — a numbered list preserves order and reduces memory load.", working: "ordered list", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It turns a long instruction into a simple ordered list",
+            finalAnswer: "**(a)** It turns a long instruction into a simple ordered list",
             commonErrors: ["Thinking writing is only for the teacher."],
             examinerNote: "A1 for (b).",
           },
@@ -869,7 +869,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — continuing preserves the remaining steps; a polite question fills the gap.", working: "keep listening + ask after", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Keep listening, then politely ask about the missed step afterwards",
+            finalAnswer: "**(c)** Keep listening, then politely ask about the missed step afterwards",
             commonErrors: ["Stopping listening — you lose the rest of the instruction."],
             examinerNote: "A1 for (b).",
           },
@@ -927,7 +927,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'after that' shows the step comes next in order.", working: "after the previous step", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** This step happens after the previous one",
+            finalAnswer: "**(c)** This step happens after the previous one",
             commonErrors: ["Thinking 'after that' means 'at the same time'."],
             examinerNote: "A1 for (b).",
           },

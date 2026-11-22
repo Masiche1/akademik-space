@@ -137,7 +137,7 @@ export const lesson12: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The other choices describe people or events rather than the conditions that trap Nell.",
+              "**(c)**. The other choices describe people or events rather than the conditions that trap Nell.",
             commonErrors: [
               "Choosing (a), which explains why she was out but not the problem the setting creates.",
             ],
@@ -446,7 +446,7 @@ export const lesson12: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Simile. A metaphor would state that the ice is a door without 'like' or 'as'.",
+              "**(b)** Simile. A metaphor would state that the ice is a door without 'like' or 'as'.",
             commonErrors: [
               "Choosing metaphor because any comparison feels like a metaphor.",
             ],
@@ -506,7 +506,7 @@ export const lesson12: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. The verbs are gentle, so (b) is wrong. The river is waking, not staying asleep, so (c) is wrong, and (d) names a different device.",
+              "**(d)**. The verbs are gentle, so (b) is wrong. The river is waking, not staying asleep, so (c) is wrong, and (d) names a different device.",
             commonErrors: [
               "Choosing (d) by confusing the verbs with alliteration.",
             ],

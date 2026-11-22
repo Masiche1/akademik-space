@@ -71,7 +71,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Gas particles are far apart and move freely.", working: "\\text{gas}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Gas",
+            finalAnswer: "**(c)** Gas",
             commonErrors: ["Confusing liquid and gas."],
             examinerNote: "B1 for (a).",
           },
@@ -186,7 +186,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Cooling removes energy; particles attract and form liquid.", working: "\\text{gas}\\to\\text{liquid}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Lose energy, move closer",
+            finalAnswer: "**(d)** Lose energy, move closer",
             commonErrors: ["Thinking particles are destroyed."],
             examinerNote: "B1 for (a).",
           },
@@ -536,7 +536,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "H₂O is hydrogen and oxygen chemically bonded = compound.", working: "H_2O", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Water",
+            finalAnswer: "**(b)** Water",
             commonErrors: ["Choosing salt solution — that's a mixture."],
             examinerNote: "B1 for (a).",
           },
@@ -651,7 +651,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "O₂ contains only oxygen atoms → element.", working: "O_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oxygen",
+            finalAnswer: "**(c)** Oxygen",
             commonErrors: ["Choosing water — that's a compound."],
             examinerNote: "B1 for (a).",
           },

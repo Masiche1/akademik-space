@@ -128,7 +128,7 @@ export const lesson62: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Informative writing teaches and explains.",
+            finalAnswer: "**(c)**. Informative writing teaches and explains.",
             commonErrors: ["Confusing explanatory with argumentative writing."],
           },
         },
@@ -365,7 +365,7 @@ export const lesson62: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Processes need sequential order.",
+            finalAnswer: "**(c)**. Processes need sequential order.",
             commonErrors: [
               "Choosing (a) — chronological is for history/events, not mechanisms.",
             ],

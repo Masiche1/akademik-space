@@ -315,7 +315,7 @@ export const lesson232: Lesson = {
           totalMarks: 1,
           stem: "What is the primary evidence in poetry analysis?",
           response: { type: "mcq", choices: [ { id: "a", text: "Historical dates" }, { id: "b", text: "The poet's biography" }, { id: "c", text: "A critical theory" }, { id: "d", text: "The poem itself" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Primary evidence", statement: "The text is primary; context illuminates." }], steps: [{ reasoning: "Analysis must remain anchored in the poem.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** The poem itself", commonErrors: ["Letting context replace textual analysis."] },
+          markscheme: { principles: [{ kind: "skill", name: "Primary evidence", statement: "The text is primary; context illuminates." }], steps: [{ reasoning: "Analysis must remain anchored in the poem.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** The poem itself", commonErrors: ["Letting context replace textual analysis."] },
         },
         {
           id: "cial-e-u3-pc-q6",
@@ -323,7 +323,7 @@ export const lesson232: Lesson = {
           totalMarks: 1,
           stem: "What is a critical perspective or lens?",
           response: { type: "mcq", choices: [ { id: "a", text: "A type of rhyme" }, { id: "b", text: "A fixed correct reading" }, { id: "c", text: "A framework such as feminist or Marxist criticism" }, { id: "d", text: "A summary of the plot" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Critical lens", statement: "A viewpoint that directs attention to specific concerns." }], steps: [{ reasoning: "Lenses focus interpretation without determining it.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** A critical framework", commonErrors: ["Treating a lens as the only valid reading."] },
+          markscheme: { principles: [{ kind: "definition", name: "Critical lens", statement: "A viewpoint that directs attention to specific concerns." }], steps: [{ reasoning: "Lenses focus interpretation without determining it.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** A critical framework", commonErrors: ["Treating a lens as the only valid reading."] },
         },
         {
           id: "cial-e-u3-pc-q7",
@@ -331,7 +331,7 @@ export const lesson232: Lesson = {
           totalMarks: 1,
           stem: "What does paradox do in poetry?",
           response: { type: "mcq", choices: [ { id: "a", text: "Reveals complexity through apparently contradictory ideas" }, { id: "b", text: "Proves the poem is logical" }, { id: "c", text: "Changes the rhyme scheme" }, { id: "d", text: "Removes all ambiguity" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "technique", name: "Paradox", statement: "Contradictory statements can expose deeper truth." }], steps: [{ reasoning: "Paradox holds tension between opposing ideas.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Reveals complexity", commonErrors: ["Treating paradox as a mistake."] },
+          markscheme: { principles: [{ kind: "technique", name: "Paradox", statement: "Contradictory statements can expose deeper truth." }], steps: [{ reasoning: "Paradox holds tension between opposing ideas.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Reveals complexity", commonErrors: ["Treating paradox as a mistake."] },
         },
         {
           id: "cial-e-u3-pc-q8",
@@ -339,7 +339,7 @@ export const lesson232: Lesson = {
           totalMarks: 1,
           stem: "How would a feminist reading differ from a Marxist reading?",
           response: { type: "mcq", choices: [ { id: "a", text: "Feminist focuses on gender/power; Marxist on class/economics" }, { id: "b", text: "They would be identical" }, { id: "c", text: "Marxist ignores the text" }, { id: "d", text: "Feminist only counts lines" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "comparison", name: "Critical lenses", statement: "Different theories emphasise different concerns." }], steps: [{ reasoning: "Each lens prioritises different social questions.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Gender/power vs class/economics", commonErrors: ["Applying one lens mechanically to all questions."] },
+          markscheme: { principles: [{ kind: "comparison", name: "Critical lenses", statement: "Different theories emphasise different concerns." }], steps: [{ reasoning: "Each lens prioritises different social questions.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Gender/power vs class/economics", commonErrors: ["Applying one lens mechanically to all questions."] },
         },
         {
           id: "cial-e-u3-pc-q9",
@@ -347,7 +347,7 @@ export const lesson232: Lesson = {
           totalMarks: 1,
           stem: "Why should ambiguity be acknowledged in critical analysis?",
           response: { type: "mcq", choices: [ { id: "a", text: "It makes poems shorter" }, { id: "b", text: "It removes the need for evidence" }, { id: "c", text: "It proves the text is bad" }, { id: "d", text: "It demonstrates sophisticated engagement with multiple meanings" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Ambiguity", statement: "Multiple defensible readings show critical depth." }], steps: [{ reasoning: "Acknowledging ambiguity reflects careful interpretation.", marks: 1, markCode: "AO3" }], finalAnswer: "**(b)** Sophisticated critical engagement", commonErrors: ["Forcing a single simplistic reading."] },
+          markscheme: { principles: [{ kind: "skill", name: "Ambiguity", statement: "Multiple defensible readings show critical depth." }], steps: [{ reasoning: "Acknowledging ambiguity reflects careful interpretation.", marks: 1, markCode: "AO3" }], finalAnswer: "**(d)** Sophisticated critical engagement", commonErrors: ["Forcing a single simplistic reading."] },
         },
         {
           id: "cial-e-u3-pc-q10",
@@ -474,7 +474,7 @@ export const lesson232: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(a)** Two separate analyses",
+            finalAnswer: "**(c)** Two separate analyses",
             commonErrors: ["Treating comparison as two essays."],
           },
         },
@@ -686,7 +686,7 @@ export const lesson232: Lesson = {
           totalMarks: 1,
           stem: "What should a comparative essay do first?",
           response: { type: "mcq", choices: [ { id: "a", text: "Identify shared themes before comparing treatment" }, { id: "b", text: "Count the lines" }, { id: "c", text: "Analyse Poem A completely" }, { id: "d", text: "Choose a winner immediately" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "skill", name: "Comparative method", statement: "Shared theme anchors point-by-point comparison." }], steps: [{ reasoning: "Common ground makes comparison meaningful.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Identify shared themes", commonErrors: ["Starting with two unrelated analyses."] },
+          markscheme: { principles: [{ kind: "skill", name: "Comparative method", statement: "Shared theme anchors point-by-point comparison." }], steps: [{ reasoning: "Common ground makes comparison meaningful.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Identify shared themes", commonErrors: ["Starting with two unrelated analyses."] },
         },
         {
           id: "cial-e-u3-cp-q6",
@@ -694,7 +694,7 @@ export const lesson232: Lesson = {
           totalMarks: 1,
           stem: "Which connective best signals contrast in comparison?",
           response: { type: "mcq", choices: [ { id: "a", text: "By contrast" }, { id: "b", text: "Also" }, { id: "c", text: "Similarly" }, { id: "d", text: "Therefore" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "convention", name: "Comparative connectives", statement: "Contrast phrases link differing treatments." }], steps: [{ reasoning: "By contrast signals difference.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** By contrast", commonErrors: ["Using only similarity connectives."] },
+          markscheme: { principles: [{ kind: "convention", name: "Comparative connectives", statement: "Contrast phrases link differing treatments." }], steps: [{ reasoning: "By contrast signals difference.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** By contrast", commonErrors: ["Using only similarity connectives."] },
         },
         {
           id: "cial-e-u3-cp-q7",
@@ -710,7 +710,7 @@ export const lesson232: Lesson = {
           totalMarks: 1,
           stem: "Which point is a valid basis for comparing two poems?",
           response: { type: "mcq", choices: [ { id: "a", text: "Shared theme treated through form, imagery or voice" }, { id: "b", text: "The number of commas" }, { id: "c", text: "Only the title" }, { id: "d", text: "The poet's birthplace" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "technique", name: "Points of comparison", statement: "Compare aspects such as theme, form, imagery, voice and attitude." }], steps: [{ reasoning: "Comparison needs shared ground and differing treatment.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Theme through form, imagery or voice", commonErrors: ["Comparing unrelated surface details."] },
+          markscheme: { principles: [{ kind: "technique", name: "Points of comparison", statement: "Compare aspects such as theme, form, imagery, voice and attitude." }], steps: [{ reasoning: "Comparison needs shared ground and differing treatment.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Theme through form, imagery or voice", commonErrors: ["Comparing unrelated surface details."] },
         },
         {
           id: "cial-e-u3-cp-q9",
@@ -718,7 +718,7 @@ export const lesson232: Lesson = {
           totalMarks: 1,
           stem: "What strengthens the strongest comparative essays?",
           response: { type: "mcq", choices: [ { id: "a", text: "Using no evidence" }, { id: "b", text: "Avoiding judgement entirely" }, { id: "c", text: "Listing techniques only" }, { id: "d", text: "A supported critical judgement on effectiveness" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Critical judgement", statement: "Balanced evaluation reaches a supported conclusion." }], steps: [{ reasoning: "Judgement should be earned through textual evidence.", marks: 1, markCode: "AO3" }], finalAnswer: "**(b)** Supported judgement", commonErrors: ["Refusing to evaluate which treatment is stronger."] },
+          markscheme: { principles: [{ kind: "skill", name: "Critical judgement", statement: "Balanced evaluation reaches a supported conclusion." }], steps: [{ reasoning: "Judgement should be earned through textual evidence.", marks: 1, markCode: "AO3" }], finalAnswer: "**(d)** Supported judgement", commonErrors: ["Refusing to evaluate which treatment is stronger."] },
         },
         {
           id: "cial-e-u3-cp-q10",

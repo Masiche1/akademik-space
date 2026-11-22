@@ -85,7 +85,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Asexual = clones.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Asexual reproduction",
+            finalAnswer: "**(c)** Asexual reproduction",
             commonErrors: ["Sexual confused."],
           },
         },
@@ -309,7 +309,7 @@ export const lesson12: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Possible offspring genotypes",
+            finalAnswer: "**(c)** Possible offspring genotypes",
             commonErrors: ["Phenotype assumed — genotypes predicted."],
           },
         },
@@ -520,7 +520,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Producers at base.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Producer",
+            finalAnswer: "**(d)** Producer",
             commonErrors: ["Predator at base assumed."],
           },
         },

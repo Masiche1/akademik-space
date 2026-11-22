@@ -45,7 +45,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Cash flow" },
             { id: "d", text: "Sales only" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Balance sheet", statement: "Position at a date." }], steps: [{ reasoning: "Position snapshot.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Position at a date" },
+          markscheme: { principles: [{ kind: "definition", name: "Balance sheet", statement: "Position at a date." }], steps: [{ reasoning: "Position snapshot.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Position at a date" },
         },
         {
           id: "olacc-u3-bs-q2", difficulty: "core", totalMarks: 2,
@@ -101,7 +101,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Cash = Bank" },
             { id: "d", text: "Sales = Purchases" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "principle", name: "Balance sheet", statement: "Assets = Capital + Liabilities." }], steps: [{ reasoning: "The two sides must always balance.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Assets = Capital + Liabilities" },
+          markscheme: { principles: [{ kind: "principle", name: "Balance sheet", statement: "Assets = Capital + Liabilities." }], steps: [{ reasoning: "The two sides must always balance.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Assets = Capital + Liabilities" },
         },
         {
           id: "olacc-u3-bs-q6", difficulty: "core", totalMarks: 1,
@@ -112,7 +112,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Are owned by customers" },
             { id: "d", text: "Last more than ten years" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Current assets", statement: "Short-term, cash within a year." }], steps: [{ reasoning: "Current assets are expected to become cash within twelve months.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Convertible to cash within a year" },
+          markscheme: { principles: [{ kind: "definition", name: "Current assets", statement: "Short-term, cash within a year." }], steps: [{ reasoning: "Current assets are expected to become cash within twelve months.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Convertible to cash within a year" },
         },
         {
           id: "olacc-u3-bs-q7", difficulty: "challenge", totalMarks: 3,
@@ -142,7 +142,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Debts repayable within one year" },
             { id: "d", text: "Debts repayable after more than one year" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Non-current liabilities", statement: "Long-term debts." }], steps: [{ reasoning: "Non-current liabilities are long-term, e.g. loans repayable after a year.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Debts repayable after one year" },
+          markscheme: { principles: [{ kind: "definition", name: "Non-current liabilities", statement: "Long-term debts." }], steps: [{ reasoning: "Non-current liabilities are long-term, e.g. loans repayable after a year.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Debts repayable after one year" },
         },
         {
           id: "olacc-u3-bs-q10", difficulty: "challenge", totalMarks: 4,
@@ -182,7 +182,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Stock" },
             { id: "d", text: "Delivery van" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Fixed assets", statement: "Long-term assets." }], steps: [{ reasoning: "A delivery van is held long-term — a fixed asset.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Delivery van" },
+          markscheme: { principles: [{ kind: "definition", name: "Fixed assets", statement: "Long-term assets." }], steps: [{ reasoning: "A delivery van is held long-term — a fixed asset.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Delivery van" },
         },
         {
           id: "olacc-u3-bs-q14", difficulty: "challenge", totalMarks: 4,
@@ -257,7 +257,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Money owed TO the business" },
             { id: "d", text: "A type of expense" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Debtors", statement: "Owed to us." }], steps: [{ reasoning: "Debtors = owed to us.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Owed to us" },
+          markscheme: { principles: [{ kind: "definition", name: "Debtors", statement: "Owed to us." }], steps: [{ reasoning: "Debtors = owed to us.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Owed to us" },
         },
         {
           id: "olacc-u3-bi-q2", difficulty: "core", totalMarks: 2,
@@ -352,7 +352,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Part of sales" },
             { id: "d", text: "Current assets" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Accrued expense", statement: "Owed — liability." }], steps: [{ reasoning: "Accrued expenses are amounts owed, so they are current liabilities.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Current liabilities" },
+          markscheme: { principles: [{ kind: "definition", name: "Accrued expense", statement: "Owed — liability." }], steps: [{ reasoning: "Accrued expenses are amounts owed, so they are current liabilities.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Current liabilities" },
         },
         {
           id: "olacc-u3-bi-q10", difficulty: "challenge", totalMarks: 4,
@@ -393,7 +393,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Total sales for the year" },
             { id: "d", text: "All ledger balances" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "principle", name: "Capital", statement: "O + NP - D." }], steps: [{ reasoning: "Closing capital adds profit and deducts drawings from opening capital.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Opening capital + profit - drawings" },
+          markscheme: { principles: [{ kind: "principle", name: "Capital", statement: "O + NP - D." }], steps: [{ reasoning: "Closing capital adds profit and deducts drawings from opening capital.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Opening capital + profit - drawings" },
         },
         {
           id: "olacc-u3-bi-q14", difficulty: "challenge", totalMarks: 4,

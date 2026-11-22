@@ -61,7 +61,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Boyle's law", statement: "P ∝ 1/V at constant T." }],
             steps: [{ reasoning: "Recall.", working: "P \\propto \\frac{1}{V}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** P ∝ 1/V at constant temperature",
+            finalAnswer: "**(a)** P ∝ 1/V at constant temperature",
             commonErrors: ["Confusing Boyle's with Charles's law."],
           },
         },
@@ -155,11 +155,11 @@ export const lesson112: Lesson = {
             { id: "b", text: "Amount of gas" },
             { id: "c", text: "Volume" },
             { id: "d", text: "Temperature" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "law", name: "Boyle's law", statement: "Applies at constant temperature." }],
             steps: [{ reasoning: "Recall condition.", working: "\\text{constant } T", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Temperature",
+            finalAnswer: "**(d)** Temperature",
             commonErrors: ["Thinking pressure is constant — pressure changes in Boyle's law."],
           },
         },
@@ -378,11 +378,11 @@ export const lesson112: Lesson = {
             { id: "b", text: "−273 °C" },
             { id: "c", text: "100 °C" },
             { id: "d", text: "0 °C" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Absolute zero", statement: "−273 °C / 0 K." }],
             steps: [{ reasoning: "Recall.", working: "-273^\\circ\\text{C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** −273 °C",
+            finalAnswer: "**(b)** −273 °C",
             commonErrors: ["0 °C is the ice point, not absolute zero."],
           },
         },
@@ -462,7 +462,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Charles's law", statement: "V ∝ T at constant P, T in kelvin." }],
             steps: [{ reasoning: "Recall.", working: "\\frac{V}{T} = \\text{constant}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** V/T is constant at constant pressure",
+            finalAnswer: "**(b)** V/T is constant at constant pressure",
             commonErrors: ["Confusing with Boyle's law (P×V constant)."],
           },
         },
@@ -480,7 +480,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Charles's law", statement: "Requires absolute (kelvin) temperature." }],
             steps: [{ reasoning: "Recall.", working: "\\text{kelvin}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Kelvin",
+            finalAnswer: "**(a)** Kelvin",
             commonErrors: ["Using °C directly gives wrong results."],
           },
         },
@@ -543,7 +543,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Charles's law", statement: "V ∝ T → linear through origin." }],
             steps: [{ reasoning: "Recall.", working: "V \\propto T", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A straight line through the origin",
+            finalAnswer: "**(d)** A straight line through the origin",
             commonErrors: ["A curve would imply V ∝ T² or similar."],
           },
         },

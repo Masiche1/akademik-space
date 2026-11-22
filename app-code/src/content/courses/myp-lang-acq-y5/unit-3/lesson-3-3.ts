@@ -247,7 +247,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'In Country X, women do not' treats a whole group uniformly.", working: "overgeneralisation", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It overgeneralises a whole country",
+            finalAnswer: "**(c)** It overgeneralises a whole country",
             commonErrors: ["Missing the absolute generalisation."],
             examinerNote: "B1 for (b).",
           },
@@ -327,7 +327,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — only outsiders speak; community members are silenced.", working: "absent voice", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It omits insider perspectives, privileging outsider voices",
+            finalAnswer: "**(a)** It omits insider perspectives, privileging outsider voices",
             commonErrors: ["Focusing on production quality."],
             examinerNote: "B1 for (b).",
           },
@@ -439,7 +439,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — (b) uses 'some regions', 'may' and 'varies'.", working: "nuanced", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** In some regions of Country X, people may maintain traditional practices, though this varies.",
+            finalAnswer: "**(a)** In some regions of Country X, people may maintain traditional practices, though this varies.",
             commonErrors: ["Choosing the simpler absolute statement."],
             examinerNote: "B1 for (b).",
           },
@@ -509,7 +509,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'may vary' acknowledges diversity; 'always' essentialises.", working: "nuance", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It avoids an absolute claim about a whole region",
+            finalAnswer: "**(a)** It avoids an absolute claim about a whole region",
             commonErrors: ["Choosing the simpler statement."],
             examinerNote: "B1 for (b).",
           },
@@ -567,7 +567,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — complexity = multiple dimensions/stakeholders/trade-offs.", working: "complexity", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** It involves multiple dimensions, stakeholders and trade-offs",
+            finalAnswer: "**(d)** It involves multiple dimensions, stakeholders and trade-offs",
             commonErrors: ["Thinking complexity means only difficulty."],
             examinerNote: "C1 for (b).",
           },
@@ -683,7 +683,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — interconnectedness and trade-offs require nuance.", working: "complexity", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Because they are interconnected and involve trade-offs",
+            finalAnswer: "**(c)** Because they are interconnected and involve trade-offs",
             commonErrors: ["Thinking simplicity is always better."],
             examinerNote: "C1 for (b).",
           },
@@ -710,7 +710,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — local communities are key stakeholders.", working: "stakeholder", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Local communities affected by the issue",
+            finalAnswer: "**(c)** Local communities affected by the issue",
             commonErrors: ["Limiting stakeholders to governments."],
             examinerNote: "C1 for (b).",
           },
@@ -743,7 +743,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'definitely' and 'no need to worry' oversimplify.", working: "oversimplification", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** It oversimplifies a complex issue with an absolute claim",
+            finalAnswer: "**(a)** It oversimplifies a complex issue with an absolute claim",
             commonErrors: ["Missing the absolute 'definitely'."],
             examinerNote: "C1 for (b).",
           },
@@ -823,7 +823,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — B uses 'may', 'could' and offers alternatives; A uses absolute 'must ban all'.", working: "nuanced", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Speaker B",
+            finalAnswer: "**(c)** Speaker B",
             commonErrors: ["Thinking the strongest language is the best position."],
             examinerNote: "C1 for (b).",
           },
@@ -931,7 +931,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — (b) acknowledges stakeholders and uncertainty.", working: "inclusive", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Different stakeholders may prioritise different outcomes, and the evidence suggests trade-offs exist.",
+            finalAnswer: "**(a)** Different stakeholders may prioritise different outcomes, and the evidence suggests trade-offs exist.",
             commonErrors: ["Choosing absolute or us-versus-them phrasing."],
             examinerNote: "C1 for (b).",
           },

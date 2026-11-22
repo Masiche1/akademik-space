@@ -51,7 +51,7 @@ export const lesson214: Lesson = {
             { id: "b", text: "Coal" },
             { id: "c", text: "Oil" },
             { id: "d", text: "Wind" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Renewable", statement: "Replaces itself naturally." }],
             steps: [{ reasoning: "Wind is renewable; fossil fuels are not.", marks: 1, markCode: "A" }],
@@ -229,7 +229,7 @@ export const lesson214: Lesson = {
             { id: "b", text: "Light" },
             { id: "c", text: "Heat" },
             { id: "d", text: "Colour" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Energy forms", statement: "Heat, light, sound, movement, chemical." }],
             steps: [{ reasoning: "Colour is not an energy form.", marks: 1, markCode: "A" }],

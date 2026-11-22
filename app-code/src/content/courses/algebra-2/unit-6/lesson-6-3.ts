@@ -59,7 +59,7 @@ export const lesson63: Lesson = {
               { id: "c", text: "$5$" },
               { id: "d", text: "$8$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -70,7 +70,7 @@ export const lesson63: Lesson = {
               { reasoning: "Convert the equation to exponential form, using 3 as base and 2 as exponent.", working: "\\log_3 x=2 \\iff x=3^2", marks: 1, markCode: "M" },
               { reasoning: "Evaluate the power; the result is positive and satisfies the original logarithm domain.", working: "x=9", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $x=9$.",
+            finalAnswer: "**(a)** $x=9$.",
             commonErrors: ["Adding the base and exponent to get 5.", "Multiplying the base by the exponent to get 6."],
           },
         },
@@ -203,7 +203,7 @@ export const lesson63: Lesson = {
               { reasoning: "Ten days contains two half-life intervals of five days each.", working: "10/5=2", marks: 1, markCode: "M" },
               { reasoning: "The fraction remaining is one-half multiplied by itself twice.", working: "(1/2)^2=1/4", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $\\frac14$ of the initial amount.",
+            finalAnswer: "**(c)** $\\frac14$ of the initial amount.",
             commonErrors: ["Using $1/5$ as the fraction because the half-life is 5 days.", "Subtracting two halves instead of multiplying by the decay factor twice."],
           },
         },

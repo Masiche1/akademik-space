@@ -77,7 +77,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "8000" },
               { id: "d", text: "800" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -90,7 +90,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "8 hundreds = 800.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** 800",
+            finalAnswer: "**(d)** 800",
             commonErrors: ["Answering 80 — misreading the place."],
           },
         },
@@ -334,7 +334,7 @@ export const lesson11: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** 1000",
+            finalAnswer: "**(c)** 1000",
             commonErrors: ["Writing 1001 — adding 2 instead of 1."],
           },
         },

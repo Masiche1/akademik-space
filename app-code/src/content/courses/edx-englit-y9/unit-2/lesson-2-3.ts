@@ -84,7 +84,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Simile", statement: "A comparison with 'like' or 'as'." }],
             steps: [{ reasoning: "'Tired' and 'heavy-lidded' suggest weariness and a sad, reflective mood.", evidence: "like tired thoughts", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** It suggests a weary, heavy mood.",
+            finalAnswer: "**(d)** It suggests a weary, heavy mood.",
             commonErrors: ["Choosing (d), assuming boats coming home is automatically cheerful."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Metaphor and alliteration", statement: "Fire imagery suggests energy and danger; the repeated b sound adds emphasis." }],
             steps: [{ reasoning: "Fire is bright, powerful and dangerous, so the tiger is a blaze of energy.", evidence: "burning bright", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** It is fierce, glowing and dangerous.",
+            finalAnswer: "**(c)** It is fierce, glowing and dangerous.",
             commonErrors: ["Choosing (b) from misreading 'burning' as decay."],
           },
         },

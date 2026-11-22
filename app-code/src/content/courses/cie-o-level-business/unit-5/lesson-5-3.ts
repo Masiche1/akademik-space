@@ -111,7 +111,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Revenue (sales)" },
             { id: "d", text: "Fixed assets" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "P&L structure", statement: "Revenue first." }], steps: [{ reasoning: "P&L starts with revenue.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "P&L structure", statement: "Revenue first." }], steps: [{ reasoning: "P&L starts with revenue.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u5-pl-q7", difficulty: "core", totalMarks: 1,
@@ -133,7 +133,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Break-even" },
             { id: "d", text: "A loss" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Net profit", statement: "Negative = loss." }], steps: [{ reasoning: "Negative NP = loss.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Net profit", statement: "Negative = loss." }], steps: [{ reasoning: "Negative NP = loss.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u5-pl-q9", difficulty: "core", totalMarks: 1,
@@ -144,7 +144,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Improving profitability and efficiency" },
             { id: "d", text: "Higher fixed costs only" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Margins", statement: "Efficiency indicator." }], steps: [{ reasoning: "Higher margin = better performance.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Margins", statement: "Efficiency indicator." }], steps: [{ reasoning: "Higher margin = better performance.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u5-pl-q10", difficulty: "core", totalMarks: 2,
@@ -257,7 +257,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Assets, liabilities and capital" },
             { id: "d", text: "Only expenses" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Balance sheet", statement: "A = L + C." }], steps: [{ reasoning: "Three elements.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Balance sheet", statement: "A = L + C." }], steps: [{ reasoning: "Three elements.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u5-bs-q2", difficulty: "core", totalMarks: 2,
@@ -313,7 +313,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Stock" },
             { id: "d", text: "Factory buildings" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Current assets", statement: "Short-term resources." }], steps: [{ reasoning: "Stock is a current asset.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Current assets", statement: "Short-term resources." }], steps: [{ reasoning: "Stock is a current asset.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u5-bs-q6", difficulty: "foundation", totalMarks: 1,
@@ -335,7 +335,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Is making a loss" },
             { id: "d", text: "Has no assets" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Current ratio", statement: "Liquidity measure." }], steps: [{ reasoning: "Ratio > 1 = liquid.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Current ratio", statement: "Liquidity measure." }], steps: [{ reasoning: "Ratio > 1 = liquid.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u5-bs-q8", difficulty: "core", totalMarks: 1,
@@ -357,7 +357,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Over a whole year only" },
             { id: "d", text: "At a particular point in time" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Balance sheet", statement: "Snapshot in time." }], steps: [{ reasoning: "BS shows position at one date.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Balance sheet", statement: "Snapshot in time." }], steps: [{ reasoning: "BS shows position at one date.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u5-bs-q10", difficulty: "core", totalMarks: 2,

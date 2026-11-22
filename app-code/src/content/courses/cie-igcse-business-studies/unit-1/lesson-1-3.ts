@@ -278,7 +278,7 @@ export const lesson253: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Achieving the highest possible level of profit",
+              "**(d)** Achieving the highest possible level of profit",
           },
         },
         {
@@ -316,7 +316,7 @@ export const lesson253: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Any person or group affected by the business's decisions",
+              "**(c)** Any person or group affected by the business's decisions",
           },
         },
         {
@@ -418,7 +418,7 @@ export const lesson253: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** Quality products at low prices",
+            finalAnswer: "**(d)** Quality products at low prices",
           },
         },
         {
@@ -552,7 +552,7 @@ export const lesson253: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** Local community",
+            finalAnswer: "**(d)** Local community",
           },
         },
         {
@@ -586,7 +586,7 @@ export const lesson253: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** Shareholders and customers",
+            finalAnswer: "**(a)** Shareholders and customers",
           },
         },
         {
@@ -611,7 +611,7 @@ export const lesson253: Lesson = {
                 text: "Let the government decide all business objectives",
               },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -631,7 +631,7 @@ export const lesson253: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Consider the interests of all stakeholders while pursuing its objectives",
+              "**(b)** Consider the interests of all stakeholders while pursuing its objectives",
           },
         },
         {

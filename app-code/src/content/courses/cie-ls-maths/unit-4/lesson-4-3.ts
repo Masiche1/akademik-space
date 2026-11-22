@@ -170,7 +170,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "$x < 7+3 = 10$.", working: "x<10", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x < 10$",
+            finalAnswer: "**(c)** $x < 10$",
             commonErrors: ["Choosing (b) — addition never flips the inequality."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Divide by $-1$ and flip: $x > -5$. Check $x=0$: $0<5$ ✓.", working: "x>-5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x > -5$",
+            finalAnswer: "**(b)** $x > -5$",
             commonErrors: ["Choosing (b) — forgot the flip when dividing by negative."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Closed circle at 3, arrow right.", working: "\\bullet \\rightarrow", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Closed circle at 3, shaded right",
+            finalAnswer: "**(d)** Closed circle at 3, shaded right",
             commonErrors: ["Choosing (b) — open circle means strict inequality ($>$ or $<$)."],
           },
         },
@@ -481,7 +481,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "$y-2=3x$ → $x=\\frac{y-2}{3}$.", working: "x=\\frac{y-2}{3}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x = \\frac{y-2}{3}$",
+            finalAnswer: "**(d)** $x = \\frac{y-2}{3}$",
             commonErrors: ["Choosing (b) — adding 2 instead of subtracting."],
           },
         },
@@ -612,7 +612,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "$2A=bh$ → $h=\\frac{2A}{b}$.", working: "h=\\frac{2A}{b}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $h = \\frac{2A}{b}$",
+            finalAnswer: "**(b)** $h = \\frac{2A}{b}$",
             commonErrors: ["Choosing (b) — dividing by 2 instead of multiplying by 2."],
           },
         },
@@ -638,7 +638,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "$r=\\frac{C}{2\\pi}$.", working: "r=\\frac{C}{2\\pi}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $r = \\frac{C}{2\\pi}$",
+            finalAnswer: "**(c)** $r = \\frac{C}{2\\pi}$",
             commonErrors: ["Choosing (b) — dividing by $2\\pi$ means $C$ over $2\\pi$, not multiplied."],
           },
         },
@@ -664,7 +664,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "$v-u=at$ → $t=\\frac{v-u}{a}$.", working: "t=\\frac{v-u}{a}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $t = \\frac{v - u}{a}$",
+            finalAnswer: "**(b)** $t = \\frac{v - u}{a}$",
             commonErrors: ["Choosing (b) — $u$ must be subtracted, not added."],
           },
         },
@@ -690,7 +690,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "$a=\\frac{F}{m}$.", working: "a=\\frac{F}{m}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $a = \\frac{F}{m}$",
+            finalAnswer: "**(d)** $a = \\frac{F}{m}$",
             commonErrors: ["Choosing (b) — $F=ma$ means $a$ is $F$ divided by $m$."],
           },
         },

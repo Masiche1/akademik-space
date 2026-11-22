@@ -70,7 +70,7 @@ export const lesson53: Lesson = {
               { reasoning: "Description states objective facts — instruments, tempo, texture, form.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Stating what is objectively present in the music",
+            finalAnswer: "**(d)** Stating what is objectively present in the music",
             commonErrors: [
               "Confusing description with analysis or evaluation.",
             ],
@@ -171,7 +171,7 @@ export const lesson53: Lesson = {
               { reasoning: "Evaluation moves beyond explanation to judgement and justification.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Judges the music's success or significance using criteria",
+            finalAnswer: "**(d)** Judges the music's success or significance using criteria",
             commonErrors: [
               "Using evaluation as a synonym for description.",
             ],
@@ -272,7 +272,7 @@ export const lesson53: Lesson = {
               { reasoning: "Jazz conventions value improvisation, interaction and harmonic development.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Jazz conventions such as improvisation, interaction and harmonic awareness",
+            finalAnswer: "**(d)** Jazz conventions such as improvisation, interaction and harmonic awareness",
             commonErrors: [
               "Applying classical criteria mechanically to improvisatory music.",
             ],
@@ -352,7 +352,7 @@ export const lesson53: Lesson = {
               { reasoning: "Context is most useful after the listener understands what the music actually does.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** After description and analysis have established the musical facts",
+            finalAnswer: "**(a)** After description and analysis have established the musical facts",
             commonErrors: [
               "Letting biography replace musical analysis.",
             ],
@@ -381,7 +381,7 @@ export const lesson53: Lesson = {
               { reasoning: "If rhythmic interaction is central, its effectiveness is a relevant criterion.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Whether the rhythmic interplay achieves its intended effect",
+            finalAnswer: "**(c)** Whether the rhythmic interplay achieves its intended effect",
             commonErrors: [
               "Choosing criteria unrelated to the piece's musical purpose.",
             ],
@@ -534,7 +534,7 @@ export const lesson53: Lesson = {
               { reasoning: "Programme notes prepare listeners with context and guidance for what to hear.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Prepare listeners with context and guidance",
+            finalAnswer: "**(c)** Prepare listeners with context and guidance",
             commonErrors: [
               "Thinking programme notes substitute for listening rather than prepare for it.",
             ],
@@ -635,7 +635,7 @@ export const lesson53: Lesson = {
               { reasoning: "Programme notes orient listeners before or during listening.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Prepare listeners with context and guidance",
+            finalAnswer: "**(c)** Prepare listeners with context and guidance",
             commonErrors: [
               "Treating programme notes as a substitute for the music.",
             ],
@@ -707,7 +707,7 @@ export const lesson53: Lesson = {
               { reasoning: "Option (b) describes the sound clearly without unexplained jargon.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** \"A lone flute sings a mournful tune while strings repeat a quiet pattern beneath it.\"",
+            finalAnswer: "**(a)** \"A lone flute sings a mournful tune while strings repeat a quiet pattern beneath it.\"",
             commonErrors: [
               "Choosing technical precision over audience accessibility.",
             ],
@@ -845,7 +845,7 @@ export const lesson53: Lesson = {
               { reasoning: "Commentary for students or scholars may go beyond orientation into analysis.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** May examine structure, meaning and significance in greater depth",
+            finalAnswer: "**(c)** May examine structure, meaning and significance in greater depth",
             commonErrors: [
               "Confusing analytical depth with audience-appropriate accessibility.",
             ],
@@ -874,7 +874,7 @@ export const lesson53: Lesson = {
               { reasoning: "Option (b) describes the form and mood in plain language.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** \"A cheerful tune keeps returning between quieter, more serious episodes.\"",
+            finalAnswer: "**(d)** \"A cheerful tune keeps returning between quieter, more serious episodes.\"",
             commonErrors: [
               "Using specialist terminology where plain description would orient listeners.",
             ],

@@ -68,7 +68,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "A temperature rise means energy has been released to the surroundings, so the reaction is exothermic.", working: "\\text{temperature rises} \\Rightarrow \\text{exothermic}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Exothermic, because energy is transferred to the surroundings",
+            finalAnswer: "**(d)** Exothermic, because energy is transferred to the surroundings",
             commonErrors: ["Thinking a temperature rise means the reaction has taken in energy.", "Mixing up the signs: exothermic reactions have a negative $\\Delta H$."],
             examinerNote: "B1 for (b).",
           },
@@ -210,7 +210,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The energy transferred is the product of mass, specific heat capacity and temperature change.", working: "Q = mc\\Delta T", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $Q = mc\\Delta T$",
+            finalAnswer: "**(c)** $Q = mc\\Delta T$",
             commonErrors: ["Dividing by the temperature change or the specific heat capacity instead of multiplying."],
             examinerNote: "B1 for (b).",
           },

@@ -104,7 +104,7 @@ export const lesson501: Lesson = {
           },
         ],
         finalAnswer:
-          "**(b)** A regional conflict where superpowers support opposing sides without direct war",
+          "**(a)** A regional conflict where superpowers support opposing sides without direct war",
       },
     },
     {
@@ -167,7 +167,7 @@ export const lesson501: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** 38th parallel",
+        finalAnswer: "**(c)** 38th parallel",
       },
     },
     {
@@ -408,7 +408,7 @@ export const lesson501: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Dien Bien Phu",
+        finalAnswer: "**(d)** Dien Bien Phu",
       },
     },
     {
@@ -478,7 +478,7 @@ export const lesson501: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Guerrilla warfare and the Ho Chi Minh trail",
+        finalAnswer: "**(d)** Guerrilla warfare and the Ho Chi Minh trail",
       },
     },
     {

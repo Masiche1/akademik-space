@@ -202,7 +202,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$\\log_2 8=3$ and $\\log_2 4=2$, so the sum is $5$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5$",
+            finalAnswer: "**(c)** $5$",
             commonErrors: ["Multiplying the logs instead of adding.", "Writing $\\log_2 12$ without evaluating."],
           },
         },

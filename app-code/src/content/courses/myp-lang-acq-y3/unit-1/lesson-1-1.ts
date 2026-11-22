@@ -69,7 +69,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — interviewer = questioner.", working: "interviewer", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The interviewer",
+            finalAnswer: "**(d)** The interviewer",
             commonErrors: ["Confusing interviewer and interviewee."],
             examinerNote: "A1 for (b).",
           },
@@ -240,7 +240,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'Because...' directly answers 'Why'.", working: "Because I love helping people", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Because I love helping people.",
+            finalAnswer: "**(b)** Because I love helping people.",
             commonErrors: ["Choosing a time or yes/no answer."],
             examinerNote: "A1 for (a).",
           },
@@ -267,7 +267,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — follow-ups deepen an earlier answer.", working: "more detail", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** To get more detail about an earlier answer",
+            finalAnswer: "**(c)** To get more detail about an earlier answer",
             commonErrors: ["Thinking follow-ups change the topic."],
             examinerNote: "A1 for (b).",
           },
@@ -300,7 +300,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'the lunch is always cold' is Tom's complaint.", working: "always cold", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It is always cold",
+            finalAnswer: "**(c)** It is always cold",
             commonErrors: ["Missing the 'although' contrast and choosing positive."],
             examinerNote: "A1 for (b).",
           },
@@ -543,7 +543,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'By the way' signals topic change.", working: "by the way", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** By the way...",
+            finalAnswer: "**(a)** By the way...",
             commonErrors: ["Choosing an opinion phrase instead of a topic-shift phrase."],
             examinerNote: "A1 for (b).",
           },
@@ -687,7 +687,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — turn-taking = alternating speakers.", working: "turns to speak", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(a)** Taking turns to speak",
+            finalAnswer: "**(c)** Taking turns to speak",
             commonErrors: ["Confusing it with topic changes."],
             examinerNote: "C1 for (a).",
           },
@@ -747,7 +747,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — content words preserve the main ideas.", working: "content words", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Focus on the content words and keep listening",
+            finalAnswer: "**(a)** Focus on the content words and keep listening",
             commonErrors: ["Thinking one missed word ruins comprehension."],
             examinerNote: "A1 for (b).",
           },
@@ -807,7 +807,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — polite disagreement keeps the conversation friendly.", working: "I see your point, but", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** I see your point, but I found it difficult.",
+            finalAnswer: "**(c)** I see your point, but I found it difficult.",
             commonErrors: ["Choosing a rude or dismissive response."],
             examinerNote: "C1 for (b).",
           },

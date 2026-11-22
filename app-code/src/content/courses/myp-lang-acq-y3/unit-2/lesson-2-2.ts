@@ -102,7 +102,7 @@ export const lesson22: Lesson = {
                 markCode: "D",
               },
             ],
-            finalAnswer: "**(b)** A text that tells what happened",
+            finalAnswer: "**(a)** A text that tells what happened",
             commonErrors: ["Confusing recount with fiction."],
             examinerNote: "D1 for (b).",
           },
@@ -353,7 +353,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — orientation answers who/where/when.", working: "who/where/when", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Who, where and when the events happened",
+            finalAnswer: "**(a)** Who, where and when the events happened",
             commonErrors: ["Thinking orientation is the conclusion."],
             examinerNote: "D1 for (b).",
           },
@@ -386,7 +386,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'finally' marks the last event.", working: "finally", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** finally",
+            finalAnswer: "**(a)** finally",
             commonErrors: ["Choosing a describing word instead of sequence word."],
             examinerNote: "B1 for (b).",
           },
@@ -410,7 +410,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "We visited Rome and Florence." },
               { id: "d", text: "The food was amazing." },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -419,7 +419,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'I would love to go back' is the personal comment.", working: "I would love to go back", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** I would love to go back one day.",
+            finalAnswer: "**(a)** I would love to go back one day.",
             commonErrors: ["Choosing an event detail instead of the comment."],
             examinerNote: "B1 for (c).",
           },
@@ -452,7 +452,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'yesterday' + present tense 'go/play' = tense error.", working: "past tense", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** It uses the wrong tense — should be past tense",
+            finalAnswer: "**(b)** It uses the wrong tense — should be past tense",
             commonErrors: ["Missing the tense error entirely."],
             examinerNote: "D1 for (a).",
           },
@@ -479,7 +479,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'went' is the correct past of go.", working: "went", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** We went to the museum.",
+            finalAnswer: "**(c)** We went to the museum.",
             commonErrors: ["Using 'goed' — go is irregular."],
             examinerNote: "D1 for (b).",
           },
@@ -692,7 +692,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Opening the door." },
               { id: "d", text: "Opens the door." },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -712,7 +712,7 @@ export const lesson22: Lesson = {
                 markCode: "D",
               },
             ],
-            finalAnswer: "**(c)** Open the door.",
+            finalAnswer: "**(b)** Open the door.",
             commonErrors: ["Adding 'you' or changing the verb form."],
             examinerNote: "D1 for (c).",
           },
@@ -909,7 +909,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "You should open the box." },
               { id: "d", text: "Opens the box." },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -918,7 +918,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Open the box' is the imperative.", working: "Open the box.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** Open the box.",
+            finalAnswer: "**(b)** Open the box.",
             commonErrors: ["Keeping 'you should'."],
             examinerNote: "D1 for (c).",
           },
@@ -945,7 +945,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — single actions are easier to follow.", working: "one action per step", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** It is easier for the reader to follow",
+            finalAnswer: "**(c)** It is easier for the reader to follow",
             commonErrors: ["Thinking length matters more than clarity."],
             examinerNote: "D1 for (b).",
           },
@@ -972,7 +972,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'First' opens the sequence.", working: "First", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** First",
+            finalAnswer: "**(d)** First",
             commonErrors: ["Choosing 'Finally' for the first step."],
             examinerNote: "D1 for (b).",
           },
@@ -996,7 +996,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Step 2" },
               { id: "d", text: "Step 3" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1005,7 +1005,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — Step 3 'Be careful — the oven is hot' is a warning.", working: "Step 3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Step 3",
+            finalAnswer: "**(d)** Step 3",
             commonErrors: ["Choosing a normal action step."],
             examinerNote: "B1 for (c).",
           },
@@ -1071,7 +1071,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — no ingredients/tools list given.", working: "ingredients list", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** A list of ingredients",
+            finalAnswer: "**(a)** A list of ingredients",
             commonErrors: ["Not noticing the missing materials."],
             examinerNote: "D1 for (b).",
           },

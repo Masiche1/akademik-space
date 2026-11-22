@@ -118,7 +118,7 @@ export const lesson43: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Correlation presented as causation.",
+            finalAnswer: "**(a)**. Correlation presented as causation.",
             commonErrors: [
               "Missing that declining violence contradicts her claim.",
             ],
@@ -347,7 +347,7 @@ export const lesson43: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Access, analyze, evaluate, create.",
+            finalAnswer: "**(d)**. Access, analyze, evaluate, create.",
             commonErrors: [
               "Thinking it's just fact-checking — broader framework.",
             ],

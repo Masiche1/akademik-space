@@ -64,7 +64,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Planning", statement: "Planning ensures coherence and prevents rambling." }],
             steps: [{ reasoning: "Criterion B (Organizing): planning ensures logical flow — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It prevents rambling and ensures logical flow",
+            finalAnswer: "**(d)** It prevents rambling and ensures logical flow",
           },
         },
         {
@@ -185,7 +185,7 @@ export const lesson32: Lesson = {
               { reasoning: "Criterion B (Organizing): chronological and problem-solution are valid — (a).", marks: 1, markCode: "B" },
               { reasoning: "Criterion B (Organizing): spatial and importance also work; alphabetical/random don't.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Chronological (time order) and problem-solution",
+            finalAnswer: "**(b)** Chronological (time order) and problem-solution",
           },
         },
         {
@@ -230,7 +230,7 @@ export const lesson32: Lesson = {
               { reasoning: "Criterion B (Organizing): outline = organize ideas — (b).", marks: 1, markCode: "B" },
               { reasoning: "Criterion B (Organizing): shows hierarchy: main points → supporting details.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To organize ideas hierarchically before writing",
+            finalAnswer: "**(a)** To organize ideas hierarchically before writing",
           },
         },
         {
@@ -304,7 +304,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): planning ensures logical flow — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It prevents rambling and ensures logical flow",
+            finalAnswer: "**(a)** It prevents rambling and ensures logical flow",
           },
         },
         {
@@ -328,7 +328,7 @@ export const lesson32: Lesson = {
               { reasoning: "Criterion B (Organizing): mind map = visual diagram of related ideas — (b).", marks: 1, markCode: "B" },
               { reasoning: "Criterion B (Organizing): helps see connections between ideas.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A visual diagram grouping related ideas around a central topic",
+            finalAnswer: "**(c)** A visual diagram grouping related ideas around a central topic",
           },
         },
         {
@@ -344,7 +344,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Making a mind map" },
               { id: "d", text: "Creating an outline" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Planning", statement: "Planning techniques organize ideas before writing." }],
@@ -352,7 +352,7 @@ export const lesson32: Lesson = {
               { reasoning: "Criterion B (Organizing): writing without planning = not a planning technique — (c).", marks: 1, markCode: "B" },
               { reasoning: "Criterion B (Organizing): others are valid planning methods.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Writing the essay without planning",
+            finalAnswer: "**(a)** Writing the essay without planning",
           },
         },
         {
@@ -585,7 +585,7 @@ export const lesson32: Lesson = {
               { reasoning: "Criterion B (Organizing): addition, contrast, cause/effect are transition types — (a).", marks: 1, markCode: "B" },
               { reasoning: "Criterion B (Organizing): example and sequence also exist.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Addition, contrast, and cause/effect",
+            finalAnswer: "**(b)** Addition, contrast, and cause/effect",
           },
         },
         {
@@ -630,7 +630,7 @@ export const lesson32: Lesson = {
               { reasoning: "Criterion B (Organizing): 'however' = contrast — (b).", marks: 1, markCode: "B" },
               { reasoning: "Criterion B (Organizing): others = addition, cause, example.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** However",
+            finalAnswer: "**(c)** However",
           },
         },
         {
@@ -703,7 +703,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): coherence = logical flow — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Ideas that flow logically and connect",
+            finalAnswer: "**(c)** Ideas that flow logically and connect",
           },
         },
         {
@@ -747,7 +747,7 @@ export const lesson32: Lesson = {
               { reasoning: "Criterion B (Organizing): (b) summarizes benefits and links forward — best conclusion.", marks: 1, markCode: "B" },
               { reasoning: "Criterion B (Organizing): 'therefore' signals conclusion; reinforces main idea.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Therefore, regular exercise is essential for health and wellbeing.",
+            finalAnswer: "**(d)** Therefore, regular exercise is essential for health and wellbeing.",
           },
         },
         {

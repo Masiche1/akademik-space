@@ -53,7 +53,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "H₂ test", statement: "Squeaky pop with lighted splint." }],
             steps: [{ reasoning: "Recall.", working: "\\text{squeaky pop}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Lighted splint gives squeaky pop",
+            finalAnswer: "**(a)** Lighted splint gives squeaky pop",
             commonErrors: ["Confusing with O₂ test."],
           },
         },
@@ -132,7 +132,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "O₂ test", statement: "Glowing splint relights in oxygen." }],
             steps: [{ reasoning: "Recall.", working: "\\text{glowing splint relights}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** A glowing splint relights",
+            finalAnswer: "**(b)** A glowing splint relights",
             commonErrors: ["The squeaky pop is the hydrogen test."],
           },
         },
@@ -150,7 +150,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Cl₂ test", statement: "Bleaches damp blue litmus white." }],
             steps: [{ reasoning: "Chlorine is a bleaching agent.", working: "\\text{Cl}_2 \\to \\text{bleaches litmus}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Chlorine",
+            finalAnswer: "**(c)** Chlorine",
             commonErrors: ["Ammonia turns litmus blue, not bleached."],
           },
         },
@@ -168,7 +168,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Gas collection", statement: "Light gases collected downward or over water." }],
             steps: [{ reasoning: "H₂ is lighter than air.", working: "M_r(\\text{H}_2) = 2 < 29", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** By downward delivery or over water",
+            finalAnswer: "**(c)** By downward delivery or over water",
             commonErrors: ["Upward delivery is for denser gases like CO₂."],
           },
         },
@@ -186,7 +186,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Gas identification", statement: "NH₃ is alkaline: turns red litmus blue." }],
             steps: [{ reasoning: "Basic gas turns litmus blue; CO₂ would turn limewater milky; Cl₂ bleaches.", working: "\\text{NH}_3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Ammonia",
+            finalAnswer: "**(c)** Ammonia",
             commonErrors: ["CO₂ also affects litmus but turns limewater milky."],
           },
         },
@@ -280,11 +280,11 @@ export const lesson1111: Lesson = {
             { id: "b", text: "Carbon dioxide" },
             { id: "c", text: "Ammonia" },
             { id: "d", text: "Chlorine" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Gas collection", statement: "Only gases insoluble in water are collected over water." }],
             steps: [{ reasoning: "O₂ is insoluble; CO₂, NH₃ and Cl₂ react/dissolve.", working: "\\text{O}_2 \\text{ insoluble}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Oxygen",
+            finalAnswer: "**(a)** Oxygen",
             commonErrors: ["CO₂ reacts with water forming carbonic acid."],
           },
         },
@@ -388,7 +388,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Flame tests", statement: "K⁺ = lilac." }],
             steps: [{ reasoning: "Recall.", working: "K^+ = \\text{lilac}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Lilac",
+            finalAnswer: "**(d)** Lilac",
             commonErrors: ["Confusing with Na⁺ yellow."],
           },
         },
@@ -468,7 +468,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ca²⁺ flame", statement: "Brick red / orange-red." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Ca}^{2+} = \\text{brick red}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Brick red",
+            finalAnswer: "**(d)** Brick red",
             commonErrors: ["Confusing with Li⁺ crimson or K⁺ lilac."],
           },
         },
@@ -482,11 +482,11 @@ export const lesson1111: Lesson = {
             { id: "b", text: "Orange/brown" },
             { id: "c", text: "White" },
             { id: "d", text: "Green" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Fe³⁺ test", statement: "Orange/brown precipitate with NaOH." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Fe}^{3+} \\to \\text{orange/brown ppt}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Orange/brown",
+            finalAnswer: "**(b)** Orange/brown",
             commonErrors: ["Green is Fe²⁺, blue is Cu²⁺."],
           },
         },
@@ -616,11 +616,11 @@ export const lesson1111: Lesson = {
             { id: "b", text: "Blue" },
             { id: "c", text: "White" },
             { id: "d", text: "Yellow" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "I⁻ test", statement: "AgI is a yellow precipitate." }],
             steps: [{ reasoning: "Recall.", working: "\\text{AgI yellow ppt}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Yellow",
+            finalAnswer: "**(d)** Yellow",
             commonErrors: ["Cream is AgBr, white is AgCl."],
           },
         },
@@ -678,7 +678,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Halide test", statement: "HNO₃ removes CO₃²⁻/OH⁻ which also give precipitates with AgNO₃." }],
             steps: [{ reasoning: "Acid eliminates interfering anions.", working: "\\text{HNO}_3 \\text{ removes CO}_3^{2-}, \\text{OH}^-", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** To prevent interference from carbonate and hydroxide ions",
+            finalAnswer: "**(c)** To prevent interference from carbonate and hydroxide ions",
             commonErrors: ["Saying it is to speed up the reaction."],
           },
         },

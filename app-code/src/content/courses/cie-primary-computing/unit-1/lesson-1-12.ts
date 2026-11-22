@@ -279,7 +279,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Expected result = what the program should produce if correct.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** What the program SHOULD do",
+            finalAnswer: "**(b)** What the program SHOULD do",
           },
         },
         {
@@ -381,7 +381,7 @@ export const lesson112: Lesson = {
               { reasoning: "Crashing or wrong output shows the program is not working correctly.", marks: 1, markCode: "M" },
               { reasoning: "Correct, fast, colourful behaviour are not symptoms of bugs.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** It crashes or gives wrong output",
+            finalAnswer: "**(b)** It crashes or gives wrong output",
           },
         },
         {

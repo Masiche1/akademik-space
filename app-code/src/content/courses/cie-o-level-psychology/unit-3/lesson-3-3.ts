@@ -93,7 +93,7 @@ export const lesson33: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Gap between solo ability and guided ability",
+            finalAnswer: "**(c)** Gap between solo ability and guided ability",
             commonErrors: ["Literal interpretation."],
           },
         },
@@ -275,7 +275,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** What a child can do with guidance but not alone",
+              "**(c)** What a child can do with guidance but not alone",
             commonErrors: ["Confusing with independent ability."],
           },
         },
@@ -310,7 +310,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Support gradually reduced as skill is mastered",
+              "**(d)** Support gradually reduced as skill is mastered",
             commonErrors: ["Saying support never changes."],
           },
         },
@@ -345,7 +345,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Anyone with more knowledge who guides the child",
+              "**(b)** Anyone with more knowledge who guides the child",
             commonErrors: ["Limiting MKO to teachers only."],
           },
         },
@@ -385,7 +385,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Vygotsky=social; Piaget=individual construction",
+              "**(c)** Vygotsky=social; Piaget=individual construction",
             commonErrors: ["Saying both are identical."],
           },
         },
@@ -424,7 +424,7 @@ export const lesson33: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(a)** Adolescence",
+            finalAnswer: "**(b)** Adolescence",
             commonErrors: ["Confusing with trust vs mistrust."],
           },
         },
@@ -941,7 +941,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Hormonal changes causing physical/sexual maturation",
+              "**(c)** Hormonal changes causing physical/sexual maturation",
             commonErrors: ["Confusing with cognitive development."],
           },
         },
@@ -1010,7 +1010,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Reward system matures before impulse control",
+              "**(d)** Reward system matures before impulse control",
             commonErrors: ["Saying adolescents cannot reason."],
           },
         },
@@ -1045,7 +1045,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Struggle to form a stable sense of self",
+              "**(c)** Struggle to form a stable sense of self",
             commonErrors: ["Confusing with mental illness."],
           },
         },
@@ -1085,7 +1085,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Thinking about one's own thinking",
+              "**(c)** Thinking about one's own thinking",
             commonErrors: ["Confusing with memory."],
           },
         },

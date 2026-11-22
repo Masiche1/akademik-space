@@ -67,7 +67,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$a=\\frac{F}{m}=\\frac{30}{6}=5$ m/s$^2$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5$ m/s$^2$",
+            finalAnswer: "**(c)** $5$ m/s$^2$",
             commonErrors: ["Multiplying $F$ by $m$ instead of dividing."],
           },
         },
@@ -197,7 +197,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$p=3\\times5=15$ kg m/s.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $15$ kg m/s",
+            finalAnswer: "**(d)** $15$ kg m/s",
             commonErrors: ["Dividing instead of multiplying."],
           },
         },

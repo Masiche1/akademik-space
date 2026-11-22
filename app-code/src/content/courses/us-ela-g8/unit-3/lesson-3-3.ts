@@ -143,7 +143,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. It is a noun-like -ing form, so it is a gerund, and it is the subject of the sentence.",
+              "**(c)**. It is a noun-like -ing form, so it is a gerund, and it is the subject of the sentence.",
             commonErrors: [
               "Calling every -ing word a participle without checking whether it works as a noun or an adjective.",
             ],
@@ -191,7 +191,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. 'The freshmen won the relay' is active and has the same meaning and tense as the original.",
+              "**(d)**. 'The freshmen won the relay' is active and has the same meaning and tense as the original.",
             commonErrors: [
               "Choosing (b), which changes the tense and meaning.",
               "Choosing (c), which is still passive.",
@@ -483,7 +483,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. A dash shows a break in thought, and semicolons and colons join or introduce ideas.",
+              "**(d)**. A dash shows a break in thought, and semicolons and colons join or introduce ideas.",
             commonErrors: [
               "Choosing a dash because it also looks like a pause.",
             ],

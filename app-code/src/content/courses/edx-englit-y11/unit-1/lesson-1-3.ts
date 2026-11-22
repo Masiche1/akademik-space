@@ -64,7 +64,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Cyclical structure", statement: "Returning to the opening setting suggests inevitability and allows contrast of mood." }],
             steps: [{ reasoning: "The same setting at the beginning and end invites comparison between hope and loss.", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** Inevitability and a contrast between hope and loss.",
+            finalAnswer: "**(d)** Inevitability and a contrast between hope and loss.",
             commonErrors: ["Choosing (d); the setting is the same but the situation is utterly changed."],
           },
         },
@@ -193,7 +193,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Embedding quotations", statement: "Short quotations placed in your own sentences, followed by analysis." }],
             steps: [{ reasoning: "Short, embedded quotations allow focused analysis.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** Embed a few words and analyse a key word.",
+            finalAnswer: "**(d)** Embed a few words and analyse a key word.",
             commonErrors: ["Thinking long quotations earn more marks."],
           },
         },

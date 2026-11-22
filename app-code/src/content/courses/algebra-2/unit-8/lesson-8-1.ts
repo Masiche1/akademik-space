@@ -65,7 +65,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "The even outcomes are $2,4,6$, so there are three favorable outcomes out of six equally likely outcomes.", working: "P(\\text{even})=\\frac{3}{6}=\\frac{1}{2}", marks: 2, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $\\frac{1}{2}$",
+            finalAnswer: "**(d)** $\\frac{1}{2}$",
             commonErrors: ["Counting only the even outcomes and reporting 3 instead of dividing by all 6 outcomes."],
           },
         },
@@ -186,7 +186,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "The condition is that the student rides the bus, so use the bus-row total, 18, as the denominator.", working: "P(\\text{late}\\mid\\text{bus})=\\frac{6}{18}=\\frac{1}{3}", marks: 2, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $\\frac{1}{3}$",
+            finalAnswer: "**(c)** $\\frac{1}{3}$",
             commonErrors: ["Using the total number of students, 30, instead of the number of bus riders, 18."],
           },
         },

@@ -69,7 +69,7 @@ export const lesson82: Lesson = {
               },
             ],
             steps: [{ reasoning: "Sum 18 ÷ 3 = 6.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 6",
+            finalAnswer: "**(d)** 6",
             commonErrors: ["Answering 18 — forgetting to divide."],
           },
         },
@@ -268,7 +268,7 @@ export const lesson82: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Mean",
+            finalAnswer: "**(c)** Mean",
             commonErrors: [
               "Choosing range — range measures spread not typical value.",
             ],

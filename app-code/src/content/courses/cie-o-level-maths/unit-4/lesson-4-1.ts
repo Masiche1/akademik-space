@@ -108,7 +108,7 @@ export const lesson41: Lesson = {
             { id: "b", text: "10" },
             { id: "c", text: "18" },
             { id: "d", text: "15" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "technique", name: "Exterior angle", statement: "$360/n$." }], steps: [{ reasoning: "Exterior $=180-156=24°$, so $n=360/24=15$.", marks: 1, markCode: "A" }], finalAnswer: "15" },
         },
         {
@@ -188,7 +188,7 @@ export const lesson41: Lesson = {
             { id: "b", text: "$1080°$" },
             { id: "c", text: "$900°$" },
             { id: "d", text: "$1440°$" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "formula", name: "Polygon sum", statement: "$(n-2)\\times180$." }], steps: [{ reasoning: "$(9-2)\\times180=1260°$.", marks: 1, markCode: "A" }], finalAnswer: "$1260°$" },
         },
       ],

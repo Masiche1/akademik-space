@@ -254,7 +254,7 @@ export const lesson421: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "GDP per capita", "statement": "GDP / population." } ],
           "steps": [ { "reasoning": "GDP per capita divides total output by population to give an average measure of output per person.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** GDP divided by the population"
+          "finalAnswer": "**(d)** GDP divided by the population"
 },
         },
         {
@@ -273,7 +273,7 @@ export const lesson421: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "Leakages", "statement": "Saving, taxes, imports — withdrawals from the flow." } ],
           "steps": [ { "reasoning": "Saving withdraws income from the circular flow; government spending, exports and investment are injections.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** Saving by households"
+          "finalAnswer": "**(b)** Saving by households"
 },
         },
         {
@@ -287,12 +287,12 @@ export const lesson421: Lesson = {
             { "id": "c", "text": "Purchase of imported goods" },
             { "id": "d", "text": "Saving in bank accounts" }
           ],
-          "borrectChoiceId": "c"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [ { "kind": "definition", "name": "Injections", "statement": "Investment, government spending, exports." } ],
           "steps": [ { "reasoning": "Investment adds spending to the circular flow; taxes, imports and saving are leakages.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(c)** Investment spending by firms"
+          "finalAnswer": "**(b)** Investment spending by firms"
 },
         },
         {
@@ -311,7 +311,7 @@ export const lesson421: Lesson = {
           markscheme: {
           "principles": [ { "kind": "principle", "name": "Nominal vs real GDP", "statement": "Real GDP adjusts for inflation." } ],
           "steps": [ { "reasoning": "Rising prices inflate nominal GDP; if output falls by more than prices rise, real GDP declines even though nominal GDP rises.", "marks": 1, "markCode": "A" } ],
-          "finalAnswer": "**(a)** nominal GDP uses current prices while real GDP adjusts for inflation"
+          "finalAnswer": "**(b)** nominal GDP uses current prices while real GDP adjusts for inflation"
 },
         },
         {

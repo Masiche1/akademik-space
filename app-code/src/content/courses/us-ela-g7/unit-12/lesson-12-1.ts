@@ -121,7 +121,7 @@ export const lesson121: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Sensationalism — 'BREAKING' creates false urgency.",
+              "**(a)**. Sensationalism — 'BREAKING' creates false urgency.",
             commonErrors: [
               "Choosing (a) — 'BREAKING' isn't factual, it's dramatic.",
             ],
@@ -364,7 +364,7 @@ export const lesson121: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Bandwagon appeal — suggests everyone agrees.",
+              "**(a)**. Bandwagon appeal — suggests everyone agrees.",
             commonErrors: ["Choosing (a) — 'everyone knows' isn't evidence."],
           },
         },

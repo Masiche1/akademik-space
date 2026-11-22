@@ -64,7 +64,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Identify metabolic waste.", working: "\\text{CO}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Removal of CO₂ by lungs",
+            finalAnswer: "**(b)** Removal of CO₂ by lungs",
             commonErrors: ["Choosing faeces — that's egestion."],
           },
         },
@@ -224,7 +224,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Recall the organ.", working: "\\text{lungs}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Lungs",
+            finalAnswer: "**(c)** Lungs",
             commonErrors: ["Choosing kidneys — they excrete urea, not CO₂."],
           },
         },
@@ -342,7 +342,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Identify egestion.", working: "\\text{faeces}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Removal of faeces",
+            finalAnswer: "**(b)** Removal of faeces",
             commonErrors: ["Choosing CO₂ — that's excretion."],
           },
         },
@@ -469,7 +469,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{artificial filtration}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Artificial filtering of blood when kidneys fail",
+            finalAnswer: "**(d)** Artificial filtering of blood when kidneys fail",
             commonErrors: ["Choosing 'surgery' — dialysis is a machine process."],
           },
         },
@@ -563,7 +563,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Recall the membrane type.", working: "\\text{partially permeable}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Partially permeable",
+            finalAnswer: "**(d)** Partially permeable",
             commonErrors: ["Choosing fully permeable — then useful substances would be lost too."],
           },
         },
@@ -628,7 +628,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Recall the waste product.", working: "\\text{urea}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Urea",
+            finalAnswer: "**(c)** Urea",
             commonErrors: ["Choosing glucose — that's controlled by insulin, not kidney failure."],
           },
         },
@@ -695,7 +695,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Recall the key comparison.", working: "\\text{permanent + rejection risk}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Is permanent but carries a risk of rejection",
+            finalAnswer: "**(d)** Is permanent but carries a risk of rejection",
             commonErrors: ["Saying transplant needs no medication — immunosuppressants are required."],
           },
         },
@@ -741,7 +741,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Recall what stays.", working: "\\text{glucose, cells stay}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Glucose and blood cells",
+            finalAnswer: "**(d)** Glucose and blood cells",
             commonErrors: ["Choosing urea — that's removed, not retained."],
           },
         },
@@ -818,7 +818,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Recall the drawback.", working: "\\text{ongoing sessions}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Must be repeated regularly for the rest of the patient's life",
+            finalAnswer: "**(c)** Must be repeated regularly for the rest of the patient's life",
             commonErrors: ["Choosing 'one-off operation' — that's more like a transplant."],
           },
         },

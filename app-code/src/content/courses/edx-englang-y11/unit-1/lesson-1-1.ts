@@ -103,7 +103,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The simile-like 'as if she might need to leave in a hurry' implies readiness to escape, so she is uncomfortable. Credit for identifying unease.", evidence: "as if she might need to leave in a hurry", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** She feels uneasy and would prefer not to stay. The phrase 'as if' signals a reaction to the place, not a literal schedule.",
+            finalAnswer: "**(b)** She feels uneasy and would prefer not to stay. The phrase 'as if' signals a reaction to the place, not a literal schedule.",
             commonErrors: ["Taking the car keys literally and choosing (b).", "Reading the text as conflict between mother and narrator when no hostile word is used."],
           },
         },

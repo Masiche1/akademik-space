@@ -256,7 +256,7 @@ export const lesson641: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Formulate a research question"
+          "finalAnswer": "**(d)** Formulate a research question"
 },
         },
         {
@@ -364,7 +364,7 @@ export const lesson641: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(b)** Combining perspectives into a nuanced argument"
+          "finalAnswer": "**(a)** Combining perspectives into a nuanced argument"
 },
         },
         {
@@ -482,7 +482,7 @@ export const lesson641: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** The historical background to events"
+          "finalAnswer": "**(b)** The historical background to events"
 },
         },
         {
@@ -527,7 +527,7 @@ export const lesson641: Lesson = {
                               "markCode": "A"
                     }
           ],
-          "finalAnswer": "**(b)** To what extent did nuclear deterrence prevent direct conflict?"
+          "finalAnswer": "**(a)** To what extent did nuclear deterrence prevent direct conflict?"
 },
         },
         {
@@ -604,7 +604,7 @@ export const lesson641: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Judging the quality of evidence and arguments"
+          "finalAnswer": "**(b)** Judging the quality of evidence and arguments"
 },
         },
         {

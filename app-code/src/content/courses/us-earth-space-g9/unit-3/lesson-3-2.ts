@@ -59,7 +59,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "About 1.2 times larger" },
               { id: "d", text: "Exactly 2 times larger" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The difference is 1 magnitude unit, so ground motion is $10^1=10$ times larger.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** 10 times larger",
+            finalAnswer: "**(b)** 10 times larger",
             commonErrors: ["Treating the scale as linear (7 is not 7/6 of 6).", "Choosing 100 by confusing a difference of 1 with a difference of 2."],
             examinerNote: "B1 for 10 times.",
           },
@@ -202,7 +202,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The footprint is expressed as an area (global hectares) of land and water, not a mass of waste.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The area of productive land and water needed to supply the person's resources and absorb their waste",
+            finalAnswer: "**(d)** The area of productive land and water needed to supply the person's resources and absorb their waste",
             commonErrors: ["Choosing (a) because waste is part of the footprint, but it is measured as an area, not a mass."],
             examinerNote: "B1 for (b).",
           },

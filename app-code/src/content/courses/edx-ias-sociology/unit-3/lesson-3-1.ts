@@ -252,7 +252,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Monotheism = one God.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** One God",
+            finalAnswer: "**(d)** One God",
             commonErrors: ["Polytheism confused."],
           },
         },
@@ -434,7 +434,7 @@ export const lesson31: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Decline",
+            finalAnswer: "**(a)** Decline",
             commonErrors: ["Revival confused."],
           },
         },

@@ -65,7 +65,7 @@ For inequalities already solved as $y>mx+b$ or $y<mx+b$, the graph also gives a 
               { reasoning: "Replace $>$ with $=$ without changing the expression on the right.", working: "y=-x+2", marks: 1, markCode: "M" },
               { reasoning: "Since $>$ is strict, points on the line are excluded and the boundary is dashed.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $y=-x+2$, dashed.",
+            finalAnswer: "**(a)** $y=-x+2$, dashed.",
             commonErrors: ["Using a solid boundary for a strict inequality.", "Changing the sign of the slope while copying the boundary equation."],
           },
         },
@@ -189,7 +189,7 @@ This procedure identifies the best value for the stated linear model; it does no
             { id: "b", text: "No, because a feasible point must satisfy every inequality." },
             { id: "c", text: "Yes, if it is on either boundary." },
             { id: "d", text: "No, because feasible regions contain only points in the first quadrant." },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [
               { kind: "definition", name: "Feasible region", statement: "The feasible region is the intersection of the solution sets of every inequality in the system." },
@@ -199,7 +199,7 @@ This procedure identifies the best value for the stated linear model; it does no
               { reasoning: "The point satisfies the first inequality but fails the second.", marks: 1, markCode: "B" },
               { reasoning: "Because every condition must hold, a point failing one constraint is outside the feasible region.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(c)** No; a feasible point must satisfy every inequality.",
+            finalAnswer: "**(b)** No; a feasible point must satisfy every inequality.",
             commonErrors: ["Treating the shaded half-planes as alternatives rather than finding their overlap."],
           },
         },

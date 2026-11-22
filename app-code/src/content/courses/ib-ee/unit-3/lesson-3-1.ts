@@ -110,7 +110,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** State the RQ, context and thesis",
+            finalAnswer: "**(c)** State the RQ, context and thesis",
             commonErrors: ["Putting evidence or analysis in the introduction."],
           },
         },
@@ -305,7 +305,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "About 95%" },
               { id: "d", text: "About 10%" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -328,7 +328,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** About 80%",
+            finalAnswer: "**(a)** About 80%",
             commonErrors: ["Writing a very long introduction or conclusion."],
           },
         },
@@ -368,7 +368,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** A specific, arguable position",
+            finalAnswer: "**(c)** A specific, arguable position",
             commonErrors: ["Writing a thesis that merely announces the topic."],
           },
         },
@@ -430,7 +430,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "A thesis statement" },
               { id: "d", text: "Brief context for the topic" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -454,7 +454,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Extended statistical analysis and quotations",
+            finalAnswer: "**(a)** Extended statistical analysis and quotations",
             commonErrors: ["Front-loading evidence into the introduction."],
           },
         },
@@ -502,7 +502,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** By themes or arguments that serve the research question",
+              "**(c)** By themes or arguments that serve the research question",
             commonErrors: [
               "Organising the essay source-by-source instead of argument-by-argument.",
             ],
@@ -549,7 +549,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Inappropriate — conclusions synthesise rather than argue new ground",
+              "**(a)** Inappropriate — conclusions synthesise rather than argue new ground",
             commonErrors: ["Saving the strongest argument for the conclusion."],
           },
         },
@@ -1040,7 +1040,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Explain the significance of the evidence",
+            finalAnswer: "**(c)** Explain the significance of the evidence",
             commonErrors: [
               "Presenting evidence without explaining its significance.",
             ],
@@ -1265,7 +1265,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** A topic sentence",
+            finalAnswer: "**(c)** A topic sentence",
             commonErrors: [
               "Opening paragraphs with quotations before stating a point.",
             ],
@@ -1401,7 +1401,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Analysis",
+            finalAnswer: "**(c)** Analysis",
             commonErrors: ["Assuming quotations speak for themselves."],
           },
         },
@@ -1442,7 +1442,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Connect ideas and show logical relationships",
+            finalAnswer: "**(c)** Connect ideas and show logical relationships",
             commonErrors: [
               "Inserting transitions mechanically without real logical links.",
             ],
@@ -1489,7 +1489,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The study found X, which suggests Y because the mechanism implies Z.",
+              "**(a)** The study found X, which suggests Y because the mechanism implies Z.",
             commonErrors: ["Mistaking detailed reporting for analysis."],
           },
         },

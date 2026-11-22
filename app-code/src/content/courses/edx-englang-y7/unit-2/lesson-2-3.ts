@@ -324,7 +324,7 @@ export const lesson23: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(a)** 'I' vs 'he/she/they'",
+            finalAnswer: "**(d)** 'I' vs 'he/she/they'",
             commonErrors: ["Confusing viewpoint."],
           },
         },

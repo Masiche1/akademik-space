@@ -69,7 +69,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$f(g(x))=f(3x)=3x+2$.", working: "3x+2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3x+2$",
+            finalAnswer: "**(b)** $3x+2$",
             commonErrors: ["Computing $gf$ instead of $fg$."],
             examinerNote: "B1 for (a).",
           },
@@ -184,7 +184,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$f(g(x))=f(2x)=2x+1$.", working: "2x+1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2x+1$",
+            finalAnswer: "**(b)** $2x+1$",
             commonErrors: ["Computing $gf(x)=2(x+1)=2x+2$ instead."],
             examinerNote: "B1 for (a).",
           },
@@ -518,7 +518,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$f^{-1}(x)=x+5$.", working: "x+5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x+5$",
+            finalAnswer: "**(c)** $x+5$",
             commonErrors: ["Writing $5-x$ — that's the negative, not the inverse."],
             examinerNote: "B1 for (a).",
           },
@@ -633,7 +633,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$f^{-1}(x)=x-7$.", working: "x-7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x-7$",
+            finalAnswer: "**(b)** $x-7$",
             commonErrors: ["Writing $x+7$ — the inverse undoes the addition."],
             examinerNote: "B1 for (a).",
           },
@@ -819,7 +819,7 @@ export const lesson22: Lesson = {
               { reasoning: "Not one-to-one → no inverse without a domain restriction.", working: "\\text{not one-to-one}", marks: 1, markCode: "M" },
               { reasoning: "Select the correct reason.", working: "\\text{one-to-one}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Not one-to-one — $x$ and $-x$ give the same output",
+            finalAnswer: "**(c)** Not one-to-one — $x$ and $-x$ give the same output",
             commonErrors: ["Thinking every function has an inverse."],
             examinerNote: "M1 M1 A1.",
           },

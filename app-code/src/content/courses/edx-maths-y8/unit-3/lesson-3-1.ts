@@ -64,7 +64,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Angles on a straight line", statement: "Angles on a straight line add up to $180^\\circ$." }],
             steps: [{ reasoning: "Subtract the known angle from $180^\\circ$.", working: "180-118=62", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $62^\\circ$",
+            finalAnswer: "**(c)** $62^\\circ$",
             commonErrors: ["Subtracting from $360^\\circ$ giving $242^\\circ$.", "Arithmetic slips in $180-118$."],
           },
         },

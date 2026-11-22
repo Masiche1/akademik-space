@@ -230,7 +230,7 @@ export const lesson15: Lesson = {
             steps: [
               { reasoning: "A pattern repeats or follows a regular rule.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Something that repeats in a regular way",
+            finalAnswer: "**(b)** Something that repeats in a regular way",
           },
         },
         {
@@ -279,7 +279,7 @@ export const lesson15: Lesson = {
             steps: [
               { reasoning: "4 equal sides with 90° turns make a square.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** A square",
+            finalAnswer: "**(b)** A square",
           },
         },
         {

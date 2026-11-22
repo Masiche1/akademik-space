@@ -121,7 +121,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\Delta U = Q + W$",
+            finalAnswer: "**(d)** $\\Delta U = Q + W$",
             commonErrors: [
               "Confusing sign conventions — always state whether W is work done ON or BY.",
             ],
@@ -349,7 +349,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Work done ON the system",
+            finalAnswer: "**(c)** Work done ON the system",
             commonErrors: [
               "Confusing work done ON with work done BY — always state the convention.",
             ],
@@ -369,7 +369,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "$Q = 0$" },
               { id: "d", text: "$Q = \\Delta U$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -393,7 +393,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $Q = \\Delta U + P\\Delta V$",
+            finalAnswer: "**(b)** $Q = \\Delta U + P\\Delta V$",
             commonErrors: [
               "Choosing $Q = \\Delta U$ — that ignores the expansion work.",
             ],
@@ -481,7 +481,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Isothermal",
+            finalAnswer: "**(c)** Isothermal",
             commonErrors: [
               "Choosing isochoric — constant V does not mean constant T.",
             ],
@@ -525,7 +525,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** The area under the curve",
+            finalAnswer: "**(b)** The area under the curve",
             commonErrors: [
               "Confusing work with the enclosed area — enclosed area gives NET work only for a full cycle.",
             ],
@@ -1114,7 +1114,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $Q = 0$",
+            finalAnswer: "**(b)** $Q = 0$",
             commonErrors: [
               "Thinking adiabatic means no work — work is done, just no heat.",
             ],
@@ -1381,7 +1381,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $W = 0$ and $\\Delta U = Q$",
+            finalAnswer: "**(b)** $W = 0$ and $\\Delta U = Q$",
             commonErrors: [
               "Choosing $\\Delta U = 0$ — that applies to isothermal, not isochoric.",
             ],
@@ -1469,7 +1469,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $5/3 \\approx 1.67$",
+            finalAnswer: "**(b)** $5/3 \\approx 1.67$",
             commonErrors: [
               "Choosing $7/5$ — that is the value for a diatomic gas.",
             ],
@@ -1513,7 +1513,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $T$ and $U$",
+            finalAnswer: "**(b)** $T$ and $U$",
             commonErrors: [
               "Choosing $P$ and $V$ — both change; only their product $PV = nRT$ stays constant.",
             ],
@@ -1557,7 +1557,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Falls — work is done using internal energy",
+            finalAnswer: "**(b)** Falls — work is done using internal energy",
             commonErrors: [
               "Thinking expansion releases heat — no heat flows in an adiabatic process.",
             ],

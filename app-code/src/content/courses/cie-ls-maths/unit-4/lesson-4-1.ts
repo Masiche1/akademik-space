@@ -161,7 +161,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "$(−2, −3)$" },
               { id: "d", text: "$(−4, 0)$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -170,7 +170,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Only $(−4,0)$ has $y=0$, so it lies on the x-axis.", working: "y=0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $(−4, 0)$",
+            finalAnswer: "**(d)** $(−4, 0)$",
             commonErrors: ["Choosing (b) — $(0,5)$ is on the y-axis because $x=0$."],
           },
         },
@@ -205,7 +205,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "It is the origin" },
               { id: "d", text: "It is in Quadrant II" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -214,7 +214,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "$(0,4)$ has $x=0$, so it lies on the y-axis above the origin.", working: "x=0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** It is on the y-axis",
+            finalAnswer: "**(b)** It is on the y-axis",
             commonErrors: ["Calling it Quadrant II — points on axes are not in a quadrant."],
           },
         },
@@ -302,7 +302,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Both $(−2,−5)$ and $(−7,−1)$ have negative $x$ and negative $y$.", working: "x<0,y<0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $(−2, −5)$ and $(−7, −1)$",
+            finalAnswer: "**(c)** $(−2, −5)$ and $(−7, −1)$",
             commonErrors: ["Choosing (d) — points on axes do not belong to a quadrant."],
           },
         },
@@ -402,7 +402,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Distances from the origin are $5$, $6$, $5$ and about $2.83$, so $(6,0)$ is farthest.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $(6, 0)$",
+            finalAnswer: "**(a)** $(6, 0)$",
             commonErrors: ["Comparing only the coordinate values without calculating distance."],
           },
         },
@@ -671,7 +671,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "At $x=0$, $y=5$ → crosses at $(0,5)$.", working: "(0,5)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(0, 5)$",
+            finalAnswer: "**(b)** $(0, 5)$",
             commonErrors: ["Choosing (b) — $(5,0)$ is on the x-axis; the y-axis crossing needs $x=0$."],
           },
         },
@@ -735,7 +735,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "At $x=0$, $y=4(0)=0$ → intercept is $0$.", working: "c=0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $0$",
+            finalAnswer: "**(c)** $0$",
             commonErrors: ["Choosing (a) — $4$ is the gradient, not the intercept."],
           },
         },
@@ -778,7 +778,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Gradients are $5$, $2$, $0.5$, $1$ — $5$ is largest, so $y=5x+1$ is steepest.", working: "m=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $y = 5x + 1$",
+            finalAnswer: "**(b)** $y = 5x + 1$",
             commonErrors: ["Choosing (b) because of the larger intercept — steepness depends on the gradient only."],
           },
         },

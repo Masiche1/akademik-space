@@ -296,7 +296,7 @@ export const lesson21: Lesson = {
               },
             ],
             steps: [{ reasoning: "5 × 4 = 20.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 4",
+            finalAnswer: "**(b)** 4",
             commonErrors: ["Answering 5 — using the divisor not the quotient."],
           },
         },

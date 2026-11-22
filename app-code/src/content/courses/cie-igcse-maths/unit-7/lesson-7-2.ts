@@ -69,7 +69,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "All points move identically — a translation.", working: "\\begin{pmatrix}-3\\\\2\\end{pmatrix}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Translation by $\\begin{pmatrix}-3\\\\2\\end{pmatrix}$",
+            finalAnswer: "**(c)** Translation by $\\begin{pmatrix}-3\\\\2\\end{pmatrix}$",
             commonErrors: ["Writing the vector in row form $(-3,2)$ — column form is standard."],
           },
         },
@@ -156,7 +156,7 @@ export const lesson72: Lesson = {
             correctChoiceId: "b" },
           markscheme: { principles: [ { kind: "definition", name: "Translation", statement: "Every point moves by the same vector." } ],
             steps: [ { reasoning: "Equal displacement for all points indicates translation.", working: "\\text{translation}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(a)** Translation", commonErrors: ["Confusing with enlargement."] },
+            finalAnswer: "**(b)** Translation", commonErrors: ["Confusing with enlargement."] },
         },
         {
           id: "ciem-u7-identifying-q6", difficulty: "core", totalMarks: 1,
@@ -170,7 +170,7 @@ export const lesson72: Lesson = {
             correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "property", name: "Reflection", statement: "Only the $y$-coordinates change sign." } ],
             steps: [ { reasoning: "The mapping is $(x,y)\\to(x,-y)$.", working: "\\text{reflection in }x\\text{-axis}", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** Reflection in the $x$-axis", commonErrors: ["Choosing reflection in the $y$-axis."] },
+            finalAnswer: "**(a)** Reflection in the $x$-axis", commonErrors: ["Choosing reflection in the $y$-axis."] },
         },
         {
           id: "ciem-u7-identifying-q7", difficulty: "core", totalMarks: 2,
@@ -191,10 +191,10 @@ export const lesson72: Lesson = {
             { id: "c", text: "Translation by $\\begin{pmatrix}-3\\\\3\\end{pmatrix}$" },
             { id: "d", text: "Reflection in the line $y=x$" }
  ],
-            dorrectChoiceId: "c" },
+            correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Reflect y=x", statement: "$(x,y)\\to(y,x)$" } ],
             steps: [ { reasoning: "Both pairs swap coordinates.", working: "(x,y)\\to(y,x)", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(c)** Reflection in $y=x$", commonErrors: ["Forcing a rotation."] },
+            finalAnswer: "**(d)** Reflection in $y=x$", commonErrors: ["Forcing a rotation."] },
         },
         {
           id: "ciem-u7-identifying-q9", difficulty: "core", totalMarks: 2,
@@ -228,7 +228,7 @@ export const lesson72: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "definition", name: "Translation", statement: "Equal parallel displacement vectors identify a translation." } ],
             steps: [ { reasoning: "Equal vectors mean the same slide for every point.", working: "\\text{translation}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(a)** Translation", commonErrors: ["Choosing rotation."] },
+            finalAnswer: "**(d)** Translation", commonErrors: ["Choosing rotation."] },
         },
         {
           id: "ciem-u7-identifying-q12", difficulty: "core", totalMarks: 4,
@@ -353,7 +353,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Recall reflections are self-inverse.", working: "\\text{same reflection}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Reflection in $y=2$",
+            finalAnswer: "**(b)** Reflection in $y=2$",
             commonErrors: ["Thinking the inverse is a different line."],
           },
         },
@@ -434,7 +434,7 @@ export const lesson72: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Inverse translation", statement: "$\\begin{pmatrix}-a\\\\-b\\end{pmatrix}$" } ],
             steps: [ { reasoning: "Negate both components.", working: "\\begin{pmatrix}-3\\\\2\\end{pmatrix}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(a)** Translation by $\\begin{pmatrix}-3\\\\2\\end{pmatrix}$", commonErrors: ["Negating only one component."] },
+            finalAnswer: "**(d)** Translation by $\\begin{pmatrix}-3\\\\2\\end{pmatrix}$", commonErrors: ["Negating only one component."] },
         },
         {
           id: "ciem-u7-inverse-combined-q6", difficulty: "core", totalMarks: 1,
@@ -448,7 +448,7 @@ export const lesson72: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "definition", name: "Inverse rotation", statement: "Same centre, opposite direction." } ],
             steps: [ { reasoning: "Reverse clockwise to anticlockwise.", working: "90^\\circ\\text{ acw}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** Rotation $90^\\circ$ anticlockwise about $(0,0)$", commonErrors: ["Using $180^\\circ$."] },
+            finalAnswer: "**(c)** Rotation $90^\\circ$ anticlockwise about $(0,0)$", commonErrors: ["Using $180^\\circ$."] },
         },
         {
           id: "ciem-u7-inverse-combined-q7", difficulty: "core", totalMarks: 2,
@@ -507,7 +507,7 @@ export const lesson72: Lesson = {
             correctChoiceId: "b" },
           markscheme: { principles: [ { kind: "formula", name: "Combined translations", statement: "Add the vectors." } ],
             steps: [ { reasoning: "Add the components.", working: "(2+3,0+1)=(5,1)", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** $\\begin{pmatrix}5\\\\1\\end{pmatrix}$", commonErrors: ["Subtracting vectors."] },
+            finalAnswer: "**(b)** $\\begin{pmatrix}5\\\\1\\end{pmatrix}$", commonErrors: ["Subtracting vectors."] },
         },
         {
           id: "ciem-u7-inverse-combined-q12", difficulty: "core", totalMarks: 4,
@@ -556,7 +556,7 @@ export const lesson72: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "definition", name: "Inverse rotation", statement: "Same centre, opposite direction." } ],
             steps: [ { reasoning: "Reverse the direction and keep the centre.", working: "60^\\circ\\text{ acw about }(1,1)", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** Rotation $60^\\circ$ anticlockwise about $(1,1)$", commonErrors: ["Changing the centre."] },
+            finalAnswer: "**(d)** Rotation $60^\\circ$ anticlockwise about $(1,1)$", commonErrors: ["Changing the centre."] },
         },
         {
           id: "ciem-u7-inverse-combined-q16", difficulty: "challenge", totalMarks: 8,

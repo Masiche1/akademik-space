@@ -137,7 +137,7 @@ export const lesson12: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Duty and hidden resentment pull in opposite directions. The other options add motives the passage never mentions.",
+              "**(d)**. Duty and hidden resentment pull in opposite directions. The other options add motives the passage never mentions.",
             commonErrors: [
               "Choosing an option that sounds plausible but is not supported by the text.",
             ],
@@ -472,7 +472,7 @@ export const lesson12: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. A stone does not move with the current, so Marcus seems fixed and reluctant. The other choices ignore the contrast between stillness and flow.",
+              "**(c)**. A stone does not move with the current, so Marcus seems fixed and reluctant. The other choices ignore the contrast between stillness and flow.",
             commonErrors: [
               "Choosing (a) because the stone is 'calm', ignoring the sense of being stuck.",
             ],

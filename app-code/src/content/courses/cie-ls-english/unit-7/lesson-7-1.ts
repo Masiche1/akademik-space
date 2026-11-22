@@ -65,7 +65,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Unknown recipient requires formal salutation.", working: "\\text{'Dear Sir/Madam'}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Dear Sir/Madam",
+            finalAnswer: "**(a)** Dear Sir/Madam",
             commonErrors: ["Choosing (a) — 'Dear Sam' is informal."],
           },
         },
@@ -199,7 +199,7 @@ export const lesson71: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Formal opening", statement: "Formal correspondence states purpose clearly and politely." }],
             steps: [{ reasoning: "(b) is direct, polite and appropriate for an official recipient.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** I am writing to request information about the school council's meeting schedule.",
+            finalAnswer: "**(d)** I am writing to request information about the school council's meeting schedule.",
             commonErrors: ["Choosing (a) or (d) — they are too casual for the council."],
           },
         },
@@ -237,7 +237,7 @@ export const lesson71: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Informal register", statement: "Contractions and personal detail signal an informal relationship." }],
             steps: [{ reasoning: "Contractions and personal detail create warmth and familiarity.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** Use of contractions and personal detail",
+            finalAnswer: "**(b)** Use of contractions and personal detail",
             commonErrors: ["Confusing formal layout features with informal tone."],
           },
         },
@@ -316,7 +316,7 @@ export const lesson71: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Formal layout", statement: "Formal letters include addresses, date, salutation and sign-off." }],
             steps: [{ reasoning: "Formal correspondence follows a recognised layout for clarity and protocol.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** Sender's address, date, recipient's address, salutation, sign-off",
+            finalAnswer: "**(d)** Sender's address, date, recipient's address, salutation, sign-off",
             commonErrors: ["Choosing a feature list from an email or informal note."],
           },
         },
@@ -350,12 +350,12 @@ export const lesson71: Lesson = {
               { id: "c", text: "Yours faithfully" },
               { id: "d", text: "To whom it may concern" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Informal sign-off", statement: "Informal letters use warm, simple closings such as 'Best wishes'." }],
             steps: [{ reasoning: "'Best wishes' is friendly and appropriate for a friend.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(c)** Best wishes",
+            finalAnswer: "**(a)** Best wishes",
             commonErrors: ["Choosing a ceremonial formal close."],
           },
         },
@@ -597,7 +597,7 @@ export const lesson71: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Email sign-off", statement: "'Kind regards' suits polite semi-formal school correspondence." }],
             steps: [{ reasoning: "'Kind regards' is respectful without sounding overly distant.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Kind regards",
+            finalAnswer: "**(c)** Kind regards",
             commonErrors: ["Choosing 'Yours faithfully' when the teacher is named."],
           },
         },
@@ -636,7 +636,7 @@ export const lesson71: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Greeting", statement: "Named recipients receive a respectful greeting with their title or name." }],
             steps: [{ reasoning: "'Dear Ms Khan' is polite, specific and appropriate.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** Dear Ms Khan",
+            finalAnswer: "**(d)** Dear Ms Khan",
             commonErrors: ["Using 'To whom it may concern' when the recipient is known."],
           },
         },
@@ -676,7 +676,7 @@ export const lesson71: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Headings", statement: "Headings signal the organisation of information." }],
             steps: [{ reasoning: "Headings group related findings so the reader can locate information quickly.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** They organise findings and help readers navigate",
+            finalAnswer: "**(c)** They organise findings and help readers navigate",
             commonErrors: ["Thinking headings are decorative rather than structural."],
           },
         },
@@ -715,7 +715,7 @@ export const lesson71: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Report title", statement: "A title should name the subject and indicate the report's focus." }],
             steps: [{ reasoning: "The title identifies the topic and type of information contained.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** School Trip Survey Findings and Recommendations",
+            finalAnswer: "**(c)** School Trip Survey Findings and Recommendations",
             commonErrors: ["Choosing a generic title with no subject."],
           },
         },

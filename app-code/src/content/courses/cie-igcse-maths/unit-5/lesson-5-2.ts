@@ -68,7 +68,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Multiply the three dimensions.", working: "5\\times4\\times3=60", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $60$ cm$^3$",
+            finalAnswer: "**(d)** $60$ cm$^3$",
             commonErrors: ["Adding dimensions (that's surface-area thinking)."],
           },
         },
@@ -154,7 +154,7 @@ export const lesson52: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Cuboid volume", statement: "$V=lwh$" } ],
             steps: [ { reasoning: "Multiply the three dimensions.", working: "6\\times5\\times4=120", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** $120$ cm$^3$", commonErrors: ["Adding the dimensions."] },
+            finalAnswer: "**(d)** $120$ cm$^3$", commonErrors: ["Adding the dimensions."] },
         },
         {
           id: "ciem-u5-solids-basic-q6", difficulty: "core", totalMarks: 1,
@@ -193,7 +193,7 @@ export const lesson52: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Prism volume", statement: "Cross-section area $\\times$ length." } ],
             steps: [ { reasoning: "Cross-section area is $\\frac12\\times6\\times8=24$; volume $=24\\times10=240$.", working: "240", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** $240$ cm$^3$", commonErrors: ["Using $6\\times8$ for the triangle area without halving."] },
+            finalAnswer: "**(d)** $240$ cm$^3$", commonErrors: ["Using $6\\times8$ for the triangle area without halving."] },
         },
         {
           id: "ciem-u5-solids-basic-q9", difficulty: "core", totalMarks: 3,
@@ -228,7 +228,7 @@ export const lesson52: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "formula", name: "Curved surface area", statement: "Circumference $\\times$ height $=2\\pi rh$." } ],
             steps: [ { reasoning: "Unroll the curved face to a rectangle.", working: "2\\pi r\\times h", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** $2\\pi rh$", commonErrors: ["Including the circular ends."] },
+            finalAnswer: "**(c)** $2\\pi rh$", commonErrors: ["Including the circular ends."] },
         },
         {
           id: "ciem-u5-solids-basic-q12", difficulty: "core", totalMarks: 3,
@@ -356,7 +356,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Apply the formula.", working: "\\frac13\\times30\\times9=90", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $90$ cm$^3$",
+            finalAnswer: "**(d)** $90$ cm$^3$",
             commonErrors: ["Forgetting the $\\frac13$ factor."],
           },
         },
@@ -456,7 +456,7 @@ export const lesson52: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "formula", name: "Cone volume", statement: "$V=\\frac13\\pi r^2h$" } ],
             steps: [ { reasoning: "Use one-third of the cylinder volume.", working: "\\frac13\\pi\\times9\\times4=12\\pi", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $12\\pi$ cm$^3$", commonErrors: ["Using the cylinder formula without $\\frac13$."] },
+            finalAnswer: "**(c)** $12\\pi$ cm$^3$", commonErrors: ["Using the cylinder formula without $\\frac13$."] },
         },
         {
           id: "ciem-u5-pyramids-cones-q7", difficulty: "core", totalMarks: 3,
@@ -478,10 +478,10 @@ export const lesson52: Lesson = {
             { id: "c", text: "$36\\pi$ cm$^2$" },
             { id: "d", text: "$96\\pi$ cm$^2$" }
  ],
-            dorrectChoiceId: "c" },
+            correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Cone surface area", statement: "$SA=\\pi rl+\\pi r^2$" } ],
             steps: [ { reasoning: "Curved area plus circular base.", working: "\\pi\\times6\\times10+\\pi\\times36=96\\pi", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(c)** $96\\pi$ cm$^2$", commonErrors: ["Forgetting the base area."] },
+            finalAnswer: "**(d)** $96\\pi$ cm$^2$", commonErrors: ["Forgetting the base area."] },
         },
         {
           id: "ciem-u5-pyramids-cones-q9", difficulty: "core", totalMarks: 3,
@@ -564,7 +564,7 @@ export const lesson52: Lesson = {
             correctChoiceId: "b" },
           markscheme: { principles: [ { kind: "formula", name: "Cone volume", statement: "$V=\\frac13\\pi r^2h$" } ],
             steps: [ { reasoning: "Volume is proportional to $h$ when $r$ is fixed.", working: "3", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** $3$", commonErrors: ["Thinking volume is proportional to $h^3$."] },
+            finalAnswer: "**(b)** $3$", commonErrors: ["Thinking volume is proportional to $h^3$."] },
         },
         {
           id: "ciem-u5-pyramids-cones-q16", difficulty: "challenge", totalMarks: 8,

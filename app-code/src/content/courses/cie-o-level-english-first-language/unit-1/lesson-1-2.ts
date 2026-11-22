@@ -65,7 +65,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Pathetic fallacy = nature mirrors emotion.", working: "mirror", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Nature mirroring emotion",
+            finalAnswer: "**(b)** Nature mirroring emotion",
             commonErrors: ["Choosing (c) — it's a technique, not just weather."],
           },
         },
@@ -161,7 +161,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Pathetic fallacy", statement: "Weather or nature mirrors the emotions of characters." } ],
             steps: [ { reasoning: "Pathetic fallacy = nature mirrors emotion.", working: "mirror", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Nature reflecting human emotion",
+            finalAnswer: "**(b)** Nature reflecting human emotion",
             commonErrors: ["Choosing (c) — it is a technique, not just weather."],
           },
         },
@@ -217,7 +217,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Atmosphere", statement: "The mood or feeling a text creates for the reader." } ],
             steps: [ { reasoning: "Atmosphere = mood/feeling.", working: "mood", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** The mood or feeling created for the reader",
+            finalAnswer: "**(b)** The mood or feeling created for the reader",
             commonErrors: ["Choosing (b) — weather is only one contributor."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Setting", statement: "Time, place, weather and social environment of a text." } ],
             steps: [ { reasoning: "Setting includes time, place, weather and society.", working: "components", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Time, place, weather and social environment",
+            finalAnswer: "**(c)** Time, place, weather and social environment",
             commonErrors: ["Thinking setting means only the physical place."],
           },
         },
@@ -320,7 +320,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Foreboding", statement: "Dark imagery, isolation and threatening weather create foreboding mood." } ],
             steps: [ { reasoning: "Foreboding = sense of approaching danger.", working: "danger", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Dark imagery, isolation and looming weather",
+            finalAnswer: "**(c)** Dark imagery, isolation and looming weather",
             commonErrors: ["Choosing cheerful options — they create the opposite mood."],
           },
         },
@@ -376,7 +376,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Connotation = associations.", working: "associations", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Associations beyond literal meaning",
+            finalAnswer: "**(c)** Associations beyond literal meaning",
             commonErrors: ["Choosing (b) — that's denotation."],
           },
         },
@@ -472,7 +472,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Denotation", statement: "The literal, dictionary meaning of a word." } ],
             steps: [ { reasoning: "Denotation = literal meaning; connotation = associations.", working: "literal", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** The literal dictionary meaning of a word",
+            finalAnswer: "**(c)** The literal dictionary meaning of a word",
             commonErrors: ["Choosing (b) — that is connotation."],
           },
         },
@@ -528,7 +528,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Olfactory imagery", statement: "Description appealing to the sense of smell." } ],
             steps: [ { reasoning: "Olfactory = smell; only (a) appeals to smell.", working: "smell", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** The air was thick with the smell of rain",
+            finalAnswer: "**(c)** The air was thick with the smell of rain",
             commonErrors: ["Choosing (d) — that is gustatory (taste)."],
           },
         },
@@ -558,7 +558,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [ { kind: "technique", name: "Personification", statement: "Non-human given human qualities or actions." } ],
             steps: [ { reasoning: "Wind given human action 'whispered' — personification.", working: "human", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Personification",
+            finalAnswer: "**(b)** Personification",
             commonErrors: ["Choosing (b) — no 'like' or 'as' comparison is present."],
           },
         },
@@ -601,7 +601,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Kinaesthetic imagery", statement: "Description of movement, position or physical sensation." } ],
             steps: [ { reasoning: "Kinaesthetic = movement sense.", working: "movement", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Movement and physical action",
+            finalAnswer: "**(d)** Movement and physical action",
             commonErrors: ["Confusing with auditory or tactile imagery."],
           },
         },
@@ -687,7 +687,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Syntax = sentence structure.", working: "structure", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Sentence structure",
+            finalAnswer: "**(d)** Sentence structure",
             commonErrors: ["Choosing (b) — that's diction."],
           },
         },
@@ -783,7 +783,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Diction", statement: "The author's choice of words." } ],
             steps: [ { reasoning: "Diction = word choice.", working: "words", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** An author's choice of words",
+            finalAnswer: "**(b)** An author's choice of words",
             commonErrors: ["Choosing (b) — that is syntax."],
           },
         },
@@ -839,7 +839,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Metaphor", statement: "Direct comparison — one thing stated as another." } ],
             steps: [ { reasoning: "Metaphor = direct equation, no 'like/as'.", working: "direct", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** A direct comparison stating one thing is another",
+            finalAnswer: "**(d)** A direct comparison stating one thing is another",
             commonErrors: ["Choosing (b) — that is a simile."],
           },
         },
@@ -869,7 +869,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [ { kind: "technique", name: "Metaphor", statement: "Direct comparison without 'like' or 'as'." } ],
             steps: [ { reasoning: "Time stated as thief — direct metaphor.", working: "direct", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Metaphor",
+            finalAnswer: "**(b)** Metaphor",
             commonErrors: ["Choosing (b) — no 'like' or 'as' appears."],
           },
         },
@@ -942,7 +942,7 @@ export const lesson112: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Sentence length effect", statement: "Short sentences create urgency, emphasis or tension." } ],
             steps: [ { reasoning: "Short sentences = urgency/tension.", working: "urgency", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Urgency or tension",
+            finalAnswer: "**(b)** Urgency or tension",
             commonErrors: ["Choosing (b) — long flowing sentences create calm."],
           },
         },

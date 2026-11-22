@@ -201,7 +201,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$\\sum fx=2\\times15+8\\times25=30+200=230$; divide by the total frequency 10.", working: "230\\div10=23", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $23$",
+            finalAnswer: "**(c)** $23$",
             commonErrors: ["Using 15 as the midpoint of the second class."],
           },
         },
@@ -254,7 +254,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The points rise, so the correlation is positive; more revision is associated with higher scores, though correlation alone does not prove cause.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Positive correlation — more revision is associated with higher scores",
+            finalAnswer: "**(a)** Positive correlation — more revision is associated with higher scores",
             commonErrors: ["Choosing (d): correlation does not prove cause."],
           },
         },
@@ -299,7 +299,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Random scatter means no correlation; a downward line means negative correlation.", working: "P: none; Q: negative", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Graph P shows no correlation and graph Q shows negative correlation",
+            finalAnswer: "**(c)** Graph P shows no correlation and graph Q shows negative correlation",
             commonErrors: ["Reading 'downward' as positive because values are increasing."],
           },
         },
@@ -521,7 +521,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "$0.35$" },
               { id: "d", text: "$0.55$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -530,7 +530,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Subtract the probability of rain from 1.", working: "1-0.35=0.65", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $0.65$",
+            finalAnswer: "**(a)** $0.65$",
             commonErrors: ["Giving the same probability (answer a).", "Subtracting from the wrong total or adding to 1 (answer d)."],
           },
         },
@@ -628,7 +628,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "$\\frac14$" },
               { id: "d", text: "$\\frac54$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -637,7 +637,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Subtract from 1.", working: "1-\\frac14=\\frac34", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\frac34$",
+            finalAnswer: "**(a)** $\\frac34$",
             commonErrors: ["Giving $\\frac14$ (the same probability)."],
           },
         },
@@ -699,7 +699,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Multiply trials by probability: $50\\times0.7=35$.", working: "50\\times0.7=35", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $35$ successful throws",
+            finalAnswer: "**(d)** $35$ successful throws",
             commonErrors: ["Dividing instead of multiplying.", "Answering with the probability itself (answer c)."],
             examinerNote: "B1 for choice (a).",
           },
@@ -726,7 +726,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The overlap is given directly as 5 students.", working: "n(H\\cap C)=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5$",
+            finalAnswer: "**(d)** $5$",
             commonErrors: ["Computing $18+12-30=0$ or adding the sets wrongly."],
           },
         },
@@ -790,7 +790,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Add and subtract the overlap: $0.4+0.5-0.2=0.7$.", working: "0.4+0.5-0.2=0.7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $0.7$",
+            finalAnswer: "**(a)** $0.7$",
             commonErrors: ["Adding without subtracting the intersection, giving 0.9 (a)."],
           },
         },

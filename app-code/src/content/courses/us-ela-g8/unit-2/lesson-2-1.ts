@@ -112,7 +112,7 @@ export const lesson21: Lesson = {
               },
               { id: "d", text: "Ranchers in Harlow Valley dislike wolves." },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -134,7 +134,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** The text shows a chain of effects that restores the ecosystem. The other options are details from single paragraphs.",
+              "**(a)** The text shows a chain of effects that restores the ecosystem. The other options are details from single paragraphs.",
             commonErrors: [
               "Choosing a true detail (such as the rancher complaints or elk growth) that supports the idea but is not the central idea.",
             ],
@@ -166,7 +166,7 @@ export const lesson21: Lesson = {
                 text: "It describes the history of wolf hunting in the valley.",
               },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -193,7 +193,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(d)** Paragraph 3 extends the effects from elk and willows to beavers, fish, frogs, and birds. The opposing viewpoint appears in paragraph 4, and the history is in paragraph 1.",
+              "**(b)** Paragraph 3 extends the effects from elk and willows to beavers, fish, frogs, and birds. The opposing viewpoint appears in paragraph 4, and the history is in paragraph 1.",
             commonErrors: [
               "Choosing (a), which describes paragraph 4 instead.",
             ],
@@ -458,7 +458,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** The text contrasts weight and cost. Option (b) reverses the details, and (c) describes the community roof.",
+              "**(b)** The text contrasts weight and cost. Option (b) reverses the details, and (c) describes the community roof.",
             commonErrors: [
               "Choosing (b), which swaps the descriptions of the two roof types.",
             ],

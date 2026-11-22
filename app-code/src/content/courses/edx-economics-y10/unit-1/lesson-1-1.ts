@@ -72,7 +72,7 @@ export const lesson71: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Limited vs unlimited",
+            finalAnswer: "**(a)** Limited vs unlimited",
             commonErrors: ["Poverty confused."],
           },
         },
@@ -257,7 +257,7 @@ export const lesson71: Lesson = {
               { id: "c", text: "Enterprise" },
               { id: "d", text: "Capital" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -274,7 +274,7 @@ export const lesson71: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(c)** Capital",
+            finalAnswer: "**(d)** Capital",
             commonErrors: ["Land confused — natural."],
           },
         },

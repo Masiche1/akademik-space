@@ -291,7 +291,7 @@ export const lesson371: Lesson = {
               { id: "c", text: "Customers" },
               { id: "d", text: "Employees" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

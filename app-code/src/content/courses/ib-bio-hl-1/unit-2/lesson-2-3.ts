@@ -121,7 +121,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** RuBisCO",
+            finalAnswer: "**(b)** RuBisCO",
             commonErrors: [
               "Confusing RuBisCO with the light-reaction enzymes.",
             ],
@@ -372,7 +372,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** It attaches $CO_2$ to RuBP.",
+            finalAnswer: "**(d)** It attaches $CO_2$ to RuBP.",
             commonErrors: [
               "Confusing carboxylation with the reduction of 3-PGA.",
             ],
@@ -416,7 +416,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Two molecules of 3-PGA",
+            finalAnswer: "**(d)** Two molecules of 3-PGA",
             commonErrors: [
               "Thinking the product is glucose directly — glucose is made later from exported G3P.",
             ],
@@ -464,7 +464,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** ATP phosphorylation and NADPH reduction",
+            finalAnswer: "**(b)** ATP phosphorylation and NADPH reduction",
             commonErrors: [
               "Claiming RuBisCO reduces 3-PGA — RuBisCO catalyses carboxylation, not reduction.",
             ],
@@ -522,7 +522,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Wasteful oxygenase activity of RuBisCO, favoured at high temperature and low $CO_2$.",
+              "**(d)** Wasteful oxygenase activity of RuBisCO, favoured at high temperature and low $CO_2$.",
             commonErrors: [
               "Describing photorespiration as beneficial carbon fixation.",
             ],
@@ -579,7 +579,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** They concentrate $CO_2$ around RuBisCO.",
+            finalAnswer: "**(c)** They concentrate $CO_2$ around RuBisCO.",
             commonErrors: [
               "Claiming these plants lack RuBisCO or photosynthesis.",
             ],
@@ -1068,7 +1068,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Light limits the light reactions",
+            finalAnswer: "**(d)** Light limits the light reactions",
             commonErrors: [
               "Saying light acts directly on RuBisCO or $CO_2$ — it acts through the light-dependent reactions.",
             ],
@@ -1334,7 +1334,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** The factor in shortest supply that restricts the rate.",
+              "**(d)** The factor in shortest supply that restricts the rate.",
             commonErrors: [
               "Choosing the most abundant factor rather than the limiting one.",
             ],
@@ -1389,7 +1389,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Carbon fixation becomes saturated, so another factor limits the rate.",
+              "**(d)** Carbon fixation becomes saturated, so another factor limits the rate.",
             commonErrors: [
               "Assuming more $CO_2$ always increases photosynthesis without limit.",
             ],
@@ -1447,7 +1447,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Rate rises to an optimum, then falls as enzymes denature.",
+              "**(b)** Rate rises to an optimum, then falls as enzymes denature.",
             commonErrors: ["Ignoring enzyme denaturation at high temperature."],
           },
         },
@@ -1500,7 +1500,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Respiration exceeds photosynthesis; the plant loses carbon.",
+              "**(b)** Respiration exceeds photosynthesis; the plant loses carbon.",
             commonErrors: [
               "Reversing the inequality — below compensation point the plant is a net carbon loser.",
             ],
@@ -1552,7 +1552,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** $CO_2$ remains limiting, so extra light has no effect.",
+              "**(c)** $CO_2$ remains limiting, so extra light has no effect.",
             commonErrors: [
               "Assuming light always increases photosynthesis independently of other factors.",
             ],

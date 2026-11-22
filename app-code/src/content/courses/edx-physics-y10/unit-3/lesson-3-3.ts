@@ -59,7 +59,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Sound travels as a transverse wave through a vacuum." },
               { id: "d", text: "Sound is a longitudinal wave and needs a medium to travel through." },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Sound is longitudinal and cannot pass through a vacuum. It is faster in steel than in air, and about $330\\text{ m/s}$ in air, not the speed of light.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)**",
+            finalAnswer: "**(d)**",
             commonErrors: ["Choosing (d), confusing sound with light.", "Thinking that sound is faster in air because air is 'lighter'."],
             examinerNote: "B1 for (c).",
           },
@@ -207,7 +207,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "A louder sound has a larger amplitude. The pitch (frequency) is unchanged, so the number of waves across the screen is unchanged.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(c)**",
             commonErrors: ["Thinking that louder sounds have a higher frequency."],
             examinerNote: "B1 for (a).",
           },

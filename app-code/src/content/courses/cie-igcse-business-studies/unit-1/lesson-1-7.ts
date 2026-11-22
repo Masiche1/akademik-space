@@ -237,7 +237,7 @@ export const lesson257: Lesson = {
               { id: "c", text: "Using a competitor's annual report" },
               { id: "d", text: "Reading government statistics" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -270,7 +270,7 @@ export const lesson257: Lesson = {
               { id: "c", text: "Interviewing shoppers in a mall" },
               { id: "d", text: "Observing customer behaviour in-store" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

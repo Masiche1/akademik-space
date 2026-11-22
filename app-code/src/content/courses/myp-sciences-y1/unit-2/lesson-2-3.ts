@@ -69,7 +69,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The arrow points to the organism that gains the energy by eating the other organism.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The direction in which energy passes, from the organism that is eaten to the organism that eats it",
+            finalAnswer: "**(d)** The direction in which energy passes, from the organism that is eaten to the organism that eats it",
             commonErrors: ["Thinking the arrow means 'eats', so drawing it from the predator to its prey."],
             examinerNote: "B1 for energy transfer from eaten to eater.",
           },
@@ -170,7 +170,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The arrow points from the organism that is eaten to the organism that eats it, showing energy transfer.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The direction of energy transfer, from the organism that is eaten to the organism that eats it",
+            finalAnswer: "**(d)** The direction of energy transfer, from the organism that is eaten to the organism that eats it",
             commonErrors: ["Thinking arrows point from predator to prey."],
             examinerNote: "B1 for (b).",
           },
@@ -224,7 +224,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The rabbit eats grass (the producer), so it is the primary consumer.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Primary consumer",
+            finalAnswer: "**(a)** Primary consumer",
             commonErrors: ["Choosing secondary consumer, which is the fox."],
             examinerNote: "B1 for primary consumer.",
           },
@@ -270,7 +270,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "With fewer predators, more rabbits survive, so the rabbit population increases (at least initially).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It increases because fewer rabbits are eaten",
+            finalAnswer: "**(a)** It increases because fewer rabbits are eaten",
             commonErrors: ["Thinking predators 'help' prey by keeping numbers low in the short term only; the immediate effect is an increase."],
             examinerNote: "B1 for increase. Accept 'more rabbits survive'.",
           },
@@ -494,7 +494,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "A habitat is a place, such as a pond or woodland, where an organism lives.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The place where an organism lives",
+            finalAnswer: "**(d)** The place where an organism lives",
             commonErrors: ["Choosing (a), which describes a community."],
             examinerNote: "B1 for the place where an organism lives.",
           },
@@ -593,7 +593,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "A habitat is the place where an organism lives; a community is all the living things there, and an ecosystem includes the non-living parts.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The place where an organism lives",
+            finalAnswer: "**(a)** The place where an organism lives",
             commonErrors: ["Confusing habitat with community or ecosystem."],
             examinerNote: "B1 for (b).",
           },
@@ -620,7 +620,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Biodiversity counts the variety of species, not the total number of individuals.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The number of different species in an area",
+            finalAnswer: "**(a)** The number of different species in an area",
             commonErrors: ["Confusing biodiversity with population size."],
             examinerNote: "B1 for (b).",
           },
@@ -685,7 +685,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Deforestation destroys habitats, so animals lose food and shelter and many species die out or leave, reducing biodiversity.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Biodiversity falls because habitats are destroyed and species lose food and shelter",
+            finalAnswer: "**(d)** Biodiversity falls because habitats are destroyed and species lose food and shelter",
             commonErrors: ["Thinking more open land means more species."],
             examinerNote: "B1 for (b).",
           },

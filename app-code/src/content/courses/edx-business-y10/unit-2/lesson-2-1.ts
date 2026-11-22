@@ -271,7 +271,7 @@ export const lesson21: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** New data directly",
+            finalAnswer: "**(c)** New data directly",
             commonErrors: ["Secondary confused."],
           },
         },

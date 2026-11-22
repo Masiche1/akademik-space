@@ -67,7 +67,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Vertebrate = backbone.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Has a backbone",
+            finalAnswer: "**(d)** Has a backbone",
             commonErrors: ["Wrong feature."],
           },
         },
@@ -98,7 +98,7 @@ export const lesson131: Lesson = {
               { reasoning: "Identify features.", marks: 1, markCode: "M" },
               { reasoning: "Answer: mammals.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Mammals",
+            finalAnswer: "**(c)** Mammals",
             commonErrors: ["Chosen as birds due to flying."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Insects = 6 legs.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 6",
+            finalAnswer: "**(a)** 6",
             commonErrors: ["Confused with spiders."],
           },
         },
@@ -239,7 +239,7 @@ export const lesson131: Lesson = {
               { id: "c", text: "Worm" },
               { id: "d", text: "Arachnid" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -253,7 +253,7 @@ export const lesson131: Lesson = {
               { reasoning: "Identify group.", marks: 1, markCode: "M" },
               { reasoning: "Answer: mollusc.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Mollusc",
+            finalAnswer: "**(a)** Mollusc",
             commonErrors: ["Wrong group."],
           },
         },

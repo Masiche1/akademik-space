@@ -43,7 +43,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "A browser" },
             { id: "d", text: "A global network of networks" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Internet", statement: "Global network." }], steps: [{ reasoning: "Internet = global network.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Global network" },
+          markscheme: { principles: [{ kind: "definition", name: "Internet", statement: "Global network." }], steps: [{ reasoning: "Internet = global network.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Global network" },
         },
         {
           id: "olict-u4-nt-q2", difficulty: "core", totalMarks: 2,
@@ -99,7 +99,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Encrypts emails" },
             { id: "d", text: "Speeds up the CPU" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "DNS", statement: "Name to IP." }], steps: [{ reasoning: "DNS translates names to IPs.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Translates names to IPs" },
+          markscheme: { principles: [{ kind: "definition", name: "DNS", statement: "Name to IP." }], steps: [{ reasoning: "DNS translates names to IPs.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Translates names to IPs" },
         },
         {
           id: "olict-u4-nt-q6", difficulty: "core", totalMarks: 2,
@@ -119,7 +119,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Email" },
             { id: "d", text: "A website" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Internet services", statement: "WWW is one service." }], steps: [{ reasoning: "Email runs on the internet outside the WWW.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Email" },
+          markscheme: { principles: [{ kind: "definition", name: "Internet services", statement: "WWW is one service." }], steps: [{ reasoning: "Email runs on the internet outside the WWW.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Email" },
         },
         {
           id: "olict-u4-nt-q8", difficulty: "foundation", totalMarks: 1,
@@ -161,7 +161,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "A search result" },
             { id: "d", text: "A web address identifying a resource" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "URL", statement: "Web address." }], steps: [{ reasoning: "URL locates a web resource.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Web address" },
+          markscheme: { principles: [{ kind: "definition", name: "URL", statement: "Web address." }], steps: [{ reasoning: "URL locates a web resource.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Web address" },
         },
         {
           id: "olict-u4-nt-q12", difficulty: "core", totalMarks: 2,
@@ -192,7 +192,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "An ISP" },
             { id: "d", text: "A web server" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "ISP", statement: "Provides access." }], steps: [{ reasoning: "ISP provides the connection.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** An ISP" },
+          markscheme: { principles: [{ kind: "definition", name: "ISP", statement: "Provides access." }], steps: [{ reasoning: "ISP provides the connection.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** An ISP" },
         },
         {
           id: "olict-u4-nt-q15", difficulty: "core", totalMarks: 2,
@@ -244,7 +244,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Store files" },
             { id: "d", text: "Display web pages" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Browser", statement: "Displays web pages." }], steps: [{ reasoning: "Browser displays pages.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Display web pages" },
+          markscheme: { principles: [{ kind: "definition", name: "Browser", statement: "Displays web pages." }], steps: [{ reasoning: "Browser displays pages.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Display web pages" },
         },
         {
           id: "olict-u4-wb-q2", difficulty: "core", totalMarks: 2,
@@ -319,7 +319,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "A clickable link to another page" },
             { id: "d", text: "A web address" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Hyperlink", statement: "Link between pages." }], steps: [{ reasoning: "Hyperlink connects pages.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Clickable link" },
+          markscheme: { principles: [{ kind: "definition", name: "Hyperlink", statement: "Link between pages." }], steps: [{ reasoning: "Hyperlink connects pages.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Clickable link" },
         },
         {
           id: "olict-u4-wb-q8", difficulty: "core", totalMarks: 2,
@@ -348,7 +348,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "A spreadsheet" },
             { id: "d", text: "An antivirus" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Browser", statement: "Displays pages." }], steps: [{ reasoning: "Browser displays pages.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Web browser" },
+          markscheme: { principles: [{ kind: "definition", name: "Browser", statement: "Displays pages." }], steps: [{ reasoning: "Browser displays pages.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Web browser" },
         },
         {
           id: "olict-u4-wb-q11", difficulty: "challenge", totalMarks: 4,
@@ -379,7 +379,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Search engines" },
             { id: "d", text: "Keyboards" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Web server", statement: "Hosts pages." }], steps: [{ reasoning: "Servers host pages.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Web servers" },
+          markscheme: { principles: [{ kind: "definition", name: "Web server", statement: "Hosts pages." }], steps: [{ reasoning: "Servers host pages.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Web servers" },
         },
         {
           id: "olict-u4-wb-q14", difficulty: "foundation", totalMarks: 1,
@@ -390,7 +390,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "HTML" },
             { id: "d", text: "JPEG" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "HTML", statement: "Page markup." }], steps: [{ reasoning: "HTML structures pages.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** HTML" },
+          markscheme: { principles: [{ kind: "definition", name: "HTML", statement: "Page markup." }], steps: [{ reasoning: "HTML structures pages.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** HTML" },
         },
         {
           id: "olict-u4-wb-q15", difficulty: "foundation", totalMarks: 2,

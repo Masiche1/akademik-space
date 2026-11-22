@@ -115,7 +115,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Sum of nucleons − nuclear mass",
+            finalAnswer: "**(b)** Sum of nucleons − nuclear mass",
             commonErrors: [
               "Reversing — mass defect is always positive (nucleus lighter).",
             ],
@@ -407,7 +407,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Mass number $A$",
+            finalAnswer: "**(c)** Mass number $A$",
             commonErrors: [
               "Dividing by Z only — neutrons count as nucleons too.",
             ],
@@ -427,7 +427,7 @@ export const lesson61: Lesson = {
               { id: "c", text: "Deuterium ($A=2$)" },
               { id: "d", text: "Uranium-238 ($A=238$)" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -450,7 +450,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Iron-56",
+            finalAnswer: "**(b)** Iron-56",
             commonErrors: [
               "Choosing uranium — heavy nuclei have lower $E_b/A$ despite large total binding energy.",
             ],
@@ -612,7 +612,7 @@ export const lesson61: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Strong force lowers the neutron's energy inside the nucleus",
+              "**(b)** Strong force lowers the neutron's energy inside the nucleus",
             commonErrors: [
               "Thinking binding energy adds mass — it corresponds to missing mass ($\\Delta m>0$).",
             ],
@@ -951,7 +951,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Higher $E_b/A$, more stable",
+            finalAnswer: "**(c)** Higher $E_b/A$, more stable",
             commonErrors: [
               "Confusing total binding energy with per-nucleon value — they differ when A differs.",
             ],
@@ -1038,7 +1038,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** All nucleons",
+            finalAnswer: "**(b)** All nucleons",
             commonErrors: [
               "Choosing protons only — neutrons also feel strong force.",
             ],
@@ -1272,7 +1272,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Attractive between nucleons at short range",
+            finalAnswer: "**(d)** Attractive between nucleons at short range",
             commonErrors: [
               "Confusing it with the electromagnetic force, which is long range and acts on charge.",
             ],
@@ -1292,7 +1292,7 @@ export const lesson61: Lesson = {
               { id: "c", text: "Approximately equal to 1" },
               { id: "d", text: "Zero" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1316,7 +1316,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Greater than 1",
+            finalAnswer: "**(a)** Greater than 1",
             commonErrors: [
               "Applying the light-nucleus ratio $N\\approx Z$ to heavy nuclei.",
             ],
@@ -1360,7 +1360,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Beta-plus decay or electron capture",
+            finalAnswer: "**(a)** Beta-plus decay or electron capture",
             commonErrors: [
               "Choosing beta-minus — that increases $Z$ and is for neutron-rich nuclei.",
             ],
@@ -1697,7 +1697,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Strong-force attraction without added charge",
+            finalAnswer: "**(d)** Strong-force attraction without added charge",
             commonErrors: [
               "Thinking neutrons increase repulsion — they are electrically neutral.",
             ],
@@ -1741,7 +1741,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 20 protons",
+            finalAnswer: "**(d)** 20 protons",
             commonErrors: [
               "Selecting a nearby non-magic number — shell closure matters.",
             ],

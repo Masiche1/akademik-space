@@ -223,7 +223,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "Software" },
               { id: "d", text: "Data" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -384,7 +384,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "Maintenance" },
               { id: "d", text: "Feasibility study" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -491,7 +491,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "Design" },
               { id: "d", text: "Feasibility study" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

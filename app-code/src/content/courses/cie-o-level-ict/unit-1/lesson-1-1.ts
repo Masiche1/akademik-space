@@ -41,7 +41,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Integrated Circuit Technology" },
             { id: "d", text: "Input and Control Technology" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "ICT", statement: "Information and Communication Technology." }], steps: [{ reasoning: "Correct expansion.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Information and Communication Technology" },
+          markscheme: { principles: [{ kind: "definition", name: "ICT", statement: "Information and Communication Technology." }], steps: [{ reasoning: "Correct expansion.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Information and Communication Technology" },
         },
         {
           id: "olict-u1-ic-q2", difficulty: "core", totalMarks: 2,
@@ -106,7 +106,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Data" },
             { id: "d", text: "Hardware" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Data", statement: "Raw facts handled by the system." }], steps: [{ reasoning: "Names/records are raw facts = data.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Data" },
+          markscheme: { principles: [{ kind: "definition", name: "Data", statement: "Raw facts handled by the system." }], steps: [{ reasoning: "Names/records are raw facts = data.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Data" },
         },
         {
           id: "olict-u1-ic-q7", difficulty: "core", totalMarks: 2,
@@ -135,7 +135,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Connecting cables" },
             { id: "d", text: "Programs that run on hardware" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Software", statement: "Programs and data." }], steps: [{ reasoning: "Software = programs.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Programs that run on hardware" },
+          markscheme: { principles: [{ kind: "definition", name: "Software", statement: "Programs and data." }], steps: [{ reasoning: "Software = programs.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Programs that run on hardware" },
         },
         {
           id: "olict-u1-ic-q10", difficulty: "challenge", totalMarks: 4,
@@ -157,7 +157,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "A bicycle" },
             { id: "d", text: "An online banking system" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "ICT system", statement: "Integrated components working together." }], steps: [{ reasoning: "Only online banking combines all components.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Online banking system" },
+          markscheme: { principles: [{ kind: "definition", name: "ICT system", statement: "Integrated components working together." }], steps: [{ reasoning: "Only online banking combines all components.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Online banking system" },
         },
         {
           id: "olict-u1-ic-q12", difficulty: "core", totalMarks: 2,
@@ -177,7 +177,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Software" },
             { id: "d", text: "Hardware" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Software", statement: "Programs." }], steps: [{ reasoning: "A program is software.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Software" },
+          markscheme: { principles: [{ kind: "definition", name: "Software", statement: "Programs." }], steps: [{ reasoning: "A program is software.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Software" },
         },
         {
           id: "olict-u1-ic-q14", difficulty: "challenge", totalMarks: 4,

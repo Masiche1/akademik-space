@@ -118,7 +118,7 @@ export const lesson13: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** 25",
+            finalAnswer: "**(d)** 25",
             commonErrors: ["Choosing 18 — even isn't square."],
           },
         },

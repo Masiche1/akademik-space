@@ -41,7 +41,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Speaking as fast as possible" },
             { id: "d", text: "Interrupting constantly" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Turn-taking", statement: "Polite rhythm of speaking/listening." }], steps: [{ reasoning: "Wait for pauses; don't interrupt.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Waiting for pauses" },
+          markscheme: { principles: [{ kind: "definition", name: "Turn-taking", statement: "Polite rhythm of speaking/listening." }], steps: [{ reasoning: "Wait for pauses; don't interrupt.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Waiting for pauses" },
         },
         {
           id: "oles-u6-di-q2", difficulty: "core", totalMarks: 2,
@@ -105,7 +105,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Change the subject completely" },
             { id: "d", text: "Stay silent for the rest" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Turn-taking", statement: "Listen → respond → extend." }], steps: [{ reasoning: "Responding then adding keeps the exchange going.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** respond then add" },
+          markscheme: { principles: [{ kind: "skill", name: "Turn-taking", statement: "Listen → respond → extend." }], steps: [{ reasoning: "Responding then adding keeps the exchange going.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** respond then add" },
         },
         {
           id: "oles-u6-di-q6", difficulty: "core", totalMarks: 2,
@@ -119,7 +119,7 @@ export const lesson63: Lesson = {
           markscheme: { principles: [{ kind: "technique", name: "Extension", statement: "Add to what was said." }], steps: [
             { reasoning: "It extends the partner's point with more.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** extend" },
+          ], finalAnswer: "**(c)** extend" },
         },
         {
           id: "oles-u6-di-q7", difficulty: "foundation", totalMarks: 1,
@@ -141,7 +141,7 @@ export const lesson63: Lesson = {
           markscheme: { principles: [{ kind: "technique", name: "Polite disagreement", statement: "Acknowledge then counter." }], steps: [
             { reasoning: "Acknowledging the partner's point before disagreeing is polite.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** acknowledge then disagree" },
+          ], finalAnswer: "**(d)** acknowledge then disagree" },
         },
         {
           id: "oles-u6-di-q9", difficulty: "core", totalMarks: 2,
@@ -172,7 +172,7 @@ export const lesson63: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Interaction", statement: "Genuine exchange is rewarded." }], steps: [
             { reasoning: "Responding shows real listening — a key speaking skill.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** shows real interaction" },
+          ], finalAnswer: "**(b)** shows real interaction" },
         },
         {
           id: "oles-u6-di-q12", difficulty: "challenge", totalMarks: 2,
@@ -225,7 +225,7 @@ export const lesson63: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Discussion", statement: "Listen → respond → extend." }], steps: [
             { reasoning: "This is the full polite exchange cycle.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** wait-respond-extend" },
+          ], finalAnswer: "**(c)** wait-respond-extend" },
         },
       ],
     },
@@ -256,7 +256,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Speak as fast as possible" },
             { id: "d", text: "Read every word from notes" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "Presentation", statement: "Structured open-points-close." }], steps: [{ reasoning: "Clear structure helps the audience follow.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Clear structure" },
+          markscheme: { principles: [{ kind: "convention", name: "Presentation", statement: "Structured open-points-close." }], steps: [{ reasoning: "Clear structure helps the audience follow.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Clear structure" },
         },
         {
           id: "oles-u6-ps-q2", difficulty: "core", totalMarks: 2,
@@ -334,7 +334,7 @@ export const lesson63: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Presentation", statement: "2-3 main points fill time without rushing." }], steps: [
             { reasoning: "2-3 points is the recommended range.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** two to three" },
+          ], finalAnswer: "**(b)** two to three" },
         },
         {
           id: "oles-u6-ps-q7", difficulty: "foundation", totalMarks: 1,
@@ -356,7 +356,7 @@ export const lesson63: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Delivery", statement: "Speak to the audience, not notes." }], steps: [
             { reasoning: "Reading from notes sounds unnatural and breaks eye contact.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** sounds unnatural" },
+          ], finalAnswer: "**(c)** sounds unnatural" },
         },
         {
           id: "oles-u6-ps-q9", difficulty: "core", totalMarks: 2,
@@ -407,7 +407,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Speaking very quickly" },
             { id: "d", text: "Looking at your audience while speaking" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Eye contact", statement: "Looking at the audience." }], steps: [{ reasoning: "Eye contact connects speaker and audience.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** looking at the audience" },
+          markscheme: { principles: [{ kind: "definition", name: "Eye contact", statement: "Looking at the audience." }], steps: [{ reasoning: "Eye contact connects speaker and audience.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** looking at the audience" },
         },
         {
           id: "oles-u6-ps-q14", difficulty: "challenge", totalMarks: 4,
@@ -440,7 +440,7 @@ export const lesson63: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Presentation", statement: "Close politely." }], steps: [
             { reasoning: "A brief polite close signals the end confidently.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** thank you for listening" },
+          ], finalAnswer: "**(c)** thank you for listening" },
         },
       ],
     },

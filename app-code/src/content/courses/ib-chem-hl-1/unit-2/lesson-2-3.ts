@@ -120,7 +120,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Purely covalent",
+            finalAnswer: "**(c)** Purely covalent",
             commonErrors: [
               "Choosing metallic — metallic bonding requires a lattice of atoms, not just a diatomic molecule.",
             ],
@@ -355,7 +355,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Ionic",
+            finalAnswer: "**(b)** Ionic",
             commonErrors: [
               "Calling it polar covalent — $\\Delta EN$ is too large for mere unequal sharing.",
             ],
@@ -399,7 +399,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Brass",
+            finalAnswer: "**(a)** Brass",
             commonErrors: [
               "Confusing an alloy with a compound — alloys are mixtures, not fixed-ratio compounds.",
             ],
@@ -607,7 +607,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Protective chromium oxide layer",
+            finalAnswer: "**(d)** Protective chromium oxide layer",
             commonErrors: [
               "Attributing corrosion resistance only to hardness.",
             ],
@@ -1056,7 +1056,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Eliminates a small molecule",
+            finalAnswer: "**(c)** Eliminates a small molecule",
             commonErrors: [
               "Confusing it with addition polymerisation which loses nothing.",
             ],
@@ -1288,7 +1288,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Dicarboxylic acid + diol",
+            finalAnswer: "**(c)** Dicarboxylic acid + diol",
             commonErrors: [
               "Thinking polyesters form from alkenes — that is addition polymerisation.",
             ],
@@ -1332,7 +1332,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Poly(ethene)",
+            finalAnswer: "**(b)** Poly(ethene)",
             commonErrors: ["Assuming all plastics are addition polymers."],
           },
         },
@@ -1523,7 +1523,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Hydrogen bonding between amide groups",
+            finalAnswer: "**(d)** Hydrogen bonding between amide groups",
             commonErrors: ["Attributing strength only to chain length."],
           },
         },
@@ -1569,7 +1569,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Ethane-1,2-diol + benzene-1,4-dicarboxylic acid",
+              "**(d)** Ethane-1,2-diol + benzene-1,4-dicarboxylic acid",
             commonErrors: [
               "Confusing PET with an addition polymer like poly(ethene).",
             ],
@@ -1838,7 +1838,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Nylon-6,6",
+            finalAnswer: "**(d)** Nylon-6,6",
             commonErrors: [
               "Grouping all 'nylon-like' names incorrectly — check the mechanism.",
             ],

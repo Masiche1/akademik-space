@@ -57,7 +57,7 @@ export const lesson1113: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Starch test", statement: "Iodine → blue-black." }],
             steps: [{ reasoning: "Recall.", working: "\\text{iodine}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Iodine",
+            finalAnswer: "**(a)** Iodine",
             commonErrors: ["Benedict's is for sugars."],
           },
         },
@@ -137,7 +137,7 @@ export const lesson1113: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Benedict's", statement: "Blue → orange/red precipitate on heating." }],
             steps: [{ reasoning: "Recall.", working: "\\text{blue} \\to \\text{orange/red}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Orange/red precipitate",
+            finalAnswer: "**(a)** Orange/red precipitate",
             commonErrors: ["Staying blue is a negative result."],
           },
         },
@@ -155,7 +155,7 @@ export const lesson1113: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Biuret", statement: "NaOH first, then a few drops of CuSO₄." }],
             steps: [{ reasoning: "Alkaline conditions needed before copper reagent.", working: "\\text{NaOH} \\to \\text{CuSO}_4", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** NaOH then CuSO₄",
+            finalAnswer: "**(c)** NaOH then CuSO₄",
             commonErrors: ["Adding CuSO₄ first gives wrong results."],
           },
         },
@@ -173,7 +173,7 @@ export const lesson1113: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Lipid test", statement: "Ethanol + water → cloudy white emulsion." }],
             steps: [{ reasoning: "Recall.", working: "\\text{ethanol} + \\text{water} \\to \\text{emulsion}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Cloudy white emulsion",
+            finalAnswer: "**(a)** Cloudy white emulsion",
             commonErrors: ["Confusing with starch (blue-black) or protein (purple)."],
           },
         },
@@ -285,11 +285,11 @@ export const lesson1113: Lesson = {
             { id: "b", text: "Starch test" },
             { id: "c", text: "Reducing sugar test" },
             { id: "d", text: "Protein test" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Lipid test", statement: "Ethanol dissolves lipid; water gives emulsion." }],
             steps: [{ reasoning: "Recall.", working: "\\text{ethanol} \\to \\text{lipid}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Lipid test",
+            finalAnswer: "**(a)** Lipid test",
             commonErrors: ["Benedict's is for sugar, iodine for starch."],
           },
         },
@@ -347,7 +347,7 @@ export const lesson1113: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Biuret", statement: "Detects peptide bonds — denaturation does not break them." }],
             steps: [{ reasoning: "Denaturation unfolds protein but peptide bonds remain.", working: "\\text{peptide bonds intact}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** The peptide bonds are still intact",
+            finalAnswer: "**(b)** The peptide bonds are still intact",
             commonErrors: ["Thinking denaturation destroys the test — it does not."],
           },
         },
@@ -473,7 +473,7 @@ export const lesson1113: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Bromine test", statement: "Orange → colourless if C=C present." }],
             steps: [{ reasoning: "Recall.", working: "\\text{orange} \\to \\text{colourless}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Turns colourless",
+            finalAnswer: "**(d)** Turns colourless",
             commonErrors: ["Staying orange is the negative (saturated) result."],
           },
         },
@@ -491,7 +491,7 @@ export const lesson1113: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Unsaturation", statement: "Only unsaturated compounds react with Br₂." }],
             steps: [{ reasoning: "Propene has a C=C double bond.", working: "\\text{propene: C}=\\text{C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Propene",
+            finalAnswer: "**(a)** Propene",
             commonErrors: ["Propane, methane and hexane are saturated alkanes."],
           },
         },
@@ -523,11 +523,11 @@ export const lesson1113: Lesson = {
             { id: "b", text: "Cyclohexene" },
             { id: "c", text: "Neither" },
             { id: "d", text: "Both cyclohexane and cyclohexene" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Unsaturation", statement: "Cyclohexene has a C=C ring bond; cyclohexane is saturated." }],
             steps: [{ reasoning: "Cyclohexene contains a double bond.", working: "\\text{cyclohexene: C}=\\text{C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Cyclohexene",
+            finalAnswer: "**(b)** Cyclohexene",
             commonErrors: ["Cyclohexane is a saturated ring — no reaction."],
           },
         },
@@ -626,7 +626,7 @@ export const lesson1113: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Bromine test", statement: "Detects C=C (and C≡C) unsaturation." }],
             steps: [{ reasoning: "Recall.", working: "\\text{C}=\\text{C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** C=C unsaturation",
+            finalAnswer: "**(a)** C=C unsaturation",
             commonErrors: ["It does not detect –OH or –COOH groups."],
           },
         },

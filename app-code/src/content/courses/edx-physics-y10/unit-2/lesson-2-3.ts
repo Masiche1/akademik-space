@@ -59,7 +59,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Blue" },
               { id: "d", text: "Red" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The earth wire has green and yellow stripes. Brown is live and blue is neutral.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Green and yellow",
+            finalAnswer: "**(a)** Green and yellow",
             commonErrors: ["Choosing (a): brown is the live wire.", "Choosing (d): red is the old live colour and is not used in current UK plugs."],
             examinerNote: "B1 for (c).",
           },
@@ -207,7 +207,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Only electrons move when objects are rubbed. A negative object has gained extra electrons.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The rod has gained electrons from the cloth.",
+            finalAnswer: "**(c)** The rod has gained electrons from the cloth.",
             commonErrors: ["Choosing (b) or (d): protons are fixed in the nuclei and do not move.", "Choosing (c), the opposite direction of transfer."],
             examinerNote: "B1 for (a).",
           },

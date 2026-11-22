@@ -225,7 +225,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Recall the transport medium.", working: "\\text{blood}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Blood",
+            finalAnswer: "**(b)** Blood",
             commonErrors: ["Choosing nerve fibres — that's nervous transmission, not hormonal."],
           },
         },
@@ -457,7 +457,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Match stimulus to tropism.", working: "\\text{light} \\to \\text{phototropism}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Phototropism",
+            finalAnswer: "**(b)** Phototropism",
             commonErrors: ["Choosing gravitropism — that's response to gravity."],
           },
         },
@@ -551,7 +551,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Match stimulus and direction.", working: "\\text{gravity, downward}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Positive gravitropism",
+            finalAnswer: "**(d)** Positive gravitropism",
             commonErrors: ["Choosing phototropism — that's a response to light."],
           },
         },
@@ -683,7 +683,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Match stimulus to tropism.", working: "\\text{touch}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Touch or contact",
+            finalAnswer: "**(c)** Touch or contact",
             commonErrors: ["Choosing light — that's phototropism."],
           },
         },
@@ -709,7 +709,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Recall auxin distribution.", working: "\\text{shaded side}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The shaded side",
+            finalAnswer: "**(b)** The shaded side",
             commonErrors: ["Choosing the lit side — auxin moves AWAY from light."],
           },
         },

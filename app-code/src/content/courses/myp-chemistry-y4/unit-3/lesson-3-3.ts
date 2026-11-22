@@ -71,7 +71,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Monomers link together → polymer.", working: "\\text{monomer}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Polymer building block",
+            finalAnswer: "**(d)** Polymer building block",
             commonErrors: ["Confusing with polymer."],
             examinerNote: "B1 for (a).",
           },
@@ -185,7 +185,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Polymer = repeating units joined covalently.", working: "\\text{polymer}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Repeating monomer units",
+            finalAnswer: "**(b)** Repeating monomer units",
             commonErrors: ["Confusing polymer with monomer."],
             examinerNote: "B1 for (a).",
           },
@@ -535,7 +535,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Aluminum can be melted and reformed repeatedly.", working: "\\text{Al}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Aluminum",
+            finalAnswer: "**(d)** Aluminum",
             commonErrors: ["Choosing plastic — degrades each cycle."],
             examinerNote: "B1 for (a).",
           },
@@ -650,7 +650,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Biodegradable = decomposed by microorganisms.", working: "\\text{biodegradable}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Microbe breakdown",
+            finalAnswer: "**(d)** Microbe breakdown",
             commonErrors: ["Thinking biodegradable = permanent."],
             examinerNote: "B1 for (a).",
           },

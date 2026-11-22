@@ -352,7 +352,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Job description",
+            finalAnswer: "**(b)** Job description",
             commonErrors: [
               "Confusing a job description with a person specification.",
             ],
@@ -396,7 +396,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Identifying the need for new staff",
+            finalAnswer: "**(a)** Identifying the need for new staff",
             commonErrors: ["Starting recruitment at the advertising stage."],
           },
         },
@@ -711,7 +711,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** On-the-job training",
+            finalAnswer: "**(a)** On-the-job training",
             commonErrors: [
               "Confusing induction (first-day introduction) with on-the-job training.",
             ],
@@ -755,7 +755,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Person specification",
+            finalAnswer: "**(d)** Person specification",
             commonErrors: [
               "Confusing person specification (person) with job description (duties).",
             ],
@@ -913,7 +913,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Recruitment" },
               { id: "d", text: "Selection" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -937,7 +937,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Legal compliance",
+            finalAnswer: "**(b)** Legal compliance",
             commonErrors: [
               "Confusing compliance duties with recruitment or selection.",
             ],
@@ -1004,7 +1004,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Working conditions" },
               { id: "d", text: "Salary level" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1028,7 +1028,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Recognition for good work",
+            finalAnswer: "**(b)** Recognition for good work",
             commonErrors: [
               "Assuming higher pay automatically motivates — Herzberg says it only prevents dissatisfaction.",
             ],
@@ -1071,7 +1071,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Social needs",
+            finalAnswer: "**(a)** Social needs",
             commonErrors: ["Skipping a level — order must be exact."],
           },
         },
@@ -1227,7 +1227,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Safety needs" },
               { id: "d", text: "Social needs" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1251,7 +1251,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(d)** Self-actualisation needs",
+            finalAnswer: "**(a)** Self-actualisation needs",
             commonErrors: ["Confusing esteem needs with self-actualisation."],
           },
         },
@@ -1586,7 +1586,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Recognition" },
               { id: "d", text: "Responsibility" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1610,7 +1610,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Working conditions",
+            finalAnswer: "**(b)** Working conditions",
             commonErrors: [
               "Classifying motivators like recognition as hygiene factors.",
             ],
@@ -1654,7 +1654,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Financial incentives linked to output",
+            finalAnswer: "**(a)** Financial incentives linked to output",
             commonErrors: [
               "Attributing human-relations methods to Taylor's approach.",
             ],
@@ -1789,7 +1789,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The next higher need becomes the motivator",
+            finalAnswer: "**(d)** The next higher need becomes the motivator",
             commonErrors: ["Thinking satisfied needs keep motivating forever."],
           },
         },
@@ -1807,7 +1807,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Belbin" },
               { id: "d", text: "Maslow" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1831,7 +1831,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Taylor",
+            finalAnswer: "**(a)** Taylor",
             commonErrors: ["Confusing Taylor with Maslow or Herzberg."],
           },
         },

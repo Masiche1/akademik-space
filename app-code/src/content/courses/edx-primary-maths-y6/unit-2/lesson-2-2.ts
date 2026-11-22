@@ -70,7 +70,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Divide both by 4.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 2:3",
+            finalAnswer: "**(d)** 2:3",
             commonErrors: ["Stopping at 4:6 — not fully simplified."],
           },
         },
@@ -291,7 +291,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Scale factor 3; £3.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** £3",
+            finalAnswer: "**(a)** £3",
             commonErrors: ["Adding £1 three times instead of scaling."],
           },
         },

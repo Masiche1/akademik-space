@@ -74,7 +74,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "pH 3 is below 7, so the solution is acidic and blue litmus turns red.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Red",
+            finalAnswer: "**(a)** Red",
             commonErrors: ["Choosing green, which is the colour of universal indicator at pH 7, not litmus."],
             examinerNote: "B1 for choice (b).",
           },
@@ -165,7 +165,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "14" },
               { id: "d", text: "0" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -174,7 +174,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Pure water is neutral on the pH scale.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** 7",
+            finalAnswer: "**(b)** 7",
             commonErrors: ["Thinking the middle of the scale is 0."],
             examinerNote: "B1 for choice (c).",
           },
@@ -201,7 +201,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "pH 1 is below 7 and is the lowest number, so it is the most acidic.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** pH 1",
+            finalAnswer: "**(b)** pH 1",
             commonErrors: ["Choosing pH 11 because a bigger number seems 'more'."],
             examinerNote: "B1 for choice (a).",
           },
@@ -382,7 +382,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Red litmus turning blue is the test for an alkali.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It is alkaline",
+            finalAnswer: "**(d)** It is alkaline",
             commonErrors: ["Confusing which litmus changes colour in which solution."],
             examinerNote: "B1 for choice (b).",
           },
@@ -409,7 +409,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Ethanoic acid in vinegar has a higher pH and is a weak acid; the pH 1 acids are strong and bleach is alkaline, not acidic.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Ethanoic acid in vinegar at pH 3",
+            finalAnswer: "**(d)** Ethanoic acid in vinegar at pH 3",
             commonErrors: ["Choosing a strong acid because pH 1 seems 'more acid'."],
             examinerNote: "B1 for choice (b).",
           },
@@ -619,7 +619,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Sodium nitrate" },
               { id: "d", text: "Sodium hydroxide" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -628,7 +628,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Sulfuric acid gives a sulfate and sodium gives the first part, so the salt is sodium sulfate.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Sodium sulfate",
+            finalAnswer: "**(a)** Sodium sulfate",
             commonErrors: ["Choosing sodium chloride (from hydrochloric acid)."],
             examinerNote: "B1 for choice (c).",
           },
@@ -814,7 +814,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The student changes the brand of antacid; everything else is controlled.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The type of antacid",
+            finalAnswer: "**(c)** The type of antacid",
             commonErrors: ["Choosing the measured quantity (volume of acid) as independent."],
             examinerNote: "B1 for choice (b).",
           },
@@ -841,7 +841,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Calcium hydroxide is alkaline and neutralises the soil acid, raising the pH to a level crops prefer.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The lime neutralises the acid in the soil, raising the pH",
+            finalAnswer: "**(d)** The lime neutralises the acid in the soil, raising the pH",
             commonErrors: ["Thinking lime adds acidity."],
             examinerNote: "B1 for choice (b).",
           },

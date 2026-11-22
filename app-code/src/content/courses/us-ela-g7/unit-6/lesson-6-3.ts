@@ -370,7 +370,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Fragments and short sentences create tension.",
+              "**(c)**. Fragments and short sentences create tension.",
             commonErrors: ["Choosing (a) — it's neutral, not tense."],
           },
         },

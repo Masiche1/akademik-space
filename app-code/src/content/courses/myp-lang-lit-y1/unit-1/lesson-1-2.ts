@@ -67,7 +67,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'sun' and 'run' both end with the 'un' sound, so (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** sun — run",
+            finalAnswer: "**(d)** sun — run",
           },
         },
         {
@@ -163,7 +163,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Rhyme", statement: "Words rhyme when their end sounds match." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'sky' and 'fly' both end with the 'eye' sound — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** sky — fly",
+            finalAnswer: "**(d)** sky — fly",
           },
         },
         {
@@ -184,7 +184,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Rhythm", statement: "The beat is the poem's steady pattern of stressed and unstressed sounds." }],
             steps: [{ reasoning: "Criterion A (Analysing): the beat is the rhythm you tap along to — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** The steady rhythm you can tap or clap along to",
+            finalAnswer: "**(a)** The steady rhythm you can tap or clap along to",
           },
         },
         {
@@ -205,7 +205,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Rhyme", statement: "Rhymes are usually at the ends of lines and share end sounds." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'clear' and 'here' end with the same sound — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** clear — here",
+            finalAnswer: "**(a)** clear — here",
           },
         },
         {
@@ -282,7 +282,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Reading aloud", statement: "The ear catches rhythm and rhyme problems the eye misses." }],
             steps: [{ reasoning: "Criterion A (Analysing): reading aloud checks whether rhymes and beats sound good — (a).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** To check the rhyme and beat sound right",
+            finalAnswer: "**(d)** To check the rhyme and beat sound right",
           },
         },
         {
@@ -352,7 +352,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Rhyme", statement: "A rhyming word ends with the same sound." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'cat' rhymes with 'mat' — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** mat",
+            finalAnswer: "**(c)** mat",
           },
         },
         {
@@ -373,7 +373,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Rhyming lines", statement: "The last words of rhyming lines share an end sound." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'sand' and 'land' rhyme in (a) — the other pairs do not.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** The waves roll on the sand / where seagulls wheel across the land",
+            finalAnswer: "**(c)** The waves roll on the sand / where seagulls wheel across the land",
           },
         },
         {
@@ -553,7 +553,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Imagery", statement: "Imagery appeals to the five senses." }],
             steps: [{ reasoning: "Criterion A (Analysing): thunder is heard — this is sound imagery, (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Sound",
+            finalAnswer: "**(d)** Sound",
           },
         },
         {
@@ -569,12 +569,12 @@ export const lesson12: Lesson = {
               { id: "c", text: "Touch" },
               { id: "d", text: "Sight" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Imagery", statement: "Smell imagery describes things you can smell." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'smelled of herbs and garlic' is smell imagery — (c).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** Smell",
+            finalAnswer: "**(b)** Smell",
           },
         },
         {
@@ -595,7 +595,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Imagery types", statement: "'Cold wind bit our cheeks' describes a feeling on the skin — touch." }],
             steps: [{ reasoning: "Criterion A (Analysing): feeling cold on the cheeks is touch imagery — (a).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** Touch",
+            finalAnswer: "**(c)** Touch",
           },
         },
         {
@@ -667,12 +667,12 @@ export const lesson12: Lesson = {
               { id: "c", text: "The lemonade was sharp and cold" },
               { id: "d", text: "The red kite danced against the grey sky" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Imagery types", statement: "Sight imagery describes things you can see." }],
             steps: [{ reasoning: "Criterion A (Analysing): the kite and sky are things you see — (c).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** The red kite danced against the grey sky",
+            finalAnswer: "**(d)** The red kite danced against the grey sky",
           },
         },
         {

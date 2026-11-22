@@ -352,7 +352,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Nurture = environment.", marks: 2, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Environmental influences",
+            finalAnswer: "**(d)** Environmental influences",
             commonErrors: ["Confusing nature and nurture."],
           },
         },

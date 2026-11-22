@@ -65,7 +65,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Turn-taking is about sharing speaking time fairly.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** One person speaks at a time while others listen",
+            finalAnswer: "**(d)** One person speaks at a time while others listen",
             commonErrors: ["Choosing (a) — talking at once is not a discussion."],
           },
         },
@@ -148,7 +148,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Nobody" },
               { id: "d", text: "Everyone at once" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -157,7 +157,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "One speaker at a time lets everyone hear and take a turn.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** One at a time",
+            finalAnswer: "**(b)** One at a time",
             commonErrors: ["Choosing (a) — everyone talking at once is noise, not discussion."],
           },
         },
@@ -202,7 +202,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "'I see it differently because...' is polite and gives a reason; the others are rude.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'I see it differently because...'",
+            finalAnswer: "**(c)** 'I see it differently because...'",
             commonErrors: ["Choosing (a) — calling an idea 'silly' is not polite."],
           },
         },
@@ -284,7 +284,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Keeping points short leaves time for others — that is fair turn-taking.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** So others get a chance to join in",
+            finalAnswer: "**(a)** So others get a chance to join in",
             commonErrors: ["Choosing (a) — the point is sharing, not hogging the talk."],
           },
         },
@@ -374,7 +374,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "(b) agrees politely and adds a reason; the others are rude or unhelpful.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'I agree — dogs are loyal and fun to play with.'",
+            finalAnswer: "**(d)** 'I agree — dogs are loyal and fun to play with.'",
             commonErrors: ["Choosing (a) — it disagrees rudely with no reason."],
           },
         },
@@ -456,7 +456,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "A smile sends a message without words — it is non-verbal.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Smiling at someone",
+            finalAnswer: "**(a)** Smiling at someone",
             commonErrors: ["Choosing (c) — reading aloud uses words, so it is verbal."],
           },
         },
@@ -539,7 +539,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Actors" },
               { id: "d", text: "Writers" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -548,7 +548,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The people watching a presentation are the audience.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Audience",
+            finalAnswer: "**(a)** Audience",
             commonErrors: ["Choosing 'actors' — actors perform; the audience watches."],
           },
         },
@@ -675,7 +675,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Visible position lets everyone see your face, gestures and the object.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Where everyone can see you",
+            finalAnswer: "**(c)** Where everyone can see you",
             commonErrors: ["Choosing (a) — hiding behind furniture blocks the audience's view."],
           },
         },
@@ -739,7 +739,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Standing tall and looking at the audience are clear signs of confidence.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Standing tall and looking at the audience",
+            finalAnswer: "**(c)** Standing tall and looking at the audience",
             commonErrors: ["Choosing (d) — looking at the floor shows nervousness, not confidence."],
           },
         },
@@ -756,7 +756,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "'That's everything, bye.'" },
               { id: "d", text: "'Thank you for listening.'" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -765,7 +765,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "'Thank you for listening' politely closes the presentation; the others end carelessly.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** 'Thank you for listening.'",
+            finalAnswer: "**(d)** 'Thank you for listening.'",
             commonErrors: ["Choosing (a) — 'that's everything' sounds unfinished, not a strong finish."],
           },
         },

@@ -54,7 +54,7 @@ export const lesson83: Lesson = {
               { id: "c", text: "Voluntary-response sampling" },
               { id: "d", text: "Simple random sampling" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -63,7 +63,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "The school selects student identifiers at random from a complete roster, rather than choosing volunteers, nearby students, or whole groups.", marks: 2, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Simple random sampling",
+            finalAnswer: "**(d)** Simple random sampling",
             commonErrors: ["Confusing a survey (the way data are collected) with a sampling method (how participants are selected)."],
           },
         },
@@ -179,7 +179,7 @@ export const lesson83: Lesson = {
               { id: "c", text: "$0.01$" },
               { id: "d", text: "$0.10$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -188,7 +188,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Substitute the sample size and evaluate the square root.", working: "ME\\approx\\frac{1}{\\sqrt{100}}=\\frac{1}{10}=0.10", marks: 2, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $0.10$ (10 percentage points)",
+            finalAnswer: "**(d)** $0.10$ (10 percentage points)",
             commonErrors: ["Reporting $1/100=0.01$ instead of taking the square root of the sample size."],
           },
         },

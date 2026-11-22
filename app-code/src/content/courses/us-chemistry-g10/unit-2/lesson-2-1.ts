@@ -68,7 +68,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Two $\\text{Al}^{3+}$ ions give $+6$ and three $\\text{O}^{2-}$ ions give $-6$, so the charges balance.", working: "2(+3)+3(-2)=0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\text{Al}_2\\text{O}_3$",
+            finalAnswer: "**(d)** $\\text{Al}_2\\text{O}_3$",
             commonErrors: ["Writing $\\text{AlO}$ by ignoring the charges.", "Swapping the subscripts ($\\text{Al}_3\\text{O}_2$) so the charges do not balance."],
             examinerNote: "B1 for $\\text{Al}_2\\text{O}_3$.",
           },
@@ -200,7 +200,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Oxygen has two bonded atoms and two lone pairs: four domains, two of which are lone pairs, so the shape is bent.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Bent",
+            finalAnswer: "**(a)** Bent",
             commonErrors: ["Choosing linear because there are only three atoms; this ignores the lone pairs.", "Choosing tetrahedral, which describes the arrangement of domains, not the shape of the molecule."],
             examinerNote: "B1 for bent.",
           },

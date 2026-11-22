@@ -423,7 +423,7 @@ export const lesson31: Lesson = {
                 text: "Worker bees build wax cells, feed larvae and guard the entrance.",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -442,7 +442,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)**. It uses specific verbs and topic vocabulary (wax cells, larvae). Choices (a), (b) and (d) are as vague as the original.",
+              "**(d)**. It uses specific verbs and topic vocabulary (wax cells, larvae). Choices (a), (b) and (d) are as vague as the original.",
             commonErrors: [
               "Choosing a version that sounds longer but is not more specific.",
             ],
@@ -464,7 +464,7 @@ export const lesson31: Lesson = {
                 text: "A honeybee colony runs smoothly because each bee has a specific job.",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -490,7 +490,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)**. It sets up the paragraph's focus on roles in the hive.",
+              "**(d)**. It sets up the paragraph's focus on roles in the hive.",
             commonErrors: [
               "Choosing a true fact like (b), which is too broad to organize a paragraph.",
             ],

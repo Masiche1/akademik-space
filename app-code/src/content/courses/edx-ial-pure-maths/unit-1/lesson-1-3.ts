@@ -67,7 +67,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Differentiate term by term: $4x^3\\to12x^2$, $-5x\\to-5$, $2\\to0$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $12x^2-5$",
+            finalAnswer: "**(c)** $12x^2-5$",
             commonErrors: ["Leaving the constant as $2$ instead of $0$.", "Differentiating $4x^3$ to $4x^2$ without multiplying by the power."],
           },
         },

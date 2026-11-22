@@ -44,7 +44,7 @@ export const lesson91: Lesson = {
             { id: "c", text: "1 and 2" },
             { id: "d", text: "0-9" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Binary", statement: "Base-2, digits 0-1." }], steps: [{ reasoning: "Binary = 0/1.", working: "0,1", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 0 and 1" },
+          markscheme: { principles: [{ kind: "definition", name: "Binary", statement: "Base-2, digits 0-1." }], steps: [{ reasoning: "Binary = 0/1.", working: "0,1", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 0 and 1" },
         },
         {
           id: "olcs-u9-ns-q2", difficulty: "core", totalMarks: 2,
@@ -99,7 +99,7 @@ export const lesson91: Lesson = {
             { id: "c", text: "4" },
             { id: "d", text: "8" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Place value", statement: "Powers of 2 from right." }], steps: [{ reasoning: "Place values are $2^3, 2^2, 2^1, 2^0$; leftmost is $2^3=8$.", working: "2^3=8", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 8" },
+          markscheme: { principles: [{ kind: "principle", name: "Place value", statement: "Powers of 2 from right." }], steps: [{ reasoning: "Place values are $2^3, 2^2, 2^1, 2^0$; leftmost is $2^3=8$.", working: "2^3=8", marks: 1, markCode: "B" }], finalAnswer: "**(d)** 8" },
         },
         {
           id: "olcs-u9-ns-q6", difficulty: "core", totalMarks: 2,
@@ -119,7 +119,7 @@ export const lesson91: Lesson = {
             { id: "c", text: "17" },
             { id: "d", text: "15" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Hex digits", statement: "0-9 then A-F = 10-15." }], steps: [{ reasoning: "A=10, B=11, C=12, D=13, E=14, F=15.", working: "F=15", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 15" },
+          markscheme: { principles: [{ kind: "definition", name: "Hex digits", statement: "0-9 then A-F = 10-15." }], steps: [{ reasoning: "A=10, B=11, C=12, D=13, E=14, F=15.", working: "F=15", marks: 1, markCode: "B" }], finalAnswer: "**(d)** 15" },
         },
         {
           id: "olcs-u9-ns-q8", difficulty: "core", totalMarks: 1,
@@ -130,7 +130,7 @@ export const lesson91: Lesson = {
             { id: "c", text: "1000" },
             { id: "d", text: "110" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Denary to binary", statement: "Sum powers of 2." }], steps: [{ reasoning: "$7 = 4+2+1 = 111_2$.", working: "111", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 111" },
+          markscheme: { principles: [{ kind: "principle", name: "Denary to binary", statement: "Sum powers of 2." }], steps: [{ reasoning: "$7 = 4+2+1 = 111_2$.", working: "111", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 111" },
         },
         {
           id: "olcs-u9-ns-q9", difficulty: "challenge", totalMarks: 3,
@@ -171,7 +171,7 @@ export const lesson91: Lesson = {
             { id: "c", text: "16 bits" },
             { id: "d", text: "8 bits" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Nibble", statement: "4 bits = 1 hex digit." }], steps: [{ reasoning: "Nibble = 4 bits.", working: "4", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 4 bits" },
+          markscheme: { principles: [{ kind: "definition", name: "Nibble", statement: "4 bits = 1 hex digit." }], steps: [{ reasoning: "Nibble = 4 bits.", working: "4", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 4 bits" },
         },
         {
           id: "olcs-u9-ns-q13", difficulty: "challenge", totalMarks: 1,
@@ -182,7 +182,7 @@ export const lesson91: Lesson = {
             { id: "c", text: "15" },
             { id: "d", text: "31" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Binary to denary", statement: "Sum place values." }], steps: [{ reasoning: "$16+8+4+2+1=31$.", working: "31", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 31" },
+          markscheme: { principles: [{ kind: "principle", name: "Binary to denary", statement: "Sum place values." }], steps: [{ reasoning: "$16+8+4+2+1=31$.", working: "31", marks: 1, markCode: "B" }], finalAnswer: "**(d)** 31" },
         },
         {
           id: "olcs-u9-ns-q14", difficulty: "core", totalMarks: 1,
@@ -193,7 +193,7 @@ export const lesson91: Lesson = {
             { id: "c", text: "Computers cannot read binary directly" },
             { id: "d", text: "It stores more data in the same space" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Hex purpose", statement: "Compact binary representation." }], steps: [{ reasoning: "Each hex digit replaces 4 binary digits.", working: "16=2^4", marks: 1, markCode: "B" }], finalAnswer: "**(a)** More compact and less error-prone" },
+          markscheme: { principles: [{ kind: "principle", name: "Hex purpose", statement: "Compact binary representation." }], steps: [{ reasoning: "Each hex digit replaces 4 binary digits.", working: "16=2^4", marks: 1, markCode: "B" }], finalAnswer: "**(b)** More compact and less error-prone" },
         },
         {
           id: "olcs-u9-ns-q15", difficulty: "core", totalMarks: 3,
@@ -259,7 +259,7 @@ export const lesson91: Lesson = {
             { id: "c", text: "2" },
             { id: "d", text: "10" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Binary addition", statement: "1+1=10 carry." }], steps: [{ reasoning: "Write 0 carry 1.", working: "10", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 10" },
+          markscheme: { principles: [{ kind: "principle", name: "Binary addition", statement: "1+1=10 carry." }], steps: [{ reasoning: "Write 0 carry 1.", working: "10", marks: 1, markCode: "B" }], finalAnswer: "**(d)** 10" },
         },
         {
           id: "olcs-u9-ba-q2", difficulty: "core", totalMarks: 2,
@@ -334,7 +334,7 @@ export const lesson91: Lesson = {
             { id: "c", text: "10" },
             { id: "d", text: "11" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Binary addition", statement: "No carries needed." }], steps: [{ reasoning: "$10+01=11$.", working: "11", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 11" },
+          markscheme: { principles: [{ kind: "principle", name: "Binary addition", statement: "No carries needed." }], steps: [{ reasoning: "$10+01=11$.", working: "11", marks: 1, markCode: "B" }], finalAnswer: "**(d)** 11" },
         },
         {
           id: "olcs-u9-ba-q8", difficulty: "core", totalMarks: 1,
@@ -345,7 +345,7 @@ export const lesson91: Lesson = {
             { id: "c", text: "11011" },
             { id: "d", text: "10001" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Binary addition", statement: "Column method with carries." }], steps: [{ reasoning: "Right-to-left carries give $10011$.", working: "10011", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 10011" },
+          markscheme: { principles: [{ kind: "principle", name: "Binary addition", statement: "Column method with carries." }], steps: [{ reasoning: "Right-to-left carries give $10011$.", working: "10011", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 10011" },
         },
         {
           id: "olcs-u9-ba-q9", difficulty: "challenge", totalMarks: 3,
@@ -386,7 +386,7 @@ export const lesson91: Lesson = {
             { id: "c", text: "16" },
             { id: "d", text: "2 or more" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Carry rule", statement: "Carry when sum reaches the base." }], steps: [{ reasoning: "Base 2: sums of 2 or more need a carry.", working: "\\geq 2", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 2 or more" },
+          markscheme: { principles: [{ kind: "principle", name: "Carry rule", statement: "Carry when sum reaches the base." }], steps: [{ reasoning: "Base 2: sums of 2 or more need a carry.", working: "\\geq 2", marks: 1, markCode: "B" }], finalAnswer: "**(d)** 2 or more" },
         },
         {
           id: "olcs-u9-ba-q13", difficulty: "challenge", totalMarks: 4,

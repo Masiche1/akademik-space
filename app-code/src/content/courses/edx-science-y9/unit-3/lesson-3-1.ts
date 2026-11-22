@@ -67,7 +67,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "In a longitudinal wave, such as sound, particles vibrate backwards and forwards along the direction the wave travels.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The oscillations are parallel to the direction of energy transfer.",
+            finalAnswer: "**(d)** The oscillations are parallel to the direction of energy transfer.",
             commonErrors: ["Choosing (a), which describes a transverse wave.", "Thinking that matter is carried along with the wave."],
             examinerNote: "B1 for (b) only.",
           },
@@ -192,7 +192,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "The ray speeds up and bends towards the normal." },
               { id: "d", text: "The ray speeds up and bends away from the normal." },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -201,7 +201,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Glass is denser than air, so light slows down and bends towards the normal.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** The ray slows down and bends towards the normal.",
+            finalAnswer: "**(a)** The ray slows down and bends towards the normal.",
             commonErrors: ["Thinking that light speeds up in glass.", "Confusing entering glass with leaving glass."],
             examinerNote: "B1 for (c) only.",
           },

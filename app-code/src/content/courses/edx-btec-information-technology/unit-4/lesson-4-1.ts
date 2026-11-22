@@ -94,7 +94,7 @@ export const lesson401: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Primary key",
+            finalAnswer: "**(a)** Primary key",
             commonErrors: ["Confusing with foreign key."],
           },
         },

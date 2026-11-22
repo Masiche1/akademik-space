@@ -41,7 +41,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "A government official" },
             { id: "d", text: "A person who starts a business and takes risks" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Entrepreneur", statement: "Starts business, takes risk." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Entrepreneur", statement: "Starts business, takes risk." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u1-en-q2", difficulty: "core", totalMarks: 2,
@@ -97,7 +97,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Borrowing money from a bank" },
             { id: "d", text: "Working without pay" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Risk-taking", statement: "Investing with uncertainty." }], steps: [{ reasoning: "Willingness to invest despite uncertain outcomes.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Risk-taking", statement: "Investing with uncertainty." }], steps: [{ reasoning: "Willingness to invest despite uncertain outcomes.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u1-en-q6", difficulty: "core", totalMarks: 1,
@@ -108,7 +108,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Registers a trademark" },
             { id: "d", text: "Lends money to other businesses" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Franchisee", statement: "Operates under a brand." }], steps: [{ reasoning: "Franchisee pays for the right to use the brand/model.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Franchisee", statement: "Operates under a brand." }], steps: [{ reasoning: "Franchisee pays for the right to use the brand/model.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u1-en-q7", difficulty: "foundation", totalMarks: 1,
@@ -118,8 +118,8 @@ export const lesson13: Lesson = {
             { id: "b", text: "Memorising facts" },
             { id: "c", text: "Innovation" },
             { id: "d", text: "Risk-taking" },
-          ], correctChoiceIb: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Enterprise skills", statement: "Key abilities." }], steps: [{ reasoning: "Memorising facts is not an enterprise skill; the others are.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Memorising facts" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "definition", name: "Enterprise skills", statement: "Key abilities." }], steps: [{ reasoning: "Memorising facts is not an enterprise skill; the others are.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Memorising facts" },
         },
         {
           id: "olbus-u1-en-q8", difficulty: "core", totalMarks: 2,
@@ -192,7 +192,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Planning" },
             { id: "d", text: "Packaging" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Planning", statement: "Research, budgeting, forecasting." }], steps: [{ reasoning: "Planning covers research, budgeting and forecasting.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Planning" },
+          markscheme: { principles: [{ kind: "definition", name: "Planning", statement: "Research, budgeting, forecasting." }], steps: [{ reasoning: "Planning covers research, budgeting and forecasting.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Planning" },
         },
         {
           id: "olbus-u1-en-q15", difficulty: "core", totalMarks: 2,
@@ -322,7 +322,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Financial forecasts" },
             { id: "d", text: "Executive summary" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Plan contents", statement: "Financial forecasts." }], steps: [{ reasoning: "Financial forecasts contain sales/cost/profit projections.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Financial forecasts" },
+          markscheme: { principles: [{ kind: "definition", name: "Plan contents", statement: "Financial forecasts." }], steps: [{ reasoning: "Financial forecasts contain sales/cost/profit projections.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Financial forecasts" },
         },
         {
           id: "olbus-u1-bp-q7", difficulty: "foundation", totalMarks: 1,
@@ -333,7 +333,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Competitor logos" },
             { id: "d", text: "Projected sales, costs and profit" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Financial forecasts", statement: "Projections." }], steps: [{ reasoning: "Forecasts project sales, costs and profit.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Financial forecasts", statement: "Projections." }], steps: [{ reasoning: "Forecasts project sales, costs and profit.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u1-bp-q8", difficulty: "core", totalMarks: 2,
@@ -386,7 +386,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "To list employee salaries" },
             { id: "d", text: "To research competitors and customer needs" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Market analysis", statement: "Research section." }], steps: [{ reasoning: "Market analysis covers competitors and customer needs.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Market analysis", statement: "Research section." }], steps: [{ reasoning: "Market analysis covers competitors and customer needs.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u1-bp-q13", difficulty: "core", totalMarks: 2,
@@ -406,7 +406,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "The building lease" },
             { id: "d", text: "Employee contracts" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Business plan", statement: "Idea + strategy + finances." }], steps: [{ reasoning: "A plan covers idea, strategy and financial forecasts.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Business plan", statement: "Idea + strategy + finances." }], steps: [{ reasoning: "A plan covers idea, strategy and financial forecasts.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u1-bp-q15", difficulty: "core", totalMarks: 2,

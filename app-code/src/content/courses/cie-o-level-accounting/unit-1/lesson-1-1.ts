@@ -41,7 +41,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Designing buildings" },
             { id: "d", text: "Recording, classifying and reporting financial data" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Accounting", statement: "Record, classify, report." }], steps: [{ reasoning: "Correct description.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Recording, classifying, reporting" },
+          markscheme: { principles: [{ kind: "definition", name: "Accounting", statement: "Record, classify, report." }], steps: [{ reasoning: "Correct description.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Recording, classifying, reporting" },
         },
         {
           id: "olacc-u1-na-q2", difficulty: "core", totalMarks: 2,
@@ -96,7 +96,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "A passer-by" },
             { id: "d", text: "A passing customer" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Users", statement: "Stakeholders use accounting information." }], steps: [{ reasoning: "Banks check repayment ability before lending.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Bank manager" },
+          markscheme: { principles: [{ kind: "definition", name: "Users", statement: "Stakeholders use accounting information." }], steps: [{ reasoning: "Banks check repayment ability before lending.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Bank manager" },
         },
         {
           id: "olacc-u1-na-q6", difficulty: "core", totalMarks: 2,
@@ -159,7 +159,7 @@ export const lesson11: Lesson = {
           markscheme: { principles: [{ kind: "definition", name: "Asset", statement: "Resource owned by the business." }], steps: [
             { reasoning: "Cash in hand is owned by the business.", marks: 1, markCode: "M" },
             { reasoning: "Others are liabilities, capital or income.", marks: 1, markCode: "A" },
-          ], finalAnswer: "**(b)** Cash in hand" },
+          ], finalAnswer: "**(a)** Cash in hand" },
         },
         {
           id: "olacc-u1-na-q12", difficulty: "core", totalMarks: 3,
@@ -188,8 +188,8 @@ export const lesson11: Lesson = {
             { id: "b", text: "Recording transactions" },
             { id: "c", text: "Helping with decisions" },
             { id: "d", text: "Showing profit or loss" },
-          ], aorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Purpose", statement: "Inform, not guarantee." }], steps: [{ reasoning: "Accounting informs; it cannot guarantee success.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Guaranteeing business success" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "principle", name: "Purpose", statement: "Inform, not guarantee." }], steps: [{ reasoning: "Accounting informs; it cannot guarantee success.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Guaranteeing business success" },
         },
         {
           id: "olacc-u1-na-q15", difficulty: "challenge", totalMarks: 4,
@@ -254,7 +254,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "A bank account" },
             { id: "d", text: "A financial statement" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Source document", statement: "Transaction evidence." }], steps: [{ reasoning: "Source doc = evidence.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Evidence of transaction" },
+          markscheme: { principles: [{ kind: "definition", name: "Source document", statement: "Transaction evidence." }], steps: [{ reasoning: "Source doc = evidence.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Evidence of transaction" },
         },
         {
           id: "olacc-u1-sd-q2", difficulty: "core", totalMarks: 2,
@@ -308,8 +308,8 @@ export const lesson11: Lesson = {
             { id: "b", text: "Receipt" },
             { id: "c", text: "Pay-in slip" },
             { id: "d", text: "Invoice" },
-          ], dorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Invoice", statement: "Bill to customer." }], steps: [{ reasoning: "Invoice requests payment for credit sales.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Invoice" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "definition", name: "Invoice", statement: "Bill to customer." }], steps: [{ reasoning: "Invoice requests payment for credit sales.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Invoice" },
         },
         {
           id: "olacc-u1-sd-q6", difficulty: "core", totalMarks: 2,
@@ -338,7 +338,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Withdraw money from the bank" },
             { id: "d", text: "Write an order to pay" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Pay-in slip", statement: "Bank deposit evidence." }], steps: [{ reasoning: "Pay-in slip pays money into the bank.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Pay money into bank" },
+          markscheme: { principles: [{ kind: "definition", name: "Pay-in slip", statement: "Bank deposit evidence." }], steps: [{ reasoning: "Pay-in slip pays money into the bank.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Pay money into bank" },
         },
         {
           id: "olacc-u1-sd-q9", difficulty: "core", totalMarks: 2,
@@ -368,11 +368,11 @@ export const lesson11: Lesson = {
             { id: "b", text: "Reduce the amount owed" },
             { id: "c", text: "Record a cash sale" },
             { id: "d", text: "Increase the amount owed" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Debit note", statement: "Increases amount owed." }], steps: [
             { reasoning: "Debit note increases what is owed.", marks: 1, markCode: "M" },
             { reasoning: "Opposite of a credit note.", marks: 1, markCode: "A" },
-          ], finalAnswer: "**(c)** Increase the amount owed" },
+          ], finalAnswer: "**(d)** Increase the amount owed" },
         },
         {
           id: "olacc-u1-sd-q12", difficulty: "core", totalMarks: 3,
@@ -401,8 +401,8 @@ export const lesson11: Lesson = {
             { id: "b", text: "Receipt" },
             { id: "c", text: "Invoice" },
             { id: "d", text: "Ledger account" },
-          ], dorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Source document", statement: "Transaction evidence." }], steps: [{ reasoning: "A ledger account is a book of account, not evidence.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Ledger account" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "definition", name: "Source document", statement: "Transaction evidence." }], steps: [{ reasoning: "A ledger account is a book of account, not evidence.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Ledger account" },
         },
         {
           id: "olacc-u1-sd-q15", difficulty: "challenge", totalMarks: 4,

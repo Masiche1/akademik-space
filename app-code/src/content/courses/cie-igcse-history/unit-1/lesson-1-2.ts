@@ -271,7 +271,7 @@ export const lesson332: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** 13 days",
+            finalAnswer: "**(b)** 13 days",
           },
         },
         {
@@ -460,7 +460,7 @@ export const lesson332: Lesson = {
                 text: "Afghanistan War (1979-89)",
               },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -478,7 +478,7 @@ export const lesson332: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(d)** Cuban Missile Crisis",
+            finalAnswer: "**(a)** Cuban Missile Crisis",
           },
         },
         {
@@ -565,7 +565,7 @@ export const lesson332: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The success of the airlift and Soviet lifting of the blockade",
+              "**(c)** The success of the airlift and Soviet lifting of the blockade",
           },
         },
         {
@@ -700,7 +700,7 @@ export const lesson332: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** A period of reduced Cold War tension",
+            finalAnswer: "**(c)** A period of reduced Cold War tension",
           },
         },
         {

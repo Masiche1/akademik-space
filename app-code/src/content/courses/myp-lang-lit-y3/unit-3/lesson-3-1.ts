@@ -69,7 +69,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): lead = key facts first — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Who, what, when, where and why — the key facts",
+            finalAnswer: "**(c)** Who, what, when, where and why — the key facts",
           },
         },
         {
@@ -155,7 +155,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion C (Producing text): headline = attention + summary — (b).", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Grab attention and summarize the story",
+            finalAnswer: "**(a)** Grab attention and summarize the story",
           },
         },
         {
@@ -180,7 +180,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): key facts go in the lead — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** In the first paragraph (the lead)",
+            finalAnswer: "**(d)** In the first paragraph (the lead)",
           },
         },
         {
@@ -210,7 +210,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): who (Ridgeview), what (won championship), when (Saturday) — key facts — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Who won, what they won, and when — the key facts",
+            finalAnswer: "**(a)** Who won, what they won, and when — the key facts",
           },
         },
         {
@@ -235,7 +235,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): (b) gives what/where/when in one factual sentence — a proper news lead; the others are informal, fictional or a letter opening — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'The new bike lane on Main Street opened to cyclists on Monday, part of the city's green transport plan.'",
+            finalAnswer: "**(c)** 'The new bike lane on Main Street opened to cyclists on Monday, part of the city's green transport plan.'",
           },
         },
         {
@@ -330,7 +330,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): attribution = crediting the source — (a).", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** Giving credit to the source of information",
+            finalAnswer: "**(d)** Giving credit to the source of information",
           },
         },
         {
@@ -387,7 +387,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): readers get essentials early and editors can cut the bottom — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Because readers get key facts even if they stop early, and editors can cut detail without losing essentials",
+            finalAnswer: "**(d)** Because readers get key facts even if they stop early, and editors can cut detail without losing essentials",
           },
         },
         {
@@ -489,7 +489,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): reports = factual/organized; stories = imaginative — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Reports are factual and organized; stories are imaginative",
+            finalAnswer: "**(a)** Reports are factual and organized; stories are imaginative",
           },
         },
         {
@@ -574,7 +574,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): reports inform factually and organized — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To present factual information in an organized way",
+            finalAnswer: "**(d)** To present factual information in an organized way",
           },
         },
         {
@@ -629,7 +629,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): the opening states subject (attendance), time frame (Sept-Dec) and focus (absence factors) — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Its subject, time frame and focus areas",
+            finalAnswer: "**(a)** Its subject, time frame and focus areas",
           },
         },
         {
@@ -654,7 +654,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion C (Producing text): (b) states the subject objectively and previews scope; (a) is slangy opinion, (c) anecdote, (d) letter opening — (b).", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** 'This report examines how students use the school canteen. It looks at usage patterns, popular items and peak times.'",
+            finalAnswer: "**(a)** 'This report examines how students use the school canteen. It looks at usage patterns, popular items and peak times.'",
           },
         },
         {
@@ -753,7 +753,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): headings help readers navigate — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To organize information so readers can find what they need",
+            finalAnswer: "**(c)** To organize information so readers can find what they need",
           },
         },
         {
@@ -810,7 +810,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): conclusion summarizes; recommendations propose action — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The conclusion summarizes findings; recommendations suggest what should happen next",
+            finalAnswer: "**(d)** The conclusion summarizes findings; recommendations suggest what should happen next",
           },
         },
         {

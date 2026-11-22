@@ -57,7 +57,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Taxonomy", statement: "Kingdom→Species hierarchy." }],
             steps: [{ reasoning: "Standard Linnaean order.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Kingdom→Species",
+            finalAnswer: "**(d)** Kingdom→Species",
           },
         },
         {
@@ -167,12 +167,12 @@ export const lesson31: Lesson = {
               { id: "c", text: "Habitat diversity" },
               { id: "d", text: "Genetic diversity" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Biodiversity", statement: "Richness, evenness, genetic, habitat." }],
             steps: [{ reasoning: "Density isn't a biodiversity measure.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Population density",
+            finalAnswer: "**(b)** Population density",
           },
         },
         {

@@ -88,12 +88,12 @@ export const lesson13: Lesson = {
               { id: "c", text: "Likewise" },
               { id: "d", text: "Similarly" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Comparative connectives", statement: "'Whereas' and 'in contrast' show difference; 'similarly' and 'likewise' show similarity." }],
             steps: [{ reasoning: "'Whereas' contrasts two ideas, while the other options signal likeness.", marks: 1, markCode: "AO3" }],
-            finalAnswer: "**(c)** Whereas.",
+            finalAnswer: "**(a)** Whereas.",
             commonErrors: ["Choosing a similarity connective because both poems are being mentioned."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "PEE", statement: "Point, Evidence, Explain: explain the effect of the writer's choices." }],
             steps: [{ reasoning: "Explanation means saying what the words suggest and how they affect the reader.", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(b)** Say what effect the writer's words create.",
+            finalAnswer: "**(a)** Say what effect the writer's words create.",
             commonErrors: ["Thinking explanation means paraphrasing or retelling."],
           },
         },

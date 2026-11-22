@@ -70,7 +70,7 @@ export const lesson62: Lesson = {
               { id: "c", text: "1 035" },
               { id: "d", text: "935" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -83,7 +83,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "900 + 135 = 1035.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** 1 035",
+            finalAnswer: "**(c)** 1 035",
             commonErrors: ["Missing the zero when multiplying by 20."],
           },
         },
@@ -297,7 +297,7 @@ export const lesson62: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** 263",
+            finalAnswer: "**(a)** 263",
             commonErrors: ["Dividing digits separately."],
           },
         },

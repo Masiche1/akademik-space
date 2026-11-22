@@ -65,7 +65,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the structure.", working: "\\text{stomata}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Stomata",
+            finalAnswer: "**(b)** Stomata",
             commonErrors: ["Choosing xylem — xylem transports water up, not out of the leaf."],
           },
         },
@@ -161,7 +161,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{water vapour out via stomata}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Loss of water vapour from leaves through stomata",
+            finalAnswer: "**(b)** Loss of water vapour from leaves through stomata",
             commonErrors: ["Confusing with root water uptake or phloem transport."],
           },
         },
@@ -213,7 +213,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Link transpiration to water transport.", working: "\\text{pull} \\to \\text{xylem}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Creates the pull that draws water up the xylem",
+            finalAnswer: "**(b)** Creates the pull that draws water up the xylem",
             commonErrors: ["Choosing 'produces glucose' — transpiration moves water, not synthesise food."],
           },
         },
@@ -341,7 +341,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Link heat/wind to water deficit.", working: "\\text{loss} > \\text{uptake} \\to \\text{wilt}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Water loss by transpiration exceeds uptake, so cells lose turgor",
+            finalAnswer: "**(d)** Water loss by transpiration exceeds uptake, so cells lose turgor",
             commonErrors: ["Choosing 'photosynthesis stops' — wilting is a water/turgor problem."],
           },
         },
@@ -393,7 +393,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{cohesion} = \\text{water-water}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Water molecules sticking to each other",
+            finalAnswer: "**(d)** Water molecules sticking to each other",
             commonErrors: ["Confusing with adhesion (water sticking to xylem walls)."],
           },
         },
@@ -562,7 +562,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall phloem transport pattern.", working: "\\text{source} \\to \\text{sink}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** From sources to sinks, in either direction",
+            finalAnswer: "**(c)** From sources to sinks, in either direction",
             commonErrors: ["Saying 'up only' — that is xylem."],
           },
         },
@@ -614,7 +614,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{sink} = \\text{use/store}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A part of the plant where sugars are used or stored, e.g. roots",
+            finalAnswer: "**(d)** A part of the plant where sugars are used or stored, e.g. roots",
             commonErrors: ["Reversing with 'source' — source produces/loads sugars."],
           },
         },
@@ -742,7 +742,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Link phloem removal to starvation of roots.", working: "\\text{no phloem} \\to \\text{no sugars to roots}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sugars can no longer be transported down to the roots",
+            finalAnswer: "**(b)** Sugars can no longer be transported down to the roots",
             commonErrors: ["Saying 'water can't move' — xylem is unaffected by ringing."],
           },
         },
@@ -768,7 +768,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the loading mechanism.", working: "\\text{active transport} + \\text{ATP}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Energy (ATP) via active transport",
+            finalAnswer: "**(b)** Energy (ATP) via active transport",
             commonErrors: ["Saying 'only diffusion' — loading is against the gradient and needs energy."],
           },
         },
@@ -794,7 +794,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the tissue.", working: "\\text{phloem}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Phloem",
+            finalAnswer: "**(d)** Phloem",
             commonErrors: ["Choosing xylem — that is for water/minerals."],
           },
         },
@@ -868,7 +868,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the structure.", working: "\\text{guard cells}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Guard cells",
+            finalAnswer: "**(b)** Guard cells",
             commonErrors: ["Choosing xylem — that's water transport, not pore control."],
           },
         },
@@ -962,7 +962,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the shape.", working: "\\text{kidney-shaped}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Kidney-shaped",
+            finalAnswer: "**(b)** Kidney-shaped",
             commonErrors: ["Describing a generic cell shape — guard cells are specifically kidney-shaped."],
           },
         },
@@ -988,7 +988,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the ion involved.", working: "\\text{K}^+", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Potassium (K⁺)",
+            finalAnswer: "**(d)** Potassium (K⁺)",
             commonErrors: ["Choosing sodium — the key ion is potassium."],
           },
         },
@@ -1014,7 +1014,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the organelle.", working: "\\text{chloroplasts}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Chloroplasts",
+            finalAnswer: "**(d)** Chloroplasts",
             commonErrors: ["Choosing mitochondria — those respire, not photosynthesise."],
           },
         },
@@ -1142,7 +1142,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Link night closure to water conservation.", working: "\\text{no photosynthesis} \\to \\text{close} \\to \\text{save water}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Conserve water, since photosynthesis (and CO₂ need) is not occurring",
+            finalAnswer: "**(c)** Conserve water, since photosynthesis (and CO₂ need) is not occurring",
             commonErrors: ["Saying 'to let more light in' — closed pores do the opposite."],
           },
         },
@@ -1168,7 +1168,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the turgor link.", working: "\\text{flaccid} \\to \\text{closed}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Closes",
+            finalAnswer: "**(c)** Closes",
             commonErrors: ["Reversing — turgidity opens the pore."],
           },
         },

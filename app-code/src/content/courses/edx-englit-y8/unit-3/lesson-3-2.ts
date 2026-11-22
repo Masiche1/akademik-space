@@ -95,7 +95,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Retrieval", statement: "Use the exact words of the text." }],
             steps: [{ reasoning: "He says he hates the word 'peace', 'all Montagues' and Benvolio.", evidence: "I hate the word, As I hate hell, all Montagues", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** The word 'peace' and all Montagues.",
+            finalAnswer: "**(c)** The word 'peace' and all Montagues.",
             commonErrors: ["Confusing Tybalt with his own family."],
           },
         },
@@ -221,7 +221,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Apostrophe", statement: "Addressing the stars directly shows belief in fate." }],
             steps: [{ reasoning: "'Defy' means challenge or refuse to accept, so he rejects his fate.", evidence: "I defy you, stars", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** He refuses to accept what fate has done.",
+            finalAnswer: "**(b)** He refuses to accept what fate has done.",
             commonErrors: ["Taking 'stars' literally."],
           },
         },

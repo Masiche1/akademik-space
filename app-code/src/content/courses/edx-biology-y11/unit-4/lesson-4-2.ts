@@ -297,7 +297,7 @@ export const lesson42: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Preventing contamination",
+            finalAnswer: "**(c)** Preventing contamination",
             commonErrors: ["Sterilisation confused."],
           },
         },

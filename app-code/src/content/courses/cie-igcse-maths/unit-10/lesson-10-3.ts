@@ -118,7 +118,7 @@ export const lesson103: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Correlation", statement: "Negative: one variable up, the other down." }],
             steps: [{ reasoning: "One variable increases as the other decreases: negative correlation.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** Negative",
+            finalAnswer: "**(b)** Negative",
           },
         },
         {
@@ -135,7 +135,7 @@ export const lesson103: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Correlation", statement: "No pattern = no correlation." }],
             steps: [{ reasoning: "Points show no trend, so there is no correlation.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** None",
+            finalAnswer: "**(c)** None",
           },
         },
         {
@@ -183,7 +183,7 @@ export const lesson103: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Line of best fit", statement: "Roughly equal numbers of points above and below." }],
             steps: [{ reasoning: "The line follows the trend with balanced points, ignoring outliers.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** Balance points above and below, ignoring outliers",
+            finalAnswer: "**(c)** Balance points above and below, ignoring outliers",
           },
         },
         {
@@ -231,7 +231,7 @@ export const lesson103: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Positive correlation", statement: "Both variables move in the same direction." }],
             steps: [{ reasoning: "Positive correlation: as $x$ rises, $y$ tends to rise.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** Both variables tend to increase together",
+            finalAnswer: "**(c)** Both variables tend to increase together",
           },
         },
         {

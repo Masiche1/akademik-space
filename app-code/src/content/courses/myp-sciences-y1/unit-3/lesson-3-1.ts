@@ -60,7 +60,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Air resistance" },
               { id: "d", text: "Tension in a rope" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -69,7 +69,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "A magnet can attract an iron nail across a gap, so magnetic force is a non-contact force. The other three need objects to touch.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Magnetic force",
+            finalAnswer: "**(b)** Magnetic force",
             commonErrors: ["Choosing air resistance because air is invisible; the air still has to touch the moving object.", "Thinking that any force that pulls is non-contact."],
             examinerNote: "B1 for magnetic force.",
           },
@@ -158,7 +158,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Magnetism" },
               { id: "d", text: "Gravity" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -168,7 +168,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Friction acts between surfaces that touch; the others act without contact.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Friction",
+            finalAnswer: "**(a)** Friction",
             commonErrors: ["Choosing gravity or magnetism, which are non-contact forces."],
             examinerNote: "B1 for friction.",
           },
@@ -195,7 +195,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Add the forces because they act in the same direction: $5+7=12\\ \\text{N}$ to the left.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $12\\ \\text{N}$ to the left",
+            finalAnswer: "**(a)** $12\\ \\text{N}$ to the left",
             commonErrors: ["Subtracting to get 2 N, which is for opposite forces.", "Forgetting the direction."],
             examinerNote: "B1 for 12 N to the left.",
           },
@@ -222,7 +222,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Subtract: $20-8=12\\ \\text{N}$, acting in the direction of the larger force, to the right.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $12\\ \\text{N}$ to the right",
+            finalAnswer: "**(a)** $12\\ \\text{N}$ to the right",
             commonErrors: ["Adding to get 28 N.", "Giving the direction of the smaller force."],
             examinerNote: "B1 for 12 N to the right.",
           },
@@ -259,7 +259,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "The push of a hand" },
               { id: "d", text: "Magnetism" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -268,7 +268,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Magnetism acts at a distance; friction, air resistance and a push all need contact.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Magnetism",
+            finalAnswer: "**(d)** Magnetism",
             commonErrors: ["Choosing air resistance, which acts on a moving object in contact with air."],
             examinerNote: "B1 for magnetism.",
           },
@@ -496,7 +496,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Weight is the force of gravity on an object. All forces are measured in newtons.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Newton",
+            finalAnswer: "**(a)** Newton",
             commonErrors: ["Choosing kilogram, which is the unit of mass.", "Choosing newton per kilogram, which is the unit of gravitational field strength."],
             examinerNote: "B1 for newton.",
           },
@@ -607,7 +607,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Weight is a force measured in newtons; mass is measured in kilograms.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Weight",
+            finalAnswer: "**(a)** Weight",
             commonErrors: ["Choosing mass, which is measured in kilograms."],
             examinerNote: "B1 for weight.",
           },
@@ -625,7 +625,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "$6\\ \\text{N}$" },
               { id: "d", text: "$600\\ \\text{N}$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -634,7 +634,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Substitute into $W = mg$: $6\\times10=60\\ \\text{N}$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $60\\ \\text{N}$",
+            finalAnswer: "**(b)** $60\\ \\text{N}$",
             commonErrors: ["Answering 6 N by using the mass value.", "Multiplying by 100."],
             examinerNote: "B1 for 60 N.",
           },
@@ -681,7 +681,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Oil lubricates the surfaces, reducing friction; rougher surfaces and harder pressing increase it.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Adding oil between the surfaces",
+            finalAnswer: "**(c)** Adding oil between the surfaces",
             commonErrors: ["Choosing rougher surfaces, which increase friction."],
             examinerNote: "B1 for oil.",
           },
@@ -699,7 +699,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "the air becomes thinner" },
               { id: "d", text: "the object speeds up or has a larger surface area" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -708,7 +708,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Air resistance grows as the object moves faster and presents a larger area to the air.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** the object speeds up or has a larger surface area",
+            finalAnswer: "**(d)** the object speeds up or has a larger surface area",
             commonErrors: ["Thinking slowing down increases air resistance."],
             examinerNote: "B1 for (c).",
           },

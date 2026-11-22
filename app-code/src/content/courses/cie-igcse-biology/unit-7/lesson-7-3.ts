@@ -65,7 +65,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{detects stimulus}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A cell that detects a stimulus",
+            finalAnswer: "**(c)** A cell that detects a stimulus",
             commonErrors: ["Choosing effector — that's the responder, not detector."],
           },
         },
@@ -159,7 +159,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Match receptor to stimulus.", working: "\\text{retina} \\to \\text{light}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Photoreceptors in the retina",
+            finalAnswer: "**(b)** Photoreceptors in the retina",
             commonErrors: ["Choosing iris — the iris controls pupil size, it doesn't detect light."],
           },
         },
@@ -223,7 +223,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Recall the structure.", working: "\\text{retina}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Retina",
+            finalAnswer: "**(c)** Retina",
             commonErrors: ["Choosing iris — that controls pupil size."],
           },
         },
@@ -308,7 +308,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Recall the pathway.", working: "\\text{retina} \\to \\text{brain}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Brain",
+            finalAnswer: "**(b)** Brain",
             commonErrors: ["Choosing iris — the iris is an effector for the pupil reflex, not a destination."],
           },
         },
@@ -453,7 +453,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Match region to function.", working: "\\text{medulla}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Medulla oblongata",
+            finalAnswer: "**(b)** Medulla oblongata",
             commonErrors: ["Choosing cerebrum — that's conscious thought."],
           },
         },
@@ -547,7 +547,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Match region to function.", working: "\\text{cerebrum}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cerebrum",
+            finalAnswer: "**(b)** Cerebrum",
             commonErrors: ["Choosing cerebellum — that's balance and coordination."],
           },
         },
@@ -612,7 +612,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Match region to function.", working: "\\text{cerebellum}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cerebellum",
+            finalAnswer: "**(d)** Cerebellum",
             commonErrors: ["Choosing cerebrum — that's conscious thought, not balance."],
           },
         },
@@ -765,7 +765,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Match action to control.", working: "\\text{breathing}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Breathing",
+            finalAnswer: "**(d)** Breathing",
             commonErrors: ["Choosing writing — that's voluntary (cerebrum)."],
           },
         },

@@ -235,7 +235,7 @@ export const lesson414: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "Price floor", "statement": "Minimum price; above equilibrium creates surplus." } ],
           "steps": [ { "reasoning": "At a price above equilibrium, quantity supplied exceeds quantity demanded, creating a surplus.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(b)** a surplus of the good"
+          "finalAnswer": "**(d)** a surplus of the good"
 },
         },
         {
@@ -254,7 +254,7 @@ export const lesson414: Lesson = {
           markscheme: {
           "principles": [ { "kind": "principle", "name": "Indirect tax", "statement": "Raises cost of production — supply shifts left." } ],
           "steps": [ { "reasoning": "A per-unit tax raises producers' costs at every price, so supply decreases and the curve shifts left/upwards.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** supply curve to shift to the left/upwards"
+          "finalAnswer": "**(c)** supply curve to shift to the left/upwards"
 },
         },
         {
@@ -273,7 +273,7 @@ export const lesson414: Lesson = {
           markscheme: {
           "principles": [ { "kind": "principle", "name": "Subsidy", "statement": "Lowers producers' costs — supply shifts right." } ],
           "steps": [ { "reasoning": "A subsidy reduces the effective cost of production, increasing supply at each price.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** supply curve to shift to the right/downwards"
+          "finalAnswer": "**(d)** supply curve to shift to the right/downwards"
 },
         },
         {
@@ -292,7 +292,7 @@ export const lesson414: Lesson = {
           markscheme: {
           "principles": [ { "kind": "principle", "name": "Tax incidence", "statement": "Burden falls on the less elastic side." } ],
           "steps": [ { "reasoning": "The less elastic side cannot adjust quantity easily, so it absorbs most of the tax through price changes.", "marks": 1, "markCode": "A" } ],
-          "finalAnswer": "**(a)** The side of the market that is less price elastic"
+          "finalAnswer": "**(d)** The side of the market that is less price elastic"
 },
         },
         {
@@ -311,7 +311,7 @@ export const lesson414: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "Deadweight loss", "statement": "Welfare loss from distortion." } ],
           "steps": [ { "reasoning": "Taxes and price controls reduce quantity below the efficient level, destroying welfare that neither producers nor consumers capture.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** the loss of economic welfare caused by a market distortion"
+          "finalAnswer": "**(d)** the loss of economic welfare caused by a market distortion"
 },
         },
         {

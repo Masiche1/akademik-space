@@ -101,7 +101,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Batch production" },
               { id: "d", text: "Job production" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -124,7 +124,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Flow production",
+            finalAnswer: "**(a)** Flow production",
             commonErrors: ["Confusing batch (groups) with flow (continuous)."],
           },
         },
@@ -142,7 +142,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Lean production" },
               { id: "d", text: "Flow production" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -166,7 +166,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Job production",
+            finalAnswer: "**(b)** Job production",
             commonErrors: [
               "Choosing batch because six items are made — batch items are identical.",
             ],
@@ -347,7 +347,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Batch production",
+            finalAnswer: "**(d)** Batch production",
             commonErrors: [
               "Confusing batch (groups of identical items) with job (one-offs).",
             ],
@@ -391,7 +391,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Quality control",
+            finalAnswer: "**(c)** Quality control",
             commonErrors: [
               "Confusing control (inspect output) with assurance (prevent defects).",
             ],
@@ -479,7 +479,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Inflexible and vulnerable to breakdowns",
+            finalAnswer: "**(a)** Inflexible and vulnerable to breakdowns",
             commonErrors: [
               "Confusing flow's low unit cost with its main weakness — inflexibility.",
             ],
@@ -526,7 +526,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Every employee is responsible for quality",
+            finalAnswer: "**(c)** Every employee is responsible for quality",
             commonErrors: ["Confusing TQM with end-of-line quality control."],
           },
         },
@@ -1034,7 +1034,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Just-in-time",
+            finalAnswer: "**(c)** Just-in-time",
             commonErrors: [
               "Confusing JIT with kaizen — kaizen is continuous improvement.",
             ],
@@ -1258,7 +1258,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Kaizen",
+            finalAnswer: "**(d)** Kaizen",
             commonErrors: [
               "Confusing kaizen (continuous improvement) with JIT (materials on demand).",
             ],
@@ -1278,7 +1278,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Flow production" },
               { id: "d", text: "Quality control" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1302,7 +1302,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Cell production",
+            finalAnswer: "**(b)** Cell production",
             commonErrors: [
               "Confusing cell production with assembly-line flow production.",
             ],
@@ -1346,7 +1346,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Lower storage costs and less waste",
+            finalAnswer: "**(d)** Lower storage costs and less waste",
             commonErrors: [
               "Confusing JIT's benefit (low stock) with its risk (no buffer).",
             ],
@@ -1394,7 +1394,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A supplier delay can stop the whole production line",
+              "**(a)** A supplier delay can stop the whole production line",
             commonErrors: [
               "Listing benefits of JIT instead of its key vulnerability.",
             ],
@@ -1441,7 +1441,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Produce more output with fewer resources by eliminating waste",
+              "**(c)** Produce more output with fewer resources by eliminating waste",
             commonErrors: [
               "Associating lean with slowing down — it is about efficiency.",
             ],

@@ -278,7 +278,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Triangle angles = 180°.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 180°",
+            finalAnswer: "**(a)** 180°",
             commonErrors: ["Confusing with quadrilateral 360°."],
           },
         },

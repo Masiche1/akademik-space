@@ -259,7 +259,7 @@ export const lesson41: Lesson = {
               },
             ],
             steps: [{ reasoning: "M = Militarism.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** Militarism",
+            finalAnswer: "**(c)** Militarism",
             commonErrors: ["Confusing with mobilisation."],
           },
         },
@@ -289,7 +289,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Austria-Hungary was in the Triple Alliance.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The Triple Alliance",
+            finalAnswer: "**(b)** The Triple Alliance",
             commonErrors: ["Confusing the two alliance blocs."],
           },
         },
@@ -319,7 +319,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Morocco was disputed between France and Germany.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The Moroccan crises of 1905 and 1911",
+            finalAnswer: "**(d)** The Moroccan crises of 1905 and 1911",
             commonErrors: ["Choosing an event after 1914."],
           },
         },
@@ -379,7 +379,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Sleepwalkers implies unintentional escalation.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The 'sleepwalkers' view",
+            finalAnswer: "**(c)** The 'sleepwalkers' view",
             commonErrors: ["Confusing it with the Fischer thesis."],
           },
         },
@@ -409,7 +409,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Austria-Hungary belonged to the Triple Alliance.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Austria-Hungary",
+            finalAnswer: "**(b)** Austria-Hungary",
             commonErrors: ["Mixing the alliance systems."],
           },
         },
@@ -616,7 +616,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Franz Ferdinand.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Archduke Franz Ferdinand",
+            finalAnswer: "**(d)** Archduke Franz Ferdinand",
             commonErrors: ["Confusing with other royals."],
           },
         },
@@ -798,7 +798,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "The Sarajevo shooting was 28 June 1914.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** 28 June 1914",
+            finalAnswer: "**(d)** 28 June 1914",
             commonErrors: ["Confusing with later war dates."],
           },
         },
@@ -828,7 +828,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Princip carried out the assassination.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Gavrilo Princip",
+            finalAnswer: "**(d)** Gavrilo Princip",
             commonErrors: ["Choosing a political leader rather than assassin."],
           },
         },
@@ -918,7 +918,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Britain honoured its guarantee of Belgian neutrality.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Germany invaded neutral Belgium",
+            finalAnswer: "**(b)** Germany invaded neutral Belgium",
             commonErrors: ["Confusing Belgian neutrality with the Entente."],
           },
         },
@@ -948,7 +948,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Italy claimed its alliance obligations were defensive.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The Triple Alliance was defensive",
+            finalAnswer: "**(d)** The Triple Alliance was defensive",
             commonErrors: ["Thinking Italy was absent from the alliance."],
           },
         },

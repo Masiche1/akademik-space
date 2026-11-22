@@ -116,7 +116,7 @@ export const lesson53: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(b)** Time against a continuous variable uses a line graph.",
+            "finalAnswer": "**(d)** Time against a continuous variable uses a line graph.",
             "commonErrors": [
               "Choosing a chart for categorical data."
             ]

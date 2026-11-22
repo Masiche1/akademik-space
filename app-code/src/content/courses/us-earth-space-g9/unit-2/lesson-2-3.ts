@@ -187,7 +187,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Combustion of fossil fuels" },
               { id: "d", text: "Volcanic eruption" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -196,7 +196,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Photosynthesis removes CO2 from the air and builds it into living tissue.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Photosynthesis",
+            finalAnswer: "**(a)** Photosynthesis",
             commonErrors: ["Choosing (a): respiration returns carbon to the atmosphere.", "Choosing (b) or (d): both add carbon to the atmosphere."],
             examinerNote: "B1 for (c).",
           },

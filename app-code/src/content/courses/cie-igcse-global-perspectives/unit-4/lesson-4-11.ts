@@ -88,7 +88,7 @@ export const lesson411: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Giving up one for another",
+            finalAnswer: "**(d)** Giving up one for another",
             commonErrors: ["Confusing with compromise."],
           },
         },
@@ -287,7 +287,7 @@ export const lesson411: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Weighing multiple issues together",
+            finalAnswer: "**(b)** Weighing multiple issues together",
             commonErrors: ["Confusing with simple analysis."],
           },
         },
@@ -396,7 +396,7 @@ export const lesson411: Lesson = {
             steps: [
               { reasoning: "Opportunity cost = best alternative lost.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Benefit forgone by choosing one option",
+            finalAnswer: "**(d)** Benefit forgone by choosing one option",
             commonErrors: ["Confusing with direct costs."],
           },
         },
@@ -924,7 +924,7 @@ export const lesson411: Lesson = {
             steps: [
               { reasoning: "Identify issues first before analysing.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Identify the issues",
+            finalAnswer: "**(c)** Identify the issues",
             commonErrors: ["Jumping to conclusions without identifying issues."],
           },
         },

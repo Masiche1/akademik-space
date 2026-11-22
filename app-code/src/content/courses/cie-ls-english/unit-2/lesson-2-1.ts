@@ -80,7 +80,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "No 'like' or 'as' — it directly equates rain with sheets.", working: "\\text{no 'like/as'}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Metaphor",
+            finalAnswer: "**(d)** Metaphor",
             commonErrors: ["Choosing simile — there is no 'like' or 'as' in the phrase."],
           },
         },
@@ -509,7 +509,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Drumming is an auditory image.", working: "\\text{sound}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Sound",
+            finalAnswer: "**(a)** Sound",
             commonErrors: ["Choosing sight — 'drumming' is heard, not seen."],
           },
         },
@@ -618,7 +618,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Steam rising from the streets is a visual image.", working: "\\text{visual}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Sight",
+            finalAnswer: "**(c)** Sight",
             commonErrors: ["Choosing smell — steam could carry smell, but the image is primarily visual."],
           },
         },
@@ -768,7 +768,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "The streets steamed" },
               { id: "d", text: "The rain drummed on rooftops" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -777,7 +777,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Drumming is heard; the other options are visual.", working: "\\text{drummed = sound}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** The rain drummed on rooftops",
+            finalAnswer: "**(d)** The rain drummed on rooftops",
             commonErrors: ["Choosing (a) — 'sheets' is a visual image of rain."],
           },
         },

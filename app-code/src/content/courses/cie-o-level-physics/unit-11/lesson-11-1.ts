@@ -57,7 +57,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "SI mass", statement: "Kilogram (kg)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{kg}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Kilogram",
+            finalAnswer: "**(c)** Kilogram",
             commonErrors: ["Gram is not the SI base unit."],
           },
         },
@@ -137,7 +137,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "SI units", statement: "Length base unit = metre (m)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{m}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** metre",
+            finalAnswer: "**(d)** metre",
             commonErrors: ["cm/km/mm are prefixed units, not base."],
           },
         },
@@ -155,7 +155,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Prefixes", statement: "centi = ×0.01 (1 cm = 0.01 m)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{centi} = 10^{-2}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** × 0.01",
+            finalAnswer: "**(c)** × 0.01",
             commonErrors: ["Confusing centi with milli."],
           },
         },
@@ -173,7 +173,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Instruments", statement: "Micrometer: 0.01 mm resolution." }],
             steps: [{ reasoning: "Recall.", working: "0.01\\ \\text{mm}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** micrometer screw gauge",
+            finalAnswer: "**(d)** micrometer screw gauge",
             commonErrors: ["Ruler resolution too coarse for thin wire."],
           },
         },
@@ -379,7 +379,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Systematic error", statement: "Consistent offset." }],
             steps: [{ reasoning: "Recall.", working: "\\text{consistent}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Consistent offset from true value",
+            finalAnswer: "**(a)** Consistent offset from true value",
             commonErrors: ["Confusing with random."],
           },
         },
@@ -459,7 +459,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Random error", statement: "Unpredictable scatter, e.g. reaction time." }],
             steps: [{ reasoning: "Recall.", working: "\\text{reaction time}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** reaction time when starting a stopwatch",
+            finalAnswer: "**(d)** reaction time when starting a stopwatch",
             commonErrors: ["Zero error and miscalibration are systematic."],
           },
         },
@@ -477,7 +477,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Systematic error", statement: "Fixed by calibration/zero check, not averaging." }],
             steps: [{ reasoning: "Recall.", working: "\\text{calibrate}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** recalibrate the instrument or check for zero error",
+            finalAnswer: "**(c)** recalibrate the instrument or check for zero error",
             commonErrors: ["Repeating does not fix a consistent offset."],
           },
         },
@@ -495,7 +495,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Parallax", statement: "Apparent position shift when viewed off-axis." }],
             steps: [{ reasoning: "Recall.", working: "\\text{eye level}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** the scale is read from an angle instead of directly above",
+            finalAnswer: "**(a)** the scale is read from an angle instead of directly above",
             commonErrors: ["Fixed by reading at eye level."],
           },
         },

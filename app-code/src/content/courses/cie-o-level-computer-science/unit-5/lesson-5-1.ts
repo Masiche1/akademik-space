@@ -43,7 +43,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "A service on the internet" },
             { id: "d", text: "A type of cable" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "WWW", statement: "Web service on internet." }], steps: [{ reasoning: "WWW is a service, not the whole internet.", working: "\\text{service}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A service on the internet" },
+          markscheme: { principles: [{ kind: "definition", name: "WWW", statement: "Web service on internet." }], steps: [{ reasoning: "WWW is a service, not the whole internet.", working: "\\text{service}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** A service on the internet" },
         },
         {
           id: "olcs-u5-in-q2", difficulty: "core", totalMarks: 2,
@@ -97,8 +97,8 @@ export const lesson51: Lesson = {
             { id: "b", text: "File transfer (FTP)" },
             { id: "c", text: "Email" },
             { id: "d", text: "Video streaming" },
-          ], correctChoiceIa: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Internet services", statement: "Email, FTP, streaming, web run on the internet." }], steps: [{ reasoning: "Cabling is hardware, not a service.", working: "\\text{hardware}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Ethernet cabling" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "Internet services", statement: "Email, FTP, streaming, web run on the internet." }], steps: [{ reasoning: "Cabling is hardware, not a service.", working: "\\text{hardware}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Ethernet cabling" },
         },
         {
           id: "olcs-u5-in-q6", difficulty: "foundation", totalMarks: 1,
@@ -117,7 +117,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "item" },
             { id: "d", text: "/shop/item" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Domain", statement: "The server address part of a URL." }], steps: [{ reasoning: "Domain is www.example.com.", working: "\\text{www.example.com}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** www.example.com" },
+          markscheme: { principles: [{ kind: "definition", name: "Domain", statement: "The server address part of a URL." }], steps: [{ reasoning: "Domain is www.example.com.", working: "\\text{www.example.com}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** www.example.com" },
         },
         {
           id: "olcs-u5-in-q8", difficulty: "core", totalMarks: 1,
@@ -156,7 +156,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "The connection uses HTTPS encryption" },
             { id: "d", text: "Cookies are disabled" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Padlock", statement: "Shows HTTPS is active." }], steps: [{ reasoning: "Padlock = encrypted HTTPS connection.", working: "\\text{HTTPS}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** HTTPS encryption is active" },
+          markscheme: { principles: [{ kind: "definition", name: "Padlock", statement: "Shows HTTPS is active." }], steps: [{ reasoning: "Padlock = encrypted HTTPS connection.", working: "\\text{HTTPS}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** HTTPS encryption is active" },
         },
         {
           id: "olcs-u5-in-q12", difficulty: "core", totalMarks: 1,
@@ -184,7 +184,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "The file path" },
             { id: "d", text: "The domain name" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Protocol", statement: "Rules for transferring the resource." }], steps: [{ reasoning: "https is the protocol.", working: "\\text{protocol}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** The protocol" },
+          markscheme: { principles: [{ kind: "definition", name: "Protocol", statement: "Rules for transferring the resource." }], steps: [{ reasoning: "https is the protocol.", working: "\\text{protocol}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** The protocol" },
         },
         {
           id: "olcs-u5-in-q15", difficulty: "core", totalMarks: 2,
@@ -250,7 +250,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Request and display web pages" },
             { id: "d", text: "Encrypt all data" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Browser", statement: "Requests and renders pages." }], steps: [{ reasoning: "Browser displays web pages.", working: "\\text{display}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Request and display" },
+          markscheme: { principles: [{ kind: "definition", name: "Browser", statement: "Requests and renders pages." }], steps: [{ reasoning: "Browser displays web pages.", working: "\\text{display}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Request and display" },
         },
         {
           id: "olcs-u5-br-q2", difficulty: "core", totalMarks: 2,
@@ -305,7 +305,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Notepad" },
             { id: "d", text: "TCP/IP" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Browser", statement: "Software that displays web pages." }], steps: [{ reasoning: "Chrome is a browser.", working: "\\text{Chrome}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Google Chrome" },
+          markscheme: { principles: [{ kind: "definition", name: "Browser", statement: "Software that displays web pages." }], steps: [{ reasoning: "Chrome is a browser.", working: "\\text{Chrome}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Google Chrome" },
         },
         {
           id: "olcs-u5-br-q6", difficulty: "foundation", totalMarks: 1,
@@ -343,7 +343,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "To encrypt files" },
             { id: "d", text: "To remember your basket between pages" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Cookies", statement: "Remember state between visits." }], steps: [{ reasoning: "Cookies keep cart contents/login.", working: "\\text{remember}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Remember your basket" },
+          markscheme: { principles: [{ kind: "principle", name: "Cookies", statement: "Remember state between visits." }], steps: [{ reasoning: "Cookies keep cart contents/login.", working: "\\text{remember}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Remember your basket" },
         },
         {
           id: "olcs-u5-br-q10", difficulty: "core", totalMarks: 2,
@@ -393,7 +393,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "They fix software bugs" },
             { id: "d", text: "They encrypt passwords" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Cookie risk", statement: "Long-term tracking." }], steps: [{ reasoning: "Persistent cookies track across visits.", working: "\\text{tracking}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** They can track you across visits" },
+          markscheme: { principles: [{ kind: "principle", name: "Cookie risk", statement: "Long-term tracking." }], steps: [{ reasoning: "Persistent cookies track across visits.", working: "\\text{tracking}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** They can track you across visits" },
         },
         {
           id: "olcs-u5-br-q15", difficulty: "core", totalMarks: 2,

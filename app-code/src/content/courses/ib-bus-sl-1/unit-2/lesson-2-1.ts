@@ -123,7 +123,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Skimming",
+            finalAnswer: "**(d)** Skimming",
             commonErrors: ["Reversing skimming and penetration pricing."],
           },
         },
@@ -323,7 +323,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Price" },
               { id: "d", text: "Product" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -347,7 +347,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(d)** Price",
+            finalAnswer: "**(c)** Price",
             commonErrors: [
               "Thinking product creates revenue — it creates value but price captures it.",
             ],
@@ -390,7 +390,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Introduction, growth, maturity, decline",
+            finalAnswer: "**(c)** Introduction, growth, maturity, decline",
             commonErrors: [
               "Putting maturity before growth — maturity is the peak after growth.",
             ],
@@ -432,7 +432,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $15$",
+            finalAnswer: "**(a)** $15$",
             commonErrors: ["Adding 25 to the cost instead of 25% of the cost."],
           },
         },
@@ -474,7 +474,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Penetration pricing",
+            finalAnswer: "**(c)** Penetration pricing",
             commonErrors: [
               "Confusing it with skimming, which uses a high launch price.",
             ],
@@ -494,7 +494,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Competition-based pricing" },
               { id: "d", text: "Predatory pricing" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -517,7 +517,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Value-based pricing",
+            finalAnswer: "**(b)** Value-based pricing",
             commonErrors: [
               "Confusing value-based with cost-plus, which starts from costs.",
             ],
@@ -972,7 +972,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Adding a percentage markup to the unit cost",
+            finalAnswer: "**(d)** Adding a percentage markup to the unit cost",
             commonErrors: [
               "Confusing cost-plus with competition-based or value-based pricing.",
             ],
@@ -1019,7 +1019,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Focus on cost control and differentiation",
+            finalAnswer: "**(d)** Focus on cost control and differentiation",
             commonErrors: [
               "Applying introduction-stage heavy promotion to maturity.",
             ],
@@ -1070,7 +1070,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Customers strongly value unique features or the brand",
+              "**(a)** Customers strongly value unique features or the brand",
             commonErrors: [
               "Using value-based pricing for commodity products with no perceived difference.",
             ],
@@ -1118,7 +1118,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The pricing contradicts the premium positioning",
+              "**(a)** The pricing contradicts the premium positioning",
             commonErrors: [
               "Blaming promotion when the inconsistency is in price.",
             ],
@@ -1612,7 +1612,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Public relations" },
               { id: "d", text: "Sales promotion" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1635,7 +1635,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Advertising",
+            finalAnswer: "**(a)** Advertising",
             commonErrors: [
               "Confusing public relations (unpaid coverage) with advertising (paid).",
             ],
@@ -1831,7 +1831,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "A wholesaler" },
               { id: "d", text: "The firm's own website" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1855,7 +1855,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** The firm's own website",
+            finalAnswer: "**(d)** The firm's own website",
             commonErrors: [
               "Confusing retailers and wholesalers (indirect) with direct channels.",
             ],
@@ -1943,7 +1943,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Sales promotion",
+            finalAnswer: "**(a)** Sales promotion",
             commonErrors: [
               "Calling every in-store offer advertising — advertising is paid media.",
             ],
@@ -2010,7 +2010,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "The promotion" },
               { id: "d", text: "The price" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2034,7 +2034,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** The place",
+            finalAnswer: "**(b)** The place",
             commonErrors: [
               "Spotting a price or promotion issue when the inconsistency is the channel.",
             ],
@@ -2424,7 +2424,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "A direct mail-order catalogue" },
               { id: "d", text: "A wholesaler" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2447,7 +2447,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** A wholesaler",
+            finalAnswer: "**(d)** A wholesaler",
             commonErrors: [
               "Confusing the firm's own outlets (direct) with intermediaries (indirect).",
             ],
@@ -2491,7 +2491,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Sales promotion",
+            finalAnswer: "**(a)** Sales promotion",
             commonErrors: [
               "Calling every customer offer advertising — advertising is paid media.",
             ],
@@ -2511,7 +2511,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Bottled water" },
               { id: "d", text: "Breakfast cereal" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -2535,7 +2535,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Industrial machinery",
+            finalAnswer: "**(a)** Industrial machinery",
             commonErrors: [
               "Choosing low-value convenience goods where personal selling is uneconomic.",
             ],
@@ -2555,7 +2555,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Personal selling" },
               { id: "d", text: "Advertising" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2579,7 +2579,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Public relations",
+            finalAnswer: "**(b)** Public relations",
             commonErrors: [
               "Confusing unpaid press coverage (PR) with paid advertising.",
             ],
@@ -2599,7 +2599,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "The promotion" },
               { id: "d", text: "The price" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2623,7 +2623,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** The place",
+            finalAnswer: "**(b)** The place",
             commonErrors: [
               "Identifying a promotion or price problem when the issue is availability.",
             ],

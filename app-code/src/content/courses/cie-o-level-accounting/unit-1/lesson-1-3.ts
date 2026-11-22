@@ -45,7 +45,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Only year-end adjustments" },
             { id: "d", text: "Credit transactions chronologically" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Day book", statement: "Chronological credit records." }], steps: [{ reasoning: "Credit transactions in order.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Credit transactions" },
+          markscheme: { principles: [{ kind: "definition", name: "Day book", statement: "Chronological credit records." }], steps: [{ reasoning: "Credit transactions in order.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Credit transactions" },
         },
         {
           id: "olacc-u1-db-q2", difficulty: "core", totalMarks: 2,
@@ -111,7 +111,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Sales day book" },
             { id: "d", text: "Cash book" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Sales day book", statement: "First record of credit sales." }], steps: [{ reasoning: "Credit sales enter the sales day book before posting to the ledger.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Sales day book" },
+          markscheme: { principles: [{ kind: "definition", name: "Sales day book", statement: "First record of credit sales." }], steps: [{ reasoning: "Credit sales enter the sales day book before posting to the ledger.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** Sales day book" },
         },
         {
           id: "olacc-u1-db-q7", difficulty: "core", totalMarks: 2,
@@ -140,7 +140,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Purchases Returns account and creditors" },
             { id: "d", text: "Sales account and debtors" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Returns posting", statement: "PR total to Purchases Returns + creditors." }], steps: [{ reasoning: "Purchases returns credit Purchases Returns and debit suppliers' accounts.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Purchases Returns account and creditors" },
+          markscheme: { principles: [{ kind: "principle", name: "Returns posting", statement: "PR total to Purchases Returns + creditors." }], steps: [{ reasoning: "Purchases returns credit Purchases Returns and debit suppliers' accounts.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** Purchases Returns account and creditors" },
         },
         {
           id: "olacc-u1-db-q10", difficulty: "challenge", totalMarks: 4,
@@ -180,7 +180,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Sales day book" },
             { id: "d", text: "Cash book" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Day books", statement: "Sales, purchases and returns books." }], steps: [{ reasoning: "The cash book records cash and bank transactions, not credit sales/purchases.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Cash book" },
+          markscheme: { principles: [{ kind: "definition", name: "Day books", statement: "Sales, purchases and returns books." }], steps: [{ reasoning: "The cash book records cash and bank transactions, not credit sales/purchases.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Cash book" },
         },
         {
           id: "olacc-u1-db-q14", difficulty: "challenge", totalMarks: 4,
@@ -313,7 +313,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Only year-end adjustments" },
             { id: "d", text: "Cash and bank transactions" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Cash book", statement: "All cash and bank transactions." }], steps: [{ reasoning: "Cash book covers cash and bank receipts/payments.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Cash and bank transactions" },
+          markscheme: { principles: [{ kind: "definition", name: "Cash book", statement: "All cash and bank transactions." }], steps: [{ reasoning: "Cash book covers cash and bank receipts/payments.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Cash and bank transactions" },
         },
         {
           id: "olacc-u1-cb-q6", difficulty: "core", totalMarks: 1,
@@ -323,8 +323,8 @@ export const lesson13: Lesson = {
             { id: "b", text: "Journal" },
             { id: "c", text: "Cash book only" },
             { id: "d", text: "Sales day book" },
-          ], borrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Journal", statement: "Opening entries." }], steps: [{ reasoning: "Opening balances are non-routine and go in the journal.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** Journal" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "definition", name: "Journal", statement: "Opening entries." }], steps: [{ reasoning: "Opening balances are non-routine and go in the journal.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Journal" },
         },
         {
           id: "olacc-u1-cb-q7", difficulty: "core", totalMarks: 2,
@@ -353,7 +353,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Sales returns day book" },
             { id: "d", text: "Journal" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Journal", statement: "Non-routine entries incl. dishonoured cheques." }], steps: [{ reasoning: "Dishonoured cheques are non-routine and recorded in the journal.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Journal" },
+          markscheme: { principles: [{ kind: "definition", name: "Journal", statement: "Non-routine entries incl. dishonoured cheques." }], steps: [{ reasoning: "Dishonoured cheques are non-routine and recorded in the journal.", marks: 1, markCode: "M" }], finalAnswer: "**(d)** Journal" },
         },
         {
           id: "olacc-u1-cb-q10", difficulty: "challenge", totalMarks: 4,
@@ -393,7 +393,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Both sides equally" },
             { id: "d", text: "Credit/right side" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Cash book", statement: "Dr receipts, Cr payments." }], steps: [{ reasoning: "Payments reduce cash so they go on the credit (right) side.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Credit/right side" },
+          markscheme: { principles: [{ kind: "definition", name: "Cash book", statement: "Dr receipts, Cr payments." }], steps: [{ reasoning: "Payments reduce cash so they go on the credit (right) side.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Credit/right side" },
         },
         {
           id: "olacc-u1-cb-q14", difficulty: "challenge", totalMarks: 4,

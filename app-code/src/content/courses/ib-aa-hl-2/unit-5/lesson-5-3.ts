@@ -106,7 +106,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $20\\pi$",
+            finalAnswer: "**(c)** $20\\pi$",
             commonErrors: [
               "Using $\\pi r\\frac{dr}{dt}$ (option b).",
               "Using $A\\times\\frac{dr}{dt}$ (option c).",
@@ -412,7 +412,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $24$ cm$^3$ s$^{-1}$",
+            finalAnswer: "**(c)** $24$ cm$^3$ s$^{-1}$",
             commonErrors: [
               "Using $s^2\\frac{ds}{dt}$ (forgetting the factor 3).",
               "Using $3s^3\\frac{ds}{dt}$.",
@@ -1295,7 +1295,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $(x+2)e^x$",
+            finalAnswer: "**(c)** $(x+2)e^x$",
             commonErrors: [
               "Stopping at the first derivative.",
               "Differentiating $x$ and $e^x$ separately and multiplying.",
@@ -1594,7 +1594,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $x=\\pm1$",
+            finalAnswer: "**(b)** $x=\\pm1$",
             commonErrors: ["Solving $3x^2-3=0$ as $x=\\pm\\sqrt3$."],
           },
         },
@@ -1845,7 +1845,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(b)**",
             commonErrors: [
               "Believing $f''(a)=0$ is sufficient for inflection.",
             ],

@@ -167,7 +167,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — adjective before noun is correct English order.", working: "a big dog", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I have a big dog.",
+            finalAnswer: "**(c)** I have a big dog.",
             commonErrors: ["Putting the adjective after the noun."],
             examinerNote: "D1 for (b).",
           },
@@ -194,7 +194,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'a park' is singular → 'there is'.", working: "there is", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** There is a park near my house.",
+            finalAnswer: "**(a)** There is a park near my house.",
             commonErrors: ["Using 'there are' with a singular noun."],
             examinerNote: "D1 for (b).",
           },
@@ -212,7 +212,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "short" },
               { id: "d", text: "blonde" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -221,7 +221,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'kind' describes character, not looks.", working: "kind", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** kind",
+            finalAnswer: "**(b)** kind",
             commonErrors: ["Choosing 'tall' or 'blonde' — those describe appearance."],
             examinerNote: "B1 for (c).",
           },
@@ -347,7 +347,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'old' starts with a vowel sound → 'an'.", working: "an old house", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** an old house",
+            finalAnswer: "**(a)** an old house",
             commonErrors: ["Using 'a' before a vowel sound."],
             examinerNote: "D1 for (b).",
           },
@@ -405,7 +405,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'three cats' is plural → 'there are'.", working: "there are", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** There are three cats in the garden.",
+            finalAnswer: "**(c)** There are three cats in the garden.",
             commonErrors: ["'There is' with plurals."],
             examinerNote: "D1 for (b).",
           },
@@ -520,7 +520,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — greeting opens, sign-off closes.", working: "greeting → body → sign-off", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Greeting → body → sign-off",
+            finalAnswer: "**(c)** Greeting → body → sign-off",
             commonErrors: ["Starting with the sign-off."],
             examinerNote: "D1 for (b).",
           },
@@ -623,7 +623,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Hi Tom,' is the correct informal greeting.", working: "Hi Tom,", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Hi Tom,",
+            finalAnswer: "**(c)** Hi Tom,",
             commonErrors: ["Using a formal business greeting for a friend."],
             examinerNote: "D1 for (b).",
           },
@@ -650,7 +650,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — sign-off ends the message politely.", working: "end the email", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** To end the email politely before your name",
+            finalAnswer: "**(d)** To end the email politely before your name",
             commonErrors: ["Thinking the sign-off comes first."],
             examinerNote: "D1 for (b).",
           },
@@ -677,7 +677,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'I'm', 'don't' are typical contractions.", working: "contractions", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Contractions like I'm and don't",
+            finalAnswer: "**(c)** Contractions like I'm and don't",
             commonErrors: ["Thinking informal means no punctuation or structure."],
             examinerNote: "D1 for (b).",
           },
@@ -809,7 +809,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — subject = short topic summary.", working: "what the email is about", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To tell what the email is about in a few words",
+            finalAnswer: "**(a)** To tell what the email is about in a few words",
             commonErrors: ["Thinking the subject is the greeting."],
             examinerNote: "B1 for (b).",
           },

@@ -167,7 +167,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The crust is only a few kilometres to tens of kilometres thick.", working: "\\text{crust thin}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Crust",
+            finalAnswer: "**(c)** Crust",
             commonErrors: ["Choosing the inner core — it is small but not the thinnest layer."],
             examinerNote: "B1 for (a).",
           },
@@ -194,7 +194,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Divergent means moving apart.", working: "\\text{move apart}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Move apart",
+            finalAnswer: "**(c)** Move apart",
             commonErrors: ["Choosing collide — that is destructive."],
             examinerNote: "B1 for (a).",
           },
@@ -221,7 +221,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Subduction happens where plates collide — destructive boundaries.", working: "\\text{subduction}\\to\\text{destructive}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Destructive",
+            finalAnswer: "**(c)** Destructive",
             commonErrors: ["Choosing conservative — plates there slide past, not collide."],
             examinerNote: "B1 for (b).",
           },
@@ -285,7 +285,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Mantle convection currents drag the plates above.", working: "\\text{convection currents}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Convection currents in the mantle",
+            finalAnswer: "**(d)** Convection currents in the mantle",
             commonErrors: ["Choosing earthquakes — those are a result of plate movement, not the cause."],
             examinerNote: "B1 for (b).",
           },
@@ -303,7 +303,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Constructive boundaries" },
               { id: "d", text: "Destructive boundaries" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -312,7 +312,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Trenches form where an oceanic plate is subducted.", working: "\\text{subduction}\\to\\text{trench}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Destructive boundaries",
+            finalAnswer: "**(d)** Destructive boundaries",
             commonErrors: ["Choosing constructive — that creates ridges, not trenches."],
             examinerNote: "B1 for (c).",
           },
@@ -422,7 +422,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Stress accumulation cannot be measured precisely and release is sudden — no reliable forecast exists.", working: "\\text{sudden unpredictable release}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Stress builds slowly and unpredictably underground, then is released suddenly",
+            finalAnswer: "**(c)** Stress builds slowly and unpredictably underground, then is released suddenly",
             examinerNote: "B1 for (a).",
           },
         },
@@ -476,7 +476,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Climate is long-term average, not day-to-day weather.", working: "\\text{long-term average}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Long-term average weather of a region",
+            finalAnswer: "**(c)** Long-term average weather of a region",
             commonErrors: ["Confusing weather with climate."],
             examinerNote: "B1 for (b).",
           },
@@ -573,7 +573,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Climate is about long-term averages, not daily weather.", working: "\\text{long-term average}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The long-term average weather pattern of a region",
+            finalAnswer: "**(d)** The long-term average weather pattern of a region",
             commonErrors: ["Confusing climate with weather."],
             examinerNote: "B1 for (b).",
           },
@@ -600,7 +600,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Rising air at low pressure cools and forms clouds and rain.", working: "\\text{low}\\to\\text{wet}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Cloudy, wet weather",
+            finalAnswer: "**(d)** Cloudy, wet weather",
             commonErrors: ["Reversing low and high pressure effects."],
             examinerNote: "B1 for (b).",
           },
@@ -627,7 +627,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "'Yesterday' is a single short-term event — weather.", working: "\\text{short-term event}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Heavy rain fell yesterday",
+            finalAnswer: "**(a)** Heavy rain fell yesterday",
             commonErrors: ["Choosing an average or long-term statement."],
             examinerNote: "B1 for (b).",
           },
@@ -673,7 +673,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Uneven heating makes warm air rise (low pressure); cooler air flows in — that moving air is wind.", working: "\\text{pressure difference}\\Rightarrow\\text{wind}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Uneven heating of the surface creating pressure differences that move air",
+            finalAnswer: "**(b)** Uneven heating of the surface creating pressure differences that move air",
             examinerNote: "B1 for (a).",
           },
         },
@@ -699,7 +699,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "CO₂ and methane are the main greenhouse gases from human activity.", working: "CO_2+CH_4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Carbon dioxide and methane",
+            finalAnswer: "**(c)** Carbon dioxide and methane",
             commonErrors: ["Choosing oxygen or nitrogen — they are not greenhouse gases."],
             examinerNote: "B1 for (b).",
           },
@@ -791,7 +791,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Warm air is forced up over denser cold air; rising air cools, condenses and produces clouds/precipitation.", working: "\\text{warm rises}\\to\\text{clouds}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The warm air rises over the cold air and forms clouds and precipitation",
+            finalAnswer: "**(c)** The warm air rises over the cold air and forms clouds and precipitation",
             examinerNote: "B1 for (a).",
           },
         },
@@ -817,7 +817,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Fossil fuel combustion is the main source of CO₂ emissions.", working: "\\text{fossil fuels}\\to CO_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Burning fossil fuels",
+            finalAnswer: "**(c)** Burning fossil fuels",
             commonErrors: ["Choosing planting trees — that absorbs CO₂."],
             examinerNote: "B1 for (b).",
           },

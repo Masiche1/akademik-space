@@ -265,7 +265,7 @@ export const lesson412: Lesson = {
               { id: "c", text: "Diffraction at the edges only" },
               { id: "d", text: "Interference between reflections from the top and bottom surfaces" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Thin films", statement: "Reflections from two surfaces interfere; colours depend on thickness and wavelength." }],

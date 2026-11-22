@@ -61,7 +61,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Cats like I" },
               { id: "d", text: "Like I cats" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -70,7 +70,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'I' is the subject, 'like' the verb, 'cats' the object.", working: "I like cats.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** I like cats",
+            finalAnswer: "**(b)** I like cats",
             commonErrors: ["Keeping the first-language word order."],
             examinerNote: "D1 for (c).",
           },
@@ -172,7 +172,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'The dog runs fast' is correct SVO order.", working: "The dog runs fast.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** The dog runs fast.",
+            finalAnswer: "**(d)** The dog runs fast.",
             commonErrors: ["Choosing a jumbled first-language order."],
             examinerNote: "D1 for (b).",
           },
@@ -199,7 +199,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'red car' shows adjective before noun.", working: "before the noun", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Before the noun",
+            finalAnswer: "**(a)** Before the noun",
             commonErrors: ["Choosing 'after' — some languages put adjectives after nouns."],
             examinerNote: "D1 for (b).",
           },
@@ -268,7 +268,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'she' requires 'is'.", working: "She is tall.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** She is tall.",
+            finalAnswer: "**(a)** She is tall.",
             commonErrors: ["Choosing 'are' or 'am' — wrong agreement."],
             examinerNote: "D1 for (b).",
           },
@@ -400,7 +400,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'happy' is the only describing word.", working: "1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 1",
+            finalAnswer: "**(a)** 1",
             commonErrors: ["Counting 'plays' or 'football' as describing words."],
             examinerNote: "B1 for (b).",
           },
@@ -516,7 +516,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Back at 5. — Jo' is short, clear and signed.", working: "Back at 5. — Jo", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Back at 5. — Jo",
+            finalAnswer: "**(c)** Back at 5. — Jo",
             commonErrors: ["Choosing the long formal option — wrong register for a note to a friend."],
             examinerNote: "D1 for (b).",
           },
@@ -612,7 +612,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — a note is short and gives one piece of information.", working: "short message", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** A very short message with one piece of information",
+            finalAnswer: "**(c)** A very short message with one piece of information",
             commonErrors: ["Thinking a note is a long formal text."],
             examinerNote: "D1 for (b).",
           },
@@ -708,7 +708,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'Hi/Dear + name' is the natural message opening.", working: "Hi / Dear + name", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Hi or Dear + the friend's name",
+            finalAnswer: "**(d)** Hi or Dear + the friend's name",
             commonErrors: ["Choosing formal business openings."],
             examinerNote: "C1 for (b).",
           },
@@ -726,7 +726,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Dear Anna," },
               { id: "d", text: "I am writing to respectfully inform you that..." },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -735,7 +735,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'I am writing to respectfully inform you' is formal business English, not friend language.", working: "too formal", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** I am writing to respectfully inform you that...",
+            finalAnswer: "**(d)** I am writing to respectfully inform you that...",
             commonErrors: ["Thinking all greetings are equal — register matters."],
             examinerNote: "D1 for (c).",
           },
@@ -813,7 +813,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — (b) has greeting, reason, alternative and sign-off in correct English.", working: "Hi Tom... See you Monday. — Anna", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Hi Tom, I can't come on Saturday because I am ill. Sorry! See you Monday. — Anna",
+            finalAnswer: "**(d)** Hi Tom, I can't come on Saturday because I am ill. Sorry! See you Monday. — Anna",
             commonErrors: ["Choosing (a) — no punctuation or capitals makes it hard to read."],
             examinerNote: "B1 for (b).",
           },
@@ -840,7 +840,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — Note A is short, clear and friendly; Note B is formal.", working: "Note A", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** Note A",
+            finalAnswer: "**(d)** Note A",
             commonErrors: ["Thinking longer = better; register matters more."],
             examinerNote: "D1 for (a).",
           },

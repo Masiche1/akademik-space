@@ -43,7 +43,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Large purchases" },
             { id: "d", text: "Bank transfers" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Petty cash", statement: "Minor expenses." }], steps: [{ reasoning: "Small expenses.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Small expenses" },
+          markscheme: { principles: [{ kind: "definition", name: "Petty cash", statement: "Minor expenses." }], steps: [{ reasoning: "Small expenses.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Small expenses" },
         },
         {
           id: "olacc-u4-pc-q2", difficulty: "core", totalMarks: 2,
@@ -99,7 +99,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Kept at a fixed amount and topped up to it" },
             { id: "d", text: "Held in the bank account" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Imprest", statement: "Fixed float topped up." }], steps: [{ reasoning: "Fixed amount maintained.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Fixed float topped up" },
+          markscheme: { principles: [{ kind: "definition", name: "Imprest", statement: "Fixed float topped up." }], steps: [{ reasoning: "Fixed amount maintained.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Fixed float topped up" },
         },
         {
           id: "olacc-u4-pc-q6", difficulty: "core", totalMarks: 2,
@@ -119,7 +119,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Both" },
             { id: "d", text: "Neither" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "principle", name: "Petty cash book", statement: "Payments = credit." }], steps: [{ reasoning: "Payments reduce cash = credit side.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Credit" },
+          markscheme: { principles: [{ kind: "principle", name: "Petty cash book", statement: "Payments = credit." }], steps: [{ reasoning: "Payments reduce cash = credit side.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Credit" },
         },
         {
           id: "olacc-u4-pc-q8", difficulty: "core", totalMarks: 2,
@@ -139,7 +139,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Staff refreshments" },
             { id: "d", text: "Small office repairs" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Petty cash", statement: "Minor expenses only." }], steps: [{ reasoning: "Large invoices are paid by cheque/bank, not petty cash.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Large supplier invoice" },
+          markscheme: { principles: [{ kind: "definition", name: "Petty cash", statement: "Minor expenses only." }], steps: [{ reasoning: "Large invoices are paid by cheque/bank, not petty cash.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Large supplier invoice" },
         },
         {
           id: "olacc-u4-pc-q10", difficulty: "challenge", totalMarks: 2,
@@ -159,7 +159,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Spending is easy to monitor against a fixed amount" },
             { id: "d", text: "No receipts need to be recorded" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Imprest control", statement: "Fixed float aids control." }], steps: [{ reasoning: "Fixed amount makes discrepancies easy to spot.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Easy to monitor" },
+          markscheme: { principles: [{ kind: "principle", name: "Imprest control", statement: "Fixed float aids control." }], steps: [{ reasoning: "Fixed amount makes discrepancies easy to spot.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Easy to monitor" },
         },
         {
           id: "olacc-u4-pc-q12", difficulty: "foundation", totalMarks: 1,
@@ -176,7 +176,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Calculate bank interest" },
             { id: "d", text: "List debtors' balances" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Analysis column", statement: "Classifies expenses." }], steps: [{ reasoning: "Shows the type of each expense.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Classifies expenses" },
+          markscheme: { principles: [{ kind: "definition", name: "Analysis column", statement: "Classifies expenses." }], steps: [{ reasoning: "Shows the type of each expense.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Classifies expenses" },
         },
         {
           id: "olacc-u4-pc-q14", difficulty: "core", totalMarks: 1,
@@ -193,7 +193,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "A sales invoice" },
             { id: "d", text: "A debit note" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Top-up", statement: "Bank funds the float." }], steps: [{ reasoning: "Money leaves the bank to restore the float.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A payment in the cash book" },
+          markscheme: { principles: [{ kind: "principle", name: "Top-up", statement: "Bank funds the float." }], steps: [{ reasoning: "Money leaves the bank to restore the float.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** A payment in the cash book" },
         },
         {
           id: "olacc-u4-pc-q16", difficulty: "challenge", totalMarks: 9,
@@ -246,7 +246,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Only the cash account" },
             { id: "d", text: "Only the bank account" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Posting", statement: "To expense accounts." }], steps: [{ reasoning: "Post to expense accounts.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Expense accounts" },
+          markscheme: { principles: [{ kind: "principle", name: "Posting", statement: "To expense accounts." }], steps: [{ reasoning: "Post to expense accounts.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Expense accounts" },
         },
         {
           id: "olacc-u4-pp-q2", difficulty: "core", totalMarks: 2,
@@ -364,7 +364,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Analysis columns already classify each expense type" },
             { id: "d", text: "The bank requires it" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Posting efficiency", statement: "Totals suffice." }], steps: [{ reasoning: "Analysis columns provide the classification needed.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Analysis already classifies" },
+          markscheme: { principles: [{ kind: "principle", name: "Posting efficiency", statement: "Totals suffice." }], steps: [{ reasoning: "Analysis columns provide the classification needed.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Analysis already classifies" },
         },
         {
           id: "olacc-u4-pp-q12", difficulty: "foundation", totalMarks: 1,
@@ -381,7 +381,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "The three-column cash book" },
             { id: "d", text: "The purchases journal" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Cash book", statement: "Bank payments recorded there." }], steps: [{ reasoning: "Top-up is a bank payment in the cash book.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Three-column cash book" },
+          markscheme: { principles: [{ kind: "principle", name: "Cash book", statement: "Bank payments recorded there." }], steps: [{ reasoning: "Top-up is a bank payment in the cash book.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Three-column cash book" },
         },
         {
           id: "olacc-u4-pp-q14", difficulty: "core", totalMarks: 1,
@@ -398,7 +398,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "That expense account is understated" },
             { id: "d", text: "No effect at all" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Analysis errors", statement: "Omission understates expense." }], steps: [{ reasoning: "Missing entry means missing posting to that account.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Expense account understated" },
+          markscheme: { principles: [{ kind: "principle", name: "Analysis errors", statement: "Omission understates expense." }], steps: [{ reasoning: "Missing entry means missing posting to that account.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Expense account understated" },
         },
         {
           id: "olacc-u4-pp-q16", difficulty: "challenge", totalMarks: 9,

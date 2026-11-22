@@ -68,7 +68,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Add all five scores and divide by five; the mean uses each observation once.", working: "\\frac{3+5+5+7+10}{5}=\\frac{30}{5}=6", marks: 2, markCode: "M" },
             ],
-            finalAnswer: "**(b)** The mean is $6$.",
+            finalAnswer: "**(c)** The mean is $6$.",
             commonErrors: ["Choosing 5, the median, instead of the mean.", "Reporting the sum 30 without dividing by 5."],
           },
         },

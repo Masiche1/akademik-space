@@ -60,7 +60,7 @@ export const lesson53: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Impulse", statement: "$J=\\Delta p$." }],
             steps: [{ reasoning: "Impulse-momentum theorem.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** change in momentum",
+            finalAnswer: "**(d)** change in momentum",
           },
         },
         {
@@ -179,7 +179,7 @@ export const lesson53: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Restitution", statement: "$e=1$ elastic." }],
             steps: [{ reasoning: "Standard.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $1$",
+            finalAnswer: "**(d)** $1$",
           },
         },
         {

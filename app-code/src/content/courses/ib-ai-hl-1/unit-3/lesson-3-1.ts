@@ -391,7 +391,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $9$",
+            finalAnswer: "**(b)** $9$",
             commonErrors: ["Forgetting the square root and answering 81."],
           },
         },
@@ -448,7 +448,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** $\\begin{pmatrix} 3 \\ 6 \\ -6 \\end{pmatrix}$",
+              "**(c)** $\\begin{pmatrix} 3 \\ 6 \\ -6 \\end{pmatrix}$",
             commonErrors: [
               "Computing $\\boldsymbol a-\\boldsymbol b$, which reverses the direction.",
             ],
@@ -494,7 +494,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $(5,3,-7)$",
+            finalAnswer: "**(b)** $(5,3,-7)$",
             commonErrors: ["Checking only one component before deciding."],
           },
         },
@@ -524,7 +524,7 @@ export const lesson31: Lesson = {
                 text: "$\\begin{pmatrix} 1 \\ -0.5 \\ 2 \\end{pmatrix}$",
               },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -552,7 +552,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(d)**",
+            finalAnswer: "**(a)**",
             commonErrors: ["Checking only the first and third components."],
           },
         },
@@ -1182,7 +1182,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "$2$ km per hour" },
               { id: "d", text: "$10$ km per hour" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1200,7 +1200,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $10$ km per hour",
+            finalAnswer: "**(d)** $10$ km per hour",
             commonErrors: ["Adding the components to get 14."],
           },
         },
@@ -2032,7 +2032,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $t=\\frac{1}{3}$",
+            finalAnswer: "**(d)** $t=\\frac{1}{3}$",
             commonErrors: ["Setting $x=0$ instead of $y=0$."],
           },
         },
@@ -2090,7 +2090,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** $\\begin{pmatrix} 3-3t \\\\ -1+2t \\\\ -3+t \\end{pmatrix}$",
+              "**(b)** $\\begin{pmatrix} 3-3t \\\\ -1+2t \\\\ -3+t \\end{pmatrix}$",
             commonErrors: [
               "Reversing the subtraction to get $\\boldsymbol r_A-\\boldsymbol r_B$.",
             ],
@@ -2140,7 +2140,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(a)**",
             commonErrors: ["Confusing intersecting paths with a collision."],
           },
         },
@@ -2183,7 +2183,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $2$",
+            finalAnswer: "**(c)** $2$",
             commonErrors: ["Reporting $d^2=4$ as the distance."],
           },
         },

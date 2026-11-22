@@ -173,12 +173,12 @@ export const lesson21: Lesson = {
               { id: "c", text: "X-ray" },
               { id: "d", text: "Visible" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "EM spectrum", statement: "Radio longest, gamma shortest." }],
             steps: [{ reasoning: "Radio waves metres to km.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Radio",
+            finalAnswer: "**(b)** Radio",
           },
         },
         {

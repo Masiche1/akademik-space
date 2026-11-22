@@ -88,7 +88,7 @@ export const lesson41: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Measuring excess",
+            finalAnswer: "**(c)** Measuring excess",
             commonErrors: ["Direct titration confused."],
           },
         },

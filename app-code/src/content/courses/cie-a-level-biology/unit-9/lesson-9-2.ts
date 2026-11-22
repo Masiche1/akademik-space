@@ -209,7 +209,7 @@ export const lesson92: Lesson = {
               { kind: "definition", name: "Dolly", statement: "SCNT clone." },
             ],
             steps: [{ reasoning: "Dolly = SCNT.", marks: 1, markCode: "M" }],
-            finalAnswer: "**(a)** Reproductive cloning via SCNT",
+            finalAnswer: "**(d)** Reproductive cloning via SCNT",
             commonErrors: ["Confusing with other techniques."],
           },
         },
@@ -529,7 +529,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "ESCs are pluripotent.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Embryonic stem cells",
+            finalAnswer: "**(b)** Embryonic stem cells",
             commonErrors: ["Choosing adult stem cells."],
           },
         },

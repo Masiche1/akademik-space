@@ -67,7 +67,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): tone = writer's attitude — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The writer's attitude toward the subject",
+            finalAnswer: "**(a)** The writer's attitude toward the subject",
           },
         },
         {
@@ -192,7 +192,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'skinny' has negative connotations (too thin, unattractive); 'slim' and 'slender' are positive — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** skinny",
+            finalAnswer: "**(a)** skinny",
           },
         },
         {
@@ -222,7 +222,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'calmly' is neutral/positive; 'snapped back' is aggressive — (a).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Version A is calm; Version B is aggressive",
+            finalAnswer: "**(d)** Version A is calm; Version B is aggressive",
           },
         },
         {
@@ -356,7 +356,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): clipped sentences speed the pace and create tension — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Tension and urgency",
+            finalAnswer: "**(a)** Tension and urgency",
           },
         },
         {
@@ -413,7 +413,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): diction, imagery and pacing determine the emotional response — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Because diction, imagery and pacing shape the reader's emotional response",
+            finalAnswer: "**(c)** Because diction, imagery and pacing shape the reader's emotional response",
           },
         },
         {
@@ -438,7 +438,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'home' connotes warmth and belonging — the writer wants emotional tone — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Because 'home' connotes warmth and belonging",
+            finalAnswer: "**(d)** Because 'home' connotes warmth and belonging",
           },
         },
         {
@@ -523,7 +523,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): serious tone suits important/sensitive subjects — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The subject is important or sensitive",
+            finalAnswer: "**(d)** The subject is important or sensitive",
           },
         },
         {
@@ -623,7 +623,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): tone matches subject and purpose — (a).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** To match the subject and achieve their purpose",
+            finalAnswer: "**(d)** To match the subject and achieve their purpose",
           },
         },
         {
@@ -648,7 +648,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): playful tone suits young readers and entertainment purpose — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The audience is young and the purpose is entertainment",
+            finalAnswer: "**(d)** The audience is young and the purpose is entertainment",
           },
         },
         {
@@ -678,7 +678,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'Please be advised', 'unforeseen circumstances', 'We apologise' — formal and apologetic — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Formal and apologetic — to inform politely about bad news",
+            finalAnswer: "**(c)** Formal and apologetic — to inform politely about bad news",
           },
         },
         {
@@ -708,7 +708,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): Version A's formal, respectful tone is more likely to be granted by authority; B's informality may seem unprofessional — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Version A — its formal, respectful tone suits a request to authority",
+            finalAnswer: "**(a)** Version A — its formal, respectful tone suits a request to authority",
           },
         },
         {
@@ -812,7 +812,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): sarcasm inverts meaning — 'praise' likely means dislike — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** They actually dislike it — sarcasm says the opposite of what they mean",
+            finalAnswer: "**(c)** They actually dislike it — sarcasm says the opposite of what they mean",
           },
         },
         {
@@ -869,7 +869,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): calm, measured tone seems more credible — (a).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** A calm, measured tone seems more credible than an angry or gushing one",
+            finalAnswer: "**(d)** A calm, measured tone seems more credible than an angry or gushing one",
           },
         },
         {
@@ -894,7 +894,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): the sad tone arouses sympathy — it makes readers feel the beneficiaries' suffering and want to help — (a).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** To make readers feel sympathy and want to donate",
+            finalAnswer: "**(c)** To make readers feel sympathy and want to donate",
           },
         },
         {

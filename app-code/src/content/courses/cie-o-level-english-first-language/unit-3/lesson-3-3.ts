@@ -65,7 +65,7 @@ export const lesson133: Lesson = {
             steps: [
               { reasoning: "Directions = performance intent.", working: "intent", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** They reveal performance intent",
+            finalAnswer: "**(d)** They reveal performance intent",
             commonErrors: ["Choosing (b) — they're essential."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson133: Lesson = {
             steps: [
               { reasoning: "Position affects meaning.", working: "meaning", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Its meaning and interpretation",
+            finalAnswer: "**(c)** Its meaning and interpretation",
             commonErrors: ["Analysing extract in isolation."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson133: Lesson = {
             steps: [
               { reasoning: "Climax = peak.", working: "peak", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The moment of peak tension",
+            finalAnswer: "**(c)** The moment of peak tension",
             commonErrors: ["Confusing with denouement."],
           },
         },
@@ -278,7 +278,7 @@ export const lesson133: Lesson = {
             steps: [
               { reasoning: "Denouement = resolution.", working: "resolution", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The resolution after the climax",
+            finalAnswer: "**(d)** The resolution after the climax",
             commonErrors: ["Confusing with climax."],
           },
         },
@@ -322,7 +322,7 @@ export const lesson133: Lesson = {
             steps: [
               { reasoning: "Directions = intent.", working: "intent", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Performance intent and mood",
+            finalAnswer: "**(c)** Performance intent and mood",
             commonErrors: ["Skipping stage directions."],
           },
         },
@@ -368,7 +368,7 @@ export const lesson133: Lesson = {
             steps: [
               { reasoning: "Text + performance.", working: "both", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Both text and performance",
+            finalAnswer: "**(c)** Both text and performance",
             commonErrors: ["Text-only analysis."],
           },
         },
@@ -632,7 +632,7 @@ export const lesson133: Lesson = {
             steps: [
               { reasoning: "Punished villain = justice.", working: "justice", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Justice or moral order",
+            finalAnswer: "**(c)** Justice or moral order",
             commonErrors: ["Resolution as afterthought."],
           },
         },
@@ -696,7 +696,7 @@ export const lesson133: Lesson = {
             steps: [
               { reasoning: "Power = hierarchy.", working: "hierarchy", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Social hierarchy or control",
+            finalAnswer: "**(c)** Social hierarchy or control",
             commonErrors: ["Conflict as plot only."],
           },
         },
@@ -740,7 +740,7 @@ export const lesson133: Lesson = {
             steps: [
               { reasoning: "Three sources.", working: "sources", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Conflict, choices and resolution",
+            finalAnswer: "**(c)** Conflict, choices and resolution",
             commonErrors: ["Theme as stated message."],
           },
         },
@@ -901,7 +901,7 @@ export const lesson133: Lesson = {
             steps: [
               { reasoning: "Dialogue+directions=evidence.", working: "evidence", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Dialogue and stage directions",
+            finalAnswer: "**(c)** Dialogue and stage directions",
             commonErrors: ["Choosing (b) — that's summary."],
           },
         },
@@ -1006,7 +1006,7 @@ export const lesson133: Lesson = {
             steps: [
               { reasoning: "Thesis = argument.", working: "argument", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Present the main argument",
+            finalAnswer: "**(b)** Present the main argument",
             commonErrors: ["Thesis as plot summary."],
           },
         },
@@ -1050,7 +1050,7 @@ export const lesson133: Lesson = {
             steps: [
               { reasoning: "Dialogue+directions.", working: "evidence", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Dialogue and stage directions",
+            finalAnswer: "**(c)** Dialogue and stage directions",
             commonErrors: ["Choosing (b) — that's summary."],
           },
         },
@@ -1114,7 +1114,7 @@ export const lesson133: Lesson = {
             steps: [
               { reasoning: "Act/scene = correct.", working: "correct", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Correct act/scene referencing",
+            finalAnswer: "**(c)** Correct act/scene referencing",
             commonErrors: ["Using page numbers for plays."],
           },
         },
@@ -1204,7 +1204,7 @@ export const lesson133: Lesson = {
             steps: [
               { reasoning: "Analysis not summary.", working: "analysis", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Analysis, not plot summary",
+            finalAnswer: "**(c)** Analysis, not plot summary",
             commonErrors: ["Retelling the play."],
           },
         },

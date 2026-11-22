@@ -41,7 +41,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Ignore the limit" },
             { id: "d", text: "Add an introduction" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Word limit", statement: "Cut details before key points." }], steps: [{ reasoning: "Key points have priority; details are expendable.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Remove details, keep key points" },
+          markscheme: { principles: [{ kind: "skill", name: "Word limit", statement: "Cut details before key points." }], steps: [{ reasoning: "Key points have priority; details are expendable.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Remove details, keep key points" },
         },
         {
           id: "oles-u2-wl-q2", difficulty: "core", totalMarks: 2,
@@ -105,7 +105,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Delete a whole key point" },
             { id: "d", text: "Add an introduction" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Word limit", statement: "Cut details before key points." }], steps: [{ reasoning: "Details are expendable; key points are not.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Cut details, keep key points" },
+          markscheme: { principles: [{ kind: "skill", name: "Word limit", statement: "Cut details before key points." }], steps: [{ reasoning: "Details are expendable; key points are not.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Cut details, keep key points" },
         },
         {
           id: "oles-u2-wl-q6", difficulty: "core", totalMarks: 2,
@@ -134,7 +134,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "They add opinions" },
             { id: "d", text: "They join ideas with fewer linking words" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Concise writing", statement: "Fewer words, same content." }], steps: [{ reasoning: "Joining ideas removes extra linking words.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Fewer linking words" },
+          markscheme: { principles: [{ kind: "skill", name: "Concise writing", statement: "Fewer words, same content." }], steps: [{ reasoning: "Joining ideas removes extra linking words.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Fewer linking words" },
         },
         {
           id: "oles-u2-wl-q9", difficulty: "challenge", totalMarks: 3,
@@ -170,7 +170,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "A linking word" },
             { id: "d", text: "A key point" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Priority", statement: "Key points have priority." }], steps: [{ reasoning: "Key points carry the marks; everything else is expendable.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** A key point" },
+          markscheme: { principles: [{ kind: "skill", name: "Priority", statement: "Key points have priority." }], steps: [{ reasoning: "Key points carry the marks; everything else is expendable.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** A key point" },
         },
         {
           id: "oles-u2-wl-q12", difficulty: "core", totalMarks: 1,
@@ -336,7 +336,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Spelling only" },
             { id: "d", text: "Accuracy, coverage and word count" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Checking", statement: "Accuracy, coverage, word count." }], steps: [{ reasoning: "All three checks protect the marks.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Accuracy, coverage and word count" },
+          markscheme: { principles: [{ kind: "skill", name: "Checking", statement: "Accuracy, coverage, word count." }], steps: [{ reasoning: "All three checks protect the marks.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Accuracy, coverage and word count" },
         },
         {
           id: "oles-u2-dr-q6", difficulty: "core", totalMarks: 1,
@@ -362,7 +362,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Unnecessary padding" },
             { id: "d", text: "A key point" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Concise", statement: "No wasted words." }], steps: [{ reasoning: "Attribution phrases waste the word budget.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Unnecessary padding" },
+          markscheme: { principles: [{ kind: "skill", name: "Concise", statement: "No wasted words." }], steps: [{ reasoning: "Attribution phrases waste the word budget.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Unnecessary padding" },
         },
         {
           id: "oles-u2-dr-q9", difficulty: "challenge", totalMarks: 3,
@@ -472,7 +472,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "A plan of questions" },
             { id: "d", text: "A first version you improve before submitting" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Draft", statement: "First version to improve." }], steps: [{ reasoning: "Drafts are checked and fixed before the final answer.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** A first version to improve" },
+          markscheme: { principles: [{ kind: "definition", name: "Draft", statement: "First version to improve." }], steps: [{ reasoning: "Drafts are checked and fixed before the final answer.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** A first version to improve" },
         },
       ],
     },

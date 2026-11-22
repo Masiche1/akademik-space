@@ -60,7 +60,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "2 cells, mitosis" },
               { id: "d", text: "4 cells, mitosis" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -69,7 +69,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Gametes are made by meiosis, which gives four haploid cells from one diploid cell.", working: "\\text{4 cells, meiosis}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)**",
+            finalAnswer: "**(b)**",
             commonErrors: ["Choosing mitosis because it is the more familiar division.", "Remembering 'meiosis' but forgetting that it gives four cells rather than two."],
             examinerNote: "B1 for (d).",
           },
@@ -196,7 +196,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Homozygous dominant" },
               { id: "d", text: "Homozygous recessive" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -205,7 +205,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Ff has two different alleles, so the person is heterozygous (a carrier).", working: "\\text{Ff = heterozygous}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Heterozygous",
+            finalAnswer: "**(b)** Heterozygous",
             commonErrors: ["Choosing homozygous because the alleles are the same letter.", "Confusing genotype words with haploid/diploid."],
             examinerNote: "B1 for (c).",
           },

@@ -84,7 +84,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Establish the subject", statement: "Summarise what the poem is about in one sentence before analysing methods." }],
             steps: [{ reasoning: "The poem moves from Lucy's obscurity to her death and the speaker's private loss.", evidence: "she is in her grave", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** The poem is an elegy for Lucy, who lived unnoticed but whose death matters deeply to the speaker.",
+            finalAnswer: "**(b)** The poem is an elegy for Lucy, who lived unnoticed but whose death matters deeply to the speaker.",
             commonErrors: ["Choosing (c) because of the place name and mistaking setting for subject.", "Choosing (b) because she is described as 'fair as a star', ignoring that she 'lived unknown'."],
           },
         },
@@ -219,7 +219,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Connotation", statement: "Words suggest ideas beyond their literal meaning." }],
             steps: [{ reasoning: "“Invisible” implies a secret, unstoppable danger that is already at work.", evidence: "The invisible worm", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(b)** The word connotes a hidden threat that the rose cannot defend against.",
+            finalAnswer: "**(a)** The word connotes a hidden threat that the rose cannot defend against.",
             commonErrors: ["Taking the word literally as 'very small' (a).", "Confusing the darkness of the night with the meaning of the adjective (c)."],
           },
         },

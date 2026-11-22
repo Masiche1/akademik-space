@@ -203,7 +203,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Simile", statement: "An oyster is shut tight; Scrooge keeps himself closed to others." }],
             steps: [{ reasoning: "An oyster hides inside a closed shell, so Scrooge is secretive and shut away.", evidence: "secret, and self-contained, and solitary as an oyster", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** He is closed off and keeps people out.",
+            finalAnswer: "**(c)** He is closed off and keeps people out.",
             commonErrors: ["Choosing gentleness because an oyster is soft inside, missing the shell."],
           },
         },

@@ -111,7 +111,7 @@ export const lesson112: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. 'Cess' is the root.",
+            finalAnswer: "**(c)**. 'Cess' is the root.",
             commonErrors: ["Choosing 'sary' — that's a suffix, not the root."],
           },
         },
@@ -345,7 +345,7 @@ export const lesson112: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Both discuss school lunch and its effects — that's the similarity.",
+              "**(a)**. Both discuss school lunch and its effects — that's the similarity.",
             commonErrors: ["Choosing (a) — only Text A argues for regulation."],
           },
         },

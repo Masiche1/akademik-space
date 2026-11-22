@@ -417,7 +417,7 @@ export const lesson712: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(b)** Displacement"
+          "finalAnswer": "**(a)** Displacement"
 },
         },
         {
@@ -477,7 +477,7 @@ export const lesson712: Lesson = {
                               "text": "Semantic encoding"
                     }
           ],
-          "dorrectChoiceId": "c"
+          "correctChoiceId": "d"
 },
           markscheme: {
           "principles": [
@@ -494,7 +494,7 @@ export const lesson712: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(c)** Semantic encoding"
+          "finalAnswer": "**(d)** Semantic encoding"
 },
         },
         {
@@ -572,7 +572,7 @@ export const lesson712: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Grouping items into meaningful units"
+          "finalAnswer": "**(c)** Grouping items into meaningful units"
 },
         },
         {

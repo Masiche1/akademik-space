@@ -51,7 +51,7 @@ export const lesson25: Lesson = {
             { id: "b", text: "22 cm" },
             { id: "c", text: "24 cm" },
             { id: "d", text: "48 cm" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Perimeter", statement: "Distance around = 2(l+w)." }],
             steps: [{ reasoning: "2(8+3) = 22 cm.", marks: 1, markCode: "A" }],
@@ -116,7 +116,7 @@ export const lesson25: Lesson = {
             { id: "b", text: "50 cm²" },
             { id: "c", text: "30 cm²" },
             { id: "d", text: "150 cm²" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Area", statement: "length × width." }],
             steps: [{ reasoning: "$10 \\times 5 = 50\\ \\text{cm}^2$.", marks: 1, markCode: "A" }],

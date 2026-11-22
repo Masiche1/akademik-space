@@ -69,7 +69,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'I am ten years old' is the correct, natural answer.", working: "I am ten years old.", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** I am ten years old.",
+            finalAnswer: "**(a)** I am ten years old.",
             commonErrors: ["Translating 'I have ten years' directly."],
             examinerNote: "C1 for (b).",
           },
@@ -166,7 +166,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'I live in Madrid' is the correct answer pattern.", working: "I live in Madrid.", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(a)** I live in Madrid.",
+            finalAnswer: "**(b)** I live in Madrid.",
             commonErrors: ["Translating 'I am from' into 'I live' questions."],
             examinerNote: "C1 for (a).",
           },
@@ -268,7 +268,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'I have got two sisters' has correct verb form and plural.", working: "I have got two sisters.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I have got two sisters.",
+            finalAnswer: "**(c)** I have got two sisters.",
             commonErrors: ["'sister' should be 'sisters' for two; 'has' is for he/she/it."],
             examinerNote: "D1 for (b).",
           },
@@ -295,7 +295,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'because' signals a reason.", working: "gives a reason", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** It gives a reason",
+            finalAnswer: "**(c)** It gives a reason",
             commonErrors: ["Confusing 'because' with 'and'."],
             examinerNote: "C1 for (b).",
           },
@@ -373,7 +373,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'I like football and swimming' is grammatically correct.", working: "I like football and swimming.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I like football and swimming.",
+            finalAnswer: "**(a)** I like football and swimming.",
             commonErrors: ["Choosing a sentence where 'because' has no reason."],
             examinerNote: "D1 for (b).",
           },
@@ -406,7 +406,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'I have got one sister.'", working: "one sister", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** One sister",
+            finalAnswer: "**(a)** One sister",
             commonErrors: ["Choosing 'no siblings' — B says 'Yes'."],
             examinerNote: "B1 for (b).",
           },
@@ -624,7 +624,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — a paragraph = sentences + one topic.", working: "group of sentences about one topic", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** A group of sentences about one topic",
+            finalAnswer: "**(c)** A group of sentences about one topic",
             commonErrors: ["Thinking a paragraph is just one sentence."],
             examinerNote: "D1 for (b).",
           },
@@ -651,7 +651,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — the topic sentence introduces the paragraph.", working: "topic sentence", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** The topic sentence",
+            finalAnswer: "**(d)** The topic sentence",
             commonErrors: ["Choosing a detail — details come after the topic sentence."],
             examinerNote: "D1 for (a).",
           },
@@ -744,7 +744,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Rex is very friendly." },
               { id: "d", text: "My dog is called Rex." },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -753,7 +753,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'My school...' is about school, not the pet.", working: "My school is near my house.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** My school is near my house.",
+            finalAnswer: "**(a)** My school is near my house.",
             commonErrors: ["Choosing a sentence that is still about the pet."],
             examinerNote: "B1 for (c).",
           },
@@ -831,7 +831,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — clarity comes from unity, order and accuracy.", working: "one topic, logical order, correct sentences", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** One topic, logical order and correct sentences",
+            finalAnswer: "**(d)** One topic, logical order and correct sentences",
             commonErrors: ["Choosing 'many topics' — that makes it confusing."],
             examinerNote: "B1 for (b).",
           },
@@ -855,7 +855,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Sentence 1" },
               { id: "d", text: "Sentence 3" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -864,7 +864,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — sentence 4 states the main fact about the room.", working: "Sentence 4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Sentence 4",
+            finalAnswer: "**(a)** Sentence 4",
             commonErrors: ["Choosing sentence 1 — that is an opinion, which comes last."],
             examinerNote: "B1 for (d).",
           },

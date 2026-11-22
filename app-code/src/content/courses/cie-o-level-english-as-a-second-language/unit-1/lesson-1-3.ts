@@ -41,7 +41,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Its longest sentence" },
             { id: "d", text: "Its most important point" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Main idea", statement: "The most important point." }], steps: [{ reasoning: "Main idea = central point of the paragraph.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Its most important point" },
+          markscheme: { principles: [{ kind: "definition", name: "Main idea", statement: "The most important point." }], steps: [{ reasoning: "Main idea = central point of the paragraph.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Its most important point" },
         },
         {
           id: "oles-u1-mi-q2", difficulty: "core", totalMarks: 2,
@@ -105,7 +105,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Repeats the first sentence word for word" },
             { id: "d", text: "Covers the whole paragraph" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Main idea test", statement: "Must cover the whole paragraph." }], steps: [{ reasoning: "Only a whole-paragraph answer is the main idea.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Covers the whole paragraph" },
+          markscheme: { principles: [{ kind: "skill", name: "Main idea test", statement: "Must cover the whole paragraph." }], steps: [{ reasoning: "Only a whole-paragraph answer is the main idea.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Covers the whole paragraph" },
         },
         {
           id: "oles-u1-mi-q6", difficulty: "core", totalMarks: 1,
@@ -131,7 +131,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "A supporting detail" },
             { id: "d", text: "The title" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Distractor", statement: "True-sounding opinions are not the text's point." }], steps: [{ reasoning: "The text reports homework's benefit; the choice adds a personal view.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** An opinion, not the main idea" },
+          markscheme: { principles: [{ kind: "skill", name: "Distractor", statement: "True-sounding opinions are not the text's point." }], steps: [{ reasoning: "The text reports homework's benefit; the choice adds a personal view.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** An opinion, not the main idea" },
         },
         {
           id: "oles-u1-mi-q9", difficulty: "challenge", totalMarks: 3,
@@ -167,7 +167,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "As the first or last sentence of the paragraph" },
             { id: "d", text: "Only in the title" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Topic sentence", statement: "Often first or last." }], steps: [{ reasoning: "Topic sentences usually open or close the paragraph.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** First or last sentence" },
+          markscheme: { principles: [{ kind: "definition", name: "Topic sentence", statement: "Often first or last." }], steps: [{ reasoning: "Topic sentences usually open or close the paragraph.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** First or last sentence" },
         },
         {
           id: "oles-u1-mi-q12", difficulty: "core", totalMarks: 2,
@@ -241,7 +241,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Is the longest sentence" },
             { id: "d", text: "Covers only part of the paragraph" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Supporting detail", statement: "Backs up part of the main idea." }], steps: [{ reasoning: "Details support the idea but cover only a portion.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Covers only part of the paragraph" },
+          markscheme: { principles: [{ kind: "definition", name: "Supporting detail", statement: "Backs up part of the main idea." }], steps: [{ reasoning: "Details support the idea but cover only a portion.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Covers only part of the paragraph" },
         },
       ],
     },
@@ -336,7 +336,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "A full translation" },
             { id: "d", text: "Its general sense without detail" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Gist", statement: "General sense of the text." }], steps: [{ reasoning: "Gist = the essence, not the detail.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** General sense without detail" },
+          markscheme: { principles: [{ kind: "definition", name: "Gist", statement: "General sense of the text." }], steps: [{ reasoning: "Gist = the essence, not the detail.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** General sense without detail" },
         },
         {
           id: "oles-u1-gist-q6", difficulty: "core", totalMarks: 1,
@@ -362,7 +362,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "The title, first sentences and signposts" },
             { id: "d", text: "Only the last line" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Skim targets", statement: "Title + first sentences + signposts." }], steps: [{ reasoning: "These three give the gist map.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Title, first sentences and signposts" },
+          markscheme: { principles: [{ kind: "skill", name: "Skim targets", statement: "Title + first sentences + signposts." }], steps: [{ reasoning: "These three give the gist map.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Title, first sentences and signposts" },
         },
         {
           id: "oles-u1-gist-q9", difficulty: "challenge", totalMarks: 3,
@@ -398,7 +398,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "They are signposts to key ideas" },
             { id: "d", text: "They repeat the title" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Signposts", statement: "Highlight key points." }], steps: [{ reasoning: "Signposts mark important ideas for the skim map.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Signposts to key ideas" },
+          markscheme: { principles: [{ kind: "skill", name: "Signposts", statement: "Highlight key points." }], steps: [{ reasoning: "Signposts mark important ideas for the skim map.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Signposts to key ideas" },
         },
         {
           id: "oles-u1-gist-q12", difficulty: "core", totalMarks: 2,
@@ -421,7 +421,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "The school has a canteen." },
             { id: "d", text: "Last week was sunny." },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Signpost", statement: "First sentence reveals the paragraph topic." }], steps: [{ reasoning: "Only (a) signals the topic of stress.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Many students feel anxious before tests." },
+          markscheme: { principles: [{ kind: "skill", name: "Signpost", statement: "First sentence reveals the paragraph topic." }], steps: [{ reasoning: "Only (a) signals the topic of stress.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Many students feel anxious before tests." },
         },
         {
           id: "oles-u1-gist-q14", difficulty: "challenge", totalMarks: 3,
@@ -475,7 +475,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Memorise every word" },
             { id: "d", text: "Read in detail where needed" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Skim then detail", statement: "Skim first, detail where needed." }], steps: [{ reasoning: "Skimming builds the map; detailed reading finds answers.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Read in detail where needed" },
+          markscheme: { principles: [{ kind: "skill", name: "Skim then detail", statement: "Skim first, detail where needed." }], steps: [{ reasoning: "Skimming builds the map; detailed reading finds answers.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Read in detail where needed" },
         },
       ],
     },

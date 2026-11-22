@@ -68,7 +68,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Chlorophyll and the electron transport chain are embedded in the thylakoid membranes, so light is captured there.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The thylakoid membranes",
+            finalAnswer: "**(c)** The thylakoid membranes",
             commonErrors: ["Choosing the stroma, which is where the Calvin cycle takes place.", "Choosing the mitochondrion, which is the site of cellular respiration."],
             examinerNote: "B1 for thylakoid (membranes). Allow grana.",
           },
@@ -192,7 +192,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Photosynthesis has stopped" },
               { id: "d", text: "The chlorophyll has been destroyed by the light" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -201,7 +201,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "The rate is constant but not zero, and more light has no effect, so light is no longer limiting; something else is.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Another factor, such as carbon dioxide or temperature, is now limiting",
+            finalAnswer: "**(b)** Another factor, such as carbon dioxide or temperature, is now limiting",
             commonErrors: ["Thinking the plateau means photosynthesis has stopped.", "Thinking light is still limiting because the graph is flat."],
             examinerNote: "B1 for another factor limiting.",
           },

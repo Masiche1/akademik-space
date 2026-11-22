@@ -61,7 +61,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Modulus", statement: "$|z|=\\sqrt{x^2+y^2}$." }],
             steps: [{ reasoning: "$\\sqrt{9+16}=5$.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $5$",
+            finalAnswer: "**(b)** $5$",
             commonErrors: ["Adding $3+4$ instead of using Pythagoras."],
           },
         },

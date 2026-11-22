@@ -316,7 +316,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "FROM books" },
               { id: "d", text: "WHERE year > 2000" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -636,7 +636,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Text only" },
               { id: "d", text: "Date" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -923,7 +923,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "password" },
               { id: "d", text: "12345678" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

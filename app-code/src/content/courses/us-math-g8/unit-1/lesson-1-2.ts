@@ -64,7 +64,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Same base, so add the exponents.", working: "2^5 \\cdot 2^{-2} = 2^{5+(-2)} = 2^3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $2^3$",
+            finalAnswer: "**(a)** $2^3$",
             commonErrors: ["Ignoring the sign of $-2$ and adding to get $2^7$.", "Multiplying the exponents to get $2^{-10}$."],
           },
         },
@@ -200,7 +200,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Move the decimal point $7$ places left to get $4.5$, so the exponent is $7$.", working: "45{,}000{,}000 = 4.5 \\times 10^7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $4.5 \\times 10^7$",
+            finalAnswer: "**(a)** $4.5 \\times 10^7$",
             commonErrors: ["Miscounting the places moved.", "Choosing $45 \\times 10^6$, where the coefficient is not less than $10$."],
           },
         },

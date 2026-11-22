@@ -93,7 +93,7 @@ export const lesson313: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Two identical diploid cells",
+            finalAnswer: "**(d)** Two identical diploid cells",
             commonErrors: ["Confusing with meiosis (haploid)."],
           },
         },
@@ -256,7 +256,7 @@ export const lesson313: Lesson = {
             steps: [
               { reasoning: "Mitosis preserves chromosome number and genetic identity.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Two identical diploid cells",
+            finalAnswer: "**(b)** Two identical diploid cells",
             commonErrors: ["Confusing mitosis with meiosis."],
           },
         },
@@ -286,7 +286,7 @@ export const lesson313: Lesson = {
             steps: [
               { reasoning: "Condensation and spindle formation define prophase.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Chromosomes condense; spindle forms",
+            finalAnswer: "**(b)** Chromosomes condense; spindle forms",
             commonErrors: ["Confusing prophase with metaphase."],
           },
         },
@@ -316,7 +316,7 @@ export const lesson313: Lesson = {
             steps: [
               { reasoning: "Anaphase separates sister chromatids.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sister chromatids",
+            finalAnswer: "**(c)** Sister chromatids",
             commonErrors: ["Confusing anaphase with meiosis I."],
           },
         },
@@ -346,7 +346,7 @@ export const lesson313: Lesson = {
             steps: [
               { reasoning: "Cytokinesis completes cell division.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cytokinesis",
+            finalAnswer: "**(c)** Cytokinesis",
             commonErrors: ["Confusing cytokinesis with mitosis stages."],
           },
         },
@@ -406,7 +406,7 @@ export const lesson313: Lesson = {
             steps: [
               { reasoning: "Identical diploid cells are needed for tissue growth and repair.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Growth and repair",
+            finalAnswer: "**(c)** Growth and repair",
             commonErrors: ["Confusing mitosis with meiosis."],
           },
         },
@@ -626,7 +626,7 @@ export const lesson313: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Four different haploid cells",
+            finalAnswer: "**(c)** Four different haploid cells",
             commonErrors: ["Confusing with mitosis."],
           },
         },
@@ -810,7 +810,7 @@ export const lesson313: Lesson = {
             steps: [
               { reasoning: "Meiosis halves chromosome number and creates variation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Four different haploid cells",
+            finalAnswer: "**(d)** Four different haploid cells",
             commonErrors: ["Confusing meiosis with mitosis."],
           },
         },
@@ -840,7 +840,7 @@ export const lesson313: Lesson = {
             steps: [
               { reasoning: "Homologous chromosomes separate in meiosis I.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Homologous chromosomes",
+            finalAnswer: "**(b)** Homologous chromosomes",
             commonErrors: ["Saying sister chromatids separate in meiosis I."],
           },
         },
@@ -870,7 +870,7 @@ export const lesson313: Lesson = {
             steps: [
               { reasoning: "Sister chromatids separate in meiosis II.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sister chromatids",
+            finalAnswer: "**(c)** Sister chromatids",
             commonErrors: ["Confusing meiosis I and II."],
           },
         },
@@ -900,7 +900,7 @@ export const lesson313: Lesson = {
             steps: [
               { reasoning: "Crossing over is a prophase I event.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Prophase I",
+            finalAnswer: "**(b)** Prophase I",
             commonErrors: ["Placing crossing over in mitosis."],
           },
         },
@@ -930,7 +930,7 @@ export const lesson313: Lesson = {
             steps: [
               { reasoning: "Independent assortment is associated with metaphase I alignment.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Metaphase I",
+            finalAnswer: "**(d)** Metaphase I",
             commonErrors: ["Confusing it with crossing over."],
           },
         },
@@ -960,7 +960,7 @@ export const lesson313: Lesson = {
             steps: [
               { reasoning: "Any sperm can fertilise any egg, increasing variation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Random fertilisation",
+            finalAnswer: "**(c)** Random fertilisation",
             commonErrors: ["Thinking meiosis alone determines all variation."],
           },
         },

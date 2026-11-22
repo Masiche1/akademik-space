@@ -64,7 +64,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "As the ball falls its height decreases, so it loses gravitational potential energy, and its speed increases, so it gains kinetic energy.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Gravitational potential to kinetic",
+            finalAnswer: "**(c)** Gravitational potential to kinetic",
             commonErrors: ["Reversing the direction of the transfer (choosing a).", "Choosing elastic potential because the ball will bounce later."],
             examinerNote: "B1 for gravitational potential to kinetic only.",
           },
@@ -199,7 +199,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Power is energy divided by time, so its unit is joules divided by seconds.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** one joule per second",
+            finalAnswer: "**(a)** one joule per second",
             commonErrors: ["Confusing power with energy and choosing joule.", "Inverting the unit to seconds per joule."],
             examinerNote: "B1 for J/s only.",
           },

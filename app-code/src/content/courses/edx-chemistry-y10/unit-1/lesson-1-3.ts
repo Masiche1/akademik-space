@@ -59,7 +59,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$\\text{CaCl}$" },
               { id: "d", text: "$\\text{CaCl}_2$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "One $\\text{Ca}^{2+}$ has charge $+2$, so two $\\text{Cl}^-$ ($2 \\times -1 = -2$) are needed to balance it.", working: "(+2) + 2(-1) = 0 \\Rightarrow \\text{CaCl}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\text{CaCl}_2$",
+            finalAnswer: "**(d)** $\\text{CaCl}_2$",
             commonErrors: ["Choosing (a), ignoring the charges.", "Choosing (b), putting the number against the wrong ion."],
             examinerNote: "B1 for (c).",
           },
@@ -210,7 +210,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "One carbon atom and two oxygen atoms.", working: "12 + (2 \\times 16) = 12 + 32 = 44", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $44$",
+            finalAnswer: "**(a)** $44$",
             commonErrors: ["Choosing (a) by using only one oxygen atom, $12 + 16 = 28$.", "Choosing (c) by multiplying instead of adding, or adding 12 + 16 + 32."],
             examinerNote: "B1 for (b).",
           },

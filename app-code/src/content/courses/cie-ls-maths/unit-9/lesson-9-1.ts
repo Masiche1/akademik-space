@@ -65,7 +65,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Read and understand before calculating.", working: "\\text{understand}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Understand what's being asked",
+            finalAnswer: "**(b)** Understand what's being asked",
             commonErrors: ["Rushing to calculate without understanding the question."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Rounding $812\approx800$ and $39\approx40$ gives a useful estimate.", working: "\\frac{800}{40}=20", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{800}{40}=20$",
+            finalAnswer: "**(b)** $\\frac{800}{40}=20$",
             commonErrors: ["Using subtraction or addition instead of division."],
           },
         },
@@ -232,7 +232,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Metres to centimetres requires multiplying by $100$.", working: "\\times100", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Multiply by $100$",
+            finalAnswer: "**(c)** Multiply by $100$",
             commonErrors: ["Confusing length conversion with area conversion."],
           },
         },
@@ -258,7 +258,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Estimation checks whether the exact answer is plausible.", working: "\\text{estimate check}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Compare with an estimate",
+            finalAnswer: "**(d)** Compare with an estimate",
             commonErrors: ["Checking only the final digit or units."],
           },
         },
@@ -303,7 +303,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Clear steps can earn method marks even if the final answer is wrong.", working: "\\text{show steps}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Write every calculation step",
+            finalAnswer: "**(d)** Write every calculation step",
             commonErrors: ["Thinking only the answer earns marks."],
           },
         },
@@ -357,7 +357,7 @@ export const lesson91: Lesson = {
               { id: "c", text: "$22$ kg" },
               { id: "d", text: "$12$ kg" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -366,7 +366,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "A bicycle is usually well below $100$ kg, so $450$ kg is unreasonable.", working: "450\\text{ kg}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $450$ kg",
+            finalAnswer: "**(a)** $450$ kg",
             commonErrors: ["Ignoring the real-world context of the answer."],
           },
         },
@@ -412,7 +412,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "The reliable order is understand, plan, execute, check.", working: "\\text{U-P-E-C}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Understand, plan, execute, check",
+            finalAnswer: "**(c)** Understand, plan, execute, check",
             commonErrors: ["Starting calculations before identifying what is required."],
           },
         },
@@ -468,7 +468,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "$60/20=3$ minutes average.", working: "3\\text{ min}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 3 minutes",
+            finalAnswer: "**(c)** 3 minutes",
             commonErrors: ["Not budgeting time — leads to unfinished papers."],
           },
         },
@@ -573,7 +573,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Identifying the target and units prevents method and unit errors.", working: "\\text{read first}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Identify what is asked and required units",
+            finalAnswer: "**(b)** Identify what is asked and required units",
             commonErrors: ["Answering a nearby quantity instead of the one requested."],
           },
         },
@@ -696,7 +696,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Area in square centimetres needs the unit cm².", working: "\\text{cm}^2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $84$ cm²",
+            finalAnswer: "**(b)** $84$ cm²",
             commonErrors: ["Giving a length unit or omitting units."],
           },
         },
@@ -759,7 +759,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "First secure marks by completing all answers, then check if time remains.", working: "\\text{complete then check}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Answer every question, then check",
+            finalAnswer: "**(b)** Answer every question, then check",
             commonErrors: ["Leaving questions blank while revising."],
           },
         },
@@ -805,7 +805,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "$\\frac{20\\times20}{10}=40$.", working: "40", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $40$",
+            finalAnswer: "**(c)** $40$",
           },
         },
       ],
@@ -856,7 +856,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Mean/median/mode = statistics.", working: "statistics", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Statistics",
+            finalAnswer: "**(b)** Statistics",
             commonErrors: ["Confusing with algebra — averages are data analysis."],
           },
         },
@@ -994,7 +994,7 @@ export const lesson91: Lesson = {
               { id: "c", text: "$270^{\\circ}$" },
               { id: "d", text: "$180^{\\circ}$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1003,7 +1003,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Angles around a point complete a full turn.", working: "360", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $360^{\\circ}$",
+            finalAnswer: "**(b)** $360^{\\circ}$",
           },
         },
         {
@@ -1045,7 +1045,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "The middle value is $8$.", working: "8", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $8$",
+            finalAnswer: "**(d)** $8$",
           },
         },
         {
@@ -1157,7 +1157,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Unit prices are $0.50$ and $0.45$; the second is cheaper.", working: "0.45", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The second pack",
+            finalAnswer: "**(d)** The second pack",
           },
         },
         {

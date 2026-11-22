@@ -57,7 +57,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Barometer only" },
               { id: "d", text: "Thermometer" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -66,7 +66,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Thermometer measures temperature.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Thermometer",
+            finalAnswer: "**(d)** Thermometer",
             commonErrors: ["Choosing 'rain gauge' — that measures rainfall, not temperature."],
           },
         },
@@ -158,7 +158,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The thermometer measures temperature.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Thermometer",
+            finalAnswer: "**(a)** Thermometer",
             commonErrors: ["Choosing rain gauge — that measures rainfall."],
           },
         },
@@ -223,7 +223,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The rain gauge measures rainfall.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Rain gauge",
+            finalAnswer: "**(c)** Rain gauge",
             commonErrors: ["Choosing thermometer — that measures temperature."],
           },
         },
@@ -311,7 +311,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Autumn brings cooler weather and falling leaves.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** They turn bright and fall",
+            finalAnswer: "**(b)** They turn bright and fall",
             commonErrors: ["Choosing stay green — that is more like spring or summer."],
           },
         },
@@ -408,7 +408,7 @@ export const lesson31: Lesson = {
               { reasoning: "Direct sunlight and longer days heat summer more.", marks: 1, markCode: "M" },
               { reasoning: "Distance is not the main cause; tilt is.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Tilt changes how directly sunlight hits",
+            finalAnswer: "**(c)** Tilt changes how directly sunlight hits",
             commonErrors: ["Choosing Earth moves closer — distance is not the main cause."],
           },
         },
@@ -452,7 +452,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Condensation" },
               { id: "d", text: "Collection" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -461,7 +461,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Evaporation is liquid → gas.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Evaporation",
+            finalAnswer: "**(a)** Evaporation",
             commonErrors: ["Choosing 'condensation' — that is gas → liquid, the opposite."],
           },
         },
@@ -545,7 +545,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Condensation" },
               { id: "d", text: "Evaporation" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -554,7 +554,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Evaporation is liquid to gas.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Evaporation",
+            finalAnswer: "**(d)** Evaporation",
             commonErrors: ["Choosing condensation — that is gas to liquid."],
           },
         },
@@ -619,7 +619,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Precipitation is water falling from clouds.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Water falling from clouds as rain, snow or hail",
+            finalAnswer: "**(a)** Water falling from clouds as rain, snow or hail",
             commonErrors: ["Choosing evaporation — that is water rising as vapour."],
           },
         },
@@ -698,7 +698,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Evaporation" },
               { id: "d", text: "Condensation" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -707,7 +707,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Collection stores water for the cycle to continue.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Collection",
+            finalAnswer: "**(a)** Collection",
             commonErrors: ["Choosing precipitation — that is water falling, not gathering."],
           },
         },
@@ -755,7 +755,7 @@ export const lesson31: Lesson = {
               { reasoning: "Clouds form when water vapour condenses.", marks: 1, markCode: "M" },
               { reasoning: "They are not smoke, sand or only ice.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Clouds are tiny water droplets formed by condensation",
+            finalAnswer: "**(a)** Clouds are tiny water droplets formed by condensation",
             commonErrors: ["Choosing smoke — clouds are water droplets."],
           },
         },

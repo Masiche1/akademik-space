@@ -85,7 +85,7 @@ export const lesson11: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Risk-taking business founder",
+            finalAnswer: "**(d)** Risk-taking business founder",
             commonErrors: ["Risk-avoider confused."],
           },
         },

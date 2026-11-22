@@ -237,7 +237,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Variables store data that programs can update during execution.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Named storage location",
+            finalAnswer: "**(b)** Named storage location",
           },
         },
         {
@@ -287,7 +287,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Loops such as FOR and WHILE repeat code blocks.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Iteration",
+            finalAnswer: "**(c)** Iteration",
           },
         },
         {
@@ -312,7 +312,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Functions package logic so it can be called repeatedly and tested separately.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Reusable, organised and testable code",
+            finalAnswer: "**(d)** Reusable, organised and testable code",
           },
         },
         {
@@ -337,7 +337,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "a and b are parameters receiving input values when add is called.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Parameters",
+            finalAnswer: "**(a)** Parameters",
           },
         },
         {
@@ -362,7 +362,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Local scope prevents accidental changes to shared program state.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Avoids variable conflicts",
+            finalAnswer: "**(c)** Avoids variable conflicts",
           },
         },
         {

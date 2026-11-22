@@ -70,7 +70,7 @@ export const lesson62: Lesson = {
               { reasoning: "The thesis states the essay's central argument or claim.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** State the central argument the essay will defend",
+            finalAnswer: "**(a)** State the central argument the essay will defend",
             commonErrors: [
               "Confusing thesis with topic or summary.",
             ],
@@ -171,7 +171,7 @@ export const lesson62: Lesson = {
               { reasoning: "A conclusion synthesises findings and restates the thesis in light of evidence.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Synthesise findings and restate the thesis in light of evidence",
+            finalAnswer: "**(d)** Synthesise findings and restate the thesis in light of evidence",
             commonErrors: [
               "Adding new evidence or repeating the introduction in the conclusion.",
             ],
@@ -222,7 +222,7 @@ export const lesson62: Lesson = {
               { reasoning: "Choice (b) matches the point-evidence-significance pattern.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Point, then evidence for A, evidence for B, then significance of the difference",
+            finalAnswer: "**(c)** Point, then evidence for A, evidence for B, then significance of the difference",
             commonErrors: [
               "Structuring paragraphs as separate descriptions of each artist.",
             ],
@@ -274,7 +274,7 @@ export const lesson62: Lesson = {
               { reasoning: "The other options summarise or comment without insight.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'The comparison reveals how formal choices shape emotional response to mortality.'",
+            finalAnswer: "**(d)** 'The comparison reveals how formal choices shape emotional response to mortality.'",
             commonErrors: [
               "Ending with summary rather than significance.",
             ],
@@ -328,7 +328,7 @@ export const lesson62: Lesson = {
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
               { reasoning: "Restructuring under shared criteria would make comparison explicit.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(b)** Sequential structure",
+            finalAnswer: "**(c)** Sequential structure",
             commonErrors: [
               "Calling any organised essay 'comparative' regardless of paragraph design.",
             ],
@@ -383,7 +383,7 @@ export const lesson62: Lesson = {
               { reasoning: "Choices (a), (c) and (d) announce topics rather than argue.", marks: 1, markCode: "R" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Makes a specific, arguable claim about how the works differ",
+            finalAnswer: "**(c)** Makes a specific, arguable claim about how the works differ",
             commonErrors: [
               "Writing thesis statements that merely name the subject.",
             ],
@@ -530,7 +530,7 @@ export const lesson62: Lesson = {
               { reasoning: "The topic sentence announces the paragraph's analytical point.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** State the criterion or point the paragraph will develop",
+            finalAnswer: "**(a)** State the criterion or point the paragraph will develop",
             commonErrors: [
               "Starting paragraphs with evidence or quotation rather than the point.",
             ],
@@ -682,7 +682,7 @@ export const lesson62: Lesson = {
               { reasoning: "Specific visual detail woven into claims is analytical; listing is not.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Be specific visual details from BOTH works woven into analysis",
+            finalAnswer: "**(a)** Be specific visual details from BOTH works woven into analysis",
             commonErrors: [
               "Providing evidence for only one artwork per paragraph.",
             ],
@@ -734,7 +734,7 @@ export const lesson62: Lesson = {
               { reasoning: "Analysis would connect the blue to mood, theme or argument.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Analysis linking the evidence to the argument",
+            finalAnswer: "**(d)** Analysis linking the evidence to the argument",
             commonErrors: [
               "Mistaking accurate description for analytical writing.",
             ],
@@ -788,7 +788,7 @@ export const lesson62: Lesson = {
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
               { reasoning: "If it contains useful material, rework it to serve the thesis.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(b)** Cut or reworked so it serves the argument",
+            finalAnswer: "**(d)** Cut or reworked so it serves the argument",
             commonErrors: [
               "Keeping descriptive paragraphs for length.",
             ],
@@ -904,7 +904,7 @@ export const lesson62: Lesson = {
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
               { reasoning: "Mismatched transitions confuse the argument's logic.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(b)** Agrees with or extends the previous point",
+            finalAnswer: "**(c)** Agrees with or extends the previous point",
             commonErrors: [
               "Choosing transitions by habit rather than logical fit.",
             ],

@@ -102,7 +102,7 @@ export const lesson44: Lesson = {
               { id: "c", text: "Consumption, saving and investment" },
               { id: "d", text: "Investment, government spending and exports" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -126,7 +126,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Investment, government spending and exports",
+            finalAnswer: "**(d)** Investment, government spending and exports",
             commonErrors: [
               "Confusing injections (entering) with withdrawals (leaving).",
             ],
@@ -365,7 +365,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Saving, taxes and imports",
+            finalAnswer: "**(d)** Saving, taxes and imports",
             commonErrors: [
               "Confusing withdrawals (leaving) with injections (entering).",
             ],
@@ -477,7 +477,7 @@ export const lesson44: Lesson = {
               { id: "c", text: "1 − MPC" },
               { id: "d", text: "1 / (1 − MPC)" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -500,7 +500,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** 1 / (1 − MPC)",
+            finalAnswer: "**(d)** 1 / (1 − MPC)",
             commonErrors: [
               "Using MPC directly as the multiplier — the formula is 1/(1−MPC).",
             ],
@@ -550,7 +550,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Fall",
+            finalAnswer: "**(c)** Fall",
             commonErrors: [
               "Reversing the relationship — more withdrawals than injections means contraction.",
             ],
@@ -1308,7 +1308,7 @@ export const lesson44: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** At higher prices, consumption, investment and net exports fall",
+              "**(c)** At higher prices, consumption, investment and net exports fall",
             commonErrors: [
               "Confusing the downward-sloping AD with the upward-sloping SRAS.",
             ],
@@ -1352,7 +1352,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** SRAS left",
+            finalAnswer: "**(a)** SRAS left",
             commonErrors: [
               "Confusing a supply-side cost shock with a demand shift.",
             ],
@@ -1400,7 +1400,7 @@ export const lesson44: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Productive capacity increases (e.g. technology, education)",
+              "**(d)** Productive capacity increases (e.g. technology, education)",
             commonErrors: [
               "Confusing demand-side changes (AD shifts) with capacity changes (LRAS shifts).",
             ],
@@ -1420,7 +1420,7 @@ export const lesson44: Lesson = {
               { id: "c", text: "Deflation" },
               { id: "d", text: "A recession" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1444,7 +1444,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Inflationary pressure",
+            finalAnswer: "**(a)** Inflationary pressure",
             commonErrors: [
               "Confusing positive (inflationary) and negative (recessionary) output gaps.",
             ],
@@ -1494,7 +1494,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Higher output and higher prices",
+            finalAnswer: "**(c)** Higher output and higher prices",
             commonErrors: [
               "Forgetting that AD shifts affect both output AND the price level.",
             ],

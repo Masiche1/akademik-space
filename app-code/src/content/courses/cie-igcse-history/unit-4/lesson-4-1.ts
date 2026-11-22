@@ -260,7 +260,7 @@ export const lesson361: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** State the thesis or main argument",
+            finalAnswer: "**(d)** State the thesis or main argument",
           },
         },
         {
@@ -374,7 +374,7 @@ export const lesson361: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Although the treaty addressed some grievances, it failed to solve the central problem of reparations.",
+              "**(c)** Although the treaty addressed some grievances, it failed to solve the central problem of reparations.",
           },
         },
         {
@@ -662,7 +662,7 @@ export const lesson361: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** This essay will discuss the Cold War.",
+            finalAnswer: "**(d)** This essay will discuss the Cold War.",
           },
         },
         {

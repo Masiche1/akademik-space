@@ -65,7 +65,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Half the probability lies below the mean $0$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0.5$",
+            finalAnswer: "**(d)** $0.5$",
             commonErrors: ["Confusing $P(Z<0)$ with $P(Z=0)$ — the latter is $0$."],
           },
         },
@@ -202,7 +202,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Mean of $2X+3$ is $2\\mu+3$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2\\mu+3$",
+            finalAnswer: "**(c)** $2\\mu+3$",
             commonErrors: ["Applying the transformation only to $\\sigma$."],
           },
         },

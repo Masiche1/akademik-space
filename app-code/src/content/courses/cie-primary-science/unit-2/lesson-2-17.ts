@@ -52,7 +52,7 @@ export const lesson217: Lesson = {
             { id: "b", text: "Spider" },
             { id: "c", text: "Snail" },
             { id: "d", text: "Frog" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Vertebrate", statement: "Has backbone." }],
             steps: [{ reasoning: "Frog has a backbone; others don't.", marks: 1, markCode: "A" }],

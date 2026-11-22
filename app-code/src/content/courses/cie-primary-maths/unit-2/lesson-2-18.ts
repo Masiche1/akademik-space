@@ -52,7 +52,7 @@ export const lesson218: Lesson = {
             { id: "b", text: "17" },
             { id: "c", text: "21" },
             { id: "d", text: "9" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Prime", statement: "Two factors only." }],
             steps: [{ reasoning: "17 has only factors 1 and 17.", marks: 1, markCode: "M" }],
@@ -121,7 +121,7 @@ export const lesson218: Lesson = {
             { id: "b", text: "31" },
             { id: "c", text: "2" },
             { id: "d", text: "27" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Prime", statement: "Exactly two factors." }],
             steps: [{ reasoning: "$27 = 3 \\times 9$ → composite, not prime.", marks: 1, markCode: "A" }],
@@ -185,7 +185,7 @@ export const lesson218: Lesson = {
             { id: "b", text: "2" },
             { id: "c", text: "0" },
             { id: "d", text: "3" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Prime", statement: "1 is not prime; 2 is." }],
             steps: [{ reasoning: "2 is the smallest prime (only even prime).", marks: 1, markCode: "A" }],

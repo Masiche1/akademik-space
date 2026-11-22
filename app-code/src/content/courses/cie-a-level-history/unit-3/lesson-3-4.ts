@@ -257,7 +257,7 @@ export const lesson634: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Events in time order"
+          "finalAnswer": "**(d)** Events in time order"
 },
         },
         {
@@ -334,7 +334,7 @@ export const lesson634: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Changes historical direction"
+          "finalAnswer": "**(b)** Changes historical direction"
 },
         },
         {
@@ -379,7 +379,7 @@ export const lesson634: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Length of impact"
+          "finalAnswer": "**(c)** Length of impact"
 },
         },
         {
@@ -456,7 +456,7 @@ export const lesson634: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Dividing history into eras"
+          "finalAnswer": "**(d)** Dividing history into eras"
 },
         },
         {
@@ -619,7 +619,7 @@ export const lesson634: Lesson = {
                               "markCode": "A"
                     }
           ],
-          "finalAnswer": "**(a)** Local festival"
+          "finalAnswer": "**(b)** Local festival"
 },
         },
         {

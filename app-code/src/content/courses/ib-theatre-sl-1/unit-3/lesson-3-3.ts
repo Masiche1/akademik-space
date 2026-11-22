@@ -70,7 +70,7 @@ export const lesson33: Lesson = {
               { reasoning: "A directorial concept is the unifying interpretation guiding staging choices.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The unifying interpretation guiding all staging choices",
+            finalAnswer: "**(d)** The unifying interpretation guiding all staging choices",
             commonErrors: [
               "Confusing concept (unifying vision) with plot or design.",
             ],
@@ -171,7 +171,7 @@ export const lesson33: Lesson = {
               { reasoning: "The concept is the unifying vision that guides casting, design, movement and delivery.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** All staging choices through a unifying interpretation",
+            finalAnswer: "**(c)** All staging choices through a unifying interpretation",
             commonErrors: [
               "Thinking a concept applies to only one design element.",
             ],
@@ -200,7 +200,7 @@ export const lesson33: Lesson = {
               { reasoning: "Metatheatre draws attention to its own theatrical nature — actors address the audience, sets are visibly constructed.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Acknowledges its own theatricality",
+            finalAnswer: "**(c)** Acknowledges its own theatricality",
             commonErrors: [
               "Confusing metatheatre with realism or minimalism.",
             ],
@@ -229,7 +229,7 @@ export const lesson33: Lesson = {
               { reasoning: "Stylisation ranges from fully realistic through partially stylised to abstract or metatheatrical.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** The degree of realism or abstraction in performance and design",
+            finalAnswer: "**(d)** The degree of realism or abstraction in performance and design",
             commonErrors: [
               "Confusing stylisation with a single technique.",
             ],
@@ -258,7 +258,7 @@ export const lesson33: Lesson = {
               { reasoning: "Realism seeks to create the illusion of real life so the audience is convinced.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Convince the audience it is real life",
+            finalAnswer: "**(a)** Convince the audience it is real life",
             commonErrors: [
               "Confusing realism (convincing) with stylisation (commenting).",
             ],
@@ -287,7 +287,7 @@ export const lesson33: Lesson = {
               { reasoning: "Stylisation distances the audience so the production can comment on themes rather than simply imitate life.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It can comment on themes rather than reproduce them",
+            finalAnswer: "**(a)** It can comment on themes rather than reproduce them",
             commonErrors: [
               "Assuming one stylisation level is universally superior.",
             ],
@@ -316,7 +316,7 @@ export const lesson33: Lesson = {
               { reasoning: "Justification connects each choice to the concept — 'this serves the play's theme because...'.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Explaining how the choice serves the play's concept",
+            finalAnswer: "**(c)** Explaining how the choice serves the play's concept",
             commonErrors: [
               "Offering personal preference instead of conceptual reasoning.",
             ],
@@ -514,7 +514,7 @@ export const lesson33: Lesson = {
               { reasoning: "Stage picture is the visual composition — composition, focus, balance at any moment.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The visual composition of the stage at any moment",
+            finalAnswer: "**(a)** The visual composition of the stage at any moment",
             commonErrors: [
               "Confusing stage picture (visual composition) with plot or costume.",
             ],
@@ -615,7 +615,7 @@ export const lesson33: Lesson = {
               { reasoning: "The four design elements are set, costume, lighting and sound.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Set, costume, lighting, sound",
+            finalAnswer: "**(a)** Set, costume, lighting, sound",
             commonErrors: [
               "Confusing design elements with dramatic elements like plot and theme.",
             ],
@@ -644,7 +644,7 @@ export const lesson33: Lesson = {
               { reasoning: "Focus means the audience always knows where to look — one clear point of attention.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** One clear point the audience is meant to watch",
+            finalAnswer: "**(a)** One clear point the audience is meant to watch",
             commonErrors: [
               "Confusing focus with overall visual interest.",
             ],
@@ -673,7 +673,7 @@ export const lesson33: Lesson = {
               { reasoning: "Cohesive design integrates set, costume, lighting and sound into a unified world.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** All elements working together to serve one vision",
+            finalAnswer: "**(d)** All elements working together to serve one vision",
             commonErrors: [
               "Thinking cohesion means matching costumes only.",
             ],
@@ -702,7 +702,7 @@ export const lesson33: Lesson = {
               { reasoning: "Sound reinforces emotion and establishes a sense of the space the audience imagines.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Reinforce emotion and create a sense of space",
+            finalAnswer: "**(d)** Reinforce emotion and create a sense of space",
             commonErrors: [
               "Reducing sound design to background music only.",
             ],
@@ -731,7 +731,7 @@ export const lesson33: Lesson = {
               { reasoning: "When deliberate, mismatched elements — realistic set with expressionistic light — can express psychological tension.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It can express psychological tension when intentional",
+            finalAnswer: "**(d)** It can express psychological tension when intentional",
             commonErrors: [
               "Assuming all design dissonance is accidental or bad.",
             ],
@@ -760,7 +760,7 @@ export const lesson33: Lesson = {
               { reasoning: "Visual hierarchy arranges elements so the audience's attention lands on what matters first.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The eye is guided to the most important element first",
+            finalAnswer: "**(c)** The eye is guided to the most important element first",
             commonErrors: [
               "Confusing visual hierarchy with ranking performers.",
             ],

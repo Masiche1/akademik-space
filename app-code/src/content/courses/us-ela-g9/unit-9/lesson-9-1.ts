@@ -119,7 +119,7 @@ export const lesson91: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Individuals are subject to opaque systems beyond their control.",
+              "**(a)**. Individuals are subject to opaque systems beyond their control.",
             commonErrors: ["Choosing surface topic instead of theme."],
           },
         },
@@ -330,7 +330,7 @@ export const lesson91: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Marcus is human subject; algorithm is the system itself.",
+              "**(a)**. Marcus is human subject; algorithm is the system itself.",
             commonErrors: ["Missing inverse relationship."],
           },
         },
@@ -546,7 +546,7 @@ export const lesson91: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Comparison = similarities/differences; synthesis = new understanding.",
+              "**(c)**. Comparison = similarities/differences; synthesis = new understanding.",
             commonErrors: ["Confusing the two."],
           },
         },
@@ -770,7 +770,7 @@ export const lesson91: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Using multiple lenses — theme, character, structure, craft.",
+              "**(a)**. Using multiple lenses — theme, character, structure, craft.",
             commonErrors: ["Thinking integrated = comprehensive summary."],
           },
         },

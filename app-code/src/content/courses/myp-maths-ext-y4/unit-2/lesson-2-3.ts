@@ -71,7 +71,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$0.10 per MB + 20 fixed: $C(x)=0.10x+20$.", working: "0.10x+20", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $C(x)=0.10x+20$",
+            finalAnswer: "**(c)** $C(x)=0.10x+20$",
             commonErrors: ["Swapping fixed and variable costs."],
             examinerNote: "B1 for (a).",
           },
@@ -187,7 +187,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The constant term 100 is the fixed cost.", working: "\\text{fixed cost}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The fixed cost",
+            finalAnswer: "**(b)** The fixed cost",
             commonErrors: ["Confusing it with the per-unit cost 4."],
             examinerNote: "B1 for (a).",
           },
@@ -771,7 +771,7 @@ export const lesson23: Lesson = {
               { reasoning: "Negative sign indicates loss, not profit.", working: "\\text{loss}", marks: 1, markCode: "M" },
               { reasoning: "Select the correct interpretation.", working: "\\text{loss of 50}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** A loss of 50 when producing 30 units",
+            finalAnswer: "**(c)** A loss of 50 when producing 30 units",
             commonErrors: ["Ignoring the negative sign."],
             examinerNote: "M1 M1 A1.",
           },

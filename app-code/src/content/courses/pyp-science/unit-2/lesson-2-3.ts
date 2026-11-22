@@ -158,7 +158,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "A fire gives out heat energy.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A fire",
+            finalAnswer: "**(b)** A fire",
             commonErrors: ["Choosing a rock — rocks do not give out heat energy."],
           },
         },
@@ -223,7 +223,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The Sun is the main natural energy source.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The Sun",
+            finalAnswer: "**(c)** The Sun",
             commonErrors: ["Choosing the Moon — the Moon reflects light but is not the main source."],
           },
         },
@@ -271,7 +271,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Movement energy becomes heat when hands rub.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Movement energy changes into heat energy",
+            finalAnswer: "**(d)** Movement energy changes into heat energy",
             commonErrors: ["Saying heat appears from nothing — movement energy changes form."],
           },
         },
@@ -338,7 +338,7 @@ export const lesson23: Lesson = {
               { reasoning: "Energy may become heat or sound that we notice less.", marks: 1, markCode: "M" },
               { reasoning: "It is not used up completely; it changes form.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Energy can become a new form we cannot see",
+            finalAnswer: "**(b)** Energy can become a new form we cannot see",
             commonErrors: ["Choosing used up — energy changes form rather than disappearing."],
           },
         },
@@ -408,7 +408,7 @@ export const lesson23: Lesson = {
               { reasoning: "Saving energy reduces waste and helps resources last.", marks: 1, markCode: "M" },
               { reasoning: "It can also save money and reduce pollution.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** It reduces waste, saves money and helps the environment",
+            finalAnswer: "**(d)** It reduces waste, saves money and helps the environment",
             commonErrors: ["Saying energy disappears — saving means using less, not destroying energy."],
           },
         },
@@ -452,7 +452,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Ice" },
               { id: "d", text: "Rock" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -461,7 +461,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Air is a gas; ice is solid, water is liquid, rock is solid.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Air",
+            finalAnswer: "**(b)** Air",
             commonErrors: ["Choosing 'water' — water is liquid; steam is the gas form."],
           },
         },
@@ -554,7 +554,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Solids keep their own shape and size.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It has a fixed shape and volume",
+            finalAnswer: "**(c)** It has a fixed shape and volume",
             commonErrors: ["Choosing fills any space — that describes a gas."],
           },
         },
@@ -667,7 +667,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Gases spread out to fill available space.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It spreads to fill all the space",
+            finalAnswer: "**(c)** It spreads to fill all the space",
             commonErrors: ["Choosing fixed shape — that describes a solid."],
           },
         },
@@ -734,7 +734,7 @@ export const lesson23: Lesson = {
               { reasoning: "Droplets on a cold surface show steam condensing.", marks: 1, markCode: "M" },
               { reasoning: "The other options show melting or freezing, not gas to liquid.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Water droplets form on a cold mirror from steam",
+            finalAnswer: "**(b)** Water droplets form on a cold mirror from steam",
             commonErrors: ["Choosing melting — that is solid to liquid."],
           },
         },

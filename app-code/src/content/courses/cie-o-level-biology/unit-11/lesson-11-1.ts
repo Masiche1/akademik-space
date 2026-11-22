@@ -158,7 +158,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Recall the products.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Ethanol and carbon dioxide",
+            finalAnswer: "**(a)** Ethanol and carbon dioxide",
             commonErrors: ["Choosing lactic acid — that is yoghurt/cheese fermentation."],
           },
         },
@@ -210,7 +210,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Recall the source organism.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Penicillium mould",
+            finalAnswer: "**(d)** Penicillium mould",
             commonErrors: ["Choosing bacteria used for insulin — penicillin comes from mould."],
           },
         },
@@ -236,7 +236,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Recall antibiotic specificity.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Antibiotics target bacterial processes, not viruses",
+            finalAnswer: "**(d)** Antibiotics target bacterial processes, not viruses",
             commonErrors: ["Thinking antibiotics work on all pathogens."],
           },
         },
@@ -262,7 +262,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Recall the reason for sterility.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To prevent contaminating microbes competing for nutrients or spoiling the product",
+            finalAnswer: "**(d)** To prevent contaminating microbes competing for nutrients or spoiling the product",
             commonErrors: ["Choosing taste — sterility is about purity and yield."],
           },
         },
@@ -388,7 +388,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Identify the oxygen-free process.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Alcoholic fermentation by yeast",
+            finalAnswer: "**(d)** Alcoholic fermentation by yeast",
             commonErrors: ["Choosing aerobic respiration — it requires oxygen."],
           },
         },
@@ -462,7 +462,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{gene manipulation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Direct manipulation of genes",
+            finalAnswer: "**(c)** Direct manipulation of genes",
             commonErrors: ["Choosing selective breeding — that's artificial but not genetic engineering."],
           },
         },
@@ -635,7 +635,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Recall the industrial advantage.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** They can be reused and easily recovered",
+            finalAnswer: "**(d)** They can be reused and easily recovered",
             commonErrors: ["Choosing 'cannot be reused' — that is the opposite."],
           },
         },
@@ -787,7 +787,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Recall the production advantage.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Bacteria produce it quickly and cheaply in fermenters",
+            finalAnswer: "**(d)** Bacteria produce it quickly and cheaply in fermenters",
             commonErrors: ["Thinking it needs no purification — it still must be extracted and purified."],
           },
         },

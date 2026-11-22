@@ -117,7 +117,7 @@ export const lesson51: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Social media's business model harms democratic discourse.",
+              "**(d)**. Social media's business model harms democratic discourse.",
             commonErrors: ["Choosing (a) — that's evidence, not central idea."],
           },
         },
@@ -334,7 +334,7 @@ export const lesson51: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Problem-solution.",
+            finalAnswer: "**(d)**. Problem-solution.",
             commonErrors: ["Missing the implied solution at end."],
           },
         },
@@ -548,7 +548,7 @@ export const lesson51: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Strong evidence and mechanism explanation.",
+            finalAnswer: "**(d)**. Strong evidence and mechanism explanation.",
             commonErrors: [
               "Thinking no bias = strong — it has selection bias.",
             ],

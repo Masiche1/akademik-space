@@ -111,7 +111,7 @@ export const lesson101: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Plot is what happens; theme is what it means.",
+              "**(c)**. Plot is what happens; theme is what it means.",
             commonErrors: [
               "Thinking theme is stated — it's inferred from the story.",
             ],
@@ -351,7 +351,7 @@ export const lesson101: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Service over recognition — he lights it because someone might need it.",
+              "**(d)**. Service over recognition — he lights it because someone might need it.",
             commonErrors: [
               "Choosing (a) — he's not seeking attention; the village doesn't even remember.",
             ],

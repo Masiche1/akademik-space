@@ -72,7 +72,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Insufficient O₂ means carbon not fully oxidised → CO or C.", working: "CO;C", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** CO and/or soot",
+            finalAnswer: "**(c)** CO and/or soot",
             commonErrors: ["Saying complete combustion products form."],
             examinerNote: "B1 for (a).",
           },
@@ -187,7 +187,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Complete oxidation gives only CO₂ and H₂O.", working: "CO_2+H_2O", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** CO₂ and H₂O",
+            finalAnswer: "**(c)** CO₂ and H₂O",
             commonErrors: ["Choosing CO/soot — that's incomplete combustion."],
             examinerNote: "B1 for (a).",
           },
@@ -621,7 +621,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "O₂ is not a greenhouse gas — it doesn't absorb IR significantly.", working: "O_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oxygen",
+            finalAnswer: "**(d)** Oxygen",
             commonErrors: ["Thinking all atmospheric gases are greenhouse gases."],
             examinerNote: "B1 for (a).",
           },

@@ -113,7 +113,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Chronological/cause-effect — stages in order, each causing next.",
+              "**(a)**. Chronological/cause-effect — stages in order, each causing next.",
             commonErrors: ["Choosing (a) — no comparison between things."],
           },
         },
@@ -344,7 +344,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Analyze differences in structure, emphasis, perspective.",
+              "**(a)**. Analyze differences in structure, emphasis, perspective.",
             commonErrors: ["Choosing (d) — summary isn't comparison."],
           },
         },

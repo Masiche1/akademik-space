@@ -41,7 +41,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "a" },
             { id: "d", text: "an" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "Uncountable", statement: "Advice takes no article/plural." }], steps: [{ reasoning: "Advice is uncountable → 'some advice'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** some" },
+          markscheme: { principles: [{ kind: "convention", name: "Uncountable", statement: "Advice takes no article/plural." }], steps: [{ reasoning: "Advice is uncountable → 'some advice'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** some" },
         },
         {
           id: "oles-u5-ar-q2", difficulty: "core", totalMarks: 2,
@@ -55,7 +55,7 @@ export const lesson52: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "An before vowels", statement: "Use 'an' before vowel sounds." }], steps: [
             { reasoning: "'Hour' starts with a vowel sound → 'an hour'.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** an" },
+          ], finalAnswer: "**(c)** an" },
         },
         {
           id: "oles-u5-ar-q3", difficulty: "challenge", totalMarks: 4,
@@ -110,7 +110,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "I saw an dog in the park." },
             { id: "d", text: "I saw a informations on the board." },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "Articles", statement: "a/an = new; the = specific; none for uncountables." }], steps: [{ reasoning: "Only (a) uses 'a' for a new dog and 'the' for the known dog.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** I saw a dog and the dog was brown." },
+          markscheme: { principles: [{ kind: "convention", name: "Articles", statement: "a/an = new; the = specific; none for uncountables." }], steps: [{ reasoning: "Only (a) uses 'a' for a new dog and 'the' for the known dog.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** I saw a dog and the dog was brown." },
         },
         {
           id: "oles-u5-ar-q6", difficulty: "core", totalMarks: 2,
@@ -124,7 +124,7 @@ export const lesson52: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "An before vowels", statement: "Use 'an' before vowel sounds." }], steps: [
             { reasoning: "'Honest' starts with a vowel sound → 'an honest person'.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** an" },
+          ], finalAnswer: "**(d)** an" },
         },
         {
           id: "oles-u5-ar-q7", difficulty: "foundation", totalMarks: 1,
@@ -146,7 +146,7 @@ export const lesson52: Lesson = {
           markscheme: { principles: [{ kind: "definition", name: "Uncountable", statement: "Cannot be counted or pluralised." }], steps: [
             { reasoning: "Advice is uncountable; apple, book and chair are countable.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** advice" },
+          ], finalAnswer: "**(b)** advice" },
         },
         {
           id: "oles-u5-ar-q9", difficulty: "core", totalMarks: 1,
@@ -232,7 +232,7 @@ export const lesson52: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Uncountable", statement: "Advice takes 'some' or 'a piece of'." }], steps: [
             { reasoning: "Advice is uncountable → 'some advice' is correct.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(b)** She gave me some advice." },
+          ], finalAnswer: "**(a)** She gave me some advice." },
         },
       ],
     },
@@ -263,7 +263,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "on" },
             { id: "d", text: "in" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Fixed preposition", statement: "interested in." }], steps: [{ reasoning: "'Interested' always takes 'in'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** in" },
+          markscheme: { principles: [{ kind: "convention", name: "Fixed preposition", statement: "interested in." }], steps: [{ reasoning: "'Interested' always takes 'in'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** in" },
         },
         {
           id: "oles-u5-pp-q2", difficulty: "core", totalMarks: 2,
@@ -327,7 +327,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "on" },
             { id: "d", text: "at" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Fixed preposition", statement: "good at." }], steps: [{ reasoning: "'Good' always takes 'at'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** at" },
+          markscheme: { principles: [{ kind: "convention", name: "Fixed preposition", statement: "good at." }], steps: [{ reasoning: "'Good' always takes 'at'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** at" },
         },
         {
           id: "oles-u5-pp-q6", difficulty: "core", totalMarks: 2,
@@ -352,7 +352,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "about" },
             { id: "d", text: "of" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Fixed preposition", statement: "afraid of." }], steps: [{ reasoning: "'Afraid' always takes 'of'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** of" },
+          markscheme: { principles: [{ kind: "convention", name: "Fixed preposition", statement: "afraid of." }], steps: [{ reasoning: "'Afraid' always takes 'of'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** of" },
         },
         {
           id: "oles-u5-pp-q8", difficulty: "foundation", totalMarks: 1,
@@ -383,7 +383,7 @@ export const lesson52: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Say/tell", statement: "Tell + person; say + thing." }], steps: [
             { reasoning: "'Tell' is used with a person: 'tell me'.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** tell" },
+          ], finalAnswer: "**(b)** tell" },
         },
         {
           id: "oles-u5-pp-q11", difficulty: "core", totalMarks: 1,
@@ -416,7 +416,7 @@ export const lesson52: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Since/for", statement: "Since + point in time." }], steps: [
             { reasoning: "'2010' is a point in time → 'since 2010'.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** since" },
+          ], finalAnswer: "**(c)** since" },
         },
         {
           id: "oles-u5-pp-q14", difficulty: "challenge", totalMarks: 2,
@@ -447,7 +447,7 @@ export const lesson52: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Fixed preposition", statement: "married to." }], steps: [
             { reasoning: "'Married' always takes 'to'.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(b)** married to" },
+          ], finalAnswer: "**(c)** married to" },
         },
       ],
     },

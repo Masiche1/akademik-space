@@ -113,7 +113,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Frame, paired points, synthesis",
+            finalAnswer: "**(d)** Frame, paired points, synthesis",
           },
         },
         {
@@ -379,7 +379,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Shared theme + divergence + method",
+            finalAnswer: "**(c)** Shared theme + divergence + method",
           },
         },
         {
@@ -421,7 +421,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Signalling shifts",
+            finalAnswer: "**(d)** Signalling shifts",
           },
         },
         {
@@ -465,7 +465,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Paired evidence plus interpretation",
+            finalAnswer: "**(c)** Paired evidence plus interpretation",
           },
         },
         {
@@ -484,7 +484,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Apologise for running out of time" },
               { id: "d", text: "Summarise each text separately" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -508,7 +508,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Final judgement on the relationship",
+            finalAnswer: "**(b)** Final judgement on the relationship",
           },
         },
         {
@@ -974,7 +974,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Comparable analytical attention",
+            finalAnswer: "**(c)** Comparable analytical attention",
           },
         },
         {
@@ -1189,7 +1189,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Listeners cannot re-read",
+            finalAnswer: "**(a)** Listeners cannot re-read",
           },
         },
         {
@@ -1232,7 +1232,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Sharp paired point + synthesis",
+            finalAnswer: "**(a)** Sharp paired point + synthesis",
           },
         },
         {
@@ -1275,7 +1275,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Varied pace, pauses for emphasis",
+            finalAnswer: "**(d)** Varied pace, pauses for emphasis",
           },
         },
         {
@@ -1359,7 +1359,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Conviction, resolution, no recap",
+            finalAnswer: "**(d)** Conviction, resolution, no recap",
           },
         },
         {
@@ -1401,7 +1401,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Evidence grounding a claim",
+            finalAnswer: "**(d)** Evidence grounding a claim",
           },
         },
         {
@@ -1689,7 +1689,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Announces, contrasts, poses — each does different work",
+              "**(a)** Announces, contrasts, poses — each does different work",
           },
         },
         {

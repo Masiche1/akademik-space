@@ -41,7 +41,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Weather" },
             { id: "d", text: "Building colour" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Location factors", statement: "Accessibility." }], steps: [{ reasoning: "Key factor.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Location factors", statement: "Accessibility." }], steps: [{ reasoning: "Key factor.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u3-loc-q2", difficulty: "core", totalMarks: 2,
@@ -97,7 +97,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "The colour of the building" },
             { id: "d", text: "Parking charges only" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Accessibility", statement: "Ease of reaching." }], steps: [{ reasoning: "Accessibility = ease of reaching customers/suppliers.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Accessibility", statement: "Ease of reaching." }], steps: [{ reasoning: "Accessibility = ease of reaching customers/suppliers.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u3-loc-q6", difficulty: "core", totalMarks: 1,
@@ -108,7 +108,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Businesses benefit from locating near related firms" },
             { id: "d", text: "Costs always rise" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Agglomeration", statement: "Clustering benefits." }], steps: [{ reasoning: "Agglomeration = benefits of clustering.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Agglomeration", statement: "Clustering benefits." }], steps: [{ reasoning: "Agglomeration = benefits of clustering.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u3-loc-q7", difficulty: "foundation", totalMarks: 1,
@@ -119,7 +119,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Product range" },
             { id: "d", text: "Company logo" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Labour market", statement: "Workers." }], steps: [{ reasoning: "Labour = availability/cost of workers.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Labour market", statement: "Workers." }], steps: [{ reasoning: "Labour = availability/cost of workers.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u3-loc-q8", difficulty: "core", totalMarks: 2,
@@ -172,7 +172,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Better weather" },
             { id: "d", text: "Lower operating costs" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Relocation", statement: "Cost motives." }], steps: [{ reasoning: "Lower wages/rent = lower operating costs.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Lower operating costs" },
+          markscheme: { principles: [{ kind: "principle", name: "Relocation", statement: "Cost motives." }], steps: [{ reasoning: "Lower wages/rent = lower operating costs.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Lower operating costs" },
         },
         {
           id: "olbus-u3-loc-q13", difficulty: "core", totalMarks: 2,
@@ -192,7 +192,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Roads, power and internet" },
             { id: "d", text: "The advertising budget" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Infrastructure", statement: "Transport, utilities." }], steps: [{ reasoning: "Infrastructure = roads, power, utilities, internet.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Infrastructure", statement: "Transport, utilities." }], steps: [{ reasoning: "Infrastructure = roads, power, utilities, internet.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u3-loc-q15", difficulty: "core", totalMarks: 2,
@@ -256,7 +256,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Reduce staff" },
             { id: "d", text: "Eliminate waste while maintaining quality" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Lean", statement: "Waste elimination." }], steps: [{ reasoning: "Eliminate waste.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Lean", statement: "Waste elimination." }], steps: [{ reasoning: "Eliminate waste.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u3-lean-q2", difficulty: "core", totalMarks: 2,
@@ -312,7 +312,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Any activity that does not add value for the customer" },
             { id: "d", text: "Only physical rubbish" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Waste", statement: "Non-value-adding." }], steps: [{ reasoning: "Waste = any non-value-adding activity.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Waste", statement: "Non-value-adding." }], steps: [{ reasoning: "Waste = any non-value-adding activity.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u3-lean-q6", difficulty: "core", totalMarks: 1,
@@ -323,7 +323,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "A marketing method" },
             { id: "d", text: "A tax system" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Kaizen", statement: "Continuous improvement." }], steps: [{ reasoning: "Kaizen = continuous improvement.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Kaizen", statement: "Continuous improvement." }], steps: [{ reasoning: "Kaizen = continuous improvement.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u3-lean-q7", difficulty: "foundation", totalMarks: 1,
@@ -334,7 +334,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Recruit new staff" },
             { id: "d", text: "Design company logos" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Value stream mapping", statement: "Waste identification." }], steps: [{ reasoning: "VSM maps processes to find waste.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Value stream mapping", statement: "Waste identification." }], steps: [{ reasoning: "VSM maps processes to find waste.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u3-lean-q8", difficulty: "core", totalMarks: 2,

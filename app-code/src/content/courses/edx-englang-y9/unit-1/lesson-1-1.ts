@@ -75,7 +75,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Context clues", statement: "Use surrounding words ('ill-lit', 'sickly glimmer') to infer a word's meaning." }],
             steps: [{ reasoning: "The office is gloomy and the light described as a 'sickly glimmer', so 'guttered' means a weak, unsteady flame.", evidence: "cast their sickly glimmer", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Flickered weakly as if close to going out. The surrounding description of dim, sickly light supports this.",
+            finalAnswer: "**(d)** Flickered weakly as if close to going out. The surrounding description of dim, sickly light supports this.",
             commonErrors: ["Choosing (c) because the word sounds like 'gutter' and wax does drip from candles, but the sentence is about the quality of light.", "Choosing (a) because candles are normally associated with warmth."],
           },
         },

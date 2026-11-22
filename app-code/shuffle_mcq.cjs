@@ -4,7 +4,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const ROOT = "src/content/courses";
+const ROOT = process.argv.slice(2).find(a => !a.startsWith("--")) || "src/content/courses";
 const DRY = process.argv.includes("--dry");
 
 function hashStr(s) {

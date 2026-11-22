@@ -151,7 +151,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. It is specific, debatable and previews the reasoning.",
+              "**(c)**. It is specific, debatable and previews the reasoning.",
             commonErrors: [
               "Choosing (d) because it is strongly worded, although it is vague.",
               "Choosing (a) or (c), which are topics or neutral facts rather than claims.",
@@ -533,7 +533,7 @@ export const lesson31: Lesson = {
                 markCode: "AO4",
               },
             ],
-            finalAnswer: "**(b)**. 'Totally' is a casual intensifier.",
+            finalAnswer: "**(a)**. 'Totally' is a casual intensifier.",
             commonErrors: [
               "Choosing (c), which is overgeneralized but not slang; the question asks about tone.",
             ],
@@ -593,7 +593,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. 'Consequently' shows the unpopular salad results from the fried-food menu.",
+              "**(a)**. 'Consequently' shows the unpopular salad results from the fried-food menu.",
             commonErrors: [
               "Choosing (c) because the two sentences cover different foods, though they are not opposed.",
             ],

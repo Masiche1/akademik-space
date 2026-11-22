@@ -60,7 +60,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Cross product", statement: "$\\mathbf{i}\\times\\mathbf{j}=\\mathbf{k}$ (cyclic)." }],
             steps: [{ reasoning: "Standard result.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\mathbf{k}$",
+            finalAnswer: "**(d)** $\\mathbf{k}$",
           },
         },
         {

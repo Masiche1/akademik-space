@@ -116,7 +116,7 @@ export const lesson19: Lesson = {
             { id: "b", text: "Full stop" },
             { id: "c", text: "Comma" },
             { id: "d", text: "Question mark" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "convention", name: "End marks", statement: "Exclamations end with !." }],
             steps: [{ reasoning: "Strong feeling sentences end with !.", marks: 1, markCode: "AO1" }],

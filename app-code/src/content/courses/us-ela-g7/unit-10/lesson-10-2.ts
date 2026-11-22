@@ -114,7 +114,7 @@ export const lesson102: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Sleep is essential for brain function, memory, and health — the passage's main insight.",
+              "**(c)**. Sleep is essential for brain function, memory, and health — the passage's main insight.",
             commonErrors: [
               "Choosing (a) — that's a detail, not the central idea.",
             ],

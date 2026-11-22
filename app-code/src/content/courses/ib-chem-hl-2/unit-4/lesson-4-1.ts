@@ -347,7 +347,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac{[NO_2]^2}{[N_2O_4]}$",
+            finalAnswer: "**(b)** $\\frac{[NO_2]^2}{[N_2O_4]}$",
             commonErrors: [
               "Using a coefficient of 1 for every species, or inverting the expression.",
             ],
@@ -391,7 +391,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Pure solids and pure liquids",
+            finalAnswer: "**(b)** Pure solids and pure liquids",
             commonErrors: [
               "Thinking gases are omitted — gas concentrations appear in $K_c$ as $[gas]$.",
             ],
@@ -478,7 +478,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $K_p = K_c$",
+            finalAnswer: "**(b)** $K_p = K_c$",
             commonErrors: [
               "Applying an RT factor even when $\\Delta n = 0$ — it equals 1.",
             ],
@@ -521,7 +521,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $K_p = K_c(RT)^{-1}$",
+            finalAnswer: "**(b)** $K_p = K_c(RT)^{-1}$",
             commonErrors: [
               "Sign error in $\\Delta n$ — it is products minus reactants of gas moles.",
             ],
@@ -1259,7 +1259,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $-x$",
+            finalAnswer: "**(b)** $-x$",
             commonErrors: [
               "Using −2x — the coefficient of PCl$_5$ is 1, not 2.",
             ],
@@ -1303,7 +1303,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $x = 0.15$",
+            finalAnswer: "**(d)** $x = 0.15$",
             commonErrors: [
               "Choosing the larger-magnitude root without checking concentrations stay positive.",
             ],
@@ -1481,7 +1481,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $K_c$ is very small, so $x \\ll [A]_0$",
+            finalAnswer: "**(d)** $K_c$ is very small, so $x \\ll [A]_0$",
             commonErrors: [
               "Assuming the approximation works for large K — there the reaction is extensive.",
             ],
@@ -1582,7 +1582,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $[B]_0 + 2x$",
+            finalAnswer: "**(a)** $[B]_0 + 2x$",
             commonErrors: ["Forgetting to add the initial concentration."],
           },
         },
@@ -1824,7 +1824,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The extent of reaction",
+            finalAnswer: "**(c)** The extent of reaction",
             commonErrors: [
               "Confusing x with a concentration — it is the extent, multiplied by coefficients.",
             ],

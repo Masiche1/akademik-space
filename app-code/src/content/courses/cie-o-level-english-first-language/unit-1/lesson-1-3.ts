@@ -65,7 +65,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Gist first, then detail.", working: "gist", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Understand gist and tone",
+            finalAnswer: "**(b)** Understand gist and tone",
             commonErrors: ["Choosing (b) — too detailed too soon."],
           },
         },
@@ -161,7 +161,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Second reading", statement: "Re-read for detailed language and structural features after grasping gist." } ],
             steps: [ { reasoning: "Second reading = detailed analysis of language/structure.", working: "detail", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Language and structure in detail",
+            finalAnswer: "**(d)** Language and structure in detail",
             commonErrors: ["Choosing (b) — plot belongs to the first reading."],
           },
         },
@@ -217,7 +217,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Judgement", statement: "An overall assessment of how effective or significant an extract is." } ],
             steps: [ { reasoning: "Judgement = evaluative conclusion.", working: "evaluate", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** An overall assessment of the extract's effectiveness",
+            finalAnswer: "**(b)** An overall assessment of the extract's effectiveness",
             commonErrors: ["Choosing (c) — a list of techniques is not a judgement."],
           },
         },
@@ -247,7 +247,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Evidence quality", statement: "Brief embedded quotes allow close analysis of specific choices." } ],
             steps: [ { reasoning: "Embedded short quotes = best evidence.", working: "embedded", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** A short precise quotation embedded in analysis",
+            finalAnswer: "**(b)** A short precise quotation embedded in analysis",
             commonErrors: ["Choosing (b) — retelling is summary, not analysis."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Gist", statement: "The general main idea of a passage." } ],
             steps: [ { reasoning: "Gist = main idea.", working: "main", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** The main idea or general meaning",
+            finalAnswer: "**(b)** The main idea or general meaning",
             commonErrors: ["Confusing gist with detailed analysis."],
           },
         },
@@ -376,7 +376,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Thesis = main argument.", working: "argument", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Main argument",
+            finalAnswer: "**(d)** Main argument",
             commonErrors: ["Choosing (d) — that's summary."],
           },
         },
@@ -528,7 +528,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Paragraph unity", statement: "One idea per paragraph, developed with evidence and analysis." } ],
             steps: [ { reasoning: "One idea + evidence + analysis per paragraph.", working: "unity", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Develop one idea with evidence and analysis",
+            finalAnswer: "**(d)** Develop one idea with evidence and analysis",
             commonErrors: ["Choosing (b) — mixed ideas weaken paragraphs."],
           },
         },
@@ -558,7 +558,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Academic style", statement: "Literary analysis uses formal, precise, analytical language." } ],
             steps: [ { reasoning: "Formal analytical register is required.", working: "formal", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Formal and analytical",
+            finalAnswer: "**(c)** Formal and analytical",
             commonErrors: ["Choosing (c) — personal emotion undermines analysis."],
           },
         },
@@ -601,7 +601,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Topic sentence", statement: "States the main point of a paragraph." } ],
             steps: [ { reasoning: "Topic sentence = paragraph's main point.", working: "point", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** The paragraph's main point",
+            finalAnswer: "**(d)** The paragraph's main point",
             commonErrors: ["Confusing with thesis, which governs the whole essay."],
           },
         },
@@ -687,7 +687,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Evidence persuades.", working: "evidence", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Statistics and evidence",
+            finalAnswer: "**(a)** Statistics and evidence",
             commonErrors: ["Choosing (a) — emotion alone is weak persuasion."],
           },
         },
@@ -783,7 +783,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Claim", statement: "The central assertion an argument seeks to prove." } ],
             steps: [ { reasoning: "Claim = main point being argued.", working: "point", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** The main point being argued",
+            finalAnswer: "**(c)** The main point being argued",
             commonErrors: ["Confusing claim with evidence."],
           },
         },
@@ -839,7 +839,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Anecdote", statement: "A personal or illustrative story used as evidence." } ],
             steps: [ { reasoning: "Anecdote = illustrative story.", working: "story", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** A personal story offered as evidence",
+            finalAnswer: "**(b)** A personal story offered as evidence",
             commonErrors: ["Confusing anecdote with statistical evidence."],
           },
         },
@@ -869,7 +869,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Evidence strength", statement: "Verifiable data outranks anecdote and emotion for proving claims." } ],
             steps: [ { reasoning: "Statistics = stronger evidence.", working: "stats", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Verifiable statistics from a reliable source",
+            finalAnswer: "**(d)** Verifiable statistics from a reliable source",
             commonErrors: ["Choosing (b) — anecdotes are illustrative but weak proof."],
           },
         },
@@ -912,7 +912,7 @@ export const lesson113: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Emotive language", statement: "Language designed to trigger emotional response." } ],
             steps: [ { reasoning: "Emotive = feelings.", working: "feelings", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** The reader's feelings",
+            finalAnswer: "**(c)** The reader's feelings",
             commonErrors: ["Thinking emotive language provides logical proof."],
           },
         },

@@ -55,7 +55,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "6" },
               { id: "d", text: "2" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -64,7 +64,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Each water molecule has 2 hydrogen atoms and there are 3 molecules, so the count is the product.", working: "3\\times2=6", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** 6",
+            finalAnswer: "**(c)** 6",
             commonErrors: ["Choosing 2, ignoring the coefficient.", "Choosing 5 by adding the 3 and the 2."],
             examinerNote: "B1 for 6.",
           },
@@ -187,7 +187,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Exothermic, because it absorbs energy" },
               { id: "d", text: "Endothermic, because it releases energy" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -196,7 +196,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The surroundings cool because energy moves from them into the process, so it is endothermic.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Endothermic, because it absorbs energy",
+            finalAnswer: "**(a)** Endothermic, because it absorbs energy",
             commonErrors: ["Thinking a cold feeling means energy is released.", "Mixing up the meaning of the two terms."],
             examinerNote: "B1 for (d).",
           },

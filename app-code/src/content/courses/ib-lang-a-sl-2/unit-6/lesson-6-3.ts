@@ -168,7 +168,7 @@ export const lesson63: Lesson = {
               { reasoning: "The cycle converts experience into a principle applied next time.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Experience → reflection → conceptualisation → application",
+            finalAnswer: "**(c)** Experience → reflection → conceptualisation → application",
           },
         },
         {
@@ -194,7 +194,7 @@ export const lesson63: Lesson = {
               { reasoning: "Single events mislead; patterns across entries reveal real habits.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Patterns and habits become visible over time",
+            finalAnswer: "**(c)** Patterns and habits become visible over time",
           },
         },
         {
@@ -221,7 +221,7 @@ export const lesson63: Lesson = {
               { reasoning: "Reflection ends with a next step; self-criticism ends with a feeling.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Specific, analytical and forward-looking",
+            finalAnswer: "**(d)** Specific, analytical and forward-looking",
           },
         },
         {
@@ -248,7 +248,7 @@ export const lesson63: Lesson = {
               { reasoning: "A one-off fix or summary does not transfer.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A generalisable lesson applicable to future work",
+            finalAnswer: "**(d)** A generalisable lesson applicable to future work",
           },
         },
         {
@@ -274,7 +274,7 @@ export const lesson63: Lesson = {
               { reasoning: "Insight without action changes nothing.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A concrete action for the next attempt",
+            finalAnswer: "**(c)** A concrete action for the next attempt",
           },
         },
         {
@@ -596,7 +596,7 @@ export const lesson63: Lesson = {
               { reasoning: "Self-directed study loops goal-setting with monitored practice and adjustment.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Goal → resource → practice → feedback → adjust",
+            finalAnswer: "**(d)** Goal → resource → practice → feedback → adjust",
           },
         },
         {
@@ -622,7 +622,7 @@ export const lesson63: Lesson = {
               { reasoning: "Summaries are passive; quotes, questions and connections make reading active.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Quotes, questions and connections",
+            finalAnswer: "**(a)** Quotes, questions and connections",
           },
         },
         {
@@ -649,7 +649,7 @@ export const lesson63: Lesson = {
               { reasoning: "You adapt the method, not copy the content.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Exposes you to analytical language and critical perspectives",
+            finalAnswer: "**(d)** Exposes you to analytical language and critical perspectives",
           },
         },
         {
@@ -676,7 +676,7 @@ export const lesson63: Lesson = {
               { reasoning: "Comparing treatments of the same theme sharpens your own analysis.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Exposes you to varied techniques, voices and treatments of theme",
+            finalAnswer: "**(d)** Exposes you to varied techniques, voices and treatments of theme",
           },
         },
         {
@@ -702,7 +702,7 @@ export const lesson63: Lesson = {
               { reasoning: "Grades are outcomes; monitoring tracks the process toward them.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Tracking progress against goals and adjusting methods",
+            finalAnswer: "**(a)** Tracking progress against goals and adjusting methods",
           },
         },
         {
@@ -729,7 +729,7 @@ export const lesson63: Lesson = {
               { reasoning: "Self-marking against criteria builds independent judgement.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Reveal assessment criteria and mark-scheme expectations",
+            finalAnswer: "**(a)** Reveal assessment criteria and mark-scheme expectations",
           },
         },
         {

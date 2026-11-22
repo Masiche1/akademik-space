@@ -65,7 +65,7 @@ export const lesson13: Lesson = {
               { reasoning: "The common factor $x-3$ cancels, so its zero remains a domain restriction and creates a hole.", working: "R(x)=\\frac{1}{x+2},\\qquad x\\ne3,-2", marks: 1, markCode: "M" },
               { reasoning: "The factor $x+2$ remains in the denominator, so $x=-2$ is a vertical asymptote; choose (b).", working: "x+2=0\\implies x=-2", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Hole at $x=3$; vertical asymptote $x=-2$.",
+            finalAnswer: "**(d)** Hole at $x=3$; vertical asymptote $x=-2$.",
             commonErrors: ["Forgetting that cancellation does not restore the excluded input to the original domain."],
           },
         },
@@ -193,7 +193,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$y=3$" },
               { id: "d", text: "$x=0$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -204,7 +204,7 @@ export const lesson13: Lesson = {
               { reasoning: "The numerator has degree 1 and the denominator has degree 2.", working: "1<2", marks: 1, markCode: "M" },
               { reasoning: "The numerator degree is smaller, so the horizontal asymptote is $y=0$, choice (c).", working: "y=0", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $y=0$",
+            finalAnswer: "**(b)** $y=0$",
             commonErrors: ["Using the numerator's leading coefficient as the horizontal asymptote when the degrees are unequal."],
           },
         },

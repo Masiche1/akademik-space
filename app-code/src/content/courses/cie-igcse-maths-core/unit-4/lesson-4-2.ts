@@ -275,7 +275,7 @@ export const lesson42: Lesson = {
             { id: "b", text: "3, 4, 5" },
             { id: "c", text: "6, 8, 10" },
             { id: "d", text: "5, 12, 13" },
-          ], correctChoiceIa: "d" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "law", name: "Pythagoras", statement: "$a^2+b^2=c^2$." }],
             steps: [{ reasoning: "$7^2 + 8^2 = 113 \\neq 81 = 9^2$; the others all satisfy the theorem.", marks: 1, markCode: "A" }],

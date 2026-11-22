@@ -64,7 +64,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Chlorophyll is the green pigment found in chloroplasts, where photosynthesis takes place.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Chloroplast",
+            finalAnswer: "**(d)** Chloroplast",
             commonErrors: ["Choosing mitochondrion because it is linked to energy; mitochondria release energy in respiration, they do not carry out photosynthesis.", "Choosing the cell wall because it is also only found in plant cells."],
             examinerNote: "B1 for chloroplast.",
           },
@@ -185,7 +185,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "magnification = image size $-$ actual size" },
               { id: "d", text: "magnification = image size $\\div$ actual size" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -194,7 +194,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Magnification tells you how many times bigger the image is than the real object, so divide the image size by the actual size.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** magnification = image size $\\div$ actual size",
+            finalAnswer: "**(d)** magnification = image size $\\div$ actual size",
             commonErrors: ["Inverting the equation, which would give a number less than 1 for an enlarged image.", "Multiplying the two sizes together."],
             examinerNote: "B1 for image size divided by actual size.",
           },

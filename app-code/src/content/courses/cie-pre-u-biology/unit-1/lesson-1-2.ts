@@ -248,7 +248,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Lactose" },
               { id: "d", text: "Sucrose" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -364,7 +364,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "It is converted into a triglyceride" },
               { id: "d", text: "It is hydrolysed into its amino acid monomers" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -458,7 +458,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Cellulose" },
               { id: "d", text: "Glycogen" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

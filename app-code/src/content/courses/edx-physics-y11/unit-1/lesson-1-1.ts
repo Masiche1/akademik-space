@@ -68,7 +68,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Only (b) states that energy is neither created nor destroyed. Wasted energy is dissipated, not destroyed, and useful output is less than input in real machines.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(a)**",
             commonErrors: ["Thinking that energy is 'used up' (a).", "Confusing conservation of total energy with 100% efficiency (c)."],
             examinerNote: "B1 for (b).",
           },
@@ -200,7 +200,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$6\\text{ J}$" },
               { id: "d", text: "$30\\text{ J}$" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -209,7 +209,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Substitute $m = 2.0$, $g = 10$ and $\\Delta h = 3.0$.", working: "2.0 \\times 10 \\times 3.0 = 60\\text{ J}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** $60\\text{ J}$",
+            finalAnswer: "**(a)** $60\\text{ J}$",
             commonErrors: ["Forgetting $g$ and calculating $2.0 \\times 3.0 = 6\\text{ J}$ (a).", "Leaving out the height: $2.0 \\times 10 = 20\\text{ J}$ (b).", "Leaving out the mass: $10 \\times 3.0 = 30\\text{ J}$ (c)."],
             examinerNote: "B1 for (d).",
           },

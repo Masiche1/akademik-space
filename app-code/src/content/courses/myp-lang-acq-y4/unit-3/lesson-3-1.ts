@@ -66,7 +66,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Passive voice", statement: "Subject receives action; uses be + past participle." }],
             steps: [{ reasoning: "Criterion B: Reading — option b is passive.", working: "passive", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 'The report was written by the students.'",
+            finalAnswer: "**(a)** 'The report was written by the students.'",
             commonErrors: ["Choosing active sentences."],
             examinerNote: "B1 for (b).",
           },
@@ -177,7 +177,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'was cooked' is passive.", working: "passive", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'The meal was cooked by the chef.'",
+            finalAnswer: "**(d)** 'The meal was cooked by the chef.'",
             commonErrors: ["Choosing active sentences."],
             examinerNote: "B1 for (b).",
           },
@@ -204,7 +204,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'project' becomes subject; 'was completed' is passive.", working: "was completed", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** 'The project was completed by the students.'",
+            finalAnswer: "**(c)** 'The project was completed by the students.'",
             commonErrors: ["Wrong past participle or tense."],
             examinerNote: "D1 for (b).",
           },
@@ -292,7 +292,7 @@ export const lesson31: Lesson = {
               { reasoning: "Criterion B: Reading — 1: 'were cleaned' passive; 2: 'students cleaned' active; 3: 'are being cleaned' passive.", marks: 1, markCode: "B" },
               { reasoning: "Criterion B: Reading — correct pair identified.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Sentences 1 and 3",
+            finalAnswer: "**(c)** Sentences 1 and 3",
             commonErrors: ["Missing the continuous passive in 3."],
             examinerNote: "B2 for (b).",
           },
@@ -371,7 +371,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — future passive: 'will be tested'.", working: "will be tested", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** 'The new drug will be tested.'",
+            finalAnswer: "**(c)** 'The new drug will be tested.'",
             commonErrors: ["Wrong tense."],
             examinerNote: "D1 for (a).",
           },
@@ -395,7 +395,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Present simple" },
               { id: "d", text: "Future" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -405,7 +405,7 @@ export const lesson31: Lesson = {
               { reasoning: "Criterion B: Reading — 'have been analysed' = present perfect passive.", working: "present perfect", marks: 1, markCode: "B" },
               { reasoning: "Criterion B: Reading — 'been' + participle signals perfect aspect.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Present perfect",
+            finalAnswer: "**(a)** Present perfect",
             commonErrors: ["Confusing with past simple."],
             examinerNote: "B2 for (c).",
           },
@@ -465,7 +465,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — passive makes 'the cake' the focus.", working: "focus", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** To emphasise the cake rather than the children",
+            finalAnswer: "**(b)** To emphasise the cake rather than the children",
             commonErrors: ["Thinking passive is only for hiding the doer."],
             examinerNote: "B1 for (a).",
           },
@@ -554,7 +554,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "First conditional", statement: "If + present, will + base for real possibilities." }],
             steps: [{ reasoning: "Criterion B: Reading — option b is first conditional.", working: "first", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 'If it rains, we will cancel the trip.'",
+            finalAnswer: "**(a)** 'If it rains, we will cancel the trip.'",
             commonErrors: ["Choosing second conditional sentences."],
             examinerNote: "B1 for (b).",
           },
@@ -665,7 +665,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'had... would' = second conditional.", working: "second", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'If I had more time, I would study more.'",
+            finalAnswer: "**(d)** 'If I had more time, I would study more.'",
             commonErrors: ["Choosing first conditional sentences."],
             examinerNote: "B1 for (b).",
           },
@@ -692,7 +692,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — first conditional needs present simple 'studies'.", working: "studies", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** studies",
+            finalAnswer: "**(d)** studies",
             commonErrors: ["Using past or future in if-clause."],
             examinerNote: "D1 for (a).",
           },
@@ -770,7 +770,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "1. will study; 2. had" },
               { id: "d", text: "1. studies; 2. had" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -780,7 +780,7 @@ export const lesson31: Lesson = {
               { reasoning: "Criterion D: Writing — 1: 'studies' (first conditional, present); 2: 'had' (second conditional, past).", working: "studies/had", marks: 1, markCode: "D" },
               { reasoning: "Criterion D: Writing — both correct.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** 1. studies; 2. had",
+            finalAnswer: "**(d)** 1. studies; 2. had",
             commonErrors: ["Using 'will' in if-clause or 'have' in second conditional."],
             examinerNote: "D2 for (c).",
           },
@@ -893,7 +893,7 @@ export const lesson31: Lesson = {
               { reasoning: "Criterion B: Reading — 'would have passed' implies the exam is past and unreal.", marks: 1, markCode: "B" },
               { reasoning: "Criterion B: Reading — hypothetical situation → second conditional.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Because it describes an unreal or hypothetical past situation",
+            finalAnswer: "**(d)** Because it describes an unreal or hypothetical past situation",
             commonErrors: ["Thinking second conditional is only for future."],
             examinerNote: "B2 for (b).",
           },
@@ -953,7 +953,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'had studied / would have passed' = unreal past (second conditional used for past).", working: "unreal past", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It uses the second conditional for a past unreal situation",
+            finalAnswer: "**(d)** It uses the second conditional for a past unreal situation",
             commonErrors: ["Thinking it must be third conditional."],
             examinerNote: "B1 for (a).",
           },

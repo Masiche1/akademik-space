@@ -41,7 +41,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Presents processed data to the user" },
             { id: "d", text: "Stores data" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Output device", statement: "Presents data." }], steps: [{ reasoning: "Output = presents data.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Presents data" },
+          markscheme: { principles: [{ kind: "definition", name: "Output device", statement: "Presents data." }], steps: [{ reasoning: "Output = presents data.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Presents data" },
         },
         {
           id: "olict-u2-od-q2", difficulty: "core", totalMarks: 2,
@@ -96,7 +96,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Printer" },
             { id: "d", text: "Keyboard" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Output device", statement: "Presents data." }], steps: [{ reasoning: "Printer produces hard copy — output.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Printer" },
+          markscheme: { principles: [{ kind: "definition", name: "Output device", statement: "Presents data." }], steps: [{ reasoning: "Printer produces hard copy — output.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Printer" },
         },
         {
           id: "olict-u2-od-q6", difficulty: "core", totalMarks: 1,
@@ -156,7 +156,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Typing documents" },
             { id: "d", text: "Playing music" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Plotter", statement: "Large-format printing." }], steps: [{ reasoning: "Plotter prints large precise drawings.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Large-format engineering drawings" },
+          markscheme: { principles: [{ kind: "definition", name: "Plotter", statement: "Large-format printing." }], steps: [{ reasoning: "Plotter prints large precise drawings.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Large-format engineering drawings" },
         },
         {
           id: "olict-u2-od-q12", difficulty: "core", totalMarks: 1,
@@ -167,7 +167,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Screen reader with audio output" },
             { id: "d", text: "Projector" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Accessible output", statement: "Audio for visually impaired." }], steps: [{ reasoning: "Audio output suits visually impaired users.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Screen reader with audio output" },
+          markscheme: { principles: [{ kind: "principle", name: "Accessible output", statement: "Audio for visually impaired." }], steps: [{ reasoning: "Audio output suits visually impaired users.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Screen reader with audio output" },
         },
         {
           id: "olict-u2-od-q13", difficulty: "challenge", totalMarks: 3,
@@ -188,7 +188,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Plotter" },
             { id: "d", text: "Keyboard" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Output device", statement: "Presents data." }], steps: [{ reasoning: "Keyboard is an input device.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Keyboard" },
+          markscheme: { principles: [{ kind: "definition", name: "Output device", statement: "Presents data." }], steps: [{ reasoning: "Keyboard is an input device.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Keyboard" },
         },
         {
           id: "olict-u2-od-q15", difficulty: "challenge", totalMarks: 4,
@@ -253,7 +253,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Plotter" },
             { id: "d", text: "Speakers" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Device choice", statement: "Match output to audience." }], steps: [{ reasoning: "Projector for large screen.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Projector" },
+          markscheme: { principles: [{ kind: "principle", name: "Device choice", statement: "Match output to audience." }], steps: [{ reasoning: "Projector for large screen.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Projector" },
         },
         {
           id: "olict-u2-co-q2", difficulty: "core", totalMarks: 2,
@@ -320,7 +320,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "3D printer" },
             { id: "d", text: "Projector" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Accessible output", statement: "Audio for visually impaired." }], steps: [{ reasoning: "Audio output suits non-visual users.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Audio output" },
+          markscheme: { principles: [{ kind: "principle", name: "Accessible output", statement: "Audio for visually impaired." }], steps: [{ reasoning: "Audio output suits non-visual users.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Audio output" },
         },
         {
           id: "olict-u2-co-q7", difficulty: "foundation", totalMarks: 2,
@@ -369,7 +369,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Microphone" },
             { id: "d", text: "Speakers" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Device choice", statement: "Plotter for large drawings." }], steps: [{ reasoning: "Plotter handles large-format precise output.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Plotter" },
+          markscheme: { principles: [{ kind: "principle", name: "Device choice", statement: "Plotter for large drawings." }], steps: [{ reasoning: "Plotter handles large-format precise output.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Plotter" },
         },
         {
           id: "olict-u2-co-q12", difficulty: "challenge", totalMarks: 1,
@@ -380,7 +380,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Speakers or headphones" },
             { id: "d", text: "Plotter" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Device choice", statement: "Audio output for descriptions." }], steps: [{ reasoning: "Audio output devices produce sound.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Speakers or headphones" },
+          markscheme: { principles: [{ kind: "principle", name: "Device choice", statement: "Audio output for descriptions." }], steps: [{ reasoning: "Audio output devices produce sound.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Speakers or headphones" },
         },
         {
           id: "olict-u2-co-q13", difficulty: "challenge", totalMarks: 3,

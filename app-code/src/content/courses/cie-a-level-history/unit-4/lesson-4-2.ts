@@ -257,7 +257,7 @@ export const lesson642: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** US economic aid to rebuild Europe"
+          "finalAnswer": "**(c)** US economic aid to rebuild Europe"
 },
         },
         {
@@ -528,7 +528,7 @@ export const lesson642: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** The Soviet invasion of Afghanistan in 1979"
+          "finalAnswer": "**(b)** The Soviet invasion of Afghanistan in 1979"
 },
         },
         {
@@ -605,7 +605,7 @@ export const lesson642: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Reduced tension and negotiation"
+          "finalAnswer": "**(b)** Reduced tension and negotiation"
 },
         },
         {

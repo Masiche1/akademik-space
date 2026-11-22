@@ -222,7 +222,7 @@ export const lesson42: Lesson = {
               { id: "c", text: "x * 2" },
               { id: "d", text: "5" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -244,7 +244,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** 10",
+            finalAnswer: "**(b)** 10",
           },
         },
         {
@@ -344,7 +344,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** append()",
+            finalAnswer: "**(c)** append()",
           },
         },
         {

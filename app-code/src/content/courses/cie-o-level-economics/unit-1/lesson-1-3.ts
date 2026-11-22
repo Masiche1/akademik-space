@@ -41,7 +41,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "No prices" },
             { id: "d", text: "Decisions made by individuals and firms" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Free market", statement: "Individual decisions." }], steps: [{ reasoning: "Decentralised decisions.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Free market", statement: "Individual decisions." }], steps: [{ reasoning: "Decentralised decisions.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u1-es-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Market economy" },
             { id: "d", text: "Command economy" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Planned economy", statement: "Also called a command economy." }], steps: [{ reasoning: "Correct synonym.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Planned economy", statement: "Also called a command economy." }], steps: [{ reasoning: "Correct synonym.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u1-es-q6", difficulty: "foundation", totalMarks: 1,
@@ -109,7 +109,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "High inequality of wealth" },
             { id: "d", text: "Too much competition between firms" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Planned economy", statement: "Drawbacks." }], steps: [{ reasoning: "Inefficiency and no choice are key drawbacks.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Planned economy", statement: "Drawbacks." }], steps: [{ reasoning: "Inefficiency and no choice are key drawbacks.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u1-es-q7", difficulty: "core", totalMarks: 1,
@@ -120,7 +120,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "John Maynard Keynes" },
             { id: "d", text: "Milton Friedman" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Invisible hand", statement: "Adam Smith." }], steps: [{ reasoning: "Smith's idea of self-interest benefiting society.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Invisible hand", statement: "Adam Smith." }], steps: [{ reasoning: "Smith's idea of self-interest benefiting society.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u1-es-q8", difficulty: "core", totalMarks: 1,
@@ -131,7 +131,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "An economy fully controlled by government" },
             { id: "d", text: "An economy based only on exports" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Mixed economy", statement: "Market + government." }], steps: [{ reasoning: "Combines both systems.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Mixed economy", statement: "Market + government." }], steps: [{ reasoning: "Combines both systems.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u1-es-q9", difficulty: "challenge", totalMarks: 1,
@@ -142,7 +142,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Mixed economies have no prices at all" },
             { id: "d", text: "Most real economies are mixed economies" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Economic systems", statement: "Real-world systems." }], steps: [{ reasoning: "Nearly all economies combine market and government roles.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Economic systems", statement: "Real-world systems." }], steps: [{ reasoning: "Nearly all economies combine market and government roles.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u1-es-q10", difficulty: "foundation", totalMarks: 1,
@@ -255,7 +255,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Rationing, incentive and signalling device" },
             { id: "d", text: "Only a tax" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Price mechanism", statement: "Three functions." }], steps: [{ reasoning: "Rationing/incentive/signalling.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Price mechanism", statement: "Three functions." }], steps: [{ reasoning: "Rationing/incentive/signalling.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u1-pm-q2", difficulty: "core", totalMarks: 2,
@@ -311,7 +311,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Prices guarantee profits" },
             { id: "d", text: "Prices eliminate all shortages" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Rationing", statement: "Prices limit demand." }], steps: [{ reasoning: "High prices ration scarce goods to those who can pay.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Rationing", statement: "Prices limit demand." }], steps: [{ reasoning: "High prices ration scarce goods to those who can pay.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u1-pm-q6", difficulty: "foundation", totalMarks: 1,
@@ -322,7 +322,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Prices remove the need for profits" },
             { id: "d", text: "Low prices increase demand" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Incentive function", statement: "Encourages supply." }], steps: [{ reasoning: "Profit motive rewards higher prices.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Incentive function", statement: "Encourages supply." }], steps: [{ reasoning: "Profit motive rewards higher prices.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u1-pm-q7", difficulty: "core", totalMarks: 1,
@@ -343,8 +343,8 @@ export const lesson13: Lesson = {
             { id: "b", text: "Setting wages for all workers directly" },
             { id: "c", text: "Providing incentives to producers" },
             { id: "d", text: "Rationing scarce goods" },
-          ], correctChoiceIb: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Price mechanism", statement: "Three functions only." }], steps: [{ reasoning: "The three functions are rationing, incentive and signalling — not wage-setting.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "definition", name: "Price mechanism", statement: "Three functions only." }], steps: [{ reasoning: "The three functions are rationing, incentive and signalling — not wage-setting.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u1-pm-q9", difficulty: "challenge", totalMarks: 1,
@@ -355,7 +355,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "A failure of the price mechanism" },
             { id: "d", text: "A signal of increased scarcity" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Signalling", statement: "Price communicates scarcity." }], steps: [{ reasoning: "Higher price signals that the good is now scarcer.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Signalling", statement: "Price communicates scarcity." }], steps: [{ reasoning: "Higher price signals that the good is now scarcer.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u1-pm-q10", difficulty: "foundation", totalMarks: 1,

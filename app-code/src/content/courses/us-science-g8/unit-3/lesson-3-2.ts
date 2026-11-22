@@ -64,7 +64,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The same bone pattern with different functions points to inheritance from a common ancestor.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** They were inherited from a common ancestor.",
+            finalAnswer: "**(a)** They were inherited from a common ancestor.",
             commonErrors: ["Choosing (a): the limbs have different functions (grasping, flying, swimming).", "Choosing (d): traits gained during life are not inherited."],
             examinerNote: "B1 for (b).",
           },
@@ -186,7 +186,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Only artificial selection involves genetic variation." },
               { id: "d", text: "In natural selection, individuals change their traits on purpose." },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -195,7 +195,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The selecting agent is the environment in natural selection and humans in artificial selection.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** In natural selection the environment selects, and in artificial selection humans select.",
+            finalAnswer: "**(a)** In natural selection the environment selects, and in artificial selection humans select.",
             commonErrors: ["Choosing (a): organisms do not change on purpose; variation exists already.", "Choosing (d): both processes need variation."],
             examinerNote: "B1 for (c).",
           },

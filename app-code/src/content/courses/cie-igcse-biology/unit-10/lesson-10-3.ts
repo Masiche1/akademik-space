@@ -163,7 +163,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall what biomass measures.", working: "\\text{dry mass}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The dry mass of organisms at each trophic level",
+            finalAnswer: "**(b)** The dry mass of organisms at each trophic level",
             commonErrors: ["Confusing biomass with numbers — biomass measures mass, not count."],
           },
         },
@@ -189,7 +189,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall the measurement.", working: "\\text{count of organisms}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The number of individual organisms at each trophic level",
+            finalAnswer: "**(d)** The number of individual organisms at each trophic level",
             commonErrors: ["Choosing biomass — that is dry mass, not count."],
           },
         },
@@ -215,7 +215,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Give the mechanism.", working: "\\text{one tree} \\to \\text{many insects}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** One large producer can support many small consumers",
+            finalAnswer: "**(b)** One large producer can support many small consumers",
             commonErrors: ["Applying the 10% energy rule to numbers — counts can invert even though energy cannot."],
           },
         },
@@ -232,7 +232,7 @@ export const lesson103: Lesson = {
               { id: "c", text: "Pyramid of energy" },
               { id: "d", text: "No pyramid can be inverted" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -241,7 +241,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall which pyramids invert.", working: "\\text{numbers + biomass invert}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** Both numbers and biomass pyramids",
+            finalAnswer: "**(b)** Both numbers and biomass pyramids",
             commonErrors: ["Choosing energy — it always narrows upward due to ~10% transfer."],
           },
         },
@@ -267,7 +267,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Energy enters at producer level.", working: "\\text{producers} = \\text{max energy}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Producers",
+            finalAnswer: "**(c)** Producers",
             commonErrors: ["Choosing top predators — they receive the least energy."],
           },
         },
@@ -293,7 +293,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall the phase description.", working: "\\text{slow growth, adaptation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Growth is slow while organisms adapt to the new environment",
+            finalAnswer: "**(c)** Growth is slow while organisms adapt to the new environment",
             commonErrors: ["Confusing lag with log phase — log is the rapid growth phase."],
           },
         },
@@ -476,7 +476,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{max population}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Maximum population size the environment can sustain",
+            finalAnswer: "**(c)** Maximum population size the environment can sustain",
             commonErrors: ["Confusing with population size — it's the limit."],
           },
         },
@@ -570,7 +570,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Recall the phase description.", working: "\\text{rapid growth}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Growth is fastest while resources are abundant",
+            finalAnswer: "**(d)** Growth is fastest while resources are abundant",
             commonErrors: ["Confusing log with lag — lag is the slow adaptation phase."],
           },
         },
@@ -727,7 +727,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Identify the living factor.", working: "\\text{competition = biotic}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Competition for food",
+            finalAnswer: "**(c)** Competition for food",
             commonErrors: ["Choosing light or pH — those are abiotic."],
           },
         },

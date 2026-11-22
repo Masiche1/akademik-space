@@ -95,7 +95,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Decoding", statement: "'Wherefore' means 'why'; Juliet is asking why he is a Montague, not where he is." }],
             steps: [{ reasoning: "Juliet asks why he must be Romeo (a Montague, her family's enemy).", evidence: "wherefore art thou Romeo", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Why.",
+            finalAnswer: "**(d)** Why.",
             commonErrors: ["Choosing 'where' as it looks similar; Juliet knows he is below her window."],
           },
         },
@@ -220,7 +220,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Dramatic irony", statement: "The audience knows the ending." }],
             steps: [{ reasoning: "'Take their life' means the lovers will end their own lives.", evidence: "A pair of star-cross'd lovers take their life", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** That the lovers will die.",
+            finalAnswer: "**(a)** That the lovers will die.",
             commonErrors: ["Reading 'take their life' as 'begin their life'."],
           },
         },

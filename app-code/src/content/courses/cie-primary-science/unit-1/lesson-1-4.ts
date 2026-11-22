@@ -224,7 +224,7 @@ export const lesson14: Lesson = {
             { id: "b", text: "Hide the results" },
             { id: "c", text: "Stop investigating forever" },
             { id: "d", text: "Change the results to match" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Investigations", statement: "Honest reporting is key." }],
             steps: [{ reasoning: "Report honestly; unexpected results are still useful evidence.", marks: 1, markCode: "A" }],

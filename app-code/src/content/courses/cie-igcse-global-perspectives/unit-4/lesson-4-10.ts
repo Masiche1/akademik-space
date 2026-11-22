@@ -99,7 +99,7 @@ export const lesson410: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Long-form evaluation",
+            finalAnswer: "**(d)** Long-form evaluation",
             commonErrors: ["Confusing with essay writing."],
           },
         },
@@ -424,7 +424,7 @@ export const lesson410: Lesson = {
             steps: [
               { reasoning: "The five-part extended answer frame.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Define→for→against→complicating→judgement",
+            finalAnswer: "**(b)** Define→for→against→complicating→judgement",
             commonErrors: ["Omitting the complicating-factors paragraph."],
           },
         },
@@ -949,7 +949,7 @@ export const lesson410: Lesson = {
             steps: [
               { reasoning: "Completing all parts maximises marks.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Complete all parts over perfecting one",
+            finalAnswer: "**(b)** Complete all parts over perfecting one",
             commonErrors: ["Over-investing time in a single question."],
           },
         },

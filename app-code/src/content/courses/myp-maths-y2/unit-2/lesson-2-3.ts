@@ -191,7 +191,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Find the mean of the coordinates.", working: "\\left(\\frac{2+6}{2},\\frac{4+8}{2}\\right)=(4,6)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(4,6)$",
+            finalAnswer: "**(c)** $(4,6)$",
             commonErrors: ["Adding without halving, giving $(8,12)$."],
             examinerNote: "B1 for choice (a).",
           },
@@ -218,7 +218,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Negative $x$ means left of the $y$-axis; positive $y$ means above the $x$-axis.", working: "x<0,\\ y>0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The second quadrant",
+            finalAnswer: "**(c)** The second quadrant",
             commonErrors: ["Choosing the third quadrant by forgetting the $y$-coordinate is positive."],
             examinerNote: "B1 for choice (b).",
           },
@@ -286,7 +286,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "$(2,5)$" },
               { id: "d", text: "$(3,6)$" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -295,7 +295,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Test each point: $(0,1)$ gives $y=2(0)+1=1$, which matches. $(1,2)$ gives 3, not 2.", working: "2(0)+1=1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** $(0,1)$",
+            finalAnswer: "**(a)** $(0,1)$",
             commonErrors: ["Choosing (c), which satisfies $y=2x$ not $y=2x+1$."],
             examinerNote: "B1 for choice (d).",
           },
@@ -548,7 +548,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Change in $y$ is $8-2=6$ and change in $x$ is $3-1=2$.", working: "m=\\frac{6}{2}=3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3$",
+            finalAnswer: "**(c)** $3$",
             commonErrors: ["Inverting the fraction, giving $\\frac{1}{3}$.", "Adding the differences, giving 5 style answers.", "Subtracting in different orders, giving $-3$."],
             examinerNote: "B1 for 3.",
           },
@@ -669,7 +669,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Change in $y$ is $5-1=4$ and change in $x$ is $2-0=2$.", working: "m=\\frac{4}{2}=2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2$",
+            finalAnswer: "**(c)** $2$",
             commonErrors: ["Inverting the fraction, giving $\\frac{1}{2}$."],
             examinerNote: "B1 for choice (a).",
           },
@@ -696,7 +696,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "When $x=0$, $y=3(0)-4=-4$.", working: "y=-4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $-4$",
+            finalAnswer: "**(d)** $-4$",
             commonErrors: ["Choosing 3, the gradient, not the intercept."],
             examinerNote: "B1 for choice (b).",
           },
@@ -768,7 +768,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Test each point: $(1,3)$ gives $y=1+2=3$, which matches.", working: "1+2=3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(1,3)$",
+            finalAnswer: "**(d)** $(1,3)$",
             commonErrors: ["Choosing (c), which satisfies $y=x$."],
             examinerNote: "B1 for choice (a).",
           },
@@ -835,7 +835,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "For a horizontal line $y$ does not change, so $\\frac{\\Delta y}{\\Delta x}=0$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $0$",
+            finalAnswer: "**(c)** $0$",
             commonErrors: ["Confusing horizontal with vertical lines (undefined gradient)."],
             examinerNote: "B1 for choice (b).",
           },

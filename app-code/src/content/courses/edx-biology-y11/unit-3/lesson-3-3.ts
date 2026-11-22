@@ -68,7 +68,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Fusarium is the fungus used. Lactobacillus makes yoghurt, yeast makes bread and alcohol, and Rhizobium fixes nitrogen.", working: "\\text{Fusarium}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Fusarium",
+            finalAnswer: "**(c)** Fusarium",
             commonErrors: ["Choosing Lactobacillus, which is used to make yoghurt.", "Choosing yeast, which is used for bread and ethanol."],
             examinerNote: "B1 for Fusarium.",
           },
@@ -201,7 +201,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Protease" },
               { id: "d", text: "Restriction enzyme" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -210,7 +210,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Restriction enzymes cut DNA. Ligase does the opposite job, joining the gene into the plasmid.", working: "\\text{restriction enzyme}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Restriction enzyme",
+            finalAnswer: "**(d)** Restriction enzyme",
             commonErrors: ["Choosing DNA ligase, which joins DNA rather than cutting it."],
             examinerNote: "B1 for restriction enzyme.",
           },

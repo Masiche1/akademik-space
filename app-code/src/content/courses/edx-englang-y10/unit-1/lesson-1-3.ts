@@ -85,7 +85,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Identifying a similarity", statement: "Check each statement against both texts." }],
             steps: [{ reasoning: "Text A values the work; Text B calls workers ‘most dedicated colleagues’, so both respect them.", evidence: "our most dedicated colleagues", marks: 1, markCode: "AO3" }],
-            finalAnswer: "**(b)** Both respect night workers.",
+            finalAnswer: "**(c)** Both respect night workers.",
             commonErrors: ["Choosing (a): only Text A uses first person singular.", "Choosing (c): only Text B refers to studies."],
           },
         },
@@ -224,7 +224,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Comparative thesis", statement: "A thesis states an overall similarity and difference in viewpoint." }],
             steps: [{ reasoning: "Option (b) links both texts and states a similarity and a difference.", marks: 1, markCode: "AO3" }],
-            finalAnswer: "**(b)** It compares the writers' overall views.",
+            finalAnswer: "**(d)** It compares the writers' overall views.",
             commonErrors: ["Choosing (a), which only states form.", "Choosing (c), which is not comparative."],
           },
         },

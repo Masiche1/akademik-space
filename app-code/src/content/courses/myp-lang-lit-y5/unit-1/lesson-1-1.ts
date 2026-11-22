@@ -64,7 +64,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Free indirect discourse", statement: "Third-person narration adopting character's voice/thoughts." }],
             steps: [{ reasoning: "Criterion A (Analysing): free indirect = third person + character voice — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Third-person narration adopting a character's voice and thoughts",
+            finalAnswer: "**(d)** Third-person narration adopting a character's voice and thoughts",
           },
         },
         {
@@ -149,7 +149,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "First person", statement: "Narrator is a character — 'I', 'me', 'my'." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'I ran', 'I didn't know' — narrator is inside the story — (a).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** First person — the narrator is a character using 'I'",
+            finalAnswer: "**(b)** First person — the narrator is a character using 'I'",
           },
         },
         {
@@ -190,7 +190,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Perspective effects", statement: "First person = intimate, subjective, limited knowledge." }],
             steps: [{ reasoning: "Criterion A (Analysing): first person gives intimacy but limits knowledge to 'I' — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** To create intimacy and subjectivity, limited to one character's knowledge",
+            finalAnswer: "**(d)** To create intimacy and subjectivity, limited to one character's knowledge",
           },
         },
         {
@@ -299,7 +299,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Omniscient", statement: "God-like narrator who knows all thoughts and events." }],
             steps: [{ reasoning: "Criterion A (Analysing): omniscient = knows everything — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Everything — all characters' thoughts and all events, past and future",
+            finalAnswer: "**(d)** Everything — all characters' thoughts and all events, past and future",
           },
         },
         {
@@ -368,7 +368,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Free indirect discourse", statement: "Third-person narration coloured by a character's thoughts and voice." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'she wouldn't admit it' reads like her private thought in third person — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Free indirect discourse — third person adopting a character's unspoken thoughts",
+            finalAnswer: "**(d)** Free indirect discourse — third person adopting a character's unspoken thoughts",
           },
         },
         {
@@ -527,7 +527,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Diction", statement: "Diction = word choice." }],
             steps: [{ reasoning: "Criterion D (Using language): diction = word choice — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** Word choice",
+            finalAnswer: "**(a)** Word choice",
           },
         },
         {
@@ -620,7 +620,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Register and diction", statement: "Formal vs colloquial diction creates different voices." }],
             steps: [{ reasoning: "Criterion D (Using language): B uses colloquial 'mad scene' — informal voice — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** Version B — 'mad scene', 'what a' are colloquial",
+            finalAnswer: "**(d)** Version B — 'mad scene', 'what a' are colloquial",
           },
         },
         {
@@ -681,7 +681,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Formal register", statement: "Formal language is precise, impersonal and follows conventions." }],
             steps: [{ reasoning: "Criterion D (Using language): 'I am going to purchase' — formal verbs, no contractions — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** 'I am going to purchase a meal.'",
+            finalAnswer: "**(a)** 'I am going to purchase a meal.'",
           },
         },
         {
@@ -750,7 +750,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Tone analysis", statement: "Formal register can still carry strong emotion." }],
             steps: [{ reasoning: "Criterion A (Analysing): formal structure ('Dear Sir') + 'utter disappointment' = formal but angry — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Formal but angry — 'utter disappointment' is a strong negative judgement",
+            finalAnswer: "**(c)** Formal but angry — 'utter disappointment' is a strong negative judgement",
           },
         },
         {

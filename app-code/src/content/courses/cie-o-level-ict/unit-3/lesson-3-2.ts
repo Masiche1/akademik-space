@@ -42,7 +42,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Connect different networks" },
             { id: "d", text: "Print documents" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Router", statement: "Connects networks." }], steps: [{ reasoning: "Router connects networks.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Connect networks" },
+          markscheme: { principles: [{ kind: "definition", name: "Router", statement: "Connects networks." }], steps: [{ reasoning: "Router connects networks.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Connect networks" },
         },
         {
           id: "olict-u3-hw-q2", difficulty: "core", totalMarks: 2,
@@ -108,7 +108,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Only to the intended device" },
             { id: "d", text: "To all devices" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Switch", statement: "Directs traffic." }], steps: [{ reasoning: "Switch sends data only to the recipient.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Only to the intended device" },
+          markscheme: { principles: [{ kind: "definition", name: "Switch", statement: "Directs traffic." }], steps: [{ reasoning: "Switch sends data only to the recipient.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Only to the intended device" },
         },
         {
           id: "olict-u3-hw-q7", difficulty: "foundation", totalMarks: 2,
@@ -128,7 +128,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Copper cable" },
             { id: "d", text: "USB cable" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Wireless", statement: "Radio waves." }], steps: [{ reasoning: "Wi-Fi uses radio waves.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Radio waves (Wi-Fi)" },
+          markscheme: { principles: [{ kind: "definition", name: "Wireless", statement: "Radio waves." }], steps: [{ reasoning: "Wi-Fi uses radio waves.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Radio waves (Wi-Fi)" },
         },
         {
           id: "olict-u3-hw-q9", difficulty: "core", totalMarks: 2,
@@ -159,7 +159,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Only the server" },
             { id: "d", text: "The internet" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Hub", statement: "Broadcasts to all." }], steps: [{ reasoning: "Hub sends data to every device.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** All connected devices" },
+          markscheme: { principles: [{ kind: "definition", name: "Hub", statement: "Broadcasts to all." }], steps: [{ reasoning: "Hub sends data to every device.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** All connected devices" },
         },
         {
           id: "olict-u3-hw-q12", difficulty: "core", totalMarks: 2,
@@ -255,7 +255,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Nothing — standalone" },
             { id: "d", text: "A central device" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Star", statement: "Central connection." }], steps: [{ reasoning: "Star = central.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Central device" },
+          markscheme: { principles: [{ kind: "definition", name: "Star", statement: "Central connection." }], steps: [{ reasoning: "Star = central.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Central device" },
         },
         {
           id: "olict-u3-tp-q2", difficulty: "core", totalMarks: 2,
@@ -310,7 +310,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Separate cables to each device" },
             { id: "d", text: "One backbone cable" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Bus", statement: "Shared cable." }], steps: [{ reasoning: "Bus = one shared backbone cable.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** One backbone cable" },
+          markscheme: { principles: [{ kind: "definition", name: "Bus", statement: "Shared cable." }], steps: [{ reasoning: "Bus = one shared backbone cable.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** One backbone cable" },
         },
         {
           id: "olict-u3-tp-q6", difficulty: "core", totalMarks: 1,
@@ -321,7 +321,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Nothing changes" },
             { id: "d", text: "The network becomes faster" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Bus weakness", statement: "Single point of failure." }], steps: [{ reasoning: "All devices depend on the one cable.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** The whole network fails" },
+          markscheme: { principles: [{ kind: "principle", name: "Bus weakness", statement: "Single point of failure." }], steps: [{ reasoning: "All devices depend on the one cable.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** The whole network fails" },
         },
         {
           id: "olict-u3-tp-q7", difficulty: "foundation", totalMarks: 2,
@@ -341,7 +341,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Star" },
             { id: "d", text: "Modem" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Topology", statement: "Layout of connections." }], steps: [{ reasoning: "Star is a topology; others are hardware/media.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Star" },
+          markscheme: { principles: [{ kind: "definition", name: "Topology", statement: "Layout of connections." }], steps: [{ reasoning: "Star is a topology; others are hardware/media.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Star" },
         },
         {
           id: "olict-u3-tp-q9", difficulty: "core", totalMarks: 2,
@@ -372,7 +372,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Bus" },
             { id: "d", text: "Ring" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Star", statement: "Most common layout." }], steps: [{ reasoning: "Star is standard for reliability.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Star" },
+          markscheme: { principles: [{ kind: "principle", name: "Star", statement: "Most common layout." }], steps: [{ reasoning: "Star is standard for reliability.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Star" },
         },
         {
           id: "olict-u3-tp-q12", difficulty: "core", totalMarks: 1,
@@ -383,7 +383,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Around a loop from device to device" },
             { id: "d", text: "Directly to the internet" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Ring", statement: "Loop of connections." }], steps: [{ reasoning: "Ring = data circulates around the loop.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Around a loop from device to device" },
+          markscheme: { principles: [{ kind: "definition", name: "Ring", statement: "Loop of connections." }], steps: [{ reasoning: "Ring = data circulates around the loop.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Around a loop from device to device" },
         },
         {
           id: "olict-u3-tp-q13", difficulty: "challenge", totalMarks: 2,
@@ -403,7 +403,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "It cannot fail" },
             { id: "d", text: "It needs no cables" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Star advantage", statement: "Fault isolation." }], steps: [{ reasoning: "Star isolates cable faults.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A cable fault affects only one device" },
+          markscheme: { principles: [{ kind: "principle", name: "Star advantage", statement: "Fault isolation." }], steps: [{ reasoning: "Star isolates cable faults.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** A cable fault affects only one device" },
         },
         {
           id: "olict-u3-tp-q15", difficulty: "challenge", totalMarks: 4,

@@ -67,7 +67,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): a newspaper report presents real events — non-fiction — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A newspaper report about a local event",
+            finalAnswer: "**(c)** A newspaper report about a local event",
           },
         },
         {
@@ -162,7 +162,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): a short story about a dragon is invented — fiction — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A short story about a dragon who learns to fly",
+            finalAnswer: "**(a)** A short story about a dragon who learns to fly",
           },
         },
         {
@@ -217,7 +217,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): Text A has a named character ('Priya') feeling fear — invented experience — fiction — (a).", evidence: "Priya counted the seconds", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Text A — a named character experiencing an invented moment",
+            finalAnswer: "**(b)** Text A — a named character experiencing an invented moment",
           },
         },
         {
@@ -242,7 +242,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): the novel is fiction (invented characters/scenes); the memoir is non-fiction (documented experience) — readers must check invented vs verifiable — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The novel is fiction — invented characters and scenes; the memoir is non-fiction — documented real experience",
+            finalAnswer: "**(a)** The novel is fiction — invented characters and scenes; the memoir is non-fiction — documented real experience",
           },
         },
         {
@@ -341,7 +341,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): sources and dates are verifiable — the strongest non-fiction signal — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It cites a source and gives dates",
+            finalAnswer: "**(d)** It cites a source and gives dates",
           },
         },
         {
@@ -389,7 +389,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "A fantasy novel" },
               { id: "d", text: "A comic book" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -398,7 +398,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): a memoir is non-fiction (real events) but can use literary craft — both — (c).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** A memoir written with vivid imagery and careful craft",
+            finalAnswer: "**(a)** A memoir written with vivid imagery and careful craft",
           },
         },
         {
@@ -423,7 +423,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): the podcast survivor recounts real, checkable experience — non-fiction — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A podcast interview with a flood survivor",
+            finalAnswer: "**(a)** A podcast interview with a flood survivor",
           },
         },
         {
@@ -508,7 +508,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): headline + factual reporting = article conventions — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A headline and factual reporting",
+            finalAnswer: "**(c)** A headline and factual reporting",
           },
         },
         {
@@ -633,7 +633,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): subheadings, quotations and attribution are report/article conventions — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Subheadings, quotations and attributed facts",
+            finalAnswer: "**(c)** Subheadings, quotations and attributed facts",
           },
         },
         {
@@ -693,7 +693,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'Tired of slow mornings?' is a rhetorical question; 'rocket fuel' is a metaphor and 'unstoppable' is hyperbole — they grab attention and exaggerate — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Rhetorical question and metaphor/hyperbole — they grab attention and exaggerate the product's power",
+            finalAnswer: "**(a)** Rhetorical question and metaphor/hyperbole — they grab attention and exaggerate the product's power",
           },
         },
         {
@@ -879,7 +879,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'go to bed hungry' is imagery — it creates a vivid, uncomfortable picture — (b).", evidence: "go to bed hungry", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Imagery that creates an emotional picture",
+            finalAnswer: "**(d)** Imagery that creates an emotional picture",
           },
         },
         {

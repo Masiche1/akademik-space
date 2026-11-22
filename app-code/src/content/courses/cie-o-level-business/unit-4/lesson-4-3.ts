@@ -41,7 +41,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Rumours" },
             { id: "d", text: "Reports and official meetings" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Formal communication", statement: "Official channels." }], steps: [{ reasoning: "Official methods.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Formal communication", statement: "Official channels." }], steps: [{ reasoning: "Official methods.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u4-comm-q2", difficulty: "core", totalMarks: 2,
@@ -96,7 +96,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Official company reports" },
             { id: "d", text: "An informal network of rumours and news" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Grapevine", statement: "Informal network." }], steps: [{ reasoning: "Grapevine = informal rumour/news network.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Grapevine", statement: "Informal network." }], steps: [{ reasoning: "Grapevine = informal rumour/news network.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u4-comm-q6", difficulty: "core", totalMarks: 1,
@@ -107,7 +107,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Rumours" },
             { id: "d", text: "A written report to management" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Formal communication", statement: "Official channels." }], steps: [{ reasoning: "Reports follow official channels = formal.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Formal communication", statement: "Official channels." }], steps: [{ reasoning: "Reports follow official channels = formal.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u4-comm-q7", difficulty: "foundation", totalMarks: 1,
@@ -191,7 +191,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "It is always documented" },
             { id: "d", text: "Rumours may spread inaccurately and quickly" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Grapevine", statement: "Risks of informal." }], steps: [{ reasoning: "Rumours spread fast and inaccurately.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Grapevine", statement: "Risks of informal." }], steps: [{ reasoning: "Rumours spread fast and inaccurately.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u4-comm-q15", difficulty: "core", totalMarks: 2,
@@ -254,7 +254,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Shared ideas and higher morale" },
             { id: "d", text: "Less work for everyone" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Teamwork", statement: "Collaboration benefits." }], steps: [{ reasoning: "Shared effort/ideas.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Teamwork", statement: "Collaboration benefits." }], steps: [{ reasoning: "Shared effort/ideas.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u4-tw-q2", difficulty: "core", totalMarks: 2,
@@ -309,7 +309,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Impossible to manage" },
             { id: "d", text: "A disagreement between individuals or groups" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Conflict", statement: "Disagreement." }], steps: [{ reasoning: "Conflict = disagreement between people/groups.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Conflict", statement: "Disagreement." }], steps: [{ reasoning: "Conflict = disagreement between people/groups.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u4-tw-q6", difficulty: "core", totalMarks: 1,
@@ -320,7 +320,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Blame one person" },
             { id: "d", text: "Listen to both sides and focus on issues" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Conflict management", statement: "Resolution." }], steps: [{ reasoning: "Listening and focusing on issues resolves conflict.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Conflict management", statement: "Resolution." }], steps: [{ reasoning: "Listening and focusing on issues resolves conflict.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u4-tw-q7", difficulty: "foundation", totalMarks: 1,
@@ -331,7 +331,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Less accountability" },
             { id: "d", text: "Lower morale" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Teamwork", statement: "Collaboration benefits." }], steps: [{ reasoning: "Teamwork shares ideas and divides labour.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Teamwork", statement: "Collaboration benefits." }], steps: [{ reasoning: "Teamwork shares ideas and divides labour.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u4-tw-q8", difficulty: "core", totalMarks: 2,
@@ -384,7 +384,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Reduced need for communication" },
             { id: "d", text: "Higher morale" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Teamwork", statement: "Benefits." }], steps: [{ reasoning: "Teamwork needs MORE communication, not less.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Reduced need for communication" },
+          markscheme: { principles: [{ kind: "principle", name: "Teamwork", statement: "Benefits." }], steps: [{ reasoning: "Teamwork needs MORE communication, not less.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Reduced need for communication" },
         },
         {
           id: "olbus-u4-tw-q13", difficulty: "core", totalMarks: 2,
@@ -404,7 +404,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Clear goals, roles and trust" },
             { id: "d", text: "No leadership" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Team building", statement: "Foundations." }], steps: [{ reasoning: "Teams need goals, roles and trust.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Team building", statement: "Foundations." }], steps: [{ reasoning: "Teams need goals, roles and trust.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u4-tw-q15", difficulty: "core", totalMarks: 2,

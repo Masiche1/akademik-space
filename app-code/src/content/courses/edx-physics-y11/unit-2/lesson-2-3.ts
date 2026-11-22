@@ -213,7 +213,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Burning fossil fuels releases $\\text{CO}_2$, a greenhouse gas. They are reliable and non-renewable, and radioactive waste is from nuclear power.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** They release carbon dioxide, which contributes to global warming.",
+            finalAnswer: "**(d)** They release carbon dioxide, which contributes to global warming.",
             commonErrors: ["Choosing (a); fossil fuel stations can respond quickly to demand.", "Choosing (d), mixing up fossil fuels with nuclear fuel."],
             examinerNote: "B1 for (b).",
           },

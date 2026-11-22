@@ -182,7 +182,7 @@ export const lesson612: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Moderator", statement: "Moderator (water/graphite) slows neutrons without absorbing them." }],
             steps: [{ reasoning: "Moderator reduces neutron KE → thermal neutrons → more likely to cause fission.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** slow neutrons to thermal energies",
+            finalAnswer: "**(d)** slow neutrons to thermal energies",
           },
         },
         {
@@ -242,7 +242,7 @@ export const lesson612: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Control rods", statement: "Neutron absorbers (Cd, B) regulate the chain reaction." }],
             steps: [{ reasoning: "Cadmium/boron absorb neutrons strongly.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** cadmium or boron",
+            finalAnswer: "**(a)** cadmium or boron",
           },
         },
         {
@@ -282,7 +282,7 @@ export const lesson612: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Critical mass", statement: "Minimum fuel mass for self-sustaining chain reaction." }],
             steps: [{ reasoning: "Critical mass → enough neutrons retained to sustain reaction.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** minimum mass for self-sustaining chain reaction",
+            finalAnswer: "**(c)** minimum mass for self-sustaining chain reaction",
           },
         },
         {
@@ -493,7 +493,7 @@ export const lesson612: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Fusion energy", statement: "D–T fusion releases ~17.6 MeV per reaction." }],
             steps: [{ reasoning: "17.6 MeV per D–T fusion.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** $17.6\\ MeV$",
+            finalAnswer: "**(c)** $17.6\\ MeV$",
           },
         },
         {
@@ -533,7 +533,7 @@ export const lesson612: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Stellar fusion", statement: "Stars fuse hydrogen into helium, releasing the energy that powers them." }],
             steps: [{ reasoning: "Fusion powers stars — gravitational confinement provides the extreme conditions.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** cores of stars",
+            finalAnswer: "**(a)** cores of stars",
           },
         },
         {
@@ -630,7 +630,7 @@ export const lesson612: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Mass defect", statement: "Nucleus mass < sum of free nucleon masses; difference = mass defect." }],
             steps: [{ reasoning: "Missing mass = binding energy ($E = \\Delta m c^2$).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** less than the sum of nucleon masses",
+            finalAnswer: "**(a)** less than the sum of nucleon masses",
           },
         },
         {
@@ -687,7 +687,7 @@ export const lesson612: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Binding energy", statement: "Energy released = increase in binding energy ($\\Delta m c^2$)." }],
             steps: [{ reasoning: "Higher binding energy per nucleon → more stable → energy released.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** higher binding energy per nucleon",
+            finalAnswer: "**(d)** higher binding energy per nucleon",
           },
         },
         {

@@ -68,7 +68,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): the setting describes where and when events take place, so (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The place and time where the story happens",
+            finalAnswer: "**(c)** The place and time where the story happens",
           },
         },
         {
@@ -155,7 +155,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Setting clues", statement: "Setting is the place and time named in the text." }],
             steps: [{ reasoning: "Criterion A (Analysing): the place is a lighthouse on a cliff above the sea — (a).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** A lighthouse on a cliff by the sea",
+            finalAnswer: "**(b)** A lighthouse on a cliff by the sea",
           },
         },
         {
@@ -176,7 +176,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Characters", statement: "A character is the person, animal or creature who acts in a story." }],
             steps: [{ reasoning: "Criterion A (Analysing): Amara is the person doing the action (packing), so she is the character — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Amara",
+            finalAnswer: "**(a)** Amara",
           },
         },
         {
@@ -197,7 +197,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Place and time words", statement: "Words like 'winter morning' and 'front garden' give the setting." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'every winter morning' gives the time and 'front garden' the place — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** In the front garden on winter mornings",
+            finalAnswer: "**(c)** In the front garden on winter mornings",
           },
         },
         {
@@ -439,7 +439,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Suddenly" },
               { id: "d", text: "Finally" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -448,7 +448,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): 'finally' is the standard word for the last event, so (c) is correct.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Finally",
+            finalAnswer: "**(d)** Finally",
           },
         },
         {
@@ -551,12 +551,12 @@ export const lesson11: Lesson = {
               { id: "c", text: "He caught the bus" },
               { id: "d", text: "He went to school" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Story order", statement: "Events are retold in the order they happen in the story." }],
             steps: [{ reasoning: "Criterion B (Organizing): waking up is the first listed event — (c).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** He woke up",
+            finalAnswer: "**(b)** He woke up",
           },
         },
         {
@@ -572,12 +572,12 @@ export const lesson11: Lesson = {
               { id: "c", text: "The hare wakes up and runs to the finish line" },
               { id: "d", text: "The tortoise and the hare decide to race" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Story structure", statement: "The beginning introduces characters and sets up the problem." }],
             steps: [{ reasoning: "Criterion A (Analysing): deciding to race sets up the story — that is the beginning, (c).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** The tortoise and the hare decide to race",
+            finalAnswer: "**(d)** The tortoise and the hare decide to race",
           },
         },
         {
@@ -655,7 +655,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Story structure", statement: "The middle contains the problem that the ending resolves." }],
             steps: [{ reasoning: "Criterion A (Analysing): the new friend at the end resolves the loneliness problem — the middle is the struggle, (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** The problem of settling in and being lonely",
+            finalAnswer: "**(c)** The problem of settling in and being lonely",
           },
         },
         {
@@ -725,7 +725,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Story structure", statement: "Stories have a beginning, a middle and an end." }],
             steps: [{ reasoning: "Criterion B (Organizing): beginning → middle → end — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Beginning, middle, end",
+            finalAnswer: "**(a)** Beginning, middle, end",
           },
         },
         {
@@ -741,12 +741,12 @@ export const lesson11: Lesson = {
               { id: "c", text: "A flower grew first, then everything else happened." },
               { id: "d", text: "The flower grew, then he planted a seed, then he watered it." },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Retelling order", statement: "Events must be retold in the order they happen." }],
             steps: [{ reasoning: "Criterion B (Organizing): plant → water → grow is the correct sequence — (c).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** He planted a seed, then watered it daily, then a flower grew.",
+            finalAnswer: "**(a)** He planted a seed, then watered it daily, then a flower grew.",
           },
         },
         {

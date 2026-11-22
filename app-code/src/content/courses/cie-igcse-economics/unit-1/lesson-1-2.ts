@@ -238,7 +238,7 @@ export const lesson272: Lesson = {
             "steps": [
               { "reasoning": "Points on the curve show efficient production using all available resources.", "marks": 1, "markCode": "M" }
             ],
-            "finalAnswer": "**(b)** Maximum possible output of both goods"
+            "finalAnswer": "**(c)** Maximum possible output of both goods"
           }
         },
         {
@@ -288,7 +288,7 @@ export const lesson272: Lesson = {
             "steps": [
               { "reasoning": "Growth means greater productive capacity, shown by the PPF shifting outward.", "marks": 1, "markCode": "M" }
             ],
-            "finalAnswer": "**(b)** The curve shifting outward"
+            "finalAnswer": "**(a)** The curve shifting outward"
           }
         },
         {
@@ -304,7 +304,7 @@ export const lesson272: Lesson = {
               { "id": "c", "text": "Is shown by a shift of the curve" },
               { "id": "d", "text": "Increases as output of that good rises" }
             ],
-            "dorrectChoiceId": "c"
+            "correctChoiceId": "d"
           },
           markscheme: {
             "principles": [
@@ -313,7 +313,7 @@ export const lesson272: Lesson = {
             "steps": [
               { "reasoning": "A bowed-out PPF reflects rising opportunity cost as more of one good is produced.", "marks": 1, "markCode": "M" }
             ],
-            "finalAnswer": "**(c)** Increases as output of that good rises"
+            "finalAnswer": "**(d)** Increases as output of that good rises"
           }
         },
         {
@@ -338,7 +338,7 @@ export const lesson272: Lesson = {
             "steps": [
               { "reasoning": "Loss of resources reduces productive capacity, so the PPF shifts inward.", "marks": 1, "markCode": "M" }
             ],
-            "finalAnswer": "**(b)** The curve shifting inward"
+            "finalAnswer": "**(a)** The curve shifting inward"
           }
         },
         {
@@ -363,7 +363,7 @@ export const lesson272: Lesson = {
             "steps": [
               { "reasoning": "Only more resources or better technology increase the maximum output combinations.", "marks": 1, "markCode": "M" }
             ],
-            "finalAnswer": "**(b)** Improved technology or discovery of new resources"
+            "finalAnswer": "**(d)** Improved technology or discovery of new resources"
           }
         },
         {

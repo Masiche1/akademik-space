@@ -44,7 +44,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "1024" },
             { id: "d", text: "3072" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "kB", statement: "1 kB = 1024 bytes." }], steps: [{ reasoning: "$3\\times1024=3072$.", working: "3072", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 3072" },
+          markscheme: { principles: [{ kind: "definition", name: "kB", statement: "1 kB = 1024 bytes." }], steps: [{ reasoning: "$3\\times1024=3072$.", working: "3072", marks: 1, markCode: "B" }], finalAnswer: "**(d)** 3072" },
         },
         {
           id: "olcs-u1-su-q2", difficulty: "core", totalMarks: 2,
@@ -99,7 +99,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "1 048 576" },
             { id: "d", text: "1024" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "MB", statement: "$1\\text{ MB}=1024^2$ bytes." }], steps: [{ reasoning: "$1024^2=1\\,048\\,576$.", working: "1048576", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 1 048 576" },
+          markscheme: { principles: [{ kind: "definition", name: "MB", statement: "$1\\text{ MB}=1024^2$ bytes." }], steps: [{ reasoning: "$1024^2=1\\,048\\,576$.", working: "1048576", marks: 1, markCode: "B" }], finalAnswer: "**(c)** 1 048 576" },
         },
         {
           id: "olcs-u1-su-q6", difficulty: "core", totalMarks: 2,
@@ -148,7 +148,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "GB" },
             { id: "d", text: "MB" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Units", statement: "kB < MB < GB < TB." }], steps: [{ reasoning: "TB is biggest.", working: "\\text{TB}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** TB" },
+          markscheme: { principles: [{ kind: "definition", name: "Units", statement: "kB < MB < GB < TB." }], steps: [{ reasoning: "TB is biggest.", working: "\\text{TB}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** TB" },
         },
         {
           id: "olcs-u1-su-q11", difficulty: "core", totalMarks: 2,
@@ -168,7 +168,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Million bytes per minute" },
             { id: "d", text: "Megabytes per second" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Mbps", statement: "Megabits per second — a speed." }], steps: [{ reasoning: "bps = bits per second.", working: "\\text{bits/s}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Megabits per second" },
+          markscheme: { principles: [{ kind: "definition", name: "Mbps", statement: "Megabits per second — a speed." }], steps: [{ reasoning: "bps = bits per second.", working: "\\text{bits/s}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Megabits per second" },
         },
         {
           id: "olcs-u1-su-q13", difficulty: "challenge", totalMarks: 4,
@@ -190,7 +190,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "kB" },
             { id: "d", text: "TB" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Units", statement: "Gbps is a speed; kB/MB/TB are storage." }], steps: [{ reasoning: "Gbps = gigabits per second, a rate.", working: "\\text{Gbps}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Gbps" },
+          markscheme: { principles: [{ kind: "principle", name: "Units", statement: "Gbps is a speed; kB/MB/TB are storage." }], steps: [{ reasoning: "Gbps = gigabits per second, a rate.", working: "\\text{Gbps}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Gbps" },
         },
         {
           id: "olcs-u1-su-q15", difficulty: "challenge", totalMarks: 3,
@@ -244,7 +244,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "MPEG video" },
             { id: "d", text: "JPEG photo" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Lossless", statement: "Exact restoration — needed for programs/data." }], steps: [{ reasoning: "Programs need exact bytes.", working: "\\text{ZIP}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** ZIP archive" },
+          markscheme: { principles: [{ kind: "definition", name: "Lossless", statement: "Exact restoration — needed for programs/data." }], steps: [{ reasoning: "Programs need exact bytes.", working: "\\text{ZIP}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** ZIP archive" },
         },
         {
           id: "olcs-u1-comp-q2", difficulty: "core", totalMarks: 2,
@@ -320,7 +320,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "MPEG video" },
             { id: "d", text: "PNG image" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "PNG", statement: "Lossless image format." }], steps: [{ reasoning: "PNG restores exactly.", working: "\\text{PNG}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** PNG image" },
+          markscheme: { principles: [{ kind: "definition", name: "PNG", statement: "Lossless image format." }], steps: [{ reasoning: "PNG restores exactly.", working: "\\text{PNG}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** PNG image" },
         },
         {
           id: "olcs-u1-comp-q8", difficulty: "core", totalMarks: 2,
@@ -349,7 +349,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "No change at all" },
             { id: "d", text: "The file to shrink forever" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Generation loss", statement: "Lossy re-saving degrades quality each time." }], steps: [{ reasoning: "Each lossy save loses more detail.", working: "\\text{generation loss}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Progressive quality loss" },
+          markscheme: { principles: [{ kind: "principle", name: "Generation loss", statement: "Lossy re-saving degrades quality each time." }], steps: [{ reasoning: "Each lossy save loses more detail.", working: "\\text{generation loss}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Progressive quality loss" },
         },
         {
           id: "olcs-u1-comp-q11", difficulty: "core", totalMarks: 2,
@@ -369,7 +369,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "All high frequencies" },
             { id: "d", text: "The left channel only" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "MP3", statement: "Removes imperceptible audio detail." }], steps: [{ reasoning: "Discarded parts are hard to hear.", working: "\\text{inaudible}", marks: 1, markCode: "M" }, { reasoning: "Result is lossy but small.", working: "\\text{lossy}", marks: 1, markCode: "A" }], finalAnswer: "**(a)** Sounds near/below hearing threshold" },
+          markscheme: { principles: [{ kind: "principle", name: "MP3", statement: "Removes imperceptible audio detail." }], steps: [{ reasoning: "Discarded parts are hard to hear.", working: "\\text{inaudible}", marks: 1, markCode: "M" }, { reasoning: "Result is lossy but small.", working: "\\text{lossy}", marks: 1, markCode: "A" }], finalAnswer: "**(b)** Sounds near/below hearing threshold" },
         },
         {
           id: "olcs-u1-comp-q13", difficulty: "challenge", totalMarks: 4,
@@ -391,7 +391,7 @@ export const lesson13: Lesson = {
             { id: "c", text: "Error detection" },
             { id: "d", text: "Lossy compression" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "ZIP", statement: "Lossless archive format." }], steps: [{ reasoning: "ZIP restores files exactly.", working: "\\text{lossless}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Lossless compression" },
+          markscheme: { principles: [{ kind: "definition", name: "ZIP", statement: "Lossless archive format." }], steps: [{ reasoning: "ZIP restores files exactly.", working: "\\text{lossless}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Lossless compression" },
         },
         {
           id: "olcs-u1-comp-q15", difficulty: "challenge", totalMarks: 3,

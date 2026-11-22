@@ -166,7 +166,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Photosynthesis", statement: "Oxygen is released as a product." }],
             steps: [{ reasoning: "Photosynthesis releases oxygen.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Oxygen",
+            finalAnswer: "**(c)** Oxygen",
           },
         },
         {
@@ -213,7 +213,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Chlorophyll", statement: "Chlorophyll is the green pigment in chloroplasts." }],
             steps: [{ reasoning: "Chloroplasts contain chlorophyll.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Chloroplasts",
+            finalAnswer: "**(d)** Chloroplasts",
           },
         },
         {
@@ -294,7 +294,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Photosynthesis", statement: "Light energy drives the reaction." }],
             steps: [{ reasoning: "Chlorophyll absorbs light energy.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Light energy absorbed by chlorophyll",
+            finalAnswer: "**(b)** Light energy absorbed by chlorophyll",
           },
         },
         {
@@ -342,7 +342,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Plant cells", statement: "Chloroplasts are needed only where light is available." }],
             steps: [{ reasoning: "Underground roots receive little or no light for photosynthesis.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Roots are underground and receive little light",
+            finalAnswer: "**(c)** Roots are underground and receive little light",
           },
         },
       ],
@@ -397,7 +397,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Soil pH affects minerals, not directly photosynthesis rate.", working: "pH not factor", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Soil pH",
+            finalAnswer: "**(d)** Soil pH",
             commonErrors: ["Choosing a real factor — only three exist."],
           },
         },
@@ -498,7 +498,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Limiting factor", statement: "The scarcest factor determines the maximum rate." }],
             steps: [{ reasoning: "The limiting factor restricts how fast the process can go.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** The factor in shortest supply that caps the rate",
+            finalAnswer: "**(c)** The factor in shortest supply that caps the rate",
           },
         },
         {
@@ -545,7 +545,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Limiting factors", statement: "Another factor becomes limiting when light is abundant." }],
             steps: [{ reasoning: "CO₂ or temperature may then be in shortest supply.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** CO₂ concentration or temperature",
+            finalAnswer: "**(d)** CO₂ concentration or temperature",
           },
         },
         {
@@ -593,7 +593,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Enzymes", statement: "High temperature can denature enzymes." }],
             steps: [{ reasoning: "Denatured enzymes cannot catalyse reactions effectively.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** They denature and the rate falls",
+            finalAnswer: "**(b)** They denature and the rate falls",
           },
         },
         {
@@ -626,7 +626,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Limiting factor", statement: "A plateau shows that another factor limits the rate." }],
             steps: [{ reasoning: "Increasing light no longer raises the rate.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Another factor has become limiting",
+            finalAnswer: "**(b)** Another factor has become limiting",
           },
         },
         {
@@ -674,7 +674,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Enzymes", statement: "Very high temperatures denature enzymes." }],
             steps: [{ reasoning: "Denatured enzymes cannot catalyse photosynthesis efficiently.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Enzymes denature",
+            finalAnswer: "**(c)** Enzymes denature",
           },
         },
       ],
@@ -729,7 +729,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Palisade mesophyll cells are elongated and dense with chloroplasts.", working: "palisade", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Palisade mesophyll",
+            finalAnswer: "**(b)** Palisade mesophyll",
             commonErrors: ["Choosing (c) — spongy has fewer chloroplasts, more air spaces."],
           },
         },
@@ -830,7 +830,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Epidermis", statement: "The epidermis is a protective outer layer." }],
             steps: [{ reasoning: "Upper epidermis protects the leaf.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Protection",
+            finalAnswer: "**(d)** Protection",
           },
         },
         {
@@ -925,7 +925,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Spongy mesophyll", statement: "Air spaces help gases diffuse through the leaf." }],
             steps: [{ reasoning: "Air spaces provide pathways for gas exchange.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Allow gas diffusion",
+            finalAnswer: "**(b)** Allow gas diffusion",
           },
         },
         {
@@ -958,7 +958,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Cuticle", statement: "The waxy cuticle reduces evaporation from the leaf." }],
             steps: [{ reasoning: "The cuticle waterproofs the leaf surface.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Water loss",
+            finalAnswer: "**(b)** Water loss",
           },
         },
         {
@@ -1006,7 +1006,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Palisade mesophyll", statement: "Palisade cells are the main photosynthetic tissue." }],
             steps: [{ reasoning: "Palisade cells contain most chloroplasts.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Palisade mesophyll",
+            finalAnswer: "**(b)** Palisade mesophyll",
           },
         },
       ],

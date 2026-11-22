@@ -71,7 +71,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "K represents sustainable population limited by resources.", working: "\\text{K = max sustainable}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Maximum population size an environment can sustain",
+            finalAnswer: "**(a)** Maximum population size an environment can sustain",
             commonErrors: ["Confusing K with growth rate."],
             examinerNote: "B1 for (b).",
           },
@@ -234,7 +234,7 @@ export const lesson31: Lesson = {
           totalMarks: 1,
           stem: "Which factor is density-dependent?",
           response: { type: "mcq", choices: [ { id: "a", text: "Disease spreading faster when population density is high" }, { id: "b", text: "A volcanic eruption" }, { id: "c", text: "A flood" }, { id: "d", text: "A frost killing plants regardless of density" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Density-dependent factor", statement: "Its effect changes with population density, e.g. disease, food shortage and predation." }], steps: [{ reasoning: "Frost, volcanoes and floods act regardless of density.", working: "density\\text{ dependent}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Disease spreading faster when population density is high" },
+          markscheme: { principles: [{ kind: "definition", name: "Density-dependent factor", statement: "Its effect changes with population density, e.g. disease, food shortage and predation." }], steps: [{ reasoning: "Frost, volcanoes and floods act regardless of density.", working: "density\\text{ dependent}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Disease spreading faster when population density is high" },
         },
         {
           id: "mypb5-u3-pop-q13",
@@ -250,7 +250,7 @@ export const lesson31: Lesson = {
           totalMarks: 1,
           stem: "Which organisms are usually pioneer species?",
           response: { type: "mcq", choices: [ { id: "a", text: "Small hardy fast-reproducing organisms such as lichens" }, { id: "b", text: "Large slow-growing trees" }, { id: "c", text: "Top predators" }, { id: "d", text: "Domestic animals" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Pioneer species", statement: "Pioneers are hardy, fast-colonising organisms that tolerate harsh conditions." }], steps: [{ reasoning: "Lichens and mosses can survive on bare rock and start soil formation.", working: "pioneers", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Small hardy fast-reproducing organisms such as lichens" },
+          markscheme: { principles: [{ kind: "definition", name: "Pioneer species", statement: "Pioneers are hardy, fast-colonising organisms that tolerate harsh conditions." }], steps: [{ reasoning: "Lichens and mosses can survive on bare rock and start soil formation.", working: "pioneers", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Small hardy fast-reproducing organisms such as lichens" },
         },
         {
           id: "mypb5-u3-pop-q15",
@@ -258,7 +258,7 @@ export const lesson31: Lesson = {
           totalMarks: 1,
           stem: "What distinguishes secondary succession from primary succession?",
           response: { type: "mcq", choices: [ { id: "a", text: "Secondary succession starts on bare rock" }, { id: "b", text: "Secondary succession has no climax community" }, { id: "c", text: "Secondary succession cannot produce trees" }, { id: "d", text: "Secondary succession occurs where soil and some organisms remain after disturbance" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "comparison", name: "Succession types", statement: "Primary starts without soil; secondary starts after disturbance with soil remaining." }], steps: [{ reasoning: "Remaining soil makes secondary succession faster than primary.", working: "soil remains", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Secondary succession occurs where soil and some organisms remain after disturbance" },
+          markscheme: { principles: [{ kind: "comparison", name: "Succession types", statement: "Primary starts without soil; secondary starts after disturbance with soil remaining." }], steps: [{ reasoning: "Remaining soil makes secondary succession faster than primary.", working: "soil remains", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Secondary succession occurs where soil and some organisms remain after disturbance" },
         },
         {
           id: "mypb5-u3-pop-q16",
@@ -322,7 +322,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Fixation makes atmospheric N2 available to living things.", working: "\\text{fixation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Nitrogen fixation",
+            finalAnswer: "**(c)** Nitrogen fixation",
             commonErrors: ["Choosing nitrification — that converts ammonia to nitrates, not N2 to ammonia."],
             examinerNote: "B1 for (b).",
           },
@@ -521,7 +521,7 @@ export const lesson31: Lesson = {
           totalMarks: 1,
           stem: "Why does absorbing more CO$_2$ cause ocean acidification?",
           response: { type: "mcq", choices: [ { id: "a", text: "It increases salt concentration only" }, { id: "b", text: "CO$_2$ forms carbonic acid in seawater" }, { id: "c", text: "It removes oxygen from water" }, { id: "d", text: "It stops all photosynthesis" } ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Ocean acidification", statement: "Dissolved CO$_2$ reacts with water to form carbonic acid, lowering pH." }], steps: [{ reasoning: "Lower pH harms coral and shell-forming organisms.", working: "carbonic\\text{ acid}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** CO$_2$ forms carbonic acid in seawater" },
+          markscheme: { principles: [{ kind: "principle", name: "Ocean acidification", statement: "Dissolved CO$_2$ reacts with water to form carbonic acid, lowering pH." }], steps: [{ reasoning: "Lower pH harms coral and shell-forming organisms.", working: "carbonic\\text{ acid}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** CO$_2$ forms carbonic acid in seawater" },
         },
       ],
     },

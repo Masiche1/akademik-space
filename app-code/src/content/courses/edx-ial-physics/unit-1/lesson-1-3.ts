@@ -61,7 +61,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Ohm's law", statement: "V = IR." }],
             steps: [{ reasoning: "Direct.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** V = IR",
+            finalAnswer: "**(c)** V = IR",
           },
         },
         {
@@ -176,7 +176,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Coulomb", statement: "Like repel, unlike attract." }],
             steps: [{ reasoning: "Direct.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Repel",
+            finalAnswer: "**(d)** Repel",
           },
         },
         {

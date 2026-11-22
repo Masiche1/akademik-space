@@ -57,7 +57,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Title" },
               { id: "d", text: "End" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -74,7 +74,7 @@ export const lesson22: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** End",
+            finalAnswer: "**(d)** End",
             commonErrors: ["Choosing beginning — that's the start."],
           },
         },
@@ -105,7 +105,7 @@ export const lesson22: Lesson = {
               { reasoning: "Recall story order.", marks: 1, markCode: "M" },
               { reasoning: "Answer: 3,2,1.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** 3, 2, 1",
+            finalAnswer: "**(c)** 3, 2, 1",
             commonErrors: ["Reversing order."],
           },
         },
@@ -250,7 +250,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Use clue 'hungry'.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Eat some food",
+            finalAnswer: "**(d)** Eat some food",
             commonErrors: ["Unrelated prediction."],
           },
         },

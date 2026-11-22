@@ -323,7 +323,7 @@ export const lesson301: Lesson = {
             steps: [
               { reasoning: "WCAG requires 4.5:1.", marks: 2, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 4.5:1",
+            finalAnswer: "**(d)** 4.5:1",
             commonErrors: ["Guessing ratio."],
           },
         },

@@ -352,7 +352,7 @@ export const lesson213: Lesson = {
           totalMarks: 1,
           stem: "Which statement best defines a writer's purpose?",
           response: { type: "mcq", choices: [ { id: "a", text: "What the writer wants the text to achieve" }, { id: "b", text: "The writer's biography" }, { id: "c", text: "The number of paragraphs" }, { id: "d", text: "The genre of the text" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Purpose", statement: "The intended effect or goal of the text." }], steps: [{ reasoning: "Purpose concerns intended achievement, not form or biography.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** What the text is meant to achieve", commonErrors: ["Confusing purpose with subject matter."] },
+          markscheme: { principles: [{ kind: "definition", name: "Purpose", statement: "The intended effect or goal of the text." }], steps: [{ reasoning: "Purpose concerns intended achievement, not form or biography.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** What the text is meant to achieve", commonErrors: ["Confusing purpose with subject matter."] },
         },
         {
           id: "cial-e-u1-ma-q6",
@@ -360,7 +360,7 @@ export const lesson213: Lesson = {
           totalMarks: 1,
           stem: "A text uses statistics, expert quotation and formal register. What attitude does it most likely project?",
           response: { type: "mcq", choices: [ { id: "a", text: "Playful and intimate" }, { id: "b", text: "Hostile and personal" }, { id: "c", text: "Authoritative and measured" }, { id: "d", text: "Confused and uncertain" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Attitude through method", statement: "Formal evidence-based methods project authority." }], steps: [{ reasoning: "Statistics, authority and formal register combine to create an authoritative stance.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Authoritative and measured", commonErrors: ["Listing methods without inferring attitude."] },
+          markscheme: { principles: [{ kind: "skill", name: "Attitude through method", statement: "Formal evidence-based methods project authority." }], steps: [{ reasoning: "Statistics, authority and formal register combine to create an authoritative stance.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Authoritative and measured", commonErrors: ["Listing methods without inferring attitude."] },
         },
         {
           id: "cial-e-u1-ma-q7",
@@ -368,7 +368,7 @@ export const lesson213: Lesson = {
           totalMarks: 1,
           stem: "Why is ambiguity sometimes a strength in a sophisticated text?",
           response: { type: "mcq", choices: [ { id: "a", text: "It removes the need for evidence" }, { id: "b", text: "It proves the writer is careless" }, { id: "c", text: "It makes the text shorter" }, { id: "d", text: "It allows multiple defensible interpretations" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "technique", name: "Ambiguity", statement: "Deliberate openness can sustain richer readings." }], steps: [{ reasoning: "Controlled ambiguity rewards interpretation without collapsing meaning.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Multiple defensible interpretations", commonErrors: ["Treating ambiguity as accidental vagueness."] },
+          markscheme: { principles: [{ kind: "technique", name: "Ambiguity", statement: "Deliberate openness can sustain richer readings." }], steps: [{ reasoning: "Controlled ambiguity rewards interpretation without collapsing meaning.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Multiple defensible interpretations", commonErrors: ["Treating ambiguity as accidental vagueness."] },
         },
         {
           id: "cial-e-u1-ma-q8",
@@ -376,7 +376,7 @@ export const lesson213: Lesson = {
           totalMarks: 1,
           stem: "What should be inferred first when judging a text's purpose?",
           response: { type: "mcq", choices: [ { id: "a", text: "What the text actually does for its audience" }, { id: "b", text: "The length of the conclusion" }, { id: "c", text: "The number of adjectives" }, { id: "d", text: "The writer's stated intention only" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "skill", name: "Purpose inference", statement: "Purpose is judged by textual effect, not self-description." }], steps: [{ reasoning: "The text's methods and audience effect reveal purpose most reliably.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** What the text actually does", commonErrors: ["Accepting the writer's claim without checking effect."] },
+          markscheme: { principles: [{ kind: "skill", name: "Purpose inference", statement: "Purpose is judged by textual effect, not self-description." }], steps: [{ reasoning: "The text's methods and audience effect reveal purpose most reliably.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** What the text actually does", commonErrors: ["Accepting the writer's claim without checking effect."] },
         },
         {
           id: "cial-e-u1-ma-q9",
@@ -384,7 +384,7 @@ export const lesson213: Lesson = {
           totalMarks: 1,
           stem: "Which response best 'evaluates' a text?",
           response: { type: "mcq", choices: [ { id: "a", text: "It retells the content" }, { id: "b", text: "It lists three techniques" }, { id: "c", text: "It defines every difficult word" }, { id: "d", text: "It judges how effectively methods achieve the purpose" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Evaluation", statement: "Evaluation weighs effectiveness against purpose." }], steps: [{ reasoning: "Evaluation requires a judgement of method and effect.", marks: 1, markCode: "AO3" }], finalAnswer: "**(b)** Judging effectiveness against purpose", commonErrors: ["Stopping at technique identification."] },
+          markscheme: { principles: [{ kind: "skill", name: "Evaluation", statement: "Evaluation weighs effectiveness against purpose." }], steps: [{ reasoning: "Evaluation requires a judgement of method and effect.", marks: 1, markCode: "AO3" }], finalAnswer: "**(d)** Judging effectiveness against purpose", commonErrors: ["Stopping at technique identification."] },
         },
         {
           id: "cial-e-u1-ma-q10",
@@ -513,7 +513,7 @@ export const lesson213: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Account conflicts with evidence",
+            finalAnswer: "**(c)** Account conflicts with evidence",
             commonErrors: ["Confusing unreliability with dishonesty."],
           },
         },
@@ -753,7 +753,7 @@ export const lesson213: Lesson = {
           totalMarks: 1,
           stem: "What is the main advantage of first-person narration?",
           response: { type: "mcq", choices: [ { id: "a", text: "It always proves reliability" }, { id: "b", text: "It removes all bias" }, { id: "c", text: "It gives complete objectivity" }, { id: "d", text: "It creates immediacy and subjective access" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "technique", name: "First person", statement: "Immediate subjective access, with possible bias." }], steps: [{ reasoning: "First person gives closeness but also subjectivity.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Immediacy and subjective access", commonErrors: ["Treating first person as objective."] },
+          markscheme: { principles: [{ kind: "technique", name: "First person", statement: "Immediate subjective access, with possible bias." }], steps: [{ reasoning: "First person gives closeness but also subjectivity.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Immediacy and subjective access", commonErrors: ["Treating first person as objective."] },
         },
         {
           id: "cial-e-u1-pe-q6",
@@ -769,7 +769,7 @@ export const lesson213: Lesson = {
           totalMarks: 1,
           stem: "What does an omniscient narrator typically provide?",
           response: { type: "mcq", choices: [ { id: "a", text: "Access to multiple minds and wider knowledge" }, { id: "b", text: "Direct commands to the reader" }, { id: "c", text: "Only one character's thoughts" }, { id: "d", text: "No knowledge of events" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Omniscient perspective", statement: "The narrator can move between minds and know more than characters." }], steps: [{ reasoning: "Omniscience widens knowledge across characters.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Access to multiple minds", commonErrors: ["Confusing omniscient with first person."] },
+          markscheme: { principles: [{ kind: "definition", name: "Omniscient perspective", statement: "The narrator can move between minds and know more than characters." }], steps: [{ reasoning: "Omniscience widens knowledge across characters.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Access to multiple minds", commonErrors: ["Confusing omniscient with first person."] },
         },
         {
           id: "cial-e-u1-pe-q8",

@@ -41,7 +41,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Server, client, router, switch, cable" },
             { id: "d", text: "Hardware, software, data, people, procedures" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "ICT system", statement: "Five components." }], steps: [{ reasoning: "Correct five.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Hardware, software, data, people, procedures" },
+          markscheme: { principles: [{ kind: "definition", name: "ICT system", statement: "Five components." }], steps: [{ reasoning: "Correct five.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Hardware, software, data, people, procedures" },
         },
         {
           id: "olict-u6-rv-q2", difficulty: "core", totalMarks: 2,
@@ -97,7 +97,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Local area network" },
             { id: "d", text: "Local address number" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "LAN", statement: "Local network." }], steps: [{ reasoning: "LAN = local area network.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Local area network" },
+          markscheme: { principles: [{ kind: "definition", name: "LAN", statement: "Local network." }], steps: [{ reasoning: "LAN = local area network.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Local area network" },
         },
         {
           id: "olict-u6-rv-q6", difficulty: "foundation", totalMarks: 2,
@@ -117,7 +117,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Pictures" },
             { id: "d", text: "Sound files" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Encryption", statement: "Scrambles data." }], steps: [{ reasoning: "Encryption makes data unreadable.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Unreadable cipher" },
+          markscheme: { principles: [{ kind: "definition", name: "Encryption", statement: "Scrambles data." }], steps: [{ reasoning: "Encryption makes data unreadable.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Unreadable cipher" },
         },
         {
           id: "olict-u6-rv-q8", difficulty: "foundation", totalMarks: 1,
@@ -159,7 +159,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "A type of virus" },
             { id: "d", text: "A web browser" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Backup", statement: "Recovery copy." }], steps: [{ reasoning: "Backup = recovery copy.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Recovery copy" },
+          markscheme: { principles: [{ kind: "definition", name: "Backup", statement: "Recovery copy." }], steps: [{ reasoning: "Backup = recovery copy.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Recovery copy" },
         },
         {
           id: "olict-u6-rv-q12", difficulty: "core", totalMarks: 2,

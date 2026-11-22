@@ -129,7 +129,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Purchases - closing stock" },
             { id: "d", text: "Net profit + expenses" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "formula", name: "Gross profit", statement: "GP = sales - CoS." }], steps: [{ reasoning: "GP is the margin on sales.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sales - CoS" },
+          markscheme: { principles: [{ kind: "formula", name: "Gross profit", statement: "GP = sales - CoS." }], steps: [{ reasoning: "GP is the margin on sales.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Sales - CoS" },
         },
         {
           id: "olacc-u5-mf-q9", difficulty: "core", totalMarks: 2,
@@ -174,7 +174,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Stay unchanged" },
             { id: "d", text: "Decrease" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "formula", name: "Cost of sales", statement: "CoS = OS + P - CS." }], steps: [{ reasoning: "Higher purchases raise cost of sales.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Increase" },
+          markscheme: { principles: [{ kind: "formula", name: "Cost of sales", statement: "CoS = OS + P - CS." }], steps: [{ reasoning: "Higher purchases raise cost of sales.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Increase" },
         },
         {
           id: "olacc-u5-mf-q13", difficulty: "challenge", totalMarks: 2,
@@ -208,7 +208,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Cost of sales - opening stock + closing stock" },
             { id: "d", text: "Net profit + expenses" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "formula", name: "Purchases", statement: "P = CoS - OS + CS." }], steps: [{ reasoning: "Rearranged cost of sales formula.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** CoS - OS + CS" },
+          markscheme: { principles: [{ kind: "formula", name: "Purchases", statement: "P = CoS - OS + CS." }], steps: [{ reasoning: "Rearranged cost of sales formula.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** CoS - OS + CS" },
         },
         {
           id: "olacc-u5-mf-q16", difficulty: "challenge", totalMarks: 9,
@@ -403,7 +403,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Purchases" },
             { id: "d", text: "Expenses" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "formula", name: "Net profit", statement: "NP = GP - expenses." }], steps: [{ reasoning: "Only expenses separate GP from NP.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Expenses" },
+          markscheme: { principles: [{ kind: "formula", name: "Net profit", statement: "NP = GP - expenses." }], steps: [{ reasoning: "Only expenses separate GP from NP.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Expenses" },
         },
         {
           id: "olacc-u5-gn-q13", difficulty: "challenge", totalMarks: 2,
@@ -437,7 +437,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Net profit and sales" },
             { id: "d", text: "Expenses and purchases" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "NP margin", statement: "NP/sales × 100." }], steps: [{ reasoning: "NP margin compares NP to sales.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** NP and sales" },
+          markscheme: { principles: [{ kind: "definition", name: "NP margin", statement: "NP/sales × 100." }], steps: [{ reasoning: "NP margin compares NP to sales.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** NP and sales" },
         },
         {
           id: "olacc-u5-gn-q16", difficulty: "challenge", totalMarks: 9,

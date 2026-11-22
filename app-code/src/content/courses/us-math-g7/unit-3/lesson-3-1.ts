@@ -67,7 +67,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The diameter is given, so use $C = \\pi d$ directly.", working: "C = \\pi \\times 10 = 10\\pi", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $10\\pi$ cm",
+            finalAnswer: "**(b)** $10\\pi$ cm",
             commonErrors: ["Using $2\\pi d$ and getting $20\\pi$, which treats the diameter as a radius.", "Using the area formula and getting $25\\pi$ (halving to $r = 5$ and squaring).", "Squaring the diameter to get $100\\pi$."],
           },
         },
@@ -203,7 +203,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Subtract the known angle from $180^\\circ$.", working: "180 - 65 = 115", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $115^\\circ$",
+            finalAnswer: "**(a)** $115^\\circ$",
             commonErrors: ["Subtracting from $90^\\circ$ (complementary) to get $25^\\circ$.", "Subtracting from $360^\\circ$ to get $295^\\circ$."],
           },
         },

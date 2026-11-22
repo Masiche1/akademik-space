@@ -67,7 +67,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): cross-genre = different genres, related subjects — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Comparing texts from different genres on related subjects",
+            finalAnswer: "**(c)** Comparing texts from different genres on related subjects",
           },
         },
         {
@@ -160,7 +160,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): shared theme + different treatment — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** They share a theme but treat it differently",
+            finalAnswer: "**(d)** They share a theme but treat it differently",
           },
         },
         {
@@ -204,7 +204,7 @@ export const lesson12: Lesson = {
               { reasoning: "Criterion A (Analysing): different genres, same theme — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): song = performance, documentary = factual film — different genres.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Different genres exploring the same theme",
+            finalAnswer: "**(d)** Different genres exploring the same theme",
           },
         },
         {
@@ -249,7 +249,7 @@ export const lesson12: Lesson = {
               { reasoning: "Criterion A (Analysing): novel + article = different genres on related subject — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): other options are same genre or same text.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A novel and a news article about the same war",
+            finalAnswer: "**(c)** A novel and a news article about the same war",
           },
         },
         {
@@ -353,7 +353,7 @@ export const lesson12: Lesson = {
               { reasoning: "Criterion A (Analysing): both about bakery/memory — memoir emotional, history factual.", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): memoir keeps feeling ('flour-dusted', 'magic'); history keeps record ('1987', '90 years') — complementary.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Memoir preserves feeling; history preserves facts — complementary",
+            finalAnswer: "**(c)** Memoir preserves feeling; history preserves facts — complementary",
           },
         },
         {
@@ -484,7 +484,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): effective = achieves purpose — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The text that best achieves its purpose",
+            finalAnswer: "**(a)** The text that best achieves its purpose",
           },
         },
         {
@@ -577,7 +577,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): effectiveness = achieves purpose — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Which better achieves its own purpose",
+            finalAnswer: "**(d)** Which better achieves its own purpose",
           },
         },
         {
@@ -621,7 +621,7 @@ export const lesson12: Lesson = {
               { reasoning: "Criterion A (Analysing): clarity and impact are valid criteria — (a).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): price, length, font are surface features, not quality criteria.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Clarity and impact",
+            finalAnswer: "**(d)** Clarity and impact",
           },
         },
         {
@@ -666,7 +666,7 @@ export const lesson12: Lesson = {
               { reasoning: "Criterion A (Analysing): balanced = strengths + weaknesses + evidence — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): one-sided praise or criticism is less convincing.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Acknowledge strengths and weaknesses with evidence",
+            finalAnswer: "**(d)** Acknowledge strengths and weaknesses with evidence",
           },
         },
         {
@@ -739,7 +739,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): craft = language skill — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The skill and quality of the language used",
+            finalAnswer: "**(a)** The skill and quality of the language used",
           },
         },
         {
@@ -783,7 +783,7 @@ export const lesson12: Lesson = {
               { reasoning: "Criterion A (Analysing): (b) gives criteria ('imagery', 'conflict') and evidence — strongest evaluation.", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): others are opinions or observations without reasoning.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'It was effective because the imagery created vivid pictures and the ending resolved the central conflict.'",
+            finalAnswer: "**(d)** 'It was effective because the imagery created vivid pictures and the ending resolved the central conflict.'",
           },
         },
         {

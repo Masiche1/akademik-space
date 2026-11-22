@@ -278,7 +278,7 @@ export const lesson374: Lesson = {
               { id: "c", text: "flow production" },
               { id: "d", text: "mass production" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -312,7 +312,7 @@ export const lesson374: Lesson = {
               { id: "c", text: "Growth" },
               { id: "d", text: "Introduction" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

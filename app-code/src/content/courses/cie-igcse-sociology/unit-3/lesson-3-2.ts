@@ -631,7 +631,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Peer group" },
               { id: "d", text: "Media" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -2866,7 +2866,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Family" },
               { id: "d", text: "School" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -7302,7 +7302,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Internal" },
               { id: "d", text: "Formal" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

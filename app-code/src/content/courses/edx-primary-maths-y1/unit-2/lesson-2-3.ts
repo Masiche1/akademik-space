@@ -327,7 +327,7 @@ export const lesson23: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Thursday",
+            finalAnswer: "**(a)** Thursday",
             commonErrors: ["Saying Tuesday — reversing the order."],
           },
         },

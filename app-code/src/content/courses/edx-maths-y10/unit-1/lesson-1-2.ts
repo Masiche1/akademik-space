@@ -202,7 +202,7 @@ export const lesson12: Lesson = {
               { reasoning: "There are $2+3=5$ parts, so one part is £12.", working: "60\\div5=12", marks: 1, markCode: "M" },
               { reasoning: "Sam has 2 parts.", working: "2\\times12=24", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** £24",
+            finalAnswer: "**(c)** £24",
             commonErrors: ["Giving Jo's share of £36.", "Dividing by 2 and 3 separately to get £30 or £20."],
           },
         },

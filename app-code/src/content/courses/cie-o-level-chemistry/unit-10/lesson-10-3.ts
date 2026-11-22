@@ -137,7 +137,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Polyethene", statement: "Made from ethene monomers." }],
             steps: [{ reasoning: "Recall.", working: "\\text{ethene}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ethene",
+            finalAnswer: "**(a)** Ethene",
             commonErrors: ["Ethane is saturated and cannot polymerise."],
           },
         },
@@ -155,7 +155,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "PVC", statement: "Poly(chloroethene) from chloroethene." }],
             steps: [{ reasoning: "Recall.", working: "\\text{chloroethene}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Chloroethene",
+            finalAnswer: "**(a)** Chloroethene",
             commonErrors: ["The chlorine comes from the monomer."],
           },
         },
@@ -217,11 +217,11 @@ export const lesson1103: Lesson = {
             { id: "b", text: "PVC" },
             { id: "c", text: "Polystyrene" },
             { id: "d", text: "Nylon" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "Condensation polymers", statement: "Nylon, Terylene — lose small molecules." }],
             steps: [{ reasoning: "Recall.", working: "\\text{nylon}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Nylon",
+            finalAnswer: "**(d)** Nylon",
             commonErrors: ["PE, PVC, polystyrene are all addition polymers."],
           },
         },
@@ -257,7 +257,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Condensation polymerisation", statement: "Small molecule (usually H₂O) eliminated." }],
             steps: [{ reasoning: "Recall.", working: "\\text{H}_2\\text{O}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Water",
+            finalAnswer: "**(d)** Water",
             commonErrors: ["Addition polymerisation loses nothing."],
           },
         },
@@ -379,7 +379,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Esterification", statement: "Acid + alcohol → ester." }],
             steps: [{ reasoning: "Recall.", working: "\\text{carboxylic acid}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Carboxylic acid",
+            finalAnswer: "**(d)** Carboxylic acid",
             commonErrors: ["Alkene gives alcohol via hydration, not ester."],
           },
         },
@@ -459,7 +459,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Esterification", statement: "Acid + alcohol → ester + water." }],
             steps: [{ reasoning: "Recall.", working: "\\text{ester} + \\text{H}_2\\text{O}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ester and water",
+            finalAnswer: "**(d)** Ester and water",
             commonErrors: ["CO₂ comes from acid + carbonate, not esterification."],
           },
         },
@@ -477,7 +477,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Ester naming", statement: "Alcohol part + acid part." }],
             steps: [{ reasoning: "CH₃O = methyl; CH₃COO = ethanoate.", working: "\\text{methyl ethanoate}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Methyl ethanoate",
+            finalAnswer: "**(d)** Methyl ethanoate",
             commonErrors: ["Reversing alcohol and acid parts."],
           },
         },
@@ -543,7 +543,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Esterification", statement: "Acid catalyst + heat." }],
             steps: [{ reasoning: "Recall.", working: "\\text{conc. H}_2\\text{SO}_4 + \\text{heat}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Concentrated sulfuric acid, heat",
+            finalAnswer: "**(d)** Concentrated sulfuric acid, heat",
             commonErrors: ["Nickel/UV are for other reactions."],
           },
         },
@@ -578,7 +578,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ester group", statement: "Contains –COO– linkage." }],
             steps: [{ reasoning: "Recall.", working: "-\\text{COO}-", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** CH₃COOCH₂CH₃",
+            finalAnswer: "**(d)** CH₃COOCH₂CH₃",
             commonErrors: ["CH₃COOH is a carboxylic acid; CH₃COCl is an acyl chloride."],
           },
         },

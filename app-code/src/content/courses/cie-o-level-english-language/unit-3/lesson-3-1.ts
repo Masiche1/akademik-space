@@ -65,7 +65,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "All five senses.", working: "five senses", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Sight, sound, smell, touch, taste",
+            finalAnswer: "**(b)** Sight, sound, smell, touch, taste",
             commonErrors: ["Missing senses — use all five."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "All five senses.", working: "five", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** All five",
+            finalAnswer: "**(b)** All five",
             commonErrors: ["Missing senses — use all five."],
           },
         },
@@ -220,7 +220,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Direct equation = metaphor.", working: "metaphor", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Metaphor",
+            finalAnswer: "**(d)** Metaphor",
             commonErrors: ["Choosing (b) — similes use 'like/as'."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Whitened knuckles show fear/nervousness.", working: "action", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Fear through physical action",
+            finalAnswer: "**(d)** Fear through physical action",
             commonErrors: ["Not recognising shown emotion."],
           },
         },
@@ -336,7 +336,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "(a) has sensory detail and imagery.", working: "vivid", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Frost etched silver patterns on the window",
+            finalAnswer: "**(d)** Frost etched silver patterns on the window",
             commonErrors: ["Choosing (b) — that's telling, not showing."],
           },
         },
@@ -501,7 +501,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Viewpoint + details.", working: "viewpoint", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Viewpoint and details",
+            finalAnswer: "**(b)** Viewpoint and details",
             commonErrors: ["Only one sense — use multiple."],
           },
         },
@@ -606,7 +606,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "First/third person are standard.", working: "first/third", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Third person or first person",
+            finalAnswer: "**(c)** Third person or first person",
             commonErrors: ["Choosing (b) — second person is rare."],
           },
         },
@@ -656,7 +656,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Character must be shown.", working: "character", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Character shown through actions",
+            finalAnswer: "**(c)** Character shown through actions",
             commonErrors: ["Only describing appearance."],
           },
         },
@@ -726,7 +726,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Posture = body position.", working: "body", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** How they stand or hold themselves",
+            finalAnswer: "**(c)** How they stand or hold themselves",
             commonErrors: ["Choosing (c) — that's age."],
           },
         },
@@ -857,7 +857,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Spatial = position-based arrangement.", working: "position", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Arranging details by position",
+            finalAnswer: "**(b)** Arranging details by position",
             commonErrors: ["Choosing (c) — paragraphs aren't spatial organisation."],
           },
         },
@@ -937,7 +937,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Climax = peak tension.", working: "peak", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Highest point of tension",
+            finalAnswer: "**(d)** Highest point of tension",
             commonErrors: ["Choosing (c) — that's resolution."],
           },
         },
@@ -1092,7 +1092,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Opening must hook reader.", working: "hook", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Hook the reader immediately",
+            finalAnswer: "**(c)** Hook the reader immediately",
             commonErrors: ["Slow opening — reader loses interest."],
           },
         },
@@ -1208,7 +1208,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Resolution = conflict resolved.", working: "resolved", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** How the conflict is resolved",
+            finalAnswer: "**(d)** How the conflict is resolved",
             commonErrors: ["Choosing (b) — that's climax."],
           },
         },
@@ -1293,7 +1293,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Pacing controls tension.", working: "tension", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** It controls tension and reader engagement",
+            finalAnswer: "**(d)** It controls tension and reader engagement",
             commonErrors: ["Choosing (d) — pacing matters."],
           },
         },
@@ -1373,7 +1373,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Thesis = main argument.", working: "main argument", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Main argument",
+            finalAnswer: "**(c)** Main argument",
             commonErrors: ["Choosing (c) — that's question."],
           },
         },
@@ -1478,7 +1478,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Thesis = main claim.", working: "claim", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Main claim the argument supports",
+            finalAnswer: "**(b)** Main claim the argument supports",
             commonErrors: ["Choosing (c) — that's conclusion."],
           },
         },
@@ -1528,7 +1528,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Counterargument = opposing view.", working: "opposing", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Opposing viewpoint addressed",
+            finalAnswer: "**(c)** Opposing viewpoint addressed",
             commonErrors: ["Choosing (b) — that's thesis."],
           },
         },
@@ -1598,7 +1598,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Verifiable statistics are strongest.", working: "statistics", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Verifiable statistics from reliable sources",
+            finalAnswer: "**(c)** Verifiable statistics from reliable sources",
             commonErrors: ["Choosing (b) — opinion isn't evidence."],
           },
         },
@@ -1644,7 +1644,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Conclusion reinforces claim.", working: "reinforce", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Restate and reinforce the main claim",
+            finalAnswer: "**(d)** Restate and reinforce the main claim",
             commonErrors: ["Choosing (b) — no new evidence in conclusion."],
           },
         },
@@ -1729,7 +1729,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Ad hominem is a fallacy.", working: "ad hominem", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Ad hominem — attacking the person",
+            finalAnswer: "**(b)** Ad hominem — attacking the person",
             commonErrors: ["Choosing (b) — statistics strengthen."],
           },
         },

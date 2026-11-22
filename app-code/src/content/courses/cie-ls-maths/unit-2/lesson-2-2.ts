@@ -66,7 +66,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$240\\div3=80\\ \\text{km/h}$.", working: "240\\div3=80", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $80\\ \\text{km/h}$",
+            finalAnswer: "**(c)** $80\\ \\text{km/h}$",
             commonErrors: ["Choosing (a) — $240\\div4$; time is $3$ hours."],
           },
         },
@@ -197,7 +197,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$90\\div45=2$ hours.", working: "90\\div45=2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2$ hours",
+            finalAnswer: "**(b)** $2$ hours",
             commonErrors: ["Choosing (c) — dividing 90 by 60 instead of by the speed."],
           },
         },
@@ -223,7 +223,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$6\\div4=1.50$; $10\\div7\\approx1.43$ — lower unit rate wins.", working: "1.50 \\text{ vs } 1.43", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The $7$-bag pack ($\\approx\\pounds1.43$ vs $\\pounds1.50$ per bag)",
+            finalAnswer: "**(c)** The $7$-bag pack ($\\approx\\pounds1.43$ vs $\\pounds1.50$ per bag)",
             commonErrors: ["Choosing (a) — lower total price does not mean lower unit price."],
           },
         },
@@ -249,7 +249,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$240\\div60=4\\ \\text{g/cm}^3$.", working: "240\\div60=4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $4\\ \\text{g/cm}^3$",
+            finalAnswer: "**(c)** $4\\ \\text{g/cm}^3$",
             commonErrors: ["Choosing (b) — dividing volume by mass instead of mass by volume."],
           },
         },
@@ -275,7 +275,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Total distance $300$ km, total time $3$ h → $300\\div3=100$ km/h.", working: "300\\div3=100", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $100\\ \\text{km/h}$",
+            finalAnswer: "**(d)** $100\\ \\text{km/h}$",
             commonErrors: ["Choosing (d) — averaging the two speeds is wrong; use total distance and total time."],
           },
         },
@@ -481,7 +481,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$k=y/x=15/3=5$.", working: "k=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5$",
+            finalAnswer: "**(c)** $5$",
             commonErrors: ["Choosing (c) — $15\\times3$ confuses $k$ with the product."],
           },
         },
@@ -586,7 +586,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$k=20\\div4=5$.", working: "k=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5$",
+            finalAnswer: "**(b)** $5$",
             commonErrors: ["Choosing (b) — $20\\times4$ confuses $k$ with the product."],
           },
         },
@@ -629,7 +629,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "$y=0.5x$" },
               { id: "d", text: "$y=4x$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -638,7 +638,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$y=2x+5$ has a fixed $+5$ — the graph misses the origin, so not direct proportion.", working: "y=2x+5 \\text{ has intercept}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $y=2x+5$",
+            finalAnswer: "**(b)** $y=2x+5$",
             commonErrors: ["Choosing (b) — $y=\\frac{x}{3}$ is $y=kx$ with $k=\\frac{1}{3}$."],
           },
         },
@@ -664,7 +664,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$4\\times5=\\pounds20$.", working: "4\\times5=20", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\pounds20$",
+            finalAnswer: "**(c)** $\\pounds20$",
             commonErrors: ["Choosing (b) — adding instead of multiplying the rate."],
           },
         },

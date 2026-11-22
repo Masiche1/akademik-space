@@ -42,7 +42,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Makes decisions alone with little input" },
             { id: "d", text: "Gives complete freedom" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Autocratic", statement: "Decides alone." }], steps: [{ reasoning: "Top-down decisions.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Autocratic", statement: "Decides alone." }], steps: [{ reasoning: "Top-down decisions.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u4-ld-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Consults the team before making decisions" },
             { id: "d", text: "Gives complete freedom" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Democratic", statement: "Consults team." }], steps: [{ reasoning: "Democratic = consults before deciding.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Democratic", statement: "Consults team." }], steps: [{ reasoning: "Democratic = consults before deciding.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u4-ld-q6", difficulty: "core", totalMarks: 1,
@@ -109,7 +109,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Untrained staff" },
             { id: "d", text: "Experienced, self-motivated teams" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Laissez-faire", statement: "Skilled teams." }], steps: [{ reasoning: "Laissez-faire suits experienced, self-motivated teams.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Laissez-faire", statement: "Skilled teams." }], steps: [{ reasoning: "Laissez-faire suits experienced, self-motivated teams.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u4-ld-q7", difficulty: "foundation", totalMarks: 1,
@@ -120,7 +120,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Creativity is the priority" },
             { id: "d", text: "Team morale is the priority" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Autocratic", statement: "Crisis use." }], steps: [{ reasoning: "Autocratic suits crises needing fast decisions.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Autocratic", statement: "Crisis use." }], steps: [{ reasoning: "Autocratic suits crises needing fast decisions.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u4-ld-q8", difficulty: "core", totalMarks: 2,
@@ -193,7 +193,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Democratic" },
             { id: "d", text: "Laissez-faire" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Laissez-faire", statement: "Risk of drift." }], steps: [{ reasoning: "Hands-off style fails with inexperienced staff.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Laissez-faire" },
+          markscheme: { principles: [{ kind: "principle", name: "Laissez-faire", statement: "Risk of drift." }], steps: [{ reasoning: "Hands-off style fails with inexperienced staff.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Laissez-faire" },
         },
         {
           id: "olbus-u4-ld-q15", difficulty: "core", totalMarks: 2,
@@ -257,7 +257,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Planning, organising, leading, controlling" },
             { id: "d", text: "Design, production, marketing, finance" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Management functions", statement: "4 functions." }], steps: [{ reasoning: "Correct four.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Management functions", statement: "4 functions." }], steps: [{ reasoning: "Correct four.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u4-mg-q2", difficulty: "core", totalMarks: 2,
@@ -324,7 +324,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Increasing costs" },
             { id: "d", text: "Monitoring performance and taking corrective action" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Controlling", statement: "Monitor + correct." }], steps: [{ reasoning: "Controlling = monitor performance and correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Controlling", statement: "Monitor + correct." }], steps: [{ reasoning: "Controlling = monitor performance and correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u4-mg-q7", difficulty: "foundation", totalMarks: 1,
@@ -335,7 +335,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Setting salaries only" },
             { id: "d", text: "Allocating resources and structuring work" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Organising", statement: "Resources + structure." }], steps: [{ reasoning: "Organising = allocating resources and structuring work.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Organising", statement: "Resources + structure." }], steps: [{ reasoning: "Organising = allocating resources and structuring work.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u4-mg-q8", difficulty: "core", totalMarks: 2,
@@ -385,7 +385,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Planning" },
             { id: "d", text: "Organising" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Controlling", statement: "Monitor vs objectives." }], steps: [{ reasoning: "Controlling monitors performance against objectives.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Controlling" },
+          markscheme: { principles: [{ kind: "definition", name: "Controlling", statement: "Monitor vs objectives." }], steps: [{ reasoning: "Controlling monitors performance against objectives.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Controlling" },
         },
         {
           id: "olbus-u4-mg-q13", difficulty: "core", totalMarks: 2,
@@ -405,7 +405,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Only authority, no responsibility" },
             { id: "d", text: "Nothing — it is a punishment" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Delegation", statement: "Responsibility + authority." }], steps: [{ reasoning: "Delegation transfers both responsibility and authority.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Delegation", statement: "Responsibility + authority." }], steps: [{ reasoning: "Delegation transfers both responsibility and authority.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u4-mg-q15", difficulty: "core", totalMarks: 2,

@@ -206,7 +206,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Glass has a higher index of refraction than air, so light travels more slowly in glass and the ray bends toward the normal.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The light slows down and bends toward the normal.",
+            finalAnswer: "**(b)** The light slows down and bends toward the normal.",
             commonErrors: ["Thinking light speeds up in a denser medium.", "Believing the frequency changes; it stays the same at a boundary."],
             examinerNote: "B1 for choice (a).",
           },

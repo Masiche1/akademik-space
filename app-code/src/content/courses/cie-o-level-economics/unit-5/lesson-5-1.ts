@@ -99,7 +99,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Taxes on imported goods" },
             { id: "d", text: "Goods bought from abroad" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Exports", statement: "Sold abroad." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Exports", statement: "Sold abroad." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u5-tr-q6", difficulty: "foundation", totalMarks: 2,
@@ -122,7 +122,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Always gain the most from trade" },
             { id: "d", text: "Export all of its wheat output" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Absolute advantage", statement: "More output, same resources." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Absolute advantage", statement: "More output, same resources." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u5-tr-q8", difficulty: "core", totalMarks: 1,
@@ -133,7 +133,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Producing every good domestically" },
             { id: "d", text: "Exporting the entire national output" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Specialisation", statement: "Produce what you do best." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Specialisation", statement: "Produce what you do best." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u5-tr-q9", difficulty: "core", totalMarks: 3,
@@ -191,7 +191,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "A supply shock in one country can disrupt production in another" },
             { id: "d", text: "Exchange rates can never change" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Interdependence", statement: "Trade linkages." }], steps: [{ reasoning: "Countries rely on imports they cannot easily replace.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Interdependence", statement: "Trade linkages." }], steps: [{ reasoning: "Countries rely on imports they cannot easily replace.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u5-tr-q14", difficulty: "foundation", totalMarks: 1,
@@ -269,7 +269,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Unemployment rises" },
             { id: "d", text: "Prices rise" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Depreciation", statement: "Weaker currency." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Depreciation", statement: "Weaker currency." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u5-er-q2", difficulty: "core", totalMarks: 2,
@@ -394,7 +394,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Improve the trade balance by boosting exports and reducing imports" },
             { id: "d", text: "Raise GDP per capita directly" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Depreciation", statement: "Trade effects." }], steps: [{ reasoning: "Cheaper exports and dearer imports improve the balance.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Depreciation", statement: "Trade effects." }], steps: [{ reasoning: "Cheaper exports and dearer imports improve the balance.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u5-er-q12", difficulty: "challenge", totalMarks: 3,
@@ -430,7 +430,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Prices in the economy rise" },
             { id: "d", text: "Exports become cheaper abroad" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Appreciation", statement: "Stronger currency." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Appreciation", statement: "Stronger currency." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u5-er-q15", difficulty: "core", totalMarks: 1,
@@ -441,7 +441,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Exports become dearer while imports become cheaper" },
             { id: "d", text: "Foreign demand for the currency rises" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Depreciation", statement: "Trade balance effect." }], steps: [{ reasoning: "Correct mechanism.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Depreciation", statement: "Trade balance effect." }], steps: [{ reasoning: "Correct mechanism.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u5-er-q16", difficulty: "challenge", totalMarks: 9,

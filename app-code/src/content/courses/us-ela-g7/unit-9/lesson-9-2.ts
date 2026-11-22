@@ -354,7 +354,7 @@ export const lesson92: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Homophone error — 'are'→'our', 'there'→'their'.",
+              "**(a)**. Homophone error — 'are'→'our', 'there'→'their'.",
             commonErrors: ["Choosing (c) — no punctuation issue here."],
           },
         },

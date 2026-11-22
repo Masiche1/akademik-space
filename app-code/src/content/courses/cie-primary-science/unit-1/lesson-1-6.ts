@@ -225,7 +225,7 @@ export const lesson16: Lesson = {
             { id: "b", text: "A chicken" },
             { id: "c", text: "A cat" },
             { id: "d", text: "A dog" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Egg-laying", statement: "Birds and reptiles lay eggs." }],
             steps: [{ reasoning: "Chickens (birds) lay eggs; dogs, cats, cows are mammals.", marks: 1, markCode: "A" }],

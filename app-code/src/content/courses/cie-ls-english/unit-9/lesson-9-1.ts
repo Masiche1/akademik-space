@@ -65,7 +65,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Signposts orient the listener to where they are in the presentation.", working: "\\text{orientation}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** To guide the audience through the structure",
+            finalAnswer: "**(a)** To guide the audience through the structure",
             commonErrors: ["Choosing (a) — signposting is about clarity, not vocabulary display."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "The hook engages the audience before the main points begin.", working: "\\text{engage}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** To grab the audience's attention and introduce the topic",
+            finalAnswer: "**(d)** To grab the audience's attention and introduce the topic",
             commonErrors: ["Choosing (a) — the hook is brief; detail comes in the body."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Signposts tell the audience where they are and what comes next.", working: "\\text{orient}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Signposting with words like 'first' and 'finally'",
+            finalAnswer: "**(a)** Signposting with words like 'first' and 'finally'",
             commonErrors: ["Choosing (a) — speed reduces comprehension, not structure."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Memorised key points allow natural delivery with occasional glances for prompts.", working: "\\text{prompts}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Memorise key points and glance at them occasionally",
+            finalAnswer: "**(c)** Memorise key points and glance at them occasionally",
             commonErrors: ["Choosing (a) — word-for-word reading kills engagement."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Projection ensures audibility without shouting or rushing.", working: "\\text{project}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Project their voice so everyone can hear",
+            finalAnswer: "**(d)** Project their voice so everyone can hear",
             commonErrors: ["Choosing (a) — faster speech is harder to hear, not easier."],
           },
         },
@@ -583,7 +583,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Building on adds to an existing contribution rather than replacing it.", working: "\\text{extend}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Adding to or extending another speaker's idea",
+            finalAnswer: "**(d)** Adding to or extending another speaker's idea",
             commonErrors: ["Choosing (a) — building on can include respectful disagreement, not just agreement."],
           },
         },
@@ -609,7 +609,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "'I see it differently because...' acknowledges the view and offers reasoning.", working: "\\text{acknowledge + reason}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** I see it differently because...",
+            finalAnswer: "**(a)** I see it differently because...",
             commonErrors: ["Choosing (a) or (c) — these attack the person, not the idea."],
           },
         },
@@ -635,7 +635,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Respecting turns means waiting for a natural pause before contributing.", working: "\\text{wait}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Note your point and wait for a natural pause",
+            finalAnswer: "**(a)** Note your point and wait for a natural pause",
             commonErrors: ["Choosing (a) — interrupting disrespects others' turns."],
           },
         },
@@ -661,7 +661,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "A debate requires refuting the opponent's case, not repeating your own.", working: "\\text{rebut}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** State their own case and refute the proposition's strongest point",
+            finalAnswer: "**(a)** State their own case and refute the proposition's strongest point",
             commonErrors: ["Choosing (d) — agreeing abandons the opposition's role."],
           },
         },
@@ -687,7 +687,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "A question or summary gives others something to respond to.", working: "\\text{prompt}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Ask a question or offer a brief summary of the points so far",
+            finalAnswer: "**(c)** Ask a question or offer a brief summary of the points so far",
             commonErrors: ["Choosing (a) — silence does not restart a stalled discussion."],
           },
         },

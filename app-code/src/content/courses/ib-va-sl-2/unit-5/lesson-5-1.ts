@@ -70,7 +70,7 @@ export const lesson51: Lesson = {
               { reasoning: "Curation is the selection and presentation of existing artworks.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Selecting, organising and presenting artworks for exhibition",
+            finalAnswer: "**(a)** Selecting, organising and presenting artworks for exhibition",
             commonErrors: [
               "Confusing curating with creating art.",
             ],
@@ -171,7 +171,7 @@ export const lesson51: Lesson = {
               { reasoning: "Cohesion comes from shared theme, medium, palette or concept, not uniformity of size or frame.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A unifying theme, idea or thread connecting the works",
+            finalAnswer: "**(a)** A unifying theme, idea or thread connecting the works",
             commonErrors: [
               "Confusing cohesion with visual uniformity.",
             ],
@@ -219,7 +219,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "Be hidden until viewers reach the middle" },
               { id: "d", text: "Be the most technically complex work" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -229,7 +229,7 @@ export const lesson51: Lesson = {
               { reasoning: "The opening work establishes the theme and emotional register for what follows.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (c) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Establish the exhibition's tone and theme that frames the journey",
+            finalAnswer: "**(a)** Establish the exhibition's tone and theme that frames the journey",
             commonErrors: [
               "Choosing the opening work for size or cost rather than thematic function.",
             ],
@@ -258,7 +258,7 @@ export const lesson51: Lesson = {
               { reasoning: "A complete label includes title, artist, medium, dimensions and date.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Study in Blue, A. Student, oil on canvas, 60 x 80 cm, 2025",
+            finalAnswer: "**(a)** Study in Blue, A. Student, oil on canvas, 60 x 80 cm, 2025",
             commonErrors: [
               "Providing only partial information such as title or medium alone.",
             ],
@@ -287,7 +287,7 @@ export const lesson51: Lesson = {
               { reasoning: "Literal-to-abstract ordering builds viewer understanding step by step.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A progressive arc that develops the theme for the viewer",
+            finalAnswer: "**(c)** A progressive arc that develops the theme for the viewer",
             commonErrors: [
               "Treating sequence order as arbitrary rather than developmental.",
             ],
@@ -316,7 +316,7 @@ export const lesson51: Lesson = {
               { reasoning: "Works in dialogue create meanings and contrasts that no single piece achieves alone.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Because dialogue between works creates meaning beyond individual quality",
+            finalAnswer: "**(a)** Because dialogue between works creates meaning beyond individual quality",
             commonErrors: [
               "Selecting only the best individual works without considering relationships.",
             ],
@@ -548,7 +548,7 @@ export const lesson51: Lesson = {
               { reasoning: "Standard practice centres artworks at eye level, approximately 145–150 cm.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Eye level, around 145–150 cm",
+            finalAnswer: "**(d)** Eye level, around 145–150 cm",
             commonErrors: [
               "Hanging works too high or low for comfortable viewing.",
             ],
@@ -655,7 +655,7 @@ export const lesson51: Lesson = {
               { reasoning: "Picture lights direct controlled light onto individual works to reveal detail.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Illuminate individual works to reveal detail without glare",
+            finalAnswer: "**(a)** Illuminate individual works to reveal detail without glare",
             commonErrors: [
               "Confusing decorative or ambient lighting with task lighting for art.",
             ],
@@ -713,7 +713,7 @@ export const lesson51: Lesson = {
               { reasoning: "Tight spacing places works in direct visual competition, creating energy.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Energy and direct comparison between works",
+            finalAnswer: "**(c)** Energy and direct comparison between works",
             commonErrors: [
               "Assuming tighter spacing always improves an exhibition.",
             ],
@@ -742,7 +742,7 @@ export const lesson51: Lesson = {
               { reasoning: "Generous spacing gives each work room to be seen individually.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Visual breathing room and individual focus",
+            finalAnswer: "**(d)** Visual breathing room and individual focus",
             commonErrors: [
               "Confusing spacing with hanging height.",
             ],
@@ -771,7 +771,7 @@ export const lesson51: Lesson = {
               { reasoning: "Mixed colour temperatures distort the colours viewers see in the work.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Ensures works appear as the artist intended",
+            finalAnswer: "**(d)** Ensures works appear as the artist intended",
             commonErrors: [
               "Ignoring how lighting colour alters perceived colour in artworks.",
             ],
@@ -800,7 +800,7 @@ export const lesson51: Lesson = {
               { reasoning: "Environmental displays immerse viewers so space itself becomes part of the work.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Immerses the viewer in a transformed environment where context becomes part of the work",
+            finalAnswer: "**(d)** Immerses the viewer in a transformed environment where context becomes part of the work",
             commonErrors: [
               "Assuming all professional display must be neutral.",
             ],

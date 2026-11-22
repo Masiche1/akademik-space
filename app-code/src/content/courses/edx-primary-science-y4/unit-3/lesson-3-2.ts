@@ -82,7 +82,7 @@ export const lesson312: Lesson = {
               { id: "c", text: "Wood" },
               { id: "d", text: "Plastic" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -96,7 +96,7 @@ export const lesson312: Lesson = {
               { reasoning: "Identify conductor.", marks: 1, markCode: "M" },
               { reasoning: "Answer: copper.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Copper",
+            finalAnswer: "**(b)** Copper",
             commonErrors: ["Insulator chosen."],
           },
         },
@@ -225,7 +225,7 @@ export const lesson312: Lesson = {
             steps: [
               { reasoning: "Identify insulator.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Plastic",
+            finalAnswer: "**(a)** Plastic",
             commonErrors: ["Conductor chosen."],
           },
         },
@@ -256,7 +256,7 @@ export const lesson312: Lesson = {
               { reasoning: "Identify purpose.", marks: 1, markCode: "M" },
               { reasoning: "Answer: insulates.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Plastic insulates to prevent shocks",
+            finalAnswer: "**(a)** Plastic insulates to prevent shocks",
             commonErrors: ["Wrong reason."],
           },
         },

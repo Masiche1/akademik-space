@@ -91,7 +91,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Butane" },
               { id: "d", text: "Cyclohexane" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

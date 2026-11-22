@@ -1665,7 +1665,7 @@ export const lesson1032: Lesson = {
               { id: "c", text: "Granite only" },
               { id: "d", text: "Metamorphic" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

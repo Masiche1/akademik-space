@@ -274,7 +274,7 @@ export const lesson22: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Post-event distortion",
+            finalAnswer: "**(d)** Post-event distortion",
             commonErrors: ["Accurate confused."],
           },
         },

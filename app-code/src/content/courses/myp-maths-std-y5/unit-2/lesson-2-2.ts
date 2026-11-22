@@ -70,7 +70,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Add equations: $2x=6$ → $x=3$; then $y=5-3=2$.", working: "x=3,y=2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x=3, y=2$",
+            finalAnswer: "**(b)** $x=3, y=2$",
             commonErrors: ["Adding instead of subtracting for $y$."],
             examinerNote: "B1 for (a).",
           },
@@ -180,7 +180,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Elimination", statement: "Add equations: $2x=10$; subtract: $2y=6$." }],
             steps: [{ reasoning: "Add to get $x=5$, then $y=3$.", working: "x=5,y=3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $x=5, y=3$",
+            finalAnswer: "**(b)** $x=5, y=3$",
           },
         },
         {
@@ -912,7 +912,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Common ratio", statement: "$r=\\frac{u_2}{u_1}=\\frac62=3$." }],
             steps: [{ reasoning: "Divide consecutive terms.", working: "3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 3",
+            finalAnswer: "**(b)** 3",
           },
         },
         {

@@ -252,7 +252,7 @@ export const lesson145: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** 0",
+            finalAnswer: "**(c)** 0",
           },
         },
         {
@@ -412,7 +412,7 @@ export const lesson145: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Open, read, close",
+            finalAnswer: "**(b)** Open, read, close",
           },
         },
         {
@@ -610,7 +610,7 @@ export const lesson145: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Handle errors gracefully",
+            finalAnswer: "**(c)** Handle errors gracefully",
           },
         },
       ],

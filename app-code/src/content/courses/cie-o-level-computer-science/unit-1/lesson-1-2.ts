@@ -44,7 +44,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "8" },
             { id: "d", text: "16" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "ASCII", statement: "7-bit encoding." }], steps: [{ reasoning: "ASCII = 7 bits.", working: "7", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 7" },
+          markscheme: { principles: [{ kind: "definition", name: "ASCII", statement: "7-bit encoding." }], steps: [{ reasoning: "ASCII = 7 bits.", working: "7", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 7" },
         },
         {
           id: "olcs-u1-ts-q2", difficulty: "core", totalMarks: 2,
@@ -99,7 +99,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "65 536" },
             { id: "d", text: "128" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "ASCII", statement: "7 bits → $2^7=128$ codes." }], steps: [{ reasoning: "$2^7=128$ codes.", working: "128", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 128" },
+          markscheme: { principles: [{ kind: "definition", name: "ASCII", statement: "7 bits → $2^7=128$ codes." }], steps: [{ reasoning: "$2^7=128$ codes.", working: "128", marks: 1, markCode: "B" }], finalAnswer: "**(d)** 128" },
         },
         {
           id: "olcs-u1-ts-q6", difficulty: "core", totalMarks: 2,
@@ -119,7 +119,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "The text is encrypted" },
             { id: "d", text: "The computer has little RAM" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Unicode", statement: "Covers all world scripts; ASCII only English/basic." }], steps: [{ reasoning: "ASCII cannot represent other scripts.", working: "\\text{non-English}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Non-English characters" },
+          markscheme: { principles: [{ kind: "principle", name: "Unicode", statement: "Covers all world scripts; ASCII only English/basic." }], steps: [{ reasoning: "ASCII cannot represent other scripts.", working: "\\text{non-English}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Non-English characters" },
         },
         {
           id: "olcs-u1-ts-q8", difficulty: "core", totalMarks: 2,
@@ -148,7 +148,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Duration" },
             { id: "d", text: "File name length" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Quantisation", statement: "Noise reduced by more bits per sample." }], steps: [{ reasoning: "More bits per sample → smaller amplitude steps.", working: "\\text{bits/sample}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sample resolution" },
+          markscheme: { principles: [{ kind: "principle", name: "Quantisation", statement: "Noise reduced by more bits per sample." }], steps: [{ reasoning: "More bits per sample → smaller amplitude steps.", working: "\\text{bits/sample}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Sample resolution" },
         },
         {
           id: "olcs-u1-ts-q11", difficulty: "core", totalMarks: 2,
@@ -168,7 +168,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "ASCII" },
             { id: "d", text: "Unicode (UTF-8)" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Unicode", statement: "All scripts, variable-length codes." }], steps: [{ reasoning: "Unicode covers all languages.", working: "\\text{Unicode}", marks: 1, markCode: "M" }, { reasoning: "ASCII is English-only.", working: "\\text{128 codes}", marks: 1, markCode: "A" }], finalAnswer: "**(a)** Unicode (UTF-8)" },
+          markscheme: { principles: [{ kind: "definition", name: "Unicode", statement: "All scripts, variable-length codes." }], steps: [{ reasoning: "Unicode covers all languages.", working: "\\text{Unicode}", marks: 1, markCode: "M" }, { reasoning: "ASCII is English-only.", working: "\\text{128 codes}", marks: 1, markCode: "A" }], finalAnswer: "**(d)** Unicode (UTF-8)" },
         },
         {
           id: "olcs-u1-ts-q13", difficulty: "challenge", totalMarks: 4,
@@ -190,7 +190,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Quadruples" },
             { id: "d", text: "Stays the same" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Sound size", statement: "Size $\\propto f\\times t$ — the two changes cancel." }], steps: [{ reasoning: "$\\times2$ rate and $\\times0.5$ time cancel.", working: "2\\times0.5=1", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Stays the same" },
+          markscheme: { principles: [{ kind: "principle", name: "Sound size", statement: "Size $\\propto f\\times t$ — the two changes cancel." }], steps: [{ reasoning: "$\\times2$ rate and $\\times0.5$ time cancel.", working: "2\\times0.5=1", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Stays the same" },
         },
         {
           id: "olcs-u1-ts-q15", difficulty: "challenge", totalMarks: 3,
@@ -211,7 +211,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "A network protocol" },
             { id: "d", text: "A type of compression" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "UTF-8", statement: "Variable-length Unicode encoding." }], steps: [{ reasoning: "UTF-8 encodes Unicode characters.", working: "\\text{Unicode}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Unicode character encoding" },
+          markscheme: { principles: [{ kind: "definition", name: "UTF-8", statement: "Variable-length Unicode encoding." }], steps: [{ reasoning: "UTF-8 encodes Unicode characters.", working: "\\text{Unicode}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Unicode character encoding" },
         },
       ],
     },
@@ -244,7 +244,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "64" },
             { id: "d", text: "16 million" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "formula", name: "Colours", statement: "$2^8=256$." }], steps: [{ reasoning: "$2^8=256$.", working: "256", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 256" },
+          markscheme: { principles: [{ kind: "formula", name: "Colours", statement: "$2^8=256$." }], steps: [{ reasoning: "$2^8=256$.", working: "256", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 256" },
         },
         {
           id: "olcs-u1-img-q2", difficulty: "core", totalMarks: 2,
@@ -299,7 +299,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "8" },
             { id: "d", text: "4" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "formula", name: "Colours", statement: "$2^4=16$." }], steps: [{ reasoning: "$2^4=16$ colours.", working: "16", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 16" },
+          markscheme: { principles: [{ kind: "formula", name: "Colours", statement: "$2^4=16$." }], steps: [{ reasoning: "$2^4=16$ colours.", working: "16", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 16" },
         },
         {
           id: "olcs-u1-img-q6", difficulty: "core", totalMarks: 2,
@@ -319,7 +319,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "One half" },
             { id: "d", text: "One eighth" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Pixels", statement: "Pixels $=$ width × height — halving each quarters it." }], steps: [{ reasoning: "$0.5\\times0.5=0.25$ of pixels.", working: "0.25", marks: 1, markCode: "B" }], finalAnswer: "**(a)** One quarter" },
+          markscheme: { principles: [{ kind: "principle", name: "Pixels", statement: "Pixels $=$ width × height — halving each quarters it." }], steps: [{ reasoning: "$0.5\\times0.5=0.25$ of pixels.", working: "0.25", marks: 1, markCode: "B" }], finalAnswer: "**(b)** One quarter" },
         },
         {
           id: "olcs-u1-img-q8", difficulty: "core", totalMarks: 2,
@@ -368,7 +368,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Pixel colour values" },
             { id: "d", text: "Image width in pixels" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Metadata", statement: "Extra data about the file, not the pixels." }], steps: [{ reasoning: "EXIF tags store camera/settings info.", working: "\\text{EXIF}", marks: 1, markCode: "M" }, { reasoning: "Pixels/bitmap are image data, not metadata.", working: "\\text{pixels}", marks: 1, markCode: "A" }], finalAnswer: "**(a)** EXIF camera settings" },
+          markscheme: { principles: [{ kind: "definition", name: "Metadata", statement: "Extra data about the file, not the pixels." }], steps: [{ reasoning: "EXIF tags store camera/settings info.", working: "\\text{EXIF}", marks: 1, markCode: "M" }, { reasoning: "Pixels/bitmap are image data, not metadata.", working: "\\text{pixels}", marks: 1, markCode: "A" }], finalAnswer: "**(b)** EXIF camera settings" },
         },
         {
           id: "olcs-u1-img-q13", difficulty: "challenge", totalMarks: 4,
@@ -390,7 +390,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "4" },
             { id: "d", text: "8" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Scaling", statement: "Area scales as the square of linear dimension." }], steps: [{ reasoning: "$2\\times2=4$ times the pixels.", working: "4", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 4" },
+          markscheme: { principles: [{ kind: "principle", name: "Scaling", statement: "Area scales as the square of linear dimension." }], steps: [{ reasoning: "$2\\times2=4$ times the pixels.", working: "4", marks: 1, markCode: "B" }], finalAnswer: "**(c)** 4" },
         },
         {
           id: "olcs-u1-img-q15", difficulty: "challenge", totalMarks: 3,
@@ -411,7 +411,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "2" },
             { id: "d", text: "65 536" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "formula", name: "Colours", statement: "$2^1=2$ (e.g. black/white)." }], steps: [{ reasoning: "$2^1=2$ colours.", working: "2", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 2" },
+          markscheme: { principles: [{ kind: "formula", name: "Colours", statement: "$2^1=2$ (e.g. black/white)." }], steps: [{ reasoning: "$2^1=2$ colours.", working: "2", marks: 1, markCode: "B" }], finalAnswer: "**(c)** 2" },
         },
       ],
     },

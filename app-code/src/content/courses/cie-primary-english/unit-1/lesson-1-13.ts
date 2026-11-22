@@ -266,7 +266,7 @@ export const lesson113: Lesson = {
             { id: "b", text: "Fiddling with your pencil the whole time" },
             { id: "c", text: "Asking a question about what they said" },
             { id: "d", text: "Answering their question" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "skill", name: "Active listening", statement: "Attention and relevant response." }],
             steps: [{ reasoning: "Fiddling shows inattention, not listening.", marks: 1, markCode: "AO1" }],

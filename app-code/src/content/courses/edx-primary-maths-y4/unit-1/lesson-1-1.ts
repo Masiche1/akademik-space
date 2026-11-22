@@ -66,7 +66,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "4" },
               { id: "d", text: "400" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -83,7 +83,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** 400",
+            finalAnswer: "**(d)** 400",
             commonErrors: ["Reading digit value instead of place value."],
           },
         },
@@ -305,7 +305,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "47 → nearest 10 is 50.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 50",
+            finalAnswer: "**(c)** 50",
             commonErrors: [
               "Rounding to 40 — looking at tens digit instead of ones.",
             ],

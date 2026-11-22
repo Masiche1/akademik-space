@@ -95,7 +95,7 @@ export const lesson202: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Carbohydrate",
+            finalAnswer: "**(c)** Carbohydrate",
             commonErrors: ["Confusing protein's role."],
           },
         },

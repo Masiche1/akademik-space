@@ -69,7 +69,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Crude oil contains many different hydrocarbon molecules mixed together, which is why it can be separated by boiling point.", working: "\\text{mixture of hydrocarbons}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It is a mixture of hydrocarbons",
+            finalAnswer: "**(a)** It is a mixture of hydrocarbons",
             commonErrors: ["Choosing (a) because hydrocarbons contain carbon and hydrogen, but crude oil contains many different molecules, so it is not a single compound.", "Choosing (d): crude oil is mostly alkanes, not alkenes."],
             examinerNote: "B1 for (b).",
           },
@@ -194,7 +194,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Carbon dioxide" },
               { id: "d", text: "Carbon monoxide" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -203,7 +203,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Carbon monoxide is the toxic product of incomplete combustion. Carbon dioxide and water are the products of complete combustion, and nitrogen is not a product of burning a hydrocarbon.", working: "\\text{CO}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Carbon monoxide",
+            finalAnswer: "**(d)** Carbon monoxide",
             commonErrors: ["Choosing carbon dioxide because it is the gas most associated with burning fuels. It is not toxic in the way CO is."],
             examinerNote: "B1 for (c).",
           },

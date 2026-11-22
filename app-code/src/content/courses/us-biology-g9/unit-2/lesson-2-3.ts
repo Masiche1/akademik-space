@@ -59,7 +59,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Cellular respiration" },
               { id: "d", text: "Decomposition" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The other three processes all release carbon dioxide into the atmosphere.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Photosynthesis",
+            finalAnswer: "**(b)** Photosynthesis",
             commonErrors: ["Choosing respiration, which releases carbon dioxide.", "Thinking decomposition removes carbon dioxide because dead matter disappears."],
             examinerNote: "B1 for photosynthesis.",
           },
@@ -203,7 +203,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Respiration releases energy from glucose; much is transferred as heat and is not available to the next trophic level.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** As heat released during cellular respiration",
+            finalAnswer: "**(b)** As heat released during cellular respiration",
             commonErrors: ["Thinking energy is destroyed.", "Thinking energy recycles like matter."],
             examinerNote: "B1 for heat / respiration.",
           },

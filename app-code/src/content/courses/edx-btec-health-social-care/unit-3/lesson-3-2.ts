@@ -329,7 +329,7 @@ export const lesson302: Lesson = {
               { id: "c", text: "For gossip" },
               { id: "d", text: "With family always" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -347,7 +347,7 @@ export const lesson302: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** Law/harm protection",
+            finalAnswer: "**(a)** Law/harm protection",
             commonErrors: ["Absolute confidentiality misconception."],
           },
         },

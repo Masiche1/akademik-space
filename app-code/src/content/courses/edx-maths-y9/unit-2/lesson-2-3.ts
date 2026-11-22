@@ -197,7 +197,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "A horizontal line has gradient zero, so the distance does not change as time passes.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The object is stationary",
+            finalAnswer: "**(a)** The object is stationary",
             commonErrors: ["Thinking a horizontal line means constant speed.", "Confusing distance-time graphs with speed-time graphs."],
           },
         },

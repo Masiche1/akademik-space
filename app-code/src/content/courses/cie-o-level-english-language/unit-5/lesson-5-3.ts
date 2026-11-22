@@ -65,7 +65,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Directed = instructions.", working: "instructions", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Writing to specific instructions",
+            finalAnswer: "**(d)** Writing to specific instructions",
             commonErrors: ["Choosing (b) — it's guided."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson53: Lesson = {
         steps: [
           { reasoning: "Purpose = why.", working: "purpose", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Why the writing is being done",
+        finalAnswer: "**(d)** Why the writing is being done",
         commonErrors: ["Confusing purpose with audience or format."],
       },
     },
@@ -196,7 +196,7 @@ export const lesson53: Lesson = {
         steps: [
           { reasoning: "Audience = who reads.", working: "audience", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Who will read the writing",
+        finalAnswer: "**(c)** Who will read the writing",
         commonErrors: ["Confusing audience with purpose."],
       },
     },
@@ -222,7 +222,7 @@ export const lesson53: Lesson = {
         steps: [
           { reasoning: "Must address all required content points.", working: "content", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Address every specified content point",
+        finalAnswer: "**(b)** Address every specified content point",
         commonErrors: ["Addressing only some requirements."],
       },
     },
@@ -248,7 +248,7 @@ export const lesson53: Lesson = {
         steps: [
           { reasoning: "Addresses are essential in formal letters.", working: "addresses", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Sender's and recipient's addresses",
+        finalAnswer: "**(b)** Sender's and recipient's addresses",
         commonErrors: ["Omitting format elements."],
       },
     },
@@ -506,7 +506,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Analyse first.", working: "analyse", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Analyse task",
+            finalAnswer: "**(b)** Analyse task",
             commonErrors: ["Writing without analysis — lose marks."],
           },
         },
@@ -611,7 +611,7 @@ export const lesson53: Lesson = {
         steps: [
           { reasoning: "Analyse is step 1.", working: "analyse", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Analyse the task",
+        finalAnswer: "**(b)** Analyse the task",
         commonErrors: ["Writing before analysing."],
       },
     },
@@ -637,7 +637,7 @@ export const lesson53: Lesson = {
         steps: [
           { reasoning: "Plan = brainstorm + structure.", working: "plan", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Brainstorm ideas and structure the response",
+        finalAnswer: "**(c)** Brainstorm ideas and structure the response",
         commonErrors: ["Skipping planning — leads to poor structure."],
       },
     },
@@ -663,7 +663,7 @@ export const lesson53: Lesson = {
         steps: [
           { reasoning: "Planning ensures structure and completeness.", working: "organises", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** It organises ideas and ensures all requirements are met",
+        finalAnswer: "**(d)** It organises ideas and ensures all requirements are met",
         commonErrors: ["Thinking planning is a waste of time."],
       },
     },
@@ -947,7 +947,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Letter = common task.", working: "letter", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Letter",
+            finalAnswer: "**(d)** Letter",
             commonErrors: ["Choosing (b) — that's creative writing."],
           },
         },
@@ -1052,7 +1052,7 @@ export const lesson53: Lesson = {
         steps: [
           { reasoning: "'Report' indicates report writing.", working: "report", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Report",
+        finalAnswer: "**(d)** Report",
         commonErrors: ["Confusing report with letter."],
       },
     },
@@ -1104,7 +1104,7 @@ export const lesson53: Lesson = {
         steps: [
           { reasoning: "Application = persuade.", working: "persuade", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** To persuade the reader to hire you",
+        finalAnswer: "**(b)** To persuade the reader to hire you",
         commonErrors: ["Confusing application with complaint."],
       },
     },
@@ -1130,7 +1130,7 @@ export const lesson53: Lesson = {
         steps: [
           { reasoning: "Formal letter to director = most formal.", working: "formal", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Formal letter to a director",
+        finalAnswer: "**(b)** Formal letter to a director",
         commonErrors: ["Using informal register for formal tasks."],
       },
     },
@@ -1156,7 +1156,7 @@ export const lesson53: Lesson = {
         steps: [
           { reasoning: "Reviews need opinion/evaluation.", working: "opinion", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Opinion and evaluation",
+        finalAnswer: "**(b)** Opinion and evaluation",
         commonErrors: ["Writing only facts — reviews need evaluation."],
       },
     },

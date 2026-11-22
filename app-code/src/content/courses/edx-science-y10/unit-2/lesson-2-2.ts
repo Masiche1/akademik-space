@@ -89,7 +89,7 @@ export const lesson22: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Same atoms each side",
+            finalAnswer: "**(a)** Same atoms each side",
             commonErrors: ["Molecules vs atoms confused."],
           },
         },

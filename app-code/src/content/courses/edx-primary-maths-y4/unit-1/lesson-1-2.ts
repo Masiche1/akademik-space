@@ -86,7 +86,7 @@ export const lesson42: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** 579",
+            finalAnswer: "**(a)** 579",
             commonErrors: ["Forgetting to add column by column."],
           },
         },

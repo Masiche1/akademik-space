@@ -170,7 +170,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$21+5=26$.", working: "21+5=26", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $26$",
+            finalAnswer: "**(b)** $26$",
             commonErrors: ["Choosing (b) — the pattern adds 5, not 4."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$70-10=60$.", working: "70-10=60", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $60$",
+            finalAnswer: "**(c)** $60$",
             commonErrors: ["Choosing (b) — subtracting 20 instead of 10."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$8-5=3$; $11-8=3$ — constant difference $3$.", working: "d=3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3$",
+            finalAnswer: "**(d)** $3$",
             commonErrors: ["Choosing (b) — reporting the first term instead of the difference."],
           },
         },
@@ -274,7 +274,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$40-3=37$.", working: "4\\times10-3=37", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $37$",
+            finalAnswer: "**(c)** $37$",
             commonErrors: ["Choosing (b) — forgetting the $-3$ adjustment."],
           },
         },
@@ -586,7 +586,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Week 4: $5+3(4-1)=5+9=14$.", working: "5+9=14", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\pounds14$",
+            finalAnswer: "**(b)** $\\pounds14$",
             commonErrors: ["Choosing (b) — $5+3\\times4=17$ forgets week 1 already has the first $\\pounds5$."],
           },
         },
@@ -612,7 +612,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Row 5: $4+2(5-1)=4+8=12$.", working: "4+8=12", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $12$",
+            finalAnswer: "**(d)** $12$",
             commonErrors: ["Choosing (b) — $4+2\\times5=14$ off-by-one error."],
           },
         },
@@ -638,7 +638,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$5+4(6-1)=5+20=25$.", working: "5+20=25", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $25$",
+            finalAnswer: "**(b)** $25$",
             commonErrors: ["Choosing (b) — $5+4\\times6=29$ counts the first layer twice."],
           },
         },
@@ -664,7 +664,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$10+7(6-1)=10+35=45$.", working: "10+35=45", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\pounds45$",
+            finalAnswer: "**(b)** $\\pounds45$",
             commonErrors: ["Choosing (d) — $10+7\\times6-7=45$; check via nth term."],
           },
         },
@@ -690,7 +690,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$15+3(8-1)=15+21=36$.", working: "15+21=36", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $36$",
+            finalAnswer: "**(c)** $36$",
             commonErrors: ["Choosing (b) — $15+3\\times8=39$ off-by-one."],
           },
         },

@@ -60,7 +60,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Reflection", statement: "i = r." }],
             steps: [{ reasoning: "Recall.", working: "i = r", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** i = r",
+            finalAnswer: "**(c)** i = r",
             commonErrors: ["Angles measured from surface."],
           },
         },
@@ -140,7 +140,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Angles", statement: "Measured from the normal." }],
             steps: [{ reasoning: "Recall the convention.", working: "\\text{from normal}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The normal",
+            finalAnswer: "**(d)** The normal",
             commonErrors: ["Measuring from the surface instead of the normal."],
           },
         },
@@ -175,7 +175,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "TIR direction", statement: "Denser to less dense medium." }],
             steps: [{ reasoning: "Recall the direction condition.", working: "\\text{denser} \\to \\text{less dense}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Glass to air",
+            finalAnswer: "**(c)** Glass to air",
             commonErrors: ["Choosing a direction from less dense to denser medium."],
           },
         },
@@ -210,7 +210,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "TIR uses", statement: "Optical fibres and diamonds." }],
             steps: [{ reasoning: "Recall a TIR application.", working: "\\text{optical fibre}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** An optical fibre",
+            finalAnswer: "**(a)** An optical fibre",
             commonErrors: ["Choosing a device based only on reflection."],
           },
         },
@@ -228,7 +228,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Plane mirror", statement: "Virtual, upright, same size." }],
             steps: [{ reasoning: "Recall mirror image properties.", working: "\\text{virtual, upright, same size}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Virtual, upright and the same size",
+            finalAnswer: "**(c)** Virtual, upright and the same size",
             commonErrors: ["Describing the image as real."],
           },
         },
@@ -262,7 +262,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Refraction direction", statement: "Toward normal entering a denser medium." }],
             steps: [{ reasoning: "Water is denser than air.", working: "\\text{toward normal}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Toward the normal",
+            finalAnswer: "**(d)** Toward the normal",
             commonErrors: ["Describing the direction for light leaving water."],
           },
         },
@@ -297,7 +297,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "TIR conditions", statement: "Denser to less dense and $i > c$." }],
             steps: [{ reasoning: "Check both TIR conditions.", working: "\\text{denser to less dense and } i > c", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Light leaving glass into air beyond the critical angle",
+            finalAnswer: "**(a)** Light leaving glass into air beyond the critical angle",
             commonErrors: ["Forgetting the angle must exceed the critical angle."],
           },
         },
@@ -385,7 +385,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Magnifying glass", statement: "Convex lens, object inside F." }],
             steps: [{ reasoning: "Recall.", working: "\\text{convex}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Convex",
+            finalAnswer: "**(a)** Convex",
             commonErrors: ["Concave always diminishes."],
           },
         },
@@ -461,11 +461,11 @@ export const lessonp51: Lesson = {
             { id: "b", text: "Reflected back" },
             { id: "c", text: "Deviated strongly" },
             { id: "d", text: "Undeviated" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "law", name: "Ray rule", statement: "Ray through optical centre passes straight through." }],
             steps: [{ reasoning: "Recall the central-ray rule.", working: "\\text{undeviated}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Undeviated",
+            finalAnswer: "**(d)** Undeviated",
             commonErrors: ["Applying the focal-point rule to the centre ray."],
           },
         },
@@ -495,11 +495,11 @@ export const lessonp51: Lesson = {
             { id: "b", text: "A diminished real image" },
             { id: "c", text: "A real inverted image" },
             { id: "d", text: "A virtual upright image" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Object at F", statement: "Emergent rays are parallel." }],
             steps: [{ reasoning: "Recall the focal-point case.", working: "\\text{parallel rays, no image}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** No image because rays emerge parallel",
+            finalAnswer: "**(a)** No image because rays emerge parallel",
             commonErrors: ["Assuming every object position forms an image."],
           },
         },
@@ -534,7 +534,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Concave lens", statement: "Virtual, upright, diminished." }],
             steps: [{ reasoning: "Recall concave-lens image properties.", working: "\\text{virtual, upright, diminished}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Virtual, upright and diminished",
+            finalAnswer: "**(a)** Virtual, upright and diminished",
             commonErrors: ["Treating a concave lens as converging."],
           },
         },
@@ -548,11 +548,11 @@ export const lessonp51: Lesson = {
             { id: "b", text: "It cannot be projected on a screen" },
             { id: "c", text: "It is formed where rays actually meet" },
             { id: "d", text: "It can always be projected on a screen" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Virtual image", statement: "Rays only appear to come from it." }],
             steps: [{ reasoning: "Recall that virtual images cannot be projected.", working: "\\text{cannot be projected}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** It cannot be projected on a screen",
+            finalAnswer: "**(b)** It cannot be projected on a screen",
             commonErrors: ["Confusing virtual images with real images."],
           },
         },
@@ -620,7 +620,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Beyond 2F", statement: "Real, inverted, diminished." }],
             steps: [{ reasoning: "Recall the beyond-2F image case.", working: "\\text{real, inverted, diminished}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Real, inverted and diminished",
+            finalAnswer: "**(a)** Real, inverted and diminished",
             commonErrors: ["Confusing the beyond-2F and between-F-and-2F cases."],
           },
         },

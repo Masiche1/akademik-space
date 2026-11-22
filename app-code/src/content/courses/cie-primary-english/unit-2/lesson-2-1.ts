@@ -145,7 +145,7 @@ export const lesson21: Lesson = {
             { id: "b", text: "Bored" },
             { id: "c", text: "Sad" },
             { id: "d", text: "Happy" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "skill", name: "Inference", statement: "Use clues like actions to infer feelings." }],
             steps: [{ reasoning: "Grinning from ear to ear shows happiness.", marks: 1, markCode: "AO2" }],

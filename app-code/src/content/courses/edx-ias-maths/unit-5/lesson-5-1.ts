@@ -65,7 +65,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "A spanning tree on $n$ vertices has $n-1$ arcs.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $n-1$",
+            finalAnswer: "**(b)** $n-1$",
             commonErrors: ["Confusing a tree with a complete graph."],
           },
         },
@@ -197,7 +197,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Flow conservation requires inflow = outflow at each intermediate vertex.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Inflow equals outflow",
+            finalAnswer: "**(c)** Inflow equals outflow",
             commonErrors: ["Thinking flow accumulates at vertices."],
           },
         },
@@ -330,7 +330,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Critical activities have zero float.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0$",
+            finalAnswer: "**(c)** $0$",
             commonErrors: ["Thinking float equals duration."],
           },
         },

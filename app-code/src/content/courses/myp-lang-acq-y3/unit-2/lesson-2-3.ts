@@ -70,7 +70,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Yours sincerely' is the formal sign-off.", working: "Yours sincerely", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Yours sincerely",
+            finalAnswer: "**(d)** Yours sincerely",
             commonErrors: ["Choosing informal sign-offs for a teacher."],
             examinerNote: "D1 for (b).",
           },
@@ -174,7 +174,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — subject line = topic of email.", working: "subject line", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** The subject line",
+            finalAnswer: "**(d)** The subject line",
             commonErrors: ["Confusing greeting with subject."],
             examinerNote: "D1 for (b).",
           },
@@ -192,7 +192,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Dear Sir" },
               { id: "d", text: "See you soon!" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -201,7 +201,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'See you soon!' fits a friend.", working: "See you soon!", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** See you soon!",
+            finalAnswer: "**(d)** See you soon!",
             commonErrors: ["Choosing stiff formal sign-offs for friends."],
             examinerNote: "D1 for (c).",
           },
@@ -219,7 +219,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Question" },
               { id: "d", text: "hi" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -228,7 +228,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Extra maths help please' is clear and specific.", working: "Extra maths help please", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** Extra maths help please",
+            finalAnswer: "**(b)** Extra maths help please",
             commonErrors: ["Vague subjects like 'hi' or 'Question'."],
             examinerNote: "D1 for (c).",
           },
@@ -255,7 +255,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — B gives what (notes), when (Wednesday) and why (absent).", working: "specific request", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Could you send me the notes from Monday's lesson by Wednesday? I was absent.",
+            finalAnswer: "**(a)** Could you send me the notes from Monday's lesson by Wednesday? I was absent.",
             commonErrors: ["Choosing vague requests."],
             examinerNote: "D1 for (b).",
           },
@@ -315,7 +315,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — greeting opens the body.", working: "greeting", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** The greeting",
+            finalAnswer: "**(a)** The greeting",
             commonErrors: ["Putting the request first."],
             examinerNote: "D1 for (b).",
           },
@@ -633,7 +633,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — editing (content) comes before proofreading.", working: "edit content first", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Edit for content and organisation",
+            finalAnswer: "**(d)** Edit for content and organisation",
             commonErrors: ["Proofreading before editing."],
             examinerNote: "D1 for (b).",
           },
@@ -660,7 +660,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'answers the question' is about content = editing.", working: "content question", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Does the text answer the question?",
+            finalAnswer: "**(a)** Does the text answer the question?",
             commonErrors: ["Choosing a spelling/punctuation item."],
             examinerNote: "D1 for (b).",
           },
@@ -687,7 +687,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'excellent' is stronger and more precise.", working: "excellent", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** excellent",
+            finalAnswer: "**(c)** excellent",
             commonErrors: ["Stacking intensifiers instead of improving the word."],
             examinerNote: "D1 for (b).",
           },
@@ -747,7 +747,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — sentences are bare facts; no description or emotion.", working: "no detail/feeling", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It is a list of short facts with no detail or feeling",
+            finalAnswer: "**(a)** It is a list of short facts with no detail or feeling",
             commonErrors: ["Looking for surface errors instead of content."],
             examinerNote: "B1 for (b).",
           },
@@ -774,7 +774,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — content check comes first in editing.", working: "content first", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Ask: does it answer the question and include everything needed?",
+            finalAnswer: "**(c)** Ask: does it answer the question and include everything needed?",
             commonErrors: ["Starting with punctuation."],
             examinerNote: "D1 for (b).",
           },

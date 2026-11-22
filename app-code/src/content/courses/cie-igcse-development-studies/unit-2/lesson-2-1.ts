@@ -284,7 +284,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Free trade", statement: "Trade without tariffs or barriers between countries." }],
             steps: [{ reasoning: "Free trade removes tariffs, quotas and other restrictions so countries can trade openly.", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** Without tariffs or other barriers.",
+            finalAnswer: "**(c)** Without tariffs or other barriers.",
             commonErrors: ["Confusing free trade with fair trade."],
           },
         },
@@ -320,7 +320,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Export-led growth", statement: "Development driven by producing goods for export markets." }],
             steps: [{ reasoning: "Countries such as East Asian economies industrialised by expanding manufactured exports.", marks: 1, markCode: "M" }],
-            finalAnswer: "**(a)** Producing goods mainly for export markets.",
+            finalAnswer: "**(d)** Producing goods mainly for export markets.",
             commonErrors: ["Confusing export-led growth with import substitution."],
           },
         },
@@ -338,7 +338,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Primary trap", statement: "Low-value, volatile primary exports limit development." }],
             steps: [{ reasoning: "Raw-material exports earn little and prices fluctuate, restricting funds for development.", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** Low-value and price-volatile raw materials.",
+            finalAnswer: "**(d)** Low-value and price-volatile raw materials.",
             commonErrors: ["Assuming more export volume alone solves low prices."],
           },
         },
@@ -356,7 +356,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Globalisation benefits", statement: "Investment, technology transfer and market access." }],
             steps: [{ reasoning: "FDI, technology and access to global markets can raise productivity and incomes.", marks: 1, markCode: "M" }],
-            finalAnswer: "**(a)** Investment, technology and export markets.",
+            finalAnswer: "**(b)** Investment, technology and export markets.",
             commonErrors: ["Claiming globalisation benefits every country equally."],
           },
         },
@@ -374,7 +374,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Globalisation drawbacks", statement: "Global shocks, TNC dominance and uneven gains." }],
             steps: [{ reasoning: "Connected economies face global price and financial shocks, while benefits may concentrate in some regions and sectors.", marks: 1, markCode: "R" }],
-            finalAnswer: "**(b)** Increase exposure to shocks and widen inequality.",
+            finalAnswer: "**(c)** Increase exposure to shocks and widen inequality.",
             commonErrors: ["Ignoring the uneven distribution of globalisation's gains."],
           },
         },

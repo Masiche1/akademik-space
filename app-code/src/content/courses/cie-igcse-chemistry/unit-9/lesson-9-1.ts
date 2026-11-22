@@ -57,7 +57,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Air composition", statement: "N₂ ~78%, O₂ ~21%." }],
             steps: [{ reasoning: "Recall.", working: "N_2 = 78\\%", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 78%",
+            finalAnswer: "**(c)** 78%",
             commonErrors: ["Confusing N₂ with O₂ percentages."],
           },
         },
@@ -136,7 +136,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Air composition", statement: "O₂ ~21%." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 21%",
+            finalAnswer: "**(d)** 21%",
             commonErrors: ["78% is N₂."],
           },
         },
@@ -154,7 +154,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "NOₓ", statement: "High-temp combustion." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** NOₓ",
+            finalAnswer: "**(a)** NOₓ",
             commonErrors: ["SO₂ comes from sulphur in fuels."],
           },
         },
@@ -273,7 +273,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Greenhouse gases", statement: "CO₂, CH₄, H₂O." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Carbon dioxide",
+            finalAnswer: "**(c)** Carbon dioxide",
             commonErrors: ["N₂/O₂/Ar are not GHG."],
           },
         },
@@ -316,7 +316,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Air", statement: "N₂ ~78%." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Nitrogen",
+            finalAnswer: "**(c)** Nitrogen",
             commonErrors: ["O₂ is second."],
           },
         },
@@ -334,7 +334,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "CO", statement: "Toxic gas from incomplete combustion." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** CO",
+            finalAnswer: "**(d)** CO",
             commonErrors: ["CO₂ is complete combustion product."],
           },
         },
@@ -460,7 +460,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Temporary hardness", statement: "Ca(HCO₃)₂." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ca(HCO₃)₂",
+            finalAnswer: "**(c)** Ca(HCO₃)₂",
             commonErrors: ["CaSO₄ is permanent."],
           },
         },
@@ -593,11 +593,11 @@ export const lesson191: Lesson = {
             { id: "b", text: "Filtration" },
             { id: "c", text: "Sedimentation" },
             { id: "d", text: "Coagulation" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Chlorination", statement: "Disinfects water." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Chlorination",
+            finalAnswer: "**(a)** Chlorination",
             commonErrors: ["Filtration removes solids not microbes."],
           },
         },
@@ -638,7 +638,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Soft water", statement: "Low Ca²⁺/Mg²⁺." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Low Ca²⁺/Mg²⁺ content",
+            finalAnswer: "**(c)** Low Ca²⁺/Mg²⁺ content",
             commonErrors: ["Still contains other dissolved substances."],
           },
         },

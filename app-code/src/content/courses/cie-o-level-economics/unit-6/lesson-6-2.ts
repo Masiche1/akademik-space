@@ -41,7 +41,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Exporting more goods" },
             { id: "d", text: "Producing domestically what was imported" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Import substitution", statement: "Domestic replacement." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Import substitution", statement: "Domestic replacement." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u6-st-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Development driven by expanding exports" },
             { id: "d", text: "Nationalising industries" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Export-led growth", statement: "Exports drive development." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Export-led growth", statement: "Exports drive development." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u6-st-q6", difficulty: "core", totalMarks: 1,
@@ -109,7 +109,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Government grants for infrastructure" },
             { id: "d", text: "Small loans to poor entrepreneurs who lack access to banks" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Microfinance", statement: "Small loans." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Microfinance", statement: "Small loans." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u6-st-q7", difficulty: "foundation", totalMarks: 2,
@@ -202,7 +202,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Primary products cannot be sold abroad" },
             { id: "d", text: "It eliminates the need for investment" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Diversification", statement: "Higher value exports." }], steps: [{ reasoning: "Correct reason.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Diversification", statement: "Higher value exports." }], steps: [{ reasoning: "Correct reason.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u6-st-q15", difficulty: "core", totalMarks: 1,
@@ -213,7 +213,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Increasing population growth" },
             { id: "d", text: "Building human capital that raises productivity" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Education and development", statement: "Human capital." }], steps: [{ reasoning: "Correct mechanism.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Education and development", statement: "Human capital." }], steps: [{ reasoning: "Correct mechanism.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u6-st-q16", difficulty: "challenge", totalMarks: 9,
@@ -325,7 +325,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "0 (perfect equality) to 1 (perfect inequality)" },
             { id: "d", text: "0 to 100" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Gini range", statement: "0 to 1." }], steps: [{ reasoning: "Correct range.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Gini range", statement: "0 to 1." }], steps: [{ reasoning: "Correct range.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u6-ineq-q6", difficulty: "foundation", totalMarks: 2,
@@ -348,7 +348,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Extreme inequality" },
             { id: "d", text: "Perfect inequality" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Gini interpretation", statement: "Low = equal." }], steps: [{ reasoning: "Values near 0 indicate more equal distribution.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Gini interpretation", statement: "Low = equal." }], steps: [{ reasoning: "Values near 0 indicate more equal distribution.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u6-ineq-q8", difficulty: "core", totalMarks: 2,
@@ -429,7 +429,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Is always equal to income" },
             { id: "d", text: "Cannot be measured" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Wealth vs income", statement: "Stock vs flow." }], steps: [{ reasoning: "Correct distinction.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Wealth vs income", statement: "Stock vs flow." }], steps: [{ reasoning: "Correct distinction.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u6-ineq-q15", difficulty: "core", totalMarks: 1,
@@ -440,7 +440,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Removing all taxes" },
             { id: "d", text: "Reducing education spending" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Reducing inequality", statement: "Redistribution." }], steps: [{ reasoning: "Correct policy.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Reducing inequality", statement: "Redistribution." }], steps: [{ reasoning: "Correct policy.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u6-ineq-q16", difficulty: "challenge", totalMarks: 9,

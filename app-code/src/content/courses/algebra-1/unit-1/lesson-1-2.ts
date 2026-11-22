@@ -60,7 +60,7 @@ export const lesson12: Lesson = {
               { reasoning: "Multiply both sides by 2 to remove the factor of one-half.", working: "2A=bh", marks: 1, markCode: "M" },
               { reasoning: "Divide by $b$ to isolate $h$ (with $b\\ne0$).", working: "h=\\dfrac{2A}{b}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $h=\\dfrac{2A}{b}$",
+            finalAnswer: "**(a)** $h=\\dfrac{2A}{b}$",
             commonErrors: ["Dividing by 2 instead of undoing multiplication by $\\frac12$.", "Failing to divide the whole expression by $b$."],
           },
         },

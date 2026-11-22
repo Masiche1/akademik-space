@@ -96,7 +96,7 @@ export const lesson413: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Alveoli",
+            finalAnswer: "**(d)** Alveoli",
             commonErrors: ["Confusing with bronchi/trachea (airways)."],
           },
         },
@@ -271,7 +271,7 @@ export const lesson413: Lesson = {
             steps: [
               { reasoning: "Gas exchange occurs across alveolar walls.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Alveolus",
+            finalAnswer: "**(d)** Alveolus",
             commonErrors: ["Choosing an airway rather than an air sac."],
           },
         },
@@ -301,7 +301,7 @@ export const lesson413: Lesson = {
             steps: [
               { reasoning: "One-cell-thick walls minimise diffusion distance.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** One-cell-thick walls",
+            finalAnswer: "**(c)** One-cell-thick walls",
             commonErrors: ["Focusing only on surface area."],
           },
         },
@@ -331,7 +331,7 @@ export const lesson413: Lesson = {
             steps: [
               { reasoning: "Alveolar oxygen partial pressure is higher than blood.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Alveolar air to blood",
+            finalAnswer: "**(c)** Alveolar air to blood",
             commonErrors: ["Reversing oxygen and carbon dioxide movement."],
           },
         },
@@ -361,7 +361,7 @@ export const lesson413: Lesson = {
             steps: [
               { reasoning: "Surfactant prevents collapse during breathing.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Reduces surface tension",
+            finalAnswer: "**(d)** Reduces surface tension",
             commonErrors: ["Saying surfactant transports gases."],
           },
         },
@@ -391,7 +391,7 @@ export const lesson413: Lesson = {
             steps: [
               { reasoning: "Gases must dissolve to diffuse across membranes.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Gases dissolve in moisture",
+            finalAnswer: "**(b)** Gases dissolve in moisture",
             commonErrors: ["Thinking moisture blocks diffusion."],
           },
         },
@@ -421,7 +421,7 @@ export const lesson413: Lesson = {
             steps: [
               { reasoning: "Ventilation and perfusion maintain gradients.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Ventilation and circulation",
+            finalAnswer: "**(d)** Ventilation and circulation",
             commonErrors: ["Thinking gradients are maintained automatically."],
           },
         },
@@ -638,7 +638,7 @@ export const lesson413: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Air per normal breath",
+            finalAnswer: "**(c)** Air per normal breath",
             commonErrors: ["Confusing with vital capacity."],
           },
         },
@@ -819,7 +819,7 @@ export const lesson413: Lesson = {
             steps: [
               { reasoning: "These muscles expand the thoracic cavity.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Diaphragm and external intercostals",
+            finalAnswer: "**(b)** Diaphragm and external intercostals",
             commonErrors: ["Naming muscles used in forced expiration."],
           },
         },
@@ -849,7 +849,7 @@ export const lesson413: Lesson = {
             steps: [
               { reasoning: "Pressure falls below atmospheric pressure during inspiration.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Pressure decreases",
+            finalAnswer: "**(b)** Pressure decreases",
             commonErrors: ["Saying pressure rises during inspiration."],
           },
         },
@@ -879,7 +879,7 @@ export const lesson413: Lesson = {
             steps: [
               { reasoning: "Relaxation reduces thoracic volume and raises pressure.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Muscles relax; volume decreases",
+            finalAnswer: "**(c)** Muscles relax; volume decreases",
             commonErrors: ["Thinking expiration always requires muscle contraction."],
           },
         },
@@ -909,7 +909,7 @@ export const lesson413: Lesson = {
             steps: [
               { reasoning: "These muscles increase pressure to expel air forcefully.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Internal intercostals and abdominals",
+            finalAnswer: "**(d)** Internal intercostals and abdominals",
             commonErrors: ["Naming inspiratory muscles."],
           },
         },
@@ -939,7 +939,7 @@ export const lesson413: Lesson = {
             steps: [
               { reasoning: "Vital capacity excludes residual volume.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Tidal + inspiratory + expiratory reserves",
+            finalAnswer: "**(d)** Tidal + inspiratory + expiratory reserves",
             commonErrors: ["Including residual volume."],
           },
         },
@@ -969,7 +969,7 @@ export const lesson413: Lesson = {
             steps: [
               { reasoning: "$CO_2$ is the main stimulus for breathing rate.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Carbon dioxide level",
+            finalAnswer: "**(c)** Carbon dioxide level",
             commonErrors: ["Saying oxygen alone controls breathing."],
           },
         },

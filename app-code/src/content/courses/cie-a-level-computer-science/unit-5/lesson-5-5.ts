@@ -99,7 +99,7 @@ export const lesson55: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Domain Name System",
+        finalAnswer: "**(a)** Domain Name System",
       },
     },
     {
@@ -137,7 +137,7 @@ export const lesson55: Lesson = {
           },
         ],
         finalAnswer:
-          "**(b)** TCP is reliable and ordered; UDP is fast but unreliable",
+          "**(c)** TCP is reliable and ordered; UDP is fast but unreliable",
       },
     },
     {
@@ -202,7 +202,7 @@ export const lesson55: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Filters network traffic based on security rules",
+        finalAnswer: "**(d)** Filters network traffic based on security rules",
       },
     },
     {
@@ -368,7 +368,7 @@ export const lesson55: Lesson = {
           { id: "c", text: "HTTP" },
           { id: "d", text: "DNS" },
         ],
-        aorrectChoiceId: "c",
+        correctChoiceId: "a",
       },
       markscheme: {
         principles: [
@@ -382,7 +382,7 @@ export const lesson55: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(c)** SMTP",
+        finalAnswer: "**(a)** SMTP",
       },
     },
     {
@@ -651,7 +651,7 @@ export const lesson55: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** FTP",
+        finalAnswer: "**(a)** FTP",
       },
     },
     {

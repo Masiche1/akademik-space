@@ -316,7 +316,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Cylinder" },
               { id: "d", text: "Sphere" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -329,7 +329,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Ball shape = sphere.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Sphere",
+            finalAnswer: "**(d)** Sphere",
             commonErrors: [
               "Choosing cylinder — it is round but has flat ends.",
             ],

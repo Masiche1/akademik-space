@@ -65,7 +65,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "One face shows 6 out of 6 faces → $\\frac{1}{6}$.", working: "1/6", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{1}{6}$",
+            finalAnswer: "**(b)** $\\frac{1}{6}$",
             commonErrors: ["Choosing (c) — probability can't exceed 1."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Three even faces out of six → $\\frac{3}{6}=\\frac{1}{2}$.", working: "3/6", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\frac{1}{2}$",
+            finalAnswer: "**(c)** $\\frac{1}{2}$",
             commonErrors: ["Choosing (a) — that's one face, not three."],
           },
         },
@@ -231,7 +231,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "A die has faces 1–6; 7 cannot occur → impossible.", working: "7\\text{ impossible}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Rolling a 7 on a fair die",
+            finalAnswer: "**(b)** Rolling a 7 on a fair die",
             commonErrors: ["Confusing unlikely with impossible."],
           },
         },
@@ -302,7 +302,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Probabilities lie between 0 and 1 inclusive.", working: "0\\le P\\le1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $0$ and $1$",
+            finalAnswer: "**(a)** $0$ and $1$",
             commonErrors: ["Thinking probabilities can exceed 1."],
           },
         },
@@ -346,7 +346,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "HT and TH are different ordered outcomes.", working: "distinct", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Different outcomes",
+            finalAnswer: "**(a)** Different outcomes",
             commonErrors: ["Merging HT and TH as one outcome."],
           },
         },
@@ -407,7 +407,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "$1 - 0.7 = 0.3$.", working: "0.3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $0.3$",
+            finalAnswer: "**(c)** $0.3$",
             commonErrors: ["Assuming fair coin $0.5$ — coin is biased."],
           },
         },
@@ -482,7 +482,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "$E = 60 \\times \\frac{1}{6} = 10$ sixes.", working: "60\\times1/6=10", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $10$",
+            finalAnswer: "**(d)** $10$",
             commonErrors: ["Choosing (b) — that's probability as count, not expected frequency."],
           },
         },
@@ -587,7 +587,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "$80 \\times \\frac{1}{2} = 40$ heads.", working: "80\\times0.5=40", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $40$",
+            finalAnswer: "**(b)** $40$",
             commonErrors: ["Choosing (b) — that's all tosses, not expected heads."],
           },
         },
@@ -648,7 +648,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Occurrences over trials.", working: "occ/trials", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\frac{\\text{times event occurred}}{\\text{total trials}}$",
+            finalAnswer: "**(c)** $\\frac{\\text{times event occurred}}{\\text{total trials}}$",
             commonErrors: ["Inverting the fraction."],
           },
         },
@@ -701,7 +701,7 @@ export const lesson83: Lesson = {
               { id: "c", text: "Move away from theoretical probability" },
               { id: "d", text: "Become impossible" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -710,7 +710,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Large samples converge to theory.", working: "converge", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Get closer to theoretical probability",
+            finalAnswer: "**(a)** Get closer to theoretical probability",
             commonErrors: ["Thinking small samples are more reliable."],
           },
         },
@@ -754,7 +754,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "$600 \\times \\frac{1}{6} = 100$.", working: "100", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $100$",
+            finalAnswer: "**(c)** $100$",
             commonErrors: ["Choosing (a) — used wrong fraction."],
           },
         },
@@ -815,7 +815,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "$255 \\div 500 = 0.51$ — close to theoretical $0.5$.", working: "0.51", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $0.51$",
+            finalAnswer: "**(d)** $0.51$",
             commonErrors: ["Choosing (d) — probability cannot exceed 1."],
           },
         },

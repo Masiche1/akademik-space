@@ -198,7 +198,7 @@ export const lesson21: Lesson = {
               { reasoning: "Find two numbers that multiply to 15 and add to 8: 3 and 5.", working: "3 \\times 5 = 15,\\; 3 + 5 = 8", marks: 1, markCode: "M" },
               { reasoning: "Write the factors.", working: "(x + 3)(x + 5)", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $(x + 3)(x + 5)$",
+            finalAnswer: "**(c)** $(x + 3)(x + 5)$",
             commonErrors: ["Choosing a pair that multiplies to 15 but adds to 16, as in (b).", "Using negative numbers when $b$ is positive."],
           },
         },

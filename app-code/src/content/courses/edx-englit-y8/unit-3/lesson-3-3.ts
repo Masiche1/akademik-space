@@ -211,7 +211,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Patriarchy", statement: "Fathers controlled their daughters' marriages." }],
             steps: [{ reasoning: "Wealthy families arranged marriages to gain status, and fathers decided.", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** Her father.",
+            finalAnswer: "**(b)** Her father.",
             commonErrors: ["Applying modern ideas of free choice."],
           },
         },

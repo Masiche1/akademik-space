@@ -160,7 +160,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$d=\\sqrt{5^2+12^2}=\\sqrt{25+144}=\\sqrt{169}=13$.", working: "d=13", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $13$",
+            finalAnswer: "**(d)** $13$",
             commonErrors: ["Computing $5^2+12^2=17^2$ confusion — check $\\sqrt{169}=13$."],
           },
         },
@@ -186,7 +186,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Base $=4$ along the $x$-axis, height $=3$; $A=\\frac{1}{2}\\times4\\times3=6$.", working: "A=6", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $6$ square units",
+            finalAnswer: "**(c)** $6$ square units",
             commonErrors: ["Forgetting the $\\frac{1}{2}$ factor to get 12."],
           },
         },
@@ -212,7 +212,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Base from $(1,1)$ to $(4,1)$ has length 3; height $=5-1=4$; $A=\\frac{1}{2}\\times3\\times4=6$.", working: "A=6", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $6$ square units",
+            finalAnswer: "**(c)** $6$ square units",
             commonErrors: ["Using height 5 instead of the difference $5-1=4$."],
           },
         },
@@ -400,7 +400,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Base from $(2,3)$ to $(6,3)$ has length 4; height $=7-3=4$; $A=\\frac{1}{2}\\times4\\times4=8$.", working: "A=8", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $8$ square units",
+            finalAnswer: "**(c)** $8$ square units",
             commonErrors: ["Forgetting the $\\frac{1}{2}$ factor to get 16."],
           },
         },
@@ -483,7 +483,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Read the gradient from $y=mx+c$.", working: "m=2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2$",
+            finalAnswer: "**(c)** $2$",
             commonErrors: ["Using the negative reciprocal (that's for perpendicular)."],
           },
         },
@@ -578,7 +578,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "$-\\frac{1}{2}$" },
               { id: "d", text: "2" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -587,7 +587,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Negative reciprocal of 2 is $-\\frac{1}{2}$.", working: "m=-\\frac{1}{2}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(d)** $m=-\\frac{1}{2}$",
+            finalAnswer: "**(c)** $m=-\\frac{1}{2}$",
             commonErrors: ["Writing $m=\\frac{1}{2}$ without the negative sign."],
           },
         },
@@ -639,7 +639,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$m=\\frac{7-1}{3-1}=\\frac{6}{2}=3$.", working: "m=3", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $m=3$",
+            finalAnswer: "**(d)** $m=3$",
             commonErrors: ["Inverting to $\\frac{2}{6}=\\frac{1}{3}$."],
           },
         },

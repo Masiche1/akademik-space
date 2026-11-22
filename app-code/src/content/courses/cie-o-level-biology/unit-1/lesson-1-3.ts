@@ -66,7 +66,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{image/actual}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** How much larger the image is than the actual specimen",
+            finalAnswer: "**(d)** How much larger the image is than the actual specimen",
             commonErrors: ["Confusing with resolution — magnification ≠ detail."],
           },
         },
@@ -187,7 +187,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Rearrange the magnification formula.", working: "\\text{actual} = \\text{image}/M", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Image size $\\div$ magnification",
+            finalAnswer: "**(a)** Image size $\\div$ magnification",
             commonErrors: ["Multiplying — actual size is always smaller than image size."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson13: Lesson = {
               { reasoning: "Identify the practical reason.", working: "\\text{wide field of view}", marks: 1, markCode: "M" },
               { reasoning: "State that it is also safer to focus before high power.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Low power gives a wider field of view so the specimen can be located and centred safely",
+            finalAnswer: "**(d)** Low power gives a wider field of view so the specimen can be located and centred safely",
             commonErrors: ["Saying low power gives more detail — it gives a wider field, not more resolution."],
           },
         },
@@ -298,7 +298,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Telescope" },
               { id: "d", text: "Hand lens" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -307,7 +307,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Recall the comparison.", working: "\\text{EM} > \\text{LM}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Electron microscope",
+            finalAnswer: "**(a)** Electron microscope",
             commonErrors: ["Choosing light microscope — it magnifies but cannot resolve fine detail like EM."],
           },
         },
@@ -371,7 +371,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Divide 20 by 500.", working: "\\frac{20}{500} = 0.04 \\text{ mm}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 0.04 mm",
+            finalAnswer: "**(c)** 0.04 mm",
             commonErrors: ["Multiplying instead of dividing."],
           },
         },
@@ -592,7 +592,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Tissue" },
               { id: "d", text: "Organ system" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -601,7 +601,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The heart contains muscle, nerve and blood tissues.", working: "\\text{multiple tissues}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Organ",
+            finalAnswer: "**(b)** Organ",
             commonErrors: ["Choosing organ system — the heart alone is an organ, not a system."],
           },
         },
@@ -618,7 +618,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Tissue" },
               { id: "d", text: "Organ system" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -628,7 +628,7 @@ export const lesson13: Lesson = {
               { reasoning: "Recall the sequence after organ.", working: "\\text{organ} \\to \\text{system}", marks: 1, markCode: "M" },
               { reasoning: "Select the correct level.", working: "\\text{organ system}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Organ system",
+            finalAnswer: "**(d)** Organ system",
             commonErrors: ["Choosing organism — the system level sits between organ and organism."],
           },
         },
@@ -711,7 +711,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Muscle cell" },
               { id: "d", text: "Muscle tissue" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -720,7 +720,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Match structure to level.", working: "\\text{heart = organ}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Heart",
+            finalAnswer: "**(a)** Heart",
             commonErrors: ["Choosing muscle tissue — a tissue is one level lower."],
           },
         },

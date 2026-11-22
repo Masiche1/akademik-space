@@ -57,7 +57,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Metallic bond", statement: "Ions attracted to delocalised electrons." }],
             steps: [{ reasoning: "Recall.", working: "\\text{ions + e}^- \\text{ sea}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Positive ions attracted to delocalised electrons",
+            finalAnswer: "**(c)** Positive ions attracted to delocalised electrons",
             commonErrors: ["Describing metallic as covalent sharing."],
           },
         },
@@ -155,7 +155,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Thermal conduction", statement: "Delocalised electrons carry thermal energy." }],
             steps: [{ reasoning: "Mobile electrons transfer heat through the metal.", working: "\\text{e}^- \\text{ transfer energy}", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** Delocalised electrons transfer kinetic energy",
+            finalAnswer: "**(c)** Delocalised electrons transfer kinetic energy",
             commonErrors: ["Saying heat is carried only by ions."],
           },
         },
@@ -173,7 +173,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Malleability", statement: "Electron sea maintains bonding during sliding." }],
             steps: [{ reasoning: "Delocalised electrons keep ions attracted.", working: "\\text{electron sea remains}", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** Delocalised electrons maintain attraction as layers move",
+            finalAnswer: "**(a)** Delocalised electrons maintain attraction as layers move",
             commonErrors: ["Saying metallic bonds break when layers slide."],
           },
         },
@@ -379,7 +379,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Graphite", statement: "Delocalised electrons between layers." }],
             steps: [{ reasoning: "Recall.", working: "\\text{graphite}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Graphite",
+            finalAnswer: "**(d)** Graphite",
             commonErrors: ["Assuming both conduct as 'carbon'."],
           },
         },
@@ -477,7 +477,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Graphite", statement: "Layers are held by weak forces." }],
             steps: [{ reasoning: "Graphite layers slide because forces between them are weak.", working: "\\text{weak intermolecular forces}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Weak intermolecular forces",
+            finalAnswer: "**(a)** Weak intermolecular forces",
             commonErrors: ["Saying covalent bonds hold the layers together."],
           },
         },
@@ -495,7 +495,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Diamond", statement: "No free electrons or ions are available to carry charge." }],
             steps: [{ reasoning: "Every carbon electron is in a fixed bond.", working: "\\text{no free e}^-", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** All electrons are involved in covalent bonds",
+            finalAnswer: "**(a)** All electrons are involved in covalent bonds",
             commonErrors: ["Saying diamond contains ions."],
           },
         },
@@ -513,7 +513,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Allotrope", statement: "Same element, different structure." }],
             steps: [{ reasoning: "Diamond and graphite are carbon allotropes.", working: "\\text{same element, different structure}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A different structural form of the same element",
+            finalAnswer: "**(d)** A different structural form of the same element",
             commonErrors: ["Confusing allotropes with isotopes or compounds."],
           },
         },
@@ -531,7 +531,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Graphite", statement: "Weak forces between layers allow sliding." }],
             steps: [{ reasoning: "Sliding layers reduce friction.", working: "\\text{layers slide}", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** Its layers slide over each other easily",
+            finalAnswer: "**(a)** Its layers slide over each other easily",
             commonErrors: ["Saying graphite is hard like diamond."],
           },
         },

@@ -62,7 +62,7 @@ export const lesson52: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Work", statement: "$W=\\int F\\,ds$." }],
             steps: [{ reasoning: "Work is integral of force over displacement.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\int F\\,ds$",
+            finalAnswer: "**(b)** $\\int F\\,ds$",
           },
         },
         {
@@ -182,7 +182,7 @@ export const lesson52: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Power", statement: "$P=Fv$." }],
             steps: [{ reasoning: "Standard result.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $Fv$",
+            finalAnswer: "**(d)** $Fv$",
           },
         },
         {

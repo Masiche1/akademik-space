@@ -325,7 +325,7 @@ export const lesson302: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** .header",
+            finalAnswer: "**(c)** .header",
             commonErrors: ["Confusing class vs ID."],
           },
         },

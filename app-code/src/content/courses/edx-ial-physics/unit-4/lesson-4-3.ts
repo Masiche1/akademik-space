@@ -83,7 +83,7 @@ export const lesson43: Lesson = {
               { id: "c", text: "Force opposite to its motion" },
               { id: "d", text: "Maximum force" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -100,7 +100,7 @@ export const lesson43: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** No force",
+            finalAnswer: "**(a)** No force",
             commonErrors: ["Thinking any motion in a field produces a force."],
           },
         },
@@ -339,7 +339,7 @@ export const lesson43: Lesson = {
               { id: "c", text: "Neutron" },
               { id: "d", text: "Proton" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -357,7 +357,7 @@ export const lesson43: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** Muon",
+            finalAnswer: "**(a)** Muon",
             commonErrors: ["Confusing hadrons with leptons."],
           },
         },

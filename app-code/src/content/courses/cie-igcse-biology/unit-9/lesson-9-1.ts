@@ -159,7 +159,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recall the diploid number.", working: "\\text{2n} = 46", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 46",
+            finalAnswer: "**(d)** 46",
             commonErrors: ["Choosing 23 — that's the haploid gamete number."],
           },
         },
@@ -211,7 +211,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recall the pairing rule.", working: "\\text{A} \\leftrightarrow \\text{T}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Thymine",
+            finalAnswer: "**(d)** Thymine",
             commonErrors: ["Choosing cytosine — C pairs with G, not A."],
           },
         },
@@ -375,7 +375,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recall where genes are found.", working: "\\text{chromosomes in nucleus}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** On chromosomes in the nucleus",
+            finalAnswer: "**(d)** On chromosomes in the nucleus",
             commonErrors: ["Choosing cytoplasm — genes are on chromosomes inside the nucleus."],
           },
         },
@@ -401,7 +401,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Identify haploid cells.", working: "\\text{gametes}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Gametes (sperm and eggs)",
+            finalAnswer: "**(b)** Gametes (sperm and eggs)",
             commonErrors: ["Choosing body cells — those are diploid."],
           },
         },
@@ -550,7 +550,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recall the product.", working: "\\text{mitosis} \\to 2 \\text{ cells}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 2",
+            finalAnswer: "**(c)** 2",
             commonErrors: ["Choosing 4 — that's meiosis."],
           },
         },
@@ -576,7 +576,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recall the divisions.", working: "\\text{meiosis} = 2 \\text{ divisions}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 2",
+            finalAnswer: "**(b)** 2",
             commonErrors: ["Choosing 1 — that's mitosis."],
           },
         },
@@ -602,7 +602,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Match process to role.", working: "\\text{mitosis} \\to \\text{growth/repair}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Mitosis",
+            finalAnswer: "**(d)** Mitosis",
             commonErrors: ["Choosing meiosis — that produces gametes for sexual reproduction."],
           },
         },
@@ -769,7 +769,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Match product to process.", working: "\\text{meiosis} \\to \\text{haploid gametes}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Haploid gametes",
+            finalAnswer: "**(b)** Haploid gametes",
             commonErrors: ["Choosing identical cells — meiosis produces varied gametes."],
           },
         },
@@ -795,7 +795,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recall mitosis outcome.", working: "\\text{mitosis} \\to \\text{identical}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Genetically identical",
+            finalAnswer: "**(c)** Genetically identical",
             commonErrors: ["Choosing 'different' — that's meiosis."],
           },
         },

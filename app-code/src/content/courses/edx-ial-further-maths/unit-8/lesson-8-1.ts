@@ -60,7 +60,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Binomial conditions", statement: "Independence required." }],
             steps: [{ reasoning: "Trials must be independent, not dependent.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** dependent trials",
+            finalAnswer: "**(d)** dependent trials",
           },
         },
         {
@@ -179,7 +179,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Poisson moments", statement: "$E=\\text{Var}=\\lambda$." }],
             steps: [{ reasoning: "Standard result.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\lambda$",
+            finalAnswer: "**(d)** $\\lambda$",
           },
         },
         {

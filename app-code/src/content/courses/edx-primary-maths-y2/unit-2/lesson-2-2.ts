@@ -74,7 +74,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Two thirds" },
               { id: "d", text: "A quarter" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -91,7 +91,7 @@ export const lesson22: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** A third",
+            finalAnswer: "**(b)** A third",
             commonErrors: ["Answering quarter — miscounting parts."],
           },
         },
@@ -328,7 +328,7 @@ export const lesson22: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** A half",
+            finalAnswer: "**(a)** A half",
             commonErrors: ["Thinking more parts = bigger fraction."],
           },
         },

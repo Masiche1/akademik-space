@@ -173,7 +173,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — clubs need polite but not stiff = semi-formal.", working: "semi-formal", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Semi-formal — 'Hello, ... Kind regards'",
+            finalAnswer: "**(c)** Semi-formal — 'Hello, ... Kind regards'",
             commonErrors: ["Choosing informal for an organised group."],
             examinerNote: "D1 for (b).",
           },
@@ -191,7 +191,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "To whom it may concern," },
               { id: "d", text: "Hey!" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -200,7 +200,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Hey!' is informal for friends.", working: "Hey!", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** Hey!",
+            finalAnswer: "**(d)** Hey!",
             commonErrors: ["Using formal greetings with friends."],
             examinerNote: "D1 for (c).",
           },
@@ -233,7 +233,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — M2 is polite and complete but not overly official.", working: "M2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** M2",
+            finalAnswer: "**(c)** M2",
             commonErrors: ["Confusing M2 with fully formal."],
             examinerNote: "B1 for (b).",
           },
@@ -293,7 +293,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'Hey', 'can't', 'tmrw', 'Bye' too casual for head teacher.", working: "wrong register", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The register is wrong — too casual for a head teacher",
+            finalAnswer: "**(d)** The register is wrong — too casual for a head teacher",
             commonErrors: ["Not connecting register to audience."],
             examinerNote: "B1 for (b).",
           },
@@ -526,7 +526,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — stereotype = fixed generalisation.", working: "fixed generalisation", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A fixed, often wrong generalisation about a group",
+            finalAnswer: "**(d)** A fixed, often wrong generalisation about a group",
             commonErrors: ["Thinking stereotypes are always accurate."],
             examinerNote: "B1 for (b).",
           },
@@ -630,7 +630,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'All Spanish people are lazy' generalises a group.", working: "all Spanish people", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** All Spanish people are lazy.",
+            finalAnswer: "**(d)** All Spanish people are lazy.",
             commonErrors: ["Choosing a fact about one person."],
             examinerNote: "B1 for (b).",
           },
@@ -657,7 +657,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — empathy = understanding others' feelings.", working: "understand feelings", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Trying to understand how someone else feels",
+            finalAnswer: "**(a)** Trying to understand how someone else feels",
             commonErrors: ["Confusing empathy with agreement."],
             examinerNote: "B1 for (b).",
           },
@@ -684,7 +684,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — B shows curiosity and respect.", working: "tell me more", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** That's interesting — tell me more about it.",
+            finalAnswer: "**(c)** That's interesting — tell me more about it.",
             commonErrors: ["Choosing a judgemental response."],
             examinerNote: "C1 for (b).",
           },
@@ -711,7 +711,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — polite permission question respects the custom.", working: "Is it OK if I...?", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Is it OK if I...?",
+            finalAnswer: "**(d)** Is it OK if I...?",
             commonErrors: ["Choosing a demanding or judgemental option."],
             examinerNote: "C1 for (b).",
           },
@@ -762,7 +762,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Judge by one example" },
               { id: "d", text: "Read stereotypes online" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -771,7 +771,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — asking and listening gives real knowledge.", working: "ask + listen", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(c)** Ask people from that culture politely and listen",
+            finalAnswer: "**(b)** Ask people from that culture politely and listen",
             commonErrors: ["Choosing assumption over curiosity."],
             examinerNote: "C1 for (c).",
           },

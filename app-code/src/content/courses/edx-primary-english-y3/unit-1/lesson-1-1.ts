@@ -103,7 +103,7 @@ export const lesson71: Lesson = {
               { reasoning: "un- makes antonyms.", marks: 1, markCode: "M" },
               { reasoning: "Answer: un- → unkind.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** un-",
+            finalAnswer: "**(d)** un-",
             commonErrors: [
               "Choosing dis- — also means not but un- more common for adjectives.",
             ],
@@ -245,7 +245,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "helpful = full of help.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Full of help",
+            finalAnswer: "**(a)** Full of help",
             commonErrors: ["Thinking -ful = without."],
           },
         },
@@ -280,7 +280,7 @@ export const lesson71: Lesson = {
               },
               { reasoning: "Answer: beautifully.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** beautifully",
+            finalAnswer: "**(d)** beautifully",
             commonErrors: ["Using adjective not adverb."],
           },
         },

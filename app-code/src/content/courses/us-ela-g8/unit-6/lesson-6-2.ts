@@ -127,7 +127,7 @@ export const lesson62: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. To teach or explain clearly.",
+            finalAnswer: "**(a)**. To teach or explain clearly.",
             commonErrors: ["Confusing with argumentative writing."],
           },
         },

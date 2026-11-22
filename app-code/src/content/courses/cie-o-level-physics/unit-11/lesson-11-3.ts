@@ -140,7 +140,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Ohm's law", statement: "I = V/R so gradient of I-V = 1/R." }],
             steps: [{ reasoning: "Recall.", working: "\\frac{I}{V} = \\frac{1}{R}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 1/R",
+            finalAnswer: "**(d)** 1/R",
             commonErrors: ["Gradient of V vs I would be R."],
           },
         },
@@ -158,7 +158,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Density", statement: "m = ρV → gradient = ρ." }],
             steps: [{ reasoning: "Recall.", working: "\\rho = \\frac{m}{V}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** density",
+            finalAnswer: "**(a)** density",
             commonErrors: ["Interchanging axes changes interpretation."],
           },
         },
@@ -212,7 +212,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Ohm's law", statement: "I = V/R; V=0 → I=0." }],
             steps: [{ reasoning: "Recall.", working: "I \\propto V", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** zero voltage produces zero current",
+            finalAnswer: "**(a)** zero voltage produces zero current",
             commonErrors: ["Origin shows proportionality."],
           },
         },
@@ -383,7 +383,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Systematic", statement: "Consistent shift." }],
             steps: [{ reasoning: "Recall.", working: "\\text{consistent}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Consistent shift in all readings",
+            finalAnswer: "**(c)** Consistent shift in all readings",
             commonErrors: ["Confusing with random."],
           },
         },
@@ -463,7 +463,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Zero error", statement: "Non-zero reading at zero input." }],
             steps: [{ reasoning: "Recall.", working: "\\text{zero error}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** the instrument gives a non-zero reading when there is no input",
+            finalAnswer: "**(a)** the instrument gives a non-zero reading when there is no input",
             commonErrors: ["It is a systematic offset."],
           },
         },
@@ -481,7 +481,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Human error", statement: "Parallax, reaction time, misreading." }],
             steps: [{ reasoning: "Recall.", working: "\\text{parallax}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** parallax when reading a scale",
+            finalAnswer: "**(c)** parallax when reading a scale",
             commonErrors: ["Instrument faults are not human errors."],
           },
         },
@@ -499,7 +499,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Reliability", statement: "Repeatability/consistency." }],
             steps: [{ reasoning: "Recall.", working: "\\text{reliable = consistent}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** consistency of repeated results",
+            finalAnswer: "**(a)** consistency of repeated results",
             commonErrors: ["Accuracy is closeness to true; reliability is consistency."],
           },
         },
@@ -517,7 +517,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Validity", statement: "Measures the intended quantity under fair test." }],
             steps: [{ reasoning: "Recall.", working: "\\text{validity = intended measure}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** the experiment measured what it was intended to measure",
+            finalAnswer: "**(d)** the experiment measured what it was intended to measure",
             commonErrors: ["Reliability ≠ validity."],
           },
         },
@@ -535,7 +535,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Anomalies", statement: "Check and investigate anomalies." }],
             steps: [{ reasoning: "Recall.", working: "\\text{anomaly}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** repeated; if it persists, its cause investigated",
+            finalAnswer: "**(a)** repeated; if it persists, its cause investigated",
             commonErrors: ["Anomalies may reveal real effects or faults."],
           },
         },

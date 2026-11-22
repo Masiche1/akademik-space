@@ -68,7 +68,7 @@ export const lesson52: Lesson = {
               { reasoning: "Substitute $t=2$ into both equations.", working: "x=2(2)+1=5,\\quad y=2-3=-1", marks: 1, markCode: "M" },
               { reasoning: "Write the coordinates as an ordered pair $(x,y)$.", working: "(5,-1)", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $(5,-1)$",
+            finalAnswer: "**(b)** $(5,-1)$",
             commonErrors: ["Using $x=2t$ and forgetting the $+1$.", "Swapping the order of $x$ and $y$."],
           },
         },

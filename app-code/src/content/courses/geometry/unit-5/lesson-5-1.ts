@@ -53,7 +53,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "$-\\frac{1}{2}$" },
               { id: "d", text: "$8$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -64,7 +64,7 @@ export const lesson51: Lesson = {
               { reasoning: "Calculate the given line's slope from the change in $y$ divided by the change in $x$.", working: "m=\\frac{10-2}{5-1}=\\frac{8}{4}=2", marks: 1, markCode: "M" },
               { reasoning: "A parallel line has that same slope.", working: "m_{\\parallel}=2", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $2$",
+            finalAnswer: "**(a)** $2$",
             commonErrors: ["Using the reciprocal or negative reciprocal, which is associated with perpendicular lines rather than parallel lines."],
           },
         },
@@ -189,7 +189,7 @@ export const lesson51: Lesson = {
               { reasoning: "A slope of 0 identifies a horizontal side, while an undefined slope identifies a vertical side.", marks: 1, markCode: "B" },
               { reasoning: "Horizontal and vertical directions meet at a right angle, establishing perpendicular adjacent sides.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The adjacent sides are perpendicular.",
+            finalAnswer: "**(c)** The adjacent sides are perpendicular.",
             commonErrors: ["Treating undefined slope as zero; the slopes describe vertical and horizontal lines, respectively."],
           },
         },

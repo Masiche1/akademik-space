@@ -57,7 +57,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Glycogen", statement: "Animal storage polysaccharide of glucose." }],
             steps: [{ reasoning: "Glycogen stored in liver and muscles.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Glycogen",
+            finalAnswer: "**(c)** Glycogen",
           },
         },
         {

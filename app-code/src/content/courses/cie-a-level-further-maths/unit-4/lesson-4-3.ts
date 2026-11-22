@@ -561,7 +561,7 @@ export const lesson43: Lesson = {
             { id: "b", text: "Infinitely many" },
             { id: "c", text: "Two solutions" },
             { id: "d", text: "No real solution" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "Range of cosh", statement: "$\\cosh x \\geq 1$." }],
             steps: [{ reasoning: "$\\cosh x \\geq 1 > \\frac12$ for all real $x$.", marks: 1, markCode: "A" }],

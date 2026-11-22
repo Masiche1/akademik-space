@@ -121,7 +121,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** BF$_3$",
+            finalAnswer: "**(b)** BF$_3$",
             commonErrors: ["Choosing NH$_3$ — it is the classic Lewis base."],
           },
         },
@@ -401,7 +401,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Both electrons come from the Lewis base",
+            finalAnswer: "**(c)** Both electrons come from the Lewis base",
             commonErrors: [
               "Describing it as a normal covalent bond — the donation is one-directional.",
             ],
@@ -689,7 +689,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Carbon is electron-deficient and accepts an electron pair",
+              "**(d)** Carbon is electron-deficient and accepts an electron pair",
             commonErrors: [
               "Thinking the oxygen lone pairs make CO$_2$ a Lewis base — the molecule acts as an acceptor at carbon.",
             ],
@@ -868,7 +868,7 @@ export const lesson43: Lesson = {
               { id: "c", text: "OH$^-$" },
               { id: "d", text: "BF$_3$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -893,7 +893,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** BF$_3$",
+            finalAnswer: "**(d)** BF$_3$",
             commonErrors: [
               "The 'NOT' in the stem — check whether the question asks for acid or base.",
             ],
@@ -983,7 +983,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Lewis > Brønsted > Arrhenius",
+            finalAnswer: "**(b)** Lewis > Brønsted > Arrhenius",
             commonErrors: [
               "Reversing the order — Lewis is the broadest definition.",
             ],
@@ -1215,7 +1215,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Produces OH$^-$ ions in water",
+            finalAnswer: "**(d)** Produces OH$^-$ ions in water",
             commonErrors: [
               "Choosing 'accepts electron pair' — that is the Lewis definition.",
             ],
@@ -1259,7 +1259,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Every Brønsted acid is a Lewis acid",
+            finalAnswer: "**(c)** Every Brønsted acid is a Lewis acid",
             commonErrors: [
               "Reversing — Lewis acids like BF$_3$ have no proton and are NOT Brønsted acids.",
             ],
@@ -1397,7 +1397,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** It dissolves in both acids and bases",
+            finalAnswer: "**(b)** It dissolves in both acids and bases",
             commonErrors: [
               "Only citing one reaction — amphoteric requires BOTH acid and base behaviour.",
             ],
@@ -1778,7 +1778,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** BF$_3$",
+            finalAnswer: "**(d)** BF$_3$",
             commonErrors: [
               "Choosing HCl — it donates H$^+$ so it IS a Brønsted acid too.",
             ],

@@ -64,7 +64,7 @@ export const lesson41: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Median", statement: "The median is at cumulative frequency $\\frac{n}{2}$." }],
             steps: [{ reasoning: "Half of 80.", working: "80\\div2=40", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $40$",
+            finalAnswer: "**(c)** $40$",
             commonErrors: ["Choosing 20 (lower quartile) or 60 (upper quartile).", "Choosing the total."],
           },
         },
@@ -194,7 +194,7 @@ export const lesson41: Lesson = {
               { reasoning: "Divide the frequency by the class width.", working: "30\\div5", marks: 1, markCode: "M" },
               { reasoning: "Evaluate.", working: "6", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $6$",
+            finalAnswer: "**(c)** $6$",
             commonErrors: ["Multiplying instead of dividing, giving 150.", "Dividing width by frequency, giving 0.17."],
           },
         },

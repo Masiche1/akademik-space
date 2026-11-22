@@ -62,7 +62,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Cell membrane" },
               { id: "d", text: "Nucleus" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -71,7 +71,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Chloroplasts contain chlorophyll for photosynthesis — absent in animal cells.", working: "\\text{chloroplast}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Chloroplast",
+            finalAnswer: "**(b)** Chloroplast",
             commonErrors: ["Choosing cell wall — also plant-only but chloroplast is the clearer answer."],
             examinerNote: "B1 for (c).",
           },
@@ -186,7 +186,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Ribosomes build proteins — they are the site of protein synthesis.", working: "\\text{ribosome}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Ribosome",
+            finalAnswer: "**(a)** Ribosome",
             commonErrors: ["Choosing nucleus — it stores DNA but does not synthesise protein."],
             examinerNote: "B1 for (b).",
           },
@@ -232,7 +232,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Nucleus" },
               { id: "d", text: "Chloroplast" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -478,7 +478,7 @@ export const lesson11: Lesson = {
               { reasoning: "Other options do not address the nucleus claim.", working: "\\text{irrelevant}", marks: 1, markCode: "M" },
               { reasoning: "State the answer.", working: "\\text{(a)}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Mature red blood cells have no nucleus",
+            finalAnswer: "**(d)** Mature red blood cells have no nucleus",
             commonErrors: ["Choosing chloroplasts — that disproves 'all cells are animal-like', not the nucleus claim."],
             examinerNote: "M1 M1 A1.",
           },
@@ -537,7 +537,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "KPCOFGS is the standard order.", working: "KPCOFGS", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Kingdom → Species",
+            finalAnswer: "**(c)** Kingdom → Species",
             commonErrors: ["Reversing the order."],
             examinerNote: "B1 for (a).",
           },
@@ -652,7 +652,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Genus is second only to species in specificity.", working: "\\text{genus}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Genus",
+            finalAnswer: "**(a)** Genus",
             commonErrors: ["Choosing kingdom — that is the broadest level."],
             examinerNote: "B1 for (b).",
           },
@@ -947,7 +947,7 @@ export const lesson11: Lesson = {
               { reasoning: "Cat shares only family; wolf shares only order.", working: "\\text{family/order}", marks: 1, markCode: "M" },
               { reasoning: "State the answer.", working: "\\text{(a)}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** *Panthera leo* and *Panthera tigris*",
+            finalAnswer: "**(b)** *Panthera leo* and *Panthera tigris*",
             commonErrors: ["Choosing lion and cat — same family but different genus."],
             examinerNote: "M1 M1 A1.",
           },

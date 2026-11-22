@@ -57,7 +57,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Effective collision", statement: "Enough energy + correct orientation." }],
             steps: [{ reasoning: "Recall.", working: "\\text{energy + orientation}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Sufficient energy and correct orientation",
+            finalAnswer: "**(d)** Sufficient energy and correct orientation",
             commonErrors: ["Only mentioning energy — orientation also needed."],
           },
         },
@@ -137,7 +137,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Effective collision", statement: "Energy ≥ Ea + correct orientation." }],
             steps: [{ reasoning: "Recall.", working: "E \\geq E_a", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Have energy ≥ Ea and correct orientation",
+            finalAnswer: "**(a)** Have energy ≥ Ea and correct orientation",
             commonErrors: ["Any collision is not effective."],
           },
         },
@@ -319,7 +319,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Effective collision", statement: "Successful collision." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Effective",
+            finalAnswer: "**(c)** Effective",
             commonErrors: ["Confusing frequency with effectiveness."],
           },
         },
@@ -337,7 +337,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Surface area", statement: "Powder = more exposed particles." }],
             steps: [{ reasoning: "Recall.", working: "\\text{surface} \\uparrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Increases surface area",
+            finalAnswer: "**(a)** Increases surface area",
             commonErrors: ["Powdering does not change Ea or temperature."],
           },
         },
@@ -383,7 +383,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Catalyst", statement: "Lowers Ea." }],
             steps: [{ reasoning: "Recall.", working: "E_a \\downarrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Lowers it",
+            finalAnswer: "**(c)** Lowers it",
             commonErrors: ["Saying 'no effect' — it doesn't change ΔH but lowers Ea."],
           },
         },
@@ -481,7 +481,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Haber catalyst", statement: "Fe, solid catalyst for gaseous reactants." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Fe (iron)",
+            finalAnswer: "**(a)** Fe (iron)",
             commonErrors: ["V₂O₅ is for the Contact process."],
           },
         },
@@ -603,7 +603,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Contact process", statement: "V₂O₅ catalyst for H₂SO₄." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Contact process",
+            finalAnswer: "**(c)** Contact process",
             commonErrors: ["Fe is for Haber."],
           },
         },
@@ -647,7 +647,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Catalyst", statement: "Unchanged at end." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Regenerated unchanged at the end",
+            finalAnswer: "**(c)** Regenerated unchanged at the end",
             commonErrors: ["Thinking catalyst appears in overall equation."],
           },
         },
@@ -665,7 +665,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Catalytic converter", statement: "Reduces CO/NOₓ." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Convert CO and NOₓ to less harmful gases",
+            finalAnswer: "**(a)** Convert CO and NOₓ to less harmful gases",
             commonErrors: ["They reduce pollutants, not increase them."],
           },
         },

@@ -176,7 +176,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Arc length", statement: "$ds=\\sqrt{r^2+r'^2}\\,d\\theta$." }],
             steps: [{ reasoning: "From $x=r\\cos\\theta,y=r\\sin\\theta$ differentiation.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\sqrt{r^2+r'^2}\\,d\\theta$",
+            finalAnswer: "**(b)** $\\sqrt{r^2+r'^2}\\,d\\theta$",
           },
         },
         {

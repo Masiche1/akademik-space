@@ -57,7 +57,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Gold" },
               { id: "d", text: "Zinc" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -66,7 +66,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Only zinc is more reactive than copper. Silver and gold are less reactive than copper, and copper cannot displace itself.", working: "\\text{Zn} + \\text{CuSO}_4 \\rightarrow \\text{ZnSO}_4 + \\text{Cu}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Zinc",
+            finalAnswer: "**(d)** Zinc",
             commonErrors: ["Choosing silver or gold because they are 'valuable' metals.", "Thinking that copper would displace copper."],
             examinerNote: "B1 for zinc.",
           },

@@ -194,7 +194,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Divide the energy by the time.", working: "P = \\frac{600}{3.0} = 200\\text{ W}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $200\\ \\text{W}$",
+            finalAnswer: "**(b)** $200\\ \\text{W}$",
             commonErrors: ["Multiplying energy by time to get $1800$.", "Giving the correct number with the wrong unit (joules instead of watts).", "Inverting the ratio to get $0.005$."],
             examinerNote: "B1 for choice (a).",
           },

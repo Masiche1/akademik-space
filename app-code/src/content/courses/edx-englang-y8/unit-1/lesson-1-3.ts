@@ -104,7 +104,7 @@ export const lesson13: Lesson = {
               { reasoning: "The focus narrows from 'the whole village' to one named character.", evidence: "Noor, however, was not watching", marks: 1, markCode: "AO2" },
               { reasoning: "The contrast with the watching villagers and the short sentence 'She was running' creates urgency and makes the reader ask why.", evidence: "She was running.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** The focus moves from the watching crowd to Noor alone, contrasting her action with their stillness and raising questions.",
+            finalAnswer: "**(b)** The focus moves from the watching crowd to Noor alone, contrasting her action with their stillness and raising questions.",
             commonErrors: ["Choosing (d): the passage moves forward in time, not back."],
           },
         },
@@ -211,7 +211,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "One-line paragraph", statement: "Isolation gives a sentence maximum impact." }],
             steps: [{ reasoning: "A separate short paragraph makes the stumble abrupt and dramatic.", evidence: "Then he stumbled.", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** It makes the stumble stand out as a sudden shock. The race is not over yet, and training is described only later.",
+            finalAnswer: "**(b)** It makes the stumble stand out as a sudden shock. The race is not over yet, and training is described only later.",
             commonErrors: ["Choosing (b), treating paragraphs as a matter of length rather than effect."],
           },
         },

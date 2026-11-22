@@ -67,7 +67,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Recall the differences.", working: "\\text{cell wall}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cell wall",
+            finalAnswer: "**(c)** Cell wall",
             commonErrors: ["Choosing chloroplast — also correct but not listed; cell wall is the standard answer."],
           },
         },
@@ -192,7 +192,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Recall the adaptation.", working: "\\text{no nucleus}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** No nucleus",
+            finalAnswer: "**(c)** No nucleus",
             commonErrors: ["Choosing biconcave shape — also correct but not listed."],
           },
         },

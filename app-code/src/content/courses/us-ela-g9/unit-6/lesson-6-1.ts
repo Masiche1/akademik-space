@@ -345,7 +345,7 @@ export const lesson61: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. No source named, no specific findings.",
+            finalAnswer: "**(c)**. No source named, no specific findings.",
             commonErrors: ["Thinking any mention of studies = evidence."],
           },
         },

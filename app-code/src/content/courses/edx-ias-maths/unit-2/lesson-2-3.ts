@@ -195,7 +195,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The principal value is $\\frac{\\pi}{6}$; the second solution in $[0,2\\pi)$ is $\\pi-\\frac{\\pi}{6}=\\frac{5\\pi}{6}$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\theta=\\frac{\\pi}{6}$ or $\\frac{5\\pi}{6}$",
+            finalAnswer: "**(d)** $\\theta=\\frac{\\pi}{6}$ or $\\frac{5\\pi}{6}$",
             commonErrors: ["Giving only the principal value.", "Using $\\frac{\\pi}{3}$ — that is where sine equals $\\frac{\\sqrt3}{2}$."],
           },
         },

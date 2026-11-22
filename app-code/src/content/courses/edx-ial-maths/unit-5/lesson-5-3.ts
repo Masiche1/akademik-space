@@ -385,7 +385,7 @@ export const lesson53: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** $10$ N m",
+            finalAnswer: "**(b)** $10$ N m",
             commonErrors: ["Dividing instead of multiplying."],
           },
         },

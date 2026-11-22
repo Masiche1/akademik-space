@@ -60,7 +60,7 @@ export const lessonp22: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Newton's 2nd", statement: "F = ma." }],
             steps: [{ reasoning: "Recall.", working: "F = ma", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** F = ma",
+            finalAnswer: "**(d)** F = ma",
             commonErrors: ["Inverting to F=m/a."],
           },
         },
@@ -186,11 +186,11 @@ export const lessonp22: Lesson = {
             { id: "b", text: "533 N" },
             { id: "c", text: "801.5 N" },
             { id: "d", text: "0.002 N" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "formula", name: "F=ma", statement: "F = 800×1.5 = 1200 N." }],
             steps: [{ reasoning: "Calculate.", working: "F = 800 \\times 1.5 = 1200", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** 1200 N",
+            finalAnswer: "**(a)** 1200 N",
             commonErrors: ["Dividing mass by acceleration."],
           },
         },
@@ -295,11 +295,11 @@ export const lessonp22: Lesson = {
             { id: "b", text: "Momentum" },
             { id: "c", text: "Weight" },
             { id: "d", text: "Velocity" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Inertia", statement: "Resistance to change in motion — depends on mass." }],
             steps: [{ reasoning: "Recall.", working: "\\text{inertia} \\propto \\text{mass}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Mass",
+            finalAnswer: "**(a)** Mass",
             commonErrors: ["Confusing inertia with momentum."],
           },
         },
@@ -396,7 +396,7 @@ export const lessonp22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Friction", statement: "Opposes relative motion." }],
             steps: [{ reasoning: "Recall.", working: "\\text{relative motion}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Relative motion between surfaces",
+            finalAnswer: "**(c)** Relative motion between surfaces",
             commonErrors: ["Friction opposes motion not gravity."],
           },
         },
@@ -476,7 +476,7 @@ export const lessonp22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Friction", statement: "Opposes relative motion." }],
             steps: [{ reasoning: "Recall.", working: "\\text{opposes motion}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Opposite to the motion (or attempted motion)",
+            finalAnswer: "**(d)** Opposite to the motion (or attempted motion)",
             commonErrors: ["Friction direction is not always downward."],
           },
         },
@@ -526,7 +526,7 @@ export const lessonp22: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "F=ma", statement: "a = 20/4 = 5 m/s²." }],
             steps: [{ reasoning: "Calculate.", working: "a = \\frac{20}{4} = 5", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 5 m/s²",
+            finalAnswer: "**(b)** 5 m/s²",
             commonErrors: ["Using total force without resolving friction."],
           },
         },

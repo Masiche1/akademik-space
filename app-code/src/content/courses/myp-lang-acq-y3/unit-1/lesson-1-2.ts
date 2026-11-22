@@ -187,7 +187,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'disappointing' is negative; the others are positive.", working: "disappointing", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** disappointing",
+            finalAnswer: "**(c)** disappointing",
             commonErrors: ["Choosing a positive adjective."],
             examinerNote: "B1 for (b).",
           },
@@ -214,7 +214,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — '400 students' can be counted; the rest are judgements.", working: "400 students", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The school has 400 students.",
+            finalAnswer: "**(a)** The school has 400 students.",
             commonErrors: ["Choosing a sentence with a strong feeling word."],
             examinerNote: "B1 for (b).",
           },
@@ -247,7 +247,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — the text gives facts about opening, facilities and hours.", working: "inform", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To inform readers about the new centre",
+            finalAnswer: "**(c)** To inform readers about the new centre",
             commonErrors: ["Saying it persuades — there is no opinion language."],
             examinerNote: "B1 for (b).",
           },
@@ -280,7 +280,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'must act now' is a strong modal demand = persuasion.", working: "must act now", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** must act now",
+            finalAnswer: "**(d)** must act now",
             commonErrors: ["Choosing a factual phrase instead of persuasive one."],
             examinerNote: "B1 for (b).",
           },
@@ -304,7 +304,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Three schools have breakfast clubs." },
               { id: "d", text: "Every school should offer free breakfast." },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -313,7 +313,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'should offer' is the opinion; '20%' is the supporting fact.", working: "should offer free breakfast", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Every school should offer free breakfast.",
+            finalAnswer: "**(d)** Every school should offer free breakfast.",
             commonErrors: ["Choosing a pure fact without the opinion."],
             examinerNote: "B1 for (c).",
           },
@@ -554,7 +554,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — environment is a core MYP topic.", working: "environment", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The environment",
+            finalAnswer: "**(a)** The environment",
             commonErrors: ["Choosing an adult/academic topic not typical at this level."],
             examinerNote: "B1 for (b).",
           },
@@ -672,7 +672,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — recycle/pollution/waste are all environment words.", working: "recycle, pollution, waste", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** recycle, pollution, waste",
+            finalAnswer: "**(b)** recycle, pollution, waste",
             commonErrors: ["Mixing topic groups."],
             examinerNote: "B1 for (a).",
           },
@@ -732,7 +732,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — sports vocabulary clusters around the new facility.", working: "sports hall", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A new sports facility",
+            finalAnswer: "**(c)** A new sports facility",
             commonErrors: ["Choosing 'school' because PE lessons are mentioned — that is a detail."],
             examinerNote: "B1 for (b).",
           },
@@ -759,7 +759,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — same word in both languages = cognate.", working: "cognate", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A cognate",
+            finalAnswer: "**(d)** A cognate",
             commonErrors: ["Confusing cognates with synonyms."],
             examinerNote: "B1 for (a).",
           },
@@ -825,7 +825,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — emotional words + 'must stop' = trying to convince.", working: "persuade", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To persuade readers to protect forests",
+            finalAnswer: "**(a)** To persuade readers to protect forests",
             commonErrors: ["Saying 'inform' — the strong language shows persuasion."],
             examinerNote: "B1 for (b).",
           },

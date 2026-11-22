@@ -68,7 +68,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Water has hydrogen and oxygen atoms bonded in a fixed 2:1 ratio, so it is a compound.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Water, $\\text{H}_2\\text{O}$",
+            finalAnswer: "**(d)** Water, $\\text{H}_2\\text{O}$",
             commonErrors: ["Choosing oxygen gas because it is made of molecules; both atoms in $\\text{O}_2$ are the same, so it is an element.", "Choosing air, which is a mixture of several gases."],
             examinerNote: "B1 for water.",
           },
@@ -193,7 +193,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "$\\rho=m\\times V$" },
               { id: "d", text: "$\\rho=\\dfrac{V}{m}$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -202,7 +202,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Density is mass per unit volume, so divide mass by volume.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\rho=\\dfrac{m}{V}$",
+            finalAnswer: "**(b)** $\\rho=\\dfrac{m}{V}$",
             commonErrors: ["Inverting the equation, which gives volume per unit mass.", "Multiplying mass and volume."],
             examinerNote: "B1 for mass divided by volume.",
           },

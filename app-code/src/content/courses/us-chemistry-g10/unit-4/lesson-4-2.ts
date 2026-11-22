@@ -60,7 +60,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Exothermic reaction", statement: "Releases heat to the surroundings; products have lower enthalpy so $\\Delta H < 0$." }],
             steps: [{ reasoning: "Energy leaves the system as heat, so the surroundings warm up and $\\Delta H$ is negative.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $\\Delta H$ is negative and the surroundings get warmer",
+            finalAnswer: "**(d)** $\\Delta H$ is negative and the surroundings get warmer",
             commonErrors: ["Choosing (a), which describes an endothermic reaction.", "Thinking a negative $\\Delta H$ means the surroundings get cooler."],
             examinerNote: "B1 for negative $\\Delta H$ with warmer surroundings.",
           },

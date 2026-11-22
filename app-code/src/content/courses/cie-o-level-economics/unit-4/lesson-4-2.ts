@@ -44,7 +44,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Unemployed / labour force × 100" },
             { id: "d", text: "Unemployed / GDP × 100" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Unemployment rate", statement: "Formula." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Unemployment rate", statement: "Formula." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u4-un-q2", difficulty: "core", totalMarks: 2,
@@ -102,7 +102,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "People able and willing to work but without jobs" },
             { id: "d", text: "People who have retired" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Unemployment", statement: "Able and willing, no job." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Unemployment", statement: "Able and willing, no job." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u4-un-q6", difficulty: "foundation", totalMarks: 2,
@@ -125,7 +125,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Seasonal changes in demand" },
             { id: "d", text: "Workers moving between jobs" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Structural unemployment", statement: "Skills/industry mismatch." }], steps: [{ reasoning: "Correct cause.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Structural unemployment", statement: "Skills/industry mismatch." }], steps: [{ reasoning: "Correct cause.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u4-un-q8", difficulty: "core", totalMarks: 3,
@@ -212,7 +212,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Nobody is unemployed at all" },
             { id: "d", text: "Only frictional and seasonal unemployment remain" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Full employment", statement: "Natural rate only." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Full employment", statement: "Natural rate only." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u4-un-q15", difficulty: "foundation", totalMarks: 1,
@@ -223,7 +223,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "The economy enters a recession and demand falls" },
             { id: "d", text: "An industry is automated" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Cyclical unemployment", statement: "Downturn-driven." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Cyclical unemployment", statement: "Downturn-driven." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u4-un-q16", difficulty: "challenge", totalMarks: 9,
@@ -278,7 +278,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Interest rates" },
             { id: "d", text: "Trade agreements" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Fiscal policy", statement: "G+T." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Fiscal policy", statement: "G+T." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u4-pol-q2", difficulty: "core", totalMarks: 2,
@@ -334,7 +334,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Ministry of finance" },
             { id: "d", text: "Stock exchange" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Monetary policy", statement: "Central bank role." }], steps: [{ reasoning: "Central bank controls interest rates and money supply.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Monetary policy", statement: "Central bank role." }], steps: [{ reasoning: "Central bank controls interest rates and money supply.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u4-pol-q6", difficulty: "foundation", totalMarks: 1,
@@ -345,7 +345,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Raise interest rates" },
             { id: "d", text: "Lower interest rates" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Monetary policy", statement: "Higher rates reduce demand." }], steps: [{ reasoning: "Higher rates reduce borrowing and spending, easing inflation.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Monetary policy", statement: "Higher rates reduce demand." }], steps: [{ reasoning: "Higher rates reduce borrowing and spending, easing inflation.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u4-pol-q7", difficulty: "core", totalMarks: 2,
@@ -444,7 +444,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Cutting income tax" },
             { id: "d", text: "Lowering interest rates" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Monetary policy", statement: "Contractionary tools." }], steps: [{ reasoning: "Higher rates and less money reduce spending.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Monetary policy", statement: "Contractionary tools." }], steps: [{ reasoning: "Higher rates and less money reduce spending.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
         },
         {
           id: "olec-u4-pol-q16", difficulty: "challenge", totalMarks: 9,

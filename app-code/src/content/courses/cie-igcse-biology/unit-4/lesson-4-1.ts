@@ -65,7 +65,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Recall the exception: artery carries deoxygenated blood to lungs.", working: "\\text{pulmonary artery}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Pulmonary artery",
+            finalAnswer: "**(c)** Pulmonary artery",
             commonErrors: ["Choosing pulmonary vein — that carries oxygenated blood TO the heart."],
           },
         },
@@ -186,7 +186,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Match vessel to route.", working: "\\text{aorta} \\to \\text{body}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Aorta",
+            finalAnswer: "**(c)** Aorta",
             commonErrors: ["Choosing pulmonary artery — that goes to the lungs, not the body."],
           },
         },
@@ -212,7 +212,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Recall the valve function.", working: "\\text{prevent backflow}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Prevent the backflow of blood",
+            finalAnswer: "**(b)** Prevent the backflow of blood",
             commonErrors: ["Choosing 'increase pressure' — valves maintain direction, not pressure."],
           },
         },
@@ -340,7 +340,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Link pressure to ventricle pump.", working: "\\text{LV} \\to \\text{aorta}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The left ventricle pumps blood directly into it",
+            finalAnswer: "**(d)** The left ventricle pumps blood directly into it",
             commonErrors: ["Saying 'the aorta is narrow' — pressure is highest where the ventricle ejects blood."],
           },
         },
@@ -466,7 +466,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Recall the function.", working: "\\text{RBC/haemoglobin} \\to \\text{O}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Red blood cells",
+            finalAnswer: "**(c)** Red blood cells",
             commonErrors: ["Choosing plasma — plasma transports dissolved CO₂ but O₂ is carried by haemoglobin."],
           },
         },
@@ -586,7 +586,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Match component to feature.", working: "\\text{RBC}: \\text{no nucleus}, \\text{haemoglobin}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Red blood cell",
+            finalAnswer: "**(c)** Red blood cell",
             commonErrors: ["Choosing white blood cell — those have nuclei and defend, not carry O₂."],
           },
         },
@@ -612,7 +612,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Recall platelet function.", working: "\\text{clotting}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Help blood to clot",
+            finalAnswer: "**(c)** Help blood to clot",
             commonErrors: ["Choosing WBC function — defence is white cells' role."],
           },
         },
@@ -740,7 +740,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Link thin wall to exchange.", working: "\\text{thin} \\to \\text{short diffusion distance}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Minimise the diffusion distance for exchange of substances",
+            finalAnswer: "**(c)** Minimise the diffusion distance for exchange of substances",
             commonErrors: ["Saying 'for strength' — thin walls are weak but optimised for exchange."],
           },
         },
@@ -766,7 +766,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Match features to vessel.", working: "\\text{large lumen + low pressure} \\to \\text{vein}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Vein",
+            finalAnswer: "**(b)** Vein",
             commonErrors: ["Choosing artery — arteries have small lumen and high pressure."],
           },
         },
@@ -792,7 +792,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Recall WBC function.", working: "\\text{defence}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Defend the body against pathogens",
+            finalAnswer: "**(b)** Defend the body against pathogens",
             commonErrors: ["Choosing 'carry oxygen' — that is red blood cells."],
           },
         },

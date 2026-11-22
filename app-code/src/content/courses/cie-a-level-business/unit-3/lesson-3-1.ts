@@ -279,7 +279,7 @@ export const lesson391: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** lowest costs in the industry",
+            finalAnswer: "**(b)** lowest costs in the industry",
           },
         },
         {
@@ -535,7 +535,7 @@ export const lesson391: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** stuck in the middle",
+            finalAnswer: "**(d)** stuck in the middle",
           },
         },
         {
@@ -637,7 +637,7 @@ export const lesson391: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** external factors",
+            finalAnswer: "**(b)** external factors",
           },
         },
         {
@@ -725,7 +725,7 @@ export const lesson391: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** A strong, well-known brand reputation",
+            finalAnswer: "**(b)** A strong, well-known brand reputation",
           },
         },
         {

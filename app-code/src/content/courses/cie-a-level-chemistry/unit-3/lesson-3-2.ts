@@ -266,7 +266,7 @@ export const lesson312: Lesson = {
               { id: "c", text: "Calcium" },
               { id: "d", text: "Barium" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Group 2 reactivity", statement: "Be reacts only with steam." }],
@@ -721,7 +721,7 @@ export const lesson312: Lesson = {
               { id: "c", text: "$MgSO_4$" },
               { id: "d", text: "$CaSO_4$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Sulfate solubility", statement: "Solubility decreases down group." }],
@@ -795,7 +795,7 @@ export const lesson312: Lesson = {
               { id: "c", text: "$BeCO_3$" },
               { id: "d", text: "$MgCO_3$" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Thermal stability", statement: "Increases down group." }],

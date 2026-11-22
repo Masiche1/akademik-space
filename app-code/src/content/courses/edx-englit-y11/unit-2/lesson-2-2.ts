@@ -64,7 +64,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Women and marriage", statement: "For women without fortune, marriage was often the only route to security." }],
             steps: [{ reasoning: "Charlotte is practical and accepts a safe, if unromantic, future.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** She wants security and a home.",
+            finalAnswer: "**(c)** She wants security and a home.",
             commonErrors: ["Believing she loves Collins; Austen makes it clear she does not."],
           },
         },
@@ -200,7 +200,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Entail", statement: "An estate was limited to male heirs." }],
             steps: [{ reasoning: "The entail leaves Longbourn to Mr Collins.", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** Longbourn will pass to a male relative.",
+            finalAnswer: "**(b)** Longbourn will pass to a male relative.",
             commonErrors: ["Thinking the eldest daughter inherits."],
           },
         },

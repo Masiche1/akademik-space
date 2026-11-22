@@ -57,7 +57,7 @@ export const lessonp101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Solar system", statement: "Sun at centre." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Sun}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The Sun",
+            finalAnswer: "**(d)** The Sun",
             commonErrors: ["Geocentric thinking."],
           },
         },
@@ -133,11 +133,11 @@ export const lessonp101: Lesson = {
             { id: "b", text: "9" },
             { id: "c", text: "10" },
             { id: "d", text: "8" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "Solar system", statement: "8 planets." }],
             steps: [{ reasoning: "Recall.", working: "8", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** 8",
+            finalAnswer: "**(d)** 8",
             commonErrors: ["Including Pluto (dwarf planet, not counted)."],
           },
         },
@@ -155,7 +155,7 @@ export const lessonp101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Planets", statement: "Mercury innermost." }],
             steps: [{ reasoning: "Recall planet order.", working: "\\text{Mercury}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Mercury",
+            finalAnswer: "**(d)** Mercury",
             commonErrors: ["Confusing with Venus."],
           },
         },
@@ -274,7 +274,7 @@ export const lessonp101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Eclipses", statement: "Moon blocks Sun." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Moon}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The Moon",
+            finalAnswer: "**(d)** The Moon",
             commonErrors: ["Confusing with lunar eclipse."],
           },
         },
@@ -384,7 +384,7 @@ export const lessonp101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Stars", statement: "Fusion of hydrogen." }],
             steps: [{ reasoning: "Recall.", working: "\\text{fusion}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Fusion",
+            finalAnswer: "**(d)** Fusion",
             commonErrors: ["Fission is nuclear reactors."],
           },
         },
@@ -464,7 +464,7 @@ export const lessonp101: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Galaxy", statement: "Milky Way = our galaxy." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Milky Way}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Our galaxy",
+            finalAnswer: "**(c)** Our galaxy",
             commonErrors: ["Confusing with a star or planet."],
           },
         },
@@ -482,7 +482,7 @@ export const lessonp101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Stars", statement: "Colour = temperature." }],
             steps: [{ reasoning: "Recall.", working: "\\text{temperature}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Its temperature",
+            finalAnswer: "**(a)** Its temperature",
             commonErrors: ["Thinking colour shows distance."],
           },
         },
@@ -601,7 +601,7 @@ export const lessonp101: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Supernova", statement: "Explosive end of massive star." }],
             steps: [{ reasoning: "Recall.", working: "\\text{explosion}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Explosive death of a massive star",
+            finalAnswer: "**(d)** Explosive death of a massive star",
             commonErrors: ["Confusing with planetary nebula (low-mass star)."],
           },
         },

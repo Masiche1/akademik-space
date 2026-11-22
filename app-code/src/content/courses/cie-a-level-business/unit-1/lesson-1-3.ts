@@ -332,7 +332,7 @@ export const lesson373: Lesson = {
               { id: "c", text: "Technological" },
               { id: "d", text: "Political" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

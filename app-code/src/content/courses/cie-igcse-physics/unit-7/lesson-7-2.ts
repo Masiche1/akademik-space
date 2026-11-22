@@ -55,11 +55,11 @@ export const lessonp72: Lesson = {
             { id: "b", text: "Beta" },
             { id: "c", text: "All same" },
             { id: "d", text: "Alpha" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Radiation", statement: "Gamma most penetrating." }],
             steps: [{ reasoning: "Recall.", working: "\\gamma \\text{ most}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Gamma",
+            finalAnswer: "**(a)** Gamma",
             commonErrors: ["Alpha least penetrating."],
           },
         },
@@ -135,11 +135,11 @@ export const lessonp72: Lesson = {
             { id: "b", text: "0" },
             { id: "c", text: "1" },
             { id: "d", text: "4" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Alpha decay", statement: "Alpha particle = 2 protons + 2 neutrons, mass number 4." }],
             steps: [{ reasoning: "Recall.", working: "{}^4_2\\text{He}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** 4",
+            finalAnswer: "**(d)** 4",
             commonErrors: ["Confusing mass number decrease (4) with charge decrease (2)."],
           },
         },
@@ -157,7 +157,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Beta decay", statement: "Neutron → proton + electron." }],
             steps: [{ reasoning: "Recall.", working: "n \\rightarrow p + e^-", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** A proton and an electron",
+            finalAnswer: "**(d)** A proton and an electron",
             commonErrors: ["The electron is emitted; the neutron becomes a proton."],
           },
         },
@@ -193,7 +193,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Activity", statement: "Decays per second; unit becquerel (Bq)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Bq} = \\text{decays/s}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Bequerels",
+            finalAnswer: "**(a)** Bequerels",
             commonErrors: ["Grays measure absorbed dose, not activity."],
           },
         },
@@ -211,7 +211,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Decay", statement: "Radioactive decay is random." }],
             steps: [{ reasoning: "Recall.", working: "\\text{random}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Decay is a random process — only the probability can be predicted",
+            finalAnswer: "**(c)** Decay is a random process — only the probability can be predicted",
             commonErrors: ["Half-life describes the average behaviour of many nuclei."],
           },
         },
@@ -379,7 +379,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Fission", statement: "Heavy nucleus splits." }],
             steps: [{ reasoning: "Recall.", working: "\\text{split}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Heavy nucleus splits",
+            finalAnswer: "**(d)** Heavy nucleus splits",
             commonErrors: ["Confusing with fusion."],
           },
         },
@@ -459,7 +459,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Moderator", statement: "Slows neutrons to fission-friendly speeds." }],
             steps: [{ reasoning: "Recall.", working: "\\text{slow neutrons}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Slows down the neutrons",
+            finalAnswer: "**(d)** Slows down the neutrons",
             commonErrors: ["Absorbing neutrons is the control rods' job."],
           },
         },
@@ -477,7 +477,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Fuel", statement: "U-235 undergoes fission." }],
             steps: [{ reasoning: "Recall.", working: "{}^{235}\\text{U}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Uranium-235",
+            finalAnswer: "**(d)** Uranium-235",
             commonErrors: ["Hydrogen isotopes are fusion fuels."],
           },
         },
@@ -513,7 +513,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Fusion", statement: "Needs millions of °C — hard to contain." }],
             steps: [{ reasoning: "Recall.", working: "T \\sim 10^7 \\ ^\\circ\\text{C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The required temperature and pressure are extremely difficult to achieve and contain",
+            finalAnswer: "**(c)** The required temperature and pressure are extremely difficult to achieve and contain",
             commonErrors: ["It is an engineering difficulty, not an energy problem."],
           },
         },
@@ -531,7 +531,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Sun", statement: "Fusion of hydrogen → helium releases energy." }],
             steps: [{ reasoning: "Recall.", working: "4p \\rightarrow \\alpha + 2e^+ + 2\\nu", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Nuclear fusion of light nuclei",
+            finalAnswer: "**(d)** Nuclear fusion of light nuclei",
             commonErrors: ["The Sun is not burning chemically — it is fusing nuclei."],
           },
         },
@@ -549,7 +549,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "comparison", name: "Waste", statement: "Fission → radioactive waste; fusion → much less." }],
             steps: [{ reasoning: "Recall.", working: "\\text{fission waste}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Fission produces long-lived radioactive waste that must be stored safely",
+            finalAnswer: "**(a)** Fission produces long-lived radioactive waste that must be stored safely",
             commonErrors: ["Fusion still produces some waste but far less than fission."],
           },
         },

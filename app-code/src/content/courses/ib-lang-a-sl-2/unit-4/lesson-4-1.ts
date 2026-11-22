@@ -67,7 +67,7 @@ export const lesson41: Lesson = {
               { reasoning: "Postcolonial criticism asks about empire, representation of the 'other', and cultural power.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Whose culture is centred",
+            finalAnswer: "**(a)** Whose culture is centred",
           },
         },
         {
@@ -178,7 +178,7 @@ export const lesson41: Lesson = {
               { reasoning: "Marxist criticism asks about class position and economic relations.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Economic relations and class positions",
+            finalAnswer: "**(d)** Economic relations and class positions",
           },
         },
         {
@@ -204,7 +204,7 @@ export const lesson41: Lesson = {
               { reasoning: "Formalism brackets external context — biography, history and reader response are excluded.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The text's internal language and structure",
+            finalAnswer: "**(a)** The text's internal language and structure",
           },
         },
         {
@@ -446,7 +446,7 @@ export const lesson41: Lesson = {
               { reasoning: "(b) makes a specific, arguable claim about how the text represents power — it can be tested against evidence.", marks: 1, markCode: "M" },
               { reasoning: "The others are vague, biographical or merely descriptive — they cannot be argued with evidence.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'Figures female silence as complicity in patriarchal order'",
+            finalAnswer: "**(d)** 'Figures female silence as complicity in patriarchal order'",
           },
         },
         {
@@ -538,7 +538,7 @@ export const lesson41: Lesson = {
               { reasoning: "Interpretations are grounded in textual evidence; opinions are preferences.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Supported by textual evidence",
+            finalAnswer: "**(d)** Supported by textual evidence",
           },
         },
         {
@@ -648,7 +648,7 @@ export const lesson41: Lesson = {
               { reasoning: "Speculative readings make claims the text cannot support — the evidence is thin or missing.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Thin or absent evidence",
+            finalAnswer: "**(a)** Thin or absent evidence",
           },
         },
         {
@@ -674,7 +674,7 @@ export const lesson41: Lesson = {
               { reasoning: "Ambiguity allows several readings to be grounded in the same evidence.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Sustains multiple defensible readings",
+            finalAnswer: "**(c)** Sustains multiple defensible readings",
           },
         },
         {
@@ -701,7 +701,7 @@ export const lesson41: Lesson = {
               { reasoning: "(b) offers two readings grounded in the act of smiling at bad news — performance versus concealed feeling.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Composure under grief / concealed relief",
+            finalAnswer: "**(c)** Composure under grief / concealed relief",
           },
         },
         {
@@ -837,7 +837,7 @@ export const lesson41: Lesson = {
               { reasoning: "Defensibility requires textual grounding — evidence a reader can verify.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Grounded in textual evidence",
+            finalAnswer: "**(a)** Grounded in textual evidence",
           },
         },
         {
@@ -864,7 +864,7 @@ export const lesson41: Lesson = {
               { reasoning: "A reading built on one detail while ignoring the rest fails the consistency test.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Accounts for the whole text",
+            finalAnswer: "**(d)** Accounts for the whole text",
           },
         },
         {
@@ -916,7 +916,7 @@ export const lesson41: Lesson = {
               { reasoning: "Acknowledging limits means specifying the competing reading the evidence also permits.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Name the alternative reading",
+            finalAnswer: "**(a)** Name the alternative reading",
           },
         },
         {

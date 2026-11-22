@@ -57,7 +57,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Osmosis", statement: "Water moves down its water potential gradient." }],
             steps: [{ reasoning: "Water moves toward higher solute concentration (lower water potential).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Dilute → concentrated",
+            finalAnswer: "**(d)** Dilute → concentrated",
           },
         },
         {
@@ -170,7 +170,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Active transport", statement: "Against gradient, requires ATP." }],
             steps: [{ reasoning: "Requires energy from ATP.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Against the gradient",
+            finalAnswer: "**(d)** Against the gradient",
           },
         },
         {

@@ -85,7 +85,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Spurn", statement: "To reject with contempt or to kick at." }],
             steps: [{ reasoning: "Brutus admits that his reason is political, not personal.", evidence: "no personal cause to spurn at him", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** He has no personal reason to hate Caesar.",
+            finalAnswer: "**(c)** He has no personal reason to hate Caesar.",
             commonErrors: ["Choosing (c) by reading 'spurn' literally."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Thesis", statement: "A direct answer to the question sets the essay's argument." }],
             steps: [{ reasoning: "A thesis gives focus and shows you have understood the question.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** A clear thesis that answers the question.",
+            finalAnswer: "**(c)** A clear thesis that answers the question.",
             commonErrors: ["Beginning with plot summary."],
           },
         },

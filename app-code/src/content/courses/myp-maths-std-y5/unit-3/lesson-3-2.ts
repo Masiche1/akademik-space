@@ -72,7 +72,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$V=4^3=64$ cm³.", working: "64\\text{ cm}^3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 64 cm³",
+            finalAnswer: "**(b)** 64 cm³",
             commonErrors: ["Computing surface area instead of volume."],
             examinerNote: "B1 for (a).",
           },
@@ -232,7 +232,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$k^3=27$ → ratio 27:1.", working: "27:1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 27:1",
+            finalAnswer: "**(d)** 27:1",
             commonErrors: ["Using $k^2$ for volumes."],
             examinerNote: "B1 for (a).",
           },

@@ -60,7 +60,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The HCF of 12 and 18 is 6, so divide both parts by 6.", working: "12:18=2:3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $2:3$",
+            finalAnswer: "**(d)** $2:3$",
             commonErrors: ["Dividing by a common factor that is not the highest, e.g. $6:9$ or $4:6$.", "Writing the ratio the wrong way round."],
           },
         },

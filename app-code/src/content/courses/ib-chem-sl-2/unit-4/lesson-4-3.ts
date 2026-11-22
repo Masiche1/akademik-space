@@ -235,7 +235,7 @@ export const lesson43: Lesson = {
                 markCode: "R",
               },
             ],
-            finalAnswer: "**(b)** $0.400$ g",
+            finalAnswer: "**(d)** $0.400$ g",
             commonErrors: [
               "Using the molar mass of atomic hydrogen instead of $\\mathrm{H}_2$.",
               "Multiplying volume by molar volume instead of dividing.",
@@ -393,7 +393,7 @@ export const lesson43: Lesson = {
               { id: "c", text: "$100$ cm$^3$" },
               { id: "d", text: "$400$ cm$^3$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -426,7 +426,7 @@ export const lesson43: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** $200$ cm$^3$",
+            finalAnswer: "**(a)** $200$ cm$^3$",
             commonErrors: [
               "Using a $1:1$ ratio and ignoring the coefficient $2$ on HCl.",
             ],
@@ -484,7 +484,7 @@ export const lesson43: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** $160$ cm$^3$",
+            finalAnswer: "**(d)** $160$ cm$^3$",
             commonErrors: [
               "Including the volume of water as a gas.",
               "Using the $1:7/2$ ratio intended for oxygen.",
@@ -548,7 +548,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $20$ cm$^3$ of hydrogen",
+            finalAnswer: "**(a)** $20$ cm$^3$ of hydrogen",
             commonErrors: [
               "Assuming equal volumes react in a $1:1$ ratio.",
               "Counting liquid water as a gas product.",
@@ -1222,7 +1222,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.00500$ mol",
+            finalAnswer: "**(d)** $0.00500$ mol",
             commonErrors: ["Using $250$ instead of $0.250$ dm$^3$."],
           },
         },
@@ -1271,7 +1271,7 @@ export const lesson43: Lesson = {
                 markCode: "R",
               },
             ],
-            finalAnswer: "**(b)** $0.0500$ mol dm$^{-3}$",
+            finalAnswer: "**(a)** $0.0500$ mol dm$^{-3}$",
             commonErrors: [
               "Multiplying concentration by the volume ratio instead of dividing.",
               "Using the wrong volumes (e.g. $25/100$ inverted gives $0.800$).",
@@ -1333,7 +1333,7 @@ export const lesson43: Lesson = {
                 markCode: "R",
               },
             ],
-            finalAnswer: "**(a)** $0.400$ mol dm$^{-3}$",
+            finalAnswer: "**(d)** $0.400$ mol dm$^{-3}$",
             commonErrors: [
               "Reporting mass concentration (g dm$^{-3}$) instead of molar concentration.",
               "Forgetting to convert $250$ cm$^3$ to $0.250$ dm$^3$.",
@@ -1468,7 +1468,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.0500$ mol",
+            finalAnswer: "**(b)** $0.0500$ mol",
             commonErrors: ["Using $100$ instead of $0.100$ dm$^3$."],
           },
         },
@@ -1517,7 +1517,7 @@ export const lesson43: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** $0.0800$ mol dm$^{-3}$",
+            finalAnswer: "**(b)** $0.0800$ mol dm$^{-3}$",
             commonErrors: [
               "Multiplying the concentration by the dilution factor instead of dividing.",
             ],
@@ -1573,7 +1573,7 @@ export const lesson43: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** $1.46$ g",
+            finalAnswer: "**(c)** $1.46$ g",
             commonErrors: [
               "Forgetting the $/1000$ conversion for cm$^3$ to dm$^3$.",
             ],
@@ -2085,7 +2085,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Factor $25$; $0.0200$ mol dm$^{-3}$",
+            finalAnswer: "**(b)** Factor $25$; $0.0200$ mol dm$^{-3}$",
             commonErrors: [
               "Using $500/20 = 25$ as a multiplier instead of a divisor.",
             ],

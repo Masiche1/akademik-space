@@ -230,7 +230,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "ELIF checks its condition only when all previous IF/ELIF conditions were false.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Another condition, only if earlier ones were false",
+            finalAnswer: "**(d)** Another condition, only if earlier ones were false",
           },
         },
         {
@@ -265,7 +265,7 @@ export const lesson22: Lesson = {
               { reasoning: "85 >= 90 false; 85 >= 80 true → 'B'.", marks: 1, markCode: "M" },
               { reasoning: "Output is B.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** B",
+            finalAnswer: "**(b)** B",
           },
         },
         {
@@ -284,7 +284,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Once a condition is true its branch runs and the rest are skipped — one branch only.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Only one",
+            finalAnswer: "**(d)** Only one",
           },
         },
         {
@@ -320,7 +320,7 @@ export const lesson22: Lesson = {
               { reasoning: "A broad condition checked first would run for cases that should match a later specific branch.", marks: 1, markCode: "M" },
               { reasoning: "Specific-first ensures special cases are handled correctly.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Broad conditions would steal special cases",
+            finalAnswer: "**(d)** Broad conditions would steal special cases",
           },
         },
         {

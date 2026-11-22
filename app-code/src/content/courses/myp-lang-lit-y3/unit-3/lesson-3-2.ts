@@ -69,7 +69,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): describe → evaluate → verdict — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Description → evaluation → verdict",
+            finalAnswer: "**(c)** Description → evaluation → verdict",
           },
         },
         {
@@ -159,7 +159,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): description comes first — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Description — what the thing is and what happens",
+            finalAnswer: "**(d)** Description — what the thing is and what happens",
           },
         },
         {
@@ -184,7 +184,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): verdict = final judgment/recommendation — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The writer's final judgment or recommendation",
+            finalAnswer: "**(a)** The writer's final judgment or recommendation",
           },
         },
         {
@@ -239,7 +239,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion C (Producing text): (b) states plot facts neutrally; the others are evaluations or imperatives — (b).", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** 'The novel follows a young detective solving thefts in 1950s London.'",
+            finalAnswer: "**(a)** 'The novel follows a young detective solving thefts in 1950s London.'",
           },
         },
         {
@@ -338,7 +338,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): evidence makes judgments convincing — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Because specific evidence makes judgments convincing and credible",
+            finalAnswer: "**(c)** Because specific evidence makes judgments convincing and credible",
           },
         },
         {
@@ -420,7 +420,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'I didn't like it' is vague — no aspect (plot, acting) or reason — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It is vague — it doesn't say what aspect or why",
+            finalAnswer: "**(d)** It is vague — it doesn't say what aspect or why",
           },
         },
         {
@@ -505,7 +505,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): thesis = main position in one sentence — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The writer's main position stated in one sentence",
+            finalAnswer: "**(d)** The writer's main position stated in one sentence",
           },
         },
         {
@@ -596,7 +596,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): thesis = main position — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The writer's main position in one sentence",
+            finalAnswer: "**(a)** The writer's main position in one sentence",
           },
         },
         {
@@ -621,7 +621,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): the second thesis states position ('reduced') and reason ('stress without improving learning') — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'Homework should be reduced because...' — it states position and reason",
+            finalAnswer: "**(d)** 'Homework should be reduced because...' — it states position and reason",
           },
         },
         {
@@ -651,7 +651,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): 'School uniforms should be abolished' is the thesis — the rest gives reasons — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'School uniforms should be abolished'",
+            finalAnswer: "**(c)** 'School uniforms should be abolished'",
           },
         },
         {
@@ -676,7 +676,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): (b) states position and reason in one sentence; the others lack a clear stance — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'Students should have more say in school decisions because their input improves decisions and engagement.'",
+            finalAnswer: "**(c)** 'Students should have more say in school decisions because their input improves decisions and engagement.'",
           },
         },
         {
@@ -776,7 +776,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): acknowledging opposition shows fairness and strengthens argument — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Because it shows fairness and strengthens your argument by addressing counterarguments",
+            finalAnswer: "**(a)** Because it shows fairness and strengthens your argument by addressing counterarguments",
           },
         },
         {
@@ -833,7 +833,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'Everyone knows' is a false generalization pressuring agreement — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It's a false generalization — it pressures agreement without evidence",
+            finalAnswer: "**(a)** It's a false generalization — it pressures agreement without evidence",
           },
         },
         {

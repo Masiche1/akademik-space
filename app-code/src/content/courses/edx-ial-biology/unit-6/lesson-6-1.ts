@@ -116,7 +116,7 @@ export const lesson61: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(b)** The dependent variable is the result being measured.",
+            "finalAnswer": "**(a)** The dependent variable is the result being measured.",
             "commonErrors": [
               "Choosing the independent variable."
             ]
@@ -389,7 +389,7 @@ export const lesson61: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(b)** Repeats and averaging improve reliability.",
+            "finalAnswer": "**(a)** Repeats and averaging improve reliability.",
             "commonErrors": [
               "Assuming one careful reading is enough."
             ]

@@ -67,7 +67,7 @@ export const lesson43: Lesson = {
               { reasoning: "Stylistics analyses language choices: diction, syntax, register, sound.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** How linguistic choices create meaning",
+            finalAnswer: "**(a)** How linguistic choices create meaning",
           },
         },
         {
@@ -180,7 +180,7 @@ export const lesson43: Lesson = {
               { reasoning: "Diction is word choice at the level of individual words and their associations.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Word choice and connotation",
+            finalAnswer: "**(a)** Word choice and connotation",
           },
         },
         {
@@ -206,7 +206,7 @@ export const lesson43: Lesson = {
               { reasoning: "Register measures how formal or colloquial the language is.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Level of formality",
+            finalAnswer: "**(c)** Level of formality",
           },
         },
         {
@@ -233,7 +233,7 @@ export const lesson43: Lesson = {
               { reasoning: "The difference is evaluative, not denotative — connotation does the work.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Connotation — approval vs contempt",
+            finalAnswer: "**(c)** Connotation — approval vs contempt",
           },
         },
         {
@@ -369,7 +369,7 @@ export const lesson43: Lesson = {
               { reasoning: "A periodic sentence withholds its main clause, accumulating modifiers first.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Main clause delayed to the end",
+            finalAnswer: "**(a)** Main clause delayed to the end",
           },
         },
         {
@@ -396,7 +396,7 @@ export const lesson43: Lesson = {
               { reasoning: "It hides agency and creates abstraction — the actor disappears into the process.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Turning verbs into nouns",
+            finalAnswer: "**(c)** Turning verbs into nouns",
           },
         },
         {
@@ -448,7 +448,7 @@ export const lesson43: Lesson = {
               { reasoning: "Short sentences and fragments produce percussive rhythm — urgency, emphasis, interruption.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Urgency, emphasis or interruption",
+            finalAnswer: "**(c)** Urgency, emphasis or interruption",
           },
         },
         {
@@ -540,7 +540,7 @@ export const lesson43: Lesson = {
               { reasoning: "Deviation is a stylistic departure from norms, not an error.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Departure from linguistic norms",
+            finalAnswer: "**(b)** Departure from linguistic norms",
           },
         },
         {
@@ -652,7 +652,7 @@ export const lesson43: Lesson = {
               { reasoning: "Foregrounding makes linguistic features visible so the reader notices the language itself.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Features that stand out and demand attention",
+            finalAnswer: "**(a)** Features that stand out and demand attention",
           },
         },
         {
@@ -678,7 +678,7 @@ export const lesson43: Lesson = {
               { reasoning: "A neologism is a word coined for the occasion — invention as deviation.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Newly coined word",
+            finalAnswer: "**(c)** Newly coined word",
           },
         },
         {
@@ -705,7 +705,7 @@ export const lesson43: Lesson = {
               { reasoning: "The parallelism makes the conquest memorable and mechanical — form enacts the inevitability of victory.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Syntactic parallelism foregrounding triadic structure",
+            finalAnswer: "**(c)** Syntactic parallelism foregrounding triadic structure",
           },
         },
         {
@@ -841,7 +841,7 @@ export const lesson43: Lesson = {
               { reasoning: "Parallelism makes the repeated structure itself the object of attention.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Making the pattern visible",
+            finalAnswer: "**(d)** Making the pattern visible",
           },
         },
         {
@@ -868,7 +868,7 @@ export const lesson43: Lesson = {
               { reasoning: "The break in expectation is what produces meaning; smooth grammar is invisible.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Breaks patterns to foreground the language",
+            finalAnswer: "**(d)** Breaks patterns to foreground the language",
           },
         },
         {
@@ -920,7 +920,7 @@ export const lesson43: Lesson = {
               { reasoning: "Deviation's function is foregrounding — estrangement reveals what habit conceals.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Foreground meaning through estrangement",
+            finalAnswer: "**(d)** Foreground meaning through estrangement",
           },
         },
         {

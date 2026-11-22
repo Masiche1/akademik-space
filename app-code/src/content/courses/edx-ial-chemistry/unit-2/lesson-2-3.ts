@@ -59,7 +59,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Equilibrium", statement: "Forward rate = reverse rate." }],
             steps: [{ reasoning: "Concentrations constant because rates equal.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Equal",
+            finalAnswer: "**(d)** Equal",
           },
         },
         {
@@ -174,7 +174,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Collision theory", statement: "Ea + orientation determine success." }],
             steps: [{ reasoning: "Only collisions with enough energy react.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** More collisions ≥ Ea",
+            finalAnswer: "**(c)** More collisions ≥ Ea",
           },
         },
         {

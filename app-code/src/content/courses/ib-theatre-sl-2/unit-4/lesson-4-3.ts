@@ -70,7 +70,7 @@ export const lesson43: Lesson = {
               { reasoning: "Formalism evaluates purely through dramatic structure, character and dialogue.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Dramatic structure, character and dialogue",
+            finalAnswer: "**(a)** Dramatic structure, character and dialogue",
             commonErrors: [
               "Confusing formalism with contextual or biographical analysis.",
             ],
@@ -227,7 +227,7 @@ export const lesson43: Lesson = {
               { reasoning: "Formalist evaluation excludes representation questions.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Formalism ignores gender representation and power",
+            finalAnswer: "**(c)** Formalism ignores gender representation and power",
             commonErrors: [
               "Thinking one framework's verdict settles all questions.",
             ],
@@ -278,7 +278,7 @@ export const lesson43: Lesson = {
               { reasoning: "Ideological frameworks centre on power and representation.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** How power and representation shape meaning",
+            finalAnswer: "**(c)** How power and representation shape meaning",
             commonErrors: [
               "Confusing ideological frameworks with formalist ones.",
             ],
@@ -334,7 +334,7 @@ export const lesson43: Lesson = {
               { reasoning: "Contextual analysis situates the play in its moment.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** How the play relates to its historical and social moment",
+            finalAnswer: "**(a)** How the play relates to its historical and social moment",
             commonErrors: [
               "Confusing contextual with formalist analysis.",
             ],
@@ -392,7 +392,7 @@ export const lesson43: Lesson = {
               { reasoning: "Frameworks compensate for each other's blind spots.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Each framework covers the blind spots of the others",
+            finalAnswer: "**(c)** Each framework covers the blind spots of the others",
             commonErrors: [
               "Thinking more frameworks just means more words.",
             ],
@@ -450,7 +450,7 @@ export const lesson43: Lesson = {
               { reasoning: "Contextual analysis risks excusing poor technique as era-typical.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** May excuse weak dramatic craft as 'typical of its era'",
+            finalAnswer: "**(b)** May excuse weak dramatic craft as 'typical of its era'",
             commonErrors: [
               "Thinking context automatically improves a play's evaluation.",
             ],
@@ -541,7 +541,7 @@ export const lesson43: Lesson = {
               { reasoning: "Fair evaluation requires establishing criteria before judging.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Establish explicit criteria for judgement",
+            finalAnswer: "**(d)** Establish explicit criteria for judgement",
             commonErrors: [
               "Judging by personal taste without criteria.",
             ],
@@ -648,7 +648,7 @@ export const lesson43: Lesson = {
               { reasoning: "Fair evaluation requires criteria established before judgement.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Establish explicit criteria before judging",
+            finalAnswer: "**(a)** Establish explicit criteria before judging",
             commonErrors: [
               "Judging by personal reaction without criteria.",
             ],
@@ -698,7 +698,7 @@ export const lesson43: Lesson = {
               { reasoning: "Farce succeeds through timing, wit and comic mechanics.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Comic timing, wit and effective resolution of confusion",
+            finalAnswer: "**(a)** Comic timing, wit and effective resolution of confusion",
             commonErrors: [
               "Applying tragedy criteria to comedy.",
             ],
@@ -749,7 +749,7 @@ export const lesson43: Lesson = {
               { reasoning: "Without criteria the judgement is untestable and vague.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** It specifies no dimension or criteria",
+            finalAnswer: "**(b)** It specifies no dimension or criteria",
             commonErrors: [
               "Thinking any comparative verdict is acceptable.",
             ],
@@ -804,7 +804,7 @@ export const lesson43: Lesson = {
               { reasoning: "Explicit, consistently applied criteria produce fair judgements.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Explicit and applied consistently",
+            finalAnswer: "**(d)** Explicit and applied consistently",
             commonErrors: [
               "Changing criteria mid-analysis to favour a conclusion.",
             ],
@@ -862,7 +862,7 @@ export const lesson43: Lesson = {
               { reasoning: "Significance concerns originality and impact, not production scale.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Originality, cultural impact and expansion of dramatic possibility",
+            finalAnswer: "**(d)** Originality, cultural impact and expansion of dramatic possibility",
             commonErrors: [
               "Confusing significance with scale or fame.",
             ],
@@ -920,7 +920,7 @@ export const lesson43: Lesson = {
               { reasoning: "A farce, tragedy and documentary each succeed differently.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Success means different things in different forms",
+            finalAnswer: "**(d)** Success means different things in different forms",
             commonErrors: [
               "Applying one universal standard to all genres.",
             ],

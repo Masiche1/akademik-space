@@ -103,7 +103,7 @@ export const lesson32: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Quarter past 4",
+            finalAnswer: "**(d)** Quarter past 4",
             commonErrors: ["Reading hour hand as 3 — it's just past 4."],
           },
         },

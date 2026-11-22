@@ -119,7 +119,7 @@ export const lesson91: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Revision improves ideas/organization; editing fixes grammar/conventions.",
+              "**(d)**. Revision improves ideas/organization; editing fixes grammar/conventions.",
             commonErrors: [
               "Thinking they're interchangeable — they serve different purposes.",
             ],
@@ -354,7 +354,7 @@ export const lesson91: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Ideas are mixed randomly — loyalty, play, walking, vet visits all in one paragraph.",
+              "**(d)**. Ideas are mixed randomly — loyalty, play, walking, vet visits all in one paragraph.",
             commonErrors: [
               "Thinking length is the issue — organization is about grouping, not length.",
             ],
@@ -590,7 +590,7 @@ export const lesson91: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Specific examples or proof — the claim is asserted without support.",
+              "**(c)**. Specific examples or proof — the claim is asserted without support.",
             commonErrors: [
               "Thinking the claim is self-evident — 'loyal' needs demonstration.",
             ],

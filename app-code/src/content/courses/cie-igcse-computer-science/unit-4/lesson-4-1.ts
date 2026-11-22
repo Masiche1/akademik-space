@@ -216,7 +216,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 4 times",
+            finalAnswer: "**(d)** 4 times",
           },
         },
         {
@@ -353,7 +353,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** When the condition is false",
+            finalAnswer: "**(a)** When the condition is false",
           },
         },
         {
@@ -452,7 +452,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** print(i)",
+            finalAnswer: "**(c)** print(i)",
           },
         },
         {
@@ -517,7 +517,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** while its condition is true",
+            finalAnswer: "**(d)** while its condition is true",
           },
         },
         {

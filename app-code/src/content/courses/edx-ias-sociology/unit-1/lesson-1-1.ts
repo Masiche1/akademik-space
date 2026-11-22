@@ -474,7 +474,7 @@ export const lesson11: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Others' view",
+            finalAnswer: "**(a)** Others' view",
             commonErrors: ["Mirror confused."],
           },
         },

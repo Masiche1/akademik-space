@@ -69,7 +69,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): greeting → body → sign-off → name — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Greeting, body, sign-off, name",
+            finalAnswer: "**(d)** Greeting, body, sign-off, name",
           },
         },
         {
@@ -150,7 +150,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Letter parts", statement: "The greeting opens the letter." }],
             steps: [{ reasoning: "Criterion B (Organizing): the greeting is the opening like 'Dear Sam' — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The opening words like 'Dear Sam' or 'Hi Mum'",
+            finalAnswer: "**(a)** The opening words like 'Dear Sam' or 'Hi Mum'",
           },
         },
         {
@@ -192,7 +192,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Purpose", statement: "Purpose is why you are writing." }],
             steps: [{ reasoning: "Criterion B (Organizing): purpose = the reason for writing — (a).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** The reason for writing",
+            finalAnswer: "**(b)** The reason for writing",
           },
         },
         {
@@ -264,7 +264,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Audience and purpose", statement: "Consider the reader and purpose first." }],
             steps: [{ reasoning: "Criterion B (Organizing): audience and purpose shape the message — (a).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Who will read it and why you are writing",
+            finalAnswer: "**(d)** Who will read it and why you are writing",
           },
         },
         {
@@ -419,7 +419,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "How many pages it will be" },
               { id: "d", text: "The color of the envelope" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -428,7 +428,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): deciding the purpose comes before writing — (c).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** The purpose — why you are writing",
+            finalAnswer: "**(a)** The purpose — why you are writing",
           },
         },
         {
@@ -509,7 +509,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Purpose first", statement: "The reason for writing shapes the letter." }],
             steps: [{ reasoning: "Criterion B (Organizing): deciding the purpose comes first — (a).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** The purpose — why you are writing",
+            finalAnswer: "**(d)** The purpose — why you are writing",
           },
         },
         {
@@ -530,7 +530,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Tone", statement: "Warm letters use friendly, personal words." }],
             steps: [{ reasoning: "Criterion D (Using language): 'so happy to hear from you' is warm and friendly — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** I was so happy to hear from you!",
+            finalAnswer: "**(d)** I was so happy to hear from you!",
           },
         },
         {
@@ -546,12 +546,12 @@ export const lesson33: Lesson = {
               { id: "c", text: "See you soon!" },
               { id: "d", text: "Love," },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Formal sign-off", statement: "Formal letters use 'Yours sincerely' or 'Yours faithfully'." }],
             steps: [{ reasoning: "Criterion D (Using language): 'Yours sincerely' is the formal sign-off — (c).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(c)** Yours sincerely,",
+            finalAnswer: "**(b)** Yours sincerely,",
           },
         },
         {
@@ -623,7 +623,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Letter structure", statement: "Letters have greeting, body, sign-off and name." }],
             steps: [{ reasoning: "Criterion B (Organizing): the four parts are greeting, body, sign-off, name — (a).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Greeting, body, sign-off, name",
+            finalAnswer: "**(b)** Greeting, body, sign-off, name",
           },
         },
         {

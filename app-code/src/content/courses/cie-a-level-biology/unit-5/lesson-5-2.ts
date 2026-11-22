@@ -98,7 +98,7 @@ export const lesson512: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Glucose+O₂→CO₂+H₂O+ATP",
+            finalAnswer: "**(d)** Glucose+O₂→CO₂+H₂O+ATP",
             commonErrors: ["Confusing with photosynthesis (reversed)."],
           },
         },
@@ -253,7 +253,7 @@ export const lesson512: Lesson = {
             steps: [
               { reasoning: "Aerobic respiration consumes oxygen and produces $CO_2$, water and ATP.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $C_6H_{12}O_6+6O_2\\rightarrow6CO_2+6H_2O+ATP$",
+            finalAnswer: "**(d)** $C_6H_{12}O_6+6O_2\\rightarrow6CO_2+6H_2O+ATP$",
             commonErrors: ["Confusing respiration with photosynthesis."],
           },
         },
@@ -283,7 +283,7 @@ export const lesson512: Lesson = {
             steps: [
               { reasoning: "Krebs cycle is a mitochondrial stage.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Mitochondrial matrix",
+            finalAnswer: "**(b)** Mitochondrial matrix",
             commonErrors: ["Placing Krebs cycle in cytoplasm."],
           },
         },
@@ -313,7 +313,7 @@ export const lesson512: Lesson = {
             steps: [
               { reasoning: "The ETC generates about 30 ATP per glucose.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Electron transport chain",
+            finalAnswer: "**(c)** Electron transport chain",
             commonErrors: ["Thinking glycolysis produces most ATP."],
           },
         },
@@ -343,7 +343,7 @@ export const lesson512: Lesson = {
             steps: [
               { reasoning: "Oxygen forms water after accepting electrons.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oxygen",
+            finalAnswer: "**(b)** Oxygen",
             commonErrors: ["Confusing oxygen with carbon dioxide."],
           },
         },
@@ -403,7 +403,7 @@ export const lesson512: Lesson = {
             steps: [
               { reasoning: "Acetyl-CoA enters the Krebs cycle.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Converted to acetyl-CoA",
+            finalAnswer: "**(c)** Converted to acetyl-CoA",
             commonErrors: ["Skipping the link reaction."],
           },
         },
@@ -616,7 +616,7 @@ export const lesson512: Lesson = {
             steps: [
               { reasoning: "Lactate in animals.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Lactate + ATP",
+            finalAnswer: "**(c)** Lactate + ATP",
             commonErrors: ["Confusing with yeast (ethanol)."],
           },
         },
@@ -771,7 +771,7 @@ export const lesson512: Lesson = {
             steps: [
               { reasoning: "Lactate accumulates when oxygen supply is insufficient.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Lactate",
+            finalAnswer: "**(b)** Lactate",
             commonErrors: ["Choosing ethanol, which is produced by yeast."],
           },
         },
@@ -801,7 +801,7 @@ export const lesson512: Lesson = {
             steps: [
               { reasoning: "Alcoholic fermentation gives ethanol and $CO_2$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Ethanol and carbon dioxide",
+            finalAnswer: "**(d)** Ethanol and carbon dioxide",
             commonErrors: ["Confusing yeast with animal cells."],
           },
         },
@@ -831,7 +831,7 @@ export const lesson512: Lesson = {
             steps: [
               { reasoning: "Vigorous exercise can create oxygen deficit.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oxygen demand exceeds supply",
+            finalAnswer: "**(b)** Oxygen demand exceeds supply",
             commonErrors: ["Thinking anaerobic respiration never occurs in humans."],
           },
         },
@@ -861,7 +861,7 @@ export const lesson512: Lesson = {
             steps: [
               { reasoning: "No oxygen means no oxidative phosphorylation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Only glycolysis occurs",
+            finalAnswer: "**(d)** Only glycolysis occurs",
             commonErrors: ["Saying anaerobic respiration produces no ATP."],
           },
         },
@@ -891,7 +891,7 @@ export const lesson512: Lesson = {
             steps: [
               { reasoning: "The Cori cycle returns lactate to glucose metabolism.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Converted in liver",
+            finalAnswer: "**(b)** Converted in liver",
             commonErrors: ["Saying lactate is a permanent waste product."],
           },
         },
@@ -921,7 +921,7 @@ export const lesson512: Lesson = {
             steps: [
               { reasoning: "Fermentation produces gas and alcohol.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Bread-making and brewing",
+            finalAnswer: "**(b)** Bread-making and brewing",
             commonErrors: ["Confusing respiration with photosynthesis."],
           },
         },

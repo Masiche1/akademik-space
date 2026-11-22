@@ -64,7 +64,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Convert the volume to $\\text{dm}^3$ ($250 \\div 1000 = 0.250$), then divide the moles by it.", working: "\\frac{0.50}{0.250} = 2.0\\text{ mol/dm}^3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $2.0\\text{ mol/dm}^3$",
+            finalAnswer: "**(d)** $2.0\\text{ mol/dm}^3$",
             commonErrors: ["Multiplying moles by volume in $\\text{dm}^3$ to get 0.125.", "Forgetting to convert $\\text{cm}^3$ to $\\text{dm}^3$ to get 125 or 0.002."],
             examinerNote: "B1 for 2.0.",
           },

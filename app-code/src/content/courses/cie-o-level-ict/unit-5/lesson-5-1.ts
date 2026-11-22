@@ -43,7 +43,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "A printer" },
             { id: "d", text: "System software managing hardware" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "OS", statement: "Manages hardware." }], steps: [{ reasoning: "OS = system software.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** System software" },
+          markscheme: { principles: [{ kind: "definition", name: "OS", statement: "Manages hardware." }], steps: [{ reasoning: "OS = system software.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** System software" },
         },
         {
           id: "olict-u5-ty-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "A game" },
             { id: "d", text: "A browser" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Utility software", statement: "Maintains system." }], steps: [{ reasoning: "Antivirus maintains/protects the system.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Antivirus" },
+          markscheme: { principles: [{ kind: "definition", name: "Utility software", statement: "Maintains system." }], steps: [{ reasoning: "Antivirus maintains/protects the system.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Antivirus" },
         },
         {
           id: "olict-u5-ty-q6", difficulty: "foundation", totalMarks: 2,
@@ -118,7 +118,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Code is kept secret" },
             { id: "d", text: "Source code is freely available for modification" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Open source", statement: "Open code." }], steps: [{ reasoning: "Open source = inspectable/modifiable code.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Source code freely available" },
+          markscheme: { principles: [{ kind: "definition", name: "Open source", statement: "Open code." }], steps: [{ reasoning: "Open source = inspectable/modifiable code.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Source code freely available" },
         },
         {
           id: "olict-u5-ty-q8", difficulty: "core", totalMarks: 1,
@@ -129,7 +129,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Operating system" },
             { id: "d", text: "Word processor" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Application software", statement: "User tasks." }], steps: [{ reasoning: "Word processor performs a user task.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Word processor" },
+          markscheme: { principles: [{ kind: "definition", name: "Application software", statement: "User tasks." }], steps: [{ reasoning: "Word processor performs a user task.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Word processor" },
         },
         {
           id: "olict-u5-ty-q9", difficulty: "core", totalMarks: 2,
@@ -160,7 +160,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Open source" },
             { id: "d", text: "Always free" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Proprietary", statement: "Closed, owned." }], steps: [{ reasoning: "Proprietary = company-owned, closed code.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Company-owned, closed source" },
+          markscheme: { principles: [{ kind: "definition", name: "Proprietary", statement: "Closed, owned." }], steps: [{ reasoning: "Proprietary = company-owned, closed code.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Company-owned, closed source" },
         },
         {
           id: "olict-u5-ty-q12", difficulty: "challenge", totalMarks: 2,
@@ -296,7 +296,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Allocates RAM to programs" },
             { id: "d", text: "Connects to the internet" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Memory management", statement: "RAM allocation." }], steps: [{ reasoning: "OS allocates memory to programs.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Allocates RAM" },
+          markscheme: { principles: [{ kind: "definition", name: "Memory management", statement: "RAM allocation." }], steps: [{ reasoning: "OS allocates memory to programs.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Allocates RAM" },
         },
         {
           id: "olict-u5-os-q6", difficulty: "core", totalMarks: 2,
@@ -316,7 +316,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Windows, icons, menus and a pointer" },
             { id: "d", text: "Paper printouts" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "GUI", statement: "Visual interface." }], steps: [{ reasoning: "GUI = windows/icons/menus/pointer.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Windows, icons, menus, pointer" },
+          markscheme: { principles: [{ kind: "definition", name: "GUI", statement: "Visual interface." }], steps: [{ reasoning: "GUI = windows/icons/menus/pointer.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Windows, icons, menus, pointer" },
         },
         {
           id: "olict-u5-os-q8", difficulty: "foundation", totalMarks: 1,
@@ -327,7 +327,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Memory management" },
             { id: "d", text: "Printing photographs" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "OS functions", statement: "Identify non-function." }], steps: [{ reasoning: "Printing is a task; the OS manages hardware/apps/files.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Printing photographs" },
+          markscheme: { principles: [{ kind: "principle", name: "OS functions", statement: "Identify non-function." }], steps: [{ reasoning: "Printing is a task; the OS manages hardware/apps/files.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Printing photographs" },
         },
         {
           id: "olict-u5-os-q9", difficulty: "foundation", totalMarks: 2,
@@ -358,7 +358,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Windows" },
             { id: "d", text: "Android" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Mobile OS", statement: "Android/iOS." }], steps: [{ reasoning: "Android is a mobile OS.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Android" },
+          markscheme: { principles: [{ kind: "definition", name: "Mobile OS", statement: "Android/iOS." }], steps: [{ reasoning: "Android is a mobile OS.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Android" },
         },
         {
           id: "olict-u5-os-q12", difficulty: "core", totalMarks: 2,
@@ -389,7 +389,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Browsing" },
             { id: "d", text: "File management" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "File management", statement: "Stores files." }], steps: [{ reasoning: "File management organises files.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** File management" },
+          markscheme: { principles: [{ kind: "definition", name: "File management", statement: "Stores files." }], steps: [{ reasoning: "File management organises files.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** File management" },
         },
         {
           id: "olict-u5-os-q15", difficulty: "core", totalMarks: 2,

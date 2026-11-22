@@ -65,7 +65,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Register", statement: "Register = level of formality of language." }],
             steps: [{ reasoning: "Criterion A (Analysing): register = formality — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** The level of formality in language",
+            finalAnswer: "**(a)** The level of formality in language",
           },
         },
         {
@@ -152,7 +152,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): contractions signal informality — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Contractions like 'don't' and 'can't'",
+            finalAnswer: "**(a)** Contractions like 'don't' and 'can't'",
           },
         },
         {
@@ -196,7 +196,7 @@ export const lesson21: Lesson = {
               { reasoning: "Criterion A (Analysing): formal, neutral, informal — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): they range from official/complex to casual/simple.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Formal, neutral, informal",
+            finalAnswer: "**(a)** Formal, neutral, informal",
           },
         },
         {
@@ -314,7 +314,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): jargon = specialist vocabulary — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Specialist vocabulary used within a profession or field",
+            finalAnswer: "**(c)** Specialist vocabulary used within a profession or field",
           },
         },
         {
@@ -546,7 +546,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): audience = intended readers — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The people a text is written for",
+            finalAnswer: "**(d)** The people a text is written for",
           },
         },
         {
@@ -708,7 +708,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): mismatch weakens communication — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Because mismatched register weakens communication and credibility",
+            finalAnswer: "**(c)** Because mismatched register weakens communication and credibility",
           },
         },
         {
@@ -752,7 +752,7 @@ export const lesson21: Lesson = {
               { reasoning: "Criterion A (Analysing): 'we' = inclusive — writer + audience together — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): builds rapport and shared identity.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The writer is including themselves with the audience — inclusive tone",
+            finalAnswer: "**(d)** The writer is including themselves with the audience — inclusive tone",
           },
         },
         {

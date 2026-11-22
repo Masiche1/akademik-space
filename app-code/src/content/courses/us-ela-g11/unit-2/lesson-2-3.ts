@@ -22,19 +22,48 @@ export const lesson23: Lesson = {
   goal: "I CAN analyze how ideas and events interact over a complex text, and integrate and evaluate multiple sources in different formats to address a question.",
   standards: ["RI.11-12.3", "RI.11-12.7"],
   vocabulary: [
-    { term: "Causal chain", definition: "A sequence in which each event helps bring about the next, so that an early cause leads through intermediate steps to a final result." },
-    { term: "Unintended consequence", definition: "A result of an action that the people who acted did not plan or expect." },
-    { term: "Precedent", definition: "An earlier event or decision treated as a model or justification for later ones." },
-    { term: "Interaction", definition: "The way ideas, people or events affect and change one another over time." },
-    { term: "Corroborate", definition: "To strengthen a claim by showing that independent evidence supports it." },
-    { term: "Format", definition: "The form in which information is presented, such as a table, chart, letter, photograph or caption." },
-    { term: "Discrepancy", definition: "A difference or conflict between two accounts or sets of data that needs explaining." },
+    {
+      term: "Causal chain",
+      definition:
+        "A sequence in which each event helps bring about the next, so that an early cause leads through intermediate steps to a final result.",
+    },
+    {
+      term: "Unintended consequence",
+      definition:
+        "A result of an action that the people who acted did not plan or expect.",
+    },
+    {
+      term: "Precedent",
+      definition:
+        "An earlier event or decision treated as a model or justification for later ones.",
+    },
+    {
+      term: "Interaction",
+      definition:
+        "The way ideas, people or events affect and change one another over time.",
+    },
+    {
+      term: "Corroborate",
+      definition:
+        "To strengthen a claim by showing that independent evidence supports it.",
+    },
+    {
+      term: "Format",
+      definition:
+        "The form in which information is presented, such as a table, chart, letter, photograph or caption.",
+    },
+    {
+      term: "Discrepancy",
+      definition:
+        "A difference or conflict between two accounts or sets of data that needs explaining.",
+    },
   ],
   concepts: [
     {
       id: "ela11-u2-event-sequences",
       title: "Sequences of events and interacting ideas",
-      skill: "Analyze a complex set of ideas or sequence of events, and explain how specific individuals, ideas or events interact and develop over the course of a text.",
+      skill:
+        "Analyze a complex set of ideas or sequence of events, and explain how specific individuals, ideas or events interact and develop over the course of a text.",
       lesson: {
         sections: [
           {
@@ -47,14 +76,32 @@ export const lesson23: Lesson = {
           },
         ],
         keyFormulas: [
-          { name: "Cause, link, effect", statement: "State the cause, the effect, and the word or detail in the text that connects them." },
-          { name: "Interaction", statement: "Show how two individuals, groups or ideas change each other, not just that both appear." },
-          { name: "Unintended consequence", statement: "A result that arises from an action but was not its goal; look for 'no one had planned' or 'never taken an interest'." },
-          { name: "Sequence to claim", statement: "End by stating what the whole sequence demonstrates about a larger idea." },
+          {
+            name: "Cause, link, effect",
+            statement:
+              "State the cause, the effect, and the word or detail in the text that connects them.",
+          },
+          {
+            name: "Interaction",
+            statement:
+              "Show how two individuals, groups or ideas change each other, not just that both appear.",
+          },
+          {
+            name: "Unintended consequence",
+            statement:
+              "A result that arises from an action but was not its goal; look for 'no one had planned' or 'never taken an interest'.",
+          },
+          {
+            name: "Sequence to claim",
+            statement:
+              "End by stating what the whole sequence demonstrates about a larger idea.",
+          },
         ],
         workedExample: {
-          problem: "Trace how the opening of the canal led to the fever of 1849. (4 marks)",
-          solution: "The canal made coal cheaper and transport faster, so the mill owners doubled their looms. The extra looms needed workers, and farm families, 'pressed by falling grain prices', moved to cramped rows along the towpath. Because the canal company owned the land and raised rents with each arrival, families lived in 'a single damp room', and this overcrowding led to the fever. The disaster was an unintended consequence: the text says 'no one had planned' it. Each step is linked by need or pressure, so the canal's economic success produced the conditions for the epidemic.",
+          problem:
+            "Trace how the opening of the canal led to the fever of 1849. (4 marks)",
+          solution:
+            "The canal made coal cheaper and transport faster, so the mill owners doubled their looms. The extra looms needed workers, and farm families, 'pressed by falling grain prices', moved to cramped rows along the towpath. Because the canal company owned the land and raised rents with each arrival, families lived in 'a single damp room', and this overcrowding led to the fever. The disaster was an unintended consequence: the text says 'no one had planned' it. Each step is linked by need or pressure, so the canal's economic success produced the conditions for the epidemic.",
         },
       },
       questions: [
@@ -67,7 +114,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The new looms needed workers, and falling grain prices pressed the families to leave the hills." },
+              {
+                id: "a",
+                text: "The new looms needed workers, and falling grain prices pressed the families to leave the hills.",
+              },
               { id: "b", text: "The mill owners built the rows for them." },
               { id: "c", text: "The town council ordered them to move." },
               { id: "d", text: "The fever of 1849 had emptied the hills." },
@@ -75,9 +125,26 @@ export const lesson23: Lesson = {
             correctChoiceId: "a",
           },
           markscheme: {
-            principles: [{ kind: "skill", name: "Tracing cause", statement: "Find the words in the text that state why one event followed another." }],
-            steps: [{ reasoning: "Two causes combine: demand for workers and pressure on farmers.", evidence: "Farm families from the hills, pressed by falling grain prices", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** The rows were 'hastily built' for workers who came to fill new jobs. The fever came later, in 1849.",
+            principles: [
+              {
+                kind: "skill",
+                name: "Tracing cause",
+                statement:
+                  "Find the words in the text that state why one event followed another.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Two causes combine: demand for workers and pressure on farmers.",
+                evidence:
+                  "Farm families from the hills, pressed by falling grain prices",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** The rows were 'hastily built' for workers who came to fill new jobs. The fever came later, in 1849.",
             commonErrors: ["Choosing (d), which reverses the order of events."],
           },
         },
@@ -90,21 +157,56 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The reforms prevented the fever from spreading." },
-              { id: "b", text: "The reforms were planned from the start, and the fever was only an accident." },
-              { id: "c", text: "The fever's effect on the owners' workforce gave them a reason to support reforms they had ignored." },
-              { id: "d", text: "The council acted to punish the owners for the fever." },
+              {
+                id: "a",
+                text: "The reforms prevented the fever from spreading.",
+              },
+              {
+                id: "b",
+                text: "The reforms were planned from the start, and the fever was only an accident.",
+              },
+              {
+                id: "c",
+                text: "The fever's effect on the owners' workforce gave them a reason to support reforms they had ignored.",
+              },
+              {
+                id: "d",
+                text: "The council acted to punish the owners for the fever.",
+              },
             ],
             correctChoiceId: "c",
           },
           markscheme: {
-            principles: [{ kind: "skill", name: "Interaction of events and interests", statement: "Show how a development changes the interests of the people involved." }],
-            steps: [
-              { reasoning: "The fever hurt the owners' own interest by cutting the workforce.", evidence: "found their workforce cut by a tenth", marks: 1, markCode: "AO1" },
-              { reasoning: "The owners then petitioned a council their friends dominated, which agreed; the reforms followed the epidemic, not preceded it.", evidence: "They petitioned the town council for drains and clean water", marks: 1, markCode: "AO1" },
+            principles: [
+              {
+                kind: "skill",
+                name: "Interaction of events and interests",
+                statement:
+                  "Show how a development changes the interests of the people involved.",
+              },
             ],
-            finalAnswer: "**(b)** Self-interest, not foresight, turned the owners toward reform. Choice (d) reverses the sequence.",
-            commonErrors: ["Choosing (c): the council was 'long dominated by the owners' friends', so it did not oppose the owners."],
+            steps: [
+              {
+                reasoning:
+                  "The fever hurt the owners' own interest by cutting the workforce.",
+                evidence: "found their workforce cut by a tenth",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning:
+                  "The owners then petitioned a council their friends dominated, which agreed; the reforms followed the epidemic, not preceded it.",
+                evidence:
+                  "They petitioned the town council for drains and clean water",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(c)** Self-interest, not foresight, turned the owners toward reform. Choice (d) reverses the sequence.",
+            commonErrors: [
+              "Choosing (c): the council was 'long dominated by the owners' friends', so it did not oppose the owners.",
+            ],
           },
         },
         {
@@ -116,17 +218,49 @@ export const lesson23: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "skill", name: "Analyzing interaction", statement: "Show how two groups' separate interests combine to produce a result neither alone intended." },
-              { kind: "skill", name: "Using evidence", statement: "Support each link in the chain with a short quotation." },
+              {
+                kind: "skill",
+                name: "Analyzing interaction",
+                statement:
+                  "Show how two groups' separate interests combine to produce a result neither alone intended.",
+              },
+              {
+                kind: "skill",
+                name: "Using evidence",
+                statement:
+                  "Support each link in the chain with a short quotation.",
+              },
             ],
             steps: [
-              { reasoning: "The owners wanted more looms and needed workers, but took no interest in where workers lived, so housing was left to others.", evidence: "who had never taken an interest in housing", marks: 2, markCode: "AO1" },
-              { reasoning: "The canal company owned the land beside the water and profited from each new arrival, so rents rose with demand and encouraged crowding.", evidence: "charged rents that rose with every new arrival", marks: 2, markCode: "AO1" },
-              { reasoning: "Together, the owners' neglect and the company's profit motive left workers in costly, overcrowded rows. The interaction of two profit-seeking groups produced the squalid conditions that no one had planned.", evidence: "a third of its wages on a single damp room", marks: 2, markCode: "AO1" },
+              {
+                reasoning:
+                  "The owners wanted more looms and needed workers, but took no interest in where workers lived, so housing was left to others.",
+                evidence: "who had never taken an interest in housing",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                reasoning:
+                  "The canal company owned the land beside the water and profited from each new arrival, so rents rose with demand and encouraged crowding.",
+                evidence: "charged rents that rose with every new arrival",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                reasoning:
+                  "Together, the owners' neglect and the company's profit motive left workers in costly, overcrowded rows. The interaction of two profit-seeking groups produced the squalid conditions that no one had planned.",
+                evidence: "a third of its wages on a single damp room",
+                marks: 2,
+                markCode: "AO1",
+              },
             ],
             levels: rubric(6, [5, 3, 2]),
-            finalAnswer: "The owners expanded production and needed workers but 'never took an interest in housing', leaving the matter to the canal company, which owned the land and raised rents with every new arrival. Neither group intended squalor, but their combined pursuit of profit meant families paid 'a third of its wages' for 'a single damp room'. The interaction of neglect and rent-seeking created the crowding that made the epidemic possible.",
-            commonErrors: ["Describing the owners and the company separately without showing how they interact.", "Presenting the housing conditions as deliberate cruelty rather than an unintended result."],
+            finalAnswer:
+              "The owners expanded production and needed workers but 'never took an interest in housing', leaving the matter to the canal company, which owned the land and raised rents with every new arrival. Neither group intended squalor, but their combined pursuit of profit meant families paid 'a third of its wages' for 'a single damp room'. The interaction of neglect and rent-seeking created the crowding that made the epidemic possible.",
+            commonErrors: [
+              "Describing the owners and the company separately without showing how they interact.",
+              "Presenting the housing conditions as deliberate cruelty rather than an unintended result.",
+            ],
           },
         },
         {
@@ -136,33 +270,145 @@ export const lesson23: Lesson = {
           extract: CANAL,
           stem: "Answer all parts of this question about the essay on the Harrow Canal.",
           parts: [
-            { label: "a", prompt: "Give two benefits the canal brought the mill owners at Pell.", marks: 2 },
-            { label: "b", prompt: "Explain why the fever of 1849 can be called an unintended consequence of the canal.", marks: 4 },
-            { label: "c", prompt: "Analyze how the essay's structure, moving from promise through growth and crisis to reform, shapes its argument about the canal.", marks: 6 },
-            { label: "d", prompt: "Evaluate the claim in the final paragraph that the canal carried 'a new idea of civic responsibility'. Consider how well the earlier events support it.", marks: 6 },
+            {
+              label: "a",
+              prompt:
+                "Give two benefits the canal brought the mill owners at Pell.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Explain why the fever of 1849 can be called an unintended consequence of the canal.",
+              marks: 4,
+            },
+            {
+              label: "c",
+              prompt:
+                "Analyze how the essay's structure, moving from promise through growth and crisis to reform, shapes its argument about the canal.",
+              marks: 6,
+            },
+            {
+              label: "d",
+              prompt:
+                "Evaluate the claim in the final paragraph that the canal carried 'a new idea of civic responsibility'. Consider how well the earlier events support it.",
+              marks: 6,
+            },
           ],
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "skill", name: "Causal chain", statement: "Trace a series of events by naming each cause, effect and linking word." },
-              { kind: "convention", name: "Narrative essay structure", statement: "Informational essays often arrange events chronologically toward a final claim." },
-              { kind: "skill", name: "Evaluating a claim", statement: "Test whether the evidence in the text is sufficient to support the writer's conclusion." },
+              {
+                kind: "skill",
+                name: "Causal chain",
+                statement:
+                  "Trace a series of events by naming each cause, effect and linking word.",
+              },
+              {
+                kind: "convention",
+                name: "Narrative essay structure",
+                statement:
+                  "Informational essays often arrange events chronologically toward a final claim.",
+              },
+              {
+                kind: "skill",
+                name: "Evaluating a claim",
+                statement:
+                  "Test whether the evidence in the text is sufficient to support the writer's conclusion.",
+              },
             ],
             steps: [
-              { part: "a", reasoning: "Cheaper coal.", evidence: "coal arrived at half its former cost", marks: 1, markCode: "AO1" },
-              { part: "a", reasoning: "Faster delivery of cloth to the coast.", evidence: "two days instead of six", marks: 1, markCode: "AO1" },
-              { part: "b", reasoning: "The canal's success created demand for workers, which led to crowded housing; the fever came from the crowding.", evidence: "hastily built rows along the towpath", marks: 2, markCode: "AO1" },
-              { part: "b", reasoning: "The text signals that the result was unplanned: the crowding 'had a consequence that no one had planned', and the owners were themselves harmed.", evidence: "a consequence that no one had planned", marks: 2, markCode: "AO1" },
-              { part: "c", reasoning: "The opening promise sets a hopeful expectation, 'lift the whole valley', that the middle sections complicate.", evidence: "promised that cheap transport would lift the whole valley", marks: 2, markCode: "AO2" },
-              { part: "c", reasoning: "The middle paragraphs move through cause and effect, each opening with the result of the last ('The new looms needed workers'), so the chain feels inevitable.", evidence: "The new looms needed workers, and workers needed homes", marks: 2, markCode: "AO2" },
-              { part: "c", reasoning: "The crisis and modest reform lead to the final paragraph's generalization, so the argument is that economic change can bring social obligation; the early promise is ironically fulfilled in a way the backers did not mean.", evidence: "The reforms were modest, but they set a precedent", marks: 2, markCode: "AO2" },
-              { part: "d", reasoning: "Support: the town accepted for the first time that private profit could impose public costs, and the council agreed to drains and clean water.", evidence: "the cost of private profit could fall on the public", marks: 2, markCode: "AO1" },
-              { part: "d", reasoning: "Limit: the reforms were 'modest', driven by owners' self-interest after a fall in their workforce, not by principle, and the council was dominated by the owners' friends.", evidence: "long dominated by the owners' friends", marks: 2, markCode: "AO1" },
-              { part: "d", reasoning: "Judgment: the claim is reasonable as a description of a precedent, but overstated as a change in ideas; the evidence shows a change in practice motivated by interest.", marks: 2, markCode: "AO3" },
+              {
+                part: "a",
+                reasoning: "Cheaper coal.",
+                evidence: "coal arrived at half its former cost",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Faster delivery of cloth to the coast.",
+                evidence: "two days instead of six",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "The canal's success created demand for workers, which led to crowded housing; the fever came from the crowding.",
+                evidence: "hastily built rows along the towpath",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "The text signals that the result was unplanned: the crowding 'had a consequence that no one had planned', and the owners were themselves harmed.",
+                evidence: "a consequence that no one had planned",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "The opening promise sets a hopeful expectation, 'lift the whole valley', that the middle sections complicate.",
+                evidence:
+                  "promised that cheap transport would lift the whole valley",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "The middle paragraphs move through cause and effect, each opening with the result of the last ('The new looms needed workers'), so the chain feels inevitable.",
+                evidence:
+                  "The new looms needed workers, and workers needed homes",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "The crisis and modest reform lead to the final paragraph's generalization, so the argument is that economic change can bring social obligation; the early promise is ironically fulfilled in a way the backers did not mean.",
+                evidence: "The reforms were modest, but they set a precedent",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Support: the town accepted for the first time that private profit could impose public costs, and the council agreed to drains and clean water.",
+                evidence: "the cost of private profit could fall on the public",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Limit: the reforms were 'modest', driven by owners' self-interest after a fall in their workforce, not by principle, and the council was dominated by the owners' friends.",
+                evidence: "long dominated by the owners' friends",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Judgment: the claim is reasonable as a description of a precedent, but overstated as a change in ideas; the evidence shows a change in practice motivated by interest.",
+                marks: 2,
+                markCode: "AO3",
+              },
             ],
-            levels: [...rubric(6, [5, 3, 2], "c"), ...rubric(6, [5, 3, 2], "d")],
-            finalAnswer: "(a) Cheaper coal and faster delivery of cloth. (b) Growth drew workers into crowded towpath housing, and the fever followed; the text says no one had planned it and it reduced the owners' own workforce. (c) The structure moves from hopeful promise through linked cause and effect to crisis and reform, ending with a larger claim about responsibility. (d) The claim is supported by the council's acceptance that profit's costs fall on the public, but the reforms were modest and motivated by self-interest, so the 'new idea' is better described as a precedent than a settled principle.",
-            commonErrors: ["In (b), repeating that the fever killed people without explaining why it was unintended.", "In (c), summarizing the paragraphs instead of analyzing their order.", "In (d), accepting the final claim without testing it against the evidence."],
+            levels: [
+              ...rubric(6, [5, 3, 2], "c"),
+              ...rubric(6, [5, 3, 2], "d"),
+            ],
+            finalAnswer:
+              "(a) Cheaper coal and faster delivery of cloth. (b) Growth drew workers into crowded towpath housing, and the fever followed; the text says no one had planned it and it reduced the owners' own workforce. (c) The structure moves from hopeful promise through linked cause and effect to crisis and reform, ending with a larger claim about responsibility. (d) The claim is supported by the council's acceptance that profit's costs fall on the public, but the reforms were modest and motivated by self-interest, so the 'new idea' is better described as a precedent than a settled principle.",
+            commonErrors: [
+              "In (b), repeating that the fever killed people without explaining why it was unintended.",
+              "In (c), summarizing the paragraphs instead of analyzing their order.",
+              "In (d), accepting the final claim without testing it against the evidence.",
+            ],
           },
         },
       ],
@@ -170,7 +416,8 @@ export const lesson23: Lesson = {
     {
       id: "ela11-u2-multiple-sources",
       title: "Integrating sources in different formats",
-      skill: "Integrate and evaluate multiple sources presented in different formats, including data, charts, letters and images described in words, to address a question.",
+      skill:
+        "Integrate and evaluate multiple sources presented in different formats, including data, charts, letters and images described in words, to address a question.",
       lesson: {
         sections: [
           {
@@ -183,14 +430,31 @@ export const lesson23: Lesson = {
           },
         ],
         keyFormulas: [
-          { name: "Source questions", statement: "Who produced it, when, how was it gathered, and what is its purpose?" },
-          { name: "Corroboration", statement: "Independent sources that agree strengthen a claim." },
-          { name: "Discrepancy", statement: "When sources conflict, look for differences in timing, sample, method or interest." },
-          { name: "Weighting", statement: "Prefer broader, systematic, longer-term evidence over a single moment or a selected group." },
+          {
+            name: "Source questions",
+            statement:
+              "Who produced it, when, how was it gathered, and what is its purpose?",
+          },
+          {
+            name: "Corroboration",
+            statement: "Independent sources that agree strengthen a claim.",
+          },
+          {
+            name: "Discrepancy",
+            statement:
+              "When sources conflict, look for differences in timing, sample, method or interest.",
+          },
+          {
+            name: "Weighting",
+            statement:
+              "Prefer broader, systematic, longer-term evidence over a single moment or a selected group.",
+          },
         ],
         workedExample: {
-          problem: "Use Sources A and B to say whether the bike lane helped or harmed Marlow Street. (4 marks)",
-          solution: "The sources point in different directions. Source A shows safety gains and more cyclists: injuries fell from 14 to 6 a year and daily cyclists rose from 310 to 790, with car trips falling only slightly. Source B, a merchants' letter, claims lower sales at seven of thirty-one shops. These do not strictly conflict, since they measure different things, but they come from different perspectives: a city report and an interested group. The letter reports only seven of thirty-one shops, a minority, so it cannot show that the street as a whole was harmed. A balanced answer is that the lane improved safety and cycling, with a possible cost to some businesses that Source C should test.",
+          problem:
+            "Use Sources A and B to say whether the bike lane helped or harmed Marlow Street. (4 marks)",
+          solution:
+            "The sources point in different directions. Source A shows safety gains and more cyclists: injuries fell from 14 to 6 a year and daily cyclists rose from 310 to 790, with car trips falling only slightly. Source B, a merchants' letter, claims lower sales at seven of thirty-one shops. These do not strictly conflict, since they measure different things, but they come from different perspectives: a city report and an interested group. The letter reports only seven of thirty-one shops, a minority, so it cannot show that the street as a whole was harmed. A balanced answer is that the lane improved safety and cycling, with a possible cost to some businesses that Source C should test.",
         },
       },
       questions: [
@@ -208,13 +472,31 @@ export const lesson23: Lesson = {
               { id: "c", text: "Source D, the photograph and caption" },
               { id: "d", text: "Source C, the independent survey chart" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
-            principles: [{ kind: "skill", name: "Weighing evidence", statement: "Prefer evidence that covers the whole population and is gathered independently over time." }],
-            steps: [{ reasoning: "The independent survey covers all thirty-one shops over a year, so it is the most complete evidence about sales.", evidence: "independent survey of all thirty-one shops", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(c)** Source A does not measure sales, Source B covers only seven shops and is from an interested group, and Source D shows a single moment.",
-            commonErrors: ["Choosing (b) because it mentions sales directly, without noticing its limited and interested sample."],
+            principles: [
+              {
+                kind: "skill",
+                name: "Weighing evidence",
+                statement:
+                  "Prefer evidence that covers the whole population and is gathered independently over time.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The independent survey covers all thirty-one shops over a year, so it is the most complete evidence about sales.",
+                evidence: "independent survey of all thirty-one shops",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(d)** Source A does not measure sales, Source B covers only seven shops and is from an interested group, and Source D shows a single moment.",
+            commonErrors: [
+              "Choosing (b) because it mentions sales directly, without noticing its limited and interested sample.",
+            ],
           },
         },
         {
@@ -226,21 +508,53 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sources B and D describe a short period or a selected group, while Sources A and C cover broader or longer evidence." },
+              {
+                id: "a",
+                text: "Sources B and D describe a short period or a selected group, while Sources A and C cover broader or longer evidence.",
+              },
               { id: "b", text: "Sources A and C are forgeries." },
-              { id: "c", text: "Sources B and D use data and Sources A and C do not." },
-              { id: "d", text: "There is no real disagreement among any of the sources." },
+              {
+                id: "c",
+                text: "Sources B and D use data and Sources A and C do not.",
+              },
+              {
+                id: "d",
+                text: "There is no real disagreement among any of the sources.",
+              },
             ],
             correctChoiceId: "a",
           },
           markscheme: {
-            principles: [{ kind: "skill", name: "Explaining discrepancy", statement: "Account for conflict by comparing timing, sample, method and interest." }],
-            steps: [
-              { reasoning: "Source D shows only a noon photograph, one moment, and Source B reports only seven of thirty-one shops.", evidence: "Seven of the thirty-one shops", marks: 1, markCode: "AO1" },
-              { reasoning: "Source C covers every shop for a year, and Source A compares counts before and after, so they are broader evidence.", evidence: "rising to 6 percent above the earlier level by the end of the first year", marks: 1, markCode: "AO1" },
+            principles: [
+              {
+                kind: "skill",
+                name: "Explaining discrepancy",
+                statement:
+                  "Account for conflict by comparing timing, sample, method and interest.",
+              },
             ],
-            finalAnswer: "**(a)** The disagreement comes partly from narrow or short-term evidence against broad or longer-term evidence. Choice (c) is false, since B and D present no systematic data.",
-            commonErrors: ["Choosing (d): the sources do disagree about the lane's effect on business and on its use."],
+            steps: [
+              {
+                reasoning:
+                  "Source D shows only a noon photograph, one moment, and Source B reports only seven of thirty-one shops.",
+                evidence: "Seven of the thirty-one shops",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning:
+                  "Source C covers every shop for a year, and Source A compares counts before and after, so they are broader evidence.",
+                evidence:
+                  "rising to 6 percent above the earlier level by the end of the first year",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** The disagreement comes partly from narrow or short-term evidence against broad or longer-term evidence. Choice (c) is false, since B and D present no systematic data.",
+            commonErrors: [
+              "Choosing (d): the sources do disagree about the lane's effect on business and on its use.",
+            ],
           },
         },
         {
@@ -252,17 +566,52 @@ export const lesson23: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "skill", name: "Integrating sources", statement: "Combine what two sources say, then weigh them rather than listing them." },
-              { kind: "skill", name: "Weighing evidence", statement: "Broader and longer-term data outweighs a smaller, interested sample." },
+              {
+                kind: "skill",
+                name: "Integrating sources",
+                statement:
+                  "Combine what two sources say, then weigh them rather than listing them.",
+              },
+              {
+                kind: "skill",
+                name: "Weighing evidence",
+                statement:
+                  "Broader and longer-term data outweighs a smaller, interested sample.",
+              },
             ],
             steps: [
-              { reasoning: "Source B is understandable: seven shops reported lower sales, and Source C confirms a real dip in the three months after construction.", evidence: "dipping 4 percent in the three months after construction", marks: 2, markCode: "AO1" },
-              { reasoning: "But Source B covers a minority, seven of thirty-one shops, and comes from an association with an interest in parking.", evidence: "Seven of the thirty-one shops on the street have seen lower sales", marks: 2, markCode: "AO1" },
-              { reasoning: "Source C shows sales recovered and rose above the earlier level by the end of the first year, so the concern describes a short-term effect, not a lasting one.", evidence: "6 percent above the earlier level by the end of the first year", marks: 2, markCode: "AO3" },
+              {
+                reasoning:
+                  "Source B is understandable: seven shops reported lower sales, and Source C confirms a real dip in the three months after construction.",
+                evidence:
+                  "dipping 4 percent in the three months after construction",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                reasoning:
+                  "But Source B covers a minority, seven of thirty-one shops, and comes from an association with an interest in parking.",
+                evidence:
+                  "Seven of the thirty-one shops on the street have seen lower sales",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                reasoning:
+                  "Source C shows sales recovered and rose above the earlier level by the end of the first year, so the concern describes a short-term effect, not a lasting one.",
+                evidence:
+                  "6 percent above the earlier level by the end of the first year",
+                marks: 2,
+                markCode: "AO3",
+              },
             ],
             levels: rubric(6, [5, 3, 2]),
-            finalAnswer: "The merchants' concern is understandable because the survey in Source C confirms an initial dip of 4 percent in the three months after construction. But the letter reports only seven of thirty-one shops and comes from an interested group, while the survey covers all shops and shows sales rising to 6 percent above the earlier level within a year. The evidence therefore supports a temporary cost, not a reason to halt the lane.",
-            commonErrors: ["Treating the letter as false rather than as partial evidence.", "Ignoring the time dimension of the chart."],
+            finalAnswer:
+              "The merchants' concern is understandable because the survey in Source C confirms an initial dip of 4 percent in the three months after construction. But the letter reports only seven of thirty-one shops and comes from an interested group, while the survey covers all shops and shows sales rising to 6 percent above the earlier level within a year. The evidence therefore supports a temporary cost, not a reason to halt the lane.",
+            commonErrors: [
+              "Treating the letter as false rather than as partial evidence.",
+              "Ignoring the time dimension of the chart.",
+            ],
           },
         },
         {
@@ -272,33 +621,144 @@ export const lesson23: Lesson = {
           extract: SOURCES,
           stem: "A council briefing asks: 'Should the Marlow Street bike lane be extended?' Answer all parts using the four sources.",
           parts: [
-            { label: "a", prompt: "State two ways the lane changed Marlow Street according to Source A.", marks: 2 },
-            { label: "b", prompt: "Explain one limitation of Source A as evidence for extending the lane.", marks: 4 },
-            { label: "c", prompt: "Evaluate the reliability and usefulness of Source D (the photograph and caption) compared with Source C.", marks: 6 },
-            { label: "d", prompt: "Write a short, qualified recommendation to the council that integrates at least three of the sources and acknowledges what the evidence does not show.", marks: 6 },
+            {
+              label: "a",
+              prompt:
+                "State two ways the lane changed Marlow Street according to Source A.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Explain one limitation of Source A as evidence for extending the lane.",
+              marks: 4,
+            },
+            {
+              label: "c",
+              prompt:
+                "Evaluate the reliability and usefulness of Source D (the photograph and caption) compared with Source C.",
+              marks: 6,
+            },
+            {
+              label: "d",
+              prompt:
+                "Write a short, qualified recommendation to the council that integrates at least three of the sources and acknowledges what the evidence does not show.",
+              marks: 6,
+            },
           ],
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "skill", name: "Evaluating sources", statement: "Consider who produced a source, when and how the evidence was gathered, and what it cannot show." },
-              { kind: "skill", name: "Synthesis", statement: "Combine sources to answer a question, weigh them, and qualify the conclusion." },
-              { kind: "convention", name: "Recommendation writing", statement: "A recommendation states a position, gives reasons from the evidence, and acknowledges limits." },
+              {
+                kind: "skill",
+                name: "Evaluating sources",
+                statement:
+                  "Consider who produced a source, when and how the evidence was gathered, and what it cannot show.",
+              },
+              {
+                kind: "skill",
+                name: "Synthesis",
+                statement:
+                  "Combine sources to answer a question, weigh them, and qualify the conclusion.",
+              },
+              {
+                kind: "convention",
+                name: "Recommendation writing",
+                statement:
+                  "A recommendation states a position, gives reasons from the evidence, and acknowledges limits.",
+              },
             ],
             steps: [
-              { part: "a", reasoning: "Cyclists rose substantially.", evidence: "Daily cyclists rose from 310 to 790", marks: 1, markCode: "AO1" },
-              { part: "a", reasoning: "Injuries to cyclists fell, and car trips fell slightly.", evidence: "Reported injuries to cyclists fell from 14 per year to 6 per year", marks: 1, markCode: "AO1" },
-              { part: "b", reasoning: "The counts were taken in October of each year, so they may not reflect seasonal variation, such as winter cycling or holiday traffic.", evidence: "the counts were taken in October of each year", marks: 2, markCode: "AO1" },
-              { part: "b", reasoning: "It reports only traffic and safety, not business sales or parking, which are the concerns of the merchants, so it cannot alone justify extension.", marks: 2, markCode: "AO1" },
-              { part: "c", reasoning: "Source D is a single noon photograph, one moment in one day, so it cannot show how lightly the lane is used overall; the claim depends on timing.", evidence: "A photograph taken at noon", marks: 2, markCode: "AO1" },
-              { part: "c", reasoning: "The caption comes from a neighborhood newsletter and states the lane is 'lightly used', which Source A's cyclist counts contradict. The claim about 'forty parking spaces' is specific but unsupported.", evidence: "The new lane is lightly used and has removed forty parking spaces", marks: 2, markCode: "AO3" },
-              { part: "c", reasoning: "Source C, an independent survey of every shop across a year, is far more reliable and useful for judging business effects, although it does not address safety or use of the lane.", evidence: "independent survey of all thirty-one shops", marks: 2, markCode: "AO1" },
-              { part: "d", reasoning: "A clear position is stated: extend the lane, perhaps with support for businesses during construction.", marks: 2, markCode: "AO4" },
-              { part: "d", reasoning: "It integrates sources A, B and C: safety and cycling gains (A), the dip that merchants fear (B), and the recovery over the year (C), weighing broader against narrower evidence.", evidence: "rising to 6 percent above the earlier level", marks: 2, markCode: "AO3" },
-              { part: "d", reasoning: "It acknowledges what is not known, such as the effect on parking-dependent shops among the seven, seasonal changes or long-term use.", marks: 2, markCode: "AO3" },
+              {
+                part: "a",
+                reasoning: "Cyclists rose substantially.",
+                evidence: "Daily cyclists rose from 310 to 790",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning:
+                  "Injuries to cyclists fell, and car trips fell slightly.",
+                evidence:
+                  "Reported injuries to cyclists fell from 14 per year to 6 per year",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "The counts were taken in October of each year, so they may not reflect seasonal variation, such as winter cycling or holiday traffic.",
+                evidence: "the counts were taken in October of each year",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "It reports only traffic and safety, not business sales or parking, which are the concerns of the merchants, so it cannot alone justify extension.",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Source D is a single noon photograph, one moment in one day, so it cannot show how lightly the lane is used overall; the claim depends on timing.",
+                evidence: "A photograph taken at noon",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "The caption comes from a neighborhood newsletter and states the lane is 'lightly used', which Source A's cyclist counts contradict. The claim about 'forty parking spaces' is specific but unsupported.",
+                evidence:
+                  "The new lane is lightly used and has removed forty parking spaces",
+                marks: 2,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Source C, an independent survey of every shop across a year, is far more reliable and useful for judging business effects, although it does not address safety or use of the lane.",
+                evidence: "independent survey of all thirty-one shops",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "A clear position is stated: extend the lane, perhaps with support for businesses during construction.",
+                marks: 2,
+                markCode: "AO4",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "It integrates sources A, B and C: safety and cycling gains (A), the dip that merchants fear (B), and the recovery over the year (C), weighing broader against narrower evidence.",
+                evidence: "rising to 6 percent above the earlier level",
+                marks: 2,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "It acknowledges what is not known, such as the effect on parking-dependent shops among the seven, seasonal changes or long-term use.",
+                marks: 2,
+                markCode: "AO3",
+              },
             ],
-            levels: [...rubric(6, [5, 3, 2], "c"), ...rubric(6, [5, 3, 2], "d")],
-            finalAnswer: "(a) Daily cyclists rose from 310 to 790, and injuries fell from 14 to 6 a year. (b) The October-only counts may miss seasonal change, and the report does not measure sales or parking. (c) The photograph shows one noon moment and an advocacy caption that conflicts with Source A; the survey covers all shops over a year, so it is more reliable for business effects. (d) Recommend extension, citing safety and cycling gains (A), the early dip the merchants fear (B) and the recovery in sales (C), while admitting uncertainty about seasonal use and the seven affected shops.",
-            commonErrors: ["In (b), saying only that the report 'could be wrong'.", "In (c), preferring the photograph because it is a picture.", "In (d), listing the sources one by one instead of combining them into a position."],
+            levels: [
+              ...rubric(6, [5, 3, 2], "c"),
+              ...rubric(6, [5, 3, 2], "d"),
+            ],
+            finalAnswer:
+              "(a) Daily cyclists rose from 310 to 790, and injuries fell from 14 to 6 a year. (b) The October-only counts may miss seasonal change, and the report does not measure sales or parking. (c) The photograph shows one noon moment and an advocacy caption that conflicts with Source A; the survey covers all shops over a year, so it is more reliable for business effects. (d) Recommend extension, citing safety and cycling gains (A), the early dip the merchants fear (B) and the recovery in sales (C), while admitting uncertainty about seasonal use and the seven affected shops.",
+            commonErrors: [
+              "In (b), saying only that the report 'could be wrong'.",
+              "In (c), preferring the photograph because it is a picture.",
+              "In (d), listing the sources one by one instead of combining them into a position.",
+            ],
           },
         },
       ],

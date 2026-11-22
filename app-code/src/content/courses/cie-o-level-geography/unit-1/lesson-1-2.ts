@@ -259,7 +259,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Abrasion = grinding by sediment.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Abrasion",
+            finalAnswer: "**(a)** Abrasion",
             commonErrors: ["Confusing with hydraulic action."],
           },
         },
@@ -293,7 +293,7 @@ export const lesson12: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Longshore drift",
+            finalAnswer: "**(a)** Longshore drift",
             commonErrors: ["Confusing with river transport."],
           },
         },
@@ -310,7 +310,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Wave energy is high" },
               { id: "d", text: "Headlands are exposed" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -327,7 +327,7 @@ export const lesson12: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(c)** Low or sheltered energy",
+            finalAnswer: "**(a)** Low or sheltered energy",
             commonErrors: ["Reversing erosion/deposition."],
           },
         },
@@ -361,7 +361,7 @@ export const lesson12: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Longshore drift",
+            finalAnswer: "**(c)** Longshore drift",
             commonErrors: ["Naming the wrong process."],
           },
         },
@@ -378,7 +378,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Wave-cut platform" },
               { id: "d", text: "Spit" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -391,7 +391,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Spit = depositional.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** Spit",
+            finalAnswer: "**(d)** Spit",
             commonErrors: ["Confusing erosional/depositional."],
           },
         },
@@ -425,7 +425,7 @@ export const lesson12: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Headlands",
+            finalAnswer: "**(d)** Headlands",
             commonErrors: ["Confusing with bays."],
           },
         },
@@ -720,7 +720,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Spit = sand ridge.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Sand ridge into sea",
+            finalAnswer: "**(d)** Sand ridge into sea",
             commonErrors: ["Confusing with bar."],
           },
         },
@@ -875,7 +875,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Stack = isolated pillar.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Stack",
+            finalAnswer: "**(c)** Stack",
             commonErrors: ["Confusing stack with stump."],
           },
         },
@@ -905,7 +905,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Bar = ridge across bay.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Bar",
+            finalAnswer: "**(c)** Bar",
             commonErrors: ["Confusing bar with spit."],
           },
         },
@@ -952,7 +952,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Arch" },
               { id: "d", text: "Stack" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -965,7 +965,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Cave forms first.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** Cave",
+            finalAnswer: "**(b)** Cave",
             commonErrors: ["Wrong order of sequence."],
           },
         },
@@ -999,7 +999,7 @@ export const lesson12: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Island to mainland",
+            finalAnswer: "**(d)** Island to mainland",
             commonErrors: ["Confusing with bar."],
           },
         },

@@ -57,7 +57,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Gas exchange", statement: "O₂ in, CO₂ out down partial pressure gradients." }],
             steps: [{ reasoning: "CO₂ produced by respiration diffuses into alveoli.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Carbon dioxide",
+            finalAnswer: "**(a)** Carbon dioxide",
           },
         },
         {
@@ -170,7 +170,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Countercurrent", statement: "Opposite flows maintain gradient." }],
             steps: [{ reasoning: "Oxygenated water meets blood throughout → efficient extraction.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Maintains steep gradient",
+            finalAnswer: "**(a)** Maintains steep gradient",
           },
         },
         {

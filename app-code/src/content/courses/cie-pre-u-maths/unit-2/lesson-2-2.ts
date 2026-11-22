@@ -203,7 +203,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "3 cm²" },
               { id: "d", text: "9 cm²" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -413,7 +413,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "$\\frac{\\pi}{6}$" },
               { id: "d", text: "$\\frac{\\pi}{3}$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

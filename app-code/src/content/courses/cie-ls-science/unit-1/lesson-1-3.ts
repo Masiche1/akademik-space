@@ -65,7 +65,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Corrosive chemicals can burn skin — a hazard. Others are safety measures.", working: "hazard", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Corrosive chemicals",
+            finalAnswer: "**(d)** Corrosive chemicals",
             commonErrors: ["Choosing safety equipment — those reduce risk, aren't hazards."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Accident response", statement: "Chemical splashes should be flooded with water and reported." }],
             steps: [{ reasoning: "Water dilutes and removes the chemical; adults must be informed.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Flood with plenty of water and tell the teacher",
+            finalAnswer: "**(c)** Flood with plenty of water and tell the teacher",
           },
         },
         {
@@ -262,7 +262,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Flammable", statement: "Flammable substances ignite easily near flames." }],
             steps: [{ reasoning: "Heat can ignite flammable vapours or liquids.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** They can ignite easily and cause fire",
+            finalAnswer: "**(c)** They can ignite easily and cause fire",
           },
         },
         {
@@ -295,7 +295,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Safety reporting", statement: "Faulty equipment should be removed and reported." }],
             steps: [{ reasoning: "Damaged leads can cause shocks or fires.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Stop using it and report it",
+            finalAnswer: "**(d)** Stop using it and report it",
           },
         },
         {
@@ -398,7 +398,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Conclusion links results back to the original question.", working: "answer aim", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Answer the original question using evidence",
+            finalAnswer: "**(c)** Answer the original question using evidence",
             commonErrors: ["Just restating results — must interpret them."],
           },
         },
@@ -499,7 +499,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Evaluation", statement: "Evaluation judges method quality, limitations and improvements." }],
             steps: [{ reasoning: "Evaluation assesses how reliable and valid the method was.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Limitations and possible improvements",
+            finalAnswer: "**(d)** Limitations and possible improvements",
           },
         },
         {
@@ -546,7 +546,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Evaluation", statement: "Evaluation judges limitations and reliability of the method." }],
             steps: [{ reasoning: "Commenting on sample size assesses reliability.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Only three plants were tested, so results may not be reliable",
+            finalAnswer: "**(b)** Only three plants were tested, so results may not be reliable",
           },
         },
         {
@@ -594,7 +594,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Scientific report", statement: "The aim states the question being investigated." }],
             steps: [{ reasoning: "The aim identifies the purpose and question.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Aim",
+            finalAnswer: "**(c)** Aim",
           },
         },
         {
@@ -627,7 +627,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Evidence-based conclusion", statement: "Strong conclusions cite data and answer the aim." }],
             steps: [{ reasoning: "The strongest conclusion includes measurements and links them to the aim.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Mean growth rose from 10 cm to 16 cm, so fertiliser increased growth",
+            finalAnswer: "**(d)** Mean growth rose from 10 cm to 16 cm, so fertiliser increased growth",
           },
         },
         {

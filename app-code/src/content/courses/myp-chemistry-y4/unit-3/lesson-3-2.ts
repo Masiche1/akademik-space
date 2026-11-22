@@ -71,7 +71,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Alkanes have formula CnH₂n+2.", working: "C_nH_{2n+2}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** CnH₂n+2",
+            finalAnswer: "**(c)** CnH₂n+2",
             commonErrors: ["Confusing with alkene CnH₂n."],
             examinerNote: "B1 for (a).",
           },
@@ -531,7 +531,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Complete combustion gives CO₂ + H₂O.", working: "CO_2+H_2O", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** CO₂ and water",
+            finalAnswer: "**(b)** CO₂ and water",
             commonErrors: ["Including CO — that's incomplete."],
             examinerNote: "B1 for (a).",
           },
@@ -647,7 +647,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Limited oxygen → CO or soot formed.", working: "CO/C", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** CO and/or soot",
+            finalAnswer: "**(d)** CO and/or soot",
             commonErrors: ["Listing CO₂ as product of incomplete combustion."],
             examinerNote: "B1 for (a).",
           },

@@ -41,7 +41,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "What happened after the story" },
             { id: "d", text: "What the writer secretly thinks" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Literal meaning", statement: "What the text states directly." }], steps: [{ reasoning: "Literal = stated on the page.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Information stated directly in the text" },
+          markscheme: { principles: [{ kind: "definition", name: "Literal meaning", statement: "What the text states directly." }], steps: [{ reasoning: "Literal = stated on the page.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Information stated directly in the text" },
         },
         {
           id: "oles-u1-lit-q2", difficulty: "core", totalMarks: 2,
@@ -116,7 +116,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "The answer is stated in the passage" },
             { id: "d", text: "The question is unanswerable" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Question wording", statement: "'According to the text' = find stated facts." }], steps: [{ reasoning: "This phrase tells you to locate information written in the passage.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The answer is stated in the passage" },
+          markscheme: { principles: [{ kind: "convention", name: "Question wording", statement: "'According to the text' = find stated facts." }], steps: [{ reasoning: "This phrase tells you to locate information written in the passage.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** The answer is stated in the passage" },
         },
         {
           id: "oles-u1-lit-q7", difficulty: "foundation", totalMarks: 2,
@@ -166,7 +166,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Summarise in one word" },
             { id: "d", text: "Give your opinion" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "Quoting", statement: "'Quote' demands exact words." }], steps: [{ reasoning: "Quoting questions require verbatim copying from the passage.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Copy the exact words" },
+          markscheme: { principles: [{ kind: "convention", name: "Quoting", statement: "'Quote' demands exact words." }], steps: [{ reasoning: "Quoting questions require verbatim copying from the passage.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Copy the exact words" },
         },
         {
           id: "oles-u1-lit-q12", difficulty: "core", totalMarks: 2,
@@ -247,7 +247,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Copy a sentence from the text" },
             { id: "d", text: "Translate the text" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Inference", statement: "Implied but not stated." }], steps: [{ reasoning: "Inference = reading between the lines.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Find what is implied but not stated" },
+          markscheme: { principles: [{ kind: "definition", name: "Inference", statement: "Implied but not stated." }], steps: [{ reasoning: "Inference = reading between the lines.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Find what is implied but not stated" },
         },
         {
           id: "oles-u1-inf-q2", difficulty: "core", totalMarks: 2,
@@ -311,7 +311,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "He is tired or exhausted" },
             { id: "d", text: "He is angry with someone" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Action clues", statement: "Actions suggest feelings or states." }], steps: [{ reasoning: "Wiping brow and sitting heavily suggest tiredness or exhaustion.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** He is tired or exhausted" },
+          markscheme: { principles: [{ kind: "skill", name: "Action clues", statement: "Actions suggest feelings or states." }], steps: [{ reasoning: "Wiping brow and sitting heavily suggest tiredness or exhaustion.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** He is tired or exhausted" },
         },
         {
           id: "oles-u1-inf-q6", difficulty: "core", totalMarks: 1,
@@ -342,7 +342,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "'The envelope was white.'" },
             { id: "d", text: "'Her hands trembled as she opened the envelope.'" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Evidence quality", statement: "Relevant clues beat unrelated details." }], steps: [{ reasoning: "Trembling hands directly suggest nervousness; the others are neutral details.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Trembling hands as she opened the envelope" },
+          markscheme: { principles: [{ kind: "skill", name: "Evidence quality", statement: "Relevant clues beat unrelated details." }], steps: [{ reasoning: "Trembling hands directly suggest nervousness; the others are neutral details.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Trembling hands as she opened the envelope" },
         },
         {
           id: "oles-u1-inf-q9", difficulty: "core", totalMarks: 3,
@@ -374,7 +374,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "A quotation" },
             { id: "d", text: "An inference" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Inference language", statement: "'It seems' signals implied meaning." }], steps: [{ reasoning: "'It seems' hedges an implied meaning — classic inference wording.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** An inference" },
+          markscheme: { principles: [{ kind: "definition", name: "Inference language", statement: "'It seems' signals implied meaning." }], steps: [{ reasoning: "'It seems' hedges an implied meaning — classic inference wording.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** An inference" },
         },
         {
           id: "oles-u1-inf-q12", difficulty: "core", totalMarks: 2,

@@ -263,7 +263,7 @@ export const lesson122: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** Unicode",
+            finalAnswer: "**(a)** Unicode",
           },
         },
         {
@@ -483,7 +483,7 @@ export const lesson122: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Quality and size increase",
+            finalAnswer: "**(c)** Quality and size increase",
           },
         },
         {
@@ -562,7 +562,7 @@ export const lesson122: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** 8 bits",
+            finalAnswer: "**(d)** 8 bits",
           },
         },
         {

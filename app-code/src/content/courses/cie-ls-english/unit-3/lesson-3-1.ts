@@ -80,7 +80,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The editorial's thesis is that start times should change to match sleep science.", working: "\\text{later starts}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Schools should start later to match teenage sleep cycles",
+            finalAnswer: "**(a)** Schools should start later to match teenage sleep cycles",
             commonErrors: ["Choosing (a) — the argument is about school schedules, not individual sleep habits."],
           },
         },
@@ -254,7 +254,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Every September, schools across the country drag their gates open at 8:30" },
               { id: "d", text: "Adolescent sleep cycles shift later, meaning most teenagers are biologically incapable of waking fully" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -263,7 +263,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "'Meaning' connects the scientific premise to the conclusion about waking.", working: "\\text{premise → conclusion}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** Adolescent sleep cycles shift later, meaning most teenagers are biologically incapable of waking fully",
+            finalAnswer: "**(d)** Adolescent sleep cycles shift later, meaning most teenagers are biologically incapable of waking fully",
             commonErrors: ["Choosing (d) — it is evidence/appeal, not a logical 'meaning' link."],
           },
         },
@@ -348,7 +348,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The AAP recommendation is authoritative, specific and checkable.", working: "\\text{AAP authority}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** 'The American Academy of Pediatrics has recommended...' — it is authoritative, specific and verifiable.",
+            finalAnswer: "**(c)** 'The American Academy of Pediatrics has recommended...' — it is authoritative, specific and verifiable.",
             commonErrors: ["Choosing (a) or (d) — those are emotional appeals, not evidence."],
           },
         },
@@ -750,7 +750,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "'Chronic' adds severity and permanence that 'tiredness' lacks — a loaded upgrade.", working: "\\text{'chronic' = severe}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Severity, permanence and medical concern",
+            finalAnswer: "**(a)** Severity, permanence and medical concern",
             commonErrors: ["Choosing (a) — 'chronic' is not a neutral synonym."],
           },
         },
@@ -768,7 +768,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Acknowledging that the difficulties are 'real'" },
               { id: "d", text: "Citing only studies that show later starts improve attendance and grades" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -777,7 +777,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The editorial cites only pro-later-start studies; no drawbacks are examined.", working: "\\text{only pro studies}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** Citing only studies that show later starts improve attendance and grades",
+            finalAnswer: "**(d)** Citing only studies that show later starts improve attendance and grades",
             commonErrors: ["Choosing (b) — acknowledging opponents is the opposite of selecting only supportive evidence."],
           },
         },

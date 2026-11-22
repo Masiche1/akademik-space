@@ -85,7 +85,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Foreshadowing", statement: "Early hints about later events create tension." }],
             steps: [{ reasoning: "The warning hints at Caesar's death, and his dismissal ('He is a dreamer') shows his pride.", evidence: "He is a dreamer; let us leave him", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** To foreshadow Caesar's death and show he ignores warnings.",
+            finalAnswer: "**(b)** To foreshadow Caesar's death and show he ignores warnings.",
             commonErrors: ["Choosing (b) because the soothsayer is dismissed."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Divine right", statement: "Rulers were seen as appointed by God." }],
             steps: [{ reasoning: "If rulers are chosen by God, killing one is a sin and threatens order.", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** The divine right of kings.",
+            finalAnswer: "**(d)** The divine right of kings.",
             commonErrors: ["Choosing (d); Elizabethans generally believed in omens."],
           },
         },

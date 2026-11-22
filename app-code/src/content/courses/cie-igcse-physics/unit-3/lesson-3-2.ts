@@ -60,7 +60,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "KE", statement: "KE = ½mv²." }],
             steps: [{ reasoning: "Recall.", working: "KE = \\frac{1}{2}mv^2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** ½mv²",
+            finalAnswer: "**(c)** ½mv²",
             commonErrors: ["Missing ½ factor."],
           },
         },
@@ -140,7 +140,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "GPE", statement: "GPE = mgh." }],
             steps: [{ reasoning: "Recall.", working: "GPE = mgh", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $mgh$",
+            finalAnswer: "**(a)** $mgh$",
             commonErrors: ["½mv² is kinetic energy."],
           },
         },
@@ -174,7 +174,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "KE", statement: "KE ∝ v²." }],
             steps: [{ reasoning: "v → 2v gives v² → 4v².", working: "\\frac{1}{2}m(2v)^2 = 4 \\times \\frac{1}{2}mv^2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** four times as large",
+            finalAnswer: "**(a)** four times as large",
             commonErrors: ["KE depends on v² not v."],
           },
         },
@@ -230,7 +230,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Energy", statement: "At top: v = 0 → KE = 0; all energy is GPE." }],
             steps: [{ reasoning: "v = 0 at top → KE = ½mv² = 0.", working: "v = 0 \\Rightarrow KE = 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** zero",
+            finalAnswer: "**(d)** zero",
             commonErrors: ["Forgetting velocity is momentarily zero at the top."],
           },
         },
@@ -265,11 +265,11 @@ export const lessonp32: Lesson = {
             { id: "b", text: "twice as great" },
             { id: "c", text: "the same" },
             { id: "d", text: "half as great" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "formula", name: "KE", statement: "KE ∝ v²." }],
             steps: [{ reasoning: "v doubled → v² quadrupled.", working: "(2v)^2 = 4v^2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** four times as great",
+            finalAnswer: "**(a)** four times as great",
             commonErrors: ["KE scales with v²."],
           },
         },
@@ -304,7 +304,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Energy unit", statement: "Joule (J)." }],
             steps: [{ reasoning: "Recall.", working: "1\\ \\text{J} = 1\\ \\text{N m}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** joule",
+            finalAnswer: "**(a)** joule",
             commonErrors: ["Watt is power."],
           },
         },
@@ -402,7 +402,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Energy conservation", statement: "GPE→KE on falling." }],
             steps: [{ reasoning: "Recall.", working: "GPE \\downarrow \\to KE \\uparrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Decreases, converting to KE",
+            finalAnswer: "**(c)** Decreases, converting to KE",
             commonErrors: ["Energy destroyed — it transfers."],
           },
         },
@@ -478,11 +478,11 @@ export const lessonp32: Lesson = {
             { id: "b", text: "is always decreasing" },
             { id: "c", text: "is always increasing" },
             { id: "d", text: "stays constant — it is only transferred" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "law", name: "Conservation", statement: "Energy is conserved — transfers only." }],
             steps: [{ reasoning: "Recall.", working: "E_{total} = \\text{constant}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** stays constant — it is only transferred",
+            finalAnswer: "**(d)** stays constant — it is only transferred",
             commonErrors: ["Energy is not 'used up'."],
           },
         },
@@ -512,11 +512,11 @@ export const lessonp32: Lesson = {
             { id: "b", text: "stays constant" },
             { id: "c", text: "decreases" },
             { id: "d", text: "becomes zero" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "principle", name: "Mechanical energy", statement: "KE + GPE = constant." }],
             steps: [{ reasoning: "Recall.", working: "KE + GPE = \\text{constant}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** stays constant",
+            finalAnswer: "**(b)** stays constant",
             commonErrors: ["Each energy changes but the sum is constant."],
           },
         },
@@ -572,7 +572,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Dissipation", statement: "Air resistance transfers energy to thermal/sound." }],
             steps: [{ reasoning: "Recall.", working: "E_{useful} < E_{total}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** some GPE is transferred to thermal energy and sound",
+            finalAnswer: "**(b)** some GPE is transferred to thermal energy and sound",
             commonErrors: ["Energy is conserved — some goes to heat/sound."],
           },
         },
@@ -611,7 +611,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Dissipation", statement: "Energy transfers to surroundings as heat/sound." }],
             steps: [{ reasoning: "Recall.", working: "E_{mech} \\downarrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** transferred to thermal energy and sound in the surroundings",
+            finalAnswer: "**(c)** transferred to thermal energy and sound in the surroundings",
             commonErrors: ["Energy is conserved, not destroyed."],
           },
         },
@@ -646,7 +646,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Energy transfer", statement: "Falling: GPE → KE." }],
             steps: [{ reasoning: "Recall.", working: "GPE \\downarrow \\to KE \\uparrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** GPE → KE",
+            finalAnswer: "**(a)** GPE → KE",
             commonErrors: ["Reversed — that's for an object thrown upward."],
           },
         },

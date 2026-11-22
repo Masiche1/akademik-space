@@ -95,7 +95,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Action hook", statement: "Starting in the middle of events creates immediate tension." }],
             steps: [{ reasoning: "A lift stopping and the lights going out is a dramatic event already underway.", evidence: "The lift stopped between the fourth and fifth floors", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** Opening 1.",
+            finalAnswer: "**(b)** Opening 1.",
             commonErrors: ["Choosing Opening 3, which is mystery rather than action."],
           },
         },

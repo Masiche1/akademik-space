@@ -114,7 +114,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** 10 N m",
+            finalAnswer: "**(d)** 10 N m",
             commonErrors: [
               "Dividing instead of multiplying — torque = force × moment arm.",
             ],
@@ -346,7 +346,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** newton metre",
+            finalAnswer: "**(a)** newton metre",
             commonErrors: [
               "Confusing N m with J — torque is not energy; N m and J are dimensionally equal but torque is not work.",
             ],
@@ -389,7 +389,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 2.5 N m",
+            finalAnswer: "**(c)** 2.5 N m",
             commonErrors: [
               "Ignoring $\\sin\\theta$ — torque is only maximal when force is perpendicular.",
             ],
@@ -412,7 +412,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "a single force through the pivot" },
               { id: "d", text: "two forces acting at the same point" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -436,7 +436,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** equal opposite forces, pure rotation",
+            finalAnswer: "**(a)** equal opposite forces, pure rotation",
             commonErrors: [
               "Thinking a couple produces translation — the net force cancels.",
             ],
@@ -479,7 +479,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $I = \\sum mr^2$",
+            finalAnswer: "**(a)** $I = \\sum mr^2$",
             commonErrors: [
               "Using $mr$ instead of $mr^2$ — distance enters squared.",
             ],
@@ -1325,7 +1325,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $L = mvr$",
+            finalAnswer: "**(c)** $L = mvr$",
             commonErrors: [
               "Using $I\\omega$ for a point mass — that requires a moment of inertia about the axis.",
             ],
@@ -1369,7 +1369,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $\\tau = dL/dt$",
+            finalAnswer: "**(a)** $\\tau = dL/dt$",
             commonErrors: [
               "Confusing $\\tau = dL/dt$ with $\\tau = I\\alpha$ — both are correct but the former is the more general form.",
             ],
@@ -1462,7 +1462,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** net external torque is zero",
+            finalAnswer: "**(c)** net external torque is zero",
             commonErrors: [
               "Thinking forces must be zero — only net TORQUE matters for angular momentum.",
             ],

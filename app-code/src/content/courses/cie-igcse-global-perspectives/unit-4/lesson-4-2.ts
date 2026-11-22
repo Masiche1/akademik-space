@@ -113,7 +113,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Resource wealth linked to poor outcomes",
+            finalAnswer: "**(d)** Resource wealth linked to poor outcomes",
             commonErrors: [
               "Saying resources directly cause war — the mechanism is institutional.",
             ],
@@ -475,7 +475,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Resource wealth can fund armed groups and elites.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Resource wealth → conflict/weak governance",
+            finalAnswer: "**(b)** Resource wealth → conflict/weak governance",
             commonErrors: ["Assuming resources automatically bring development."],
           },
         },
@@ -713,7 +713,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Asylum seeker = awaiting decision; refugee = recognised protection",
+              "**(b)** Asylum seeker = awaiting decision; refugee = recognised protection",
             commonErrors: ["Using the terms interchangeably."],
           },
         },
@@ -864,7 +864,7 @@ export const lesson42: Lesson = {
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
             finalAnswer:
-              "**(a)** Disease spreading across countries/continents",
+              "**(c)** Disease spreading across countries/continents",
             commonErrors: ["Confusing with epidemic."],
           },
         },
@@ -1090,7 +1090,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Push factors drive people out; war/persecution are classic examples.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** War and persecution",
+            finalAnswer: "**(c)** War and persecution",
             commonErrors: ["Confusing push factors with pull factors."],
           },
         },

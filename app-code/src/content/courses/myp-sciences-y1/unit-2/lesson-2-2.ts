@@ -60,7 +60,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Animals" },
               { id: "d", text: "Fungi" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -69,7 +69,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Mushrooms are fungi. They do not make their own food by photosynthesis, so they are not plants.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Fungi",
+            finalAnswer: "**(d)** Fungi",
             commonErrors: ["Choosing plants because mushrooms grow in soil and look like plants."],
             examinerNote: "B1 for fungi.",
           },
@@ -166,7 +166,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Dry scaly skin, hard-shelled eggs and cold-bloodedness describe reptiles.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Reptiles",
+            finalAnswer: "**(d)** Reptiles",
             commonErrors: ["Choosing birds, which have feathers and are warm-blooded.", "Choosing amphibians, which have moist skin and jelly-like eggs."],
             examinerNote: "B1 for reptiles.",
           },
@@ -193,7 +193,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Animals without a backbone are invertebrates; those with a backbone are vertebrates.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Invertebrate",
+            finalAnswer: "**(d)** Invertebrate",
             commonErrors: ["Choosing vertebrate, which means 'with a backbone'."],
             examinerNote: "B1 for invertebrate.",
           },
@@ -220,7 +220,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "The name 'dichotomous' means splitting into two, so each question has two possible answers.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Two",
+            finalAnswer: "**(c)** Two",
             commonErrors: ["Thinking more answers make a key more useful."],
             examinerNote: "B1 for two.",
           },
@@ -266,7 +266,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Has six legs" },
               { id: "d", text: "Has a backbone" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -275,7 +275,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "'Is large' is not a clear, measurable feature — different people would judge it differently.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Is large",
+            finalAnswer: "**(b)** Is large",
             commonErrors: ["Choosing a question that is observable; the unsuitability is subjectivity, not observation."],
             examinerNote: "B1 for 'is large'. Accept any subjective question oe.",
           },
@@ -497,7 +497,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Height can take any value in a range. The other features fall into clear categories.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Height",
+            finalAnswer: "**(c)** Height",
             commonErrors: ["Choosing blood group because it is measured in a laboratory; it still falls into clear categories (A, B, AB, O)."],
             examinerNote: "B1 for height.",
           },
@@ -617,7 +617,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Blood group" },
               { id: "d", text: "Height" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -626,7 +626,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Height can take any value in a range; blood group, tongue-rolling and earlobes fall into clear categories.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Height",
+            finalAnswer: "**(d)** Height",
             commonErrors: ["Choosing a feature with clear categories such as blood group."],
             examinerNote: "B1 for height (accept mass).",
           },
@@ -700,7 +700,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Small ears and a compact body mean a smaller surface area, so less heat is lost to the cold air.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To reduce heat loss and stay warm",
+            finalAnswer: "**(d)** To reduce heat loss and stay warm",
             commonErrors: ["Choosing 'lose heat faster', which describes hot-climate animals with large ears."],
             examinerNote: "B1 for (b).",
           },

@@ -64,7 +64,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "The president and vice president positions are distinct, so order matters: there are 5 choices for president and 4 remaining choices for vice president.", working: "5P_2=5\\cdot4=20", marks: 2, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $20$ assignments",
+            finalAnswer: "**(a)** $20$ assignments",
             commonErrors: ["Using $\\binom{5}{2}=10$ and overlooking that swapping the two officeholders makes a different assignment."],
           },
         },
@@ -186,7 +186,7 @@ export const lesson82: Lesson = {
               { reasoning: "The interval is $100\\pm15$, exactly one standard deviation below and above the mean.", working: "100-15=85,\\quad 100+15=115", marks: 1, markCode: "M" },
               { reasoning: "Apply the one-standard-deviation empirical-rule estimate.", working: "P(85\\le X\\le115)\\approx68\\%", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Approximately $68\\%$",
+            finalAnswer: "**(a)** Approximately $68\\%$",
             commonErrors: ["Selecting 95%, which corresponds to about two standard deviations from the mean."],
           },
         },

@@ -273,7 +273,7 @@ export const lesson143: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Blueprint vs instance",
+            finalAnswer: "**(b)** Blueprint vs instance",
           },
         },
         {
@@ -436,7 +436,7 @@ export const lesson143: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Same method, different behaviour",
+            finalAnswer: "**(d)** Same method, different behaviour",
           },
         },
         {
@@ -533,7 +533,7 @@ export const lesson143: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Function inside the class",
+            finalAnswer: "**(b)** Function inside the class",
           },
         },
         {
@@ -635,7 +635,7 @@ export const lesson143: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Creating an object from a class",
+            finalAnswer: "**(d)** Creating an object from a class",
           },
         },
       ],

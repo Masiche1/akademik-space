@@ -54,7 +54,7 @@ export const lesson52: Lesson = {
               { id: "c", text: "$30\\pi\\text{ cm}^3$" },
               { id: "d", text: "$90\\pi\\text{ cm}^3$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -65,7 +65,7 @@ export const lesson52: Lesson = {
               { reasoning: "Substitute the given radius and height into the cylinder volume formula.", working: "V=\\pi(3)^2(5)", marks: 1, markCode: "M" },
               { reasoning: "Square the radius and multiply by the height, retaining the exact factor of $\\pi$.", working: "V=45\\pi\\text{ cm}^3", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $45\\pi\\text{ cm}^3$.",
+            finalAnswer: "**(b)** $45\\pi\\text{ cm}^3$.",
             commonErrors: ["Using $3$ as the diameter and halving the radius.", "Forgetting to square the radius."],
           },
         },

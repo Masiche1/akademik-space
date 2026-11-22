@@ -211,7 +211,7 @@ export const lesson1022: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** One type of atom",
+            finalAnswer: "**(d)** One type of atom",
           },
         },
         {
@@ -275,7 +275,7 @@ export const lesson1022: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Carbon dioxide",
+            finalAnswer: "**(d)** Carbon dioxide",
           },
         },
         {
@@ -391,7 +391,7 @@ export const lesson1022: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Melting ice",
+            finalAnswer: "**(c)** Melting ice",
           },
         },
         {
@@ -491,7 +491,7 @@ export const lesson1022: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Liquid",
+            finalAnswer: "**(c)** Liquid",
           },
         },
         {

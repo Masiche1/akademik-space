@@ -69,7 +69,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Denotation = literal.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Literal dictionary meaning",
+            finalAnswer: "**(c)** Literal dictionary meaning",
             commonErrors: ["Confusing with connotation."],
           },
         },
@@ -100,7 +100,7 @@ export const lesson102: Lesson = {
               { reasoning: "Identify association.", marks: 1, markCode: "M" },
               { reasoning: "Answer: negative.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Negative",
+            finalAnswer: "**(d)** Negative",
             commonErrors: ["Missing negative connotation."],
           },
         },
@@ -229,7 +229,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Non-literal meaning.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Face difficulty bravely",
+            finalAnswer: "**(d)** Face difficulty bravely",
             commonErrors: ["Literal meaning."],
           },
         },

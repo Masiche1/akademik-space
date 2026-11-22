@@ -194,7 +194,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "sh" },
             { id: "c", text: "ck" },
             { id: "d", text: "ch" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Digraph", statement: "Two letters that make one sound." }],
             steps: [{ reasoning: "'ch' makes the /ch/ sound.", marks: 1, markCode: "AO1" }],
@@ -227,7 +227,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "d" },
             { id: "c", text: "p" },
             { id: "d", text: "b" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Letter sound", statement: "Each letter has a sound." }],
             steps: [{ reasoning: "The letter b makes the /b/ sound.", marks: 1, markCode: "AO1" }],
@@ -349,7 +349,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "The dog" },
             { id: "c", text: "Big red" },
             { id: "d", text: "The dog ran fast." },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "convention", name: "Sentence", statement: "A sentence needs a subject and a verb." }],
             steps: [{ reasoning: "The dog ran fast has a subject (dog) and verb (ran) and ends with a full stop.", marks: 1, markCode: "AO2" }],

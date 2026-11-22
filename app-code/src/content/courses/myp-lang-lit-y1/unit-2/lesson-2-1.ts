@@ -69,7 +69,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): only 'The cat slept on the mat.' makes a complete idea — the others are fragments.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** The cat slept on the mat.",
+            finalAnswer: "**(a)** The cat slept on the mat.",
           },
         },
         {
@@ -152,7 +152,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Complete sentence", statement: "A sentence must express a complete idea." }],
             steps: [{ reasoning: "Criterion D (Using language): only 'We ate pizza for dinner.' is complete — the others are fragments, (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** We ate pizza for dinner.",
+            finalAnswer: "**(d)** We ate pizza for dinner.",
           },
         },
         {
@@ -168,12 +168,12 @@ export const lesson21: Lesson = {
               { id: "c", text: "Question mark" },
               { id: "d", text: "Exclamation mark" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Ending marks", statement: "Strong feeling uses an exclamation mark." }],
             steps: [{ reasoning: "Criterion D (Using language): 'Look out!' shows urgent feeling — exclamation mark, (c).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(c)** Exclamation mark",
+            finalAnswer: "**(d)** Exclamation mark",
           },
         },
         {
@@ -261,7 +261,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Ending marks by type", statement: "The ending mark must match the sentence type and feeling." }],
             steps: [{ reasoning: "Criterion D (Using language): a plain question takes '?'; '!' would wrongly add emotion — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** '!' wrongly suggests shouting or strong feeling",
+            finalAnswer: "**(c)** '!' wrongly suggests shouting or strong feeling",
           },
         },
         {
@@ -343,7 +343,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Commands", statement: "Commands tell someone to do something." }],
             steps: [{ reasoning: "Criterion D (Using language): 'Put on your shoes.' orders someone to act — a command, (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** Put on your shoes.",
+            finalAnswer: "**(a)** Put on your shoes.",
           },
         },
         {
@@ -413,7 +413,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "I like pizza pasta and, salad." },
               { id: "d", text: "I, like pizza pasta and salad." },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -422,7 +422,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): commas go between 'pizza' and 'pasta'; the 'and' before 'salad' needs no comma — (c).", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** I like pizza, pasta and salad.",
+            finalAnswer: "**(b)** I like pizza, pasta and salad.",
           },
         },
         {
@@ -504,7 +504,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Comma in lists", statement: "Commas separate list items." }],
             steps: [{ reasoning: "Criterion D (Using language): commas go between 'hat' and 'sunscreen'; none needed before 'and' — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** I packed a hat, sunscreen and a water bottle.",
+            finalAnswer: "**(a)** I packed a hat, sunscreen and a water bottle.",
           },
         },
         {
@@ -520,12 +520,12 @@ export const lesson21: Lesson = {
               { id: "c", text: "calls" },
               { id: "d", text: "friend" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Capital letters", statement: "Days of the week are capitalized." }],
             steps: [{ reasoning: "Criterion D (Using language): 'Monday' is a day name — it takes a capital, (c).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(c)** monday → Monday",
+            finalAnswer: "**(b)** monday → Monday",
           },
         },
         {
@@ -546,7 +546,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Comma after opener", statement: "A comma follows an opening time phrase." }],
             steps: [{ reasoning: "Criterion D (Using language): 'On Sunday morning' is the opener — comma after it, (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** On Sunday morning, we went to the beach.",
+            finalAnswer: "**(a)** On Sunday morning, we went to the beach.",
           },
         },
         {
@@ -613,7 +613,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Capital letters", statement: "Capitalize sentence starts, names and places only." }],
             steps: [{ reasoning: "Criterion D (Using language): 'My', 'Sam' and 'London' need capitals; 'friend' and 'lives' do not — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** My friend Sam lives in London.",
+            finalAnswer: "**(d)** My friend Sam lives in London.",
           },
         },
         {
@@ -673,7 +673,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Capitals", statement: "The pronoun 'I' and months are capitalized." }],
             steps: [{ reasoning: "Criterion D (Using language): 'I' and 'June' need capitals — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** I and June",
+            finalAnswer: "**(a)** I and June",
           },
         },
         {
@@ -694,7 +694,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Commas and capitals", statement: "Opener takes a comma; list items are separated; 'I' is capitalized." }],
             steps: [{ reasoning: "Criterion D (Using language): (b) has the opener comma, list commas, capital 'I' and a full stop.", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** For my birthday, I got a bike, a helmet and a bell.",
+            finalAnswer: "**(d)** For my birthday, I got a bike, a helmet and a bell.",
           },
         },
         {

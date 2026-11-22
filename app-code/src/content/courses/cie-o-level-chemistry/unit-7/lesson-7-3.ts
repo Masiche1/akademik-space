@@ -57,7 +57,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ammonia", statement: "Basic — turns litmus blue." }],
             steps: [{ reasoning: "Recall.", working: "\\text{blue}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Blue",
+            finalAnswer: "**(d)** Blue",
             commonErrors: ["Ammonia is basic, not acidic."],
           },
         },
@@ -137,7 +137,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ammonium salts", statement: "Acidic in solution." }],
             steps: [{ reasoning: "Recall.", working: "\\text{acidic}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** acidic",
+            finalAnswer: "**(d)** acidic",
             commonErrors: ["Cl⁻ is neutral — it is NH₄⁺ that makes it acidic."],
           },
         },
@@ -236,7 +236,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Ammonium nitrate", statement: "NH₄⁺ + NO₃⁻." }],
             steps: [{ reasoning: "Recall.", working: "NH_4NO_3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** NH₄NO₃",
+            finalAnswer: "**(a)** NH₄NO₃",
             commonErrors: ["Missing the charge balance — NH₄⁺ needs NO₃⁻."],
           },
         },
@@ -272,7 +272,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "NH₃ + H₂O", statement: "NH₃ + H₂O ⇌ NH₄⁺ + OH⁻." }],
             steps: [{ reasoning: "Recall.", working: "NH_4^+ + OH^-", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** NH₄⁺ and OH⁻ ions",
+            finalAnswer: "**(d)** NH₄⁺ and OH⁻ ions",
             commonErrors: ["Writing NH₄OH as a stable molecule — it ionises."],
           },
         },
@@ -377,7 +377,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Amphoteric", statement: "Both acid and base." }],
             steps: [{ reasoning: "Recall.", working: "\\text{acid + base}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Reacts as both acid and base",
+            finalAnswer: "**(d)** Reacts as both acid and base",
             commonErrors: ["Confusing with basic oxide."],
           },
         },
@@ -457,7 +457,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Amphoteric", statement: "Reacts as acid and base." }],
             steps: [{ reasoning: "Recall.", working: "\\text{ZnO amphoteric}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** ZnO",
+            finalAnswer: "**(c)** ZnO",
             commonErrors: ["Na₂O is basic only; CO₂ is acidic only."],
           },
         },
@@ -475,7 +475,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Aluminate", statement: "Al(OH)₃ + NaOH → NaAlO₂." }],
             steps: [{ reasoning: "Recall.", working: "\\text{NaAlO}_2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** NaAlO₂",
+            finalAnswer: "**(c)** NaAlO₂",
             commonErrors: ["Aluminium metal is not produced."],
           },
         },
@@ -519,11 +519,11 @@ export const lesson173: Lesson = {
             { id: "b", text: "both acids and excess alkalis" },
             { id: "c", text: "only alkalis" },
             { id: "d", text: "only water" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Amphoteric", statement: "Reacts with acids AND bases." }],
             steps: [{ reasoning: "Recall.", working: "\\text{acid + base}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** both acids and excess alkalis",
+            finalAnswer: "**(b)** both acids and excess alkalis",
             commonErrors: ["Saying only one — amphoteric means both."],
           },
         },
@@ -552,11 +552,11 @@ export const lesson173: Lesson = {
             { id: "b", text: "only bases" },
             { id: "c", text: "neither acids nor bases" },
             { id: "d", text: "only acids" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Amphoteric", statement: "Both acid and base." }],
             steps: [{ reasoning: "Recall.", working: "\\text{both}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** both acids and bases",
+            finalAnswer: "**(a)** both acids and bases",
             commonErrors: ["Confusing with basic oxide (acid only)."],
           },
         },
@@ -592,7 +592,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Basic oxide", statement: "CaO reacts only with acid." }],
             steps: [{ reasoning: "Recall.", working: "\\text{CaO basic}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** CaO",
+            finalAnswer: "**(a)** CaO",
             commonErrors: ["Al₂O₃, ZnO and PbO are amphoteric."],
           },
         },

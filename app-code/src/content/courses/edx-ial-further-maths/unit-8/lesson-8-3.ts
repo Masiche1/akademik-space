@@ -60,7 +60,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Sample mean", statement: "$\\text{Var}(\\bar X)=\\frac{\\sigma^2}{n}$." }],
             steps: [{ reasoning: "Standard result.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\frac{\\sigma^2}{n}$",
+            finalAnswer: "**(d)** $\\frac{\\sigma^2}{n}$",
           },
         },
         {
@@ -176,7 +176,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "z-values", statement: "$95\\%\\to1.96$." }],
             steps: [{ reasoning: "Standard value.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $1.96$",
+            finalAnswer: "**(c)** $1.96$",
           },
         },
         {

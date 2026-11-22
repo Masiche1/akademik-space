@@ -53,7 +53,7 @@ export const lesson114: Lesson = {
             { id: "b", text: "Neither is impossible" },
             { id: "c", text: "Rolling a 5" },
             { id: "d", text: "Both are impossible" },
-          ], correctChoiceIb: "d" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Impossible", statement: "Cannot happen." }],
             steps: [{ reasoning: "5 is on a dice; tails is a coin outcome — both possible.", marks: 1, markCode: "M" }],
@@ -154,7 +154,7 @@ export const lesson114: Lesson = {
             { id: "b", text: "certain" },
             { id: "c", text: "even chance" },
             { id: "d", text: "impossible" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "skill", name: "Chance reasoning", statement: "Fewer favourable outcomes = less likely." }],
             steps: [{ reasoning: "Only 1 of 4 sections is red, so red is unlikely.", marks: 1, markCode: "A" }],
@@ -270,7 +270,7 @@ export const lesson114: Lesson = {
             { id: "b", text: "Rolling a 4 on a dice" },
             { id: "c", text: "The spinner landing on blue" },
             { id: "d", text: "Rolling an 8 on a normal dice" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Impossible", statement: "Cannot happen." }],
             steps: [{ reasoning: "A normal dice only has faces 1-6, so 8 cannot be rolled.", marks: 1, markCode: "A" }],

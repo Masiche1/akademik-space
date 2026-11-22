@@ -70,7 +70,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'however' marks contrast.", working: "contrast", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** 'However'",
+            finalAnswer: "**(a)** 'However'",
             commonErrors: ["Confusing addition and contrast connectors."],
             examinerNote: "D1 for (b).",
           },
@@ -186,7 +186,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'however' marks contrast.", working: "contrast", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** however",
+            finalAnswer: "**(a)** however",
             commonErrors: ["Choosing additive 'furthermore'."],
             examinerNote: "D1 for (b).",
           },
@@ -213,7 +213,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'this finding' refers back, creating cohesion.", working: "reference", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** The demonstrative 'this finding' referring back to earlier evidence",
+            finalAnswer: "**(d)** The demonstrative 'this finding' referring back to earlier evidence",
             commonErrors: ["Confusing repetition with reference."],
             examinerNote: "D1 for (b).",
           },
@@ -326,7 +326,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'This' could mean the analysis or the responses.", working: "vague reference", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** The referent of 'This' is vague",
+            finalAnswer: "**(a)** The referent of 'This' is vague",
             commonErrors: ["Missing the unclear reference."],
             examinerNote: "D1 for (b).",
           },
@@ -438,7 +438,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'However...not equally available' signals the equity shift.", working: "bridge", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** However, these benefits are not equally available to all students.",
+            finalAnswer: "**(d)** However, these benefits are not equally available to all students.",
             commonErrors: ["Choosing abrupt topic change."],
             examinerNote: "D1 for (a).",
           },
@@ -508,7 +508,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — variation + clear reference keeps cohesion and readability.", working: "varied reference", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** It maintains cohesion while avoiding monotonous repetition",
+            finalAnswer: "**(c)** It maintains cohesion while avoiding monotonous repetition",
             commonErrors: ["Thinking repetition is always clearer."],
             examinerNote: "D1 for (b).",
           },
@@ -566,7 +566,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'conduct research' is correct collocation.", working: "collocation", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** 'conduct research'",
+            finalAnswer: "**(a)** 'conduct research'",
             commonErrors: ["Literal translation or wrong verb choice."],
             examinerNote: "D1 for (b).",
           },
@@ -673,7 +673,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'conduct research' is the standard collocation.", working: "conduct", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** conduct research",
+            finalAnswer: "**(c)** conduct research",
             commonErrors: ["Using literal translations like 'make research'."],
             examinerNote: "D1 for (b).",
           },
@@ -700,7 +700,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'prove' is the stronger claim.", working: "prove", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** prove",
+            finalAnswer: "**(d)** prove",
             commonErrors: ["Thinking 'suggest' is weaker than it is."],
             examinerNote: "D1 for (b).",
           },
@@ -733,7 +733,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'made research' is unnatural; should be 'conducted research'.", working: "unnatural", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** S2",
+            finalAnswer: "**(d)** S2",
             commonErrors: ["Missing 'make research'."],
             examinerNote: "D1 for (b).",
           },
@@ -804,7 +804,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "prove" },
               { id: "d", text: "guarantee" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -813,7 +813,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — association without causation = 'suggest'.", working: "suggest", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** suggest",
+            finalAnswer: "**(a)** suggest",
             commonErrors: ["Using 'prove' for correlational data."],
             examinerNote: "D1 for (c).",
           },
@@ -925,7 +925,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'have an impact' is the natural pairing.", working: "have", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** have an impact",
+            finalAnswer: "**(d)** have an impact",
             commonErrors: ["Choosing literal 'make an impact'."],
             examinerNote: "D1 for (b).",
           },

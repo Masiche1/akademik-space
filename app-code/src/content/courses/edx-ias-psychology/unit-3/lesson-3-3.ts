@@ -83,7 +83,7 @@ export const lesson33: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Responsive",
+            finalAnswer: "**(c)** Responsive",
             commonErrors: ["Strict confused."],
           },
         },

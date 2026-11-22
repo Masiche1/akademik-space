@@ -117,7 +117,7 @@ export const lesson92: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. She was nervous.",
+            finalAnswer: "**(a)**. She was nervous.",
             commonErrors: [
               "Choosing (a) — shaking can be excitement but context (frozen, first performance) suggests fear.",
             ],
@@ -334,7 +334,7 @@ export const lesson92: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Claim + evidence + explanation.",
+            finalAnswer: "**(c)**. Claim + evidence + explanation.",
             commonErrors: ["Thinking more quotes = better — need explanation."],
           },
         },

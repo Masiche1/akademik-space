@@ -43,7 +43,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "The whole world" },
             { id: "d", text: "Only one computer" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "LAN", statement: "Local area." }], steps: [{ reasoning: "LAN = local.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Small local area" },
+          markscheme: { principles: [{ kind: "definition", name: "LAN", statement: "Local area." }], steps: [{ reasoning: "LAN = local.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Small local area" },
         },
         {
           id: "olict-u3-wn-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "One computer" },
             { id: "d", text: "Only a server room" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "WAN", statement: "Wide area." }], steps: [{ reasoning: "WAN = wide geographical area.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A large geographical area" },
+          markscheme: { principles: [{ kind: "definition", name: "WAN", statement: "Wide area." }], steps: [{ reasoning: "WAN = wide geographical area.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** A large geographical area" },
         },
         {
           id: "olict-u3-wn-q6", difficulty: "core", totalMarks: 1,
@@ -109,7 +109,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Provides services to clients" },
             { id: "d", text: "Prints documents" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Server", statement: "Provides services." }], steps: [{ reasoning: "Server provides services to clients.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Provides services to clients" },
+          markscheme: { principles: [{ kind: "definition", name: "Server", statement: "Provides services." }], steps: [{ reasoning: "Server provides services to clients.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Provides services to clients" },
         },
         {
           id: "olict-u3-wn-q7", difficulty: "foundation", totalMarks: 2,
@@ -169,7 +169,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Cannot share files" },
             { id: "d", text: "Share resources directly without a central server" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Peer-to-peer", statement: "Direct sharing, no server." }], steps: [{ reasoning: "P2P shares directly between equals.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Share resources directly without a central server" },
+          markscheme: { principles: [{ kind: "principle", name: "Peer-to-peer", statement: "Direct sharing, no server." }], steps: [{ reasoning: "P2P shares directly between equals.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Share resources directly without a central server" },
         },
         {
           id: "olict-u3-wn-q13", difficulty: "challenge", totalMarks: 3,
@@ -189,8 +189,8 @@ export const lesson31: Lesson = {
             { id: "b", text: "LAN" },
             { id: "c", text: "USB" },
             { id: "d", text: "MAN" },
-          ], correctChoiceIc: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Network types", statement: "LAN, WAN, MAN." }], steps: [{ reasoning: "USB is a connection type, not a network type.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** USB" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "definition", name: "Network types", statement: "LAN, WAN, MAN." }], steps: [{ reasoning: "USB is a connection type, not a network type.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** USB" },
         },
         {
           id: "olict-u3-wn-q15", difficulty: "challenge", totalMarks: 4,
@@ -256,7 +256,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Printing is free" },
             { id: "d", text: "No paper needed" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Resource sharing", statement: "Shared devices." }], steps: [{ reasoning: "All can use it.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** All can print" },
+          markscheme: { principles: [{ kind: "principle", name: "Resource sharing", statement: "Shared devices." }], steps: [{ reasoning: "All can use it.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** All can print" },
         },
         {
           id: "olict-u3-un-q2", difficulty: "core", totalMarks: 2,
@@ -311,7 +311,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Store documents centrally for all users" },
             { id: "d", text: "Connect to the internet only" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Resource sharing", statement: "Central file storage." }], steps: [{ reasoning: "File server stores shared documents.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Store documents centrally for all users" },
+          markscheme: { principles: [{ kind: "principle", name: "Resource sharing", statement: "Central file storage." }], steps: [{ reasoning: "File server stores shared documents.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Store documents centrally for all users" },
         },
         {
           id: "olict-u3-un-q6", difficulty: "core", totalMarks: 1,
@@ -322,7 +322,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Printing reports" },
             { id: "d", text: "Holding meetings without travel" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Communication", statement: "Video calls for meetings." }], steps: [{ reasoning: "Video conferencing enables remote meetings.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Holding meetings without travel" },
+          markscheme: { principles: [{ kind: "principle", name: "Communication", statement: "Video calls for meetings." }], steps: [{ reasoning: "Video conferencing enables remote meetings.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Holding meetings without travel" },
         },
         {
           id: "olict-u3-un-q7", difficulty: "foundation", totalMarks: 2,
@@ -371,7 +371,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Input use" },
             { id: "d", text: "Printing use" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Network uses", statement: "Communication category." }], steps: [{ reasoning: "Messaging is communication.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Communication use" },
+          markscheme: { principles: [{ kind: "principle", name: "Network uses", statement: "Communication category." }], steps: [{ reasoning: "Messaging is communication.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Communication use" },
         },
         {
           id: "olict-u3-un-q12", difficulty: "core", totalMarks: 2,
@@ -400,7 +400,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Shared calendar for meetings" },
             { id: "d", text: "Printing documents" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Network uses", statement: "Communication category." }], steps: [{ reasoning: "Shared calendar coordinates communication.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Shared calendar for meetings" },
+          markscheme: { principles: [{ kind: "principle", name: "Network uses", statement: "Communication category." }], steps: [{ reasoning: "Shared calendar coordinates communication.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Shared calendar for meetings" },
         },
         {
           id: "olict-u3-un-q15", difficulty: "challenge", totalMarks: 4,

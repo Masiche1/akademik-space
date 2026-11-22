@@ -203,7 +203,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Food and batteries store chemical energy.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Chemical",
+            finalAnswer: "**(a)** Chemical",
             commonErrors: ["Choosing thermal, which is for hot objects."],
             examinerNote: "B1 for chemical.",
           },
@@ -259,7 +259,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Energy only exists as heat" },
               { id: "d", text: "Energy can be created by machines" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -268,7 +268,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Energy is conserved: it can only be transferred between stores, never created or destroyed.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Energy is transferred between stores; it is never created or destroyed",
+            finalAnswer: "**(b)** Energy is transferred between stores; it is never created or destroyed",
             commonErrors: ["Thinking friction destroys energy; it transfers it to the thermal store."],
             examinerNote: "B1 for (c).",
           },
@@ -603,7 +603,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Oil" },
               { id: "d", text: "Natural gas" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -612,7 +612,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Wind is replaced naturally and does not run out; coal, gas and oil are fossil fuels and non-renewable.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Wind",
+            finalAnswer: "**(b)** Wind",
             commonErrors: ["Choosing natural gas, which is non-renewable."],
             examinerNote: "B1 for wind (accept solar, hydroelectric, tidal, geothermal, biomass).",
           },
@@ -639,7 +639,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Coal is a fossil fuel and non-renewable; solar, tidal and geothermal are renewable.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Coal",
+            finalAnswer: "**(d)** Coal",
             commonErrors: ["Choosing solar or tidal, which are renewable."],
             examinerNote: "B1 for coal (accept oil, natural gas, nuclear fuel).",
           },
@@ -704,7 +704,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Building the dam floods the valley, destroying habitats and possibly forcing people to move.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Flooding the valley destroys habitats and can displace people",
+            finalAnswer: "**(c)** Flooding the valley destroys habitats and can displace people",
             commonErrors: ["Choosing 'produces CO2' — hydroelectric produces little or none during use."],
             examinerNote: "B1 for (b).",
           },

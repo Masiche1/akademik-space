@@ -130,7 +130,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Hydrogen",
+            finalAnswer: "**(b)** Hydrogen",
             commonErrors: [
               "Choosing the reactant with the larger amount of moles rather than the smaller amount relative to the required ratio.",
               "Comparing masses instead of moles.",
@@ -188,7 +188,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $2.4$ dm$^3$",
+            finalAnswer: "**(a)** $2.4$ dm$^3$",
             commonErrors: [
               "Doubling the volume because of the coefficient $2$ in front of HCl (the ratio that matters is Mg to $\\mathrm{H}_2$).",
               "Using $22.4$ dm$^3$ mol$^{-1}$ (the value at s.t.p., not r.t.p.).",
@@ -420,7 +420,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Oxygen",
+            finalAnswer: "**(c)** Oxygen",
             commonErrors: [
               "Choosing the reactant with the larger amount of moles rather than the smaller amount relative to the required ratio.",
               "Assuming equal mole amounts mean both reactants are exactly stoichiometric.",
@@ -467,7 +467,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $0.20$ mol",
+            finalAnswer: "**(a)** $0.20$ mol",
             commonErrors: [
               "Applying the $1:2$ carbonate-to-acid ratio to the product instead of the acid.",
               "Doubling the amount because there are two product molecules besides water.",
@@ -527,7 +527,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $17.8$ g",
+            finalAnswer: "**(c)** $17.8$ g",
             commonErrors: [
               "Using aluminium as limiting and obtaining $26.7$ g.",
               "Using $M_r(\\mathrm{Cl}_2) = 35.5$ instead of $71.0$.",
@@ -1096,7 +1096,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $0.500$ mol",
+            finalAnswer: "**(a)** $0.500$ mol",
             commonErrors: ["Dividing by concentration instead of multiplying."],
           },
         },
@@ -1310,7 +1310,7 @@ export const lesson41: Lesson = {
                 markCode: "R",
               },
             ],
-            finalAnswer: "**(b)** $80.0\\%$",
+            finalAnswer: "**(a)** $80.0\\%$",
             commonErrors: [
               "Inverting the ratio to obtain $125\\%$.",
               "Subtracting the masses to obtain $5.00$ g or $20\\%$.",
@@ -1343,7 +1343,7 @@ export const lesson41: Lesson = {
                 text: "$\\mathrm{CH}_4 + \\mathrm{Cl}_2 \\rightarrow \\mathrm{CH}_3\\mathrm{Cl} + \\mathrm{HCl}$",
               },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1393,7 +1393,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** $\\mathrm{C}_2\\mathrm{H}_4 + \\mathrm{H}_2\\mathrm{O} \\rightarrow \\mathrm{C}_2\\mathrm{H}_5\\mathrm{OH}$",
+              "**(b)** $\\mathrm{C}_2\\mathrm{H}_4 + \\mathrm{H}_2\\mathrm{O} \\rightarrow \\mathrm{C}_2\\mathrm{H}_5\\mathrm{OH}$",
             commonErrors: [
               "Confusing atom economy with percentage yield — it cannot be measured experimentally.",
             ],
@@ -1553,7 +1553,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $75.0\\%$",
+            finalAnswer: "**(a)** $75.0\\%$",
             commonErrors: ["Inverting the ratio to obtain $133\\%$."],
           },
         },
@@ -1613,7 +1613,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** $\\mathrm{H}_2 + \\mathrm{Cl}_2 \\rightarrow 2\\mathrm{HCl}$",
+              "**(a)** $\\mathrm{H}_2 + \\mathrm{Cl}_2 \\rightarrow 2\\mathrm{HCl}$",
             commonErrors: [
               "Choosing a reaction with a high percentage yield rather than checking whether a by-product forms.",
             ],
@@ -1664,7 +1664,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** $56.0\\%$",
+            finalAnswer: "**(c)** $56.0\\%$",
             commonErrors: [
               "Using the mass of $\\mathrm{CO}_2$ as the desired product.",
               "Adding product masses in the denominator instead of using only reactants.",
@@ -1850,7 +1850,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** The two quantities measure different things",
+            finalAnswer: "**(a)** The two quantities measure different things",
             commonErrors: [
               "Believing atom economy is measured from the actual yield.",
               "Thinking atom economy can exceed $100\\%$.",
@@ -2096,7 +2096,7 @@ export const lesson41: Lesson = {
               },
               { id: "d", text: "Using a catalyst" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2136,7 +2136,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(d)** Allowing complete reaction and minimising purification losses",
+              "**(c)** Allowing complete reaction and minimising purification losses",
             commonErrors: [
               "Confusing percentage yield with atom economy — changing the equation changes AE.",
             ],

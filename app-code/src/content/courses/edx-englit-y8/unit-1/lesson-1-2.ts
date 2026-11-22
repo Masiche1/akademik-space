@@ -108,7 +108,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Alliteration", statement: "Repeated sounds at the start of words, here the 'sl' blend." }],
             steps: [{ reasoning: "'Slates', 'slip', 'slither' and 'slanting' all begin with the same sibilant blend.", evidence: "Slates slip and slither", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(b)** The 'sl' sound at the start of words.",
+            finalAnswer: "**(a)** The 'sl' sound at the start of words.",
             commonErrors: ["Choosing 'l' alone: it appears, but the repeated pattern begins with 's' plus 'l'."],
           },
         },
@@ -235,7 +235,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Sonnet", statement: "A sonnet has 14 lines." }],
             steps: [{ reasoning: "The poem is a sonnet, so it has 14 lines, as the line numbers show.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** 14.",
+            finalAnswer: "**(d)** 14.",
             commonErrors: ["Counting stanzas or rhyming pairs instead of lines."],
           },
         },

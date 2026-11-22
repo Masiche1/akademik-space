@@ -70,7 +70,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The multiplier for a 25% increase is 1.25.", working: "80\\times1.25=100", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $100$",
+            finalAnswer: "**(d)** $100$",
             commonErrors: ["Adding 25 to get 105.", "Giving only the increase, 20.", "Adding 5 to get 85."],
             examinerNote: "B1 for choice (b).",
           },
@@ -177,7 +177,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The multiplier for 15% is 1.15, and $15\\%$ of 60 is 9.", working: "60\\times1.15=69", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $69$",
+            finalAnswer: "**(b)** $69$",
             commonErrors: ["Adding 15 to get 75.", "Giving only the increase, 9."],
             examinerNote: "B1 for choice (a).",
           },
@@ -260,7 +260,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "$1.12$" },
               { id: "d", text: "$12$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -269,7 +269,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "A 12% decrease keeps 88% of the amount.", working: "1-\\frac{12}{100}=0.88", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $0.88$",
+            finalAnswer: "**(a)** $0.88$",
             commonErrors: ["Using $1+\\frac{12}{100}=1.12$, the multiplier for an increase.", "Using 0.12, which is the fraction decreased rather than the fraction remaining."],
             examinerNote: "B1 for choice (c).",
           },
@@ -296,7 +296,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "A 25% discount leaves 75% of the price.", working: "1-\\frac{25}{100}=0.75", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $0.75$",
+            finalAnswer: "**(a)** $0.75$",
             commonErrors: ["Using the increase multiplier 1.25.", "Using 0.25, which would remove 75% of the price."],
             examinerNote: "B1 for choice (b).",
           },
@@ -363,7 +363,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Start with 100: $100\\times1.5=150$, then $150\\times0.5=75$, which is less than 100.", working: "100\\times1.5\\times0.5=75", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Less than the original",
+            finalAnswer: "**(a)** Less than the original",
             commonErrors: ["Assuming +50% and -50% cancel, giving answer (a)."],
             examinerNote: "B1 for choice (b).",
           },
@@ -700,7 +700,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Profit is 10 euros; divide by the cost price 40.", working: "\\frac{10}{40}=0.25=25\\%", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $25\\%$",
+            finalAnswer: "**(c)** $25\\%$",
             commonErrors: ["Dividing the profit by the selling price, giving 20%.", "Giving the profit, 10 euros."],
             examinerNote: "B1 for choice (b).",
           },
@@ -727,7 +727,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The multiplier is 1.1, and $10\\%$ of 60 is 6.", working: "60\\times1.1=66", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 66 euros",
+            finalAnswer: "**(c)** 66 euros",
             commonErrors: ["Adding 10 euros instead of 10% (giving 70).", "Subtracting the tax."],
             examinerNote: "B1 for choice (a).",
           },
@@ -795,7 +795,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The loss is 60 euros; divide by the cost price 600.", working: "\\frac{60}{600}=0.1=10\\%", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $10\\%$",
+            finalAnswer: "**(b)** $10\\%$",
             commonErrors: ["Dividing by the selling price 540, giving 11.1% (close to b).", "Giving the loss 60 euros."],
             examinerNote: "B1 for choice (a).",
           },

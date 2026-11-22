@@ -315,7 +315,7 @@ export const lesson113: Lesson = {
               { reasoning: "Variables can store text (strings) as well as numbers.", marks: 1, markCode: "M" },
               { reasoning: "e.g. name = 'Sam' stores text.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Yes — e.g. name = 'Sam'",
+            finalAnswer: "**(d)** Yes — e.g. name = 'Sam'",
           },
         },
         {

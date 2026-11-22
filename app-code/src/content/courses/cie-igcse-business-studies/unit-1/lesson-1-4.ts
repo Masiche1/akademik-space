@@ -285,7 +285,7 @@ export const lesson254: Lesson = {
               { id: "c", text: "Hiring more staff organically" },
               { id: "d", text: "Reinvesting profits in a new product" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

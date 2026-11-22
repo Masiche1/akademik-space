@@ -84,7 +84,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "23 + 14 = 30 + 7 = 37.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 37",
+            finalAnswer: "**(d)** 37",
             commonErrors: [
               "Adding digits separately: 2+1=3, 3+4=7 → 37 is right, but check method.",
             ],
@@ -308,7 +308,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "95 + 5 = 100, +3 = 103.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 103",
+            finalAnswer: "**(d)** 103",
             commonErrors: ["Writing 913 — not crossing the hundred correctly."],
           },
         },

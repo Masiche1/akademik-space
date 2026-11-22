@@ -120,7 +120,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Anecdotal evidence — one case doesn't prove a general rule.",
+              "**(a)**. Anecdotal evidence — one case doesn't prove a general rule.",
             commonErrors: [
               "Choosing (d) — emotion isn't the issue; evidence quality is.",
             ],

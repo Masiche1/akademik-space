@@ -41,7 +41,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Writing the longest answer possible" },
             { id: "d", text: "Ignoring the bullet points" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Task fulfilment", statement: "All required points covered." }], steps: [{ reasoning: "Every required content point must appear.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Covering every required point" },
+          markscheme: { principles: [{ kind: "definition", name: "Task fulfilment", statement: "All required points covered." }], steps: [{ reasoning: "Every required content point must appear.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Covering every required point" },
         },
         {
           id: "oles-u3-ff-q2", difficulty: "core", totalMarks: 2,
@@ -105,7 +105,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "The word limit" },
             { id: "d", text: "A required content point worth a mark" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Content points", statement: "Each bullet is a mark." }], steps: [{ reasoning: "Bullets list what must be included.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** A required content point" },
+          markscheme: { principles: [{ kind: "skill", name: "Content points", statement: "Each bullet is a mark." }], steps: [{ reasoning: "Bullets list what must be included.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** A required content point" },
         },
         {
           id: "oles-u3-ff-q6", difficulty: "core", totalMarks: 1,
@@ -131,7 +131,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "The answer is over the limit and at risk" },
             { id: "d", text: "The answer is fine" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Word count", statement: "Stay inside the limit." }], steps: [{ reasoning: "150 exceeds 120 — marks are at risk.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Over the limit and at risk" },
+          markscheme: { principles: [{ kind: "skill", name: "Word count", statement: "Stay inside the limit." }], steps: [{ reasoning: "150 exceeds 120 — marks are at risk.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Over the limit and at risk" },
         },
         {
           id: "oles-u3-ff-q9", difficulty: "challenge", totalMarks: 3,
@@ -167,7 +167,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Only if spelling is perfect" },
             { id: "d", text: "Never" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Task fulfilment", statement: "Content marks are independent." }], steps: [{ reasoning: "Covering points earns marks regardless of style.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Separately from language quality" },
+          markscheme: { principles: [{ kind: "skill", name: "Task fulfilment", statement: "Content marks are independent." }], steps: [{ reasoning: "Covering points earns marks regardless of style.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Separately from language quality" },
         },
         {
           id: "oles-u3-ff-q12", difficulty: "core", totalMarks: 1,
@@ -184,7 +184,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "A better score" },
             { id: "d", text: "The required length" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Word count", statement: "Stay near the limit." }], steps: [{ reasoning: "Double the limit suggests padding and lost focus.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Padding or unfocused writing" },
+          markscheme: { principles: [{ kind: "skill", name: "Word count", statement: "Stay near the limit." }], steps: [{ reasoning: "Double the limit suggests padding and lost focus.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Padding or unfocused writing" },
         },
         {
           id: "oles-u3-ff-q14", difficulty: "challenge", totalMarks: 3,
@@ -238,7 +238,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "The specific ideas the examiner expects" },
             { id: "d", text: "Optional extra details" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Content points", statement: "Required ideas in the answer." }], steps: [{ reasoning: "Content points are what the question demands.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The specific ideas the examiner expects" },
+          markscheme: { principles: [{ kind: "definition", name: "Content points", statement: "Required ideas in the answer." }], steps: [{ reasoning: "Content points are what the question demands.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** The specific ideas the examiner expects" },
         },
       ],
     },
@@ -269,7 +269,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Start writing immediately" },
             { id: "d", text: "Look up words in a dictionary" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Planning", statement: "Plan before writing." }], steps: [{ reasoning: "A plan prevents missing points and saves time.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Plan structure and content points" },
+          markscheme: { principles: [{ kind: "skill", name: "Planning", statement: "Plan before writing." }], steps: [{ reasoning: "A plan prevents missing points and saves time.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Plan structure and content points" },
         },
         {
           id: "oles-u3-pl-q2", difficulty: "core", totalMarks: 2,
@@ -359,7 +359,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "It saves ink" },
             { id: "d", text: "It keeps the ideas clearly organised" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Paragraph plan", statement: "One point per paragraph." }], steps: [{ reasoning: "Separate paragraphs make coverage obvious to the examiner.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Keeps ideas clearly organised" },
+          markscheme: { principles: [{ kind: "skill", name: "Paragraph plan", statement: "One point per paragraph." }], steps: [{ reasoning: "Separate paragraphs make coverage obvious to the examiner.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Keeps ideas clearly organised" },
         },
         {
           id: "oles-u3-pl-q9", difficulty: "challenge", totalMarks: 3,
@@ -395,7 +395,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Missing points and rewrites" },
             { id: "d", text: "Better register" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Planning", statement: "Plan first." }], steps: [{ reasoning: "No plan means gaps and backtracking.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Missing points and rewrites" },
+          markscheme: { principles: [{ kind: "skill", name: "Planning", statement: "Plan first." }], steps: [{ reasoning: "No plan means gaps and backtracking.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Missing points and rewrites" },
         },
         {
           id: "oles-u3-pl-q12", difficulty: "core", totalMarks: 1,
@@ -412,7 +412,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "States the purpose of the letter" },
             { id: "d", text: "Says goodbye" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Letter structure", statement: "Opening states purpose." }], steps: [{ reasoning: "The opening tells the reader why you are writing.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** States the purpose" },
+          markscheme: { principles: [{ kind: "skill", name: "Letter structure", statement: "Opening states purpose." }], steps: [{ reasoning: "The opening tells the reader why you are writing.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** States the purpose" },
         },
         {
           id: "oles-u3-pl-q14", difficulty: "challenge", totalMarks: 3,
@@ -466,7 +466,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Using a timer only" },
             { id: "d", text: "Deciding minutes for plan, write and check" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Time allocation", statement: "Minutes per stage." }], steps: [{ reasoning: "It budgets time across planning, writing and checking.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Minutes for plan, write, check" },
+          markscheme: { principles: [{ kind: "definition", name: "Time allocation", statement: "Minutes per stage." }], steps: [{ reasoning: "It budgets time across planning, writing and checking.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Minutes for plan, write, check" },
         },
       ],
     },

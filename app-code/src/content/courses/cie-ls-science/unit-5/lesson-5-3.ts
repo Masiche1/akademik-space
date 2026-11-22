@@ -65,7 +65,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Moving = kinetic.", working: "kinetic", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Kinetic energy",
+            finalAnswer: "**(b)** Kinetic energy",
             commonErrors: ["Choosing (b) — potential is stored, not moving."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "A torch produces light and some heat.", working: "light + heat", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Light and heat",
+            finalAnswer: "**(c)** Light and heat",
             commonErrors: ["Choosing (c) — energy is not converted back to chemical in a torch."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Stored water energy becomes motion then electricity.", working: "GPE→KE→E", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** GPE → kinetic → electrical",
+            finalAnswer: "**(c)** GPE → kinetic → electrical",
             commonErrors: ["Choosing (b) — no fuel is burned in hydro."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Energy is never created or destroyed — only transferred.", working: "conserved", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cannot be created or destroyed",
+            finalAnswer: "**(d)** Cannot be created or destroyed",
             commonErrors: ["Choosing (c) — heat is still energy; it is not 'lost'."],
           },
         },
@@ -274,7 +274,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "At max height the ball is momentarily stationary — all energy is potential.", working: "GPE max", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Gravitational potential energy",
+            finalAnswer: "**(d)** Gravitational potential energy",
             commonErrors: ["Choosing (b) — kinetic energy is zero at the top."],
           },
         },
@@ -300,7 +300,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Light bulb's useful output is light.", working: "light", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A light bulb",
+            finalAnswer: "**(c)** A light bulb",
             commonErrors: ["Choosing (c) — heater produces heat, not light."],
           },
         },
@@ -326,7 +326,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Friction and resistance dissipate energy as heat.", working: "heat", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Heat",
+            finalAnswer: "**(d)** Heat",
             commonErrors: ["Choosing (c) — sound waste is usually minor compared to heat."],
           },
         },
@@ -590,7 +590,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Heat always moves down the temperature gradient.", working: "hot→cold", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Hot to cold",
+            finalAnswer: "**(b)** Hot to cold",
             commonErrors: ["Choosing (b) — that would require work input (e.g. a fridge)."],
           },
         },
@@ -616,7 +616,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Convection = bulk movement of heated fluid.", working: "fluid movement", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Movement of heated fluid",
+            finalAnswer: "**(d)** Movement of heated fluid",
             commonErrors: ["Choosing (b) — that describes conduction."],
           },
         },
@@ -642,7 +642,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Metal spoon transfers heat through the solid metal.", working: "conduction", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Metal spoon in hot soup",
+            finalAnswer: "**(b)** Metal spoon in hot soup",
             commonErrors: ["Choosing (c) — that is radiation."],
           },
         },
@@ -668,7 +668,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Wool traps air — air is a poor conductor, slowing heat escape.", working: "trapped air", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Trapped air insulates",
+            finalAnswer: "**(b)** Trapped air insulates",
             commonErrors: ["Choosing (c) — wool insulates; it does not conduct."],
           },
         },
@@ -694,7 +694,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Conduction needs particles; convection needs fluid — vacuum has neither.", working: "no particles", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** No particles for conduction or convection",
+            finalAnswer: "**(c)** No particles for conduction or convection",
             commonErrors: ["Choosing (c) — vacuum does not reflect; it removes the medium."],
           },
         },
@@ -720,7 +720,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Silvering reflects heat radiation back into the flask.", working: "reflects radiation", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Reflects heat radiation",
+            finalAnswer: "**(d)** Reflects heat radiation",
             commonErrors: ["Choosing (d) — absorbing would lose heat, not keep it."],
           },
         },
@@ -746,7 +746,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Trapped still air is one of the best insulators; metals are conductors.", working: "air", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Still air",
+            finalAnswer: "**(b)** Still air",
             commonErrors: ["Choosing (b)/(c)/(d) — metals are all conductors."],
           },
         },
@@ -902,7 +902,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Wind is renewable; fossil fuels are not.", working: "wind", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Wind",
+            finalAnswer: "**(c)** Wind",
             commonErrors: ["Choosing (b) — coal is finite fossil fuel."],
           },
         },
@@ -1033,7 +1033,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Natural gas is a fossil fuel — non-renewable.", working: "gas", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Natural gas",
+            finalAnswer: "**(d)** Natural gas",
             commonErrors: ["Choosing (b) — wind never runs out."],
           },
         },
@@ -1059,7 +1059,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Wind's kinetic energy becomes electrical energy.", working: "KE→E", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Kinetic → electrical",
+            finalAnswer: "**(d)** Kinetic → electrical",
             commonErrors: ["Choosing (b) — no fuel burned in wind turbines."],
           },
         },
@@ -1085,7 +1085,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Hydro uses moving water's energy.", working: "hydro", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Hydroelectric",
+            finalAnswer: "**(d)** Hydroelectric",
             commonErrors: ["Choosing (c) — wind uses air movement, not water."],
           },
         },
@@ -1111,7 +1111,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "No sunlight at night/clouds — supply is unreliable.", working: "intermittent", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Intermittent — needs sunlight",
+            finalAnswer: "**(c)** Intermittent — needs sunlight",
             commonErrors: ["Choosing (c) — solar is one of the cleanest sources."],
           },
         },
@@ -1137,7 +1137,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Fuel supply is limited — classified non-renewable despite low pollution.", working: "uranium finite", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Uranium fuel is finite",
+            finalAnswer: "**(c)** Uranium fuel is finite",
             commonErrors: ["Choosing (b) — nuclear produces almost no CO₂."],
           },
         },
@@ -1163,7 +1163,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Geothermal = Earth's internal heat.", working: "Earth heat", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Heat from inside the Earth",
+            finalAnswer: "**(c)** Heat from inside the Earth",
             commonErrors: ["Choosing (b) — no burning involved."],
           },
         },

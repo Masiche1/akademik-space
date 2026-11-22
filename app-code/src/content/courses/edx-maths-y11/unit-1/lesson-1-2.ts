@@ -58,12 +58,12 @@ export const lesson12: Lesson = {
               { id: "c", text: "$y=x^3$" },
               { id: "d", text: "$y=-\\frac{1}{x}$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Reciprocal graph", statement: "For $k>0$, $y=\\frac{k}{x}$ has branches in the first and third quadrants." }],
             steps: [{ reasoning: "Two branches that never touch the axes mean a reciprocal graph. Positive $x$ gives positive $y$, so $k>0$.", working: "y=\\frac{1}{x}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** $y=\\frac{1}{x}$",
+            finalAnswer: "**(a)** $y=\\frac{1}{x}$",
             commonErrors: ["Choosing $y=-\\frac{1}{x}$, whose branches are in the top left and bottom right.", "Choosing $y=x^3$, which is a single connected curve through the origin."],
           },
         },
@@ -194,7 +194,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Function notation", statement: "$f(a)$ is the output when the input is $a$." }],
             steps: [{ reasoning: "Substitute $x=4$.", working: "3(4)-2=10", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $10$",
+            finalAnswer: "**(c)** $10$",
             commonErrors: ["Calculating $3(4-2)=6$ or $3 \\times 4 + 2 = 14$."],
           },
         },

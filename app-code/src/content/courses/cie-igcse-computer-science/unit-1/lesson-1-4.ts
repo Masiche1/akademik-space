@@ -237,7 +237,7 @@ export const lesson54: Lesson = {
             steps: [
               { reasoning: "The S stands for secure; HTTPS encrypts web traffic.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** The connection is encrypted",
+            finalAnswer: "**(c)** The connection is encrypted",
           },
         },
         {
@@ -262,7 +262,7 @@ export const lesson54: Lesson = {
             steps: [
               { reasoning: "DNS looks up the IP address for a readable domain name.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Translates domain names into IP addresses",
+            finalAnswer: "**(d)** Translates domain names into IP addresses",
           },
         },
         {
@@ -278,7 +278,7 @@ export const lesson54: Lesson = {
               { id: "c", text: "Antivirus removes a virus" },
               { id: "d", text: "A firewall blocks an unknown connection" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -287,7 +287,7 @@ export const lesson54: Lesson = {
             steps: [
               { reasoning: "Phishing tricks users into revealing sensitive information.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(d)** Fake bank email asking for a password",
+            finalAnswer: "**(a)** Fake bank email asking for a password",
           },
         },
         {
@@ -312,7 +312,7 @@ export const lesson54: Lesson = {
             steps: [
               { reasoning: "A firewall filters traffic and blocks unauthorised access.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Monitors and blocks unauthorised traffic",
+            finalAnswer: "**(d)** Monitors and blocks unauthorised traffic",
           },
         },
         {
@@ -328,7 +328,7 @@ export const lesson54: Lesson = {
               { id: "c", text: "Two antivirus programs" },
               { id: "d", text: "Two independent verification factors, such as a password and a code" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -337,7 +337,7 @@ export const lesson54: Lesson = {
             steps: [
               { reasoning: "2FA combines factors such as something known and something received.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** Two independent verification factors",
+            finalAnswer: "**(d)** Two independent verification factors",
           },
         },
         {
@@ -353,7 +353,7 @@ export const lesson54: Lesson = {
               { id: "c", text: "Choosing a longer password only" },
               { id: "d", text: "Using HTTPS so the data is encrypted" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -362,7 +362,7 @@ export const lesson54: Lesson = {
             steps: [
               { reasoning: "HTTPS encrypts traffic, reducing interception risk on untrusted networks.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** Using HTTPS encryption",
+            finalAnswer: "**(d)** Using HTTPS encryption",
           },
         },
         {

@@ -60,7 +60,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Molecular ion", statement: "Intact molecule ionised." }],
             steps: [{ reasoning: "Peak at m/z = molecular mass.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Molecular mass",
+            finalAnswer: "**(a)** Molecular mass",
           },
         },
         {
@@ -81,7 +81,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "IR", statement: "O–H ~3200-3600 cm⁻¹." }],
             steps: [{ reasoning: "Broad peak = H-bonded O–H.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** ~3300 cm⁻¹",
+            finalAnswer: "**(d)** ~3300 cm⁻¹",
           },
         },
         {

@@ -53,11 +53,11 @@ export const lessonp91: Lesson = {
             { id: "b", text: "Solid" },
             { id: "c", text: "Liquid" },
             { id: "d", text: "All equal" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Energy", statement: "Gas > liquid > solid." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gas}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Gas",
+            finalAnswer: "**(a)** Gas",
             commonErrors: ["Solids have most order, not energy."],
           },
         },
@@ -155,7 +155,7 @@ export const lessonp91: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Boiling", statement: "Temperature stays constant during boiling." }],
             steps: [{ reasoning: "Recall.", working: "\\text{constant}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** stays constant",
+            finalAnswer: "**(d)** stays constant",
             commonErrors: ["Temperature only rises before boiling starts."],
           },
         },
@@ -173,7 +173,7 @@ export const lessonp91: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "States", statement: "Liquid: close but disordered, particles slide." }],
             steps: [{ reasoning: "Recall.", working: "\\text{liquid}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Liquid",
+            finalAnswer: "**(a)** Liquid",
             commonErrors: ["Gases are far apart, not close."],
           },
         },
@@ -191,7 +191,7 @@ export const lessonp91: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Melting", statement: "Energy absorbed breaks attractions, not raises KE." }],
             steps: [{ reasoning: "Recall.", working: "\\text{bonds}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Heat breaks bonds instead of raising kinetic energy",
+            finalAnswer: "**(a)** Heat breaks bonds instead of raising kinetic energy",
             commonErrors: ["Saying particles stop — they still vibrate."],
           },
         },
@@ -380,7 +380,7 @@ export const lessonp91: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Absolute zero", statement: "−273°C / 0 K." }],
             steps: [{ reasoning: "Recall.", working: "-273^\\circ\\text{C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** −273°C",
+            finalAnswer: "**(a)** −273°C",
             commonErrors: ["0°C is ice point, not absolute zero."],
           },
         },
@@ -492,11 +492,11 @@ export const lessonp91: Lesson = {
             { id: "b", text: "watt" },
             { id: "c", text: "joule" },
             { id: "d", text: "newton" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Pressure units", statement: "1 Pa = 1 N/m²." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Pa} = \\text{N/m}^2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** pascal",
+            finalAnswer: "**(a)** pascal",
             commonErrors: ["Newton is force, not pressure."],
           },
         },
@@ -514,7 +514,7 @@ export const lessonp91: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "P-T relation", statement: "Higher T → faster particles → higher pressure at constant V." }],
             steps: [{ reasoning: "Recall.", working: "\\text{faster} \\to \\text{higher } P", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It increases because particles move faster and collide more forcefully",
+            finalAnswer: "**(c)** It increases because particles move faster and collide more forcefully",
             commonErrors: ["Volume being fixed does not keep pressure fixed."],
           },
         },
@@ -532,7 +532,7 @@ export const lessonp91: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Absolute zero", statement: "-273 °C = 0 K, minimum possible temperature." }],
             steps: [{ reasoning: "Recall.", working: "-273^\\circ\\text{C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** -273 °C / 0 K",
+            finalAnswer: "**(d)** -273 °C / 0 K",
             commonErrors: ["0 °C is the ice point, not absolute zero."],
           },
         },

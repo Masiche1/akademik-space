@@ -65,7 +65,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall the function.", working: "\\text{dendrites}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Dendrites",
+            finalAnswer: "**(c)** Dendrites",
             commonErrors: ["Choosing axon — axon TRANSMITS, dendrites RECEIVE."],
           },
         },
@@ -160,7 +160,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall location of nucleus.", working: "\\text{cell body}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** In the cell body",
+            finalAnswer: "**(d)** In the cell body",
             commonErrors: ["Choosing axon — the axon carries impulses, it doesn't contain the nucleus."],
           },
         },
@@ -186,7 +186,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Match direction to neuron type.", working: "\\text{receptor} \\to \\text{CNS}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sensory neuron",
+            finalAnswer: "**(d)** Sensory neuron",
             commonErrors: ["Choosing motor — motor neurons carry impulses OUT to effectors."],
           },
         },
@@ -268,7 +268,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall composition.", working: "\\text{lipid/fatty}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Lipid (fatty) material",
+            finalAnswer: "**(b)** Lipid (fatty) material",
             commonErrors: ["Choosing protein — protein is for structure, myelin is fatty insulation."],
           },
         },
@@ -314,7 +314,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall speed factor.", working: "\\text{myelin + nodes}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Are myelinated with nodes of Ranvier",
+            finalAnswer: "**(c)** Are myelinated with nodes of Ranvier",
             commonErrors: ["Choosing 'short' — length affects total time, not transmission speed."],
           },
         },
@@ -358,7 +358,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall relay function.", working: "\\text{connects sensory + motor}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Connect sensory and motor neurons within the CNS",
+            finalAnswer: "**(c)** Connect sensory and motor neurons within the CNS",
             commonErrors: ["Choosing 'detect stimuli' — that's a receptor."],
           },
         },
@@ -463,7 +463,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall direction.", working: "\\text{sensory} \\to \\text{CNS}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sensory neuron",
+            finalAnswer: "**(c)** Sensory neuron",
             commonErrors: ["Choosing motor — motor carries impulse OUT to effector."],
           },
         },
@@ -557,7 +557,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall receptor role.", working: "\\text{detects stimulus}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Detecting the stimulus",
+            finalAnswer: "**(b)** Detecting the stimulus",
             commonErrors: ["Choosing 'producing the response' — that's the effector."],
           },
         },
@@ -747,7 +747,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Recall location.", working: "\\text{relay in CNS}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Relay neuron",
+            finalAnswer: "**(b)** Relay neuron",
             commonErrors: ["Choosing receptor — receptors are in sense organs/skin."],
           },
         },

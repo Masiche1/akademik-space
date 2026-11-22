@@ -126,7 +126,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Yes, independent",
+            finalAnswer: "**(d)** Yes, independent",
             commonErrors: [
               "Confusing independence with mutual exclusivity — $\\mathrm{P}(A\\cap B)=0.2\\neq0$ so they are not mutually exclusive, yet they ARE independent.",
             ],
@@ -375,7 +375,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.3$",
+            finalAnswer: "**(d)** $0.3$",
             commonErrors: [
               "Reporting $\\mathrm{P}(A\\cap B)=0.15$ as the conditional probability.",
               "Dividing by $\\mathrm{P}(A)$ instead of $\\mathrm{P}(B)$.",
@@ -427,7 +427,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Yes, independent",
+            finalAnswer: "**(c)** Yes, independent",
             commonErrors: [
               "Confusing independence with mutual exclusivity: $\\mathrm{P}(A\\cap B)=0.24\\neq0$.",
             ],

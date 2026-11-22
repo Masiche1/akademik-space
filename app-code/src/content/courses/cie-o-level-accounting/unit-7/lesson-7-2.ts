@@ -43,7 +43,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Capital / profit × 100" },
             { id: "d", text: "Net profit / sales × 100" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "GP margin", statement: "GP/Sales." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "GP margin", statement: "GP/Sales." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olacc-u7-rp-q2", difficulty: "core", totalMarks: 2,
@@ -101,7 +101,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Gross profit / sales × 100" },
             { id: "d", text: "Sales / net profit × 100" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "NP margin", statement: "NP/Sales × 100." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Net profit / sales × 100" },
+          markscheme: { principles: [{ kind: "definition", name: "NP margin", statement: "NP/Sales × 100." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Net profit / sales × 100" },
         },
         {
           id: "olacc-u7-rp-q6", difficulty: "core", totalMarks: 2,
@@ -180,7 +180,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Prices are rising faster than costs" },
             { id: "d", text: "Sales are falling" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Interpretation", statement: "Higher NP margin = better cost control." }], steps: [{ reasoning: "More profit per dollar of sales.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Expenses controlled better" },
+          markscheme: { principles: [{ kind: "principle", name: "Interpretation", statement: "Higher NP margin = better cost control." }], steps: [{ reasoning: "More profit per dollar of sales.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Expenses controlled better" },
         },
         {
           id: "olacc-u7-rp-q14", difficulty: "challenge", totalMarks: 4,
@@ -259,7 +259,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Total assets / total liabilities" },
             { id: "d", text: "Current assets / current liabilities" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Current ratio", statement: "CA/CL." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Current ratio", statement: "CA/CL." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olacc-u7-lq-q2", difficulty: "core", totalMarks: 2,
@@ -317,7 +317,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Stock / current liabilities" },
             { id: "d", text: "Current assets / current liabilities" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Liquid ratio", statement: "Quick assets over current liabilities." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Liquid ratio", statement: "Quick assets over current liabilities." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olacc-u7-lq-q6", difficulty: "core", totalMarks: 2,
@@ -355,7 +355,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "The business has no liabilities" },
             { id: "d", text: "Stock is selling slowly" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Current ratio", statement: "CA > CL means short-term solvency." }], steps: [{ reasoning: "Current assets exceed current liabilities.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Current ratio", statement: "CA > CL means short-term solvency." }], steps: [{ reasoning: "Current assets exceed current liabilities.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olacc-u7-lq-q10", difficulty: "core", totalMarks: 3,
@@ -396,7 +396,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "It has no debts" },
             { id: "d", text: "Its receivables are very high" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Interpretation", statement: "Gap between ratios = stock level." }], steps: [{ reasoning: "Low liquid ratio means few quick assets — stock-heavy.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Interpretation", statement: "Gap between ratios = stock level." }], steps: [{ reasoning: "Low liquid ratio means few quick assets — stock-heavy.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olacc-u7-lq-q14", difficulty: "challenge", totalMarks: 4,

@@ -183,7 +183,7 @@ export const lesson17: Lesson = {
             { id: "b", text: "The 5p coin" },
             { id: "c", text: "The 2p coin" },
             { id: "d", text: "The 10p coin" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Coin values", statement: "Know each coin." }],
             steps: [{ reasoning: "The 10p coin is worth 10p.", marks: 1, markCode: "A" }],

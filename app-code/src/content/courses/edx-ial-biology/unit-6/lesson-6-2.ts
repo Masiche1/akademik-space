@@ -99,7 +99,7 @@ export const lesson62: Lesson = {
                 "text": "0.1 mm"
               }
             ],
-            "aorrectChoiceId": "c"
+            "correctChoiceId": "a"
           },
           "markscheme": {
             "principles": [
@@ -116,7 +116,7 @@ export const lesson62: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(c)** A mm-graduated rule has 1 mm resolution.",
+            "finalAnswer": "**(a)** A mm-graduated rule has 1 mm resolution.",
             "commonErrors": [
               "Confusing resolution with range."
             ]

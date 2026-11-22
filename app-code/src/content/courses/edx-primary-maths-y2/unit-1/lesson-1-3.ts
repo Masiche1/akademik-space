@@ -91,7 +91,7 @@ export const lesson13: Lesson = {
               },
             ],
             steps: [{ reasoning: "45 − 23 = 22.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 22",
+            finalAnswer: "**(b)** 22",
             commonErrors: [
               "Subtracting smaller from larger in each column wrongly.",
             ],

@@ -212,7 +212,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Should" },
               { id: "d", text: "Can" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -221,7 +221,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Can I use' asks permission.", working: "Can I", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** Can",
+            finalAnswer: "**(d)** Can",
             commonErrors: ["Choosing obligation modals."],
             examinerNote: "D1 for (c).",
           },
@@ -248,7 +248,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — must vs have to distinction.", working: "must = strong; have to = external", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'Must' = strong obligation; 'have to' = external obligation/rule",
+            finalAnswer: "**(d)** 'Must' = strong obligation; 'have to' = external obligation/rule",
             commonErrors: ["Thinking they are identical."],
             examinerNote: "B1 for (b).",
           },
@@ -302,7 +302,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'must wear' correct; no 'to' or -ing.", working: "must wear", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** You must wear a helmet.",
+            finalAnswer: "**(c)** You must wear a helmet.",
             commonErrors: ["Adding 'to' after must."],
             examinerNote: "D1 for (b).",
           },
@@ -511,7 +511,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'but' contrasts two ideas.", working: "but", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** but",
+            finalAnswer: "**(d)** but",
             commonErrors: ["Confusing 'so' (result) with 'but' (contrast)."],
             examinerNote: "D1 for (b).",
           },
@@ -608,7 +608,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'so' introduces a result.", working: "so", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** so",
+            finalAnswer: "**(c)** so",
             commonErrors: ["Confusing result with reason."],
             examinerNote: "D1 for (b).",
           },
@@ -635,7 +635,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'for example' introduces an example.", working: "for example", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** for example",
+            finalAnswer: "**(b)** for example",
             commonErrors: ["Choosing a contrast linker."],
             examinerNote: "D1 for (a).",
           },
@@ -689,7 +689,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — however + comma between two sentences.", working: "However, ...", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I like football. However, my brother prefers swimming.",
+            finalAnswer: "**(d)** I like football. However, my brother prefers swimming.",
             commonErrors: ["Joining with comma instead of full stop."],
             examinerNote: "D1 for (b).",
           },
@@ -743,7 +743,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'on the other hand' is a paragraph-level contrast linker.", working: "on the other hand", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** on the other hand",
+            finalAnswer: "**(a)** on the other hand",
             commonErrors: ["Choosing a simple conjunction."],
             examinerNote: "D1 for (b).",
           },

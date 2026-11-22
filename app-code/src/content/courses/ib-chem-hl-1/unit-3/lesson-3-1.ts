@@ -125,7 +125,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Gas ions → ionic solid",
+            finalAnswer: "**(b)** Gas ions → ionic solid",
             commonErrors: [
               "Confusing lattice enthalpy with hydration or solution enthalpy.",
             ],
@@ -339,7 +339,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "NaCl" },
               { id: "d", text: "MgO" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -364,7 +364,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** MgO",
+            finalAnswer: "**(d)** MgO",
             commonErrors: [
               "Comparing only ionic size and ignoring the much larger effect of ionic charge.",
             ],
@@ -384,7 +384,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Atomization of $\\frac{1}{2}$Cl$_2$(g)" },
               { id: "d", text: "Electron affinity of Cl(g)" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -408,7 +408,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Electron affinity of Cl(g)",
+            finalAnswer: "**(d)** Electron affinity of Cl(g)",
             commonErrors: [
               "Forgetting that atomization and ionization always require energy input.",
             ],
@@ -458,7 +458,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Inner-shell electron, closer to nucleus",
+            finalAnswer: "**(a)** Inner-shell electron, closer to nucleus",
             commonErrors: [
               "Ignoring electron shells — the jump in successive IEs reveals the shell structure.",
             ],
@@ -503,7 +503,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Li$^+$ is smaller",
+            finalAnswer: "**(c)** Li$^+$ is smaller",
             commonErrors: [
               "Comparing reactivity instead of ionic radius and charge.",
             ],
@@ -547,7 +547,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Always exothermic",
+            finalAnswer: "**(a)** Always exothermic",
             commonErrors: [
               "Confusing lattice formation (gas → solid) with lattice breaking (solid → gas).",
             ],
@@ -1053,7 +1053,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Lattice vs hydration balance",
+            finalAnswer: "**(c)** Lattice vs hydration balance",
             commonErrors: [
               "Ignoring hydration — it is essential for solution enthalpy.",
             ],
@@ -1287,7 +1287,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Gaseous ion $\\to$ hydrated ion",
+            finalAnswer: "**(b)** Gaseous ion $\\to$ hydrated ion",
             commonErrors: [
               "Confusing hydration with lattice dissociation or solution enthalpy.",
             ],
@@ -1332,7 +1332,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** MgSO$_4$",
+            finalAnswer: "**(b)** MgSO$_4$",
             commonErrors: [
               "Choosing CaCO$_3$ — although doubly charged, CO$_3^{2-}$ is large and hydrates poorly while the lattice is huge.",
             ],
@@ -1426,7 +1426,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Lattice cost exceeds hydration gain",
+            finalAnswer: "**(d)** Lattice cost exceeds hydration gain",
             commonErrors: [
               "Thinking endothermic dissolution means hydration is absent — both terms are present but the lattice dominates.",
             ],
@@ -1473,7 +1473,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Increases",
+            finalAnswer: "**(b)** Increases",
             commonErrors: [
               "Assuming hydration ordering always decreases entropy — dispersion of ions dominates.",
             ],

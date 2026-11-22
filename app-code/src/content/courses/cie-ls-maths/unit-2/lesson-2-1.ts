@@ -66,7 +66,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "HCF of $15$ and $25$ is $5$: $15\\div5=3$, $25\\div5=5$ → $3:5$.", working: "\\frac{15}{5}:\\frac{25}{5}=3:5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3:5$",
+            finalAnswer: "**(b)** $3:5$",
             commonErrors: ["Choosing (d) — any ratio with common factor can be simplified."],
           },
         },
@@ -169,7 +169,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "HCF of $14$ and $21$ is $7$: $14\\div7=2$, $21\\div7=3$ → $2:3$.", working: "\\frac{14}{7}:\\frac{21}{7}=2:3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2:3$",
+            finalAnswer: "**(b)** $2:3$",
             commonErrors: ["Dividing only one part — both parts must be divided by the same number."],
           },
         },
@@ -195,7 +195,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Total parts $=7$; tea is $3$ parts → $\\frac{3}{7}$.", working: "\\frac{3}{7}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\frac{3}{7}$",
+            finalAnswer: "**(c)** $\\frac{3}{7}$",
             commonErrors: ["Choosing (a) — $\\frac{3}{4}$ compares tea to coffee, not tea to the whole."],
           },
         },
@@ -212,7 +212,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "$15:25$" },
               { id: "d", text: "$10:20$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -221,7 +221,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$5:8$ scaled by $4$ gives $20:32$.", working: "5\\times4:8\\times4=20:32", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $20:32$",
+            finalAnswer: "**(a)** $20:32$",
             commonErrors: ["Choosing (b) — $15:25=3:5$, which is a different ratio."],
           },
         },
@@ -479,7 +479,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$60\\div3=20$ per part; $1$ part $=20$, $2$ parts $=40$.", working: "20,\\ 40", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $20$ and $40$",
+            finalAnswer: "**(d)** $20$ and $40$",
             commonErrors: ["Choosing (b) — equal shares ignore the $1:2$ ratio."],
           },
         },
@@ -582,7 +582,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$80\\div4=20$; shares $20$ and $3\\times20=60$.", working: "20,\\ 60", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $20$ and $60$",
+            finalAnswer: "**(c)** $20$ and $60$",
             commonErrors: ["Choosing (d) — guessing instead of dividing by total parts."],
           },
         },
@@ -608,7 +608,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$48\\div6=8$; larger share $=4\\times8=32$.", working: "4\\times8=32", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $32$",
+            finalAnswer: "**(c)** $32$",
             commonErrors: ["Choosing (c) — halving ignores the ratio."],
           },
         },
@@ -634,7 +634,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$100\\div5=20$; first $=2\\times20=\\pounds40$.", working: "2\\times20=40", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\pounds40$",
+            finalAnswer: "**(c)** $\\pounds40$",
             commonErrors: ["Choosing (b) — equal shares ignore the $2:3$ ratio."],
           },
         },
@@ -660,7 +660,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "One part $=90\\div3=30$; first place $=2\\times30=\\pounds60$.", working: "2\\times30=60", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\pounds60$",
+            finalAnswer: "**(b)** $\\pounds60$",
             commonErrors: ["Choosing (b) — doubling 90 instead of using the ratio positions."],
           },
         },

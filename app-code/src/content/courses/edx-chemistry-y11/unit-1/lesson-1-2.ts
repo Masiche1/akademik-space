@@ -58,7 +58,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Warming the acid" },
               { id: "d", text: "Using more concentrated acid" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -67,7 +67,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "A larger volume of acid with the same concentration has the same number of particles in each cm$^3$, so the collision frequency per unit volume is unchanged.", working: "\\text{same concentration} \\Rightarrow \\text{same rate}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Using a larger volume of acid of the same concentration",
+            finalAnswer: "**(a)** Using a larger volume of acid of the same concentration",
             commonErrors: ["Thinking that more acid means a faster reaction, confusing volume with concentration."],
             examinerNote: "B1 for (d).",
           },

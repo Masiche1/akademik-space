@@ -59,7 +59,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Endpoint", statement: "Indicator colour change = reaction complete." }],
             steps: [{ reasoning: "Recall.", working: "\\text{colour change}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Indicator colour change",
+            finalAnswer: "**(a)** Indicator colour change",
             commonErrors: ["Endpoint vs equivalence — endpoint is observed colour change."],
           },
         },
@@ -139,7 +139,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Apparatus", statement: "Burette = variable volume." }],
             steps: [{ reasoning: "Recall.", working: "\\text{burette}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Burette",
+            finalAnswer: "**(c)** Burette",
             commonErrors: ["Pipette delivers a fixed volume."],
           },
         },
@@ -153,11 +153,11 @@ export const lesson172: Lesson = {
             { id: "b", text: "Phenolphthalein" },
             { id: "c", text: "None is suitable" },
             { id: "d", text: "Methyl orange" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Indicator choice", statement: "Change near equivalence pH." }],
             steps: [{ reasoning: "Recall.", working: "\\text{phenolphthalein}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Phenolphthalein",
+            finalAnswer: "**(b)** Phenolphthalein",
             commonErrors: ["Methyl orange changes in acidic range, too early."],
           },
         },
@@ -205,7 +205,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Concordant titres", statement: "Repeats improve accuracy." }],
             steps: [{ reasoning: "Recall.", working: "\\text{repeat} \\to \\text{accuracy}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** To improve accuracy and reliability",
+            finalAnswer: "**(d)** To improve accuracy and reliability",
             commonErrors: ["Thinking one reading is enough."],
           },
         },
@@ -274,7 +274,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Titration", statement: "Indicator added to flask." }],
             steps: [{ reasoning: "Recall.", working: "\\text{indicator}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Indicator",
+            finalAnswer: "**(c)** Indicator",
             commonErrors: ["Indicator goes in the flask, not the burette."],
           },
         },
@@ -382,7 +382,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Equivalence point", statement: "Steepest point where moles equal." }],
             steps: [{ reasoning: "Recall.", working: "\\text{steepest}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Steepest part of curve",
+            finalAnswer: "**(d)** Steepest part of curve",
             commonErrors: ["Assuming always pH 7."],
           },
         },
@@ -476,11 +476,11 @@ export const lesson172: Lesson = {
             { id: "b", text: "Strong acid + weak base" },
             { id: "c", text: "Strong acid + strong base" },
             { id: "d", text: "Weak acid + weak base" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Curve types", statement: "Strong acid + weak base → pH < 7." }],
             steps: [{ reasoning: "Recall.", working: "\\text{pH} < 7", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Strong acid + weak base",
+            finalAnswer: "**(b)** Strong acid + weak base",
             commonErrors: ["Weak acid + strong base gives pH > 7."],
           },
         },
@@ -528,7 +528,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Buffer region", statement: "Resists pH change." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gradual rise}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** a gradual pH change before the equivalence point",
+            finalAnswer: "**(a)** a gradual pH change before the equivalence point",
             commonErrors: ["Confusing buffer region with equivalence point."],
           },
         },
@@ -561,7 +561,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Indicator choice", statement: "Equivalence pH > 7." }],
             steps: [{ reasoning: "Recall.", working: "\\text{phenolphthalein}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Phenolphthalein",
+            finalAnswer: "**(d)** Phenolphthalein",
             commonErrors: ["Methyl orange changes too early in acidic range."],
           },
         },
@@ -597,7 +597,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Equivalence point", statement: "Moles equal." }],
             steps: [{ reasoning: "Recall.", working: "n_{acid} = n_{base}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** moles of acid equal moles of base",
+            finalAnswer: "**(a)** moles of acid equal moles of base",
             commonErrors: ["Endpoint (colour change) ≠ equivalence point."],
           },
         },

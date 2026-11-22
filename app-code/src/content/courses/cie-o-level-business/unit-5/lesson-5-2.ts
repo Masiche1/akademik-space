@@ -44,7 +44,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Profit is maximum" },
             { id: "d", text: "Total revenue equals total cost" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Break-even", statement: "TR = TC." }], steps: [{ reasoning: "No profit/no loss.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Break-even", statement: "TR = TC." }], steps: [{ reasoning: "No profit/no loss.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u5-be-q2", difficulty: "core", totalMarks: 2,
@@ -112,7 +112,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Only occur when sales rise" },
             { id: "d", text: "Do not change with the level of output" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Fixed costs", statement: "Constant with output." }], steps: [{ reasoning: "Fixed = unchanged by output.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Fixed costs", statement: "Constant with output." }], steps: [{ reasoning: "Fixed = unchanged by output.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u5-be-q7", difficulty: "core", totalMarks: 1,
@@ -123,7 +123,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Higher fixed costs" },
             { id: "d", text: "Higher contribution per unit" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "BE drivers", statement: "FC/contribution." }], steps: [{ reasoning: "Higher FC raises BE units.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "BE drivers", statement: "FC/contribution." }], steps: [{ reasoning: "Higher FC raises BE units.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u5-be-q8", difficulty: "core", totalMarks: 1,
@@ -145,7 +145,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "The price competitors charge" },
             { id: "d", text: "How far sales can fall before the business makes a loss" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Margin of safety", statement: "Buffer above BE." }], steps: [{ reasoning: "Safety margin = cushion before loss.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Margin of safety", statement: "Buffer above BE." }], steps: [{ reasoning: "Safety margin = cushion before loss.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u5-be-q10", difficulty: "core", totalMarks: 2,
@@ -257,7 +257,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Vertical" },
             { id: "d", text: "Curved" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "BE chart", statement: "Fixed costs constant." }], steps: [{ reasoning: "Fixed = constant = horizontal.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "BE chart", statement: "Fixed costs constant." }], steps: [{ reasoning: "Fixed = constant = horizontal.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u5-bec-q2", difficulty: "core", totalMarks: 2,
@@ -314,7 +314,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Is vertical" },
             { id: "d", text: "Slopes downward" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "BE chart", statement: "TC = FC + VC." }], steps: [{ reasoning: "TC rises with output from FC level.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "BE chart", statement: "TC = FC + VC." }], steps: [{ reasoning: "TC rises with output from FC level.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u5-bec-q6", difficulty: "foundation", totalMarks: 1,
@@ -325,7 +325,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "The fixed cost line ends" },
             { id: "d", text: "Sales reach their highest level" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "BE point", statement: "TR = TC." }], steps: [{ reasoning: "Intersection of TR and TC.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "BE point", statement: "TR = TC." }], steps: [{ reasoning: "Intersection of TR and TC.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u5-bec-q7", difficulty: "core", totalMarks: 1,
@@ -336,7 +336,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "A higher contribution per unit" },
             { id: "d", text: "A loss-making business" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "BE chart", statement: "Slope = contribution." }], steps: [{ reasoning: "TR slope reflects contribution per unit.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "BE chart", statement: "Slope = contribution." }], steps: [{ reasoning: "TR slope reflects contribution per unit.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u5-bec-q8", difficulty: "core", totalMarks: 1,
@@ -358,7 +358,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Demand rises every year" },
             { id: "d", text: "All costs are variable" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "BE assumptions", statement: "Linearity." }], steps: [{ reasoning: "Linear cost/revenue assumption.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "BE assumptions", statement: "Linearity." }], steps: [{ reasoning: "Linear cost/revenue assumption.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u5-bec-q10", difficulty: "core", totalMarks: 2,

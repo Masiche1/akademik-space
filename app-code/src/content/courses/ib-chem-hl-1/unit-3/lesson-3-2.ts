@@ -355,7 +355,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Positive (non-zero)",
+            finalAnswer: "**(c)** Positive (non-zero)",
             commonErrors: [
               "Applying the $\\Delta H_f^\\circ = 0$ convention for elements to entropy — $S^\\circ$ of elements is tabulated.",
             ],
@@ -375,7 +375,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "$N_2(g) + 3H_2(g) \\to 2NH_3(g)$" },
               { id: "d", text: "$N_2O_4(g) \\to 2NO_2(g)$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -400,7 +400,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $N_2O_4(g) \\to 2NO_2(g)$",
+            finalAnswer: "**(d)** $N_2O_4(g) \\to 2NO_2(g)$",
             commonErrors: [
               "Counting only total moles of substance, not moles of gas.",
             ],
@@ -444,7 +444,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** J K$^{-1}$ mol$^{-1}$",
+            finalAnswer: "**(c)** J K$^{-1}$ mol$^{-1}$",
             commonErrors: [
               "Confusing entropy units with enthalpy units (kJ mol$^{-1}$).",
             ],
@@ -488,7 +488,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Gas $>$ liquid $>$ solid",
+            finalAnswer: "**(c)** Gas $>$ liquid $>$ solid",
             commonErrors: [
               "Reversing the order — solids are most ordered, hence lowest entropy.",
             ],
@@ -1014,7 +1014,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\Delta H < 0, \\Delta S > 0$",
+            finalAnswer: "**(d)** $\\Delta H < 0, \\Delta S > 0$",
             commonErrors: [
               "Choosing the endothermic + entropy increase pair — that needs high temperature.",
             ],
@@ -1243,7 +1243,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Spontaneous",
+            finalAnswer: "**(c)** Spontaneous",
             commonErrors: [
               "Confusing $\\Delta G < 0$ with $\\Delta G > 0$ — negative means spontaneous.",
             ],
@@ -1287,7 +1287,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** At equilibrium",
+            finalAnswer: "**(d)** At equilibrium",
             commonErrors: [
               "Thinking $\\Delta G = 0$ means 'no reaction' — it means equilibrium composition.",
             ],
@@ -1307,7 +1307,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "$\\Delta H > 0$, $\\Delta S > 0$" },
               { id: "d", text: "$\\Delta H < 0$, $\\Delta S < 0$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1331,7 +1331,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $\\Delta H > 0$, $\\Delta S < 0$",
+            finalAnswer: "**(a)** $\\Delta H > 0$, $\\Delta S < 0$",
             commonErrors: [
               "Choosing the high-temperature pair — $\\Delta H > 0, \\Delta S > 0$ becomes spontaneous at high T.",
             ],
@@ -1376,7 +1376,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Become more positive",
+            finalAnswer: "**(d)** Become more positive",
             commonErrors: [
               "Thinking exothermic always means high T helps — negative $\\Delta S$ reverses this.",
             ],

@@ -471,7 +471,7 @@ export const lesson21: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Learned roles",
+            finalAnswer: "**(c)** Learned roles",
             commonErrors: ["Sex confused."],
           },
         },

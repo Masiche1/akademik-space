@@ -63,7 +63,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Linear nth term", statement: "The nth term is $dn+c$ where $d$ is the common difference." }],
             steps: [{ reasoning: "The common difference is 4, so compare with $4n$: $4, 8, 12, 16$. Each term is 1 more.", working: "4n+1", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $4n+1$",
+            finalAnswer: "**(d)** $4n+1$",
             commonErrors: ["Using the first term as the constant, giving $4n+5$.", "Using the first term as the multiplier of $n$."],
             examinerNote: "Accept $1+4n$ (oe).",
           },

@@ -70,7 +70,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Subtract the known angle from $180^\\circ$.", working: "180-125=55", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $55^\\circ$",
+            finalAnswer: "**(d)** $55^\\circ$",
             commonErrors: ["Subtracting from $360^\\circ$ (angles at a point) to get $235^\\circ$.", "Subtracting from $90^\\circ$ or making an arithmetic slip."],
           },
         },
@@ -174,7 +174,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Subtract from $180^\\circ$: $180-64=116$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $116^\\circ$",
+            finalAnswer: "**(d)** $116^\\circ$",
             commonErrors: ["Subtracting from $360^\\circ$ to get $296^\\circ$.", "Subtracting from $90^\\circ$."],
             examinerNote: "B1 for 116°.",
           },
@@ -201,7 +201,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$360-100-140=120$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $120^\\circ$",
+            finalAnswer: "**(d)** $120^\\circ$",
             commonErrors: ["Using $180^\\circ$ to get $-60^\\circ$ or 60.", "Adding the known angles instead of subtracting."],
             examinerNote: "B1 for 120°.",
           },
@@ -293,7 +293,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The angles are $x$, $2x$ and $90$, and their sum is 180.", working: "x+2x+90=180", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x+2x+90=180$",
+            finalAnswer: "**(b)** $x+2x+90=180$",
             commonErrors: ["Using 360, the quadrilateral sum."],
             examinerNote: "B1 for choice (a).",
           },
@@ -341,7 +341,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Set equal: $x=3x-20$, so $20=2x$ and $x=10$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x=10$",
+            finalAnswer: "**(b)** $x=10$",
             commonErrors: ["Setting the sum to 180 instead of the angles equal."],
             examinerNote: "B1 for x = 10.",
           },
@@ -491,7 +491,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Rectangle" },
               { id: "d", text: "Rhombus" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -500,7 +500,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "A rhombus, rectangle and parallelogram each have two pairs of parallel sides. Only the trapezium has exactly one pair.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Trapezium",
+            finalAnswer: "**(b)** Trapezium",
             commonErrors: ["Choosing parallelogram, which has two pairs of parallel sides."],
           },
         },
@@ -595,7 +595,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Right-angled" },
               { id: "d", text: "Scalene" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -604,7 +604,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Two equal angles means two equal sides opposite them, so the triangle is isosceles.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Isosceles",
+            finalAnswer: "**(a)** Isosceles",
             commonErrors: ["Choosing equilateral, which requires all three angles equal."],
             examinerNote: "B1 for isosceles.",
           },
@@ -658,7 +658,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Sum is $(6-2)\\times180=720$; divide by 6: $720\\div6=120$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $120^\\circ$",
+            finalAnswer: "**(a)** $120^\\circ$",
             commonErrors: ["Dividing 720 by 4 or by 180 instead of by 6."],
             examinerNote: "B1 for 120°.",
           },
@@ -714,7 +714,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "$5$" },
               { id: "d", text: "$8$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -723,7 +723,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$900\\div180=5$ triangles, so $n=5+2=7$ sides.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $7$",
+            finalAnswer: "**(a)** $7$",
             commonErrors: ["Forgetting to add 2 and answering 5."],
             examinerNote: "B1 for 7.",
           },
@@ -761,7 +761,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "$10$" },
               { id: "d", text: "$9$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -770,7 +770,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Exterior angle is $180-140=40$; $360\\div40=9$ sides.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $9$",
+            finalAnswer: "**(d)** $9$",
             commonErrors: ["Dividing 360 by 140 instead of by the exterior angle."],
             examinerNote: "B1 for 9.",
           },

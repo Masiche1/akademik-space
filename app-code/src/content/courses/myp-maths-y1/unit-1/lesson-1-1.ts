@@ -67,7 +67,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The 4 is in the tenths place, so the 7 is in the hundredths place.", working: "7\\times0.01=0.07", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $0.07$",
+            finalAnswer: "**(c)** $0.07$",
             commonErrors: ["Choosing $0.7$ by counting the 7 as the first decimal place.", "Choosing $0.007$ by counting from the wrong end."],
             examinerNote: "B1 for 0.07 oe.",
           },
@@ -174,7 +174,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The 0 is in the tenths place, so the 6 is in the hundredths place.", working: "6\\times0.01=0.06", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $0.06$",
+            finalAnswer: "**(c)** $0.06$",
             commonErrors: ["Choosing $0.6$ by treating the 6 as the first decimal place.", "Choosing $0.006$ by counting an extra place."],
             examinerNote: "B1 for 0.06.",
           },
@@ -201,7 +201,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The digit after the tenths place is 7, which is 5 or more, so 3 rounds up to 4.", working: "4.3\\underline{7}6 \\to 4.4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $4.4$",
+            finalAnswer: "**(d)** $4.4$",
             commonErrors: ["Choosing $4.3$ by truncating instead of rounding.", "Rounding to 2 decimal places and choosing $4.38$."],
             examinerNote: "B1 for 4.4.",
           },
@@ -219,7 +219,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$0.7$" },
               { id: "d", text: "$0.707$" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -228,7 +228,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "All start 0.7 except $0.07$ which is smaller. Between $0.707$ and $0.77$, the hundredths digit decides: 7 beats 0.", working: "0.77>0.707>0.7>0.07", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** $0.77$",
+            finalAnswer: "**(a)** $0.77$",
             commonErrors: ["Choosing $0.707$ because it has more digits, thinking more digits means a larger number.", "Choosing $0.07$ by misreading the place value."],
             examinerNote: "B1 for choice (d).",
           },
@@ -340,7 +340,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The third decimal place is 6, which is 5 or more, so the hundredths digit 4 rounds up to 5.", working: "2.34\\underline{6} \\to 2.35", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $2.35$ m",
+            finalAnswer: "**(d)** $2.35$ m",
             commonErrors: ["Rounding to 1 decimal place and choosing $2.3$ or $2.4$.", "Rounding to the nearest 0.01 m incorrectly as $2.34$."],
             examinerNote: "B1 for 2.35.",
           },
@@ -599,7 +599,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$-3$" },
               { id: "d", text: "$-15$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -608,7 +608,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Start at $-6$ and move 9 to the right: $-6+9=3$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $3$",
+            finalAnswer: "**(a)** $3$",
             commonErrors: ["Adding the sizes and keeping the negative sign, giving $-15$.", "Subtracting to give $-3$."],
             examinerNote: "B1 for 3.",
           },

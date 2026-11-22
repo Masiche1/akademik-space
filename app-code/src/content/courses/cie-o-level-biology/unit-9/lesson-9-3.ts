@@ -64,7 +64,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the pattern.", working: "\\text{intermediate}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** An intermediate/blended phenotype",
+            finalAnswer: "**(b)** An intermediate/blended phenotype",
             commonErrors: ["Confusing with codominance — that's both expressed fully."],
           },
         },
@@ -184,7 +184,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Match the example to incomplete dominance.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Pink flowers from red and white parents",
+            finalAnswer: "**(a)** Pink flowers from red and white parents",
             commonErrors: ["Choosing AB blood — that is codominance."],
           },
         },
@@ -236,7 +236,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall which alleles are codominant.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** IA and IB",
+            finalAnswer: "**(c)** IA and IB",
             commonErrors: ["Choosing IA and i — i is recessive."],
           },
         },
@@ -253,7 +253,7 @@ export const lesson93: Lesson = {
               { id: "c", text: "Half red, half white" },
               { id: "d", text: "All red" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -262,7 +262,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "All offspring are heterozygous Rr.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** All pink",
+            finalAnswer: "**(a)** All pink",
             commonErrors: ["Choosing all red — incomplete dominance does not show the dominant phenotype in heterozygotes."],
           },
         },
@@ -397,7 +397,7 @@ export const lesson93: Lesson = {
               { id: "c", text: "IAIA" },
               { id: "d", text: "IAIB" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -406,7 +406,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Both A and B antigens need IA and IB.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** IAIB",
+            finalAnswer: "**(d)** IAIB",
             commonErrors: ["Choosing IAIA or IBIB — those give only A or only B."],
           },
         },
@@ -569,7 +569,7 @@ export const lesson93: Lesson = {
               { id: "c", text: "Errors in DNA replication" },
               { id: "d", text: "Only eating too much protein" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -578,7 +578,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the sources of mutation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Both of the above",
+            finalAnswer: "**(a)** Both of the above",
             commonErrors: ["Choosing only one cause — both errors and mutagens are valid."],
           },
         },
@@ -604,7 +604,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Identify the inheritable cell type.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** When it occurs in a gamete",
+            finalAnswer: "**(d)** When it occurs in a gamete",
             commonErrors: ["Choosing body cells — those mutations stay in the individual."],
           },
         },
@@ -630,7 +630,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the balanced polymorphism advantage.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It gives resistance to malaria infection",
+            finalAnswer: "**(a)** It gives resistance to malaria infection",
             commonErrors: ["Saying it prevents all disease — the advantage is specific to malaria."],
           },
         },
@@ -656,7 +656,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the chromosome basis.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** They have only one X chromosome, so a recessive allele is expressed",
+            finalAnswer: "**(a)** They have only one X chromosome, so a recessive allele is expressed",
             commonErrors: ["Choosing two X chromosomes — that describes females."],
           },
         },
@@ -682,7 +682,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall semi-conservative replication.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** One original strand and one newly made strand",
+            finalAnswer: "**(d)** One original strand and one newly made strand",
             commonErrors: ["Choosing two new strands — that would not be semi-conservative."],
           },
         },
@@ -816,7 +816,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A heterozygote who can pass on the recessive allele",
+            finalAnswer: "**(c)** A heterozygote who can pass on the recessive allele",
             commonErrors: ["Confusing carrier with affected individual."],
           },
         },

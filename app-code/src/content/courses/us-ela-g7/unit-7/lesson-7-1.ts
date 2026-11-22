@@ -107,7 +107,7 @@ export const lesson71: Lesson = {
               { id: "c", text: "The storm came quickly." },
               { id: "d", text: "It was dark." },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -127,7 +127,7 @@ export const lesson71: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)**. 'We talked' is a fragment — it lacks a complete thought.",
+              "**(a)**. 'We talked' is a fragment — it lacks a complete thought.",
             commonErrors: [
               "Thinking all short sentences are fragments — 'We talked' is technically complete but feels incomplete in context.",
             ],
@@ -370,7 +370,7 @@ export const lesson71: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. All sentences are the same length and structure — monotonous.",
+              "**(a)**. All sentences are the same length and structure — monotonous.",
             commonErrors: [
               "Thinking short sentences are always bad — the issue is uniformity, not length.",
             ],

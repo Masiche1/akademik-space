@@ -277,7 +277,7 @@ export const lesson402: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A company that owns or controls operations in more than one country",
+              "**(c)** A company that owns or controls operations in more than one country",
           },
         },
         {
@@ -394,7 +394,7 @@ export const lesson402: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** Resource-seeking FDI",
+            finalAnswer: "**(a)** Resource-seeking FDI",
           },
         },
         {
@@ -640,7 +640,7 @@ export const lesson402: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** An international network of suppliers and producers",
+              "**(b)** An international network of suppliers and producers",
           },
         },
         {
@@ -726,7 +726,7 @@ export const lesson402: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** Strategic asset-seeking FDI",
+            finalAnswer: "**(a)** Strategic asset-seeking FDI",
           },
         },
         {

@@ -40,7 +40,7 @@ export const lesson43: Lesson = {
 ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Quadrat", statement: "Fixed-area frame for counting species." }],
             steps: [{ reasoning: "Quadrat counts species in area.", marks: 2, markCode: "AO1" }],
-            finalAnswer: "**(b)** Counting species", commonErrors: ["Temperature confused."] },
+            finalAnswer: "**(d)** Counting species", commonErrors: ["Temperature confused."] },
         },
         {
           id: "esc10-u4-bio-chem-q2", difficulty: "core", totalMarks: 3,
@@ -110,7 +110,7 @@ export const lesson43: Lesson = {
 ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "principle", name: "Ohm's law", statement: "V ∝ I for ohmic — straight line through origin." }],
             steps: [{ reasoning: "Straight V-I = constant resistance = ohmic.", marks: 2, markCode: "AO1" }],
-            finalAnswer: "**(b)** Ohmic conductor", commonErrors: ["Curve assumed."] },
+            finalAnswer: "**(c)** Ohmic conductor", commonErrors: ["Curve assumed."] },
         },
         {
           id: "esc10-u4-physics-q2", difficulty: "core", totalMarks: 3,

@@ -72,7 +72,7 @@ export const lesson73: Lesson = {
               { id: "c", text: "6" },
               { id: "d", text: "12" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -83,7 +83,7 @@ export const lesson73: Lesson = {
               },
             ],
             steps: [{ reasoning: "Half of 24 = 12.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** 12",
+            finalAnswer: "**(d)** 12",
             commonErrors: ["Multiplying 24 × 2."],
           },
         },
@@ -287,7 +287,7 @@ export const lesson73: Lesson = {
               },
             ],
             steps: [{ reasoning: "Substitute x=5.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 13",
+            finalAnswer: "**(d)** 13",
             commonErrors: [
               "Calculating 2+5+3=10 — not substituting correctly.",
             ],

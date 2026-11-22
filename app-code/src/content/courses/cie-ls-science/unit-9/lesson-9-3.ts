@@ -65,7 +65,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Explain = how/why, not just what.", working: "mechanism", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Mechanism/reason",
+            finalAnswer: "**(c)** Mechanism/reason",
             commonErrors: ["Choosing (b) — that's describe."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Calculate needs a number and shown working.", working: "number+working", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A numerical answer with working shown",
+            finalAnswer: "**(c)** A numerical answer with working shown",
             commonErrors: ["Giving only the answer — working earns marks."],
           },
         },
@@ -226,7 +226,7 @@ export const lesson93: Lesson = {
               { id: "c", text: "A definition" },
               { id: "d", text: "Only similarities" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -235,7 +235,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Compare = similarities AND differences.", working: "both", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Both similarities and differences",
+            finalAnswer: "**(a)** Both similarities and differences",
             commonErrors: ["Listing only differences or only similarities."],
           },
         },
@@ -322,7 +322,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "State = short factual response.", working: "brief", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A brief factual answer",
+            finalAnswer: "**(d)** A brief factual answer",
             commonErrors: ["Over-answering — extra detail is unnecessary but not penalised."],
           },
         },
@@ -505,7 +505,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Thermometer = temperature.", working: "thermometer", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Thermometer",
+            finalAnswer: "**(b)** Thermometer",
             commonErrors: ["Choosing (b) — balance measures mass."],
           },
         },
@@ -675,7 +675,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Bottom of meniscus at eye level.", working: "eye level", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** At the bottom of the curve, at eye level",
+            finalAnswer: "**(c)** At the bottom of the curve, at eye level",
             commonErrors: ["Reading from above or below — causes parallax error."],
           },
         },
@@ -762,7 +762,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Water bath = controlled stable temperature.", working: "controlled", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It allows accurate, controlled temperature",
+            finalAnswer: "**(a)** It allows accurate, controlled temperature",
             commonErrors: ["Choosing (a) — control matters more than speed."],
           },
         },
@@ -827,7 +827,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Immediate recording in tables with units is best practice.", working: "record", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Record immediately in a table with units",
+            finalAnswer: "**(d)** Record immediately in a table with units",
             commonErrors: ["Delaying recording — leads to errors and lost data."],
           },
         },
@@ -1050,7 +1050,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Preparation and practice build genuine confidence.", working: "practice", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Consistent preparation and practice",
+            finalAnswer: "**(c)** Consistent preparation and practice",
             commonErrors: ["Choosing (b) — cramming creates anxiety, not confidence."],
           },
         },
@@ -1116,7 +1116,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Density = mass $\\div$ volume.", working: "m/V", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\rho = \\frac{m}{V}$",
+            finalAnswer: "**(c)** $\\rho = \\frac{m}{V}$",
             commonErrors: ["Inverting the formula."],
           },
         },
@@ -1202,7 +1202,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Application questions require understanding, not recall.", working: "apply", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Understanding lets you apply knowledge to new questions",
+            finalAnswer: "**(b)** Understanding lets you apply knowledge to new questions",
             commonErrors: ["Thinking exams only test recall — many require application."],
           },
         },

@@ -108,7 +108,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "1024 bytes" },
             { id: "d", text: "100 bytes" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Kilobyte", statement: "1024 bytes." }], steps: [{ reasoning: "1 KB = 1024 bytes.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 1024 bytes" },
+          markscheme: { principles: [{ kind: "definition", name: "Kilobyte", statement: "1024 bytes." }], steps: [{ reasoning: "1 KB = 1024 bytes.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** 1024 bytes" },
         },
         {
           id: "olict-u2-cu-q7", difficulty: "core", totalMarks: 2,
@@ -147,7 +147,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Byte" },
             { id: "d", text: "Kilobyte" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Unit order", statement: "B < KB < MB < GB < TB." }], steps: [{ reasoning: "TB is the largest listed.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Terabyte" },
+          markscheme: { principles: [{ kind: "principle", name: "Unit order", statement: "B < KB < MB < GB < TB." }], steps: [{ reasoning: "TB is the largest listed.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Terabyte" },
         },
         {
           id: "olict-u2-cu-q11", difficulty: "foundation", totalMarks: 2,
@@ -167,7 +167,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "50 MB" },
             { id: "d", text: "0.5 MB" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Conversion", statement: "1024 KB = 1 MB." }], steps: [{ reasoning: "$500 \\div 1024 \\approx 0.5$ MB.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 0.5 MB" },
+          markscheme: { principles: [{ kind: "principle", name: "Conversion", statement: "1024 KB = 1 MB." }], steps: [{ reasoning: "$500 \\div 1024 \\approx 0.5$ MB.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** 0.5 MB" },
         },
         {
           id: "olict-u2-cu-q13", difficulty: "challenge", totalMarks: 3,
@@ -188,7 +188,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "5 bits" },
             { id: "d", text: "45 bits" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Byte", statement: "1 byte = 8 bits." }], steps: [{ reasoning: "$5 \\times 8 = 40$ bits.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 40 bits" },
+          markscheme: { principles: [{ kind: "principle", name: "Byte", statement: "1 byte = 8 bits." }], steps: [{ reasoning: "$5 \\times 8 = 40$ bits.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 40 bits" },
         },
         {
           id: "olict-u2-cu-q15", difficulty: "challenge", totalMarks: 4,
@@ -253,7 +253,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "2-5 TB" },
             { id: "d", text: "2-5 MB" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "File sizes", statement: "Photo ~MB." }], steps: [{ reasoning: "Photo ≈ MB.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 2-5 MB" },
+          markscheme: { principles: [{ kind: "principle", name: "File sizes", statement: "Photo ~MB." }], steps: [{ reasoning: "Photo ≈ MB.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** 2-5 MB" },
         },
         {
           id: "olict-u2-es-q2", difficulty: "core", totalMarks: 2,
@@ -318,7 +318,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "4-8 KB" },
             { id: "d", text: "4-8 TB" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "File sizes", statement: "Film ≈ GB." }], steps: [{ reasoning: "HD movie ≈ several GB.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 4-8 GB" },
+          markscheme: { principles: [{ kind: "principle", name: "File sizes", statement: "Film ≈ GB." }], steps: [{ reasoning: "HD movie ≈ several GB.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 4-8 GB" },
         },
         {
           id: "olict-u2-es-q7", difficulty: "core", totalMarks: 2,

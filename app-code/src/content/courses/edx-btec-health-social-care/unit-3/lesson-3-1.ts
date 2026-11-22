@@ -100,7 +100,7 @@ export const lesson301: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Individual as unique person",
+            finalAnswer: "**(a)** Individual as unique person",
             commonErrors: ["System-centred view."],
           },
         },
@@ -323,7 +323,7 @@ export const lesson301: Lesson = {
               { id: "c", text: "5" },
               { id: "d", text: "12" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -340,7 +340,7 @@ export const lesson301: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** 9",
+            finalAnswer: "**(a)** 9",
             commonErrors: [
               "Outdated numbers (6 under EqA 2006 race/religion/sex/disability/age/sexual orientation).",
             ],

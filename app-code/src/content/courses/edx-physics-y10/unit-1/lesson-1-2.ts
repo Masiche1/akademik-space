@@ -59,7 +59,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Downwards, equal to the weight" },
               { id: "d", text: "Downwards, getting larger" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Constant velocity means no acceleration, so the forces balance and the resultant force is zero.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Zero",
+            finalAnswer: "**(a)** Zero",
             commonErrors: ["Thinking that movement needs a resultant force in the direction of travel."],
             examinerNote: "B1 for (c).",
           },
@@ -210,7 +210,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Mass is the amount of matter, which does not change. The Moon's gravitational field strength is smaller, so the weight decreases.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Mass stays the same and weight decreases",
+            finalAnswer: "**(c)** Mass stays the same and weight decreases",
             commonErrors: ["Confusing mass and weight."],
             examinerNote: "B1 for (b).",
           },

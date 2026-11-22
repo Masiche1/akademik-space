@@ -1034,7 +1034,7 @@ export const lesson511: Lesson = {
               { id: "c", text: "Shift equilibrium to the left" },
               { id: "d", text: "Have no effect on the position" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

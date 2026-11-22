@@ -51,7 +51,7 @@ export const lesson28: Lesson = {
             { id: "b", text: "Aluminium" },
             { id: "c", text: "Copper" },
             { id: "d", text: "Iron" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Magnetic materials", statement: "Iron and steel are magnetic." }],
             steps: [{ reasoning: "Only iron (and steel) is magnetic here.", marks: 1, markCode: "A" }],

@@ -290,7 +290,7 @@ export const lesson741: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Environmental and experiential influences on behaviour"
+          "finalAnswer": "**(b)** Environmental and experiential influences on behaviour"
 },
         },
         {
@@ -486,7 +486,7 @@ export const lesson741: Lesson = {
                               "markCode": "A"
                     }
           ],
-          "finalAnswer": "**(a)** Identical twins raised apart are more similar than fraternal twins raised apart"
+          "finalAnswer": "**(b)** Identical twins raised apart are more similar than fraternal twins raised apart"
 },
         },
         {
@@ -603,7 +603,7 @@ export const lesson741: Lesson = {
                               "markCode": "A"
                     }
           ],
-          "finalAnswer": "**(a)** The influence of nature (genetic transmission)"
+          "finalAnswer": "**(d)** The influence of nature (genetic transmission)"
 },
         },
         {

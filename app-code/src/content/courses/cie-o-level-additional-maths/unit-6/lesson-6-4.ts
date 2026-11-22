@@ -98,7 +98,7 @@ export const lesson64: Lesson = {
             { id: "b", text: "$y+x\\frac{dy}{dx}$" },
             { id: "c", text: "$x\\frac{dy}{dx}$" },
             { id: "d", text: "$y$" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "technique", name: "Product rule", statement: "$(uv)'=u'v+uv'$." }], steps: [{ reasoning: "$1\\cdot y+x\\cdot\\frac{dy}{dx}$.", marks: 1, markCode: "A" }], finalAnswer: "$y+x\\frac{dy}{dx}$" },
         },
         {

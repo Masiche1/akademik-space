@@ -69,7 +69,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Use half of base times height.", working: "\\tfrac{1}{2}\\times10\\times6=30", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $30\\ \\text{cm}^2$",
+            finalAnswer: "**(a)** $30\\ \\text{cm}^2$",
             commonErrors: ["Forgetting the half and giving $60\\ \\text{cm}^2$.", "Adding the base and height to get 16."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "$26\\ \\text{cm}^2$" },
               { id: "d", text: "$13\\ \\text{cm}^2$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -175,7 +175,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Multiply length by width: $9\\times4=36$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $36\\ \\text{cm}^2$",
+            finalAnswer: "**(a)** $36\\ \\text{cm}^2$",
             commonErrors: ["Adding the sides to get 13 (that is half the perimeter).", "Doubling to get 26, which is the perimeter."],
             examinerNote: "B1 for 36 cm².",
           },
@@ -202,7 +202,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "A square has 4 equal sides: $4\\times7=28$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $28\\ \\text{cm}$",
+            finalAnswer: "**(c)** $28\\ \\text{cm}$",
             commonErrors: ["Squaring to get 49, which is the area."],
             examinerNote: "B1 for 28 cm.",
           },
@@ -341,7 +341,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$h=2\\times54\\div18=108\\div18=6$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $6\\ \\text{cm}$",
+            finalAnswer: "**(d)** $6\\ \\text{cm}$",
             commonErrors: ["Computing $54\\div18=3$ and forgetting to double."],
             examinerNote: "B1 for 6 cm.",
           },
@@ -634,7 +634,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$5\\times4\\times2=40$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $40\\ \\text{cm}^3$",
+            finalAnswer: "**(a)** $40\\ \\text{cm}^3$",
             commonErrors: ["Adding the dimensions to get 11.", "Multiplying only two dimensions."],
             examinerNote: "B1 for 40 cm³.",
           },
@@ -661,7 +661,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$3\\times3\\times3=27$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $27\\ \\text{cm}^3$",
+            finalAnswer: "**(d)** $27\\ \\text{cm}^3$",
             commonErrors: ["Squaring to get 9.", "Multiplying by 6 to get 18 (that is related to surface area)."],
             examinerNote: "B1 for 27 cm³.",
           },
@@ -726,7 +726,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Face areas: $10\\times6=60$, $10\\times5=50$, $6\\times5=30$; sum $=140$; double for six faces.", working: "2(60+50+30)=2\\times140=280", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $280\\ \\text{cm}^2$",
+            finalAnswer: "**(b)** $280\\ \\text{cm}^2$",
             commonErrors: ["Adding only three faces and giving 140.", "Giving the volume, 300, with the wrong unit."],
             examinerNote: "B1 for 280 cm².",
           },
@@ -774,7 +774,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Convert: $0.5\\ \\text{L}=500\\ \\text{cm}^3$, $0.04\\ \\text{L}=40\\ \\text{cm}^3$, $450\\ \\text{mL}=450\\ \\text{cm}^3$. The largest is $500\\ \\text{cm}^3$ (0.5 L).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0.5\\ \\text{L}$",
+            finalAnswer: "**(c)** $0.5\\ \\text{L}$",
             commonErrors: ["Comparing the numbers 5, 400, 0.04, 450 without converting units."],
             examinerNote: "B1 for choice (a).",
           },

@@ -178,7 +178,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "One pen costs $4.50\\div5=0.90$ euros, so 8 cost 7.20 euros.", working: "0.90\\times8=7.20", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 7.20 euros",
+            finalAnswer: "**(a)** 7.20 euros",
             commonErrors: ["Adding 3 pens' worth to the total incorrectly, giving 9.00."],
             examinerNote: "B1 for choice (b).",
           },
@@ -205,7 +205,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "For one person: $300\\div4=75$ g, so for 6 people $75\\times6=450$ g.", working: "300\\times\\frac{6}{4}=450", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 450 g",
+            finalAnswer: "**(b)** 450 g",
             commonErrors: ["Adding 2 people's worth incorrectly, giving 350 or 200."],
             examinerNote: "B1 for choice (a).",
           },
@@ -270,7 +270,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$5\\times10\\,000=50\\,000$ cm $=500$ m.", working: "50\\,000\\text{ cm}=500\\text{ m}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 500 m",
+            finalAnswer: "**(c)** 500 m",
             commonErrors: ["Forgetting to convert centimetres to metres, choosing 50 000 cm."],
             examinerNote: "B1 for choice (b).",
           },
@@ -317,7 +317,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$1\\times50\\,000=50\\,000$ cm $=500$ m.", working: "50\\,000\\text{ cm}=500\\text{ m}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $500$ m",
+            finalAnswer: "**(a)** $500$ m",
             commonErrors: ["Forgetting that 100 000 cm = 1 km, choosing 5 km."],
             examinerNote: "B1 for choice (b).",
           },
@@ -385,7 +385,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Only (b) has one quantity increasing while the other decreases, with a constant product (total work).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Number of workers and time",
+            finalAnswer: "**(d)** Number of workers and time",
             commonErrors: ["Choosing (a), (c) or (d), which are all direct proportion."],
             examinerNote: "B1 for choice (b).",
           },
@@ -504,7 +504,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Divide the distance by the time.", working: "150\\div2=75", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $75$ km/h",
+            finalAnswer: "**(d)** $75$ km/h",
             commonErrors: ["Multiplying distance and time, giving 300.", "Subtracting the time, giving 148.", "Dividing time by distance, giving 0.013."],
             examinerNote: "B1 for choice (a).",
           },
@@ -612,7 +612,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Divide the distance by the time.", working: "120\\div3=40", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $40$ km/h",
+            finalAnswer: "**(c)** $40$ km/h",
             commonErrors: ["Multiplying distance and time, giving 360.", "Dividing time by distance."],
             examinerNote: "B1 for choice (a).",
           },
@@ -639,7 +639,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Divide the mass by the volume.", working: "200\\div50=4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $4$ g/cm$^3$",
+            finalAnswer: "**(b)** $4$ g/cm$^3$",
             commonErrors: ["Dividing volume by mass, giving 0.25."],
             examinerNote: "B1 for choice (a).",
           },
@@ -751,7 +751,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$10\\times3.6=36$ km/h, or $\\frac{10\\times3600}{1000}=36$.", working: "10\\times3.6=36", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $36$ km/h",
+            finalAnswer: "**(b)** $36$ km/h",
             commonErrors: ["Dividing by 3.6, giving 2.78."],
             examinerNote: "B1 for choice (a).",
           },
@@ -818,7 +818,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Multiply the speed by the time; the units km/h $\\times$ h give km.", working: "20\\times1.5=30", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $30$ km",
+            finalAnswer: "**(b)** $30$ km",
             commonErrors: ["Dividing speed by time, giving 13.3."],
             examinerNote: "B1 for choice (a).",
           },

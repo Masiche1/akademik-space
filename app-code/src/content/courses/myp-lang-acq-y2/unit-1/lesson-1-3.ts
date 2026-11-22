@@ -69,7 +69,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — inference = reading between the lines using clues.", working: "understanding something not stated", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Understanding something not stated directly, using clues",
+            finalAnswer: "**(d)** Understanding something not stated directly, using clues",
             commonErrors: ["Confusing inference with direct copying."],
             examinerNote: "B1 for (b).",
           },
@@ -186,7 +186,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — clues come from the surrounding words.", working: "surrounding words", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A hint in the surrounding words that helps you guess meaning",
+            finalAnswer: "**(b)** A hint in the surrounding words that helps you guess meaning",
             commonErrors: ["Confusing a clue with a dictionary definition."],
             examinerNote: "B1 for (a).",
           },
@@ -240,7 +240,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'music' is similar to música/musique; the others are not.", working: "music", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** music",
+            finalAnswer: "**(a)** music",
             commonErrors: ["Choosing words that are spelled differently in the other language."],
             examinerNote: "B1 for (b).",
           },
@@ -386,7 +386,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — surrounding words usually give enough meaning to continue.", working: "guess from context", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Keep reading and guess the meaning from the context",
+            finalAnswer: "**(c)** Keep reading and guess the meaning from the context",
             commonErrors: ["Stopping to translate — this slows reading and breaks understanding."],
             examinerNote: "B1 for (b).",
           },
@@ -567,7 +567,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — cognates help learners recognise words like 'music'/'animal'.", working: "similar word in own language", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A word similar to one in your own language",
+            finalAnswer: "**(c)** A word similar to one in your own language",
             commonErrors: ["Thinking cognates are identical words."],
             examinerNote: "B1 for (b).",
           },
@@ -678,7 +678,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — title/pictures activate background knowledge.", working: "title + pictures", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The title, pictures and situation",
+            finalAnswer: "**(a)** The title, pictures and situation",
             commonErrors: ["Starting to read without checking the title."],
             examinerNote: "B1 for (b).",
           },
@@ -705,7 +705,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'teacher' shares the root 'teach'.", working: "teacher", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** teacher",
+            finalAnswer: "**(c)** teacher",
             commonErrors: ["Choosing a word with no shared letters/root."],
             examinerNote: "B1 for (a).",
           },
@@ -732,7 +732,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — cake, balloons and 'birthday' predict a party.", working: "a birthday party", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A birthday party",
+            finalAnswer: "**(d)** A birthday party",
             commonErrors: ["Ignoring the title and guessing randomly."],
             examinerNote: "B1 for (b).",
           },
@@ -872,7 +872,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — helmet, pedals and wheels belong to bikes.", working: "cycling", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Cycling",
+            finalAnswer: "**(d)** Cycling",
             commonErrors: ["Ignoring the vocabulary clues."],
             examinerNote: "B1 for (b).",
           },
@@ -930,7 +930,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'unhappy' contains 'happy' with prefix un- = not.", working: "unhappy", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** unhappy",
+            finalAnswer: "**(d)** unhappy",
             commonErrors: ["Choosing a word with no shared root."],
             examinerNote: "B1 for (a).",
           },

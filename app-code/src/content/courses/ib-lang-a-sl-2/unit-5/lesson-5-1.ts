@@ -67,7 +67,7 @@ export const lesson51: Lesson = {
               { reasoning: "Option (b) claims a specific comparative relationship — enclosure vs force.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The comparative thesis",
+            finalAnswer: "**(c)** The comparative thesis",
           },
         },
         {
@@ -170,7 +170,7 @@ export const lesson51: Lesson = {
               { reasoning: "A point of comparison is the shared aspect — theme, technique or structure — that pairs the texts.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A shared aspect both texts are analysed on",
+            finalAnswer: "**(a)** A shared aspect both texts are analysed on",
           },
         },
         {
@@ -196,7 +196,7 @@ export const lesson51: Lesson = {
               { reasoning: "A cumulative argument moves from surface features to deeper structures — imagery to theme to context.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Surface to depth",
+            finalAnswer: "**(c)** Surface to depth",
           },
         },
         {
@@ -222,7 +222,7 @@ export const lesson51: Lesson = {
               { reasoning: "A comparative thesis claims how the texts relate — convergence, divergence, different means to similar ends.", marks: 1, markCode: "M" },
               { reasoning: "'Both poems are about grief' only states a shared topic, so choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Shared topic, not relationship",
+            finalAnswer: "**(a)** Shared topic, not relationship",
           },
         },
         {
@@ -248,7 +248,7 @@ export const lesson51: Lesson = {
               { reasoning: "An integrated paragraph is organised around a shared point of comparison, so its topic sentence must name that point.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Names the point of comparison",
+            finalAnswer: "**(d)** Names the point of comparison",
           },
         },
         {
@@ -274,7 +274,7 @@ export const lesson51: Lesson = {
               { reasoning: "Convergence means the texts arrive at similar conclusions by different routes — different means, similar ends.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Similar conclusions, different means",
+            finalAnswer: "**(b)** Similar conclusions, different means",
           },
         },
         {
@@ -300,7 +300,7 @@ export const lesson51: Lesson = {
               { reasoning: "Analysing one text in four paragraphs and the other in one sentence breaks the pairing that makes comparison possible.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct — the essay is imbalanced.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Imbalance — Text B is not analysed",
+            finalAnswer: "**(a)** Imbalance — Text B is not analysed",
           },
         },
         {
@@ -501,7 +501,7 @@ export const lesson51: Lesson = {
               { reasoning: "Balance is about analytical depth at each comparison point.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Equal analytical depth",
+            finalAnswer: "**(a)** Equal analytical depth",
           },
         },
         {
@@ -606,7 +606,7 @@ export const lesson51: Lesson = {
               { reasoning: "Balance requires equal analytical rigour at each point of comparison — Text B needs developed analysis, not just more words.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Equal analytical depth for Text B",
+            finalAnswer: "**(c)** Equal analytical depth for Text B",
           },
         },
         {
@@ -658,7 +658,7 @@ export const lesson51: Lesson = {
               { reasoning: "Conclusion-only judgement leaves the body descriptive — distributed evaluation makes each paragraph argue.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Every paragraph stays argumentative",
+            finalAnswer: "**(d)** Every paragraph stays argumentative",
           },
         },
         {
@@ -684,7 +684,7 @@ export const lesson51: Lesson = {
               { reasoning: "'By contrast' explicitly signals divergence; 'where A does X, B does Y' performs the comparison.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** By contrast",
+            finalAnswer: "**(d)** By contrast",
           },
         },
         {
@@ -710,7 +710,7 @@ export const lesson51: Lesson = {
               { reasoning: "Balance is restored by pairing — A's image beside B's corresponding image — not by relocating or deleting material.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Pair the evidence at the same point",
+            finalAnswer: "**(a)** Pair the evidence at the same point",
           },
         },
         {
@@ -736,7 +736,7 @@ export const lesson51: Lesson = {
               { reasoning: "An evaluative essay weighs the texts at each stage — 'more sustained, though less surprising' — rather than saving judgement for the end.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Mini-judgements distributed across paragraphs",
+            finalAnswer: "**(a)** Mini-judgements distributed across paragraphs",
           },
         },
         {

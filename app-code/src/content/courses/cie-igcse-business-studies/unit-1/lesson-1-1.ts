@@ -248,7 +248,7 @@ export const lesson251: Lesson = {
               { id: "c", text: "Labour" },
               { id: "d", text: "Land" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -266,7 +266,7 @@ export const lesson251: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(d)** Enterprise",
+            finalAnswer: "**(b)** Enterprise",
           },
         },
         {
@@ -307,7 +307,7 @@ export const lesson251: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The increase in value created during the production process",
+              "**(d)** The increase in value created during the production process",
           },
         },
         {
@@ -407,7 +407,7 @@ export const lesson251: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** 200 dollars",
+            finalAnswer: "**(c)** 200 dollars",
           },
         },
         {
@@ -528,7 +528,7 @@ export const lesson251: Lesson = {
               { id: "c", text: "The wages paid to staff" },
               { id: "d", text: "The rent paid for a shop" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -547,7 +547,7 @@ export const lesson251: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** The holiday a student gives up to study for an exam",
+              "**(b)** The holiday a student gives up to study for an exam",
           },
         },
         {
@@ -637,7 +637,7 @@ export const lesson251: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** It is partly correct, but businesses may also pursue survival, growth, market share or social objectives",
+              "**(d)** It is partly correct, but businesses may also pursue survival, growth, market share or social objectives",
           },
         },
         {

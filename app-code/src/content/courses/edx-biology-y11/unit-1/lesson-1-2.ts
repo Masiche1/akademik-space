@@ -55,7 +55,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Pancreas" },
               { id: "d", text: "Pituitary gland" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -64,7 +64,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The adrenal glands release adrenaline. The pancreas makes insulin and the pituitary makes ADH, FSH and LH.", working: "\\text{adrenal gland}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Adrenal gland",
+            finalAnswer: "**(a)** Adrenal gland",
             commonErrors: ["Choosing the pituitary because it is called the 'master gland'.", "Choosing the pancreas, which secretes insulin."],
             examinerNote: "B1 for adrenal gland.",
           },

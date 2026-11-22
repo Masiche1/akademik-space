@@ -72,7 +72,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Shared ideas", statement: "Look for what both texts say, not only differences." }],
             steps: [{ reasoning: "Text A says 'I love the roar of the city' and Text B says he has 'never felt' lonely, so both are content.", evidence: "I love the roar of the city", marks: 1, markCode: "AO3" }],
-            finalAnswer: "**(a)** Both are content with where they live.",
+            finalAnswer: "**(d)** Both are content with where they live.",
             commonErrors: ["Choosing (b): each writer rejects the other place."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Metaphor", statement: "Describing one thing as another." }],
             steps: [{ reasoning: "Traffic is described as being music, making noise seem pleasant.", evidence: "a kind of music to me", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** Metaphor.",
+            finalAnswer: "**(c)** Metaphor.",
             commonErrors: ["Choosing (d): no phrase is repeated at the start of sentences."],
           },
         },

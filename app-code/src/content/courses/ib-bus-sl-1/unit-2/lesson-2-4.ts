@@ -360,7 +360,7 @@ export const lesson24: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Moving average",
+            finalAnswer: "**(c)** Moving average",
             commonErrors: [
               "Confusing moving average (smoothing) with trend analysis (direction).",
             ],
@@ -445,7 +445,7 @@ export const lesson24: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $90k",
+            finalAnswer: "**(c)** $90k",
             commonErrors: ["Forgetting to divide by the number of periods."],
           },
         },
@@ -466,7 +466,7 @@ export const lesson24: Lesson = {
                 text: "Sales fall as tastes change or substitutes appear",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -491,7 +491,7 @@ export const lesson24: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Sales fall as tastes change or substitutes appear",
+              "**(d)** Sales fall as tastes change or substitutes appear",
             commonErrors: [
               "Confusing decline with maturity — maturity is the peak before decline.",
             ],
@@ -1041,7 +1041,7 @@ export const lesson24: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Social media advertising",
+            finalAnswer: "**(c)** Social media advertising",
             commonErrors: [
               "Counting TV or print ads as digital — they are traditional media.",
             ],
@@ -1311,7 +1311,7 @@ export const lesson24: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Search engine optimisation (SEO)",
+            finalAnswer: "**(c)** Search engine optimisation (SEO)",
             commonErrors: [
               "Confusing SEO with paid advertising — SEO improves organic rankings.",
             ],
@@ -1355,7 +1355,7 @@ export const lesson24: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Sell 24/7 to a global audience",
+            finalAnswer: "**(c)** Sell 24/7 to a global audience",
             commonErrors: [
               "Claiming e-commerce removes competition — it often intensifies it.",
             ],
@@ -1442,7 +1442,7 @@ export const lesson24: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Social media marketing",
+            finalAnswer: "**(a)** Social media marketing",
             commonErrors: [
               "Confusing influencer marketing with traditional public relations.",
             ],

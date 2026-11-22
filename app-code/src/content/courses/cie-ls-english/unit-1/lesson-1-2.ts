@@ -76,7 +76,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The letter weighs losses (boats, chandlery) against gains (lighthouse, ferry).", working: "\\text{losses and gains}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** The harbour is changing, with both losses and gains",
+            finalAnswer: "**(c)** The harbour is changing, with both losses and gains",
             commonErrors: ["Choosing (c) — tourists buying fish is presented as a gain, not a problem."],
           },
         },
@@ -199,7 +199,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The letter weighs many losses and gains; the lighthouse is one gain among several.", working: "\\text{lighthouse = one gain}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** The lighthouse is only a supporting detail; the main idea is that the harbour is changing.",
+            finalAnswer: "**(c)** The lighthouse is only a supporting detail; the main idea is that the harbour is changing.",
             commonErrors: ["Choosing (b) — position in the text does not make a detail the main idea."],
           },
         },
@@ -322,7 +322,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The extract traces BOLT's rise, the revealing silence, and its permanent removal.", working: "\\text{rise then removal}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** A robot's brief popularity ended when people realised they preferred quiet",
+            finalAnswer: "**(d)** A robot's brief popularity ended when people realised they preferred quiet",
             commonErrors: ["Choosing (d) — the power cut did not destroy BOLT; it ended its usefulness."],
           },
         },
@@ -728,7 +728,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "BOLT was kept in a cupboard for six months" },
               { id: "d", text: "The children called it BOLT" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -737,7 +737,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The arms' design is decorative description; the other options carry the story.", working: "\\text{design = colour}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** The exact design of its warehouse arms",
+            finalAnswer: "**(a)** The exact design of its warehouse arms",
             commonErrors: ["Choosing (a) — the six-month storage explains why the robot was surplus, so it matters."],
           },
         },
@@ -764,7 +764,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The letter's skeleton is change-with-mixed-outcomes and the open question about it.", working: "\\text{losses/gains + uncertainty}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** The contrast between decline and improvement, plus Daniel's uncertainty",
+            finalAnswer: "**(c)** The contrast between decline and improvement, plus Daniel's uncertainty",
             commonErrors: ["Choosing (d) — there is no list of shops; the chandlery is a single example."],
           },
         },

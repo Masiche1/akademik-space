@@ -120,7 +120,7 @@ export const lesson82: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Simile — uses 'as' for comparison.",
+            finalAnswer: "**(c)**. Simile — uses 'as' for comparison.",
             commonErrors: [
               "Choosing (a) — metaphor doesn't use 'like' or 'as'.",
             ],
@@ -358,7 +358,7 @@ export const lesson82: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. He felt relieved of a burden — idiom for emotional relief.",
+              "**(a)**. He felt relieved of a burden — idiom for emotional relief.",
             commonErrors: ["Taking it literally — idioms aren't literal."],
           },
         },

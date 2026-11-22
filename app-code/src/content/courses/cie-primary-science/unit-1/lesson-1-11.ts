@@ -120,7 +120,7 @@ export const lesson111: Lesson = {
             { id: "b", text: "Fruit and vegetables" },
             { id: "c", text: "Bread and rice" },
             { id: "d", text: "Sweets and cakes" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Dairy", statement: "Milk and cheese give calcium for bones." }],
             steps: [{ reasoning: "Dairy foods like milk and cheese provide calcium.", marks: 1, markCode: "A" }],

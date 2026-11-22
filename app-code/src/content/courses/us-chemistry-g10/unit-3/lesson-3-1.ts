@@ -63,7 +63,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Because atoms are only rearranged, every element must appear in equal numbers on both sides of a balanced equation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Atoms are conserved, so each element has the same number of atoms on both sides.",
+            finalAnswer: "**(d)** Atoms are conserved, so each element has the same number of atoms on both sides.",
             commonErrors: ["Thinking the number of molecules is conserved: $2\\text{H}_2 + \\text{O}_2 \\rightarrow 2\\text{H}_2\\text{O}$ goes from 3 molecules to 2.", "Changing subscripts, which changes the identity of the substance."],
             examinerNote: "B1 for choice (a).",
           },
@@ -193,7 +193,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "A single compound, $\\text{KClO}_3$, breaks into two products, so this is decomposition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Decomposition",
+            finalAnswer: "**(d)** Decomposition",
             commonErrors: ["Choosing combustion because oxygen appears in the equation; here oxygen is a product, not a reactant.", "Choosing synthesis by reading the equation right to left."],
             examinerNote: "B1 for decomposition.",
           },

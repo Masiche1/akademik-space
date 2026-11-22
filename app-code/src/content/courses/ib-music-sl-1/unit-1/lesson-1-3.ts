@@ -70,7 +70,7 @@ export const lesson13: Lesson = {
               { reasoning: "Balance is the adjustment of part volumes so each is heard appropriately.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Adjusting relative loudness so all parts are heard appropriately",
+            finalAnswer: "**(d)** Adjusting relative loudness so all parts are heard appropriately",
             commonErrors: [
               "Confusing balance with intonation or posture.",
             ],
@@ -171,7 +171,7 @@ export const lesson13: Lesson = {
               { reasoning: "Blend means matching tone colour and pitch so parts sound like one voice.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Matching tone quality and intonation so parts merge into a unified whole",
+            finalAnswer: "**(a)** Matching tone quality and intonation so parts merge into a unified whole",
             commonErrors: [
               "Confusing blend with balance or unison playing.",
             ],
@@ -200,7 +200,7 @@ export const lesson13: Lesson = {
               { reasoning: "Cues are the non-verbal or musical signals that keep ensemble members together.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A signal — visual, physical or musical — that coordinates entries and changes",
+            finalAnswer: "**(a)** A signal — visual, physical or musical — that coordinates entries and changes",
             commonErrors: [
               "Thinking cues are only conductor gestures.",
             ],
@@ -229,7 +229,7 @@ export const lesson13: Lesson = {
               { reasoning: "Ensemble musicianship requires awareness of all parts simultaneously.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Monitoring other parts while playing your own",
+            finalAnswer: "**(d)** Monitoring other parts while playing your own",
             commonErrors: [
               "Focusing only on your own part and ignoring the ensemble.",
             ],
@@ -258,7 +258,7 @@ export const lesson13: Lesson = {
               { reasoning: "Tackling difficult sections first ensures problems get solved before time runs out.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The most difficult or problematic sections",
+            finalAnswer: "**(a)** The most difficult or problematic sections",
             commonErrors: [
               "Saving problems for the end when fatigue reduces effectiveness.",
             ],
@@ -316,7 +316,7 @@ export const lesson13: Lesson = {
               { reasoning: "Players must listen and adjust pitch together within the ensemble context.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Players matching pitch and listening to each other while playing together",
+            finalAnswer: "**(a)** Players matching pitch and listening to each other while playing together",
             commonErrors: [
               "Tuning alone and assuming the ensemble will match automatically.",
             ],
@@ -518,7 +518,7 @@ export const lesson13: Lesson = {
               { reasoning: "Solo performance communicates interpretation — the performer's shaping of meaning.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The performer's interpretation of the piece's meaning",
+            finalAnswer: "**(d)** The performer's interpretation of the piece's meaning",
             commonErrors: [
               "Treating performance as mere technical reproduction.",
             ],
@@ -619,7 +619,7 @@ export const lesson13: Lesson = {
               { reasoning: "Stage presence is how the performer engages and communicates with the audience.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The performer's physical and mental engagement that communicates with the audience",
+            finalAnswer: "**(a)** The performer's physical and mental engagement that communicates with the audience",
             commonErrors: [
               "Confusing stage presence with costume or venue.",
             ],
@@ -648,7 +648,7 @@ export const lesson13: Lesson = {
               { reasoning: "Structural understanding provides multiple memory pathways, making recall more reliable.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Understanding the piece's structure and phrases",
+            finalAnswer: "**(d)** Understanding the piece's structure and phrases",
             commonErrors: [
               "Memorising only motor patterns without musical understanding.",
             ],
@@ -677,7 +677,7 @@ export const lesson13: Lesson = {
               { reasoning: "Interpretation involves deliberate expressive choices that communicate meaning.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The performer's personal shaping of the piece's meaning through expressive choices",
+            finalAnswer: "**(a)** The performer's personal shaping of the piece's meaning through expressive choices",
             commonErrors: [
               "Thinking interpretation means altering the notes rather than shaping expression.",
             ],
@@ -706,7 +706,7 @@ export const lesson13: Lesson = {
               { reasoning: "A composed entrance projects confidence and gives the performer time to centre before playing.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Projecting composure and giving the performer a moment to focus",
+            finalAnswer: "**(a)** Projecting composure and giving the performer a moment to focus",
             commonErrors: [
               "Rushing onto the stage and starting before being ready.",
             ],
@@ -735,7 +735,7 @@ export const lesson13: Lesson = {
               { reasoning: "Finger-only memory breaks down under stress; structure provides alternative recall pathways.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Can collapse under pressure because it lacks structural understanding",
+            finalAnswer: "**(d)** Can collapse under pressure because it lacks structural understanding",
             commonErrors: [
               "Assuming repetition alone creates secure memory.",
             ],
@@ -764,7 +764,7 @@ export const lesson13: Lesson = {
               { reasoning: "Audiences forgive errors but not visible panic; smooth recovery maintains the musical flow.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Continue as smoothly as possible and recover into the next phrase",
+            finalAnswer: "**(a)** Continue as smoothly as possible and recover into the next phrase",
             commonErrors: [
               "Stopping or visibly panicking when memory fails.",
             ],

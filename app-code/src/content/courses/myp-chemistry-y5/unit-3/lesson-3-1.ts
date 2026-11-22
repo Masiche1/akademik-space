@@ -72,7 +72,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Monomers join during polymerisation to form chains.", working: "\\text{building block}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Building block of a polymer",
+            finalAnswer: "**(b)** Building block of a polymer",
             commonErrors: ["Confusing monomer with polymer."],
             examinerNote: "B1 for (a).",
           },
@@ -510,7 +510,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Plasticisers separate polymer chains → softer material.", working: "\\text{soften}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Softening additive",
+            finalAnswer: "**(d)** Softening additive",
             commonErrors: ["Confusing with pigment or flame retardant."],
             examinerNote: "B1 for (a).",
           },

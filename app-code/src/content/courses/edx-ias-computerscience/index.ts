@@ -14,5 +14,5 @@ export const edxIasComputerScience: Course = {
   description:
     "The full Edexcel International AS in Computer Science: computer systems, algorithms, programming, data representation and programming practice.",
   units: [unit1, unit2, unit3, unit4, unit5],
-  edexcel: { stage: "ias", subject: "computerscience", year: 1 },
+  edexcel: { stage: "ias", subject: "computer-science", year: 1 },
 };

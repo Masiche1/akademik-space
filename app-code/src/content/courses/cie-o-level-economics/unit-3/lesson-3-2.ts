@@ -46,7 +46,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Price × quantity" },
             { id: "d", text: "Price + quantity" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "TR", statement: "P×Q." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "TR", statement: "P×Q." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u3-rv-q2", difficulty: "core", totalMarks: 2,
@@ -102,7 +102,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Price × quantity sold" },
             { id: "d", text: "Total cost - total revenue" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Total revenue", statement: "P × Q." }], steps: [{ reasoning: "Total revenue = price times quantity.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Total revenue", statement: "P × Q." }], steps: [{ reasoning: "Total revenue = price times quantity.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u3-rv-q6", difficulty: "foundation", totalMarks: 1,
@@ -113,7 +113,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Price + cost" },
             { id: "d", text: "Total revenue × quantity" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Average revenue", statement: "TR / Q." }], steps: [{ reasoning: "AR equals revenue per unit sold — the same as price.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Average revenue", statement: "TR / Q." }], steps: [{ reasoning: "AR equals revenue per unit sold — the same as price.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u3-rv-q7", difficulty: "core", totalMarks: 1,
@@ -124,7 +124,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Total revenue minus wages" },
             { id: "d", text: "The minimum profit needed to keep resources in their current use" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Normal profit", statement: "Minimum to stay in business." }], steps: [{ reasoning: "Normal profit keeps resources employed in their current use.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Normal profit", statement: "Minimum to stay in business." }], steps: [{ reasoning: "Normal profit keeps resources employed in their current use.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u3-rv-q8", difficulty: "core", totalMarks: 1,
@@ -135,7 +135,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "The same as normal profit" },
             { id: "d", text: "Profit below normal levels" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Supernormal profit", statement: "Above normal." }], steps: [{ reasoning: "Supernormal profit exceeds the minimum needed to keep resources.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Supernormal profit", statement: "Above normal." }], steps: [{ reasoning: "Supernormal profit exceeds the minimum needed to keep resources.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u3-rv-q9", difficulty: "challenge", totalMarks: 1,
@@ -146,7 +146,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Total revenue exceeds total cost" },
             { id: "d", text: "Profit equals normal profit" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Loss", statement: "TC > TR." }], steps: [{ reasoning: "When costs exceed revenue the firm makes a loss.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Loss", statement: "TC > TR." }], steps: [{ reasoning: "When costs exceed revenue the firm makes a loss.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u3-rv-q10", difficulty: "foundation", totalMarks: 1,
@@ -258,7 +258,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Average cost" },
             { id: "d", text: "Fixed cost" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "MC", statement: "Extra unit cost." }], steps: [{ reasoning: "Marginal = extra.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "MC", statement: "Extra unit cost." }], steps: [{ reasoning: "Marginal = extra.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u3-mcr-q2", difficulty: "core", totalMarks: 2,
@@ -327,7 +327,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Total cost / quantity" },
             { id: "d", text: "Total cost + quantity" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Marginal cost", statement: "ΔTC / ΔQ." }], steps: [{ reasoning: "MC measures the cost of one more unit.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Marginal cost", statement: "ΔTC / ΔQ." }], steps: [{ reasoning: "MC measures the cost of one more unit.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u3-mcr-q7", difficulty: "core", totalMarks: 1,
@@ -338,7 +338,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Marginal revenue exceeds marginal cost" },
             { id: "d", text: "Marginal revenue is below marginal cost" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "MR > MC", statement: "Produce more." }], steps: [{ reasoning: "Each extra unit adds to profit when MR > MC.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "MR > MC", statement: "Produce more." }], steps: [{ reasoning: "Each extra unit adds to profit when MR > MC.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u3-mcr-q8", difficulty: "core", totalMarks: 1,
@@ -349,7 +349,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Marginal revenue equals marginal cost" },
             { id: "d", text: "Price equals marginal cost" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "MR = MC", statement: "Profit maximisation." }], steps: [{ reasoning: "MR = MC is the optimal output level.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "MR = MC", statement: "Profit maximisation." }], steps: [{ reasoning: "MR = MC is the optimal output level.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u3-mcr-q9", difficulty: "challenge", totalMarks: 1,
@@ -360,7 +360,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Reduce output" },
             { id: "d", text: "Raise prices always" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "MR < MC", statement: "Reduce output." }], steps: [{ reasoning: "Extra units would reduce profit, so output should fall.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "MR < MC", statement: "Reduce output." }], steps: [{ reasoning: "Extra units would reduce profit, so output should fall.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u3-mcr-q10", difficulty: "foundation", totalMarks: 1,

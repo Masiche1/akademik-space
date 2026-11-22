@@ -66,7 +66,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Recall the standard method.", working: "\\text{find right triangles}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Identify the right-angled triangles",
+            finalAnswer: "**(c)** Identify the right-angled triangles",
             commonErrors: ["Trying to apply 2D formulas directly to the 3D figure."],
           },
         },
@@ -155,7 +155,7 @@ export const lesson63: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "technique", name: "3D strategy", statement: "Reduce 3D problems to 2D right-angled triangles." } ],
             steps: [ { reasoning: "Recall the standard method.", working: "\\text{find right triangles}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(a)** Identify the right-angled triangles", commonErrors: ["Applying 2D formulas directly."] },
+            finalAnswer: "**(d)** Identify the right-angled triangles", commonErrors: ["Applying 2D formulas directly."] },
         },
         {
           id: "ciem-u6-trig-3d-q6", difficulty: "core", totalMarks: 1,
@@ -169,7 +169,7 @@ export const lesson63: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "formula", name: "Tangent", statement: "$\\tan\\theta=\\frac{h}{d}$" } ],
             steps: [ { reasoning: "Use opposite over adjacent.", working: "\\theta=\\tan^{-1}\\left(\\frac9{12}\\right)\\approx36.9^\\circ", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** $36.9^\\circ$", commonErrors: ["Using $\\frac{12}{9}$."] },
+            finalAnswer: "**(c)** $36.9^\\circ$", commonErrors: ["Using $\\frac{12}{9}$."] },
         },
         {
           id: "ciem-u6-trig-3d-q7", difficulty: "core", totalMarks: 3,
@@ -194,7 +194,7 @@ export const lesson63: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Angle with base", statement: "$\\tan\\theta=\\frac{h}{\\text{half base diagonal}}$" } ],
             steps: [ { reasoning: "Half diagonal $=7\\sqrt2\\approx9.90$; $\\tan\\theta=\\frac{10}{9.90}$.", working: "\\theta\\approx45.3^\\circ", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $45.3^\\circ$", commonErrors: ["Using the full diagonal or half the side."] },
+            finalAnswer: "**(d)** $45.3^\\circ$", commonErrors: ["Using the full diagonal or half the side."] },
         },
         {
           id: "ciem-u6-trig-3d-q9", difficulty: "core", totalMarks: 3,
@@ -229,7 +229,7 @@ export const lesson63: Lesson = {
             correctChoiceId: "b" },
           markscheme: { principles: [ { kind: "property", name: "Pyramid geometry", statement: "The height is perpendicular to the base, so the triangle is right-angled." } ],
             steps: [ { reasoning: "Identify the right angle at the base centre.", working: "\\text{right-angled}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(a)** A right-angled triangle", commonErrors: ["Using the slant height instead of the perpendicular height."] },
+            finalAnswer: "**(b)** A right-angled triangle", commonErrors: ["Using the slant height instead of the perpendicular height."] },
         },
         {
           id: "ciem-u6-trig-3d-q12", difficulty: "core", totalMarks: 4,
@@ -277,7 +277,7 @@ export const lesson63: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "property", name: "Pyramid geometry", statement: "Slant edge $=\\sqrt{h^2+OA^2}$ is opposite the right angle." } ],
             steps: [ { reasoning: "Identify the hypotenuse.", working: "\\text{slant edge}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** The slant edge", commonErrors: ["Confusing slant height with slant edge."] },
+            finalAnswer: "**(c)** The slant edge", commonErrors: ["Confusing slant height with slant edge."] },
         },
         {
           id: "ciem-u6-trig-3d-q16", difficulty: "challenge", totalMarks: 8,

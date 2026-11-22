@@ -90,7 +90,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Accurate retrieval", statement: "Choose the detail that matches the question focus, not another number from the same paragraph." }],
             steps: [{ reasoning: "The text states ‘The crossing takes fifty minutes’; this directly answers the question.", evidence: "The crossing takes fifty minutes", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Fifty minutes, because the first paragraph says so directly.",
+            finalAnswer: "**(d)** Fifty minutes, because the first paragraph says so directly.",
             commonErrors: ["Choosing forty because the ferry carries ‘forty passengers’.", "Choosing thirty-one, which is the number of years Mr Pryce has worked the route."],
           },
         },
@@ -220,7 +220,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Identifying overall viewpoint", statement: "Check each option against the whole text, including concessions." }],
             steps: [{ reasoning: "He says he is not asking anyone to throw away their phone but criticises dependence, so the balanced view is correct.", evidence: "I am not asking anyone to throw away their phone", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** He accepts phones but objects to over-reliance on them.",
+            finalAnswer: "**(c)** He accepts phones but objects to over-reliance on them.",
             commonErrors: ["Choosing (a), an exaggeration of his view that ignores his concession.", "Choosing (d), the opposite of the survey point."],
           },
         },

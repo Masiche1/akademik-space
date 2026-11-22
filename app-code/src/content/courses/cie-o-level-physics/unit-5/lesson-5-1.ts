@@ -60,7 +60,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Reflection", statement: "i = r." }],
             steps: [{ reasoning: "Recall.", working: "i = r", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** i = r",
+            finalAnswer: "**(b)** i = r",
             commonErrors: ["Angles measured from surface."],
           },
         },
@@ -136,11 +136,11 @@ export const lessonp51: Lesson = {
             { id: "b", text: "$70^\\circ$" },
             { id: "c", text: "$90^\\circ$" },
             { id: "d", text: "$55^\\circ$" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "law", name: "Reflection", statement: "i = r; angle between rays = i + r = 2i." }],
             steps: [{ reasoning: "Angle between incident and reflected rays is i + r = 2i.", working: "2 \\times 35^\\circ = 70^\\circ", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** $70^\\circ$",
+            finalAnswer: "**(b)** $70^\\circ$",
             commonErrors: ["Answering $35^\\circ$ — that is only the angle of incidence."],
           },
         },
@@ -174,7 +174,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "TIR", statement: "Dense to less dense, i > critical angle." }],
             steps: [{ reasoning: "Recall the conditions for TIR.", working: "\\text{dense} \\rightarrow \\text{less dense},\\ i > c", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** From a denser medium to a less dense medium at an angle greater than the critical angle",
+            finalAnswer: "**(d)** From a denser medium to a less dense medium at an angle greater than the critical angle",
             commonErrors: ["Reversing the direction of travel."],
           },
         },
@@ -192,7 +192,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Refraction", statement: "Slower in denser medium → bends toward normal." }],
             steps: [{ reasoning: "Recall speed change and bending direction.", working: "v \\downarrow \\Rightarrow \\text{toward normal}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It slows down and bends toward the normal",
+            finalAnswer: "**(d)** It slows down and bends toward the normal",
             commonErrors: ["Confusing entry into denser medium with exit into less dense."],
           },
         },
@@ -300,7 +300,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Angles", statement: "Measured from the normal." }],
             steps: [{ reasoning: "Recall.", working: "\\text{from normal}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The normal",
+            finalAnswer: "**(d)** The normal",
             commonErrors: ["Measuring from the mirror surface."],
           },
         },
@@ -389,7 +389,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Magnifying glass", statement: "Convex lens, object inside F." }],
             steps: [{ reasoning: "Recall.", working: "\\text{convex}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Convex",
+            finalAnswer: "**(a)** Convex",
             commonErrors: ["Concave always diminishes."],
           },
         },
@@ -469,7 +469,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Magnifying glass", statement: "Convex lens with object inside F." }],
             steps: [{ reasoning: "Recall.", working: "\\text{convex lens}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Convex",
+            finalAnswer: "**(a)** Convex",
             commonErrors: ["Concave always produces a diminished image."],
           },
         },
@@ -487,7 +487,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Convex lens", statement: "Object at F → refracted rays parallel → no image." }],
             steps: [{ reasoning: "Recall ray behaviour at F.", working: "u = f \\Rightarrow \\text{parallel rays}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** They emerge parallel, so no image is formed",
+            finalAnswer: "**(a)** They emerge parallel, so no image is formed",
             commonErrors: ["Thinking an image forms at infinity — the rays are parallel."],
           },
         },
@@ -533,11 +533,11 @@ export const lessonp51: Lesson = {
             { id: "b", text: "passes through without changing direction" },
             { id: "c", text: "is reflected back toward the source" },
             { id: "d", text: "is absorbed by the lens" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Optical centre", statement: "Ray through optical centre is undeviated." }],
             steps: [{ reasoning: "Recall ray rule.", working: "\\text{centre ray undeviated}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Passes through without changing direction",
+            finalAnswer: "**(b)** Passes through without changing direction",
             commonErrors: ["Confusing with the ray through the focal point."],
           },
         },
@@ -597,7 +597,7 @@ export const lessonp51: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Concave lens", statement: "Always virtual, upright, diminished." }],
             steps: [{ reasoning: "Recall.", working: "\\text{virtual, upright, diminished}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It forms a virtual, upright, diminished image",
+            finalAnswer: "**(c)** It forms a virtual, upright, diminished image",
             commonErrors: ["Treating concave like a converging lens."],
           },
         },
@@ -645,11 +645,11 @@ export const lessonp51: Lesson = {
             { id: "b", text: "beyond 2F" },
             { id: "c", text: "exactly at 2F" },
             { id: "d", text: "between F and 2F" },
-          ], correctChoiceIa: "d" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Convex lens", statement: "Object inside F → virtual, upright, magnified." }],
             steps: [{ reasoning: "Recall.", working: "u < f \\Rightarrow \\text{virtual magnified}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(d)** Inside the focal length",
+            finalAnswer: "**(a)** Inside the focal length",
             commonErrors: ["Confusing with the region between F and 2F which gives a real magnified image."],
           },
         },

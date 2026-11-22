@@ -112,7 +112,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.7$",
+            finalAnswer: "**(c)** $0.7$",
             commonErrors: [
               "Subtracting only one tail, giving $0.85$.",
               "Giving the combined tail probability $0.3$.",
@@ -415,7 +415,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.1587$",
+            finalAnswer: "**(c)** $0.1587$",
             commonErrors: [
               "Using $\\sigma=16$ instead of $\\sigma=4$.",
               "Reading $\\mathrm{P}(Z>-1)=0.8413$ (the wrong tail).",
@@ -459,7 +459,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.100$",
+            finalAnswer: "**(c)** $0.100$",
             commonErrors: [
               "Using $p^n=0.25^8$ (probability of all successes).",
               "Computing $8(0.25)(0.75)^7$, which is $\\mathrm{P}(X=1)$.",
@@ -612,7 +612,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\mu=30$",
+            finalAnswer: "**(b)** $\\mu=30$",
             commonErrors: [
               "Thinking $\\sigma$ is needed — it cancels because the probability is 0.5.",
             ],
@@ -971,7 +971,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.346$",
+            finalAnswer: "**(c)** $0.346$",
             commonErrors: [
               "Using $\\binom53=10$ incorrectly or omitting it.",
               "Swapping $p$ and $1-p$: computing $0.6^2(0.4)^3$ instead.",
@@ -1017,7 +1017,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.954$",
+            finalAnswer: "**(c)** $0.954$",
             commonErrors: [
               "Using $\\sigma=25$ instead of $\\sigma=5$.",
               "Reading $\\mathrm{P}(-1<Z<1)=0.683$ (one-sigma interval).",
@@ -1099,7 +1099,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac34$",
+            finalAnswer: "**(b)** $\\frac34$",
             commonErrors: [
               "Choosing $\\frac43$, the value of the integral rather than its reciprocal.",
             ],
@@ -1422,7 +1422,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac13$",
+            finalAnswer: "**(c)** $\\frac13$",
             commonErrors: [
               "Choosing $3$, the interval length rather than the reciprocal of it.",
               "Using $5-2=2$ as the length of the interval.",
@@ -1535,7 +1535,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $x=2$",
+            finalAnswer: "**(c)** $x=2$",
             commonErrors: [
               "Choosing an endpoint such as $x=4$, where $f=0$.",
               "Reporting the roots $x=0$ and $x=4$ of $f$ rather than the maximum.",
@@ -1741,7 +1741,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.75$",
+            finalAnswer: "**(d)** $0.75$",
             commonErrors: [
               "Integrating from 0 to 2, which gives $\\mathrm{P}(X<2)$.",
               "Using $\\frac{4-2}{8}=0.25$ as though the pdf were constant.",
@@ -1789,7 +1789,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac23$",
+            finalAnswer: "**(d)** $\\frac23$",
             commonErrors: [
               "Choosing $x=1$, an endpoint where $f=0$.",
               "Reporting the other root $x=0$ without checking which stationary point is a maximum.",

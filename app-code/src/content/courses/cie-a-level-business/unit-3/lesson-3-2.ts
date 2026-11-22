@@ -267,7 +267,7 @@ export const lesson392: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** the currency's value rises against other currencies",
+              "**(d)** the currency's value rises against other currencies",
           },
         },
         {
@@ -388,7 +388,7 @@ export const lesson392: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** cheaper and more competitive abroad",
+            finalAnswer: "**(c)** cheaper and more competitive abroad",
           },
         },
         {
@@ -524,7 +524,7 @@ export const lesson392: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** a non-tariff barrier",
+            finalAnswer: "**(c)** a non-tariff barrier",
           },
         },
         {
@@ -628,7 +628,7 @@ export const lesson392: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** imports exceed exports",
+            finalAnswer: "**(b)** imports exceed exports",
           },
         },
         {
@@ -720,7 +720,7 @@ export const lesson392: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** a depreciation of the domestic currency",
+            finalAnswer: "**(b)** a depreciation of the domestic currency",
           },
         },
         {

@@ -7,6 +7,12 @@ const EDIT: TextExtract = {
   text: "Social media has alot of affects on teens. The platforms design them to be addictive, which means users cant stop scrolling. Its a problem that effects mental health. Because their brains are still developing, teens are more vulnerable to the persuasion architecture that platforms use.",
 };
 
+const ERRORS: TextExtract = {
+  title: "Student Essay with Syntax Errors",
+  author: "Written for Akademik Space",
+  text: "Social media effects everyone. People spend hours on there phones. The platforms design them to be addictive. Which means users can't stop scrolling. Its a problem that affects teens the most. Because their brains are still developing.",
+};
+
 const REV: TextExtract = {
   title: "Revision Practice: Argument Paragraph",
   author: "Written for Akademik Space",
@@ -105,7 +111,7 @@ export const lesson72: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)**. alot → a lot; affects → effects.",
+            finalAnswer: "**(d)**. alot → a lot; affects → effects.",
             commonErrors: ["Confusing 'alot' with 'allot' (distribute)."],
           },
         },
@@ -320,7 +326,7 @@ export const lesson72: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)**. is / are.",
+            finalAnswer: "**(b)**. is / are.",
             commonErrors: ["Agreeing with 'users' instead of 'group.'"],
           },
         },
@@ -540,7 +546,7 @@ export const lesson72: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. Editing = errors; revision = content improvement.",
+              "**(c)**. Editing = errors; revision = content improvement.",
             commonErrors: ["Thinking they're interchangeable."],
           },
         },
@@ -977,7 +983,7 @@ export const lesson72: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Content revision — thesis, evidence, organization.",
+              "**(c)**. Content revision — thesis, evidence, organization.",
             commonErrors: ["Starting with grammar — fix content first."],
           },
         },

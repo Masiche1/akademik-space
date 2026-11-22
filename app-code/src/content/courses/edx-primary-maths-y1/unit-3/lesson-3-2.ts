@@ -89,7 +89,7 @@ export const lesson32: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** 4",
+            finalAnswer: "**(d)** 4",
             commonErrors: ["Answering 3 — confusing groups with amount each."],
           },
         },

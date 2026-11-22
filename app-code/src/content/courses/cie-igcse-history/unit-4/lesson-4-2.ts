@@ -263,7 +263,7 @@ export const lesson362: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** A visual representation of events in chronological order",
+              "**(c)** A visual representation of events in chronological order",
           },
         },
         {
@@ -373,7 +373,7 @@ export const lesson362: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** The Cuban Missile Crisis (1962)",
+            finalAnswer: "**(b)** The Cuban Missile Crisis (1962)",
           },
         },
         {
@@ -620,7 +620,7 @@ export const lesson362: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** A period of ten years",
+            finalAnswer: "**(c)** A period of ten years",
           },
         },
         {

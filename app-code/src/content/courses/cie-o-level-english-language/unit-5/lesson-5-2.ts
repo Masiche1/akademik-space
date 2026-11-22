@@ -65,7 +65,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Summary = main points.", working: "main points", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Main points only",
+            finalAnswer: "**(d)** Main points only",
             commonErrors: ["Choosing (b) — that's copying."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson52: Lesson = {
         steps: [
           { reasoning: "Main argument is a key point.", working: "argument", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** The main argument",
+        finalAnswer: "**(b)** The main argument",
         commonErrors: ["Choosing anecdotes — those are excluded."],
       },
     },
@@ -196,7 +196,7 @@ export const lesson52: Lesson = {
         steps: [
           { reasoning: "Supporting details are excluded.", working: "details", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Supporting details",
+        finalAnswer: "**(c)** Supporting details",
         commonErrors: ["Excluding main points — those must stay."],
       },
     },
@@ -222,7 +222,7 @@ export const lesson52: Lesson = {
         steps: [
           { reasoning: "Own words demonstrate comprehension.", working: "paraphrase", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** To show understanding through paraphrase",
+        finalAnswer: "**(c)** To show understanding through paraphrase",
         commonErrors: ["Copying phrases — plagiarism and poor technique."],
       },
     },
@@ -248,7 +248,7 @@ export const lesson52: Lesson = {
         steps: [
           { reasoning: "Summary is much shorter than original.", working: "quarter", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** About one quarter to one third",
+        finalAnswer: "**(d)** About one quarter to one third",
         commonErrors: ["Writing a full-length retelling."],
       },
     },
@@ -610,7 +610,7 @@ export const lesson52: Lesson = {
         steps: [
           { reasoning: "Reading comes first.", working: "read", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Read the text carefully",
+        finalAnswer: "**(d)** Read the text carefully",
         commonErrors: ["Writing before reading — cannot summarise what you haven't read."],
       },
     },
@@ -636,7 +636,7 @@ export const lesson52: Lesson = {
         steps: [
           { reasoning: "First read = understanding; second = key points.", working: "twice", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** First for understanding, second for key points",
+        finalAnswer: "**(b)** First for understanding, second for key points",
         commonErrors: ["Reading once — misses key points."],
       },
     },
@@ -662,7 +662,7 @@ export const lesson52: Lesson = {
         steps: [
           { reasoning: "Paraphrase = own words.", working: "paraphrase", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Restate in your own words",
+        finalAnswer: "**(b)** Restate in your own words",
         commonErrors: ["Confusing paraphrase with copying."],
       },
     },
@@ -688,7 +688,7 @@ export const lesson52: Lesson = {
         steps: [
           { reasoning: "Correct sequence starts with reading.", working: "order", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Read → identify → paraphrase → check → edit",
+        finalAnswer: "**(d)** Read → identify → paraphrase → check → edit",
         commonErrors: ["Editing before writing — wrong order."],
       },
     },
@@ -714,7 +714,7 @@ export const lesson52: Lesson = {
         steps: [
           { reasoning: "Word count checked in edit stage.", working: "edit", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** After writing, during the edit stage",
+        finalAnswer: "**(d)** After writing, during the edit stage",
         commonErrors: ["Ignoring word limits entirely."],
       },
     },
@@ -945,7 +945,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Accuracy = correct reflection.", working: "correct", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Correctly reflects main points",
+            finalAnswer: "**(c)** Correctly reflects main points",
             commonErrors: ["Choosing (d) — summaries are objective."],
           },
         },
@@ -1076,7 +1076,7 @@ export const lesson52: Lesson = {
         steps: [
           { reasoning: "Three criteria: accuracy, completeness, style.", working: "criteria", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Accuracy, completeness, style",
+        finalAnswer: "**(b)** Accuracy, completeness, style",
         commonErrors: ["Checking only one criterion."],
       },
     },
@@ -1128,7 +1128,7 @@ export const lesson52: Lesson = {
         steps: [
           { reasoning: "Completeness = all main points present.", working: "completeness", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** All main points are included",
+        finalAnswer: "**(b)** All main points are included",
         commonErrors: ["Confusing completeness with accuracy."],
       },
     },

@@ -61,7 +61,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "u", statement: "Initial velocity." }],
             steps: [{ reasoning: "Recall.", working: "u = u_{initial}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Initial velocity",
+            finalAnswer: "**(d)** Initial velocity",
             commonErrors: ["u vs v confusion."],
           },
         },
@@ -137,11 +137,11 @@ export const lessonp13: Lesson = {
             { id: "b", text: "$s = \\tfrac{1}{2}(u+v)t$" },
             { id: "c", text: "$v = u + at$" },
             { id: "d", text: "$v^2 = u^2 + 2as$" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "formula", name: "Suvat", statement: "v² = u² + 2as has no t." }],
             steps: [{ reasoning: "Inspect equations.", working: "v^2 = u^2 + 2as", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** $v^2 = u^2 + 2as$",
+            finalAnswer: "**(d)** $v^2 = u^2 + 2as$",
             commonErrors: ["Misreading which variables appear."],
           },
         },
@@ -175,7 +175,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "u", statement: "u = initial velocity." }],
             steps: [{ reasoning: "Recall.", working: "u = u_{initial}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** initial velocity",
+            finalAnswer: "**(a)** initial velocity",
             commonErrors: ["u vs v confusion."],
           },
         },
@@ -227,11 +227,11 @@ export const lessonp13: Lesson = {
             { id: "b", text: "$9.8\\ \\text{m/s}^2$ upward throughout" },
             { id: "c", text: "zero at the top only" },
             { id: "d", text: "changing direction with velocity" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Free fall", statement: "a = g always downward." }],
             steps: [{ reasoning: "Gravity always acts downward.", working: "a = -g = -9.8\\ \\text{m/s}^2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** $-9.8\\ \\text{m/s}^2$ (downward) throughout",
+            finalAnswer: "**(a)** $-9.8\\ \\text{m/s}^2$ (downward) throughout",
             commonErrors: ["Thinking acceleration is zero at the top — only velocity is momentarily zero."],
           },
         },
@@ -270,7 +270,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Acceleration", statement: "a = Δv/t; constant v → a = 0." }],
             steps: [{ reasoning: "No change in velocity.", working: "\\Delta v = 0 \\Rightarrow a = 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** zero",
+            finalAnswer: "**(a)** zero",
             commonErrors: ["Confusing speed with acceleration."],
           },
         },
@@ -403,7 +403,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "d-t graph", statement: "Gradient = speed." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gradient} = \\text{speed}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Speed",
+            finalAnswer: "**(a)** Speed",
             commonErrors: ["v-t gradient is acceleration."],
           },
         },
@@ -483,7 +483,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "v-t gradient", statement: "Gradient = acceleration." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gradient} = \\frac{\\Delta v}{\\Delta t} = a", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** acceleration",
+            finalAnswer: "**(d)** acceleration",
             commonErrors: ["Speed is on the d-t graph."],
           },
         },
@@ -517,7 +517,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "v-t area", statement: "Area = distance." }],
             steps: [{ reasoning: "Recall.", working: "s = \\text{area}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** distance travelled",
+            finalAnswer: "**(a)** distance travelled",
             commonErrors: ["Gradient is acceleration."],
           },
         },
@@ -607,7 +607,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "d-t graph", statement: "Horizontal = no change in distance." }],
             steps: [{ reasoning: "Recall.", working: "\\text{flat} \\Rightarrow v = 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** stationary",
+            finalAnswer: "**(d)** stationary",
             commonErrors: ["Zero gradient means zero speed."],
           },
         },
@@ -642,7 +642,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "d-t gradient", statement: "Gradient = speed." }],
             steps: [{ reasoning: "Recall.", working: "\\text{steeper} = \\text{faster}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** higher speed",
+            finalAnswer: "**(c)** higher speed",
             commonErrors: ["d-t graph does not directly show acceleration."],
           },
         },

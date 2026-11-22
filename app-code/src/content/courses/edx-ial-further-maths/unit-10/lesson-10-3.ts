@@ -65,7 +65,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "PERT weights the most likely estimate four times.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{a+4m+b}{6}$",
+            finalAnswer: "**(c)** $\\frac{a+4m+b}{6}$",
             commonErrors: ["Using equal weights for all three estimates."],
           },
         },

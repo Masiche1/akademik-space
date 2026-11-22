@@ -70,7 +70,7 @@ export const lesson42: Lesson = {
               { reasoning: "A theme is the subject or idea explored, not a formal property.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A subject or idea that an artwork explores",
+            finalAnswer: "**(a)** A subject or idea that an artwork explores",
             commonErrors: [
               "Confusing theme with motif or style.",
             ],
@@ -206,7 +206,7 @@ export const lesson42: Lesson = {
               { reasoning: "Approach describes how a subject is treated, not merely which subject is chosen.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Their distinctive way of treating that subject formally and conceptually",
+            finalAnswer: "**(a)** Their distinctive way of treating that subject formally and conceptually",
             commonErrors: [
               "Confusing the subject of a work with the approach taken to it.",
             ],
@@ -235,7 +235,7 @@ export const lesson42: Lesson = {
               { reasoning: "Idealisation and distortion express different attitudes to humanity shaped by era and intent.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Different conceptual aims and era-specific attitudes to the body",
+            finalAnswer: "**(c)** Different conceptual aims and era-specific attitudes to the body",
             commonErrors: [
               "Treating stylistic difference as mere error or accident.",
             ],
@@ -264,7 +264,7 @@ export const lesson42: Lesson = {
               { reasoning: "Personal symbolism is private to the artist and requires biographical context to decode.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Symbols private to an artist that carry meaning for them specifically",
+            finalAnswer: "**(c)** Symbols private to an artist that carry meaning for them specifically",
             commonErrors: [
               "Confusing personal symbolism with conventional iconography.",
             ],
@@ -380,7 +380,7 @@ export const lesson42: Lesson = {
               { reasoning: "Universal themes recur across cultures and periods.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A subject that transcends cultures and periods, such as mortality or love",
+            finalAnswer: "**(c)** A subject that transcends cultures and periods, such as mortality or love",
             commonErrors: [
               "Confusing universal themes with culturally specific subjects.",
             ],
@@ -409,7 +409,7 @@ export const lesson42: Lesson = {
               { reasoning: "Fragmenting the figure is a deliberate approach that expresses psychological state.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Fragmenting the human figure to express psychological unease",
+            finalAnswer: "**(d)** Fragmenting the human figure to express psychological unease",
             commonErrors: [
               "Confusing neutral practical choices with meaning-bearing approach.",
             ],
@@ -559,7 +559,7 @@ export const lesson42: Lesson = {
               { reasoning: "Theme meaning is activated by the cultural and historical context of creation.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The cultural and historical context of its creation",
+            finalAnswer: "**(a)** The cultural and historical context of its creation",
             commonErrors: [
               "Treating theme meaning as fixed across all contexts.",
             ],
@@ -666,7 +666,7 @@ export const lesson42: Lesson = {
               { reasoning: "Theme meaning is activated by the cultural and historical framework.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The cultural and historical framework of the work",
+            finalAnswer: "**(c)** The cultural and historical framework of the work",
             commonErrors: [
               "Treating theme meaning as fixed across all contexts.",
             ],
@@ -695,7 +695,7 @@ export const lesson42: Lesson = {
               { reasoning: "Gender roles and power structures drive changes in female representation.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Changing gender roles and power structures have reframed its representation",
+            finalAnswer: "**(a)** Changing gender roles and power structures have reframed its representation",
             commonErrors: [
               "Ignoring the social causes behind representational change.",
             ],
@@ -724,7 +724,7 @@ export const lesson42: Lesson = {
               { reasoning: "Different media and contexts produce different constructions of 'the mountain'.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Each encodes a different relationship between humanity and nature",
+            finalAnswer: "**(d)** Each encodes a different relationship between humanity and nature",
             commonErrors: [
               "Assuming one representation is simply more accurate than others.",
             ],
@@ -753,7 +753,7 @@ export const lesson42: Lesson = {
               { reasoning: "Theme evolution functions as a historical record of values and power.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Records changing values, technology and power structures",
+            finalAnswer: "**(c)** Records changing values, technology and power structures",
             commonErrors: [
               "Treating theme evolution as mere cataloguing rather than evidence of change.",
             ],
@@ -898,7 +898,7 @@ export const lesson42: Lesson = {
               { reasoning: "Evolution of themes is driven by changing values, power and technology.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Shifting values, power relations and technologies change what a theme signifies",
+            finalAnswer: "**(a)** Shifting values, power relations and technologies change what a theme signifies",
             commonErrors: [
               "Explaining evolution without reference to cultural causes.",
             ],

@@ -57,7 +57,7 @@ export const lesson142: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "OILRIG", statement: "Oxidation Is Loss, Reduction Is Gain of electrons." }],
             steps: [{ reasoning: "Recall.", working: "\\text{OILRIG}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Oxidation Is Loss, Reduction Is Gain",
+            finalAnswer: "**(d)** Oxidation Is Loss, Reduction Is Gain",
             commonErrors: ["Remembering backwards — oxidation = loss."],
           },
         },
@@ -137,7 +137,7 @@ export const lesson142: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "OILRIG", statement: "Zn loses electrons → oxidised." }],
             steps: [{ reasoning: "Zn → Zn²⁺ loses e⁻.", working: "\\text{Zn} \\rightarrow \\text{Zn}^{2+} + 2e^-", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** Zn",
+            finalAnswer: "**(c)** Zn",
             commonErrors: ["Choosing Cu²⁺ — it is reduced, not oxidised."],
           },
         },
@@ -155,7 +155,7 @@ export const lesson142: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Reduction", statement: "Gain of electrons." }],
             steps: [{ reasoning: "Only (b) shows electrons gained.", working: "\\text{e}^- \\text{ on left}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Cu²⁺ + 2e⁻ → Cu",
+            finalAnswer: "**(d)** Cu²⁺ + 2e⁻ → Cu",
             commonErrors: ["Choosing (a) — electrons on right = oxidation."],
           },
         },
@@ -200,11 +200,11 @@ export const lesson142: Lesson = {
             { id: "b", text: "Cu" },
             { id: "c", text: "H₂O" },
             { id: "d", text: "H₂" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Redox agents", statement: "The species reduced is the oxidising agent." }],
             steps: [{ reasoning: "CuO is reduced → oxidising agent.", working: "\\text{CuO reduced}", marks: 1, markCode: "M" }],
-            finalAnswer: "**(c)** CuO",
+            finalAnswer: "**(a)** CuO",
             commonErrors: ["Choosing H₂ — it is the reducing agent."],
           },
         },
@@ -302,7 +302,7 @@ export const lesson142: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Reduction", statement: "Gain of electrons (RIG)." }],
             steps: [{ reasoning: "Recall OILRIG.", working: "\\text{RIG} = \\text{gain e}^-", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Gain of electrons",
+            finalAnswer: "**(c)** Gain of electrons",
             commonErrors: ["Confusing with oxidation definitions."],
           },
         },
@@ -334,11 +334,11 @@ export const lesson142: Lesson = {
             { id: "b", text: "Fe" },
             { id: "c", text: "CO" },
             { id: "d", text: "CO₂" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Redox", statement: "Fe₂O₃ loses oxygen → Fe reduced." }],
             steps: [{ reasoning: "Loss of oxygen = reduction.", working: "\\text{Fe}_2\\text{O}_3 \\rightarrow \\text{Fe}", marks: 1, markCode: "M" }],
-            finalAnswer: "**(c)** Fe₂O₃",
+            finalAnswer: "**(a)** Fe₂O₃",
             commonErrors: ["Choosing CO — it is oxidised to CO₂."],
           },
         },
@@ -384,7 +384,7 @@ export const lesson142: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Oxidation half-eqn", statement: "Electrons on product side (lost)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{e}^- \\text{ on right}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Zn → Zn²⁺ + 2e⁻",
+            finalAnswer: "**(a)** Zn → Zn²⁺ + 2e⁻",
             commonErrors: ["Picking reduction — electrons on wrong side."],
           },
         },
@@ -464,7 +464,7 @@ export const lesson142: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Reduction half-eqn", statement: "Electrons on reactant side (gained)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{e}^- \\text{ on left}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Cu²⁺ + 2e⁻ → Cu",
+            finalAnswer: "**(c)** Cu²⁺ + 2e⁻ → Cu",
             commonErrors: ["Choosing (a) — electrons on right = oxidation."],
           },
         },
@@ -482,7 +482,7 @@ export const lesson142: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Oxidation half-eqn", statement: "Electrons lost → appear on product side." }],
             steps: [{ reasoning: "Recall.", working: "\\text{e}^- \\text{ right} = \\text{oxidation}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Product side (right)",
+            finalAnswer: "**(d)** Product side (right)",
             commonErrors: ["Reversing with reduction half-equations."],
           },
         },
@@ -582,7 +582,7 @@ export const lesson142: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Half-equation", statement: "Reduction gains e⁻ → electrons on reactant side." }],
             steps: [{ reasoning: "Recall.", working: "\\text{e}^- \\text{ left} = \\text{reduction}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The reactant side",
+            finalAnswer: "**(c)** The reactant side",
             commonErrors: ["Confusing with oxidation where e⁻ go on the right."],
           },
         },
@@ -628,7 +628,7 @@ export const lesson142: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Balancing", statement: "Fe²⁺ needs 2 electrons lost." }],
             steps: [{ reasoning: "Atoms and charge balanced only in (b).", working: "0 = +2 - 2", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** Fe → Fe²⁺ + 2e⁻",
+            finalAnswer: "**(a)** Fe → Fe²⁺ + 2e⁻",
             commonErrors: ["Choosing (d) — that is Fe³⁺, not Fe²⁺."],
           },
         },

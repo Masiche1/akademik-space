@@ -70,7 +70,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — abstract = concise summary.", working: "summary", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To provide a concise summary of the study",
+            finalAnswer: "**(d)** To provide a concise summary of the study",
             commonErrors: ["Confusing an abstract with a bibliography."],
             examinerNote: "B1 for (b).",
           },
@@ -187,7 +187,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — topic sentence = main point of the paragraph.", working: "main point", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To state the paragraph's main point",
+            finalAnswer: "**(d)** To state the paragraph's main point",
             commonErrors: ["Confusing topic sentence with evidence or conclusion."],
             examinerNote: "B1 for (b).",
           },
@@ -214,7 +214,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'furthermore' adds a further point.", working: "addition", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Addition",
+            finalAnswer: "**(d)** Addition",
             commonErrors: ["Confusing additive and contrastive connectors."],
             examinerNote: "B1 for (b).",
           },
@@ -247,7 +247,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — Sentence 1 states the aim/main point.", working: "sentence 1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sentence 1",
+            finalAnswer: "**(d)** Sentence 1",
             commonErrors: ["Choosing the method or results sentence instead of the main point."],
             examinerNote: "B1 for (a).",
           },
@@ -333,7 +333,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'the results were consistent' is the main clause; 'although the sample was limited' is conceded.", working: "main clause", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The results were consistent across all schools",
+            finalAnswer: "**(d)** The results were consistent across all schools",
             commonErrors: ["Choosing the conceded clause ('sample was limited') as the main claim."],
             examinerNote: "B1 for (b).",
           },
@@ -515,7 +515,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'may' and 'partly' hedge the causal claim.", working: "hedged", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Cautious, partial explanation",
+            finalAnswer: "**(c)** Cautious, partial explanation",
             commonErrors: ["Reading hedged causation as definitive proof."],
             examinerNote: "B1 for (b).",
           },
@@ -573,7 +573,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — author, purpose and evidence are core checks.", working: "author-purpose-evidence", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Who produced it, why, and what evidence supports its claims",
+            finalAnswer: "**(a)** Who produced it, why, and what evidence supports its claims",
             commonErrors: ["Judging credibility by appearance or agreement."],
             examinerNote: "B1 for (b).",
           },
@@ -690,7 +690,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — peer-reviewed journals apply expert scrutiny and report methods.", working: "peer review", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A peer-reviewed journal article",
+            finalAnswer: "**(d)** A peer-reviewed journal article",
             commonErrors: ["Choosing sources that are confident rather than checked."],
             examinerNote: "B1 for (b).",
           },
@@ -717,7 +717,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'experts say' gives no names, methods or findings to verify.", working: "vague authority", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It does not name the experts or their findings",
+            finalAnswer: "**(a)** It does not name the experts or their findings",
             commonErrors: ["Assuming 'experts' implies reliable evidence."],
             examinerNote: "B1 for (b).",
           },
@@ -836,7 +836,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — ignoring contrary studies and alternatives creates one-sided selection.", working: "selection bias", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Ignoring evidence that exams predict success and omitting alternatives",
+            finalAnswer: "**(d)** Ignoring evidence that exams predict success and omitting alternatives",
             commonErrors: ["Focusing on the anecdote rather than the missing counter-evidence."],
             examinerNote: "B1 for (b).",
           },
@@ -948,7 +948,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — evidence quality and method-claim fit are the strongest checks.", working: "evidence/method", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** What evidence does it provide, and does the method match the claim?",
+            finalAnswer: "**(a)** What evidence does it provide, and does the method match the claim?",
             commonErrors: ["Judging by agreement or appearance rather than evidence."],
             examinerNote: "B1 for (b).",
           },
@@ -1018,7 +1018,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — admitting limits suggests the writer is not overstating claims.", working: "honesty", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It generally increases credibility by showing honesty",
+            finalAnswer: "**(c)** It generally increases credibility by showing honesty",
             commonErrors: ["Assuming admitting weakness automatically means the claim is wrong."],
             examinerNote: "B1 for (b).",
           },

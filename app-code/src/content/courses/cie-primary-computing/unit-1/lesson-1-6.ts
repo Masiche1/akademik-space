@@ -230,7 +230,7 @@ export const lesson16: Lesson = {
             steps: [
               { reasoning: "Songs are sound data, stored in sound file formats like MP3.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** A sound file such as MP3",
+            finalAnswer: "**(c)** A sound file such as MP3",
           },
         },
         {
@@ -279,7 +279,7 @@ export const lesson16: Lesson = {
             steps: [
               { reasoning: "The extension shows the file's type so the right app can open it.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** What type of data the file contains",
+            finalAnswer: "**(d)** What type of data the file contains",
           },
         },
         {
@@ -315,7 +315,7 @@ export const lesson16: Lesson = {
               { reasoning: "A good name describes what and when: 'museum-trip-2024'.", marks: 1, markCode: "M" },
               { reasoning: "Generic names like IMG_0001 or photo.jpg are hard to identify later.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** museum-trip-2024.jpg",
+            finalAnswer: "**(b)** museum-trip-2024.jpg",
           },
         },
         {
@@ -381,7 +381,7 @@ export const lesson16: Lesson = {
               { reasoning: "Sound files store audio — songs, recordings, sound effects.", marks: 1, markCode: "M" },
               { reasoning: "Essays are text, photos are images, videos are video files.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** A song or recording",
+            finalAnswer: "**(c)** A song or recording",
           },
         },
         {

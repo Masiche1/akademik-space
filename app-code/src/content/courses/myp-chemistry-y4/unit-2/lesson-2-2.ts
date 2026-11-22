@@ -71,7 +71,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "pH 7 is neutral (pure water).", working: "pH=7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 7",
+            finalAnswer: "**(b)** 7",
             commonErrors: ["Choosing 0 — that's strongest acid."],
             examinerNote: "B1 for (a).",
           },
@@ -186,7 +186,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Below 7 = acidic.", working: "pH<7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Acidic",
+            finalAnswer: "**(c)** Acidic",
             commonErrors: ["Reversing the scale."],
             examinerNote: "B1 for (a).",
           },
@@ -533,7 +533,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "NaOH + HCl → NaCl + H₂O.", working: "NaCl", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sodium chloride",
+            finalAnswer: "**(b)** Sodium chloride",
             commonErrors: ["Reversing names."],
             examinerNote: "B1 for (a).",
           },
@@ -648,7 +648,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Sulfate comes from sulfuric acid.", working: "SO_4^{2-}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sulfate",
+            finalAnswer: "**(b)** Sulfate",
             commonErrors: ["Choosing chloride — that's from HCl."],
             examinerNote: "B1 for (a).",
           },

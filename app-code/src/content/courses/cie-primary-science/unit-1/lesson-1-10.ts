@@ -51,7 +51,7 @@ export const lesson110: Lesson = {
             { id: "b", text: "Hearing" },
             { id: "c", text: "Touch" },
             { id: "d", text: "Sight" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Safety", statement: "Never taste unknown substances." }],
             steps: [{ reasoning: "Tasting unknowns is dangerous.", marks: 1, markCode: "A" }],

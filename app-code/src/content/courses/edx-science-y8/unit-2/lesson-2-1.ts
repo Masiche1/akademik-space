@@ -59,7 +59,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Close together, arranged randomly and sliding past each other" },
               { id: "d", text: "Far apart, arranged randomly and moving quickly in all directions" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Gas particles have large gaps between them and are free to move, so they are far apart and moving randomly.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Far apart, arranged randomly and moving quickly in all directions",
+            finalAnswer: "**(d)** Far apart, arranged randomly and moving quickly in all directions",
             commonErrors: ["Choosing (a), which describes a solid.", "Choosing (b), which describes a liquid.", "Thinking that particles in a gas are held in position because the gas is invisible."],
             examinerNote: "B1 for (c) only.",
           },
@@ -205,7 +205,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "A gas turning into a liquid as it cools is condensation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Condensation",
+            finalAnswer: "**(d)** Condensation",
             commonErrors: ["Choosing evaporation, which is the reverse change (liquid to gas).", "Choosing freezing, which is liquid to solid."],
             examinerNote: "B1 for (b) only.",
           },

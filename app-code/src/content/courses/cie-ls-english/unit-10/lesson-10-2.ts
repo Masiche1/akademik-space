@@ -78,7 +78,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(a)** Imagery",
+            finalAnswer: "**(b)** Imagery",
           },
         },
         {
@@ -227,7 +227,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(b)** Olfactory (smell) imagery",
+            finalAnswer: "**(a)** Olfactory (smell) imagery",
           },
         },
         {
@@ -295,7 +295,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(b)** The yellow raincoat",
+            finalAnswer: "**(c)** The yellow raincoat",
           },
         },
         {
@@ -329,7 +329,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(b)** Repetition for emphasis",
+            finalAnswer: "**(a)** Repetition for emphasis",
           },
         },
         {
@@ -363,7 +363,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO3",
               },
             ],
-            finalAnswer: "**(b)** Calm relief after exhaustion",
+            finalAnswer: "**(c)** Calm relief after exhaustion",
           },
         },
         {
@@ -696,7 +696,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(a)** Chronologically",
+            finalAnswer: "**(d)** Chronologically",
           },
         },
         {
@@ -872,7 +872,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO3",
               },
             ],
-            finalAnswer: "**(b)** To establish his careful character and the work before the farewell",
+            finalAnswer: "**(a)** To establish his careful character and the work before the farewell",
           },
         },
         {
@@ -905,7 +905,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO3",
               },
             ],
-            finalAnswer: "**(b)** It lets the reader experience the departure in real time",
+            finalAnswer: "**(c)** It lets the reader experience the departure in real time",
           },
         },
         {
@@ -938,7 +938,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO3",
               },
             ],
-            finalAnswer: "**(b)** From work and cargo to a personal farewell",
+            finalAnswer: "**(d)** From work and cargo to a personal farewell",
           },
         },
         {
@@ -971,7 +971,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO3",
               },
             ],
-            finalAnswer: "**(b)** It gives quiet closure and releases the tension",
+            finalAnswer: "**(d)** It gives quiet closure and releases the tension",
           },
         },
         {
@@ -1299,7 +1299,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(a)** Simile",
+            finalAnswer: "**(b)** Simile",
           },
         },
         {
@@ -1446,7 +1446,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(a)** Simile 'like dice in a cup' + chronological structure",
+            finalAnswer: "**(d)** Simile 'like dice in a cup' + chronological structure",
           },
         },
         {
@@ -1479,7 +1479,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(b)** Repetition — emphasises thorough, official procedure",
+            finalAnswer: "**(a)** Repetition — emphasises thorough, official procedure",
           },
         },
         {
@@ -1512,7 +1512,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(b)** To establish setting and Tomas's working routine",
+            finalAnswer: "**(d)** To establish setting and Tomas's working routine",
           },
         },
         {
@@ -1578,7 +1578,7 @@ export const lesson1021: Lesson = {
                 markCode: "AO3",
               },
             ],
-            finalAnswer: "**(b)** Awe mixed with slight apprehension",
+            finalAnswer: "**(a)** Awe mixed with slight apprehension",
           },
         },
         {

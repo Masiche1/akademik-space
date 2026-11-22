@@ -70,7 +70,7 @@ export const lesson61: Lesson = {
               { reasoning: "Description states objective facts — plot, performances, design.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Stating what was objectively present in the performance",
+            finalAnswer: "**(d)** Stating what was objectively present in the performance",
             commonErrors: [
               "Confusing description with analysis or evaluation.",
             ],
@@ -200,7 +200,7 @@ export const lesson61: Lesson = {
               { reasoning: "Context situates the performance within its circumstances and tradition.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The circumstances surrounding the performance",
+            finalAnswer: "**(a)** The circumstances surrounding the performance",
             commonErrors: [
               "Reducing context to surface details like costume colour.",
             ],
@@ -229,7 +229,7 @@ export const lesson61: Lesson = {
               { reasoning: "Credibility comes from citing a specific moment, not from evaluative adjectives alone.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It cites a specific moment in the performance",
+            finalAnswer: "**(c)** It cites a specific moment in the performance",
             commonErrors: [
               "Believing evaluative adjectives alone make a claim credible.",
             ],
@@ -258,7 +258,7 @@ export const lesson61: Lesson = {
               { reasoning: "Choice (b) describes the set and analyses its effect on attention.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'The minimalist set focused attention on the actors' stillness.'",
+            finalAnswer: "**(d)** 'The minimalist set focused attention on the actors' stillness.'",
             commonErrors: [
               "Choosing evaluative or purely personal statements as analysis.",
             ],
@@ -287,7 +287,7 @@ export const lesson61: Lesson = {
               { reasoning: "A farce should be judged on comic timing and clarity, not tragic depth.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It judges the work by criteria inappropriate to its genre",
+            finalAnswer: "**(a)** It judges the work by criteria inappropriate to its genre",
             commonErrors: [
               "Applying one universal standard of 'good theatre' to all genres.",
             ],
@@ -316,7 +316,7 @@ export const lesson61: Lesson = {
               { reasoning: "Genre conventions define what counts as success for that form.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** To judge the work against appropriate criteria for that form",
+            finalAnswer: "**(a)** To judge the work against appropriate criteria for that form",
             commonErrors: [
               "Evaluating every performance by the same personal preferences.",
             ],
@@ -521,7 +521,7 @@ export const lesson61: Lesson = {
               { reasoning: "Acting quality is the believability, skill and commitment of performances.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The believability, skill and commitment of the performances",
+            finalAnswer: "**(c)** The believability, skill and commitment of the performances",
             commonErrors: [
               "Confusing acting quality with fame or costume.",
             ],
@@ -622,7 +622,7 @@ export const lesson61: Lesson = {
               { reasoning: "Pace assesses whether the production moved effectively.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Pace",
+            finalAnswer: "**(a)** Pace",
             commonErrors: [
               "Confusing pace with acting quality or design.",
             ],
@@ -651,7 +651,7 @@ export const lesson61: Lesson = {
               { reasoning: "Directorial vision is the concept the director pursued and how well it was realised.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The director's interpretive concept and how clearly it was executed",
+            finalAnswer: "**(c)** The director's interpretive concept and how clearly it was executed",
             commonErrors: [
               "Reducing directing to the director's reputation.",
             ],
@@ -670,7 +670,7 @@ export const lesson61: Lesson = {
               { id: "c", text: "Ignore the acting entirely" },
               { id: "d", text: "Evaluate each element independently" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -680,7 +680,7 @@ export const lesson61: Lesson = {
               { reasoning: "Strong acting and weak staging are separate judgements that should both be made.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (c) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Evaluate each element independently",
+            finalAnswer: "**(d)** Evaluate each element independently",
             commonErrors: [
               "Letting one strong element erase weaknesses elsewhere.",
             ],
@@ -738,7 +738,7 @@ export const lesson61: Lesson = {
               { reasoning: "Comparing productions situates the work in theatrical context.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Contextualising",
+            finalAnswer: "**(d)** Contextualising",
             commonErrors: [
               "Mistaking comparison for description of the plot.",
             ],
@@ -767,7 +767,7 @@ export const lesson61: Lesson = {
               { reasoning: "The observation distinguishes acting quality from production quality.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It shows that elements can succeed or fail independently",
+            finalAnswer: "**(a)** It shows that elements can succeed or fail independently",
             commonErrors: [
               "Treating the production as a single undifferentiated whole.",
             ],

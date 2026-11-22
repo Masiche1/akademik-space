@@ -237,7 +237,7 @@ export const lesson442: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Malthusian trap", statement: "Population growth outpaces resources." } ],
             steps: [ { reasoning: "The Malthusian trap occurs when population grows faster than the food and resources needed to support it, keeping incomes at subsistence.", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** population growth outpaces resources"
+            finalAnswer: "**(c)** population growth outpaces resources"
           }
         },
         {
@@ -258,7 +258,7 @@ export const lesson442: Lesson = {
           markscheme: {
             principles: [ { kind: "context", name: "Colonialism", statement: "Historical exploitation shapes structures." } ],
             steps: [ { reasoning: "Colonial powers often built economies geared to extracting primary products, leaving post-independence states dependent on low-value exports with unstable prices.", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** dependence on primary product exports"
+            finalAnswer: "**(b)** dependence on primary product exports"
           }
         },
         {
@@ -279,7 +279,7 @@ export const lesson442: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Social causes", statement: "Education, health, gender inequality." } ],
             steps: [ { reasoning: "Education and health are social factors affecting human capital; savings, infrastructure and terms of trade are economic factors.", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** poor access to education and healthcare"
+            finalAnswer: "**(c)** poor access to education and healthcare"
           }
         },
         {
@@ -300,7 +300,7 @@ export const lesson442: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Dependency theory", statement: "Developing reliance on developed economies." } ],
             steps: [ { reasoning: "Dependency theory argues developing countries occupy a subordinate position in the global economy, exporting cheap primary goods and importing expensive manufactures, locking in unequal exchange.", marks: 1, markCode: "A" } ],
-            finalAnswer: "**(a)** unequal trade transfers surplus"
+            finalAnswer: "**(d)** unequal trade transfers surplus"
           }
         },
         {
@@ -406,7 +406,7 @@ export const lesson442: Lesson = {
           markscheme: {
             principles: [ { kind: "skill", name: "Development policy", statement: "Breaking the poverty cycle." } ],
             steps: [ { reasoning: "Investment in education and infrastructure raises human and physical capital, lifting productivity and incomes — the key to escaping the vicious circle.", marks: 1, markCode: "A" } ],
-            finalAnswer: "**(a)** investment in education and infrastructure"
+            finalAnswer: "**(c)** investment in education and infrastructure"
           }
         },
         {
@@ -427,7 +427,7 @@ export const lesson442: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Structural adjustment", statement: "IMF/World Bank reform conditions." } ],
             steps: [ { reasoning: "Structural adjustment programmes attach conditions such as fiscal austerity, privatisation and trade liberalisation to IMF/World Bank lending.", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** reduce spending and liberalise markets"
+            finalAnswer: "**(c)** reduce spending and liberalise markets"
           }
         },
       ],

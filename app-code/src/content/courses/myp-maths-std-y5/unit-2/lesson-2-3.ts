@@ -71,7 +71,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Up 4 → add 4: $y=x^2+4$.", working: "y=x^2+4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $y=x^2+4$",
+            finalAnswer: "**(c)** $y=x^2+4$",
             commonErrors: ["Confusing vertical translation with horizontal."],
             examinerNote: "B1 for (a).",
           },
@@ -438,7 +438,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$b^5=2$ → $b=2^{1/5}=2^{0.2}\\approx1.149$.", working: "2^{0.2}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2^{0.2}\\approx1.149$",
+            finalAnswer: "**(d)** $2^{0.2}\\approx1.149$",
             commonErrors: ["Using 2 directly as the annual factor."],
             examinerNote: "B1 for (a).",
           },
@@ -549,7 +549,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Growth factor", statement: "$1+0.08=1.08$." }],
             steps: [{ reasoning: "Add the rate to 1.", working: "1.08", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 1.08",
+            finalAnswer: "**(c)** 1.08",
           },
         },
         {

@@ -70,7 +70,7 @@ export const lesson42: Lesson = {
               { reasoning: "A raga is a melodic framework — scale, ornamentation rules and mood — for improvisation.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A melodic framework prescribing notes, ornamentation and mood",
+            finalAnswer: "**(c)** A melodic framework prescribing notes, ornamentation and mood",
             commonErrors: [
               "Confusing raga (melodic framework) with tala (rhythmic cycle).",
             ],
@@ -171,7 +171,7 @@ export const lesson42: Lesson = {
               { reasoning: "Tala is the rhythmic framework — a cycle of beats within which improvisation occurs.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A repeating rhythmic cycle organising the performance",
+            finalAnswer: "**(d)** A repeating rhythmic cycle organising the performance",
             commonErrors: [
               "Confusing tala (rhythm) with raga (melody framework).",
             ],
@@ -331,7 +331,7 @@ export const lesson42: Lesson = {
               { reasoning: "Indian classical centres the soloist's improvisation; gamelan has no hierarchy — all parts essential.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Indian classical centres on a soloist improvising over accompaniment while gamelan interlocks equally among all players",
+            finalAnswer: "**(a)** Indian classical centres on a soloist improvising over accompaniment while gamelan interlocks equally among all players",
             commonErrors: [
               "Missing the soloist-versus-ensemble structural contrast.",
             ],
@@ -468,7 +468,7 @@ export const lesson42: Lesson = {
               { reasoning: "Tabla performs the tala cycle while sitar improvises within the raga.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Tala",
+            finalAnswer: "**(c)** Tala",
             commonErrors: [
               "Confusing raga (melody) with tala (rhythm).",
             ],
@@ -629,7 +629,7 @@ export const lesson42: Lesson = {
               { reasoning: "The didgeridoo is a drone instrument — a continuous low fundamental tone.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A continuous low drone",
+            finalAnswer: "**(a)** A continuous low drone",
             commonErrors: [
               "Assuming the didgeridoo plays melody rather than drone.",
             ],
@@ -678,7 +678,7 @@ export const lesson42: Lesson = {
               { reasoning: "Songlines are navigational and spiritual maps sung across the landscape.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Musical maps encoding routes, landmarks and ancestral knowledge",
+            finalAnswer: "**(d)** Musical maps encoding routes, landmarks and ancestral knowledge",
             commonErrors: [
               "Treating songlines as entertainment rather than functional knowledge.",
             ],
@@ -728,7 +728,7 @@ export const lesson42: Lesson = {
               { reasoning: "Competition celebrates cultural achievement and keeps traditional dance alive.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Celebrate culture and maintain tradition through skilled performance",
+            finalAnswer: "**(a)** Celebrate culture and maintain tradition through skilled performance",
             commonErrors: [
               "Reading competition as purely Western-style rivalry rather than cultural celebration.",
             ],
@@ -875,7 +875,7 @@ export const lesson42: Lesson = {
               { reasoning: "Both traditions transmit orally, connect to land and serve communal rather than passive functions.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Oral transmission, land connection and communal function",
+            finalAnswer: "**(a)** Oral transmission, land connection and communal function",
             commonErrors: [
               "Focusing on differences and missing shared foundations.",
             ],
@@ -926,7 +926,7 @@ export const lesson42: Lesson = {
               { reasoning: "Songlines literally encode landscape routes and sites in melodic form.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Songlines that encode the landscape in melody",
+            finalAnswer: "**(a)** Songlines that encode the landscape in melody",
             commonErrors: [
               "Missing the songline-land connection.",
             ],

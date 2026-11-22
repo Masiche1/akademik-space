@@ -262,7 +262,7 @@ export const lesson135: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Car engine management system",
+            finalAnswer: "**(c)** Car engine management system",
           },
         },
         {
@@ -428,7 +428,7 @@ export const lesson135: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Sprinkler timer",
+            finalAnswer: "**(c)** Sprinkler timer",
           },
         },
         {
@@ -526,7 +526,7 @@ export const lesson135: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Water valve",
+            finalAnswer: "**(d)** Water valve",
           },
         },
         {
@@ -628,7 +628,7 @@ export const lesson135: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Closed-loop",
+            finalAnswer: "**(d)** Closed-loop",
           },
         },
       ],

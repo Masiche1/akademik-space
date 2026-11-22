@@ -68,7 +68,7 @@ export const lesson31: Lesson = {
               { reasoning: "Add the squares of the two shorter sides.", working: "6^2+8^2=36+64=100", marks: 1, markCode: "M" },
               { reasoning: "Take the square root to find the hypotenuse.", working: "c=\\sqrt{100}=10", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** 10 cm",
+            finalAnswer: "**(b)** 10 cm",
             commonErrors: ["Adding the lengths (6 + 8 = 14) instead of the squares.", "Forgetting to take the square root and giving 100.", "Averaging the two sides."],
             examinerNote: "M1 for 36 + 64 oe; A1 cao.",
           },
@@ -212,7 +212,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Sine is opposite over hypotenuse. Write the fraction and simplify.", working: "\\sin\\theta=\\frac{6}{10}=\\frac{3}{5}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{3}{5}$",
+            finalAnswer: "**(d)** $\\frac{3}{5}$",
             commonErrors: ["Using adjacent over hypotenuse (cosine), giving $\\frac45$.", "Using opposite over adjacent (tangent), giving $\\frac34$.", "Inverting the fraction."],
           },
         },

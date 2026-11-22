@@ -288,7 +288,7 @@ export const lesson21: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Non-rival + non-excludable",
+            finalAnswer: "**(a)** Non-rival + non-excludable",
             commonErrors: ["Free confused."],
           },
         },

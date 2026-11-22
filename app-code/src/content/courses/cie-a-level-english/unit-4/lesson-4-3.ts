@@ -302,7 +302,7 @@ export const lesson243: Lesson = {
           totalMarks: 1,
           stem: "What is the role of the thesis in a prose essay?",
           response: { type: "mcq", choices: [ { id: "a", text: "To present an arguable claim guiding analysis" }, { id: "b", text: "To list characters" }, { id: "c", text: "To summarise the plot" }, { id: "d", text: "To describe the setting" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "technique", name: "Thesis", statement: "An arguable claim organises interpretation." }], steps: [{ reasoning: "The thesis directs analytical argument.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Arguable guiding claim", commonErrors: ["Writing plot summary instead of argument."] },
+          markscheme: { principles: [{ kind: "technique", name: "Thesis", statement: "An arguable claim organises interpretation." }], steps: [{ reasoning: "The thesis directs analytical argument.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Arguable guiding claim", commonErrors: ["Writing plot summary instead of argument."] },
         },
         {
           id: "cial-e-u4-pe-q6",
@@ -310,7 +310,7 @@ export const lesson243: Lesson = {
           totalMarks: 1,
           stem: "What are the three parts of a PEE paragraph?",
           response: { type: "mcq", choices: [ { id: "a", text: "Plot, emotion, ending" }, { id: "b", text: "Character, setting, theme" }, { id: "c", text: "Introduction, body, conclusion" }, { id: "d", text: "Point, evidence, explanation" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "PEE", statement: "Point, evidence and explanation." }], steps: [{ reasoning: "PEE structures analytical paragraphs.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Point, evidence, explanation", commonErrors: ["Quoting without explanation."] },
+          markscheme: { principles: [{ kind: "convention", name: "PEE", statement: "Point, evidence and explanation." }], steps: [{ reasoning: "PEE structures analytical paragraphs.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Point, evidence, explanation", commonErrors: ["Quoting without explanation."] },
         },
         {
           id: "cial-e-u4-pe-q7",
@@ -318,7 +318,7 @@ export const lesson243: Lesson = {
           totalMarks: 1,
           stem: "How should quotations be used in a prose essay?",
           response: { type: "mcq", choices: [ { id: "a", text: "Only at the end" }, { id: "b", text: "Without comment" }, { id: "c", text: "As long extracts" }, { id: "d", text: "Short and integrated into analysis" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "technique", name: "Integrated quotation", statement: "Brief quotes support analysis rather than replace it." }], steps: [{ reasoning: "Short integration keeps argument central.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Short and integrated", commonErrors: ["Using long block quotes."] },
+          markscheme: { principles: [{ kind: "technique", name: "Integrated quotation", statement: "Brief quotes support analysis rather than replace it." }], steps: [{ reasoning: "Short integration keeps argument central.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Short and integrated", commonErrors: ["Using long block quotes."] },
         },
         {
           id: "cial-e-u4-pe-q8",
@@ -334,7 +334,7 @@ export const lesson243: Lesson = {
           totalMarks: 1,
           stem: "Which passage is best for close reading?",
           response: { type: "mcq", choices: [ { id: "a", text: "The title page" }, { id: "b", text: "A random middle paragraph" }, { id: "c", text: "A turning point, revealing dialogue or symbolic moment" }, { id: "d", text: "A routine description" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Close reading passage", statement: "Significant moments repay detailed analysis." }], steps: [{ reasoning: "Key passages carry interpretive weight.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Turning point or symbolic moment", commonErrors: ["Analysing unimportant passages in detail."] },
+          markscheme: { principles: [{ kind: "skill", name: "Close reading passage", statement: "Significant moments repay detailed analysis." }], steps: [{ reasoning: "Key passages carry interpretive weight.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Turning point or symbolic moment", commonErrors: ["Analysing unimportant passages in detail."] },
         },
         {
           id: "cial-e-u4-pe-q10",
@@ -459,7 +459,7 @@ export const lesson243: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Historical/social/cultural circumstances",
+            finalAnswer: "**(c)** Historical/social/cultural circumstances",
             commonErrors: ["Confusing with plot."],
           },
         },
@@ -669,7 +669,7 @@ export const lesson243: Lesson = {
           totalMarks: 1,
           stem: "Which set best defines context in prose analysis?",
           response: { type: "mcq", choices: [ { id: "a", text: "Historical, social, cultural and biographical circumstances" }, { id: "b", text: "The chapter headings" }, { id: "c", text: "Only the plot" }, { id: "d", text: "Only character names" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Context", statement: "Historical, social, cultural and biographical circumstances." }], steps: [{ reasoning: "Context includes multiple surrounding factors.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Historical, social, cultural, biographical", commonErrors: ["Reducing context to plot."] },
+          markscheme: { principles: [{ kind: "definition", name: "Context", statement: "Historical, social, cultural and biographical circumstances." }], steps: [{ reasoning: "Context includes multiple surrounding factors.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Historical, social, cultural, biographical", commonErrors: ["Reducing context to plot."] },
         },
         {
           id: "cial-e-u4-pc-q6",
@@ -677,7 +677,7 @@ export const lesson243: Lesson = {
           totalMarks: 1,
           stem: "What is the main structural rule for comparative prose?",
           response: { type: "mcq", choices: [ { id: "a", text: "Avoid judgement" }, { id: "b", text: "Write two separate essays" }, { id: "c", text: "Compare only titles" }, { id: "d", text: "Weave comparison throughout" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Comparative prose", statement: "Comparison should be integrated point by point." }], steps: [{ reasoning: "Weaving creates genuine comparison.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Weave comparison throughout", commonErrors: ["Writing two disconnected analyses."] },
+          markscheme: { principles: [{ kind: "skill", name: "Comparative prose", statement: "Comparison should be integrated point by point." }], steps: [{ reasoning: "Weaving creates genuine comparison.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Weave comparison throughout", commonErrors: ["Writing two disconnected analyses."] },
         },
         {
           id: "cial-e-u4-pc-q7",
@@ -693,7 +693,7 @@ export const lesson243: Lesson = {
           totalMarks: 1,
           stem: "Which is a valid point of comparison for prose?",
           response: { type: "mcq", choices: [ { id: "a", text: "Only word count" }, { id: "b", text: "Only cover colour" }, { id: "c", text: "Only publication date" }, { id: "d", text: "Narrative voice or structure" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "technique", name: "Prose comparison", statement: "Compare themes, characterisation, voice, structure and context." }], steps: [{ reasoning: "Voice and structure are meaningful comparative points.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Narrative voice or structure", commonErrors: ["Comparing irrelevant surface details."] },
+          markscheme: { principles: [{ kind: "technique", name: "Prose comparison", statement: "Compare themes, characterisation, voice, structure and context." }], steps: [{ reasoning: "Voice and structure are meaningful comparative points.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Narrative voice or structure", commonErrors: ["Comparing irrelevant surface details."] },
         },
         {
           id: "cial-e-u4-pc-q9",
@@ -701,7 +701,7 @@ export const lesson243: Lesson = {
           totalMarks: 1,
           stem: "What should a comparative prose essay reach in conclusion?",
           response: { type: "mcq", choices: [ { id: "a", text: "A new context" }, { id: "b", text: "No judgement" }, { id: "c", text: "A summary of both plots" }, { id: "d", text: "A judgement on which text is more effective" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Comparative judgement", statement: "Evaluation should weigh effectiveness." }], steps: [{ reasoning: "A judgement demonstrates critical engagement.", marks: 1, markCode: "AO3" }], finalAnswer: "**(b)** Judgement on effectiveness", commonErrors: ["Stopping at comparison without evaluation."] },
+          markscheme: { principles: [{ kind: "skill", name: "Comparative judgement", statement: "Evaluation should weigh effectiveness." }], steps: [{ reasoning: "A judgement demonstrates critical engagement.", marks: 1, markCode: "AO3" }], finalAnswer: "**(d)** Judgement on effectiveness", commonErrors: ["Stopping at comparison without evaluation."] },
         },
         {
           id: "cial-e-u4-pc-q10",

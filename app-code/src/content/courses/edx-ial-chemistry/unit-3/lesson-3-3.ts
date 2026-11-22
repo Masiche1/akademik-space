@@ -59,7 +59,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Polyethene", statement: "From ethene monomer." }],
             steps: [{ reasoning: "nC₂H₄ → (C₂H₄)ₙ.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ethene",
+            finalAnswer: "**(c)** Ethene",
           },
         },
         {

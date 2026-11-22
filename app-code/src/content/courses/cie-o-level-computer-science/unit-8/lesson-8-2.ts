@@ -42,7 +42,7 @@ export const lesson82: Lesson = {
             { id: "c", text: "Colour" },
             { id: "d", text: "Index" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Index", statement: "Position number." }], steps: [{ reasoning: "Index = position.", working: "\\text{index}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Index" },
+          markscheme: { principles: [{ kind: "definition", name: "Index", statement: "Position number." }], steps: [{ reasoning: "Index = position.", working: "\\text{index}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Index" },
         },
         {
           id: "olcs-u8-ar-q2", difficulty: "core", totalMarks: 2,
@@ -116,7 +116,7 @@ export const lesson82: Lesson = {
             { id: "c", text: "Index 12" },
             { id: "d", text: "Row 1, column 2" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "2D indexing", statement: "row then column." }], steps: [{ reasoning: "First index = row, second = column.", working: "\\text{row,col}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Row 1, column 2" },
+          markscheme: { principles: [{ kind: "definition", name: "2D indexing", statement: "row then column." }], steps: [{ reasoning: "First index = row, second = column.", working: "\\text{row,col}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Row 1, column 2" },
         },
         {
           id: "olcs-u8-ar-q8", difficulty: "core", totalMarks: 1,
@@ -135,7 +135,7 @@ export const lesson82: Lesson = {
             { id: "c", text: "Row" },
             { id: "d", text: "Column" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "2D indexing", statement: "First index = row." }], steps: [{ reasoning: "First index selects the row.", working: "\\text{row}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Row" },
+          markscheme: { principles: [{ kind: "definition", name: "2D indexing", statement: "First index = row." }], steps: [{ reasoning: "First index selects the row.", working: "\\text{row}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Row" },
         },
         {
           id: "olcs-u8-ar-q10", difficulty: "core", totalMarks: 2,
@@ -155,7 +155,7 @@ export const lesson82: Lesson = {
             { id: "c", text: "-1" },
             { id: "d", text: "Always 1" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Indexing", statement: "Usually 0-based." }], steps: [{ reasoning: "Most languages index from 0.", working: "0", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 0" },
+          markscheme: { principles: [{ kind: "principle", name: "Indexing", statement: "Usually 0-based." }], steps: [{ reasoning: "Most languages index from 0.", working: "0", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 0" },
         },
         {
           id: "olcs-u8-ar-q12", difficulty: "core", totalMarks: 1,
@@ -185,7 +185,7 @@ export const lesson82: Lesson = {
             { id: "c", text: "DECLARE a" },
             { id: "d", text: "DECLARE a[5][5]" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Array declaration", statement: "name[size] for 1D." }], steps: [{ reasoning: "Single index = 1D array of 5.", working: "\\text{a[5]}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** DECLARE a[5]" },
+          markscheme: { principles: [{ kind: "definition", name: "Array declaration", statement: "name[size] for 1D." }], steps: [{ reasoning: "Single index = 1D array of 5.", working: "\\text{a[5]}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** DECLARE a[5]" },
         },
         {
           id: "olcs-u8-ar-q15", difficulty: "core", totalMarks: 2,
@@ -253,7 +253,7 @@ export const lesson82: Lesson = {
             { id: "c", text: "A single INPUT" },
             { id: "d", text: "A counted loop" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Array fill", statement: "Loop over indices." }], steps: [{ reasoning: "Loop fills array.", working: "\\text{loop}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Counted loop" },
+          markscheme: { principles: [{ kind: "principle", name: "Array fill", statement: "Loop over indices." }], steps: [{ reasoning: "Loop fills array.", working: "\\text{loop}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Counted loop" },
         },
         {
           id: "olcs-u8-al-q2", difficulty: "core", totalMarks: 2,
@@ -307,7 +307,7 @@ export const lesson82: Lesson = {
             { id: "c", text: "A single INPUT" },
             { id: "d", text: "A counted loop" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Array fill", statement: "Loop over indices." }], steps: [{ reasoning: "A loop inputs each element.", working: "\\text{loop}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A counted loop" },
+          markscheme: { principles: [{ kind: "principle", name: "Array fill", statement: "Loop over indices." }], steps: [{ reasoning: "A loop inputs each element.", working: "\\text{loop}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** A counted loop" },
         },
         {
           id: "olcs-u8-al-q6", difficulty: "foundation", totalMarks: 1,
@@ -326,7 +326,7 @@ export const lesson82: Lesson = {
             { id: "c", text: "The count of elements" },
             { id: "d", text: "Nothing useful" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Accumulation", statement: "Adds each element to total." }], steps: [{ reasoning: "Accumulating scores[i] gives the sum.", working: "\\text{sum}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** The sum" },
+          markscheme: { principles: [{ kind: "principle", name: "Accumulation", statement: "Adds each element to total." }], steps: [{ reasoning: "Accumulating scores[i] gives the sum.", working: "\\text{sum}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** The sum" },
         },
         {
           id: "olcs-u8-al-q8", difficulty: "core", totalMarks: 1,
@@ -345,7 +345,7 @@ export const lesson82: Lesson = {
             { id: "c", text: "Jumps straight to the middle" },
             { id: "d", text: "Sorts the array first" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Linear search", statement: "Check each element in order." }], steps: [{ reasoning: "Linear search checks elements one by one.", working: "\\text{each}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Checks each element in turn" },
+          markscheme: { principles: [{ kind: "definition", name: "Linear search", statement: "Check each element in order." }], steps: [{ reasoning: "Linear search checks elements one by one.", working: "\\text{each}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Checks each element in turn" },
         },
         {
           id: "olcs-u8-al-q10", difficulty: "core", totalMarks: 2,
@@ -395,7 +395,7 @@ export const lesson82: Lesson = {
             { id: "c", text: "Multiply all elements" },
             { id: "d", text: "Add each element once" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Average", statement: "Total ÷ count." }], steps: [{ reasoning: "Average = sum / number of elements.", working: "\\text{total/count}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Total then divide by count" },
+          markscheme: { principles: [{ kind: "principle", name: "Average", statement: "Total ÷ count." }], steps: [{ reasoning: "Average = sum / number of elements.", working: "\\text{total/count}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Total then divide by count" },
         },
         {
           id: "olcs-u8-al-q15", difficulty: "core", totalMarks: 2,

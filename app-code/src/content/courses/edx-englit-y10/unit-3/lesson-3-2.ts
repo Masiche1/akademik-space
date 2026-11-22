@@ -67,7 +67,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Paradox", statement: "A seemingly contradictory phrase that reveals an inverted moral order." }],
             steps: [{ reasoning: "The line reverses values so that good seems evil and evil good.", evidence: "Fair is foul, and foul is fair", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** It signals a world of deception and moral inversion.",
+            finalAnswer: "**(d)** It signals a world of deception and moral inversion.",
             commonErrors: ["Reading 'fair' as weather (b)."],
           },
         },
@@ -199,7 +199,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Symbolism", statement: "A recurring image represents an idea beyond itself." }],
             steps: [{ reasoning: "Blood that will not go away represents lasting guilt.", evidence: "Out, damned spot!", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** The blood is a symbol of guilt.",
+            finalAnswer: "**(c)** The blood is a symbol of guilt.",
             commonErrors: ["Reading the blood literally."],
           },
         },

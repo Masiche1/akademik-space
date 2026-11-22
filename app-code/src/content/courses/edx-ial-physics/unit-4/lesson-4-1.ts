@@ -90,7 +90,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** 9.81 N/kg",
+            finalAnswer: "**(c)** 9.81 N/kg",
           },
         },
         {

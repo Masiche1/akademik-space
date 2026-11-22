@@ -70,7 +70,7 @@ export const lesson51: Lesson = {
               { reasoning: "Active listening involves deliberate, systematic attention to musical elements.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Involves deliberate attention to musical elements",
+            finalAnswer: "**(c)** Involves deliberate attention to musical elements",
             commonErrors: [
               "Confusing active listening with simply hearing music longer.",
             ],
@@ -171,7 +171,7 @@ export const lesson51: Lesson = {
               { reasoning: "The second pass is designed to reveal the organisation of the piece.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Repeated sections, contrasts and structural changes",
+            finalAnswer: "**(a)** Repeated sections, contrasts and structural changes",
             commonErrors: [
               "Using every pass for the same general impression.",
             ],
@@ -262,7 +262,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "A change of instrument colour" },
               { id: "d", text: "The end of a phrase or section" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -272,7 +272,7 @@ export const lesson51: Lesson = {
               { reasoning: "Cadences provide a sense of arrival or closure.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (c) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** The end of a phrase or section",
+            finalAnswer: "**(d)** The end of a phrase or section",
             commonErrors: [
               "Confusing a cadence with every change in dynamics or timbre.",
             ],
@@ -410,7 +410,7 @@ export const lesson51: Lesson = {
               { reasoning: "Contour, rhythm and harmony provide reliable evidence of thematic identity.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Compare melodic contour, rhythm and harmonic support",
+            finalAnswer: "**(d)** Compare melodic contour, rhythm and harmonic support",
             commonErrors: [
               "Judging thematic similarity from tempo or instrumentation alone.",
             ],
@@ -534,7 +534,7 @@ export const lesson51: Lesson = {
               { reasoning: "Contour describes the melodic shape — direction of pitch movement.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The shape of the melody — whether it goes up, down or stays level",
+            finalAnswer: "**(c)** The shape of the melody — whether it goes up, down or stays level",
             commonErrors: [
               "Confusing contour (pitch shape) with rhythm or dynamics.",
             ],
@@ -742,7 +742,7 @@ export const lesson51: Lesson = {
               { reasoning: "Syncopation creates surprise by accenting weak positions in the metre.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Accents fall on normally weak beats or off-beats",
+            finalAnswer: "**(c)** Accents fall on normally weak beats or off-beats",
             commonErrors: [
               "Confusing syncopation with a simple change of tempo.",
             ],
@@ -822,7 +822,7 @@ export const lesson51: Lesson = {
               { reasoning: "A dry, short attack is characteristic of many percussion sounds.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A percussion instrument",
+            finalAnswer: "**(c)** A percussion instrument",
             commonErrors: [
               "Ignoring the attack and sustain characteristics of timbre.",
             ],
@@ -851,7 +851,7 @@ export const lesson51: Lesson = {
               { reasoning: "Polyphony requires independently traceable lines rather than melody plus simple accompaniment.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Several independent melodic lines can be followed at the same time",
+            finalAnswer: "**(c)** Several independent melodic lines can be followed at the same time",
             commonErrors: [
               "Confusing harmonic thickness with independent melodic lines.",
             ],
@@ -880,7 +880,7 @@ export const lesson51: Lesson = {
               { reasoning: "A small pitch area limits melodic movement and can produce a concentrated or repetitive effect.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Narrow, focused and possibly repetitive",
+            finalAnswer: "**(a)** Narrow, focused and possibly repetitive",
             commonErrors: [
               "Treating pitch range as unrelated to expressive effect.",
             ],

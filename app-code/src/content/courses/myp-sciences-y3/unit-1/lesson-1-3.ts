@@ -71,7 +71,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$3<7$, so acidic.", working: "pH=3<7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Acidic",
+            finalAnswer: "**(c)** Acidic",
             commonErrors: ["Thinking higher pH means more acidic."],
             examinerNote: "B1 for (a).",
           },
@@ -196,7 +196,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Acids turn blue litmus red.", working: "\\text{acid}\\Rightarrow\\text{red litmus}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Red",
+            finalAnswer: "**(b)** Red",
             commonErrors: ["Saying it stays blue — that indicates alkali."],
             examinerNote: "B1 for (a).",
           },
@@ -271,7 +271,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Nitrogen" },
               { id: "d", text: "Oxygen" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -280,7 +280,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The metal displaces hydrogen from the acid.", working: "H_2\\text{ produced}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Hydrogen",
+            finalAnswer: "**(b)** Hydrogen",
             commonErrors: ["Saying carbon dioxide — that comes from carbonates."],
             examinerNote: "B1 for (c).",
           },
@@ -298,7 +298,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Orange" },
               { id: "d", text: "Red" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -307,7 +307,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Sodium hydroxide is alkaline, so phenolphthalein turns pink.", working: "\\text{alkali}\\Rightarrow\\text{pink}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Pink",
+            finalAnswer: "**(b)** Pink",
             commonErrors: ["Choosing red — that is litmus in acid."],
             examinerNote: "B1 for (c).",
           },
@@ -389,7 +389,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Sodium hydroxide is soluble; copper(II) oxide is an insoluble base, not an alkali.", working: "NaOH\\text{ soluble}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sodium hydroxide",
+            finalAnswer: "**(d)** Sodium hydroxide",
             commonErrors: ["Choosing copper(II) oxide — it is a base but insoluble."],
             examinerNote: "B1 for (a).",
           },
@@ -467,7 +467,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Insoluble salts are made by precipitation.", working: "\\text{precipitation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Precipitation",
+            finalAnswer: "**(a)** Precipitation",
             commonErrors: ["Choosing crystallisation — that's for soluble salts."],
             examinerNote: "B1 for (b).",
           },
@@ -610,7 +610,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Sodium chloride" },
               { id: "d", text: "Barium sulfate" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -619,7 +619,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Barium sulfate is a classic insoluble salt; the others are soluble.", working: "BaSO_4\\downarrow", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Barium sulfate",
+            finalAnswer: "**(d)** Barium sulfate",
             commonErrors: ["Assuming all sulfates are insoluble — most are soluble except barium and lead."],
             examinerNote: "B1 for (c).",
           },
@@ -684,7 +684,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Excess solid drives the reaction to completion so no acid remains.", working: "\\text{excess solid}\\Rightarrow\\text{all acid reacts}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To ensure all the acid reacts",
+            finalAnswer: "**(a)** To ensure all the acid reacts",
             commonErrors: ["Thinking excess solid is just for stirring."],
             examinerNote: "B1 for (b).",
           },

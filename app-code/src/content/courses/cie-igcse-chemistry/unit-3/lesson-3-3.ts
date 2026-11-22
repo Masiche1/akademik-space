@@ -57,7 +57,7 @@ export const lesson133: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Limiting reactant", statement: "Used up first, sets product yield." }],
             steps: [{ reasoning: "Recall.", working: "\\text{runs out first}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Reactant used up first",
+            finalAnswer: "**(a)** Reactant used up first",
             commonErrors: ["Confusing with excess reactant."],
           },
         },
@@ -137,7 +137,7 @@ export const lesson133: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Limiting reactant", statement: "It is used up first and sets the product yield." }],
             steps: [{ reasoning: "Recall the definition.", working: "\\text{limiting} \\to \\text{used up first}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The limiting reactant",
+            finalAnswer: "**(a)** The limiting reactant",
             commonErrors: ["Choosing the excess reactant."],
           },
         },
@@ -190,7 +190,7 @@ export const lesson133: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Excess reactant", statement: "Present in more than the required amount and remains after reaction." }],
             steps: [{ reasoning: "Excess means more than needed.", working: "\\text{excess} \\to \\text{remains}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Some of it remains unreacted",
+            finalAnswer: "**(a)** Some of it remains unreacted",
             commonErrors: ["Saying the excess reactant is fully consumed."],
           },
         },
@@ -244,7 +244,7 @@ export const lesson133: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Excess reactant", statement: "More than needed for complete reaction." }],
             steps: [{ reasoning: "Excess means more than the mole ratio requires.", working: "\\text{excess reactant}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Excess reactant",
+            finalAnswer: "**(a)** Excess reactant",
             commonErrors: ["Confusing excess with limiting."],
           },
         },
@@ -298,7 +298,7 @@ export const lesson133: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Limiting reactant", statement: "It determines the theoretical yield." }],
             steps: [{ reasoning: "Product amount cannot exceed what limiting reactant allows.", working: "\\text{limiting} \\to \\text{max product}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The maximum amount of product",
+            finalAnswer: "**(d)** The maximum amount of product",
             commonErrors: ["Thinking excess reactant sets the yield."],
           },
         },
@@ -383,7 +383,7 @@ export const lesson133: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Empirical formula", statement: "Simplest whole-number ratio." }],
             steps: [{ reasoning: "C₂H₆ ÷ 2 = CH₃.", working: "C_2H_6 \\div 2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** CH₃",
+            finalAnswer: "**(c)** CH₃",
             commonErrors: ["Keeping C₂H₆ — not simplest ratio."],
           },
         },
@@ -463,7 +463,7 @@ export const lesson133: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Empirical formula", statement: "Simplest whole-number ratio of atoms." }],
             steps: [{ reasoning: "Divide subscripts by 2.", working: "\\text{C}_2\\text{H}_4 \\div 2 = \\text{CH}_2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $\\text{CH}_2$",
+            finalAnswer: "**(d)** $\\text{CH}_2$",
             commonErrors: ["Keeping the molecular formula unchanged."],
           },
         },
@@ -516,7 +516,7 @@ export const lesson133: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Molecular formula", statement: "Molecular = empirical × n where $n = M/\\text{empirical mass}$." }],
             steps: [{ reasoning: "$n = 84/14 = 6$, so $\\text{CH}_2 \\times 6 = \\text{C}_6\\text{H}_{12}$.", working: "n=6", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $\\text{C}_6\\text{H}_{12}$",
+            finalAnswer: "**(c)** $\\text{C}_6\\text{H}_{12}$",
             commonErrors: ["Using $n=5$ or $7$ instead of $6$."],
           },
         },
@@ -620,11 +620,11 @@ export const lesson133: Lesson = {
             { id: "b", text: "$\\text{CH}$" },
             { id: "c", text: "$\\text{C}_6\\text{H}_6$" },
             { id: "d", text: "$\\text{C}_2\\text{H}_2$" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Empirical formula", statement: "Simplest whole-number ratio." }],
             steps: [{ reasoning: "Divide subscripts by 6.", working: "\\text{C}_6\\text{H}_6 \\div 6 = \\text{CH}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** $\\text{CH}$",
+            finalAnswer: "**(b)** $\\text{CH}$",
             commonErrors: ["Stopping at $\\text{C}_3\\text{H}_3$."],
           },
         },
@@ -709,7 +709,7 @@ export const lesson133: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Molar volume", statement: "24 dm³/mol at RTP." }],
             steps: [{ reasoning: "Recall.", working: "24\\ \\text{dm}^3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 24 dm³",
+            finalAnswer: "**(a)** 24 dm³",
             commonErrors: ["Using STP value 22.4 — IGCSE uses RTP 24 dm³."],
           },
         },
@@ -789,7 +789,7 @@ export const lesson133: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Avogadro's law", statement: "Equal gas volumes at same T,P contain equal moles/molecules." }],
             steps: [{ reasoning: "Equal volumes mean equal particle numbers.", working: "V_1=V_2 \\to n_1=n_2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Equal numbers of molecules",
+            finalAnswer: "**(c)** Equal numbers of molecules",
             commonErrors: ["Saying equal masses; molar masses differ."],
           },
         },
@@ -896,7 +896,7 @@ export const lesson133: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Molar volume", statement: "$24\\ \\text{dm}^3$ at RTP." }],
             steps: [{ reasoning: "Recall RTP value.", working: "24\\ \\text{dm}^3\\text{mol}^{-1}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $24\\ \\text{dm}^3$",
+            finalAnswer: "**(c)** $24\\ \\text{dm}^3$",
             commonErrors: ["Using STP value $22.4\\ \\text{dm}^3$."],
           },
         },
@@ -950,7 +950,7 @@ export const lesson133: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Molar volume", statement: "$24\\ \\text{dm}^3$ at RTP." }],
             steps: [{ reasoning: "Recall value.", working: "24\\ \\text{dm}^3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $24\\ \\text{dm}^3$",
+            finalAnswer: "**(c)** $24\\ \\text{dm}^3$",
             commonErrors: ["Confusing dm³ with cm³."],
           },
         },

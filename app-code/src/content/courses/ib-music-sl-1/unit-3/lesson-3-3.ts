@@ -171,7 +171,7 @@ export const lesson33: Lesson = {
               { reasoning: "Changing the performing forces of existing music is arranging.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Arranging",
+            finalAnswer: "**(c)** Arranging",
             commonErrors: [
               "Confusing arranging (adapt existing music) with composing (new music).",
             ],
@@ -200,7 +200,7 @@ export const lesson33: Lesson = {
               { reasoning: "The melody and harmonic essence define the piece's identity.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The melody and harmonic essence",
+            finalAnswer: "**(d)** The melody and harmonic essence",
             commonErrors: [
               "Changing the melody so much the original is unrecognisable.",
             ],
@@ -229,7 +229,7 @@ export const lesson33: Lesson = {
               { reasoning: "Brass strengths are power, brilliance and sustained force.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Power, brilliance and sustained force",
+            finalAnswer: "**(c)** Power, brilliance and sustained force",
             commonErrors: [
               "Giving rapid, intricate passages to instruments that cannot articulate them.",
             ],
@@ -373,7 +373,7 @@ export const lesson33: Lesson = {
               { reasoning: "Fewer instruments cannot cover dense textures — simplify to essentials.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Simplify texture to keep parts clear",
+            finalAnswer: "**(c)** Simplify texture to keep parts clear",
             commonErrors: [
               "Trying to reproduce every original part and ending muddy.",
             ],
@@ -402,7 +402,7 @@ export const lesson33: Lesson = {
               { reasoning: "The best arrangements enhance the music through appropriate choices.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Serve the music and preserve its essence",
+            finalAnswer: "**(c)** Serve the music and preserve its essence",
             commonErrors: [
               "Equating complexity or novelty with quality.",
             ],
@@ -513,7 +513,7 @@ export const lesson33: Lesson = {
               { reasoning: "Mixing balances levels, panning, EQ and effects across recorded tracks.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Balancing and processing individual tracks",
+            finalAnswer: "**(a)** Balancing and processing individual tracks",
             commonErrors: [
               "Confusing mixing (balancing tracks) with mastering (final processing).",
             ],
@@ -633,7 +633,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Balancing individual tracks" },
               { id: "d", text: "Final processing of the stereo mix for distribution" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -643,7 +643,7 @@ export const lesson33: Lesson = {
               { reasoning: "Mastering is the last stage — processing the finished stereo mix.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (c) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Final processing of the stereo mix for distribution",
+            finalAnswer: "**(d)** Final processing of the stereo mix for distribution",
             commonErrors: [
               "Confusing mastering (final stereo processing) with mixing (track balancing).",
             ],
@@ -672,7 +672,7 @@ export const lesson33: Lesson = {
               { reasoning: "Panning places instruments across the stereo image for width and separation.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The left-right placement of instruments for stereo width",
+            finalAnswer: "**(c)** The left-right placement of instruments for stereo width",
             commonErrors: [
               "Confusing panning (stereo placement) with level balancing (volume).",
             ],
@@ -744,7 +744,7 @@ export const lesson33: Lesson = {
               { reasoning: "Compression narrows the loud-quiet gap for consistency.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Control dynamic range — reducing the gap between loud and quiet",
+            finalAnswer: "**(d)** Control dynamic range — reducing the gap between loud and quiet",
             commonErrors: [
               "Confusing compression (dynamic control) with simply turning up volume.",
             ],
@@ -816,7 +816,7 @@ export const lesson33: Lesson = {
               { reasoning: "Live recording captures the ensemble together — the opposite of multitracking.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** The whole ensemble performing together in one take",
+            finalAnswer: "**(c)** The whole ensemble performing together in one take",
             commonErrors: [
               "Confusing live recording with overdubbing or multitracking.",
             ],

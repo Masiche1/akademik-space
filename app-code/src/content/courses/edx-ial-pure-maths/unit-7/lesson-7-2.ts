@@ -60,7 +60,7 @@ export const lesson72: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Cross product", statement: "$\\mathbf{i}\\times\\mathbf{j}=\\mathbf{k}$ (cyclic)." }],
             steps: [{ reasoning: "Standard result.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\mathbf{k}$",
+            finalAnswer: "**(d)** $\\mathbf{k}$",
           },
         },
         {
@@ -180,7 +180,7 @@ export const lesson72: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Modulus locus", statement: "$|z-a|=r$ is a circle." }],
             steps: [{ reasoning: "Centre $2i$, radius $3$.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** circle centre $2i$ radius $3$",
+            finalAnswer: "**(c)** circle centre $2i$ radius $3$",
           },
         },
         {

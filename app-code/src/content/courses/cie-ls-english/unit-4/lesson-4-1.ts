@@ -65,7 +65,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Only (b) shows anger through action and consequence.", working: "\\text{action}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** He slammed the door so hard the picture frame fell.",
+            finalAnswer: "**(a)** He slammed the door so hard the picture frame fell.",
             commonErrors: ["Choosing (c) — it still tells rather than shows."],
           },
         },
@@ -161,7 +161,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "Everyone knew she never lost her temper." },
               { id: "d", text: "She waited calmly, explaining each delay to the anxious child beside her." },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -170,7 +170,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Only (c) shows patience through calm action and helpful behaviour.", working: "\\text{calm action}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** She waited calmly, explaining each delay to the anxious child beside her.",
+            finalAnswer: "**(d)** She waited calmly, explaining each delay to the anxious child beside her.",
             commonErrors: ["Choosing (a) or (d) — these state the trait directly rather than showing it."],
           },
         },
@@ -234,7 +234,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "(b) names the emotion 'angry' directly — the others show through physical detail.", working: "\\text{named emotion}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** He was so angry he could barely speak.",
+            finalAnswer: "**(a)** He was so angry he could barely speak.",
             commonErrors: ["Choosing (a) or (d) — trembling hands and flinching are shown reactions, not labels."],
           },
         },
@@ -299,7 +299,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Motivation is the reason behind behaviour, not an external detail.", working: "\\text{reason}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** The reason they act as they do",
+            finalAnswer: "**(d)** The reason they act as they do",
             commonErrors: ["Choosing details about the story world instead of the character's inner reason."],
           },
         },
@@ -424,7 +424,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Others' words and behaviour around the character signal reputation and status.", working: "\\text{reputation}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** What other characters say and do around them",
+            finalAnswer: "**(c)** What other characters say and do around them",
             commonErrors: ["Choosing formatting or setting details that carry no character information."],
           },
         },
@@ -476,7 +476,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "The alley's shadows 'following' personifies threat.", working: "\\text{shadows follow}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** A narrow alley where the shadows seemed to follow",
+            finalAnswer: "**(c)** A narrow alley where the shadows seemed to follow",
             commonErrors: ["Choosing (d) — quiet libraries feel safe, not threatening."],
           },
         },
@@ -581,7 +581,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "One lit window among dark houses isolates a single point of warmth — loneliness.", working: "\\text{isolated light}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** A single lit window in a row of dark houses",
+            finalAnswer: "**(a)** A single lit window in a row of dark houses",
             commonErrors: ["Choosing (a) or (d) — crowds create energy, not loneliness."],
           },
         },
@@ -635,7 +635,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "The harbour glittered in the afternoon light." },
               { id: "d", text: "Rope fibres scratched her palms." },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -644,7 +644,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "'Tasted of salt and old rope' engages smell/taste; the others are sight, sound and touch.", working: "\\text{smell/taste}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** The air tasted of salt and old rope.",
+            finalAnswer: "**(b)** The air tasted of salt and old rope.",
             commonErrors: ["Choosing (b) — bird calls are sound, not smell."],
           },
         },
@@ -708,7 +708,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "The open field and huge sky carry no barriers — freedom.", working: "\\text{open space}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** A wide open field under a huge sky",
+            finalAnswer: "**(d)** A wide open field under a huge sky",
             commonErrors: ["Choosing (c) — crowds suggest restriction, not freedom."],
           },
         },
@@ -753,7 +753,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Lapping water and jasmine are soothing sensory details — calm.", working: "\\text{soothing}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Water lapped gently against the boat, and the evening air smelled of jasmine.",
+            finalAnswer: "**(c)** Water lapped gently against the boat, and the evening air smelled of jasmine.",
             commonErrors: ["Choosing (d) — howling wind creates unease, not calm."],
           },
         },
@@ -838,7 +838,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "(b) lets the setting's decay mirror her loss without naming the emotion.", working: "\\text{mirrored decay}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** The garden she had tended for years now lay untended, weeds strangling the roses she once loved.",
+            finalAnswer: "**(a)** The garden she had tended for years now lay untended, weeds strangling the roses she once loved.",
             commonErrors: ["Choosing (d) — it tells the emotion directly instead of mirroring it in setting."],
           },
         },

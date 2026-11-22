@@ -119,7 +119,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "'Yours sincerely' is used when the recipient is named.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Yours sincerely,",
+            finalAnswer: "**(c)** Yours sincerely,",
           },
         },
         {
@@ -194,13 +194,13 @@ export const lesson51: Lesson = {
             { id: "b", text: "I am writing to enquire about the course." },
             { id: "c", text: "I look forward to your reply." },
             { id: "d", text: "Gonna grab a cuppa soon lol" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "convention", name: "Register", statement: "Formal letters avoid slang and contractions." }],
             steps: [
               { reasoning: "'Gonna' and 'lol' are informal slang unsuitable for formal correspondence.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(c)** Gonna grab a cuppa soon lol",
+            finalAnswer: "**(d)** Gonna grab a cuppa soon lol",
           },
         },
         {
@@ -311,7 +311,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Dr Patel is named, so 'Yours sincerely' is correct.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Yours sincerely,",
+            finalAnswer: "**(c)** Yours sincerely,",
           },
         },
       ],

@@ -70,7 +70,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — thesis = arguable claim, topic = subject only.", working: "claim", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** A thesis is an arguable claim; a topic only names the subject",
+            finalAnswer: "**(d)** A thesis is an arguable claim; a topic only names the subject",
             commonErrors: ["Reversing topic and thesis."],
             examinerNote: "D1 for (b).",
           },
@@ -187,7 +187,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — topic = subject; thesis = arguable position.", working: "arguable claim", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** A topic names the subject; a thesis makes an arguable claim about it",
+            finalAnswer: "**(c)** A topic names the subject; a thesis makes an arguable claim about it",
             commonErrors: ["Writing 'This essay is about X' as the thesis."],
             examinerNote: "D1 for (b).",
           },
@@ -214,7 +214,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — the paragraph formula begins with a topic sentence.", working: "topic-first", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Topic sentence -> explanation -> evidence -> analysis",
+            finalAnswer: "**(d)** Topic sentence -> explanation -> evidence -> analysis",
             commonErrors: ["Starting with evidence before stating the point."],
             examinerNote: "D1 for (b).",
           },
@@ -238,7 +238,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "However, their effect depends heavily on how they are designed." },
               { id: "d", text: "This essay argues that uniform policies can reduce inequality, yet their design determines whether they protect or suppress student identity." },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -247,7 +247,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — sentence 3 states the arguable, qualified claim.", working: "thesis", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** This essay argues that uniform policies can reduce inequality, yet their design determines whether they protect or suppress student identity.",
+            finalAnswer: "**(d)** This essay argues that uniform policies can reduce inequality, yet their design determines whether they protect or suppress student identity.",
             commonErrors: ["Choosing the context sentence as the thesis."],
             examinerNote: "D1 for (c).",
           },
@@ -430,7 +430,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Introduce entirely new evidence" },
               { id: "d", text: "Repeat the introduction word for word" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -439,7 +439,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — synthesis explains significance without new evidence.", working: "synthesis", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** Synthesise the argument and explain why the thesis matters",
+            finalAnswer: "**(a)** Synthesise the argument and explain why the thesis matters",
             commonErrors: ["Adding new evidence in the conclusion."],
             examinerNote: "D1 for (c).",
           },
@@ -509,7 +509,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — conclusion weighs conditions (design, voice, equity) rather than a binary verdict.", working: "synthesis", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** It synthesises complexity rather than giving a simplistic verdict",
+            finalAnswer: "**(a)** It synthesises complexity rather than giving a simplistic verdict",
             commonErrors: ["Thinking a balanced conclusion is a weak conclusion."],
             examinerNote: "D1 for (b).",
           },
@@ -567,7 +567,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — findings/analysis precede recommendations.", working: "findings", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Findings and analysis",
+            finalAnswer: "**(a)** Findings and analysis",
             commonErrors: ["Putting recommendations before evidence."],
             examinerNote: "D1 for (b).",
           },
@@ -684,7 +684,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — reports are organised for quick, practical use.", working: "clarity", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Clarity and usability",
+            finalAnswer: "**(d)** Clarity and usability",
             commonErrors: ["Applying essay-style argumentation to a report."],
             examinerNote: "D1 for (b).",
           },
@@ -711,7 +711,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — finding = what was found; recommendation = what should be done.", working: "finding vs action", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** A finding states what was discovered; a recommendation proposes action",
+            finalAnswer: "**(d)** A finding states what was discovered; a recommendation proposes action",
             commonErrors: ["Mixing findings and recommendations in one sentence."],
             examinerNote: "D1 for (b).",
           },
@@ -744,7 +744,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'should provide' proposes action = recommendation.", working: "recommendation", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** The library should provide a verified-source guide.",
+            finalAnswer: "**(c)** The library should provide a verified-source guide.",
             commonErrors: ["Choosing the reported difficulty as the recommendation."],
             examinerNote: "D1 for (b).",
           },
@@ -828,7 +828,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'fell by 12%' is a measured result = finding/analysis.", working: "finding", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** Analysis",
+            finalAnswer: "**(b)** Analysis",
             commonErrors: ["Putting data in recommendations."],
             examinerNote: "D1 for (a).",
           },
@@ -940,7 +940,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — bullets aid usability for lists of recommendations.", working: "readability", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** When they improve readability, such as listing recommendations",
+            finalAnswer: "**(a)** When they improve readability, such as listing recommendations",
             commonErrors: ["Banning all formatting in reports."],
             examinerNote: "D1 for (b).",
           },
@@ -1010,7 +1010,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'I am writing to request...' states purpose immediately.", working: "opening", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** In the opening paragraph, in the first two sentences",
+            finalAnswer: "**(c)** In the opening paragraph, in the first two sentences",
             commonErrors: ["Burying the purpose in the last paragraph."],
             examinerNote: "D1 for (b).",
           },

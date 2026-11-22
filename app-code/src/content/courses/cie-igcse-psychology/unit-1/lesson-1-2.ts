@@ -434,7 +434,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Adrenaline" },
               { id: "d", text: "Thyroxine" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -634,7 +634,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Conditioned stimulus" },
               { id: "d", text: "Reinforcer" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -672,7 +672,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Biological approach" },
               { id: "d", text: "Humanistic approach" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

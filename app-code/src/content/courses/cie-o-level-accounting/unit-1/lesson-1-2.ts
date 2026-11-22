@@ -43,7 +43,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Profit = Sales - Costs" },
             { id: "d", text: "Assets = Capital + Liabilities" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Accounting equation", statement: "A = C + L." }], steps: [{ reasoning: "Correct equation.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Assets = Capital + Liabilities" },
+          markscheme: { principles: [{ kind: "definition", name: "Accounting equation", statement: "A = C + L." }], steps: [{ reasoning: "Correct equation.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Assets = Capital + Liabilities" },
         },
         {
           id: "olacc-u1-eq-q2", difficulty: "core", totalMarks: 2,
@@ -97,8 +97,8 @@ export const lesson12: Lesson = {
             { id: "b", text: "Decrease" },
             { id: "c", text: "Become a liability" },
             { id: "d", text: "Stay the same" },
-          ], aorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Equation", statement: "A = C + L." }], steps: [{ reasoning: "Capital = Assets - Liabilities, so it rises.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Increase" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "principle", name: "Equation", statement: "A = C + L." }], steps: [{ reasoning: "Capital = Assets - Liabilities, so it rises.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Increase" },
         },
         {
           id: "olacc-u1-eq-q6", difficulty: "core", totalMarks: 2,
@@ -127,7 +127,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Decreasing capital" },
             { id: "d", text: "Increasing total assets" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "principle", name: "Equation effect", statement: "Asset swap." }], steps: [{ reasoning: "Cash falls, stock rises — total assets unchanged.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Only the composition of assets changes" },
+          markscheme: { principles: [{ kind: "principle", name: "Equation effect", statement: "Asset swap." }], steps: [{ reasoning: "Cash falls, stock rises — total assets unchanged.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Only the composition of assets changes" },
         },
         {
           id: "olacc-u1-eq-q9", difficulty: "core", totalMarks: 3,
@@ -162,7 +162,7 @@ export const lesson12: Lesson = {
           markscheme: { principles: [{ kind: "principle", name: "Equation", statement: "A = C + L." }], steps: [
             { reasoning: "$5,000 + $4,000 = $9,000.", marks: 1, markCode: "M" },
             { reasoning: "Both sides equal — balanced.", marks: 1, markCode: "A" },
-          ], finalAnswer: "**(a)** The equation is balanced" },
+          ], finalAnswer: "**(b)** The equation is balanced" },
         },
         {
           id: "olacc-u1-eq-q12", difficulty: "core", totalMarks: 3,
@@ -192,8 +192,8 @@ export const lesson12: Lesson = {
             { id: "b", text: "Money owed to the business" },
             { id: "c", text: "Stock of goods" },
             { id: "d", text: "Bank overdraft" },
-          ], dorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Liability", statement: "Amount owed by the business." }], steps: [{ reasoning: "An overdraft is money owed to the bank.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Bank overdraft" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "definition", name: "Liability", statement: "Amount owed by the business." }], steps: [{ reasoning: "An overdraft is money owed to the bank.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Bank overdraft" },
         },
         {
           id: "olacc-u1-eq-q15", difficulty: "core", totalMarks: 2,
@@ -258,7 +258,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "One debit and one credit" },
             { id: "d", text: "Two debits" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Double entry", statement: "Dr + Cr equal." }], steps: [{ reasoning: "Dr and Cr.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Dr + Cr" },
+          markscheme: { principles: [{ kind: "definition", name: "Double entry", statement: "Dr + Cr equal." }], steps: [{ reasoning: "Dr and Cr.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Dr + Cr" },
         },
         {
           id: "olacc-u1-de-q2", difficulty: "core", totalMarks: 2,
@@ -313,7 +313,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Liabilities" },
             { id: "d", text: "Stock" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Debit/credit rule", statement: "Liabilities up on credit." }], steps: [{ reasoning: "Liabilities increase on credit.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Liabilities" },
+          markscheme: { principles: [{ kind: "definition", name: "Debit/credit rule", statement: "Liabilities up on credit." }], steps: [{ reasoning: "Liabilities increase on credit.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Liabilities" },
         },
         {
           id: "olacc-u1-de-q6", difficulty: "core", totalMarks: 2,
@@ -342,7 +342,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Capital" },
             { id: "d", text: "Debtors" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "principle", name: "Double entry", statement: "Cash up = debit." }], steps: [{ reasoning: "Cash increases, so cash is debited.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Cash" },
+          markscheme: { principles: [{ kind: "principle", name: "Double entry", statement: "Cash up = debit." }], steps: [{ reasoning: "Cash increases, so cash is debited.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Cash" },
         },
         {
           id: "olacc-u1-de-q9", difficulty: "core", totalMarks: 2,
@@ -403,7 +403,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Income" },
             { id: "d", text: "Liabilities" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Debit rule", statement: "Expenses debit." }], steps: [{ reasoning: "Expenses increase on debit.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Expenses" },
+          markscheme: { principles: [{ kind: "definition", name: "Debit rule", statement: "Expenses debit." }], steps: [{ reasoning: "Expenses increase on debit.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Expenses" },
         },
         {
           id: "olacc-u1-de-q15", difficulty: "core", totalMarks: 2,

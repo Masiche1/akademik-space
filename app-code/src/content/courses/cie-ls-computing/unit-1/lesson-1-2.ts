@@ -322,7 +322,7 @@ export const lesson12: Lesson = {
                               "text": "Sequence"
                     }
           ],
-          "borrectChoiceId": "c"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -629,7 +629,7 @@ export const lesson12: Lesson = {
                               "text": "Repeat a step until a condition is met"
                     }
           ],
-          "borrectChoiceId": "c"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [

@@ -65,7 +65,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "CTA = prompt to act.", working: "act", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Instruction prompting response",
+            finalAnswer: "**(b)** Instruction prompting response",
             commonErrors: ["Choosing (b) — that's product name."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Slogan = catchy phrase.", working: "catchy", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** A catchy phrase representing the product",
+            finalAnswer: "**(d)** A catchy phrase representing the product",
             commonErrors: ["Choosing (b) — that's price."],
           },
         },
@@ -220,7 +220,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Target audience = specific group.", working: "specific group", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The specific group the ad aims at",
+            finalAnswer: "**(b)** The specific group the ad aims at",
             commonErrors: ["Thinking all ads target everyone."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Bright colours/cartoons appeal to children.", working: "children", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Children",
+            finalAnswer: "**(d)** Children",
             commonErrors: ["Choosing (c) — business ads use professional imagery."],
           },
         },
@@ -336,7 +336,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "'Buy now' prompts action.", working: "act", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** A call to action",
+            finalAnswer: "**(d)** A call to action",
             commonErrors: ["Choosing (c) — it's an instruction, not a phrase."],
           },
         },
@@ -421,7 +421,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Endorsement = recommendation by authority.", working: "endorsement", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** A famous person or expert recommends the product",
+            finalAnswer: "**(d)** A famous person or expert recommends the product",
             commonErrors: ["Choosing (d) — that's a guarantee."],
           },
         },
@@ -501,7 +501,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Bias = one-sided.", working: "one-sided", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** One-sided perspective",
+            finalAnswer: "**(c)** One-sided perspective",
             commonErrors: ["Choosing (c) — media always has perspective."],
           },
         },
@@ -606,7 +606,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Objectivity = balanced/factual.", working: "balanced", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Balanced and factual",
+            finalAnswer: "**(b)** Balanced and factual",
             commonErrors: ["Choosing (b) — that's bias."],
           },
         },
@@ -656,7 +656,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Loaded = emotionally biased.", working: "biased", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Words with strong emotional bias",
+            finalAnswer: "**(b)** Words with strong emotional bias",
             commonErrors: ["Choosing (b) — that's neutral."],
           },
         },
@@ -726,7 +726,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Selective facts + repetition manipulate.", working: "selective", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Selective facts and repetition",
+            finalAnswer: "**(c)** Selective facts and repetition",
             commonErrors: ["Thinking media is neutral."],
           },
         },
@@ -772,7 +772,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "One-sided sourcing = bias.", working: "one-sided", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Only one side of the story is quoted",
+            finalAnswer: "**(c)** Only one side of the story is quoted",
             commonErrors: ["Choosing (b) — multiple sources suggest balance."],
           },
         },
@@ -857,7 +857,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Critical consumers check sources and perspectives.", working: "verify", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Check sources and multiple perspectives",
+            finalAnswer: "**(c)** Check sources and multiple perspectives",
             commonErrors: ["Choosing (b) — passive acceptance is not critical."],
           },
         },
@@ -937,7 +937,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Read questions first.", working: "read", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Read all questions",
+            finalAnswer: "**(d)** Read all questions",
             commonErrors: ["Starting immediately — no plan."],
           },
         },
@@ -1042,7 +1042,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Read all questions first.", working: "read", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Read all the questions first",
+            finalAnswer: "**(c)** Read all the questions first",
             commonErrors: ["Starting immediately — no plan."],
           },
         },
@@ -1162,7 +1162,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Easy questions guarantee marks.", working: "marks", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Securing marks and building confidence",
+            finalAnswer: "**(d)** Securing marks and building confidence",
             commonErrors: ["Choosing (b) — order doesn't confuse examiner."],
           },
         },
@@ -1208,7 +1208,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Wrong question set = marks lost.", working: "question set", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Not answering the question set",
+            finalAnswer: "**(c)** Not answering the question set",
             commonErrors: ["Choosing (d) — checking is good."],
           },
         },
@@ -1293,7 +1293,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Proofreading catches mistakes.", working: "errors", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** It catches errors and improves marks",
+            finalAnswer: "**(d)** It catches errors and improves marks",
             commonErrors: ["Skipping proofreading — errors cost marks."],
           },
         },

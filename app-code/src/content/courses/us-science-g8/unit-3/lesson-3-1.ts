@@ -64,7 +64,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "A gene is a segment of DNA containing the code for one protein.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A section of DNA that carries instructions for making a protein",
+            finalAnswer: "**(a)** A section of DNA that carries instructions for making a protein",
             commonErrors: ["Choosing (a): a chromosome contains many genes, and is made of DNA wrapped around proteins.", "Choosing (c): a gene is DNA, not a protein; it carries the instructions for a protein."],
             examinerNote: "B1 for (b).",
           },

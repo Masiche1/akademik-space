@@ -62,7 +62,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Derivative", statement: "$\\frac{d}{dx}\\cosh x=\\sinh x$." }],
             steps: [{ reasoning: "Direct from exponential definition.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\sinh x$",
+            finalAnswer: "**(d)** $\\sinh x$",
           },
         },
         {

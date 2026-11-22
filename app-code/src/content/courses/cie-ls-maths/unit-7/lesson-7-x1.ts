@@ -66,8 +66,8 @@ export const exam71: Lesson = {
           difficulty: "foundation",
           totalMarks: 1,
           stem: "A shape slides 4 units right keeping the same orientation. What transformation is this?",
-          response: {"type":"mcq","choices":[ {"id":"a","text":"Enlargement"}, {"id":"b","text":"Translation"}, {"id":"c","text":"Rotation"}, {"id":"d","text":"Reflection"} ],"borrectChoiceId":"c"},
-          markscheme: {"principles":[{"kind":"definition","name":"Translation","statement":"Slide without turning/flipping = translation."}],"steps":[{"reasoning":"Uniform shift, same orientation → translation.","working":"translation","marks":1,"markCode":"B"}],"finalAnswer":"**(c)** Translation","commonErrors":["Choosing (b) — no turning occurred."]},
+          response: {"type":"mcq","choices":[ {"id":"a","text":"Enlargement"}, {"id":"b","text":"Translation"}, {"id":"c","text":"Rotation"}, {"id":"d","text":"Reflection"} ],"correctChoiceId":"b"},
+          markscheme: {"principles":[{"kind":"definition","name":"Translation","statement":"Slide without turning/flipping = translation."}],"steps":[{"reasoning":"Uniform shift, same orientation → translation.","working":"translation","marks":1,"markCode":"B"}],"finalAnswer":"**(b)** Translation","commonErrors":["Choosing (b) — no turning occurred."]},
         },
         {
           id: "cilm-u7-x1-q6",
@@ -91,7 +91,7 @@ export const exam71: Lesson = {
           totalMarks: 1,
           stem: "Two reflections in parallel lines are together equivalent to a...",
           response: {"type":"mcq","choices":[ {"id":"a","text":"Translation"}, {"id":"b","text":"Single reflection"}, {"id":"c","text":"Rotation"}, {"id":"d","text":"Enlargement"} ],"correctChoiceId":"a"},
-          markscheme: {"principles":[{"kind":"principle","name":"Equivalent transformations","statement":"Parallel reflections combine to a translation."}],"steps":[{"reasoning":"Two reflections in parallel lines = translation.","working":"translation","marks":1,"markCode":"B"}],"finalAnswer":"**(b)** Translation","commonErrors":["Choosing (d) — two reflections don't give one reflection."]},
+          markscheme: {"principles":[{"kind":"principle","name":"Equivalent transformations","statement":"Parallel reflections combine to a translation."}],"steps":[{"reasoning":"Two reflections in parallel lines = translation.","working":"translation","marks":1,"markCode":"B"}],"finalAnswer":"**(a)** Translation","commonErrors":["Choosing (d) — two reflections don't give one reflection."]},
         },
         {
           id: "cilm-u7-x1-q9",
@@ -114,8 +114,8 @@ export const exam71: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Point $(3, -4)$ is rotated $180°$ about the origin. What is the image?",
-          response: {"type":"mcq","choices":[ {"id":"a","text":"$(4, -3)$"}, {"id":"b","text":"$(-3, 4)$"}, {"id":"c","text":"$(3, 4)$"}, {"id":"d","text":"$(-3, -4)$"} ],"borrectChoiceId":"c"},
-          markscheme: {"principles":[{"kind":"convention","name":"180° rotation","statement":"$(x,y)\\to(-x,-y)$."}],"steps":[{"reasoning":"$(3,-4)\\to(-3,4)$.","working":"(-3,4)","marks":1,"markCode":"B"}],"finalAnswer":"**(c)** $(-3, 4)$","commonErrors":["Choosing (b) — only negated $x$."]},
+          response: {"type":"mcq","choices":[ {"id":"a","text":"$(4, -3)$"}, {"id":"b","text":"$(-3, 4)$"}, {"id":"c","text":"$(3, 4)$"}, {"id":"d","text":"$(-3, -4)$"} ],"correctChoiceId":"b"},
+          markscheme: {"principles":[{"kind":"convention","name":"180° rotation","statement":"$(x,y)\\to(-x,-y)$."}],"steps":[{"reasoning":"$(3,-4)\\to(-3,4)$.","working":"(-3,4)","marks":1,"markCode":"B"}],"finalAnswer":"**(b)** $(-3, 4)$","commonErrors":["Choosing (b) — only negated $x$."]},
         },
         {
           id: "cilm-u7-x1-q12",
@@ -131,7 +131,7 @@ export const exam71: Lesson = {
           totalMarks: 1,
           stem: "A shape and its mirror image have the same size but opposite orientation. The transformation is...",
           response: {"type":"mcq","choices":[ {"id":"a","text":"Translation"}, {"id":"b","text":"Rotation of $90°$"}, {"id":"c","text":"Enlargement"}, {"id":"d","text":"Reflection"} ],"correctChoiceId":"d"},
-          markscheme: {"principles":[{"kind":"definition","name":"Reflection","statement":"Mirror flip reverses orientation, preserves size."}],"steps":[{"reasoning":"Mirror image → reflection.","working":"reflection","marks":1,"markCode":"B"}],"finalAnswer":"**(b)** Reflection","commonErrors":["Choosing (c) — rotation preserves orientation."]},
+          markscheme: {"principles":[{"kind":"definition","name":"Reflection","statement":"Mirror flip reverses orientation, preserves size."}],"steps":[{"reasoning":"Mirror image → reflection.","working":"reflection","marks":1,"markCode":"B"}],"finalAnswer":"**(d)** Reflection","commonErrors":["Choosing (c) — rotation preserves orientation."]},
         },
         {
           id: "cilm-u7-x1-q14",
@@ -147,7 +147,7 @@ export const exam71: Lesson = {
           totalMarks: 1,
           stem: "A glide reflection is a combination of...",
           response: {"type":"mcq","choices":[ {"id":"a","text":"Two reflections only"}, {"id":"b","text":"An enlargement and translation"}, {"id":"c","text":"Two rotations"}, {"id":"d","text":"A reflection and a translation"} ],"correctChoiceId":"d"},
-          markscheme: {"principles":[{"kind":"definition","name":"Glide reflection","statement":"Reflection followed by translation along the mirror line."}],"steps":[{"reasoning":"Glide reflection = reflection + translation.","working":"reflect+translate","marks":1,"markCode":"B"}],"finalAnswer":"**(b)** A reflection and a translation","commonErrors":["Choosing (d) — two reflections give translation or rotation, not glide."]},
+          markscheme: {"principles":[{"kind":"definition","name":"Glide reflection","statement":"Reflection followed by translation along the mirror line."}],"steps":[{"reasoning":"Glide reflection = reflection + translation.","working":"reflect+translate","marks":1,"markCode":"B"}],"finalAnswer":"**(d)** A reflection and a translation","commonErrors":["Choosing (d) — two reflections give translation or rotation, not glide."]},
         },
         {
           id: "cilm-u7-x1-q16",

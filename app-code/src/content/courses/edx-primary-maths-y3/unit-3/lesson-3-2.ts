@@ -101,7 +101,7 @@ export const lesson32: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Kilograms",
+            finalAnswer: "**(d)** Kilograms",
             commonErrors: ["Choosing grams — too small a unit."],
           },
         },
@@ -325,7 +325,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "4 sides × 5 cm = 20 cm.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 20 cm",
+            finalAnswer: "**(d)** 20 cm",
             commonErrors: [
               "Multiplying 5 × 5 = 25 — that's area not perimeter.",
             ],

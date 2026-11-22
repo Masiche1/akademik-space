@@ -66,7 +66,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "$r = \\frac{d}{2} = \\frac{10}{2} = 5$ cm.", working: "r=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5$ cm",
+            finalAnswer: "**(b)** $5$ cm",
             commonErrors: ["Choosing (b) — radius is HALF the diameter."],
           },
         },
@@ -171,7 +171,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "$r = \\frac{16}{2} = 8$ cm.", working: "r=8", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $8$ cm",
+            finalAnswer: "**(b)** $8$ cm",
             commonErrors: ["Choosing (c) — that's doubling, not halving."],
           },
         },
@@ -223,7 +223,7 @@ export const lesson53: Lesson = {
               { id: "c", text: "Chord" },
               { id: "d", text: "Tangent" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -232,7 +232,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "One point of contact → tangent.", working: "tangent", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Tangent",
+            finalAnswer: "**(d)** Tangent",
             commonErrors: ["Choosing (a) — a chord joins TWO points on the circle."],
           },
         },
@@ -329,7 +329,7 @@ export const lesson53: Lesson = {
               { id: "c", text: "$180°$" },
               { id: "d", text: "$60°$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -338,7 +338,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Tangent ⊥ radius: $90°$.", working: "90°", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $90°$",
+            finalAnswer: "**(b)** $90°$",
             commonErrors: ["Choosing (a) — the tangent is perpendicular, not at $45°$."],
           },
         },
@@ -399,7 +399,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "$r = 44\\div(2\\times\\frac{22}{7}) = 44\\div\\frac{44}{7} = 7$ cm.", working: "r=7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $7$ cm",
+            finalAnswer: "**(b)** $7$ cm",
             commonErrors: ["Choosing (b) — that's the diameter, not the radius."],
           },
         },
@@ -474,7 +474,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Square has 4 lines: vertical, horizontal, both diagonals.", working: "4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 4",
+            finalAnswer: "**(c)** 4",
             commonErrors: ["Choosing (a) — counting only horizontal and vertical, missing diagonals."],
           },
         },
@@ -567,7 +567,7 @@ export const lesson53: Lesson = {
               { id: "c", text: "2" },
               { id: "d", text: "6" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -576,7 +576,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Equilateral triangle: 3 lines (each vertex to opposite side midpoint).", working: "3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** 3",
+            finalAnswer: "**(b)** 3",
             commonErrors: ["Choosing (b) — isosceles has only 1."],
           },
         },
@@ -628,7 +628,7 @@ export const lesson53: Lesson = {
               { id: "c", text: "Infinite" },
               { id: "d", text: "2" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -637,7 +637,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Any diameter divides a circle into mirror halves — infinite lines.", working: "\\infty", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Infinite",
+            finalAnswer: "**(c)** Infinite",
             commonErrors: ["Choosing (c) — that's a square's count."],
           },
         },
@@ -699,7 +699,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "No line divides a scalene triangle into mirror halves: $0$ lines.", working: "0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 0",
+            finalAnswer: "**(d)** 0",
             commonErrors: ["Choosing (b) — that's isosceles."],
           },
         },
@@ -743,7 +743,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Pentagon has $5>4$ lines.", working: "5>4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Regular pentagon ($5$)",
+            finalAnswer: "**(c)** Regular pentagon ($5$)",
             commonErrors: ["Choosing (a) — square has 4, pentagon has 5."],
           },
         },
@@ -804,7 +804,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Only the rectangle has exactly $2$ lines.", working: "2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Rectangle (not square)",
+            finalAnswer: "**(c)** Rectangle (not square)",
             commonErrors: ["Choosing (a) — equilateral has 3."],
           },
         },

@@ -63,7 +63,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Government" },
               { id: "d", text: "Customer" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -81,7 +81,7 @@ export const lesson13: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(c)** Employee",
+            finalAnswer: "**(a)** Employee",
             commonErrors: ["External confused."],
           },
         },
@@ -300,7 +300,7 @@ export const lesson13: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Corporate Social Responsibility",
+            finalAnswer: "**(a)** Corporate Social Responsibility",
             commonErrors: ["Wrong expansion."],
           },
         },

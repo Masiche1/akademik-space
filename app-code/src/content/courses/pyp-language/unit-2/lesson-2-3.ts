@@ -65,7 +65,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The text under a picture is the caption.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Caption",
+            finalAnswer: "**(d)** Caption",
             commonErrors: ["Choosing 'title' — a title names the whole text, a caption sits under a picture."],
           },
         },
@@ -202,7 +202,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Red is used for warnings and danger signs.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Stop or danger",
+            finalAnswer: "**(a)** Stop or danger",
             commonErrors: ["Choosing (a) — green suggests nature/go, not red."],
           },
         },
@@ -348,7 +348,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Posters inform or advertise — that is their purpose.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To give information or advertise something",
+            finalAnswer: "**(c)** To give information or advertise something",
             commonErrors: ["Choosing (a) — posters are not long stories."],
           },
         },
@@ -374,7 +374,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "'Walk your dog daily' is the request — walk the dog every day.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Walk their dog every day",
+            finalAnswer: "**(d)** Walk their dog every day",
             commonErrors: ["Choosing (a) — the poster is about walking, not buying."],
           },
         },
@@ -455,7 +455,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Guessing what happens next = predicting.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Predicting",
+            finalAnswer: "**(c)** Predicting",
             commonErrors: ["Choosing 'summarising' — that is retelling what already happened."],
           },
         },
@@ -565,7 +565,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Your thoughts and feelings about a text are your response.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Response",
+            finalAnswer: "**(c)** Response",
             commonErrors: ["Choosing 'summary' — a summary retells the text; a response shares your own thoughts."],
           },
         },
@@ -610,7 +610,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Clues in the text make a prediction sensible and connected.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Clues in the text",
+            finalAnswer: "**(c)** Clues in the text",
             commonErrors: ["Choosing (a) — a guess without clues is not a good prediction."],
           },
         },
@@ -692,7 +692,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Recommending means suggesting others try the text because you liked it.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** To tell them the book is good and they should try it",
+            finalAnswer: "**(d)** To tell them the book is good and they should try it",
             commonErrors: ["Choosing (c) — copying is not recommending."],
           },
         },
@@ -756,7 +756,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "(b) gives an honest opinion with a reason from the story.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'I liked it because the ending surprised me.'",
+            finalAnswer: "**(c)** 'I liked it because the ending surprised me.'",
             commonErrors: ["Choosing (d) — repeating others' opinions is not your own response."],
           },
         },
@@ -782,7 +782,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "A lost dog at a gate most likely wants its owner — (b) uses the clues well.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'Its owner will open the gate and take it home.'",
+            finalAnswer: "**(a)** 'Its owner will open the gate and take it home.'",
             commonErrors: ["Choosing (a) — it ignores the clues completely."],
           },
         },

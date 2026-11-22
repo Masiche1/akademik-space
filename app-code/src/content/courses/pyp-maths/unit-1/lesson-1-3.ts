@@ -210,7 +210,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$2.5 = 2 + \\frac{1}{2}$ — two and a half.", working: "2.5=2+0.5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2$ and a half",
+            finalAnswer: "**(c)** $2$ and a half",
             commonErrors: ["Choosing $25$ — the decimal point is not a times sign."],
           },
         },
@@ -236,7 +236,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$0.5 = \\frac{5}{10} = \\frac{1}{2}$ — one half.", working: "0.5=\\frac{1}{2}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** One half",
+            finalAnswer: "**(a)** One half",
             commonErrors: ["Choosing 'five' — $0.5$ is less than $1$."],
           },
         },
@@ -363,7 +363,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Two $25$-cent coins" },
               { id: "d", text: "Five $10$-cent coins" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -374,7 +374,7 @@ export const lesson13: Lesson = {
               { reasoning: "All other options need at least two coins.", marks: 1, markCode: "M" },
               { reasoning: "Answer: one $50$-cent coin.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(d)** One $50$-cent coin",
+            finalAnswer: "**(a)** One $50$-cent coin",
             commonErrors: ["Choosing (b) — five coins is more than one coin."],
           },
         },
@@ -474,7 +474,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$10-5=5$, $15-10=5$ — the rule is add $5$.", working: "5,10,15,20", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Add $5$",
+            finalAnswer: "**(d)** Add $5$",
             commonErrors: ["Choosing 'multiply by $5$' — the numbers are not multiplied, just increased by $5$."],
           },
         },
@@ -574,7 +574,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$4-2=2$, $6-4=2$ — the rule is add $2$.", working: "2,4,6,8", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Add $2$",
+            finalAnswer: "**(b)** Add $2$",
             commonErrors: ["Choosing 'multiply by $2$' — the numbers increase by $2$, not double."],
           },
         },
@@ -608,7 +608,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$60$" },
               { id: "d", text: "$80$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -617,7 +617,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Each term is double the previous: $40 \\times 2 = 80$.", working: "40\\times2=80", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $80$",
+            finalAnswer: "**(d)** $80$",
             commonErrors: ["Choosing $45$ — adding $5$ each time is wrong; the rule is doubling."],
           },
         },
@@ -679,7 +679,7 @@ export const lesson13: Lesson = {
               { reasoning: "$6-3=3$, $9-6=3$, $12-9=3$ — adds $3$ each time (the $3$ times table).", working: "3,6,9,12", marks: 1, markCode: "M" },
               { reasoning: "Answer: add $3$.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Add $3$",
+            finalAnswer: "**(c)** Add $3$",
             commonErrors: ["Choosing 'multiply by $3$' — $3 \\times 2 = 6$ is coincidence here; the rule is adding $3$."],
           },
         },
@@ -763,7 +763,7 @@ export const lesson13: Lesson = {
               { reasoning: "Only (b) subtracts $5$ every step.", marks: 1, markCode: "M" },
               { reasoning: "Answer: $20, 15, 10, 5$.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $20, 15, 10, 5$",
+            finalAnswer: "**(c)** $20, 15, 10, 5$",
             commonErrors: ["Choosing (a) — that adds $5$, it does not subtract."],
           },
         },

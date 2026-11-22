@@ -69,7 +69,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'as brave as' uses 'as' — simile — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Simile",
+            finalAnswer: "**(c)** Simile",
           },
         },
         {
@@ -169,7 +169,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'was a zoo' is a direct comparison — metaphor — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Metaphor",
+            finalAnswer: "**(d)** Metaphor",
           },
         },
         {
@@ -185,7 +185,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Simile" },
               { id: "d", text: "Hyperbole" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -194,7 +194,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'whispered' gives the wind a human action — personification — (c).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Personification",
+            finalAnswer: "**(b)** Personification",
           },
         },
         {
@@ -215,7 +215,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Personification" },
               { id: "d", text: "Simile" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -224,7 +224,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'sleep for a week' exaggerates tiredness — hyperbole — (c).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Hyperbole",
+            finalAnswer: "**(b)** Hyperbole",
           },
         },
         {
@@ -254,7 +254,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'like a golden coin' is a simile making the sunrise precious; 'as if reluctant to leave' personifies the dew — (a).", evidence: "like a golden coin", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Simile ('like a golden coin') and personification ('as if reluctant to leave')",
+            finalAnswer: "**(b)** Simile ('like a golden coin') and personification ('as if reluctant to leave')",
           },
         },
         {
@@ -349,7 +349,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Simile" },
               { id: "d", text: "Idiom" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -358,7 +358,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'heart of gold' is a direct comparison meaning kindness — metaphor — (c).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Metaphor",
+            finalAnswer: "**(a)** Metaphor",
           },
         },
         {
@@ -415,7 +415,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): the key difference is 'like'/'as' vs direct comparison — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Simile compares using 'like' or 'as'; metaphor compares directly",
+            finalAnswer: "**(a)** Simile compares using 'like' or 'as'; metaphor compares directly",
           },
         },
         {
@@ -440,7 +440,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'break a leg' is said to wish someone good luck — the meaning is cultural, not literal — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Good luck",
+            finalAnswer: "**(c)** Good luck",
           },
         },
         {
@@ -525,7 +525,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): figurative language creates images and feelings — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It creates images and feelings beyond literal meaning",
+            finalAnswer: "**(d)** It creates images and feelings beyond literal meaning",
           },
         },
         {
@@ -620,7 +620,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): figurative language adds images, mood and compression — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Images, mood and compressed meaning",
+            finalAnswer: "**(a)** Images, mood and compressed meaning",
           },
         },
         {
@@ -675,7 +675,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'beast that devoured' makes the test feel predatory and exhausting — more vivid — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'The test was a beast' — it gives the difficulty a wild, threatening image",
+            finalAnswer: "**(d)** 'The test was a beast' — it gives the difficulty a wild, threatening image",
           },
         },
         {
@@ -804,7 +804,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'stars' adds wonder and distance that 'bright' lacks — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Because the metaphor makes her eyes seem magical and distant",
+            finalAnswer: "**(a)** Because the metaphor makes her eyes seem magical and distant",
           },
         },
         {
@@ -861,7 +861,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): compression = packing complex meaning into one image — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It packs complex ideas into a single vivid image",
+            finalAnswer: "**(c)** It packs complex ideas into a single vivid image",
           },
         },
         {
@@ -886,7 +886,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'Paradise awaits' and 'sunset is a painting' are metaphors — they sell a feeling, not facts — (b).", evidence: "Paradise awaits", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Metaphor and elevated imagery that make the place feel desirable",
+            finalAnswer: "**(d)** Metaphor and elevated imagery that make the place feel desirable",
           },
         },
         {

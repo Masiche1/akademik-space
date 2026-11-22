@@ -63,7 +63,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall the equation.", working: "\\text{CO}_2 + \\text{H}_2\\text{O}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Carbon dioxide and water",
+            finalAnswer: "**(d)** Carbon dioxide and water",
             commonErrors: ["Choosing oxygen — that's a reactant, not a product."],
           },
         },
@@ -141,25 +141,25 @@ export const lesson51: Lesson = {
           id: "olbio-u5-aerobic-respiration-q5", difficulty: "foundation", totalMarks: 1,
           stem: "Where does aerobic respiration mainly occur in eukaryotic cells?",
           response: { type: "mcq", choices: [ { id: "a", text: "Chloroplasts" }, { id: "b", text: "Nucleus" }, { id: "c", text: "Ribosomes" }, { id: "d", text: "Mitochondria" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "property", name: "Site of aerobic respiration", statement: "Aerobic respiration occurs mainly in mitochondria." }], steps: [{ reasoning: "Recall the site.", working: "\\text{mitochondria}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Mitochondria", commonErrors: ["Choosing cytoplasm only — mitochondria are the main site."] },
+          markscheme: { principles: [{ kind: "property", name: "Site of aerobic respiration", statement: "Aerobic respiration occurs mainly in mitochondria." }], steps: [{ reasoning: "Recall the site.", working: "\\text{mitochondria}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Mitochondria", commonErrors: ["Choosing cytoplasm only — mitochondria are the main site."] },
         },
         {
           id: "olbio-u5-aerobic-respiration-q6", difficulty: "foundation", totalMarks: 1,
           stem: "Which pair is a correct set of reactants for aerobic respiration?",
           response: { type: "mcq", choices: [ { id: "a", text: "Lactate and oxygen" }, { id: "b", text: "Oxygen and water" }, { id: "c", text: "Glucose and oxygen" }, { id: "d", text: "Glucose and carbon dioxide" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "property", name: "Aerobic reactants", statement: "Aerobic respiration uses glucose and oxygen." }], steps: [{ reasoning: "Identify reactants.", working: "\\text{glucose} + \\text{O}_2", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Glucose and oxygen", commonErrors: ["Carbon dioxide and water are products."] },
+          markscheme: { principles: [{ kind: "property", name: "Aerobic reactants", statement: "Aerobic respiration uses glucose and oxygen." }], steps: [{ reasoning: "Identify reactants.", working: "\\text{glucose} + \\text{O}_2", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Glucose and oxygen", commonErrors: ["Carbon dioxide and water are products."] },
         },
         {
           id: "olbio-u5-aerobic-respiration-q7", difficulty: "core", totalMarks: 1,
           stem: "Approximately how many ATP molecules are released per glucose in aerobic respiration?",
           response: { type: "mcq", choices: [ { id: "a", text: "190" }, { id: "b", text: "0" }, { id: "c", text: "2" }, { id: "d", text: "38" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "property", name: "Aerobic ATP yield", statement: "About 38 ATP per glucose aerobically versus about 2 anaerobically." }], steps: [{ reasoning: "Recall the yield.", working: "\\sim 38 \\text{ ATP}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 38", commonErrors: ["Choosing 2 ATP describes anaerobic respiration."] },
+          markscheme: { principles: [{ kind: "property", name: "Aerobic ATP yield", statement: "About 38 ATP per glucose aerobically versus about 2 anaerobically." }], steps: [{ reasoning: "Recall the yield.", working: "\\sim 38 \\text{ ATP}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** 38", commonErrors: ["Choosing 2 ATP describes anaerobic respiration."] },
         },
         {
           id: "olbio-u5-aerobic-respiration-q8", difficulty: "core", totalMarks: 1,
           stem: "Which process is a use of energy released by respiration?",
           response: { type: "mcq", choices: [ { id: "a", text: "Diffusion of oxygen" }, { id: "b", text: "Photosynthesis" }, { id: "c", text: "Active transport" }, { id: "d", text: "Cell division by mitosis only" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "property", name: "Uses of ATP", statement: "Respiration energy is used for muscle contraction, protein synthesis, cell division, active transport, nerve impulses and temperature regulation." }], steps: [{ reasoning: "Match a process that requires ATP.", working: "\\text{active transport}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Active transport", commonErrors: ["Photosynthesis stores energy; it is not a use of respiratory ATP."] },
+          markscheme: { principles: [{ kind: "property", name: "Uses of ATP", statement: "Respiration energy is used for muscle contraction, protein synthesis, cell division, active transport, nerve impulses and temperature regulation." }], steps: [{ reasoning: "Match a process that requires ATP.", working: "\\text{active transport}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Active transport", commonErrors: ["Photosynthesis stores energy; it is not a use of respiratory ATP."] },
         },
         {
           id: "olbio-u5-aerobic-respiration-q9", difficulty: "challenge", totalMarks: 1,
@@ -171,7 +171,7 @@ export const lesson51: Lesson = {
           id: "olbio-u5-aerobic-respiration-q10", difficulty: "challenge", totalMarks: 1,
           stem: "Why is aerobic respiration described as more efficient than anaerobic respiration?",
           response: { type: "mcq", choices: [ { id: "a", text: "It does not require oxygen" }, { id: "b", text: "It produces lactic acid" }, { id: "c", text: "It occurs in the cytoplasm only" }, { id: "d", text: "Glucose is fully oxidised and more ATP is released" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "property", name: "Efficiency of aerobic respiration", statement: "Aerobic respiration fully oxidises glucose, releasing about 38 ATP compared with about 2 ATP anaerobically." }], steps: [{ reasoning: "Link efficiency to ATP yield.", working: "\\text{full oxidation} \\to \\sim 38 \\text{ ATP}", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Glucose is fully oxidised and more ATP is released", commonErrors: ["Anaerobic respiration does not require oxygen but yields little ATP."] },
+          markscheme: { principles: [{ kind: "property", name: "Efficiency of aerobic respiration", statement: "Aerobic respiration fully oxidises glucose, releasing about 38 ATP compared with about 2 ATP anaerobically." }], steps: [{ reasoning: "Link efficiency to ATP yield.", working: "\\text{full oxidation} \\to \\sim 38 \\text{ ATP}", marks: 1, markCode: "M" }], finalAnswer: "**(d)** Glucose is fully oxidised and more ATP is released", commonErrors: ["Anaerobic respiration does not require oxygen but yields little ATP."] },
         },
         {
           id: "olbio-u5-aerobic-respiration-q11", difficulty: "foundation", totalMarks: 1,
@@ -275,7 +275,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall the product.", working: "\\text{lactic acid}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Lactic acid",
+            finalAnswer: "**(b)** Lactic acid",
             commonErrors: ["Choosing ethanol/CO₂ — that's yeast, not human muscles."],
           },
         },
@@ -352,7 +352,7 @@ export const lesson51: Lesson = {
           id: "olbio-u5-anaerobic-respiration-q5", difficulty: "foundation", totalMarks: 1,
           stem: "What is the main product of anaerobic respiration in human muscles?",
           response: { type: "mcq", choices: [ { id: "a", text: "Ethanol" }, { id: "b", text: "Water" }, { id: "c", text: "Carbon dioxide only" }, { id: "d", text: "Lactic acid" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "property", name: "Animal anaerobic product", statement: "Anaerobic respiration in animals produces lactic acid and a small amount of energy." }], steps: [{ reasoning: "Recall the product.", working: "\\text{lactic acid}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Lactic acid", commonErrors: ["Ethanol and carbon dioxide are yeast products."] },
+          markscheme: { principles: [{ kind: "property", name: "Animal anaerobic product", statement: "Anaerobic respiration in animals produces lactic acid and a small amount of energy." }], steps: [{ reasoning: "Recall the product.", working: "\\text{lactic acid}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Lactic acid", commonErrors: ["Ethanol and carbon dioxide are yeast products."] },
         },
         {
           id: "olbio-u5-anaerobic-respiration-q6", difficulty: "foundation", totalMarks: 1,
@@ -364,7 +364,7 @@ export const lesson51: Lesson = {
           id: "olbio-u5-anaerobic-respiration-q7", difficulty: "core", totalMarks: 1,
           stem: "What is oxygen debt?",
           response: { type: "mcq", choices: [ { id: "a", text: "Carbon dioxide left in blood" }, { id: "b", text: "Extra oxygen needed to oxidise accumulated lactic acid" }, { id: "c", text: "Oxygen stored in muscles" }, { id: "d", text: "The oxygen used during sleep" } ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "property", name: "Oxygen debt", statement: "Oxygen debt is the extra oxygen required after anaerobic exercise to oxidise accumulated lactic acid." }], steps: [{ reasoning: "Recall the definition.", working: "\\text{repay } \\text{O}_2 \\text{ debt}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Extra oxygen needed to oxidise accumulated lactic acid", commonErrors: ["It is not oxygen stored before exercise."] },
+          markscheme: { principles: [{ kind: "property", name: "Oxygen debt", statement: "Oxygen debt is the extra oxygen required after anaerobic exercise to oxidise accumulated lactic acid." }], steps: [{ reasoning: "Recall the definition.", working: "\\text{repay } \\text{O}_2 \\text{ debt}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Extra oxygen needed to oxidise accumulated lactic acid", commonErrors: ["It is not oxygen stored before exercise."] },
         },
         {
           id: "olbio-u5-anaerobic-respiration-q8", difficulty: "core", totalMarks: 1,
@@ -488,7 +488,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall formula.", working: "RQ = \\text{CO}_2/\\text{O}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** CO₂ produced divided by O₂ consumed",
+            finalAnswer: "**(b)** CO₂ produced divided by O₂ consumed",
             commonErrors: ["Inverting — CO₂ is numerator, O₂ is denominator."],
           },
         },
@@ -564,7 +564,7 @@ export const lesson51: Lesson = {
           id: "olbio-u5-respiratory-quotient-q5", difficulty: "foundation", totalMarks: 1,
           stem: "How is respiratory quotient (RQ) calculated?",
           response: { type: "mcq", choices: [ { id: "a", text: "ATP produced divided by glucose" }, { id: "b", text: "Energy released divided by time" }, { id: "c", text: "O2 consumed divided by CO2 produced" }, { id: "d", text: "CO2 produced divided by O2 consumed" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "RQ formula", statement: "RQ = volume of CO2 produced / volume of O2 consumed." }], steps: [{ reasoning: "Recall the ratio.", working: "RQ=\\frac{\\text{CO}_2}{\\text{O}_2}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** CO2 produced divided by O2 consumed", commonErrors: ["The ratio is inverted in the wrong choices."] },
+          markscheme: { principles: [{ kind: "definition", name: "RQ formula", statement: "RQ = volume of CO2 produced / volume of O2 consumed." }], steps: [{ reasoning: "Recall the ratio.", working: "RQ=\\frac{\\text{CO}_2}{\\text{O}_2}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** CO2 produced divided by O2 consumed", commonErrors: ["The ratio is inverted in the wrong choices."] },
         },
         {
           id: "olbio-u5-respiratory-quotient-q6", difficulty: "foundation", totalMarks: 1,
@@ -576,25 +576,25 @@ export const lesson51: Lesson = {
           id: "olbio-u5-respiratory-quotient-q7", difficulty: "core", totalMarks: 1,
           stem: "Which substrate is suggested by an RQ of about 0.7?",
           response: { type: "mcq", choices: [ { id: "a", text: "Alcohol" }, { id: "b", text: "Protein" }, { id: "c", text: "Fat" }, { id: "d", text: "Carbohydrate" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "property", name: "RQ interpretation", statement: "An RQ near 0.7 suggests fat is the main respiratory substrate." }], steps: [{ reasoning: "Match value to substrate.", working: "RQ\\approx0.7", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Fat", commonErrors: ["Protein gives a higher RQ near 0.9."] },
+          markscheme: { principles: [{ kind: "property", name: "RQ interpretation", statement: "An RQ near 0.7 suggests fat is the main respiratory substrate." }], steps: [{ reasoning: "Match value to substrate.", working: "RQ\\approx0.7", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Fat", commonErrors: ["Protein gives a higher RQ near 0.9."] },
         },
         {
           id: "olbio-u5-respiratory-quotient-q8", difficulty: "core", totalMarks: 1,
           stem: "A measured RQ of about 0.9 most closely indicates respiration of:",
           response: { type: "mcq", choices: [ { id: "a", text: "Fat only" }, { id: "b", text: "Protein" }, { id: "c", text: "Pure carbohydrate" }, { id: "d", text: "Water" } ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "property", name: "RQ interpretation", statement: "An RQ near 0.9 suggests protein is a major respiratory substrate." }], steps: [{ reasoning: "Match value to substrate.", working: "RQ\\approx0.9", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Protein", commonErrors: ["0.9 is not the fat value."] },
+          markscheme: { principles: [{ kind: "property", name: "RQ interpretation", statement: "An RQ near 0.9 suggests protein is a major respiratory substrate." }], steps: [{ reasoning: "Match value to substrate.", working: "RQ\\approx0.9", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Protein", commonErrors: ["0.9 is not the fat value."] },
         },
         {
           id: "olbio-u5-respiratory-quotient-q9", difficulty: "challenge", totalMarks: 1,
           stem: "What does a lower RQ generally indicate about the substrate mixture?",
           response: { type: "mcq", choices: [ { id: "a", text: "No respiration is occurring" }, { id: "b", text: "A greater contribution from carbohydrate" }, { id: "c", text: "A greater contribution from fat" }, { id: "d", text: "Only protein is respired" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "property", name: "RQ and substrate", statement: "Lower RQ values indicate more fat oxidation relative to carbohydrate." }], steps: [{ reasoning: "Relate low RQ to fat oxidation.", working: "\\text{fat} \\to RQ<1", marks: 1, markCode: "M" }], finalAnswer: "**(a)** A greater contribution from fat", commonErrors: ["Lower RQ does not mean no respiration."] },
+          markscheme: { principles: [{ kind: "property", name: "RQ and substrate", statement: "Lower RQ values indicate more fat oxidation relative to carbohydrate." }], steps: [{ reasoning: "Relate low RQ to fat oxidation.", working: "\\text{fat} \\to RQ<1", marks: 1, markCode: "M" }], finalAnswer: "**(c)** A greater contribution from fat", commonErrors: ["Lower RQ does not mean no respiration."] },
         },
         {
           id: "olbio-u5-respiratory-quotient-q10", difficulty: "challenge", totalMarks: 1,
           stem: "During prolonged exercise, which change is most expected in the gases exchanged?",
           response: { type: "mcq", choices: [ { id: "a", text: "Oxygen consumption stops" }, { id: "b", text: "Less carbon dioxide is produced" }, { id: "c", text: "More oxygen is consumed and more carbon dioxide is produced" }, { id: "d", text: "Only nitrogen is exchanged" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "property", name: "Exercise gas exchange", statement: "Exercise increases oxygen uptake and carbon dioxide production." }], steps: [{ reasoning: "Link exercise to respiration rate.", working: "\\text{O}_2 \\uparrow,\\ \\text{CO}_2 \\uparrow", marks: 1, markCode: "M" }], finalAnswer: "**(a)** More oxygen is consumed and more carbon dioxide is produced", commonErrors: ["Exercise increases gas exchange; it does not stop it."] },
+          markscheme: { principles: [{ kind: "property", name: "Exercise gas exchange", statement: "Exercise increases oxygen uptake and carbon dioxide production." }], steps: [{ reasoning: "Link exercise to respiration rate.", working: "\\text{O}_2 \\uparrow,\\ \\text{CO}_2 \\uparrow", marks: 1, markCode: "M" }], finalAnswer: "**(c)** More oxygen is consumed and more carbon dioxide is produced", commonErrors: ["Exercise increases gas exchange; it does not stop it."] },
         },
         {
           id: "olbio-u5-respiratory-quotient-q11", difficulty: "foundation", totalMarks: 1,

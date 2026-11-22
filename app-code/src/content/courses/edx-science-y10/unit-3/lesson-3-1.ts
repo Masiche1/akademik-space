@@ -248,7 +248,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Energy = joules.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Joule (J)",
+            finalAnswer: "**(c)** Joule (J)",
             commonErrors: ["Confusing units."],
           },
         },
@@ -438,7 +438,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Pitch = frequency.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Frequency",
+            finalAnswer: "**(c)** Frequency",
             commonErrors: ["Amplitude confused — loudness."],
           },
         },

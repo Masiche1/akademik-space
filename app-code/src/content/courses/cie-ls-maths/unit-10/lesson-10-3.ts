@@ -188,7 +188,7 @@ export const lesson103: Lesson = {
               { id: "c", text: "$270^{\\circ}$" },
               { id: "d", text: "$90^{\\circ}$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -376,7 +376,7 @@ export const lesson103: Lesson = {
               { id: "c", text: "$36$ m" },
               { id: "d", text: "$26$ m" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1317,7 +1317,7 @@ export const lesson103: Lesson = {
               { id: "c", text: "$l+w+h$" },
               { id: "d", text: "$lwh$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1626,7 +1626,7 @@ export const lesson103: Lesson = {
               { id: "c", text: "Mean" },
               { id: "d", text: "Median" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -69,7 +69,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Count decimal places: 4 → $10^{-4}$.", working: "4.5\\times10^{-4}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $4.5\\times10^{-4}$",
+            finalAnswer: "**(d)** $4.5\\times10^{-4}$",
             commonErrors: ["Writing $45\\times10^{-5}$ — mantissa must be $\\ge1$ and $<10$."],
             examinerNote: "B1 for (a).",
           },
@@ -180,7 +180,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Standard form", statement: "$a\\times10^n$ with $1\\le a<10$." }],
             steps: [{ reasoning: "Move the decimal six places: $7.2\\times10^6$.", working: "7.2\\times10^6", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $7.2\\times10^6$",
+            finalAnswer: "**(b)** $7.2\\times10^6$",
           },
         },
         {
@@ -425,7 +425,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$\\frac{22}{7}$" },
               { id: "d", text: "$\\sqrt{10}$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -434,7 +434,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$0.\\dot{4}=\\frac{4}{9}$, $\\sqrt{9}=3$, $\\frac{22}{7}$ — all rational; $\\sqrt{10}$ is irrational.", working: "\\sqrt{10}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\sqrt{10}$",
+            finalAnswer: "**(d)** $\\sqrt{10}$",
             commonErrors: ["Thinking $\\frac{22}{7}$ is irrational because it approximates $\\pi$."],
             examinerNote: "B1 for (c).",
           },
@@ -480,7 +480,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "All square roots of non-perfect squares are irrational by definition." },
               { id: "d", text: "$\\sqrt{5}$ cannot be written as a fraction because its decimal never repeats." },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -540,12 +540,12 @@ export const lesson13: Lesson = {
               { id: "c", text: "$\\frac{17}{4}$" },
               { id: "d", text: "$\\sqrt{13}$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Irrational", statement: "Cannot be written as $\\frac{p}{q}$; $\\sqrt{13}$ is irrational." }],
             steps: [{ reasoning: "$\\sqrt{16}=4$, $0.\\dot5=\\frac59$, $\\frac{17}{4}$ are rational; $\\sqrt{13}$ is irrational.", working: "\\sqrt{13}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** $\\sqrt{13}$",
+            finalAnswer: "**(d)** $\\sqrt{13}$",
           },
         },
         {

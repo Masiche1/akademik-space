@@ -108,7 +108,7 @@ export const lesson71: Lesson = {
             { id: "b", text: "1.0" },
             { id: "c", text: "0.4" },
             { id: "d", text: "1.2" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Probability range", statement: "0 to 1 inclusive." }], steps: [{ reasoning: "Probabilities must lie between 0 and 1.", marks: 1, markCode: "A" }], finalAnswer: "1.2" },
         },
         {

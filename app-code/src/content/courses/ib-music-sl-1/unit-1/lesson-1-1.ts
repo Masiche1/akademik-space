@@ -71,7 +71,7 @@ export const lesson11: Lesson = {
               { reasoning: "The top number of a time signature indicates beats per bar.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The number of beats per bar",
+            finalAnswer: "**(d)** The number of beats per bar",
             commonErrors: [
               "Reversing the meaning of the two numbers.",
             ],
@@ -178,7 +178,7 @@ export const lesson11: Lesson = {
               { reasoning: "The treble clef circles the G line above middle C, hence its name G clef.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Treble clef",
+            finalAnswer: "**(c)** Treble clef",
             commonErrors: [
               "Confusing the treble (G) clef with the bass (F) clef.",
             ],
@@ -236,7 +236,7 @@ export const lesson11: Lesson = {
               { reasoning: "6/8 groups six eighth notes into two beats of three eighths each — compound duple.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Compound duple metre with two beats divided into three",
+            finalAnswer: "**(a)** Compound duple metre with two beats divided into three",
             commonErrors: [
               "Counting six eighth-note beats instead of two compound beats.",
             ],
@@ -294,7 +294,7 @@ export const lesson11: Lesson = {
               { reasoning: "Ledger lines extend the staff so notes above or below it can be written.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Represent notes above or below the staff",
+            finalAnswer: "**(a)** Represent notes above or below the staff",
             commonErrors: [
               "Thinking ledger lines are part of bar lines or repeat signs.",
             ],
@@ -323,7 +323,7 @@ export const lesson11: Lesson = {
               { reasoning: "Seconds and thirds are small intervals, creating a smooth, singable, lyrical line.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Stepwise and lyrical",
+            finalAnswer: "**(d)** Stepwise and lyrical",
             commonErrors: [
               "Confusing interval size with melodic character.",
             ],
@@ -525,7 +525,7 @@ export const lesson11: Lesson = {
               { reasoning: "Syncopation displaces accents to weak beats or subdivisions, creating tension.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Accents fall on weak beats or off-beats",
+            finalAnswer: "**(a)** Accents fall on weak beats or off-beats",
             commonErrors: [
               "Confusing syncopation with tempo or dynamic change.",
             ],
@@ -626,7 +626,7 @@ export const lesson11: Lesson = {
               { reasoning: "Each rest symbol corresponds to a note value and marks that duration of silence.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A specific duration of silence",
+            finalAnswer: "**(a)** A specific duration of silence",
             commonErrors: [
               "Confusing rests with quiet dynamics.",
             ],
@@ -655,7 +655,7 @@ export const lesson11: Lesson = {
               { reasoning: "An ostinato is a pattern that repeats, providing a stable foundation in a piece.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A repeating rhythmic or melodic pattern",
+            finalAnswer: "**(d)** A repeating rhythmic or melodic pattern",
             commonErrors: [
               "Confusing ostinato with a one-time melodic idea.",
             ],
@@ -713,7 +713,7 @@ export const lesson11: Lesson = {
               { reasoning: "Dictation trains translating heard rhythms into written note values.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The link between heard rhythm and written notation",
+            finalAnswer: "**(a)** The link between heard rhythm and written notation",
             commonErrors: [
               "Thinking dictation is only about writing, not listening.",
             ],
@@ -742,7 +742,7 @@ export const lesson11: Lesson = {
               { reasoning: "Restarting breaks the internal beat and prevents the performer from developing continuity.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** They lose the pulse and disrupt the musical flow",
+            finalAnswer: "**(a)** They lose the pulse and disrupt the musical flow",
             commonErrors: [
               "Believing perfect accuracy matters more than maintaining flow.",
             ],
@@ -771,7 +771,7 @@ export const lesson11: Lesson = {
               { reasoning: "Syncopation shifts accent energy to weak beats, creating tension and forward drive.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Accenting weak beats or subdivisions between the main beats",
+            finalAnswer: "**(a)** Accenting weak beats or subdivisions between the main beats",
             commonErrors: [
               "Thinking syncopation is a tempo change rather than an accent displacement.",
             ],

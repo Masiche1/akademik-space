@@ -118,7 +118,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A mismatch between workers' skills and available jobs",
+              "**(d)** A mismatch between workers' skills and available jobs",
             commonErrors: [
               "Confusing structural (long-term mismatch) with frictional (short-term search).",
             ],
@@ -358,7 +358,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Short-term unemployment while workers search for or move between jobs",
+              "**(d)** Short-term unemployment while workers search for or move between jobs",
             commonErrors: [
               "Confusing frictional (normal search) with structural (mismatch).",
             ],
@@ -406,7 +406,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Insufficient aggregate demand during a recession",
+              "**(d)** Insufficient aggregate demand during a recession",
             commonErrors: [
               "Confusing cyclical unemployment with structural unemployment.",
             ],
@@ -432,7 +432,7 @@ export const lesson43: Lesson = {
                 text: "A discouraged worker who has stopped looking for work",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -463,7 +463,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** A discouraged worker who has stopped looking for work",
+              "**(d)** A discouraged worker who has stopped looking for work",
             commonErrors: [
               "Assuming all jobless people count as unemployed — they must be actively seeking work.",
             ],
@@ -557,7 +557,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Frictional and structural unemployment",
+            finalAnswer: "**(d)** Frictional and structural unemployment",
             commonErrors: [
               "Including cyclical unemployment in the natural rate — it is demand-driven, not structural.",
             ],
@@ -1096,7 +1096,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** An inverse relationship between inflation and unemployment",
+              "**(a)** An inverse relationship between inflation and unemployment",
             commonErrors: [
               "Thinking the trade-off is permanent — it only holds in the short run.",
             ],
@@ -1308,7 +1308,7 @@ export const lesson43: Lesson = {
               { id: "c", text: "Upward sloping" },
               { id: "d", text: "Horizontal at zero inflation" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1332,7 +1332,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Vertical at the natural rate of unemployment",
+            finalAnswer: "**(b)** Vertical at the natural rate of unemployment",
             commonErrors: [
               "Confusing the downward-sloping SRPC with the vertical LRPC.",
             ],
@@ -1384,7 +1384,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Shift rightward",
+            finalAnswer: "**(a)** Shift rightward",
             commonErrors: [
               "Thinking the curve shifts along itself — expectation changes shift the whole curve.",
             ],
@@ -1429,7 +1429,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Unanticipated inflation",
+            finalAnswer: "**(a)** Unanticipated inflation",
             commonErrors: [
               "Thinking any inflation reduces unemployment — only unanticipated inflation does, and only temporarily.",
             ],
@@ -1477,7 +1477,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The unemployment rate consistent with stable inflation",
+              "**(a)** The unemployment rate consistent with stable inflation",
             commonErrors: [
               "Confusing NAIRU with zero unemployment — it includes frictional and structural unemployment.",
             ],
@@ -1531,7 +1531,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A rightward shift of the SRPC caused by adverse supply shocks",
+              "**(d)** A rightward shift of the SRPC caused by adverse supply shocks",
             commonErrors: [
               "Thinking stagflation is just a movement along the curve — it requires a shift.",
             ],

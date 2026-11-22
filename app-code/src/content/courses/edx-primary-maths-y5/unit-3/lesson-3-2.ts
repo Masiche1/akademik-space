@@ -69,7 +69,7 @@ export const lesson92: Lesson = {
               { id: "c", text: "Acute" },
               { id: "d", text: "Reflex" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -82,7 +82,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Between 90 and 180.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Obtuse",
+            finalAnswer: "**(b)** Obtuse",
             commonErrors: ["Calling it reflex — reflex is >180°."],
           },
         },
@@ -302,7 +302,7 @@ export const lesson92: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Square",
+            finalAnswer: "**(d)** Square",
             commonErrors: ["Choosing rectangle — sides aren't all equal."],
           },
         },

@@ -51,7 +51,7 @@ export const lesson28: Lesson = {
             { id: "b", text: "2/4" },
             { id: "c", text: "2/3" },
             { id: "d", text: "1/4" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Equivalent fractions", statement: "Same value, different numbers." }],
             steps: [{ reasoning: "2/4 = 1/2.", marks: 1, markCode: "A" }],
@@ -213,7 +213,7 @@ export const lesson28: Lesson = {
             { id: "b", text: "30°" },
             { id: "c", text: "45°" },
             { id: "d", text: "120°" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Obtuse angle", statement: "Between 90° and 180°." }],
             steps: [{ reasoning: "120° is between 90° and 180° → obtuse.", marks: 1, markCode: "A" }],
@@ -230,7 +230,7 @@ export const lesson28: Lesson = {
             { id: "b", text: "$0.66$" },
             { id: "c", text: "$0.06$" },
             { id: "d", text: "$0.6$" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Comparing decimals", statement: "Compare tenths then hundredths." }],
             steps: [{ reasoning: "$0.66$ has 6 tenths and 6 hundredths — largest.", marks: 1, markCode: "A" }],
@@ -264,7 +264,7 @@ export const lesson28: Lesson = {
             { id: "b", text: "straight" },
             { id: "c", text: "acute" },
             { id: "d", text: "obtuse" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Straight angle", statement: "Exactly 180°." }],
             steps: [{ reasoning: "An angle of 180° is a straight angle.", marks: 1, markCode: "A" }],

@@ -68,7 +68,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Blood returning to the heart travels in veins. The pulmonary vein carries oxygenated blood from the lungs to the left atrium.", working: "\\text{pulmonary vein}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Pulmonary vein",
+            finalAnswer: "**(d)** Pulmonary vein",
             commonErrors: ["Choosing the pulmonary artery: it carries blood to the lungs and is deoxygenated.", "Assuming that all veins carry deoxygenated blood and all arteries oxygenated blood."],
             examinerNote: "B1 for pulmonary vein.",
           },

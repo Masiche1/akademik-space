@@ -65,7 +65,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Exposition = setup/opening.", working: "setup", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Opening that sets up story",
+            finalAnswer: "**(d)** Opening that sets up story",
             commonErrors: ["Choosing (b) — that's climax."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Climax = peak tension of the story.", working: "peak", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The point of highest tension",
+            finalAnswer: "**(b)** The point of highest tension",
             commonErrors: ["Choosing (c) — that is the resolution."],
           },
         },
@@ -307,7 +307,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Theme = underlying idea, not a single event.", working: "idea", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The underlying idea explored",
+            finalAnswer: "**(c)** The underlying idea explored",
             commonErrors: ["Choosing (d) — that is plot."],
           },
         },
@@ -631,7 +631,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Static character", statement: "A character who does not change or develop." } ],
             steps: [ { reasoning: "Static = unchanging.", working: "unchanging", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Static",
+            finalAnswer: "**(b)** Static",
             commonErrors: ["Choosing (c) — round describes complexity, not change."],
           },
         },
@@ -661,7 +661,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Foil", statement: "Character whose traits contrast with another's to highlight them." } ],
             steps: [ { reasoning: "Foil = contrast highlights traits.", working: "contrast", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Contrasts to highlight another character",
+            finalAnswer: "**(d)** Contrasts to highlight another character",
             commonErrors: ["Thinking a foil is always a villain."],
           },
         },
@@ -691,7 +691,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Indirect characterisation", statement: "Traits revealed through actions, dialogue, thoughts, appearance." } ],
             steps: [ { reasoning: "Actions and speech = shown, not told.", working: "shown", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** What the character does and says",
+            finalAnswer: "**(b)** What the character does and says",
             commonErrors: ["Choosing (b) — that is direct characterisation."],
           },
         },
@@ -734,7 +734,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Dynamic character", statement: "A character who undergoes significant change or development." } ],
             steps: [ { reasoning: "Dynamic = changes through the story.", working: "changes", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Dynamic",
+            finalAnswer: "**(c)** Dynamic",
             commonErrors: ["Confusing dynamic with round — a character can be both."],
           },
         },
@@ -790,7 +790,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Omniscient = all-knowing.", working: "all", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Knows all thoughts/events",
+            finalAnswer: "**(c)** Knows all thoughts/events",
             commonErrors: ["Choosing (b) — that's limited third person."],
           },
         },
@@ -886,7 +886,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Limited third person", statement: "Narrator accesses only one character's thoughts and knowledge." } ],
             steps: [ { reasoning: "Limited = one character's perspective.", working: "one", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Follows one character's perspective",
+            finalAnswer: "**(b)** Follows one character's perspective",
             commonErrors: ["Choosing (b) — that is omniscient."],
           },
         },
@@ -942,7 +942,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Omniscient", statement: "All-knowing narrator with access to every character's thoughts." } ],
             steps: [ { reasoning: "Omniscient = knows all.", working: "all", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Omniscient",
+            finalAnswer: "**(d)** Omniscient",
             commonErrors: ["Choosing (b) — limited knows only one mind."],
           },
         },
@@ -972,7 +972,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "POV breadth", statement: "Omniscient third person sees all events and minds." } ],
             steps: [ { reasoning: "Omniscient = broadest access.", working: "broad", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Third-person omniscient",
+            finalAnswer: "**(b)** Third-person omniscient",
             commonErrors: ["Choosing (c) — limited follows only one character."],
           },
         },
@@ -1045,7 +1045,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Unreliable narrator", statement: "Narrator whose account distorts or misjudges events." } ],
             steps: [ { reasoning: "Unreliable = distorted account.", working: "distorted", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Distorting or misjudging events",
+            finalAnswer: "**(c)** Distorting or misjudging events",
             commonErrors: ["Thinking unreliable means badly written."],
           },
         },

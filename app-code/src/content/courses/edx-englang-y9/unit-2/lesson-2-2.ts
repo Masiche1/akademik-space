@@ -75,7 +75,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Metaphor", statement: "Describing something as if it is something else, without 'like' or 'as'." }],
             steps: [{ reasoning: "The timetable is said to be a despot, not 'like' one, so it is a metaphor.", evidence: "a new despot in England", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** Metaphor: the timetable is directly called a despot.",
+            finalAnswer: "**(b)** Metaphor: the timetable is directly called a despot.",
             commonErrors: ["Choosing (b) simile because comparison is involved; no 'like' or 'as' is used."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Anecdote", statement: "A short personal story used to illustrate a point." }],
             steps: [{ reasoning: "The farmer's missed train gives vivid, humorous evidence of the timetable's tyranny.", evidence: "The train departed. The farmer remained.", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** The paragraph is an anecdote that illustrates the timetable's tyranny.",
+            finalAnswer: "**(d)** The paragraph is an anecdote that illustrates the timetable's tyranny.",
             commonErrors: ["Choosing (c) because the farmer misses the train; the blame falls on the timetable and guard."],
           },
         },

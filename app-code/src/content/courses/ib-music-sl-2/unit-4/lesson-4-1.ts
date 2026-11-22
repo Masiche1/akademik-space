@@ -70,7 +70,7 @@ export const lesson41: Lesson = {
               { reasoning: "Polyrhythm combines multiple rhythmic patterns that interlock simultaneously.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Multiple interlocking rhythmic patterns played simultaneously",
+            finalAnswer: "**(d)** Multiple interlocking rhythmic patterns played simultaneously",
             commonErrors: [
               "Confusing polyrhythm with simple repetition or monorhythm.",
             ],
@@ -177,7 +177,7 @@ export const lesson41: Lesson = {
               { reasoning: "The mbira, or thumb piano, is indigenous to West and Central African musical traditions.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** West and Central Africa",
+            finalAnswer: "**(c)** West and Central Africa",
             commonErrors: [
               "Confusing African instruments with European or Pacific instruments.",
             ],
@@ -276,7 +276,7 @@ export const lesson41: Lesson = {
               { reasoning: "Talking drums vary pitch to imitate speech tones, functioning as a form of musical communication.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Can mimic the pitch patterns of speech",
+            finalAnswer: "**(a)** Can mimic the pitch patterns of speech",
             commonErrors: [
               "Treating the talking drum as purely rhythmic rather than speech-like.",
             ],
@@ -422,7 +422,7 @@ export const lesson41: Lesson = {
               { reasoning: "Call-and-response, dancing and joining refrains make the audience co-performers.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Active participants who respond, dance and join refrains",
+            finalAnswer: "**(c)** Active participants who respond, dance and join refrains",
             commonErrors: [
               "Applying Western concert-hall audience conventions to communal traditions.",
             ],
@@ -473,7 +473,7 @@ export const lesson41: Lesson = {
               { reasoning: "African traditions foreground rhythm and timbre transmitted orally within the community.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Rhythm, timbre and oral/communal transmission",
+            finalAnswer: "**(d)** Rhythm, timbre and oral/communal transmission",
             commonErrors: [
               "Judging African music by Western art-music criteria.",
             ],
@@ -533,7 +533,7 @@ export const lesson41: Lesson = {
               { reasoning: "Reggae is a Jamaican genre that became globally influential.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Jamaica",
+            finalAnswer: "**(a)** Jamaica",
             commonErrors: [
               "Confusing reggae with other Caribbean or African genres.",
             ],
@@ -640,7 +640,7 @@ export const lesson41: Lesson = {
               { reasoning: "Salsa combines Cuban son montuno, jazz and Puerto Rican bomba into a dance genre.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Cuban son, jazz and Puerto Rican bomba",
+            finalAnswer: "**(c)** Cuban son, jazz and Puerto Rican bomba",
             commonErrors: [
               "Confusing salsa with other Latin or Caribbean genres.",
             ],
@@ -689,7 +689,7 @@ export const lesson41: Lesson = {
               { reasoning: "Reggae's chop is a chord accent placed on the offbeat of the groove.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Accented guitar or keyboard chords played on the offbeats",
+            finalAnswer: "**(c)** Accented guitar or keyboard chords played on the offbeats",
             commonErrors: [
               "Confusing the offbeat chop with drum patterns or bass lines.",
             ],
@@ -739,7 +739,7 @@ export const lesson41: Lesson = {
               { reasoning: "Mento is the acoustic Jamaican folk style that preceded ska and reggae.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Preceded and influenced ska and reggae as an acoustic folk style",
+            finalAnswer: "**(c)** Preceded and influenced ska and reggae as an acoustic folk style",
             commonErrors: [
               "Confusing mento's chronological position in Jamaican music.",
             ],
@@ -885,7 +885,7 @@ export const lesson41: Lesson = {
               { reasoning: "Calypso historically served as a vehicle for news, satire and social commentary.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Oral journalism commenting on politics and daily life",
+            finalAnswer: "**(d)** Oral journalism commenting on politics and daily life",
             commonErrors: [
               "Treating calypso as purely entertainment.",
             ],
@@ -936,7 +936,7 @@ export const lesson41: Lesson = {
               { reasoning: "Call-and-response and clave are direct descendants of African performance structures.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Call-and-response and polyrhythmic clave patterns",
+            finalAnswer: "**(c)** Call-and-response and polyrhythmic clave patterns",
             commonErrors: [
               "Citing European features as evidence of African origins.",
             ],

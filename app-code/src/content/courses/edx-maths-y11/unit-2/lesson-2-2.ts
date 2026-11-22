@@ -63,7 +63,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Vector addition", statement: "Add corresponding entries." }],
             steps: [{ reasoning: "Add the top entries and the bottom entries.", working: "\\begin{pmatrix} 3+2 \\\\ -1+4 \\end{pmatrix}=\\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix}$",
+            finalAnswer: "**(d)** $\\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix}$",
             commonErrors: ["Subtracting instead of adding, giving $\\begin{pmatrix} 1 \\\\ -5 \\end{pmatrix}$.", "Sign error on $-1+4$."],
           },
         },
@@ -195,7 +195,7 @@ export const lesson22: Lesson = {
               { reasoning: "$\\overrightarrow{AB}=\\mathbf{b}-\\mathbf{a}$ and $\\overrightarrow{AM}=\\frac12\\overrightarrow{AB}$.", working: "\\overrightarrow{OM}=\\mathbf{a}+\\frac12(\\mathbf{b}-\\mathbf{a})", marks: 1, markCode: "M" },
               { reasoning: "Simplify.", working: "\\frac12(\\mathbf{a}+\\mathbf{b})", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $\\frac12(\\mathbf{a}+\\mathbf{b})$",
+            finalAnswer: "**(c)** $\\frac12(\\mathbf{a}+\\mathbf{b})$",
             commonErrors: ["Giving $\\overrightarrow{AM}$ instead of $\\overrightarrow{OM}$ (option b).", "Forgetting to halve both vectors."],
           },
         },

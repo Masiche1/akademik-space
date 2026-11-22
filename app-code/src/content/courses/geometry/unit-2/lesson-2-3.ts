@@ -67,7 +67,7 @@ export const lesson23: Lesson = {
               { reasoning: "Select the sine ratio because the question asks for sine.", working: "\\sin\\theta=\\dfrac{\\text{opposite}}{\\text{hypotenuse}}", marks: 1, markCode: "M" },
               { reasoning: "Substitute the given opposite side and hypotenuse.", working: "\\sin\\theta=\\dfrac{5}{13}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $\\dfrac{5}{13}$",
+            finalAnswer: "**(b)** $\\dfrac{5}{13}$",
             commonErrors: ["Using the adjacent side instead of the opposite side.", "Inverting the ratio to hypotenuse over opposite."],
           },
         },

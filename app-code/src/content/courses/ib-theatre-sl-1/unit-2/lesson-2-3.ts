@@ -116,7 +116,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Religious rituals honouring Dionysus",
+            finalAnswer: "**(a)** Religious rituals honouring Dionysus",
             commonErrors: [
               "Treating theatre as purely entertainment rather than ritual origin.",
             ],
@@ -339,7 +339,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Teach Christian doctrine to largely illiterate audiences",
+              "**(a)** Teach Christian doctrine to largely illiterate audiences",
             commonErrors: [
               "Treating medieval theatre as purely secular entertainment.",
             ],
@@ -426,7 +426,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Portray life as it actually is",
+            finalAnswer: "**(b)** Portray life as it actually is",
             commonErrors: [
               "Confusing realism with naturalism's scientific detachment or with epic theatre.",
             ],
@@ -661,7 +661,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Bertolt Brecht",
+            finalAnswer: "**(a)** Bertolt Brecht",
             commonErrors: [
               "Confusing Brecht with realist or absurdist playwrights.",
             ],
@@ -972,7 +972,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Realism",
+            finalAnswer: "**(c)** Realism",
             commonErrors: [
               "Confusing realism with absurdism, which is deliberately illogical.",
             ],
@@ -1885,7 +1885,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Separate enduring concerns from era-specific treatments",
+              "**(a)** Separate enduring concerns from era-specific treatments",
             commonErrors: [
               "Confusing this distinction with judging a play's quality.",
             ],
@@ -2025,7 +2025,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Reveal hidden meanings beneath surface content",
+              "**(d)** Reveal hidden meanings beneath surface content",
             commonErrors: [
               "Reading comedy at face value without contextual depth.",
             ],

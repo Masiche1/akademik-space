@@ -237,7 +237,7 @@ export const lesson65: Lesson = {
             steps: [
               { reasoning: "Online shopping is a common form of e-commerce.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Buying books online",
+            finalAnswer: "**(d)** Buying books online",
           },
         },
         {
@@ -262,7 +262,7 @@ export const lesson65: Lesson = {
             steps: [
               { reasoning: "Cloud services run on remote servers and are accessed online.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Remote servers over the internet",
+            finalAnswer: "**(d)** Remote servers over the internet",
           },
         },
         {
@@ -312,7 +312,7 @@ export const lesson65: Lesson = {
             steps: [
               { reasoning: "IPTV streams television programmes over IP networks.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Television over the internet",
+            finalAnswer: "**(c)** Television over the internet",
           },
         },
         {
@@ -337,7 +337,7 @@ export const lesson65: Lesson = {
             steps: [
               { reasoning: "VoIP converts voice into data packets sent over the internet.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** VoIP",
+            finalAnswer: "**(b)** VoIP",
           },
         },
         {
@@ -362,7 +362,7 @@ export const lesson65: Lesson = {
             steps: [
               { reasoning: "IoT includes sensors and smart devices that communicate online.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Connected smart devices",
+            finalAnswer: "**(a)** Connected smart devices",
           },
         },
         {

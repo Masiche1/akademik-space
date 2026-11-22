@@ -59,7 +59,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "The Calvin cycle" },
               { id: "d", text: "The Krebs cycle" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "The electron transport chain uses the hydrogen ion gradient to make about 26 to 28 ATP per glucose, far more than the other stages.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** The electron transport chain",
+            finalAnswer: "**(b)** The electron transport chain",
             commonErrors: ["Choosing glycolysis because it is the first stage.", "Choosing the Calvin cycle, which is part of photosynthesis."],
             examinerNote: "B1 for electron transport chain.",
           },

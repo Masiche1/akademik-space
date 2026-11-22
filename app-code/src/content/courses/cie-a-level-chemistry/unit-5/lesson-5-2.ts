@@ -281,7 +281,7 @@ export const lesson512: Lesson = {
               { id: "c", text: "HNO3" },
               { id: "d", text: "HCl" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Weak acid", statement: "Partial ionisation." }],

@@ -181,7 +181,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The mass number counts protons plus neutrons; the atomic number counts protons only.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The total number of protons and neutrons in the nucleus",
+            finalAnswer: "**(c)** The total number of protons and neutrons in the nucleus",
             commonErrors: ["Confusing the mass number with the atomic number (protons only)."],
             examinerNote: "B1 for choice (b).",
           },
@@ -208,7 +208,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Non-metals are dull, brittle and poor conductors; metals are shiny, malleable and good conductors.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Dull, brittle and a poor conductor of electricity",
+            finalAnswer: "**(a)** Dull, brittle and a poor conductor of electricity",
             commonErrors: ["Mixing up the properties of metals and non-metals."],
             examinerNote: "B1 for choice (b).",
           },
@@ -235,7 +235,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Add the protons and neutrons: $6 + 6 = 12$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 12",
+            finalAnswer: "**(a)** 12",
             commonErrors: ["Giving 6, which is only the number of protons (the atomic number)."],
             examinerNote: "B1 for choice (b).",
           },
@@ -409,7 +409,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The other statements reverse groups and periods, reverse the order of atomic number, or misplace non-metals.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Elements in the same group have similar chemical properties.",
+            finalAnswer: "**(c)** Elements in the same group have similar chemical properties.",
             commonErrors: ["Choosing (a) because rows sound like groups."],
             examinerNote: "B1 for choice (b).",
           },
@@ -436,7 +436,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Neutrons = $19 - 9 = 10$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 10",
+            finalAnswer: "**(a)** 10",
             commonErrors: ["Choosing 9, the atomic number (protons).", "Choosing 28 by adding 19 and 9."],
             examinerNote: "B1 for choice (b).",
           },
@@ -621,7 +621,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$\\text{H}_2\\text{O}$" },
               { id: "d", text: "$\\text{CO}_2$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -630,7 +630,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Nitrogen $\\text{N}_2$ contains only nitrogen atoms. The others contain two different elements, so they are compounds.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\text{N}_2$",
+            finalAnswer: "**(b)** $\\text{N}_2$",
             commonErrors: ["Thinking any molecule with two atoms must be a compound."],
             examinerNote: "B1 for choice (c).",
           },
@@ -657,7 +657,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The 2 in front multiplies the whole $\\text{H}_2\\text{O}$ unit, giving two water molecules (4 hydrogen and 2 oxygen atoms).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Two molecules of water",
+            finalAnswer: "**(d)** Two molecules of water",
             commonErrors: ["Reading only the subscript and ignoring the large 2."],
             examinerNote: "B1 for choice (b).",
           },
@@ -675,7 +675,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "2" },
               { id: "d", text: "3" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -684,7 +684,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Hydrogen atoms = $3 \\times 2 = 6$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** 6",
+            finalAnswer: "**(a)** 6",
             commonErrors: ["Giving 3 (only the multiplier) or 2 (only the subscript)."],
             examinerNote: "B1 for choice (c).",
           },
@@ -852,7 +852,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The arrow separates reactants (left) from products (right) and shows that reactants change into products.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The reactants change into the products",
+            finalAnswer: "**(a)** The reactants change into the products",
             commonErrors: ["Thinking the arrow means 'plus'."],
             examinerNote: "B1 for choice (b).",
           },
@@ -870,7 +870,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "methane + carbon dioxide -> oxygen + water" },
               { id: "d", text: "methane + oxygen -> carbon monoxide + water" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -879,7 +879,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Complete combustion of a hydrocarbon gives carbon dioxide and water; the reactants are methane and oxygen.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** methane + oxygen -> carbon dioxide + water",
+            finalAnswer: "**(b)** methane + oxygen -> carbon dioxide + water",
             commonErrors: ["Choosing (b), which is incomplete combustion producing toxic carbon monoxide."],
             examinerNote: "B1 for choice (c). Reject carbon monoxide as the product of complete combustion.",
           },

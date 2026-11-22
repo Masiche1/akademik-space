@@ -105,7 +105,7 @@ export const lesson53: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** voltage increases; current decreases",
+            finalAnswer: "**(d)** voltage increases; current decreases",
             commonErrors: [
               "Thinking a transformer can increase both voltage and current.",
             ],
@@ -149,7 +149,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $48$ V",
+            finalAnswer: "**(b)** $48$ V",
             commonErrors: ["Inverting the turns ratio to get $3.0$ V."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** secondary voltage $60$ V; secondary current $8.0$ A",
+              "**(b)** secondary voltage $60$ V; secondary current $8.0$ A",
             commonErrors: [
               "Inverting the current ratio.",
               "Using the turns ratio directly on the current without accounting for power conservation.",
@@ -420,7 +420,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $48$ V",
+            finalAnswer: "**(d)** $48$ V",
             commonErrors: ["Inverting the turns ratio to get $1200$ V."],
           },
         },
@@ -891,7 +891,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** A has the larger ratio; $V_{sA} = 60$ V and $V_{sB} = 48$ V",
+              "**(c)** A has the larger ratio; $V_{sA} = 60$ V and $V_{sB} = 48$ V",
             commonErrors: [
               "Comparing the number of turns instead of the turns ratio.",
             ],
@@ -1077,7 +1077,7 @@ export const lesson53: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** a.c. reverses direction periodically",
+            finalAnswer: "**(a)** a.c. reverses direction periodically",
             commonErrors: [
               "Confusing a.c. with d.c.; d.c. flows in one direction.",
             ],
@@ -1121,7 +1121,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $17$ V",
+            finalAnswer: "**(d)** $17$ V",
             commonErrors: [
               "Dividing by 2 instead of $\\sqrt{2}$.",
               "Multiplying by $\\sqrt{2}$ instead of dividing.",
@@ -1179,7 +1179,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** peak voltage $325$ V; period $0.020$ s",
+            finalAnswer: "**(b)** peak voltage $325$ V; period $0.020$ s",
             commonErrors: [
               "Dividing by $\\sqrt{2}$ instead of multiplying to get the peak.",
               "Using $T = f$ instead of $T = 1/f$.",
@@ -1349,7 +1349,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $14$ V",
+            finalAnswer: "**(c)** $14$ V",
             commonErrors: [
               "Dividing by $2$ instead of $\\sqrt{2}$, giving $10$ V.",
             ],
@@ -1451,7 +1451,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $3.5$ A",
+            finalAnswer: "**(c)** $3.5$ A",
             commonErrors: ["Dividing by $2$ instead of $\\sqrt{2}$."],
           },
         },
@@ -1548,7 +1548,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** the value of a steady d.c. voltage that would dissipate the same power in a resistor",
+              "**(d)** the value of a steady d.c. voltage that would dissipate the same power in a resistor",
             commonErrors: [
               "Thinking r.m.s. is simply the average of the waveform.",
             ],
@@ -1787,7 +1787,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** it alternates smoothly between positive and negative values, passing through zero twice per cycle",
+              "**(d)** it alternates smoothly between positive and negative values, passing through zero twice per cycle",
             commonErrors: [
               "Confusing a.c. with a varying-but-unipolar voltage.",
             ],

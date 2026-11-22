@@ -302,7 +302,7 @@ export const lesson511: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** More intense surface shaking and building damage",
+              "**(a)** More intense surface shaking and building damage",
           },
         },
         {
@@ -340,7 +340,7 @@ export const lesson511: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Building codes, preparedness drills and evacuation plans",
+              "**(c)** Building codes, preparedness drills and evacuation plans",
           },
         },
         {
@@ -441,7 +441,7 @@ export const lesson511: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** Divergent",
+            finalAnswer: "**(d)** Divergent",
           },
         },
         {
@@ -475,7 +475,7 @@ export const lesson511: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** Shallow strike-slip earthquakes",
+            finalAnswer: "**(a)** Shallow strike-slip earthquakes",
           },
         },
         {
@@ -666,7 +666,7 @@ export const lesson511: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Saturated soil losing strength and behaving like a liquid",
+              "**(c)** Saturated soil losing strength and behaving like a liquid",
           },
         },
       ],

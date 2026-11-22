@@ -57,7 +57,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Water" },
               { id: "d", text: "Food" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -66,7 +66,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Toys are not needed for survival — food, water, air and shelter are.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Toys",
+            finalAnswer: "**(b)** Toys",
             commonErrors: ["Choosing 'shelter' — shelter is a real need; toys are not."],
           },
         },
@@ -158,7 +158,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Sunlight is a plant-specific need for making food.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Sunlight",
+            finalAnswer: "**(c)** Sunlight",
             commonErrors: ["Choosing food — animals need food too, but plants make their own."],
           },
         },
@@ -223,7 +223,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "A pond provides water, food and shelter for a fish.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A pond",
+            finalAnswer: "**(d)** A pond",
             commonErrors: ["Choosing desert or mountain — they lack the water a fish needs."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Photosynthesis makes food and releases oxygen.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Food and oxygen",
+            finalAnswer: "**(a)** Food and oxygen",
             commonErrors: ["Choosing oxygen only — the plant also makes food for itself."],
           },
         },
@@ -395,7 +395,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Plants do not need water" },
               { id: "d", text: "Soil causes plants to grow green" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -405,7 +405,7 @@ export const lesson11: Lesson = {
               { reasoning: "Water and soil are identical, so they cannot explain the difference.", marks: 1, markCode: "M" },
               { reasoning: "The plant with light grew better, so light is needed for healthy growth.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Light is needed for healthy plant growth",
+            finalAnswer: "**(b)** Light is needed for healthy plant growth",
             commonErrors: ["Blaming water or soil even though both plants received the same amount."],
           },
         },
@@ -458,7 +458,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Water is a basic need for survival; phones, bikes and TVs are wants, not needs.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Water",
+            finalAnswer: "**(a)** Water",
             commonErrors: ["Choosing 'food' would also work — but among options only water is listed."],
           },
         },
@@ -550,7 +550,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "A mobile phone is not needed to survive; food, water and shelter are.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A mobile phone",
+            finalAnswer: "**(c)** A mobile phone",
             commonErrors: ["Choosing food — food is a basic need, not a want."],
           },
         },
@@ -615,7 +615,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Rice and bread are grain foods that provide energy.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Rice or bread",
+            finalAnswer: "**(d)** Rice or bread",
             commonErrors: ["Choosing water — water is essential but does not give food energy."],
           },
         },
@@ -681,7 +681,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Covering stops germs from spreading to other people.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To stop germs spreading to others",
+            finalAnswer: "**(a)** To stop germs spreading to others",
             commonErrors: ["Thinking it is just polite — it also protects health."],
           },
         },
@@ -748,7 +748,7 @@ export const lesson11: Lesson = {
               { reasoning: "The key evidence is fewer germs and less illness spreading.", marks: 1, markCode: "M" },
               { reasoning: "Smelling nice or drying hands does not prove germs are removed.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Fewer germs on hands and fewer illnesses spread",
+            finalAnswer: "**(c)** Fewer germs on hands and fewer illnesses spread",
             commonErrors: ["Choosing a nice smell — smell is not evidence of germ removal."],
           },
         },
@@ -797,7 +797,7 @@ export const lesson11: Lesson = {
               { reasoning: "Exercise builds strength and supports heart health.", marks: 1, markCode: "M" },
               { reasoning: "The body still needs food, sleep and hygiene; exercise adds to health.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It strengthens muscles and bones and keeps the heart healthy",
+            finalAnswer: "**(d)** It strengthens muscles and bones and keeps the heart healthy",
             commonErrors: ["Choosing options that remove needs — the body still needs food, water, sleep and hygiene."],
           },
         },

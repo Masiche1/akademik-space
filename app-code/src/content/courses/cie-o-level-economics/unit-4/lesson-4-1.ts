@@ -44,7 +44,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Exports only" },
             { id: "d", text: "Total value of goods/services produced in a country" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "GDP", statement: "Total output value." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "GDP", statement: "Total output value." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u4-ni-q2", difficulty: "core", totalMarks: 2,
@@ -101,7 +101,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "GNP minus GDP" },
             { id: "d", text: "GDP multiplied by population" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "GDP per capita", statement: "GDP / population." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "GDP per capita", statement: "GDP / population." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u4-ni-q6", difficulty: "foundation", totalMarks: 2,
@@ -124,7 +124,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Includes only exports" },
             { id: "d", text: "Is measured at current prices" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Real vs nominal GDP", statement: "Inflation adjustment." }], steps: [{ reasoning: "Real GDP removes price changes.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Real vs nominal GDP", statement: "Inflation adjustment." }], steps: [{ reasoning: "Real GDP removes price changes.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u4-ni-q8", difficulty: "core", totalMarks: 3,
@@ -211,7 +211,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Exports of manufactured goods" },
             { id: "d", text: "Transfer payments such as unemployment benefits" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "GDP scope", statement: "Final output only." }], steps: [{ reasoning: "Transfer payments are not payment for production.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "GDP scope", statement: "Final output only." }], steps: [{ reasoning: "Transfer payments are not payment for production.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u4-ni-q15", difficulty: "foundation", totalMarks: 1,
@@ -222,7 +222,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "GDP divided by population" },
             { id: "d", text: "GDP plus net income from abroad" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "GNP", statement: "GDP + net income from abroad." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "GNP", statement: "GDP + net income from abroad." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u4-ni-q16", difficulty: "challenge", totalMarks: 9,
@@ -279,7 +279,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Government spending" },
             { id: "d", text: "Increase in real GDP over time" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Growth", statement: "Real GDP increase." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Growth", statement: "Real GDP increase." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u4-eg-q2", difficulty: "core", totalMarks: 2,
@@ -335,7 +335,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "The increase in government spending" },
             { id: "d", text: "The increase in real GDP over time" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Growth measure", statement: "Real GDP." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Growth measure", statement: "Real GDP." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u4-eg-q6", difficulty: "foundation", totalMarks: 2,
@@ -358,7 +358,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "A reduction in the labour force" },
             { id: "d", text: "A decrease in productivity" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Growth causes", statement: "Human capital." }], steps: [{ reasoning: "Education raises productivity and output.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Growth causes", statement: "Human capital." }], steps: [{ reasoning: "Education raises productivity and output.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u4-eg-q8", difficulty: "core", totalMarks: 3,
@@ -445,7 +445,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Real GDP" },
             { id: "d", text: "The price level" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Growth measure", statement: "Real GDP." }], steps: [{ reasoning: "Real GDP removes inflation effects.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Growth measure", statement: "Real GDP." }], steps: [{ reasoning: "Real GDP removes inflation effects.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u4-eg-q15", difficulty: "foundation", totalMarks: 1,
@@ -456,7 +456,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Rising unemployment" },
             { id: "d", text: "Lower output" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Growth benefit", statement: "Living standards." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Growth benefit", statement: "Living standards." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u4-eg-q16", difficulty: "challenge", totalMarks: 9,

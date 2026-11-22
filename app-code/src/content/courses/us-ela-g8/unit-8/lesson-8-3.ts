@@ -116,7 +116,7 @@ export const lesson83: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. To persuade schools to extend lunch.",
+            finalAnswer: "**(d)**. To persuade schools to extend lunch.",
             commonErrors: [
               "Choosing (a) — it informs but purpose is persuasion.",
             ],
@@ -332,7 +332,7 @@ export const lesson83: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Student alone in dark room — creates isolation.",
+              "**(c)**. Student alone in dark room — creates isolation.",
             commonErrors: [
               "Missing that darkness + solitude = emotional manipulation.",
             ],
@@ -557,7 +557,7 @@ export const lesson83: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Only presents supporting evidence — selective.",
+              "**(d)**. Only presents supporting evidence — selective.",
             commonErrors: [
               "Thinking citing research = unbiased — could still be selective.",
             ],

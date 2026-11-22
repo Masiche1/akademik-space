@@ -138,7 +138,7 @@ export const lesson116: Lesson = {
             { id: "b", text: "Mars" },
             { id: "c", text: "Venus" },
             { id: "d", text: "Mercury" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Planets", statement: "Mercury is first from the Sun." }],
             steps: [{ reasoning: "Mercury is the closest planet to the Sun.", marks: 1, markCode: "A" }],
@@ -182,7 +182,7 @@ export const lesson116: Lesson = {
             { id: "b", text: "Precipitation" },
             { id: "c", text: "Evaporation" },
             { id: "d", text: "Transpiration" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Precipitation", statement: "Water falling as rain, snow or hail." }],
             steps: [{ reasoning: "Rain = precipitation.", marks: 1, markCode: "A" }],
@@ -278,7 +278,7 @@ export const lesson116: Lesson = {
             { id: "b", text: "Jupiter" },
             { id: "c", text: "Venus" },
             { id: "d", text: "Mars" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Earth", statement: "Third planet from the Sun." }],
             steps: [{ reasoning: "We live on Earth, the third planet.", marks: 1, markCode: "A" }],

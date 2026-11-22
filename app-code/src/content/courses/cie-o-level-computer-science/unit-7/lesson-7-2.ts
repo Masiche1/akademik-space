@@ -44,7 +44,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Sorted" },
             { id: "d", text: "Empty" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Binary search", statement: "Needs sorted data." }], steps: [{ reasoning: "Binary needs sorted.", working: "\\text{sorted}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sorted" },
+          markscheme: { principles: [{ kind: "principle", name: "Binary search", statement: "Needs sorted data." }], steps: [{ reasoning: "Binary needs sorted.", working: "\\text{sorted}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Sorted" },
         },
         {
           id: "olcs-u7-al-q2", difficulty: "core", totalMarks: 2,
@@ -99,7 +99,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Only lists of numbers" },
             { id: "d", text: "Only empty lists" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Linear search", statement: "Works on any list." }], steps: [{ reasoning: "Linear checks each item — no order needed.", working: "\\text{any list}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sorted and unsorted lists" },
+          markscheme: { principles: [{ kind: "principle", name: "Linear search", statement: "Works on any list." }], steps: [{ reasoning: "Linear checks each item — no order needed.", working: "\\text{any list}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Sorted and unsorted lists" },
         },
         {
           id: "olcs-u7-al-q6", difficulty: "core", totalMarks: 2,
@@ -128,7 +128,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "It is the fastest sort" },
             { id: "d", text: "The largest items bubble to the end" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Bubble sort", statement: "Largest bubbles to the end." }], steps: [{ reasoning: "Biggest items move to the end each pass.", working: "\\text{bubble}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Largest items bubble to the end" },
+          markscheme: { principles: [{ kind: "principle", name: "Bubble sort", statement: "Largest bubbles to the end." }], steps: [{ reasoning: "Biggest items move to the end each pass.", working: "\\text{bubble}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Largest items bubble to the end" },
         },
         {
           id: "olcs-u7-al-q9", difficulty: "foundation", totalMarks: 2,
@@ -159,7 +159,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Binary search" },
             { id: "d", text: "Linear search" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Binary speed", statement: "$O(\\log n)$ beats $O(n)$." }], steps: [{ reasoning: "Binary search is much faster on sorted data.", working: "\\log n", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Binary search" },
+          markscheme: { principles: [{ kind: "principle", name: "Binary speed", statement: "$O(\\log n)$ beats $O(n)$." }], steps: [{ reasoning: "Binary search is much faster on sorted data.", working: "\\log n", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Binary search" },
         },
         {
           id: "olcs-u7-al-q12", difficulty: "core", totalMarks: 2,
@@ -240,7 +240,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Is spelled correctly" },
             { id: "d", text: "Falls within allowed limits" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Range check", statement: "Value within limits." }], steps: [{ reasoning: "Range = within limits.", working: "\\text{limits}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Within limits" },
+          markscheme: { principles: [{ kind: "definition", name: "Range check", statement: "Value within limits." }], steps: [{ reasoning: "Range = within limits.", working: "\\text{limits}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Within limits" },
         },
         {
           id: "olcs-u7-val-q2", difficulty: "core", totalMarks: 2,
@@ -295,7 +295,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "The file is backed up" },
             { id: "d", text: "A required field is not empty" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Presence check", statement: "Field not empty." }], steps: [{ reasoning: "Presence = not empty.", working: "\\text{not empty}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Field is not empty" },
+          markscheme: { principles: [{ kind: "definition", name: "Presence check", statement: "Field not empty." }], steps: [{ reasoning: "Presence = not empty.", working: "\\text{not empty}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Field is not empty" },
         },
         {
           id: "olcs-u7-val-q6", difficulty: "core", totalMarks: 2,
@@ -324,7 +324,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Backup check" },
             { id: "d", text: "Type check" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Type check", statement: "Rejects wrong data type." }], steps: [{ reasoning: "'12a4' contains a letter, not all digits.", working: "\\text{type}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Type check" },
+          markscheme: { principles: [{ kind: "definition", name: "Type check", statement: "Rejects wrong data type." }], steps: [{ reasoning: "'12a4' contains a letter, not all digits.", working: "\\text{type}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Type check" },
         },
         {
           id: "olcs-u7-val-q9", difficulty: "foundation", totalMarks: 1,
@@ -352,7 +352,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Confirms data was entered correctly" },
             { id: "d", text: "Backs up files" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Verification", statement: "Confirms correct entry." }], steps: [{ reasoning: "Verification checks entry accuracy.", working: "\\text{entry}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Confirms correct entry" },
+          markscheme: { principles: [{ kind: "definition", name: "Verification", statement: "Confirms correct entry." }], steps: [{ reasoning: "Verification checks entry accuracy.", working: "\\text{entry}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Confirms correct entry" },
         },
         {
           id: "olcs-u7-val-q12", difficulty: "core", totalMarks: 2,
@@ -383,7 +383,7 @@ export const lesson72: Lesson = {
             { id: "c", text: "Data is prime" },
             { id: "d", text: "The password is strong" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Length check", statement: "Within character limits." }], steps: [{ reasoning: "Length check limits characters.", working: "\\text{length}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Within character limits" },
+          markscheme: { principles: [{ kind: "definition", name: "Length check", statement: "Within character limits." }], steps: [{ reasoning: "Length check limits characters.", working: "\\text{length}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Within character limits" },
         },
         {
           id: "olcs-u7-val-q15", difficulty: "core", totalMarks: 2,

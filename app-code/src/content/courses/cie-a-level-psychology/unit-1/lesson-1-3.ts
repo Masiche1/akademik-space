@@ -338,7 +338,7 @@ export const lesson713: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Report everything first"
+          "finalAnswer": "**(d)** Report everything first"
 },
         },
         {
@@ -416,7 +416,7 @@ export const lesson713: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Leading questions"
+          "finalAnswer": "**(b)** Leading questions"
 },
         },
         {
@@ -493,7 +493,7 @@ export const lesson713: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Memory rebuilt with post-event info"
+          "finalAnswer": "**(d)** Memory rebuilt with post-event info"
 },
         },
         {
@@ -570,7 +570,7 @@ export const lesson713: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(b)** Method of loci"
+          "finalAnswer": "**(c)** Method of loci"
 },
         },
         {
@@ -651,7 +651,7 @@ export const lesson713: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Encoding specificity"
+          "finalAnswer": "**(d)** Encoding specificity"
 },
         },
         {

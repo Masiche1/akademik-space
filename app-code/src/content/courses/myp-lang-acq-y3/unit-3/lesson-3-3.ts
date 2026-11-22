@@ -69,7 +69,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — recycling = reusing materials.", working: "reusing materials", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Reusing materials to make new things",
+            finalAnswer: "**(d)** Reusing materials to make new things",
             commonErrors: ["Confusing recycling with waste."],
             examinerNote: "D1 for (b).",
           },
@@ -174,7 +174,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — pollution = harmful substances.", working: "harmful substances", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Harmful substances in air, water or land",
+            finalAnswer: "**(c)** Harmful substances in air, water or land",
             commonErrors: ["Confusing with recycling."],
             examinerNote: "D1 for (b).",
           },
@@ -201,7 +201,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — climate change is worldwide.", working: "climate change", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Climate change affects people worldwide",
+            finalAnswer: "**(c)** Climate change affects people worldwide",
             commonErrors: ["Choosing a personal problem."],
             examinerNote: "B1 for (b).",
           },
@@ -228,7 +228,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'has damaged' is correct present perfect.", working: "has damaged", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** Pollution has damaged many rivers.",
+            finalAnswer: "**(d)** Pollution has damaged many rivers.",
             commonErrors: ["Using past simple with no time or present continuous."],
             examinerNote: "D1 for (a).",
           },
@@ -255,7 +255,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'should stop using' is a solution.", working: "should stop using", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** We should stop using single-use plastic bags.",
+            finalAnswer: "**(c)** We should stop using single-use plastic bags.",
             commonErrors: ["Choosing a problem statement."],
             examinerNote: "C1 for (b).",
           },
@@ -315,7 +315,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — opinion + reason + suggestion is the full structure.", working: "opinion + reason + suggestion", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Give an opinion with a reason and a suggestion",
+            finalAnswer: "**(a)** Give an opinion with a reason and a suggestion",
             commonErrors: ["Choosing complaint-only or facts-only."],
             examinerNote: "C1 for (b).",
           },
@@ -525,7 +525,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — cultural exchange = sharing between cultures.", working: "sharing ideas/food/customs", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Sharing ideas, food and customs between cultures",
+            finalAnswer: "**(c)** Sharing ideas, food and customs between cultures",
             commonErrors: ["Confusing with economic trade."],
             examinerNote: "B1 for (b).",
           },
@@ -622,7 +622,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — food festival shares culture between groups.", working: "food festival", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** An international food festival where students share dishes",
+            finalAnswer: "**(d)** An international food festival where students share dishes",
             commonErrors: ["Confusing with economic trade."],
             examinerNote: "B1 for (b).",
           },
@@ -649,7 +649,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'In my country, we...' is neutral and respectful.", working: "In my country, we", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(a)** In my country, we...",
+            finalAnswer: "**(c)** In my country, we...",
             commonErrors: ["Choosing judgemental or overgeneralising phrases."],
             examinerNote: "C1 for (a).",
           },
@@ -667,7 +667,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "You should do it my way." },
               { id: "d", text: "That's interesting — how is it in your country?" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -676,7 +676,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — C is curious and respectful.", working: "That's interesting", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(c)** That's interesting — how is it in your country?",
+            finalAnswer: "**(d)** That's interesting — how is it in your country?",
             commonErrors: ["Choosing judgemental 'weird'/'strange'."],
             examinerNote: "C1 for (c).",
           },
@@ -694,7 +694,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "different" },
               { id: "d", text: "interesting" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -703,7 +703,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'weird' is judgemental.", working: "weird", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** weird",
+            finalAnswer: "**(a)** weird",
             commonErrors: ["Choosing neutral words like 'different'."],
             examinerNote: "D1 for (c).",
           },

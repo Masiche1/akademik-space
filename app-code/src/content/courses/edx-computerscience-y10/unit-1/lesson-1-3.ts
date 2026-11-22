@@ -273,7 +273,7 @@ export const lesson203: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Filters traffic",
+            finalAnswer: "**(d)** Filters traffic",
             commonErrors: ["Antivirus confused."],
           },
         },

@@ -590,7 +590,7 @@ export const lesson98: Lesson = {
                 text: "$1500",
               },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

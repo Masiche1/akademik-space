@@ -57,7 +57,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Ionic bond", statement: "Metal + non-metal → ions." }],
             steps: [{ reasoning: "NaCl = Na⁺ and Cl⁻ ions.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** NaCl",
+            finalAnswer: "**(c)** NaCl",
           },
         },
         {
@@ -170,7 +170,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Metallic bond", statement: "Sea of delocalised electrons." }],
             steps: [{ reasoning: "Free electrons carry charge.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Delocalised electrons",
+            finalAnswer: "**(c)** Delocalised electrons",
           },
         },
         {

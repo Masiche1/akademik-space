@@ -64,7 +64,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Keep $x$ and change the sign of $y$.", working: "(3, -2) \\to (3, 2)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $(3, 2)$",
+            finalAnswer: "**(c)** $(3, 2)$",
             commonErrors: ["Choosing $(-3, -2)$, which is a reflection across the $y$-axis.", "Choosing $(-3, 2)$, which is a $180^\\circ$ rotation."],
           },
         },
@@ -212,7 +212,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Multiply both coordinates by $3$.", working: "(3 \\times 2,\\; 3 \\times (-1)) = (6, -3)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(6, -3)$",
+            finalAnswer: "**(b)** $(6, -3)$",
             commonErrors: ["Adding $3$ to the coordinates (choice b is a translation by $(3, 3)$).", "Multiplying only one coordinate.", "Dividing by the scale factor (choice d)."],
           },
         },

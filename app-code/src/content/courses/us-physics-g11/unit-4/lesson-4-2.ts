@@ -55,7 +55,7 @@ export const lesson42: Lesson = {
               { id: "c", text: "Infrared" },
               { id: "d", text: "Radio waves" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -64,7 +64,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Gamma rays sit at the high-frequency, short-wavelength end of the spectrum.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Gamma rays",
+            finalAnswer: "**(b)** Gamma rays",
             commonErrors: ["Reversing the order of the spectrum.", "Thinking ultraviolet is the highest because it is the highest of the three light-related options."],
             examinerNote: "B1 for gamma rays.",
           },

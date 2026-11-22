@@ -65,7 +65,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Persuasive = convince.", working: "convince", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Writing to convince",
+            finalAnswer: "**(b)** Writing to convince",
             commonErrors: ["Choosing (b) — that's informative."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson72: Lesson = {
         steps: [
           { reasoning: "Audience determines register.", working: "audience", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** The audience",
+        finalAnswer: "**(c)** The audience",
         commonErrors: ["Using wrong register for audience."],
       },
     },
@@ -248,7 +248,7 @@ export const lesson72: Lesson = {
         steps: [
           { reasoning: "Director = formal register.", working: "formal", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Formal",
+        finalAnswer: "**(c)** Formal",
         commonErrors: ["Using informal register."],
       },
     },
@@ -274,7 +274,7 @@ export const lesson72: Lesson = {
         steps: [
           { reasoning: "Four main purposes.", working: "purposes", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Persuade, inform, entertain, describe",
+        finalAnswer: "**(d)** Persuade, inform, entertain, describe",
         commonErrors: ["Knowing only one purpose."],
       },
     },
@@ -506,7 +506,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Persuasive = convince.", working: "convince", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Convince reader",
+            finalAnswer: "**(d)** Convince reader",
             commonErrors: ["Choosing (b) — that's informative."],
           },
         },
@@ -611,7 +611,7 @@ export const lesson72: Lesson = {
         steps: [
           { reasoning: "Persuasive follows thesis→points→counterarguments→conclusion.", working: "structure", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Thesis → points+evidence → counterarguments → conclusion",
+        finalAnswer: "**(b)** Thesis → points+evidence → counterarguments → conclusion",
         commonErrors: ["Missing counterarguments."],
       },
     },
@@ -637,7 +637,7 @@ export const lesson72: Lesson = {
         steps: [
           { reasoning: "Statistics/expert opinions are strong evidence.", working: "statistics", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Statistics and expert opinions",
+        finalAnswer: "**(b)** Statistics and expert opinions",
         commonErrors: ["Using only emotion."],
       },
     },
@@ -663,7 +663,7 @@ export const lesson72: Lesson = {
         steps: [
           { reasoning: "Passionate tone suits speeches.", working: "passionate", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Passionate and engaging",
+        finalAnswer: "**(d)** Passionate and engaging",
         commonErrors: ["Using flat or sarcastic tone."],
       },
     },
@@ -689,7 +689,7 @@ export const lesson72: Lesson = {
         steps: [
           { reasoning: "Counterarguments strengthen argument.", working: "balance", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** It shows balance and strengthens your position",
+        finalAnswer: "**(b)** It shows balance and strengthens your position",
         commonErrors: ["Avoiding counterarguments."],
       },
     },
@@ -715,7 +715,7 @@ export const lesson72: Lesson = {
         steps: [
           { reasoning: "Thesis = main argument.", working: "thesis", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** The main argument stated in introduction",
+        finalAnswer: "**(d)** The main argument stated in introduction",
         commonErrors: ["Confusing with conclusion."],
       },
     },
@@ -1078,7 +1078,7 @@ export const lesson72: Lesson = {
         steps: [
           { reasoning: "Informative = factual, objective.", working: "factual", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Factual and objective",
+        finalAnswer: "**(b)** Factual and objective",
         commonErrors: ["Adding personal opinion."],
       },
     },
@@ -1104,7 +1104,7 @@ export const lesson72: Lesson = {
         steps: [
           { reasoning: "Simple sentences + precise words = clarity.", working: "clarity", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Simple sentences and precise vocabulary",
+        finalAnswer: "**(b)** Simple sentences and precise vocabulary",
         commonErrors: ["Using jargon or vague words."],
       },
     },
@@ -1130,7 +1130,7 @@ export const lesson72: Lesson = {
         steps: [
           { reasoning: "Facts + examples + logical structure.", working: "facts", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Facts, examples, logical organisation",
+        finalAnswer: "**(c)** Facts, examples, logical organisation",
         commonErrors: ["Using opinions instead of facts."],
       },
     },
@@ -1156,7 +1156,7 @@ export const lesson72: Lesson = {
         steps: [
           { reasoning: "Informative=facts; persuasive=convince.", working: "difference", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Informative presents facts; persuasive convinces",
+        finalAnswer: "**(d)** Informative presents facts; persuasive convinces",
         commonErrors: ["Confusing the two."],
       },
     },

@@ -64,7 +64,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Integrated context", statement: "A precise fact explaining a specific character or event." }],
             steps: [{ reasoning: "Option (a) links a specific legal fact to a character's behaviour.", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** It links a precise fact to a character and event.",
+            finalAnswer: "**(b)** It links a precise fact to a character and event.",
             commonErrors: ["Choosing (b), a biographical fact that does not explain the text."],
           },
         },

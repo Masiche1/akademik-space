@@ -161,7 +161,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Stanza", statement: "A grouped set of lines, often with a pattern." } ],
             steps: [ { reasoning: "Stanza = group of lines.", working: "group", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** A grouped set of lines in a poem",
+            finalAnswer: "**(b)** A grouped set of lines in a poem",
             commonErrors: ["Confusing stanza with a single line."],
           },
         },
@@ -217,7 +217,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Free verse", statement: "Poetry lacking regular rhyme scheme and meter." } ],
             steps: [ { reasoning: "Free verse = no fixed rhyme/meter.", working: "free", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Poetry without regular rhyme or meter",
+            finalAnswer: "**(c)** Poetry without regular rhyme or meter",
             commonErrors: ["Thinking free verse means no craft — it still uses rhythm deliberately."],
           },
         },
@@ -247,7 +247,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Haiku", statement: "Japanese form of three lines with 5-7-5 syllables." } ],
             steps: [ { reasoning: "Haiku = 5-7-5 syllables.", working: "5-7-5", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** A 5-7-5 syllable pattern",
+            finalAnswer: "**(d)** A 5-7-5 syllable pattern",
             commonErrors: ["Confusing haiku with sonnet or free verse."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Ballad", statement: "Narrative poem, often in song-like form." } ],
             steps: [ { reasoning: "Ballad = narrative song-poem.", working: "narrative", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** A narrative poem often meant to be sung",
+            finalAnswer: "**(d)** A narrative poem often meant to be sung",
             commonErrors: ["Confusing ballad with sonnet."],
           },
         },
@@ -320,7 +320,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Villanelle", statement: "Fixed form with repeating refrains (e.g. 'Do not go gentle')." } ],
             steps: [ { reasoning: "Villanelle = refrains + fixed rhyme.", working: "refrain", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Repeating refrains and a fixed rhyme scheme",
+            finalAnswer: "**(b)** Repeating refrains and a fixed rhyme scheme",
             commonErrors: ["Confusing villanelle with free verse."],
           },
         },
@@ -376,7 +376,7 @@ export const lesson121: Lesson = {
             steps: [
               { reasoning: "Assonance = vowel sounds.", working: "vowel", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Repeated vowel sounds",
+            finalAnswer: "**(b)** Repeated vowel sounds",
             commonErrors: ["Choosing (b) — that's alliteration."],
           },
         },
@@ -472,7 +472,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Alliteration", statement: "Repeated initial consonant sounds." } ],
             steps: [ { reasoning: "Alliteration = initial consonants.", working: "consonant", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Repetition of initial consonant sounds",
+            finalAnswer: "**(d)** Repetition of initial consonant sounds",
             commonErrors: ["Choosing (b) — that is assonance."],
           },
         },
@@ -528,7 +528,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Assonance", statement: "Repeated vowel sounds within words." } ],
             steps: [ { reasoning: "Assonance = vowel sounds.", working: "vowel", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Repeated vowel sounds",
+            finalAnswer: "**(d)** Repeated vowel sounds",
             commonErrors: ["Confusing with alliteration."],
           },
         },
@@ -558,7 +558,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [ { kind: "technique", name: "Alliteration", statement: "Repeated initial consonant sounds." } ],
             steps: [ { reasoning: "Repeated 's' sounds = alliteration.", working: "s-sound", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Alliteration",
+            finalAnswer: "**(d)** Alliteration",
             commonErrors: ["Choosing (b) — no sound-imitating words are used."],
           },
         },
@@ -601,7 +601,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Soft sounds", statement: "Sibilants and liquids create gentle, soothing effects." } ],
             steps: [ { reasoning: "Soft sounds = calm.", working: "calm", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Calm or serenity",
+            finalAnswer: "**(d)** Calm or serenity",
             commonErrors: ["Confusing with harsh consonant effects."],
           },
         },
@@ -631,7 +631,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [ { kind: "technique", name: "Onomatopoeia", statement: "Words imitating the sounds they describe." } ],
             steps: [ { reasoning: "'Crash', 'bang', 'wallop' imitate sounds — onomatopoeia.", working: "imitate", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Onomatopoeia",
+            finalAnswer: "**(d)** Onomatopoeia",
             commonErrors: ["Choosing (b) — the key feature is sound imitation."],
           },
         },
@@ -687,7 +687,7 @@ export const lesson121: Lesson = {
             steps: [
               { reasoning: "Personification = human qualities.", working: "human", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Giving human qualities to non-human",
+            finalAnswer: "**(d)** Giving human qualities to non-human",
             commonErrors: ["Choosing (b) — that's simile."],
           },
         },
@@ -783,7 +783,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Simile", statement: "Comparison using 'like' or 'as'." } ],
             steps: [ { reasoning: "Simile = like/as.", working: "like/as", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** 'like' or 'as'",
+            finalAnswer: "**(c)** 'like' or 'as'",
             commonErrors: ["Confusing simile with metaphor."],
           },
         },
@@ -942,7 +942,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Recurring symbols", statement: "Repeated symbols build patterns that accumulate meaning." } ],
             steps: [ { reasoning: "Recurring symbols = reinforcing patterns.", working: "patterns", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Create patterns that reinforce meaning",
+            finalAnswer: "**(b)** Create patterns that reinforce meaning",
             commonErrors: ["Thinking symbols appear only once."],
           },
         },

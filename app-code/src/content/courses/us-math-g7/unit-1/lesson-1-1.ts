@@ -57,7 +57,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$\\frac{1}{2}$ mile per hour" },
               { id: "d", text: "$\\frac{1}{8}$ mile per hour" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -66,7 +66,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Divide the distance by the time. Dividing by $\\frac{1}{4}$ is multiplying by $4$.", working: "\\frac{1}{2} \\div \\frac{1}{4} = \\frac{1}{2} \\times 4 = 2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $2$ miles per hour",
+            finalAnswer: "**(b)** $2$ miles per hour",
             commonErrors: ["Multiplying $\\frac{1}{2} \\times \\frac{1}{4}$ to get $\\frac{1}{8}$.", "Dividing time by distance, which gives hours per mile $= \\frac{1}{2}$."],
           },
         },
@@ -194,7 +194,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$y = 3x + 2$" },
               { id: "d", text: "$y = x + 3$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -203,7 +203,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Only $y = 3x$ has the form $y = kx$, with $k = 3$. The others have an added constant or have $x$ in the denominator.", working: "y = 3x", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $y = 3x$",
+            finalAnswer: "**(b)** $y = 3x$",
             commonErrors: ["Choosing $y = 3x + 2$ because it is a straight line, without noticing it does not pass through the origin.", "Choosing $y = \\frac{3}{x}$, an inverse relationship where $xy$ (not $\\frac{y}{x}$) is constant."],
           },
         },

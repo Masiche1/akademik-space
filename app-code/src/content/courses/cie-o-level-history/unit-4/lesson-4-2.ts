@@ -93,7 +93,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Between trenches.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Ground between opposing trenches",
+            finalAnswer: "**(c)** Ground between opposing trenches",
             commonErrors: ["Literal interpretation."],
           },
         },
@@ -252,7 +252,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "They connected front, support and reserve trenches.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** To connect front-line and reserve trenches",
+            finalAnswer: "**(d)** To connect front-line and reserve trenches",
             commonErrors: ["Thinking they were fighting trenches."],
           },
         },
@@ -282,7 +282,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Chlorine was introduced in 1915.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Chlorine",
+            finalAnswer: "**(c)** Chlorine",
             commonErrors: ["Naming mustard gas as the first gas."],
           },
         },
@@ -312,7 +312,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "It was a mental, not physical, trench injury.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Psychological trauma caused by bombardment",
+            finalAnswer: "**(d)** Psychological trauma caused by bombardment",
             commonErrors: ["Confusing it with trench foot."],
           },
         },
@@ -342,7 +342,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "1 July 1916 was the Somme's first day.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The Battle of the Somme",
+            finalAnswer: "**(b)** The Battle of the Somme",
             commonErrors: ["Confusing Somme with Verdun."],
           },
         },
@@ -372,7 +372,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Defences made crossing extremely costly.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Infantry crossed wire and mud under machine-gun fire",
+            finalAnswer: "**(c)** Infantry crossed wire and mud under machine-gun fire",
             commonErrors: ["Blaming only poor training."],
           },
         },
@@ -402,7 +402,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Verdun's huge casualties earned the nickname.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Verdun",
+            finalAnswer: "**(d)** Verdun",
             commonErrors: ["Choosing the Somme instead."],
           },
         },
@@ -609,7 +609,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "German submarines.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** German submarines",
+            finalAnswer: "**(b)** German submarines",
             commonErrors: ["Confusing with surface ships."],
           },
         },
@@ -907,7 +907,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Inconclusive — the German fleet stayed in port afterwards",
+              "**(c)** Inconclusive — the German fleet stayed in port afterwards",
             commonErrors: ["Calling it a decisive victory for either side."],
           },
         },
@@ -979,7 +979,7 @@ export const lesson42: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Raid Britain with bombs from the air",
+            finalAnswer: "**(d)** Raid Britain with bombs from the air",
             commonErrors: ["Confusing them with submarines."],
           },
         },
@@ -1017,7 +1017,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** U-boats sank merchant and neutral ships without warning",
+              "**(c)** U-boats sank merchant and neutral ships without warning",
             commonErrors: ["Thinking it targeted only military vessels."],
           },
         },

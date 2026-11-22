@@ -659,7 +659,7 @@ export const lesson41: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Price discrimination",
+        finalAnswer: "**(c)** Price discrimination",
       },
     },
     {

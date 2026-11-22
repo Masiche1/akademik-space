@@ -193,7 +193,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Carbon dioxide and water are on the left of the equation. Glucose and oxygen are the products.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Carbon dioxide and water",
+            finalAnswer: "**(a)** Carbon dioxide and water",
             commonErrors: ["Choosing (a), which are the reactants of respiration."],
             examinerNote: "B1 for (b).",
           },

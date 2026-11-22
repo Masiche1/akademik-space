@@ -59,7 +59,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "$-\\text{OH}$" },
               { id: "d", text: "$-\\text{COO}-$ between two carbon chains" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The $-\\text{OH}$ group is in alcohols, $\\text{C=C}$ in alkenes and $-\\text{COO}-$ between chains in esters. Carboxylic acids have $-\\text{COOH}$.", working: "-\\text{COOH}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $-\\text{COOH}$",
+            finalAnswer: "**(b)** $-\\text{COOH}$",
             commonErrors: ["Choosing (a), the alcohol functional group.", "Choosing (d), which describes an ester."],
             examinerNote: "B1 for (c).",
           },
@@ -207,7 +207,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Poly(chloroethene) is made from chloroethene, which has a $\\text{C=C}$ bond and one chlorine atom.", working: "\\text{CH}_2\\text{=CHCl}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\text{CH}_2\\text{=CHCl}$",
+            finalAnswer: "**(d)** $\\text{CH}_2\\text{=CHCl}$",
             commonErrors: ["Choosing (c), chloroethane, which has no double bond and cannot polymerise.", "Choosing (d), the monomer of PTFE."],
             examinerNote: "B1 for (b).",
           },

@@ -65,7 +65,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "System = interconnected components.", working: "system", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Interconnected components working together",
+            finalAnswer: "**(d)** Interconnected components working together",
             commonErrors: ["Choosing (d) — systems are about connections."],
           },
         },
@@ -187,7 +187,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Thermostat", statement: "Heating/cooling counteracts temperature change — negative feedback." }],
             steps: [{ reasoning: "Thermostat stabilises = negative.", working: "negative", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Negative feedback",
+            finalAnswer: "**(c)** Negative feedback",
           },
         },
         {
@@ -229,7 +229,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Blood glucose", statement: "Insulin/glucagon counteract glucose changes — negative feedback." }],
             steps: [{ reasoning: "Glucose regulation = negative feedback.", working: "negative", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Negative feedback",
+            finalAnswer: "**(d)** Negative feedback",
           },
         },
         {
@@ -250,7 +250,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Tipping points", statement: "Self-reinforcing changes amplify — positive feedback." }],
             steps: [{ reasoning: "Amplifying loop = positive feedback.", working: "positive", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Positive feedback",
+            finalAnswer: "**(b)** Positive feedback",
           },
         },
         {
@@ -271,7 +271,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Economic system", statement: "Supply/demand interact with feedback to set prices." }],
             steps: [{ reasoning: "Interacting parts with feedback = system.", working: "feedback", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Interacting components with feedback",
+            finalAnswer: "**(c)** Interacting components with feedback",
           },
         },
         {
@@ -292,7 +292,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Equilibrium", statement: "Balanced state where opposing forces/processes equal." }],
             steps: [{ reasoning: "Equilibrium = balance.", working: "balance", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Opposing processes balanced",
+            finalAnswer: "**(d)** Opposing processes balanced",
           },
         },
         {
@@ -525,7 +525,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Photosynthesis", statement: "Light → chemical energy stored in glucose." }],
             steps: [{ reasoning: "Light → chemical energy.", working: "glucose", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Chemical energy (glucose)",
+            finalAnswer: "**(b)** Chemical energy (glucose)",
           },
         },
         {
@@ -546,7 +546,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Enzymes", statement: "Protein catalysts that speed up reactions." }],
             steps: [{ reasoning: "Enzymes = biological catalysts.", working: "catalysts", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Biological catalysts",
+            finalAnswer: "**(c)** Biological catalysts",
           },
         },
         {
@@ -567,7 +567,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Gas exchange", statement: "Diffusion (physics) of O₂/CO₂ across membranes (biology)." }],
             steps: [{ reasoning: "Biology + physics diffusion.", working: "diffusion", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Biology and physics",
+            finalAnswer: "**(c)** Biology and physics",
           },
         },
         {
@@ -588,7 +588,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Electric car", statement: "Electric motor (physics) + battery chemistry." }],
             steps: [{ reasoning: "Physics + chemistry.", working: "physics+chem", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Physics and chemistry",
+            finalAnswer: "**(b)** Physics and chemistry",
           },
         },
         {
@@ -609,7 +609,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Greenhouse effect", statement: "Gases (chemistry) trap heat — energy balance (physics)." }],
             steps: [{ reasoning: "Chemistry + physics integration.", working: "energy balance", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Physics + chemistry",
+            finalAnswer: "**(d)** Physics + chemistry",
           },
         },
         {
@@ -630,7 +630,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Vaccine", statement: "Immune response (biology) + chemical formulation." }],
             steps: [{ reasoning: "Biology + chemistry.", working: "bio+chem", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Biology and chemistry",
+            finalAnswer: "**(c)** Biology and chemistry",
           },
         },
         {
@@ -783,7 +783,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Clear problem definition first.", working: "identify", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Identify the problem clearly",
+            finalAnswer: "**(d)** Identify the problem clearly",
             commonErrors: ["Jumping to solutions — need clear problem first."],
           },
         },
@@ -884,7 +884,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Problem-solving", statement: "Identify → research → evaluate → implement → monitor." }],
             steps: [{ reasoning: "Evaluation follows research.", working: "evaluate", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Evaluate the options",
+            finalAnswer: "**(c)** Evaluate the options",
           },
         },
         {
@@ -926,7 +926,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Renewable energy", statement: "Solar is sustainable; fossil fuels are not." }],
             steps: [{ reasoning: "Solar = renewable.", working: "solar", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Solar panels",
+            finalAnswer: "**(c)** Solar panels",
           },
         },
         {
@@ -947,7 +947,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Monitoring", statement: "Check effectiveness and adjust as needed." }],
             steps: [{ reasoning: "Monitor = verify success.", working: "monitor", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Checks if it works",
+            finalAnswer: "**(b)** Checks if it works",
           },
         },
         {
@@ -968,7 +968,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Solution criteria", statement: "Effective, feasible, evidence-based, practical." }],
             steps: [{ reasoning: "Good solution = effective + feasible + evidence.", working: "criteria", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Effective, feasible, evidence-based",
+            finalAnswer: "**(b)** Effective, feasible, evidence-based",
           },
         },
         {
@@ -1010,7 +1010,7 @@ export const lesson83: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Integrated solution", statement: "Multiple complementary approaches needed." }],
             steps: [{ reasoning: "Combined strategies best.", working: "multiple", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Multiple approaches",
+            finalAnswer: "**(d)** Multiple approaches",
           },
         },
         {

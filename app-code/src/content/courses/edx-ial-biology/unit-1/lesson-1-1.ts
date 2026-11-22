@@ -57,7 +57,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Prokaryote", statement: "No nucleus; DNA free in nucleoid; plasmids common." }],
             steps: [{ reasoning: "Plasmids are small circular DNA in bacteria; nucleus/organelles are eukaryotic.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Plasmid",
+            finalAnswer: "**(d)** Plasmid",
           },
         },
         {
@@ -170,7 +170,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Mitochondrion", statement: "Site of aerobic respiration (ATP production)." }],
             steps: [{ reasoning: "Direct fact.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Mitochondrion",
+            finalAnswer: "**(b)** Mitochondrion",
           },
         },
         {

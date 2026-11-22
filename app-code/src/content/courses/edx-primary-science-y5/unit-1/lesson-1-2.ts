@@ -64,7 +64,7 @@ export const lesson152: Lesson = {
               },
             ],
             steps: [{ reasoning: "Fungi = spores.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Spores",
+            finalAnswer: "**(a)** Spores",
             commonErrors: ["Wrong method."],
           },
         },
@@ -229,7 +229,7 @@ export const lesson152: Lesson = {
             steps: [
               { reasoning: "Ingredients identified.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Light, water and carbon dioxide",
+            finalAnswer: "**(a)** Light, water and carbon dioxide",
             commonErrors: ["Missing ingredient."],
           },
         },

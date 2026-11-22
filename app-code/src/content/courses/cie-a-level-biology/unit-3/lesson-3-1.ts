@@ -92,7 +92,7 @@ export const lesson311: Lesson = {
             steps: [
               { reasoning: "A-T and G-C pair.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A-T and G-C",
+            finalAnswer: "**(b)** A-T and G-C",
             commonErrors: ["Confusing with RNA (A-U)."],
           },
         },
@@ -265,7 +265,7 @@ export const lesson311: Lesson = {
             steps: [
               { reasoning: "The complement of ATGCCG is TACGGC.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5'-TACGGC-3'$",
+            finalAnswer: "**(b)** $5'-TACGGC-3'$",
             commonErrors: ["Writing the complement in the opposite direction."],
           },
         },
@@ -295,7 +295,7 @@ export const lesson311: Lesson = {
             steps: [
               { reasoning: "DNA uses deoxyribose, not ribose.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Deoxyribose",
+            finalAnswer: "**(c)** Deoxyribose",
             commonErrors: ["Confusing DNA with RNA."],
           },
         },
@@ -325,7 +325,7 @@ export const lesson311: Lesson = {
             steps: [
               { reasoning: "G-C has three hydrogen bonds.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** G-C",
+            finalAnswer: "**(c)** G-C",
             commonErrors: ["Thinking A-T has three bonds."],
           },
         },
@@ -355,7 +355,7 @@ export const lesson311: Lesson = {
             steps: [
               { reasoning: "One strand is $5'\\rightarrow3'$ while the other is $3'\\rightarrow5'$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Opposite directions",
+            finalAnswer: "**(c)** Opposite directions",
             commonErrors: ["Thinking antiparallel means unpaired."],
           },
         },
@@ -385,7 +385,7 @@ export const lesson311: Lesson = {
             steps: [
               { reasoning: "The missing OH group reduces chemical reactivity.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Deoxyribose lacks reactive OH",
+            finalAnswer: "**(b)** Deoxyribose lacks reactive OH",
             commonErrors: ["Claiming DNA has no chemical bonds."],
           },
         },
@@ -415,7 +415,7 @@ export const lesson311: Lesson = {
             steps: [
               { reasoning: "Base sequence variation stores information.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Base sequence encodes information",
+            finalAnswer: "**(d)** Base sequence encodes information",
             commonErrors: ["Thinking DNA stores information chemically rather than by sequence."],
           },
         },
@@ -632,7 +632,7 @@ export const lesson311: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** One old + one new strand",
+            finalAnswer: "**(d)** One old + one new strand",
             commonErrors: ["Thinking only half replicates."],
           },
         },
@@ -844,7 +844,7 @@ export const lesson311: Lesson = {
             steps: [
               { reasoning: "Helicase separates the two strands.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Helicase",
+            finalAnswer: "**(c)** Helicase",
             commonErrors: ["Confusing helicase with DNA polymerase."],
           },
         },
@@ -874,7 +874,7 @@ export const lesson311: Lesson = {
             steps: [
               { reasoning: "Synthesis occurs $5'\\rightarrow3'$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5'\\rightarrow3'$",
+            finalAnswer: "**(d)** $5'\\rightarrow3'$",
             commonErrors: ["Reversing the direction of synthesis."],
           },
         },
@@ -904,7 +904,7 @@ export const lesson311: Lesson = {
             steps: [
               { reasoning: "Primase provides the starting point for polymerase.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Synthesises RNA primer",
+            finalAnswer: "**(c)** Synthesises RNA primer",
             commonErrors: ["Confusing primase with ligase."],
           },
         },
@@ -934,7 +934,7 @@ export const lesson311: Lesson = {
             steps: [
               { reasoning: "Ligase seals nicks between fragments.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Ligase",
+            finalAnswer: "**(d)** Ligase",
             commonErrors: ["Confusing ligase with polymerase."],
           },
         },
@@ -964,7 +964,7 @@ export const lesson311: Lesson = {
             steps: [
               { reasoning: "Polymerase directionality prevents continuous synthesis on the lagging strand.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Polymerase direction forces fragments",
+            finalAnswer: "**(d)** Polymerase direction forces fragments",
             commonErrors: ["Thinking both strands are synthesised continuously."],
           },
         },

@@ -65,7 +65,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Hypothesis = testable prediction.", working: "prediction", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Testable prediction",
+            finalAnswer: "**(b)** Testable prediction",
             commonErrors: ["Choosing (c) — theory is established, hypothesis is testable."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Rate is what is measured; temperature is changed.", working: "measured", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Rate of reaction",
+            finalAnswer: "**(a)** Rate of reaction",
             commonErrors: ["Choosing (a) — temperature is the independent variable."],
           },
         },
@@ -226,7 +226,7 @@ export const lesson91: Lesson = {
               { id: "c", text: "It changes randomly" },
               { id: "d", text: "It is measured at the end" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -235,7 +235,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Controlled = kept the same.", working: "constant", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** It is kept constant",
+            finalAnswer: "**(b)** It is kept constant",
             commonErrors: ["Confusing with independent variable."],
           },
         },
@@ -316,7 +316,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "No difference means hypothesis not supported by this test.", working: "match data", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The results do not support the hypothesis in this test",
+            finalAnswer: "**(c)** The results do not support the hypothesis in this test",
             commonErrors: ["Claiming the hypothesis is 'disproved' — only this test's data."],
           },
         },
@@ -498,7 +498,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Eukaryote = nucleus.", working: "eukaryote", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Eukaryote",
+            finalAnswer: "**(d)** Eukaryote",
             commonErrors: ["Choosing (d) — prokaryotes lack nucleus."],
           },
         },
@@ -668,7 +668,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Xylem = water/minerals upward.", working: "xylem", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Water and minerals",
+            finalAnswer: "**(c)** Water and minerals",
             commonErrors: ["Confusing xylem with phloem (sugars)."],
           },
         },
@@ -807,7 +807,7 @@ export const lesson91: Lesson = {
               { id: "c", text: "A grasshopper" },
               { id: "d", text: "Temperature" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -816,7 +816,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Abiotic = non-living; temperature qualifies.", working: "abiotic", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Temperature",
+            finalAnswer: "**(d)** Temperature",
             commonErrors: ["Choosing a living organism — those are biotic."],
           },
         },
@@ -934,7 +934,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "V = IR.", working: "IR", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** V = I × R",
+            finalAnswer: "**(d)** V = I × R",
             commonErrors: ["Inverting — V=IR."],
           },
         },
@@ -1039,7 +1039,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Force, mass and acceleration relate via $F = ma$ ($6 = 2 \\times 3$).", working: "F=ma", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $F = ma$",
+            finalAnswer: "**(d)** $F = ma$",
             commonErrors: ["Choosing (c) — pressure uses area, not acceleration."],
           },
         },
@@ -1095,7 +1095,7 @@ export const lesson91: Lesson = {
               { id: "c", text: "Wavelength" },
               { id: "d", text: "Frequency" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1104,7 +1104,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Pitch $\\leftrightarrow$ frequency; loudness $\\leftrightarrow$ amplitude.", working: "frequency", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Frequency",
+            finalAnswer: "**(d)** Frequency",
             commonErrors: ["Confusing pitch with loudness (amplitude)."],
           },
         },
@@ -1191,7 +1191,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "In series, charge flow (current) is identical everywhere.", working: "current", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Current",
+            finalAnswer: "**(c)** Current",
             commonErrors: ["Choosing (a) — voltage splits across components in series."],
           },
         },
@@ -1247,7 +1247,7 @@ export const lesson91: Lesson = {
               { id: "c", text: "Electrostatic attraction" },
               { id: "d", text: "Friction" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1256,7 +1256,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Friction acts only when surfaces touch.", working: "friction", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Friction",
+            finalAnswer: "**(d)** Friction",
             commonErrors: ["Choosing gravity — it acts at a distance."],
           },
         },
@@ -1374,7 +1374,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Chemical change = new substance.", working: "new substance", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Formation of new substance",
+            finalAnswer: "**(d)** Formation of new substance",
             commonErrors: ["Choosing (c) — boiling is physical change."],
           },
         },
@@ -1479,7 +1479,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "$8 > 7$ so the solution is alkaline.", working: "pH>7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** An alkali",
+            finalAnswer: "**(a)** An alkali",
             commonErrors: ["Thinking any pH above 7 is 'weak' — alkalinity is the correct term."],
           },
         },
@@ -1544,7 +1544,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Melting is a state change — no new substance.", working: "melting", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Melting ice",
+            finalAnswer: "**(a)** Melting ice",
             commonErrors: ["Choosing burning — that forms new substances."],
           },
         },
@@ -1617,7 +1617,7 @@ export const lesson91: Lesson = {
               { id: "c", text: "pH $2$" },
               { id: "d", text: "pH $12$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1626,7 +1626,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Green $=$ neutral $=$ pH $7$.", working: "green=7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** pH $7$",
+            finalAnswer: "**(b)** pH $7$",
             commonErrors: ["Thinking green means alkaline — it is neutral."],
           },
         },
@@ -1681,7 +1681,7 @@ export const lesson91: Lesson = {
               { id: "c", text: "Oxygen" },
               { id: "d", text: "Nitrogen" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1690,7 +1690,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Acid + carbonate $\\rightarrow$ salt + water + $CO_2$.", working: "CO2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Carbon dioxide",
+            finalAnswer: "**(a)** Carbon dioxide",
             commonErrors: ["Choosing hydrogen — that comes from acid + metal."],
           },
         },
@@ -1912,7 +1912,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Newton is the unit of force.", working: "N", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Newton",
+            finalAnswer: "**(c)** Newton",
             commonErrors: ["Choosing joule — that is energy/work."],
           },
         },
@@ -1977,7 +1977,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Power = voltage $\\times$ current.", working: "VI", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $P = VI$",
+            finalAnswer: "**(d)** $P = VI$",
             commonErrors: ["Choosing (b) — $IR$ is voltage (Ohm's law rearranged)."],
           },
         },
@@ -2059,7 +2059,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Units confirm magnitude and catch conversion/calculation errors.", working: "check", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** To ensure the answer is in the required unit and of sensible size",
+            finalAnswer: "**(c)** To ensure the answer is in the required unit and of sensible size",
             commonErrors: ["Treating units as optional — they carry meaning."],
           },
         },
@@ -2124,7 +2124,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Move on to secure other marks, return later — attempt earns partial credit.", working: "move on", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Mark it, move on, and return if time permits",
+            finalAnswer: "**(a)** Mark it, move on, and return if time permits",
             commonErrors: ["Fixating on one question — costs marks elsewhere."],
           },
         },

@@ -283,7 +283,7 @@ export const lesson331: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The divide between Western and Eastern Europe",
+              "**(a)** The divide between Western and Eastern Europe",
           },
         },
         {
@@ -395,7 +395,7 @@ export const lesson331: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** USSR",
+            finalAnswer: "**(d)** USSR",
           },
         },
         {
@@ -568,7 +568,7 @@ export const lesson331: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Capitalism relies on private ownership and free markets; communism relies on state ownership and collective control",
+              "**(c)** Capitalism relies on private ownership and free markets; communism relies on state ownership and collective control",
           },
         },
         {
@@ -703,7 +703,7 @@ export const lesson331: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A US commitment to support free peoples against communism",
+              "**(c)** A US commitment to support free peoples against communism",
           },
         },
         {

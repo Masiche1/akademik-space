@@ -65,7 +65,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "$90°$ out of $360°$ is a quarter.", working: "90/360=1/4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{1}{4}$",
+            finalAnswer: "**(c)** $\\frac{1}{4}$",
             commonErrors: ["Choosing (b) — $180°$ would be half."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "$60°$ of $360°$ is one sixth.", working: "60/360=1/6", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\frac{1}{6}$",
+            finalAnswer: "**(a)** $\\frac{1}{6}$",
             commonErrors: ["Choosing (a) — $120°$ would be a third."],
           },
         },
@@ -231,7 +231,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Larger sector angle → larger frequency.", working: "proportional", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The largest frequency",
+            finalAnswer: "**(c)** The largest frequency",
             commonErrors: ["Thinking sector size is arbitrary — it's proportional to data."],
           },
         },
@@ -328,7 +328,7 @@ export const lesson82: Lesson = {
               { id: "c", text: "$90°$" },
               { id: "d", text: "$120°$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -337,7 +337,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Largest count $30$ → $\\frac{30}{60}\\times360 = 180°$.", working: "180°", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $180°$",
+            finalAnswer: "**(b)** $180°$",
             commonErrors: ["Choosing (b) — that's for frequency $18$."],
           },
         },
@@ -398,7 +398,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Equal sector angles mean equal frequencies.", working: "equal", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Equal frequencies",
+            finalAnswer: "**(d)** Equal frequencies",
             commonErrors: ["Thinking angle equality is coincidental — it's proportional."],
           },
         },
@@ -578,7 +578,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Row total = total frequency for that group.", working: "marginal", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The total for that row's group",
+            finalAnswer: "**(d)** The total for that row's group",
             commonErrors: ["Choosing (a) — grand total is bottom-right only."],
           },
         },
@@ -639,7 +639,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Joint = both conditions, one cell.", working: "joint", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A count satisfying both conditions in one cell",
+            finalAnswer: "**(c)** A count satisfying both conditions in one cell",
             commonErrors: ["Confusing with marginal (row/column) totals."],
           },
         },
@@ -701,7 +701,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Edge totals = marginal totals.", working: "marginal", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Marginal totals",
+            finalAnswer: "**(c)** Marginal totals",
             commonErrors: ["Choosing (a) — joints are interior cells."],
           },
         },
@@ -745,7 +745,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "$60\%$ girls vs $40\%$ boys → girls higher.", working: "60>40", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Girls",
+            finalAnswer: "**(a)** Girls",
             commonErrors: ["Comparing raw counts $12$ vs $8$ without checking — proportions here do agree though."],
           },
         },

@@ -131,7 +131,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The claim is about redesigning streets, not banning all cars.",
+              "**(a)**. The claim is about redesigning streets, not banning all cars.",
             commonErrors: [
               "Choosing (a) — the author explicitly moves beyond 'ban cars' to a more nuanced position.",
             ],
@@ -376,7 +376,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The field note emphasizes sensory experience and emotional response.",
+              "**(d)**. The field note emphasizes sensory experience and emotional response.",
             commonErrors: [
               "Choosing (a) — the field note mentions polyps but doesn't focus on chemistry.",
             ],

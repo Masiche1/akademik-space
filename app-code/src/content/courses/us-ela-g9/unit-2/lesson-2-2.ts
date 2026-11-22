@@ -125,7 +125,7 @@ export const lesson22: Lesson = {
                 text: "Pathos, because it describes a suffering child.",
               },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -145,7 +145,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** The visit count is a statistic. The credibility appeal comes in paragraph 1 and the emotional appeal in paragraph 3.",
+              "**(a)** The visit count is a statistic. The credibility appeal comes in paragraph 1 and the emotional appeal in paragraph 3.",
             commonErrors: [
               "Confusing a statistic (logos) with credibility (ethos).",
             ],
@@ -512,7 +512,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The final paragraph turns the argument into a recommendation for action.",
+              "**(d)** The final paragraph turns the argument into a recommendation for action.",
             commonErrors: [
               "Describing the paragraph's topic instead of its role in the argument.",
             ],
@@ -570,7 +570,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** The concession shows the author is arguing against too much homework, not all homework. It does not contradict the claim (b) or call for no homework (c).",
+              "**(b)** The concession shows the author is arguing against too much homework, not all homework. It does not contradict the claim (b) or call for no homework (c).",
             commonErrors: [
               "Choosing (b) because the sentence says something positive about homework; it limits the claim, it does not contradict it.",
             ],

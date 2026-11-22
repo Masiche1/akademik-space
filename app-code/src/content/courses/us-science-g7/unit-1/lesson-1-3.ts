@@ -63,7 +63,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Algae photosynthesize and start the chain.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Algae",
+            finalAnswer: "**(d)** Algae",
             commonErrors: ["Choosing the fish because it is at the end of the arrows."],
             examinerNote: "B1 for algae.",
           },

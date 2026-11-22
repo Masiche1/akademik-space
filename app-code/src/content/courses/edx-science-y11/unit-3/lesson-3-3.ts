@@ -85,7 +85,7 @@ export const lesson33: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Increases",
+            finalAnswer: "**(a)** Increases",
             commonErrors: ["Constant assumed."],
           },
         },
@@ -293,7 +293,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Thinking + braking.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Thinking + braking",
+            finalAnswer: "**(d)** Thinking + braking",
             commonErrors: ["Only braking distance."],
           },
         },

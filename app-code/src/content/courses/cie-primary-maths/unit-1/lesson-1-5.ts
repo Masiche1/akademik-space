@@ -148,7 +148,7 @@ export const lesson15: Lesson = {
             { id: "b", text: "centimetres" },
             { id: "c", text: "kilograms" },
             { id: "d", text: "millilitres" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Capacity units", statement: "Capacity is measured in ml or litres." }],
             steps: [{ reasoning: "Capacity uses millilitres or litres.", marks: 1, markCode: "A" }],
@@ -267,7 +267,7 @@ export const lesson15: Lesson = {
             { id: "b", text: "2 m" },
             { id: "c", text: "80 cm" },
             { id: "d", text: "15 cm" },
-          ], correctChoiceIb: "d" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Comparing lengths", statement: "Convert to the same unit." }],
             steps: [{ reasoning: "2 m = 200 cm, longer than 100 cm (1 m), 80 cm and 15 cm.", marks: 1, markCode: "A" }],

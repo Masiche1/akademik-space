@@ -237,7 +237,7 @@ export const lesson55: Lesson = {
             steps: [
               { reasoning: "Lossless compression preserves all data for exact restoration.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Lossless compression",
+            finalAnswer: "**(d)** Lossless compression",
           },
         },
         {
@@ -253,7 +253,7 @@ export const lesson55: Lesson = {
               { id: "c", text: "A plain text document" },
               { id: "d", text: "A spreadsheet of exact numbers" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -262,7 +262,7 @@ export const lesson55: Lesson = {
             steps: [
               { reasoning: "JPEG photographs tolerate minor quality loss for smaller files.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(d)** JPEG photograph",
+            finalAnswer: "**(a)** JPEG photograph",
           },
         },
         {
@@ -312,7 +312,7 @@ export const lesson55: Lesson = {
             steps: [
               { reasoning: "Dictionary encoding replaces common repeated sequences with shorter symbols.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Replaces repeated patterns with short codes",
+            finalAnswer: "**(d)** Replaces repeated patterns with short codes",
           },
         },
         {
@@ -328,7 +328,7 @@ export const lesson55: Lesson = {
               { id: "c", text: "A casual phone photograph" },
               { id: "d", text: "A software installer that must install correctly" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -337,7 +337,7 @@ export const lesson55: Lesson = {
             steps: [
               { reasoning: "Software must be restored exactly, so lossless compression is appropriate.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** Software installer",
+            finalAnswer: "**(d)** Software installer",
           },
         },
         {
@@ -362,7 +362,7 @@ export const lesson55: Lesson = {
             steps: [
               { reasoning: "Lossy compression can permanently remove detail, corrupting exact text.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** It permanently discards needed data",
+            finalAnswer: "**(c)** It permanently discards needed data",
           },
         },
         {

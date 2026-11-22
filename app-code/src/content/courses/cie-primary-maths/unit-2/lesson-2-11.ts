@@ -152,7 +152,7 @@ export const lesson211: Lesson = {
             { id: "b", text: "50" },
             { id: "c", text: "47" },
             { id: "d", text: "45" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Rounding", statement: "47 is closer to 50 than 40." }],
             steps: [{ reasoning: "47 is nearer to 50 → rounds to 50.", marks: 1, markCode: "A" }],

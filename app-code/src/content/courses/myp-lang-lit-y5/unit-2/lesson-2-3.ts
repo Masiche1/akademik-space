@@ -64,7 +64,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Nominalization", statement: "Verb → noun transformation that can hide agency." }],
             steps: [{ reasoning: "Criterion A (Analysing): nominalization = verb to noun — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Turning verbs into nouns — often hiding who does the action",
+            finalAnswer: "**(d)** Turning verbs into nouns — often hiding who does the action",
           },
         },
         {
@@ -154,7 +154,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Nominalization", statement: "Verb → noun transformation can hide agency." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'implementation' = nominalized verb — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Sentence B — 'implementation' turns the verb into a noun",
+            finalAnswer: "**(a)** Sentence B — 'implementation' turns the verb into a noun",
           },
         },
         {
@@ -200,7 +200,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Modality", statement: "Degree of certainty conveyed by modal verbs." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'will definitely' vs 'might possibly' — certainty vs hedging — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Modality — 'will definitely' is certain; 'might possibly' is hedged",
+            finalAnswer: "**(d)** Modality — 'will definitely' is certain; 'might possibly' is hedged",
           },
         },
         {
@@ -226,7 +226,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Transitivity", statement: "Who acts on whom shapes what is visible." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'dispersed a gathering' — protesters unnamed, violence softened — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** It omits the protesters as actors and frames 'dispersed' neutrally",
+            finalAnswer: "**(d)** It omits the protesters as actors and frames 'dispersed' neutrally",
           },
         },
         {
@@ -314,7 +314,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Loaded language", statement: "Words carrying emotional/ideological weight." }],
             steps: [{ reasoning: "Criterion A (Analysing): loaded language = emotionally/ideologically weighted words — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Words with strong emotional or ideological connotations",
+            finalAnswer: "**(d)** Words with strong emotional or ideological connotations",
           },
         },
         {
@@ -383,7 +383,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Hidden agency", statement: "Passive + vague noun phrases obscure causation." }],
             steps: [{ reasoning: "Criterion A (Analysing): passive hides agent; 'recent events' vague — causation obscured — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Who or what caused the tensions — passive + vague 'recent events'",
+            finalAnswer: "**(d)** Who or what caused the tensions — passive + vague 'recent events'",
           },
         },
         {
@@ -457,7 +457,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Discourse", statement: "Language use patterns in society/institutions." }],
             steps: [{ reasoning: "Criterion A (Analysing): discourse = institutional language patterns — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** The way language is used in a society or institution",
+            finalAnswer: "**(c)** The way language is used in a society or institution",
           },
         },
         {
@@ -588,7 +588,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Discourse and power", statement: "Technical language creates authority and exclusion." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'remanded' vs 'keeping him in jail' — jargon excludes layperson — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Legal jargon empowers the lawyer and excludes the mother",
+            finalAnswer: "**(d)** Legal jargon empowers the lawyer and excludes the mother",
           },
         },
         {
@@ -614,7 +614,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Discourse", statement: "Word choice frames reality through ideological lenses." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'all' vs 'Black' — different framings of same concern — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Each frames the issue differently — 'all' universalises, 'Black' centres specific injustice",
+            finalAnswer: "**(c)** Each frames the issue differently — 'all' universalises, 'Black' centres specific injustice",
           },
         },
         {
@@ -697,7 +697,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Discourse", statement: "Institutional language patterns and conventions." }],
             steps: [{ reasoning: "Criterion A (Analysing): discourse = patterned institutional language — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** The patterned ways language is used within a society or institution",
+            finalAnswer: "**(c)** The patterned ways language is used within a society or institution",
           },
         },
         {
@@ -766,7 +766,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Loaded language", statement: "Labels like 'regime' serve ideological interests." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'regime' vs 'government' — delegitimizing label serves opponents — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Opposition interests — 'regime' delegitimizes the government",
+            finalAnswer: "**(d)** Opposition interests — 'regime' delegitimizes the government",
           },
         },
         {

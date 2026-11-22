@@ -96,7 +96,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Stock is valued" },
             { id: "d", text: "An error cannot be located immediately" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Suspense account", statement: "Temporary holding." }], steps: [{ reasoning: "Holds difference pending investigation.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Error not yet found" },
+          markscheme: { principles: [{ kind: "definition", name: "Suspense account", statement: "Temporary holding." }], steps: [{ reasoning: "Holds difference pending investigation.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Error not yet found" },
         },
         {
           id: "olacc-u6-rec-q6", difficulty: "core", totalMarks: 2,
@@ -128,7 +128,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Rising sales" },
             { id: "d", text: "Correct double-entry posting" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Error causes", statement: "Posting mistakes." }], steps: [{ reasoning: "Wrong account creates a difference.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Wrong account" },
+          markscheme: { principles: [{ kind: "principle", name: "Error causes", statement: "Posting mistakes." }], steps: [{ reasoning: "Wrong account creates a difference.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Wrong account" },
         },
         {
           id: "olacc-u6-rec-q9", difficulty: "challenge", totalMarks: 2,
@@ -173,7 +173,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "A debtor's account" },
             { id: "d", text: "A type of bank account" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Suspense account", statement: "Temporary." }], steps: [{ reasoning: "Holds difference until error found.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Temporary account" },
+          markscheme: { principles: [{ kind: "definition", name: "Suspense account", statement: "Temporary." }], steps: [{ reasoning: "Holds difference until error found.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Temporary account" },
         },
         {
           id: "olacc-u6-rec-q13", difficulty: "challenge", totalMarks: 4,
@@ -204,7 +204,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Transaction omitted" },
             { id: "d", text: "Correctly balanced subsidiary accounts" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Error causes", statement: "Common mistakes." }], steps: [{ reasoning: "Balanced accounts produce agreement, not difference.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Balanced accounts" },
+          markscheme: { principles: [{ kind: "principle", name: "Error causes", statement: "Common mistakes." }], steps: [{ reasoning: "Balanced accounts produce agreement, not difference.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Balanced accounts" },
         },
         {
           id: "olacc-u6-rec-q16", difficulty: "challenge", totalMarks: 9,
@@ -260,7 +260,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Wrong account or wrong amount used" },
             { id: "d", text: "Transaction not recorded" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Error of commission", statement: "Wrong account/amount." }], steps: [{ reasoning: "Wrong account or amount.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Wrong account/amount" },
+          markscheme: { principles: [{ kind: "definition", name: "Error of commission", statement: "Wrong account/amount." }], steps: [{ reasoning: "Wrong account or amount.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Wrong account/amount" },
         },
         {
           id: "olacc-u6-corr-q2", difficulty: "core", totalMarks: 2,
@@ -349,7 +349,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Posting to the wrong side" },
             { id: "d", text: "Treating a business expense as drawings" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Error of principle", statement: "Wrong classification." }], steps: [{ reasoning: "Expense vs drawings is misclassification.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Expense as drawings" },
+          markscheme: { principles: [{ kind: "definition", name: "Error of principle", statement: "Wrong classification." }], steps: [{ reasoning: "Expense vs drawings is misclassification.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Expense as drawings" },
         },
         {
           id: "olacc-u6-corr-q9", difficulty: "challenge", totalMarks: 2,
@@ -391,7 +391,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "A sale entered in the wrong debtor's account" },
             { id: "d", text: "A transposition within one account" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Profit effect", statement: "Classification matters." }], steps: [{ reasoning: "Expense vs drawings changes profit.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Expense as drawings" },
+          markscheme: { principles: [{ kind: "principle", name: "Profit effect", statement: "Classification matters." }], steps: [{ reasoning: "Expense vs drawings changes profit.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Expense as drawings" },
         },
         {
           id: "olacc-u6-corr-q13", difficulty: "challenge", totalMarks: 4,
@@ -422,7 +422,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "The wrong amount is entered" },
             { id: "d", text: "The wrong account is used" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Error of reversal", statement: "Sides swapped." }], steps: [{ reasoning: "Entries posted the wrong way round.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sides swapped" },
+          markscheme: { principles: [{ kind: "definition", name: "Error of reversal", statement: "Sides swapped." }], steps: [{ reasoning: "Entries posted the wrong way round.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Sides swapped" },
         },
         {
           id: "olacc-u6-corr-q16", difficulty: "challenge", totalMarks: 9,

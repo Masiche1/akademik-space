@@ -73,7 +73,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "All equal" },
               { id: "d", text: "Alpha" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -90,7 +90,7 @@ export const lesson33: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(c)** Gamma",
+            finalAnswer: "**(b)** Gamma",
             commonErrors: ["Alpha most penetrating view."],
           },
         },
@@ -297,7 +297,7 @@ export const lesson33: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(b)** Force ÷ area",
+            finalAnswer: "**(a)** Force ÷ area",
             commonErrors: ["Inverted formula."],
           },
         },

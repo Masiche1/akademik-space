@@ -139,7 +139,7 @@ export const lessonp103: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Main sequence", statement: "Stable phase burning hydrogen by fusion." }],
             steps: [{ reasoning: "Recall.", working: "H \\rightarrow He", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Fusion of hydrogen into helium",
+            finalAnswer: "**(a)** Fusion of hydrogen into helium",
             commonErrors: ["Fission is for nuclear reactors, not stars."],
           },
         },
@@ -275,7 +275,7 @@ export const lessonp103: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Brightness", statement: "Depends on luminosity and distance." }],
             steps: [{ reasoning: "Recall.", working: "\\text{luminosity + distance}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Its luminosity and distance from Earth",
+            finalAnswer: "**(d)** Its luminosity and distance from Earth",
             commonErrors: ["Confusing apparent with absolute brightness."],
           },
         },
@@ -466,7 +466,7 @@ export const lessonp103: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Galaxy types", statement: "Spiral, elliptical, irregular." }],
             steps: [{ reasoning: "Recall.", working: "\\text{spiral/elliptical/irregular}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Spiral, elliptical, irregular",
+            finalAnswer: "**(d)** Spiral, elliptical, irregular",
             commonErrors: ["Colour is not a galaxy classification."],
           },
         },
@@ -516,7 +516,7 @@ export const lessonp103: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "CMB", statement: "Remnant radiation from early universe." }],
             steps: [{ reasoning: "Recall.", working: "\\text{CMB}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Cosmic microwave background radiation",
+            finalAnswer: "**(c)** Cosmic microwave background radiation",
             commonErrors: ["Redshift is also evidence — but CMB is the listed option."],
           },
         },
@@ -603,7 +603,7 @@ export const lessonp103: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Light year", statement: "Distance unit = 9.5×10¹⁵ m." }],
             steps: [{ reasoning: "Recall.", working: "\\text{distance}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The distance light travels in one year",
+            finalAnswer: "**(d)** The distance light travels in one year",
             commonErrors: ["It is a distance, not a time."],
           },
         },
@@ -637,7 +637,7 @@ export const lessonp103: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Irregular galaxy", statement: "No defined shape." }],
             steps: [{ reasoning: "Recall.", working: "\\text{no shape}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** No defined shape",
+            finalAnswer: "**(a)** No defined shape",
             commonErrors: ["Confusing with elliptical which has a smooth oval shape."],
           },
         },

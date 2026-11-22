@@ -161,7 +161,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Point-by-point", statement: "Analyse one aspect in Poem A then the same in Poem B, then compare." } ],
             steps: [ { reasoning: "Point-by-point = same aspect both poems.", working: "aspect", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Analysing the same aspect in both poems",
+            finalAnswer: "**(b)** Analysing the same aspect in both poems",
             commonErrors: ["Confusing with thematic structure."],
           },
         },
@@ -217,7 +217,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "'Whereas'", statement: "Signals contrast between two elements." } ],
             steps: [ { reasoning: "'Whereas' = contrast.", working: "contrast", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Contrast two poems",
+            finalAnswer: "**(b)** Contrast two poems",
             commonErrors: ["Confusing 'whereas' with 'similarly'."],
           },
         },
@@ -247,7 +247,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Explicit comparison", statement: "Both poems must be linked within the analysis." } ],
             steps: [ { reasoning: "Link both = comparison.", working: "link", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Links both poems explicitly",
+            finalAnswer: "**(d)** Links both poems explicitly",
             commonErrors: ["Covering only one poem in depth."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "'Similarly'", statement: "Signals shared features between texts." } ],
             steps: [ { reasoning: "'Similarly' = shared feature.", working: "shared", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Share a feature",
+            finalAnswer: "**(c)** Share a feature",
             commonErrors: ["Confusing with contrast markers."],
           },
         },
@@ -320,7 +320,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Comparison requirement", statement: "Isolated description is not comparison." } ],
             steps: [ { reasoning: "Isolation = no comparison.", working: "isolation", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Describes each poem in isolation",
+            finalAnswer: "**(c)** Describes each poem in isolation",
             commonErrors: ["Writing two mini-essays instead of comparing."],
           },
         },
@@ -472,7 +472,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Social context", statement: "Values, class and social conditions of the poem's time." } ],
             steps: [ { reasoning: "Social context = era's values/conditions.", working: "values", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** The values and conditions of the era",
+            finalAnswer: "**(c)** The values and conditions of the era",
             commonErrors: ["Confusing with historical context."],
           },
         },
@@ -528,7 +528,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "War poetry", statement: "War shapes themes of loss, duty and disillusion." } ],
             steps: [ { reasoning: "War context = era's anxieties.", working: "anxieties", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** The era's anxieties and attitudes",
+            finalAnswer: "**(c)** The era's anxieties and attitudes",
             commonErrors: ["Ignoring the historical setting."],
           },
         },
@@ -558,7 +558,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Context function", statement: "Context illuminates but never substitutes for textual analysis." } ],
             steps: [ { reasoning: "Context illuminates, not replaces.", working: "illuminate", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Illuminate interpretation, not replace it",
+            finalAnswer: "**(c)** Illuminate interpretation, not replace it",
             commonErrors: ["Writing context essays instead of analysis."],
           },
         },
@@ -601,7 +601,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Political climate", statement: "The political conditions of the time — part of historical context." } ],
             steps: [ { reasoning: "Political climate = historical context.", working: "historical", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Historical context",
+            finalAnswer: "**(b)** Historical context",
             commonErrors: ["Confusing context with poetic technique."],
           },
         },
@@ -839,7 +839,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Forced rhyme", statement: "Rhyme achieved at the cost of natural phrasing." } ],
             steps: [ { reasoning: "Forced rhyme distorts expression.", working: "distorts", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Distorts natural expression",
+            finalAnswer: "**(b)** Distorts natural expression",
             commonErrors: ["Thinking all rhyme is beneficial."],
           },
         },
@@ -942,7 +942,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Fair evaluation", statement: "Fair weighing of strengths and weaknesses." } ],
             steps: [ { reasoning: "Fair weighing = balanced.", working: "balance", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Strengths and weaknesses fairly",
+            finalAnswer: "**(b)** Strengths and weaknesses fairly",
             commonErrors: ["Judging on a single feature."],
           },
         },

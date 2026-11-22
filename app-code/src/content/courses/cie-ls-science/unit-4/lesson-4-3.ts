@@ -65,7 +65,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Insulin = glucose down; glucagon = glucose up.", working: "insulin", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Insulin",
+            finalAnswer: "**(d)** Insulin",
             commonErrors: ["Choosing (b) — glucagon raises glucose."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Adrenaline", statement: "Adrenaline is produced by the adrenal glands." }],
             steps: [{ reasoning: "Adrenal glands release adrenaline during stress.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Adrenal glands",
+            finalAnswer: "**(b)** Adrenal glands",
           },
         },
         {
@@ -262,7 +262,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Endocrine gland", statement: "Endocrine glands secrete hormones into the bloodstream." }],
             steps: [{ reasoning: "Hormones travel in blood to target cells.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** A gland that releases hormones into the blood",
+            finalAnswer: "**(c)** A gland that releases hormones into the blood",
           },
         },
         {
@@ -295,7 +295,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Hormones", statement: "Hormones are carried by the bloodstream." }],
             steps: [{ reasoning: "Blood distributes hormones to target cells.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** In the blood",
+            finalAnswer: "**(c)** In the blood",
           },
         },
         {
@@ -343,7 +343,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Type 1 diabetes", statement: "Type 1 involves insulin deficiency." }],
             steps: [{ reasoning: "Lack of insulin prevents glucose regulation.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** The pancreas fails to produce enough insulin",
+            finalAnswer: "**(b)** The pancreas fails to produce enough insulin",
           },
         },
       ],
@@ -398,7 +398,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Fertilisation happens in oviduct, not uterus.", working: "oviduct", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oviduct (fallopian tube)",
+            finalAnswer: "**(d)** Oviduct (fallopian tube)",
             commonErrors: ["Choosing (b) — uterus is where embryo implants, not where fertilisation occurs."],
           },
         },
@@ -499,7 +499,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Testes", statement: "Testes produce sperm and testosterone." }],
             steps: [{ reasoning: "Testes are male reproductive glands.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Sperm and testosterone",
+            finalAnswer: "**(d)** Sperm and testosterone",
           },
         },
         {
@@ -546,7 +546,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Implantation", statement: "The embryo implants in the uterus." }],
             steps: [{ reasoning: "The uterus lining supports embryo development.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Uterus",
+            finalAnswer: "**(d)** Uterus",
           },
         },
         {
@@ -594,7 +594,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Menstrual cycle", statement: "Oestrogen and progesterone regulate the cycle." }],
             steps: [{ reasoning: "These hormones control lining thickening and ovulation.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Oestrogen and progesterone",
+            finalAnswer: "**(b)** Oestrogen and progesterone",
           },
         },
         {
@@ -627,7 +627,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Fertilisation", statement: "Sperm + egg forms a zygote." }],
             steps: [{ reasoning: "The fused cell is called a zygote.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** A zygote",
+            finalAnswer: "**(c)** A zygote",
           },
         },
         {
@@ -675,7 +675,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Birth", statement: "Birth involves delivery through the birth canal." }],
             steps: [{ reasoning: "Contractions help the baby move through cervix and vagina.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** The baby passes through the cervix and vagina",
+            finalAnswer: "**(d)** The baby passes through the cervix and vagina",
           },
         },
       ],
@@ -831,7 +831,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Decomposer", statement: "Decomposers break down dead organic matter." }],
             steps: [{ reasoning: "Fungi decompose dead material.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Fungus",
+            finalAnswer: "**(d)** Fungus",
           },
         },
         {
@@ -879,7 +879,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Food chain", statement: "Arrows show energy transfer direction." }],
             steps: [{ reasoning: "Energy flows from food to consumer.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Direction of energy flow",
+            finalAnswer: "**(d)** Direction of energy flow",
           },
         },
         {
@@ -960,7 +960,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Ecosystem", statement: "Energy flows through systems while matter cycles." }],
             steps: [{ reasoning: "Energy is lost as heat; nutrients are recycled by decomposers.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Energy flows one way; matter is recycled",
+            finalAnswer: "**(c)** Energy flows one way; matter is recycled",
           },
         },
         {
@@ -1008,7 +1008,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Producer", statement: "Producers make food by photosynthesis." }],
             steps: [{ reasoning: "Plants and algae photosynthesise.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Photosynthesis",
+            finalAnswer: "**(c)** Photosynthesis",
           },
         },
       ],

@@ -350,7 +350,7 @@ export const lesson201: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Complete wellbeing",
+            finalAnswer: "**(d)** Complete wellbeing",
             commonErrors: ["Reductionist 'no disease' answer."],
           },
         },

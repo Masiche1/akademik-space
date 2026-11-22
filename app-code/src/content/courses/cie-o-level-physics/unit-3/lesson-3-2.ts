@@ -60,7 +60,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "KE", statement: "KE = ½mv²." }],
             steps: [{ reasoning: "Recall.", working: "KE = \\frac{1}{2}mv^2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** ½mv²",
+            finalAnswer: "**(a)** ½mv²",
             commonErrors: ["Missing ½ factor."],
           },
         },
@@ -140,7 +140,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "GPE", statement: "GPE = mgh." }],
             steps: [{ reasoning: "Recall.", working: "GPE = mgh", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** mgh",
+            finalAnswer: "**(d)** mgh",
             commonErrors: ["Confusing with KE formula."],
           },
         },
@@ -186,11 +186,11 @@ export const lessonp32: Lesson = {
             { id: "b", text: "2000 J" },
             { id: "c", text: "20 J" },
             { id: "d", text: "50 J" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "formula", name: "GPE", statement: "GPE = mgh = 5×10×4 = 200 J." }],
             steps: [{ reasoning: "Calculate.", working: "GPE = 5 \\times 10 \\times 4 = 200", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** 200 J",
+            finalAnswer: "**(a)** 200 J",
             commonErrors: ["Forgetting to include g."],
           },
         },
@@ -242,7 +242,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Throw", statement: "v = 0 at top → KE = 0." }],
             steps: [{ reasoning: "Recall.", working: "v = 0 \\Rightarrow KE = 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Maximum height",
+            finalAnswer: "**(d)** Maximum height",
             commonErrors: ["Forgetting KE depends on speed not height."],
           },
         },
@@ -299,7 +299,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Falling", statement: "KE increases as GPE decreases." }],
             steps: [{ reasoning: "Recall.", working: "KE \\uparrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Kinetic energy",
+            finalAnswer: "**(d)** Kinetic energy",
             commonErrors: ["Thinking GPE increases as it falls."],
           },
         },
@@ -397,7 +397,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Energy conservation", statement: "GPE→KE on falling." }],
             steps: [{ reasoning: "Recall.", working: "GPE \\downarrow \\to KE \\uparrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Decreases, converting to KE",
+            finalAnswer: "**(d)** Decreases, converting to KE",
             commonErrors: ["Energy destroyed — it transfers."],
           },
         },
@@ -477,7 +477,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Conservation", statement: "Energy not created or destroyed." }],
             steps: [{ reasoning: "Recall.", working: "E_{total} = \\text{constant}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Stays constant — energy is only transferred",
+            finalAnswer: "**(d)** Stays constant — energy is only transferred",
             commonErrors: ["Thinking energy can be created."],
           },
         },
@@ -528,7 +528,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Conservation", statement: "GPE → KE on falling." }],
             steps: [{ reasoning: "Recall.", working: "GPE \\to KE", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** GPE is converted to KE",
+            finalAnswer: "**(d)** GPE is converted to KE",
             commonErrors: ["Saying energy is created."],
           },
         },
@@ -584,7 +584,7 @@ export const lessonp32: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Throw", statement: "At top: max height, v=0 → all GPE." }],
             steps: [{ reasoning: "Recall.", working: "\\text{top} \\Rightarrow \\text{GPE}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Gravitational PE",
+            finalAnswer: "**(d)** Gravitational PE",
             commonErrors: ["Saying KE is maximum at top."],
           },
         },
@@ -637,11 +637,11 @@ export const lessonp32: Lesson = {
             { id: "b", text: "Thermal energy" },
             { id: "c", text: "Kinetic energy" },
             { id: "d", text: "Gravitational PE" },
-          ], correctChoiceIa: "d" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Energy store", statement: "Stores hold energy; work is a transfer." }],
             steps: [{ reasoning: "Recall.", working: "\\text{work} \\neq \\text{store}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(d)** Work",
+            finalAnswer: "**(a)** Work",
             commonErrors: ["Confusing energy transfer with energy store."],
           },
         },

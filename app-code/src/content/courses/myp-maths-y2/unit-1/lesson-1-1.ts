@@ -71,7 +71,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The bases are the same, so add the indices.", working: "a^3\\times a^4=a^{3+4}=a^7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $a^7$",
+            finalAnswer: "**(d)** $a^7$",
             commonErrors: ["Multiplying the indices to get $a^{12}$.", "Writing the indices side by side, $a^{34}$.", "Adding a coefficient, $2a^7$."],
             examinerNote: "B1 for $a^7$.",
           },
@@ -179,7 +179,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The bases are the same, so subtract the indices.", working: "m^{9-4}=m^5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $m^5$",
+            finalAnswer: "**(c)** $m^5$",
             commonErrors: ["Adding the indices to get $m^{13}$.", "Multiplying the indices to get $m^{36}$.", "Subtracting the bases, giving $5m$."],
             examinerNote: "B1 for choice (b).",
           },
@@ -354,7 +354,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The indices add, so $5+n=9$.", working: "5+n=9\\Rightarrow n=4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $n=4$",
+            finalAnswer: "**(c)** $n=4$",
             commonErrors: ["Multiplying the indices, giving $n=\\frac{9}{5}$.", "Subtracting in the wrong order, giving $n=14$."],
             examinerNote: "B1 for choice (a).",
           },
@@ -520,7 +520,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$4.5\\times10^{5}$" },
               { id: "d", text: "$45\\times10^{3}$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -529,7 +529,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Move the decimal point 4 places left to get 4.5, so the power of 10 is 4.", working: "45\\,000=4.5\\times10^4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $4.5\\times10^4$",
+            finalAnswer: "**(b)** $4.5\\times10^4$",
             commonErrors: ["Choosing $45\\times10^3$, where the front number is not between 1 and 10.", "Counting the zeros instead of the places moved."],
             examinerNote: "B1 for choice (c).",
           },
@@ -642,7 +642,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Move the decimal point 3 places right to get 4, so the power of 10 is $-3$.", working: "0.004=4\\times10^{-3}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $4\\times10^{-3}$",
+            finalAnswer: "**(d)** $4\\times10^{-3}$",
             commonErrors: ["Counting the zeros after the decimal point incorrectly, giving $10^{-4}$.", "Choosing (c), where the front number is less than 1."],
             examinerNote: "B1 for choice (a).",
           },
@@ -669,7 +669,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "In standard form the front number must be at least 1 and less than 10. Only $12\\times10^2$ fails this test.", working: "12\\notin[1,10)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $12\\times10^{2}$",
+            finalAnswer: "**(a)** $12\\times10^{2}$",
             commonErrors: ["Thinking a negative power of 10 is not allowed, so choosing (c) or (d)."],
             examinerNote: "B1 for choice (b).",
           },
@@ -814,7 +814,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Divide the front numbers and subtract the indices: $6\\div7.4\\approx0.8$ and $10^{24-22}=10^2$, so about $0.8\\times10^2\\approx80$.", working: "\\frac{6\\times10^{24}}{7.4\\times10^{22}}\\approx0.8\\times10^2=80", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** About $80$ times",
+            finalAnswer: "**(d)** About $80$ times",
             commonErrors: ["Dividing the powers of 10 the wrong way round.", "Comparing only the front numbers 6 and 7.4."],
             examinerNote: "B1 for choice (b). Accept estimates in the range 75-85 for the working.",
           },

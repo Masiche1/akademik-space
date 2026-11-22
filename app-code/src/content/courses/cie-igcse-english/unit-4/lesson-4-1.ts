@@ -162,13 +162,13 @@ export const lesson41: Lesson = {
             { id: "b", text: "Introduction, conclusion, body" },
             { id: "c", text: "Body, introduction, conclusion" },
             { id: "d", text: "Introduction, body, conclusion" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "convention", name: "Essay structure", statement: "Intro → body → conclusion." }],
             steps: [
               { reasoning: "The essay opens with the thesis, develops reasons, then concludes.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(c)** Introduction, body, conclusion",
+            finalAnswer: "**(d)** Introduction, body, conclusion",
           },
         },
         {
@@ -254,7 +254,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Option b states a clear, specific argument with reasons.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Homework should be banned because it causes stress and leaves students no time to rest.",
+            finalAnswer: "**(c)** Homework should be banned because it causes stress and leaves students no time to rest.",
           },
         },
         {
@@ -424,7 +424,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Emotive language uses feeling words like 'heartbreaking' or 'wonderful'.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** Language that describes feelings and provokes emotion",
+            finalAnswer: "**(d)** Language that describes feelings and provokes emotion",
           },
         },
         {
@@ -473,7 +473,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Option b persuades rather than seeking information.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Do we really want to destroy our oceans?",
+            finalAnswer: "**(d)** Do we really want to destroy our oceans?",
           },
         },
         {
@@ -559,7 +559,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "'Choke' and 'our future' are emotive, feeling words.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Emotive language",
+            finalAnswer: "**(d)** Emotive language",
           },
         },
         {

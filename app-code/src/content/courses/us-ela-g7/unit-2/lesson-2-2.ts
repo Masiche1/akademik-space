@@ -133,7 +133,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The author argues for a later start time and gives reasons. Buses and history are only mentioned briefly.",
+              "**(a)** The author argues for a later start time and gives reasons. Buses and history are only mentioned briefly.",
             commonErrors: [
               "Choosing a topic mentioned in the text (buses) rather than the purpose of the whole text.",
             ],
@@ -193,7 +193,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The author concedes the difficulty and then answers it by weighing cost against benefit. The author does not ignore the concern or change position.",
+              "**(d)** The author concedes the difficulty and then answers it by weighing cost against benefit. The author does not ignore the concern or change position.",
             commonErrors: [
               "Choosing (c) because the sentence begins by agreeing with the worry.",
             ],
@@ -435,7 +435,7 @@ export const lesson22: Lesson = {
                 text: "Every school morning, millions of seventh graders drag themselves out of bed.",
               },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -457,7 +457,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** It is the central position. (b) is evidence, (a) is an attention-grabbing opening, and (d) is an emotional appeal.",
+              "**(a)** It is the central position. (b) is evidence, (a) is an attention-grabbing opening, and (d) is an emotional appeal.",
             commonErrors: [
               "Choosing the opening sentence because it comes first.",
             ],

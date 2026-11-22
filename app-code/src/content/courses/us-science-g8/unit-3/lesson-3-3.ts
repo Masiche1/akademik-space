@@ -64,7 +64,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The tilt of the axis means each hemisphere points toward the Sun at different times of the year.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The tilt of Earth's axis as it orbits the Sun",
+            finalAnswer: "**(c)** The tilt of Earth's axis as it orbits the Sun",
             commonErrors: ["Choosing (a): Earth is closest to the Sun in early January, during Northern Hemisphere winter.", "Choosing (c): this describes a lunar eclipse."],
             examinerNote: "B1 for (b).",
           },

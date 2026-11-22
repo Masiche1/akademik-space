@@ -88,7 +88,7 @@ export const lesson63: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Time",
+            finalAnswer: "**(d)** Time",
             commonErrors: ["Confusing x and y axes."],
           },
         },
@@ -278,7 +278,7 @@ export const lesson63: Lesson = {
               { id: "c", text: "Bar chart" },
               { id: "d", text: "Line graph" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -295,7 +295,7 @@ export const lesson63: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** Line graph",
+            finalAnswer: "**(d)** Line graph",
             commonErrors: [
               "Choosing bar chart — better for categories not continuous data.",
             ],

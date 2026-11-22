@@ -186,7 +186,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Neutron has zero charge.", working: "n^0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Neutron",
+            finalAnswer: "**(b)** Neutron",
             commonErrors: ["Choosing proton — it is positive."],
             examinerNote: "B1 for (a).",
           },
@@ -542,7 +542,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Same outer electron count → same group → similar reactions.", working: "\\text{outer electrons}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Outer electrons",
+            finalAnswer: "**(c)** Outer electrons",
             commonErrors: ["Choosing total electrons — inner shells differ."],
             examinerNote: "B1 for (a).",
           },
@@ -657,7 +657,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Same outer electrons → same group → similar properties.", working: "\\text{outer e}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Outer electrons",
+            finalAnswer: "**(c)** Outer electrons",
             commonErrors: ["Confusing group with period."],
             examinerNote: "B1 for (a).",
           },

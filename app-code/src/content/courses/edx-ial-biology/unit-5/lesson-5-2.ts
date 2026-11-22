@@ -99,7 +99,7 @@ export const lesson52: Lesson = {
                 "text": "1 mm"
               }
             ],
-            "dorrectChoiceId": "c"
+            "correctChoiceId": "d"
           },
           "markscheme": {
             "principles": [
@@ -116,7 +116,7 @@ export const lesson52: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(c)** A mm-graduated rule has 1 mm resolution.",
+            "finalAnswer": "**(d)** A mm-graduated rule has 1 mm resolution.",
             "commonErrors": [
               "Confusing resolution with range."
             ]
@@ -389,7 +389,7 @@ export const lesson52: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(b)** The appropriate technique is measure the dependent variable at regular time intervals.",
+            "finalAnswer": "**(d)** The appropriate technique is measure the dependent variable at regular time intervals.",
             "commonErrors": [
               "Choosing an unrelated technique."
             ]

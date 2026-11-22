@@ -163,7 +163,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Reading the sentence and checking pictures is the best first strategy.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Read the whole sentence and look at the pictures for clues",
+            finalAnswer: "**(a)** Read the whole sentence and look at the pictures for clues",
             commonErrors: ["Choosing (c) — guessing without clues is often wrong."],
           },
         },
@@ -208,7 +208,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Context clues come from the sentence around the word.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The words around an unknown word that help you guess its meaning",
+            finalAnswer: "**(d)** The words around an unknown word that help you guess its meaning",
             commonErrors: ["Choosing (b) — pictures can help too, but context clues are the words around the word."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Predicting = guessing what happens next from the clues.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** To guess what will happen next using clues",
+            finalAnswer: "**(d)** To guess what will happen next using clues",
             commonErrors: ["Choosing (b) — copying is not predicting."],
           },
         },
@@ -345,7 +345,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Stop and never read that book again" },
               { id: "d", text: "Go back and reread the paragraph" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -354,7 +354,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Rereading the paragraph lets you pick up who, where and what again.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Go back and reread the paragraph",
+            finalAnswer: "**(d)** Go back and reread the paragraph",
             commonErrors: ["Choosing (a) — reading faster when confused makes it worse."],
           },
         },
@@ -371,7 +371,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Very small" },
               { id: "d", text: "Very big" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -380,7 +380,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Whales are famously huge and the spray goes 'high', so 'enormous' means very big.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Very big",
+            finalAnswer: "**(d)** Very big",
             commonErrors: ["Choosing (b) — speed is not suggested by the sentence."],
           },
         },
@@ -467,7 +467,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "'What did Sam eat' is a literal question — the answer is in the text.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Finding the answer in the words of the text",
+            finalAnswer: "**(d)** Finding the answer in the words of the text",
             commonErrors: ["Choosing (a) — literal questions do not need guessing."],
           },
         },
@@ -571,7 +571,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "'What colour' is a literal question — find the word in the text.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Finding the colour in the words of the text",
+            finalAnswer: "**(d)** Finding the colour in the words of the text",
             commonErrors: ["Choosing (a) — literal questions are answered from the text, not guessed."],
           },
         },
@@ -607,7 +607,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Ask the writer" },
               { id: "d", text: "Guess randomly" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -616,7 +616,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "'Why' answers are inferences — use clues like sighing or the weather.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Use clues in the text to work out the reason",
+            finalAnswer: "**(b)** Use clues in the text to work out the reason",
             commonErrors: ["Choosing (a) — writers often show feelings without naming them."],
           },
         },
@@ -698,7 +698,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "'Her hands shook' shows nervousness — writers show rather than name feelings.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** show",
+            finalAnswer: "**(c)** show",
             commonErrors: ["Choosing 'hide' — the text does not hide feelings; it shows them through actions."],
           },
         },
@@ -762,7 +762,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Evidence comes from the text and backs up your answer.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The words in the text that support your answer",
+            finalAnswer: "**(d)** The words in the text that support your answer",
             commonErrors: ["Choosing (d) — opinions need text evidence to be strong answers."],
           },
         },
@@ -788,7 +788,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "The clue 'eyes lit up' shows excitement/happiness at seeing the puppy.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Her eyes lit up when she saw the puppy",
+            finalAnswer: "**(b)** Her eyes lit up when she saw the puppy",
             commonErrors: ["Choosing (d) — the text does not say the puppy was sleeping."],
           },
         },

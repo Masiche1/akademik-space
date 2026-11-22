@@ -65,7 +65,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "N = newton.", working: "N", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Newton (N)",
+            finalAnswer: "**(c)** Newton (N)",
             commonErrors: ["Choosing (b) — joule is energy."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Gravity attracts objects toward Earth.", working: "gravity", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Gravity (weight)",
+            finalAnswer: "**(d)** Gravity (weight)",
             commonErrors: ["Choosing (c) — friction opposes motion, not attraction."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Equal opposite forces — balanced.", working: "balanced", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Balanced",
+            finalAnswer: "**(b)** Balanced",
             commonErrors: ["Choosing (c) — normal force pushes up equally."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Friction needs contact; gravity and magnetism act at a distance.", working: "contact", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Friction",
+            finalAnswer: "**(d)** Friction",
             commonErrors: ["Choosing (b) — gravity acts without contact."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Net force produces acceleration.", working: "F=ma", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Accelerate",
+            finalAnswer: "**(d)** Accelerate",
             commonErrors: ["Choosing (c) — constant speed needs balanced forces."],
           },
         },
@@ -274,7 +274,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Normal force is perpendicular to and away from the surface.", working: "perpendicular up", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Upward, perpendicular to surface",
+            finalAnswer: "**(b)** Upward, perpendicular to surface",
             commonErrors: ["Choosing (b) — that direction is gravity, not normal force."],
           },
         },
@@ -326,7 +326,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Mass is not a force — it is measured in kg, not N.", working: "mass ≠ force", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Mass",
+            finalAnswer: "**(d)** Mass",
             commonErrors: ["Choosing (b) — gravity IS a force."],
           },
         },
@@ -483,7 +483,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Speed = distance/time.", working: "formula", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** distance ÷ time",
+            finalAnswer: "**(b)** distance ÷ time",
             commonErrors: ["Choosing (b) — that gives time per distance."],
           },
         },
@@ -588,7 +588,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Only velocity includes direction.", working: "velocity", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Velocity",
+            finalAnswer: "**(d)** Velocity",
             commonErrors: ["Choosing (b) — speed has no direction."],
           },
         },
@@ -614,7 +614,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "m/s per second = m/s².", working: "m/s²", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\text{m/s}^2$",
+            finalAnswer: "**(b)** $\\text{m/s}^2$",
             commonErrors: ["Choosing (b) — m/s is velocity/speed."],
           },
         },
@@ -640,7 +640,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Velocity fell — decelerating.", working: "deceleration", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Deceleration",
+            finalAnswer: "**(d)** Deceleration",
             commonErrors: ["Choosing (d) — velocity decreased, not increased."],
           },
         },
@@ -666,7 +666,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Gradient = rise ÷ run = distance ÷ time = speed.", working: "gradient=speed", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Speed",
+            finalAnswer: "**(b)** Speed",
             commonErrors: ["Choosing (b) — acceleration is gradient of velocity-time graph."],
           },
         },
@@ -692,7 +692,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "No slope means velocity constant — acceleration zero.", working: "flat = constant v", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Constant velocity",
+            finalAnswer: "**(c)** Constant velocity",
             commonErrors: ["Choosing (c) — the object may be moving steadily, not stationary."],
           },
         },
@@ -718,7 +718,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Area = velocity × time = distance.", working: "area=distance", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Distance travelled",
+            finalAnswer: "**(b)** Distance travelled",
             commonErrors: ["Choosing (b) — gradient gives acceleration, not area."],
           },
         },
@@ -744,7 +744,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Velocity is the only vector listed.", working: "velocity", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Velocity",
+            finalAnswer: "**(b)** Velocity",
             commonErrors: ["Choosing (b) — speed is scalar, no direction."],
           },
         },
@@ -900,7 +900,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Friction opposes sliding motion.", working: "motion", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Relative motion between surfaces",
+            finalAnswer: "**(c)** Relative motion between surfaces",
             commonErrors: ["Choosing (b) — gravity is separate force."],
           },
         },
@@ -1005,7 +1005,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Friction opposes motion — acts backwards.", working: "opposes", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Opposite to motion",
+            finalAnswer: "**(b)** Opposite to motion",
             commonErrors: ["Choosing (b) — friction never helps motion along."],
           },
         },
@@ -1031,7 +1031,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Concrete is roughest — highest friction.", working: "concrete", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Rough concrete",
+            finalAnswer: "**(b)** Rough concrete",
             commonErrors: ["Choosing (b) — ice is famously slippery (low friction)."],
           },
         },
@@ -1057,7 +1057,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Lubricants reduce friction between parts.", working: "lubricant", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Reduce friction",
+            finalAnswer: "**(b)** Reduce friction",
             commonErrors: ["Choosing (b) — that is what tread/grip materials do."],
           },
         },
@@ -1083,7 +1083,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Tread patterns increase friction deliberately.", working: "grip", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Increase friction/grip",
+            finalAnswer: "**(b)** Increase friction/grip",
             commonErrors: ["Choosing (b) — soles need grip, not low friction."],
           },
         },
@@ -1109,7 +1109,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Friction heats surfaces — energy dissipated as heat.", working: "heat", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Heat",
+            finalAnswer: "**(d)** Heat",
             commonErrors: ["Choosing (c) — heat is the main waste, not sound."],
           },
         },
@@ -1135,7 +1135,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Balls roll instead of surfaces sliding — less friction.", working: "rolling", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Rolling instead of sliding",
+            finalAnswer: "**(b)** Rolling instead of sliding",
             commonErrors: ["Choosing (b) — rougher surfaces increase friction."],
           },
         },
@@ -1161,7 +1161,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Low friction on ice causes slipping.", working: "low friction", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Very low friction",
+            finalAnswer: "**(d)** Very low friction",
             commonErrors: ["Choosing (d) — ice is smooth, not rough."],
           },
         },

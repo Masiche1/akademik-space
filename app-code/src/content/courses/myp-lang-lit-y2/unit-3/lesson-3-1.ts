@@ -72,7 +72,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): audience = who it's written for — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The people the text is written for",
+            finalAnswer: "**(c)** The people the text is written for",
           },
         },
         {
@@ -188,7 +188,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Express the chef's feelings" },
               { id: "d", text: "Persuade you to buy ingredients" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -197,7 +197,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): a recipe informs — it tells you how to cook — (c).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Inform you how to cook a dish",
+            finalAnswer: "**(a)** Inform you how to cook a dish",
           },
         },
         {

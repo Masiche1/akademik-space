@@ -238,7 +238,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $12.5$ cm$^3$",
+            finalAnswer: "**(a)** $12.5$ cm$^3$",
             commonErrors: [
               "Treating the reaction as $1:1$ and answering $25.0$ cm$^3$.",
               "Doubling instead of halving the moles of acid.",
@@ -379,7 +379,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.00300$ mol",
+            finalAnswer: "**(b)** $0.00300$ mol",
             commonErrors: ["Using $15.0$ instead of $0.0150$ dm$^3$."],
           },
         },
@@ -425,7 +425,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Phenolphthalein",
+            finalAnswer: "**(a)** Phenolphthalein",
             commonErrors: [
               "Choosing methyl orange, which is suited to strong acid–weak base titrations.",
             ],
@@ -483,7 +483,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.0800$ mol dm$^{-3}$",
+            finalAnswer: "**(b)** $0.0800$ mol dm$^{-3}$",
             commonErrors: [
               "Inverting $c = n/V$ or using the titre volume for the NaOH volume.",
             ],
@@ -543,7 +543,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $15.0$ cm$^3$",
+            finalAnswer: "**(a)** $15.0$ cm$^3$",
             commonErrors: [
               "Treating the reaction as $1:1$ and answering $30.0$ cm$^3$.",
               "Doubling the acid volume instead of halving the moles.",
@@ -672,7 +672,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** The calculated concentration is too high",
+            finalAnswer: "**(c)** The calculated concentration is too high",
             commonErrors: [
               "Assuming any error makes the result less accurate in an unspecified direction.",
             ],
@@ -1248,7 +1248,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** The sample is insoluble and slow to react, so excess acid is added and the remainder is titrated",
+              "**(b)** The sample is insoluble and slow to react, so excess acid is added and the remainder is titrated",
             commonErrors: [
               "Thinking back titration avoids using an indicator.",
               "Claiming calcium carbonate does not react with acid.",
@@ -1306,7 +1306,7 @@ export const lesson42: Lesson = {
                 markCode: "R",
               },
             ],
-            finalAnswer: "**(a)** $0.00150$ mol",
+            finalAnswer: "**(d)** $0.00150$ mol",
             commonErrors: [
               "Reporting the acid added rather than the acid remaining.",
               "Reporting the acid that reacted instead of remaining.",
@@ -1373,7 +1373,7 @@ export const lesson42: Lesson = {
                 markCode: "R",
               },
             ],
-            finalAnswer: "**(a)** $0.175$ g",
+            finalAnswer: "**(b)** $0.175$ g",
             commonErrors: [
               "Forgetting the factor of $2$ in the CaCO$_3$:HCl ratio.",
               "Subtracting masses instead of moles.",
@@ -1531,7 +1531,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Add excess reagent, titrate the leftover excess, find the reacted amount by difference",
+              "**(b)** Add excess reagent, titrate the leftover excess, find the reacted amount by difference",
             commonErrors: [
               "Thinking the sample itself is titrated directly in a back titration.",
             ],
@@ -1588,7 +1588,7 @@ export const lesson42: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** $0.00200$ mol",
+            finalAnswer: "**(a)** $0.00200$ mol",
             commonErrors: [
               "Reporting the acid added rather than the acid remaining.",
             ],
@@ -1962,7 +1962,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $75.0\\%$",
+            finalAnswer: "**(c)** $75.0\\%$",
             commonErrors: [
               "Forgetting to halve for the $1:2$ CaCO$_3$:HCl ratio, giving $150\\%$ or an impossible value.",
             ],

@@ -202,7 +202,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Aerobic respiration takes place in the mitochondria. Ribosomes make proteins, the nucleus holds DNA and chloroplasts carry out photosynthesis.", working: "\\text{mitochondrion}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Mitochondrion",
+            finalAnswer: "**(a)** Mitochondrion",
             commonErrors: ["Choosing the ribosome, which makes proteins and does not release energy.", "Choosing the chloroplast, confusing respiration with photosynthesis."],
             examinerNote: "B1 for mitochondrion.",
           },

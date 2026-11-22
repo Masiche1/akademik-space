@@ -80,7 +80,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Convert to sixths.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 1/2",
+            finalAnswer: "**(a)** 1/2",
             commonErrors: ["Adding denominators."],
           },
         },
@@ -272,7 +272,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "4.56 × 100 = 456.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 456",
+            finalAnswer: "**(a)** 456",
             commonErrors: ["Shifting only one place."],
           },
         },

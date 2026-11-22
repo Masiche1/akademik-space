@@ -313,7 +313,7 @@ export const lesson13: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Ethanol and CO₂",
+            finalAnswer: "**(a)** Ethanol and CO₂",
             commonErrors: ["Lactic acid = bacteria not yeast."],
           },
         },

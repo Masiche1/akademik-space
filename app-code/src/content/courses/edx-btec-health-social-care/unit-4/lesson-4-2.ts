@@ -99,7 +99,7 @@ export const lesson402: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Stepwise improvement",
+            finalAnswer: "**(a)** Stepwise improvement",
             commonErrors: ["Binary poverty/wealth view."],
           },
         },

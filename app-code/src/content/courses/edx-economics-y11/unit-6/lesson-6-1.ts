@@ -82,7 +82,7 @@ export const lesson114: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Economic, social, environmental",
+            finalAnswer: "**(a)** Economic, social, environmental",
             commonErrors: ["Wrong list."],
           },
         },
@@ -265,7 +265,7 @@ export const lesson114: Lesson = {
             steps: [
               { reasoning: "WTO = trade rules.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Free trade/disputes",
+            finalAnswer: "**(c)** Free trade/disputes",
             commonErrors: ["IMF confused."],
           },
         },

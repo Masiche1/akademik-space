@@ -75,7 +75,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Personification", statement: "Giving human or animal qualities to something non-living." }],
             steps: [{ reasoning: "The fog is given a 'muzzle' and acts like an animal, so this is personification (animal imagery).", evidence: "its damp muzzle", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** Personification: the fog is given an animal's muzzle and behaves like a creature.",
+            finalAnswer: "**(b)** Personification: the fog is given an animal's muzzle and behaves like a creature.",
             commonErrors: ["Choosing alliteration because 'damp muzzle' and 'against' look similar; no repeated initial consonant is the key technique.", "Choosing onomatopoeia because 'pressing' sounds physical."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Narrative viewpoint", statement: "First person uses 'I' and tells events from the narrator's own experience." }],
             steps: [{ reasoning: "The narrator uses 'I' and remembers events from childhood, so this is retrospective first-person narration.", evidence: "I have never been able to look upon the old house", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** First-person narrator looking back; shown by 'I' and past tense memories.",
+            finalAnswer: "**(d)** First-person narrator looking back; shown by 'I' and past tense memories.",
             commonErrors: ["Choosing (d) because the narrator addresses 'reader'; that is direct address, not second-person narration."],
           },
         },

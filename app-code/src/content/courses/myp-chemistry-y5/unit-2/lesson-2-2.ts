@@ -71,7 +71,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Equilibrium is dynamic — rates equal but nonzero.", working: "\\text{rates equal}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Forward and reverse rates equal",
+            finalAnswer: "**(c)** Forward and reverse rates equal",
             commonErrors: ["Thinking equilibrium means reactions stop."],
             examinerNote: "B1 for (a).",
           },
@@ -186,7 +186,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Equilibrium is dynamic — rates equal but nonzero.", working: "\\text{rates equal}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Forward and reverse rates are equal",
+            finalAnswer: "**(b)** Forward and reverse rates are equal",
             commonErrors: ["Thinking equilibrium means reactions stop."],
             examinerNote: "B1 for (a).",
           },
@@ -520,7 +520,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Combustion releases heat — exothermic.", working: "\\Delta H<0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Combustion of methane",
+            finalAnswer: "**(d)** Combustion of methane",
             commonErrors: ["Confusing photosynthesis (endothermic) with respiration."],
             examinerNote: "B1 for (a).",
           },
@@ -635,7 +635,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Exothermic = heat out = negative $\\Delta H$.", working: "\\Delta H<0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Releases energy, $\\Delta H < 0$",
+            finalAnswer: "**(b)** Releases energy, $\\Delta H < 0$",
             commonErrors: ["Confusing exothermic with endothermic."],
             examinerNote: "B1 for (a).",
           },

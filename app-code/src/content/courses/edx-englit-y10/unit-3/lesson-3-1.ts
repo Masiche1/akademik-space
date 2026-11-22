@@ -67,7 +67,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Establish the situation", statement: "Say what the speaker is thinking before analysing how it is expressed." }],
             steps: [{ reasoning: "He fears that murder will bring consequences that “return / To plague the inventor”.", evidence: "bloody instructions", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** He is anxious about the consequences of the murder.",
+            finalAnswer: "**(c)** He is anxious about the consequences of the murder.",
             commonErrors: ["Confusing this soliloquy with later scenes (c, d).", "Missing the focus on consequences."],
           },
         },

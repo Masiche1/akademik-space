@@ -76,7 +76,7 @@ export const lesson35: Lesson = {
               { id: "c", text: "Give reasons" },
               { id: "d", text: "Weigh evidence and reach a judgement" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

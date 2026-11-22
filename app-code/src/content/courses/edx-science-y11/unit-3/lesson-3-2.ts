@@ -88,7 +88,7 @@ export const lesson32: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Amplitude",
+            finalAnswer: "**(c)** Amplitude",
             commonErrors: ["Frequency confused — that's pitch."],
           },
         },

@@ -279,7 +279,7 @@ export const lesson444: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Carbon tax", statement: "Emissions price." } ],
             steps: [ { reasoning: "A carbon tax internalises the external cost of emissions by raising the price of polluting goods, encouraging firms and consumers to switch to cleaner alternatives.", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** price polluting activities to cut emissions"
+            finalAnswer: "**(d)** price polluting activities to cut emissions"
           }
         },
         {
@@ -300,7 +300,7 @@ export const lesson444: Lesson = {
           markscheme: {
             principles: [ { kind: "skill", name: "Market failure", statement: "Externality causes overproduction." } ],
             steps: [ { reasoning: "Greenhouse gas emissions impose costs on society (climate damage) that producers do not pay, so the market price understates the true social cost and polluting output is excessive.", marks: 1, markCode: "A" } ],
-            finalAnswer: "**(a)** social cost exceeds private cost"
+            finalAnswer: "**(c)** social cost exceeds private cost"
           }
         },
         {
@@ -406,7 +406,7 @@ export const lesson444: Lesson = {
           markscheme: {
             principles: [ { kind: "technique", name: "Policy solutions", statement: "Quotas and property rights." } ],
             steps: [ { reasoning: "Quotas and property rights restrict total catch and align the fisher's private incentive with sustainable harvesting, internalising the external cost of depletion.", marks: 1, markCode: "A" } ],
-            finalAnswer: "**(a)** quotas or property rights"
+            finalAnswer: "**(d)** quotas or property rights"
           }
         },
         {

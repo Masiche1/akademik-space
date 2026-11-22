@@ -69,7 +69,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): call to action = ending telling audience what to do — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The ending that tells the audience what to do",
+            finalAnswer: "**(c)** The ending that tells the audience what to do",
           },
         },
         {
@@ -160,7 +160,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): hook = attention-grabbing opening — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The opening that grabs the audience's attention",
+            finalAnswer: "**(c)** The opening that grabs the audience's attention",
           },
         },
         {
@@ -185,7 +185,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): rhetorical question = asked for effect — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A question asked for effect, not to be answered",
+            finalAnswer: "**(d)** A question asked for effect, not to be answered",
           },
         },
         {
@@ -240,7 +240,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C (Producing text): (b) is a vivid question that creates urgency; the others are flat openings — (b).", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** 'What if I told you the playground you play on every day could be gone by September?'",
+            finalAnswer: "**(a)** 'What if I told you the playground you play on every day could be gone by September?'",
           },
         },
         {
@@ -340,7 +340,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): direct address = 'you'/'we' to the audience — (b).", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Using 'you', 'we', 'my friends' to speak directly to the audience",
+            finalAnswer: "**(c)** Using 'you', 'we', 'my friends' to speak directly to the audience",
           },
         },
         {
@@ -397,7 +397,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): listeners can't re-read — repetition aids memory — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Because listeners can't re-read — repetition aids memory and builds momentum",
+            finalAnswer: "**(c)** Because listeners can't re-read — repetition aids memory and builds momentum",
           },
         },
         {
@@ -422,7 +422,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): speeches are heard — repetition, direct address and short sentences suit the ear; essays can be more complex — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Speeches are heard — they need repetition, direct address and shorter sentences; essays can be scanned",
+            finalAnswer: "**(d)** Speeches are heard — they need repetition, direct address and shorter sentences; essays can be scanned",
           },
         },
         {
@@ -507,7 +507,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): aloud practice catches spoken problems — (b).", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** You catch awkward phrasing and timing issues that silent reading misses",
+            finalAnswer: "**(d)** You catch awkward phrasing and timing issues that silent reading misses",
           },
         },
         {
@@ -597,7 +597,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): aloud practice catches spoken problems — (b).", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** You catch awkward phrasing, timing and rhythm issues silent reading misses",
+            finalAnswer: "**(d)** You catch awkward phrasing, timing and rhythm issues silent reading misses",
           },
         },
         {
@@ -622,7 +622,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): notes free you from reading — eye contact and natural speech — (b).", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Notes let you make eye contact and speak naturally instead of reading",
+            finalAnswer: "**(d)** Notes let you make eye contact and speak naturally instead of reading",
           },
         },
         {
@@ -677,7 +677,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): practice and breathing are proven nervousness managers; scripts and avoidance undermine delivery — (b).", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Practise aloud several times and breathe deeply before starting",
+            finalAnswer: "**(d)** Practise aloud several times and breathe deeply before starting",
           },
         },
         {
@@ -776,7 +776,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): thorough practice + audience support — (b).", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Practice thoroughly and remember the audience wants you to succeed",
+            finalAnswer: "**(d)** Practice thoroughly and remember the audience wants you to succeed",
           },
         },
         {
@@ -833,7 +833,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): eye contact connects and shows confidence — (b).", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** It connects you with the audience and shows confidence",
+            finalAnswer: "**(d)** It connects you with the audience and shows confidence",
           },
         },
         {

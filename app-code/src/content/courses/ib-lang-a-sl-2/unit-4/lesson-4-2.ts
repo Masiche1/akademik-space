@@ -67,7 +67,7 @@ export const lesson42: Lesson = {
               { reasoning: "Reception concerns how texts are read over time, not how they were produced.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** How texts are read across periods",
+            finalAnswer: "**(a)** How texts are read across periods",
           },
         },
         {
@@ -204,7 +204,7 @@ export const lesson42: Lesson = {
               { reasoning: "Cultural context is the society's shared system of meaning, not just setting or nationality.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Shared values, beliefs, symbols and practices",
+            finalAnswer: "**(d)** Shared values, beliefs, symbols and practices",
           },
         },
         {
@@ -231,7 +231,7 @@ export const lesson42: Lesson = {
               { reasoning: "The phrase encodes class privilege and gendered leisure — the spa was a space of respectable female sociability.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** What the phrase assumed about class, health and gender",
+            finalAnswer: "**(c)** What the phrase assumed about class, health and gender",
           },
         },
         {
@@ -367,7 +367,7 @@ export const lesson42: Lesson = {
               { reasoning: "'Active ingredient' means context changes what the words do — the same sentence means differently in different situations.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It produces meaning — same words, different moments",
+            finalAnswer: "**(a)** It produces meaning — same words, different moments",
           },
         },
         {
@@ -446,7 +446,7 @@ export const lesson42: Lesson = {
               { reasoning: "Meaning shifts because each era brings different assumptions to the same stable words.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Readers' assumptions change",
+            finalAnswer: "**(d)** Readers' assumptions change",
           },
         },
         {
@@ -675,7 +675,7 @@ export const lesson42: Lesson = {
               { reasoning: "A response text positions itself against an earlier text — answering, arguing or rewriting it.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Answers, argues with or rewrites a predecessor",
+            finalAnswer: "**(d)** Answers, argues with or rewrites a predecessor",
           },
         },
         {
@@ -702,7 +702,7 @@ export const lesson42: Lesson = {
               { reasoning: "The relation is transformation, not quotation or direct allusion — no specific source is named.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Ironic transformation into environmental critique",
+            finalAnswer: "**(c)** Ironic transformation into environmental critique",
           },
         },
         {
@@ -838,7 +838,7 @@ export const lesson42: Lesson = {
               { reasoning: "Parody imitates with critical or comic distortion — it targets the source's mannerisms.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Imitates for comic/critical effect",
+            finalAnswer: "**(c)** Imitates for comic/critical effect",
           },
         },
         {
@@ -917,7 +917,7 @@ export const lesson42: Lesson = {
               { reasoning: "The test asks for the relation's direction: does the new text honour, ironise, parody or reverse the source?", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** What the new text does to the source",
+            finalAnswer: "**(c)** What the new text does to the source",
           },
         },
         {

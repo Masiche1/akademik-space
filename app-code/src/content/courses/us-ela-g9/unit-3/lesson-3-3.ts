@@ -488,7 +488,7 @@ export const lesson33: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(b)**. Both parts can stand alone.",
+            finalAnswer: "**(d)**. Both parts can stand alone.",
             commonErrors: [
               "Choosing (a) because 'and' feels natural; with 'and' a comma is used instead.",
             ],
@@ -537,7 +537,7 @@ export const lesson33: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(a)**. Semicolon before, comma after.",
+            finalAnswer: "**(b)**. Semicolon before, comma after.",
             commonErrors: ["Choosing (b), a comma splice."],
           },
         },

@@ -174,7 +174,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Peptide bond", statement: "Covalent bond between amino acids." }],
             steps: [{ reasoning: "Peptide bond formed by condensation.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Peptide",
+            finalAnswer: "**(c)** Peptide",
           },
         },
         {

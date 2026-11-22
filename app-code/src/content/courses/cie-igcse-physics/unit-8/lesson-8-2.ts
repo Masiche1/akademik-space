@@ -60,7 +60,7 @@ export const lessonp82: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "SHC", statement: "J/kg°C." }],
             steps: [{ reasoning: "Recall.", working: "\\text{J/kg°C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Energy to raise 1 kg by 1°C",
+            finalAnswer: "**(c)** Energy to raise 1 kg by 1°C",
             commonErrors: ["Confusing with latent heat."],
           },
         },
@@ -140,7 +140,7 @@ export const lessonp82: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "SHC", statement: "Energy per kg per °C." }],
             steps: [{ reasoning: "Recall the definition.", working: "\\text{1 kg by 1}^\\circ\\text{C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 1 kg by 1°C",
+            finalAnswer: "**(b)** 1 kg by 1°C",
             commonErrors: ["Using the whole object rather than unit mass."],
           },
         },
@@ -175,7 +175,7 @@ export const lessonp82: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Latent heat", statement: "Energy for state change at constant temperature." }],
             steps: [{ reasoning: "Recall latent heat definition.", working: "\\text{state change, no } \\Delta T", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A change of state without temperature change",
+            finalAnswer: "**(a)** A change of state without temperature change",
             commonErrors: ["Confusing latent heat with specific heat."],
           },
         },
@@ -209,7 +209,7 @@ export const lessonp82: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Boiling", statement: "Temperature constant during vaporisation." }],
             steps: [{ reasoning: "Recall state-change behaviour.", working: "\\text{constant }T", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Stays constant while liquid changes to gas",
+            finalAnswer: "**(a)** Stays constant while liquid changes to gas",
             commonErrors: ["Thinking temperature must rise during boiling."],
           },
         },
@@ -227,7 +227,7 @@ export const lessonp82: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Water", statement: "$L_v > L_f$ and latent heat values are large." }],
             steps: [{ reasoning: "Recall relative magnitudes.", working: "L_v > L_f", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Specific latent heat of vaporisation",
+            finalAnswer: "**(c)** Specific latent heat of vaporisation",
             commonErrors: ["Comparing units incorrectly without understanding the processes."],
           },
         },
@@ -262,7 +262,7 @@ export const lessonp82: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Water", statement: "High $c$ means large energy needed per °C." }],
             steps: [{ reasoning: "Interpret high specific heat.", working: "\\text{more energy per }\\Delta T", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Needs more energy for the same temperature rise",
+            finalAnswer: "**(c)** Needs more energy for the same temperature rise",
             commonErrors: ["Thinking high $c$ means rapid heating."],
           },
         },
@@ -296,7 +296,7 @@ export const lessonp82: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Latent heat", statement: "Energy breaks intermolecular bonds." }],
             steps: [{ reasoning: "Recall why temperature stays constant.", working: "\\text{bond breaking}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Break bonds between particles",
+            finalAnswer: "**(a)** Break bonds between particles",
             commonErrors: ["Thinking the energy raises temperature."],
           },
         },
@@ -380,11 +380,11 @@ export const lessonp82: Lesson = {
             { id: "b", text: "All" },
             { id: "c", text: "Conduction" },
             { id: "d", text: "Radiation" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Heat transfer", statement: "Radiation needs no medium." }],
             steps: [{ reasoning: "Recall.", working: "\\text{radiation}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Radiation",
+            finalAnswer: "**(d)** Radiation",
             commonErrors: ["Conduction/convection need medium."],
           },
         },
@@ -532,7 +532,7 @@ export const lessonp82: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Convection", statement: "Occurs in fluids by circulation." }],
             steps: [{ reasoning: "Recall convection medium.", working: "\\text{fluids}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Convection",
+            finalAnswer: "**(d)** Convection",
             commonErrors: ["Confusing convection with conduction in solids."],
           },
         },
@@ -550,7 +550,7 @@ export const lessonp82: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Conduction", statement: "Free electrons transfer thermal energy." }],
             steps: [{ reasoning: "Recall why metals conduct well.", working: "\\text{free electrons}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Free electrons",
+            finalAnswer: "**(b)** Free electrons",
             commonErrors: ["Attributing conduction only to density."],
           },
         },
@@ -584,7 +584,7 @@ export const lessonp82: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Radiation", statement: "Dull dark surfaces absorb best." }],
             steps: [{ reasoning: "Recall absorption properties.", working: "\\text{dull dark}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Dull dark surfaces",
+            finalAnswer: "**(c)** Dull dark surfaces",
             commonErrors: ["Choosing shiny surfaces, which reflect radiation."],
           },
         },
@@ -618,7 +618,7 @@ export const lessonp82: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Convection", statement: "Density differences drive currents." }],
             steps: [{ reasoning: "Recall convection cause.", working: "\\text{density differences}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Density",
+            finalAnswer: "**(b)** Density",
             commonErrors: ["Attributing currents to colour or shape."],
           },
         },

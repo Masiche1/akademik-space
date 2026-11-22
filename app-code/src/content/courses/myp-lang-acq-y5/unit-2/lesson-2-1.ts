@@ -70,7 +70,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — option b acknowledges then challenges formally.", working: "acknowledge-challenge", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** 'I take your point, although the evidence suggests otherwise.'",
+            finalAnswer: "**(c)** 'I take your point, although the evidence suggests otherwise.'",
             commonErrors: ["Choosing polite-sounding but vague language instead of precise challenge."],
             examinerNote: "C1 for (b).",
           },
@@ -187,7 +187,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — only (b) is precise, cautious and respectful.", working: "formal register", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** I would suggest that the evidence points elsewhere",
+            finalAnswer: "**(c)** I would suggest that the evidence points elsewhere",
             commonErrors: ["Choosing slang or emphatic informal language."],
             examinerNote: "C1 for (b).",
           },
@@ -214,7 +214,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — the phrase verifies the other speaker's position first.", working: "clarify", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** To check understanding before responding",
+            finalAnswer: "**(a)** To check understanding before responding",
             commonErrors: ["Reading it as disagreement rather than clarification."],
             examinerNote: "C1 for (b).",
           },
@@ -247,7 +247,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'valid concern' acknowledges before 'however' qualifies.", working: "acknowledge+challenge", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Acknowledging the point with 'That is a valid concern' before qualifying",
+            finalAnswer: "**(a)** Acknowledging the point with 'That is a valid concern' before qualifying",
             commonErrors: ["Choosing vocabulary rather than discourse structure."],
             examinerNote: "C1 for (b).",
           },
@@ -327,7 +327,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'take your point' = acknowledgement; 'although I would qualify' = challenge.", working: "acknowledge+qualify", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Acknowledgement and qualified challenge",
+            finalAnswer: "**(c)** Acknowledgement and qualified challenge",
             commonErrors: ["Missing the two-part structure."],
             examinerNote: "C1 for (b).",
           },
@@ -439,7 +439,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'fair point' acknowledges; 'but' introduces the challenge.", working: "acknowledge+challenge", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Acknowledges a point before introducing disagreement",
+            finalAnswer: "**(d)** Acknowledges a point before introducing disagreement",
             commonErrors: ["Reading it as full agreement."],
             examinerNote: "C1 for (b).",
           },
@@ -567,7 +567,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — thesis = central argument early.", working: "thesis", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** State the central argument clearly and early",
+            finalAnswer: "**(a)** State the central argument clearly and early",
             commonErrors: ["Confusing thesis with topic announcement."],
             examinerNote: "C1 for (b).",
           },
@@ -684,7 +684,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — the hook engages and frames context.", working: "hook", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** To capture attention and introduce the context",
+            finalAnswer: "**(c)** To capture attention and introduce the context",
             commonErrors: ["Confusing the hook with the conclusion."],
             examinerNote: "C1 for (b).",
           },
@@ -711,7 +711,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — topic = subject; thesis = arguable position.", working: "claim", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** A topic names the subject; a thesis makes an arguable claim",
+            finalAnswer: "**(d)** A topic names the subject; a thesis makes an arguable claim",
             commonErrors: ["Treating the thesis as a topic label."],
             examinerNote: "C1 for (b).",
           },
@@ -735,7 +735,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "The hook" },
               { id: "d", text: "The thesis" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -744,7 +744,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — qualification ('it depends on...') is absent.", working: "qualification", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(c)** An explicit qualification of the claim",
+            finalAnswer: "**(b)** An explicit qualification of the claim",
             commonErrors: ["Missing that qualification is a distinct element."],
             examinerNote: "C1 for (c).",
           },
@@ -824,7 +824,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'important point' acknowledges; 'my response is' answers; 'though I would need to check' qualifies.", working: "ack-answer-qualify", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Acknowledge, answer, qualify",
+            finalAnswer: "**(c)** Acknowledge, answer, qualify",
             commonErrors: ["Missing the qualification move."],
             examinerNote: "C1 for (b).",
           },
@@ -936,7 +936,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — evidence must be explained, not just displayed.", working: "interpret", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Explain what the statistic shows and why it matters",
+            finalAnswer: "**(c)** Explain what the statistic shows and why it matters",
             commonErrors: ["Letting the slide carry the argument."],
             examinerNote: "C1 for (b).",
           },
@@ -1006,7 +1006,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — conclusion weighs benefit and cost, then gives a conditional judgement.", working: "synthesis", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** It synthesises both sides into a qualified judgement",
+            finalAnswer: "**(d)** It synthesises both sides into a qualified judgement",
             commonErrors: ["Thinking repetition equals a good conclusion."],
             examinerNote: "C1 for (b).",
           },

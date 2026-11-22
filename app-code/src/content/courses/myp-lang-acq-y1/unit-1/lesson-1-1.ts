@@ -163,7 +163,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Hi" },
               { id: "d", text: "Good morning" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -172,7 +172,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'Goodbye' ends a conversation; it is a farewell.", working: "Goodbye", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Goodbye",
+            finalAnswer: "**(b)** Goodbye",
             commonErrors: ["Choosing 'Good morning' — that is a greeting."],
             examinerNote: "A1 for (c).",
           },
@@ -199,7 +199,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — recognise 'See you later' as a friendly goodbye.", working: "See you later = goodbye until we meet", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Goodbye — we will meet again",
+            finalAnswer: "**(d)** Goodbye — we will meet again",
             commonErrors: ["Thinking it is a greeting or an instruction."],
             examinerNote: "A1 for (b).",
           },
@@ -278,7 +278,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'stand up' is the action; you must stand up.", working: "stand up", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Stand up",
+            finalAnswer: "**(c)** Stand up",
             commonErrors: ["Choosing 'sit down' — the opposite action."],
             examinerNote: "A1 for (b).",
           },
@@ -305,7 +305,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — asking for repetition is the natural repair move.", working: "Sorry, can you repeat that, please?", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Sorry, can you repeat that, please?",
+            finalAnswer: "**(c)** Sorry, can you repeat that, please?",
             commonErrors: ["Choosing an unrelated personal question."],
             examinerNote: "C1 for (b).",
           },
@@ -415,7 +415,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "door" },
               { id: "d", text: "First" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -424,7 +424,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'First' is action one; 'Then' signals action two.", working: "Then", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Then",
+            finalAnswer: "**(a)** Then",
             commonErrors: ["Choosing 'First' — that introduces the first action."],
             examinerNote: "B1 for (c).",
           },
@@ -538,7 +538,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "You must push the door" },
               { id: "d", text: "You cannot go in now" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -547,7 +547,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'CLOSED' is the opposite of 'OPEN'; you cannot enter now.", working: "CLOSED = not open", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** You cannot go in now",
+            finalAnswer: "**(d)** You cannot go in now",
             commonErrors: ["Confusing 'CLOSED' with 'OPEN'."],
             examinerNote: "B1 for (c).",
           },
@@ -656,7 +656,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'PUSH' is the instruction for opening the door.", working: "push the door", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Push the door away from you",
+            finalAnswer: "**(d)** Push the door away from you",
             commonErrors: ["Confusing PUSH with PULL."],
             examinerNote: "B1 for (b).",
           },
@@ -683,7 +683,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — the library is closed on Monday.", working: "Monday", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Monday",
+            finalAnswer: "**(d)** Monday",
             commonErrors: ["Choosing a day that is not named in the notice."],
             examinerNote: "B1 for (b).",
           },
@@ -760,7 +760,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — the crossed-out dog means dogs are not allowed.", working: "no dogs allowed", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** No dogs allowed",
+            finalAnswer: "**(d)** No dogs allowed",
             commonErrors: ["Thinking the picture invites dogs — the line means 'no'."],
             examinerNote: "B1 for (b).",
           },
@@ -778,7 +778,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "OPEN" },
               { id: "d", text: "DANGER" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -787,7 +787,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'DANGER' is the warning word.", working: "DANGER", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** DANGER",
+            finalAnswer: "**(d)** DANGER",
             commonErrors: ["Choosing OPEN/CLOSED — those give information, not warnings."],
             examinerNote: "B1 for (c).",
           },
@@ -871,7 +871,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'at 5' refers to a time, so 5 o'clock.", working: "5 o'clock", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Five o'clock",
+            finalAnswer: "**(a)** Five o'clock",
             commonErrors: ["Thinking it is money — 'at' signals a time."],
             examinerNote: "B1 for (b).",
           },
@@ -898,7 +898,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'STAFF ONLY' means only staff/workers may enter.", working: "Sign A", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sign A",
+            finalAnswer: "**(c)** Sign A",
             commonErrors: ["Choosing Sign B — 'PUSH' is about doors, not permission."],
             examinerNote: "B1 for (a).",
           },

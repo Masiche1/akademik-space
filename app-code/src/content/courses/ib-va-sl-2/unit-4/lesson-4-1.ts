@@ -70,7 +70,7 @@ export const lesson41: Lesson = {
               { reasoning: "Cross-cultural comparison identifies shared human concerns and distinct cultural solutions.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Identify shared concerns and culturally specific solutions",
+            finalAnswer: "**(c)** Identify shared concerns and culturally specific solutions",
             commonErrors: [
               "Treating comparison as ranking rather than understanding.",
             ],
@@ -177,7 +177,7 @@ export const lesson41: Lesson = {
               { reasoning: "Ceremonial fibre and beadwork reflect a culture's rituals and locally available resources.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Woven fibre and beadwork in a ceremonial garment, because the culture's rituals and available resources determine the medium",
+            finalAnswer: "**(a)** Woven fibre and beadwork in a ceremonial garment, because the culture's rituals and available resources determine the medium",
             commonErrors: [
               "Assuming one set of materials is universally superior.",
             ],
@@ -235,7 +235,7 @@ export const lesson41: Lesson = {
               { reasoning: "A hybrid form combines elements drawn from different cultural traditions.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** An artwork blending elements from multiple cultural traditions",
+            finalAnswer: "**(c)** An artwork blending elements from multiple cultural traditions",
             commonErrors: [
               "Confusing hybridity with recycling or copying.",
             ],
@@ -264,7 +264,7 @@ export const lesson41: Lesson = {
               { reasoning: "Communal ritual requires art made for public or ceremonial display.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Designed for public or ceremonial display",
+            finalAnswer: "**(c)** Designed for public or ceremonial display",
             commonErrors: [
               "Ignoring the link between social function and artistic form.",
             ],
@@ -380,7 +380,7 @@ export const lesson41: Lesson = {
               { reasoning: "Reception context is the viewing setting that conditions interpretation.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The cultural setting in which an artwork is viewed",
+            finalAnswer: "**(d)** The cultural setting in which an artwork is viewed",
             commonErrors: [
               "Confusing reception context with production context or market value.",
             ],
@@ -409,7 +409,7 @@ export const lesson41: Lesson = {
               { reasoning: "Understanding each tradition on its own terms prevents ranking by foreign standards.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Each tradition should be understood on its own terms before judgement",
+            finalAnswer: "**(d)** Each tradition should be understood on its own terms before judgement",
             commonErrors: [
               "Assuming Western conventions are universal standards.",
             ],
@@ -559,7 +559,7 @@ export const lesson41: Lesson = {
               { reasoning: "Period style is the characteristic visual language of an era or movement.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The characteristic visual language of a historical era or movement",
+            finalAnswer: "**(a)** The characteristic visual language of a historical era or movement",
             commonErrors: [
               "Confusing period style with individual artist style.",
             ],
@@ -666,7 +666,7 @@ export const lesson41: Lesson = {
               { reasoning: "Stylistic change responds to technological, philosophical, patronage and social shifts.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Changing technology, philosophy, patronage and social conditions produce new visual languages",
+            finalAnswer: "**(c)** Changing technology, philosophy, patronage and social conditions produce new visual languages",
             commonErrors: [
               "Treating stylistic change as arbitrary fashion rather than contextual response.",
             ],
@@ -695,7 +695,7 @@ export const lesson41: Lesson = {
               { reasoning: "Perspective embodies Renaissance confidence in observation and mathematical order.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** New confidence in observation and mathematical order",
+            finalAnswer: "**(c)** New confidence in observation and mathematical order",
             commonErrors: [
               "Describing perspective as a technique without linking it to its intellectual context.",
             ],
@@ -724,7 +724,7 @@ export const lesson41: Lesson = {
               { reasoning: "Subjects and concerns endure; styles, materials and patrons change.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Universal human concerns such as mortality, identity and power",
+            finalAnswer: "**(a)** Universal human concerns such as mortality, identity and power",
             commonErrors: [
               "Assuming everything about art changes, or nothing does.",
             ],
@@ -869,7 +869,7 @@ export const lesson41: Lesson = {
               { reasoning: "Period styles emerge from technological, philosophical and patronage pressures.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The combined pressures of technology, philosophy and patronage",
+            finalAnswer: "**(d)** The combined pressures of technology, philosophy and patronage",
             commonErrors: [
               "Reducing period style to individual artistic whim.",
             ],
@@ -898,7 +898,7 @@ export const lesson41: Lesson = {
               { reasoning: "Each period's conventions and purposes must be understood before evaluation.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Understanding each period's conventions and purposes before judging",
+            finalAnswer: "**(d)** Understanding each period's conventions and purposes before judging",
             commonErrors: [
               "Judging all periods by a single modern standard.",
             ],

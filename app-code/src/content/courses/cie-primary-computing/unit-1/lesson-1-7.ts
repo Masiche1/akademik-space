@@ -230,7 +230,7 @@ export const lesson17: Lesson = {
             steps: [
               { reasoning: "ELSE provides the 'otherwise' path when the IF condition fails.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Runs only when the IF condition is false",
+            finalAnswer: "**(d)** Runs only when the IF condition is false",
           },
         },
         {
@@ -315,7 +315,7 @@ export const lesson17: Lesson = {
               { reasoning: "Once a condition is true its branch runs — later checks are skipped.", marks: 1, markCode: "M" },
               { reasoning: "Specific-first prevents a broad condition 'stealing' special cases.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Broad conditions could catch special cases first",
+            finalAnswer: "**(d)** Broad conditions could catch special cases first",
           },
         },
         {
@@ -381,7 +381,7 @@ export const lesson17: Lesson = {
               { reasoning: "Conditions are Boolean: only true or false, never 'maybe'.", marks: 1, markCode: "M" },
               { reasoning: "They can compare numbers (>, <, =) and decide branches.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** A condition can only be true or false",
+            finalAnswer: "**(b)** A condition can only be true or false",
           },
         },
         {

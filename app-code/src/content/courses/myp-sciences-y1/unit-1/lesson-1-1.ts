@@ -225,7 +225,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Only (b) links a change (salty water) to an effect (less tall growth) and gives a scientific reason (roots absorb less water).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** If plants are watered with salty water, they will grow less tall, because salt reduces the water the roots can absorb.",
+            finalAnswer: "**(c)** If plants are watered with salty water, they will grow less tall, because salt reduces the water the roots can absorb.",
             commonErrors: ["Choosing a statement that is true but cannot be tested, such as 'plants need water'."],
             examinerNote: "B1 for (b).",
           },
@@ -288,7 +288,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "If the ramp is higher" },
               { id: "d", text: "because it has more energy" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -298,7 +298,7 @@ export const lesson11: Lesson = {
               { reasoning: "The reason is the part that explains why, introduced by 'because'.", marks: 1, markCode: "B" },
               { reasoning: "'Because it has more energy' explains the prediction using a science idea.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(c)** because it has more energy",
+            finalAnswer: "**(d)** because it has more energy",
             commonErrors: ["Choosing the prediction ('will roll further') as the reason.", "Choosing the change ('ramp is higher') as the reason."],
             examinerNote: "B1 for identifying the because clause. R1 for recognising it as the scientific reason.",
           },
@@ -505,7 +505,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "A measuring cylinder has a fine scale for volumes, whereas the markings on a beaker or flask are only approximate.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Measuring cylinder",
+            finalAnswer: "**(d)** Measuring cylinder",
             commonErrors: ["Choosing a beaker because it holds liquid; its scale is rough and not precise."],
             examinerNote: "B1 for measuring cylinder. Allow pipette or burette if given as an open answer.",
           },
@@ -598,7 +598,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Stopwatch" },
               { id: "d", text: "Measuring cylinder" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -607,7 +607,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Temperature is measured with a thermometer, in degrees Celsius.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Thermometer",
+            finalAnswer: "**(b)** Thermometer",
             commonErrors: ["Choosing a stopwatch, which measures time."],
             examinerNote: "B1 for thermometer.",
           },
@@ -634,7 +634,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Reading at eye level with the bottom of the meniscus gives an accurate volume.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Level with the bottom of the curved surface (meniscus)",
+            finalAnswer: "**(a)** Level with the bottom of the curved surface (meniscus)",
             commonErrors: ["Reading from above or below, which causes parallax error."],
             examinerNote: "B1 for level with the bottom of the meniscus.",
           },
@@ -661,7 +661,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Temperature is the independent variable, so it goes on the $x$-axis.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Temperature of the water",
+            finalAnswer: "**(c)** Temperature of the water",
             commonErrors: ["Choosing time, which is the dependent variable and belongs on the $y$-axis."],
             examinerNote: "B1 for temperature.",
           },
@@ -706,7 +706,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$50\\ ^\\circ\\text{C}$: 24 s" },
               { id: "d", text: "$60\\ ^\\circ\\text{C}$: 70 s" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -715,7 +715,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The time falls steadily as temperature rises until $60\\ ^\\circ\\text{C}$, where it jumps to 70 s, breaking the pattern.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $60\\ ^\\circ\\text{C}$: 70 s",
+            finalAnswer: "**(d)** $60\\ ^\\circ\\text{C}$: 70 s",
             commonErrors: ["Choosing 24 s at $50\\ ^\\circ\\text{C}$ just because it is the lowest value, but it fits the falling trend.", "Choosing 80 s at $20\\ ^\\circ\\text{C}$, the first result, which fits the pattern."],
             examinerNote: "B1 for the 70 s result at 60 degrees.",
           },
@@ -743,7 +743,7 @@ export const lesson11: Lesson = {
               { reasoning: "Day is the independent variable, so it belongs on the $x$-axis; height is the dependent variable, so it belongs on the $y$-axis.", marks: 1, markCode: "B" },
               { reasoning: "The student has them the wrong way round, so the axes must be swapped.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(b)** Swap the axes: put day on the horizontal axis and height on the vertical axis",
+            finalAnswer: "**(c)** Swap the axes: put day on the horizontal axis and height on the vertical axis",
             commonErrors: ["Thinking any axis order is acceptable."],
             examinerNote: "B1 for identifying the swap. R1 for linking to independent/dependent convention.",
           },

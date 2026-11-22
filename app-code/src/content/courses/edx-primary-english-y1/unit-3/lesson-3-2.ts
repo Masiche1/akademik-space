@@ -73,7 +73,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "c-a-t spells cat.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** cat",
+            finalAnswer: "**(b)** cat",
             commonErrors: ["Phonetic misspellings like 'kat'."],
           },
         },
@@ -244,7 +244,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "g has a descender.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** g",
+            finalAnswer: "**(c)** g",
             commonErrors: ["Choosing 'a' — it sits on the line."],
           },
         },
@@ -282,7 +282,7 @@ export const lesson32: Lesson = {
               },
               { reasoning: "Answer: readability.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** So words don't run together",
+            finalAnswer: "**(a)** So words don't run together",
             commonErrors: ["Not understanding purpose."],
           },
         },

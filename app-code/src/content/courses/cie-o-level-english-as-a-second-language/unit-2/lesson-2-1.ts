@@ -41,7 +41,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Only the main points of the text" },
             { id: "d", text: "Your personal opinions" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Summary", statement: "Main points only." }], steps: [{ reasoning: "Summaries condense to the essentials.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Only the main points of the text" },
+          markscheme: { principles: [{ kind: "definition", name: "Summary", statement: "Main points only." }], steps: [{ reasoning: "Summaries condense to the essentials.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Only the main points of the text" },
         },
         {
           id: "oles-u2-rl-q2", difficulty: "core", totalMarks: 2,
@@ -105,7 +105,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Use the main points only" },
             { id: "d", text: "Paraphrase in your own words" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "Summary rules", statement: "Main points, own words, no opinions, word limit." }], steps: [{ reasoning: "Opinions are banned; the other three are the rules.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Add your own opinion" },
+          markscheme: { principles: [{ kind: "convention", name: "Summary rules", statement: "Main points, own words, no opinions, word limit." }], steps: [{ reasoning: "Opinions are banned; the other three are the rules.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Add your own opinion" },
         },
         {
           id: "oles-u2-rl-q6", difficulty: "core", totalMarks: 2,
@@ -170,7 +170,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "It contains no personal opinions" },
             { id: "d", text: "It is very long" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Objective", statement: "Based on facts, not opinions." }], steps: [{ reasoning: "Objective = facts only, no 'I think'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** No personal opinions" },
+          markscheme: { principles: [{ kind: "definition", name: "Objective", statement: "Based on facts, not opinions." }], steps: [{ reasoning: "Objective = facts only, no 'I think'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** No personal opinions" },
         },
         {
           id: "oles-u2-rl-q12", difficulty: "core", totalMarks: 2,
@@ -190,7 +190,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Recycling cuts landfill waste and saves energy." },
             { id: "d", text: "In my opinion everyone should recycle." },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Summary content", statement: "Main points only, no opinions." }], steps: [{ reasoning: "Only (a) states the text's main points objectively.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Recycling cuts landfill waste and saves energy." },
+          markscheme: { principles: [{ kind: "skill", name: "Summary content", statement: "Main points only, no opinions." }], steps: [{ reasoning: "Only (a) states the text's main points objectively.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Recycling cuts landfill waste and saves energy." },
         },
         {
           id: "oles-u2-rl-q14", difficulty: "challenge", totalMarks: 3,
@@ -244,7 +244,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "To make shorter while keeping the meaning" },
             { id: "d", text: "To copy exactly" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Condense", statement: "Shorter, same meaning." }], steps: [{ reasoning: "Condensing keeps meaning while cutting length.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Shorter, same meaning" },
+          markscheme: { principles: [{ kind: "definition", name: "Condense", statement: "Shorter, same meaning." }], steps: [{ reasoning: "Condensing keeps meaning while cutting length.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Shorter, same meaning" },
         },
       ],
     },
@@ -275,7 +275,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Say the same idea in different words" },
             { id: "d", text: "Translate into another language" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Paraphrase", statement: "Same idea, different words." }], steps: [{ reasoning: "Paraphrase keeps meaning, changes wording.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Same idea in different words" },
+          markscheme: { principles: [{ kind: "definition", name: "Paraphrase", statement: "Same idea, different words." }], steps: [{ reasoning: "Paraphrase keeps meaning, changes wording.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Same idea in different words" },
         },
         {
           id: "oles-u2-pp-q2", difficulty: "core", totalMarks: 2,
@@ -339,7 +339,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Sports are fun for everyone" },
             { id: "d", text: "New programme sports school a introduced" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Paraphrase", statement: "Same facts, different words." }], steps: [{ reasoning: "Only (a) keeps every fact with new wording.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** A new sports programme was introduced by the school" },
+          markscheme: { principles: [{ kind: "skill", name: "Paraphrase", statement: "Same facts, different words." }], steps: [{ reasoning: "Only (a) keeps every fact with new wording.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** A new sports programme was introduced by the school" },
         },
         {
           id: "oles-u2-pp-q6", difficulty: "core", totalMarks: 1,
@@ -365,7 +365,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Changing the number 200 to 300" },
             { id: "d", text: "Reordering the clauses" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Paraphrase limits", statement: "Facts must not change." }], steps: [{ reasoning: "Changing a number alters a fact — the other three keep meaning.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Changing 200 to 300" },
+          markscheme: { principles: [{ kind: "skill", name: "Paraphrase limits", statement: "Facts must not change." }], steps: [{ reasoning: "Changing a number alters a fact — the other three keep meaning.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Changing 200 to 300" },
         },
         {
           id: "oles-u2-pp-q9", difficulty: "challenge", totalMarks: 3,
@@ -401,7 +401,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Translating loosely" },
             { id: "d", text: "Using synonyms" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Paraphrase", statement: "Same idea, different words — not translation." }], steps: [{ reasoning: "Loose translation can shift meaning; paraphrase keeps it exact.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Translating loosely" },
+          markscheme: { principles: [{ kind: "definition", name: "Paraphrase", statement: "Same idea, different words — not translation." }], steps: [{ reasoning: "Loose translation can shift meaning; paraphrase keeps it exact.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Translating loosely" },
         },
         {
           id: "oles-u2-pp-q12", difficulty: "core", totalMarks: 2,

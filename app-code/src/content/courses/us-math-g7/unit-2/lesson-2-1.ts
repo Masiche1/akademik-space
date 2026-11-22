@@ -57,7 +57,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "$6.5$" },
               { id: "d", text: "$1.5$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -66,7 +66,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Subtracting $-4$ is the same as adding $4$. Starting at $-2.5$, move $4$ units right.", working: "-2.5-(-4)=-2.5+4=1.5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $1.5$",
+            finalAnswer: "**(d)** $1.5$",
             commonErrors: ["Adding the absolute values and keeping the negative sign, giving $-6.5$.", "Subtracting $4-2.5$ and giving the wrong sign, $-1.5$."],
           },
         },
@@ -193,7 +193,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "$\\frac{2}{3}$" },
               { id: "d", text: "$\\frac{27}{32}$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -202,7 +202,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Multiply numerators and denominators, then simplify. The signs differ, so the product is negative.", working: "-\\frac{3\\times8}{4\\times9}=-\\frac{24}{36}=-\\frac{2}{3}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $-\\frac{2}{3}$",
+            finalAnswer: "**(a)** $-\\frac{2}{3}$",
             commonErrors: ["Ignoring the sign and choosing $\\frac{2}{3}$.", "Dividing instead of multiplying, giving $-\\frac{27}{32}$."],
           },
         },

@@ -41,7 +41,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "They reduce trade" },
             { id: "d", text: "They raise taxes" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Property rights", statement: "Enable investment." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Property rights", statement: "Enable investment." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u6-inst-q2", difficulty: "core", totalMarks: 2,
@@ -97,7 +97,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "All people are subject to the law with fair and predictable enforcement" },
             { id: "d", text: "Only the government is bound by laws" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Rule of law", statement: "Equal enforcement." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Rule of law", statement: "Equal enforcement." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u6-inst-q6", difficulty: "foundation", totalMarks: 3,
@@ -122,7 +122,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Nationalising land" },
             { id: "d", text: "Giving investors security that their assets will not be seized" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Property rights", statement: "Investment security." }], steps: [{ reasoning: "Correct mechanism.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Property rights", statement: "Investment security." }], steps: [{ reasoning: "Correct mechanism.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u6-inst-q8", difficulty: "core", totalMarks: 2,
@@ -203,7 +203,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Increased savings" },
             { id: "d", text: "Higher foreign investment" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Weak property rights", statement: "Investment effect." }], steps: [{ reasoning: "Investors fear losing assets, so investment falls.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Weak property rights", statement: "Investment effect." }], steps: [{ reasoning: "Investors fear losing assets, so investment falls.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u6-inst-q15", difficulty: "core", totalMarks: 1,
@@ -214,7 +214,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Providing public goods such as roads and schools" },
             { id: "d", text: "Letting markets set all prices" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Government role", statement: "Market failure correction." }], steps: [{ reasoning: "Correct example.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Government role", statement: "Market failure correction." }], steps: [{ reasoning: "Correct example.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u6-inst-q16", difficulty: "challenge", totalMarks: 9,
@@ -268,7 +268,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Only exports" },
             { id: "d", text: "Health, education and living standards" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Development", statement: "Broader than growth." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Development", statement: "Broader than growth." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u6-sum-q2", difficulty: "core", totalMarks: 2,
@@ -324,7 +324,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "The Human Development Index (HDI)" },
             { id: "d", text: "The money supply" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "HDI", statement: "Composite development measure." }], steps: [{ reasoning: "HDI combines income, health and education.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "HDI", statement: "Composite development measure." }], steps: [{ reasoning: "HDI combines income, health and education.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u6-sum-q6", difficulty: "foundation", totalMarks: 2,
@@ -347,7 +347,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Low literacy and poor health" },
             { id: "d", text: "Corruption" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Social barriers", statement: "Health, education, gender." }], steps: [{ reasoning: "Correct category.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Social barriers", statement: "Health, education, gender." }], steps: [{ reasoning: "Correct category.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u6-sum-q8", difficulty: "core", totalMarks: 2,
@@ -392,7 +392,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Gender inequality" },
             { id: "d", text: "Low literacy" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Political barriers", statement: "Governance failures." }], steps: [{ reasoning: "Correct category.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Political barriers", statement: "Governance failures." }], steps: [{ reasoning: "Correct category.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u6-sum-q12", difficulty: "challenge", totalMarks: 4,
@@ -428,7 +428,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Ignore the question asked" },
             { id: "d", text: "Avoid using examples" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Exam technique", statement: "Application and evaluation." }], steps: [{ reasoning: "Correct approach.", marks: 1, markCode: "AO3" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "skill", name: "Exam technique", statement: "Application and evaluation." }], steps: [{ reasoning: "Correct approach.", marks: 1, markCode: "AO3" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u6-sum-q15", difficulty: "core", totalMarks: 1,
@@ -439,7 +439,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Low literacy" },
             { id: "d", text: "High levels of foreign debt" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Economic barriers", statement: "Finance and resources." }], steps: [{ reasoning: "Correct category.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Economic barriers", statement: "Finance and resources." }], steps: [{ reasoning: "Correct category.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u6-sum-q16", difficulty: "challenge", totalMarks: 9,

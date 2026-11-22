@@ -148,7 +148,7 @@ export const lesson27: Lesson = {
             { id: "b", text: "2/8" },
             { id: "c", text: "2/3" },
             { id: "d", text: "1/8" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Equivalent fractions", statement: "Multiply top and bottom by same number." }],
             steps: [{ reasoning: "$\\frac{1}{4} = \\frac{2}{8}$.", marks: 1, markCode: "A" }],
@@ -262,7 +262,7 @@ export const lesson27: Lesson = {
             { id: "b", text: "1/2" },
             { id: "c", text: "0" },
             { id: "d", text: "1" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Probability", statement: "1 = certain." }],
             steps: [{ reasoning: "Certain events have probability 1.", marks: 1, markCode: "A" }],

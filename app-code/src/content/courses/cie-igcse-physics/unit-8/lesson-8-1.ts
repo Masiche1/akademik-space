@@ -141,7 +141,7 @@ export const lessonp81: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Conduction", statement: "Best in solids, especially metals." }],
             steps: [{ reasoning: "Recall conduction medium.", working: "\\text{solids/metals}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Solids, especially metals",
+            finalAnswer: "**(c)** Solids, especially metals",
             commonErrors: ["Thinking conduction occurs in vacuum."],
           },
         },
@@ -176,7 +176,7 @@ export const lessonp81: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Radiation", statement: "Dull black surfaces emit and absorb best." }],
             steps: [{ reasoning: "Recall surface properties for radiation.", working: "\\text{dull black}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Dull black",
+            finalAnswer: "**(c)** Dull black",
             commonErrors: ["Choosing a shiny surface, which reflects radiation."],
           },
         },
@@ -211,7 +211,7 @@ export const lessonp81: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Convection", statement: "Requires a fluid medium." }],
             steps: [{ reasoning: "Recall convection medium.", working: "\\text{fluids}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Liquids and gases",
+            finalAnswer: "**(c)** Liquids and gases",
             commonErrors: ["Thinking convection can occur in solids."],
           },
         },
@@ -229,7 +229,7 @@ export const lessonp81: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Water", statement: "High $c$ stores energy well." }],
             steps: [{ reasoning: "Recall water's thermal property.", working: "c = 4200\\ \\text{J/kg°C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** High specific heat capacity",
+            finalAnswer: "**(a)** High specific heat capacity",
             commonErrors: ["Confusing high specific heat with high conductivity."],
           },
         },
@@ -299,7 +299,7 @@ export const lessonp81: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Convection", statement: "Warm fluid becomes less dense and rises." }],
             steps: [{ reasoning: "Recall convection current direction.", working: "\\text{warm rises}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Rises",
+            finalAnswer: "**(c)** Rises",
             commonErrors: ["Reversing the density change."],
           },
         },
@@ -470,7 +470,7 @@ export const lessonp81: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Boyle's law", statement: "$P \\propto 1/V$ at constant $T$." }],
             steps: [{ reasoning: "Recall the constant condition.", working: "\\text{constant }T", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Temperature",
+            finalAnswer: "**(a)** Temperature",
             commonErrors: ["Thinking pressure is constant in Boyle's law."],
           },
         },
@@ -540,7 +540,7 @@ export const lessonp81: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Ideal gas law", statement: "$PV = nRT$." }],
             steps: [{ reasoning: "Recall the ideal gas equation.", working: "PV = nRT", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $PV = nRT$",
+            finalAnswer: "**(b)** $PV = nRT$",
             commonErrors: ["Rearranging incorrectly or omitting $nR$."],
           },
         },
@@ -554,11 +554,11 @@ export const lessonp81: Lesson = {
             { id: "b", text: "Increases" },
             { id: "c", text: "Decreases" },
             { id: "d", text: "Becomes zero" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "principle", name: "Gas pressure", statement: "Higher temperature increases particle speed and pressure." }],
             steps: [{ reasoning: "Recall gas behaviour with temperature.", working: "\\text{P increases}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Increases",
+            finalAnswer: "**(b)** Increases",
             commonErrors: ["Thinking pressure depends only on volume."],
           },
         },
@@ -624,11 +624,11 @@ export const lessonp81: Lesson = {
             { id: "b", text: "Stays constant" },
             { id: "c", text: "Depends only on mass" },
             { id: "d", text: "Decreases" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "law", name: "Boyle's law", statement: "$P \\propto 1/V$." }],
             steps: [{ reasoning: "Recall Boyle's law.", working: "\\text{P increases as V decreases}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Increases",
+            finalAnswer: "**(a)** Increases",
             commonErrors: ["Thinking smaller volume means lower pressure."],
           },
         },

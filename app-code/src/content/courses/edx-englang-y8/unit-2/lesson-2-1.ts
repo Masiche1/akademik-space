@@ -78,7 +78,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Purpose", statement: "Identify what the writer wants the reader to think or do." }],
             steps: [{ reasoning: "The text invites readers to join and ends with how to sign up, so it aims to persuade people to volunteer.", evidence: "every pair of hands counts", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** To persuade local people to volunteer.",
+            finalAnswer: "**(c)** To persuade local people to volunteer.",
             commonErrors: ["Choosing (d): nothing is being sold; the only thing offered is volunteering."],
           },
         },
@@ -202,7 +202,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Fact", statement: "A statement that can be checked." }],
             steps: [{ reasoning: "The number of dishes on the menu can be counted, so it is a fact.", evidence: "The menu lists twelve dishes", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** The menu lists twelve dishes. The other statements are opinions or judgements.",
+            finalAnswer: "**(c)** The menu lists twelve dishes. The other statements are opinions or judgements.",
             commonErrors: ["Choosing (d) because it sounds like a general truth, when it is a witty opinion."],
           },
         },

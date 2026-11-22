@@ -60,7 +60,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Atomic number", statement: "Z = protons = element identity." }],
             steps: [{ reasoning: "Proton number defines element.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Atomic number",
+            finalAnswer: "**(a)** Atomic number",
           },
         },
         {
@@ -170,12 +170,12 @@ export const lesson12: Lesson = {
               { id: "c", text: "All equal" },
               { id: "d", text: "Alpha" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Gamma", statement: "EM wave, no charge → least interaction." }],
             steps: [{ reasoning: "Gamma penetrates lead/concrete.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Gamma",
+            finalAnswer: "**(a)** Gamma",
           },
         },
         {

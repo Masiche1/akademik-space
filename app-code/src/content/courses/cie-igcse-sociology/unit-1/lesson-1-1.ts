@@ -459,7 +459,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Max Weber" },
               { id: "d", text: "Karl Marx" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

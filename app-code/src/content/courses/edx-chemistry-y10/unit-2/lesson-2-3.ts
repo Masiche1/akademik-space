@@ -55,7 +55,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "$\\text{Mg}_2\\text{O}$" },
               { id: "d", text: "$\\text{MgO}$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -64,7 +64,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "+2 and -2 cancel in a 1 : 1 ratio. The formula is the simplest ratio.", working: "\\text{MgO}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\text{MgO}$",
+            finalAnswer: "**(d)** $\\text{MgO}$",
             commonErrors: ["Using the numbers of charges as subscripts crossed over incorrectly.", "Choosing $\\text{Mg}_2\\text{O}_2$, which is not the simplest ratio."],
             examinerNote: "B1 for MgO.",
           },
@@ -187,7 +187,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "The attraction between oppositely charged ions" },
               { id: "d", text: "A weak force between molecules" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -196,7 +196,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Covalent bonds are formed by sharing electrons. (a) is metallic, (b) is ionic, (d) is an intermolecular force.", working: "\\text{shared pair of electrons}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)**",
+            finalAnswer: "**(b)**",
             commonErrors: ["Choosing (d) because molecules are 'covalent'. Intermolecular forces are not covalent bonds."],
             examinerNote: "B1 for (c).",
           },

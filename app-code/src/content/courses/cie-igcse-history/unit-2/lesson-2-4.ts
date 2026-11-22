@@ -387,7 +387,7 @@ export const lesson344: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** Ghana",
+            finalAnswer: "**(c)** Ghana",
           },
         },
         {
@@ -476,7 +476,7 @@ export const lesson344: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** The desire of colonised peoples for self-determination",
+              "**(d)** The desire of colonised peoples for self-determination",
           },
         },
         {
@@ -562,7 +562,7 @@ export const lesson344: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** WWII weakened European powers while nationalist movements and international pressure strengthened",
+              "**(a)** WWII weakened European powers while nationalist movements and international pressure strengthened",
           },
         },
         {
@@ -697,7 +697,7 @@ export const lesson344: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Economic control of former colonies after political independence",
+              "**(c)** Economic control of former colonies after political independence",
           },
         },
         {

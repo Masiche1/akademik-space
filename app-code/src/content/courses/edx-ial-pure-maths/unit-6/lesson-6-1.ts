@@ -62,7 +62,7 @@ export const lesson61: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Derivative", statement: "$\\frac{d}{dx}\\cosh x=\\sinh x$." }],
             steps: [{ reasoning: "Direct from exponential definition.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\sinh x$",
+            finalAnswer: "**(c)** $\\sinh x$",
           },
         },
         {
@@ -181,7 +181,7 @@ export const lesson61: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Derivative", statement: "$\\frac{d}{dx}\\text{arsinh}\\,x=\\frac{1}{\\sqrt{x^2+1}}$." }],
             steps: [{ reasoning: "Standard result.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\frac{1}{\\sqrt{x^2+1}}$",
+            finalAnswer: "**(b)** $\\frac{1}{\\sqrt{x^2+1}}$",
           },
         },
         {

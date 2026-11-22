@@ -99,7 +99,7 @@ export const lesson62: Lesson = {
                 "text": "1 m"
               }
             ],
-            "borrectChoiceId": "c"
+            "correctChoiceId": "b"
           },
           "markscheme": {
             "principles": [
@@ -116,7 +116,7 @@ export const lesson62: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(c)** A mm-graduated rule has 1 mm resolution.",
+            "finalAnswer": "**(b)** A mm-graduated rule has 1 mm resolution.",
             "commonErrors": [
               "Confusing resolution with range."
             ]
@@ -389,7 +389,7 @@ export const lesson62: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(b)** The appropriate technique is record the titre to the nearest 0.05 cm³.",
+            "finalAnswer": "**(a)** The appropriate technique is record the titre to the nearest 0.05 cm³.",
             "commonErrors": [
               "Choosing an unrelated technique."
             ]

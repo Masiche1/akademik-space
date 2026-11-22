@@ -155,7 +155,7 @@ export const lesson33: Lesson = {
                 text: "Grandma, covered in chocolate sauce, served us the ice cream.",
               },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -181,7 +181,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)**. Placing the phrase directly after 'ice cream' shows what was covered in sauce.",
+              "**(a)**. Placing the phrase directly after 'ice cream' shows what was covered in sauce.",
             commonErrors: [
               "Choosing (b), which creates a different misplaced meaning: Grandma is covered in sauce.",
             ],

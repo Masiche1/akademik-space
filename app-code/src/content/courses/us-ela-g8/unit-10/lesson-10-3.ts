@@ -113,7 +113,7 @@ export const lesson103: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Sleep matters and schedules affect students.",
+              "**(c)**. Sleep matters and schedules affect students.",
             commonErrors: [
               "Choosing (a) — Text B doesn't agree later is always better.",
             ],
@@ -316,7 +316,7 @@ export const lesson103: Lesson = {
               { id: "c", text: "Point-by-point" },
               { id: "d", text: "Thematic" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -336,7 +336,7 @@ export const lesson103: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)**. Summarizing each separately — not synthesis.",
+              "**(b)**. Summarizing each separately — not synthesis.",
             commonErrors: ["Confusing summary with synthesis."],
           },
         },

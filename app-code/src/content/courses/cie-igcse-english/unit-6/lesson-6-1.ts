@@ -46,7 +46,7 @@ export const lesson61: Lesson = {
             { id: "b", text: "The dogs bark." },
             { id: "c", text: "The dogs barks." },
             { id: "d", text: "The dog bark." },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "convention", name: "Agreement", statement: "Verb matches subject." }],
             steps: [
@@ -113,7 +113,7 @@ export const lesson61: Lesson = {
             { id: "b", text: "The cat sleeps are." },
             { id: "c", text: "The cat sleep." },
             { id: "d", text: "The cats sleep." },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "convention", name: "Agreement", statement: "Plural subject takes plural verb." }],
             steps: [
@@ -252,7 +252,7 @@ export const lesson61: Lesson = {
             { id: "b", text: "were" },
             { id: "c", text: "have been" },
             { id: "d", text: "are" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "convention", name: "Agreement", statement: "Phrases between subject and verb don't change number." }],
             steps: [

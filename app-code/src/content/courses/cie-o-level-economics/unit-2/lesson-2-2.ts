@@ -43,7 +43,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Quantity demanded equals quantity supplied" },
             { id: "d", text: "Price is highest" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Equilibrium", statement: "Qd = Qs." }], steps: [{ reasoning: "Correct condition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Equilibrium", statement: "Qd = Qs." }], steps: [{ reasoning: "Correct condition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u2-eq-q2", difficulty: "core", totalMarks: 2,
@@ -99,7 +99,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "No change in the market" },
             { id: "d", text: "Perfect equilibrium" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Below equilibrium", statement: "Excess demand." }], steps: [{ reasoning: "Low price means quantity demanded exceeds quantity supplied.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Below equilibrium", statement: "Excess demand." }], steps: [{ reasoning: "Low price means quantity demanded exceeds quantity supplied.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u2-eq-q6", difficulty: "foundation", totalMarks: 1,
@@ -110,7 +110,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Excess supply (a surplus)" },
             { id: "d", text: "A black market automatically" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Above equilibrium", statement: "Excess supply." }], steps: [{ reasoning: "High price means quantity supplied exceeds quantity demanded.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Above equilibrium", statement: "Excess supply." }], steps: [{ reasoning: "High price means quantity supplied exceeds quantity demanded.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u2-eq-q7", difficulty: "core", totalMarks: 1,
@@ -121,7 +121,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Price rises and quantity rises" },
             { id: "d", text: "Price falls and quantity rises" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Equilibrium changes", statement: "D↑, S constant." }], steps: [{ reasoning: "More demand bids up price and increases quantity traded.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Equilibrium changes", statement: "D↑, S constant." }], steps: [{ reasoning: "More demand bids up price and increases quantity traded.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u2-eq-q8", difficulty: "core", totalMarks: 1,
@@ -132,7 +132,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Price falls and quantity falls" },
             { id: "d", text: "Price falls and quantity rises" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Equilibrium changes", statement: "S↑, D constant." }], steps: [{ reasoning: "More supply lowers price and increases quantity traded.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Equilibrium changes", statement: "S↑, D constant." }], steps: [{ reasoning: "More supply lowers price and increases quantity traded.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u2-eq-q9", difficulty: "challenge", totalMarks: 1,
@@ -143,7 +143,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Price definitely rises" },
             { id: "d", text: "Quantity definitely rises; price effect is uncertain" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Joint shifts", statement: "D and S both increase." }], steps: [{ reasoning: "Quantity certainly rises; price depends on relative shift sizes.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Joint shifts", statement: "D and S both increase." }], steps: [{ reasoning: "Quantity certainly rises; price depends on relative shift sizes.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u2-eq-q10", difficulty: "foundation", totalMarks: 1,
@@ -255,7 +255,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Total revenue" },
             { id: "d", text: "Responsiveness of quantity demanded to price" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "PED", statement: "Responsiveness." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "PED", statement: "Responsiveness." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u2-ped-q2", difficulty: "core", totalMarks: 2,
@@ -311,7 +311,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Inelastic" },
             { id: "d", text: "Unit elastic" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "PED", statement: "PED < 1 = inelastic." }], steps: [{ reasoning: "PED below 1 means quantity responds weakly to price.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "PED", statement: "PED < 1 = inelastic." }], steps: [{ reasoning: "PED below 1 means quantity responds weakly to price.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u2-ped-q6", difficulty: "foundation", totalMarks: 1,
@@ -322,7 +322,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Total revenue / quantity" },
             { id: "d", text: "% change in price / % change in quantity demanded" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "PED formula", statement: "%ΔQd / %ΔP." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "PED formula", statement: "%ΔQd / %ΔP." }], steps: [{ reasoning: "Correct formula.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u2-ped-q7", difficulty: "core", totalMarks: 1,
@@ -333,7 +333,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Unit elastic" },
             { id: "d", text: "Inelastic" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Unit elasticity", statement: "PED = 1." }], steps: [{ reasoning: "Proportional response to price changes.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Unit elasticity", statement: "PED = 1." }], steps: [{ reasoning: "Proportional response to price changes.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u2-ped-q8", difficulty: "core", totalMarks: 1,
@@ -344,7 +344,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Designer handbags" },
             { id: "d", text: "A new smartphone model" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Inelastic demand", statement: "Necessities, few substitutes." }], steps: [{ reasoning: "Insulin is a necessity with no substitutes — demand barely responds to price.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Inelastic demand", statement: "Necessities, few substitutes." }], steps: [{ reasoning: "Insulin is a necessity with no substitutes — demand barely responds to price.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u2-ped-q9", difficulty: "challenge", totalMarks: 1,
@@ -355,7 +355,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "A downward sloping curve" },
             { id: "d", text: "An upward sloping curve" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Perfectly inelastic", statement: "PED = 0." }], steps: [{ reasoning: "Quantity demanded does not change at any price — vertical curve.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Perfectly inelastic", statement: "PED = 0." }], steps: [{ reasoning: "Quantity demanded does not change at any price — vertical curve.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u2-ped-q10", difficulty: "foundation", totalMarks: 1,

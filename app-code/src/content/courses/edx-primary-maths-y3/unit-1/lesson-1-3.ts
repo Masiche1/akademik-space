@@ -90,7 +90,7 @@ export const lesson13: Lesson = {
               },
             ],
             steps: [{ reasoning: "456 − 234 = 222.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 222",
+            finalAnswer: "**(b)** 222",
             commonErrors: [
               "Subtracting smaller digit from larger in each column.",
             ],
@@ -327,7 +327,7 @@ export const lesson13: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** 500",
+            finalAnswer: "**(b)** 500",
             commonErrors: ["Answering 1500 — adding instead of subtracting."],
           },
         },

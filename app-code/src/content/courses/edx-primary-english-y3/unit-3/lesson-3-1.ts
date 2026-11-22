@@ -77,7 +77,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Paragraph structure.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A group of sentences about one idea",
+            finalAnswer: "**(a)** A group of sentences about one idea",
             commonErrors: ["Confusing with sentence."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson91: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Plan the structure and facts",
+            finalAnswer: "**(c)** Plan the structure and facts",
             commonErrors: ["Skipping planning."],
           },
         },

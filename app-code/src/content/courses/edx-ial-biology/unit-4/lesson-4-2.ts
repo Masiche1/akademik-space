@@ -59,7 +59,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Light-dependent", statement: "Thylakoid membranes." }],
             steps: [{ reasoning: "Photosystems in thylakoids.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Thylakoid membranes",
+            finalAnswer: "**(d)** Thylakoid membranes",
           },
         },
         {
@@ -174,7 +174,7 @@ export const lesson42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Glycolysis", statement: "Cytoplasm." }],
             steps: [{ reasoning: "First stage in cytoplasm.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Cytoplasm",
+            finalAnswer: "**(a)** Cytoplasm",
           },
         },
         {

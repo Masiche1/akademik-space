@@ -70,7 +70,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$\\frac{80}{2}=40$°.", working: "40^{\\circ}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 40°",
+            finalAnswer: "**(b)** 40°",
             commonErrors: ["Doubling instead of halving."],
             examinerNote: "B1 for (a).",
           },
@@ -181,7 +181,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "theorem", name: "Angle in semicircle", statement: "The angle subtended by a diameter is 90°." }],
             steps: [{ reasoning: "Apply the theorem.", working: "90^{\\circ}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 90°",
+            finalAnswer: "**(c)** 90°",
           },
         },
         {
@@ -435,7 +435,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$5^2+12^2=25+144=169=13^2$.", working: "25+144=169", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Yes",
+            finalAnswer: "**(c)** Yes",
             commonErrors: ["Checking $5^2+13^2$ instead of $5^2+12^2$."],
             examinerNote: "B1 for (a).",
           },
@@ -797,7 +797,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Ordered: 3,7,8,12,15; middle (3rd) value = 8.", working: "8", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 8",
+            finalAnswer: "**(b)** 8",
             commonErrors: ["Averaging 7 and 8 instead of taking middle value."],
             examinerNote: "B1 for (a).",
           },

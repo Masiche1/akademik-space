@@ -296,7 +296,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "The norm of queueing" },
               { id: "d", text: "The value of honesty" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -708,7 +708,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "The peer group" },
               { id: "d", text: "The workplace" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

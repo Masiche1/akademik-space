@@ -275,7 +275,7 @@ export const lesson383: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Balance sheet",
+            finalAnswer: "**(c)** Balance sheet",
           },
         },
         {
@@ -396,7 +396,7 @@ export const lesson383: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** 0.8 : 1",
+            finalAnswer: "**(b)** 0.8 : 1",
           },
         },
         {
@@ -531,7 +531,7 @@ export const lesson383: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Current ratio",
+            finalAnswer: "**(c)** Current ratio",
           },
         },
         {
@@ -639,7 +639,7 @@ export const lesson383: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** all expenses, including tax",
+            finalAnswer: "**(d)** all expenses, including tax",
           },
         },
         {
@@ -728,7 +728,7 @@ export const lesson383: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** inability to pay short-term debts",
+            finalAnswer: "**(c)** inability to pay short-term debts",
           },
         },
         {

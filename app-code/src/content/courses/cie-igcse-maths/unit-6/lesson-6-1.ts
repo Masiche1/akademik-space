@@ -66,7 +66,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Recall SOH CAH TOA.", working: "\\tan=\\frac{opp}{adj}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{\\text{opposite}}{\\text{adjacent}}$",
+            finalAnswer: "**(d)** $\\frac{\\text{opposite}}{\\text{adjacent}}$",
             commonErrors: ["Confusing tan with sin or cos."],
           },
         },
@@ -192,7 +192,7 @@ export const lesson61: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Tangent", statement: "$\\tan\\theta=\\frac{\\text{opposite}}{\\text{adjacent}}$" } ],
             steps: [ { reasoning: "Use inverse tangent.", working: "\\theta=\\tan^{-1}\\left(\\frac7{24}\\right)\\approx16.3^\\circ", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $16.3^\\circ$", commonErrors: ["Using sine or cosine instead of tangent."] },
+            finalAnswer: "**(d)** $16.3^\\circ$", commonErrors: ["Using sine or cosine instead of tangent."] },
         },
         {
           id: "ciem-u6-right-trig-q9", difficulty: "core", totalMarks: 3,
@@ -227,7 +227,7 @@ export const lesson61: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Inverse tangent", statement: "$\\theta=\\tan^{-1}\\left(\\frac{\\text{opposite}}{\\text{adjacent}}\\right)$" } ],
             steps: [ { reasoning: "Apply inverse tangent.", working: "\\theta=\\tan^{-1}\\left(\\frac5{12}\\right)\\approx22.6^\\circ", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $22.6^\\circ$", commonErrors: ["Giving $\\tan^{-1}(12/5)$."] },
+            finalAnswer: "**(d)** $22.6^\\circ$", commonErrors: ["Giving $\\tan^{-1}(12/5)$."] },
         },
         {
           id: "ciem-u6-right-trig-q12", difficulty: "core", totalMarks: 3,
@@ -274,7 +274,7 @@ export const lesson61: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "formula", name: "Tangent", statement: "$\\tan\\theta=\\frac{\\text{opposite}}{\\text{adjacent}}$" } ],
             steps: [ { reasoning: "Recall SOH CAH TOA.", working: "\\tan=\\frac{opp}{adj}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(a)** $\\frac{\\text{opposite}}{\\text{adjacent}}$", commonErrors: ["Confusing tan with sin."] },
+            finalAnswer: "**(c)** $\\frac{\\text{opposite}}{\\text{adjacent}}$", commonErrors: ["Confusing tan with sin."] },
         },
         {
           id: "ciem-u6-right-trig-q16", difficulty: "challenge", totalMarks: 8,
@@ -353,7 +353,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Recall the standard table.", working: "\\cos 60^\\circ=\\frac12", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac12$",
+            finalAnswer: "**(c)** $\\frac12$",
             commonErrors: ["Confusing sin and cos values."],
           },
         },
@@ -439,7 +439,7 @@ export const lesson61: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "property", name: "Exact values", statement: "$\\sin30^\\circ=\\frac12$." } ],
             steps: [ { reasoning: "Recall the standard table.", working: "\\sin30^\\circ=\\frac12", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(a)** $\\frac12$", commonErrors: ["Confusing $\\sin30^\\circ$ with $\\cos30^\\circ$."] },
+            finalAnswer: "**(d)** $\\frac12$", commonErrors: ["Confusing $\\sin30^\\circ$ with $\\cos30^\\circ$."] },
         },
         {
           id: "ciem-u6-exact-values-q6", difficulty: "core", totalMarks: 1,
@@ -450,10 +450,10 @@ export const lesson61: Lesson = {
             { id: "c", text: "$\\frac12$" },
             { id: "d", text: "$1$" }
  ],
-            borrectChoiceId: "c" },
+            correctChoiceId: "b" },
           markscheme: { principles: [ { kind: "property", name: "Exact values", statement: "$\\cos45^\\circ=\\frac{\\sqrt2}{2}$." } ],
             steps: [ { reasoning: "Recall the standard table.", working: "\\cos45^\\circ=\\frac{\\sqrt2}{2}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(c)** $\\frac{\\sqrt2}{2}$", commonErrors: ["Using $\\frac12$ or $\\frac{\\sqrt3}{2}$."] },
+            finalAnswer: "**(b)** $\\frac{\\sqrt2}{2}$", commonErrors: ["Using $\\frac12$ or $\\frac{\\sqrt3}{2}$."] },
         },
         {
           id: "ciem-u6-exact-values-q7", difficulty: "core", totalMarks: 2,
@@ -477,7 +477,7 @@ export const lesson61: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "property", name: "Exact values", statement: "$\\sin60^\\circ=\\cos30^\\circ=\\frac{\\sqrt3}{2}$." } ],
             steps: [ { reasoning: "Add the two equal values.", working: "\\frac{\\sqrt3}{2}+\\frac{\\sqrt3}{2}=\\sqrt3", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $\\sqrt3$", commonErrors: ["Doubling incorrectly to $\\frac{\\sqrt3}{2}$."] },
+            finalAnswer: "**(d)** $\\sqrt3$", commonErrors: ["Doubling incorrectly to $\\frac{\\sqrt3}{2}$."] },
         },
         {
           id: "ciem-u6-exact-values-q9", difficulty: "core", totalMarks: 3,
@@ -509,10 +509,10 @@ export const lesson61: Lesson = {
             { id: "c", text: "$1$" },
             { id: "d", text: "$\\sqrt3$" }
  ],
-            aorrectChoiceId: "c" },
+            correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "property", name: "Exact values", statement: "$\\tan45^\\circ=1$, $\\sin60^\\circ=\\frac{\\sqrt3}{2}$." } ],
             steps: [ { reasoning: "Add the exact values.", working: "1+\\frac{\\sqrt3}{2}", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(c)** $1+\\frac{\\sqrt3}{2}$", commonErrors: ["Treating $\\tan45^\\circ$ as $0$."] },
+            finalAnswer: "**(a)** $1+\\frac{\\sqrt3}{2}$", commonErrors: ["Treating $\\tan45^\\circ$ as $0$."] },
         },
         {
           id: "ciem-u6-exact-values-q12", difficulty: "core", totalMarks: 3,
@@ -559,7 +559,7 @@ export const lesson61: Lesson = {
             correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "property", name: "Exact values", statement: "$\\tan30^\\circ=\\frac{1}{\\sqrt3}$." } ],
             steps: [ { reasoning: "Recall the standard table.", working: "\\tan30^\\circ=\\frac{1}{\\sqrt3}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** $\\frac{1}{\\sqrt3}$", commonErrors: ["Confusing with $\\tan60^\\circ=\\sqrt3$."] },
+            finalAnswer: "**(a)** $\\frac{1}{\\sqrt3}$", commonErrors: ["Confusing with $\\tan60^\\circ=\\sqrt3$."] },
         },
         {
           id: "ciem-u6-exact-values-q16", difficulty: "challenge", totalMarks: 8,

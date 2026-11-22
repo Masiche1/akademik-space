@@ -478,7 +478,7 @@ export const lesson43: Lesson = {
                 text: "Making vague generalisations with no place or data",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -62,7 +62,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Oxygen" },
               { id: "d", text: "Sea water" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -71,7 +71,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Carbon dioxide, $\\text{CO}_2$, contains carbon and oxygen chemically joined.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Carbon dioxide",
+            finalAnswer: "**(b)** Carbon dioxide",
             commonErrors: ["Choosing air, which is a mixture of gases.", "Choosing oxygen, which is an element."],
             examinerNote: "B1 for carbon dioxide.",
           },
@@ -262,7 +262,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Burning paper" },
               { id: "d", text: "Cooking an egg" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -271,7 +271,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Dissolving salt is physical: the salt can be recovered by evaporating the water, and no new substance forms.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Dissolving salt in water",
+            finalAnswer: "**(b)** Dissolving salt in water",
             commonErrors: ["Choosing melting or boiling-type changes incorrectly; burning, rusting and cooking form new substances."],
             examinerNote: "B1 for dissolving. Accept 'melting ice' if offered.",
           },
@@ -498,7 +498,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Sand is insoluble, so it is trapped by the filter paper while the water passes through.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Filtration",
+            finalAnswer: "**(b)** Filtration",
             commonErrors: ["Choosing distillation, which is used to separate a liquid from a solution."],
             examinerNote: "B1 for filtration.",
           },
@@ -599,7 +599,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Heating the solution evaporates the water, leaving the dissolved solid.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Evaporation",
+            finalAnswer: "**(c)** Evaporation",
             commonErrors: ["Choosing filtration, which only works for an insoluble solid."],
             examinerNote: "B1 for evaporation (accept crystallisation).",
           },
@@ -617,7 +617,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Precipitate only" },
               { id: "d", text: "Distillate" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -626,7 +626,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The solid trapped on the filter paper is called the residue.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Residue",
+            finalAnswer: "**(b)** Residue",
             commonErrors: ["Choosing filtrate, which is the liquid that passes through."],
             examinerNote: "B1 for residue.",
           },
@@ -653,7 +653,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The $R_f$ value compares how far the substance travelled with how far the solvent travelled.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The ratio of the distance moved by the substance to the distance moved by the solvent",
+            finalAnswer: "**(a)** The ratio of the distance moved by the substance to the distance moved by the solvent",
             commonErrors: ["Choosing the mass or colour of the substance."],
             examinerNote: "B1 for (b).",
           },

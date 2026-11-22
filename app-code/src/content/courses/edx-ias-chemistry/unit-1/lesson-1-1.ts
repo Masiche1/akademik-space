@@ -57,7 +57,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Mass number", statement: "A = protons + neutrons." }],
             steps: [{ reasoning: "6+6 = 12 (carbon-12).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 12",
+            finalAnswer: "**(a)** 12",
           },
         },
         {

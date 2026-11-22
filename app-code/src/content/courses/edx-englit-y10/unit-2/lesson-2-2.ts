@@ -64,7 +64,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Collective responsibility", statement: "Priestley's socialist belief that people are linked and accountable to each other." }],
             steps: [{ reasoning: "The Inspector's message is that all are responsible for one another.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** The play argues for shared, collective responsibility.",
+            finalAnswer: "**(d)** The play argues for shared, collective responsibility.",
             commonErrors: ["Choosing (a), which is Mr Birling's view that the play rejects."],
           },
         },
@@ -194,7 +194,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Time gap", statement: "The gap between setting and writing allows dramatic irony." }],
             steps: [{ reasoning: "Written in 1945, set in 1912.", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(b)** Written in 1945 but set in 1912.",
+            finalAnswer: "**(a)** Written in 1945 but set in 1912.",
             commonErrors: ["Reversing the dates."],
           },
         },

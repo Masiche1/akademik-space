@@ -94,7 +94,7 @@ export const lesson511: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Amylase",
+            finalAnswer: "**(d)** Amylase",
             commonErrors: ["Confusing with protease/lipase."],
           },
         },
@@ -272,7 +272,7 @@ export const lesson511: Lesson = {
             steps: [
               { reasoning: "Small intestine is the main site of digestion and absorption.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Small intestine",
+            finalAnswer: "**(c)** Small intestine",
             commonErrors: ["Choosing the stomach, which mainly digests protein."],
           },
         },
@@ -298,7 +298,7 @@ export const lesson511: Lesson = {
             steps: [
               { reasoning: "Bile is produced by the liver and stored in the gall bladder.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Produced by the liver, stored in the gall bladder",
+            finalAnswer: "**(d)** Produced by the liver, stored in the gall bladder",
             commonErrors: ["Calling bile an enzyme or saying the pancreas makes it."],
           },
         },
@@ -402,7 +402,7 @@ export const lesson511: Lesson = {
             steps: [
               { reasoning: "Water absorption is the main role of the large intestine.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Absorption of most of the remaining water",
+            finalAnswer: "**(c)** Absorption of most of the remaining water",
             commonErrors: ["Confusing water absorption with nutrient absorption in the small intestine."],
           },
         },
@@ -581,7 +581,7 @@ export const lesson511: Lesson = {
             steps: [
               { reasoning: "Lipid = 9 kcal/g.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Lipid",
+            finalAnswer: "**(d)** Lipid",
             commonErrors: ["Thinking carbs provide most energy."],
           },
         },
@@ -746,7 +746,7 @@ export const lesson511: Lesson = {
             steps: [
               { reasoning: "Protein is used for growth and repair.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Protein",
+            finalAnswer: "**(d)** Protein",
             commonErrors: ["Choosing carbohydrate, which mainly provides energy."],
           },
         },
@@ -816,7 +816,7 @@ export const lesson511: Lesson = {
             steps: [
               { reasoning: "Vitamin D deficiency causes rickets.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Vitamin D",
+            finalAnswer: "**(d)** Vitamin D",
             commonErrors: ["Confusing rickets with scurvy or anaemia."],
           },
         },
@@ -936,7 +936,7 @@ export const lesson511: Lesson = {
             steps: [
               { reasoning: "Iron is needed for haemoglobin.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Iron",
+            finalAnswer: "**(a)** Iron",
             commonErrors: ["Choosing calcium, which is for bones."],
           },
         },

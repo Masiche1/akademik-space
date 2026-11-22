@@ -51,7 +51,7 @@ export const lesson215: Lesson = {
             { id: "b", text: "Freezing" },
             { id: "c", text: "Melting" },
             { id: "d", text: "Evaporation" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Evaporation", statement: "Liquid → gas." }],
             steps: [{ reasoning: "Liquid to gas = evaporation.", marks: 1, markCode: "A" }],
@@ -229,7 +229,7 @@ export const lesson215: Lesson = {
             { id: "b", text: "100°C" },
             { id: "c", text: "0°C" },
             { id: "d", text: "50°C" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Boiling point", statement: "Water boils at 100°C." }],
             steps: [{ reasoning: "Water boils at 100°C.", marks: 1, markCode: "A" }],

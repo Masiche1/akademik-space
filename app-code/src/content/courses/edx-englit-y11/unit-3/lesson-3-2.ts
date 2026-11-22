@@ -64,7 +64,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Thesis", statement: "A thesis takes an arguable position and previews the line of argument." }],
             steps: [{ reasoning: "Option (a) gives a position, a method and a purpose.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** It makes an arguable claim with method and purpose.",
+            finalAnswer: "**(d)** It makes an arguable claim with method and purpose.",
             commonErrors: ["Choosing (d), which only describes the plot."],
           },
         },
@@ -197,7 +197,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Tentative language", statement: "Open, exploratory phrasing allows for more than one reading." }],
             steps: [{ reasoning: "'Alternatively' and 'could suggest' signal another possibility.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** 'Alternatively, this could suggest...'",
+            finalAnswer: "**(d)** 'Alternatively, this could suggest...'",
             commonErrors: ["Choosing absolute phrases that close down discussion."],
           },
         },

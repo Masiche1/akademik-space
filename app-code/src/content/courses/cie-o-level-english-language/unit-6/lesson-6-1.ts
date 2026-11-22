@@ -65,7 +65,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Thesis = main argument.", working: "main argument", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Main argument",
+            finalAnswer: "**(c)** Main argument",
             commonErrors: ["Choosing (c) — that's question."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson61: Lesson = {
         steps: [
           { reasoning: "Thesis = main argument in intro.", working: "thesis", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** The main argument stated in the introduction",
+        finalAnswer: "**(b)** The main argument stated in the introduction",
         commonErrors: ["Confusing thesis with conclusion."],
       },
     },
@@ -222,7 +222,7 @@ export const lesson61: Lesson = {
         steps: [
           { reasoning: "Counterarguments show balance and strength.", working: "balance", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** It shows balance and strengthens your position",
+        finalAnswer: "**(c)** It shows balance and strengthens your position",
         commonErrors: ["Thinking counterarguments weaken the essay."],
       },
     },
@@ -274,7 +274,7 @@ export const lesson61: Lesson = {
         steps: [
           { reasoning: "Conclusion summarises and restates.", working: "summarise", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Summarise points and restate thesis",
+        finalAnswer: "**(b)** Summarise points and restate thesis",
         commonErrors: ["Adding new ideas in conclusion."],
       },
     },
@@ -612,7 +612,7 @@ export const lesson61: Lesson = {
         steps: [
           { reasoning: "Rhetorical question = effect, not answer.", working: "rhetorical", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** A question asked for effect, not expecting an answer",
+        finalAnswer: "**(b)** A question asked for effect, not expecting an answer",
         commonErrors: ["Thinking it needs an answer."],
       },
     },
@@ -638,7 +638,7 @@ export const lesson61: Lesson = {
         steps: [
           { reasoning: "Emotive language targets emotions.", working: "emotive", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Emotive language",
+        finalAnswer: "**(d)** Emotive language",
         commonErrors: ["Confusing emotive with logical appeal."],
       },
     },
@@ -690,7 +690,7 @@ export const lesson61: Lesson = {
         steps: [
           { reasoning: "Formal tone suits argumentative essays.", working: "formal", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Formal and measured",
+        finalAnswer: "**(c)** Formal and measured",
         commonErrors: ["Using slang or shouting."],
       },
     },
@@ -949,7 +949,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Debatable = arguable.", working: "debatable", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Debatable issue",
+            finalAnswer: "**(b)** Debatable issue",
             commonErrors: ["Choosing (b) — can't argue facts."],
           },
         },
@@ -1080,7 +1080,7 @@ export const lesson61: Lesson = {
         steps: [
           { reasoning: "Each point needs topic sentence + evidence + explanation.", working: "point", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Topic sentence, evidence, explanation",
+        finalAnswer: "**(b)** Topic sentence, evidence, explanation",
         commonErrors: ["Making claims without support."],
       },
     },
@@ -1106,7 +1106,7 @@ export const lesson61: Lesson = {
         steps: [
           { reasoning: "Strong conclusion summarises and restates.", working: "strong", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Summarises points, restates thesis, final compelling thought",
+        finalAnswer: "**(d)** Summarises points, restates thesis, final compelling thought",
         commonErrors: ["Weak or missing conclusion."],
       },
     },
@@ -1132,7 +1132,7 @@ export const lesson61: Lesson = {
         steps: [
           { reasoning: "Homework abolition is debatable.", working: "debatable", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Should homework be abolished?",
+        finalAnswer: "**(c)** Should homework be abolished?",
         commonErrors: ["Choosing factual questions."],
       },
     },
@@ -1390,7 +1390,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Thesis + evidence = strong.", working: "thesis+evidence", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Clear thesis and evidence",
+            finalAnswer: "**(c)** Clear thesis and evidence",
             commonErrors: ["Choosing (b) — emotion alone isn't enough."],
           },
         },
@@ -1495,7 +1495,7 @@ export const lesson61: Lesson = {
         steps: [
           { reasoning: "Strong = clear thesis + evidence.", working: "strong", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Clear thesis and sufficient evidence",
+        finalAnswer: "**(d)** Clear thesis and sufficient evidence",
         commonErrors: ["Thinking emotion alone makes strong."],
       },
     },
@@ -1521,7 +1521,7 @@ export const lesson61: Lesson = {
         steps: [
           { reasoning: "Vague claims are a weakness.", working: "vague", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Vague claims without evidence",
+        finalAnswer: "**(c)** Vague claims without evidence",
         commonErrors: ["Thinking clear thesis is a weakness."],
       },
     },
@@ -1573,7 +1573,7 @@ export const lesson61: Lesson = {
         steps: [
           { reasoning: "Improve by strengthening evidence.", working: "evidence", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Strengthen evidence and address weaknesses",
+        finalAnswer: "**(c)** Strengthen evidence and address weaknesses",
         commonErrors: ["Adding opinions instead of evidence."],
       },
     },
@@ -1599,7 +1599,7 @@ export const lesson61: Lesson = {
         steps: [
           { reasoning: "Evaluate strengths and weaknesses.", working: "strengths", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Strengths and weaknesses",
+        finalAnswer: "**(d)** Strengths and weaknesses",
         commonErrors: ["Evaluating only one aspect."],
       },
     },

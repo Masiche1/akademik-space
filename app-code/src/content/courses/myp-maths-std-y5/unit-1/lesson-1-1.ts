@@ -70,7 +70,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$\\sqrt{45}=\\sqrt{9}\\times\\sqrt{5}=3\\sqrt{5}$.", working: "3\\sqrt{5}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3\\sqrt{5}$",
+            finalAnswer: "**(b)** $3\\sqrt{5}$",
             commonErrors: ["Extracting 5 instead of 9."],
             examinerNote: "B1 for (a).",
           },
@@ -181,7 +181,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Surd simplification", statement: "Extract the largest square factor: $\\sqrt{200}=\\sqrt{100\\times2}=10\\sqrt{2}$." }],
             steps: [{ reasoning: "$\\sqrt{200}=10\\sqrt{2}$.", working: "10\\sqrt{2}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $10\\sqrt{2}$",
+            finalAnswer: "**(d)** $10\\sqrt{2}$",
           },
         },
         {
@@ -347,7 +347,7 @@ export const lesson11: Lesson = {
               { reasoning: "$\\frac{2(\\sqrt{5}-1)}{4}=\\frac{\\sqrt{5}-1}{2}$.", working: "\\frac{\\sqrt{5}-1}{2}", marks: 1, markCode: "M" },
               { reasoning: "Select the matching option.", working: "a", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $\\frac{\\sqrt{5}-1}{2}$",
+            finalAnswer: "**(b)** $\\frac{\\sqrt{5}-1}{2}$",
           },
         },
         {
@@ -552,7 +552,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Fractional index", statement: "$a^{\\frac{m}{n}}=(\\sqrt[n]{a})^m$; $16^{\\frac{3}{4}}=(\\sqrt[4]{16})^3=2^3=8$." }],
             steps: [{ reasoning: "Fourth root of 16 is 2; cube gives 8.", working: "8", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 8",
+            finalAnswer: "**(b)** 8",
           },
         },
         {

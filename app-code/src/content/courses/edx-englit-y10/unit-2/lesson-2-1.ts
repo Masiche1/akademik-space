@@ -65,7 +65,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Dramatic irony", statement: "The audience knows the truth that a character does not, so the character's confidence seems foolish." }],
             steps: [{ reasoning: "The audience in 1945 has lived through two world wars, so Birling's predictions are shown to be wrong.", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** Historical hindsight makes his predictions ironic and discredits him.",
+            finalAnswer: "**(d)** Historical hindsight makes his predictions ironic and discredits him.",
             commonErrors: ["Missing that the irony depends on the later audience's knowledge.", "Assuming that Birling is proved right (b)."],
           },
         },
@@ -199,7 +199,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Mouthpiece", statement: "A character through whom the playwright expresses their views." }],
             steps: [{ reasoning: "The Inspector's final speech states Priestley's message.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** He is the playwright's voice.",
+            finalAnswer: "**(d)** He is the playwright's voice.",
             commonErrors: ["Taking 'mouthpiece' literally as loudness (b)."],
           },
         },

@@ -56,7 +56,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Because it was raining" },
               { id: "d", text: "The cat slept on the mat." },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -65,7 +65,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "'The cat slept on the mat' has a who (cat) and what happens (slept) — complete.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** The cat slept on the mat.",
+            finalAnswer: "**(d)** The cat slept on the mat.",
             commonErrors: ["Choosing (b) — 'the big red ball' is a noun phrase, not a complete thought."],
           },
         },
@@ -157,7 +157,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Sentences always begin with a capital letter.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A capital letter",
+            finalAnswer: "**(d)** A capital letter",
             commonErrors: ["Choosing (a) — small letters never start a sentence."],
           },
         },
@@ -202,7 +202,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "London is a place name and needs a capital; the other words are ordinary words.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** london",
+            finalAnswer: "**(a)** london",
             commonErrors: ["Choosing 'dog' — ordinary nouns do not need capitals."],
           },
         },
@@ -284,7 +284,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "(b) has capital M for the start, capital R for the name Rex, and a full stop.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** My dog Rex likes to play.",
+            finalAnswer: "**(c)** My dog Rex likes to play.",
             commonErrors: ["Choosing (d) — 'my' at the start needs a capital too."],
           },
         },
@@ -374,7 +374,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "'Running through the field' is incomplete — it does not say who is running.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Running through the field",
+            finalAnswer: "**(c)** Running through the field",
             commonErrors: ["Choosing a short sentence — short can still be complete; incomplete ideas are the problem."],
           },
         },
@@ -446,7 +446,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Exclamation mark only (!)" },
               { id: "d", text: "Full stop (.)" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -456,7 +456,7 @@ export const lesson31: Lesson = {
               { reasoning: "Questions end with (?).",
                 marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Question mark (?)",
+            finalAnswer: "**(a)** Question mark (?)",
             commonErrors: ["Choosing full stop — that ends telling sentences, not questions."],
           },
         },
@@ -548,7 +548,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Commas separate list items like 'apples, bananas and grapes'.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Separate items in a list",
+            finalAnswer: "**(a)** Separate items in a list",
             commonErrors: ["Choosing (a) — full stops end sentences; commas do not."],
           },
         },
@@ -676,7 +676,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "'Fluffy' describes a noun; the others are a verb, adverb or article.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Fluffy",
+            finalAnswer: "**(c)** Fluffy",
             commonErrors: ["Choosing 'quickly' — that describes how something happens (an adverb), not a noun."],
           },
         },
@@ -740,7 +740,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The comma after 'lunch' marks the pause between the opening phrase and the main sentence.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** After lunch, we played outside.",
+            finalAnswer: "**(d)** After lunch, we played outside.",
             commonErrors: ["Choosing (d) — the comma splits 'played outside' wrongly."],
           },
         },
@@ -757,7 +757,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "I like apples, bananas, and grapes." },
               { id: "d", text: "I like, apples bananas and grapes." },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -766,7 +766,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "(d) correctly separates apples / bananas / grapes with two commas; (b) adds an unnecessary comma before 'and'.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** I like apples, bananas and grapes.",
+            finalAnswer: "**(b)** I like apples, bananas and grapes.",
             commonErrors: ["Choosing (b) — the comma before 'and' is not needed in a short list."],
           },
         },

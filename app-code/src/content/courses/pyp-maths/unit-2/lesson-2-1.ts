@@ -84,7 +84,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Sphere" },
               { id: "d", text: "Cylinder" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -94,7 +94,7 @@ export const lesson21: Lesson = {
               { reasoning: "$6$ flat faces with rectangular sides = cuboid.", marks: 1, markCode: "M" },
               { reasoning: "A cube also has $6$ faces but they are all squares; a chocolate bar's faces are rectangles.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Cuboid",
+            finalAnswer: "**(b)** Cuboid",
             commonErrors: ["Choosing 'cube' — a cube's faces are all squares; a bar has rectangles."],
           },
         },
@@ -169,7 +169,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "A square has $4$ sides.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $4$",
+            finalAnswer: "**(c)** $4$",
             commonErrors: ["Choosing $3$ — that is a triangle."],
           },
         },
@@ -203,7 +203,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "$4$" },
               { id: "d", text: "$1$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -212,7 +212,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "A circle has no straight sides — it is one continuous curve.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $0$",
+            finalAnswer: "**(a)** $0$",
             commonErrors: ["Choosing $1$ — a curve is not a straight side."],
           },
         },
@@ -229,7 +229,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Cylinder" },
               { id: "d", text: "Cuboid" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -238,7 +238,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "A ball is a sphere — all curved surface, no faces or edges.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Sphere",
+            finalAnswer: "**(b)** Sphere",
             commonErrors: ["Choosing 'cube' — a cube has flat square faces, not a round surface."],
           },
         },
@@ -265,7 +265,7 @@ export const lesson21: Lesson = {
               { reasoning: "A triangle has $3$ sides meeting at $3$ corners.", marks: 1, markCode: "M" },
               { reasoning: "Answer: $3$ vertices.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $3$",
+            finalAnswer: "**(b)** $3$",
             commonErrors: ["Choosing $0$ — that is a circle, which has no corners."],
           },
         },
@@ -292,7 +292,7 @@ export const lesson21: Lesson = {
               { reasoning: "The top and bottom are flat circles; the side is curved, not flat.", marks: 1, markCode: "M" },
               { reasoning: "Answer: $2$ flat faces.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $2$",
+            finalAnswer: "**(c)** $2$",
             commonErrors: ["Choosing $3$ — counting the curved side as a flat face."],
           },
         },
@@ -376,7 +376,7 @@ export const lesson21: Lesson = {
               { reasoning: "Check: can you hold a triangle? No — it is flat. Can you hold a cube? Yes.", marks: 1, markCode: "M" },
               { reasoning: "Answer: split as in (a).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** 2D: triangle, circle, square; 3D: cube, sphere, cylinder",
+            finalAnswer: "**(d)** 2D: triangle, circle, square; 3D: cube, sphere, cylinder",
             commonErrors: ["Putting the circle in 3D — it is flat like other 2D shapes."],
           },
         },
@@ -467,7 +467,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Inside" },
               { id: "d", text: "Under" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -476,7 +476,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "On top of = on.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** On",
+            finalAnswer: "**(b)** On",
             commonErrors: ["Choosing 'above' — 'on' means touching the surface; 'above' means higher but not touching."],
           },
         },
@@ -578,7 +578,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Underneath = under.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Under",
+            finalAnswer: "**(d)** Under",
             commonErrors: ["Choosing 'behind' — under means below, behind means at the back."],
           },
         },
@@ -612,7 +612,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "East" },
               { id: "d", text: "West" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -622,7 +622,7 @@ export const lesson21: Lesson = {
               { reasoning: "Clockwise order is north → east → south → west. From south, a quarter turn clockwise faces west.", marks: 1, markCode: "M" },
               { reasoning: "Answer: west.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** West",
+            finalAnswer: "**(d)** West",
             commonErrors: ["Choosing east — that is anticlockwise from south."],
           },
         },
@@ -673,7 +673,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "On" },
               { id: "d", text: "Under" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -683,7 +683,7 @@ export const lesson21: Lesson = {
               { reasoning: "Between the book and the ruler = in the middle of the two.", marks: 1, markCode: "M" },
               { reasoning: "Answer: between.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Between",
+            finalAnswer: "**(a)** Between",
             commonErrors: ["Choosing 'inside' — the case is not inside either object."],
           },
         },
@@ -767,7 +767,7 @@ export const lesson21: Lesson = {
               { reasoning: "North to east is one quarter turn clockwise.", marks: 1, markCode: "M" },
               { reasoning: "Answer: quarter turn clockwise.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** A quarter turn clockwise",
+            finalAnswer: "**(b)** A quarter turn clockwise",
             commonErrors: ["Choosing (c) — anticlockwise from north faces west."],
           },
         },

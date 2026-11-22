@@ -42,7 +42,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "A licence type" },
             { id: "d", text: "A backup method" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Piracy", statement: "Illegal copying." }], steps: [{ reasoning: "Piracy = illegal copying.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Illegal copying" },
+          markscheme: { principles: [{ kind: "definition", name: "Piracy", statement: "Illegal copying." }], steps: [{ reasoning: "Piracy = illegal copying.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Illegal copying" },
         },
         {
           id: "olict-u5-lic-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "A computer part" },
             { id: "d", text: "A type of virus" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Licence", statement: "Legal agreement." }], steps: [{ reasoning: "Licence = legal agreement for use.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Legal agreement" },
+          markscheme: { principles: [{ kind: "definition", name: "Licence", statement: "Legal agreement." }], steps: [{ reasoning: "Licence = legal agreement for use.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Legal agreement" },
         },
         {
           id: "olict-u5-lic-q6", difficulty: "foundation", totalMarks: 2,
@@ -118,7 +118,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Malware" },
             { id: "d", text: "Free to try for a limited period or with limited features" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Shareware", statement: "Limited trial." }], steps: [{ reasoning: "Shareware = limited free trial.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Limited free trial" },
+          markscheme: { principles: [{ kind: "definition", name: "Shareware", statement: "Limited trial." }], steps: [{ reasoning: "Shareware = limited free trial.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Limited free trial" },
         },
         {
           id: "olict-u5-lic-q8", difficulty: "foundation", totalMarks: 1,
@@ -129,7 +129,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "No licence needed" },
             { id: "d", text: "Site licence" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Single-user licence", statement: "One machine." }], steps: [{ reasoning: "Single-user covers one computer.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Single-user licence" },
+          markscheme: { principles: [{ kind: "definition", name: "Single-user licence", statement: "One machine." }], steps: [{ reasoning: "Single-user covers one computer.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Single-user licence" },
         },
         {
           id: "olict-u5-lic-q9", difficulty: "core", totalMarks: 2,
@@ -160,7 +160,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Legal use" },
             { id: "d", text: "A site licence" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Piracy", statement: "Illegal copying." }], steps: [{ reasoning: "Exceeding licence terms is piracy.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Software piracy" },
+          markscheme: { principles: [{ kind: "definition", name: "Piracy", statement: "Illegal copying." }], steps: [{ reasoning: "Exceeding licence terms is piracy.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Software piracy" },
         },
         {
           id: "olict-u5-lic-q12", difficulty: "core", totalMarks: 2,
@@ -191,7 +191,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "No copying ever" },
             { id: "d", text: "Free use, viewing and modification" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Open-source licence", statement: "Free use." }], steps: [{ reasoning: "Open source = free use/modification.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Free use and modification" },
+          markscheme: { principles: [{ kind: "definition", name: "Open-source licence", statement: "Free use." }], steps: [{ reasoning: "Open source = free use/modification.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Free use and modification" },
         },
         {
           id: "olict-u5-lic-q15", difficulty: "core", totalMarks: 2,
@@ -241,7 +241,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "A virus" },
             { id: "d", text: "A type of licence" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Patch", statement: "Fixes flaws." }], steps: [{ reasoning: "Patch fixes bugs.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Fixes flaws" },
+          markscheme: { principles: [{ kind: "definition", name: "Patch", statement: "Fixes flaws." }], steps: [{ reasoning: "Patch fixes bugs.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Fixes flaws" },
         },
         {
           id: "olict-u5-vr-q2", difficulty: "core", totalMarks: 2,
@@ -296,7 +296,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Removes all features" },
             { id: "d", text: "Only fixes one bug" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Major version", statement: "New features." }], steps: [{ reasoning: "Major versions add features.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Adds features" },
+          markscheme: { principles: [{ kind: "definition", name: "Major version", statement: "New features." }], steps: [{ reasoning: "Major versions add features.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Adds features" },
         },
         {
           id: "olict-u5-vr-q6", difficulty: "core", totalMarks: 2,
@@ -316,7 +316,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Slow down the computer" },
             { id: "d", text: "Fix a known security vulnerability" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Security patch", statement: "Fixes vulnerability." }], steps: [{ reasoning: "Security patches close flaws.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Fixes vulnerability" },
+          markscheme: { principles: [{ kind: "definition", name: "Security patch", statement: "Fixes vulnerability." }], steps: [{ reasoning: "Security patches close flaws.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Fixes vulnerability" },
         },
         {
           id: "olict-u5-vr-q8", difficulty: "foundation", totalMarks: 1,
@@ -327,7 +327,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Remove the licence" },
             { id: "d", text: "Fix security flaws and bugs" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Updates", statement: "Security + fixes." }], steps: [{ reasoning: "Updates fix flaws and bugs.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Fix flaws and bugs" },
+          markscheme: { principles: [{ kind: "principle", name: "Updates", statement: "Security + fixes." }], steps: [{ reasoning: "Updates fix flaws and bugs.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Fix flaws and bugs" },
         },
         {
           id: "olict-u5-vr-q9", difficulty: "core", totalMarks: 2,
@@ -358,7 +358,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Costs a fortune" },
             { id: "d", text: "Changes the whole interface" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Minor update", statement: "Bug fixes." }], steps: [{ reasoning: "Minor updates fix bugs.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Fixes bugs" },
+          markscheme: { principles: [{ kind: "definition", name: "Minor update", statement: "Bug fixes." }], steps: [{ reasoning: "Minor updates fix bugs.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Fixes bugs" },
         },
         {
           id: "olict-u5-vr-q12", difficulty: "foundation", totalMarks: 2,
@@ -389,7 +389,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "The colour of the box" },
             { id: "d", text: "Whether it is on sale" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Upgrading", statement: "Check compatibility." }], steps: [{ reasoning: "Compatibility must be checked first.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Hardware and file compatibility" },
+          markscheme: { principles: [{ kind: "principle", name: "Upgrading", statement: "Check compatibility." }], steps: [{ reasoning: "Compatibility must be checked first.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Hardware and file compatibility" },
         },
         {
           id: "olict-u5-vr-q15", difficulty: "core", totalMarks: 2,

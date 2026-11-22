@@ -170,12 +170,12 @@ export const lesson12: Lesson = {
               { id: "c", text: "Beta" },
               { id: "d", text: "Alpha" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Gamma", statement: "EM wave, no charge → least interaction." }],
             steps: [{ reasoning: "Gamma penetrates lead/concrete.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Gamma",
+            finalAnswer: "**(a)** Gamma",
           },
         },
         {

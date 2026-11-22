@@ -13,6 +13,12 @@ const WRITING: TextExtract = {
   text: "Write an argument about whether social media companies should face regulatory oversight of their engagement-optimizing algorithms. Use evidence from research, address counterarguments, and write with precision and nuance.",
 };
 
+const EXAM: TextExtract = {
+  title: "Exam Preparation Guide",
+  author: "Written for Akademik Space",
+  text: "Effective exam preparation balances content review with strategy practice. For timed essays, experts recommend allocating time for outlining, writing, and revision rather than drafting without a plan. Self-monitoring during the exam — checking that each paragraph advances the thesis and that evidence is properly cited — separates top responses from adequate ones.",
+};
+
 export const lesson102: Lesson = {
   id: "ela9-u10-lesson-10-2",
   code: "10-2",
@@ -330,7 +336,7 @@ export const lesson102: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. 5 min outline, 20 min write, 5 min review.",
+            finalAnswer: "**(c)**. 5 min outline, 20 min write, 5 min review.",
             commonErrors: ["Skipping planning — leads to rambling."],
           },
         },
@@ -546,7 +552,7 @@ export const lesson102: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Introduction → body (reasons + counterargument) → conclusion.",
+              "**(a)**. Introduction → body (reasons + counterargument) → conclusion.",
             commonErrors: ["Putting conclusion before body."],
           },
         },

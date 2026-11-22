@@ -347,7 +347,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Weber",
+            finalAnswer: "**(b)** Weber",
             commonErrors: ["Confusing tesla (field) with weber (flux)."],
           },
         },
@@ -389,7 +389,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Flux must change",
+            finalAnswer: "**(c)** Flux must change",
             commonErrors: [
               "Choosing large flux — a large CONSTANT flux induces nothing.",
             ],
@@ -525,7 +525,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Plane perpendicular to field",
+            finalAnswer: "**(a)** Plane perpendicular to field",
             commonErrors: [
               "Confusing maximum flux with maximum EMF — EMF depends on $d\\Phi/dt$.",
             ],
@@ -545,7 +545,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "2" },
               { id: "d", text: "4" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -569,7 +569,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Factor of 4",
+            finalAnswer: "**(d)** Factor of 4",
             commonErrors: [
               "Adding effects instead of multiplying — both factors multiply.",
             ],
@@ -1204,7 +1204,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $N_s/N_p$",
+            finalAnswer: "**(c)** $N_s/N_p$",
             commonErrors: [
               "Thinking voltage ratio = current ratio — it's inverse.",
             ],
@@ -1432,7 +1432,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Power is conserved",
+            finalAnswer: "**(d)** Power is conserved",
             commonErrors: ["Thinking voltage is conserved — only power is."],
           },
         },
@@ -1472,7 +1472,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** 50 Hz",
+            finalAnswer: "**(d)** 50 Hz",
             commonErrors: ["Confusing 60 Hz (US supply) with UK 50 Hz."],
           },
         },
@@ -1517,7 +1517,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Power station to grid",
+            finalAnswer: "**(d)** Power station to grid",
             commonErrors: ["Picking household adapters — those step DOWN."],
           },
         },
@@ -1562,7 +1562,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Bulk conductor moving through field",
+            finalAnswer: "**(b)** Bulk conductor moving through field",
             commonErrors: [
               "Thinking only thin wires carry induced current — eddy currents circulate in bulk metal.",
             ],
@@ -1582,7 +1582,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "2.0 A" },
               { id: "d", text: "10 A" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1606,7 +1606,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(d)** 40 A",
+            finalAnswer: "**(a)** 40 A",
             commonErrors: [
               "Assuming current stays 2.0 A — power conservation requires it to rise.",
             ],

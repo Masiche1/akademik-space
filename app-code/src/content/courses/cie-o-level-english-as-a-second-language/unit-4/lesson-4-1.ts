@@ -41,7 +41,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "The character list" },
             { id: "d", text: "The most tense or important moment" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Climax", statement: "Peak moment of tension." }], steps: [{ reasoning: "Climax = highest point of the story's tension.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The most tense moment" },
+          markscheme: { principles: [{ kind: "definition", name: "Climax", statement: "Peak moment of tension." }], steps: [{ reasoning: "Climax = highest point of the story's tension.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** The most tense moment" },
         },
         {
           id: "oles-u4-sp-q2", difficulty: "core", totalMarks: 2,
@@ -105,7 +105,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "The list of characters" },
             { id: "d", text: "How the main problem is settled" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Resolution", statement: "The problem is settled." }], steps: [{ reasoning: "Resolution closes the story arc.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** How the problem is settled" },
+          markscheme: { principles: [{ kind: "definition", name: "Resolution", statement: "The problem is settled." }], steps: [{ reasoning: "Resolution closes the story arc.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** How the problem is settled" },
         },
         {
           id: "oles-u4-sp-q6", difficulty: "core", totalMarks: 2,
@@ -125,7 +125,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "The problem grows more intense" },
             { id: "d", text: "The ending arrives" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Rising tension", statement: "Conflict intensifies." }], steps: [{ reasoning: "Tension builds toward the climax.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The problem grows more intense" },
+          markscheme: { principles: [{ kind: "definition", name: "Rising tension", statement: "Conflict intensifies." }], steps: [{ reasoning: "Tension builds toward the climax.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** The problem grows more intense" },
         },
         {
           id: "oles-u4-sp-q8", difficulty: "core", totalMarks: 1,
@@ -136,7 +136,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Opening → problem → tension → climax → resolution" },
             { id: "d", text: "Resolution → tension → opening → problem" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Story arc", statement: "Opening to resolution in order." }], steps: [{ reasoning: "The arc runs from opening through climax to resolution.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Opening → problem → tension → climax → resolution" },
+          markscheme: { principles: [{ kind: "convention", name: "Story arc", statement: "Opening to resolution in order." }], steps: [{ reasoning: "The arc runs from opening through climax to resolution.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Opening → problem → tension → climax → resolution" },
         },
         {
           id: "oles-u4-sp-q9", difficulty: "core", totalMarks: 2,
@@ -178,7 +178,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "The main character" },
             { id: "d", text: "The plot" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Setting", statement: "Where and when." }], steps: [{ reasoning: "Setting is time and place.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Where and when the story happens" },
+          markscheme: { principles: [{ kind: "definition", name: "Setting", statement: "Where and when." }], steps: [{ reasoning: "Setting is time and place.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Where and when the story happens" },
         },
         {
           id: "oles-u4-sp-q13", difficulty: "core", totalMarks: 2,
@@ -192,7 +192,7 @@ export const lesson41: Lesson = {
           markscheme: { principles: [{ kind: "technique", name: "Tension", statement: "Threat and unknowns raise tension." }], steps: [
             { reasoning: "The creaking door and movement create suspense.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** The door creaked open, and something moved in the dark." },
+          ], finalAnswer: "**(d)** The door creaked open, and something moved in the dark." },
         },
         {
           id: "oles-u4-sp-q14", difficulty: "challenge", totalMarks: 9,
@@ -245,7 +245,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "The ending of the story" },
             { id: "d", text: "A device that grabs the reader's attention" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Hook", statement: "Attention-grabbing opening." }], steps: [{ reasoning: "A hook makes the reader want to continue.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** A device that grabs attention" },
+          markscheme: { principles: [{ kind: "definition", name: "Hook", statement: "Attention-grabbing opening." }], steps: [{ reasoning: "A hook makes the reader want to continue.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** A device that grabs attention" },
         },
       ],
     },
@@ -276,7 +276,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Their best quality" },
             { id: "d", text: "A weakness that creates conflict" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Flaw", statement: "Weakness creating conflict." }], steps: [{ reasoning: "Flaws generate obstacles in the story.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** A weakness creating conflict" },
+          markscheme: { principles: [{ kind: "definition", name: "Flaw", statement: "Weakness creating conflict." }], steps: [{ reasoning: "Flaws generate obstacles in the story.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** A weakness creating conflict" },
         },
         {
           id: "oles-u4-ch-q2", difficulty: "core", totalMarks: 2,
@@ -340,7 +340,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "A weakness" },
             { id: "d", text: "What the character desires" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Want", statement: "What the character desires." }], steps: [{ reasoning: "The want drives the character's actions.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** What the character desires" },
+          markscheme: { principles: [{ kind: "definition", name: "Want", statement: "What the character desires." }], steps: [{ reasoning: "The want drives the character's actions.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** What the character desires" },
         },
         {
           id: "oles-u4-ch-q6", difficulty: "core", totalMarks: 2,
@@ -360,7 +360,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "She felt nervous inside." },
             { id: "d", text: "Nervousness filled her." },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "technique", name: "Show don't tell", statement: "Actions reveal emotion." }], steps: [{ reasoning: "Only (a) shows the emotion through action.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Her hands shook as she opened the letter." },
+          markscheme: { principles: [{ kind: "technique", name: "Show don't tell", statement: "Actions reveal emotion." }], steps: [{ reasoning: "Only (a) shows the emotion through action.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Her hands shook as she opened the letter." },
         },
         {
           id: "oles-u4-ch-q8", difficulty: "core", totalMarks: 2,
@@ -424,7 +424,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "\"Where are you going,\" she asked?" },
             { id: "d", text: "\"Where are you going?\" she asked." },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Dialogue punctuation", statement: "Question mark inside; tag outside." }], steps: [{ reasoning: "The question mark stays inside the speech marks.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** \"Where are you going?\" she asked." },
+          markscheme: { principles: [{ kind: "convention", name: "Dialogue punctuation", statement: "Question mark inside; tag outside." }], steps: [{ reasoning: "The question mark stays inside the speech marks.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** \"Where are you going?\" she asked." },
         },
         {
           id: "oles-u4-ch-q12", difficulty: "core", totalMarks: 2,
@@ -466,7 +466,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Reveals character and moves the plot" },
             { id: "d", text: "Uses only questions" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Dialogue purpose", statement: "Reveal + advance." }], steps: [{ reasoning: "Purposeful dialogue does two jobs at once.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Reveals character and moves the plot" },
+          markscheme: { principles: [{ kind: "convention", name: "Dialogue purpose", statement: "Reveal + advance." }], steps: [{ reasoning: "Purposeful dialogue does two jobs at once.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Reveals character and moves the plot" },
         },
         {
           id: "oles-u4-ch-q16", difficulty: "core", totalMarks: 2,

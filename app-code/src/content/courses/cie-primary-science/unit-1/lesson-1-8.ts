@@ -51,7 +51,7 @@ export const lesson18: Lesson = {
             { id: "b", text: "Air" },
             { id: "c", text: "Water" },
             { id: "d", text: "Soil only" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Plant needs", statement: "Light, water, air, warmth." }],
             steps: [{ reasoning: "Plants need light/water/air/warmth — not soil specifically.", marks: 1, markCode: "A" }],
@@ -273,7 +273,7 @@ export const lesson18: Lesson = {
             { id: "b", text: "Sugar from shops" },
             { id: "c", text: "Water" },
             { id: "d", text: "Light" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Plant needs", statement: "Plants make their own food." }],
             steps: [{ reasoning: "Plants make their own food — they don't need bought sugar.", marks: 1, markCode: "A" }],

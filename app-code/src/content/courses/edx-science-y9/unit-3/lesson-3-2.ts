@@ -67,7 +67,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Pressure is force divided by area, so its unit is newtons per square metre (the pascal).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\text{N/m}^2$",
+            finalAnswer: "**(c)** $\\text{N/m}^2$",
             commonErrors: ["Choosing N, the unit of force.", "Choosing Nm, the unit of a moment.", "Choosing $\\text{kg/m}^3$, the unit of density."],
             examinerNote: "B1 for (b) only.",
           },
@@ -192,7 +192,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "$\\text{N/m}^2$" },
               { id: "d", text: "$\\text{Nm}$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -201,7 +201,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Moment is force multiplied by distance, giving newton metres.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\text{Nm}$",
+            finalAnswer: "**(d)** $\\text{Nm}$",
             commonErrors: ["Choosing N/m$^2$, the unit of pressure.", "Choosing N/kg, the unit of gravitational field strength."],
             examinerNote: "B1 for (c) only.",
           },

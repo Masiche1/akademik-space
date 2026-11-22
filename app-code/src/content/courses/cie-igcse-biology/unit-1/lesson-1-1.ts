@@ -66,7 +66,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Recall the differences.", working: "\\text{cell wall}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cell wall",
+            finalAnswer: "**(d)** Cell wall",
             commonErrors: ["Choosing chloroplast — also correct but not listed; cell wall is the standard answer."],
           },
         },
@@ -163,7 +163,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Recall the site of photosynthesis.", working: "\\text{chloroplast}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Chloroplast",
+            finalAnswer: "**(c)** Chloroplast",
             commonErrors: ["Choosing mitochondrion — that is the site of respiration."],
           },
         },
@@ -189,7 +189,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Recall the barrier structure.", working: "\\text{cell membrane}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cell membrane",
+            finalAnswer: "**(c)** Cell membrane",
             commonErrors: ["Choosing cell wall — it is fully permeable to water and only in plant cells."],
           },
         },
@@ -215,7 +215,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Identify the shared organelle.", working: "\\text{ribosome}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Ribosome",
+            finalAnswer: "**(c)** Ribosome",
             commonErrors: ["Choosing chloroplast — plant cells only."],
           },
         },
@@ -241,7 +241,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Recall the key difference.", working: "\\text{no membrane-bound nucleus}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** They have no membrane-bound nucleus or organelles",
+            finalAnswer: "**(c)** They have no membrane-bound nucleus or organelles",
             commonErrors: ["Thinking prokaryotes are larger — they are generally smaller."],
           },
         },
@@ -267,7 +267,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Link vacuole to turgor.", working: "\\text{turgor}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Maintaining turgor pressure",
+            finalAnswer: "**(c)** Maintaining turgor pressure",
             commonErrors: ["Choosing respiration — that is the mitochondrion."],
           },
         },
@@ -293,7 +293,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Recall the site.", working: "\\text{ribosomes}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Ribosomes",
+            finalAnswer: "**(b)** Ribosomes",
             commonErrors: ["Choosing nucleus — it holds DNA but does not synthesise protein directly."],
           },
         },
@@ -482,7 +482,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Recall the adaptation.", working: "\\text{no nucleus}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** No nucleus",
+            finalAnswer: "**(c)** No nucleus",
             commonErrors: ["Choosing biconcave shape — also correct but not listed."],
           },
         },
@@ -577,7 +577,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Recall the structure used for swimming.", working: "\\text{flagellum}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Flagellum",
+            finalAnswer: "**(b)** Flagellum",
             commonErrors: ["Choosing mitochondrion — it supplies energy but does not propel the cell."],
           },
         },
@@ -603,7 +603,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Match the features to the cell type.", working: "\\text{xylem vessel}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Xylem vessel",
+            finalAnswer: "**(d)** Xylem vessel",
             commonErrors: ["Choosing root hair cell — it absorbs water but is not hollow or lignified."],
           },
         },
@@ -629,7 +629,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Recall the function of myelin.", working: "\\text{speeds impulses}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It speeds up the transmission of impulses",
+            finalAnswer: "**(b)** It speeds up the transmission of impulses",
             commonErrors: ["Thinking myelin produces the impulse — it only speeds transmission."],
           },
         },
@@ -655,7 +655,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Identify the features linked to photosynthesis.", working: "\\text{chloroplasts + column shape}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Many chloroplasts and a tall column shape",
+            finalAnswer: "**(c)** Many chloroplasts and a tall column shape",
             commonErrors: ["Choosing large vacuole — that is for turgor, not photosynthesis."],
           },
         },
@@ -783,7 +783,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Recall the nutrient store in an egg cell.", working: "\\text{large cytoplasm}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Large cytoplasm containing food reserves",
+            finalAnswer: "**(c)** Large cytoplasm containing food reserves",
             commonErrors: ["Choosing flagellum — that is a sperm feature."],
           },
         },
@@ -840,7 +840,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Match the features to the cell.", working: "\\text{guard cell}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Guard cell",
+            finalAnswer: "**(b)** Guard cell",
             commonErrors: ["Choosing palisade mesophyll — it has chloroplasts but does not control stomata."],
           },
         },

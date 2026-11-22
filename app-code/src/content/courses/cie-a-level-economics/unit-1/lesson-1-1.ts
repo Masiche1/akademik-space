@@ -261,7 +261,7 @@ export const lesson411: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** A rise in the price of a substitute good"
+          "finalAnswer": "**(b)** A rise in the price of a substitute good"
 },
         },
         {
@@ -306,7 +306,7 @@ export const lesson411: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** a change in the price of the good itself"
+          "finalAnswer": "**(b)** a change in the price of the good itself"
 },
         },
         {
@@ -351,7 +351,7 @@ export const lesson411: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** the price falling until quantity demanded equals quantity supplied"
+          "finalAnswer": "**(c)** the price falling until quantity demanded equals quantity supplied"
 },
         },
         {
@@ -486,7 +486,7 @@ export const lesson411: Lesson = {
                               "markCode": "A"
                     }
           ],
-          "finalAnswer": "**(a)** a higher quantity traded and an unchanged price"
+          "finalAnswer": "**(c)** a higher quantity traded and an unchanged price"
 },
         },
         {

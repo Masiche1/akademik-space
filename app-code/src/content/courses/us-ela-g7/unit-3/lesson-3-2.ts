@@ -133,7 +133,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The short sentences and counting build urgency. There is no flashback or conversation in the first paragraph.",
+              "**(a)**. The short sentences and counting build urgency. There is no flashback or conversation in the first paragraph.",
             commonErrors: [
               "Choosing (d) because dialogue appears later in the passage, not in the first paragraph.",
             ],
@@ -178,7 +178,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              '**(b)**. "Stay close," she whispered. Choice (a) puts the comma outside, (c) ends the quotation with a period and leaves the tag stranded, and (d) lacks quotation marks.',
+              '**(d)**. "Stay close," she whispered. Choice (a) puts the comma outside, (c) ends the quotation with a period and leaves the tag stranded, and (d) lacks quotation marks.',
             commonErrors: [
               "Placing the comma outside the closing quotation mark.",
             ],
@@ -439,7 +439,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** As a result. 'However' would signal contrast, 'for instance' an example and 'meanwhile' simultaneous events.",
+              "**(a)** As a result. 'However' would signal contrast, 'for instance' an example and 'meanwhile' simultaneous events.",
             commonErrors: [
               "Choosing 'meanwhile' because it sounds like a time transition, though the two events are linked by cause.",
             ],
@@ -497,7 +497,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. It restates the claim in new words and connects it to the evidence.",
+              "**(c)**. It restates the claim in new words and connects it to the evidence.",
             commonErrors: [
               "Choosing (a) because it sounds polite, though it is informal and adds nothing.",
             ],

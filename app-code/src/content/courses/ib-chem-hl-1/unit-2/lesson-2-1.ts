@@ -122,7 +122,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** 2",
+            finalAnswer: "**(d)** 2",
             commonErrors: [
               "Counting four domains because of the double bonds — each bond counts once regardless of order.",
             ],
@@ -334,7 +334,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "6" },
               { id: "d", text: "4" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -358,7 +358,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** 5",
+            finalAnswer: "**(b)** 5",
             commonErrors: [
               "Counting 10 electrons around phosphorus as 10 domains — domains, not electrons, are counted.",
             ],
@@ -378,7 +378,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Tetrahedral" },
               { id: "d", text: "Octahedral" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -403,7 +403,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Octahedral (molecular shape: square planar)",
+            finalAnswer: "**(d)** Octahedral (molecular shape: square planar)",
             commonErrors: [
               "Giving the molecular shape (square planar) instead of the electron-domain geometry (octahedral).",
             ],
@@ -567,7 +567,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "BF$_3$" },
               { id: "d", text: "NH$_3$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -592,7 +592,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** H$_2$O",
+            finalAnswer: "**(a)** H$_2$O",
             commonErrors: [
               "Comparing only number of atoms rather than lone pairs.",
             ],
@@ -612,7 +612,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Octahedral" },
               { id: "d", text: "Square planar" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -637,7 +637,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Square planar",
+            finalAnswer: "**(d)** Square planar",
             commonErrors: [
               "Answering octahedral — that is the electron-domain geometry, not the molecular shape.",
             ],
@@ -1049,7 +1049,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** CHCl$_3$",
+            finalAnswer: "**(a)** CHCl$_3$",
             commonErrors: [
               "Choosing CCl$_4$ — tetrahedral but perfectly symmetric, so non-polar.",
             ],
@@ -1267,7 +1267,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "CH$_4$" },
               { id: "d", text: "CO$_2$" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1292,7 +1292,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(d)** NH$_3$",
+            finalAnswer: "**(b)** NH$_3$",
             commonErrors: [
               "Choosing CH$_4$ because C–H bonds are polar — the tetrahedral symmetry cancels them.",
             ],
@@ -1336,7 +1336,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** H$_2$O",
+            finalAnswer: "**(d)** H$_2$O",
             commonErrors: [
               "Choosing the heaviest molecule — molar mass alone does not determine boiling point here.",
             ],
@@ -1513,7 +1513,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "H$_2$O" },
               { id: "d", text: "HCl" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1538,7 +1538,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(d)** H$_2$O",
+            finalAnswer: "**(c)** H$_2$O",
             commonErrors: [
               "Choosing HCl because it is polar — hydrogen bonding in water is stronger.",
             ],
@@ -1589,7 +1589,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Polar dissolves polar/ionic; non-polar dissolves non-polar",
+              "**(c)** Polar dissolves polar/ionic; non-polar dissolves non-polar",
             commonErrors: ["Thinking solubility depends only on temperature."],
           },
         },
@@ -1853,7 +1853,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** H$_2$O and CH$_3$OH",
+            finalAnswer: "**(c)** H$_2$O and CH$_3$OH",
             commonErrors: [
               "Choosing NH$_3$ pair — NH$_3$ donates but BF$_3$ has no lone pair to accept.",
             ],

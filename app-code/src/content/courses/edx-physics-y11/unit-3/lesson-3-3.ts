@@ -55,7 +55,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Air resistance" },
               { id: "d", text: "Friction" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -64,7 +64,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The Sun's gravity pulls each planet towards it, changing the direction of the planet's velocity so that it follows a curved path.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Gravity",
+            finalAnswer: "**(b)** Gravity",
             commonErrors: ["Choosing magnetic force because the Sun is a large, hot body.", "Choosing air resistance; space is almost a vacuum."],
             examinerNote: "B1 for (c).",
           },
@@ -191,7 +191,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "A supernova" },
               { id: "d", text: "A neutron star" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -200,7 +200,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The Sun is not massive enough for a supernova, so its core remains as a white dwarf after the outer layers are lost.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** A white dwarf",
+            finalAnswer: "**(b)** A white dwarf",
             commonErrors: ["Choosing a supernova, which is an event and not an end state, and applies to massive stars.", "Choosing black hole or neutron star, the end states of massive stars."],
             examinerNote: "B1 for (d).",
           },

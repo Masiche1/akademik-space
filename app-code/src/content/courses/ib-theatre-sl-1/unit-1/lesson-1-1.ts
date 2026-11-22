@@ -70,7 +70,7 @@ export const lesson11: Lesson = {
               { reasoning: "Levels are the heights performers work at — standing, sitting, lying — creating power dynamics.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The height at which performers work — standing, sitting, lying",
+            finalAnswer: "**(c)** The height at which performers work — standing, sitting, lying",
             commonErrors: [
               "Confusing levels (height) with volume or tempo.",
             ],
@@ -206,7 +206,7 @@ export const lesson11: Lesson = {
               { reasoning: "Standing over someone and invading personal space asserts dominance through height and proxemics.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Standing over another and invading their personal space",
+            finalAnswer: "**(d)** Standing over another and invading their personal space",
             commonErrors: [
               "Assuming dominance requires loudness rather than spatial and level choices.",
             ],
@@ -235,7 +235,7 @@ export const lesson11: Lesson = {
               { reasoning: "Mime creates the illusion of objects, walls or ropes through precise physical action alone.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Creating illusion through gesture and movement without props",
+            finalAnswer: "**(c)** Creating illusion through gesture and movement without props",
             commonErrors: [
               "Confusing mime (physical illusion) with dance or dialect work.",
             ],
@@ -293,7 +293,7 @@ export const lesson11: Lesson = {
               { reasoning: "Effective gestures are intentional and shaped so the audience reads the intended meaning.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Deliberate, clear and readable by the audience",
+            finalAnswer: "**(a)** Deliberate, clear and readable by the audience",
             commonErrors: [
               "Believing small or accidental gestures communicate clearly.",
             ],
@@ -322,7 +322,7 @@ export const lesson11: Lesson = {
               { reasoning: "Close proxemics reads as intimacy, connection or tension depending on the physical relationship.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Intimacy, connection or tension",
+            finalAnswer: "**(a)** Intimacy, connection or tension",
             commonErrors: [
               "Treating performer distance as accidental rather than meaningful.",
             ],
@@ -634,7 +634,7 @@ export const lesson11: Lesson = {
               { reasoning: "The gaze leads movement, telling the audience where to look and what the gesture means.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Lead the gesture and direct the audience's attention",
+            finalAnswer: "**(d)** Lead the gesture and direct the audience's attention",
             commonErrors: [
               "Looking at the hands instead of leading with the eyes.",
             ],
@@ -663,7 +663,7 @@ export const lesson11: Lesson = {
               { reasoning: "Spatial awareness means reading the whole stage — where others are and how movement will be seen.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Being aware of the whole stage picture — other performers, audience sightlines and space",
+            finalAnswer: "**(d)** Being aware of the whole stage picture — other performers, audience sightlines and space",
             commonErrors: [
               "Confusing spatial awareness with memorised blocking alone.",
             ],
@@ -692,7 +692,7 @@ export const lesson11: Lesson = {
               { reasoning: "Slow practice isolates each movement's shape so energy can be added without losing clarity.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Find the essential shape of each movement before adding energy",
+            finalAnswer: "**(b)** Find the essential shape of each movement before adding energy",
             commonErrors: [
               "Adding speed and energy before the movement shape is clear.",
             ],
@@ -721,7 +721,7 @@ export const lesson11: Lesson = {
               { reasoning: "Every movement should carry intention so the audience reads meaning rather than noise.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Intentional and controlled rather than accidental",
+            finalAnswer: "**(d)** Intentional and controlled rather than accidental",
             commonErrors: [
               "Moving without intention, producing unclear stage pictures.",
             ],
@@ -750,7 +750,7 @@ export const lesson11: Lesson = {
               { reasoning: "Gestures and level contrasts must be visible from the back or the audience cannot read them.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** So that gestures and levels remain readable from every seat",
+            finalAnswer: "**(a)** So that gestures and levels remain readable from every seat",
             commonErrors: [
               "Performing movements too small to be seen by the whole house.",
             ],
@@ -779,7 +779,7 @@ export const lesson11: Lesson = {
               { reasoning: "Full commitment gives the audience a clear signal of intention, even if the shape is imperfect.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Communicates clear intention that the audience can read confidently",
+            finalAnswer: "**(c)** Communicates clear intention that the audience can read confidently",
             commonErrors: [
               "Believing small cautious movement is safer than committed movement.",
             ],

@@ -69,7 +69,7 @@ export const lesson43: Lesson = {
               { reasoning: "Find the modulus.", working: "r=\\sqrt{1^2+1^2}=\\sqrt2", marks: 1, markCode: "M" },
               { reasoning: "The point $(1,1)$ is in Quadrant I with $\\tan\\theta=1$.", working: "\\theta=\\frac{\\pi}{4}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $\\sqrt2\\left(\\cos\\frac{\\pi}{4}+i\\sin\\frac{\\pi}{4}\\right)$",
+            finalAnswer: "**(a)** $\\sqrt2\\left(\\cos\\frac{\\pi}{4}+i\\sin\\frac{\\pi}{4}\\right)$",
             commonErrors: ["Using $r=1+1=2$ instead of $\\sqrt2$.", "Using the wrong quadrant for the argument."],
           },
         },
@@ -209,7 +209,7 @@ export const lesson43: Lesson = {
               { id: "c", text: "$3\\cos20^\\circ+3i\\sin20^\\circ$" },
               { id: "d", text: "$\\cos23^\\circ+i\\sin23^\\circ$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -219,7 +219,7 @@ export const lesson43: Lesson = {
               { reasoning: "The modulus is 1, so only the argument changes: multiply it by the exponent.", working: "3\\times20^\\circ=60^\\circ", marks: 1, markCode: "M" },
               { reasoning: "Write the result.", working: "\\cos60^\\circ+i\\sin60^\\circ", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $\\cos60^\\circ+i\\sin60^\\circ$",
+            finalAnswer: "**(a)** $\\cos60^\\circ+i\\sin60^\\circ$",
             commonErrors: ["Adding the exponent to the angle.", "Cubing the angle."],
           },
         },

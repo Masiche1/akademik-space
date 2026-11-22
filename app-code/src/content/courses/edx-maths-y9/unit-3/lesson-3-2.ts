@@ -208,7 +208,7 @@ export const lesson32: Lesson = {
               { reasoning: "Substitute $r=3$ and $h=5$.", working: "V=\\pi\\times3^2\\times5", marks: 1, markCode: "M" },
               { reasoning: "Evaluate.", working: "V=45\\pi", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $45\\pi$ cm³",
+            finalAnswer: "**(c)** $45\\pi$ cm³",
             commonErrors: ["Not squaring the radius ($\\pi\\times3\\times5=15\\pi$).", "Using $2\\pi rh=30\\pi$ (curved surface area).", "Squaring the height instead ($75\\pi$)."],
           },
         },

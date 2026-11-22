@@ -98,7 +98,7 @@ export const lesson222b: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Peptide bond",
+            finalAnswer: "**(d)** Peptide bond",
             commonErrors: ["Confusing with glycosidic (sugar) bonds."],
           },
         },
@@ -264,7 +264,7 @@ export const lesson222b: Lesson = {
             steps: [
               { reasoning: "The R-group is the variable side chain.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The R-group",
+            finalAnswer: "**(b)** The R-group",
             commonErrors: ["Thinking the amino or carboxyl groups differ."],
           },
         },
@@ -324,7 +324,7 @@ export const lesson222b: Lesson = {
             steps: [
               { reasoning: "Purple colour indicates protein/peptide bonds.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Peptide bonds present; purple colour",
+            finalAnswer: "**(b)** Peptide bonds present; purple colour",
             commonErrors: ["Confusing Biuret with Benedict's test."],
           },
         },
@@ -384,7 +384,7 @@ export const lesson222b: Lesson = {
             steps: [
               { reasoning: "Polypeptide = many amino acids joined by peptide bonds.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Chain of amino acids",
+            finalAnswer: "**(c)** Chain of amino acids",
             commonErrors: ["Confusing polypeptide with a single amino acid."],
           },
         },
@@ -414,7 +414,7 @@ export const lesson222b: Lesson = {
             steps: [
               { reasoning: "Three amino acids form two peptide bonds, releasing two water molecules.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 2",
+            finalAnswer: "**(c)** 2",
             commonErrors: ["Thinking three amino acids release three water molecules."],
           },
         },
@@ -636,7 +636,7 @@ export const lesson222b: Lesson = {
             steps: [
               { reasoning: "Primary = sequence.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Linear amino acid sequence",
+            finalAnswer: "**(b)** Linear amino acid sequence",
             commonErrors: ["Confusing with tertiary 3D shape."],
           },
         },
@@ -802,7 +802,7 @@ export const lesson222b: Lesson = {
             steps: [
               { reasoning: "The sequence is primary structure.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Primary",
+            finalAnswer: "**(b)** Primary",
             commonErrors: ["Confusing sequence with 3D folding."],
           },
         },
@@ -832,7 +832,7 @@ export const lesson222b: Lesson = {
             steps: [
               { reasoning: "Alpha-helix and beta-sheet are secondary structures.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\alpha$-helix and $\\beta$-pleated sheet",
+            finalAnswer: "**(d)** $\\alpha$-helix and $\\beta$-pleated sheet",
             commonErrors: ["Naming tertiary bonds as secondary structure."],
           },
         },
@@ -862,7 +862,7 @@ export const lesson222b: Lesson = {
             steps: [
               { reasoning: "Quaternary requires multiple chains.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Several polypeptide chains",
+            finalAnswer: "**(c)** Several polypeptide chains",
             commonErrors: ["Confusing quaternary with tertiary folding."],
           },
         },
@@ -892,7 +892,7 @@ export const lesson222b: Lesson = {
             steps: [
               { reasoning: "Function depends on intact 3D shape.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Loss of tertiary shape",
+            finalAnswer: "**(d)** Loss of tertiary shape",
             commonErrors: ["Saying the amino acid sequence changes."],
           },
         },
@@ -952,7 +952,7 @@ export const lesson222b: Lesson = {
             steps: [
               { reasoning: "Sequence differences alter tertiary/quaternary shape.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Different sequences produce different shapes",
+            finalAnswer: "**(d)** Different sequences produce different shapes",
             commonErrors: ["Ignoring the role of folding."],
           },
         },

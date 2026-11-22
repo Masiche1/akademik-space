@@ -65,7 +65,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall the source.", working: "\\text{sunlight}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sunlight",
+            finalAnswer: "**(b)** Sunlight",
             commonErrors: ["Choosing 'producers' — they capture energy, don't create it."],
           },
         },
@@ -186,7 +186,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall the producer role.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** They make their own food by photosynthesis",
+            finalAnswer: "**(c)** They make their own food by photosynthesis",
             commonErrors: ["Choosing consumers — producers do not eat other organisms."],
           },
         },
@@ -203,7 +203,7 @@ export const lesson102: Lesson = {
               { id: "c", text: "Produce food by photosynthesis" },
               { id: "d", text: "Only produce oxygen" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -212,7 +212,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall the decomposer role.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Break down dead organisms and waste",
+            finalAnswer: "**(b)** Break down dead organisms and waste",
             commonErrors: ["Choosing producers — decomposers do not photosynthesise."],
           },
         },
@@ -238,7 +238,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Arrange from producer to top consumer.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Grass → rabbit → fox",
+            finalAnswer: "**(d)** Grass → rabbit → fox",
             commonErrors: ["Reversing arrows — energy flows from food to eater."],
           },
         },
@@ -264,7 +264,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall why chains are short.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Energy is lost at each transfer, leaving too little for more levels",
+            finalAnswer: "**(a)** Energy is lost at each transfer, leaving too little for more levels",
             commonErrors: ["Choosing 'not enough organisms' — the limit is energy."],
           },
         },
@@ -406,7 +406,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall arrow convention.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** From prey to predator, showing energy flow",
+            finalAnswer: "**(d)** From prey to predator, showing energy flow",
             commonErrors: ["Reversing the arrows to show 'who eats whom' incorrectly."],
           },
         },
@@ -480,7 +480,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{nutrients} \\to \\text{algae} \\to \\text{O}_2 \\downarrow", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Excess nutrients causing algal blooms and deoxygenation",
+            finalAnswer: "**(b)** Excess nutrients causing algal blooms and deoxygenation",
             commonErrors: ["Choosing 'soil erosion' — that's a different impact."],
           },
         },
@@ -575,7 +575,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall the producer definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** An organism that makes its own food",
+            finalAnswer: "**(a)** An organism that makes its own food",
             commonErrors: ["Choosing consumers — producers do not eat other organisms."],
           },
         },
@@ -601,7 +601,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall the nutrient-cycling role.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** They break down dead matter and return nutrients to the soil",
+            finalAnswer: "**(a)** They break down dead matter and return nutrients to the soil",
             commonErrors: ["Choosing photosynthesis — that is producers."],
           },
         },
@@ -653,7 +653,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall the product of nitrogen fixation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Nitrates usable by plants",
+            finalAnswer: "**(a)** Nitrates usable by plants",
             commonErrors: ["Choosing oxygen — that is not part of nitrogen fixation."],
           },
         },

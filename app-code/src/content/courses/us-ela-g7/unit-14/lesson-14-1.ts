@@ -119,7 +119,7 @@ export const lesson141: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Formal — appropriate for authority figures.",
+            finalAnswer: "**(c)**. Formal — appropriate for authority figures.",
             commonErrors: [
               "Choosing (a) — informal is for friends, not principals.",
             ],
@@ -355,7 +355,7 @@ export const lesson141: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. The author's personality/style in writing.",
+            finalAnswer: "**(a)**. The author's personality/style in writing.",
             commonErrors: ["Confusing with spoken voice — it's written style."],
           },
         },

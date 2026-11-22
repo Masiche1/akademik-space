@@ -67,7 +67,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Multiply by $1000$.", working: "2.5\\times1000=2500", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $2500$ litres",
+            finalAnswer: "**(d)** $2500$ litres",
             commonErrors: ["Multiplying by $100$ instead of $1000$."],
           },
         },
@@ -157,7 +157,7 @@ export const lesson53: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "property", name: "Length conversion", statement: "$1$ m $=100$ cm." } ],
             steps: [ { reasoning: "Multiply by $100$.", working: "3.2\\times100=320", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** $320$ cm", commonErrors: ["Multiplying by $10$ instead of $100$."] },
+            finalAnswer: "**(d)** $320$ cm", commonErrors: ["Multiplying by $10$ instead of $100$."] },
         },
         {
           id: "ciem-u5-unit-conversion-q6", difficulty: "core", totalMarks: 1,
@@ -192,10 +192,10 @@ export const lesson53: Lesson = {
             { id: "c", text: "$0.005$ kg/m$^3$" },
             { id: "d", text: "$500$ kg/m$^3$" }
  ],
-            aorrectChoiceId: "c" },
+            correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "property", name: "Density conversion", statement: "$1$ g/cm$^3=1000$ kg/m$^3$." } ],
             steps: [ { reasoning: "Multiply by $1000$.", working: "5\\times1000=5000", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(c)** $5000$ kg/m$^3$", commonErrors: ["Dividing by $1000$."] },
+            finalAnswer: "**(a)** $5000$ kg/m$^3$", commonErrors: ["Dividing by $1000$."] },
         },
         {
           id: "ciem-u5-unit-conversion-q9", difficulty: "core", totalMarks: 3,
@@ -230,7 +230,7 @@ export const lesson53: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Cuboid volume", statement: "$V=lwh$; $1$ m$^3=1000$ litres." } ],
             steps: [ { reasoning: "Volume $=1\\times0.5\\times0.4=0.2$ m$^3=200$ litres.", working: "200", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $200$ litres", commonErrors: ["Forgetting to convert m$^3$ to litres."] },
+            finalAnswer: "**(d)** $200$ litres", commonErrors: ["Forgetting to convert m$^3$ to litres."] },
         },
         {
           id: "ciem-u5-unit-conversion-q12", difficulty: "core", totalMarks: 4,
@@ -277,7 +277,7 @@ export const lesson53: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "property", name: "Capacity comparison", statement: "$1$ litre $=1000$ ml$=1000$ cm$^3$." } ],
             steps: [ { reasoning: "Convert all to ml: $500$, $600$, $550$, $550$.", working: "0.6\\text{ L}=600\\text{ ml}", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $0.6$ litres", commonErrors: ["Comparing numbers without converting units."] },
+            finalAnswer: "**(d)** $0.6$ litres", commonErrors: ["Comparing numbers without converting units."] },
         },
         {
           id: "ciem-u5-unit-conversion-q16", difficulty: "challenge", totalMarks: 6,
@@ -352,7 +352,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Divide mass by volume.", working: "\\frac{48}{6}=8", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $8$ g/cm$^3$",
+            finalAnswer: "**(c)** $8$ g/cm$^3$",
             commonErrors: ["Dividing volume by mass."],
           },
         },
@@ -438,7 +438,7 @@ export const lesson53: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "formula", name: "Density", statement: "$\\rho=\\frac{m}{V}$" } ],
             steps: [ { reasoning: "Divide mass by volume.", working: "\\frac{120}{15}=8", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** $8$ g/cm$^3$", commonErrors: ["Dividing volume by mass."] },
+            finalAnswer: "**(c)** $8$ g/cm$^3$", commonErrors: ["Dividing volume by mass."] },
         },
         {
           id: "ciem-u5-density-applications-q6", difficulty: "core", totalMarks: 1,
@@ -452,7 +452,7 @@ export const lesson53: Lesson = {
             correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "formula", name: "Density", statement: "$m=\\rho V$" } ],
             steps: [ { reasoning: "Multiply density by volume.", working: "2.7\\times50=135", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $135$ g", commonErrors: ["Dividing instead of multiplying."] },
+            finalAnswer: "**(a)** $135$ g", commonErrors: ["Dividing instead of multiplying."] },
         },
         {
           id: "ciem-u5-density-applications-q7", difficulty: "core", totalMarks: 3,
@@ -512,7 +512,7 @@ export const lesson53: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Density and cube volume", statement: "$V=\\frac{m}{\\rho}$ and $V=s^3$." } ],
             steps: [ { reasoning: "$V=\\frac{500}{4}=125$ cm$^3$, so $s=\\sqrt[3]{125}=5$ cm.", working: "s=5", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $5$ cm", commonErrors: ["Stopping at the volume $125$ cm$^3$."] },
+            finalAnswer: "**(d)** $5$ cm", commonErrors: ["Stopping at the volume $125$ cm$^3$."] },
         },
         {
           id: "ciem-u5-density-applications-q12", difficulty: "core", totalMarks: 4,
@@ -560,7 +560,7 @@ export const lesson53: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "formula", name: "Displacement", statement: "Volume $=$ final reading $-$ initial reading." } ],
             steps: [ { reasoning: "Subtract the initial reading from the final reading.", working: "65-40=25", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** $25$ cm$^3$", commonErrors: ["Giving the final reading instead of the rise."] },
+            finalAnswer: "**(c)** $25$ cm$^3$", commonErrors: ["Giving the final reading instead of the rise."] },
         },
         {
           id: "ciem-u5-density-applications-q16", difficulty: "challenge", totalMarks: 6,

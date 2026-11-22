@@ -7,6 +7,7 @@ export const unit2: Unit = {
   id: "ela11-u2",
   code: "2",
   title: "American Foundational and Rhetorical Texts",
-  description: "Analyze founding documents and the reasoning behind them, study the style of great American speeches and the evolving meaning of key terms, and trace complex sequences of events and multiple sources.",
+  description:
+    "Analyze founding documents and the reasoning behind them, study the style of great American speeches and the evolving meaning of key terms, and trace complex sequences of events and multiple sources.",
   lessons: [lesson21, lesson22, lesson23],
 };

@@ -62,7 +62,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Focus", statement: "$x^2=4ay$ has focus $(0,a)$." }],
             steps: [{ reasoning: "$4a=12\\Rightarrow a=3$, focus $(0,3)$.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $(0,3)$",
+            finalAnswer: "**(b)** $(0,3)$",
           },
         },
         {

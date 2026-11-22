@@ -96,7 +96,7 @@ export const lesson71: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Object representing the group's sacred identity",
+              "**(c)** Object representing the group's sacred identity",
             commonErrors: ["Confusing with religious text."],
           },
         },
@@ -277,7 +277,7 @@ export const lesson71: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Shared civic rituals functioning like religion",
+              "**(b)** Shared civic rituals functioning like religion",
             commonErrors: ["Confusing with a church."],
           },
         },
@@ -346,7 +346,7 @@ export const lesson71: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A totem representing the group's identity",
+              "**(d)** A totem representing the group's identity",
             commonErrors: ["Confusing sacred with profane."],
           },
         },
@@ -421,7 +421,7 @@ export const lesson71: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Ultimate questions about meaning of life and death",
+              "**(d)** Ultimate questions about meaning of life and death",
             commonErrors: ["Confusing with science."],
           },
         },
@@ -544,7 +544,7 @@ export const lesson71: Lesson = {
               { id: "c", text: "Economic production" },
               { id: "d", text: "The state" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -561,7 +561,7 @@ export const lesson71: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(c)** The group's sacred identity",
+            finalAnswer: "**(b)** The group's sacred identity",
             commonErrors: ["Confusing with other symbols."],
           },
         },
@@ -658,7 +658,7 @@ export const lesson71: Lesson = {
               { id: "c", text: "Religious revival" },
               { id: "d", text: "Anomie (normlessness)" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -675,7 +675,7 @@ export const lesson71: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(c)** Anomie (normlessness)",
+            finalAnswer: "**(d)** Anomie (normlessness)",
             commonErrors: ["Confusing with other concepts."],
           },
         },
@@ -776,7 +776,7 @@ export const lesson71: Lesson = {
               },
             ],
             steps: [{ reasoning: "Marx = opium.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** Opium of the people",
+            finalAnswer: "**(d)** Opium of the people",
             commonErrors: ["Thinking Marx praised religion."],
           },
         },
@@ -957,7 +957,7 @@ export const lesson71: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** The ruling class",
+            finalAnswer: "**(c)** The ruling class",
             commonErrors: ["Thinking it helps workers."],
           },
         },
@@ -1026,7 +1026,7 @@ export const lesson71: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Religion eases suffering and distracts from real change",
+              "**(c)** Religion eases suffering and distracts from real change",
             commonErrors: ["Literal interpretation."],
           },
         },
@@ -1083,7 +1083,7 @@ export const lesson71: Lesson = {
               { id: "c", text: "Promotes matriarchy" },
               { id: "d", text: "Has no view on gender" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1101,7 +1101,7 @@ export const lesson71: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Reinforces male leadership and gender inequality",
+              "**(a)** Reinforces male leadership and gender inequality",
             commonErrors: ["Confusing with functionalist view."],
           },
         },
@@ -1152,7 +1152,7 @@ export const lesson71: Lesson = {
                 text: "Can be either, depending on interpretation and context",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1170,7 +1170,7 @@ export const lesson71: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Can be either, depending on interpretation and context",
+              "**(d)** Can be either, depending on interpretation and context",
             commonErrors: ["Absolute claim."],
           },
         },
@@ -1227,7 +1227,7 @@ export const lesson71: Lesson = {
               { id: "c", text: "Eliminate class" },
               { id: "d", text: "Only serve women" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1245,7 +1245,7 @@ export const lesson71: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Inspire social change (e.g. liberation theology)",
+              "**(b)** Inspire social change (e.g. liberation theology)",
             commonErrors: ["Thinking Marx denied all change."],
           },
         },
@@ -1368,7 +1368,7 @@ export const lesson71: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Religion can inspire social change",
+              "**(c)** Religion can inspire social change",
             commonErrors: ["Overgeneralising."],
           },
         },

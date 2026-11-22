@@ -117,7 +117,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** parallel to the direction of travel",
+            finalAnswer: "**(a)** parallel to the direction of travel",
             commonErrors: [
               "Confusing transverse and longitudinal waves; sound is longitudinal, light is transverse.",
             ],
@@ -161,7 +161,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $5.0$ Hz",
+            finalAnswer: "**(c)** $5.0$ Hz",
             commonErrors: [
               "Multiplying $v$ by $\\lambda$ instead of dividing ($1.8$ Hz is $v\\lambda$).",
               "Reversing the ratio to obtain $\\lambda/v$.",
@@ -496,7 +496,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** transverse wave, oscillations perpendicular to travel",
+            finalAnswer: "**(c)** transverse wave, oscillations perpendicular to travel",
             commonErrors: [
               "Confusing transverse (light) and longitudinal (sound) waves.",
             ],
@@ -671,7 +671,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** rays are perpendicular to wavefronts",
+            finalAnswer: "**(c)** rays are perpendicular to wavefronts",
             commonErrors: [
               "Thinking wavefronts join points in antiphase.",
               "Confusing rays with wavefronts.",
@@ -865,7 +865,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** double the wavelength to $0.50$ m",
+            finalAnswer: "**(b)** double the wavelength to $0.50$ m",
             commonErrors: [
               "Thinking halving the frequency requires halving the wavelength.",
               "Ignoring that the wave speed is fixed by the medium.",
@@ -886,7 +886,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "Seconds (s)" },
               { id: "d", text: "Metres (m)" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -904,7 +904,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** hertz (Hz)",
+            finalAnswer: "**(a)** hertz (Hz)",
             commonErrors: [
               "Confusing the unit of frequency (Hz) with the unit of period (s).",
             ],
@@ -1285,7 +1285,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** wavelength $0.45$ m; frequency $4.0$ Hz",
+            finalAnswer: "**(c)** wavelength $0.45$ m; frequency $4.0$ Hz",
             commonErrors: [
               "Applying the speed ratio to the frequency instead of the wavelength.",
               "Forgetting that the frequency is unchanged.",
@@ -1452,7 +1452,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** equal angles measured from the normal",
+            finalAnswer: "**(d)** equal angles measured from the normal",
             commonErrors: [
               "Measuring the angles from the surface instead of the normal.",
               "Thinking reflection changes the frequency.",
@@ -1511,7 +1511,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** bend towards the normal; wavelength decreases",
+            finalAnswer: "**(c)** bend towards the normal; wavelength decreases",
             commonErrors: [
               "Thinking the frequency changes at the boundary.",
               "Thinking a slower medium always means bending away from the normal.",
@@ -1573,7 +1573,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "$2.0$ cm" },
               { id: "d", text: "$10$ cm" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1599,7 +1599,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(d)** $1.0$ cm",
+            finalAnswer: "**(a)** $1.0$ cm",
             commonErrors: [
               "Choosing the widest gap, thinking bigger gaps spread waves more.",
             ],
@@ -1662,7 +1662,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** wavelength $0.40$ m; frequency $4.0$ Hz",
+            finalAnswer: "**(b)** wavelength $0.40$ m; frequency $4.0$ Hz",
             commonErrors: [
               "Halving the frequency along with the speed.",
               "Doubling the wavelength when the speed decreases.",
@@ -1767,7 +1767,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** diffract more because the gap is closer to the wavelength",
+            finalAnswer: "**(d)** diffract more because the gap is closer to the wavelength",
             commonErrors: [
               "Thinking a gap smaller than the wavelength stops diffraction.",
             ],
@@ -1980,7 +1980,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** displacements add at each point",
+            finalAnswer: "**(c)** displacements add at each point",
             commonErrors: [
               "Thinking waves destroy each other permanently when they overlap.",
             ],

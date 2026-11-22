@@ -57,7 +57,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Blast furnace", statement: "CO reduces Fe₂O₃." }],
             steps: [{ reasoning: "Recall.", working: "\\text{CO}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Carbon monoxide",
+            finalAnswer: "**(c)** Carbon monoxide",
             commonErrors: ["Coke is fuel; CO is actual reducer."],
           },
         },
@@ -137,7 +137,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Blast furnace", statement: "Iron sinks to bottom." }],
             steps: [{ reasoning: "Recall.", working: "\\text{bottom}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** the bottom",
+            finalAnswer: "**(c)** the bottom",
             commonErrors: ["Slag floats on top; iron is denser."],
           },
         },
@@ -155,7 +155,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Slag", statement: "CaSiO₃ waste product." }],
             steps: [{ reasoning: "Recall.", working: "\\text{CaSiO}_3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** calcium silicate",
+            finalAnswer: "**(a)** calcium silicate",
             commonErrors: ["Slag is not iron — it is the impurity product."],
           },
         },
@@ -203,7 +203,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Hot air", statement: "Provides O₂ for burning coke." }],
             steps: [{ reasoning: "Recall.", working: "O_2 \\text{ for combustion}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** provide oxygen for combustion",
+            finalAnswer: "**(c)** provide oxygen for combustion",
             commonErrors: ["Hot air provides oxygen, not cooling."],
           },
         },
@@ -239,7 +239,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Cast iron", statement: "~4% carbon, brittle." }],
             steps: [{ reasoning: "Recall.", working: "\\approx 4\\%", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 4%",
+            finalAnswer: "**(c)** 4%",
             commonErrors: ["Steel has less carbon (~0.1–1.5%)."],
           },
         },
@@ -275,7 +275,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Blast furnace products", statement: "Fe + slag + gases." }],
             steps: [{ reasoning: "Recall.", working: "\\text{slag}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Slag",
+            finalAnswer: "**(c)** Slag",
             commonErrors: ["Slag is the main by-product besides waste gases."],
           },
         },
@@ -380,7 +380,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Extraction", statement: "Above C needs electrolysis." }],
             steps: [{ reasoning: "Recall.", working: "\\text{above C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It's too reactive — above carbon in the series",
+            finalAnswer: "**(a)** It's too reactive — above carbon in the series",
             commonErrors: ["Saying 'too expensive' — it's reactivity."],
           },
         },
@@ -478,7 +478,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Cryolite", statement: "Na₃AlF₆ mixture lowers mp." }],
             steps: [{ reasoning: "Recall.", working: "\\text{NaF}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Sodium fluoride (NaF)",
+            finalAnswer: "**(c)** Sodium fluoride (NaF)",
             commonErrors: ["Cryolite is a fluoride mixture, not chloride."],
           },
         },
@@ -496,7 +496,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Anodes", statement: "Carbon anodes are consumed by O₂." }],
             steps: [{ reasoning: "Recall.", working: "\\text{C} + \\text{O}_2 \\rightarrow \\text{CO}_2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** They burn away reacting with the oxygen produced",
+            finalAnswer: "**(a)** They burn away reacting with the oxygen produced",
             commonErrors: ["The anode is oxidised/consumed — it is not just worn."],
           },
         },
@@ -514,7 +514,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Molten electrolyte", statement: "Ions must be free to move." }],
             steps: [{ reasoning: "Recall.", working: "\\text{ions move}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** To allow the ions to move",
+            finalAnswer: "**(a)** To allow the ions to move",
             commonErrors: ["Molten state lets ions carry charge — solid ions are fixed."],
           },
         },

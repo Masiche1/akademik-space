@@ -288,7 +288,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Cu deposits on Mg.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Copper deposits",
+            finalAnswer: "**(a)** Copper deposits",
             commonErrors: ["No reaction assumed."],
           },
         },

@@ -58,7 +58,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Gamma rays" },
               { id: "d", text: "Ultraviolet" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -67,7 +67,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Gamma rays are at the high-frequency end of the spectrum, above X-rays and ultraviolet.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Gamma rays",
+            finalAnswer: "**(c)** Gamma rays",
             commonErrors: ["Choosing radio waves, thinking that the longest wavelength has the highest frequency."],
             examinerNote: "B1 for (d).",
           },

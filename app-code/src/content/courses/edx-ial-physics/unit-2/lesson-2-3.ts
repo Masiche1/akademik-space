@@ -61,7 +61,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Converging lens", statement: "Distant object → real inverted image." }],
             steps: [{ reasoning: "Rays converge at focal plane.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Real, inverted",
+            finalAnswer: "**(c)** Real, inverted",
           },
         },
         {
@@ -177,7 +177,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Plane mirror", statement: "Virtual upright same size." }],
             steps: [{ reasoning: "Image behind mirror, same distance.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Virtual, upright, same size",
+            finalAnswer: "**(c)** Virtual, upright, same size",
           },
         },
         {

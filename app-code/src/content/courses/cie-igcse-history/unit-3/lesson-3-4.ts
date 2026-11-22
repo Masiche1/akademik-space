@@ -383,7 +383,7 @@ export const lesson354: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Mobile Nazi killing squads that murdered Jews in occupied territories",
+              "**(c)** Mobile Nazi killing squads that murdered Jews in occupied territories",
           },
         },
         {
@@ -470,7 +470,7 @@ export const lesson354: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** About 6 million",
+            finalAnswer: "**(a)** About 6 million",
           },
         },
         {

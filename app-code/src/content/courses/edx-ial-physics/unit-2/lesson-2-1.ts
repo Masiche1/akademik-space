@@ -61,7 +61,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Wave equation", statement: "v = fλ." }],
             steps: [{ reasoning: "Direct.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** v = fλ",
+            finalAnswer: "**(d)** v = fλ",
           },
         },
         {

@@ -72,7 +72,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Tariff = import tax.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Import tax",
+            finalAnswer: "**(d)** Import tax",
             commonErrors: ["Quota confused."],
           },
         },
@@ -271,7 +271,7 @@ export const lesson112: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Multiple countries",
+            finalAnswer: "**(c)** Multiple countries",
             commonErrors: ["Domestic confused."],
           },
         },

@@ -41,7 +41,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Population growth" },
             { id: "d", text: "Only trade in goods" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Globalisation", statement: "Integration." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Globalisation", statement: "Integration." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u5-gl-q2", difficulty: "core", totalMarks: 2,
@@ -97,7 +97,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Selling goods abroad" },
             { id: "d", text: "Outsourcing management" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Offshoring", statement: "Move production abroad." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Offshoring", statement: "Move production abroad." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u5-gl-q6", difficulty: "core", totalMarks: 1,
@@ -140,7 +140,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Higher prices for all goods" },
             { id: "d", text: "Fewer goods to choose from" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Globalisation benefits", statement: "Consumer gains." }], steps: [{ reasoning: "Global competition lowers prices and expands choice.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Globalisation benefits", statement: "Consumer gains." }], steps: [{ reasoning: "Global competition lowers prices and expands choice.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u5-gl-q10", difficulty: "challenge", totalMarks: 4,
@@ -162,7 +162,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Automatic development for all" },
             { id: "d", text: "Complete isolation from world markets" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Globalisation costs", statement: "Developing country risks." }], steps: [{ reasoning: "MNCs may exploit cheap labour or pollute host countries.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Globalisation costs", statement: "Developing country risks." }], steps: [{ reasoning: "MNCs may exploit cheap labour or pollute host countries.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u5-gl-q12", difficulty: "challenge", totalMarks: 3,
@@ -198,7 +198,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Trade barriers increase" },
             { id: "d", text: "Gains accrue unevenly to skilled workers and capital owners" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Inequality and globalisation", statement: "Uneven gains." }], steps: [{ reasoning: "Skilled labour and capital capture most gains while unskilled jobs are offshored.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Inequality and globalisation", statement: "Uneven gains." }], steps: [{ reasoning: "Skilled labour and capital capture most gains while unskilled jobs are offshored.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u5-gl-q15", difficulty: "core", totalMarks: 1,
@@ -209,7 +209,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Each country is self-sufficient" },
             { id: "d", text: "Countries rely on each other for goods, services and capital" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Interdependence", statement: "Mutual reliance." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Interdependence", statement: "Mutual reliance." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u5-gl-q16", difficulty: "challenge", totalMarks: 9,
@@ -264,7 +264,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "A company operating in multiple countries" },
             { id: "d", text: "A single-country firm" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "MNC", statement: "Multi-country." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "MNC", statement: "Multi-country." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u5-mnc-q2", difficulty: "core", totalMarks: 2,
@@ -320,7 +320,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Sending profits earned abroad back to the home country" },
             { id: "d", text: "Donating profits to charity" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Profit repatriation", statement: "Profits sent home." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Profit repatriation", statement: "Profits sent home." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u5-mnc-q6", difficulty: "foundation", totalMarks: 2,
@@ -343,7 +343,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Removing all local competition" },
             { id: "d", text: "Raising productivity and skills of local workers and firms" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Technology transfer", statement: "Skills and productivity." }], steps: [{ reasoning: "MNCs bring know-how that upgrades local capacity.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Technology transfer", statement: "Skills and productivity." }], steps: [{ reasoning: "MNCs bring know-how that upgrades local capacity.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u5-mnc-q8", difficulty: "core", totalMarks: 2,
@@ -388,7 +388,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Raises export earnings" },
             { id: "d", text: "Reduces government revenue available for health, education and infrastructure" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Tax avoidance", statement: "Lost revenue." }], steps: [{ reasoning: "MNCs shifting profits abroad deprives governments of tax income.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Tax avoidance", statement: "Lost revenue." }], steps: [{ reasoning: "MNCs shifting profits abroad deprives governments of tax income.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u5-mnc-q12", difficulty: "challenge", totalMarks: 4,
@@ -424,7 +424,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Providing training to local workers" },
             { id: "d", text: "Creating new jobs" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "MNC labour criticism", statement: "Exploitative conditions." }], steps: [{ reasoning: "MNCs may exploit cheap labour with weak protections.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "MNC labour criticism", statement: "Exploitative conditions." }], steps: [{ reasoning: "MNCs may exploit cheap labour with weak protections.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u5-mnc-q15", difficulty: "core", totalMarks: 1,

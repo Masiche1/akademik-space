@@ -105,7 +105,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Field research" },
               { id: "d", text: "Primary qualitative research" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -129,7 +129,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Secondary research",
+            finalAnswer: "**(b)** Secondary research",
             commonErrors: [
               "Calling all published data primary — primary means collected first-hand.",
             ],
@@ -395,7 +395,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Qualitative data",
+            finalAnswer: "**(a)** Qualitative data",
             commonErrors: [
               "Confusing qualitative (opinions) with quantitative (numbers).",
             ],
@@ -534,7 +534,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The sample does not represent the target population",
+              "**(a)** The sample does not represent the target population",
             commonErrors: [
               "Confusing bias with small sample size or dishonest answers.",
             ],
@@ -993,7 +993,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Qualitative data",
+            finalAnswer: "**(c)** Qualitative data",
             commonErrors: [
               "Labelling interview data as quantitative — it is not numerical.",
             ],
@@ -1013,7 +1013,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Collect the data" },
               { id: "d", text: "Design the questionnaire" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1037,7 +1037,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Define the problem or opportunity",
+            finalAnswer: "**(a)** Define the problem or opportunity",
             commonErrors: [
               "Starting with data collection before clarifying what the research must answer.",
             ],
@@ -1129,7 +1129,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The sample is not representative of the target population",
+              "**(d)** The sample is not representative of the target population",
             commonErrors: ["Confusing sample size with representativeness."],
           },
         },
@@ -1658,7 +1658,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Concentrated targeting" },
               { id: "d", text: "Differentiated targeting" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1682,7 +1682,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Undifferentiated targeting",
+            finalAnswer: "**(a)** Undifferentiated targeting",
             commonErrors: [
               "Confusing undifferentiated with differentiated targeting.",
             ],
@@ -1884,7 +1884,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Undifferentiated targeting" },
               { id: "d", text: "Concentrated targeting" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1908,7 +1908,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Concentrated targeting",
+            finalAnswer: "**(d)** Concentrated targeting",
             commonErrors: [
               "Confusing concentrated (one niche) with differentiated (several segments).",
             ],
@@ -1951,7 +1951,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Geographic factors",
+            finalAnswer: "**(c)** Geographic factors",
             commonErrors: [
               "Confusing geographic with demographic segmentation.",
             ],
@@ -1971,7 +1971,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Behavioural segmentation" },
               { id: "d", text: "Geographic segmentation" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1995,7 +1995,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(d)** Behavioural segmentation",
+            finalAnswer: "**(c)** Behavioural segmentation",
             commonErrors: [
               "Confusing behavioural (actions) with psychographic (attitudes).",
             ],
@@ -2087,7 +2087,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Tailoring products to very small or individual segments",
+              "**(a)** Tailoring products to very small or individual segments",
             commonErrors: [
               "Confusing micromarketing with undifferentiated mass marketing.",
             ],

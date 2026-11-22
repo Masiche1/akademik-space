@@ -64,7 +64,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Fibre" },
               { id: "d", text: "Fat" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -73,7 +73,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Protein is the nutrient used for growth and repair, for example of muscle.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Protein",
+            finalAnswer: "**(b)** Protein",
             commonErrors: ["Choosing carbohydrate because it is the main energy source.", "Choosing fat because it is thought of as a 'building' material; fat is mainly an energy store and insulation."],
             examinerNote: "B1 for protein.",
           },
@@ -165,7 +165,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Vitamin C" },
               { id: "d", text: "Carbohydrate" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -174,7 +174,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Carbohydrates are the main energy source; fat also gives energy but is mainly an energy store and insulation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Carbohydrate",
+            finalAnswer: "**(d)** Carbohydrate",
             commonErrors: ["Choosing fat because it releases more energy per gram; it is not the main energy source."],
             examinerNote: "B1 for choice (c).",
           },
@@ -201,7 +201,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Scurvy results from too little vitamin C in the diet; vitamin D/calcium relate to rickets and iron to anaemia.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Vitamin C",
+            finalAnswer: "**(c)** Vitamin C",
             commonErrors: ["Choosing vitamin D, which causes rickets when lacking."],
             examinerNote: "B1 for choice (a).",
           },
@@ -228,7 +228,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Blue-black with iodine is the positive test for starch; other tests use Benedict's, biuret or ethanol.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The food contains starch",
+            finalAnswer: "**(d)** The food contains starch",
             commonErrors: ["Confusing the iodine test with Benedict's test for sugar."],
             examinerNote: "B1 for choice (b).",
           },
@@ -395,7 +395,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Benedict's test requires heating and gives a brick-red (or intermediate) colour; the other tests are iodine and biuret.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Heating in a water bath; blue changes to green/yellow/orange/brick-red",
+            finalAnswer: "**(c)** Heating in a water bath; blue changes to green/yellow/orange/brick-red",
             commonErrors: ["Forgetting that Benedict's must be heated."],
             examinerNote: "B1 for choice (b).",
           },
@@ -413,7 +413,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "A blue-black colour" },
               { id: "d", text: "A purple colour" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -422,7 +422,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "The ethanol test for lipid gives a cloudy white (milky) emulsion; the others are tests for starch, protein and sugar.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** A cloudy white emulsion",
+            finalAnswer: "**(b)** A cloudy white emulsion",
             commonErrors: ["Confusing the fat test with the protein or starch tests."],
             examinerNote: "B1 for choice (c).",
           },
@@ -513,7 +513,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Most absorption of digested food molecules takes place in the small intestine.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Small intestine",
+            finalAnswer: "**(c)** Small intestine",
             commonErrors: ["Choosing the large intestine; it mainly absorbs water.", "Choosing the stomach because food is churned there."],
             examinerNote: "B1 for small intestine.",
           },
@@ -607,7 +607,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Bile" },
               { id: "d", text: "Lipase" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -616,7 +616,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Protease digests protein; amylase digests starch and lipase digests fat. Bile is not an enzyme.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Protease",
+            finalAnswer: "**(a)** Protease",
             commonErrors: ["Choosing amylase, which digests starch."],
             examinerNote: "B1 for choice (c).",
           },
@@ -643,7 +643,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Enzymes work fastest at body temperature, about 37 degrees Celsius; much higher temperatures denature them.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $37\\ ^\\circ\\text{C}$",
+            finalAnswer: "**(c)** $37\\ ^\\circ\\text{C}$",
             commonErrors: ["Choosing 100 °C because that is where reactions seem fastest; enzymes are destroyed."],
             examinerNote: "B1 for choice (b).",
           },
@@ -822,7 +822,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Stomach" },
               { id: "d", text: "Liver" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -831,7 +831,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Bile is produced by the liver; the pancreas produces enzymes.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Liver",
+            finalAnswer: "**(d)** Liver",
             commonErrors: ["Choosing pancreas, which makes enzymes not bile."],
             examinerNote: "B1 for choice (c).",
           },
@@ -858,7 +858,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Villi increase the surface area so digested food molecules can be absorbed quickly into the blood.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To give a large surface area for absorbing digested food",
+            finalAnswer: "**(a)** To give a large surface area for absorbing digested food",
             commonErrors: ["Thinking villi store food or enzymes."],
             examinerNote: "B1 for choice (b).",
           },

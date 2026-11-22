@@ -289,7 +289,7 @@ export const lesson252: Lesson = {
               { id: "c", text: "Sole trader" },
               { id: "d", text: "Partnership" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -308,7 +308,7 @@ export const lesson252: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(c)** Private limited company",
+            finalAnswer: "**(b)** Private limited company",
           },
         },
         {
@@ -394,7 +394,7 @@ export const lesson252: Lesson = {
               { id: "c", text: "Has unlimited liability" },
               { id: "d", text: "Cannot issue shares" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -414,7 +414,7 @@ export const lesson252: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Sells shares to the public on a stock exchange",
+              "**(b)** Sells shares to the public on a stock exchange",
           },
         },
         {
@@ -554,7 +554,7 @@ export const lesson252: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** To gain limited liability and raise capital by issuing shares",
+              "**(d)** To gain limited liability and raise capital by issuing shares",
           },
         },
         {
@@ -573,7 +573,7 @@ export const lesson252: Lesson = {
                 text: "More regulations and accountability to shareholders",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -592,7 +592,7 @@ export const lesson252: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** More regulations and accountability to shareholders",
+              "**(d)** More regulations and accountability to shareholders",
           },
         },
         {
@@ -617,7 +617,7 @@ export const lesson252: Lesson = {
                 text: "Partnership, because partners never lose money",
               },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -636,7 +636,7 @@ export const lesson252: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Limited company, because limited liability protects owners' personal assets",
+              "**(a)** Limited company, because limited liability protects owners' personal assets",
           },
         },
         {

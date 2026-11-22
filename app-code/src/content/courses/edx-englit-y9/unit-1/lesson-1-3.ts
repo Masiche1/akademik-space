@@ -76,7 +76,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Hubris", statement: "Excessive pride, often shown by gothic scientists who claim godlike power." }],
             steps: [{ reasoning: "Claiming to equal God shows arrogance and overreaching ambition.", evidence: "I shall be the equal of God", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** He is arrogant and ambitious. Mentioning God does not make him devout.",
+            finalAnswer: "**(c)** He is arrogant and ambitious. Mentioning God does not make him devout.",
             commonErrors: ["Choosing (b) because God is mentioned."],
           },
         },

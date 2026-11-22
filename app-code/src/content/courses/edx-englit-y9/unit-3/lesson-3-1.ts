@@ -100,7 +100,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Triplet", statement: "A list of three gives rhythm and emphasis." }],
             steps: [{ reasoning: "Three addresses build from personal to national, uniting the crowd.", evidence: "Friends, Romans, countrymen", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** A list of three (triplet).",
+            finalAnswer: "**(b)** A list of three (triplet).",
             commonErrors: ["Choosing (d); a soliloquy is a speech made alone, whereas Antony addresses the crowd."],
           },
         },
@@ -230,7 +230,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Metaphorical hunger", statement: "Hunger suggests an appetite for power." }],
             steps: [{ reasoning: "Caesar uses hunger as a metaphor for dangerous ambition.", evidence: "a lean and hungry look", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** Cassius looks ambitious and dissatisfied.",
+            finalAnswer: "**(b)** Cassius looks ambitious and dissatisfied.",
             commonErrors: ["Taking 'hungry' literally as poor or starving."],
           },
         },

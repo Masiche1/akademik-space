@@ -64,7 +64,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Because only two states must be distinguished, repeaters can regenerate the original bits, whereas noise on an analog signal cannot be separated from it.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Digital signals can be regenerated to remove noise.",
+            finalAnswer: "**(a)** Digital signals can be regenerated to remove noise.",
             commonErrors: ["Believing digital signals are noise-free; they are affected, but errors can be detected and corrected.", "Believing digital signals travel faster; both travel at the speed of the wave."],
             examinerNote: "B1 for choice (b).",
           },
@@ -196,7 +196,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "The core has a higher index than the cladding, so light hitting the boundary above the critical angle is totally internally reflected along the fiber.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Total internal reflection at the core-cladding boundary.",
+            finalAnswer: "**(c)** Total internal reflection at the core-cladding boundary.",
             commonErrors: ["Thinking the cladding absorbs light to guide it.", "Confusing refraction with total internal reflection."],
             examinerNote: "B1 for choice (b).",
           },

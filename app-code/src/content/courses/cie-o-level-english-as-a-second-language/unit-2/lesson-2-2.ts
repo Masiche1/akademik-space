@@ -41,7 +41,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "The writer's purpose" },
             { id: "d", text: "The topic sentences" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Omission", statement: "Examples and repetition are details." }], steps: [{ reasoning: "Examples and repeats support but are not main points.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Examples and repeated points" },
+          markscheme: { principles: [{ kind: "skill", name: "Omission", statement: "Examples and repetition are details." }], steps: [{ reasoning: "Examples and repeats support but are not main points.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Examples and repeated points" },
         },
         {
           id: "oles-u2-sel-q2", difficulty: "core", totalMarks: 2,
@@ -105,7 +105,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "A statistic used only once" },
             { id: "d", text: "The writer's repeated main point" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Selection", statement: "Keep repeated and emphasised ideas." }], steps: [{ reasoning: "Repetition signals a key point; the others are details.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The repeated main point" },
+          markscheme: { principles: [{ kind: "skill", name: "Selection", statement: "Keep repeated and emphasised ideas." }], steps: [{ reasoning: "Repetition signals a key point; the others are details.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** The repeated main point" },
         },
         {
           id: "oles-u2-sel-q6", difficulty: "core", totalMarks: 1,
@@ -131,7 +131,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "An error" },
             { id: "d", text: "The title" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Repetition signal", statement: "Repeated = important." }], steps: [{ reasoning: "Writers repeat what matters most.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** A key point" },
+          markscheme: { principles: [{ kind: "skill", name: "Repetition signal", statement: "Repeated = important." }], steps: [{ reasoning: "Writers repeat what matters most.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** A key point" },
         },
         {
           id: "oles-u2-sel-q9", difficulty: "challenge", totalMarks: 3,
@@ -167,7 +167,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Only a transition" },
             { id: "d", text: "A key point" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Topic sentence", statement: "States the paragraph's main idea." }], steps: [{ reasoning: "Topic sentences carry key points.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** A key point" },
+          markscheme: { principles: [{ kind: "skill", name: "Topic sentence", statement: "States the paragraph's main idea." }], steps: [{ reasoning: "Topic sentences carry key points.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** A key point" },
         },
         {
           id: "oles-u2-sel-q12", difficulty: "core", totalMarks: 1,
@@ -184,7 +184,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "An example used only once" },
             { id: "d", text: "A main idea" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Omission", statement: "Single examples are details." }], steps: [{ reasoning: "One-off examples support but are not key points.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** An example used only once" },
+          markscheme: { principles: [{ kind: "skill", name: "Omission", statement: "Single examples are details." }], steps: [{ reasoning: "One-off examples support but are not key points.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** An example used only once" },
         },
         {
           id: "oles-u2-sel-q14", difficulty: "challenge", totalMarks: 3,
@@ -238,7 +238,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Their order of importance" },
             { id: "d", text: "Alphabetical order" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Hierarchy", statement: "Order of importance." }], steps: [{ reasoning: "Hierarchy ranks ideas by importance.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Order of importance" },
+          markscheme: { principles: [{ kind: "definition", name: "Hierarchy", statement: "Order of importance." }], steps: [{ reasoning: "Hierarchy ranks ideas by importance.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Order of importance" },
         },
       ],
     },
@@ -333,7 +333,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Omit the effects" },
             { id: "d", text: "Reverse the text's order" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Grouping", statement: "Related points belong together." }], steps: [{ reasoning: "Cause-effect pairs stay linked for coherence.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Keep each cause with its effect" },
+          markscheme: { principles: [{ kind: "skill", name: "Grouping", statement: "Related points belong together." }], steps: [{ reasoning: "Cause-effect pairs stay linked for coherence.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Keep each cause with its effect" },
         },
         {
           id: "oles-u2-org-q6", difficulty: "core", totalMarks: 1,
@@ -359,7 +359,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "The last group in the text" },
             { id: "d", text: "The most important group" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Ordering", statement: "Most important first." }], steps: [{ reasoning: "Importance ranking puts the key group first.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The most important group" },
+          markscheme: { principles: [{ kind: "skill", name: "Ordering", statement: "Most important first." }], steps: [{ reasoning: "Importance ranking puts the key group first.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** The most important group" },
         },
         {
           id: "oles-u2-org-q9", difficulty: "challenge", totalMarks: 3,
@@ -466,7 +466,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Alphabetical order" },
             { id: "d", text: "Reverse order" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Order", statement: "Text order is safest." }], steps: [{ reasoning: "The original sequence is already logical.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The text's own order" },
+          markscheme: { principles: [{ kind: "skill", name: "Order", statement: "Text order is safest." }], steps: [{ reasoning: "The original sequence is already logical.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** The text's own order" },
         },
       ],
     },

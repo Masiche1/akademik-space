@@ -40,7 +40,7 @@ export const lesson41: Lesson = {
 ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Dependent variable", statement: "Measured outcome that responds to changes." }],
             steps: [{ reasoning: "Rate is measured — dependent.", marks: 2, markCode: "AO1" }],
-            finalAnswer: "**(b)** Rate", commonErrors: ["Independent confused."] },
+            finalAnswer: "**(a)** Rate", commonErrors: ["Independent confused."] },
         },
         {
           id: "esc10-u4-variables-q2", difficulty: "core", totalMarks: 3,
@@ -109,7 +109,7 @@ export const lesson41: Lesson = {
 ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "convention", name: "Food tests", statement: "Benedict's = reducing sugar; Biuret = protein." }],
             steps: [{ reasoning: "Benedict's tests reducing sugar.", marks: 2, markCode: "AO1" }],
-            finalAnswer: "**(b)** Benedict's", commonErrors: ["Iodine = starch."] },
+            finalAnswer: "**(a)** Benedict's", commonErrors: ["Iodine = starch."] },
         },
         {
           id: "esc10-u4-methods-q2", difficulty: "core", totalMarks: 3,

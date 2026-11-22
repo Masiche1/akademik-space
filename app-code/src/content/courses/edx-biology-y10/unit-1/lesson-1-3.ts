@@ -201,7 +201,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Surface area grows with $L^2$ but volume with $L^3$, so the ratio $6/L$ falls.", working: "\\frac{6}{L}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(d)**",
             commonErrors: ["Choosing (a): the surface area does increase but the volume increases faster.", "Choosing (d): surface area does not decrease."],
             examinerNote: "B1 for (b).",
           },

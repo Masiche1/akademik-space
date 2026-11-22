@@ -285,7 +285,7 @@ export const lesson623: Lesson = {
             steps: [
               { reasoning: "Israel's victory greatly expanded the territory under its control.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** The West Bank, Gaza, the Golan Heights and Sinai"
+            finalAnswer: "**(c)** The West Bank, Gaza, the Golan Heights and Sinai"
           }
         },
         {
@@ -349,7 +349,7 @@ export const lesson623: Lesson = {
             steps: [
               { reasoning: "Oslo created limited Palestinian autonomy and mutual recognition.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** To begin a negotiated peace process between Israel and the PLO"
+            finalAnswer: "**(b)** To begin a negotiated peace process between Israel and the PLO"
           }
         },
         {
@@ -413,7 +413,7 @@ export const lesson623: Lesson = {
             steps: [
               { reasoning: "Intifadas expressed Palestinian resistance through protests and violence.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** A Palestinian uprising against Israeli control"
+            finalAnswer: "**(d)** A Palestinian uprising against Israeli control"
           }
         },
         {

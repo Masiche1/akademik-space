@@ -64,7 +64,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Fission splits a large nucleus; fusion joins small nuclei.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Nuclear fusion",
+            finalAnswer: "**(a)** Nuclear fusion",
             commonErrors: ["Choosing fission because both release energy."],
             examinerNote: "B1 for (b).",
           },
@@ -197,7 +197,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The source is outside the patient, so the patient is irradiated but does not become radioactive.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Irradiation",
+            finalAnswer: "**(c)** Irradiation",
             commonErrors: ["Choosing contamination because the patient is exposed to radiation."],
             examinerNote: "B1 for (b).",
           },

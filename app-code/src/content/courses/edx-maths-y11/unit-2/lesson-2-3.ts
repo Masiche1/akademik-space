@@ -63,7 +63,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Area scale factor", statement: "Area scale factor $=k^2$" }],
             steps: [{ reasoning: "Square the length ratio: $3^2=9$.", working: "1:9", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $1:9$",
+            finalAnswer: "**(d)** $1:9$",
             commonErrors: ["Using the length ratio for areas.", "Cubing instead of squaring (option d)."],
           },
         },
@@ -189,7 +189,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Perpendicular bisector", statement: "Every point on it is equidistant from both ends of the segment." }],
             steps: [{ reasoning: "Equidistant from two points gives their perpendicular bisector.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** The perpendicular bisector of AB",
+            finalAnswer: "**(d)** The perpendicular bisector of AB",
             commonErrors: ["Choosing the line AB itself.", "Confusing with a circle locus."],
           },
         },

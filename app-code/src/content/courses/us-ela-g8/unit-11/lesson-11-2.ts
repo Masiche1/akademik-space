@@ -332,7 +332,7 @@ export const lesson112: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. First person with self-justification.",
+            finalAnswer: "**(d)**. First person with self-justification.",
             commonErrors: ["Missing the defensive tone — key technique."],
           },
         },
@@ -552,7 +552,7 @@ export const lesson112: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Intimacy but bias.",
+            finalAnswer: "**(d)**. Intimacy but bias.",
             commonErrors: [
               "Thinking first person is objective — it's inherently biased.",
             ],
@@ -768,7 +768,7 @@ export const lesson112: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Read for understanding, then analyze.",
+            finalAnswer: "**(d)**. Read for understanding, then analyze.",
             commonErrors: [
               "Analyzing before understanding — need context first.",
             ],

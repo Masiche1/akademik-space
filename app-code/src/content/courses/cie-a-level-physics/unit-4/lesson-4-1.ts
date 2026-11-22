@@ -178,7 +178,7 @@ export const lesson411: Lesson = {
               { id: "c", text: "Radio wave" },
               { id: "d", text: "X-ray" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Longitudinal wave", statement: "Particle oscillation is parallel to propagation." }],

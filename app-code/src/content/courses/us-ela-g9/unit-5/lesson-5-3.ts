@@ -336,7 +336,7 @@ export const lesson53: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Appeal to emotion and urgency.",
+            finalAnswer: "**(d)**. Appeal to emotion and urgency.",
             commonErrors: ["Thinking it's logical — it's emotional."],
           },
         },
@@ -478,7 +478,7 @@ export const lesson53: Lesson = {
       ],
     },
     {
-      id: "ela9-u5-synthesis",
+      id: "ela9-u5-synthesis-r2",
       title: "Synthesis: Historical and Modern Rhetoric",
       skill:
         "Synthesize analysis of foundational and modern rhetorical strategies.",
@@ -516,7 +516,7 @@ export const lesson53: Lesson = {
       },
       questions: [
         {
-          id: "ela9-u5-synthesis-q1",
+          id: "ela9-u5-synthesis-q1-r2",
           difficulty: "foundation",
           totalMarks: 1,
           extract: FOUNDING,
@@ -548,12 +548,12 @@ export const lesson53: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Logic vs emotion.",
+            finalAnswer: "**(a)**. Logic vs emotion.",
             commonErrors: ["Focusing on topic instead of strategy."],
           },
         },
         {
-          id: "ela9-u5-synthesis-q2",
+          id: "ela9-u5-synthesis-q2-r2",
           difficulty: "core",
           totalMarks: 3,
           extract: RHETORIC,
@@ -596,7 +596,7 @@ export const lesson53: Lesson = {
           },
         },
         {
-          id: "ela9-u5-synthesis-q3",
+          id: "ela9-u5-synthesis-q3-r2",
           difficulty: "challenge",
           totalMarks: 8,
           extract: FOUNDING,
@@ -647,7 +647,7 @@ export const lesson53: Lesson = {
           },
         },
         {
-          id: "ela9-u5-synthesis-q4",
+          id: "ela9-u5-synthesis-q4-r2",
           difficulty: "core",
           totalMarks: 4,
           extract: RHETORIC,

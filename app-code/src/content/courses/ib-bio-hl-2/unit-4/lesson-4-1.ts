@@ -97,7 +97,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "Stabilising selection" },
               { id: "d", text: "Directional selection" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -124,7 +124,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Disruptive selection",
+            finalAnswer: "**(b)** Disruptive selection",
             commonErrors: [
               "Choosing directional selection — that would shift the mean towards one extreme only, not both.",
             ],
@@ -189,7 +189,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Stabilising selection favouring average birth mass",
+              "**(a)** Stabilising selection favouring average birth mass",
             commonErrors: [
               "Confusing stabilising with directional selection; note that the extremes are both disadvantaged here.",
             ],
@@ -497,7 +497,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** The fittest variant in a population is always assigned $w = 1$",
+              "**(b)** The fittest variant in a population is always assigned $w = 1$",
             commonErrors: [
               "Thinking $w$ counts offspring directly — it is a relative measure, so the maximum is always $1$.",
             ],
@@ -558,7 +558,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Directional selection increases the frequency of the resistance allele",
+              "**(a)** Directional selection increases the frequency of the resistance allele",
             commonErrors: [
               "Claiming asexual reproduction prevents evolution — selection still changes allele frequencies in clonal populations.",
             ],
@@ -775,7 +775,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Both extremes have higher fitness than intermediates, increasing variance and potentially isolating the forms",
+              "**(c)** Both extremes have higher fitness than intermediates, increasing variance and potentially isolating the forms",
             commonErrors: [
               "Confusing disruptive with stabilising selection, which would favour the intermediates instead.",
             ],
@@ -1278,7 +1278,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Intersexual selection driven by female mate choice",
+              "**(d)** Intersexual selection driven by female mate choice",
             commonErrors: [
               "Calling it directional selection — the selecting agent is female preference, not survival.",
             ],
@@ -1346,7 +1346,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** This is intrasexual selection because males compete directly for mating access",
+              "**(a)** This is intrasexual selection because males compete directly for mating access",
             commonErrors: [
               "Confusing intrasexual with intersexual selection — check who is competing versus who is choosing.",
             ],
@@ -1418,7 +1418,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Frequency-dependent selection maintaining both morphs at intermediate frequencies",
+              "**(d)** Frequency-dependent selection maintaining both morphs at intermediate frequencies",
             commonErrors: [
               "Describing it as directional selection — the favoured phenotype alternates rather than shifting steadily.",
             ],
@@ -1588,7 +1588,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Intrasexual selection",
+            finalAnswer: "**(a)** Intrasexual selection",
             commonErrors: [
               "Confusing it with intersexual selection — no female choice is described; the competition is between males.",
             ],
@@ -1646,7 +1646,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The heterozygote has higher fitness than either homozygote, maintaining both alleles",
+              "**(a)** The heterozygote has higher fitness than either homozygote, maintaining both alleles",
             commonErrors: [
               "Confusing heterozygote advantage with heterozygote disadvantage (inbreeding depression), where the heterozygote is worse.",
             ],
@@ -1925,7 +1925,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A genetic correlation between the ornament and female preference amplifies both over generations",
+              "**(c)** A genetic correlation between the ornament and female preference amplifies both over generations",
             commonErrors: [
               "Confusing runaway selection with the handicap principle — runaway relies on correlation, handicap on honest signalling of quality.",
             ],

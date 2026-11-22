@@ -43,7 +43,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "A type of hardware" },
             { id: "d", text: "A backup tool" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Malware", statement: "Malicious software." }], steps: [{ reasoning: "Malware = malicious software.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Malicious software" },
+          markscheme: { principles: [{ kind: "definition", name: "Malware", statement: "Malicious software." }], steps: [{ reasoning: "Malware = malicious software.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Malicious software" },
         },
         {
           id: "olict-u4-th-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Needs a host file" },
             { id: "d", text: "Is always harmless" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Worm", statement: "Self-replicating malware." }], steps: [{ reasoning: "Worm spreads itself.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Self-replicates across networks" },
+          markscheme: { principles: [{ kind: "definition", name: "Worm", statement: "Self-replicating malware." }], steps: [{ reasoning: "Worm spreads itself.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Self-replicates across networks" },
         },
         {
           id: "olict-u4-th-q6", difficulty: "core", totalMarks: 1,
@@ -138,7 +138,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Denial of service" },
             { id: "d", text: "Worm" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "DoS", statement: "Network attack." }], steps: [{ reasoning: "DoS floods systems; others are malware.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Denial of service" },
+          markscheme: { principles: [{ kind: "definition", name: "DoS", statement: "Network attack." }], steps: [{ reasoning: "DoS floods systems; others are malware.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Denial of service" },
         },
         {
           id: "olict-u4-th-q10", difficulty: "core", totalMarks: 2,
@@ -169,7 +169,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Secretly monitors user activity" },
             { id: "d", text: "Speeds up the computer" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Spyware", statement: "Secret monitoring." }], steps: [{ reasoning: "Spyware monitors secretly.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Secretly monitors user activity" },
+          markscheme: { principles: [{ kind: "definition", name: "Spyware", statement: "Secret monitoring." }], steps: [{ reasoning: "Spyware monitors secretly.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Secretly monitors user activity" },
         },
         {
           id: "olict-u4-th-q13", difficulty: "foundation", totalMarks: 2,
@@ -189,7 +189,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Worm" },
             { id: "d", text: "Botnet" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Virus", statement: "Needs host + user." }], steps: [{ reasoning: "Virus needs user action.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Virus" },
+          markscheme: { principles: [{ kind: "definition", name: "Virus", statement: "Needs host + user." }], steps: [{ reasoning: "Virus needs user action.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Virus" },
         },
         {
           id: "olict-u4-th-q15", difficulty: "challenge", totalMarks: 4,
@@ -211,7 +211,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Printer ink levels" },
             { id: "d", text: "Confidentiality of communications" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "MITM", statement: "Intercepts data." }], steps: [{ reasoning: "MITM exposes private communications.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Confidentiality of communications" },
+          markscheme: { principles: [{ kind: "principle", name: "MITM", statement: "Intercepts data." }], steps: [{ reasoning: "MITM exposes private communications.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Confidentiality of communications" },
         },
       ],
     },
@@ -241,7 +241,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Be long, mixed and unique" },
             { id: "d", text: "Be written down" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Passwords", statement: "Long+unique+mixed." }], steps: [{ reasoning: "Strong password traits.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Long, mixed, unique" },
+          markscheme: { principles: [{ kind: "principle", name: "Passwords", statement: "Long+unique+mixed." }], steps: [{ reasoning: "Strong password traits.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Long, mixed, unique" },
         },
         {
           id: "olict-u4-ht-q2", difficulty: "core", totalMarks: 2,
@@ -296,7 +296,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "A network protocol" },
             { id: "d", text: "Watching someone's screen to steal information" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Shoulder surfing", statement: "Visual theft." }], steps: [{ reasoning: "Watching screen = shoulder surfing.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Watching someone's screen to steal information" },
+          markscheme: { principles: [{ kind: "definition", name: "Shoulder surfing", statement: "Visual theft." }], steps: [{ reasoning: "Watching screen = shoulder surfing.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Watching someone's screen to steal information" },
         },
         {
           id: "olict-u4-ht-q6", difficulty: "core", totalMarks: 1,
@@ -307,7 +307,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "123456" },
             { id: "d", text: "Xk9#mQ2$vL" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Passwords", statement: "Guessable = weak." }], steps: [{ reasoning: "123456 is trivially guessed.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 123456" },
+          markscheme: { principles: [{ kind: "principle", name: "Passwords", statement: "Guessable = weak." }], steps: [{ reasoning: "123456 is trivially guessed.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** 123456" },
         },
         {
           id: "olict-u4-ht-q7", difficulty: "foundation", totalMarks: 2,
@@ -336,7 +336,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "One breach exposes all accounts" },
             { id: "d", text: "It is required by law" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Password reuse", statement: "One breach = all." }], steps: [{ reasoning: "One leak compromises everything.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** One breach exposes all accounts" },
+          markscheme: { principles: [{ kind: "principle", name: "Password reuse", statement: "One breach = all." }], steps: [{ reasoning: "One leak compromises everything.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** One breach exposes all accounts" },
         },
         {
           id: "olict-u4-ht-q10", difficulty: "core", totalMarks: 2,
@@ -367,7 +367,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Locking your computer when you leave" },
             { id: "d", text: "Sharing passwords with colleagues" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Security practice", statement: "Lock devices." }], steps: [{ reasoning: "Locking prevents unauthorised access.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Locking your computer when you leave" },
+          markscheme: { principles: [{ kind: "principle", name: "Security practice", statement: "Lock devices." }], steps: [{ reasoning: "Locking prevents unauthorised access.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Locking your computer when you leave" },
         },
         {
           id: "olict-u4-ht-q13", difficulty: "foundation", totalMarks: 2,
@@ -387,7 +387,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Better privacy" },
             { id: "d", text: "Identity theft and fraud" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Data privacy", statement: "Public info = risk." }], steps: [{ reasoning: "Public data enables fraud.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Identity theft and fraud" },
+          markscheme: { principles: [{ kind: "principle", name: "Data privacy", statement: "Public info = risk." }], steps: [{ reasoning: "Public data enables fraud.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Identity theft and fraud" },
         },
         {
           id: "olict-u4-ht-q15", difficulty: "challenge", totalMarks: 4,
@@ -409,7 +409,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Installing antivirus software" },
             { id: "d", text: "Pretending to be IT support to get a password" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Social engineering", statement: "Manipulates people." }], steps: [{ reasoning: "Deceiving people = social engineering.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Pretending to be IT support to get a password" },
+          markscheme: { principles: [{ kind: "definition", name: "Social engineering", statement: "Manipulates people." }], steps: [{ reasoning: "Deceiving people = social engineering.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Pretending to be IT support to get a password" },
         },
       ],
     },

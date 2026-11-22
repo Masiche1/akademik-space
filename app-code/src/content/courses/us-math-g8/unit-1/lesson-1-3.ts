@@ -204,7 +204,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Subtract $2x$ from both sides, then subtract $5$.", working: "3x - 2x = 9 - 5 \\Rightarrow x = 4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x = 4$",
+            finalAnswer: "**(d)** $x = 4$",
             commonErrors: ["Adding $2x$ to both sides: $5x = 14$, giving $\\frac{14}{5}$.", "Subtracting $9$ and $5$ in the wrong direction to get $-4$."],
           },
         },

@@ -270,7 +270,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Ammeter in series.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** In series",
+            finalAnswer: "**(a)** In series",
             commonErrors: ["Parallel confused with voltmeter."],
           },
         },

@@ -67,7 +67,7 @@ export const lesson52: Lesson = {
               { reasoning: "The thread is the sustained line of reasoning.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The central line of reasoning",
+            finalAnswer: "**(a)** The central line of reasoning",
           },
         },
         {
@@ -174,7 +174,7 @@ export const lesson52: Lesson = {
               { reasoning: "The thread is the sustained line of reasoning — each paragraph must advance it, not just add a point.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Every paragraph advances the central claim",
+            finalAnswer: "**(a)** Every paragraph advances the central claim",
           },
         },
         {
@@ -226,7 +226,7 @@ export const lesson52: Lesson = {
               { reasoning: "A broken thread shows as disconnected comparisons — each paragraph a separate exercise unrelated to the thesis.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Disconnected comparisons",
+            finalAnswer: "**(a)** Disconnected comparisons",
           },
         },
         {
@@ -252,7 +252,7 @@ export const lesson52: Lesson = {
               { reasoning: "Escalation is the essay's deepening — from imagery and diction toward theme, context and ideology.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Surface to deeper significance",
+            finalAnswer: "**(a)** Surface to deeper significance",
           },
         },
         {
@@ -278,7 +278,7 @@ export const lesson52: Lesson = {
               { reasoning: "Choice (a) restates what has been established ('both figure loss through metaphor') and pivots to the next question ('what each metaphor makes loss do').", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Restates ground and pivots forward",
+            finalAnswer: "**(c)** Restates ground and pivots forward",
           },
         },
         {
@@ -304,7 +304,7 @@ export const lesson52: Lesson = {
               { reasoning: "Imagery (surface) → character (mid-level) → theme (deep) is a classic escalation — significance accumulates.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Escalation from surface to depth",
+            finalAnswer: "**(d)** Escalation from surface to depth",
           },
         },
         {
@@ -501,7 +501,7 @@ export const lesson52: Lesson = {
               { reasoning: "Counterpoint acknowledges limitations or alternatives — it strengthens the argument.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Acknowledging a limitation",
+            finalAnswer: "**(a)** Acknowledging a limitation",
           },
         },
         {
@@ -632,7 +632,7 @@ export const lesson52: Lesson = {
               { reasoning: "Scope acknowledges where the comparison holds and where it may not extend — e.g. extracts versus whole works.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** The limits of the comparison",
+            finalAnswer: "**(d)** The limits of the comparison",
           },
         },
         {
@@ -658,7 +658,7 @@ export const lesson52: Lesson = {
               { reasoning: "Choice (b) concedes B's apparent weakness ('simpler') and reframes it as achievement ('the point') — classic counterpoint.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Concedes a limitation and reframes it",
+            finalAnswer: "**(a)** Concedes a limitation and reframes it",
           },
         },
         {
@@ -684,7 +684,7 @@ export const lesson52: Lesson = {
               { reasoning: "An alternative reading concedes that another interpretation exists — the essay acknowledges but does not adopt it.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A defensible reading acknowledged but not adopted",
+            finalAnswer: "**(d)** A defensible reading acknowledged but not adopted",
           },
         },
         {
@@ -700,7 +700,7 @@ export const lesson52: Lesson = {
               { id: "c", text: "Only in the conclusion" },
               { id: "d", text: "Only in footnotes" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -710,7 +710,7 @@ export const lesson52: Lesson = {
               { reasoning: "Counterpoint is flexible — 'although/while' clauses can qualify any claim — and distributed use keeps the essay honest throughout.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (c) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Any paragraph; strongest when distributed",
+            finalAnswer: "**(b)** Any paragraph; strongest when distributed",
           },
         },
         {
@@ -736,7 +736,7 @@ export const lesson52: Lesson = {
               { reasoning: "Effective counterpoint concedes a genuine strength in the other text — 'brevity achieves a starkness' — testing the claim.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Concedes B's distinct achievement",
+            finalAnswer: "**(d)** Concedes B's distinct achievement",
           },
         },
         {

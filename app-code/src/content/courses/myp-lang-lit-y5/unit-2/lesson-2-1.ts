@@ -64,7 +64,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Passive voice and agency", statement: "Passive voice can obscure responsibility." }],
             steps: [{ reasoning: "Criterion A (Analysing): passive hides agency — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** It can hide who is responsible",
+            finalAnswer: "**(d)** It can hide who is responsible",
           },
         },
         {
@@ -149,7 +149,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Passive voice and agency", statement: "Passive voice can obscure responsibility." }],
             steps: [{ reasoning: "Criterion A (Analysing): passive hides the agent — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** It can hide who is responsible for an action",
+            finalAnswer: "**(d)** It can hide who is responsible for an action",
           },
         },
         {
@@ -195,7 +195,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Nominalization", statement: "Turning verbs into nouns can hide agency." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'reached a decision' = nominalization; 'decided' = direct verb — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** It uses nominalization — 'reached a decision' turns the action into a noun",
+            finalAnswer: "**(c)** It uses nominalization — 'reached a decision' turns the action into a noun",
           },
         },
         {
@@ -221,7 +221,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Bureaucratic power", statement: "Euphemism and formality can assert authority indirectly." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'kindly be advised', 'not optional' — polite surface, commanding underneath — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** It uses bureaucratic indirectness and euphemism to assert authority while appearing polite",
+            finalAnswer: "**(c)** It uses bureaucratic indirectness and euphemism to assert authority while appearing polite",
           },
         },
         {
@@ -242,7 +242,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Hegemony", statement: "Dominance maintained through consent — power seems natural." }],
             steps: [{ reasoning: "Criterion A (Analysing): hegemony = consent-based dominance — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Dominance maintained through consent — when the powerful seem natural and unquestioned",
+            finalAnswer: "**(a)** Dominance maintained through consent — when the powerful seem natural and unquestioned",
           },
         },
         {
@@ -304,7 +304,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Imperative", statement: "Commanding language asserts authority." }],
             steps: [{ reasoning: "Criterion A (Analysing): imperative = command — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Commanding language — 'Do this', 'You must'",
+            finalAnswer: "**(c)** Commanding language — 'Do this', 'You must'",
           },
         },
         {
@@ -373,7 +373,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Critical reading", statement: "Ask who benefits from obscured agency." }],
             steps: [{ reasoning: "Criterion A (Analysing): passive hides agent; critical question = who benefits — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Who benefits from hiding who made the mistakes?",
+            finalAnswer: "**(c)** Who benefits from hiding who made the mistakes?",
           },
         },
         {
@@ -532,7 +532,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Code-switching", statement: "Switching between languages/dialects by context." }],
             steps: [{ reasoning: "Criterion A (Analysing): code-switching = contextual language switching — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Switching between languages or dialects depending on context",
+            finalAnswer: "**(c)** Switching between languages or dialects depending on context",
           },
         },
         {
@@ -573,7 +573,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Labels and identity", statement: "Labels carry different connotations and identity implications." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'newcomer' neutral/temporary vs 'immigrant' status-loaded — different identity signals — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** 'Newcomer' emphasises recent arrival neutrally; 'immigrant' emphasises permanent migration status",
+            finalAnswer: "**(a)** 'Newcomer' emphasises recent arrival neutrally; 'immigrant' emphasises permanent migration status",
           },
         },
         {
@@ -599,7 +599,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Code-switching", statement: "Language adapts to context — each version is authentic." }],
             steps: [{ reasoning: "Criterion A (Analysing): work vs friends = register shift = code-switching — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Code-switching — she adapts her language to context",
+            finalAnswer: "**(d)** Code-switching — she adapts her language to context",
           },
         },
         {
@@ -620,7 +620,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Person-first vs identity-first", statement: "Different ordering of person and attribute changes emphasis." }],
             steps: [{ reasoning: "Criterion A (Analysing): person-first = attribute secondary; identity-first = identity central — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Person-first puts the person before the attribute; identity-first centres the identity",
+            finalAnswer: "**(a)** Person-first puts the person before the attribute; identity-first centres the identity",
           },
         },
         {
@@ -751,7 +751,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Dialect and identity", statement: "Dialect signals regional/social belonging." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'y'all', dropped 'g' — regional dialect marks community identity — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Regional and social identity — dialect marks belonging to a particular community",
+            finalAnswer: "**(a)** Regional and social identity — dialect marks belonging to a particular community",
           },
         },
         {

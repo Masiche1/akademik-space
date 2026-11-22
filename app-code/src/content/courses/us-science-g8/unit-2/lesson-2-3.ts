@@ -192,7 +192,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Digital signals travel faster than the speed of light" },
               { id: "d", text: "The receiver only has to decide between 1 and 0, so a clean signal can be regenerated" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -201,7 +201,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Only two values need to be distinguished, so small noise can be ignored and a clean copy can be made.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** The receiver only has to decide between 1 and 0, so a clean signal can be regenerated",
+            finalAnswer: "**(d)** The receiver only has to decide between 1 and 0, so a clean signal can be regenerated",
             commonErrors: ["Choosing (a): digital signals can be affected by noise, but small errors can be corrected.", "Choosing (b): no signal travels faster than light."],
             examinerNote: "B1 for recognizing 1 or 0 / regeneration.",
           },

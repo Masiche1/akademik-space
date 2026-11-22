@@ -411,7 +411,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac{\\pi}{5}$",
+            finalAnswer: "**(b)** $\\frac{\\pi}{5}$",
             commonErrors: [
               "Integrating $y^2=x^2$ instead of $x^4$.",
               "Dropping the factor $\\pi$.",
@@ -456,7 +456,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac{\\pi}{2}$",
+            finalAnswer: "**(c)** $\\frac{\\pi}{2}$",
             commonErrors: [
               "Using $x^2=y^2$ instead of $x^2=y$.",
               "Keeping $x$-limits.",
@@ -502,7 +502,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $9\\pi$",
+            finalAnswer: "**(b)** $9\\pi$",
             commonErrors: [
               "Using $x$-limits $0$ to $3$ with $x^2$ instead of converting to $y$.",
               "Computing the cylinder volume $\\pi r^2h=27\\pi$ when the solid is actually a cone.",
@@ -631,7 +631,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac{2\\pi}{15}$",
+            finalAnswer: "**(b)** $\\frac{2\\pi}{15}$",
             commonErrors: [
               "Squaring the difference $(x-x^2)^2$ instead of subtracting squares.",
               "Adding the squares instead of subtracting.",
@@ -1113,7 +1113,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac{3\\pi}{2}$",
+            finalAnswer: "**(b)** $\\frac{3\\pi}{2}$",
             commonErrors: [
               "Using $x$-limit $\\ln2$ incorrectly as $2$.",
               "Forgetting that $e^{2\\ln2}=4$, not $2$.",
@@ -1192,7 +1192,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $y=Ae^{x^2}$",
+            finalAnswer: "**(c)** $y=Ae^{x^2}$",
             commonErrors: [
               "Integrating $2xy$ with respect to $x$ treating $y$ as constant.",
             ],
@@ -1516,7 +1516,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $y=Ax$",
+            finalAnswer: "**(d)** $y=Ax$",
             commonErrors: [
               "Integrating $\\frac yx$ with respect to $x$ treating $y$ as constant.",
               "Forgetting the constant of integration.",
@@ -1562,7 +1562,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $y=\\sqrt{x^2+c}$",
+            finalAnswer: "**(b)** $y=\\sqrt{x^2+c}$",
             commonErrors: [
               "Integrating $\\frac xy$ as $\\frac xy$ without separating.",
               "Keeping $y^2=x^2+c$ without the square root.",
@@ -1608,7 +1608,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $e$",
+            finalAnswer: "**(a)** $e$",
             commonErrors: [
               "Forgetting the constant of integration.",
               "Evaluating $e^1$ as $1$.",
@@ -1699,7 +1699,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $y=(x+C)e^{-x}$",
+            finalAnswer: "**(d)** $y=(x+C)e^{-x}$",
             commonErrors: [
               "Using $I=e^{-x}$ (wrong sign).",
               "Leaving $ye^x=x+C$ without dividing.",
@@ -1840,7 +1840,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $y=vx$",
+            finalAnswer: "**(b)** $y=vx$",
             commonErrors: [
               "Choosing $u=y/x$ without remembering $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$.",
             ],

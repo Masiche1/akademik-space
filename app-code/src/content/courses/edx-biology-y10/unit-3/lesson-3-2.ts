@@ -69,7 +69,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The diaphragm contracts and flattens, increasing the volume, so the pressure falls and air moves in.", working: "\\text{contracts, flattens; pressure decreases}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(b)**",
             commonErrors: ["Choosing (d), which describes exhalation.", "Thinking an increase in volume increases pressure."],
             examinerNote: "B1 for (a).",
           },
@@ -210,7 +210,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Guard cells become turgid to open the stoma and flaccid to close it.", working: "\\text{guard cells}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Guard cells",
+            finalAnswer: "**(c)** Guard cells",
             commonErrors: ["Choosing palisade cells because they are the main site of photosynthesis."],
             examinerNote: "B1 for (b).",
           },

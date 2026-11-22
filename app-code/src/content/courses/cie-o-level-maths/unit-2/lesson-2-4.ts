@@ -370,7 +370,7 @@ export const lesson24: Lesson = {
             { id: "b", text: "13" },
             { id: "c", text: "12" },
             { id: "d", text: "15" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "formula", name: "Sum", statement: "$S_n=n(2n+1)$." }], steps: [{ reasoning: "$n(2n+1)=406$ → $2n^2+n-406=0$ → $n=14$ (reject negative).", marks: 1, markCode: "A" }], finalAnswer: "14" },
         },
       ],

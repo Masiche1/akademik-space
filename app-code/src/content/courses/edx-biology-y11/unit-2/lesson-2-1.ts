@@ -69,7 +69,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Asexual reproduction uses mitosis in one parent only, so offspring are clones.", working: "\\text{one parent, identical offspring}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(d)**",
             commonErrors: ["Confusing asexual with sexual reproduction, which involves gametes and meiosis.", "Thinking clones show variation."],
             examinerNote: "B1 for (b).",
           },
@@ -206,7 +206,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Sperm swim up through the uterus into the oviduct, where they meet the egg. The embryo then moves to the uterus to implant.", working: "\\text{oviduct}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Oviduct",
+            finalAnswer: "**(c)** Oviduct",
             commonErrors: ["Choosing the uterus, where implantation and development happen.", "Choosing the ovary, where eggs are made and released."],
             examinerNote: "B1 for oviduct. Allow fallopian tube.",
           },

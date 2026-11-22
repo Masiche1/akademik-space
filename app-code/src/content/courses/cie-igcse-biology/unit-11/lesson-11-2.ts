@@ -65,7 +65,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall the cause.", working: "\\text{nitrates/phosphates}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Excess nutrients (nitrates/phosphates) in water",
+            finalAnswer: "**(d)** Excess nutrients (nitrates/phosphates) in water",
             commonErrors: ["Choosing acid rain — that's SO₂ pollution."],
           },
         },
@@ -159,7 +159,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall the main gas.", working: "SO_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sulphur dioxide",
+            finalAnswer: "**(d)** Sulphur dioxide",
             commonErrors: ["Choosing CO₂ — that is a greenhouse gas, not the main acid rain gas."],
           },
         },
@@ -185,7 +185,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{heat trapped}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Trapping of heat by gases in the atmosphere",
+            finalAnswer: "**(b)** Trapping of heat by gases in the atmosphere",
             commonErrors: ["Confusing with the ozone hole — different atmospheric issue."],
           },
         },
@@ -211,7 +211,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Identify the major CO₂ source.", working: "\\text{fossil fuels}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Burning fossil fuels",
+            finalAnswer: "**(b)** Burning fossil fuels",
             commonErrors: ["Choosing planting trees — trees absorb CO₂."],
           },
         },
@@ -275,7 +275,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall the trigger.", working: "\\text{nutrient enrichment}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Excess nitrate/phosphate enters the water",
+            finalAnswer: "**(b)** Excess nitrate/phosphate enters the water",
             commonErrors: ["Choosing (b) — eutrophication starts with nutrients, not fish reproduction."],
           },
         },
@@ -340,7 +340,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall a consequence.", working: "\\text{sea level rise}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sea level rise",
+            finalAnswer: "**(b)** Sea level rise",
             commonErrors: ["Choosing (c) — global warming means warmer, not colder."],
           },
         },
@@ -455,7 +455,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{replenish stocks}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fishing at levels allowing stocks to replenish",
+            finalAnswer: "**(c)** Fishing at levels allowing stocks to replenish",
             commonErrors: ["Choosing 'catch as many as possible' — that's overfishing."],
           },
         },
@@ -576,7 +576,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Identify the conservation method.", working: "\\text{protected areas}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Creating protected areas / national parks",
+            finalAnswer: "**(b)** Creating protected areas / national parks",
             commonErrors: ["Choosing overfishing or clear-cutting — those destroy resources."],
           },
         },
@@ -602,7 +602,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall the importance.", working: "\\text{stability + resources}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It maintains ecosystem stability and provides resources",
+            finalAnswer: "**(d)** It maintains ecosystem stability and provides resources",
             commonErrors: ["Choosing (d) — biodiversity value applies to all species, not just rare ones."],
           },
         },
@@ -687,7 +687,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Identify the unsustainable option.", working: "\\text{clear-cutting}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Clear-cutting an entire forest every year",
+            finalAnswer: "**(b)** Clear-cutting an entire forest every year",
             commonErrors: ["Choosing (b), (c) or (d) — those are sustainable practices."],
           },
         },
@@ -772,7 +772,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Identify the renewable source.", working: "\\text{wind}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Wind power",
+            finalAnswer: "**(d)** Wind power",
             commonErrors: ["Choosing coal/gas/petrol — those are finite fossil fuels."],
           },
         },

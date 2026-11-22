@@ -231,7 +231,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Formal register", statement: "Polite, precise phrasing and no slang." }],
             steps: [{ reasoning: "‘I would be grateful if you would consider’ is polite and precise.", evidence: "I would be grateful if you would consider the points below", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(b)** Formal.",
+            finalAnswer: "**(d)** Formal.",
             commonErrors: ["Choosing ‘aggressive’ because of the word ‘concern’.", "Confusing Opening A with Opening B."],
           },
         },

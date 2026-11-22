@@ -113,7 +113,7 @@ export const lesson45: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Competing by being the lowest-cost producer",
+        finalAnswer: "**(d)** Competing by being the lowest-cost producer",
       },
     },
     {
@@ -151,7 +151,7 @@ export const lesson45: Lesson = {
           },
         ],
         finalAnswer:
-          "**(b)** Offering unique, valued products that customers prefer",
+          "**(a)** Offering unique, valued products that customers prefer",
       },
     },
     {
@@ -384,7 +384,7 @@ export const lesson45: Lesson = {
           { id: "c", text: "Diversification" },
           { id: "d", text: "Market development" },
         ],
-        aorrectChoiceId: "c",
+        correctChoiceId: "a",
       },
       markscheme: {
         principles: [
@@ -402,7 +402,7 @@ export const lesson45: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(c)** Market penetration",
+        finalAnswer: "**(a)** Market penetration",
       },
     },
     {
@@ -696,7 +696,7 @@ export const lesson45: Lesson = {
           },
         ],
         finalAnswer:
-          "**(b)** A business allowing others to use its brand and model for a fee",
+          "**(a)** A business allowing others to use its brand and model for a fee",
       },
     },
     {

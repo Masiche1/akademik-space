@@ -66,7 +66,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Each term increases by $3$.", working: "d=3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3$",
+            finalAnswer: "**(c)** $3$",
             commonErrors: ["Choosing (c) — that's a term, not the difference."],
           },
         },
@@ -171,7 +171,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "$17-11=6$.", working: "d=6", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $6$",
+            finalAnswer: "**(c)** $6$",
           },
         },
         {
@@ -213,7 +213,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "$12\\div4=3$.", working: "r=3", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $3$",
+            finalAnswer: "**(b)** $3$",
           },
         },
         {
@@ -255,7 +255,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "$4,8,16,32$ has ratio $2$.", working: "r=2", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $4,8,16,32$",
+            finalAnswer: "**(a)** $4,8,16,32$",
           },
         },
         {
@@ -298,7 +298,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "$a_1=7(1)-4=3$.", working: "3", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $3$",
+            finalAnswer: "**(c)** $3$",
           },
         },
         {
@@ -359,7 +359,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "$d=5$, so the 10th term is $53$.", working: "53", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $53$",
+            finalAnswer: "**(c)** $53$",
           },
         },
         {
@@ -459,7 +459,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "$c$ = hypotenuse by convention.", working: "hypotenuse", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The hypotenuse",
+            finalAnswer: "**(c)** The hypotenuse",
             commonErrors: ["Choosing (d) — $c$ specifically is hypotenuse."],
           },
         },
@@ -564,7 +564,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "$36+64=100$.", working: "100", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $6,8,10$",
+            finalAnswer: "**(c)** $6,8,10$",
           },
         },
         {
@@ -648,7 +648,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "$d^2=l^2+w^2$.", working: "\\sqrt{l^2+w^2}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\sqrt{l^2+w^2}$",
+            finalAnswer: "**(c)** $\\sqrt{l^2+w^2}$",
           },
         },
         {
@@ -690,7 +690,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "The triangle is half the corresponding rectangle.", working: "\\frac12bh", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac12bh$",
+            finalAnswer: "**(b)** $\\frac12bh$",
           },
         },
         {
@@ -752,7 +752,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "$b=\\sqrt{169-25}=\\sqrt{144}=12$.", working: "12", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $12$",
+            finalAnswer: "**(d)** $12$",
           },
         },
         {

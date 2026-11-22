@@ -60,7 +60,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$0.375$" },
               { id: "d", text: "$\\pi$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -70,7 +70,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$0.375=\\frac{3}{8}$, $\\sqrt{4}=2$ and $\\frac{7}{9}$ is already a fraction, so all three are rational.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\pi$",
+            finalAnswer: "**(d)** $\\pi$",
             commonErrors: ["Choosing $\\sqrt{4}$, forgetting that $\\sqrt{4}=2$ is rational.", "Thinking all decimals are irrational — only non-terminating, non-recurring ones are."],
             examinerNote: "Award the mark for identifying $\\pi$ as the only number that cannot be written as a fraction.",
           },
@@ -183,7 +183,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$0.\\dot{6}=0.666\\ldots$ is a recurring decimal, so it can be written as a fraction and is rational; $\\sqrt{3}$, $\\pi$ and $\\sqrt{12}=2\\sqrt{3}$ are irrational.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0.\\dot{6}$",
+            finalAnswer: "**(d)** $0.\\dot{6}$",
             commonErrors: ["Thinking every decimal is irrational — recurring decimals are rational.", "Choosing $\\sqrt{12}$ without simplifying it to $2\\sqrt{3}$."],
           },
         },
@@ -233,7 +233,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$12=2^2\\times3$ and $18=2\\times3^2$, so the HCF is $2\\times3=6$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $6$",
+            finalAnswer: "**(a)** $6$",
             commonErrors: ["Answering 36, which is the LCM not the HCF.", "Listing only the common prime 2 and missing the factor 3."],
           },
         },
@@ -367,7 +367,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$-3$ is a whole number; $\\frac{2}{5}$, $\\sqrt{2}$ and $0.\\dot{3}$ all have non-zero fractional parts.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $-3$",
+            finalAnswer: "**(c)** $-3$",
             commonErrors: ["Thinking $0.\\dot{3}$ is not rational — it is rational but not an integer.", "Forgetting that negative whole numbers are integers."],
           },
         },
@@ -487,7 +487,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$36$" },
               { id: "d", text: "$64$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -496,7 +496,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Multiply the indices: $(2^3)^2=2^{3\\times2}=2^6$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $64$",
+            finalAnswer: "**(d)** $64$",
             commonErrors: ["Multiplying the base by the outer index to get 12.", "Adding indices inside to get $2^5=32$.", "Computing $6^3=216$ by multiplying bases."],
           },
         },
@@ -599,7 +599,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Add the indices, keeping the base unchanged.", working: "5^{3+2}=5^5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5^5$",
+            finalAnswer: "**(c)** $5^5$",
             commonErrors: ["Multiplying the indices to get $5^6$.", "Multiplying the bases to get $10^5$."],
           },
         },
@@ -643,7 +643,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The index $\\frac14$ means the fourth root; $\\sqrt[4]{16}=2$ since $2^4=16$.", working: "16^{\\frac14}=\\sqrt[4]{16}=2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2$",
+            finalAnswer: "**(d)** $2$",
             commonErrors: ["Reading $\\frac14$ as division and computing $16\\div4=4$.", "Taking the square root to get 4."],
           },
         },
@@ -765,7 +765,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Any non-zero number to the power 0 equals 1.", working: "7^0=1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $1$",
+            finalAnswer: "**(d)** $1$",
             commonErrors: ["Answering 0, confusing the index with the value.", "Answering 7 by ignoring the exponent."],
           },
         },

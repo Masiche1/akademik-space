@@ -67,7 +67,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "$a=\\frac{F}{m}=\\frac{30}{6}=5$ m/s$^2$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5$ m/s$^2$",
+            finalAnswer: "**(b)** $5$ m/s$^2$",
             commonErrors: ["Multiplying $F$ by $m$ instead of dividing."],
           },
         },

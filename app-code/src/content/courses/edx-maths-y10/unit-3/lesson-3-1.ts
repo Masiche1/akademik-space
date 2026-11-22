@@ -193,7 +193,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "$145^\\circ$" },
               { id: "d", text: "$35^\\circ$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Angle at the centre", statement: "The angle at the centre is twice the angle at the circumference on the same arc." }],
@@ -201,7 +201,7 @@ export const lesson31: Lesson = {
               { reasoning: "Double the angle at the circumference.", working: "2\\times35", marks: 1, markCode: "M" },
               { reasoning: "Evaluate.", working: "70", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $70^\\circ$",
+            finalAnswer: "**(a)** $70^\\circ$",
             commonErrors: ["Halving instead of doubling, giving $17.5^\\circ$.", "Using $180-35=145$."],
           },
         },

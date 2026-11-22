@@ -520,7 +520,7 @@ export const lesson99: Lesson = {
                 text: "60%",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

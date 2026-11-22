@@ -125,7 +125,7 @@ export const lesson111: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Author credentials, evidence, and balanced presentation.",
+              "**(c)**. Author credentials, evidence, and balanced presentation.",
             commonErrors: [
               "Choosing (d) — agreeing with you doesn't make a source credible.",
             ],
@@ -367,7 +367,7 @@ export const lesson111: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Quoting = exact words in quotes; paraphrasing = own words.",
+              "**(c)**. Quoting = exact words in quotes; paraphrasing = own words.",
             commonErrors: [
               "Thinking paraphrasing doesn't need citation — both do.",
             ],

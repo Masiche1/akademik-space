@@ -42,7 +42,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Banking only" },
             { id: "d", text: "Traditional retail" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "E-commerce", statement: "Online trade." }], steps: [{ reasoning: "Online buying/selling.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "E-commerce", statement: "Online trade." }], steps: [{ reasoning: "Online buying/selling.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u6-tech-q2", difficulty: "core", totalMarks: 2,
@@ -109,7 +109,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Reaching customers beyond the local area" },
             { id: "d", text: "Eliminating all competition" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "E-commerce", statement: "Market reach." }], steps: [{ reasoning: "Online selling widens the market.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "E-commerce", statement: "Market reach." }], steps: [{ reasoning: "Online selling widens the market.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u6-tech-q7", difficulty: "core", totalMarks: 1,
@@ -120,7 +120,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "No change in skills required" },
             { id: "d", text: "The need for retraining as jobs change" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Technology challenge", statement: "Skills gap." }], steps: [{ reasoning: "Workers must adapt skills.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Technology challenge", statement: "Skills gap." }], steps: [{ reasoning: "Workers must adapt skills.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u6-tech-q8", difficulty: "core", totalMarks: 1,
@@ -131,7 +131,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Eliminating costs" },
             { id: "d", text: "Stopping competitors" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Data analytics", statement: "Insight tool." }], steps: [{ reasoning: "Data improves decisions.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Data analytics", statement: "Insight tool." }], steps: [{ reasoning: "Data improves decisions.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u6-tech-q9", difficulty: "core", totalMarks: 1,
@@ -142,7 +142,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "A competitive advantage" },
             { id: "d", text: "Freedom from legislation" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Technology advantage", statement: "Competitiveness." }], steps: [{ reasoning: "Tech edge = advantage over rivals.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Technology advantage", statement: "Competitiveness." }], steps: [{ reasoning: "Tech edge = advantage over rivals.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u6-tech-q10", difficulty: "core", totalMarks: 2,
@@ -253,7 +253,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Paying workers at least the legal minimum" },
             { id: "d", text: "No working hours limit" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Minimum wage", statement: "Legal pay floor." }], steps: [{ reasoning: "Minimum pay required.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Minimum wage", statement: "Legal pay floor." }], steps: [{ reasoning: "Minimum pay required.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u6-leg-q2", difficulty: "core", totalMarks: 2,
@@ -320,7 +320,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Staff holidays" },
             { id: "d", text: "Product safety and fair trading" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Consumer protection", statement: "Fair treatment." }], steps: [{ reasoning: "Safety and fair trading.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Consumer protection", statement: "Fair treatment." }], steps: [{ reasoning: "Safety and fair trading.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u6-leg-q7", difficulty: "core", totalMarks: 1,
@@ -331,7 +331,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Reduced tax automatically" },
             { id: "d", text: "Fines or even closure" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Non-compliance", statement: "Penalties." }], steps: [{ reasoning: "Fines/closure are penalties.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Non-compliance", statement: "Penalties." }], steps: [{ reasoning: "Fines/closure are penalties.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u6-leg-q8", difficulty: "core", totalMarks: 1,
@@ -342,7 +342,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Hire only local staff" },
             { id: "d", text: "Treat all workers and customers fairly and equally" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Anti-discrimination", statement: "Equal treatment." }], steps: [{ reasoning: "Equal treatment required.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Anti-discrimination", statement: "Equal treatment." }], steps: [{ reasoning: "Equal treatment required.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u6-leg-q9", difficulty: "core", totalMarks: 1,
@@ -353,7 +353,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "The highest allowed profit" },
             { id: "d", text: "A legal minimum hourly pay for workers" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Minimum wage", statement: "Pay floor." }], steps: [{ reasoning: "Legal minimum pay.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Minimum wage", statement: "Pay floor." }], steps: [{ reasoning: "Legal minimum pay.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u6-leg-q10", difficulty: "core", totalMarks: 2,

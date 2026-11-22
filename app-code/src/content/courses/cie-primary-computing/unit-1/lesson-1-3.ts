@@ -231,7 +231,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Fruit vs vegetable is a clear feature-based rule; colour would also work but 'fruit or vegetable' best matches the mixed list.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** By whether they are fruit or a vegetable",
+            finalAnswer: "**(a)** By whether they are fruit or a vegetable",
           },
         },
         {
@@ -280,7 +280,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Grouping red pens together uses the shared feature 'red' — that is classifying.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Putting all the red pens in one pot",
+            finalAnswer: "**(d)** Putting all the red pens in one pot",
           },
         },
         {
@@ -309,14 +309,14 @@ export const lesson13: Lesson = {
             { id: "b", text: "By how much you personally like each toy" },
             { id: "c", text: "By size" },
             { id: "d", text: "By type (cars, dolls, balls)" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "skill", name: "Good sorting rules", statement: "Rules must be clear and consistent." }],
             steps: [
               { reasoning: "Colour, type and size are objective features everyone can apply consistently.", marks: 1, markCode: "M" },
               { reasoning: "'How much you like it' is a personal feeling — different people would sort differently.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** By how much you personally like each toy",
+            finalAnswer: "**(b)** By how much you personally like each toy",
           },
         },
         {

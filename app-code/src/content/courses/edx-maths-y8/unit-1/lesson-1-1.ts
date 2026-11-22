@@ -202,7 +202,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$36=2\\times2\\times3\\times3$, and 2 and 3 are both prime.", working: "36=2^2\\times3^2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2^2\\times3^2$",
+            finalAnswer: "**(d)** $2^2\\times3^2$",
             commonErrors: ["Choosing $4\\times9$, where 4 and 9 are not prime.", "Choosing $2^3\\times3=24$ or $2\\times3^3=54$ without checking the product."],
           },
         },

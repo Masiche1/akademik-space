@@ -66,7 +66,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "All three angles $60°$ → equilateral triangle.", working: "60=60=60", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Equilateral",
+            finalAnswer: "**(b)** Equilateral",
             commonErrors: ["Choosing (b) — isosceles has only TWO equal angles."],
           },
         },
@@ -162,7 +162,7 @@ export const lesson52: Lesson = {
               { id: "c", text: "Isosceles" },
               { id: "d", text: "Scalene" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -171,7 +171,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "All sides different → scalene.", working: "scalene", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Scalene",
+            finalAnswer: "**(d)** Scalene",
             commonErrors: ["Choosing (b) — isosceles has two equal sides."],
           },
         },
@@ -223,7 +223,7 @@ export const lesson52: Lesson = {
               { id: "c", text: "Obtuse" },
               { id: "d", text: "Right-angled" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -232,7 +232,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "One angle $=90°$ → right-angled.", working: "90°", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Right-angled",
+            finalAnswer: "**(d)** Right-angled",
             commonErrors: ["Confusing angle classification with side classification."],
           },
         },
@@ -295,7 +295,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "$180\\div3 = 60°$ each.", working: "60°", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $60°$",
+            finalAnswer: "**(c)** $60°$",
             commonErrors: ["Choosing (d) — that's a hexagon's interior angle."],
           },
         },
@@ -339,7 +339,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Two equal angles → two equal sides → isosceles.", working: "isosceles", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Isosceles",
+            finalAnswer: "**(d)** Isosceles",
             commonErrors: ["Choosing (c) — equal angles imply equal opposite sides."],
           },
         },
@@ -400,7 +400,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "$180\\div12 = 15$ per part; smallest $=3\\times15=45°$.", working: "3\\times15=45", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $45°$",
+            finalAnswer: "**(c)** $45°$",
             commonErrors: ["Choosing (a) — that's $2$ parts, not $3$."],
           },
         },
@@ -477,7 +477,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "$(n-2)\\times180 = 4\\times180 = 720°$.", working: "4\\times180=720", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $720°$",
+            finalAnswer: "**(c)** $720°$",
             commonErrors: ["Choosing (a) — that's pentagon ($5-2=3\\times180=540$)."],
           },
         },
@@ -643,7 +643,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "$n = 360\\div30 = 12$ sides.", working: "360\\div30=12", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $12$ sides",
+            finalAnswer: "**(d)** $12$ sides",
             commonErrors: ["$360\\times30$ — divide, not multiply."],
           },
         },
@@ -740,7 +740,7 @@ export const lesson52: Lesson = {
               { id: "c", text: "$15$" },
               { id: "d", text: "$12$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -749,7 +749,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Exterior $=180-150=30°$; $n=360\\div30=12$.", working: "n=12", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $12$ sides",
+            finalAnswer: "**(d)** $12$ sides",
             commonErrors: ["Choosing (a) — that would need exterior $36°$."],
           },
         },
@@ -801,7 +801,7 @@ export const lesson52: Lesson = {
               { id: "c", text: "$6$" },
               { id: "d", text: "$7$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -810,7 +810,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "$900\\div180 = 5$; $n = 5+2 = 7$ sides.", working: "n=7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $7$ sides",
+            finalAnswer: "**(d)** $7$ sides",
             commonErrors: ["Choosing (b) — forgetting to add 2 back."],
           },
         },

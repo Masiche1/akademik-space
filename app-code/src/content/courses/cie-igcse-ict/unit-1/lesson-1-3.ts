@@ -269,7 +269,7 @@ export const lesson83: Lesson = {
               { id: "c", text: "Number" },
               { id: "d", text: "Date" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

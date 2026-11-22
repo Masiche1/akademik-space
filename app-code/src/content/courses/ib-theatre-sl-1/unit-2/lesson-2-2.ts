@@ -330,7 +330,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The transformation or development they undergo",
+              "**(c)** The transformation or development they undergo",
             commonErrors: [
               "Confusing character arc with physical description.",
             ],
@@ -419,7 +419,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Hidden motivation, self-deception or inner conflict",
+              "**(d)** Hidden motivation, self-deception or inner conflict",
             commonErrors: [
               "Reading contradiction as inconsistency rather than depth.",
             ],
@@ -513,7 +513,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Does not change significantly throughout the play",
+              "**(c)** Does not change significantly throughout the play",
             commonErrors: [
               "Confusing static with minor or supporting characters.",
             ],
@@ -662,7 +662,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Drive the main plot and whose journey the audience follows",
+              "**(d)** Drive the main plot and whose journey the audience follows",
             commonErrors: [
               "Confusing protagonist with antagonist or narrator.",
             ],
@@ -843,7 +843,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Highlight change in others by contrast",
+            finalAnswer: "**(b)** Highlight change in others by contrast",
             commonErrors: ["Assuming static characters lack dramatic purpose."],
           },
         },
@@ -977,7 +977,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Their actions, others' reactions and subtext",
+            finalAnswer: "**(a)** Their actions, others' reactions and subtext",
             commonErrors: [
               "Treating dialogue as the sole source of character information.",
             ],
@@ -1166,7 +1166,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The struggle between characters, within a character, or against society",
+              "**(a)** The struggle between characters, within a character, or against society",
             commonErrors: ["Reducing conflict to loud arguments only."],
           },
         },
@@ -1380,7 +1380,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Who dominates, controls or depends on whom",
+            finalAnswer: "**(a)** Who dominates, controls or depends on whom",
             commonErrors: [
               "Confusing power dynamics with volume or physical proximity.",
             ],
@@ -1467,7 +1467,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** A struggle within a single character",
+            finalAnswer: "**(d)** A struggle within a single character",
             commonErrors: [
               "Confusing internal conflict with interpersonal conflict.",
             ],
@@ -1556,7 +1556,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Between characters",
+            finalAnswer: "**(c)** Between characters",
             commonErrors: ["Confusing interpersonal with internal conflict."],
           },
         },
@@ -1703,7 +1703,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A character struggling against society or its norms",
+              "**(c)** A character struggling against society or its norms",
             commonErrors: [
               "Confusing societal conflict with interpersonal conflict.",
             ],
@@ -1882,7 +1882,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Understanding overcoming division",
+            finalAnswer: "**(d)** Understanding overcoming division",
             commonErrors: [
               "Describing the arc without extracting its thematic argument.",
             ],
@@ -2019,7 +2019,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The play's resolution and position on human connection",
+              "**(a)** The play's resolution and position on human connection",
             commonErrors: ["Ignoring relationships when analysing the ending."],
           },
         },

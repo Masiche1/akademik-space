@@ -235,7 +235,7 @@ export const lesson413: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "Public good", "statement": "Non-rival, non-excludable." } ],
           "steps": [ { "reasoning": "National defence is non-rival and non-excludable; the other options are private goods.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** National defence"
+          "finalAnswer": "**(b)** National defence"
 },
         },
         {
@@ -254,7 +254,7 @@ export const lesson413: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "Free rider problem", "statement": "Non-excludability prevents charging." } ],
           "steps": [ { "reasoning": "Because non-payers cannot be excluded, no one has an incentive to pay, so the market underprovides the good.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** the good is non-excludable, so people can consume it without paying"
+          "finalAnswer": "**(c)** the good is non-excludable, so people can consume it without paying"
 },
         },
         {
@@ -273,7 +273,7 @@ export const lesson413: Lesson = {
           markscheme: {
           "principles": [ { "kind": "principle", "name": "Negative externality", "statement": "MSC > MPC leads to overproduction." } ],
           "steps": [ { "reasoning": "Producers only consider private costs, so they produce beyond the point where MSC = MSB — output exceeds the social optimum.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(b)** greater than the social optimum"
+          "finalAnswer": "**(d)** greater than the social optimum"
 },
         },
         {
@@ -287,12 +287,12 @@ export const lesson413: Lesson = {
             { "id": "c", "text": "raise the price paid by consumers" },
             { "id": "d", "text": "reduce output to the free-market level" }
           ],
-          "aorrectChoiceId": "c"
+          "correctChoiceId": "a"
 },
           markscheme: {
           "principles": [ { "kind": "principle", "name": "Positive externality", "statement": "MSB > MPB leads to underproduction; subsidy corrects it." } ],
           "steps": [ { "reasoning": "A subsidy lowers producers' costs, encouraging output to rise from the free-market level towards the social optimum where MSB = MSC.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(c)** move output closer to the social optimum"
+          "finalAnswer": "**(a)** move output closer to the social optimum"
 },
         },
         {
@@ -311,7 +311,7 @@ export const lesson413: Lesson = {
           markscheme: {
           "principles": [ { "kind": "principle", "name": "Information asymmetry", "statement": "Hidden information distorts market outcomes." } ],
           "steps": [ { "reasoning": "Adverse selection and moral hazard mean prices and quantities no longer reflect true values — e.g. the 'lemons' problem can collapse a market.", "marks": 1, "markCode": "A" } ],
-          "finalAnswer": "**(a)** one party knows more than the other, so transactions are distorted or may not occur"
+          "finalAnswer": "**(b)** one party knows more than the other, so transactions are distorted or may not occur"
 },
         },
         {

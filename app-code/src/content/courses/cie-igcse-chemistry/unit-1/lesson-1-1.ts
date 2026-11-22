@@ -49,11 +49,11 @@ export const lesson111: Lesson = {
             { id: "b", text: "Gas" },
             { id: "c", text: "All equal" },
             { id: "d", text: "Liquid" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Particle energy", statement: "Gas > liquid > solid." }],
             steps: [{ reasoning: "Gas particles move fastest.", working: "\\text{gas}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Gas",
+            finalAnswer: "**(b)** Gas",
             commonErrors: ["Thinking solids have more energy because they're 'hard'."],
           },
         },
@@ -131,7 +131,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Particle arrangement", statement: "Solid = regular fixed arrangement." }],
             steps: [{ reasoning: "Recall particle model.", working: "\\text{solid}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Solid",
+            finalAnswer: "**(d)** Solid",
             commonErrors: ["Liquid particles are close but disordered."],
           },
         },
@@ -145,11 +145,11 @@ export const lesson111: Lesson = {
             { id: "b", text: "Gas" },
             { id: "c", text: "Solid" },
             { id: "d", text: "Liquid" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Gas particles", statement: "Far apart, fast random motion." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gas}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Gas",
+            finalAnswer: "**(b)** Gas",
             commonErrors: ["Choosing liquid — liquid particles slide but stay close."],
           },
         },
@@ -364,7 +364,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Sublimation", statement: "Solid → gas directly." }],
             steps: [{ reasoning: "Recall definition.", working: "\\text{sublimation}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Solid changes directly to gas",
+            finalAnswer: "**(c)** Solid changes directly to gas",
             commonErrors: ["Including a liquid stage — sublimation skips it."],
           },
         },
@@ -443,7 +443,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Evaporation", statement: "Liquid → gas at the surface, below boiling point." }],
             steps: [{ reasoning: "Surface-only change below boiling point.", working: "\\text{evaporation}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Evaporation",
+            finalAnswer: "**(b)** Evaporation",
             commonErrors: ["Choosing boiling — boiling needs the boiling point and happens throughout."],
           },
         },
@@ -461,7 +461,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Sublimation examples", statement: "Dry ice and iodine sublime at room conditions." }],
             steps: [{ reasoning: "Recall example.", working: "\\text{dry ice}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Dry ice (solid carbon dioxide)",
+            finalAnswer: "**(d)** Dry ice (solid carbon dioxide)",
             commonErrors: ["Water ice melts — it does not sublime."],
           },
         },
@@ -479,7 +479,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Diffusion rate", statement: "Rate increases with temperature (more kinetic energy)." }],
             steps: [{ reasoning: "Higher T → faster particles.", working: "\\text{higher }T", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Raising the temperature",
+            finalAnswer: "**(c)** Raising the temperature",
             commonErrors: ["Thinking a larger container speeds diffusion — it increases distance, not rate."],
           },
         },
@@ -546,7 +546,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Constant temperature", statement: "During a change of state, energy breaks attractions rather than raising kinetic energy." }],
             steps: [{ reasoning: "Energy used to overcome attractions.", working: "\\text{energy} \\to \\text{separation}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Energy is used to separate particles, not to raise temperature",
+            finalAnswer: "**(b)** Energy is used to separate particles, not to raise temperature",
             commonErrors: ["Thinking heat stops being absorbed during boiling."],
           },
         },
@@ -597,7 +597,7 @@ export const lesson111: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Condensation", statement: "Gas → liquid." }],
             steps: [{ reasoning: "Recall definition.", working: "\\text{gas} \\to \\text{liquid}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Gas changes to liquid",
+            finalAnswer: "**(d)** Gas changes to liquid",
             commonErrors: ["Confusing with evaporation — condensation is the reverse."],
           },
         },

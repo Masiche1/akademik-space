@@ -58,7 +58,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Voltage" },
               { id: "d", text: "Current" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -67,7 +67,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "A kilowatt-hour is power multiplied by time, which is energy ($1\\ \\text{kWh} = 3.6 \\times 10^6\\ \\text{J}$).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Energy",
+            finalAnswer: "**(a)** Energy",
             commonErrors: ["Choosing power because the unit contains the word kilowatt; the extra factor of hours makes it energy."],
             examinerNote: "B1 for choice (c).",
           },
@@ -210,7 +210,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "For the same power, higher voltage means smaller current, and the loss $I^2R$ falls with the square of the current.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A higher voltage gives a smaller current, which reduces the power lost as thermal energy in the wires.",
+            finalAnswer: "**(c)** A higher voltage gives a smaller current, which reduces the power lost as thermal energy in the wires.",
             commonErrors: ["Believing that high voltage removes resistance.", "Thinking that raising the voltage creates extra power; transformers cannot create energy."],
             examinerNote: "B1 for choice (a).",
           },

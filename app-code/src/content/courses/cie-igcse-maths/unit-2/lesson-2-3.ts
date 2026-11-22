@@ -68,7 +68,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "nth term $=5+(n-1)3=5+3n-3=3n+2$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3n+2$",
+            finalAnswer: "**(b)** $3n+2$",
             commonErrors: ["Writing $3n+5$ by forgetting to subtract $d$ in $(n-1)d$."],
           },
         },
@@ -171,7 +171,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Subtract consecutive terms: $11-7=4$ (and $15-11=4$, consistent).", working: "d=4", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $d=4$",
+            finalAnswer: "**(d)** $d=4$",
             commonErrors: ["Dividing consecutive terms instead of subtracting."],
           },
         },
@@ -223,7 +223,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "First term $a=2$, common ratio $r=\\frac{6}{2}=3$; check $u_3=2\\times3^2=18$.", working: "u_n=2\\times3^{n-1}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $u_n=2\\times3^{n-1}$",
+            finalAnswer: "**(d)** $u_n=2\\times3^{n-1}$",
             commonErrors: ["Writing $2\\times3^n$, which gives $u_1=6$ instead of 2.", "Treating it as arithmetic with difference 4."],
           },
         },
@@ -408,7 +408,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Only (b) has a constant ratio: $\\frac{6}{3}=\\frac{12}{6}=\\frac{24}{12}=2$.", working: "r=2", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $3, 6, 12, 24, \\ldots$",
+            finalAnswer: "**(a)** $3, 6, 12, 24, \\ldots$",
             commonErrors: ["Choosing (a) or (d), which are arithmetic with constant difference."],
           },
         },
@@ -425,7 +425,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "the 18th term" },
               { id: "d", text: "the 17th term" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -434,7 +434,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$5n-2=93 \\Rightarrow 5n=95 \\Rightarrow n=19$.", working: "n=19", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** the 19th term",
+            finalAnswer: "**(a)** the 19th term",
             commonErrors: ["Writing $5n-2=93$ as $5n=91$."],
           },
         },
@@ -491,7 +491,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Substitute $x=3$.", working: "f(3)=2(3)+1=7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $7$",
+            finalAnswer: "**(c)** $7$",
             commonErrors: ["Computing $2\\times3+1$ as $2\\times(3+1)=8$."],
           },
         },
@@ -649,7 +649,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$g(3)=3+1=4$, then $f(4)=4^2=16$.", working: "f(g(3))=f(4)=16", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $f(g(3))=16$",
+            finalAnswer: "**(a)** $f(g(3))=16$",
             commonErrors: ["Computing $g(f(3))$ instead — order matters.", "Writing $f(g(3))=(3+1)^2$ correctly but evaluating as $3+1^2=4$."],
           },
         },
@@ -834,7 +834,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$f(1)=4-1=3$, then $f(3)=4-3=1$.", working: "f(f(1))=1", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $f(f(1))=1$",
+            finalAnswer: "**(a)** $f(f(1))=1$",
             commonErrors: ["Computing $f(1)=3$ and stopping, or computing $4-f(1)=1$ incorrectly as $-1$."],
           },
         },
@@ -851,7 +851,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "-3 only" },
               { id: "d", text: "9 or $-9$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -860,7 +860,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$f(-3)=9$; solve $x^2=9$ to get $x=\\pm3$.", working: "x^2=9\\Rightarrow x=3\\ \\text{or}\\ x=-3", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** $x=3$ or $x=-3$",
+            finalAnswer: "**(a)** $x=3$ or $x=-3$",
             commonErrors: ["Giving only $x=3$ and missing the negative solution."],
           },
         },

@@ -107,7 +107,7 @@ export const lesson47: Lesson = {
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
             finalAnswer:
-              "**(a)** Transparent, accountable, participatory, effective",
+              "**(c)** Transparent, accountable, participatory, effective",
             commonErrors: ["Reducing to democracy or wealth."],
           },
         },
@@ -301,7 +301,7 @@ export const lesson47: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Answerable for actions",
+            finalAnswer: "**(d)** Answerable for actions",
             commonErrors: ["Confusing with obedience."],
           },
         },
@@ -426,7 +426,7 @@ export const lesson47: Lesson = {
             steps: [
               { reasoning: "The four pillars of good governance.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Transparent, accountable, participatory, effective",
+            finalAnswer: "**(d)** Transparent, accountable, participatory, effective",
             commonErrors: ["Equating governance with elections alone."],
           },
         },
@@ -844,7 +844,7 @@ export const lesson47: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Insufficient health staff",
+            finalAnswer: "**(d)** Insufficient health staff",
             commonErrors: ["Confusing with medicine shortages."],
           },
         },

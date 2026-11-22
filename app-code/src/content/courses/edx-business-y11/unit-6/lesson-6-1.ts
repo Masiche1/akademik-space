@@ -84,7 +84,7 @@ export const lesson61: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Rising prices",
+            finalAnswer: "**(d)** Rising prices",
             commonErrors: ["Deflation confused."],
           },
         },

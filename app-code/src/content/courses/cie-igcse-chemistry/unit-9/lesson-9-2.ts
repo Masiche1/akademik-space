@@ -57,7 +57,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Nitrogen fixation", statement: "N₂ → usable compounds." }],
             steps: [{ reasoning: "Recall.", working: "N_2 \\to \\text{nitrates}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Converting N₂ gas to usable compounds",
+            finalAnswer: "**(d)** Converting N₂ gas to usable compounds",
             commonErrors: ["Confusing with denitrification (reverse)."],
           },
         },
@@ -155,7 +155,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Denitrification", statement: "NO₃⁻ → N₂." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Denitrification",
+            finalAnswer: "**(d)** Denitrification",
             commonErrors: ["Fixation is opposite."],
           },
         },
@@ -272,7 +272,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Lightning", statement: "N₂ + O₂ → NOₓ." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Fixing N₂ to nitrogen oxides",
+            finalAnswer: "**(a)** Fixing N₂ to nitrogen oxides",
             commonErrors: ["It fixes N₂ not produces NH₃."],
           },
         },
@@ -311,7 +311,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "N₂ stability", statement: "Triple bond too strong." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** N₂ has a strong triple bond",
+            finalAnswer: "**(a)** N₂ has a strong triple bond",
             commonErrors: ["It's inert not poisonous."],
           },
         },
@@ -329,7 +329,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Denitrification", statement: "Anaerobic bacteria." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Anaerobic conditions",
+            finalAnswer: "**(c)** Anaerobic conditions",
             commonErrors: ["Nitrification is aerobic."],
           },
         },
@@ -375,7 +375,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Eutrophication", statement: "Excess nutrients → algal bloom." }],
             steps: [{ reasoning: "Recall.", working: "\\text{nitrates/phosphates}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Excess nitrates/phosphates",
+            finalAnswer: "**(a)** Excess nitrates/phosphates",
             commonErrors: ["Oil spills cause different problems."],
           },
         },
@@ -455,7 +455,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Eutrophication", statement: "Excess NO₃⁻/PO₄³⁻." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Nitrates and phosphates",
+            finalAnswer: "**(d)** Nitrates and phosphates",
             commonErrors: ["Ca/Mg relate to hardness."],
           },
         },
@@ -473,7 +473,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Eutrophication", statement: "Nutrients → bloom first." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Algal bloom",
+            finalAnswer: "**(a)** Algal bloom",
             commonErrors: ["Bloom precedes death."],
           },
         },
@@ -631,7 +631,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Bloom", statement: "Nutrient-driven growth." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Excess nutrients",
+            finalAnswer: "**(d)** Excess nutrients",
             commonErrors: ["Not light/cold."],
           },
         },
@@ -649,7 +649,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Buffer strips", statement: "Absorb runoff nutrients." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Trapping fertiliser runoff",
+            finalAnswer: "**(c)** Trapping fertiliser runoff",
             commonErrors: ["They prevent nutrients reaching water."],
           },
         },

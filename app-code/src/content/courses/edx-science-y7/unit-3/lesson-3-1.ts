@@ -88,7 +88,7 @@ export const lesson31: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Newton (N)",
+            finalAnswer: "**(d)** Newton (N)",
             commonErrors: ["Confusing with energy units."],
           },
         },
@@ -286,7 +286,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "100 ÷ 20 = 5 m/s.", marks: 2, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** 5 m/s",
+            finalAnswer: "**(d)** 5 m/s",
             commonErrors: ["Inverted division."],
           },
         },

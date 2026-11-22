@@ -67,7 +67,7 @@ export const lesson42: Lesson = {
               { reasoning: "Multiply the probabilities along the branches.", working: "0.3\\times0.3", marks: 1, markCode: "M" },
               { reasoning: "Evaluate.", working: "0.09", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 0.09",
+            finalAnswer: "**(d)** 0.09",
             commonErrors: ["Adding the probabilities to get 0.6.", "Giving 0.3 as if only one event mattered.", "Calculating $0.7\\times0.7=0.49$ (rain on neither day)."],
           },
         },

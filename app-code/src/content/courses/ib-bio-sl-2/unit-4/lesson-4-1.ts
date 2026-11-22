@@ -123,7 +123,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Predation by birds",
+            finalAnswer: "**(d)** Predation by birds",
             commonErrors: [
               "Assuming the pollution itself selected the moths — it changed the environment, and predation did the selecting.",
             ],
@@ -175,7 +175,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Heritable variation plus differential survival or reproduction",
+              "**(d)** Heritable variation plus differential survival or reproduction",
             commonErrors: [
               "Choosing large population size — selection can act on small populations too.",
             ],
@@ -240,7 +240,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Natural selection favoured better camouflage and raised the allele frequency",
+              "**(c)** Natural selection favoured better camouflage and raised the allele frequency",
             commonErrors: [
               "Believing individuals evolve during their lifetime.",
               "Confusing a change in phenotype with a change in allele frequency.",
@@ -405,7 +405,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Genetically determined and inherited",
+            finalAnswer: "**(c)** Genetically determined and inherited",
             commonErrors: [
               "Choosing acquired characteristics — these are not inherited and cannot drive evolution.",
             ],
@@ -462,7 +462,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Evolution via a change in allele frequency",
+            finalAnswer: "**(b)** Evolution via a change in allele frequency",
             commonErrors: [
               "Believing individuals evolve — the population's gene pool changed, not individual rabbits.",
             ],
@@ -672,7 +672,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Both change allele frequencies; artificial selection is human-directed",
+              "**(a)** Both change allele frequencies; artificial selection is human-directed",
             commonErrors: [
               "Claiming artificial selection always creates species — it usually changes varieties, not species.",
             ],
@@ -992,7 +992,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The allele frequency will decrease",
+            finalAnswer: "**(c)** The allele frequency will decrease",
             commonErrors: [
               "Assuming an advantageous allele stays advantageous regardless of environment.",
             ],
@@ -1057,7 +1057,7 @@ export const lesson41: Lesson = {
                 text: "Differential survival or reproduction of variants",
               },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1084,7 +1084,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** A very large population size",
+            finalAnswer: "**(b)** A very large population size",
             commonErrors: [
               "Confusing population size with a requirement — it influences the rate, not whether selection can occur.",
             ],
@@ -1171,7 +1171,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Homologous structures",
+            finalAnswer: "**(c)** Homologous structures",
             commonErrors: [
               "Confusing homologous (common ancestry) with analogous (common function by coincidence).",
             ],
@@ -1225,7 +1225,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Fossils in successive rock layers",
+            finalAnswer: "**(d)** Fossils in successive rock layers",
             commonErrors: [
               "Choosing DNA similarity — strong evidence of relatedness but not a direct historical record.",
             ],
@@ -1287,7 +1287,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Convergent evolution producing analogous structures",
+              "**(a)** Convergent evolution producing analogous structures",
             commonErrors: ["Assuming similar function means common ancestry."],
             examinerNote: "M1 M1 A1.",
           },
@@ -1459,7 +1459,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Only a small fraction of organisms fossilise and many fossils are destroyed",
+              "**(b)** Only a small fraction of organisms fossilise and many fossils are destroyed",
             commonErrors: [
               "Assuming the fossil record is a complete catalogue of all species that ever lived.",
             ],
@@ -1502,7 +1502,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Wings of birds and insects",
+            finalAnswer: "**(a)** Wings of birds and insects",
             commonErrors: ["Confusing similar function with common ancestry."],
             examinerNote: "B1 for (b).",
           },
@@ -1555,7 +1555,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Humans and chimpanzees share a more recent common ancestor",
+              "**(b)** Humans and chimpanzees share a more recent common ancestor",
             commonErrors: [
               "Assuming identical proteins mean identical species — small sequence differences still accumulate over time.",
             ],
@@ -1796,7 +1796,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Common ancestry before the continents separated",
+              "**(d)** Common ancestry before the continents separated",
             commonErrors: [
               "Assuming the species must have crossed the ocean recently — the pattern fits ancient vicariance.",
             ],
@@ -2013,7 +2013,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Direct evidence of intermediate forms supporting descent with modification",
+              "**(c)** Direct evidence of intermediate forms supporting descent with modification",
             commonErrors: [
               "Reading 'intermediate' as 'direct ancestor of living species' rather than evidence of gradual transition.",
             ],

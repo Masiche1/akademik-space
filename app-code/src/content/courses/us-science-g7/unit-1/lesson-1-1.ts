@@ -68,7 +68,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The first part of the cell theory says all living things are made of one or more cells.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** All living things are made of one or more cells.",
+            finalAnswer: "**(d)** All living things are made of one or more cells.",
             commonErrors: ["Choosing (a): the cell theory says cells come from existing cells.", "Choosing (d): the cell, not the organelle, is the basic unit of life."],
             examinerNote: "B1 for (b).",
           },
@@ -199,7 +199,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "An amoeba is a single-celled organism. The others are made of many cells.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Amoeba",
+            finalAnswer: "**(c)** Amoeba",
             commonErrors: ["Choosing mushroom because it is small or not a plant; it is multicellular."],
             examinerNote: "B1 for amoeba.",
           },

@@ -257,7 +257,7 @@ export const lesson611: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(b)** The Potsdam Conference"
+          "finalAnswer": "**(d)** The Potsdam Conference"
 },
         },
         {
@@ -443,7 +443,7 @@ export const lesson611: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(b)** The East-West European divide"
+          "finalAnswer": "**(a)** The East-West European divide"
 },
         },
         {
@@ -561,7 +561,7 @@ export const lesson611: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(b)** Harry Truman"
+          "finalAnswer": "**(d)** Harry Truman"
 },
         },
         {
@@ -621,7 +621,7 @@ export const lesson611: Lesson = {
                               "text": "Czechoslovakia"
                     }
           ],
-          "correctChoiceIc": "d"
+          "correctChoiceId": "c"
 },
           markscheme: {
           "principles": [
@@ -638,7 +638,7 @@ export const lesson611: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(d)** Yugoslavia"
+          "finalAnswer": "**(c)** Yugoslavia"
 },
         },
         {

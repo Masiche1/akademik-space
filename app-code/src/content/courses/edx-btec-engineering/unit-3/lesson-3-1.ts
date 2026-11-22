@@ -89,7 +89,7 @@ export const lesson301: Lesson = {
                 text: "Must be as light as possible",
               },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

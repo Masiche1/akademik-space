@@ -291,7 +291,7 @@ export const lesson103: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Spending/tax vs rates",
+            finalAnswer: "**(a)** Spending/tax vs rates",
             commonErrors: ["Same confused."],
           },
         },

@@ -85,7 +85,7 @@ export const lesson82: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** 5.9",
+            finalAnswer: "**(d)** 5.9",
             commonErrors: ["Adding digits without aligning decimals."],
           },
         },
@@ -283,7 +283,7 @@ export const lesson82: Lesson = {
               { id: "c", text: "80" },
               { id: "d", text: "5" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -300,7 +300,7 @@ export const lesson82: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** 20",
+            finalAnswer: "**(a)** 20",
             commonErrors: ["Dividing by 10 — that's 10% not 50%."],
           },
         },

@@ -55,7 +55,7 @@ export const lesson151: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Exothermic", statement: "Energy released (exo = out)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{exo = out}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Exothermic",
+            finalAnswer: "**(a)** Exothermic",
             commonErrors: ["Confusing 'exo' prefix meaning."],
           },
         },
@@ -134,7 +134,7 @@ export const lesson151: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Endothermic", statement: "Energy is absorbed; $\\Delta H$ positive." }],
             steps: [{ reasoning: "Endo means energy in.", working: "\\text{endo} = \\text{absorb}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Endothermic",
+            finalAnswer: "**(a)** Endothermic",
             commonErrors: ["Confusing endothermic with exothermic."],
           },
         },
@@ -187,7 +187,7 @@ export const lesson151: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Endothermic", statement: "Thermal decomposition absorbs heat." }],
             steps: [{ reasoning: "CaCO₃ decomposition needs heat input.", working: "\\text{decomposition} \\to \\text{endothermic}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Thermal decomposition of calcium carbonate",
+            finalAnswer: "**(a)** Thermal decomposition of calcium carbonate",
             commonErrors: ["Choosing combustion as endothermic."],
           },
         },
@@ -237,11 +237,11 @@ export const lesson151: Lesson = {
             { id: "b", text: "Positive" },
             { id: "c", text: "Zero" },
             { id: "d", text: "Negative" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Activation energy", statement: "Ea is always positive energy required to start reaction." }],
             steps: [{ reasoning: "Activation energy is required input.", working: "E_a > 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Positive",
+            finalAnswer: "**(b)** Positive",
             commonErrors: ["Thinking Ea can be negative."],
           },
         },
@@ -373,7 +373,7 @@ export const lesson151: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Bond breaking", statement: "Always endothermic." }],
             steps: [{ reasoning: "Recall.", working: "\\text{break = endo}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Endothermic",
+            finalAnswer: "**(c)** Endothermic",
             commonErrors: ["Reversing — forming bonds is exothermic."],
           },
         },
@@ -453,7 +453,7 @@ export const lesson151: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Bond forming", statement: "Forming bonds releases energy." }],
             steps: [{ reasoning: "Energy is released when bonds form.", working: "\\text{form} \\to \\text{exo}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Exothermic",
+            finalAnswer: "**(a)** Exothermic",
             commonErrors: ["Reversing break and form."],
           },
         },
@@ -506,7 +506,7 @@ export const lesson151: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Catalyst", statement: "Provides pathway with lower Ea." }],
             steps: [{ reasoning: "Catalyst lowers activation energy.", working: "E_a \\downarrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Lowers it",
+            finalAnswer: "**(c)** Lowers it",
             commonErrors: ["Saying catalyst removes Ea entirely."],
           },
         },
@@ -560,7 +560,7 @@ export const lesson151: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Activation energy", statement: "Energy needed from reactants to reach transition state." }],
             steps: [{ reasoning: "Ea is the vertical gap from reactants to peak.", working: "E_a = E_{peak} - E_{reactants}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Reactants to the peak",
+            finalAnswer: "**(d)** Reactants to the peak",
             commonErrors: ["Measuring to products instead."],
           },
         },

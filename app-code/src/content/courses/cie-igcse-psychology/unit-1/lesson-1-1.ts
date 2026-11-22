@@ -496,7 +496,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Describe" },
               { id: "d", text: "Explain" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -618,7 +618,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Behaviour is random and unpredictable" },
               { id: "d", text: "Environment completely determines behaviour" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

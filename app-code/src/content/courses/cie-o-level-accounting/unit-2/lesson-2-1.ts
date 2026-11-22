@@ -44,7 +44,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Only cash records" },
             { id: "d", text: "Accounts for each item" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Ledger", statement: "All accounts." }], steps: [{ reasoning: "Ledger = all accounts.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Accounts for each item" },
+          markscheme: { principles: [{ kind: "definition", name: "Ledger", statement: "All accounts." }], steps: [{ reasoning: "Ledger = all accounts.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Accounts for each item" },
         },
         {
           id: "olacc-u2-ld-q2", difficulty: "core", totalMarks: 2,
@@ -99,7 +99,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Bottom of the account" },
             { id: "d", text: "Top of the account" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "T-account", statement: "Dr left, Cr right." }], steps: [{ reasoning: "Credits always go on the right side.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Credit/right side" },
+          markscheme: { principles: [{ kind: "definition", name: "T-account", statement: "Dr left, Cr right." }], steps: [{ reasoning: "Credits always go on the right side.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Credit/right side" },
         },
         {
           id: "olacc-u2-ld-q6", difficulty: "core", totalMarks: 1,
@@ -110,7 +110,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Suspense balance" },
             { id: "d", text: "Debit balance" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "principle", name: "Balancing", statement: "Larger side decides balance." }], steps: [{ reasoning: "Credits larger means a credit balance.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Credit balance" },
+          markscheme: { principles: [{ kind: "principle", name: "Balancing", statement: "Larger side decides balance." }], steps: [{ reasoning: "Credits larger means a credit balance.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Credit balance" },
         },
         {
           id: "olacc-u2-ld-q7", difficulty: "core", totalMarks: 2,
@@ -139,7 +139,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Transferring entries from books of prime entry to ledger accounts" },
             { id: "d", text: "Preparing the income statement" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Posting", statement: "Prime entry to ledger." }], steps: [{ reasoning: "Posting transfers recorded transactions into the ledger.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Transferring entries to ledger accounts" },
+          markscheme: { principles: [{ kind: "definition", name: "Posting", statement: "Prime entry to ledger." }], steps: [{ reasoning: "Posting transfers recorded transactions into the ledger.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Transferring entries to ledger accounts" },
         },
         {
           id: "olacc-u2-ld-q10", difficulty: "challenge", totalMarks: 4,
@@ -180,7 +180,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "A collection of accounts for each item" },
             { id: "d", text: "A list of year-end totals only" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Ledger", statement: "All accounts." }], steps: [{ reasoning: "The ledger holds every account in the business.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** A collection of accounts" },
+          markscheme: { principles: [{ kind: "definition", name: "Ledger", statement: "All accounts." }], steps: [{ reasoning: "The ledger holds every account in the business.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** A collection of accounts" },
         },
         {
           id: "olacc-u2-ld-q14", difficulty: "challenge", totalMarks: 4,
@@ -255,7 +255,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "A supplier the business owes" },
             { id: "d", text: "A customer who owes the business" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Debtor", statement: "Owes us." }], steps: [{ reasoning: "Debtor owes us.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Customer who owes" },
+          markscheme: { principles: [{ kind: "definition", name: "Debtor", statement: "Owes us." }], steps: [{ reasoning: "Debtor owes us.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Customer who owes" },
         },
         {
           id: "olacc-u2-at-q2", difficulty: "core", totalMarks: 2,
@@ -310,7 +310,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "A type of income" },
             { id: "d", text: "An expense account" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Creditor", statement: "We owe them." }], steps: [{ reasoning: "Creditors are suppliers the business must pay.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Supplier we owe" },
+          markscheme: { principles: [{ kind: "definition", name: "Creditor", statement: "We owe them." }], steps: [{ reasoning: "Creditors are suppliers the business must pay.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Supplier we owe" },
         },
         {
           id: "olacc-u2-at-q6", difficulty: "core", totalMarks: 1,
@@ -321,7 +321,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Impersonal real" },
             { id: "d", text: "Impersonal nominal" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Account types", statement: "Sales = impersonal nominal." }], steps: [{ reasoning: "Sales is an item account (impersonal) and temporary income (nominal).", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Impersonal nominal" },
+          markscheme: { principles: [{ kind: "definition", name: "Account types", statement: "Sales = impersonal nominal." }], steps: [{ reasoning: "Sales is an item account (impersonal) and temporary income (nominal).", marks: 1, markCode: "M" }], finalAnswer: "**(d)** Impersonal nominal" },
         },
         {
           id: "olacc-u2-at-q7", difficulty: "core", totalMarks: 2,
@@ -349,8 +349,8 @@ export const lesson21: Lesson = {
             { id: "b", text: "Wages expense" },
             { id: "c", text: "Sales" },
             { id: "d", text: "Rent expense" },
-          ], aorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Real accounts", statement: "Permanent — assets, liabilities, capital." }], steps: [{ reasoning: "Premises is a permanent asset — a real account.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** Premises" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "Real accounts", statement: "Permanent — assets, liabilities, capital." }], steps: [{ reasoning: "Premises is a permanent asset — a real account.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Premises" },
         },
         {
           id: "olacc-u2-at-q10", difficulty: "challenge", totalMarks: 4,
@@ -390,8 +390,8 @@ export const lesson21: Lesson = {
             { id: "b", text: "Personal accounts" },
             { id: "c", text: "Nominal accounts" },
             { id: "d", text: "Impersonal accounts" },
-          ], borrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Personal accounts", statement: "Debtors and creditors." }], steps: [{ reasoning: "Both relate to people the business deals with.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Personal accounts" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "definition", name: "Personal accounts", statement: "Debtors and creditors." }], steps: [{ reasoning: "Both relate to people the business deals with.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Personal accounts" },
         },
         {
           id: "olacc-u2-at-q14", difficulty: "challenge", totalMarks: 4,

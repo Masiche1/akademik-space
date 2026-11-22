@@ -378,7 +378,7 @@ export const lesson363: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** The Second World War",
+            finalAnswer: "**(d)** The Second World War",
           },
         },
         {
@@ -465,7 +465,7 @@ export const lesson363: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** The size and scope of the impact",
+            finalAnswer: "**(c)** The size and scope of the impact",
           },
         },
         {
@@ -551,7 +551,7 @@ export const lesson363: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** Impact",
+            finalAnswer: "**(a)** Impact",
           },
         },
         {
@@ -683,7 +683,7 @@ export const lesson363: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** The length of time the impact lasts",
+            finalAnswer: "**(d)** The length of time the impact lasts",
           },
         },
         {

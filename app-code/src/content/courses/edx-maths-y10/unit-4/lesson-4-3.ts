@@ -64,7 +64,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Intersection", statement: "$A\\cap B$ is the set of elements in both $A$ and $B$." }],
             steps: [{ reasoning: "The symbol $\\cap$ means intersection (and).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The elements in both $A$ and $B$",
+            finalAnswer: "**(c)** The elements in both $A$ and $B$",
             commonErrors: ["Confusing $\\cap$ with the union symbol $\\cup$."],
           },
         },
@@ -198,7 +198,7 @@ export const lesson43: Lesson = {
               { reasoning: "Divide the number playing tennis by the total.", working: "\\frac{12}{40}", marks: 1, markCode: "M" },
               { reasoning: "Simplify.", working: "\\frac{3}{10}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $\\frac{3}{10}$",
+            finalAnswer: "**(d)** $\\frac{3}{10}$",
             commonErrors: ["Dividing by the number not playing tennis.", "Giving the complement."],
           },
         },

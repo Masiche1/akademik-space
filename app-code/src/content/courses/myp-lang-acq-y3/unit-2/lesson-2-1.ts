@@ -70,7 +70,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'have visited' is correct.", working: "have visited", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I have visited Paris.",
+            finalAnswer: "**(a)** I have visited Paris.",
             commonErrors: ["Using base form or -ing after have."],
             examinerNote: "D1 for (b).",
           },
@@ -167,7 +167,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'have eaten' is correct.", working: "have eaten", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I have eaten sushi.",
+            finalAnswer: "**(d)** I have eaten sushi.",
             commonErrors: ["Using past simple 'ate' after have."],
             examinerNote: "D1 for (b).",
           },
@@ -194,7 +194,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Have you ever been' asks about life experience.", working: "ever", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** ever",
+            finalAnswer: "**(c)** ever",
             commonErrors: ["Choosing 'yet' — that goes at the end of negative/question sentences about completion."],
             examinerNote: "D1 for (b).",
           },
@@ -221,7 +221,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'have already finished' is correct order.", working: "have already finished", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** I have already finished my homework.",
+            finalAnswer: "**(b)** I have already finished my homework.",
             commonErrors: ["Putting 'already' in the wrong position."],
             examinerNote: "D1 for (a).",
           },
@@ -248,7 +248,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — only B has opinion + because-reason.", working: "because it is cheap and tasty", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** I think pizza is nice because it is cheap and tasty.",
+            finalAnswer: "**(a)** I think pizza is nice because it is cheap and tasty.",
             commonErrors: ["Choosing opinion without reason."],
             examinerNote: "C1 for (b).",
           },
@@ -275,7 +275,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'has wrote' should be 'has written'.", working: "has written", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** He has wrote three books.",
+            finalAnswer: "**(a)** He has wrote three books.",
             commonErrors: ["Missing the wrote/written distinction."],
             examinerNote: "D1 for (b).",
           },
@@ -302,7 +302,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — have + taken.", working: "taken", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** taken",
+            finalAnswer: "**(c)** taken",
             commonErrors: ["Confusing past simple 'took' with participle 'taken'."],
             examinerNote: "D1 for (b).",
           },
@@ -512,7 +512,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — signposts guide the audience through the talk.", working: "structure phrases", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** A phrase that shows the structure",
+            finalAnswer: "**(c)** A phrase that shows the structure",
             commonErrors: ["Confusing signposts with visual aids."],
             examinerNote: "C1 for (b).",
           },
@@ -609,7 +609,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'Thank you for listening' closes the talk.", working: "Thank you for listening", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Thank you for listening. Do you have any questions?",
+            finalAnswer: "**(d)** Thank you for listening. Do you have any questions?",
             commonErrors: ["Choosing an opening or middle signpost."],
             examinerNote: "C1 for (b).",
           },
@@ -636,7 +636,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — openings greet and announce the topic.", working: "greeting + topic", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** A greeting and the topic you will talk about",
+            finalAnswer: "**(c)** A greeting and the topic you will talk about",
             commonErrors: ["Starting straight with content."],
             examinerNote: "C1 for (b).",
           },
@@ -663,7 +663,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — logical order: open, develop, close.", working: "opening → points → closing", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Opening → main points → closing",
+            finalAnswer: "**(a)** Opening → main points → closing",
             commonErrors: ["Putting the conclusion first."],
             examinerNote: "C1 for (b).",
           },
@@ -690,7 +690,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — steady pace and pauses help control nerves.", working: "steady pace", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Speak clearly at a steady pace and pause between points",
+            finalAnswer: "**(a)** Speak clearly at a steady pace and pause between points",
             commonErrors: ["Choosing to read monotonously."],
             examinerNote: "C1 for (b).",
           },
@@ -723,7 +723,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — plan lacks all structural features.", working: "no structure", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** It has no structure — no greeting, examples, signposts or proper closing",
+            finalAnswer: "**(c)** It has no structure — no greeting, examples, signposts or proper closing",
             commonErrors: ["Saying it is 'too short' — the issue is structure."],
             examinerNote: "C1 for (b).",
           },
@@ -750,7 +750,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'For example' introduces an example.", working: "For example", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** For example",
+            finalAnswer: "**(a)** For example",
             commonErrors: ["Choosing 'In conclusion' — that ends the talk."],
             examinerNote: "C1 for (b).",
           },

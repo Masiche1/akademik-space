@@ -257,7 +257,7 @@ export const lesson631: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** A secondary source"
+          "finalAnswer": "**(c)** A secondary source"
 },
         },
         {
@@ -334,7 +334,7 @@ export const lesson631: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Accuracy and trustworthiness"
+          "finalAnswer": "**(c)** Accuracy and trustworthiness"
 },
         },
         {
@@ -379,7 +379,7 @@ export const lesson631: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Cross-checking sources"
+          "finalAnswer": "**(c)** Cross-checking sources"
 },
         },
         {

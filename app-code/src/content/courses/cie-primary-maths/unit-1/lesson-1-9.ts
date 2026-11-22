@@ -51,7 +51,7 @@ export const lesson19: Lesson = {
             { id: "b", text: "100p" },
             { id: "c", text: "1000p" },
             { id: "d", text: "50p" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Pound", statement: "£1 = 100p." }],
             steps: [{ reasoning: "One pound is 100 pence.", marks: 1, markCode: "A" }],

@@ -68,7 +68,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Apply the gradient formula.", working: "m=\\frac{8-2}{3-1}=\\frac{6}{2}=3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3$",
+            finalAnswer: "**(c)** $3$",
             commonErrors: ["Inverting the ratio to get $\\frac{1}{3}$.", "Subtracting coordinates in the wrong order."],
           },
         },
@@ -164,7 +164,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Read off the coefficient of $x$.", working: "m=5", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $m=5$",
+            finalAnswer: "**(d)** $m=5$",
             commonErrors: ["Reading the constant term $-2$ as the gradient.", "Taking the reciprocal to get $\\frac{1}{5}$."],
           },
         },
@@ -190,7 +190,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Set $x=0$: $y=3(0)+7=7$; the intercept value is $c=7$.", working: "c=7", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $7$",
+            finalAnswer: "**(a)** $7$",
             commonErrors: ["Confusing the gradient 3 with the intercept.", "Giving the point $(0,7)$ when asked for the value."],
           },
         },
@@ -216,7 +216,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Rearrange: $3y=12-2x$, so $y=-\\frac{2}{3}x+4$.", working: "m=-\\frac{2}{3}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $m=-\\frac{2}{3}$",
+            finalAnswer: "**(c)** $m=-\\frac{2}{3}$",
             commonErrors: ["Writing $m=-\\frac{3}{2}$ by inverting the fraction.", "Forgetting the negative sign."],
           },
         },
@@ -411,7 +411,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Read off the coefficient of $x$, including its sign.", working: "m=-4", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $m=-4$",
+            finalAnswer: "**(c)** $m=-4$",
             commonErrors: ["Dropping the negative sign to get 4."],
           },
         },
@@ -437,7 +437,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$m=\\frac{11-5}{3-1}=3$; then $5=3(1)+c$ gives $c=2$.", working: "c=2", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $c=2$",
+            finalAnswer: "**(d)** $c=2$",
             commonErrors: ["Using $c=5$ — confusing the $y$-value with the intercept."],
           },
         },
@@ -496,7 +496,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Take the negative reciprocal of 3.", working: "m=-\\frac{1}{3}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $-\\frac{1}{3}$",
+            finalAnswer: "**(b)** $-\\frac{1}{3}$",
             commonErrors: ["Forgetting the negative sign.", "Inverting without negating."],
           },
         },
@@ -597,7 +597,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Parallel lines share the gradient $m=-2$.", working: "m=-2", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $m=-2$",
+            finalAnswer: "**(d)** $m=-2$",
             commonErrors: ["Taking the negative reciprocal — that gives the perpendicular gradient."],
           },
         },
@@ -649,7 +649,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Both gradients are 2; the intercepts differ ($1$ vs $-5$), so they are distinct parallel lines.", working: "m_1=m_2=2", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Parallel",
+            finalAnswer: "**(a)** Parallel",
             commonErrors: ["Calling them identical — the intercepts differ."],
           },
         },
@@ -833,7 +833,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "$\\frac{1}{5}$" },
               { id: "d", text: "5" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -842,7 +842,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Negative reciprocal of 5 is $-\\frac{1}{5}$; check $5\\times(-\\frac{1}{5})=-1$.", working: "m=-\\frac{1}{5}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** $m=-\\frac{1}{5}$",
+            finalAnswer: "**(a)** $m=-\\frac{1}{5}$",
             commonErrors: ["Writing $m=\\frac{1}{5}$ without the negative sign."],
           },
         },
@@ -868,7 +868,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$x_2=2\\times3-1=5$, $y_2=2\\times4-2=6$.", working: "(5,6)", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $(5,6)$",
+            finalAnswer: "**(d)** $(5,6)$",
             commonErrors: ["Averaging again to get $(2,3)$ instead of doubling and subtracting."],
           },
         },

@@ -284,7 +284,7 @@ export const lesson384: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** price takers",
+            finalAnswer: "**(b)** price takers",
           },
         },
         {
@@ -409,7 +409,7 @@ export const lesson384: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Monopoly",
+            finalAnswer: "**(c)** Monopoly",
           },
         },
         {
@@ -544,7 +544,7 @@ export const lesson384: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Differentiated products",
+            finalAnswer: "**(c)** Differentiated products",
           },
         },
         {
@@ -746,7 +746,7 @@ export const lesson384: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** free entry and exit erode any supernormal profit",
+              "**(d)** free entry and exit erode any supernormal profit",
           },
         },
         {

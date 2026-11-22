@@ -93,7 +93,7 @@ export const lesson12: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** 13",
+            finalAnswer: "**(a)** 13",
             commonErrors: [
               "Starting at 5 instead of the bigger number — still gives 13, but check method.",
             ],
@@ -315,7 +315,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "9" },
               { id: "d", text: "6" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -332,7 +332,7 @@ export const lesson12: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** 8",
+            finalAnswer: "**(b)** 8",
             commonErrors: ["Counting back one step too many or too few."],
           },
         },

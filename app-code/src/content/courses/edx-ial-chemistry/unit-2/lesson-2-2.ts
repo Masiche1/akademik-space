@@ -59,7 +59,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "OIL RIG", statement: "Oxidation = electron loss." }],
             steps: [{ reasoning: "Direct mnemonic.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Oxidation Is Loss, Reduction Is Gain",
+            finalAnswer: "**(c)** Oxidation Is Loss, Reduction Is Gain",
           },
         },
         {
@@ -174,7 +174,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Reduction", statement: "Gains electrons — e⁻ on left." }],
             steps: [{ reasoning: "Reduction gains e⁻.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Left",
+            finalAnswer: "**(c)** Left",
           },
         },
         {

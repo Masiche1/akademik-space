@@ -65,7 +65,7 @@ export const lesson122: Lesson = {
             steps: [
               { reasoning: "Literal = surface.", working: "surface", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Surface meaning",
+            finalAnswer: "**(c)** Surface meaning",
             commonErrors: ["Choosing (b) — that's deeper meaning."],
           },
         },
@@ -161,7 +161,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Deeper meaning", statement: "Underlying themes, symbols and messages beneath the surface." } ],
             steps: [ { reasoning: "Deeper = themes/messages.", working: "themes", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Underlying themes and messages",
+            finalAnswer: "**(d)** Underlying themes and messages",
             commonErrors: ["Confusing with literal meaning."],
           },
         },
@@ -217,7 +217,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Speaker", statement: "The voice or persona through which the poem speaks." } ],
             steps: [ { reasoning: "Speaker = the poem's voice.", working: "voice", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** The voice narrating the poem",
+            finalAnswer: "**(d)** The voice narrating the poem",
             commonErrors: ["Assuming speaker = poet."],
           },
         },
@@ -247,7 +247,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Ambiguity", statement: "Openness to more than one interpretation." } ],
             steps: [ { reasoning: "Ambiguity = multiple readings.", working: "multiple", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Multiple possible interpretations",
+            finalAnswer: "**(c)** Multiple possible interpretations",
             commonErrors: ["Thinking ambiguity means the poem is meaningless."],
           },
         },
@@ -320,7 +320,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Evidence-based reading", statement: "Strong interpretations are anchored in the text." } ],
             steps: [ { reasoning: "Evidence supports interpretation.", working: "evidence", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Are supported by textual evidence",
+            finalAnswer: "**(c)** Are supported by textual evidence",
             commonErrors: ["Choosing (c) — feeling alone is not analysis."],
           },
         },
@@ -376,7 +376,7 @@ export const lesson122: Lesson = {
             steps: [
               { reasoning: "Tone = speaker's attitude.", working: "attitude", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Speaker's attitude",
+            finalAnswer: "**(b)** Speaker's attitude",
             commonErrors: ["Choosing (b) — that's mood."],
           },
         },
@@ -472,7 +472,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Mood", statement: "The emotional atmosphere experienced by the reader." } ],
             steps: [ { reasoning: "Mood = reader's feeling.", working: "reader", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** The feeling created for the reader",
+            finalAnswer: "**(c)** The feeling created for the reader",
             commonErrors: ["Choosing (b) — that is tone."],
           },
         },
@@ -558,7 +558,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [ { kind: "technique", name: "Negative diction", statement: "Harsh adjectives signal negative attitude." } ],
             steps: [ { reasoning: "'Cruel', 'bitter' = negative tone.", working: "negative", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Negative or despairing tone",
+            finalAnswer: "**(c)** Negative or despairing tone",
             commonErrors: ["Missing the negative connotation."],
           },
         },
@@ -601,7 +601,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Reverent", statement: "Tone showing deep respect or awe." } ],
             steps: [ { reasoning: "Reverent = respect/admiration.", working: "respect", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Respect or admiration",
+            finalAnswer: "**(c)** Respect or admiration",
             commonErrors: ["Confusing with critical or fearful tones."],
           },
         },
@@ -631,7 +631,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Exclamation marks", statement: "They convey excitement, urgency or strong feeling." } ],
             steps: [ { reasoning: "'!' = heightened emotion.", working: "emotion", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Heightened emotion or urgency",
+            finalAnswer: "**(d)** Heightened emotion or urgency",
             commonErrors: ["Ignoring punctuation as emotional signal."],
           },
         },
@@ -687,7 +687,7 @@ export const lesson122: Lesson = {
             steps: [
               { reasoning: "Volta = turn.", working: "turn", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Turn/shift in argument",
+            finalAnswer: "**(c)** Turn/shift in argument",
             commonErrors: ["Choosing (c) — that's stanza break."],
           },
         },
@@ -783,7 +783,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "End-stopped", statement: "Line where the grammatical unit ends at the break." } ],
             steps: [ { reasoning: "End-stopped = thought ends at break.", working: "pause", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Completes a thought at the line break",
+            finalAnswer: "**(c)** Completes a thought at the line break",
             commonErrors: ["Confusing with enjambment."],
           },
         },
@@ -869,7 +869,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Short lines", statement: "Short lines create emphasis, tension or abruptness." } ],
             steps: [ { reasoning: "Short lines = punch/tension.", working: "punch", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** Punchy emphasis or tension",
+            finalAnswer: "**(b)** Punchy emphasis or tension",
             commonErrors: ["Confusing with long-line effects."],
           },
         },
@@ -912,7 +912,7 @@ export const lesson122: Lesson = {
           markscheme: {
             principles: [ { kind: "convention", name: "Stanza break", statement: "Breaks mark shifts in idea, tone or time." } ],
             steps: [ { reasoning: "Break = shift/pause.", working: "shift", marks: 1, markCode: "AO1" } ],
-            finalAnswer: "**(a)** A shift or pause in thought",
+            finalAnswer: "**(b)** A shift or pause in thought",
             commonErrors: ["Ignoring stanza breaks as meaningful."],
           },
         },

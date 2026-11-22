@@ -281,7 +281,7 @@ export const lesson41: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Private displaced",
+            finalAnswer: "**(c)** Private displaced",
             commonErrors: ["More investment confused."],
           },
         },

@@ -273,7 +273,7 @@ export const lesson25: Lesson = {
             { id: "b", text: "Air" },
             { id: "c", text: "Water" },
             { id: "d", text: "Ice" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Gas", statement: "Air is a gas at room temperature." }],
             steps: [{ reasoning: "Air is a gas; the others are solid or liquid.", marks: 1, markCode: "A" }],

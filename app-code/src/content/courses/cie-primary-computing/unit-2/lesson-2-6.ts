@@ -230,7 +230,7 @@ export const lesson26: Lesson = {
             steps: [
               { reasoning: "Formulas starting with = compute using cell values.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Adds values in A1 and B1",
+            finalAnswer: "**(c)** Adds values in A1 and B1",
           },
         },
         {
@@ -279,7 +279,7 @@ export const lesson26: Lesson = {
             steps: [
               { reasoning: "SUM adds all values in the range A1:A5.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Total of A1 through A5",
+            finalAnswer: "**(c)** Total of A1 through A5",
           },
         },
         {

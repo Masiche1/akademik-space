@@ -167,7 +167,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Plural possession", statement: "Plural nouns ending in -s take apostrophe after the s." }],
             steps: [{ reasoning: "'Dogs' is already plural — apostrophe goes after: dogs'.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** The dogs' bones",
+            finalAnswer: "**(c)** The dogs' bones",
             commonErrors: ["Choosing (c) — 'dogs's' is incorrect; plural -s takes apostrophe only."],
           },
         },
@@ -218,7 +218,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Semicolon", statement: "Semicolons join related independent clauses — stronger than comma, weaker than full stop." }],
             steps: [{ reasoning: "'The rain stopped; the sun came out' — two complete clauses, closely related.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Joining two closely related independent clauses",
+            finalAnswer: "**(c)** Joining two closely related independent clauses",
             commonErrors: ["Using it before a list — that is a colon's job."],
           },
         },
@@ -271,7 +271,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Colon function", statement: "Colon introduces — lists, explanations, quotations." }],
             steps: [{ reasoning: "'The result was clear: we had won.' — colon introduces the explanation.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Colon",
+            finalAnswer: "**(c)** Colon",
             commonErrors: ["Choosing comma — commas separate, colons introduce."],
           },
         },
@@ -437,7 +437,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Dash creates the strongest pause/interruption.", working: "\\text{dash}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Dash",
+            finalAnswer: "**(d)** Dash",
             commonErrors: ["Choosing comma — commas are lighter pauses."],
           },
         },
@@ -589,7 +589,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Pacing scale", statement: "Full stop (decisive) → comma (slight) → semicolon (balanced) → dash (interrupt) → ellipsis (trailing)." }],
             steps: [{ reasoning: "Semicolon sits between comma and dash — a balanced pause linking equals.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** A balanced, weighty pause",
+            finalAnswer: "**(d)** A balanced, weighty pause",
             commonErrors: ["Choosing (a) — semicolon is heavier than comma."],
           },
         },
@@ -642,7 +642,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Rhetorical question mark", statement: "Rhetorical questions are punctuated with '?' like any question." }],
             steps: [{ reasoning: "Punctuation follows form, not function — it is still interrogative.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Yes — it is still punctuated as a question",
+            finalAnswer: "**(d)** Yes — it is still punctuated as a question",
             commonErrors: ["Choosing (a) — rhetorical status affects meaning, not punctuation."],
           },
         },
@@ -694,7 +694,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Ellipsis for omission", statement: "Three dots show omitted or trailing text." }],
             steps: [{ reasoning: "'She said...' with ellipsis marks words left out.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Ellipsis",
+            finalAnswer: "**(c)** Ellipsis",
             commonErrors: ["Choosing apostrophe — that shows possession/contraction, not omission."],
           },
         },

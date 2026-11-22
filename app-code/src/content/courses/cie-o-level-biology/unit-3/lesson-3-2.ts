@@ -64,7 +64,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall the function.", working: "\\text{carbohydrates = energy}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Carbohydrates",
+            finalAnswer: "**(b)** Carbohydrates",
             commonErrors: ["Choosing lipids — they store energy but carbs are the main fuel."],
           },
         },
@@ -158,7 +158,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall the function.", working: "\\text{growth/repair}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Growth and repair of body tissues",
+            finalAnswer: "**(b)** Growth and repair of body tissues",
             commonErrors: ["Choosing energy — that is carbohydrates/lipids."],
           },
         },
@@ -184,7 +184,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall the deficiency.", working: "\\text{vitamin C}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Vitamin C",
+            finalAnswer: "**(a)** Vitamin C",
             commonErrors: ["Choosing vitamin D — that causes rickets."],
           },
         },
@@ -211,7 +211,7 @@ export const lesson32: Lesson = {
               { reasoning: "Recall the function.", working: "\\text{gut health}", marks: 1, markCode: "M" },
               { reasoning: "State it clearly.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It adds bulk and maintains healthy gut function",
+            finalAnswer: "**(c)** It adds bulk and maintains healthy gut function",
             commonErrors: ["Saying it provides energy — fibre is not digested for energy."],
           },
         },
@@ -295,7 +295,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Vitamin A" },
               { id: "d", text: "Vitamin D and calcium" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -304,7 +304,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall the deficiency.", working: "\\text{vit D/Ca}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Vitamin D and calcium",
+            finalAnswer: "**(d)** Vitamin D and calcium",
             commonErrors: ["Choosing vitamin C — that causes scurvy."],
           },
         },
@@ -368,7 +368,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall the link.", working: "\\text{type 2 diabetes}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Type 2 diabetes",
+            finalAnswer: "**(a)** Type 2 diabetes",
             commonErrors: ["Choosing scurvy/rickets — those are deficiency diseases, not obesity-related."],
           },
         },
@@ -478,7 +478,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Match enzyme to substrate.", working: "\\text{amylase} \\to \\text{starch}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Amylase",
+            finalAnswer: "**(d)** Amylase",
             commonErrors: ["Choosing protease — that's for proteins."],
           },
         },
@@ -573,7 +573,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Match enzyme to substrate.", working: "\\text{amylase} \\to \\text{starch}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Starch",
+            finalAnswer: "**(d)** Starch",
             commonErrors: ["Choosing protein — that is protease."],
           },
         },
@@ -616,7 +616,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Mouth" },
               { id: "d", text: "Ileum (small intestine)" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -626,7 +626,7 @@ export const lesson32: Lesson = {
               { reasoning: "Recall the site.", working: "\\text{ileum}", marks: 1, markCode: "M" },
               { reasoning: "Link to villi.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Ileum (small intestine)",
+            finalAnswer: "**(d)** Ileum (small intestine)",
             commonErrors: ["Choosing stomach — digestion occurs there but little absorption."],
           },
         },
@@ -710,7 +710,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Salivary glands" },
               { id: "d", text: "Stomach" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -719,7 +719,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall the organ.", working: "\\text{pancreas}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Pancreas",
+            finalAnswer: "**(b)** Pancreas",
             commonErrors: ["Choosing liver — that produces bile."],
           },
         },
@@ -895,7 +895,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall formula.", working: "BMI = \\text{kg}/\\text{m}^2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Mass divided by height squared",
+            finalAnswer: "**(d)** Mass divided by height squared",
             commonErrors: ["Using cm for height — must convert to metres."],
           },
         },
@@ -989,7 +989,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall the formula.", working: "\\text{kg}/\\text{m}^2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Mass divided by height squared",
+            finalAnswer: "**(d)** Mass divided by height squared",
             commonErrors: ["Using height not squared — units must be kg and m²."],
           },
         },
@@ -1015,7 +1015,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Check the category.", working: "22 \\in [18.5, 24.9]", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Healthy",
+            finalAnswer: "**(c)** Healthy",
             commonErrors: ["Choosing overweight — that's 25–29.9."],
           },
         },
@@ -1135,7 +1135,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall the limitation.", working: "\\text{fat vs muscle}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It does not distinguish muscle mass from fat mass",
+            finalAnswer: "**(a)** It does not distinguish muscle mass from fat mass",
             commonErrors: ["Saying BMI is useless — it is a screening tool, not diagnostic."],
           },
         },
@@ -1199,7 +1199,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Identify the balance type.", working: "\\text{negative}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Lose weight",
+            finalAnswer: "**(d)** Lose weight",
             commonErrors: ["Choosing gain — that's positive balance."],
           },
         },

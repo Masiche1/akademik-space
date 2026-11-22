@@ -42,7 +42,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Sends data into the computer" },
             { id: "d", text: "Stores files" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Input device", statement: "Data into computer." }], steps: [{ reasoning: "Input = into computer.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sends data in" },
+          markscheme: { principles: [{ kind: "definition", name: "Input device", statement: "Data into computer." }], steps: [{ reasoning: "Input = into computer.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Sends data in" },
         },
         {
           id: "olict-u1-in-q2", difficulty: "core", totalMarks: 2,
@@ -97,7 +97,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Scanner" },
             { id: "d", text: "Microphone" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Microphone", statement: "Captures sound." }], steps: [{ reasoning: "Microphone captures audio.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Microphone" },
+          markscheme: { principles: [{ kind: "definition", name: "Microphone", statement: "Captures sound." }], steps: [{ reasoning: "Microphone captures audio.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Microphone" },
         },
         {
           id: "olict-u1-in-q6", difficulty: "core", totalMarks: 1,
@@ -137,7 +137,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Scanner" },
             { id: "d", text: "Joystick" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Device choice", statement: "Scanner for paper images." }], steps: [{ reasoning: "Scanner converts paper to digital.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Scanner" },
+          markscheme: { principles: [{ kind: "principle", name: "Device choice", statement: "Scanner for paper images." }], steps: [{ reasoning: "Scanner converts paper to digital.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Scanner" },
         },
         {
           id: "olict-u1-in-q10", difficulty: "challenge", totalMarks: 4,
@@ -159,7 +159,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Games and simulations" },
             { id: "d", text: "Scanning documents" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Joystick", statement: "Game control input." }], steps: [{ reasoning: "Joystick controls games/simulations.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Games and simulations" },
+          markscheme: { principles: [{ kind: "definition", name: "Joystick", statement: "Game control input." }], steps: [{ reasoning: "Joystick controls games/simulations.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Games and simulations" },
         },
         {
           id: "olict-u1-in-q12", difficulty: "core", totalMarks: 2,
@@ -179,7 +179,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Microphone" },
             { id: "d", text: "Printer" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Input device", statement: "Sends data in." }], steps: [{ reasoning: "Printer outputs data — not input.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Printer" },
+          markscheme: { principles: [{ kind: "definition", name: "Input device", statement: "Sends data in." }], steps: [{ reasoning: "Printer outputs data — not input.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Printer" },
         },
         {
           id: "olict-u1-in-q14", difficulty: "challenge", totalMarks: 4,
@@ -310,7 +310,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Barcode reader" },
             { id: "d", text: "Microphone" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Device choice", statement: "Match device to task." }], steps: [{ reasoning: "Graphics tablet gives precise drawing control.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Graphics tablet" },
+          markscheme: { principles: [{ kind: "principle", name: "Device choice", statement: "Match device to task." }], steps: [{ reasoning: "Graphics tablet gives precise drawing control.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Graphics tablet" },
         },
         {
           id: "olict-u1-ch-q6", difficulty: "core", totalMarks: 1,
@@ -320,8 +320,8 @@ export const lesson12: Lesson = {
             { id: "b", text: "Printer model" },
             { id: "c", text: "User skill" },
             { id: "d", text: "Type of data needed" },
-          ], correctChoiceIb: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Selection factors", statement: "Data, speed, environment, cost." }], steps: [{ reasoning: "Printer model is irrelevant to input choice.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Printer model" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "principle", name: "Selection factors", statement: "Data, speed, environment, cost." }], steps: [{ reasoning: "Printer model is irrelevant to input choice.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Printer model" },
         },
         {
           id: "olict-u1-ch-q7", difficulty: "foundation", totalMarks: 2,
@@ -350,7 +350,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Scanner" },
             { id: "d", text: "Microphone" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Device choice", statement: "Scanner for paper→digital." }], steps: [{ reasoning: "Scanner converts paper documents to digital files.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Scanner" },
+          markscheme: { principles: [{ kind: "principle", name: "Device choice", statement: "Scanner for paper→digital." }], steps: [{ reasoning: "Scanner converts paper documents to digital files.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Scanner" },
         },
         {
           id: "olict-u1-ch-q10", difficulty: "challenge", totalMarks: 4,
@@ -381,7 +381,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Touch screen" },
             { id: "d", text: "Plotter" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Device choice", statement: "Touch screen for direct finger input." }], steps: [{ reasoning: "Touch screen accepts direct finger input.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Touch screen" },
+          markscheme: { principles: [{ kind: "principle", name: "Device choice", statement: "Touch screen for direct finger input." }], steps: [{ reasoning: "Touch screen accepts direct finger input.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Touch screen" },
         },
         {
           id: "olict-u1-ch-q13", difficulty: "foundation", totalMarks: 2,

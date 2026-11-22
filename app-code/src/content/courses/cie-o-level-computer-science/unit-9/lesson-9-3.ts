@@ -41,7 +41,7 @@ export const lesson93: Lesson = {
             { id: "c", text: "4" },
             { id: "d", text: "16" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Byte", statement: "8 bits." }], steps: [{ reasoning: "Byte = 8 bits.", working: "8", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 8" },
+          markscheme: { principles: [{ kind: "definition", name: "Byte", statement: "8 bits." }], steps: [{ reasoning: "Byte = 8 bits.", working: "8", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 8" },
         },
         {
           id: "olcs-u9-rv-q2", difficulty: "core", totalMarks: 2,
@@ -96,7 +96,7 @@ export const lesson93: Lesson = {
             { id: "c", text: "16" },
             { id: "d", text: "10" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Binary to denary", statement: "Sum place values." }], steps: [{ reasoning: "$8+0+2+0=10$.", working: "10", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 10" },
+          markscheme: { principles: [{ kind: "principle", name: "Binary to denary", statement: "Sum place values." }], steps: [{ reasoning: "$8+0+2+0=10$.", working: "10", marks: 1, markCode: "B" }], finalAnswer: "**(d)** 10" },
         },
         {
           id: "olcs-u9-rv-q6", difficulty: "core", totalMarks: 2,
@@ -116,7 +116,7 @@ export const lesson93: Lesson = {
             { id: "c", text: "4" },
             { id: "d", text: "16" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Nibble", statement: "4 bits = 1 hex digit." }], steps: [{ reasoning: "$16=2^4$, so one hex digit = 4 bits.", working: "4", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 4" },
+          markscheme: { principles: [{ kind: "definition", name: "Nibble", statement: "4 bits = 1 hex digit." }], steps: [{ reasoning: "$16=2^4$, so one hex digit = 4 bits.", working: "4", marks: 1, markCode: "B" }], finalAnswer: "**(c)** 4" },
         },
         {
           id: "olcs-u9-rv-q8", difficulty: "core", totalMarks: 2,
@@ -145,7 +145,7 @@ export const lesson93: Lesson = {
             { id: "c", text: "UTF-8" },
             { id: "d", text: "Denary" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Unicode/UTF-8", statement: "Universal coverage." }], steps: [{ reasoning: "UTF-8 covers world scripts.", working: "\\text{utf8}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** UTF-8" },
+          markscheme: { principles: [{ kind: "principle", name: "Unicode/UTF-8", statement: "Universal coverage." }], steps: [{ reasoning: "UTF-8 covers world scripts.", working: "\\text{utf8}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** UTF-8" },
         },
         {
           id: "olcs-u9-rv-q11", difficulty: "core", totalMarks: 2,
@@ -174,7 +174,7 @@ export const lesson93: Lesson = {
             { id: "c", text: "PNG" },
             { id: "d", text: "MP4" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Lossless", statement: "Exact copy, no data discarded." }], steps: [{ reasoning: "PNG is lossless.", working: "\\text{png}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** PNG" },
+          markscheme: { principles: [{ kind: "definition", name: "Lossless", statement: "Exact copy, no data discarded." }], steps: [{ reasoning: "PNG is lossless.", working: "\\text{png}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** PNG" },
         },
         {
           id: "olcs-u9-rv-q14", difficulty: "challenge", totalMarks: 3,
@@ -195,7 +195,7 @@ export const lesson93: Lesson = {
             { id: "c", text: "Removes background noise" },
             { id: "d", text: "Improves quality but increases the file size" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Sampling", statement: "Rate affects quality and size." }], steps: [{ reasoning: "Higher rate = more accurate but more data.", working: "\\text{rate}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Improves quality but increases file size" },
+          markscheme: { principles: [{ kind: "principle", name: "Sampling", statement: "Rate affects quality and size." }], steps: [{ reasoning: "Higher rate = more accurate but more data.", working: "\\text{rate}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Improves quality but increases file size" },
         },
         {
           id: "olcs-u9-rv-q16", difficulty: "challenge", totalMarks: 9,

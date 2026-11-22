@@ -66,7 +66,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Take the square root of 25.", working: "r=\\sqrt{25}=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5$",
+            finalAnswer: "**(d)** $5$",
             commonErrors: ["Answering 25 by forgetting the square root."],
           },
         },
@@ -168,7 +168,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The right side is $r^2=49$, so $r=\\sqrt{49}=7$.", working: "r=7", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $r=7$",
+            finalAnswer: "**(a)** $r=7$",
             commonErrors: ["Answering 49 — forgetting to take the square root."],
           },
         },
@@ -194,7 +194,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Check each: $3^2+4^2=9+16=25$.", working: "(3,4)\\ \\checkmark", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $(3,4)$",
+            finalAnswer: "**(d)** $(3,4)$",
             commonErrors: ["Choosing $(5,5)$ without checking $25+25=50\\ne25$."],
           },
         },
@@ -220,7 +220,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Centre $(2,-1)$ gives $(x-2)^2$ and $(y-(-1))^2=(y+1)^2$; $r^2=9$.", working: "(x-2)^2+(y+1)^2=9", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $(x-2)^2+(y+1)^2=9$",
+            finalAnswer: "**(c)** $(x-2)^2+(y+1)^2=9$",
             commonErrors: ["Writing $(y-1)^2$ instead of $(y+1)^2$ — the sign of the centre coordinate flips.", "Writing $=3$ instead of $r^2=9$."],
           },
         },
@@ -399,7 +399,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "At the centre" },
               { id: "d", text: "Inside the circle" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -408,7 +408,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$6^2+8^2=36+64=100>25$.", working: "100>25\\Rightarrow\\text{outside}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** Outside the circle",
+            finalAnswer: "**(a)** Outside the circle",
             commonErrors: ["Computing $6^2+8^2=14$ and concluding 'inside'."],
           },
         },
@@ -491,7 +491,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "State the theorem.", working: "\\text{tangent} \\perp \\text{radius at }P", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The radius $OP$",
+            finalAnswer: "**(b)** The radius $OP$",
             commonErrors: ["Thinking the tangent is perpendicular to a chord."],
           },
         },
@@ -582,7 +582,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "$0^\\circ$" },
               { id: "d", text: "$180^\\circ$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -591,7 +591,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The tangent is perpendicular to the radius, so the angle is $90^\\circ$.", working: "90^\\circ", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** $90^\\circ$",
+            finalAnswer: "**(a)** $90^\\circ$",
             commonErrors: ["Answering $0^\\circ$ — confusing 'touches at one point' with the angle."],
           },
         },
@@ -617,7 +617,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$d=\\sqrt{8^2+15^2}=\\sqrt{64+225}=\\sqrt{289}=17$.", working: "d=17", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $17$",
+            finalAnswer: "**(d)** $17$",
             commonErrors: ["Computing $\\sqrt{8+15}=\\sqrt{23}$ — forgetting to square first."],
           },
         },
@@ -831,7 +831,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$PT=\\sqrt{13^2-5^2}=\\sqrt{169-25}=\\sqrt{144}=12$.", working: "PT=12", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $12$",
+            finalAnswer: "**(a)** $12$",
             commonErrors: ["Computing $13-5=8$ — distances must go through Pythagoras."],
           },
         },
@@ -848,7 +848,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "7" },
               { id: "d", text: "12" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -857,7 +857,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$OP=\\sqrt{5^2+12^2}=\\sqrt{25+144}=\\sqrt{169}=13$.", working: "OP=13", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** $13$",
+            finalAnswer: "**(b)** $13$",
             commonErrors: ["Adding $5+12=17$ instead of using Pythagoras."],
           },
         },

@@ -250,7 +250,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $P(A \\cup B) = 0.72$",
+            finalAnswer: "**(c)** $P(A \\cup B) = 0.72$",
           },
         },
         {
@@ -325,7 +325,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "$0.5$" },
               { id: "d", text: "$0.6$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -344,7 +344,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $0.4$",
+            finalAnswer: "**(b)** $0.4$",
           },
         },
         {
@@ -469,7 +469,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "$f(x) = 0$ outside its support" },
               { id: "d", text: "$f(x) \\geq 0$ for all $x$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -488,7 +488,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $f(x) \\leq 1$ is not required",
+            finalAnswer: "**(a)** $f(x) \\leq 1$ is not required",
           },
         },
         {

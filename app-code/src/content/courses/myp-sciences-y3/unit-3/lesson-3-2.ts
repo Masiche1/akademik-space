@@ -64,7 +64,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Kinetic" },
               { id: "d", text: "Elastic potential" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -73,7 +73,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "A stretched band stores elastic potential energy.", working: "\\text{elastic}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Elastic potential",
+            finalAnswer: "**(d)** Elastic potential",
             commonErrors: ["Choosing kinetic — the band is not moving yet."],
             examinerNote: "B1 for (c).",
           },
@@ -281,7 +281,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "As height decreases and speed increases, GPE transfers to kinetic.", working: "GPE\\to KE", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Gravitational potential to kinetic",
+            finalAnswer: "**(c)** Gravitational potential to kinetic",
             commonErrors: ["Reversing the direction of transfer."],
             examinerNote: "B1 for (b).",
           },
@@ -299,7 +299,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Copper" },
               { id: "d", text: "Aluminium" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -308,7 +308,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Wool traps air and conducts poorly; metals conduct well.", working: "\\text{wool insulates}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Wool",
+            finalAnswer: "**(b)** Wool",
             commonErrors: ["Choosing a metal — metals are good conductors."],
             examinerNote: "B1 for (c).",
           },
@@ -354,7 +354,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Total energy stays constant — it only changes form (e.g. GPE → KE for a falling object).", working: "\\text{total energy constant}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Energy is never created or destroyed, only transferred or stored",
+            finalAnswer: "**(b)** Energy is never created or destroyed, only transferred or stored",
             examinerNote: "B1 for (a).",
           },
         },
@@ -399,7 +399,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Friction and electrical resistance always dissipate some energy as heat/sound.", working: "\\text{always some waste}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Some energy is always dissipated as heat and sound",
+            finalAnswer: "**(d)** Some energy is always dissipated as heat and sound",
             commonErrors: ["Thinking efficiency can reach 100% with better design."],
             examinerNote: "B1 for (b).",
           },
@@ -574,7 +574,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$v=f\\lambda$ links speed, frequency and wavelength.", working: "v=f\\lambda", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Speed, frequency and wavelength",
+            finalAnswer: "**(c)** Speed, frequency and wavelength",
             commonErrors: ["Confusing wavelength with amplitude."],
             examinerNote: "B1 for (b).",
           },
@@ -685,7 +685,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Wavelength is a length — the distance per wave.", working: "\\lambda=\\text{crest-to-crest}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The distance between two consecutive crests or troughs",
+            finalAnswer: "**(d)** The distance between two consecutive crests or troughs",
             commonErrors: ["Confusing wavelength with frequency."],
             examinerNote: "B1 for (b).",
           },
@@ -776,7 +776,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Their very high energy lets them ionise molecules and damage cells, unlike visible light.", working: "\\text{ionising radiation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Ionising radiation that can damage cells and DNA",
+            finalAnswer: "**(b)** Ionising radiation that can damage cells and DNA",
             examinerNote: "B1 for (a).",
           },
         },
@@ -802,7 +802,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "All electromagnetic waves travel at the speed of light in a vacuum.", working: "c=3\\times10^8\\text{ m/s}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $3\\times10^8$ m/s",
+            finalAnswer: "**(c)** $3\\times10^8$ m/s",
             commonErrors: ["Using the speed of sound (340 m/s) — that is for sound waves in air."],
             examinerNote: "B1 for (b).",
           },
@@ -829,7 +829,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Microwave energy is absorbed by water in food, producing heat quickly.", working: "\\text{absorbed by water}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Are absorbed by water molecules in food, heating it",
+            finalAnswer: "**(c)** Are absorbed by water molecules in food, heating it",
             examinerNote: "B1 for (a).",
           },
         },

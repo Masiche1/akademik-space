@@ -79,7 +79,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "First sound is /d/.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** /d/",
+            finalAnswer: "**(b)** /d/",
             commonErrors: ["Choosing /o/ — that's the middle sound."],
           },
         },
@@ -110,7 +110,7 @@ export const lesson13: Lesson = {
               { reasoning: "sun = /s/; sock = /s/.", marks: 1, markCode: "M" },
               { reasoning: "Answer: sock.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** sock",
+            finalAnswer: "**(a)** sock",
             commonErrors: ["Choosing 'cat' — starts /k/ not /s/."],
           },
         },
@@ -233,7 +233,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Same ending sound -at.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** hat",
+            finalAnswer: "**(c)** hat",
             commonErrors: ["Choosing 'dog' — no shared ending."],
           },
         },
@@ -250,7 +250,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "led" },
               { id: "d", text: "red" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -264,7 +264,7 @@ export const lesson13: Lesson = {
               { reasoning: "Check ending sounds.", marks: 1, markCode: "M" },
               { reasoning: "Answer: big.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(d)** big",
+            finalAnswer: "**(b)** big",
             commonErrors: [
               "Picking a rhyming word — question asks for non-rhyme.",
             ],

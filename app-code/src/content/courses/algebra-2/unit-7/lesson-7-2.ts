@@ -68,7 +68,7 @@ export const lesson72: Lesson = {
               { reasoning: "Identify the first term and common difference in the explicit sequence rule.", working: "a_1=8,\\quad d=-3", marks: 1, markCode: "B" },
               { reasoning: "Substitute these values into the arithmetic formula; the first term occurs when $n=1$.", working: "a_n=8-3(n-1)", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $a_n=8-3(n-1)$",
+            finalAnswer: "**(d)** $a_n=8-3(n-1)$",
             commonErrors: ["Using $8-3n$, which gives the wrong first term.", "Using a power of $-3$, which would describe a geometric pattern."],
           },
         },

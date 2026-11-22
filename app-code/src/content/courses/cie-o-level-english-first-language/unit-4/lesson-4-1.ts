@@ -65,7 +65,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "Auto=self, bio=other.", working: "self vs other", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Author writes own life vs other's",
+            finalAnswer: "**(c)** Author writes own life vs other's",
             commonErrors: ["Choosing (c) — both are non-fiction."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "Selected memories = memoir.", working: "memories", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** A memoir",
+            finalAnswer: "**(b)** A memoir",
             commonErrors: ["Choosing (b) — a report informs impartially."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "Intro-body-conclusion.", working: "structure", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Introduction, body paragraphs, conclusion",
+            finalAnswer: "**(d)** Introduction, body paragraphs, conclusion",
             commonErrors: ["Choosing (d) — that's drama."],
           },
         },
@@ -302,7 +302,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "Report = clear objective information.", working: "objective", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Present information clearly and objectively",
+            finalAnswer: "**(d)** Present information clearly and objectively",
             commonErrors: ["Choosing (b) — that's advertising."],
           },
         },
@@ -383,7 +383,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "Arguing a viewpoint = persuasive.", working: "persuasive", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Persuasive writing",
+            finalAnswer: "**(b)** Persuasive writing",
             commonErrors: ["Choosing (c) — it's opinion, not neutral reporting."],
           },
         },
@@ -477,7 +477,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "Memory selective.", working: "selective", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Memory is selective",
+            finalAnswer: "**(b)** Memory is selective",
             commonErrors: ["Choosing (b) — memory isn't perfect."],
           },
         },
@@ -608,7 +608,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "Flashback = earlier events revisited.", working: "earlier", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Returns to earlier events out of time order",
+            finalAnswer: "**(c)** Returns to earlier events out of time order",
             commonErrors: ["Choosing (d) — that's an epilogue."],
           },
         },
@@ -634,7 +634,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "Nostalgic = fond past feeling.", working: "fond", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Fond remembrance of the past",
+            finalAnswer: "**(d)** Fond remembrance of the past",
             commonErrors: ["Choosing (b) — that's bitterness or anger."],
           },
         },
@@ -714,7 +714,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "Grouping by topic is thematic, not chronological.", working: "topic", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Events grouped by topic",
+            finalAnswer: "**(d)** Events grouped by topic",
             commonErrors: ["Choosing (b) — that IS chronological."],
           },
         },
@@ -795,7 +795,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "First person = intimacy + subjectivity.", working: "intimacy", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Intimacy and subjectivity",
+            finalAnswer: "**(b)** Intimacy and subjectivity",
             commonErrors: ["Choosing (b) — first person is subjective."],
           },
         },
@@ -889,7 +889,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "Anaphora = repeated openings.", working: "repeated", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Repetition at sentence starts",
+            finalAnswer: "**(c)** Repetition at sentence starts",
             commonErrors: ["Choosing (b) — that's rhetorical question."],
           },
         },
@@ -994,7 +994,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "Tricolon = three parts.", working: "three", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** A three-part structure or list",
+            finalAnswer: "**(d)** A three-part structure or list",
             commonErrors: ["Choosing (c) — that's a rhetorical question."],
           },
         },
@@ -1020,7 +1020,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "'We' creates shared identity.", working: "shared", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Create a shared identity and responsibility",
+            finalAnswer: "**(c)** Create a shared identity and responsibility",
             commonErrors: ["Choosing (b) — 'we' includes, not excludes."],
           },
         },
@@ -1046,7 +1046,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "Emotive = arouses feeling.", working: "feeling", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Trigger an emotional response in the reader",
+            finalAnswer: "**(c)** Trigger an emotional response in the reader",
             commonErrors: ["Choosing (b) — that's objective language."],
           },
         },
@@ -1126,7 +1126,7 @@ export const lesson141: Lesson = {
             steps: [
               { reasoning: "Report=facts, editorial=opinion.", working: "facts", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Presenting facts rather than arguing a viewpoint",
+            finalAnswer: "**(b)** Presenting facts rather than arguing a viewpoint",
             commonErrors: ["Choosing (d) — reports use evidence."],
           },
         },

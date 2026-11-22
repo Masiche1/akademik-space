@@ -128,7 +128,7 @@ export const lesson72: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. There — existence.",
+            finalAnswer: "**(c)**. There — existence.",
             commonErrors: [
               "Choosing 'their' — that's possessive, not existence.",
             ],
@@ -367,7 +367,7 @@ export const lesson72: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Separate.",
+            finalAnswer: "**(c)**. Separate.",
             commonErrors: [
               "Writing 'seperate' — common error because pronunciation suggests 'e'.",
             ],

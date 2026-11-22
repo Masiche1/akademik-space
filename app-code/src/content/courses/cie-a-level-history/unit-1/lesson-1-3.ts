@@ -241,7 +241,7 @@ export const lesson613: Lesson = {
             steps: [
               { reasoning: "External support made Korea a proxy war.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** The USSR and China backed the North; the United States backed the South"
+            finalAnswer: "**(b)** The USSR and China backed the North; the United States backed the South"
           }
         },
         {
@@ -285,7 +285,7 @@ export const lesson613: Lesson = {
             steps: [
               { reasoning: "The Viet Cong fought against the US-backed South Vietnamese government.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** South Vietnamese communist guerrillas supported by the North"
+            finalAnswer: "**(b)** South Vietnamese communist guerrillas supported by the North"
           }
         },
         {
@@ -348,7 +348,7 @@ export const lesson613: Lesson = {
             steps: [
               { reasoning: "Moscow sought to preserve its influence over the Afghan regime.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** To support the pro-Soviet Afghan government against insurgency"
+            finalAnswer: "**(b)** To support the pro-Soviet Afghan government against insurgency"
           }
         },
         {
@@ -412,7 +412,7 @@ export const lesson613: Lesson = {
             steps: [
               { reasoning: "The theory framed Vietnam as part of a wider communist expansion.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** It justified intervention to prevent the spread of communism"
+            finalAnswer: "**(c)** It justified intervention to prevent the spread of communism"
           }
         },
         {
@@ -456,7 +456,7 @@ export const lesson613: Lesson = {
             steps: [
               { reasoning: "Anti-Soviet fighters received weapons and funds from several powers.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** The mujahedeen, backed by the United States, China and Pakistan"
+            finalAnswer: "**(d)** The mujahedeen, backed by the United States, China and Pakistan"
           }
         },
         {

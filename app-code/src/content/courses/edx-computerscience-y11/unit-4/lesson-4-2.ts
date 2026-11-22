@@ -68,7 +68,7 @@ export const lesson302: Lesson = {
             steps: [
               { reasoning: "Input = to computer.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Sends data",
+            finalAnswer: "**(d)** Sends data",
             commonErrors: ["Output confused."],
           },
         },
@@ -246,7 +246,7 @@ export const lesson302: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Translation software",
+            finalAnswer: "**(c)** Translation software",
             commonErrors: ["Hardware confused."],
           },
         },

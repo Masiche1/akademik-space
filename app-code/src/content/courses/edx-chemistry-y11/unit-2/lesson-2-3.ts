@@ -69,7 +69,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "An alloy is a mixture, not a compound. It is made by mixing the molten metals or elements together.", working: "\\text{metal} + \\text{other elements}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(a)**",
             commonErrors: ["Choosing (a), which describes a metal oxide.", "Choosing (d), which describes galvanising."],
             examinerNote: "B1 for (b).",
           },
@@ -204,7 +204,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Recycling avoids the electrolysis of aluminium oxide, which uses a large amount of electricity.", working: "\\text{less energy}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(b)**",
             commonErrors: ["Choosing (b) or (c), which are the opposite of the real effect."],
             examinerNote: "B1 for (a).",
           },

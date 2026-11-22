@@ -182,7 +182,7 @@ export const lesson14: Lesson = {
             { id: "b", text: "A rectangle that is not a square" },
             { id: "c", text: "A kite" },
             { id: "d", text: "A triangle with sides 3 cm, 4 cm and 5 cm" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Regular shape", statement: "All sides and angles equal." }],
             steps: [{ reasoning: "A square has all sides and angles equal.", marks: 1, markCode: "A" }],
@@ -234,7 +234,7 @@ export const lesson14: Lesson = {
             { id: "b", text: "An isosceles triangle has exactly 1 line of symmetry" },
             { id: "c", text: "A circle has no lines of symmetry" },
             { id: "d", text: "A scalene triangle has 3 lines of symmetry" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Symmetry", statement: "Check fold lines carefully." }],
             steps: [{ reasoning: "An isosceles triangle folds into matching halves along one line only.", marks: 1, markCode: "A" }],

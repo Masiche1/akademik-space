@@ -237,7 +237,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Linear search checks items one by one, so sorting is not required.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Linear search",
+            finalAnswer: "**(c)** Linear search",
           },
         },
         {
@@ -262,7 +262,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Binary search discards half the list based on order, so order must exist.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Halving requires known order",
+            finalAnswer: "**(d)** Halving requires known order",
           },
         },
         {
@@ -312,7 +312,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Merge sort's O(n log n) grows much more slowly than bubble sort's O(n^2).", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** O(n log n) scaling",
+            finalAnswer: "**(d)** O(n log n) scaling",
           },
         },
         {
@@ -337,7 +337,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "For a tiny unsorted list, linear search avoids sorting and is simple.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Linear search",
+            finalAnswer: "**(c)** Linear search",
           },
         },
         {
@@ -362,7 +362,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "If the item is absent, linear search checks all n items.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** n",
+            finalAnswer: "**(a)** n",
           },
         },
         {

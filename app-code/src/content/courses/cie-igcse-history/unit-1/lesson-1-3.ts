@@ -473,7 +473,7 @@ export const lesson333: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** To recognise existing European borders and commit to human rights",
+              "**(c)** To recognise existing European borders and commit to human rights",
           },
         },
         {
@@ -558,7 +558,7 @@ export const lesson333: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** USSR",
+            finalAnswer: "**(a)** USSR",
           },
         },
         {
@@ -692,7 +692,7 @@ export const lesson333: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Because each feared falling behind militarily if it disarmed unilaterally",
+              "**(a)** Because each feared falling behind militarily if it disarmed unilaterally",
           },
         },
         {

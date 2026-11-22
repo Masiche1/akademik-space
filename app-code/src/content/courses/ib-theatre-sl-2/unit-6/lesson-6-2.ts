@@ -171,7 +171,7 @@ export const lesson62: Lesson = {
               { reasoning: "Reflection is honest analysis of performance and process aimed at improvement.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Honest analysis of performance and process to guide improvement",
+            finalAnswer: "**(a)** Honest analysis of performance and process to guide improvement",
             commonErrors: [
               "Confusing reflection with praise or self-criticism.",
             ],
@@ -200,7 +200,7 @@ export const lesson62: Lesson = {
               { reasoning: "Reflection occurs continuously — rehearsal notes and post-performance review.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** During rehearsals and after performances",
+            finalAnswer: "**(d)** During rehearsals and after performances",
             commonErrors: [
               "Treating reflection as a one-off event after the run.",
             ],
@@ -229,7 +229,7 @@ export const lesson62: Lesson = {
               { reasoning: "'Be a better actor' cannot be acted on or checked for success.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Not actionable or measurable",
+            finalAnswer: "**(d)** Not actionable or measurable",
             commonErrors: [
               "Setting vague resolutions that cannot be tested.",
             ],
@@ -258,7 +258,7 @@ export const lesson62: Lesson = {
               { reasoning: "Long-range comparison makes gradual growth visible.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Reveals progress that is invisible day to day",
+            finalAnswer: "**(d)** Reveals progress that is invisible day to day",
             commonErrors: [
               "Missing growth because only recent work is examined.",
             ],
@@ -287,7 +287,7 @@ export const lesson62: Lesson = {
               { reasoning: "Analysed mistakes become information that guides future work.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Turns errors into analysable data for future improvement",
+            finalAnswer: "**(a)** Turns errors into analysable data for future improvement",
             commonErrors: [
               "Treating mistakes as failures to be hidden rather than analysed.",
             ],
@@ -316,7 +316,7 @@ export const lesson62: Lesson = {
               { reasoning: "A specific actionable goal makes reflection forward-looking and testable.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** One specific, actionable goal for the next performance",
+            finalAnswer: "**(a)** One specific, actionable goal for the next performance",
             commonErrors: [
               "Ending reflection with emotion rather than action.",
             ],
@@ -521,7 +521,7 @@ export const lesson62: Lesson = {
               { reasoning: "A theatre portfolio documents growth across performance, analysis and production.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Theatrical growth across performance, analysis and production",
+            finalAnswer: "**(d)** Theatrical growth across performance, analysis and production",
             commonErrors: [
               "Showing only polished final performances without growth evidence.",
             ],
@@ -622,7 +622,7 @@ export const lesson62: Lesson = {
               { reasoning: "A performance log records productions, roles, directors and experiences.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Productions, roles, directors and experiences",
+            finalAnswer: "**(d)** Productions, roles, directors and experiences",
             commonErrors: [
               "Keeping only highlights rather than a complete record.",
             ],
@@ -651,7 +651,7 @@ export const lesson62: Lesson = {
               { reasoning: "Video best documents visual performance — movement and stage presence.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Movement, gesture and stage presence",
+            finalAnswer: "**(c)** Movement, gesture and stage presence",
             commonErrors: [
               "Using video for elements better captured in writing.",
             ],
@@ -709,7 +709,7 @@ export const lesson62: Lesson = {
               { reasoning: "Reflections document the learning behind performances.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Show the thinking and learning behind the work",
+            finalAnswer: "**(c)** Show the thinking and learning behind the work",
             commonErrors: [
               "Relying only on recordings without analytical context.",
             ],
@@ -738,7 +738,7 @@ export const lesson62: Lesson = {
               { reasoning: "Labels enable chronological comparison and contextual understanding.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Allows growth to be tracked and work to be contextualised",
+            finalAnswer: "**(d)** Allows growth to be tracked and work to be contextualised",
             commonErrors: [
               "Keeping unlabelled files that cannot be ordered or compared.",
             ],
@@ -767,7 +767,7 @@ export const lesson62: Lesson = {
               { reasoning: "Early-recent comparison of similar material shows improvement directly.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A direct comparison of early and recent performances of similar material",
+            finalAnswer: "**(c)** A direct comparison of early and recent performances of similar material",
             commonErrors: [
               "Claiming growth without comparable evidence.",
             ],

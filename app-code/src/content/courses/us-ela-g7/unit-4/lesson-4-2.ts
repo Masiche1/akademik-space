@@ -128,7 +128,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The hook grabs attention so the audience wants to keep listening.",
+              "**(a)**. The hook grabs attention so the audience wants to keep listening.",
             commonErrors: [
               "Confusing the hook with the closing or the main points.",
             ],
@@ -375,7 +375,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Too much text turns the presentation into reading.",
+              "**(d)**. Too much text turns the presentation into reading.",
             commonErrors: [
               "Choosing (a) — color is never mentioned as the problem.",
             ],

@@ -461,7 +461,7 @@ export const lesson46: Lesson = {
             steps: [
               { reasoning: "Relative, not absolute, efficiency drives trade gains.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Specialise where relative efficiency is highest",
+            finalAnswer: "**(d)** Specialise where relative efficiency is highest",
             commonErrors: ["Confusing with absolute advantage."],
           },
         },
@@ -688,7 +688,7 @@ export const lesson46: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Aid tied to donor goods",
+            finalAnswer: "**(b)** Aid tied to donor goods",
             commonErrors: ["Confusing with loan aid."],
           },
         },
@@ -888,7 +888,7 @@ export const lesson46: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Emergency relief",
+            finalAnswer: "**(b)** Emergency relief",
             commonErrors: ["Confusing with development aid."],
           },
         },

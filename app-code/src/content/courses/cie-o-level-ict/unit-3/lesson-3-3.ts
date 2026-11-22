@@ -44,7 +44,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "A computer brand" },
             { id: "d", text: "A set of rules for communication" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Protocol", statement: "Communication rules." }], steps: [{ reasoning: "Protocol = rules.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Communication rules" },
+          markscheme: { principles: [{ kind: "definition", name: "Protocol", statement: "Communication rules." }], steps: [{ reasoning: "Protocol = rules.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Communication rules" },
         },
         {
           id: "olict-u3-pr-q2", difficulty: "core", totalMarks: 2,
@@ -100,7 +100,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Break data into packets and ensure correct delivery" },
             { id: "d", text: "Store files" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "TCP", statement: "Reliable packet delivery." }], steps: [{ reasoning: "TCP handles packets and ordering.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Break data into packets and ensure correct delivery" },
+          markscheme: { principles: [{ kind: "definition", name: "TCP", statement: "Reliable packet delivery." }], steps: [{ reasoning: "TCP handles packets and ordering.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Break data into packets and ensure correct delivery" },
         },
         {
           id: "olict-u3-pr-q6", difficulty: "core", totalMarks: 1,
@@ -111,7 +111,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "A phone number for a device" },
             { id: "d", text: "A computer's colour" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "IP address", statement: "Unique device identifier." }], steps: [{ reasoning: "IP address identifies devices like a phone number.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A phone number for a device" },
+          markscheme: { principles: [{ kind: "definition", name: "IP address", statement: "Unique device identifier." }], steps: [{ reasoning: "IP address identifies devices like a phone number.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** A phone number for a device" },
         },
         {
           id: "olict-u3-pr-q7", difficulty: "foundation", totalMarks: 2,
@@ -131,7 +131,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "A small chunk of data sent across a network" },
             { id: "d", text: "A cable connector" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Packet", statement: "Data chunk." }], steps: [{ reasoning: "Packets are small data chunks.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A small chunk of data sent across a network" },
+          markscheme: { principles: [{ kind: "definition", name: "Packet", statement: "Data chunk." }], steps: [{ reasoning: "Packets are small data chunks.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** A small chunk of data sent across a network" },
         },
         {
           id: "olict-u3-pr-q9", difficulty: "core", totalMarks: 2,
@@ -162,7 +162,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "IPv4 cannot route packets" },
             { id: "d", text: "IPv4 addresses are running out" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "IPv6", statement: "More addresses." }], steps: [{ reasoning: "IPv4's 32-bit space is nearly exhausted.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** IPv4 addresses are running out" },
+          markscheme: { principles: [{ kind: "principle", name: "IPv6", statement: "More addresses." }], steps: [{ reasoning: "IPv4's 32-bit space is nearly exhausted.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** IPv4 addresses are running out" },
         },
         {
           id: "olict-u3-pr-q12", difficulty: "core", totalMarks: 2,
@@ -336,7 +336,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "HTTP" },
             { id: "d", text: "FTP" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "IMAP", statement: "Server-side mail." }], steps: [{ reasoning: "IMAP keeps mail on server.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** IMAP" },
+          markscheme: { principles: [{ kind: "definition", name: "IMAP", statement: "Server-side mail." }], steps: [{ reasoning: "IMAP keeps mail on server.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** IMAP" },
         },
         {
           id: "olict-u3-wp-q8", difficulty: "foundation", totalMarks: 1,
@@ -378,7 +378,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "SMTP" },
             { id: "d", text: "HTTP" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "HTTP", statement: "Transfers web pages." }], steps: [{ reasoning: "HTTP transfers pages.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** HTTP" },
+          markscheme: { principles: [{ kind: "definition", name: "HTTP", statement: "Transfers web pages." }], steps: [{ reasoning: "HTTP transfers pages.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** HTTP" },
         },
         {
           id: "olict-u3-wp-q12", difficulty: "core", totalMarks: 2,
@@ -409,7 +409,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "HTTPS" },
             { id: "d", text: "FTP" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "HTTPS", statement: "Encrypted web." }], steps: [{ reasoning: "HTTPS is encrypted HTTP.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** HTTPS" },
+          markscheme: { principles: [{ kind: "definition", name: "HTTPS", statement: "Encrypted web." }], steps: [{ reasoning: "HTTPS is encrypted HTTP.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** HTTPS" },
         },
         {
           id: "olict-u3-wp-q15", difficulty: "foundation", totalMarks: 2,

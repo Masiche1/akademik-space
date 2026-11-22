@@ -98,7 +98,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Promotion" },
             { id: "d", text: "Price" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Place", statement: "Distribution." }], steps: [{ reasoning: "Place covers how/where the product is available.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Place" },
+          markscheme: { principles: [{ kind: "definition", name: "Place", statement: "Distribution." }], steps: [{ reasoning: "Place covers how/where the product is available.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Place" },
         },
         {
           id: "olbus-u2-mm-q6", difficulty: "core", totalMarks: 1,
@@ -109,7 +109,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Sets a low price to gain market share quickly" },
             { id: "d", text: "Matches competitor prices exactly" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Penetration pricing", statement: "Low price, market share." }], steps: [{ reasoning: "Penetration = low price to enter/gain share.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Penetration pricing", statement: "Low price, market share." }], steps: [{ reasoning: "Penetration = low price to enter/gain share.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u2-mm-q7", difficulty: "foundation", totalMarks: 1,
@@ -120,7 +120,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "The sales team" },
             { id: "d", text: "The shop location" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Product", statement: "What is sold." }], steps: [{ reasoning: "Product = goods/services offered.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Product", statement: "What is sold." }], steps: [{ reasoning: "Product = goods/services offered.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u2-mm-q8", difficulty: "core", totalMarks: 2,
@@ -173,7 +173,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Promotion" },
             { id: "d", text: "Place" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Promotion", statement: "Sales incentive." }], steps: [{ reasoning: "BOGOF is a sales promotion technique.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Promotion" },
+          markscheme: { principles: [{ kind: "definition", name: "Promotion", statement: "Sales incentive." }], steps: [{ reasoning: "BOGOF is a sales promotion technique.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Promotion" },
         },
         {
           id: "olbus-u2-mm-q13", difficulty: "core", totalMarks: 2,
@@ -257,7 +257,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Dividing a market into groups with similar needs" },
             { id: "d", text: "Closing part of a market" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Segmentation", statement: "Divide into groups." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Segmentation", statement: "Divide into groups." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u2-seg-q2", difficulty: "core", totalMarks: 2,
@@ -324,7 +324,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Their location" },
             { id: "d", text: "Their age" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Income segmentation", statement: "By earnings." }], steps: [{ reasoning: "Income segmentation groups by earnings.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Income segmentation", statement: "By earnings." }], steps: [{ reasoning: "Income segmentation groups by earnings.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u2-seg-q7", difficulty: "foundation", totalMarks: 1,
@@ -404,7 +404,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Similar needs, characteristics or behaviours" },
             { id: "d", text: "Random choice" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Segmentation", statement: "Groups with similar traits." }], steps: [{ reasoning: "Segments share needs/characteristics/behaviours.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Segmentation", statement: "Groups with similar traits." }], steps: [{ reasoning: "Segments share needs/characteristics/behaviours.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u2-seg-q15", difficulty: "core", totalMarks: 2,

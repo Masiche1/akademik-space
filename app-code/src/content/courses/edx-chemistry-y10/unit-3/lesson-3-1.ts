@@ -69,7 +69,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The equation is $2\\text{Li} + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{LiOH} + \\text{H}_2$, so the products are lithium hydroxide and hydrogen.", working: "\\text{LiOH} + \\text{H}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Lithium hydroxide and hydrogen",
+            finalAnswer: "**(d)** Lithium hydroxide and hydrogen",
             commonErrors: ["Choosing (a) because the metal is thought to react with the oxygen in water to form an oxide.", "Choosing (c): oxygen is not released, the gas is hydrogen."],
             examinerNote: "B1 for (b).",
           },
@@ -195,7 +195,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "$50\\%$" },
               { id: "d", text: "$78\\%$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -204,7 +204,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Nitrogen is the most abundant gas in air at about $78\\%$.", working: "78\\%", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $78\\%$",
+            finalAnswer: "**(d)** $78\\%$",
             commonErrors: ["Choosing $21\\%$, which is the percentage of oxygen."],
             examinerNote: "B1 for (c).",
           },

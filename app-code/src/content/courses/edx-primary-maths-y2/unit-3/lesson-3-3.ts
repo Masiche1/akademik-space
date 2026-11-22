@@ -95,7 +95,7 @@ export const lesson33: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Centimetres",
+            finalAnswer: "**(c)** Centimetres",
             commonErrors: ["Choosing metres — too big a unit."],
           },
         },
@@ -324,7 +324,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Group of 5 plus 3 = 8.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 8",
+            finalAnswer: "**(a)** 8",
             commonErrors: ["Counting 10 — miscounting the group."],
           },
         },

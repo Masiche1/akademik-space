@@ -121,7 +121,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** First order",
+            finalAnswer: "**(b)** First order",
             commonErrors: [
               "Using the stoichiometric coefficient 2 — orders come from the rate expression, not the equation.",
             ],
@@ -359,7 +359,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Sum of individual orders",
+            finalAnswer: "**(d)** Sum of individual orders",
             commonErrors: [
               "Using stoichiometric coefficients instead of the exponents in the rate expression.",
             ],
@@ -402,7 +402,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 4",
+            finalAnswer: "**(d)** 4",
             commonErrors: [
               "Multiplying by 2 instead of squaring — second order means the concentration is squared.",
             ],
@@ -446,7 +446,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** No effect on the rate",
+            finalAnswer: "**(d)** No effect on the rate",
             commonErrors: [
               "Thinking zero order means zero rate — it means zero dependence on concentration.",
             ],
@@ -466,7 +466,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "mol dm$^{-3}$ s$^{-1}$" },
               { id: "d", text: "dm$^6$ mol$^{-2}$ s$^{-1}$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -490,7 +490,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** dm$^6$ mol$^{-2}$ s$^{-1}$",
+            finalAnswer: "**(d)** dm$^6$ mol$^{-2}$ s$^{-1}$",
             commonErrors: [
               "Confusing first-order units (s$^{-1}$) with second-order units.",
             ],
@@ -534,7 +534,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Experimental initial-rate data",
+            finalAnswer: "**(c)** Experimental initial-rate data",
             commonErrors: [
               "Reading orders off the balanced equation — stoichiometric coefficients are unrelated.",
             ],
@@ -982,7 +982,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Lower activation energy pathway",
+            finalAnswer: "**(b)** Lower activation energy pathway",
             commonErrors: [
               "Thinking catalysts change the equilibrium position — they only speed up both directions.",
             ],
@@ -1225,7 +1225,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Highest-energy arrangement",
+            finalAnswer: "**(d)** Highest-energy arrangement",
             commonErrors: [
               "Confusing the transition state with an intermediate — intermediates are local minima, transition states are maxima.",
             ],
@@ -1272,7 +1272,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Minimum energy to reach transition state",
+            finalAnswer: "**(c)** Minimum energy to reach transition state",
             commonErrors: [
               "Confusing $E_a$ with $\\Delta H$ — exothermic reactions still have large $E_a$.",
             ],
@@ -1367,7 +1367,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Larger fraction exceeds $E_a$",
+            finalAnswer: "**(d)** Larger fraction exceeds $E_a$",
             commonErrors: [
               "Saying 'molecules move faster' alone — the key is the fraction above $E_a$.",
             ],

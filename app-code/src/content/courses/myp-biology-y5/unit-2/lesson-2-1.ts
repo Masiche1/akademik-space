@@ -62,7 +62,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Effector cell" },
               { id: "d", text: "Relay neurone" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -71,7 +71,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Sensory neurones run receptor → CNS; motor neurones run CNS → effector.", working: "\\text{receptor to CNS}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Sensory neurone",
+            finalAnswer: "**(a)** Sensory neurone",
             commonErrors: ["Confusing sensory and motor neurones — direction of travel is the key."],
             examinerNote: "B1 for (c).",
           },
@@ -206,7 +206,7 @@ export const lesson21: Lesson = {
           totalMarks: 1,
           stem: "Which chemical carries the impulse across a synapse?",
           response: { type: "mcq", choices: [ { id: "a", text: "Myelin" }, { id: "b", text: "Oestrogen" }, { id: "c", text: "Neurotransmitter" }, { id: "d", text: "Urea" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Neurotransmitter", statement: "Neurotransmitters diffuse across the synaptic cleft to bind receptors." }], steps: [{ reasoning: "Myelin insulates axons but does not cross the synapse.", working: "neurotransmitter", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Neurotransmitter" },
+          markscheme: { principles: [{ kind: "definition", name: "Neurotransmitter", statement: "Neurotransmitters diffuse across the synaptic cleft to bind receptors." }], steps: [{ reasoning: "Myelin insulates axons but does not cross the synapse.", working: "neurotransmitter", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Neurotransmitter" },
         },
         {
           id: "mypb5-u2-neuron-q10",
@@ -234,7 +234,7 @@ export const lesson21: Lesson = {
           totalMarks: 1,
           stem: "Which sequence correctly orders the reflex arc?",
           response: { type: "mcq", choices: [ { id: "a", text: "Motor → receptor → sensory → effector" }, { id: "b", text: "Effector → motor → relay → sensory → receptor" }, { id: "c", text: "Receptor → sensory → relay → motor → effector" }, { id: "d", text: "Sensory → receptor → motor → relay" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Reflex pathway", statement: "Impulses travel from receptor through sensory and relay neurones to a motor neurone and effector." }], steps: [{ reasoning: "The signal always begins at the receptor and ends at the effector.", working: "receptor\\to effector", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Receptor → sensory → relay → motor → effector" },
+          markscheme: { principles: [{ kind: "definition", name: "Reflex pathway", statement: "Impulses travel from receptor through sensory and relay neurones to a motor neurone and effector." }], steps: [{ reasoning: "The signal always begins at the receptor and ends at the effector.", working: "receptor\\to effector", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Receptor → sensory → relay → motor → effector" },
         },
         {
           id: "mypb5-u2-neuron-q13",
@@ -266,7 +266,7 @@ export const lesson21: Lesson = {
           totalMarks: 1,
           stem: "Why must neurotransmitters be removed after crossing a synapse?",
           response: { type: "mcq", choices: [ { id: "a", text: "To increase blood pressure" }, { id: "b", text: "To allow the synapse to reset for the next impulse" }, { id: "c", text: "To make the neurone longer" }, { id: "d", text: "To produce more DNA" } ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Synapse reset", statement: "Neurotransmitter breakdown or reuptake prevents continuous stimulation." }], steps: [{ reasoning: "Removal stops the postsynaptic neurone from remaining depolarised.", working: "reset", marks: 1, markCode: "B" }], finalAnswer: "**(a)** To allow the synapse to reset for the next impulse" },
+          markscheme: { principles: [{ kind: "principle", name: "Synapse reset", statement: "Neurotransmitter breakdown or reuptake prevents continuous stimulation." }], steps: [{ reasoning: "Removal stops the postsynaptic neurone from remaining depolarised.", working: "reset", marks: 1, markCode: "B" }], finalAnswer: "**(b)** To allow the synapse to reset for the next impulse" },
         },
       ],
     },
@@ -313,7 +313,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Glucagon" },
               { id: "d", text: "Adrenaline" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -322,7 +322,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Insulin is the glucose-lowering hormone; glucagon raises it.", working: "\\text{insulin lowers glucose}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Insulin",
+            finalAnswer: "**(a)** Insulin",
             commonErrors: ["Choosing glucagon — it raises blood glucose."],
             examinerNote: "B1 for (c).",
           },
@@ -457,7 +457,7 @@ export const lesson21: Lesson = {
           totalMarks: 1,
           stem: "Which hormone is released when blood glucose falls too low?",
           response: { type: "mcq", choices: [ { id: "a", text: "Glucagon" }, { id: "b", text: "FSH" }, { id: "c", text: "Insulin" }, { id: "d", text: "Progesterone" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Glucagon", statement: "Glucagon stimulates glycogen breakdown to raise blood glucose." }], steps: [{ reasoning: "Glucagon opposes insulin when glucose is low.", working: "glucagon", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Glucagon" },
+          markscheme: { principles: [{ kind: "definition", name: "Glucagon", statement: "Glucagon stimulates glycogen breakdown to raise blood glucose." }], steps: [{ reasoning: "Glucagon opposes insulin when glucose is low.", working: "glucagon", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Glucagon" },
         },
         {
           id: "mypb5-u2-hormone-q10",
@@ -485,7 +485,7 @@ export const lesson21: Lesson = {
           totalMarks: 1,
           stem: "What causes type 1 diabetes?",
           response: { type: "mcq", choices: [ { id: "a", text: "A lack of neurotransmitters" }, { id: "b", text: "High blood pressure" }, { id: "c", text: "Too much glucagon only" }, { id: "d", text: "Insufficient insulin production by the pancreas" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Type 1 diabetes", statement: "Type 1 diabetes results from failure of insulin-producing pancreatic cells." }], steps: [{ reasoning: "Without insulin, glucose cannot be taken up effectively by cells.", working: "no\\text{ insulin}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Insufficient insulin production by the pancreas" },
+          markscheme: { principles: [{ kind: "definition", name: "Type 1 diabetes", statement: "Type 1 diabetes results from failure of insulin-producing pancreatic cells." }], steps: [{ reasoning: "Without insulin, glucose cannot be taken up effectively by cells.", working: "no\\text{ insulin}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Insufficient insulin production by the pancreas" },
         },
         {
           id: "mypb5-u2-hormone-q13",
@@ -513,7 +513,7 @@ export const lesson21: Lesson = {
           totalMarks: 1,
           stem: "Why does a hormone affect only some cells in the body?",
           response: { type: "mcq", choices: [ { id: "a", text: "All cells have identical receptors" }, { id: "b", text: "Hormones cannot enter the blood" }, { id: "c", text: "Hormones move by nerve impulses" }, { id: "d", text: "Only cells with matching receptors respond" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Target cells", statement: "Hormones bind specific receptors, so only target cells respond." }], steps: [{ reasoning: "Receptor specificity makes hormone action selective despite blood transport.", working: "receptors", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Only cells with matching receptors respond" },
+          markscheme: { principles: [{ kind: "definition", name: "Target cells", statement: "Hormones bind specific receptors, so only target cells respond." }], steps: [{ reasoning: "Receptor specificity makes hormone action selective despite blood transport.", working: "receptors", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Only cells with matching receptors respond" },
         },
         {
           id: "mypb5-u2-hormone-q16",
@@ -521,7 +521,7 @@ export const lesson21: Lesson = {
           totalMarks: 1,
           stem: "Which statement best defines negative feedback?",
           response: { type: "mcq", choices: [ { id: "a", text: "The response increases the original stimulus" }, { id: "b", text: "Hormones always act faster than nerves" }, { id: "c", text: "All body variables change randomly" }, { id: "d", text: "The response reduces the original stimulus to maintain a set point" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Negative feedback", statement: "A change triggers a response that opposes and reduces the change." }], steps: [{ reasoning: "Negative feedback stabilises variables such as blood glucose.", working: "opposes\\text{ stimulus}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** The response reduces the original stimulus to maintain a set point" },
+          markscheme: { principles: [{ kind: "definition", name: "Negative feedback", statement: "A change triggers a response that opposes and reduces the change." }], steps: [{ reasoning: "Negative feedback stabilises variables such as blood glucose.", working: "opposes\\text{ stimulus}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** The response reduces the original stimulus to maintain a set point" },
         },
       ],
     },

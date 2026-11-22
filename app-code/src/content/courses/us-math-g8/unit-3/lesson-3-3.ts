@@ -53,7 +53,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "$30\\pi \\text{ cm}^3$" },
               { id: "d", text: "$15\\pi \\text{ cm}^3$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -62,7 +62,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Substitute $r = 3$ and $h = 5$.", working: "V = \\pi (3)^2 (5) = 45\\pi", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $45\\pi \\text{ cm}^3$",
+            finalAnswer: "**(b)** $45\\pi \\text{ cm}^3$",
             commonErrors: ["Choosing $30\\pi$ by using $2r$ or $r \\cdot h \\cdot 2$ instead of $r^2$.", "Choosing $75\\pi$ by squaring the height instead of the radius."],
           },
         },
@@ -192,7 +192,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Cube the radius, then multiply by $\\frac{4}{3}\\pi$.", working: "V = \\tfrac{4}{3}\\pi (27) = 36\\pi", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $36\\pi \\text{ in}^3$",
+            finalAnswer: "**(c)** $36\\pi \\text{ in}^3$",
             commonErrors: ["Squaring the radius instead of cubing it (choice b).", "Using $4\\pi r^3$ (choice c)."],
           },
         },

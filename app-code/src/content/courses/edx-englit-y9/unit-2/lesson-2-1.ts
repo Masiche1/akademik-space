@@ -215,7 +215,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Dramatic monologue", statement: "One speaker, not the poet, speaks to a listener and reveals character." }],
             steps: [{ reasoning: "The Duke addresses a listener ('you') and unintentionally reveals his possessiveness.", evidence: "Will't please you sit and look at her?", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** A poem in which a speaker reveals their own character as they address a listener.",
+            finalAnswer: "**(c)** A poem in which a speaker reveals their own character as they address a listener.",
             commonErrors: ["Choosing (d), confusing the speaker with the poet."],
           },
         },

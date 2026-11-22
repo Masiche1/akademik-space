@@ -237,7 +237,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "A central hub or switch connects each device in a star topology.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** A central switch or hub",
+            finalAnswer: "**(d)** A central switch or hub",
           },
         },
         {
@@ -253,7 +253,7 @@ export const lesson53: Lesson = {
               { id: "c", text: "HTTP" },
               { id: "d", text: "DNS" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -262,7 +262,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "TCP manages reliable delivery and ordering of packets.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** TCP",
+            finalAnswer: "**(a)** TCP",
           },
         },
         {
@@ -287,7 +287,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Packets can take different routes and only failed parts need resending.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Independent routing and retransmission",
+            finalAnswer: "**(c)** Independent routing and retransmission",
           },
         },
         {
@@ -303,7 +303,7 @@ export const lesson53: Lesson = {
               { id: "c", text: "It executes application programs" },
               { id: "d", text: "It displays output on a monitor" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -312,7 +312,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Routers choose paths and forward packets between networks.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(d)** Forwards packets between networks",
+            finalAnswer: "**(a)** Forwards packets between networks",
           },
         },
         {
@@ -337,7 +337,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Ethernet and Wi-Fi can both support LAN traffic, but wired links are usually more stable.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Ethernet is generally more stable; Wi-Fi is flexible",
+            finalAnswer: "**(a)** Ethernet is generally more stable; Wi-Fi is flexible",
           },
         },
         {
@@ -362,7 +362,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Routers can reroute packets when a path fails, improving fault tolerance.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Routers can choose an alternative path",
+            finalAnswer: "**(d)** Routers can choose an alternative path",
           },
         },
         {

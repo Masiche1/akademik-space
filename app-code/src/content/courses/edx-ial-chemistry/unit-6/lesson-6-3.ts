@@ -389,7 +389,7 @@ export const lesson63: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(b)** Validity means measuring what is claimed.",
+            "finalAnswer": "**(c)** Validity means measuring what is claimed.",
             "commonErrors": [
               "Confusing validity with reliability."
             ]

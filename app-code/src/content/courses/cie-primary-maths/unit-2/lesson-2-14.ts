@@ -153,7 +153,7 @@ export const lesson214: Lesson = {
             { id: "b", text: "180°" },
             { id: "c", text: "90°" },
             { id: "d", text: "45°" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Half turn", statement: "180°." }],
             steps: [{ reasoning: "A half turn = 180°.", marks: 1, markCode: "A" }],

@@ -65,7 +65,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Register = formality level.", working: "formality", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Level of formality",
+            finalAnswer: "**(b)** Level of formality",
             commonErrors: ["Choosing (b) — that's word count."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Transactional = practical purpose.", working: "purpose", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Text for a practical purpose like letters or emails",
+            finalAnswer: "**(d)** Text for a practical purpose like letters or emails",
             commonErrors: ["Choosing (b) — that's literary."],
           },
         },
@@ -220,7 +220,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Formal = Dear Sir/Madam.", working: "dear", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Dear Sir/Madam",
+            finalAnswer: "**(d)** Dear Sir/Madam",
             commonErrors: ["Choosing (b) — too informal."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Emails need subject lines.", working: "subject", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Subject line",
+            finalAnswer: "**(c)** Subject line",
             commonErrors: ["Choosing (b) — that's for letters."],
           },
         },
@@ -336,7 +336,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Job application = formal.", working: "formal", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Formal",
+            finalAnswer: "**(c)** Formal",
             commonErrors: ["Choosing (b) — too casual for job application."],
           },
         },
@@ -421,7 +421,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Yours faithfully is formal.", working: "faithfully", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Yours faithfully",
+            finalAnswer: "**(d)** Yours faithfully",
             commonErrors: ["Choosing (b) — too informal."],
           },
         },
@@ -656,7 +656,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Complaint = formal.", working: "formal", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Formal",
+            finalAnswer: "**(b)** Formal",
             commonErrors: ["Choosing (b) — too casual."],
           },
         },
@@ -726,7 +726,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Yours sincerely = formal.", working: "formal", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Formal letter",
+            finalAnswer: "**(b)** Formal letter",
             commonErrors: ["Choosing (b) — informal uses 'Love/Best wishes'."],
           },
         },
@@ -857,7 +857,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Informal = Dear [name].", working: "dear name", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Dear [name]",
+            finalAnswer: "**(b)** Dear [name]",
             commonErrors: ["Choosing (b) — that's formal."],
           },
         },
@@ -937,7 +937,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Report = factual, objective.", working: "factual", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Factual account",
+            finalAnswer: "**(c)** Factual account",
             commonErrors: ["Choosing (b) — reports are objective."],
           },
         },
@@ -1042,7 +1042,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Report = factual/objective.", working: "factual", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** To present factual information objectively",
+            finalAnswer: "**(c)** To present factual information objectively",
             commonErrors: ["Choosing (c) — that's persuasion."],
           },
         },
@@ -1092,7 +1092,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Report = formal/objective.", working: "formal", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Formal and objective",
+            finalAnswer: "**(d)** Formal and objective",
             commonErrors: ["Choosing (b) — too casual."],
           },
         },
@@ -1208,7 +1208,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Dialogue is not a report section.", working: "dialogue", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Dialogue between characters",
+            finalAnswer: "**(b)** Dialogue between characters",
             commonErrors: ["Choosing (b) — introduction is standard."],
           },
         },
@@ -1293,7 +1293,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recommendations follow findings.", working: "findings", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The findings",
+            finalAnswer: "**(b)** The findings",
             commonErrors: ["Choosing (b) — opinions not appropriate."],
           },
         },
@@ -1373,7 +1373,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Headline = attention grabber.", working: "attention", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Grab attention",
+            finalAnswer: "**(b)** Grab attention",
             commonErrors: ["Choosing (b) — that's summary, not headline."],
           },
         },
@@ -1478,7 +1478,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Article = inform readers.", working: "inform", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** To inform readers about an event or issue",
+            finalAnswer: "**(c)** To inform readers about an event or issue",
             commonErrors: ["Choosing (b) — that's entertainment."],
           },
         },
@@ -1598,7 +1598,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Headline should be catchy/informative.", working: "catchy", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Catchy and informative",
+            finalAnswer: "**(d)** Catchy and informative",
             commonErrors: ["Choosing (b) — boring headlines fail."],
           },
         },
@@ -1644,7 +1644,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Byline = author name.", working: "author", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The author's name",
+            finalAnswer: "**(c)** The author's name",
             commonErrors: ["Choosing (b) — that's headline."],
           },
         },
@@ -1729,7 +1729,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "News = formal/objective.", working: "formal", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Formal and objective",
+            finalAnswer: "**(d)** Formal and objective",
             commonErrors: ["Choosing (b) — too casual."],
           },
         },

@@ -163,7 +163,7 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
               { id: "c", text: "$0.125$" },
               { id: "d", text: "$7/9$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -172,7 +172,7 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
             steps: [
               { reasoning: "The square root of 5 is not a perfect square, so its decimal expansion is non-terminating and non-repeating.", working: "irrational", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** the square root of 5",
+            finalAnswer: "**(b)** the square root of 5",
             commonErrors: ["Choosing a recurring decimal such as $0.444...$, which is rational."],
             examinerNote: "B1 for (c).",
           },
@@ -199,7 +199,7 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
             steps: [
               { reasoning: "√9 = 3, an integer, so it is rational; the others have non-repeating non-terminating decimals.", working: "√9 = 3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** √9",
+            finalAnswer: "**(c)** √9",
             commonErrors: ["Thinking every square root is irrational; √9 is a perfect square."],
             examinerNote: "B1 for (a).",
           },
@@ -331,7 +331,7 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
             steps: [
               { reasoning: "The display is only part of the expansion, so it cannot prove the number is rational or irrational.", working: "truncated expansion", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** e might be irrational because more digits may follow.",
+            finalAnswer: "**(d)** e might be irrational because more digits may follow.",
             commonErrors: ["Treating a finite display as proof of a terminating decimal."],
             examinerNote: "B1 for (b).",
           },
@@ -573,7 +573,7 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
             steps: [
               { reasoning: "|-9| is the distance of -9 from 0.", working: "|-9| = 9", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $9$",
+            finalAnswer: "**(d)** $9$",
             commonErrors: ["Keeping the negative sign."],
             examinerNote: "B1 for (a).",
           },
@@ -600,7 +600,7 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
             steps: [
               { reasoning: "First |4| = 4, then apply the outer minus.", working: "-|4| = -(4) = -4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $-4$",
+            finalAnswer: "**(b)** $-4$",
             commonErrors: ["Ignoring the outer minus sign."],
             examinerNote: "B1 for (a).",
           },
@@ -731,7 +731,7 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
             steps: [
               { reasoning: "Evaluate each: -|8|+1 = -8+1 = -7.", working: "-7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $-|8|+1$",
+            finalAnswer: "**(b)** $-|8|+1$",
             commonErrors: ["Evaluating |-8| as -8."],
             examinerNote: "B1 for (a).",
           },
@@ -808,7 +808,7 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
               { id: "c", text: "$|-6|$" },
               { id: "d", text: "$-|-6|$" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -817,7 +817,7 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
             steps: [
               { reasoning: "The values are -6, 6, 6 and 36, so (-6)^2 is greatest.", working: "36 is greatest", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** $(-6)^2$",
+            finalAnswer: "**(b)** $(-6)^2$",
             commonErrors: ["Computing (-6)^2 = -36."],
             examinerNote: "B1 for (d).",
           },

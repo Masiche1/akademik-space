@@ -116,7 +116,7 @@ export const lesson63: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(b)** Time against a continuous variable uses a line graph.",
+            "finalAnswer": "**(a)** Time against a continuous variable uses a line graph.",
             "commonErrors": [
               "Choosing a chart for categorical data."
             ]
@@ -389,7 +389,7 @@ export const lesson63: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(b)** Validity means measuring what is claimed.",
+            "finalAnswer": "**(c)** Validity means measuring what is claimed.",
             "commonErrors": [
               "Confusing validity with reliability."
             ]

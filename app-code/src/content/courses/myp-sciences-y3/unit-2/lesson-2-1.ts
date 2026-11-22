@@ -171,7 +171,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Only the genus (first name) is capitalised.", working: "\\textit{Genus species}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The genus name",
+            finalAnswer: "**(c)** The genus name",
             commonErrors: ["Capitalising both words."],
             examinerNote: "B1 for (b).",
           },
@@ -198,7 +198,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Animalia is a kingdom; the others are lower ranks.", working: "\\text{Animalia}=\\text{kingdom}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Animalia",
+            finalAnswer: "**(a)** Animalia",
             commonErrors: ["Choosing Mammalia — that is a class."],
             examinerNote: "B1 for (b).",
           },
@@ -216,7 +216,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Kingdom" },
               { id: "d", text: "Genus" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -225,7 +225,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Species is the lowest and most specific rank.", working: "\\text{species}=\\text{most specific}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Species",
+            finalAnswer: "**(a)** Species",
             commonErrors: ["Choosing genus — species is more specific."],
             examinerNote: "B1 for (c).",
           },
@@ -262,7 +262,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Insect" },
               { id: "d", text: "Mammal" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -271,7 +271,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "No backbone → path 1b; eight legs matches 3b → spider.", working: "1b\\to3b=\\text{spider}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Spider",
+            finalAnswer: "**(b)** Spider",
             examinerNote: "B1 for (d).",
           },
         },
@@ -297,7 +297,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Height can take any value in a range — continuous.", working: "\\text{height}=\\text{continuous}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Height of plants",
+            finalAnswer: "**(c)** Height of plants",
             commonErrors: ["Choosing blood group — that is discontinuous."],
             examinerNote: "B1 for (b).",
           },
@@ -370,7 +370,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Two clear routes mean each answer eliminates half the options without ambiguity.", working: "\\text{two routes}\\Rightarrow\\text{narrows options}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Each step unambiguously narrows the possibilities into two clear routes",
+            finalAnswer: "**(d)** Each step unambiguously narrows the possibilities into two clear routes",
             examinerNote: "B1 for (b).",
           },
         },
@@ -493,7 +493,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Both genetic and environmental factors cause variation.", working: "\\text{genetic + environmental}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Genetic differences and environmental factors",
+            finalAnswer: "**(c)** Genetic differences and environmental factors",
             commonErrors: ["Choosing only one factor."],
             examinerNote: "B1 for (b).",
           },
@@ -616,7 +616,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Adaptations are inherited features that improve fitness.", working: "\\text{feature helping survival}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A feature that helps an organism survive or reproduce in its environment",
+            finalAnswer: "**(d)** A feature that helps an organism survive or reproduce in its environment",
             commonErrors: ["Confusing adaptation with acclimatisation (a lifetime change)."],
             examinerNote: "B1 for (b).",
           },
@@ -643,7 +643,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Thick white fur is an inherited feature aiding survival in cold, snowy habitats.", working: "\\text{inherited survival feature}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Thick white fur of an arctic fox",
+            finalAnswer: "**(d)** Thick white fur of an arctic fox",
             commonErrors: ["Choosing a non-inherited change like a suntan or healed wound."],
             examinerNote: "B1 for (a).",
           },
@@ -734,7 +734,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Camouflage reduces detection by predators — a survival adaptation.", working: "\\text{camouflage}=\\text{adaptation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** An adaptation that improves survival",
+            finalAnswer: "**(a)** An adaptation that improves survival",
             commonErrors: ["Calling it a learned behaviour — it is inherited."],
             examinerNote: "B1 for (b).",
           },
@@ -818,7 +818,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Selection cannot create ideal traits from nothing and every adaptation has costs — no perfect organism results.", working: "\\text{variation limits}+\\text{trade-offs}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It acts only on existing variation and involves trade-offs",
+            finalAnswer: "**(c)** It acts only on existing variation and involves trade-offs",
             examinerNote: "B1 for (a).",
           },
         },
@@ -844,7 +844,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "If all individuals were identical, no variant would have an advantage.", working: "\\text{no variation}\\Rightarrow\\text{no selection}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Without variation there is nothing for selection to act on",
+            finalAnswer: "**(a)** Without variation there is nothing for selection to act on",
             commonErrors: ["Thinking selection creates variation — it only acts on it."],
             examinerNote: "B1 for (b).",
           },

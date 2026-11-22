@@ -266,7 +266,7 @@ export const lesson101: Lesson = {
                 text: "The history of a single village",
               },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -312,7 +312,7 @@ export const lesson101: Lesson = {
                 text: "Impossible to answer",
               },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -358,7 +358,7 @@ export const lesson101: Lesson = {
                 text: "Why is everything bad?",
               },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

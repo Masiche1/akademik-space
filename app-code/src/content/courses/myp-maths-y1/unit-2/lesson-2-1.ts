@@ -72,7 +72,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Write 3 times $n$ as $3n$, then add 5 to it.", working: "3n+5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3n+5$",
+            finalAnswer: "**(c)** $3n+5$",
             commonErrors: ["Swapping the numbers to give $5n+3$.", "Adding before multiplying, giving $3(n+5)$.", "Adding the coefficients and the number, giving $8n$."],
             examinerNote: "B1 for 3n+5 oe.",
           },
@@ -191,7 +191,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Write 4 times $m$ as $4m$, then subtract 7 from it.", working: "4m-7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $4m-7$",
+            finalAnswer: "**(d)** $4m-7$",
             commonErrors: ["Reversing the order to get $7-4m$.", "Subtracting inside the bracket to get $4(m-7)$."],
             examinerNote: "B1 for 4m - 7.",
           },
@@ -218,7 +218,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "All terms contain $x$: $5+3-2=6$, so the result is $6x$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $6x$",
+            finalAnswer: "**(c)** $6x$",
             commonErrors: ["Adding the variable part: $5x+3x=8x$ then forgetting the $-2x$.", "Combining to $6$ by dropping the $x$."],
             examinerNote: "B1 for 6x.",
           },
@@ -245,7 +245,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Multiply both $y$ and 2 by 4.", working: "4y+8", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $4y+8$",
+            finalAnswer: "**(c)** $4y+8$",
             commonErrors: ["Multiplying only the first term to get $4y+2$.", "Adding instead of multiplying: $y+8$."],
             examinerNote: "B1 for 4y + 8.",
           },
@@ -314,7 +314,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "$7x$ and $7y$" },
               { id: "d", text: "$3x$ and $3$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -323,7 +323,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$4ab$ and $-ab$ both contain $ab$ exactly; the others differ in the variable part or have a missing variable.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $4ab$ and $-ab$",
+            finalAnswer: "**(a)** $4ab$ and $-ab$",
             commonErrors: ["Choosing $7x$ and $7y$ because the coefficients match, ignoring the variables.", "Choosing $2y^2$ and $5y$ because both contain $y$."],
             examinerNote: "B1 for choice (c).",
           },
@@ -536,7 +536,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Substitute $x=-3$ and use the signs rule: $2\\times(-3)=-6$.", working: "2\\times(-3)+1=-6+1=-5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $-5$",
+            finalAnswer: "**(d)** $-5$",
             commonErrors: ["Calculating $-6-1=-7$.", "Ignoring the negative sign and getting $7$."],
             examinerNote: "B1 for -5.",
           },
@@ -643,7 +643,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Substitute: $3\\times4+2=12+2=14$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $14$",
+            finalAnswer: "**(c)** $14$",
             commonErrors: ["Reading $3x$ as 34 and getting 36, or writing $3+4+2=9$."],
             examinerNote: "B1 for 14.",
           },
@@ -661,7 +661,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "$6$" },
               { id: "d", text: "$-6$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -670,7 +670,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Multiply $-3$ by itself; two negatives give a positive.", working: "(-3)\\times(-3)=9", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $9$",
+            finalAnswer: "**(a)** $9$",
             commonErrors: ["Writing $(-3)^2=-9$ or $-6$.", "Computing $2\\times(-3)=-6$."],
             examinerNote: "B1 for 9.",
           },
@@ -697,7 +697,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Substitute: $5\\times2-2\\times(-1)=10+2=12$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $12$",
+            finalAnswer: "**(a)** $12$",
             commonErrors: ["Writing $-2\\times(-1)=-2$ and getting 8.", "Computing $5\\times2=10$ then $10-2=8$ by treating $b$ as 1."],
             examinerNote: "B1 for 12.",
           },
@@ -763,7 +763,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Substitute: $4\\times3-(-2)^2=12-4=8$. Only (a) treats $4a$ as multiplication and $(-2)^2$ as $+4$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $12-4=8$",
+            finalAnswer: "**(d)** $12-4=8$",
             commonErrors: ["Treating $4a$ as 43 or adding instead of multiplying."],
             examinerNote: "B1 for choice (a).",
           },

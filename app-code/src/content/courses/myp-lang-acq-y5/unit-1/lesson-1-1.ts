@@ -70,7 +70,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — signposts reveal structure and emphasis.", working: "structure", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** To signal an important point or the structure of the talk",
+            finalAnswer: "**(c)** To signal an important point or the structure of the talk",
             commonErrors: ["Treating signposts as decoration rather than structural guidance."],
             examinerNote: "A1 for (b).",
           },
@@ -187,7 +187,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — hedging qualifies claims rather than stating them absolutely.", working: "suggests/possible", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The evidence suggests a possible link...",
+            finalAnswer: "**(a)** The evidence suggests a possible link...",
             commonErrors: ["Choosing absolute language such as 'no doubt' or 'everyone agrees'."],
             examinerNote: "A1 for (b).",
           },
@@ -214,7 +214,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'raises a question' introduces a new line of argument.", working: "new issue", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It signals that a new issue or question will be developed",
+            finalAnswer: "**(d)** It signals that a new issue or question will be developed",
             commonErrors: ["Confusing an introductory signpost with a concluding one."],
             examinerNote: "A1 for (b).",
           },
@@ -247,7 +247,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'test data from forty schools' is the support for the claim.", working: "test data", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Test data from forty schools",
+            finalAnswer: "**(d)** Test data from forty schools",
             commonErrors: ["Choosing the claim itself rather than its support."],
             examinerNote: "A1 for (b).",
           },
@@ -445,7 +445,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'now turn to a different view' signals contrast.", working: "contrast", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Having considered the first argument, we now turn to a different view",
+            finalAnswer: "**(d)** Having considered the first argument, we now turn to a different view",
             commonErrors: ["Choosing 'In conclusion', which signals ending rather than contrast."],
             examinerNote: "A1 for (b).",
           },
@@ -515,7 +515,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'too early' plus 'short follow-up' signals limited evidence.", working: "uncertainty", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** To show uncertainty because the follow-up period was short",
+            finalAnswer: "**(d)** To show uncertainty because the follow-up period was short",
             commonErrors: ["Reading hedged language as negative judgement of the trial."],
             examinerNote: "A1 for (b).",
           },
@@ -573,7 +573,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — implied = suggested indirectly.", working: "indirect", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** An idea suggested indirectly rather than stated explicitly",
+            finalAnswer: "**(c)** An idea suggested indirectly rather than stated explicitly",
             commonErrors: ["Confusing implied meaning with a direct statement."],
             examinerNote: "B1 for (b).",
           },
@@ -690,7 +690,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'admittedly' accepts a cost before 'but effective' adds the benefit.", working: "concession", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A concession before a contrasting positive point",
+            finalAnswer: "**(c)** A concession before a contrasting positive point",
             commonErrors: ["Reading 'admittedly' as a complaint rather than a concession."],
             examinerNote: "B1 for (b).",
           },
@@ -750,7 +750,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'however' and 'largely theoretical' contrast publicity with unproven benefits.", working: "sceptical", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Sceptical doubt about its effectiveness",
+            finalAnswer: "**(a)** Sceptical doubt about its effectiveness",
             commonErrors: ["Missing the contrast introduced by 'however'."],
             examinerNote: "B1 for (b).",
           },
@@ -836,7 +836,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'therefore essential' and 'failing their students' argue a position.", working: "persuasion", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To persuade readers that schools should prioritise reading",
+            finalAnswer: "**(a)** To persuade readers that schools should prioritise reading",
             commonErrors: ["Confusing a persuasive conclusion with neutral reporting."],
             examinerNote: "B1 for (b).",
           },
@@ -948,7 +948,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'remains contested' expresses unresolved doubt.", working: "contested", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The evidence remains contested",
+            finalAnswer: "**(d)** The evidence remains contested",
             commonErrors: ["Choosing confident phrases such as 'undoubtedly'."],
             examinerNote: "B1 for (b).",
           },

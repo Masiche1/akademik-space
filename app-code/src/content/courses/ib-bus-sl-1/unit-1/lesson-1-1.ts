@@ -97,7 +97,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Survival" },
               { id: "d", text: "Profit maximisation" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -121,7 +121,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Market share growth",
+            finalAnswer: "**(b)** Market share growth",
             commonErrors: [
               "Confusing market share with growth — growth is size, market share is proportion of the market.",
             ],
@@ -419,7 +419,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Short-term profit maximisation" },
               { id: "d", text: "Survival" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -449,7 +449,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Long-term growth and competitiveness",
+            finalAnswer: "**(b)** Long-term growth and competitiveness",
             commonErrors: [
               "Reading lower profit as a sign of failure — it may be deliberate investment.",
             ],
@@ -513,7 +513,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Cannot be determined" },
               { id: "d", text: "Remain unchanged" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -543,7 +543,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Fall",
+            finalAnswer: "**(b)** Fall",
             commonErrors: [
               "Assuming rising sales always mean rising market share — the market may grow faster.",
             ],
@@ -597,7 +597,7 @@ export const lesson11: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Growth can raise their status, job security and career prospects",
+              "**(d)** Growth can raise their status, job security and career prospects",
             commonErrors: [
               "Assuming managers always act for shareholders — separation of ownership and control creates divergence.",
             ],
@@ -996,7 +996,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "A manager" },
               { id: "d", text: "An employee" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1020,7 +1020,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** A supplier",
+            finalAnswer: "**(a)** A supplier",
             commonErrors: [
               "Listing shareholders as external — they own the business.",
             ],
@@ -1243,7 +1243,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** A shareholder",
+            finalAnswer: "**(a)** A shareholder",
             commonErrors: [
               "Treating customers as internal — they buy from the business but are external.",
             ],
@@ -1287,7 +1287,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Quality products at fair prices",
+            finalAnswer: "**(b)** Quality products at fair prices",
             commonErrors: [
               "Confusing customer aims with shareholder aims such as dividends.",
             ],
@@ -1307,7 +1307,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Lower business taxes for itself" },
               { id: "d", text: "Tax revenue, employment and legal compliance" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1337,7 +1337,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Tax revenue, employment and legal compliance",
+            finalAnswer: "**(d)** Tax revenue, employment and legal compliance",
             commonErrors: [
               "Thinking government wants businesses to fail — it needs their taxes and jobs.",
             ],
@@ -1381,7 +1381,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Reliable payment and long-term contracts",
+            finalAnswer: "**(d)** Reliable payment and long-term contracts",
             commonErrors: [
               "Assuming suppliers want the business to fail — they rely on its orders.",
             ],
@@ -1401,7 +1401,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Its suppliers" },
               { id: "d", text: "Its managers" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1425,7 +1425,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** The local community",
+            finalAnswer: "**(b)** The local community",
             commonErrors: [
               "Choosing shareholders — pollution may raise their profit while harming the community.",
             ],

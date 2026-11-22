@@ -64,7 +64,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Recall the hormone.", working: "\\text{insulin}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Insulin",
+            finalAnswer: "**(c)** Insulin",
             commonErrors: ["Choosing glucagon — that RAISES glucose."],
           },
         },
@@ -224,7 +224,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Recall the source.", working: "\\text{pancreas}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Pancreas",
+            finalAnswer: "**(d)** Pancreas",
             commonErrors: ["Choosing liver — the liver stores glycogen but doesn't release these hormones."],
           },
         },
@@ -337,7 +337,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Recall the mechanism.", working: "\\text{uptake + glycogen}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Taken up by cells and stored as glycogen",
+            finalAnswer: "**(b)** Taken up by cells and stored as glycogen",
             commonErrors: ["Choosing 'excreted in urine' — glucose only appears in urine in uncontrolled diabetes."],
           },
         },
@@ -414,7 +414,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Recall the treatment.", working: "\\text{insulin injections}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Insulin injections",
+            finalAnswer: "**(c)** Insulin injections",
             commonErrors: ["Choosing glucagon — it would raise glucose further."],
           },
         },
@@ -468,7 +468,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Recall the function.", working: "\\text{more water reabsorption}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Increases water reabsorption",
+            finalAnswer: "**(b)** Increases water reabsorption",
             commonErrors: ["Choosing 'filters blood' — that's the glomerulus, not ADH."],
           },
         },
@@ -563,7 +563,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Recall the trigger.", working: "\\text{dehydrated} \\to \\text{ADH}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Dehydrated",
+            finalAnswer: "**(d)** Dehydrated",
             commonErrors: ["Choosing overhydrated — that triggers LESS ADH."],
           },
         },
@@ -628,7 +628,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Recall the site.", working: "\\text{glomerulus}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Glomerulus",
+            finalAnswer: "**(b)** Glomerulus",
             commonErrors: ["Choosing collecting duct — reabsorption happens there, not filtration."],
           },
         },
@@ -741,7 +741,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Recall the pathway.", working: "\\text{ureter}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Ureter",
+            finalAnswer: "**(c)** Ureter",
             commonErrors: ["Choosing urethra — that carries urine from bladder to outside."],
           },
         },

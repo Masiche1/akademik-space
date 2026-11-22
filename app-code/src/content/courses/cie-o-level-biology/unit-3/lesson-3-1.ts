@@ -63,7 +63,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Recall the equation.", working: "\\text{O}_2 \\text{ released}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oxygen",
+            finalAnswer: "**(b)** Oxygen",
             commonErrors: ["Choosing carbon dioxide — that's a reactant."],
           },
         },
@@ -159,7 +159,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Recall the site.", working: "\\text{chloroplasts}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Chloroplasts",
+            finalAnswer: "**(c)** Chloroplasts",
             commonErrors: ["Choosing mitochondria — that is respiration."],
           },
         },
@@ -212,7 +212,7 @@ export const lesson31: Lesson = {
               { reasoning: "Recall the definition.", working: "\\text{shortest supply}", marks: 1, markCode: "M" },
               { reasoning: "Complete: limits the rate.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** The factor in shortest supply that limits the rate of a reaction",
+            finalAnswer: "**(b)** The factor in shortest supply that limits the rate of a reaction",
             commonErrors: ["Choosing 'any factor' — only the one in shortest supply limits."],
           },
         },
@@ -305,7 +305,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Recall the reactant.", working: "\\text{CO}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Carbon dioxide",
+            finalAnswer: "**(c)** Carbon dioxide",
             commonErrors: ["Choosing oxygen — that is the product released."],
           },
         },
@@ -369,7 +369,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Recall the limiting factor pattern.", working: "\\text{rise then plateau}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It increases then plateaus when another factor becomes limiting",
+            finalAnswer: "**(d)** It increases then plateaus when another factor becomes limiting",
             commonErrors: ["Expecting indefinite increase — a plateau always occurs."],
           },
         },
@@ -480,7 +480,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Recall the link.", working: "\\text{Mg}^{2+} \\to \\text{chlorophyll}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Magnesium",
+            finalAnswer: "**(c)** Magnesium",
             commonErrors: ["Choosing nitrate — that's for amino acids/protein."],
           },
         },
@@ -574,7 +574,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Recall the function.", working: "\\text{amino acids}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Amino acids and proteins",
+            finalAnswer: "**(c)** Amino acids and proteins",
             commonErrors: ["Choosing chlorophyll — that is magnesium's role."],
           },
         },
@@ -600,7 +600,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Recall the link.", working: "\\text{Mg} \\to \\text{chlorophyll}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Chlorophyll",
+            finalAnswer: "**(a)** Chlorophyll",
             commonErrors: ["Choosing proteins — that is nitrate."],
           },
         },
@@ -627,7 +627,7 @@ export const lesson31: Lesson = {
               { reasoning: "Identify the symptom.", working: "\\text{interveinal chlorosis}", marks: 1, markCode: "M" },
               { reasoning: "Link to magnesium deficiency.", working: "\\text{Mg}^{2+}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Magnesium",
+            finalAnswer: "**(d)** Magnesium",
             commonErrors: ["Choosing nitrate — that causes stunted growth/yellowing of older leaves generally."],
           },
         },
@@ -720,7 +720,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Match deficiency to symptom.", working: "\\text{NO}_3^- \\to \\text{stunted}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Nitrate",
+            finalAnswer: "**(a)** Nitrate",
             commonErrors: ["Choosing magnesium — that causes chlorosis, not mainly stunting."],
           },
         },
@@ -784,7 +784,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Recall nitrogen mobility.", working: "\\text{mobile} \\to \\text{old leaves}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Oldest leaves",
+            finalAnswer: "**(d)** Oldest leaves",
             commonErrors: ["Choosing youngest — that's typical of immobile nutrients like calcium."],
           },
         },

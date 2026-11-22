@@ -66,7 +66,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — the speaker label/name identifies who is talking.", working: "name before the speech", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The name before the speech",
+            finalAnswer: "**(d)** The name before the speech",
             commonErrors: ["Choosing punctuation — punctuation marks the speech, not the speaker."],
             examinerNote: "B1 for (b).",
           },
@@ -183,7 +183,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — a turn is one person's speaking time.", working: "each person's chance to speak", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Each person's chance to speak",
+            finalAnswer: "**(d)** Each person's chance to speak",
             commonErrors: ["Confusing a turn with a question."],
             examinerNote: "A1 for (b).",
           },
@@ -210,7 +210,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'sandwich' + 'Can I help you?' = food shop or café.", working: "café or food shop", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** At a café or food shop",
+            finalAnswer: "**(a)** At a café or food shop",
             commonErrors: ["Choosing the library — no books are mentioned."],
             examinerNote: "B1 for (b).",
           },
@@ -287,7 +287,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — the first label is 'Mia'.", working: "Mia", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Mia",
+            finalAnswer: "**(d)** Mia",
             commonErrors: ["Reading the dialogue backwards."],
             examinerNote: "B1 for (b).",
           },
@@ -314,7 +314,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — identify what each speaker wants.", working: "buy something or make a plan", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** To buy something or make a plan",
+            finalAnswer: "**(c)** To buy something or make a plan",
             commonErrors: ["Thinking dialogues are just for fun — they have a purpose."],
             examinerNote: "A1 for (b).",
           },
@@ -554,7 +554,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — a detail supports the main idea; it is not the main idea itself.", working: "detail = small fact", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A small fact that supports the main idea",
+            finalAnswer: "**(a)** A small fact that supports the main idea",
             commonErrors: ["Confusing detail with main idea."],
             examinerNote: "B1 for (b).",
           },
@@ -671,7 +671,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — main idea = what the whole text is about.", working: "what the whole text is about", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** What the whole text is about",
+            finalAnswer: "**(c)** What the whole text is about",
             commonErrors: ["Confusing main idea with a detail."],
             examinerNote: "B1 for (b).",
           },
@@ -698,7 +698,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'It is called Rex' supports the main idea; it is a detail.", working: "It is called Rex.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It is called Rex.",
+            finalAnswer: "**(a)** It is called Rex.",
             commonErrors: ["Choosing (a) — that is the main idea itself."],
             examinerNote: "B1 for (b).",
           },
@@ -808,7 +808,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'mostly about' asks for the whole-text idea.", working: "what is this text mostly about?", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** What is this text mostly about?",
+            finalAnswer: "**(b)** What is this text mostly about?",
             commonErrors: ["Choosing questions about surface features, not meaning."],
             examinerNote: "B1 for (a).",
           },

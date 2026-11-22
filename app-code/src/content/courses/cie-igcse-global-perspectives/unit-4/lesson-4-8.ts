@@ -96,7 +96,7 @@ export const lesson48: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Verbal cues guiding structure",
+            finalAnswer: "**(b)** Verbal cues guiding structure",
             commonErrors: ["Confusing with visual aids."],
           },
         },
@@ -415,7 +415,7 @@ export const lesson48: Lesson = {
             steps: [
               { reasoning: "The standard presentation structure.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Hook→context→analysis→evaluation→conclusion",
+            finalAnswer: "**(b)** Hook→context→analysis→evaluation→conclusion",
             commonErrors: ["Putting the conclusion first."],
           },
         },
@@ -643,7 +643,7 @@ export const lesson48: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Decline in life variety",
+            finalAnswer: "**(b)** Decline in life variety",
             commonErrors: ["Narrowing to extinction only."],
           },
         },
@@ -835,7 +835,7 @@ export const lesson48: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Crime via digital networks",
+            finalAnswer: "**(c)** Crime via digital networks",
             commonErrors: ["Narrowing to hacking."],
           },
         },
@@ -957,7 +957,7 @@ export const lesson48: Lesson = {
             steps: [
               { reasoning: "Externality = spillover cost/benefit.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cost/benefit on third parties",
+            finalAnswer: "**(b)** Cost/benefit on third parties",
             commonErrors: ["Confusing with a market price."],
           },
         },
@@ -1379,7 +1379,7 @@ export const lesson48: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Interconnections + perspectives",
+            finalAnswer: "**(d)** Interconnections + perspectives",
             commonErrors: ["Confusing with superficial."],
           },
         },
@@ -1497,7 +1497,7 @@ export const lesson48: Lesson = {
             steps: [
               { reasoning: "Climate→food→migration is a documented chain.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Climate → food insecurity → migration",
+            finalAnswer: "**(b)** Climate → food insecurity → migration",
             commonErrors: ["Treating issues as isolated boxes."],
           },
         },

@@ -162,7 +162,7 @@ export const lesson51: Lesson = {
             correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "formula", name: "Triangle area", statement: "$A=\\frac12bh$" } ],
             steps: [ { reasoning: "Use half the base times the height.", working: "\\frac12\\times20\\times11=110", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $110$ cm$^2$", commonErrors: ["Forgetting the $\\frac12$."] },
+            finalAnswer: "**(a)** $110$ cm$^2$", commonErrors: ["Forgetting the $\\frac12$."] },
         },
         {
           id: "ciem-u5-areas-basic-q7", difficulty: "core", totalMarks: 3,
@@ -184,10 +184,10 @@ export const lesson51: Lesson = {
             { id: "c", text: "$84$ cm$^2$" },
             { id: "d", text: "$147$ cm$^2$" }
  ],
-            aorrectChoiceId: "c" },
+            correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "formula", name: "Trapezium area", statement: "$A=\\frac12(a+b)h$" } ],
             steps: [ { reasoning: "Add the parallel sides, halve, then multiply by the height.", working: "\\frac12(12+9)\\times7=73.5", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(c)** $73.5$ cm$^2$", commonErrors: ["Multiplying by $h$ before adding the parallel sides."] },
+            finalAnswer: "**(a)** $73.5$ cm$^2$", commonErrors: ["Multiplying by $h$ before adding the parallel sides."] },
         },
         {
           id: "ciem-u5-areas-basic-q9", difficulty: "core", totalMarks: 3,
@@ -270,7 +270,7 @@ export const lesson51: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Parallelogram area", statement: "$A=bh$" } ],
             steps: [ { reasoning: "Use base times perpendicular height.", working: "13\\times7=91", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $91$ cm$^2$", commonErrors: ["Using the slant side $9$ cm as the height."] },
+            finalAnswer: "**(d)** $91$ cm$^2$", commonErrors: ["Using the slant side $9$ cm as the height."] },
         },
         {
           id: "ciem-u5-areas-basic-q16", difficulty: "challenge", totalMarks: 6,
@@ -347,7 +347,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Apply the formula.", working: "\\pi\\times5^2=25\\pi", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $25\\pi$ cm$^2$",
+            finalAnswer: "**(b)** $25\\pi$ cm$^2$",
             commonErrors: ["Using $2\\pi r$ (circumference) instead of $\\pi r^2$."],
           },
         },
@@ -435,7 +435,7 @@ export const lesson51: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Circle area", statement: "$A=\\pi r^2$" } ],
             steps: [ { reasoning: "Square the radius and multiply by $\\pi$.", working: "\\pi\\times6^2=36\\pi", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** $36\\pi$ cm$^2$", commonErrors: ["Using $2\\pi r$ for area."] },
+            finalAnswer: "**(d)** $36\\pi$ cm$^2$", commonErrors: ["Using $2\\pi r$ for area."] },
         },
         {
           id: "ciem-u5-circles-sectors-q6", difficulty: "core", totalMarks: 1,
@@ -474,7 +474,7 @@ export const lesson51: Lesson = {
             correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "formula", name: "Arc length", statement: "$\\frac{\\theta}{360}\\times2\\pi r$" } ],
             steps: [ { reasoning: "Take the fraction of the circumference.", working: "\\frac{60}{360}\\times2\\pi\\times12=4\\pi", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $4\\pi$ cm", commonErrors: ["Using the sector area formula."] },
+            finalAnswer: "**(a)** $4\\pi$ cm", commonErrors: ["Using the sector area formula."] },
         },
         {
           id: "ciem-u5-circles-sectors-q9", difficulty: "core", totalMarks: 3,
@@ -510,7 +510,7 @@ export const lesson51: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "definition", name: "Segment", statement: "Segment = sector $-$ triangle." } ],
             steps: [ { reasoning: "Recall the segment formula.", working: "\\text{sector}-\\text{triangle}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** The triangle formed by the two radii and chord", commonErrors: ["Subtracting the whole circle area."] },
+            finalAnswer: "**(d)** The triangle formed by the two radii and chord", commonErrors: ["Subtracting the whole circle area."] },
         },
         {
           id: "ciem-u5-circles-sectors-q12", difficulty: "core", totalMarks: 3,
@@ -557,7 +557,7 @@ export const lesson51: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Sector fraction", statement: "$\\frac{\\theta}{360}$" } ],
             steps: [ { reasoning: "Use the angle as a fraction of $360^\\circ$.", working: "\\frac{45}{360}=\\frac18", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $\\frac18$", commonErrors: ["Using $180^\\circ$ as the denominator."] },
+            finalAnswer: "**(d)** $\\frac18$", commonErrors: ["Using $180^\\circ$ as the denominator."] },
         },
         {
           id: "ciem-u5-circles-sectors-q16", difficulty: "challenge", totalMarks: 8,

@@ -334,7 +334,7 @@ export const lesson632: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Reinterpreting established views"
+          "finalAnswer": "**(b)** Reinterpreting established views"
 },
         },
         {
@@ -379,7 +379,7 @@ export const lesson632: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Ordinary people, class and gender"
+          "finalAnswer": "**(c)** Ordinary people, class and gender"
 },
         },
         {
@@ -456,7 +456,7 @@ export const lesson632: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Sceptical of objective truth"
+          "finalAnswer": "**(c)** Sceptical of objective truth"
 },
         },
         {
@@ -533,7 +533,7 @@ export const lesson632: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Gender perspectives"
+          "finalAnswer": "**(c)** Gender perspectives"
 },
         },
         {
@@ -619,7 +619,7 @@ export const lesson632: Lesson = {
                               "markCode": "A"
                     }
           ],
-          "finalAnswer": "**(a)** Full objectivity impossible"
+          "finalAnswer": "**(d)** Full objectivity impossible"
 },
         },
         {

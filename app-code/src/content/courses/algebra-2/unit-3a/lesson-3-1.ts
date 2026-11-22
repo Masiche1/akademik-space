@@ -68,7 +68,7 @@ export const lesson31: Lesson = {
               { reasoning: "Check each relation for a repeated input with different outputs.", working: "(a): x = 1 \\to 2 \\text{ and } 3 \\quad (c): x = 2 \\to 1 \\text{ and } -1 \\quad (d): x = -3 \\to 1 \\text{ and } 4", marks: 1, markCode: "M" },
               { reasoning: "In (b) the inputs $4, 5, 6, 7$ are all different. Every input has one output (all equal to $-1$, which is allowed).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $\\{(4, -1), (5, -1), (6, -1), (7, -1)\\}$",
+            finalAnswer: "**(d)** $\\{(4, -1), (5, -1), (6, -1), (7, -1)\\}$",
             commonErrors: [
               "Rejecting (b) because all outputs are the same. Repeated outputs are allowed; repeated inputs with different outputs are not.",
             ],
@@ -220,7 +220,7 @@ export const lesson31: Lesson = {
               { reasoning: "The $x$-values run from $-2$ (included) to $4$ (excluded).", working: "-2 \\le x < 4 \\implies [-2, 4)", marks: 1, markCode: "B" },
               { reasoning: "The segment rises from $y = 1$ (included) to $y = 7$ (excluded).", working: "1 \\le y < 7 \\implies [1, 7)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Domain $[-2, 4)$, range $[1, 7)$",
+            finalAnswer: "**(d)** Domain $[-2, 4)$, range $[1, 7)$",
             commonErrors: ["Swapping domain and range (option c).", "Ignoring the closed/open distinction at endpoints."],
           },
         },
@@ -363,7 +363,7 @@ export const lesson31: Lesson = {
               { reasoning: "You cannot buy $2.5$ cupcakes or $-1$ cupcakes, so $n$ must be a non-negative whole number. The function is discrete.", marks: 1, markCode: "R" },
               { reasoning: "The domain is the set of possible inputs (numbers of cupcakes), not the outputs (costs).", working: "\\{0, 1, 2, 3, \\ldots\\}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Discrete; domain $\\{0, 1, 2, 3, \\ldots\\}$",
+            finalAnswer: "**(a)** Discrete; domain $\\{0, 1, 2, 3, \\ldots\\}$",
             commonErrors: ["Option (d) lists the range (possible costs), not the domain."],
           },
         },
@@ -380,7 +380,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "$f(x) = x^2 - 4$" },
               { id: "d", text: "$f(x) = 5$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -392,7 +392,7 @@ export const lesson31: Lesson = {
               { reasoning: "Prove (c) is one-to-one algebraically.", working: "-3a + 7 = -3b + 7 \\implies -3a = -3b \\implies a = b", marks: 1, markCode: "M" },
               { reasoning: "A non-horizontal line always passes the horizontal line test.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $f(x) = -3x + 7$",
+            finalAnswer: "**(b)** $f(x) = -3x + 7$",
           },
         },
         {

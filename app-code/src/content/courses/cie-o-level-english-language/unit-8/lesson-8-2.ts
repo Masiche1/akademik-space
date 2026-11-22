@@ -65,7 +65,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Misreading = common error.", working: "misread", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Misreading the question",
+            finalAnswer: "**(d)** Misreading the question",
             commonErrors: ["Choosing (b) — careful reading helps."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Misreading = common pitfall.", working: "misread", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Misreading the question",
+        finalAnswer: "**(b)** Misreading the question",
         commonErrors: ["Not reading question carefully."],
       },
     },
@@ -196,7 +196,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Irrelevant = doesn't answer question.", working: "irrelevant", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Answer that doesn't relate to the question",
+        finalAnswer: "**(c)** Answer that doesn't relate to the question",
         commonErrors: ["Answering a different question."],
       },
     },
@@ -222,7 +222,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Insufficient evidence = weak argument.", working: "evidence", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Claims without support lack credibility",
+        finalAnswer: "**(c)** Claims without support lack credibility",
         commonErrors: ["Making unsupported claims."],
       },
     },
@@ -274,7 +274,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Irrelevance = not checking relation.", working: "relevance", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Not checking if answer relates to question",
+        finalAnswer: "**(b)** Not checking if answer relates to question",
         commonErrors: ["Not checking relevance."],
       },
     },
@@ -506,7 +506,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Poor structure = common error.", working: "structure", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Poor structure",
+            finalAnswer: "**(b)** Poor structure",
             commonErrors: ["Choosing (b) — good grammar helps."],
           },
         },
@@ -611,7 +611,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Poor structure = pitfall.", working: "structure", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Poor structure",
+        finalAnswer: "**(d)** Poor structure",
         commonErrors: ["Disorganised writing."],
       },
     },
@@ -637,7 +637,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Wrong register = inappropriate formality.", working: "register", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Inappropriate formality for the task",
+        finalAnswer: "**(b)** Inappropriate formality for the task",
         commonErrors: ["Using wrong register."],
       },
     },
@@ -663,7 +663,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Insufficient = not enough explanation.", working: "development", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Points not explained or supported enough",
+        finalAnswer: "**(c)** Points not explained or supported enough",
         commonErrors: ["Making points without development."],
       },
     },
@@ -689,7 +689,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Fix structure by planning.", working: "plan", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Plan before writing and organise logically",
+        finalAnswer: "**(d)** Plan before writing and organise logically",
         commonErrors: ["Writing without planning."],
       },
     },
@@ -715,7 +715,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Wrong register = not identifying audience.", working: "audience", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Not identifying the audience",
+        finalAnswer: "**(b)** Not identifying the audience",
         commonErrors: ["Not checking audience."],
       },
     },
@@ -1052,7 +1052,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Read all questions first.", working: "plan", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Read all questions and plan time",
+        finalAnswer: "**(d)** Read all questions and plan time",
         commonErrors: ["Starting without planning."],
       },
     },
@@ -1078,7 +1078,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Move on if stuck.", working: "move on", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Move on and return later",
+        finalAnswer: "**(d)** Move on and return later",
         commonErrors: ["Getting stuck on one question."],
       },
     },
@@ -1104,7 +1104,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Breathing and self-talk help.", working: "breathing", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Deep breathing and positive self-talk",
+        finalAnswer: "**(d)** Deep breathing and positive self-talk",
         commonErrors: ["Panicking."],
       },
     },
@@ -1130,7 +1130,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Prioritise higher-mark questions.", working: "prioritise", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Higher-mark questions first",
+        finalAnswer: "**(c)** Higher-mark questions first",
         commonErrors: ["Wasting time on low-mark questions."],
       },
     },
@@ -1156,7 +1156,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Review answers at end.", working: "review", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Review answers and check for errors",
+        finalAnswer: "**(d)** Review answers and check for errors",
         commonErrors: ["Not reviewing."],
       },
     },
@@ -1388,7 +1388,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "9 units.", working: "9", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** 9",
+            finalAnswer: "**(c)** 9",
             commonErrors: ["Wrong count — check course structure."],
           },
         },
@@ -1519,7 +1519,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Include concepts, skills, techniques.", working: "scope", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** All key concepts, skills, and exam techniques",
+        finalAnswer: "**(c)** All key concepts, skills, and exam techniques",
         commonErrors: ["Only reviewing one area."],
       },
     },
@@ -1597,7 +1597,7 @@ export const lesson82: Lesson = {
         steps: [
           { reasoning: "Review identifies weaknesses.", working: "identify", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Identify weaknesses before the exam",
+        finalAnswer: "**(b)** Identify weaknesses before the exam",
         commonErrors: ["Thinking review is a waste."],
       },
     },

@@ -71,7 +71,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Catalyst provides lower-energy pathway → faster rate.", working: "\\text{Ea lower}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Lowers activation energy",
+            finalAnswer: "**(d)** Lowers activation energy",
             commonErrors: ["Thinking catalyst is consumed."],
             examinerNote: "B1 for (a).",
           },
@@ -532,7 +532,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "1 mole = 6.02×10²³ particles.", working: "6.02\\times10^{23}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 6.02×10²³",
+            finalAnswer: "**(b)** 6.02×10²³",
             commonErrors: ["Wrong power of ten."],
             examinerNote: "B1 for (a).",
           },
@@ -647,7 +647,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "1 mol = 6.02×10²³ particles.", working: "6.02\\times10^{23}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 6.02×10²³",
+            finalAnswer: "**(b)** 6.02×10²³",
             commonErrors: ["Wrong power of ten."],
             examinerNote: "B1 for (a).",
           },

@@ -274,7 +274,7 @@ export const lesson101: Lesson = {
               { id: "c", text: "15" },
               { id: "d", text: "17" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -291,7 +291,7 @@ export const lesson101: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** 11",
+            finalAnswer: "**(a)** 11",
           },
         },
         {
@@ -413,7 +413,7 @@ export const lesson101: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 29",
+            finalAnswer: "**(d)** 29",
           },
         },
         {
@@ -446,7 +446,7 @@ export const lesson101: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $488\\,362$",
+            finalAnswer: "**(b)** $488\\,362$",
           },
         },
         {
@@ -1429,7 +1429,7 @@ export const lesson101: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** First pack",
+            finalAnswer: "**(d)** First pack",
           },
         },
         {

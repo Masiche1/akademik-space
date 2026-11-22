@@ -313,7 +313,7 @@ export const lesson22: Lesson = {
                 markCode: "AO4",
               },
             ],
-            finalAnswer: "**(b)** Impersonal, precise, no slang",
+            finalAnswer: "**(d)** Impersonal, precise, no slang",
             commonErrors: ["Choosing informal."],
           },
         },

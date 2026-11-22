@@ -121,7 +121,7 @@ export const lesson101: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Later school start times improve health and performance.",
+              "**(a)**. Later school start times improve health and performance.",
             commonErrors: [
               "Choosing (a) — that's a supporting detail, not central idea.",
             ],
@@ -562,7 +562,7 @@ export const lesson101: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Later school start times are a public health imperative.",
+              "**(a)**. Later school start times are a public health imperative.",
             commonErrors: ["Choosing (a) — that's evidence, not claim."],
           },
         },

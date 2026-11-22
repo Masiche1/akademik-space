@@ -66,7 +66,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Outer derivative $4(2x-3)^3$ times inner derivative $2$.", working: "4(2x-3)^3\\times2=8(2x-3)^3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $8(2x-3)^3$",
+            finalAnswer: "**(c)** $8(2x-3)^3$",
             commonErrors: ["Forgetting to multiply by the inner derivative $2$."],
           },
         },

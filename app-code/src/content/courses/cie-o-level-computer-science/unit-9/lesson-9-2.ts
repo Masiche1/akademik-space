@@ -44,7 +44,7 @@ export const lesson92: Lesson = {
             { id: "c", text: "A programming language" },
             { id: "d", text: "A network protocol" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Character code", statement: "Number for a character." }], steps: [{ reasoning: "Code = number.", working: "\\text{code}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Number for a character" },
+          markscheme: { principles: [{ kind: "definition", name: "Character code", statement: "Number for a character." }], steps: [{ reasoning: "Code = number.", working: "\\text{code}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Number for a character" },
         },
         {
           id: "olcs-u9-cs-q2", difficulty: "core", totalMarks: 2,
@@ -100,7 +100,7 @@ export const lesson92: Lesson = {
             { id: "c", text: "64" },
             { id: "d", text: "128" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "ASCII", statement: "7-bit code, 128 characters." }], steps: [{ reasoning: "$2^7 = 128$.", working: "128", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 128" },
+          markscheme: { principles: [{ kind: "definition", name: "ASCII", statement: "7-bit code, 128 characters." }], steps: [{ reasoning: "$2^7 = 128$.", working: "128", marks: 1, markCode: "B" }], finalAnswer: "**(d)** 128" },
         },
         {
           id: "olcs-u9-cs-q6", difficulty: "core", totalMarks: 1,
@@ -117,7 +117,7 @@ export const lesson92: Lesson = {
             { id: "c", text: "A type of image compression" },
             { id: "d", text: "A Unicode encoding that uses variable-length bytes" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "UTF-8", statement: "Unicode encoding, variable bytes." }], steps: [{ reasoning: "UTF-8 encodes Unicode characters in 1-4 bytes.", working: "\\text{utf8}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A Unicode encoding using variable-length bytes" },
+          markscheme: { principles: [{ kind: "definition", name: "UTF-8", statement: "Unicode encoding, variable bytes." }], steps: [{ reasoning: "UTF-8 encodes Unicode characters in 1-4 bytes.", working: "\\text{utf8}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** A Unicode encoding using variable-length bytes" },
         },
         {
           id: "olcs-u9-cs-q8", difficulty: "core", totalMarks: 2,
@@ -137,7 +137,7 @@ export const lesson92: Lesson = {
             { id: "c", text: "Unicode" },
             { id: "d", text: "Denary" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Unicode", statement: "Universal character set." }], steps: [{ reasoning: "Unicode covers nearly all world scripts.", working: "\\text{unicode}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Unicode" },
+          markscheme: { principles: [{ kind: "definition", name: "Unicode", statement: "Universal character set." }], steps: [{ reasoning: "Unicode covers nearly all world scripts.", working: "\\text{unicode}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Unicode" },
         },
         {
           id: "olcs-u9-cs-q10", difficulty: "core", totalMarks: 2,
@@ -166,7 +166,7 @@ export const lesson92: Lesson = {
             { id: "c", text: "Hexadecimal" },
             { id: "d", text: "UTF-8" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "UTF-8", statement: "Variable-length encoding." }], steps: [{ reasoning: "UTF-8 uses variable-length bytes.", working: "\\text{utf8}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** UTF-8" },
+          markscheme: { principles: [{ kind: "definition", name: "UTF-8", statement: "Variable-length encoding." }], steps: [{ reasoning: "UTF-8 uses variable-length bytes.", working: "\\text{utf8}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** UTF-8" },
         },
         {
           id: "olcs-u9-cs-q13", difficulty: "challenge", totalMarks: 3,
@@ -196,7 +196,7 @@ export const lesson92: Lesson = {
             { id: "c", text: "Covers nearly all world scripts and symbols" },
             { id: "d", text: "Is faster for computers to process" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Unicode", statement: "Universal coverage." }], steps: [{ reasoning: "Unicode covers world scripts; ASCII is English-only.", working: "\\text{universal}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Covers nearly all world scripts and symbols" },
+          markscheme: { principles: [{ kind: "principle", name: "Unicode", statement: "Universal coverage." }], steps: [{ reasoning: "Unicode covers world scripts; ASCII is English-only.", working: "\\text{universal}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Covers nearly all world scripts and symbols" },
         },
         {
           id: "olcs-u9-cs-q16", difficulty: "challenge", totalMarks: 9,
@@ -253,7 +253,7 @@ export const lesson92: Lesson = {
             { id: "c", text: "Sound samples" },
             { id: "d", text: "Text codes" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Bitmap", statement: "Grid of pixels." }], steps: [{ reasoning: "Bitmap = pixels.", working: "\\text{pixels}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Pixels" },
+          markscheme: { principles: [{ kind: "definition", name: "Bitmap", statement: "Grid of pixels." }], steps: [{ reasoning: "Bitmap = pixels.", working: "\\text{pixels}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Pixels" },
         },
         {
           id: "olcs-u9-im-q2", difficulty: "core", totalMarks: 2,
@@ -308,7 +308,7 @@ export const lesson92: Lesson = {
             { id: "c", text: "Mathematical shapes such as lines and curves" },
             { id: "d", text: "A grid of pixels" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Vector", statement: "Shapes with properties." }], steps: [{ reasoning: "Vector images store mathematical shapes.", working: "\\text{shapes}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Mathematical shapes" },
+          markscheme: { principles: [{ kind: "definition", name: "Vector", statement: "Shapes with properties." }], steps: [{ reasoning: "Vector images store mathematical shapes.", working: "\\text{shapes}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Mathematical shapes" },
         },
         {
           id: "olcs-u9-im-q6", difficulty: "core", totalMarks: 2,
@@ -328,7 +328,7 @@ export const lesson92: Lesson = {
             { id: "c", text: "Converts it into a vector image" },
             { id: "d", text: "Adds more pixels and detail but increases the file size" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Resolution", statement: "Number of pixels." }], steps: [{ reasoning: "More pixels = more detail and bigger file.", working: "\\text{pixels}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** More pixels and detail, larger file" },
+          markscheme: { principles: [{ kind: "definition", name: "Resolution", statement: "Number of pixels." }], steps: [{ reasoning: "More pixels = more detail and bigger file.", working: "\\text{pixels}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** More pixels and detail, larger file" },
         },
         {
           id: "olcs-u9-im-q8", difficulty: "core", totalMarks: 2,
@@ -357,7 +357,7 @@ export const lesson92: Lesson = {
             { id: "c", text: "Is only used for text files" },
             { id: "d", text: "Discards some data to produce smaller files" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Lossy", statement: "Discards data for smaller files." }], steps: [{ reasoning: "Lossy compression discards some data.", working: "\\text{lossy}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Discards data for smaller files" },
+          markscheme: { principles: [{ kind: "definition", name: "Lossy", statement: "Discards data for smaller files." }], steps: [{ reasoning: "Lossy compression discards some data.", working: "\\text{lossy}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Discards data for smaller files" },
         },
         {
           id: "olcs-u9-im-q11", difficulty: "core", totalMarks: 2,
@@ -387,7 +387,7 @@ export const lesson92: Lesson = {
             { id: "c", text: "MP3" },
             { id: "d", text: "PNG" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Lossless formats", statement: "PNG, ZIP preserve data exactly." }], steps: [{ reasoning: "PNG is lossless; JPEG and MP3 are lossy.", working: "\\text{png}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** PNG" },
+          markscheme: { principles: [{ kind: "definition", name: "Lossless formats", statement: "PNG, ZIP preserve data exactly." }], steps: [{ reasoning: "PNG is lossless; JPEG and MP3 are lossy.", working: "\\text{png}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** PNG" },
         },
         {
           id: "olcs-u9-im-q14", difficulty: "core", totalMarks: 2,
@@ -407,7 +407,7 @@ export const lesson92: Lesson = {
             { id: "c", text: "JPEG" },
             { id: "d", text: "BMP" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Compression choice", statement: "Lossy suits photos." }], steps: [{ reasoning: "JPEG's lossy compression gives small files for photos.", working: "\\text{jpeg}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** JPEG" },
+          markscheme: { principles: [{ kind: "principle", name: "Compression choice", statement: "Lossy suits photos." }], steps: [{ reasoning: "JPEG's lossy compression gives small files for photos.", working: "\\text{jpeg}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** JPEG" },
         },
         {
           id: "olcs-u9-im-q16", difficulty: "challenge", totalMarks: 9,

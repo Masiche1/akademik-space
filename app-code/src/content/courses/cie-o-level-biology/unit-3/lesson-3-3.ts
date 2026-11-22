@@ -65,7 +65,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall the covering.", working: "\\text{enamel}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Enamel",
+            finalAnswer: "**(b)** Enamel",
             commonErrors: ["Choosing dentine — that's beneath enamel."],
           },
         },
@@ -159,7 +159,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall the function.", working: "\\text{cutting}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cutting and biting",
+            finalAnswer: "**(d)** Cutting and biting",
             commonErrors: ["Choosing tearing — that is canines."],
           },
         },
@@ -185,7 +185,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall the contents.", working: "\\text{blood + nerves}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Blood vessels and nerves",
+            finalAnswer: "**(a)** Blood vessels and nerves",
             commonErrors: ["Choosing enamel — that covers the crown, not the cavity."],
           },
         },
@@ -202,7 +202,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "20" },
               { id: "d", text: "36" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -212,7 +212,7 @@ export const lesson33: Lesson = {
               { reasoning: "Recall the total.", working: "8+4+8+12 = 32", marks: 1, markCode: "M" },
               { reasoning: "Select 32.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** 32",
+            finalAnswer: "**(a)** 32",
             commonErrors: ["Choosing 20 — that is the number of deciduous (milk) teeth."],
           },
         },
@@ -305,7 +305,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall the fact.", working: "\\text{enamel}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Enamel",
+            finalAnswer: "**(d)** Enamel",
             commonErrors: ["Choosing dentine — that's beneath enamel."],
           },
         },
@@ -369,7 +369,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall the function.", working: "\\text{tearing}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Tearing",
+            finalAnswer: "**(a)** Tearing",
             commonErrors: ["Choosing cutting — that is incisors."],
           },
         },
@@ -480,7 +480,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{muscle waves}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Wave-like muscle contractions moving food along the gut",
+            finalAnswer: "**(b)** Wave-like muscle contractions moving food along the gut",
             commonErrors: ["Choosing 'chewing' — that's mechanical digestion in mouth."],
           },
         },
@@ -574,7 +574,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{muscle waves}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Wave-like muscle contractions moving food along the gut",
+            finalAnswer: "**(d)** Wave-like muscle contractions moving food along the gut",
             commonErrors: ["Choosing chewing — that's mechanical digestion in the mouth."],
           },
         },
@@ -600,7 +600,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Identify the physical process.", working: "\\text{chewing}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Chewing food in the mouth",
+            finalAnswer: "**(c)** Chewing food in the mouth",
             commonErrors: ["Choosing an enzyme — enzymes are chemical digestion."],
           },
         },
@@ -627,7 +627,7 @@ export const lesson33: Lesson = {
               { reasoning: "Recall bile contains no enzymes.", working: "\\text{no enzymes}", marks: 1, markCode: "M" },
               { reasoning: "Classify as mechanical.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Mechanical digestion — it emulsifies fats",
+            finalAnswer: "**(c)** Mechanical digestion — it emulsifies fats",
             commonErrors: ["Saying it contains lipase — it does not."],
           },
         },
@@ -711,7 +711,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Stomach" },
               { id: "d", text: "Ileum only" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -720,7 +720,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall the site.", working: "\\text{large intestine}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Large intestine",
+            finalAnswer: "**(a)** Large intestine",
             commonErrors: ["Choosing ileum — that's for nutrients, water is mainly large intestine."],
           },
         },
@@ -784,7 +784,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall the route.", working: "\\text{lacteals}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Lacteals (lymph vessels)",
+            finalAnswer: "**(a)** Lacteals (lymph vessels)",
             commonErrors: ["Choosing blood capillaries — that's for glucose/amino acids."],
           },
         },

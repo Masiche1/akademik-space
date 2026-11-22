@@ -200,7 +200,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Multiply by $\\frac{\\pi}{180}$ and simplify.", working: "150\\times\\frac{\\pi}{180}=\\frac{5\\pi}{6}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{5\\pi}{6}$",
+            finalAnswer: "**(b)** $\\frac{5\\pi}{6}$",
             commonErrors: ["Multiplying by $\\frac{180}{\\pi}$ instead of $\\frac{\\pi}{180}$.", "Simplifying $\\frac{150\\pi}{180}$ incorrectly."],
           },
         },

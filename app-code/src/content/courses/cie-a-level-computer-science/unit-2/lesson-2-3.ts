@@ -255,7 +255,7 @@ export const lesson133: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Scanner",
+            finalAnswer: "**(d)** Scanner",
           },
         },
         {
@@ -317,7 +317,7 @@ export const lesson133: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Bluetooth",
+            finalAnswer: "**(b)** Bluetooth",
           },
         },
         {
@@ -416,7 +416,7 @@ export const lesson133: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Displays output and detects touch input",
+            finalAnswer: "**(c)** Displays output and detects touch input",
           },
         },
         {
@@ -512,7 +512,7 @@ export const lesson133: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Wi-Fi",
+            finalAnswer: "**(b)** Wi-Fi",
           },
         },
         {
@@ -617,7 +617,7 @@ export const lesson133: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Contactless payments and short-range transfer",
+              "**(d)** Contactless payments and short-range transfer",
           },
         },
       ],

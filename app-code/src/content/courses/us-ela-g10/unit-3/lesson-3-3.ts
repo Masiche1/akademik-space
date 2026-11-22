@@ -142,7 +142,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. 'They're' means 'they are' and 'there' is a place, so neither is a possessive pronoun; 'our' does not match the third-person antecedent.",
+              "**(c)**. 'They're' means 'they are' and 'there' is a place, so neither is a possessive pronoun; 'our' does not match the third-person antecedent.",
             commonErrors: [
               "Choosing (b) because 'they're' sounds like 'their'.",
             ],
@@ -188,7 +188,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** whom. The clause is 'the volunteers trusted him', so the pronoun is an object.",
+              "**(a)** whom. The clause is 'the volunteers trusted him', so the pronoun is an object.",
             commonErrors: [
               "Choosing 'who' because it sounds more natural in speech.",
             ],
@@ -468,7 +468,7 @@ export const lesson33: Lesson = {
                 markCode: "AO4",
               },
             ],
-            finalAnswer: "**(a)**. It is shortest and formal.",
+            finalAnswer: "**(b)**. It is shortest and formal.",
             commonErrors: ["Choosing (b), which keeps 'basically'."],
           },
         },
@@ -519,7 +519,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. (b) puts the hyphen in the wrong place and uses a singular possessive, (c) lacks an apostrophe and (d) lacks the hyphen.",
+              "**(b)**. (b) puts the hyphen in the wrong place and uses a singular possessive, (c) lacks an apostrophe and (d) lacks the hyphen.",
             commonErrors: [
               "Writing student's for several students.",
               "Hyphenating the noun phrase 'grace-period'.",

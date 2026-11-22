@@ -73,7 +73,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The first sentence states 'Every Friday'.", working: "\\text{Every Friday}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Friday",
+            finalAnswer: "**(c)** Friday",
             commonErrors: ["Choosing Saturday because markets are often weekend events — trust the text, not expectations."],
           },
         },
@@ -171,7 +171,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "At seven o'clock" },
               { id: "d", text: "At sunset" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -180,7 +180,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The final paragraph states 'the last customer left at midnight'.", working: "\\text{midnight}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** At midnight",
+            finalAnswer: "**(a)** At midnight",
             commonErrors: ["Choosing (b) — seven o'clock is when the lane was packed, not when it emptied."],
           },
         },
@@ -198,7 +198,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Next to the noodle seller" },
               { id: "d", text: "The corner pitch beside the clock tower" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -207,7 +207,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "'Amara arrived early... to claim the corner pitch beside the clock tower.'", working: "\\text{corner pitch, clock tower}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** The corner pitch beside the clock tower",
+            finalAnswer: "**(d)** The corner pitch beside the clock tower",
             commonErrors: ["Choosing (a) — the fountain is where the musician sits, not Amara's pitch."],
           },
         },
@@ -273,7 +273,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "'Your grandmother's famous for these,' the noodle seller said, nodding at the stacked bowls.", working: "\\text{grandmother's famous}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** They are Amara's grandmother's famous ones",
+            finalAnswer: "**(a)** They are Amara's grandmother's famous ones",
             commonErrors: ["Choosing (a) — nothing in the text comments on the bowls' size."],
           },
         },
@@ -300,7 +300,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "'children wove between the stalls chasing a paper lantern that had slipped its string.'", working: "\\text{paper lantern}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** A paper lantern",
+            finalAnswer: "**(d)** A paper lantern",
             commonErrors: ["Choosing (b) — the guitar is only being tuned, not chased."],
           },
         },
@@ -437,7 +437,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "'Amara counted her takings twice.'", working: "\\text{takings}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Her takings",
+            finalAnswer: "**(a)** Her takings",
             commonErrors: ["Choosing (d) — customers are not counted; her earnings are."],
           },
         },
@@ -535,7 +535,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "She claims the same corner her grandmother worked for thirty years.", working: "\\text{same corner, thirty years}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** She feels a strong connection to it",
+            finalAnswer: "**(a)** She feels a strong connection to it",
             commonErrors: ["Choosing (a) — nothing in the text suggests she wants to move."],
           },
         },
@@ -643,7 +643,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Arriving early is routine ('always'), linking her to the pitch's tradition.", working: "\\text{always did}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** It is a habit showing dedication to her grandmother's work",
+            finalAnswer: "**(a)** It is a habit showing dedication to her grandmother's work",
             commonErrors: ["Choosing (a) — payment is never mentioned; the clue points to habit and loyalty."],
           },
         },
@@ -670,7 +670,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "If even the locals cannot name it, it is a distinctive local dish rather than a generic smell.", working: "\\text{no one could name}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** There are local specialities outsiders do not recognise",
+            finalAnswer: "**(c)** There are local specialities outsiders do not recognise",
             commonErrors: ["Choosing (a) — the writer's tone is appreciative, not critical."],
           },
         },
@@ -737,7 +737,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "After the market's bustle, the still, starry sky creates a calm after-image.", working: "\\text{contrast}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** To contrast the market's noise with the calm natural world after it closes",
+            finalAnswer: "**(d)** To contrast the market's noise with the calm natural world after it closes",
             commonErrors: ["Choosing (c) — nothing suggests she is lost; the mood is calm, not anxious."],
           },
         },
@@ -764,7 +764,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "'children wove between the stalls chasing a paper lantern that had slipped its string.'", working: "\\text{chasing}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Chase it playfully through the stalls",
+            finalAnswer: "**(c)** Chase it playfully through the stalls",
             commonErrors: ["Choosing (a) — the text shows no blame or punishment."],
           },
         },

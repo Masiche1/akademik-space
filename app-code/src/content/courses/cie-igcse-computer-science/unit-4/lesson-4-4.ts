@@ -276,7 +276,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Trace your code against the sample data and check indentation",
+            finalAnswer: "**(c)** Trace your code against the sample data and check indentation",
           },
         },
         {
@@ -370,7 +370,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Remove obviously wrong options, then verify the remaining ones",
+            finalAnswer: "**(d)** Remove obviously wrong options, then verify the remaining ones",
           },
         },
         {
@@ -476,7 +476,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** They are not precise enough to show understanding",
+            finalAnswer: "**(d)** They are not precise enough to show understanding",
           },
         },
         {
@@ -548,7 +548,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Python uses indentation to define code blocks",
+            finalAnswer: "**(c)** Python uses indentation to define code blocks",
           },
         },
         {
@@ -613,7 +613,7 @@ export const lesson44: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Compare your answer point-by-point to see which marks you missed and why",
+            finalAnswer: "**(c)** Compare your answer point-by-point to see which marks you missed and why",
           },
         },
       ],

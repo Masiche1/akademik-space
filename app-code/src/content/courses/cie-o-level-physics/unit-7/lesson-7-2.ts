@@ -139,7 +139,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Alpha", statement: "Least penetrating — stopped by paper/skin." }],
             steps: [{ reasoning: "Recall.", working: "\\alpha \\text{ stopped by paper}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A sheet of paper",
+            finalAnswer: "**(c)** A sheet of paper",
             commonErrors: ["Confusing alpha with gamma penetration."],
           },
         },
@@ -173,7 +173,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Beta", statement: "Beta = fast electron." }],
             steps: [{ reasoning: "Recall.", working: "\\beta = e^-", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Fast-moving electrons",
+            finalAnswer: "**(c)** Fast-moving electrons",
             commonErrors: ["Confusing beta with alpha particles."],
           },
         },
@@ -382,7 +382,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Fission", statement: "Heavy nucleus splits." }],
             steps: [{ reasoning: "Recall.", working: "\\text{split}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Heavy nucleus splits",
+            finalAnswer: "**(a)** Heavy nucleus splits",
             commonErrors: ["Confusing with fusion."],
           },
         },
@@ -462,7 +462,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Fusion", statement: "Powers stars." }],
             steps: [{ reasoning: "Recall.", working: "\\text{fusion} \\rightarrow \\text{stars}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The Sun and other stars",
+            finalAnswer: "**(d)** The Sun and other stars",
             commonErrors: ["Confusing fusion with fission in reactors."],
           },
         },
@@ -530,7 +530,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "application", name: "Fission", statement: "Used in nuclear reactors." }],
             steps: [{ reasoning: "Recall.", working: "\\text{fission} \\rightarrow \\text{reactors}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Nuclear power stations",
+            finalAnswer: "**(d)** Nuclear power stations",
             commonErrors: ["Confusing with fusion which powers stars."],
           },
         },
@@ -586,7 +586,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Fusion", statement: "Needs extreme T and P to overcome repulsion." }],
             steps: [{ reasoning: "Recall.", working: "\\text{high } T, P", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Extremely high temperature and pressure",
+            finalAnswer: "**(d)** Extremely high temperature and pressure",
             commonErrors: ["Thinking fusion needs low temperature."],
           },
         },
@@ -637,7 +637,7 @@ export const lessonp72: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Fission", statement: "Produces radioactive waste." }],
             steps: [{ reasoning: "Recall.", working: "\\text{radioactive waste}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It produces long-lived radioactive waste",
+            finalAnswer: "**(c)** It produces long-lived radioactive waste",
             commonErrors: ["Choosing 'cannot be controlled' — reactors are controlled."],
           },
         },

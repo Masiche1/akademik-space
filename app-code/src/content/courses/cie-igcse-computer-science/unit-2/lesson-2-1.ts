@@ -237,7 +237,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "RAM is temporary working memory and does not retain data when powered off.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Contents are lost",
+            finalAnswer: "**(a)** Contents are lost",
           },
         },
         {
@@ -287,7 +287,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Cache reduces waiting time by keeping frequently accessed data close to the CPU.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Fast access to frequently used data",
+            finalAnswer: "**(c)** Fast access to frequently used data",
           },
         },
         {
@@ -312,7 +312,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "A bottleneck restricts performance even if other components are fast.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Slowest component limiting performance",
+            finalAnswer: "**(c)** Slowest component limiting performance",
           },
         },
         {
@@ -337,7 +337,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Bottlenecks in memory, storage or workload can limit performance despite a fast CPU.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Other components can limit performance",
+            finalAnswer: "**(a)** Other components can limit performance",
           },
         },
         {
@@ -362,7 +362,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "More RAM lets more programs stay in active memory without swapping to storage.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Increasing RAM capacity",
+            finalAnswer: "**(b)** Increasing RAM capacity",
           },
         },
         {

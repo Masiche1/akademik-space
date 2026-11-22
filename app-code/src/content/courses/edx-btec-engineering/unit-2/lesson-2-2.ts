@@ -366,7 +366,7 @@ export const lesson202: Lesson = {
                 text: "Phenolic resin",
               },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

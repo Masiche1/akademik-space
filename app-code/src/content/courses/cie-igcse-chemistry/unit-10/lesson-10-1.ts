@@ -140,7 +140,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Alkane formula", statement: "CnH2n+2." }],
             steps: [{ reasoning: "Recall.", working: "CnH_{2n+2}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** CnH2n+2",
+            finalAnswer: "**(b)** CnH2n+2",
             commonErrors: ["Confusing with alkene CnH2n."],
           },
         },
@@ -244,7 +244,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Incomplete combustion", statement: "Limited oxygen produces CO." }],
             steps: [{ reasoning: "Recall.", working: "\\text{incomplete combustion} \\to \\text{CO}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Carbon monoxide",
+            finalAnswer: "**(d)** Carbon monoxide",
             commonErrors: ["Carbon dioxide is the product of complete combustion."],
           },
         },
@@ -296,7 +296,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Alkene formula", statement: "CnH2n; n = 4 gives C4H8." }],
             steps: [{ reasoning: "Substitute n = 4 into CnH2n.", working: "C_4H_{2(4)} = C_4H_8", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** C4H8",
+            finalAnswer: "**(a)** C4H8",
             commonErrors: ["Using the alkane formula CnH2n+2."],
           },
         },
@@ -378,7 +378,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Alcohol group", statement: "–OH hydroxyl." }],
             steps: [{ reasoning: "Recall.", working: "-OH", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** –OH",
+            finalAnswer: "**(c)** –OH",
             commonErrors: ["–COOH is carboxylic acid."],
           },
         },
@@ -459,7 +459,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Carboxylic acid group", statement: "–COOH." }],
             steps: [{ reasoning: "Recall.", working: "-\\text{COOH}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** –COOH",
+            finalAnswer: "**(a)** –COOH",
             commonErrors: ["–OH belongs to alcohols."],
           },
         },
@@ -495,7 +495,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Fermentation", statement: "Yeast converts glucose anaerobically." }],
             steps: [{ reasoning: "Recall.", working: "\\text{yeast, anaerobic}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Anaerobic conditions and yeast",
+            finalAnswer: "**(d)** Anaerobic conditions and yeast",
             commonErrors: ["Fermentation does not require oxygen."],
           },
         },
@@ -547,7 +547,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Oxidation of ethanol", statement: "–OH is oxidised to –COOH." }],
             steps: [{ reasoning: "Recall.", working: "\\text{ethanol} \\to \\text{ethanoic acid}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ethanoic acid",
+            finalAnswer: "**(c)** Ethanoic acid",
             commonErrors: ["Dehydration gives ethene, not oxidation."],
           },
         },
@@ -600,7 +600,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Ester naming", statement: "Alcohol part gives the first name." }],
             steps: [{ reasoning: "Recall.", working: "\\text{ethyl} = \\text{ethanol part}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ethyl",
+            finalAnswer: "**(d)** Ethyl",
             commonErrors: ["Ethanoate comes from ethanoic acid."],
           },
         },

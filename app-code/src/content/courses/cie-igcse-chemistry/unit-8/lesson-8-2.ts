@@ -57,7 +57,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Metal+acid", statement: "Salt + H₂." }],
             steps: [{ reasoning: "Recall.", working: "H_2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Hydrogen",
+            finalAnswer: "**(a)** Hydrogen",
             commonErrors: ["CO₂ is for carbonates."],
           },
         },
@@ -133,11 +133,11 @@ export const lesson182: Lesson = {
             { id: "b", text: "Iron" },
             { id: "c", text: "Magnesium" },
             { id: "d", text: "Sodium" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "Reactivity", statement: "K/Na most reactive." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Sodium",
+            finalAnswer: "**(d)** Sodium",
             commonErrors: ["Mg needs steam, Fe slower."],
           },
         },
@@ -270,11 +270,11 @@ export const lesson182: Lesson = {
             { id: "b", text: "Copper" },
             { id: "c", text: "Zinc" },
             { id: "d", text: "Magnesium" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "principle", name: "Reactivity", statement: "Cu below H." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Copper",
+            finalAnswer: "**(b)** Copper",
             commonErrors: ["Cu is below H."],
           },
         },
@@ -317,7 +317,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Metal+acid", statement: "Salt + H₂." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Hydrogen",
+            finalAnswer: "**(a)** Hydrogen",
             commonErrors: ["CO₂ is for carbonates."],
           },
         },
@@ -335,7 +335,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Cu + O₂", statement: "Black CuO." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Black CuO",
+            finalAnswer: "**(c)** Black CuO",
             commonErrors: ["CuO is black."],
           },
         },
@@ -381,7 +381,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Cu properties", statement: "Conductor + ductile." }],
             steps: [{ reasoning: "Recall.", working: "\\text{conduct + ductile}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Good conductor, ductile",
+            finalAnswer: "**(a)** Good conductor, ductile",
             commonErrors: ["Cheap isn't the main reason — conductivity is."],
           },
         },
@@ -461,7 +461,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Al properties", statement: "Low density + strength." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Light and strong",
+            finalAnswer: "**(d)** Light and strong",
             commonErrors: ["Al is light — key property."],
           },
         },
@@ -479,7 +479,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Au properties", statement: "Unreactive, lustrous." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Corrosion resistant and attractive",
+            finalAnswer: "**(c)** Corrosion resistant and attractive",
             commonErrors: ["Not about reactivity — Au is unreactive."],
           },
         },
@@ -598,7 +598,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Catalytic converter", statement: "Pt/Pd/Rh." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Platinum",
+            finalAnswer: "**(d)** Platinum",
             commonErrors: ["Pt group metals used."],
           },
         },
@@ -641,7 +641,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Steel", statement: "Strong + inexpensive." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Strong and cheap",
+            finalAnswer: "**(a)** Strong and cheap",
             commonErrors: ["Steel does rust — needs protection."],
           },
         },
@@ -659,7 +659,7 @@ export const lesson182: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Tin plating", statement: "Barrier only — no sacrificial action." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** The tin is intact",
+            finalAnswer: "**(d)** The tin is intact",
             commonErrors: ["Tin is less reactive than Fe."],
           },
         },

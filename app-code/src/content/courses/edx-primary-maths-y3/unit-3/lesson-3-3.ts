@@ -92,7 +92,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "1 hour = 60 minutes.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 60",
+            finalAnswer: "**(a)** 60",
             commonErrors: ["Confusing with 24 hours in a day."],
           },
         },
@@ -325,7 +325,7 @@ export const lesson33: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** What each symbol represents",
+            finalAnswer: "**(a)** What each symbol represents",
             commonErrors: ["Thinking key is just decoration."],
           },
         },

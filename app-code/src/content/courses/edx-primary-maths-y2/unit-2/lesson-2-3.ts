@@ -294,7 +294,7 @@ export const lesson23: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** 6",
+            finalAnswer: "**(a)** 6",
             commonErrors: ["Dividing by 18 instead of 3."],
           },
         },

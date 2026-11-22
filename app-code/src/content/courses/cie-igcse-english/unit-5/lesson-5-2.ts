@@ -277,7 +277,7 @@ export const lesson52: Lesson = {
             { id: "b", text: "Formal and objective" },
             { id: "c", text: "Casual" },
             { id: "d", text: "Informal and personal" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "convention", name: "Report register", statement: "Formal, objective language." }],
             steps: [
@@ -493,7 +493,7 @@ export const lesson52: Lesson = {
             { id: "b", text: "A strong call to action or memorable final line" },
             { id: "c", text: "A long conclusion" },
             { id: "d", text: "A question mark" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Speech structure", statement: "Ending inspires action." }],
             steps: [

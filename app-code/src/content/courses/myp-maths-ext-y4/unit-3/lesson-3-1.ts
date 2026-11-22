@@ -186,7 +186,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$\\begin{pmatrix}3+2\\\\1+(-4)\\end{pmatrix}=\\begin{pmatrix}5\\\\-3\\end{pmatrix}$.", working: "\\begin{pmatrix}5\\\\-3\\end{pmatrix}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\begin{pmatrix}5\\\\-3\\end{pmatrix}$",
+            finalAnswer: "**(c)** $\\begin{pmatrix}5\\\\-3\\end{pmatrix}$",
             commonErrors: ["Adding component-wise incorrectly or subtracting."],
             examinerNote: "B1 for (a).",
           },
@@ -463,7 +463,7 @@ export const lesson31: Lesson = {
               { reasoning: "Scalar multiple → same line through $A$.", working: "\\text{collinear}", marks: 1, markCode: "M" },
               { reasoning: "State the conclusion.", working: "\\text{yes, collinear}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Yes — $\\vec{AC}=2\\vec{AB}$",
+            finalAnswer: "**(b)** Yes — $\\vec{AC}=2\\vec{AB}$",
             commonErrors: ["Checking slopes incorrectly or not comparing vectors."],
             examinerNote: "M1 M1 A1.",
           },
@@ -521,7 +521,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Perpendicular to plane → angle = $90°$.", working: "90°", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $90°$",
+            finalAnswer: "**(c)** $90°$",
             commonErrors: ["Thinking it's 0° — that's parallel."],
             examinerNote: "B1 for (a).",
           },
@@ -539,7 +539,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "6 m" },
               { id: "d", text: "$12\\cos30°=10.4$ m" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -636,7 +636,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The line coincides with its projection → angle $0°$.", working: "0°", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0°$",
+            finalAnswer: "**(c)** $0°$",
             commonErrors: ["Confusing with a perpendicular line ($90°$)."],
             examinerNote: "B1 for (a).",
           },

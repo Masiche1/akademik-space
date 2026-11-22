@@ -211,7 +211,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Simile", statement: "A comparison that shapes how we view the subject." }],
             steps: [{ reasoning: "Cattle are herded to slaughter, so the soldiers are dehumanised.", evidence: "die as cattle", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** The simile suggests the soldiers are killed in huge numbers without dignity.",
+            finalAnswer: "**(b)** The simile suggests the soldiers are killed in huge numbers without dignity.",
             commonErrors: ["Taking the simile literally (c).", "Choosing the positive connotation of calmness (b)."],
           },
         },

@@ -475,7 +475,7 @@ export const lesson32: Lesson = {
             { id: "b", text: "$\\pi$" },
             { id: "c", text: "$\\frac{2\\pi}{3}$" },
             { id: "d", text: "$\\frac{4\\pi}{3}$" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "convention", name: "Principal root", statement: "Smallest positive argument." }],
             steps: [{ reasoning: "Root $2\\operatorname{cis}0 = 2$ has argument 0.", marks: 1, markCode: "A" }],

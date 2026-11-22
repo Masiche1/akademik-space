@@ -65,7 +65,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Clause = subject+verb.", working: "subject+verb", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Subject + verb",
+            finalAnswer: "**(d)** Subject + verb",
             commonErrors: ["Choosing (b) — that's phrase."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson63: Lesson = {
         steps: [
           { reasoning: "Clause = subject + verb.", working: "clause", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** It has a subject and a verb",
+        finalAnswer: "**(b)** It has a subject and a verb",
         commonErrors: ["Confusing clause with phrase."],
       },
     },
@@ -196,7 +196,7 @@ export const lesson63: Lesson = {
         steps: [
           { reasoning: "Phrase lacks subject-verb.", working: "phrase", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** A group of words without subject-verb pair",
+        finalAnswer: "**(d)** A group of words without subject-verb pair",
         commonErrors: ["Confusing phrase with clause."],
       },
     },
@@ -222,7 +222,7 @@ export const lesson63: Lesson = {
         steps: [
           { reasoning: "Run-on = no punctuation between clauses.", working: "run-on", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Two independent clauses joined without punctuation",
+        finalAnswer: "**(c)** Two independent clauses joined without punctuation",
         commonErrors: ["Thinking length makes it a run-on."],
       },
     },
@@ -248,7 +248,7 @@ export const lesson63: Lesson = {
         steps: [
           { reasoning: "Comma splice = comma only.", working: "splice", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Two independent clauses joined by only a comma",
+        finalAnswer: "**(d)** Two independent clauses joined by only a comma",
         commonErrors: ["Confusing with correct comma use."],
       },
     },
@@ -274,7 +274,7 @@ export const lesson63: Lesson = {
         steps: [
           { reasoning: "Fragment = incomplete sentence.", working: "fragment", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** An incomplete sentence missing subject or verb",
+        finalAnswer: "**(c)** An incomplete sentence missing subject or verb",
         commonErrors: ["Thinking fragments are acceptable."],
       },
     },
@@ -506,7 +506,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Colon = introduces.", working: "introduces", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Introduce list/explanation",
+            finalAnswer: "**(b)** Introduce list/explanation",
             commonErrors: ["Choosing (b) — that's full stop."],
           },
         },
@@ -611,7 +611,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Commas separate list items.", working: "list", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** To separate items",
+            finalAnswer: "**(c)** To separate items",
             commonErrors: ["Using semicolons in simple lists."],
           },
         },
@@ -654,7 +654,7 @@ export const lesson63: Lesson = {
               { id: "c", text: "Don't go" },
               { id: "d", text: "James's car" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -663,7 +663,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "'1990s' is a plural — no apostrophe needed.", working: "plural", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(c)** The 1990's were great",
+            finalAnswer: "**(a)** The 1990's were great",
             commonErrors: ["Using apostrophes for all plurals."],
           },
         },
@@ -940,7 +940,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Connotation = associated meaning.", working: "associated", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Associated feelings",
+            finalAnswer: "**(c)** Associated feelings",
             commonErrors: ["Choosing (b) — that's spelling."],
           },
         },
@@ -1045,7 +1045,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "'Slim' sounds complimentary; 'skinny' critical.", working: "slim", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Slim",
+            finalAnswer: "**(d)** Slim",
             commonErrors: ["Treating synonyms as identical in feeling."],
           },
         },
@@ -1071,7 +1071,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "'Whispered' matches the quiet delivery.", working: "whispered", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** whispered",
+            finalAnswer: "**(b)** whispered",
             commonErrors: ["Choosing a louder, less precise verb."],
           },
         },
@@ -1097,7 +1097,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "'Stingy' implies unfair meanness.", working: "stingy", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** Stingy",
+            finalAnswer: "**(c)** Stingy",
             commonErrors: ["Missing the negative connotation."],
           },
         },
@@ -1123,7 +1123,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Variety must not sacrifice clarity.", working: "variety", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** Use synonyms and vary sentence structure while keeping clarity",
+            finalAnswer: "**(d)** Use synonyms and vary sentence structure while keeping clarity",
             commonErrors: ["Forcing obscure synonyms that confuse."],
           },
         },

@@ -236,7 +236,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Sentence length for effect", statement: "Minor sentences create emphasis and a blunt, stark rhythm." }],
             steps: [{ reasoning: "One-word minor sentences strip the car park to its bare features, conveying emptiness.", evidence: "Tarmac. Silence.", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** They emphasise how empty and bleak the plan is.",
+            finalAnswer: "**(c)** They emphasise how empty and bleak the plan is.",
             commonErrors: ["Treating short sentences as a sign of weak writing.", "Assuming short sentences are always fast or tense, rather than reading the context."],
           },
         },

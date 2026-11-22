@@ -64,7 +64,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Bronchi" },
               { id: "d", text: "Alveoli" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -73,7 +73,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Gas exchange happens across the thin walls of the alveoli.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Alveoli",
+            finalAnswer: "**(d)** Alveoli",
             commonErrors: ["Choosing the bronchi because they carry air into the lungs; the walls of the airways are too thick for gas exchange.", "Choosing the diaphragm, which is the muscle used in breathing."],
             examinerNote: "B1 for alveoli.",
           },
@@ -174,7 +174,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "The trachea splits into the two bronchi leading to each lung.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Bronchi",
+            finalAnswer: "**(d)** Bronchi",
             commonErrors: ["Choosing bronchioles, which are the smaller tubes inside the lungs."],
             examinerNote: "B1 for choice (b).",
           },
@@ -201,7 +201,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Oxygen moves from the air into the blood; carbon dioxide moves the other way.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Oxygen",
+            finalAnswer: "**(c)** Oxygen",
             commonErrors: ["Reversing the direction and choosing carbon dioxide."],
             examinerNote: "B1 for choice (b).",
           },
@@ -228,7 +228,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "A thin wall shortens the diffusion path, so oxygen and carbon dioxide cross quickly.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To give a short diffusion distance for gases",
+            finalAnswer: "**(d)** To give a short diffusion distance for gases",
             commonErrors: ["Thinking thickness helps strength rather than speed of exchange."],
             examinerNote: "B1 for choice (b).",
           },
@@ -389,7 +389,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Tar contains carcinogenic chemicals and damages the cilia; nicotine is addictive and carbon monoxide affects oxygen transport.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Tar",
+            finalAnswer: "**(c)** Tar",
             commonErrors: ["Choosing nicotine, which is addictive but not the carcinogen."],
             examinerNote: "B1 for choice (b).",
           },
@@ -416,7 +416,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "The ban reduces passive smoking for non-smokers and can discourage smoking, but it restricts personal choice; a balanced evaluation weighs both sides.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It protects non-smokers from passive smoking and may encourage smokers to quit, though it limits personal freedom",
+            finalAnswer: "**(a)** It protects non-smokers from passive smoking and may encourage smokers to quit, though it limits personal freedom",
             commonErrors: ["Giving only one side of the evaluation."],
             examinerNote: "B1 for choice (b).",
           },
@@ -498,7 +498,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Vein" },
               { id: "d", text: "Capillary" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -507,7 +507,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Arteries carry blood away from the heart at high pressure.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Artery",
+            finalAnswer: "**(b)** Artery",
             commonErrors: ["Choosing vein because veins are linked with blood returning to the heart; the direction is the opposite.", "Choosing atrium, which is a heart chamber, not a vessel."],
             examinerNote: "B1 for artery.",
           },
@@ -601,7 +601,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Red blood cells" },
               { id: "d", text: "Plasma" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -610,7 +610,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Red blood cells contain haemoglobin, which binds and carries oxygen.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Red blood cells",
+            finalAnswer: "**(c)** Red blood cells",
             commonErrors: ["Choosing plasma; it carries dissolved substances but not oxygen."],
             examinerNote: "B1 for choice (d).",
           },
@@ -664,7 +664,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "The right side sends deoxygenated blood to the lungs; the left side sends oxygenated blood around the body.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To the lungs",
+            finalAnswer: "**(d)** To the lungs",
             commonErrors: ["Reversing the roles of the two sides."],
             examinerNote: "B1 for choice (b).",
           },
@@ -848,7 +848,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Only platelets" },
               { id: "d", text: "Dissolved glucose, carbon dioxide, hormones and waste" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -857,7 +857,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Plasma carries dissolved substances; cells are carried suspended in it.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Dissolved glucose, carbon dioxide, hormones and waste",
+            finalAnswer: "**(d)** Dissolved glucose, carbon dioxide, hormones and waste",
             commonErrors: ["Thinking plasma carries oxygen; that is haemoglobin in red cells."],
             examinerNote: "B1 for choice (c).",
           },

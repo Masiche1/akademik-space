@@ -314,7 +314,7 @@ export const lesson13: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Disease-causing microorganisms",
+            finalAnswer: "**(a)** Disease-causing microorganisms",
             commonErrors: ["Confusing with immune cells."],
           },
         },

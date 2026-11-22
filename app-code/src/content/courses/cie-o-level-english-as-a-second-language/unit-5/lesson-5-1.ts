@@ -41,7 +41,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "A subject and a verb" },
             { id: "d", text: "Only a noun" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Sentence", statement: "Subject + verb + complete thought." }], steps: [{ reasoning: "Both subject and verb are required.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** A subject and a verb" },
+          markscheme: { principles: [{ kind: "definition", name: "Sentence", statement: "Subject + verb + complete thought." }], steps: [{ reasoning: "Both subject and verb are required.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** A subject and a verb" },
         },
         {
           id: "oles-u5-se-q2", difficulty: "core", totalMarks: 2,
@@ -55,7 +55,7 @@ export const lesson51: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Indefinite pronouns", statement: "Everyone/everybody = singular." }], steps: [
             { reasoning: "'Everyone' is singular → 'is'.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** is" },
+          ], finalAnswer: "**(d)** is" },
         },
         {
           id: "oles-u5-se-q3", difficulty: "challenge", totalMarks: 4,
@@ -110,7 +110,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Because it was late." },
             { id: "d", text: "The old man fed the birds." },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Complete sentence", statement: "Subject + verb + complete thought." }], steps: [{ reasoning: "Only (a) has a subject, a verb and a complete thought.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The old man fed the birds." },
+          markscheme: { principles: [{ kind: "definition", name: "Complete sentence", statement: "Subject + verb + complete thought." }], steps: [{ reasoning: "Only (a) has a subject, a verb and a complete thought.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** The old man fed the birds." },
         },
         {
           id: "oles-u5-se-q6", difficulty: "core", totalMarks: 2,
@@ -124,7 +124,7 @@ export const lesson51: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Agreement", statement: "Neither = singular." }], steps: [
             { reasoning: "'Neither' takes a singular verb.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** is" },
+          ], finalAnswer: "**(b)** is" },
         },
         {
           id: "oles-u5-se-q7", difficulty: "core", totalMarks: 2,
@@ -155,7 +155,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "A command" },
             { id: "d", text: "An incomplete sentence" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Fragment", statement: "Missing subject or verb." }], steps: [{ reasoning: "A fragment cannot stand alone as a complete thought.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** An incomplete sentence" },
+          markscheme: { principles: [{ kind: "definition", name: "Fragment", statement: "Missing subject or verb." }], steps: [{ reasoning: "A fragment cannot stand alone as a complete thought.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** An incomplete sentence" },
         },
         {
           id: "oles-u5-se-q10", difficulty: "core", totalMarks: 2,
@@ -189,7 +189,7 @@ export const lesson51: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Past tense", statement: "'Yesterday' needs past form." }], steps: [
             { reasoning: "'Yesterday' signals past tense → 'did'.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** did" },
+          ], finalAnswer: "**(b)** did" },
         },
         {
           id: "oles-u5-se-q13", difficulty: "challenge", totalMarks: 4,
@@ -211,7 +211,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "is" },
             { id: "d", text: "be" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Uncountable", statement: "Furniture is singular." }], steps: [{ reasoning: "'Furniture' is uncountable → singular 'is'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** is" },
+          markscheme: { principles: [{ kind: "convention", name: "Uncountable", statement: "Furniture is singular." }], steps: [{ reasoning: "'Furniture' is uncountable → singular 'is'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** is" },
         },
         {
           id: "oles-u5-se-q15", difficulty: "challenge", totalMarks: 9,
@@ -258,7 +258,7 @@ export const lesson51: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Agreement", statement: "Each = singular; students = plural." }], steps: [
             { reasoning: "'Each' is singular → 'has'; 'students' is plural → 'have'.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(b)** Each of the students has a book." },
+          ], finalAnswer: "**(c)** Each of the students has a book." },
         },
       ],
     },
@@ -303,7 +303,7 @@ export const lesson51: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Third person -s", statement: "He/she/it + verb-s." }], steps: [
             { reasoning: "'She' is third person singular → 'walks'.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** walks" },
+          ], finalAnswer: "**(d)** walks" },
         },
         {
           id: "oles-u5-vb-q3", difficulty: "challenge", totalMarks: 4,
@@ -358,7 +358,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "buyed" },
             { id: "d", text: "buy" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Irregular verb", statement: "buy → bought → bought." }], steps: [{ reasoning: "'Buy' is irregular: bought.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** bought" },
+          markscheme: { principles: [{ kind: "definition", name: "Irregular verb", statement: "buy → bought → bought." }], steps: [{ reasoning: "'Buy' is irregular: bought.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** bought" },
         },
         {
           id: "oles-u5-vb-q6", difficulty: "core", totalMarks: 2,
@@ -372,7 +372,7 @@ export const lesson51: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Past tense", statement: "'Yesterday' needs past form." }], steps: [
             { reasoning: "'Yesterday' signals past tense → 'played'.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(b)** played" },
+          ], finalAnswer: "**(c)** played" },
         },
         {
           id: "oles-u5-vb-q7", difficulty: "core", totalMarks: 2,
@@ -391,8 +391,8 @@ export const lesson51: Lesson = {
             { id: "b", text: "watching" },
             { id: "c", text: "watch" },
             { id: "d", text: "watchs" },
-          ], aorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Third person -s", statement: "He/she/it + verb-s." }], steps: [{ reasoning: "'He' is third person singular → 'watches' (add -es after -ch).", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** watches" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "convention", name: "Third person -s", statement: "He/she/it + verb-s." }], steps: [{ reasoning: "'He' is third person singular → 'watches' (add -es after -ch).", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** watches" },
         },
         {
           id: "oles-u5-vb-q9", difficulty: "challenge", totalMarks: 4,
@@ -423,7 +423,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "finishes" },
             { id: "d", text: "finish" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "convention", name: "Present perfect", statement: "have/has + past participle." }], steps: [{ reasoning: "After 'have' the past participle 'finished' is needed.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** finished" },
+          markscheme: { principles: [{ kind: "convention", name: "Present perfect", statement: "have/has + past participle." }], steps: [{ reasoning: "After 'have' the past participle 'finished' is needed.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** finished" },
         },
         {
           id: "oles-u5-vb-q12", difficulty: "challenge", totalMarks: 9,

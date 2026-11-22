@@ -65,7 +65,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Summary = main points condensed.", working: "main points", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Main points only",
+            finalAnswer: "**(b)** Main points only",
             commonErrors: ["Choosing (b) — that's copying, not summarising."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Paraphrase = own words, same meaning.", working: "own words", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Rewrite in your own words",
+            finalAnswer: "**(b)** Rewrite in your own words",
             commonErrors: ["Choosing (b) — copying is plagiarism, not paraphrasing."],
           },
         },
@@ -501,7 +501,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Directed = given instructions.", working: "instructions", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Writing with specific instructions",
+            finalAnswer: "**(d)** Writing with specific instructions",
             commonErrors: ["Choosing (b) — it's guided, not free."],
           },
         },
@@ -606,7 +606,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Audience = who reads it.", working: "audience", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Audience",
+            finalAnswer: "**(d)** Audience",
             commonErrors: ["Choosing (b) — purpose is WHY you write."],
           },
         },
@@ -656,7 +656,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Format = the required structure and conventions.", working: "structure", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** To show how the text should be organised",
+            finalAnswer: "**(d)** To show how the text should be organised",
             commonErrors: ["Thinking format is decoration — it is required structure."],
           },
         },
@@ -726,7 +726,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "A headteacher is an official recipient — formal register.", working: "formal", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Formal",
+            finalAnswer: "**(b)** Formal",
             commonErrors: ["Choosing (b) — teachers are not friends; use formal."],
           },
         },
@@ -772,7 +772,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Informal letters use contractions and relaxed language.", working: "contractions", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Contractions and casual tone",
+            finalAnswer: "**(b)** Contractions and casual tone",
             commonErrors: ["Choosing (b)/(c) — those are formal features."],
           },
         },
@@ -857,7 +857,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Unknown recipient + formal = 'Yours faithfully'.", working: "faithfully", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Yours faithfully",
+            finalAnswer: "**(c)** Yours faithfully",
             commonErrors: ["Choosing (b) — that's informal."],
           },
         },
@@ -1042,7 +1042,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Climax = peak tension.", working: "peak", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The highest point of tension",
+            finalAnswer: "**(d)** The highest point of tension",
             commonErrors: ["Choosing (c) — that's the resolution."],
           },
         },
@@ -1092,7 +1092,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Physical action demonstrates fear without stating it.", working: "action", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Show don't tell",
+            finalAnswer: "**(c)** Show don't tell",
             commonErrors: ["Missing that the emotion is shown, not stated."],
           },
         },
@@ -1162,7 +1162,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "(a) uses physical action to show fear.", working: "physical reaction", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Her breath caught and she froze.",
+            finalAnswer: "**(d)** Her breath caught and she froze.",
             commonErrors: ["Choosing (b)/(c) — those state the emotion directly."],
           },
         },
@@ -1208,7 +1208,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Flashback = past events.", working: "past", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Flashback",
+            finalAnswer: "**(c)** Flashback",
             commonErrors: ["Choosing (b) — foreshadowing hints at the future."],
           },
         },
@@ -1293,7 +1293,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "(a) creates intrigue and hints at change — an effective hook.", working: "intrigue", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The letter arrived on the morning everything changed.",
+            finalAnswer: "**(c)** The letter arrived on the morning everything changed.",
             commonErrors: ["Choosing (b) — announcing the story is not a hook."],
           },
         },
@@ -1373,7 +1373,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Thesis = main argument.", working: "main argument", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Main argument in introduction",
+            finalAnswer: "**(c)** Main argument in introduction",
             commonErrors: ["Choosing (c) — that's evidence/support."],
           },
         },
@@ -1478,7 +1478,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Thesis = main argument.", working: "main argument", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The main argument",
+            finalAnswer: "**(c)** The main argument",
             commonErrors: ["Choosing (b) — that's evidence."],
           },
         },
@@ -1528,7 +1528,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "'Save our children from danger' appeals to emotion.", working: "emotion", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Save our children from danger!",
+            finalAnswer: "**(c)** Save our children from danger!",
             commonErrors: ["Choosing (b)/(d) — those are logical appeals."],
           },
         },
@@ -1598,7 +1598,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "'We' is inclusive; 'children's future' is emotive.", working: "inclusive+emotive", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Inclusive language and emotive language",
+            finalAnswer: "**(c)** Inclusive language and emotive language",
             commonErrors: ["Missing the inclusive 'we' — it binds reader and writer."],
           },
         },
@@ -1644,7 +1644,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Counterarguments show balance and let you refute them.", working: "fairness", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** It shows fairness and strengthens your position",
+            finalAnswer: "**(b)** It shows fairness and strengthens your position",
             commonErrors: ["Ignoring them — one-sided arguments are weaker."],
           },
         },
@@ -1729,7 +1729,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "(a) summarises and calls to action — strong close.", working: "strong close", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Together, we can build a safer, fairer future — act today.",
+            finalAnswer: "**(d)** Together, we can build a safer, fairer future — act today.",
             commonErrors: ["Choosing (b)/(d) — weak, apologetic endings."],
           },
         },

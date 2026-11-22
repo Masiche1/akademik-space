@@ -116,7 +116,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "Integers" },
             { id: "c", text: "Natural numbers" },
             { id: "d", text: "Rational numbers" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Rational", statement: "Any number expressible as $\\frac{p}{q}$ with integer $q\\neq0$." }], steps: [{ reasoning: "$-\\frac{3}{4}$ is a fraction of integers, so it is rational (but not an integer).", marks: 1, markCode: "A" }], finalAnswer: "Rational numbers" },
         },
         {
@@ -331,7 +331,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "$-7+(-4)$" },
             { id: "c", text: "$(-3)^3$" },
             { id: "d", text: "$(-1)^4$" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "property", name: "Sign rule", statement: "Even power of negative is positive." }], steps: [{ reasoning: "$(-1)^4=1$; $(-3)^3=-27$, $-2^2=-4$ and $-7+(-4)=-11$ are all negative.", marks: 1, markCode: "A" }], finalAnswer: "$(-1)^4$" },
         },
         {

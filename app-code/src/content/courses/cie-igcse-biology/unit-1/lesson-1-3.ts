@@ -161,7 +161,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Recall the focusing part.", working: "\\text{focus knob}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Focus knob",
+            finalAnswer: "**(d)** Focus knob",
             commonErrors: ["Choosing the mirror — it directs light, it does not focus."],
           },
         },
@@ -187,7 +187,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Recall the correct sequence.", working: "\\text{centre + low power first}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Centre the specimen and focus on low power",
+            finalAnswer: "**(c)** Centre the specimen and focus on low power",
             commonErrors: ["Choosing (c) — coarse focus must never be used on high power."],
           },
         },
@@ -213,7 +213,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Recall the definition of resolution.", working: "\\text{distinguish close points}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The ability to distinguish two close points as separate",
+            finalAnswer: "**(c)** The ability to distinguish two close points as separate",
             commonErrors: ["Confusing resolution with magnification."],
           },
         },
@@ -239,7 +239,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Compare the resolution of microscope types.", working: "\\text{electron microscope}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Electron microscope",
+            finalAnswer: "**(b)** Electron microscope",
             commonErrors: ["Choosing light microscope — electron microscopes resolve finer detail."],
           },
         },
@@ -477,7 +477,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Recall the sequence.", working: "\\text{cell} \\to \\text{tissue} \\to \\text{organ} \\to \\text{system} \\to \\text{organism}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cell → tissue → organ → organ system → organism",
+            finalAnswer: "**(d)** Cell → tissue → organ → organ system → organism",
             commonErrors: ["Putting organ before tissue — tissue comes first."],
           },
         },
@@ -571,7 +571,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Recall which level the heart represents.", working: "\\text{organ}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Organ",
+            finalAnswer: "**(c)** Organ",
             commonErrors: ["Choosing tissue — the heart contains several different tissues."],
           },
         },
@@ -597,7 +597,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Recall the definition of a tissue.", working: "\\text{similar cells, shared function}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Many similar cells performing a shared function",
+            finalAnswer: "**(d)** Many similar cells performing a shared function",
             commonErrors: ["Choosing (b) — that describes an organ."],
           },
         },
@@ -623,7 +623,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{organs cooperating}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A group of organs working together for a major function",
+            finalAnswer: "**(b)** A group of organs working together for a major function",
             commonErrors: ["Choosing (d) — the whole organism includes all systems, not just organs."],
           },
         },
@@ -707,7 +707,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Identify the top of the hierarchy.", working: "\\text{organism}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Organism",
+            finalAnswer: "**(c)** Organism",
             commonErrors: ["Choosing organ — systems and the whole organism are more complex."],
           },
         },
@@ -773,7 +773,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Check each sequence against the hierarchy.", working: "\\text{cell} \\to \\text{tissue} \\to \\text{organ} \\to \\text{system} \\to \\text{organism}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cell → tissue → organ → organ system → organism",
+            finalAnswer: "**(d)** Cell → tissue → organ → organ system → organism",
             commonErrors: ["Choosing (b) or (c) — they place organ before tissue or cell out of order."],
           },
         },

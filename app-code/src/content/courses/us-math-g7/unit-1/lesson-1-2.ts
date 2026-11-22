@@ -66,7 +66,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Convert $15\\%$ to $0.15$ and multiply by the meal cost.", working: "0.15 \\times 40 = 6", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\$6.00$",
+            finalAnswer: "**(a)** $\\$6.00$",
             commonErrors: ["Choosing $\\$46.00$, which is the meal plus tip, not the tip alone.", "Calculating $10\\%$ of $40$ and stopping."],
           },
         },
@@ -193,7 +193,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "$10\\%$" },
               { id: "d", text: "$25\\%$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -202,7 +202,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The change is $50 - 40 = 10$. Divide by the original price $40$.", working: "\\frac{10}{40} \\times 100\\% = 25\\%", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $25\\%$",
+            finalAnswer: "**(d)** $25\\%$",
             commonErrors: ["Dividing by the new price: $\\frac{10}{50} = 20\\%$.", "Giving the dollar change, $10$, as a percent."],
           },
         },

@@ -193,7 +193,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "$6$" },
               { id: "d", text: "$3$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -202,7 +202,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Rise is $8-2=6$ and run is $3-1=2$.", working: "m=\\frac{6}{2}=3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $3$",
+            finalAnswer: "**(d)** $3$",
             commonErrors: ["Inverting the ratio to run over rise, giving $\\frac{1}{3}$.", "Giving only the rise, $6$."],
           },
         },

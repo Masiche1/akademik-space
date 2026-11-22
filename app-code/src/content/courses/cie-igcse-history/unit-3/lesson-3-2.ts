@@ -270,7 +270,7 @@ export const lesson352: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A source created after the events it describes",
+              "**(a)** A source created after the events it describes",
           },
         },
         {
@@ -382,7 +382,7 @@ export const lesson352: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** It is likely biased in favour of the government",
+              "**(c)** It is likely biased in favour of the government",
           },
         },
         {
@@ -555,7 +555,7 @@ export const lesson352: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Reliable means trustworthy; useful means relevant to the question being asked",
+              "**(d)** Reliable means trustworthy; useful means relevant to the question being asked",
           },
         },
         {
@@ -688,7 +688,7 @@ export const lesson352: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Prejudice affecting the source's perspective",
+            finalAnswer: "**(c)** Prejudice affecting the source's perspective",
           },
         },
         {

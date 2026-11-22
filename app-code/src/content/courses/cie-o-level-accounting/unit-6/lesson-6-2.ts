@@ -40,7 +40,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Credit" },
             { id: "d", text: "Neither" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Creditors control", statement: "Purchases = credit." }], steps: [{ reasoning: "Increases liability = credit.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Credit" },
+          markscheme: { principles: [{ kind: "principle", name: "Creditors control", statement: "Purchases = credit." }], steps: [{ reasoning: "Increases liability = credit.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Credit" },
         },
         {
           id: "olacc-u6-cc-q2", difficulty: "core", totalMarks: 2,
@@ -94,7 +94,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Both" },
             { id: "d", text: "Neither" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Creditors control", statement: "Payments reduce liability." }], steps: [{ reasoning: "Payments decrease amounts owed — debit.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Debit" },
+          markscheme: { principles: [{ kind: "principle", name: "Creditors control", statement: "Payments reduce liability." }], steps: [{ reasoning: "Payments decrease amounts owed — debit.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Debit" },
         },
         {
           id: "olacc-u6-cc-q6", difficulty: "core", totalMarks: 2,
@@ -123,7 +123,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Debit" },
             { id: "d", text: "Both" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Creditors control", statement: "Returns reduce liability." }], steps: [{ reasoning: "Goods returned to suppliers decrease debt.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Debit" },
+          markscheme: { principles: [{ kind: "principle", name: "Creditors control", statement: "Returns reduce liability." }], steps: [{ reasoning: "Goods returned to suppliers decrease debt.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Debit" },
         },
         {
           id: "olacc-u6-cc-q9", difficulty: "challenge", totalMarks: 2,
@@ -254,7 +254,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Supplier accounts" },
             { id: "d", text: "Stock valuation" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Cash book control", statement: "Checks cash book." }], steps: [{ reasoning: "Verifies cash/bank balances.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Cash book vs GL" },
+          markscheme: { principles: [{ kind: "definition", name: "Cash book control", statement: "Checks cash book." }], steps: [{ reasoning: "Verifies cash/bank balances.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Cash book vs GL" },
         },
         {
           id: "olacc-u6-cbc-q2", difficulty: "core", totalMarks: 2,
@@ -310,7 +310,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Cash and bank balances" },
             { id: "d", text: "Stock values" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Cash book control", statement: "Checks cash/bank." }], steps: [{ reasoning: "Verifies the cash position.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Cash and bank" },
+          markscheme: { principles: [{ kind: "definition", name: "Cash book control", statement: "Checks cash/bank." }], steps: [{ reasoning: "Verifies the cash position.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Cash and bank" },
         },
         {
           id: "olacc-u6-cbc-q6", difficulty: "core", totalMarks: 2,
@@ -339,7 +339,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "The cash book is kept separately from the general ledger" },
             { id: "d", text: "Customers require it" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "CBC purpose", statement: "Independent check." }], steps: [{ reasoning: "Separate record needs verification.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Kept separately" },
+          markscheme: { principles: [{ kind: "principle", name: "CBC purpose", statement: "Independent check." }], steps: [{ reasoning: "Separate record needs verification.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Kept separately" },
         },
         {
           id: "olacc-u6-cbc-q9", difficulty: "challenge", totalMarks: 2,
@@ -384,7 +384,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "A credit balance" },
             { id: "d", text: "A nil balance" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "CBC balance", statement: "Overdraft effect." }], steps: [{ reasoning: "Overdraft is a liability — credit.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Credit balance" },
+          markscheme: { principles: [{ kind: "principle", name: "CBC balance", statement: "Overdraft effect." }], steps: [{ reasoning: "Overdraft is a liability — credit.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Credit balance" },
         },
         {
           id: "olacc-u6-cbc-q13", difficulty: "challenge", totalMarks: 4,
@@ -415,7 +415,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "The purchases ledger only" },
             { id: "d", text: "The bank statement only" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "CBC", statement: "vs general ledger." }], steps: [{ reasoning: "Control account sits in the GL.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** General ledger" },
+          markscheme: { principles: [{ kind: "definition", name: "CBC", statement: "vs general ledger." }], steps: [{ reasoning: "Control account sits in the GL.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** General ledger" },
         },
         {
           id: "olacc-u6-cbc-q16", difficulty: "challenge", totalMarks: 9,

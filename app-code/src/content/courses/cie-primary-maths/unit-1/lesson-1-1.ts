@@ -67,7 +67,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "24" },
             { id: "c", text: "42" },
             { id: "d", text: "34" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Place value comparison", statement: "Smaller tens digit means smaller number." }],
             steps: [{ reasoning: "24 has 2 tens; all others have 3 or 4 tens.", marks: 1, markCode: "A" }],
@@ -244,7 +244,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "76" },
             { id: "c", text: "79" },
             { id: "d", text: "97" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "technique", name: "Place value comparison", statement: "9 tens is more than 7 tens." }],
             steps: [{ reasoning: "97 has 9 tens, the most of any choice.", marks: 1, markCode: "A" }],

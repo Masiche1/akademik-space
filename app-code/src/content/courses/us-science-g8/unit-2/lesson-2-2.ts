@@ -59,7 +59,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Gamma rays" },
               { id: "d", text: "Infrared" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Gamma rays are at the high-frequency end of the spectrum, beyond X-rays and ultraviolet.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Gamma rays",
+            finalAnswer: "**(c)** Gamma rays",
             commonErrors: ["Choosing radio waves, which have the lowest frequency and longest wavelength.", "Choosing ultraviolet because it is the best-known harmful wave."],
             examinerNote: "B1 for gamma rays.",
           },

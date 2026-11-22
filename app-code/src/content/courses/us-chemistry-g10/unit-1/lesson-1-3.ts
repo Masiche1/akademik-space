@@ -64,7 +64,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Subtract 4 from the mass number and 2 from the atomic number; $Z = 86$ is radon.", working: "226 - 4 = 222,\\quad 88 - 2 = 86", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** ${}^{222}_{86}\\text{Rn}$",
+            finalAnswer: "**(c)** ${}^{222}_{86}\\text{Rn}$",
             commonErrors: ["Choosing (b), which is the product of beta decay.", "Choosing (c), adding instead of subtracting.", "Choosing (d), which changes only the mass number."],
             examinerNote: "B1 for radon-222.",
           },
@@ -199,7 +199,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Fusion means joining nuclei, as in hydrogen forming helium in the Sun.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Two light nuclei combine to form a heavier nucleus.",
+            finalAnswer: "**(c)** Two light nuclei combine to form a heavier nucleus.",
             commonErrors: ["Choosing (a), which describes fission.", "Choosing (c), which describes beta decay."],
             examinerNote: "B1 for (b).",
           },

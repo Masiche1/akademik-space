@@ -228,7 +228,7 @@ export const lesson64: Lesson = {
               { id: "c", text: "Process, act, sense" },
               { id: "d", text: "Store, display, delete" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -237,7 +237,7 @@ export const lesson64: Lesson = {
             steps: [
               { reasoning: "Sensors gather input, the processor decides, then the actuator responds.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** Sense, process, act",
+            finalAnswer: "**(a)** Sense, process, act",
           },
         },
         {
@@ -262,7 +262,7 @@ export const lesson64: Lesson = {
             steps: [
               { reasoning: "Closed-loop systems measure the result and adjust to reach the target.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Uses feedback to self-correct",
+            finalAnswer: "**(c)** Uses feedback to self-correct",
           },
         },
         {
@@ -287,7 +287,7 @@ export const lesson64: Lesson = {
             steps: [
               { reasoning: "A timer runs for a set period without checking whether watering was needed.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Timer-controlled irrigation",
+            finalAnswer: "**(c)** Timer-controlled irrigation",
           },
         },
         {
@@ -312,7 +312,7 @@ export const lesson64: Lesson = {
             steps: [
               { reasoning: "Feedback lets the system compare the result with the target and correct itself.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Output returned as input",
+            finalAnswer: "**(c)** Output returned as input",
           },
         },
         {
@@ -337,7 +337,7 @@ export const lesson64: Lesson = {
             steps: [
               { reasoning: "The thermostat keeps measuring temperature and switching heating to maintain the setpoint.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Senses temperature and self-corrects",
+            finalAnswer: "**(a)** Senses temperature and self-corrects",
           },
         },
         {
@@ -362,7 +362,7 @@ export const lesson64: Lesson = {
             steps: [
               { reasoning: "The sensor detects the car and supplies input to the control processor.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Input that a car is present",
+            finalAnswer: "**(a)** Input that a car is present",
           },
         },
         {

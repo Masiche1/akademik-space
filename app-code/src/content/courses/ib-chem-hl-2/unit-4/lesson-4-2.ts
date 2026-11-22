@@ -120,7 +120,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** pH = 3",
+            finalAnswer: "**(c)** pH = 3",
             commonErrors: [
               "Forgetting strong acids fully ionize — [H$^+$] = concentration.",
             ],
@@ -349,7 +349,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** pH = 12",
+            finalAnswer: "**(c)** pH = 12",
             commonErrors: ["Reporting pOH = 2 as the pH."],
           },
         },
@@ -391,7 +391,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $K_a \\ll c$",
+            finalAnswer: "**(b)** $K_a \\ll c$",
             commonErrors: [
               "Applying the approximation when Ka is comparable to c — the quadratic must be solved.",
             ],
@@ -546,7 +546,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 9.25",
+            finalAnswer: "**(c)** 9.25",
             commonErrors: [
               "Forgetting the sum is 14 — pKa of the conjugate acid is NOT equal to pKb of the base.",
             ],
@@ -863,7 +863,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** ≈ 7",
+            finalAnswer: "**(c)** ≈ 7",
             commonErrors: [
               "Answering pH = 8 — forgetting water autoionisation sets a floor near 7.",
             ],
@@ -954,7 +954,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Above 7",
+            finalAnswer: "**(c)** Above 7",
             commonErrors: [
               "Saying pH = 7 — that's only for strong acid–strong base.",
             ],
@@ -1188,7 +1188,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The steepest part of the curve",
+            finalAnswer: "**(a)** The steepest part of the curve",
             commonErrors: [
               "Assuming equivalence is always at pH 7 — only true for strong acid–strong base.",
             ],
@@ -1208,7 +1208,7 @@ export const lesson42: Lesson = {
               { id: "c", text: "Exactly 7" },
               { id: "d", text: "Equal to pKb" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1232,7 +1232,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Below 7",
+            finalAnswer: "**(a)** Below 7",
             commonErrors: [
               "Confusing with weak acid–strong base, where pH > 7.",
             ],
@@ -1385,7 +1385,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Methyl orange or methyl red",
+            finalAnswer: "**(d)** Methyl orange or methyl red",
             commonErrors: [
               "Choosing phenolphthalein — it changes at pH ~8-10, too basic.",
             ],
@@ -1432,7 +1432,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Before the equivalence point",
+            finalAnswer: "**(c)** Before the equivalence point",
             commonErrors: [
               "Placing the buffer region at equivalence — pH changes fastest there.",
             ],
@@ -1722,7 +1722,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The half-equivalence point",
+            finalAnswer: "**(c)** The half-equivalence point",
             commonErrors: [
               "Choosing the equivalence point — pH changes most rapidly there.",
             ],

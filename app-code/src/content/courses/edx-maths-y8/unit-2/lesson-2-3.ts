@@ -52,7 +52,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "$17$" },
               { id: "d", text: "$18$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -61,7 +61,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The terms increase by 4 each time.", working: "15+4=19", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $19$",
+            finalAnswer: "**(a)** $19$",
             commonErrors: ["Adding 2 or 3 instead of 4."],
           },
         },

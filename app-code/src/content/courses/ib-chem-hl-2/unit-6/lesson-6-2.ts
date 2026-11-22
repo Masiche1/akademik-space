@@ -120,7 +120,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Butan-2-ol",
+            finalAnswer: "**(b)** Butan-2-ol",
             commonErrors: [
               "Choosing butane — no chiral centre (all CH$_3$/CH$_2$ groups identical).",
             ],
@@ -903,7 +903,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** But-2-ene",
+            finalAnswer: "**(b)** But-2-ene",
             commonErrors: [
               "Choosing propene — C1 has two H atoms, cannot have E/Z.",
             ],
@@ -1137,7 +1137,7 @@ export const lesson62: Lesson = {
               },
               { reasoning: "Choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Opposite sides",
+            finalAnswer: "**(c)** Opposite sides",
             commonErrors: [
               "Confusing E and Z — E is opposite (entgegen), Z is together (zusammen).",
             ],
@@ -1181,7 +1181,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Pent-2-ene",
+            finalAnswer: "**(c)** Pent-2-ene",
             commonErrors: [
               "Choosing propene — its terminal carbon has two hydrogen atoms.",
             ],
@@ -1221,7 +1221,7 @@ export const lesson62: Lesson = {
               },
               { reasoning: "Choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Together",
+            finalAnswer: "**(a)** Together",
             commonErrors: ["Choosing opposite — that is 'entgegen' (E)."],
           },
         },
@@ -1259,7 +1259,7 @@ export const lesson62: Lesson = {
               },
               { reasoning: "Choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** –Br",
+            finalAnswer: "**(a)** –Br",
             commonErrors: [
               "Choosing Cl — priority follows atomic number, not alphabetical order.",
             ],
@@ -1304,7 +1304,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Br",
+            finalAnswer: "**(d)** Br",
             commonErrors: [
               "Choosing Cl — forgetting Br has the higher atomic number.",
             ],
@@ -1348,7 +1348,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** E (trans)",
+            finalAnswer: "**(a)** E (trans)",
             commonErrors: [
               "Confusing fumaric with maleic — maleic is the cis/Z isomer.",
             ],

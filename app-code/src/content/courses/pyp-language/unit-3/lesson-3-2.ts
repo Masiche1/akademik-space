@@ -66,7 +66,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recounts keep time order.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The order they happened",
+            finalAnswer: "**(d)** The order they happened",
             commonErrors: ["Choosing 'reverse order' — recounts go forwards in time."],
           },
         },
@@ -93,7 +93,7 @@ export const lesson32: Lesson = {
               { reasoning: "Building the sandcastle is the next event, not the last — 'then' fits.", marks: 1, markCode: "M" },
               { reasoning: "'Finally' would wrongly suggest it is the last event.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Then",
+            finalAnswer: "**(c)** Then",
             commonErrors: ["Choosing 'finally' — that is only for the last event."],
           },
         },
@@ -167,7 +167,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "A narrative is a story with characters and events.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A story — real or made up — with characters and events",
+            finalAnswer: "**(d)** A story — real or made up — with characters and events",
             commonErrors: ["Choosing (a) — a list of facts is a report, not a narrative."],
           },
         },
@@ -203,7 +203,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "First" },
               { id: "d", text: "Finally" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -212,7 +212,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "'Finally' is used for the last event in a recount.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Finally",
+            finalAnswer: "**(d)** Finally",
             commonErrors: ["Choosing 'then' — 'then' is for the next event, not the last."],
           },
         },
@@ -294,7 +294,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "(b) gives when and what really happened; (a) is made up, (c) is instructions, (d) is just an opinion.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'Last Tuesday our school held sports day.'",
+            finalAnswer: "**(c)** 'Last Tuesday our school held sports day.'",
             commonErrors: ["Choosing (a) — 'once upon a time' signals a made-up story, not a recount."],
           },
         },
@@ -358,7 +358,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "A good plan maps the whole story, not just one part.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Characters, setting, a problem and beginning-middle-end",
+            finalAnswer: "**(c)** Characters, setting, a problem and beginning-middle-end",
             commonErrors: ["Choosing (d) — planning only the ending leaves the middle unknown."],
           },
         },
@@ -384,7 +384,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "(b) sets the scene and hints at the puppy problem — a strong narrative opening.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'One rainy afternoon, Mia heard a small whimper outside her door.'",
+            finalAnswer: "**(c)** 'One rainy afternoon, Mia heard a small whimper outside her door.'",
             commonErrors: ["Choosing (a) — that is a recount opening, not a story hook."],
           },
         },
@@ -465,7 +465,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Reports teach facts.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To give true facts about a topic",
+            finalAnswer: "**(d)** To give true facts about a topic",
             commonErrors: ["Choosing (a) — made-up stories are narratives, not reports."],
           },
         },
@@ -492,7 +492,7 @@ export const lesson32: Lesson = {
               { reasoning: "Swimming is a way penguins move, so it goes under 'How penguins move'.", marks: 1, markCode: "M" },
               { reasoning: "The other headings do not match a movement fact.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** How penguins move",
+            finalAnswer: "**(c)** How penguins move",
             commonErrors: ["Choosing 'What penguins eat' — swimming is not about food."],
           },
         },
@@ -566,7 +566,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Reports teach facts — they do not tell stories or give steps.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Give true facts about a topic",
+            finalAnswer: "**(a)** Give true facts about a topic",
             commonErrors: ["Choosing (d) — steps belong to instructions, not reports."],
           },
         },
@@ -611,7 +611,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Where penguins live matches 'cold places' — a place fact.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Where penguins live",
+            finalAnswer: "**(a)** Where penguins live",
             commonErrors: ["Choosing 'what penguins eat' — living place is not about food."],
           },
         },
@@ -757,7 +757,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Reports need true facts, so finding them out comes first.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Find out the facts about the topic",
+            finalAnswer: "**(a)** Find out the facts about the topic",
             commonErrors: ["Choosing (a) — inventing a story is the opposite of a report."],
           },
         },
@@ -783,7 +783,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "(b) gives a true general fact about rainforests; the others are fiction, a diary or instructions.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'Rainforests are warm, wet forests full of plants and animals.'",
+            finalAnswer: "**(a)** 'Rainforests are warm, wet forests full of plants and animals.'",
             commonErrors: ["Choosing (a) — an invented monkey king is fiction, not a report fact."],
           },
         },

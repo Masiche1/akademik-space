@@ -65,7 +65,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall the monomer.", working: "\\text{amino acid}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Amino acid",
+            finalAnswer: "**(c)** Amino acid",
             commonErrors: ["Choosing glucose — that's the monomer of carbohydrates."],
           },
         },
@@ -203,7 +203,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Glucose" },
               { id: "d", text: "Starch" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -213,7 +213,7 @@ export const lesson21: Lesson = {
               { reasoning: "Identify which option has two sugar units.", working: "\\text{2 units}", marks: 1, markCode: "M" },
               { reasoning: "Sucrose = glucose + fructose.", working: "\\text{sucrose}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Sucrose",
+            finalAnswer: "**(a)** Sucrose",
             commonErrors: ["Choosing glucose — that is a monosaccharide."],
           },
         },
@@ -306,7 +306,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall the groups involved.", working: "\\text{-COOH + -NH}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A carboxyl group and an amino group",
+            finalAnswer: "**(c)** A carboxyl group and an amino group",
             commonErrors: ["Choosing two amino groups — the bond needs one of each."],
           },
         },
@@ -370,7 +370,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall the amphipathic structure.", working: "\\text{head + tails}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Phospholipid",
+            finalAnswer: "**(a)** Phospholipid",
             commonErrors: ["Choosing triglyceride — it is entirely hydrophobic."],
           },
         },
@@ -479,7 +479,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall the test.", working: "\\text{iodine}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Iodine solution",
+            finalAnswer: "**(c)** Iodine solution",
             commonErrors: ["Choosing Benedict's — that's for reducing sugars."],
           },
         },
@@ -575,7 +575,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall the colour change.", working: "\\text{blue} \\to \\text{orange/red}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Blue to orange/red precipitate",
+            finalAnswer: "**(d)** Blue to orange/red precipitate",
             commonErrors: ["Choosing blue-black — that is the iodine test for starch."],
           },
         },
@@ -592,7 +592,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Blue-black" },
               { id: "d", text: "Blue" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -601,7 +601,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall the colour change.", working: "\\text{blue} \\to \\text{lilac}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Lilac/violet",
+            finalAnswer: "**(b)** Lilac/violet",
             commonErrors: ["Choosing blue-black — that is the iodine test."],
           },
         },
@@ -628,7 +628,7 @@ export const lesson21: Lesson = {
               { reasoning: "Recall the procedure result.", working: "\\text{ethanol + water}", marks: 1, markCode: "M" },
               { reasoning: "State the positive result.", working: "\\text{cloudy white}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A cloudy white emulsion forms after adding water",
+            finalAnswer: "**(a)** A cloudy white emulsion forms after adding water",
             commonErrors: ["Forgetting the water step — the emulsion only appears after water is added."],
           },
         },
@@ -785,7 +785,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Recall the test.", working: "\\text{iodine}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Iodine solution",
+            finalAnswer: "**(d)** Iodine solution",
             commonErrors: ["Choosing Benedict's — that detects reducing sugars."],
           },
         },

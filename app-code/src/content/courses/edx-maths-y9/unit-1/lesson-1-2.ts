@@ -179,14 +179,14 @@ export const lesson12: Lesson = {
               { id: "c", text: "$6 \\le l < 8$" },
               { id: "d", text: "$6.9 \\le l < 7.1$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Error interval", statement: "$\\text{lower bound} \\le x < \\text{upper bound}$, using half the rounding unit." }],
             steps: [
               { reasoning: "The rounding unit is 1 cm so half is 0.5. The lower bound is included and the upper bound is not.", working: "6.5 \\le l < 7.5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $6.5 \\le l < 7.5$",
+            finalAnswer: "**(b)** $6.5 \\le l < 7.5$",
             commonErrors: ["Using the whole unit instead of half, as in (a).", "Including the upper bound, as in (b).", "Using the wrong rounding unit, as in (d)."],
           },
         },

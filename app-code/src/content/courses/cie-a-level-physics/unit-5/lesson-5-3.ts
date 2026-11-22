@@ -142,7 +142,7 @@ export const lesson513: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Capacitance factors", statement: "$C = \\varepsilon_0 A/d$; dielectric increases $\\varepsilon_r$." }],
             steps: [{ reasoning: "Dielectric raises permittivity → larger C.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** inserting a dielectric",
+            finalAnswer: "**(a)** inserting a dielectric",
           },
         },
         {
@@ -182,7 +182,7 @@ export const lesson513: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Charging curve", statement: "$Q = Q_0(1 - e^{-t/RC})$ — exponential approach to final value." }],
             steps: [{ reasoning: "Exponential rise, steepest at t = 0, levels off at $Q_0$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** exponential rise levelling off",
+            finalAnswer: "**(c)** exponential rise levelling off",
           },
         },
         {
@@ -279,7 +279,7 @@ export const lesson513: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Charging", statement: "After $\\tau$: 63%; after $5\\tau$: $\\approx 99\\%$." }],
             steps: [{ reasoning: "$1 - e^{-5} \\approx 0.993$ → ~99% charged.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** 99% charged",
+            finalAnswer: "**(a)** 99% charged",
           },
         },
         {
@@ -336,7 +336,7 @@ export const lesson513: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Capacitor energy", statement: "$E = \\frac12 CV^2 = \\frac12 QV = Q^2/2C$." }],
             steps: [{ reasoning: "$E = \\frac12 CV^2$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** $E = \\frac{1}{2}CV^2$",
+            finalAnswer: "**(c)** $E = \\frac{1}{2}CV^2$",
           },
         },
         {
@@ -490,7 +490,7 @@ export const lesson513: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "RMS", statement: "RMS = equivalent DC value giving same average power." }],
             steps: [{ reasoning: "RMS is defined by equal power dissipation.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** equivalent d.c. power value",
+            finalAnswer: "**(c)** equivalent d.c. power value",
           },
         },
         {
@@ -525,12 +525,12 @@ export const lesson513: Lesson = {
               { id: "c", text: "lags the voltage by $90°$" },
               { id: "d", text: "leads the voltage by $90°$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Capacitor phase", statement: "In a pure capacitive circuit current leads voltage by 90°." }],
             steps: [{ reasoning: "Current leads voltage by 90° for a capacitor.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** leads the voltage by $90°$",
+            finalAnswer: "**(d)** leads the voltage by $90°$",
           },
         },
         {
@@ -582,12 +582,12 @@ export const lesson513: Lesson = {
               { id: "c", text: "$230\\ V$" },
               { id: "d", text: "$110\\ V$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Mains supply", statement: "UK mains: $230\\ V$ rms, 50 Hz → peak $\\approx 325\\ V$." }],
             steps: [{ reasoning: "$V_0 = \\sqrt{2} \\times 230 \\approx 325\\ V$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** $325\\ V$",
+            finalAnswer: "**(b)** $325\\ V$",
           },
         },
         {
@@ -627,7 +627,7 @@ export const lesson513: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Inductor phase", statement: "In a pure inductive circuit current lags voltage by 90°." }],
             steps: [{ reasoning: "Inductor opposes change in current → current lags by 90°.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** lags the voltage by $90°$",
+            finalAnswer: "**(c)** lags the voltage by $90°$",
           },
         },
         {
@@ -679,12 +679,12 @@ export const lesson513: Lesson = {
               { id: "c", text: "$115\\ V$" },
               { id: "d", text: "$325\\ V$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "RMS", statement: "$V_0 = \\sqrt{2}\\,V_{rms}$." }],
             steps: [{ reasoning: "$V_0 = 1.414 \\times 230 \\approx 325\\ V$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** $325\\ V$",
+            finalAnswer: "**(d)** $325\\ V$",
           },
         },
         {

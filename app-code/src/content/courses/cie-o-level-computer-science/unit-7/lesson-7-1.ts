@@ -44,7 +44,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "Speeding up a computer" },
             { id: "d", text: "Breaking a problem into smaller parts" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Decomposition", statement: "Split into sub-problems." }], steps: [{ reasoning: "Decompose = break down.", working: "\\text{break down}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Breaking into parts" },
+          markscheme: { principles: [{ kind: "definition", name: "Decomposition", statement: "Split into sub-problems." }], steps: [{ reasoning: "Decompose = break down.", working: "\\text{break down}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Breaking into parts" },
         },
         {
           id: "olcs-u7-dc-q2", difficulty: "core", totalMarks: 2,
@@ -99,7 +99,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "Identify the main task" },
             { id: "d", text: "Test the program" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Decomposition", statement: "Start with the main task." }], steps: [{ reasoning: "First identify the overall task.", working: "\\text{main task}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Identify the main task" },
+          markscheme: { principles: [{ kind: "definition", name: "Decomposition", statement: "Start with the main task." }], steps: [{ reasoning: "First identify the overall task.", working: "\\text{main task}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Identify the main task" },
         },
         {
           id: "olcs-u7-dc-q6", difficulty: "core", totalMarks: 2,
@@ -127,8 +127,8 @@ export const lesson71: Lesson = {
             { id: "b", text: "Random guessing" },
             { id: "c", text: "Structured English" },
             { id: "d", text: "Pseudocode" },
-          ], borrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Algorithm forms", statement: "Pseudocode, flowchart, structured English." }], steps: [{ reasoning: "Random guessing is not an algorithm.", working: "\\text{guessing}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Random guessing" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "definition", name: "Algorithm forms", statement: "Pseudocode, flowchart, structured English." }], steps: [{ reasoning: "Random guessing is not an algorithm.", working: "\\text{guessing}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Random guessing" },
         },
         {
           id: "olcs-u7-dc-q9", difficulty: "foundation", totalMarks: 1,
@@ -156,7 +156,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "Smaller sub-problems are easier to solve and test" },
             { id: "d", text: "It removes the need for testing" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Decomposition benefit", statement: "Smaller problems are manageable." }], steps: [{ reasoning: "Sub-problems are simpler to handle.", working: "\\text{simpler}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Easier to solve and test" },
+          markscheme: { principles: [{ kind: "principle", name: "Decomposition benefit", statement: "Smaller problems are manageable." }], steps: [{ reasoning: "Sub-problems are simpler to handle.", working: "\\text{simpler}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Easier to solve and test" },
         },
         {
           id: "olcs-u7-dc-q12", difficulty: "core", totalMarks: 2,
@@ -187,7 +187,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "It must run forever" },
             { id: "d", text: "It must terminate" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Algorithm", statement: "Finite — must terminate." }], steps: [{ reasoning: "Algorithms are finite and must end.", working: "\\text{terminate}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** It must terminate" },
+          markscheme: { principles: [{ kind: "definition", name: "Algorithm", statement: "Finite — must terminate." }], steps: [{ reasoning: "Algorithms are finite and must end.", working: "\\text{terminate}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** It must terminate" },
         },
         {
           id: "olcs-u7-dc-q15", difficulty: "foundation", totalMarks: 1,
@@ -236,7 +236,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "Testing" },
             { id: "d", text: "Maintenance" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "PDLC order", statement: "Analysis first." }], steps: [{ reasoning: "Analysis comes first.", working: "\\text{analysis}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Analysis" },
+          markscheme: { principles: [{ kind: "definition", name: "PDLC order", statement: "Analysis first." }], steps: [{ reasoning: "Analysis comes first.", working: "\\text{analysis}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Analysis" },
         },
         {
           id: "olcs-u7-pdlc-q2", difficulty: "core", totalMarks: 2,
@@ -317,7 +317,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "Testing" },
             { id: "d", text: "Analysis" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Testing", statement: "Catches bugs before release." }], steps: [{ reasoning: "Testing finds errors early.", working: "\\text{testing}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Testing" },
+          markscheme: { principles: [{ kind: "principle", name: "Testing", statement: "Catches bugs before release." }], steps: [{ reasoning: "Testing finds errors early.", working: "\\text{testing}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Testing" },
         },
         {
           id: "olcs-u7-pdlc-q9", difficulty: "core", totalMarks: 1,
@@ -345,7 +345,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "Fixing bugs and updating after release" },
             { id: "d", text: "Buying hardware" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Maintenance", statement: "Fix/update after release." }], steps: [{ reasoning: "Maintenance happens post-release.", working: "\\text{post-release}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Fixing bugs and updating" },
+          markscheme: { principles: [{ kind: "definition", name: "Maintenance", statement: "Fix/update after release." }], steps: [{ reasoning: "Maintenance happens post-release.", working: "\\text{post-release}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Fixing bugs and updating" },
         },
         {
           id: "olcs-u7-pdlc-q12", difficulty: "core", totalMarks: 1,

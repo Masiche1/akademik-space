@@ -72,7 +72,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "Any angle" },
               { id: "d", text: "At eye level" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -85,7 +85,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Eye level reading.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** At eye level",
+            finalAnswer: "**(d)** At eye level",
             commonErrors: ["Parallax error."],
           },
         },
@@ -289,7 +289,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Potassium = lilac.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Lilac",
+            finalAnswer: "**(d)** Lilac",
             commonErrors: ["Sodium confused — yellow."],
           },
         },

@@ -60,7 +60,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Counting the words" },
               { id: "d", text: "Deciding who the characters are and where it happens" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -69,7 +69,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): you need to know who and where before you can plan what happens — (c).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Deciding who the characters are and where it happens",
+            finalAnswer: "**(d)** Deciding who the characters are and where it happens",
           },
         },
         {
@@ -191,7 +191,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Narrator", statement: "First person uses 'I' and 'me'." }],
             steps: [{ reasoning: "Criterion B (Organizing): first person = 'I'/'me' — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 'I' and 'me'",
+            finalAnswer: "**(d)** 'I' and 'me'",
           },
         },
         {
@@ -263,7 +263,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Narrator consistency", statement: "Stay with one narrator throughout the story." }],
             steps: [{ reasoning: "Criterion B (Organizing): switching between 'I' and 'he/she' mid-story confuses readers — (a).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Because mixing narrators confuses the reader",
+            finalAnswer: "**(c)** Because mixing narrators confuses the reader",
           },
         },
         {
@@ -322,7 +322,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Story planning", statement: "A plan keeps the story organized before writing." }],
             steps: [{ reasoning: "Criterion B (Organizing): a plan organizes ideas — characters, setting, problem, ending — before writing, (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Organize your ideas before writing",
+            finalAnswer: "**(a)** Organize your ideas before writing",
           },
         },
         {
@@ -420,7 +420,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion C (Producing text): a draft is the first version you improve later — (b).", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** A first version you can improve",
+            finalAnswer: "**(d)** A first version you can improve",
           },
         },
         {
@@ -501,7 +501,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Writing process", statement: "Plan before you write." }],
             steps: [{ reasoning: "Criterion B (Organizing): planning comes first — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Make a plan of characters, setting, problem and ending",
+            finalAnswer: "**(a)** Make a plan of characters, setting, problem and ending",
           },
         },
         {
@@ -543,7 +543,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Show don't tell", statement: "Actions show feelings; naming them only tells." }],
             steps: [{ reasoning: "Criterion C (Producing text): 'hands shook' and 'checking the door' show nervousness through action — (b).", marks: 1, markCode: "C" }],
-            finalAnswer: "**(b)** Tom's hands shook and he kept checking the door.",
+            finalAnswer: "**(c)** Tom's hands shook and he kept checking the door.",
           },
         },
         {
@@ -680,7 +680,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Paragraphs", statement: "Paragraphs separate different moments or ideas in a story." }],
             steps: [{ reasoning: "Criterion B (Organizing): a paragraph groups related sentences — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A group of sentences about one moment or idea",
+            finalAnswer: "**(a)** A group of sentences about one moment or idea",
           },
         },
         {
@@ -696,12 +696,12 @@ export const lesson31: Lesson = {
               { id: "c", text: "I saw a bird in the tree." },
               { id: "d", text: "My name is Tom and I am ten years old." },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Story opening", statement: "An engaging opening creates curiosity or tension." }],
             steps: [{ reasoning: "Criterion C (Producing text): (c) creates mystery and suspense — the door opens by itself and the room is impossible.", marks: 1, markCode: "C" }],
-            finalAnswer: "**(c)** The door opened before she touched it — and inside was a room that was not on any map.",
+            finalAnswer: "**(b)** The door opened before she touched it — and inside was a room that was not on any map.",
           },
         },
         {

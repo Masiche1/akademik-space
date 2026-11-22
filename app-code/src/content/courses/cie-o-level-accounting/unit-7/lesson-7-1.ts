@@ -43,7 +43,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "Direct debits" },
             { id: "d", text: "Cheques paid but not yet on bank statement" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Unpresented cheques", statement: "Timing difference." }], steps: [{ reasoning: "Paid in CB, not yet on statement.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Unpresented cheques", statement: "Timing difference." }], steps: [{ reasoning: "Paid in CB, not yet on statement.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olacc-u7-br-q2", difficulty: "core", totalMarks: 2,
@@ -99,7 +99,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "No adjustment is needed" },
             { id: "d", text: "Add the amount" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Uncredited deposits", statement: "In cash book, not yet on statement — add to bank statement balance." }], steps: [{ reasoning: "Deposits not yet credited by the bank are added.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Add the amount" },
+          markscheme: { principles: [{ kind: "definition", name: "Uncredited deposits", statement: "In cash book, not yet on statement — add to bank statement balance." }], steps: [{ reasoning: "Deposits not yet credited by the bank are added.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Add the amount" },
         },
         {
           id: "olacc-u7-br-q6", difficulty: "core", totalMarks: 2,
@@ -137,7 +137,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "The bank statement" },
             { id: "d", text: "The sales day book" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Bank charges", statement: "Deducted by the bank — appear on the bank statement first." }], steps: [{ reasoning: "Bank deducts charges, shown on statement.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** The bank statement" },
+          markscheme: { principles: [{ kind: "definition", name: "Bank charges", statement: "Deducted by the bank — appear on the bank statement first." }], steps: [{ reasoning: "Bank deducts charges, shown on statement.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** The bank statement" },
         },
         {
           id: "olacc-u7-br-q10", difficulty: "core", totalMarks: 3,
@@ -255,7 +255,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "An error" },
             { id: "d", text: "A timing item" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Remaining diff", statement: "= error." }], steps: [{ reasoning: "Only errors remain.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** An error" },
+          markscheme: { principles: [{ kind: "principle", name: "Remaining diff", statement: "= error." }], steps: [{ reasoning: "Only errors remain.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** An error" },
         },
         {
           id: "olacc-u7-be-q2", difficulty: "core", totalMarks: 2,
@@ -350,7 +350,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "Notifying the bank" },
             { id: "d", text: "Amending the cash book only" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Bank errors", statement: "Reported to the bank for correction." }], steps: [{ reasoning: "Bank corrects its own records.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Notifying the bank" },
+          markscheme: { principles: [{ kind: "principle", name: "Bank errors", statement: "Reported to the bank for correction." }], steps: [{ reasoning: "Bank corrects its own records.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Notifying the bank" },
         },
         {
           id: "olacc-u7-be-q10", difficulty: "core", totalMarks: 3,
@@ -392,7 +392,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "Nothing" },
             { id: "d", text: "The same amount only" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Wrong side", statement: "Reverses the effect." }], steps: [{ reasoning: "$400 payment as receipt: +400 instead of -400 → error of $800.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Twice the amount" },
+          markscheme: { principles: [{ kind: "principle", name: "Wrong side", statement: "Reverses the effect." }], steps: [{ reasoning: "$400 payment as receipt: +400 instead of -400 → error of $800.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Twice the amount" },
         },
         {
           id: "olacc-u7-be-q14", difficulty: "challenge", totalMarks: 4,

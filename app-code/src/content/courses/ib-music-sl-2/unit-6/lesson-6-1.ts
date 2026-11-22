@@ -70,7 +70,7 @@ export const lesson61: Lesson = {
               { reasoning: "A musical portfolio documents growth across performance, composition and analysis.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Musical growth across performance, composition and analysis",
+            finalAnswer: "**(d)** Musical growth across performance, composition and analysis",
             commonErrors: [
               "Showing only polished final products without growth evidence.",
             ],
@@ -171,7 +171,7 @@ export const lesson61: Lesson = {
               { reasoning: "Clear labels include date, piece and context.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Date, piece and performance context",
+            finalAnswer: "**(a)** Date, piece and performance context",
             commonErrors: [
               "Leaving recordings unlabelled so growth cannot be verified.",
             ],
@@ -200,7 +200,7 @@ export const lesson61: Lesson = {
               { reasoning: "Paired recordings make improvement directly audible.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Audible musical growth over time",
+            finalAnswer: "**(d)** Audible musical growth over time",
             commonErrors: [
               "Presenting only the best recording without development context.",
             ],
@@ -229,7 +229,7 @@ export const lesson61: Lesson = {
               { reasoning: "Composition evidence combines scores, recordings and explanatory notes.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Scores, recordings and programme notes explaining intent",
+            finalAnswer: "**(d)** Scores, recordings and programme notes explaining intent",
             commonErrors: [
               "Submitting scores without recordings or context.",
             ],
@@ -258,7 +258,7 @@ export const lesson61: Lesson = {
               { reasoning: "Failures analysed honestly demonstrate learning.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Demonstrate learning from mistakes",
+            finalAnswer: "**(a)** Demonstrate learning from mistakes",
             commonErrors: [
               "Hiding failures or presenting only successes.",
             ],
@@ -287,7 +287,7 @@ export const lesson61: Lesson = {
               { reasoning: "Video records visual elements such as stage presence.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Video recordings",
+            finalAnswer: "**(d)** Video recordings",
             commonErrors: [
               "Using only audio when visual performance matters.",
             ],
@@ -345,7 +345,7 @@ export const lesson61: Lesson = {
               { reasoning: "Range means variety across genres, styles or periods.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Works across different genres, styles or periods",
+            finalAnswer: "**(c)** Works across different genres, styles or periods",
             commonErrors: [
               "Confusing range with quantity of similar material.",
             ],
@@ -374,7 +374,7 @@ export const lesson61: Lesson = {
               { reasoning: "Dated sequences with reflection provide verifiable growth evidence.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A sequence of recordings with dated reflections showing progress",
+            finalAnswer: "**(d)** A sequence of recordings with dated reflections showing progress",
             commonErrors: [
               "Relying on claims or single performances instead of documented sequences.",
             ],
@@ -623,7 +623,7 @@ export const lesson61: Lesson = {
               { reasoning: "Portfolio selection should show range and growth, not include everything.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Showing range and growth in musical development",
+            finalAnswer: "**(d)** Showing range and growth in musical development",
             commonErrors: [
               "Including everything rather than curating selectively.",
             ],
@@ -753,7 +753,7 @@ export const lesson61: Lesson = {
               { reasoning: "Chronological order makes development visible.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Makes musical development visible over time",
+            finalAnswer: "**(c)** Makes musical development visible over time",
             commonErrors: [
               "Thinking chronological order hides weaknesses rather than showing journey.",
             ],
@@ -782,7 +782,7 @@ export const lesson61: Lesson = {
               { reasoning: "A performance log records performances, repertoire and experiences.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Performances given, repertoire played and experiences gained",
+            finalAnswer: "**(c)** Performances given, repertoire played and experiences gained",
             commonErrors: [
               "Recording only dates without repertoire or reflection.",
             ],
@@ -811,7 +811,7 @@ export const lesson61: Lesson = {
               { reasoning: "Written components provide context and show thinking.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Providing context and showing critical thinking",
+            finalAnswer: "**(d)** Providing context and showing critical thinking",
             commonErrors: [
               "Treating written components as filler rather than evidence.",
             ],
@@ -840,7 +840,7 @@ export const lesson61: Lesson = {
               { reasoning: "Clear labels include date, title and context.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Clearly labelled with date, title and context",
+            finalAnswer: "**(c)** Clearly labelled with date, title and context",
             commonErrors: [
               "Leaving items unlabelled so context is lost.",
             ],
@@ -869,7 +869,7 @@ export const lesson61: Lesson = {
               { reasoning: "Categorical grouping shows range within each domain.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** The portfolio must show range within each domain",
+            finalAnswer: "**(c)** The portfolio must show range within each domain",
             commonErrors: [
               "Mixing categories so range cannot be assessed.",
             ],
@@ -898,7 +898,7 @@ export const lesson61: Lesson = {
               { reasoning: "A repertoire list documents pieces performed or studied.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Pieces performed or studied",
+            finalAnswer: "**(a)** Pieces performed or studied",
             commonErrors: [
               "Listing pieces without dates or context.",
             ],
@@ -927,7 +927,7 @@ export const lesson61: Lesson = {
               { reasoning: "Digital portfolios support video, audio and interactive elements.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Include video, audio and interactive elements accessibly",
+            finalAnswer: "**(c)** Include video, audio and interactive elements accessibly",
             commonErrors: [
               "Assuming format alone determines assessment quality.",
             ],

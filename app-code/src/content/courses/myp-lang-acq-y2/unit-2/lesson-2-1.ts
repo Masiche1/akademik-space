@@ -166,7 +166,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'like playing' is the correct pattern.", working: "I like playing football.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I like playing football.",
+            finalAnswer: "**(a)** I like playing football.",
             commonErrors: ["'I like play' — missing -ing."],
             examinerNote: "D1 for (b).",
           },
@@ -193,7 +193,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — correct question form and question mark.", working: "What's the weather like today?", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** What's the weather like today?",
+            finalAnswer: "**(d)** What's the weather like today?",
             commonErrors: ["Calquing other languages' question order."],
             examinerNote: "D1 for (b).",
           },
@@ -220,7 +220,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'will rain' predicts tomorrow's weather.", working: "prediction", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** A prediction about tomorrow's weather",
+            finalAnswer: "**(d)** A prediction about tomorrow's weather",
             commonErrors: ["Thinking 'will' describes the present."],
             examinerNote: "C1 for (b).",
           },
@@ -353,7 +353,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'because it is fun' is a complete clause.", working: "because it is fun", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** I like swimming because it is fun.",
+            finalAnswer: "**(c)** I like swimming because it is fun.",
             commonErrors: ["'because fun' — missing subject and verb."],
             examinerNote: "D1 for (a).",
           },
@@ -630,7 +630,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'am never late' has correct position.", working: "I am never late.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I am never late.",
+            finalAnswer: "**(c)** I am never late.",
             commonErrors: ["Putting 'never' before 'am'."],
             examinerNote: "D1 for (b).",
           },
@@ -657,7 +657,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — daily regular activities = routine.", working: "a routine", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A routine",
+            finalAnswer: "**(a)** A routine",
             commonErrors: ["Choosing 'holiday' — that is occasional, not daily."],
             examinerNote: "B1 for (b).",
           },
@@ -684,7 +684,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'after school' matches the meaning.", working: "after school", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** after school",
+            finalAnswer: "**(d)** after school",
             commonErrors: ["Choosing 'at night' — that is later in the evening."],
             examinerNote: "D1 for (b).",
           },
@@ -817,7 +817,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — do + subject + base verb order is correct.", working: "What time do you get up?", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** What time do you get up?",
+            finalAnswer: "**(c)** What time do you get up?",
             commonErrors: ["Missing 'do' or wrong word order."],
             examinerNote: "D1 for (b).",
           },
@@ -875,7 +875,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'always walk' is correct order.", working: "I always walk", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I always walk to school.",
+            finalAnswer: "**(d)** I always walk to school.",
             commonErrors: ["Putting 'always' at the end."],
             examinerNote: "D1 for (b).",
           },

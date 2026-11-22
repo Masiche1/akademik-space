@@ -65,7 +65,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "'Finally' marks the end of a sequence.", working: "\\text{'finally'}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Finally",
+            finalAnswer: "**(a)** Finally",
             commonErrors: ["Choosing 'however' — that signals contrast, not sequence."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson51: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Cause-effect connectives", statement: "'Therefore' and 'as a result' signal that one event causes the next." }],
             steps: [{ reasoning: "'Therefore' marks a result — cause-effect, not contrast or time.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Therefore",
+            finalAnswer: "**(c)** Therefore",
             commonErrors: ["Choosing 'however' — that signals contrast."],
           },
         },
@@ -328,12 +328,12 @@ export const lesson51: Lesson = {
               { id: "c", text: "Sunlight" },
               { id: "d", text: "Oxygen" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Technical vocabulary", statement: "Technical terms name things exactly — 'carbon dioxide' not 'air'." }],
             steps: [{ reasoning: "Plants absorb carbon dioxide specifically; 'air' is a mixture and 'oxygen' is released, not absorbed.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(c)** Carbon dioxide",
+            finalAnswer: "**(a)** Carbon dioxide",
             commonErrors: ["Choosing 'air' — it contains many gases; precision requires the specific gas."],
           },
         },
@@ -447,7 +447,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "(b) is specific, formal, and states subject + type.", working: "\\text{specific/ formal}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** School Trip to the Science Museum: Report",
+            finalAnswer: "**(a)** School Trip to the Science Museum: Report",
             commonErrors: ["Choosing (a) — too informal and vague for a report."],
           },
         },
@@ -548,7 +548,7 @@ export const lesson51: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Headings", statement: "Headings and subheadings organise content and guide the reader." }],
             steps: [{ reasoning: "Headings divide the text into clear sections the reader can scan.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Headings and subheadings",
+            finalAnswer: "**(a)** Headings and subheadings",
             commonErrors: ["Choosing (a) — a single paragraph gives the reader no navigation."],
           },
         },
@@ -608,7 +608,7 @@ export const lesson51: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Information tone", statement: "Information texts use formal, precise, objective language." }],
             steps: [{ reasoning: "Reports inform; objectivity and precision serve that purpose.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Formal, precise and objective",
+            finalAnswer: "**(a)** Formal, precise and objective",
             commonErrors: ["Choosing (a) — informality undermines report credibility."],
           },
         },
@@ -659,7 +659,7 @@ export const lesson51: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Report conclusion", statement: "Conclusions summarise key findings and may offer recommendations." }],
             steps: [{ reasoning: "(b) summarises a finding and draws a recommendation — the function of a conclusion.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** The survey found that 70% of students support longer lunch breaks, suggesting the school should trial them.",
+            finalAnswer: "**(c)** The survey found that 70% of students support longer lunch breaks, suggesting the school should trial them.",
             commonErrors: ["Choosing a body detail like (c) — conclusions synthesise, not add new facts."],
           },
         },

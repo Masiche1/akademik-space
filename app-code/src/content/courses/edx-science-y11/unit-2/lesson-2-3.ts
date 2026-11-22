@@ -287,7 +287,7 @@ export const lesson23: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Combustion",
+            finalAnswer: "**(d)** Combustion",
             commonErrors: ["Photosynthesis confused — endothermic."],
           },
         },

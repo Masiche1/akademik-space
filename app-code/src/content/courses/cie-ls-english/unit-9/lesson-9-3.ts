@@ -65,7 +65,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Register = level of formality appropriate to context.", working: "\\text{formality}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Adjusting language to suit audience, purpose and channel",
+            finalAnswer: "**(d)** Adjusting language to suit audience, purpose and channel",
             commonErrors: ["Choosing (a) — the opposite of register matching."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Paraphrasing keeps the meaning but changes the wording.", working: "\\text{own words}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Restating an idea in your own words",
+            finalAnswer: "**(c)** Restating an idea in your own words",
             commonErrors: ["Choosing (a) — copying is the opposite of paraphrasing."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Context changes the register — informal for email, formal for report.", working: "\\text{register}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** The register — level of formality",
+            finalAnswer: "**(d)** The register — level of formality",
             commonErrors: ["Choosing (d) — identical wording fails to adapt to context."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Source use means referencing and building on given material.", working: "\\text{reference}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Incorporating information from texts or speakers into your response",
+            finalAnswer: "**(d)** Incorporating information from texts or speakers into your response",
             commonErrors: ["Choosing (d) — integrated tasks require using the source."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Evaluation adds your own judgement to the source material.", working: "\\text{judge}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Agreeing, disagreeing or extending with reasons",
+            finalAnswer: "**(d)** Agreeing, disagreeing or extending with reasons",
             commonErrors: ["Choosing (a) — summarising is not evaluating."],
           },
         },
@@ -274,7 +274,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Precise attribution shows accurate listening/reading and analytical awareness.", working: "\\text{attribute}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** It attributes the claim precisely to the speaker and frames it as an argument",
+            finalAnswer: "**(a)** It attributes the claim precisely to the speaker and frames it as an argument",
             commonErrors: ["Choosing (d) — attribution quality matters in assessment."],
           },
         },
@@ -479,7 +479,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Analyse = examine components and how they work together.", working: "\\text{break down}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Break down and examine how/why",
+            finalAnswer: "**(c)** Break down and examine how/why",
             commonErrors: ["Choosing (a) — 'describe' is different from 'analyse'."],
           },
         },
@@ -584,7 +584,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Evaluate demands judgement, not just description or listing.", working: "\\text{judge}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Judge effectiveness or value using criteria and evidence",
+            finalAnswer: "**(a)** Judge effectiveness or value using criteria and evidence",
             commonErrors: ["Choosing (a) — 'describe' is a different command word."],
           },
         },
@@ -610,7 +610,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Key words reveal what the question demands.", working: "\\text{keywords}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** The command words and key content words",
+            finalAnswer: "**(d)** The command words and key content words",
             commonErrors: ["Choosing (d) — skipping analysis leads to answering the wrong question."],
           },
         },
@@ -636,7 +636,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Brief planning (around 2 minutes) is the recommended balance.", working: "\\text{2 min}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** About 2 minutes",
+            finalAnswer: "**(c)** About 2 minutes",
             commonErrors: ["Choosing (a) — unplanned answers ramble and miss parts."],
           },
         },
@@ -662,7 +662,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Checking catches avoidable errors and missed question parts.", working: "\\text{review}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** To catch spelling, punctuation and unanswered parts",
+            finalAnswer: "**(a)** To catch spelling, punctuation and unanswered parts",
             commonErrors: ["Choosing (d) — checking reliably improves marks."],
           },
         },
@@ -688,7 +688,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Compare covers both likeness and difference.", working: "\\text{similar + different}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Give similarities AND differences",
+            finalAnswer: "**(a)** Give similarities AND differences",
             commonErrors: ["Choosing (a) — similarities alone is incomplete."],
           },
         },

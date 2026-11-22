@@ -225,7 +225,7 @@ export const lesson211: Lesson = {
             { id: "b", text: "Grass" },
             { id: "c", text: "A grasshopper" },
             { id: "d", text: "An eagle" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Top predator", statement: "Last in chain, eats others." }],
             steps: [{ reasoning: "The eagle is the top predator.", marks: 1, markCode: "A" }],

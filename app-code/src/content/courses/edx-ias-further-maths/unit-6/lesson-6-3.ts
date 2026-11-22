@@ -183,7 +183,7 @@ export const lesson63: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "String", statement: "Tension uniform in light inextensible string." }],
             steps: [{ reasoning: "Standard.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** same tension",
+            finalAnswer: "**(c)** same tension",
           },
         },
         {

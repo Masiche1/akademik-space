@@ -117,7 +117,7 @@ export const lesson102: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Newton-Raphson", statement: "Needs f and f′." }],
             steps: [{ reasoning: "The formula $x_{n+1} = x_n - \\frac{f(x_n)}{f'(x_n)}$ requires both values.", marks: 1, markCode: "M" }],
-            finalAnswer: "**(a)** Both $f(x_n)$ and $f'(x_n)$",
+            finalAnswer: "**(c)** Both $f(x_n)$ and $f'(x_n)$",
           },
         },
         {
@@ -151,7 +151,7 @@ export const lesson102: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Newton-Raphson", statement: "x₁ = x₀ − f/f′." }],
             steps: [{ reasoning: "$x_1 = 2 - \\frac{-1}{10} = 2.1$.", marks: 1, markCode: "M" }],
-            finalAnswer: "**(a)** $x_1 = 2.1$",
+            finalAnswer: "**(d)** $x_1 = 2.1$",
           },
         },
         {
@@ -204,7 +204,7 @@ export const lesson102: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Trapezium rule", statement: "h/2[endpoints once, interior twice]." }],
             steps: [{ reasoning: "Endpoints counted once, interior ordinates counted twice, all scaled by h/2.", marks: 1, markCode: "M" }],
-            finalAnswer: "**(a)** $\\frac{h}{2}[y_0 + y_n + 2\\sum y_i]$",
+            finalAnswer: "**(b)** $\\frac{h}{2}[y_0 + y_n + 2\\sum y_i]$",
           },
         },
         {
@@ -242,7 +242,7 @@ export const lesson102: Lesson = {
               { reasoning: "Division by $f'(x_n)=0$ is undefined, so $x_{n+1}$ cannot be computed.", marks: 1, markCode: "M" },
               { reasoning: "Near a stationary point the tangent is horizontal, so the iterate can jump far away or stall.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $f'(x_n)=0$ makes the step undefined",
+            finalAnswer: "**(b)** $f'(x_n)=0$ makes the step undefined",
           },
         },
         {
@@ -296,7 +296,7 @@ export const lesson102: Lesson = {
               { reasoning: "$h = \\frac{b-a}{n}$ shrinks as n grows, refining the approximation.", marks: 1, markCode: "M" },
               { reasoning: "More strips ⇒ the estimate approaches the true integral.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** More strips ⇒ more accurate",
+            finalAnswer: "**(d)** More strips ⇒ more accurate",
           },
         },
         {

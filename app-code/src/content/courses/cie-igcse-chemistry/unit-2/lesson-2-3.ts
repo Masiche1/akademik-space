@@ -57,7 +57,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Metallic bond", statement: "Ions attracted to delocalised electrons." }],
             steps: [{ reasoning: "Recall.", working: "\\text{ions + e}^- \\text{ sea}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Positive ions attracted to delocalised electrons",
+            finalAnswer: "**(a)** Positive ions attracted to delocalised electrons",
             commonErrors: ["Describing metallic as covalent sharing."],
           },
         },
@@ -137,7 +137,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Delocalised electrons", statement: "Outer electrons are not tied to one ion and move through the structure." }],
             steps: [{ reasoning: "Recall the electron-sea model.", working: "e^- \\text{ delocalised}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Electrons free to move through the metal",
+            finalAnswer: "**(d)** Electrons free to move through the metal",
             commonErrors: ["Describing them as shared pairs between two atoms."],
           },
         },
@@ -190,7 +190,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Metallic properties", statement: "Mobile electrons carry charge and energy." }],
             steps: [{ reasoning: "Delocalised electrons can drift and carry current.", working: "e^- \\to \\text{current}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Electrical conductivity",
+            finalAnswer: "**(c)** Electrical conductivity",
             commonErrors: ["Choosing a property not linked to mobile charge carriers."],
           },
         },
@@ -244,7 +244,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Alloy", statement: "A mixture of a metal with other elements, often metals." }],
             steps: [{ reasoning: "Steel is iron mixed with carbon and other elements.", working: "\\text{steel} = \\text{Fe} + \\text{C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Steel",
+            finalAnswer: "**(c)** Steel",
             commonErrors: ["Choosing a pure element rather than a mixture."],
           },
         },
@@ -298,7 +298,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Metallic bond", statement: "Attraction is between positive ions and delocalised electrons." }],
             steps: [{ reasoning: "The metal lattice contains positive ions.", working: "M^{n+} \\text{ ions}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Positive metal ions",
+            finalAnswer: "**(a)** Positive metal ions",
             commonErrors: ["Choosing negatively charged ions."],
           },
         },
@@ -380,7 +380,7 @@ export const lesson123: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Graphite", statement: "Delocalised electrons between layers." }],
             steps: [{ reasoning: "Recall.", working: "\\text{graphite}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Graphite",
+            finalAnswer: "**(d)** Graphite",
             commonErrors: ["Assuming both conduct as 'carbon'."],
           },
         },
@@ -456,11 +456,11 @@ export const lesson123: Lesson = {
             { id: "b", text: "$4$" },
             { id: "c", text: "$3$" },
             { id: "d", text: "$6$" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Diamond structure", statement: "Each carbon forms four covalent bonds in a 3D network." }],
             steps: [{ reasoning: "Diamond is a tetrahedral 3D lattice.", working: "4 \\text{ bonds per C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** $4$",
+            finalAnswer: "**(b)** $4$",
             commonErrors: ["Confusing diamond with graphite's three bonds."],
           },
         },
@@ -617,11 +617,11 @@ export const lesson123: Lesson = {
             { id: "b", text: "It has mobile ions" },
             { id: "c", text: "It is soft and slippery" },
             { id: "d", text: "It conducts electricity well" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Diamond", statement: "Rigid 3D network, no mobile charge carriers." }],
             steps: [{ reasoning: "Diamond is hard and has no delocalised electrons or ions.", working: "\\text{hard, no carriers}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** It is a very hard insulator",
+            finalAnswer: "**(a)** It is a very hard insulator",
             commonErrors: ["Confusing diamond with graphite's conductivity."],
           },
         },

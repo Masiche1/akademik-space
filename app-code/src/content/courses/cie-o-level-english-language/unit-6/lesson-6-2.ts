@@ -170,7 +170,7 @@ export const lesson62: Lesson = {
         steps: [
           { reasoning: "Climax = peak tension.", working: "climax", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** The highest point of tension/action",
+        finalAnswer: "**(b)** The highest point of tension/action",
         commonErrors: ["Confusing climax with resolution."],
       },
     },
@@ -196,7 +196,7 @@ export const lesson62: Lesson = {
         steps: [
           { reasoning: "Correct order starts with hook.", working: "order", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Hook → rising action → climax → resolution",
+        finalAnswer: "**(b)** Hook → rising action → climax → resolution",
         commonErrors: ["Wrong order — climax must peak."],
       },
     },
@@ -248,7 +248,7 @@ export const lesson62: Lesson = {
         steps: [
           { reasoning: "Setting creates mood and supports theme.", working: "mood", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Creates mood and supports the theme",
+        finalAnswer: "**(c)** Creates mood and supports the theme",
         commonErrors: ["Thinking setting is unimportant."],
       },
     },
@@ -274,7 +274,7 @@ export const lesson62: Lesson = {
         steps: [
           { reasoning: "Opening must hook reader.", working: "hook", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Hook the reader's attention",
+        finalAnswer: "**(b)** Hook the reader's attention",
         commonErrors: ["Slow or boring openings."],
       },
     },
@@ -507,7 +507,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "First person = 'I'.", working: "I", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Narrator uses 'I'",
+            finalAnswer: "**(d)** Narrator uses 'I'",
             commonErrors: ["Choosing (c) — that's third person."],
           },
         },
@@ -612,7 +612,7 @@ export const lesson62: Lesson = {
         steps: [
           { reasoning: "First person = 'I'.", working: "first", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Narrator uses 'I'",
+        finalAnswer: "**(c)** Narrator uses 'I'",
         commonErrors: ["Confusing with third person."],
       },
     },
@@ -638,7 +638,7 @@ export const lesson62: Lesson = {
         steps: [
           { reasoning: "Past tense most common in narratives.", working: "past", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Past tense",
+        finalAnswer: "**(d)** Past tense",
         commonErrors: ["Inconsistent tense usage."],
       },
     },
@@ -664,7 +664,7 @@ export const lesson62: Lesson = {
         steps: [
           { reasoning: "Dialogue reveals character traits.", working: "dialogue", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Personality, background, relationships",
+        finalAnswer: "**(c)** Personality, background, relationships",
         commonErrors: ["Using dialogue only for plot."],
       },
     },
@@ -690,7 +690,7 @@ export const lesson62: Lesson = {
         steps: [
           { reasoning: "Second person = 'you'.", working: "second", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Narrator uses 'you'",
+        finalAnswer: "**(c)** Narrator uses 'you'",
         commonErrors: ["Confusing with first/third person."],
       },
     },
@@ -949,7 +949,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "All five senses.", working: "five senses", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Sight, sound, smell, touch, taste",
+            finalAnswer: "**(d)** Sight, sound, smell, touch, taste",
             commonErrors: ["Missing senses — use all five."],
           },
         },
@@ -1080,7 +1080,7 @@ export const lesson62: Lesson = {
         steps: [
           { reasoning: "Show = details/action; tell = direct statement.", working: "show", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Use details and action instead of stating directly",
+        finalAnswer: "**(d)** Use details and action instead of stating directly",
         commonErrors: ["Telling instead of showing."],
       },
     },
@@ -1132,7 +1132,7 @@ export const lesson62: Lesson = {
         steps: [
           { reasoning: "Imagery = mental pictures.", working: "imagery", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Language that creates mental pictures",
+        finalAnswer: "**(b)** Language that creates mental pictures",
         commonErrors: ["Confusing imagery with facts."],
       },
     },
@@ -1158,7 +1158,7 @@ export const lesson62: Lesson = {
         steps: [
           { reasoning: "Smell often neglected.", working: "smell", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Smell",
+        finalAnswer: "**(c)** Smell",
         commonErrors: ["Using only sight/sound."],
       },
     },

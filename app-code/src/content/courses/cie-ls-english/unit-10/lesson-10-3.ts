@@ -79,7 +79,7 @@ export const lesson1031: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(a)** Plan the structure",
+            finalAnswer: "**(c)** Plan the structure",
           },
         },
         {
@@ -255,7 +255,7 @@ export const lesson1031: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(b)** Healthy school meals improve students' concentration and behaviour.",
+            finalAnswer: "**(d)** Healthy school meals improve students' concentration and behaviour.",
           },
         },
         {
@@ -288,7 +288,7 @@ export const lesson1031: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(b)** Sentence length and structure",
+            finalAnswer: "**(a)** Sentence length and structure",
           },
         },
         {
@@ -354,7 +354,7 @@ export const lesson1031: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(b)** Why you are writing — inform, persuade or entertain",
+            finalAnswer: "**(d)** Why you are writing — inform, persuade or entertain",
           },
         },
         {
@@ -672,7 +672,7 @@ export const lesson1031: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(a)** To catch all parts of the question",
+            finalAnswer: "**(d)** To catch all parts of the question",
           },
         },
         {
@@ -811,7 +811,7 @@ export const lesson1031: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(b)** Read all the questions carefully",
+            finalAnswer: "**(a)** Read all the questions carefully",
           },
         },
         {
@@ -844,7 +844,7 @@ export const lesson1031: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(b)** It secures marks quickly and leaves more time for hard questions",
+            finalAnswer: "**(c)** It secures marks quickly and leaves more time for hard questions",
           },
         },
         {
@@ -877,7 +877,7 @@ export const lesson1031: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(b)** They can cost marks for accuracy",
+            finalAnswer: "**(d)** They can cost marks for accuracy",
           },
         },
         {
@@ -910,7 +910,7 @@ export const lesson1031: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(b)** What kind of answer is required — describe, explain, evaluate",
+            finalAnswer: "**(d)** What kind of answer is required — describe, explain, evaluate",
           },
         },
         {
@@ -1270,7 +1270,7 @@ export const lesson1031: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(a)** Linking words and a topic sentence",
+            finalAnswer: "**(b)** Linking words and a topic sentence",
           },
         },
         {
@@ -1416,7 +1416,7 @@ export const lesson1031: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(b)** Linking words",
+            finalAnswer: "**(d)** Linking words",
           },
         },
         {
@@ -1449,7 +1449,7 @@ export const lesson1031: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(b)** It has a topic sentence fully supported with detail and a link",
+            finalAnswer: "**(c)** It has a topic sentence fully supported with detail and a link",
           },
         },
         {
@@ -1482,7 +1482,7 @@ export const lesson1031: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(b)** The structure — introduction, paragraphs, conclusion",
+            finalAnswer: "**(d)** The structure — introduction, paragraphs, conclusion",
           },
         },
         {
@@ -1548,7 +1548,7 @@ export const lesson1031: Lesson = {
                 markCode: "AO5",
               },
             ],
-            finalAnswer: "**(b)** The level of formality appropriate to audience and purpose",
+            finalAnswer: "**(a)** The level of formality appropriate to audience and purpose",
           },
         },
         {

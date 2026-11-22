@@ -68,7 +68,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Voltage measures the energy given to or transferred by each coulomb of charge, in joules per coulomb.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The energy transferred per coulomb of charge.",
+            finalAnswer: "**(c)** The energy transferred per coulomb of charge.",
             commonErrors: ["Confusing voltage with current, which is the rate of flow of charge.", "Confusing voltage with resistance."],
             examinerNote: "B1 for choice (b).",
           },

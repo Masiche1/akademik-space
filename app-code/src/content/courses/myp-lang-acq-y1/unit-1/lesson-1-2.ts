@@ -168,7 +168,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "cat" },
               { id: "d", text: "black" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -177,7 +177,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'black' describes the cat's colour.", working: "black", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** black",
+            finalAnswer: "**(d)** black",
             commonErrors: ["Choosing 'cat' — that is the thing, not the description."],
             examinerNote: "B1 for (c).",
           },
@@ -204,7 +204,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'I like apples' has subject, verb, object in order.", working: "I like apples", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** I like apples",
+            finalAnswer: "**(c)** I like apples",
             commonErrors: ["Keeping first-language word order like 'Apples I like'."],
             examinerNote: "B1 for (b).",
           },
@@ -281,7 +281,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — recognise the correct question pattern.", working: "Do you like tea?", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Do you like tea?",
+            finalAnswer: "**(c)** Do you like tea?",
             commonErrors: ["Choosing a statement with a question mark — word order is still wrong."],
             examinerNote: "B1 for (b).",
           },
@@ -308,7 +308,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — guess first, then check a dictionary.", working: "guess from context", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Guess the meaning from the picture and context",
+            finalAnswer: "**(c)** Guess the meaning from the picture and context",
             commonErrors: ["Stopping the whole reading to translate — breaks the flow."],
             examinerNote: "B1 for (b).",
           },
@@ -388,7 +388,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'she' requires 'is'.", working: "She is", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** She is my friend.",
+            finalAnswer: "**(a)** She is my friend.",
             commonErrors: ["Choosing 'are' or 'am' — wrong agreement for 'she'."],
             examinerNote: "D1 for (b).",
           },
@@ -415,7 +415,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'I went to the park yesterday' is correct SVO order.", working: "I went to the park yesterday", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** I went to the park yesterday",
+            finalAnswer: "**(c)** I went to the park yesterday",
             commonErrors: ["Putting 'yesterday' in the middle — it sounds unnatural."],
             examinerNote: "D1 for (a).",
           },
@@ -538,7 +538,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — setting = where/when; characters = who.", working: "setting = where and when", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Where and when the story happens",
+            finalAnswer: "**(d)** Where and when the story happens",
             commonErrors: ["Confusing setting with characters."],
             examinerNote: "B1 for (b).",
           },
@@ -653,7 +653,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — characters = who is in the story.", working: "people or animals", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The people or animals in the story",
+            finalAnswer: "**(a)** The people or animals in the story",
             commonErrors: ["Confusing characters with the setting."],
             examinerNote: "B1 for (b).",
           },
@@ -759,7 +759,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'It' = the dog, the subject of the first sentence.", working: "the dog", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The dog",
+            finalAnswer: "**(a)** The dog",
             commonErrors: ["Choosing 'the gate' — that is where the dog ran, not who 'it' is."],
             examinerNote: "B1 for (b).",
           },
@@ -786,7 +786,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — (b) has ordered events in clear simple English.", working: "First... Then...", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** First the cat sat on the mat. Then the dog ran in.",
+            finalAnswer: "**(d)** First the cat sat on the mat. Then the dog ran in.",
             commonErrors: ["Choosing a vague sentence with no real events."],
             examinerNote: "C1 for (b).",
           },
@@ -872,7 +872,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — ending = how the story finishes.", working: "how the story finishes", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** How the story finishes",
+            finalAnswer: "**(a)** How the story finishes",
             commonErrors: ["Confusing ending with beginning."],
             examinerNote: "B1 for (b).",
           },
@@ -905,7 +905,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — the friend helps and they get the kite down; Max is happy.", working: "friend helps, kite saved", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Max's friend helps him get the kite down",
+            finalAnswer: "**(d)** Max's friend helps him get the kite down",
             commonErrors: ["Choosing (d) — 'sad' belongs to the middle, not the happy ending."],
             examinerNote: "B1 for (b).",
           },

@@ -64,7 +64,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Similar cells make a tissue, different tissues make an organ, and organs working together make an organ system.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cell, tissue, organ, organ system",
+            finalAnswer: "**(b)** Cell, tissue, organ, organ system",
             commonErrors: ["Swapping tissue and organ.", "Choosing option (d), which is in order from largest to smallest."],
             examinerNote: "B1 for the correct order.",
           },
@@ -193,7 +193,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Diffusion is passive and moves particles down a concentration gradient, from high to low concentration.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The net movement of particles from a high concentration to a low concentration",
+            finalAnswer: "**(a)** The net movement of particles from a high concentration to a low concentration",
             commonErrors: ["Reversing the direction of movement.", "Confusing diffusion with osmosis or with active transport, which needs energy."],
             examinerNote: "B1 for the correct definition.",
           },

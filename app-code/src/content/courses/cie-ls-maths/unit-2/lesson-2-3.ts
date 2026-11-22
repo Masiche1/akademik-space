@@ -66,7 +66,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$10\\ 000$ cm $=100$ m $=0.1$ km.", working: "10\\ 000\\text{ cm}=100\\text{ m}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $100$ m",
+            finalAnswer: "**(c)** $100$ m",
             commonErrors: ["Choosing (b) — $10\\ 000$ cm is $100$ m, not $1$ km ($1$ km $=100\\ 000$ cm)."],
           },
         },
@@ -171,7 +171,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$3\\times50\\ 000=150\\ 000$ cm $=1.5$ km.", working: "150\\ 000\\text{ cm}=1.5\\text{ km}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $1.5$ km",
+            finalAnswer: "**(d)** $1.5$ km",
             commonErrors: ["Choosing (b) — decimal place error converting cm to km."],
           },
         },
@@ -197,7 +197,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$300\\text{ cm}\\div20=15$ cm.", working: "300\\div20=15", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $15$ cm",
+            finalAnswer: "**(b)** $15$ cm",
             commonErrors: ["Choosing (b) — multiplying by 20 instead of dividing."],
           },
         },
@@ -223,7 +223,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$6\\times100=600$ cm $=6$ m; $4\\times100=400$ cm $=4$ m.", working: "6\\text{ m},\\ 4\\text{ m}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $6$ m by $4$ m",
+            finalAnswer: "**(d)** $6$ m by $4$ m",
             commonErrors: ["Choosing (c) — dividing by 100 instead of multiplying (scale $1:100$ enlarges)."],
           },
         },
@@ -249,7 +249,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$5$ cm on map $=100\\ 000$ cm $=1$ km real.", working: "100\\ 000\\text{ cm}=1\\text{ km}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $1$ km",
+            finalAnswer: "**(a)** $1$ km",
             commonErrors: ["Choosing (c) — treating $100\\ 000$ cm as $10$ km instead of $1$ km."],
           },
         },
@@ -275,7 +275,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$300\\ 000\\div25\\ 000=12$ cm.", working: "300\\ 000\\div25\\ 000=12", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $12$ cm",
+            finalAnswer: "**(c)** $12$ cm",
             commonErrors: ["Choosing (d) — multiplying by the scale instead of dividing."],
           },
         },
@@ -586,7 +586,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$3.00\\div2=1.50$; $6.50\\div5=1.30$ — lower unit price wins.", working: "1.50 \\text{ vs } 1.30", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The $5\\ \\text{L}$ bottle ($\\pounds1.30$/L vs $\\pounds1.50$/L)",
+            finalAnswer: "**(d)** The $5\\ \\text{L}$ bottle ($\\pounds1.30$/L vs $\\pounds1.50$/L)",
             commonErrors: ["Choosing (a) — lower total price but higher price per litre."],
           },
         },
@@ -612,7 +612,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$2.20\\div10=\\pounds0.22$ per egg.", working: "2.20\\div10=0.22", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $22\\text{p}$",
+            finalAnswer: "**(d)** $22\\text{p}$",
             commonErrors: ["Choosing (c) — $22$ pence, not $\\pounds22$; check the unit."],
           },
         },
@@ -638,7 +638,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$3\\div2=\\pounds1.50$ per item.", working: "3\\div2=1.50", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\pounds1.50$",
+            finalAnswer: "**(c)** $\\pounds1.50$",
             commonErrors: ["Choosing (c) — halving the price is wrong; you pay full price for one item."],
           },
         },
@@ -664,7 +664,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$0.20\\times50=10$; $0.10\\times30=3$ — A saves $\\pounds7$ more.", working: "10 \\text{ vs } 3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Product A — $\\pounds10$ vs $\\pounds3$ discount",
+            finalAnswer: "**(c)** Product A — $\\pounds10$ vs $\\pounds3$ discount",
             commonErrors: ["Choosing (c) — same percentage doesn't mean same pound saving."],
           },
         },
@@ -690,7 +690,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$66.7\\text{p} < 70\\text{p}$ — first deal is cheaper per item.", working: "66.7<70", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3$ for $\\pounds2$",
+            finalAnswer: "**(d)** $3$ for $\\pounds2$",
             commonErrors: ["Choosing (b) — comparing total prices instead of unit prices."],
           },
         },

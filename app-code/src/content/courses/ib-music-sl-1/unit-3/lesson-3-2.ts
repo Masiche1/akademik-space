@@ -70,7 +70,7 @@ export const lesson32: Lesson = {
               { reasoning: "A sequence repeats a motif at different pitch levels, creating development.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Repeating a motif at a different pitch level",
+            finalAnswer: "**(a)** Repeating a motif at a different pitch level",
             commonErrors: [
               "Confusing sequence (pitch repetition) with augmentation (rhythmic lengthening).",
             ],
@@ -177,7 +177,7 @@ export const lesson32: Lesson = {
               { reasoning: "The authentic cadence is V-I, the strongest sense of resolution.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** V to I",
+            finalAnswer: "**(a)** V to I",
             commonErrors: [
               "Confusing authentic (V-I) with plagal (IV-I) cadences.",
             ],
@@ -307,7 +307,7 @@ export const lesson32: Lesson = {
               { reasoning: "Harmonic rhythm measures how often the underlying chords change.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The rate at which chords change",
+            finalAnswer: "**(a)** The rate at which chords change",
             commonErrors: [
               "Confusing harmonic rhythm (chord change rate) with melodic rhythm.",
             ],
@@ -336,7 +336,7 @@ export const lesson32: Lesson = {
               { reasoning: "Frequent chord changes propel the music forward — urgency and momentum.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Urgency and forward drive",
+            finalAnswer: "**(a)** Urgency and forward drive",
             commonErrors: [
               "Thinking harmonic rhythm affects only theory, not perceived pace.",
             ],
@@ -387,7 +387,7 @@ export const lesson32: Lesson = {
               { reasoning: "Cadences are harmonic punctuation — they signal endings.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A chord progression that signals the end of a section",
+            finalAnswer: "**(a)** A chord progression that signals the end of a section",
             commonErrors: [
               "Confusing a cadence with any random chord change.",
             ],
@@ -519,7 +519,7 @@ export const lesson32: Lesson = {
               { reasoning: "Displacement shifts a rhythmic pattern to begin on a different beat or subdivision.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Shifting a pattern to start on a different beat",
+            finalAnswer: "**(d)** Shifting a pattern to start on a different beat",
             commonErrors: [
               "Confusing displacement with augmentation or tempo change.",
             ],
@@ -620,7 +620,7 @@ export const lesson32: Lesson = {
               { reasoning: "Syncopation displaces the accent away from the expected strong beat.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Accenting off-beats or weak parts of the beat",
+            finalAnswer: "**(c)** Accenting off-beats or weak parts of the beat",
             commonErrors: [
               "Confusing syncopation (off-beat accent) with simple accent on the beat.",
             ],
@@ -649,7 +649,7 @@ export const lesson32: Lesson = {
               { reasoning: "An ostinato is a persistent repeating figure — rhythmic or melodic.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** A repeating rhythmic or melodic figure",
+            finalAnswer: "**(c)** A repeating rhythmic or melodic figure",
             commonErrors: [
               "Confusing ostinato (repeating figure) with a motif that develops.",
             ],
@@ -678,7 +678,7 @@ export const lesson32: Lesson = {
               { reasoning: "Hemiola re-groups beats — e.g. three groups of two becoming two groups of three.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Shifting between duple and triple metrical feel",
+            finalAnswer: "**(a)** Shifting between duple and triple metrical feel",
             commonErrors: [
               "Confusing hemiola (metre re-grouping) with polymeter (simultaneous metres).",
             ],
@@ -822,7 +822,7 @@ export const lesson32: Lesson = {
               { reasoning: "Augmentation lengthens values, slowing the pattern and adding weight.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Slower and heavier",
+            finalAnswer: "**(d)** Slower and heavier",
             commonErrors: [
               "Confusing augmentation (longer values) with diminution (shorter values).",
             ],

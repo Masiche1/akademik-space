@@ -65,7 +65,7 @@ export const lesson132: Lesson = {
             steps: [
               { reasoning: "Foil = contrast highlights.", working: "contrast", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Contrasts to highlight another",
+            finalAnswer: "**(b)** Contrasts to highlight another",
             commonErrors: ["Choosing (b) — that's protagonist."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson132: Lesson = {
             steps: [
               { reasoning: "Protagonist = main driver.", working: "main", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The main character driving the plot",
+            finalAnswer: "**(d)** The main character driving the plot",
             commonErrors: ["Choosing (b) — that's antagonist."],
           },
         },
@@ -278,7 +278,7 @@ export const lesson132: Lesson = {
             steps: [
               { reasoning: "Static = unchanged.", working: "unchanged", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Static",
+            finalAnswer: "**(d)** Static",
             commonErrors: ["Confusing static with dynamic."],
           },
         },
@@ -368,7 +368,7 @@ export const lesson132: Lesson = {
             steps: [
               { reasoning: "Driver vs obstructer.", working: "roles", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Driver and obstructer",
+            finalAnswer: "**(c)** Driver and obstructer",
             commonErrors: ["Antagonist always human villain."],
           },
         },
@@ -483,7 +483,7 @@ export const lesson132: Lesson = {
             steps: [
               { reasoning: "Subtext = implied.", working: "implied", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Implied meaning beneath words",
+            finalAnswer: "**(d)** Implied meaning beneath words",
             commonErrors: ["Choosing (c) — that's direction."],
           },
         },
@@ -696,7 +696,7 @@ export const lesson132: Lesson = {
             steps: [
               { reasoning: "Words vs stage direction = subtext.", working: "subtext", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Sarcasm and subtext",
+            finalAnswer: "**(b)** Sarcasm and subtext",
             commonErrors: ["Taking words literally."],
           },
         },
@@ -901,7 +901,7 @@ export const lesson132: Lesson = {
             steps: [
               { reasoning: "Hamartia = tragic flaw.", working: "flaw", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Tragic flaw",
+            finalAnswer: "**(c)** Tragic flaw",
             commonErrors: ["Choosing (d) — that's different."],
           },
         },
@@ -1050,7 +1050,7 @@ export const lesson132: Lesson = {
             steps: [
               { reasoning: "Satire = social mockery.", working: "society", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Society or human folly",
+            finalAnswer: "**(d)** Society or human folly",
             commonErrors: ["Satire as mere jokes."],
           },
         },
@@ -1114,7 +1114,7 @@ export const lesson132: Lesson = {
             steps: [
               { reasoning: "Catharsis = release.", working: "release", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Emotional release for the audience",
+            finalAnswer: "**(b)** Emotional release for the audience",
             commonErrors: ["Thinking it's just sadness."],
           },
         },
@@ -1158,7 +1158,7 @@ export const lesson132: Lesson = {
             steps: [
               { reasoning: "Comedy = happy end.", working: "happy", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Comedy",
+            finalAnswer: "**(d)** Comedy",
             commonErrors: ["Confusing genres."],
           },
         },
@@ -1204,7 +1204,7 @@ export const lesson132: Lesson = {
             steps: [
               { reasoning: "Serious + humour.", working: "blend", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Serious themes with humour",
+            finalAnswer: "**(b)** Serious themes with humour",
             commonErrors: ["Tragicomedy as confused genre."],
           },
         },

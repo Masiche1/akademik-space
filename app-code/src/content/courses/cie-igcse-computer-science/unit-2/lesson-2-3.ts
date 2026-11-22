@@ -237,7 +237,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "The OS coordinates hardware, memory, files and applications.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Managing hardware and running programs",
+            finalAnswer: "**(d)** Managing hardware and running programs",
           },
         },
         {
@@ -262,7 +262,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "The driver allows the OS to send correct commands to the specific hardware.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Lets the OS communicate with the printer",
+            finalAnswer: "**(a)** Lets the OS communicate with the printer",
           },
         },
         {
@@ -287,7 +287,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Antivirus software scans for and removes malicious programs.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Antivirus software",
+            finalAnswer: "**(d)** Antivirus software",
           },
         },
         {
@@ -312,7 +312,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "A GUI uses windows/icons; a CLI accepts typed commands.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** GUI uses graphics; CLI uses typed commands",
+            finalAnswer: "**(b)** GUI uses graphics; CLI uses typed commands",
           },
         },
         {
@@ -337,7 +337,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Backups preserve data so it can be restored after failure or corruption.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Allows data recovery",
+            finalAnswer: "**(a)** Allows data recovery",
           },
         },
         {
@@ -362,7 +362,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Updates patch security flaws and improve stability or hardware support.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Fix bugs and patch security flaws",
+            finalAnswer: "**(d)** Fix bugs and patch security flaws",
           },
         },
         {

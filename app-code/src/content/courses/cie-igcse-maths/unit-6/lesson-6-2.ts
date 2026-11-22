@@ -67,7 +67,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Match the given information to the rule.", working: "\\text{cosine rule}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cosine rule",
+            finalAnswer: "**(b)** Cosine rule",
             commonErrors: ["Choosing sine rule without a side–angle opposite pair."],
           },
         },
@@ -154,7 +154,7 @@ export const lesson62: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "convention", name: "Rule selection", statement: "Two sides + included angle $\\to$ cosine rule." } ],
             steps: [ { reasoning: "Match the information to the rule.", working: "\\text{cosine rule}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(a)** Cosine rule", commonErrors: ["Choosing sine rule without a side–angle opposite pair."] },
+            finalAnswer: "**(d)** Cosine rule", commonErrors: ["Choosing sine rule without a side–angle opposite pair."] },
         },
         {
           id: "ciem-u6-sine-cosine-rules-q6", difficulty: "core", totalMarks: 1,
@@ -168,7 +168,7 @@ export const lesson62: Lesson = {
             correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "formula", name: "Area of triangle", statement: "$A=\\frac12ab\\sin C$" } ],
             steps: [ { reasoning: "Use the included angle in the area formula.", working: "\\frac12\\times5\\times7\\times\\sin60^\\circ\\approx30.3", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $30.3$ cm$^2$", commonErrors: ["Using $35$ as the area and forgetting sine."] },
+            finalAnswer: "**(a)** $30.3$ cm$^2$", commonErrors: ["Using $35$ as the area and forgetting sine."] },
         },
         {
           id: "ciem-u6-sine-cosine-rules-q7", difficulty: "core", totalMarks: 3,
@@ -190,10 +190,10 @@ export const lesson62: Lesson = {
             { id: "c", text: "$73.4^\\circ$" },
             { id: "d", text: "$45.6^\\circ$" }
  ],
-            correctChoiceIc: "d" },
+            correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "formula", name: "Cosine rule for angle", statement: "$\\cos C=\\frac{b^2+c^2-a^2}{2bc}$" } ],
             steps: [ { reasoning: "Use the rearranged cosine rule and inverse cosine.", working: "\\cos C=\\frac{7^2+8^2-9^2}{2\\times7\\times8}=\\frac{32}{112}\\Rightarrow C\\approx73.4^\\circ", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(d)** $73.4^\\circ$", commonErrors: ["Using sine rule with no opposite side–angle pair."] },
+            finalAnswer: "**(c)** $73.4^\\circ$", commonErrors: ["Using sine rule with no opposite side–angle pair."] },
         },
         {
           id: "ciem-u6-sine-cosine-rules-q9", difficulty: "core", totalMarks: 3,
@@ -440,7 +440,7 @@ export const lesson62: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "formula", name: "Bearing angle", statement: "Angle between bearings $=|\\text{bearing}_1-\\text{bearing}_2|$." } ],
             steps: [ { reasoning: "Subtract the bearings.", working: "150^\\circ-60^\\circ=90^\\circ", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** $90^\\circ$", commonErrors: ["Adding the bearings."] },
+            finalAnswer: "**(c)** $90^\\circ$", commonErrors: ["Adding the bearings."] },
         },
         {
           id: "ciem-u6-trig-applications-q6", difficulty: "core", totalMarks: 1,
@@ -454,7 +454,7 @@ export const lesson62: Lesson = {
             correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "property", name: "Alternate angles", statement: "Depression equals elevation by alternate angles." } ],
             steps: [ { reasoning: "Use alternate angles with the horizontal.", working: "\\text{equal}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** It is equal to the angle of elevation", commonErrors: ["Subtracting from $90^\\circ$."] },
+            finalAnswer: "**(a)** It is equal to the angle of elevation", commonErrors: ["Subtracting from $90^\\circ$."] },
         },
         {
           id: "ciem-u6-trig-applications-q7", difficulty: "core", totalMarks: 3,
@@ -479,7 +479,7 @@ export const lesson62: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "formula", name: "Bearing angle", statement: "Smaller angle $=|130^\\circ-40^\\circ|=90^\\circ$." } ],
             steps: [ { reasoning: "Subtract the bearings.", working: "130^\\circ-40^\\circ=90^\\circ", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $90^\\circ$", commonErrors: ["Taking the reflex angle."] },
+            finalAnswer: "**(c)** $90^\\circ$", commonErrors: ["Taking the reflex angle."] },
         },
         {
           id: "ciem-u6-trig-applications-q9", difficulty: "core", totalMarks: 3,
@@ -514,7 +514,7 @@ export const lesson62: Lesson = {
             correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "convention", name: "Back bearing", statement: "Reverse bearing $=\\text{original}+180^\\circ$ (mod $360^\\circ$)." } ],
             steps: [ { reasoning: "Add $180^\\circ$.", working: "45^\\circ+180^\\circ=225^\\circ", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $225^\\circ$", commonErrors: ["Subtracting $180^\\circ$ instead of adding."] },
+            finalAnswer: "**(a)** $225^\\circ$", commonErrors: ["Subtracting $180^\\circ$ instead of adding."] },
         },
         {
           id: "ciem-u6-trig-applications-q12", difficulty: "core", totalMarks: 3,
@@ -560,7 +560,7 @@ export const lesson62: Lesson = {
             correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "convention", name: "Bearings", statement: "Bearings are written as three figures, e.g. $045^\\circ$." } ],
             steps: [ { reasoning: "Recall the three-figure convention.", working: "045^\\circ", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** $045^\\circ$", commonErrors: ["Writing two figures."] },
+            finalAnswer: "**(a)** $045^\\circ$", commonErrors: ["Writing two figures."] },
         },
         {
           id: "ciem-u6-trig-applications-q16", difficulty: "challenge", totalMarks: 8,

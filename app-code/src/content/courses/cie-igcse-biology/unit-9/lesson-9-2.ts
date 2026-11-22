@@ -65,7 +65,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the ratio.", working: "\\text{3:1}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 3 tall : 1 short",
+            finalAnswer: "**(c)** 3 tall : 1 short",
             commonErrors: ["Choosing 1:1 — that's Tt × tt."],
           },
         },
@@ -160,7 +160,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the Punnett grid.", working: "\\text{1:2:1}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 1 TT : 2 Tt : 1 tt",
+            finalAnswer: "**(c)** 1 TT : 2 Tt : 1 tt",
             commonErrors: ["Confusing genotype ratio with phenotype ratio."],
           },
         },
@@ -186,7 +186,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{same alleles}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Having two identical alleles for a gene",
+            finalAnswer: "**(d)** Having two identical alleles for a gene",
             commonErrors: ["Confusing with heterozygous — that's two DIFFERENT alleles."],
           },
         },
@@ -385,7 +385,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Count TT in the Punnett grid.", working: "\\frac{1}{4}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 1 in 4",
+            finalAnswer: "**(d)** 1 in 4",
             commonErrors: ["Choosing 1 in 2 — that would be TT + Tt combined if miscounted."],
           },
         },
@@ -411,7 +411,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{dominant} = \\text{expressed if present}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Is expressed even when paired with a recessive allele",
+            finalAnswer: "**(b)** Is expressed even when paired with a recessive allele",
             commonErrors: ["Saying it's never expressed — dominant alleles are expressed whenever present."],
           },
         },
@@ -465,7 +465,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the combination.", working: "\\text{XY}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** XY",
+            finalAnswer: "**(d)** XY",
             commonErrors: ["Choosing XX — that's female."],
           },
         },
@@ -560,7 +560,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the combination.", working: "\\text{female} = \\text{XX}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** XX",
+            finalAnswer: "**(d)** XX",
             commonErrors: ["Choosing XY — that's male."],
           },
         },
@@ -586,7 +586,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the combination.", working: "\\text{male} = \\text{XY}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** XY",
+            finalAnswer: "**(d)** XY",
             commonErrors: ["Choosing XX — that's female."],
           },
         },
@@ -612,7 +612,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Identify who carries Y.", working: "\\text{sperm: X or Y}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The father — his sperm carries X or Y",
+            finalAnswer: "**(c)** The father — his sperm carries X or Y",
             commonErrors: ["Choosing mother — her eggs only carry X."],
           },
         },
@@ -638,7 +638,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Combine gametes.", working: "\\text{X egg} + \\text{Y sperm} = \\text{XY} = \\text{male}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Male",
+            finalAnswer: "**(c)** Male",
             commonErrors: ["Choosing female — XX requires an X-bearing sperm."],
           },
         },
@@ -810,7 +810,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the ratio.", working: "\\text{1:1}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 1 female : 1 male",
+            finalAnswer: "**(c)** 1 female : 1 male",
             commonErrors: ["Choosing an unequal ratio — it's always approximately 50:50."],
           },
         },

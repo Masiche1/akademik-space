@@ -126,7 +126,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac{5}{8}$",
+            finalAnswer: "**(b)** $\\frac{5}{8}$",
             commonErrors: [
               "Giving $\\mathrm{P}(B \\mid A)=\\frac12$ instead of reversing the conditioning.",
               "Using $0.2+0.2$ as the denominator by using $\\mathrm{P}(B\\mid A')$ without weighting by $\\mathrm{P}(A')$.",
@@ -520,7 +520,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac14$",
+            finalAnswer: "**(c)** $\\frac14$",
             commonErrors: [
               "Reporting $\\mathrm{P}(A \\mid B)=0.3$ without reversing the conditioning.",
               "Using $0.3+0.6=0.9$ as the denominator without weighting by the branch probabilities.",
@@ -573,7 +573,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac{9}{13}$",
+            finalAnswer: "**(c)** $\\frac{9}{13}$",
             commonErrors: [
               "Answering $0.9$ (the sensitivity) instead of the posterior probability.",
               "Using $0.9\\times0.2=0.18$ as the answer without dividing by $\\mathrm{P}(+)$.",
@@ -750,7 +750,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac{4}{13}$",
+            finalAnswer: "**(b)** $\\frac{4}{13}$",
             commonErrors: [
               "Forgetting to weight the $B'$ branch by $\\mathrm{P}(B')=0.9$, giving $0.08+0.02=0.10$.",
               "Reporting $0.08$ (the joint probability) as the final answer.",
@@ -911,7 +911,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.25$",
+            finalAnswer: "**(d)** $0.25$",
             commonErrors: [
               "Treating $\\mathrm{P}(B \\mid A')$ as $\\mathrm{P}(A \\mid B')$, which reverses the conditioning incorrectly.",
               "Forgetting to multiply by $\\mathrm{P}(A')=0.9$ in the second branch.",
@@ -1189,7 +1189,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac{4}{7}$",
+            finalAnswer: "**(d)** $\\frac{4}{7}$",
             commonErrors: [
               "Reporting $\\mathrm{P}(B)=0.35$ as the answer.",
               "Using $\\mathrm{P}(A')=0.4$ instead of $0.6$ in the second branch.",
@@ -1271,7 +1271,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac27$",
+            finalAnswer: "**(b)** $\\frac27$",
             commonErrors: [
               "Using $\\left(\\frac47\\right)^2$, which assumes replacement.",
               "Using $\\frac{4\\cdot 3}{49}$, mixing the denominators.",
@@ -1619,7 +1619,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac27$",
+            finalAnswer: "**(c)** $\\frac27$",
             commonErrors: [
               "Using $\\left(\\frac47\\right)^2$, which assumes replacement.",
               "Counting ordered draws and forgetting to divide consistently.",
@@ -1666,7 +1666,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.4$",
+            finalAnswer: "**(b)** $0.4$",
             commonErrors: [
               "Dividing by $\\binom82=28$, ignoring the condition.",
               "Subtracting only the all-women case incorrectly.",
@@ -1985,7 +1985,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.48$",
+            finalAnswer: "**(c)** $0.48$",
             commonErrors: [
               "Dividing by $\\binom94=126$ instead of 125.",
               "Counting $\\binom52\\binom42$ as 50 instead of 60.",
@@ -2172,7 +2172,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.9$",
+            finalAnswer: "**(b)** $0.9$",
             commonErrors: [
               "Computing $1-\\binom32/\\binom53$ (choosing only 2 balls).",
               "Adding probabilities instead of using the complement.",

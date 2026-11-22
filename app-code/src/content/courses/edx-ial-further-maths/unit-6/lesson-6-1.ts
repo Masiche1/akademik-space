@@ -60,7 +60,7 @@ export const lesson61: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Centripetal", statement: "Acceleration toward centre." }],
             steps: [{ reasoning: "Definition.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** toward centre",
+            finalAnswer: "**(d)** toward centre",
           },
         },
         {
@@ -182,7 +182,7 @@ export const lesson61: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Banked curve", statement: "$N\\sin\\theta$ provides centripetal force." }],
             steps: [{ reasoning: "Normal reaction component.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** normal reaction",
+            finalAnswer: "**(c)** normal reaction",
           },
         },
         {

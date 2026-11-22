@@ -426,7 +426,7 @@ export const lesson212: Lesson = {
               { id: "c", text: "$H_2O$" },
               { id: "d", text: "$NaCl$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Ionic compound", statement: "Metal + non-metal electron transfer." }],
@@ -741,7 +741,7 @@ export const lesson212: Lesson = {
               { id: "c", text: "$1$" },
               { id: "d", text: "$6$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Bond order", statement: "Triple = 3 shared pairs." }],

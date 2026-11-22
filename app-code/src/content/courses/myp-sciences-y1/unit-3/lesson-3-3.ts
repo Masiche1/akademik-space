@@ -75,7 +75,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "As the Earth rotates, a place on its surface moves from the sunlit half into the dark half, giving day and then night.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The Earth rotating on its axis once every 24 hours",
+            finalAnswer: "**(d)** The Earth rotating on its axis once every 24 hours",
             commonErrors: ["Choosing the orbit, which causes the length of the year, not day and night.", "Thinking that the Sun moves around the Earth."],
             examinerNote: "B1 for rotation of the Earth (on its axis).",
           },
@@ -177,7 +177,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "A year is the time for one orbit of the Earth around the Sun.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The time for the Earth to orbit the Sun once",
+            finalAnswer: "**(a)** The time for the Earth to orbit the Sun once",
             commonErrors: ["Confusing a year (orbit) with a day (rotation)."],
             examinerNote: "B1 for (b).",
           },
@@ -195,7 +195,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Venus" },
               { id: "d", text: "Earth" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -204,7 +204,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Mercury is the first planet from the Sun.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Mercury",
+            finalAnswer: "**(a)** Mercury",
             commonErrors: ["Choosing Venus, which is second."],
             examinerNote: "B1 for Mercury.",
           },
@@ -222,7 +222,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "They are all smaller than Earth" },
               { id: "d", text: "They have no moons" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -231,7 +231,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The gas and ice giants are the four outer planets and are much larger than the rocky planets.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** They are the four outer planets and are much larger",
+            finalAnswer: "**(a)** They are the four outer planets and are much larger",
             commonErrors: ["Thinking the giants are smaller or closer to the Sun."],
             examinerNote: "B1 for (c).",
           },
@@ -277,7 +277,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The tilt of the axis changes how directly sunlight strikes each hemisphere during the year, causing the seasons.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The tilt of the Earth's axis at about $23.5^\\circ$",
+            finalAnswer: "**(d)** The tilt of the Earth's axis at about $23.5^\\circ$",
             commonErrors: ["Choosing distance from the Sun, which is the common misconception."],
             examinerNote: "B1 for (b).",
           },
@@ -496,7 +496,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "The Sun is between the Earth and the Moon" },
               { id: "d", text: "The Earth is between the Sun and the Moon" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -505,7 +505,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The Moon blocks sunlight from reaching part of the Earth, so the Moon must be in the middle.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** The Moon is between the Sun and the Earth",
+            finalAnswer: "**(b)** The Moon is between the Sun and the Earth",
             commonErrors: ["Choosing the Earth in the middle, which describes a lunar eclipse."],
             examinerNote: "B1 for Moon between Sun and Earth.",
           },
@@ -607,7 +607,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The Moon is not a star; it reflects sunlight towards the Earth.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The Moon reflects light from the Sun",
+            finalAnswer: "**(d)** The Moon reflects light from the Sun",
             commonErrors: ["Thinking the Moon makes its own light."],
             examinerNote: "B1 for (b).",
           },
@@ -634,7 +634,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The Earth's shadow falls on the Moon, so the Earth must be in the middle.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The Earth is between the Sun and the Moon",
+            finalAnswer: "**(a)** The Earth is between the Sun and the Moon",
             commonErrors: ["Choosing the Moon in the middle, which describes a solar eclipse."],
             examinerNote: "B1 for Earth between Sun and Moon.",
           },
@@ -699,7 +699,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The Moon is moving forwards while Earth's gravity pulls it inwards, so its path curves into an orbit.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The Earth's gravity pulls the Moon inwards while it keeps moving forwards",
+            finalAnswer: "**(c)** The Earth's gravity pulls the Moon inwards while it keeps moving forwards",
             commonErrors: ["Saying gravity holds the Moon still rather than bending its path."],
             examinerNote: "B1 for (b).",
           },
@@ -727,7 +727,7 @@ export const lesson33: Lesson = {
               { reasoning: "Mass is the amount of matter and does not change with location.", marks: 1, markCode: "B" },
               { reasoning: "Weight is $mg$; the Moon's gravity is weaker ($g = 1.6\\ \\text{N/kg}$), so the weight is smaller.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(b)** Mass stays the same but weight decreases because gravity is weaker",
+            finalAnswer: "**(d)** Mass stays the same but weight decreases because gravity is weaker",
             commonErrors: ["Thinking the astronaut 'loses mass' in space.", "Thinking weight is constant everywhere."],
             examinerNote: "B1 for mass constant. R1 for weight smaller due to weaker gravity.",
           },

@@ -68,7 +68,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "The river is a physical barrier. With no gene flow, mutations and selection act separately on each group, and they diverge.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Geographic isolation stopping gene flow.",
+            finalAnswer: "**(c)** Geographic isolation stopping gene flow.",
             commonErrors: ["Choosing (d): gene flow would keep the groups similar, not drive them apart."],
             examinerNote: "B1 for geographic isolation / no gene flow.",
           },

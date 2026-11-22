@@ -71,7 +71,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Mitosis creates identical cells for tissue growth and wound healing.", working: "\\text{growth/repair}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Growth and repair",
+            finalAnswer: "**(b)** Growth and repair",
             commonErrors: ["Confusing with meiosis."],
             examinerNote: "B1 for (a).",
           },
@@ -186,7 +186,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Alignment at the equator is the defining feature of metaphase.", working: "\\text{metaphase}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Metaphase",
+            finalAnswer: "**(d)** Metaphase",
             commonErrors: ["Confusing with anaphase when chromatids separate."],
             examinerNote: "B1 for (b).",
           },
@@ -543,7 +543,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Standard order: cell, tissue, organ, system, organism.", working: "\\text{hierarchy}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cell → organism",
+            finalAnswer: "**(d)** Cell → organism",
             commonErrors: ["Reversing levels."],
             examinerNote: "B1 for (a).",
           },
@@ -649,7 +649,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Organ" },
               { id: "d", text: "Organ system" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -658,7 +658,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The organism is the complete living entity — the highest level.", working: "\\text{organism}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Organism",
+            finalAnswer: "**(a)** Organism",
             commonErrors: ["Choosing organ system."],
             examinerNote: "B1 for (d).",
           },
@@ -953,7 +953,7 @@ export const lesson13: Lesson = {
               { reasoning: "Lignified walls resist negative pressure of transpiration.", working: "\\text{lignin}", marks: 1, markCode: "M" },
               { reasoning: "State the answer.", working: "\\text{(a)}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Hollow dead tubes for unobstructed flow",
+            finalAnswer: "**(d)** Hollow dead tubes for unobstructed flow",
             commonErrors: ["Thinking xylem transports sugars — that is phloem."],
             examinerNote: "M1 M1 A1.",
           },

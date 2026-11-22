@@ -65,7 +65,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Current needs unbroken path.", working: "complete", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Complete circuit",
+            finalAnswer: "**(d)** Complete circuit",
             commonErrors: ["Choosing (b) — open switch breaks circuit."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Series = one path, same current.", working: "same", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The same at every point",
+            finalAnswer: "**(b)** The same at every point",
             commonErrors: ["Choosing (b) — current is shared in parallel, not series."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Voltage measured by voltmeter.", working: "V", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Voltmeter",
+            finalAnswer: "**(d)** Voltmeter",
             commonErrors: ["Choosing (b) — ammeter measures current."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Open switch = incomplete path = no current.", working: "open", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Breaks the circuit so current stops",
+            finalAnswer: "**(c)** Breaks the circuit so current stops",
             commonErrors: ["Choosing (d) — switches control current flow."],
           },
         },
@@ -331,7 +331,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Conventional current: + to −.", working: "+to-", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Positive terminal to negative terminal",
+            finalAnswer: "**(c)** Positive terminal to negative terminal",
             commonErrors: ["Choosing (b) — that is electron flow direction."],
           },
         },
@@ -395,7 +395,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Main current splits into branches and re-combines — sum of parts.", working: "sum", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Equals the sum of the branch currents",
+            finalAnswer: "**(b)** Equals the sum of the branch currents",
             commonErrors: ["Choosing (b) — that would ignore charge conservation."],
           },
         },
@@ -492,7 +492,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Ohm's law: V = I × R.", working: "IR", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** V = I × R",
+            finalAnswer: "**(b)** V = I × R",
             commonErrors: ["Inverting — V=IR not V/R."],
           },
         },
@@ -623,7 +623,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Divide both sides of V = IR by I.", working: "R=V/I", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** R = V ÷ I",
+            finalAnswer: "**(d)** R = V ÷ I",
             commonErrors: ["Choosing (b) — multiplication is not division."],
           },
         },
@@ -649,7 +649,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "R ∝ length — double length, double resistance.", working: "2L", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Doubles",
+            finalAnswer: "**(d)** Doubles",
             commonErrors: ["Choosing (b) — thicker wire lowers resistance, longer raises it."],
           },
         },
@@ -693,7 +693,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Resistance measured in ohms.", working: "Ω", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Ohm (Ω)",
+            finalAnswer: "**(d)** Ohm (Ω)",
             commonErrors: ["Choosing (b) — volts measure voltage."],
           },
         },
@@ -758,7 +758,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "A bulb filament heats up when lit, increasing its resistance.", working: "filament", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Filament bulb",
+            finalAnswer: "**(b)** Filament bulb",
             commonErrors: ["Choosing (b) — a fixed resistor stays roughly constant."],
           },
         },
@@ -825,7 +825,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Ohm's law requires constant resistance (constant temperature).", working: "constant", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The resistance stays constant",
+            finalAnswer: "**(c)** The resistance stays constant",
             commonErrors: ["Choosing (b) — heating changes resistance and breaks Ohm's law."],
           },
         },
@@ -900,7 +900,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Power = voltage × current.", working: "VI", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** P = V × I",
+            finalAnswer: "**(c)** P = V × I",
             commonErrors: ["Using wrong formula — power = V × I."],
           },
         },
@@ -1005,7 +1005,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Power = rate of energy transfer, measured in watts.", working: "W", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Watt (W)",
+            finalAnswer: "**(b)** Watt (W)",
             commonErrors: ["Choosing (d) — joules measure energy, not power."],
           },
         },
@@ -1137,7 +1137,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "A live wire carries voltage — touching it can cause a dangerous electric shock.", working: "shock", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Risk of electric shock",
+            finalAnswer: "**(c)** Risk of electric shock",
             commonErrors: ["Choosing (c) — live wires are always dangerous to touch."],
           },
         },
@@ -1184,7 +1184,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Both breakers and fuses cut the current when it exceeds a safe value.", working: "breaker", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A fuse",
+            finalAnswer: "**(d)** A fuse",
             commonErrors: ["Choosing (c) — a switch is controlled manually, not by current."],
           },
         },

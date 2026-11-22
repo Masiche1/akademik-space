@@ -71,7 +71,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Balancing ensures atom counts equal — mass conserved.", working: "\\text{conservation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Conservation of mass",
+            finalAnswer: "**(d)** Conservation of mass",
             commonErrors: ["Thinking balancing is cosmetic."],
             examinerNote: "B1 for (a).",
           },
@@ -540,7 +540,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "K is top of series = most reactive.", working: "K", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Potassium",
+            finalAnswer: "**(c)** Potassium",
             commonErrors: ["Choosing gold — least reactive."],
             examinerNote: "B1 for (a).",
           },
@@ -655,7 +655,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Au is at the bottom of the series = least reactive.", working: "Au", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Gold",
+            finalAnswer: "**(b)** Gold",
             commonErrors: ["Choosing potassium — it's most reactive."],
             examinerNote: "B1 for (a).",
           },

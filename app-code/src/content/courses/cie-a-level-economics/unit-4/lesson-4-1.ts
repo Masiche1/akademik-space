@@ -254,7 +254,7 @@ export const lesson441: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "HDI", statement: "Health + education + income." } ],
             steps: [ { reasoning: "The Human Development Index combines indicators of health (life expectancy), education (literacy/schooling) and income (GNI per capita).", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** Health, education and income"
+            finalAnswer: "**(c)** Health, education and income"
           }
         },
         {
@@ -275,7 +275,7 @@ export const lesson441: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Gini coefficient", statement: "Measure of income inequality." } ],
             steps: [ { reasoning: "The Gini coefficient ranges from 0 (perfect equality) to 1 (perfect inequality); GDP per capita, HDI and infant mortality do not directly measure distribution.", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** Gini coefficient"
+            finalAnswer: "**(d)** Gini coefficient"
           }
         },
         {
@@ -296,7 +296,7 @@ export const lesson441: Lesson = {
           markscheme: {
             principles: [ { kind: "skill", name: "Development", statement: "HDI vs GDP divergence." } ],
             steps: [ { reasoning: "GDP growth can coexist with slow HDI improvement when income is unequally distributed and health/education outcomes lag — development is multidimensional.", marks: 1, markCode: "A" } ],
-            finalAnswer: "**(a)** income concentrated, health/education lag"
+            finalAnswer: "**(b)** income concentrated, health/education lag"
           }
         },
         {
@@ -402,7 +402,7 @@ export const lesson441: Lesson = {
           markscheme: {
             principles: [ { kind: "skill", name: "Development", statement: "Indicator choice." } ],
             steps: [ { reasoning: "HDI captures health, education and income while the poverty rate shows how many are left behind — together they approximate the multidimensional nature of development.", marks: 1, markCode: "A" } ],
-            finalAnswer: "**(a)** HDI and the poverty rate"
+            finalAnswer: "**(c)** HDI and the poverty rate"
           }
         },
         {
@@ -423,7 +423,7 @@ export const lesson441: Lesson = {
           markscheme: {
             principles: [ { kind: "definition", name: "Relative poverty", statement: "Below the average income of society." } ],
             steps: [ { reasoning: "Relative poverty is measured against the average income of society, so it rises when average incomes rise but the poorest are left behind; absolute poverty depends on subsistence needs, not the average.", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** Relative poverty"
+            finalAnswer: "**(d)** Relative poverty"
           }
         },
       ],

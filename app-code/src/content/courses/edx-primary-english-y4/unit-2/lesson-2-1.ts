@@ -251,7 +251,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Summaries are concise.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Main idea and key events only",
+            finalAnswer: "**(d)** Main idea and key events only",
             commonErrors: ["Including all details."],
           },
         },
@@ -282,7 +282,7 @@ export const lesson111: Lesson = {
               { reasoning: "Identify opinion words.", marks: 1, markCode: "M" },
               { reasoning: "Answer: positive.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** They're good",
+            finalAnswer: "**(a)** They're good",
             commonErrors: ["Missing positive viewpoint."],
           },
         },

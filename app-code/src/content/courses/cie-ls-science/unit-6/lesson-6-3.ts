@@ -66,7 +66,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Buoyancy = upward push from fluid.", working: "upward", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Upward force from displaced fluid",
+            finalAnswer: "**(b)** Upward force from displaced fluid",
             commonErrors: ["Choosing (b) — gravity pulls down, buoyancy pushes up."],
           },
         },
@@ -197,7 +197,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Higher density than water → sinks.", working: "denser sinks", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Greater than water",
+            finalAnswer: "**(b)** Greater than water",
             commonErrors: ["Choosing (b) — less dense objects float."],
           },
         },
@@ -223,7 +223,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Buoyancy equals weight of displaced fluid.", working: "displaced weight", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Weight of displaced fluid",
+            finalAnswer: "**(d)** Weight of displaced fluid",
             commonErrors: ["Choosing (b) — buoyancy relates to displaced fluid, not object weight."],
           },
         },
@@ -249,7 +249,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Density = mass/volume = kg ÷ m³.", working: "kg/m³", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\text{kg/m}^3$",
+            finalAnswer: "**(d)** $\\text{kg/m}^3$",
             commonErrors: ["Choosing (b) — N is force."],
           },
         },
@@ -275,7 +275,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "More gas = less dense = rises; less gas = denser = sinks.", working: "density", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Adjusts gas volume → density",
+            finalAnswer: "**(d)** Adjusts gas volume → density",
             commonErrors: ["Choosing (b) — swimming is propulsion, not buoyancy control."],
           },
         },
@@ -301,7 +301,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Fluid pressure is isotropic at a depth.", working: "all directions", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Equally in all directions",
+            finalAnswer: "**(c)** Equally in all directions",
             commonErrors: ["Choosing (b) — pressure acts in all directions, not just down."],
           },
         },
@@ -327,7 +327,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "ρ(log) between ρ(alcohol) and ρ(water).", working: "density", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Log less dense than water, denser than alcohol",
+            finalAnswer: "**(d)** Log less dense than water, denser than alcohol",
             commonErrors: ["Choosing (b) — alcohol is LESS dense than water."],
           },
         },
@@ -483,7 +483,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Deeper = more fluid above = more pressure.", working: "increases", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Increases",
+            finalAnswer: "**(c)** Increases",
             commonErrors: ["Choosing (c) — pressure varies with depth."],
           },
         },
@@ -614,7 +614,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Standard atmospheric pressure ≈ 101 kPa.", working: "101 kPa", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $101\\ \\text{kPa}$",
+            finalAnswer: "**(c)** $101\\ \\text{kPa}$",
             commonErrors: ["Choosing (c) — that's 10× too high."],
           },
         },
@@ -640,7 +640,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Barometer = pressure measuring instrument.", working: "barometer", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Atmospheric pressure",
+            finalAnswer: "**(b)** Atmospheric pressure",
             commonErrors: ["Choosing (b) — thermometer measures temperature."],
           },
         },
@@ -692,7 +692,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Greater depth = greater pressure = need thicker walls.", working: "depth", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Pressure increases with depth",
+            finalAnswer: "**(b)** Pressure increases with depth",
             commonErrors: ["Choosing (d) — water density is uniform; it's pressure that grows."],
           },
         },
@@ -718,7 +718,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Higher altitude → thinner air column → lower pressure.", working: "altitude", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Higher altitude",
+            finalAnswer: "**(d)** Higher altitude",
             commonErrors: ["Choosing (c) — sea level has the highest pressure."],
           },
         },
@@ -744,7 +744,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Brake fluid carries pressure to all wheels equally.", working: "transmit", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Pressure transmitted equally",
+            finalAnswer: "**(b)** Pressure transmitted equally",
             commonErrors: ["Choosing (d) — friction is the result, hydraulics transmit the force."],
           },
         },
@@ -900,7 +900,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "F = ma.", working: "ma", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** F = m × a",
+            finalAnswer: "**(c)** F = m × a",
             commonErrors: ["Inverting formula — F = ma not m/F."],
           },
         },
@@ -1005,7 +1005,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Divide both sides by m.", working: "a=F/m", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $a = F \\div m$",
+            finalAnswer: "**(c)** $a = F \\div m$",
             commonErrors: ["Choosing (c) — that inverts the relationship."],
           },
         },
@@ -1057,7 +1057,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "No acceleration → no net force.", working: "net = 0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Zero",
+            finalAnswer: "**(d)** Zero",
             commonErrors: ["Choosing (b) — maximum force causes maximum acceleration."],
           },
         },
@@ -1083,7 +1083,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "FBD shows forces acting on the object.", working: "forces", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** All forces acting on object",
+            finalAnswer: "**(b)** All forces acting on object",
             commonErrors: ["Choosing (d) — FBDs show forces, not dimensions."],
           },
         },
@@ -1109,7 +1109,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "This is the distance equation for constant acceleration.", working: "s=ut+½at²", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Distance under constant acceleration",
+            finalAnswer: "**(c)** Distance under constant acceleration",
             commonErrors: ["Choosing (b) — force uses F=ma, not this."],
           },
         },
@@ -1135,7 +1135,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "$12 \\times 10 = 120\\ \\text{N}$.", working: "120", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $120\\ \\text{N}$",
+            finalAnswer: "**(c)** $120\\ \\text{N}$",
             commonErrors: ["Choosing (b) — forgot to multiply by g."],
           },
         },
@@ -1161,7 +1161,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Systematic approach: know what's given and what's needed.", working: "plan", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Identify knowns and target",
+            finalAnswer: "**(d)** Identify knowns and target",
             commonErrors: ["Choosing (b) — premature calculation without planning."],
           },
         },

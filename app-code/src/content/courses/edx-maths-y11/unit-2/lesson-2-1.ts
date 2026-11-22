@@ -63,7 +63,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Reflection in the y-axis", statement: "$(x,y)\\to(-x,y)$" }],
             steps: [{ reasoning: "P is 3 units to the right of the $y$-axis, so its image is 3 units to the left at the same height.", working: "(-3,2)", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $(-3,2)$",
+            finalAnswer: "**(d)** $(-3,2)$",
             commonErrors: ["Reflecting in the $x$-axis, giving $(3,-2)$.", "Rotating by $180^\\circ$, giving $(-3,-2)$."],
           },
         },

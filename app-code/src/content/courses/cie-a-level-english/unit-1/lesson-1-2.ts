@@ -100,7 +100,7 @@ export const lesson212: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Ends where it began",
+            finalAnswer: "**(d)** Ends where it began",
             commonErrors: ["Confusing with chronological structure."],
           },
         },
@@ -362,7 +362,7 @@ export const lesson212: Lesson = {
           totalMarks: 1,
           stem: "Which ending best creates circular structure?",
           response: { type: "mcq", choices: [ { id: "a", text: "The same image or situation returns" }, { id: "b", text: "A moral is stated directly" }, { id: "c", text: "The narrator falls asleep" }, { id: "d", text: "A new problem begins" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Circular structure", statement: "The ending returns to or mirrors the opening." }], steps: [{ reasoning: "Returning to the opening image creates circularity.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Same image returns", commonErrors: ["Confusing circularity with a sequel hook."] },
+          markscheme: { principles: [{ kind: "definition", name: "Circular structure", statement: "The ending returns to or mirrors the opening." }], steps: [{ reasoning: "Returning to the opening image creates circularity.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Same image returns", commonErrors: ["Confusing circularity with a sequel hook."] },
         },
         {
           id: "cial-e-u1-ts-q9",
@@ -370,7 +370,7 @@ export const lesson212: Lesson = {
           totalMarks: 1,
           stem: "What does a framing device do?",
           response: { type: "mcq", choices: [ { id: "a", text: "Removes the narrator" }, { id: "b", text: "Lists all the themes" }, { id: "c", text: "Changes the tense" }, { id: "d", text: "Encloses the main content between an opening and closing" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Framing device", statement: "An opening and closing enclose the central material." }], steps: [{ reasoning: "Framing encloses content at both ends.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Opening and closing enclose content", commonErrors: ["Confusing framing with flashback."] },
+          markscheme: { principles: [{ kind: "definition", name: "Framing device", statement: "An opening and closing enclose the central material." }], steps: [{ reasoning: "Framing encloses content at both ends.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Opening and closing enclose content", commonErrors: ["Confusing framing with flashback."] },
         },
         {
           id: "cial-e-u1-ts-q10",
@@ -495,7 +495,7 @@ export const lesson212: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Sentence across line break",
+            finalAnswer: "**(d)** Sentence across line break",
             commonErrors: ["Confusing with end-stopped lines."],
           },
         },
@@ -738,7 +738,7 @@ export const lesson212: Lesson = {
           totalMarks: 1,
           stem: "What is a soliloquy in drama?",
           response: { type: "mcq", choices: [ { id: "a", text: "A list of characters" }, { id: "b", text: "A stage direction" }, { id: "c", text: "A speech spoken to the audience by one character alone" }, { id: "d", text: "A type of rhyme" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Soliloquy", statement: "A character speaks private thoughts aloud, usually alone." }], steps: [{ reasoning: "Soliloquy reveals inner thought directly.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Private speech to the audience", commonErrors: ["Confusing soliloquy with dialogue."] },
+          markscheme: { principles: [{ kind: "definition", name: "Soliloquy", statement: "A character speaks private thoughts aloud, usually alone." }], steps: [{ reasoning: "Soliloquy reveals inner thought directly.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Private speech to the audience", commonErrors: ["Confusing soliloquy with dialogue."] },
         },
         {
           id: "cial-e-u1-fd-q6",
@@ -754,7 +754,7 @@ export const lesson212: Lesson = {
           totalMarks: 1,
           stem: "Which feature most clearly defines free verse?",
           response: { type: "mcq", choices: [ { id: "a", text: "Exactly fourteen lines" }, { id: "b", text: "A repeated refrain" }, { id: "c", text: "Absence of regular metre and rhyme" }, { id: "d", text: "A fixed rhyme scheme" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Free verse", statement: "Poetry without regular metre or rhyme." }], steps: [{ reasoning: "Free verse rejects fixed metrical and rhyme patterns.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** No regular metre or rhyme", commonErrors: ["Assuming free verse has no structure."] },
+          markscheme: { principles: [{ kind: "definition", name: "Free verse", statement: "Poetry without regular metre or rhyme." }], steps: [{ reasoning: "Free verse rejects fixed metrical and rhyme patterns.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** No regular metre or rhyme", commonErrors: ["Assuming free verse has no structure."] },
         },
         {
           id: "cial-e-u1-fd-q8",
@@ -770,7 +770,7 @@ export const lesson212: Lesson = {
           totalMarks: 1,
           stem: "Which prose choice most directly controls narrative intimacy?",
           response: { type: "mcq", choices: [ { id: "a", text: "A contents page" }, { id: "b", text: "A bibliography" }, { id: "c", text: "A long title" }, { id: "d", text: "First-person narration" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "technique", name: "Narrative voice", statement: "First person creates closeness to the narrator's consciousness." }], steps: [{ reasoning: "First-person voice gives direct subjective access.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** First-person narration", commonErrors: ["Confusing voice with tense."] },
+          markscheme: { principles: [{ kind: "technique", name: "Narrative voice", statement: "First person creates closeness to the narrator's consciousness." }], steps: [{ reasoning: "First-person voice gives direct subjective access.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** First-person narration", commonErrors: ["Confusing voice with tense."] },
         },
         {
           id: "cial-e-u1-fd-q10",

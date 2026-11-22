@@ -224,7 +224,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Simile", statement: "A comparison using 'like' or 'as'." }],
             steps: [{ reasoning: "The word 'like' links the eagle to a thunderbolt, so it is a simile.", evidence: "like a thunderbolt", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(b)** Simile, because the eagle is compared to a thunderbolt using the word 'like'.",
+            finalAnswer: "**(d)** Simile, because the eagle is compared to a thunderbolt using the word 'like'.",
             commonErrors: ["Choosing metaphor because the comparison is strong; a metaphor would not use 'like'."],
           },
         },

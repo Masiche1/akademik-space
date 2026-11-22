@@ -148,7 +148,7 @@ export const lesson16: Lesson = {
             { id: "b", text: "16" },
             { id: "c", text: "12" },
             { id: "d", text: "18" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Double", statement: "n + n." }],
             steps: [{ reasoning: "8 + 8 = 16.", marks: 1, markCode: "A" }],
@@ -180,7 +180,7 @@ export const lesson16: Lesson = {
             { id: "b", text: "Triangle" },
             { id: "c", text: "Cylinder" },
             { id: "d", text: "Sphere" },
-          ], correctChoiceIb: "d" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "2D shape", statement: "Flat shape." }],
             steps: [{ reasoning: "A triangle is flat; the others are solid 3D shapes.", marks: 1, markCode: "A" }],

@@ -82,7 +82,7 @@ export const lesson412: Lesson = {
             steps: [
               { reasoning: "Correct first step.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Identify issue and requirement",
+            finalAnswer: "**(c)** Identify issue and requirement",
             commonErrors: ["Writing before understanding."],
           },
         },
@@ -384,7 +384,7 @@ export const lesson412: Lesson = {
             steps: [
               { reasoning: "Correct strategy.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Brief answers for all questions",
+            finalAnswer: "**(b)** Brief answers for all questions",
             commonErrors: ["Perfectionism on one question."],
           },
         },
@@ -417,7 +417,7 @@ export const lesson412: Lesson = {
             steps: [
               { reasoning: "Clear position frames the evaluation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Clear statement of position",
+            finalAnswer: "**(b)** Clear statement of position",
             commonErrors: ["Warming up with vague statements."],
           },
         },

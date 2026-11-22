@@ -76,7 +76,7 @@ export const lesson143: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Winter sleep to conserve energy",
+            finalAnswer: "**(d)** Winter sleep to conserve energy",
             commonErrors: ["Confused with migration."],
           },
         },
@@ -240,7 +240,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "Deciduous = leaf drop.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Drop their leaves",
+            finalAnswer: "**(d)** Drop their leaves",
             commonErrors: ["Wrong behaviour."],
           },
         },

@@ -68,7 +68,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Match the given information to the condition.", working: "SSS", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** SSS",
+            finalAnswer: "**(b)** SSS",
             commonErrors: ["Confusing SSS with SAS."],
           },
         },
@@ -154,7 +154,7 @@ export const lesson42: Lesson = {
               { id: "c", text: "RHS" },
               { id: "d", text: "SSS" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -163,7 +163,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Two sides plus the included angle is SAS.", working: "SAS", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** SAS",
+            finalAnswer: "**(a)** SAS",
             commonErrors: ["Answering ASA — that requires two angles and a side."],
           },
         },
@@ -189,7 +189,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Right angle, hypotenuse and one side equal is RHS.", working: "RHS", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** RHS",
+            finalAnswer: "**(b)** RHS",
             commonErrors: ["Answering SSA — SSA is not a valid congruence condition."],
           },
         },
@@ -419,7 +419,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "$\\angle B$ lies between sides $AB$ and $BC$; similarly $\\angle Q$ between $PQ$ and $QR$. So the equal angle is included — SAS.", working: "SAS", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Yes — $\\angle B$ is included between $AB$ and $BC$, so SAS applies",
+            finalAnswer: "**(b)** Yes — $\\angle B$ is included between $AB$ and $BC$, so SAS applies",
             commonErrors: ["Thinking the angle must be opposite the equal sides — it must be between them."],
           },
         },
@@ -478,7 +478,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Square the length ratio.", working: "2^2:5^2=4:25", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $4:25$",
+            finalAnswer: "**(c)** $4:25$",
             commonErrors: ["Using $k$ instead of $k^2$ (answer $2:5$)."],
           },
         },
@@ -574,7 +574,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "$k=\\frac{3}{4}$; area ratio $=k^2=\\frac{9}{16}$, i.e. $9:16$.", working: "9:16", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $9:16$",
+            finalAnswer: "**(a)** $9:16$",
             commonErrors: ["Squaring each term incorrectly to get $6:8$ — ratios must be squared as $3^2:4^2$."],
           },
         },
@@ -591,7 +591,7 @@ export const lesson42: Lesson = {
               { id: "c", text: "$6:9$" },
               { id: "d", text: "$2:3$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -600,7 +600,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "$k=\\frac{2}{3}$; volume ratio $=k^3=\\frac{8}{27}$.", working: "8:27", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** $8:27$",
+            finalAnswer: "**(b)** $8:27$",
             commonErrors: ["Using $k^2=\\frac{4}{9}$ — that is the area scale factor."],
           },
         },
@@ -626,7 +626,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "$k=\\frac{1}{2}$; surface area ratio $=k^2=\\frac{1}{4}$, i.e. $1:4$.", working: "1:4", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $1:4$",
+            finalAnswer: "**(a)** $1:4$",
             commonErrors: ["Using $k^3=\\frac{1}{8}$ — that is the volume scale factor."],
           },
         },
@@ -809,7 +809,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "$k=\\sqrt{\\frac{16}{25}}=\\frac{4}{5}$, so lengths are in ratio $4:5$.", working: "4:5", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $4:5$",
+            finalAnswer: "**(c)** $4:5$",
             commonErrors: ["Leaving the answer as $16:25$ — that is the area ratio, not the length ratio."],
           },
         },
@@ -835,7 +835,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Real length $=4.8\\text{ m}=480\\text{ cm}$; model $=\\frac{480}{24}=20$ cm.", working: "20\\text{ cm}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $20$ cm",
+            finalAnswer: "**(b)** $20$ cm",
             commonErrors: ["Forgetting the metre-to-centimetre conversion to get $0.2$ or $2$."],
           },
         },

@@ -65,7 +65,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "This is a direct integration problem.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Integrating both sides",
+            finalAnswer: "**(c)** Integrating both sides",
             commonErrors: ["Overcomplicating a direct integration."],
           },
         },
@@ -193,7 +193,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Direct from definitions: $\\frac{(e^x+e^{-x})^2-(e^x-e^{-x})^2}{4}=\\frac{4}{4}=1$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $1$",
+            finalAnswer: "**(c)** $1$",
             commonErrors: ["Confusing with $\\cos^2+\\sin^2$ sign."],
           },
         },

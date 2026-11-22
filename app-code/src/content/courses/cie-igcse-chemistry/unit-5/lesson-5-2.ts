@@ -60,7 +60,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Exothermic", statement: "Releases heat → temperature rises." }],
             steps: [{ reasoning: "Recall.", working: "\\Delta T > 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It rises",
+            finalAnswer: "**(d)** It rises",
             commonErrors: ["Confusing exo (heat out) with temperature falling."],
           },
         },
@@ -140,7 +140,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Calorimetry", statement: "Exothermic releases heat to water." }],
             steps: [{ reasoning: "Heat released warms the water.", working: "\\Delta T > 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It rises",
+            finalAnswer: "**(a)** It rises",
             commonErrors: ["Thinking exothermic cools the water."],
           },
         },
@@ -193,7 +193,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Specific heat capacity", statement: "Water $c = 4.2\\ \\text{J/g°C}$ in these calculations." }],
             steps: [{ reasoning: "Recall value.", working: "c = 4.2\\ \\text{J g}^{-1}\\text{°C}^{-1}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $4.2\\ \\text{J/g°C}$",
+            finalAnswer: "**(b)** $4.2\\ \\text{J/g°C}$",
             commonErrors: ["Using $4200\\ \\text{J/kg°C}$ with grams."],
           },
         },
@@ -247,7 +247,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Heat loss", statement: "Lost heat is not measured, so calculated $\\Delta H$ is smaller." }],
             steps: [{ reasoning: "Less heat detected means smaller magnitude.", working: "\\Delta H_{measured} < \\Delta H_{true}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Smaller in magnitude",
+            finalAnswer: "**(d)** Smaller in magnitude",
             commonErrors: ["Thinking heat loss increases measured heat."],
           },
         },
@@ -301,7 +301,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Mass from volume", statement: "Water density ≈ $1\\ \\text{g/cm}^3$, so mass in g equals volume in cm³." }],
             steps: [{ reasoning: "Use density $1\\ \\text{g/cm}^3$.", working: "m = V \\times 1", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Multiply by density $1\\ \\text{g/cm}^3$",
+            finalAnswer: "**(c)** Multiply by density $1\\ \\text{g/cm}^3$",
             commonErrors: ["Forgetting density conversion."],
           },
         },
@@ -385,7 +385,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Hess's law", statement: "ΔH same for any route." }],
             steps: [{ reasoning: "Recall.", working: "\\Delta H \\text{ path-independent}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Enthalpy change is the same regardless of the route taken",
+            finalAnswer: "**(c)** Enthalpy change is the same regardless of the route taken",
             commonErrors: ["Thinking ΔH depends on steps — it's path-independent."],
           },
         },
@@ -465,7 +465,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Hess's law", statement: "Enthalpy change is path-independent." }],
             steps: [{ reasoning: "Recall law.", working: "\\Delta H_{route1}=\\Delta H_{route2}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $\\Delta H$ is the same for any route",
+            finalAnswer: "**(c)** $\\Delta H$ is the same for any route",
             commonErrors: ["Thinking route affects ΔH."],
           },
         },
@@ -518,7 +518,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Hess's law", statement: "Products − reactants." }],
             steps: [{ reasoning: "Correct order is products minus reactants.", working: "\\Delta H = P - R", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Products minus reactants",
+            finalAnswer: "**(a)** Products minus reactants",
             commonErrors: ["Reversing the subtraction."],
           },
         },
@@ -572,7 +572,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Hess's law", statement: "Same overall enthalpy change for any path." }],
             steps: [{ reasoning: "Paths between same states have equal $\\Delta H$.", working: "\\Delta H_{direct}=\\Delta H_{indirect}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The same $\\Delta H$ value",
+            finalAnswer: "**(a)** The same $\\Delta H$ value",
             commonErrors: ["Thinking different paths give different ΔH."],
           },
         },
@@ -626,7 +626,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Reversing reactions", statement: "Reversing a reaction reverses the sign of $\\Delta H$." }],
             steps: [{ reasoning: "Products and reactants swap, so sign reverses.", working: "\\Delta H_{reverse} = -\\Delta H", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It changes sign",
+            finalAnswer: "**(a)** It changes sign",
             commonErrors: ["Keeping the same sign."],
           },
         },

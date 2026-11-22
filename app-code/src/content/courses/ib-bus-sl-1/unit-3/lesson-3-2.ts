@@ -99,7 +99,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Upward communication" },
               { id: "d", text: "Downward communication" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -123,7 +123,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Horizontal communication",
+            finalAnswer: "**(b)** Horizontal communication",
             commonErrors: [
               "Confusing horizontal with diagonal (across levels and departments).",
             ],
@@ -143,7 +143,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Performing" },
               { id: "d", text: "Norming" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -166,7 +166,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Forming",
+            finalAnswer: "**(a)** Forming",
             commonErrors: ["Reversing storming and norming."],
           },
         },
@@ -350,7 +350,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Grapevine",
+            finalAnswer: "**(c)** Grapevine",
             commonErrors: [
               "Confusing the grapevine (informal) with formal channels.",
             ],
@@ -370,7 +370,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Informal communication" },
               { id: "d", text: "Formal communication" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -394,7 +394,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Formal communication",
+            finalAnswer: "**(d)** Formal communication",
             commonErrors: [
               "Confusing planned official messages with informal chat.",
             ],
@@ -732,7 +732,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "A poster" },
               { id: "d", text: "An email" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -756,7 +756,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** A face-to-face meeting",
+            finalAnswer: "**(b)** A face-to-face meeting",
             commonErrors: [
               "Choosing a lean channel like email for sensitive news.",
             ],
@@ -799,7 +799,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Storming",
+            finalAnswer: "**(c)** Storming",
             commonErrors: [
               "Confusing storming (conflict) with norming (agreement).",
             ],
@@ -934,7 +934,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Upward communication",
+            finalAnswer: "**(c)** Upward communication",
             commonErrors: [
               "Confusing upward (to seniors) with downward (instructions).",
             ],
@@ -995,7 +995,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Performing" },
               { id: "d", text: "Forming" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1018,7 +1018,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Norming",
+            finalAnswer: "**(b)** Norming",
             commonErrors: [
               "Confusing storming (conflict) with norming (agreement).",
             ],
@@ -1061,7 +1061,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Norm",
+            finalAnswer: "**(d)** Norm",
             commonErrors: [
               "Confusing norms with formal policies — norms are unwritten.",
             ],
@@ -1289,7 +1289,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Maintenance (people) role",
+            finalAnswer: "**(c)** Maintenance (people) role",
             commonErrors: [
               "Confusing task roles (doing the work) with maintenance roles (supporting people).",
             ],
@@ -1600,7 +1600,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Norms",
+            finalAnswer: "**(d)** Norms",
             commonErrors: ["Confusing norms (unwritten) with formal policies."],
           },
         },
@@ -1798,7 +1798,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Adjourning" },
               { id: "d", text: "Forming" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1821,7 +1821,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Performing",
+            finalAnswer: "**(b)** Performing",
             commonErrors: ["Confusing performing with norming."],
           },
         },

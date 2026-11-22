@@ -279,7 +279,7 @@ export const lesson351: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** The National Party",
+            finalAnswer: "**(a)** The National Party",
           },
         },
         {
@@ -392,7 +392,7 @@ export const lesson351: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** It forced different racial groups to live in separate residential areas",
+              "**(c)** It forced different racial groups to live in separate residential areas",
           },
         },
         {
@@ -480,7 +480,7 @@ export const lesson351: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The African National Congress, the main liberation movement",
+              "**(a)** The African National Congress, the main liberation movement",
           },
         },
         {
@@ -566,7 +566,7 @@ export const lesson351: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Internal resistance, international sanctions and economic strain made the system unsustainable",
+              "**(c)** Internal resistance, international sanctions and economic strain made the system unsustainable",
           },
         },
         {
@@ -699,7 +699,7 @@ export const lesson351: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A post-apartheid body that investigated human rights abuses and promoted reconciliation",
+              "**(d)** A post-apartheid body that investigated human rights abuses and promoted reconciliation",
           },
         },
         {

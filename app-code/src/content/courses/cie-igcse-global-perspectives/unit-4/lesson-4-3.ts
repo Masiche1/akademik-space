@@ -98,7 +98,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Statement argued to be true",
+            finalAnswer: "**(b)** Statement argued to be true",
             commonErrors: ["Confusing claim with evidence."],
           },
         },
@@ -317,7 +317,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Strongest argument against your position",
+            finalAnswer: "**(d)** Strongest argument against your position",
             commonErrors: ["Thinking it means any disagreement."],
           },
         },
@@ -483,7 +483,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "CRAAP = Currency, Relevance, Authority, Accuracy, Purpose.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Currency, Relevance, Authority, Accuracy, Purpose",
+            finalAnswer: "**(c)** Currency, Relevance, Authority, Accuracy, Purpose",
             commonErrors: ["Misremembering the letters."],
           },
         },
@@ -712,7 +712,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Conclusion weighing multiple perspectives",
+            finalAnswer: "**(d)** Conclusion weighing multiple perspectives",
             commonErrors: ["Confusing balance with having no view."],
           },
         },
@@ -929,7 +929,7 @@ export const lesson43: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Position with stated limits",
+            finalAnswer: "**(c)** Position with stated limits",
             commonErrors: ["Choosing absolute or non-committal options."],
           },
         },
@@ -1083,7 +1083,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Balanced judgement weighs both sides then qualifies.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Position + counter-evidence + qualification",
+            finalAnswer: "**(b)** Position + counter-evidence + qualification",
             commonErrors: ["Confusing balance with refusing to commit."],
           },
         },

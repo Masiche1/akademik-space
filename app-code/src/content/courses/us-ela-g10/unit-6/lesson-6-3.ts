@@ -666,7 +666,7 @@ export const lesson63: Lesson = {
       ],
     },
     {
-      id: "ela10-u6-integrated",
+      id: "ela10-u6-integrated-r3",
       title: "Integrated Narrative Writing Practice",
       skill:
         "Integrate plot, pacing, sensory details, and reflection in comprehensive narrative writing.",
@@ -697,7 +697,7 @@ export const lesson63: Lesson = {
       },
       questions: [
         {
-          id: "ela10-u6-integrated-q1",
+          id: "ela10-u6-integrated-q1-r3",
           difficulty: "foundation",
           totalMarks: 1,
           extract: NARR,
@@ -734,7 +734,7 @@ export const lesson63: Lesson = {
           },
         },
         {
-          id: "ela10-u6-integrated-q2",
+          id: "ela10-u6-integrated-q2-r3",
           difficulty: "core",
           totalMarks: 3,
           extract: NARR,
@@ -775,7 +775,7 @@ export const lesson63: Lesson = {
           },
         },
         {
-          id: "ela10-u6-integrated-q3",
+          id: "ela10-u6-integrated-q3-r3",
           difficulty: "challenge",
           totalMarks: 8,
           extract: NARR,
@@ -822,7 +822,7 @@ export const lesson63: Lesson = {
           },
         },
         {
-          id: "ela10-u6-integrated-q4",
+          id: "ela10-u6-integrated-q4-r3",
           difficulty: "core",
           totalMarks: 4,
           extract: NARR,

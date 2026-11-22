@@ -560,7 +560,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Mean years of schooling" },
               { id: "d", text: "Life expectancy at birth" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

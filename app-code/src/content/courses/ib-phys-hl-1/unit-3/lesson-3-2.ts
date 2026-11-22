@@ -119,7 +119,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $a\\sin\\theta = \\lambda$",
+            finalAnswer: "**(b)** $a\\sin\\theta = \\lambda$",
             commonErrors: [
               "Using grating equation — that's for multiple slits, not single slit.",
             ],
@@ -347,7 +347,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Narrower",
+            finalAnswer: "**(b)** Narrower",
             commonErrors: [
               "Reversing the inverse relationship — narrower slits diffract MORE.",
             ],
@@ -517,7 +517,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Full constructive interference on the central axis",
+              "**(c)** Full constructive interference on the central axis",
             commonErrors: [
               "Thinking the slit has varying width — it is uniform.",
             ],
@@ -616,7 +616,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Increases",
+            finalAnswer: "**(d)** Increases",
             commonErrors: [
               "Thinking shorter wavelengths diffract more — longer wavelengths spread further.",
             ],
@@ -981,7 +981,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $d\\sin\\theta = n\\lambda$",
+            finalAnswer: "**(b)** $d\\sin\\theta = n\\lambda$",
             commonErrors: [
               "Confusing with single-slit — grating has $n$ orders, single slit doesn't.",
             ],
@@ -1207,7 +1207,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\theta = 0$",
+            finalAnswer: "**(d)** $\\theta = 0$",
             commonErrors: [
               "Thinking zeroth order is absent — it is always present at the centre.",
             ],
@@ -1376,7 +1376,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** 4",
+            finalAnswer: "**(c)** 4",
             commonErrors: [
               "Forgetting $n=0$ counts, or allowing $\\sin\\theta > 1$.",
             ],
@@ -1473,7 +1473,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Smaller $d$, wider spread",
+            finalAnswer: "**(d)** Smaller $d$, wider spread",
             commonErrors: [
               "Thinking more lines = larger spacing — it is the inverse.",
             ],
@@ -1664,7 +1664,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Better wavelength separation",
+            finalAnswer: "**(d)** Better wavelength separation",
             commonErrors: [
               "Underestimating grating resolution — it exceeds prism dispersion.",
             ],

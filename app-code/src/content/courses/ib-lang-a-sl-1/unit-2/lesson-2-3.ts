@@ -116,7 +116,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Salutation and sign-off",
+            finalAnswer: "**(d)** Salutation and sign-off",
           },
         },
         {
@@ -387,7 +387,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Degree of formality matched to audience and purpose",
+              "**(d)** Degree of formality matched to audience and purpose",
             commonErrors: [
               "Treating register as decoration rather than a communicative choice.",
             ],
@@ -430,7 +430,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Judge against criteria and deliver a verdict",
+            finalAnswer: "**(a)** Judge against criteria and deliver a verdict",
             commonErrors: ["Writing plot summary and calling it a review."],
           },
         },
@@ -514,7 +514,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Objective/reporting",
+            finalAnswer: "**(c)** Objective/reporting",
             commonErrors: ["Assuming all journalism argues."],
           },
         },
@@ -562,7 +562,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Recipient named vs unknown — register matching",
+              "**(a)** Recipient named vs unknown — register matching",
             commonErrors: ["Treating sign-offs as interchangeable."],
           },
         },
@@ -1051,7 +1051,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** A thesis statement",
+            finalAnswer: "**(a)** A thesis statement",
           },
         },
         {
@@ -1277,7 +1277,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** About 5 minutes (~10%)",
+            finalAnswer: "**(a)** About 5 minutes (~10%)",
             commonErrors: ["Skipping planning entirely or over-planning."],
           },
         },
@@ -1297,7 +1297,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Comma placement" },
               { id: "d", text: "Capital letters" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1320,7 +1320,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Thesis presence and paragraph logic",
+            finalAnswer: "**(a)** Thesis presence and paragraph logic",
             commonErrors: [
               "Polishing grammar while the argument is incoherent.",
             ],
@@ -1368,7 +1368,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The thesis controls everything that follows",
+            finalAnswer: "**(c)** The thesis controls everything that follows",
             commonErrors: ["Discovering the argument in paragraph three."],
           },
         },
@@ -1412,7 +1412,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Continue with planned topic sentences, briefly developed",
+              "**(d)** Continue with planned topic sentences, briefly developed",
             commonErrors: [
               "Panicking and abandoning structure under time pressure.",
             ],
@@ -1458,7 +1458,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Thesis, order, evidence, conclusion — in priority order",
+              "**(c)** Thesis, order, evidence, conclusion — in priority order",
             commonErrors: ["Spending check time on low-cost errors first."],
           },
         },
@@ -1501,7 +1501,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Discovering the thesis late and backtracking",
+            finalAnswer: "**(c)** Discovering the thesis late and backtracking",
             commonErrors: ["Treating the first paragraph as disposable."],
           },
         },

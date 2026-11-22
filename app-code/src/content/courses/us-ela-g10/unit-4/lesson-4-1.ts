@@ -114,7 +114,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Extending or refining another's contribution.",
+              "**(a)**. Extending or refining another's contribution.",
             commonErrors: ["Confusing with simple agreement."],
           },
         },
@@ -540,7 +540,7 @@ export const lesson41: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Conversational reference to source.",
+            finalAnswer: "**(c)**. Conversational reference to source.",
             commonErrors: ["Using essay-style citations in discussion."],
           },
         },
@@ -758,7 +758,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Keep discussion on track and ensure participation.",
+              "**(a)**. Keep discussion on track and ensure participation.",
             commonErrors: ["Thinking facilitator just talks most."],
           },
         },
@@ -981,7 +981,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Evidence used, multiple voices, ideas develop.",
+              "**(d)**. Evidence used, multiple voices, ideas develop.",
             commonErrors: ["Thinking agreement = productive."],
           },
         },
@@ -1192,7 +1192,7 @@ export const lesson41: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Hook → context → content → conclusion.",
+            finalAnswer: "**(c)**. Hook → context → content → conclusion.",
             commonErrors: ["Starting with content — no hook."],
           },
         },
@@ -1408,7 +1408,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Listening, speaking, collaboration, media analysis.",
+              "**(a)**. Listening, speaking, collaboration, media analysis.",
             commonErrors: ["Thinking SL is just speaking."],
           },
         },

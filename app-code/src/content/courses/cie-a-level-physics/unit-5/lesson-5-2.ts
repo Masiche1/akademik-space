@@ -142,7 +142,7 @@ export const lesson512: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Flux density", statement: "$B$ measured in tesla (T); $1\\ T = 1\\ Wb\\ m^{-2}$." }],
             steps: [{ reasoning: "Unit of B is the tesla.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** tesla",
+            finalAnswer: "**(a)** tesla",
           },
         },
         {
@@ -279,7 +279,7 @@ export const lesson512: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Wire field", statement: "Field around a straight wire forms concentric circular loops." }],
             steps: [{ reasoning: "Concentric circles, direction by right-hand grip rule.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** concentric circles centred on the wire",
+            finalAnswer: "**(c)** concentric circles centred on the wire",
           },
         },
         {
@@ -487,7 +487,7 @@ export const lesson512: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Lenz's law", statement: "Induced EMF opposes the change in flux that produces it." }],
             steps: [{ reasoning: "Lenz's law = opposition to the change (energy conservation).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** oppose the change producing it",
+            finalAnswer: "**(d)** oppose the change producing it",
           },
         },
         {
@@ -527,7 +527,7 @@ export const lesson512: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Faraday", statement: "EMF induced only when flux linkage changes." }],
             steps: [{ reasoning: "Moving the magnet changes the flux through the coil → EMF induced.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** moved towards or away from the coil",
+            finalAnswer: "**(d)** moved towards or away from the coil",
           },
         },
         {
@@ -584,7 +584,7 @@ export const lesson512: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Eddy currents", statement: "Laminated cores interrupt the circulating currents that waste energy as heat." }],
             steps: [{ reasoning: "Insulated laminations break eddy-current paths → less heating.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** laminating the core",
+            finalAnswer: "**(d)** laminating the core",
           },
         },
         {
@@ -627,7 +627,7 @@ export const lesson512: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Flux linkage", statement: "Flux linkage $= N\\Phi$ — flux times number of turns." }],
             steps: [{ reasoning: "Flux linkage = $N\\Phi$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** flux $\\times$ number of turns",
+            finalAnswer: "**(c)** flux $\\times$ number of turns",
           },
         },
         {
@@ -679,12 +679,12 @@ export const lesson512: Lesson = {
               { id: "c", text: "Rotating the coil in a magnetic field" },
               { id: "d", text: "Moving a magnet into the coil" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Faraday", statement: "EMF requires a change in flux linkage; constant flux gives zero EMF." }],
             steps: [{ reasoning: "Stationary magnet → constant flux → no induced EMF.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** holding a magnet stationary",
+            finalAnswer: "**(a)** holding a magnet stationary",
           },
         },
         {

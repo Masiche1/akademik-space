@@ -170,7 +170,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Paraphrase = own words.", working: "own words", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Rewrite in your own words",
+            finalAnswer: "**(c)** Rewrite in your own words",
             commonErrors: ["Choosing (b) — copying is not paraphrasing."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Inference = implied meaning.", working: "implied", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Inference",
+            finalAnswer: "**(a)** Inference",
             commonErrors: ["Choosing (a) — literal is stated."],
           },
         },
@@ -278,7 +278,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Check accuracy and word limit.", working: "check", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Accuracy and word limit",
+            finalAnswer: "**(d)** Accuracy and word limit",
             commonErrors: ["Skipping checks — lose marks."],
           },
         },
@@ -324,7 +324,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Read whole passage first.", working: "overview", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Read the whole passage first",
+            finalAnswer: "**(c)** Read the whole passage first",
             commonErrors: ["Starting questions without overview."],
           },
         },
@@ -485,7 +485,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Purpose = writer's intention.", working: "intention", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Why the text was written",
+            finalAnswer: "**(c)** Why the text was written",
             commonErrors: ["Confusing with content — it's intention."],
           },
         },
@@ -590,7 +590,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Factual texts inform.", working: "inform", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** To inform",
+            finalAnswer: "**(d)** To inform",
             commonErrors: ["Choosing (c) — reports don't persuade."],
           },
         },
@@ -616,7 +616,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Audience = who for.", working: "who for", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Who the text is written for",
+            finalAnswer: "**(c)** Who the text is written for",
             commonErrors: ["Choosing (a) — that's the author."],
           },
         },
@@ -744,7 +744,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Simple vocabulary/playful imagery = children.", working: "clue", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Simple vocabulary and playful imagery",
+            finalAnswer: "**(c)** Simple vocabulary and playful imagery",
             commonErrors: ["Choosing (a) — jargon suits experts."],
           },
         },
@@ -770,7 +770,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Inclusive language builds rapport.", working: "rapport", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Builds rapport with the reader",
+            finalAnswer: "**(c)** Builds rapport with the reader",
             commonErrors: ["Choosing (a) — it includes, not excludes."],
           },
         },
@@ -1010,7 +1010,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Metaphor = direct comparison.", working: "direct", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Direct comparison without 'like' or 'as'",
+            finalAnswer: "**(b)** Direct comparison without 'like' or 'as'",
             commonErrors: ["Choosing (b) — that's simile."],
           },
         },
@@ -1036,7 +1036,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Personification = human qualities.", working: "human", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Giving human qualities to non-human things",
+            finalAnswer: "**(b)** Giving human qualities to non-human things",
             commonErrors: ["Choosing (b) — that's hyperbole."],
           },
         },
@@ -1190,7 +1190,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "'We' builds unity.", working: "unity", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Inclusive language ('we')",
+            finalAnswer: "**(c)** Inclusive language ('we')",
             commonErrors: ["Choosing (a) — statistics inform, not unite."],
           },
         },

@@ -628,7 +628,7 @@ export const lesson313: Lesson = {
               { id: "c", text: "The Carnot formula uses Celsius instead of kelvin" },
               { id: "d", text: "Friction and irreversible processes dissipate energy as heat" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Irreversibility", statement: "Real processes involve friction and finite-rate heat transfer." }],

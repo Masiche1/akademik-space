@@ -60,7 +60,7 @@ export const lessonp41: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Wave equation", statement: "v = fλ." }],
             steps: [{ reasoning: "Recall.", working: "v = f\\lambda", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** v = fλ",
+            finalAnswer: "**(a)** v = fλ",
             commonErrors: ["Dividing instead of multiplying."],
           },
         },
@@ -140,7 +140,7 @@ export const lessonp41: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Longitudinal wave", statement: "Vibrations parallel to direction of travel." }],
             steps: [{ reasoning: "Recall.", working: "\\parallel \\text{ to travel}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Longitudinal",
+            finalAnswer: "**(c)** Longitudinal",
             commonErrors: ["Confusing with transverse (perpendicular)."],
           },
         },
@@ -158,7 +158,7 @@ export const lessonp41: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Period", statement: "T = 1/f." }],
             steps: [{ reasoning: "Recall.", working: "T = \\frac{1}{f}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** T = 1/f",
+            finalAnswer: "**(d)** T = 1/f",
             commonErrors: ["Writing T = f instead of reciprocal."],
           },
         },
@@ -208,7 +208,7 @@ export const lessonp41: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Amplitude", statement: "Maximum displacement from equilibrium position." }],
             steps: [{ reasoning: "Recall.", working: "A = \\text{max displacement}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Maximum displacement from equilibrium",
+            finalAnswer: "**(c)** Maximum displacement from equilibrium",
             commonErrors: ["Confusing amplitude with wavelength."],
           },
         },
@@ -239,11 +239,11 @@ export const lessonp41: Lesson = {
             { id: "b", text: "Light" },
             { id: "c", text: "X-rays" },
             { id: "d", text: "Sound" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Sound", statement: "Needs a medium to travel." }],
             steps: [{ reasoning: "Sound needs particles.", working: "\\text{sound needs medium}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Sound",
+            finalAnswer: "**(d)** Sound",
             commonErrors: ["EM waves all travel through vacuum."],
           },
         },
@@ -333,7 +333,7 @@ export const lessonp41: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Wave equation", statement: "v constant in same medium; v = fλ." }],
             steps: [{ reasoning: "f doubles → λ halves to keep v = fλ constant.", working: "v = f\\lambda \\Rightarrow \\lambda \\propto \\frac{1}{f}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Wavelength halves, speed stays the same",
+            finalAnswer: "**(c)** Wavelength halves, speed stays the same",
             commonErrors: ["Thinking speed must change — speed depends on medium only."],
           },
         },
@@ -379,7 +379,7 @@ export const lessonp41: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Reflection", statement: "i = r (from normal)." }],
             steps: [{ reasoning: "Recall.", working: "i = r", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Angle of incidence = angle of reflection",
+            finalAnswer: "**(b)** Angle of incidence = angle of reflection",
             commonErrors: ["Measured from surface not normal."],
           },
         },
@@ -459,7 +459,7 @@ export const lessonp41: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Reflection", statement: "Angles measured from the normal." }],
             steps: [{ reasoning: "Recall.", working: "\\text{from normal}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The normal",
+            finalAnswer: "**(a)** The normal",
             commonErrors: ["Measuring from the surface instead."],
           },
         },
@@ -477,7 +477,7 @@ export const lessonp41: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Refraction", statement: "Speed change causes bending." }],
             steps: [{ reasoning: "Speed changes at boundary.", working: "\\Delta v \\to \\text{bend}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A change in wave speed",
+            finalAnswer: "**(d)** A change in wave speed",
             commonErrors: ["Frequency stays the same across the boundary."],
           },
         },
@@ -527,7 +527,7 @@ export const lessonp41: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Diffraction", statement: "Greatest when gap ≈ wavelength." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gap} \\approx \\lambda", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Similar to the wavelength",
+            finalAnswer: "**(c)** Similar to the wavelength",
             commonErrors: ["Thinking bigger gaps diffract more."],
           },
         },
@@ -558,11 +558,11 @@ export const lessonp41: Lesson = {
             { id: "b", text: "Refraction" },
             { id: "c", text: "Dispersion" },
             { id: "d", text: "Diffraction" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Diffraction", statement: "Spreading through gaps/around obstacles." }],
             steps: [{ reasoning: "Recall.", working: "\\text{diffraction}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Diffraction",
+            finalAnswer: "**(d)** Diffraction",
             commonErrors: ["Confusing with refraction."],
           },
         },
@@ -610,11 +610,11 @@ export const lessonp41: Lesson = {
             { id: "b", text: "Reflect off the walls" },
             { id: "c", text: "Travel faster than light" },
             { id: "d", text: "Refract around the corner" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Diffraction", statement: "Sound wavelength ≈ doorway size → strong diffraction." }],
             steps: [{ reasoning: "Recall.", working: "\\lambda \\approx \\text{gap}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Diffract around the corner",
+            finalAnswer: "**(a)** Diffract around the corner",
             commonErrors: ["Saying reflection — sound bends around via diffraction."],
           },
         },

@@ -273,7 +273,7 @@ export const lesson394: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** choosing the first option that is good enough",
+              "**(c)** choosing the first option that is good enough",
           },
         },
         {
@@ -398,7 +398,7 @@ export const lesson394: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** choose a satisfactory option due to limited information and time",
+              "**(b)** choose a satisfactory option due to limited information and time",
           },
         },
         {
@@ -535,7 +535,7 @@ export const lesson394: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** satisficing",
+            finalAnswer: "**(b)** satisficing",
           },
         },
         {
@@ -643,7 +643,7 @@ export const lesson394: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** uncertainty",
+            finalAnswer: "**(b)** uncertainty",
           },
         },
         {
@@ -732,7 +732,7 @@ export const lesson394: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** the project with the more predictable outcomes",
+              "**(d)** the project with the more predictable outcomes",
           },
         },
         {

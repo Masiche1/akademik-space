@@ -65,7 +65,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "Purpose = why written.", working: "why", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Why text was written",
+            finalAnswer: "**(c)** Why text was written",
             commonErrors: ["Choosing (d) — that's metadata."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "Tone = attitude.", working: "attitude", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The writer's attitude",
+            finalAnswer: "**(d)** The writer's attitude",
             commonErrors: ["Confusing tone with mood."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "Objective = unbiased.", working: "unbiased", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Presents facts without personal feeling",
+            finalAnswer: "**(c)** Presents facts without personal feeling",
             commonErrors: ["Objective as boring."],
           },
         },
@@ -322,7 +322,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "Authority persuades.", working: "authority", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Expert opinion to persuade",
+            finalAnswer: "**(c)** Expert opinion to persuade",
             commonErrors: ["Authority as irrelevant."],
           },
         },
@@ -483,7 +483,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "Ad hominem = attack person.", working: "person", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Attacking person not argument",
+            finalAnswer: "**(b)** Attacking person not argument",
             commonErrors: ["Choosing (b) — that's valid evidence."],
           },
         },
@@ -588,7 +588,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "Claim = assertion.", working: "assertion", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The main assertion being argued",
+            finalAnswer: "**(d)** The main assertion being argued",
             commonErrors: ["Claim as evidence."],
           },
         },
@@ -696,7 +696,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "Consensus ≠ evidence.", working: "consensus", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Appeal to consensus",
+            finalAnswer: "**(b)** Appeal to consensus",
             commonErrors: ["Accepting popularity as proof."],
           },
         },
@@ -740,7 +740,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "Qualified+relevant.", working: "qualified", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Qualified and relevant to the claim",
+            finalAnswer: "**(c)** Qualified and relevant to the claim",
             commonErrors: ["Fame as qualification."],
           },
         },
@@ -786,7 +786,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "Reasoning = link.", working: "link", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The claim to the evidence",
+            finalAnswer: "**(b)** The claim to the evidence",
             commonErrors: ["Evidence without reasoning."],
           },
         },
@@ -901,7 +901,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "Thesis = main argument.", working: "argument", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Main argument",
+            finalAnswer: "**(b)** Main argument",
             commonErrors: ["Choosing (d) — that's summary."],
           },
         },
@@ -1006,7 +1006,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "Intro gives context then thesis.", working: "context+thesis", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Context and a clear thesis statement",
+            finalAnswer: "**(d)** Context and a clear thesis statement",
             commonErrors: ["Choosing (b) — summary belongs in the body at most."],
           },
         },
@@ -1032,7 +1032,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "(a) links technique to effect.", working: "technique+effect", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** The writer's short sentences quicken the pace, mirroring the character's panic.",
+            finalAnswer: "**(c)** The writer's short sentences quicken the pace, mirroring the character's panic.",
             commonErrors: ["Choosing (c) — it states content without analysis."],
           },
         },
@@ -1058,7 +1058,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "Topic sentence = paragraph's focus.", working: "focus", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** It states the paragraph's analytical focus",
+            finalAnswer: "**(d)** It states the paragraph's analytical focus",
             commonErrors: ["Confusing topic sentence with summary."],
           },
         },
@@ -1123,7 +1123,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "(a) is specific and arguable.", working: "arguable", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The advert persuades through emotive language and direct address aimed at young parents.",
+            finalAnswer: "**(b)** The advert persuades through emotive language and direct address aimed at young parents.",
             commonErrors: ["Choosing a statement that is not arguable."],
           },
         },
@@ -1149,7 +1149,7 @@ export const lesson143: Lesson = {
             steps: [
               { reasoning: "Focus = how and why, not what.", working: "how/why", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** Explaining how and why techniques create effects",
+            finalAnswer: "**(b)** Explaining how and why techniques create effects",
             commonErrors: ["Confusing listing techniques with analysing them."],
           },
         },

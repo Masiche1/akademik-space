@@ -109,7 +109,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Not at all" },
             { id: "d", text: "Upwards only" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Subsidy", statement: "Supply increases." }], steps: [{ reasoning: "Subsidy lowers costs, increasing supply.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Subsidy", statement: "Supply increases." }], steps: [{ reasoning: "Subsidy lowers costs, increasing supply.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u2-int-q7", difficulty: "core", totalMarks: 1,
@@ -131,7 +131,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Raise the price and reduce the quantity traded" },
             { id: "d", text: "Increase supply" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Indirect tax", statement: "Market effect." }], steps: [{ reasoning: "Tax shifts supply left: price rises, quantity falls.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Indirect tax", statement: "Market effect." }], steps: [{ reasoning: "Tax shifts supply left: price rises, quantity falls.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u2-int-q9", difficulty: "challenge", totalMarks: 1,
@@ -250,7 +250,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Equilibrium price" },
             { id: "d", text: "Market price" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Price ceiling", statement: "Max price." }], steps: [{ reasoning: "Ceiling = maximum.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Price ceiling", statement: "Max price." }], steps: [{ reasoning: "Ceiling = maximum.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u2-pc-q2", difficulty: "core", totalMarks: 2,
@@ -307,7 +307,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "A price ceiling on fuel" },
             { id: "d", text: "Rent control" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Price floor", statement: "Minimum legal price." }], steps: [{ reasoning: "Minimum wage sets a floor on the price of labour.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Price floor", statement: "Minimum legal price." }], steps: [{ reasoning: "Minimum wage sets a floor on the price of labour.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u2-pc-q6", difficulty: "foundation", totalMarks: 1,
@@ -318,7 +318,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Rent control" },
             { id: "d", text: "Agricultural price supports" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Price ceiling", statement: "Maximum legal price." }], steps: [{ reasoning: "Rent control caps the maximum rent landlords may charge.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Price ceiling", statement: "Maximum legal price." }], steps: [{ reasoning: "Rent control caps the maximum rent landlords may charge.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u2-pc-q7", difficulty: "core", totalMarks: 1,
@@ -329,7 +329,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Lower demand only" },
             { id: "d", text: "A shortage" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Price ceiling", statement: "Below equilibrium." }], steps: [{ reasoning: "Low price → excess demand → shortage.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Price ceiling", statement: "Below equilibrium." }], steps: [{ reasoning: "Low price → excess demand → shortage.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u2-pc-q8", difficulty: "core", totalMarks: 1,
@@ -340,7 +340,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "A surplus" },
             { id: "d", text: "A shortage" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Price floor", statement: "Above equilibrium." }], steps: [{ reasoning: "High minimum price → excess supply → surplus.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Price floor", statement: "Above equilibrium." }], steps: [{ reasoning: "High minimum price → excess supply → surplus.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u2-pc-q9", difficulty: "challenge", totalMarks: 1,
@@ -351,7 +351,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "An immediate increase in housing supply" },
             { id: "d", text: "A black market where rents are paid illegally" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Black markets", statement: "Consequence of ceilings." }], steps: [{ reasoning: "Shortages and excess demand encourage illegal trading at higher prices.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Black markets", statement: "Consequence of ceilings." }], steps: [{ reasoning: "Shortages and excess demand encourage illegal trading at higher prices.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u2-pc-q10", difficulty: "foundation", totalMarks: 1,

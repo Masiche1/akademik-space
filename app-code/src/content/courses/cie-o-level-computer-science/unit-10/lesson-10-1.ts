@@ -117,8 +117,8 @@ export const lesson101: Lesson = {
             { id: "b", text: "City" },
             { id: "c", text: "PhoneNumber" },
             { id: "d", text: "CustomerID" },
-          ], dorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Primary key", statement: "Unique identifier." }], steps: [{ reasoning: "CustomerID uniquely identifies each customer.", working: "\\text{unique id}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** CustomerID" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "definition", name: "Primary key", statement: "Unique identifier." }], steps: [{ reasoning: "CustomerID uniquely identifies each customer.", working: "\\text{unique id}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** CustomerID" },
         },
         {
           id: "olcs-u10-dc-q8", difficulty: "core", totalMarks: 1,
@@ -129,7 +129,7 @@ export const lesson101: Lesson = {
             { id: "c", text: "Stores passwords" },
             { id: "d", text: "Must be unique within its own table" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Foreign key", statement: "References another table's PK." }], steps: [{ reasoning: "FK links to another table's primary key.", working: "\\text{fk link}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** References a primary key in another table" },
+          markscheme: { principles: [{ kind: "definition", name: "Foreign key", statement: "References another table's PK." }], steps: [{ reasoning: "FK links to another table's primary key.", working: "\\text{fk link}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** References a primary key in another table" },
         },
         {
           id: "olcs-u10-dc-q9", difficulty: "core", totalMarks: 2,
@@ -148,8 +148,8 @@ export const lesson101: Lesson = {
             { id: "b", text: "Less data duplication" },
             { id: "c", text: "Better security for stored data" },
             { id: "d", text: "Data is only stored on paper" },
-          ], dorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Databases vs spreadsheets", statement: "Databases offer search, less duplication, security." }], steps: [{ reasoning: "Paper storage is not an advantage of databases.", working: "\\text{not adv}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Data is only stored on paper" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "principle", name: "Databases vs spreadsheets", statement: "Databases offer search, less duplication, security." }], steps: [{ reasoning: "Paper storage is not an advantage of databases.", working: "\\text{not adv}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Data is only stored on paper" },
         },
         {
           id: "olcs-u10-dc-q11", difficulty: "challenge", totalMarks: 3,
@@ -170,7 +170,7 @@ export const lesson101: Lesson = {
             { id: "c", text: "Is always left blank" },
             { id: "d", text: "Stores a value matching a primary key in the Students table" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Foreign key", statement: "References another table's PK." }], steps: [{ reasoning: "FK value matches another table's primary key.", working: "\\text{fk=pk}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Stores a value matching a primary key in the Students table" },
+          markscheme: { principles: [{ kind: "definition", name: "Foreign key", statement: "References another table's PK." }], steps: [{ reasoning: "FK value matches another table's primary key.", working: "\\text{fk=pk}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Stores a value matching a primary key in the Students table" },
         },
         {
           id: "olcs-u10-dc-q13", difficulty: "foundation", totalMarks: 1,
@@ -189,7 +189,7 @@ export const lesson101: Lesson = {
             { id: "c", text: "A query" },
             { id: "d", text: "The whole database" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Record", statement: "Row with one complete entry." }], steps: [{ reasoning: "A record is one complete row of data.", working: "\\text{row}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** The row (101, 'Sara', '10B')" },
+          markscheme: { principles: [{ kind: "definition", name: "Record", statement: "Row with one complete entry." }], steps: [{ reasoning: "A record is one complete row of data.", working: "\\text{row}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** The row (101, 'Sara', '10B')" },
         },
         {
           id: "olcs-u10-dc-q15", difficulty: "core", totalMarks: 2,
@@ -307,7 +307,7 @@ export const lesson101: Lesson = {
             { id: "c", text: "Only passwords" },
             { id: "d", text: "Only queries" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Relational model", statement: "Each table holds one entity type." }], steps: [{ reasoning: "Each table stores one type of entity.", working: "\\text{entity}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** One type of entity" },
+          markscheme: { principles: [{ kind: "definition", name: "Relational model", statement: "Each table holds one entity type." }], steps: [{ reasoning: "Each table stores one type of entity.", working: "\\text{entity}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** One type of entity" },
         },
         {
           id: "olcs-u10-rd-q6", difficulty: "foundation", totalMarks: 1,
@@ -337,7 +337,7 @@ export const lesson101: Lesson = {
             { id: "c", text: "Random access" },
             { id: "d", text: "Data corruption" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "principle", name: "Relational benefit", statement: "Reduced duplication." }], steps: [{ reasoning: "Relational design stores data once, reducing duplication.", working: "\\text{less dup}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Reducing duplication" },
+          markscheme: { principles: [{ kind: "principle", name: "Relational benefit", statement: "Reduced duplication." }], steps: [{ reasoning: "Relational design stores data once, reducing duplication.", working: "\\text{less dup}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Reducing duplication" },
         },
         {
           id: "olcs-u10-rd-q9", difficulty: "core", totalMarks: 2,
@@ -378,7 +378,7 @@ export const lesson101: Lesson = {
             { id: "c", text: "Enrolments.CourseID" },
             { id: "d", text: "Students.ID" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Primary key", statement: "Unique identifier in its table." }], steps: [{ reasoning: "Students.ID uniquely identifies each student.", working: "\\text{pk}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Students.ID" },
+          markscheme: { principles: [{ kind: "definition", name: "Primary key", statement: "Unique identifier in its table." }], steps: [{ reasoning: "Students.ID uniquely identifies each student.", working: "\\text{pk}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Students.ID" },
         },
         {
           id: "olcs-u10-rd-q13", difficulty: "foundation", totalMarks: 1,
@@ -397,7 +397,7 @@ export const lesson101: Lesson = {
             { id: "c", text: "Store duplicate data" },
             { id: "d", text: "Link two tables in a many-to-many relationship" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Junction table", statement: "Links two tables via foreign keys." }], steps: [{ reasoning: "Enrolments links Students and Courses with FKs.", working: "\\text{junction}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Link two tables in a many-to-many relationship" },
+          markscheme: { principles: [{ kind: "principle", name: "Junction table", statement: "Links two tables via foreign keys." }], steps: [{ reasoning: "Enrolments links Students and Courses with FKs.", working: "\\text{junction}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Link two tables in a many-to-many relationship" },
         },
         {
           id: "olcs-u10-rd-q15", difficulty: "core", totalMarks: 2,

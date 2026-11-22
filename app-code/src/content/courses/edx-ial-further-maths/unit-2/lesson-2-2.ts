@@ -61,7 +61,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Standard curve", statement: "$r=a\\cos\\theta$ converts to $x^2+y^2=ax$, a circle." }],
             steps: [{ reasoning: "$r^2=ar\\cos\\theta\\Rightarrow x^2+y^2=ax$ — circle diameter $a$ through the pole.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** circle through pole",
+            finalAnswer: "**(c)** circle through pole",
           },
         },
         {

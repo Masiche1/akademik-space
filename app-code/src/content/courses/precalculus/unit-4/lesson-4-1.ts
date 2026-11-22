@@ -60,7 +60,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "$\\langle -4,-3\\rangle$" },
               { id: "d", text: "$\\langle 3,4\\rangle$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -70,7 +70,7 @@ export const lesson41: Lesson = {
               { reasoning: "Subtract the initial point from the terminal point in each coordinate.", working: "\\langle 5-1,\\;5-2\\rangle", marks: 1, markCode: "M" },
               { reasoning: "Simplify each component.", working: "\\langle 4,3\\rangle", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $\\langle 4,3\\rangle$",
+            finalAnswer: "**(b)** $\\langle 4,3\\rangle$",
             commonErrors: ["Adding the coordinates instead of subtracting.", "Subtracting in the wrong order, which gives the opposite vector.", "Swapping the horizontal and vertical components."],
           },
         },
@@ -215,7 +215,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "$\\langle 8,-3\\rangle$" },
               { id: "d", text: "$11$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -225,7 +225,7 @@ export const lesson41: Lesson = {
               { reasoning: "Multiply corresponding components and add.", working: "2(4)+3(-1)", marks: 1, markCode: "M" },
               { reasoning: "Evaluate.", working: "8-3=5", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $5$",
+            finalAnswer: "**(b)** $5$",
             commonErrors: ["Leaving the products as a vector $\\langle 8,-3\\rangle$; the dot product is a scalar.", "Ignoring the negative sign on $-1$."],
           },
         },

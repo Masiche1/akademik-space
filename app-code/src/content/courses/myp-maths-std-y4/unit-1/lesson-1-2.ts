@@ -70,7 +70,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Subtract 7 from both sides to get $x>5$.", working: "x>12-7=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x>5$",
+            finalAnswer: "**(b)** $x>5$",
             commonErrors: ["Subtracting instead of adding, or reversing the sign unnecessarily."],
             examinerNote: "B1 for (a).",
           },
@@ -88,7 +88,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "$x>-4$" },
               { id: "d", text: "$x<-4$" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -184,7 +184,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Add 3 to both sides: $x<8$.", working: "x<5+3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x<8$",
+            finalAnswer: "**(b)** $x<8$",
             commonErrors: ["Subtracting 3 instead of adding."],
             examinerNote: "B1 for (a).",
           },
@@ -457,7 +457,7 @@ export const lesson12: Lesson = {
               { reasoning: "Option (c): $-x\\le3$ gives $x\\ge-3$ — wrong direction. Option (d): $x\\ge-3$ — wrong direction.", working: "x\\ge-3", marks: 1, markCode: "M" },
               { reasoning: "Only (a) gives $x\\le-3$.", working: "x\\le-3", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $2x\\le-6$",
+            finalAnswer: "**(d)** $2x\\le-6$",
             commonErrors: ["Choosing (d) without checking the direction."],
             examinerNote: "M1 M1 A1.",
           },
@@ -515,7 +515,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$x=3$ satisfies $x\\ge3$ since 3 equals 3.", working: "x=3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $x=3$",
+            finalAnswer: "**(c)** $x=3$",
             commonErrors: ["Choosing $x=2$ — that's less than 3."],
             examinerNote: "B1 for (b).",
           },
@@ -620,7 +620,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "$x=4$" },
               { id: "d", text: "$x=3$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -629,7 +629,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$x=3<4$ satisfies the inequality; 4, 5 and 6 do not.", working: "x=3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $x=3$",
+            finalAnswer: "**(d)** $x=3$",
             commonErrors: ["Choosing $x=4$ — the strict inequality excludes the boundary."],
             examinerNote: "B1 for (c).",
           },
@@ -901,7 +901,7 @@ export const lesson12: Lesson = {
               { reasoning: "The others have constant differences, not ratios.", working: "\\text{arithmetic or quadratic}", marks: 1, markCode: "M" },
               { reasoning: "Select the geometric sequence.", working: "3,6,12,24", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 3, 6, 12, 24, ...",
+            finalAnswer: "**(a)** 3, 6, 12, 24, ...",
             commonErrors: ["Choosing (a) — it has a constant difference, not a ratio."],
             examinerNote: "M1 M1 A1.",
           },

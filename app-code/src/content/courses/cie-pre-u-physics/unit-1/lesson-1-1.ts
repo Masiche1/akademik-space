@@ -527,7 +527,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Acceleration is directed away from the centre" },
               { id: "d", text: "Acceleration is zero because speed is constant" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

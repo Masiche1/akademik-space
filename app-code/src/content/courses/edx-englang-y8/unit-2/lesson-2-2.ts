@@ -203,7 +203,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Identifying viewpoint", statement: "Match an adjective to the evidence in the text." }],
             steps: [{ reasoning: "The writer questions the value of homework and argues for making it optional.", evidence: "Is this really the best use of their precious time?", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** Sceptical. She doubts that homework is worthwhile, but she is neither fearful nor indifferent, since she argues actively.",
+            finalAnswer: "**(b)** Sceptical. She doubts that homework is worthwhile, but she is neither fearful nor indifferent, since she argues actively.",
             commonErrors: ["Choosing 'indifferent', as the writer clearly cares about the issue."],
           },
         },
@@ -229,7 +229,7 @@ export const lesson22: Lesson = {
               { reasoning: "The concession acknowledges the other side and avoids sounding hostile.", evidence: "Teachers, of course, mean well.", marks: 1, markCode: "AO2" },
               { reasoning: "The following 'But' turns the argument back to her viewpoint.", evidence: "But good intentions do not make a good policy.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** It makes her seem fair before she criticises the policy. 'But good intentions do not make a good policy' shows that she disagrees.",
+            finalAnswer: "**(d)** It makes her seem fair before she criticises the policy. 'But good intentions do not make a good policy' shows that she disagrees.",
             commonErrors: ["Choosing (b): the concession is followed by 'But'."],
           },
         },

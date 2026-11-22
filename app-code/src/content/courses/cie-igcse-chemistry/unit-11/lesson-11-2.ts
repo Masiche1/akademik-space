@@ -57,7 +57,7 @@ export const lesson1112: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Na⁺ flame", statement: "Golden yellow." }],
             steps: [{ reasoning: "Recall.", working: "\\text{yellow}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Golden yellow",
+            finalAnswer: "**(c)** Golden yellow",
             commonErrors: ["Confusing with K⁺ lilac."],
           },
         },
@@ -137,7 +137,7 @@ export const lesson1112: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ba²⁺ flame", statement: "Green." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Ba}^{2+} = \\text{green}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Green",
+            finalAnswer: "**(d)** Green",
             commonErrors: ["Confusing with Cu²⁺ blue-green."],
           },
         },
@@ -155,7 +155,7 @@ export const lesson1112: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Flame colours", statement: "Li⁺ crimson, Na⁺ yellow, K⁺ lilac, Cu²⁺ blue-green." }],
             steps: [{ reasoning: "Check each pair.", working: "\\text{Li}^+ = \\text{crimson}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Li⁺ — crimson",
+            finalAnswer: "**(b)** Li⁺ — crimson",
             commonErrors: ["Swapping Na⁺ and K⁺ colours."],
           },
         },
@@ -191,7 +191,7 @@ export const lesson1112: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Cobalt glass", statement: "Filters yellow Na⁺ light to reveal lilac K⁺." }],
             steps: [{ reasoning: "Cobalt glass absorbs sodium yellow.", working: "\\text{Co glass} \\to \\text{lilac visible}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** View through blue cobalt glass",
+            finalAnswer: "**(c)** View through blue cobalt glass",
             commonErrors: ["A hotter flame does not remove the masking effect."],
           },
         },
@@ -393,7 +393,7 @@ export const lesson1112: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Cl⁻ test", statement: "AgNO₃ → white AgCl." }],
             steps: [{ reasoning: "Recall.", working: "\\text{AgNO}_3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** AgNO₃",
+            finalAnswer: "**(c)** AgNO₃",
             commonErrors: ["BaCl₂ tests SO₄²⁻."],
           },
         },
@@ -473,7 +473,7 @@ export const lesson1112: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "SO₄²⁻ test", statement: "BaCl₂ → white BaSO₄ precipitate." }],
             steps: [{ reasoning: "Recall.", working: "\\text{BaCl}_2 \\to \\text{BaSO}_4", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Sulfate",
+            finalAnswer: "**(c)** Sulfate",
             commonErrors: ["AgNO₃ tests halides, not sulfate."],
           },
         },
@@ -491,7 +491,7 @@ export const lesson1112: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Amphoteric hydroxides", statement: "Al(OH)₃ and Zn(OH)₂ dissolve in excess NaOH." }],
             steps: [{ reasoning: "White ppt + soluble in excess = Al³⁺ or Zn²⁺.", working: "\\text{Al}^{3+} \\text{ or } \\text{Zn}^{2+}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Al³⁺ or Zn²⁺",
+            finalAnswer: "**(d)** Al³⁺ or Zn²⁺",
             commonErrors: ["Pb²⁺ also gives white ppt but does NOT dissolve in excess."],
           },
         },
@@ -509,7 +509,7 @@ export const lesson1112: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "CO₃²⁻ test", statement: "Acid releases CO₂ gas." }],
             steps: [{ reasoning: "CO₂ effervesces.", working: "\\text{CO}_3^{2-} + \\text{acid} \\to \\text{CO}_2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Effervescence (bubbles of gas)",
+            finalAnswer: "**(c)** Effervescence (bubbles of gas)",
             commonErrors: ["Confusing with precipitation tests."],
           },
         },
@@ -625,7 +625,7 @@ export const lesson1112: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Pb²⁺ test", statement: "White Pb(OH)₂ precipitate, insoluble in excess NaOH." }],
             steps: [{ reasoning: "Pb(OH)₂ is not amphoteric.", working: "\\text{Pb}^{2+} \\to \\text{white ppt, insoluble}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** White precipitate insoluble in excess",
+            finalAnswer: "**(d)** White precipitate insoluble in excess",
             commonErrors: ["Confusing with Al³⁺/Zn²⁺ whose precipitates dissolve."],
           },
         },
@@ -683,7 +683,7 @@ export const lesson1112: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "SO₄²⁻ confirmatory", statement: "BaSO₄ is insoluble in dilute acid — confirms sulfate." }],
             steps: [{ reasoning: "White ppt + insoluble in HCl = BaSO₄.", working: "\\text{BaSO}_4 \\text{ insoluble in HCl}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Sulfate ions are present",
+            finalAnswer: "**(c)** Sulfate ions are present",
             commonErrors: ["Carbonate would effervesce with acid instead."],
           },
         },

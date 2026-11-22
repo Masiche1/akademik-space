@@ -92,7 +92,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Symbolism", statement: "The chain is built from Marley's own choices." }],
             steps: [{ reasoning: "He says he made it himself, 'link by link', so it symbolises selfish acts that now weigh him down.", evidence: "the chain I forged in life", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(b)** The burden of the selfish choices Marley made in life.",
+            finalAnswer: "**(a)** The burden of the selfish choices Marley made in life.",
             commonErrors: ["Taking the chain literally as wealth."],
           },
         },
@@ -216,7 +216,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Thesis", statement: "A line of argument gives a clear, arguable answer to the question." }],
             steps: [{ reasoning: "Option b makes a clear argument that can be developed with evidence.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** It gives a clear, arguable answer.",
+            finalAnswer: "**(a)** It gives a clear, arguable answer.",
             commonErrors: ["Choosing a description with no argument."],
           },
         },

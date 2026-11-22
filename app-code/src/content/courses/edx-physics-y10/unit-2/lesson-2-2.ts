@@ -196,7 +196,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "$E = IV$" },
               { id: "d", text: "$E = \\frac{IV}{t}$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -205,7 +205,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Power is $P = IV$ and energy is power multiplied by time, so $E = IVt$.", working: "E = IVt", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $E = IVt$",
+            finalAnswer: "**(b)** $E = IVt$",
             commonErrors: ["Choosing (a), which is the equation for power.", "Dividing by time instead of multiplying."],
             examinerNote: "B1 for (c).",
           },

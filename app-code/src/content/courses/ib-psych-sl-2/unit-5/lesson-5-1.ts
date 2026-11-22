@@ -92,7 +92,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "Deviation from an ideal mental state" },
               { id: "d", text: "Behaviour violating social norms" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -116,7 +116,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Behaviour preventing coping with daily life",
+            finalAnswer: "**(a)** Behaviour preventing coping with daily life",
             commonErrors: [
               "Confusing with statistical infrequency — different criterion.",
             ],
@@ -419,7 +419,7 @@ export const lesson51: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Majority-defined 'normal' marginalises minorities",
+              "**(d)** Majority-defined 'normal' marginalises minorities",
             commonErrors: [
               "Choosing (a) — social deviance is culturally relative, not objective.",
             ],
@@ -470,7 +470,7 @@ export const lesson51: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Behaviour preventing coping with everyday life",
+              "**(c)** Behaviour preventing coping with everyday life",
             commonErrors: [
               "Confusing with social deviance — function is about coping, not rule-breaking.",
             ],
@@ -546,7 +546,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "Accurate perception of reality" },
               { id: "d", text: "Perpetual happiness at all times" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -570,7 +570,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Perpetual happiness at all times",
+            finalAnswer: "**(d)** Perpetual happiness at all times",
             commonErrors: [
               "Assuming 'ideal health' means constant positive emotion — it means accurate functioning.",
             ],
@@ -633,7 +633,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Not abnormal — rarity alone is insufficient",
+            finalAnswer: "**(d)** Not abnormal — rarity alone is insufficient",
             commonErrors: [
               "Labeling high intelligence abnormal purely because it is rare.",
             ],
@@ -1128,7 +1128,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Different clinicians reaching same diagnosis",
+            finalAnswer: "**(c)** Different clinicians reaching same diagnosis",
             commonErrors: [
               "Confusing with test-retest reliability (consistency over time).",
             ],
@@ -1364,7 +1364,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The World Health Organization",
+            finalAnswer: "**(d)** The World Health Organization",
             commonErrors: [
               "Confusing the DSM's publisher (APA) with the ICD's (WHO).",
             ],
@@ -1412,7 +1412,7 @@ export const lesson51: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Patients often meet criteria for multiple disorders at once",
+              "**(a)** Patients often meet criteria for multiple disorders at once",
             commonErrors: [
               "Thinking comorbidity means two diagnoses are impossible — it means they commonly co-occur.",
             ],
@@ -1460,7 +1460,7 @@ export const lesson51: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Existing on continua rather than discrete categories",
+              "**(d)** Existing on continua rather than discrete categories",
             commonErrors: [
               "Confusing dimensional (continuum) with categorical (distinct boxes) models.",
             ],
@@ -1566,7 +1566,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** DSM-5-TR",
+            finalAnswer: "**(d)** DSM-5-TR",
             commonErrors: ["Confusing DSM editions with ICD versions."],
           },
         },
@@ -1618,7 +1618,7 @@ export const lesson51: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Discrimination reduces opportunities and treatment engagement",
+              "**(d)** Discrimination reduces opportunities and treatment engagement",
             commonErrors: [
               "Claiming stigma has no effect on outcomes — it measurably worsens prognosis.",
             ],

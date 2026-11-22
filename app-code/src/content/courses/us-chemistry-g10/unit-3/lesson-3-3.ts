@@ -62,7 +62,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The ratio $\\text{NH}_3 : \\text{H}_2$ is $2:3$, so $3.0 \\times \\frac{2}{3} = 2.0\\ \\text{mol}$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $2.0\\ \\text{mol}$",
+            finalAnswer: "**(d)** $2.0\\ \\text{mol}$",
             commonErrors: ["Inverting the ratio to get 4.5 mol.", "Multiplying by 3 to get 9.0 mol."],
             examinerNote: "B1 for 2.0 mol.",
           },
@@ -197,7 +197,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The limiting reactant is used up first. The reactant left over is the excess reactant.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The reactant that is used up first and limits the amount of product",
+            finalAnswer: "**(a)** The reactant that is used up first and limits the amount of product",
             commonErrors: ["Choosing (d), which describes the excess reactant.", "Choosing the reactant with the smallest mass without considering moles and coefficients."],
             examinerNote: "B1 for choice (b).",
           },

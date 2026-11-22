@@ -41,7 +41,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Actuator" },
             { id: "d", text: "Camera" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Actuator", statement: "Signal → movement." }], steps: [{ reasoning: "Actuators move robots.", working: "\\text{actuator}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Actuator" },
+          markscheme: { principles: [{ kind: "definition", name: "Actuator", statement: "Signal → movement." }], steps: [{ reasoning: "Actuators move robots.", working: "\\text{actuator}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Actuator" },
         },
         {
           id: "olcs-u6-rb-q2", difficulty: "core", totalMarks: 2,
@@ -96,7 +96,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "The tool at the end of a robot arm" },
             { id: "d", text: "A motor" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "End effector", statement: "Working tool at arm's end." }], steps: [{ reasoning: "End effector is the tool (gripper, welder).", working: "\\text{tool}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** The tool at the arm's end" },
+          markscheme: { principles: [{ kind: "definition", name: "End effector", statement: "Working tool at arm's end." }], steps: [{ reasoning: "End effector is the tool (gripper, welder).", working: "\\text{tool}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** The tool at the arm's end" },
         },
         {
           id: "olcs-u6-rb-q6", difficulty: "foundation", totalMarks: 1,
@@ -115,7 +115,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Independent joint movements" },
             { id: "d", text: "Top speed" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "DOF", statement: "Independent movements." }], steps: [{ reasoning: "DOF = independent joint movements.", working: "\\text{movements}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Independent joint movements" },
+          markscheme: { principles: [{ kind: "definition", name: "DOF", statement: "Independent movements." }], steps: [{ reasoning: "DOF = independent joint movements.", working: "\\text{movements}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Independent joint movements" },
         },
         {
           id: "olcs-u6-rb-q8", difficulty: "core", totalMarks: 1,
@@ -134,7 +134,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "An autonomous robot" },
             { id: "d", text: "A sensor" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Autonomous robot", statement: "Self-navigating using sensors and AI." }], steps: [{ reasoning: "Self-driving = autonomous robot.", working: "\\text{autonomous}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Autonomous robot" },
+          markscheme: { principles: [{ kind: "definition", name: "Autonomous robot", statement: "Self-navigating using sensors and AI." }], steps: [{ reasoning: "Self-driving = autonomous robot.", working: "\\text{autonomous}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Autonomous robot" },
         },
         {
           id: "olcs-u6-rb-q10", difficulty: "core", totalMarks: 2,
@@ -154,7 +154,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Less movement" },
             { id: "d", text: "More dexterity but harder control" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "DOF trade-off", statement: "Flexibility vs control complexity." }], steps: [{ reasoning: "More DOF = more dexterity, harder control.", working: "\\text{dexterity}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** More dexterity but harder control" },
+          markscheme: { principles: [{ kind: "principle", name: "DOF trade-off", statement: "Flexibility vs control complexity." }], steps: [{ reasoning: "More DOF = more dexterity, harder control.", working: "\\text{dexterity}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** More dexterity but harder control" },
         },
         {
           id: "olcs-u6-rb-q12", difficulty: "core", totalMarks: 1,
@@ -250,7 +250,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Teaching children" },
             { id: "d", text: "Welding on production lines" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Robot uses", statement: "Manufacturing, medicine, logistics." }], steps: [{ reasoning: "Welding is classic robot task.", working: "\\text{welding}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Welding" },
+          markscheme: { principles: [{ kind: "principle", name: "Robot uses", statement: "Manufacturing, medicine, logistics." }], steps: [{ reasoning: "Welding is classic robot task.", working: "\\text{welding}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Welding" },
         },
         {
           id: "olcs-u6-rr-q2", difficulty: "core", totalMarks: 2,
@@ -305,7 +305,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Writing novels" },
             { id: "d", text: "Manufacturing, e.g. welding and assembly" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Robot uses", statement: "Manufacturing, medicine, logistics." }], steps: [{ reasoning: "Welding/assembly is a classic robot task.", working: "\\text{welding}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Manufacturing" },
+          markscheme: { principles: [{ kind: "principle", name: "Robot uses", statement: "Manufacturing, medicine, logistics." }], steps: [{ reasoning: "Welding/assembly is a classic robot task.", working: "\\text{welding}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Manufacturing" },
         },
         {
           id: "olcs-u6-rr-q6", difficulty: "foundation", totalMarks: 1,
@@ -324,7 +324,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "They need no power" },
             { id: "d", text: "Consistent precision and speed" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Robot pros", statement: "Precision, speed, consistency." }], steps: [{ reasoning: "Robots give consistent precision and speed.", working: "\\text{precision}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Consistent precision and speed" },
+          markscheme: { principles: [{ kind: "principle", name: "Robot pros", statement: "Precision, speed, consistency." }], steps: [{ reasoning: "Robots give consistent precision and speed.", working: "\\text{precision}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Consistent precision and speed" },
         },
         {
           id: "olcs-u6-rr-q8", difficulty: "core", totalMarks: 1,
@@ -343,7 +343,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "They feel curiosity" },
             { id: "d", text: "They need no programming" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Exploration", statement: "Robots endure hostile conditions." }], steps: [{ reasoning: "Robots survive vacuum/radiation where humans can't.", working: "\\text{hostile}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Survive hostile environments" },
+          markscheme: { principles: [{ kind: "principle", name: "Exploration", statement: "Robots endure hostile conditions." }], steps: [{ reasoning: "Robots survive vacuum/radiation where humans can't.", working: "\\text{hostile}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Survive hostile environments" },
         },
         {
           id: "olcs-u6-rr-q10", difficulty: "core", totalMarks: 2,
@@ -363,7 +363,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Job displacement" },
             { id: "d", text: "Better graphics" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Social impact", statement: "Workers may lose jobs." }], steps: [{ reasoning: "Job displacement is a key concern.", working: "\\text{jobs}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Job displacement" },
+          markscheme: { principles: [{ kind: "principle", name: "Social impact", statement: "Workers may lose jobs." }], steps: [{ reasoning: "Job displacement is a key concern.", working: "\\text{jobs}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Job displacement" },
         },
         {
           id: "olcs-u6-rr-q12", difficulty: "core", totalMarks: 1,
@@ -393,7 +393,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Paint spraying" },
             { id: "d", text: "Welding" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Limits", statement: "Robots lack human judgement." }], steps: [{ reasoning: "Judgement/empathy tasks suit humans.", working: "\\text{judgement}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Tasks needing judgement/empathy" },
+          markscheme: { principles: [{ kind: "principle", name: "Limits", statement: "Robots lack human judgement." }], steps: [{ reasoning: "Judgement/empathy tasks suit humans.", working: "\\text{judgement}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Tasks needing judgement/empathy" },
         },
         {
           id: "olcs-u6-rr-q15", difficulty: "core", totalMarks: 2,

@@ -282,7 +282,7 @@ export const lesson385: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** investment in business operations in a foreign country",
+              "**(d)** investment in business operations in a foreign country",
           },
         },
         {
@@ -406,7 +406,7 @@ export const lesson385: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Trade liberalisation and technological advances",
+              "**(c)** Trade liberalisation and technological advances",
           },
         },
         {
@@ -543,7 +543,7 @@ export const lesson385: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** licensing",
+            finalAnswer: "**(b)** licensing",
           },
         },
         {
@@ -644,7 +644,7 @@ export const lesson385: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Wholly-owned subsidiary",
+            finalAnswer: "**(b)** Wholly-owned subsidiary",
           },
         },
         {
@@ -732,7 +732,7 @@ export const lesson385: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** job losses as production moves to lower-cost countries",
+              "**(d)** job losses as production moves to lower-cost countries",
           },
         },
         {

@@ -183,7 +183,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$\\sqrt{48}=\\sqrt{16\\times3}=4\\sqrt{3}$.", working: "\\sqrt{48}=4\\sqrt{3}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $4\\sqrt{3}$",
+            finalAnswer: "**(c)** $4\\sqrt{3}$",
             commonErrors: ["Writing $\\sqrt{48}=8\\sqrt{3}$ — confusing $\\sqrt{48}$ with $\\sqrt{16}\\times3$."],
             examinerNote: "B1 for (a).",
           },
@@ -450,7 +450,7 @@ export const lesson11: Lesson = {
               { reasoning: "Combine like surds: $3\\sqrt{3}+2\\sqrt{3}=5\\sqrt{3}$.", working: "5\\sqrt{3}", marks: 1, markCode: "M" },
               { reasoning: "Select the correct answer.", working: "5\\sqrt{3}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $5\\sqrt{3}$",
+            finalAnswer: "**(d)** $5\\sqrt{3}$",
             commonErrors: ["Adding radicands to get $\\sqrt{39}$ or $13\\sqrt{3}$."],
             examinerNote: "M1 M1 A1.",
           },
@@ -510,7 +510,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$3^{-2}=\\frac{1}{3^2}=\\frac{1}{9}$.", working: "3^{-2}=\\frac{1}{9}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\frac{1}{9}$",
+            finalAnswer: "**(d)** $\\frac{1}{9}$",
             commonErrors: ["Writing $-9$ — confusing negative index with negative number."],
             examinerNote: "B1 for (b).",
           },
@@ -556,7 +556,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$-16$" },
               { id: "d", text: "$8$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -625,7 +625,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Any non-zero number to the power 0 equals 1.", working: "7^0=1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $1$",
+            finalAnswer: "**(a)** $1$",
             commonErrors: ["Answering 0 — confusing $a^0$ with $a\\times0$."],
             examinerNote: "B1 for (b).",
           },
@@ -899,7 +899,7 @@ export const lesson11: Lesson = {
               { reasoning: "$x^5\\times x^{-2}=x^{5-2}=x^3$.", working: "x^{5-2}=x^3", marks: 1, markCode: "M" },
               { reasoning: "State the answer.", working: "x^3", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $x^3$",
+            finalAnswer: "**(d)** $x^3$",
             commonErrors: ["Adding all indices to get $x^{10}$."],
             examinerNote: "M1 M1 A1.",
           },

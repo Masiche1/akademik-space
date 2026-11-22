@@ -57,7 +57,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Mole", statement: "n = m/M_r." }],
             steps: [{ reasoning: "36/18 = 2 mol.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 2",
+            finalAnswer: "**(a)** 2",
           },
         },
         {
@@ -165,12 +165,12 @@ export const lesson13: Lesson = {
               { id: "c", text: "Photosynthesis" },
               { id: "d", text: "Thermal decomposition of limestone" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Exothermic", statement: "Releases heat; ΔH < 0." }],
             steps: [{ reasoning: "Combustion releases energy.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Combustion of methane",
+            finalAnswer: "**(b)** Combustion of methane",
           },
         },
         {

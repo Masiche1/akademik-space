@@ -81,7 +81,7 @@ export const lesson222: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Bits per pixel",
+            finalAnswer: "**(a)** Bits per pixel",
             commonErrors: ["Resolution confused."],
           },
         },
@@ -260,7 +260,7 @@ export const lesson222: Lesson = {
             steps: [
               { reasoning: "Accuracy = correct.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Correct/error-free",
+            finalAnswer: "**(a)** Correct/error-free",
             commonErrors: ["Size confused."],
           },
         },

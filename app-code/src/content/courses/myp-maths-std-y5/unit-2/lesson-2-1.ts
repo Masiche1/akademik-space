@@ -71,7 +71,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$f(3)=4(3)-1=12-1=11$.", working: "11", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 11",
+            finalAnswer: "**(c)** 11",
             commonErrors: ["Computing $4\\times3=12$ then forgetting to subtract 1."],
             examinerNote: "B1 for (a).",
           },
@@ -182,7 +182,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Function evaluation", statement: "$f(3)=3^2-4=5$." }],
             steps: [{ reasoning: "Substitute $x=3$.", working: "9-4=5", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 5",
+            finalAnswer: "**(c)** 5",
           },
         },
         {
@@ -436,7 +436,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$m=\\frac{9}{3}=3$.", working: "3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 3",
+            finalAnswer: "**(c)** 3",
             commonErrors: ["Dividing $x$ difference by $y$ difference."],
             examinerNote: "B1 for (a).",
           },
@@ -547,7 +547,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Gradient", statement: "$m=\\frac{11-2}{3-0}=\\frac93=3$." }],
             steps: [{ reasoning: "Compute the gradient.", working: "3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 3",
+            finalAnswer: "**(d)** 3",
           },
         },
         {

@@ -460,7 +460,7 @@ export const lesson33: Lesson = {
             { id: "b", text: "Always, for every sentence" },
             { id: "c", text: "After each comma" },
             { id: "d", text: "Never" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "convention", name: "Dialogue layout", statement: "New speaker = new paragraph." }],
             steps: [

@@ -153,7 +153,7 @@ export const lesson112: Lesson = {
             { id: "b", text: "16" },
             { id: "c", text: "7" },
             { id: "d", text: "13" },
-          ], correctChoiceIb: "d" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Even number", statement: "Pairs up exactly, no one left over." }],
             steps: [{ reasoning: "16 pairs into 8 twos; 7, 13 and 15 each leave one over.", marks: 1, markCode: "A" }],
@@ -271,7 +271,7 @@ export const lesson112: Lesson = {
             { id: "b", text: "18" },
             { id: "c", text: "14" },
             { id: "d", text: "16" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Double", statement: "n + n." }],
             steps: [{ reasoning: "8 + 8 = 16.", marks: 1, markCode: "A" }],

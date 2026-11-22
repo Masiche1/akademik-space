@@ -57,7 +57,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Effective collision", statement: "Enough energy + correct orientation." }],
             steps: [{ reasoning: "Recall.", working: "\\text{energy + orientation}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Sufficient energy and correct orientation",
+            finalAnswer: "**(a)** Sufficient energy and correct orientation",
             commonErrors: ["Only mentioning energy — orientation also needed."],
           },
         },
@@ -137,7 +137,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Activation energy", statement: "Minimum energy for an effective collision." }],
             steps: [{ reasoning: "Recall.", working: "E_a = \\text{min energy}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Minimum energy needed for an effective collision",
+            finalAnswer: "**(c)** Minimum energy needed for an effective collision",
             commonErrors: ["Confusing Ea with enthalpy change."],
           },
         },
@@ -151,11 +151,11 @@ export const lesson162: Lesson = {
             { id: "b", text: "Increasing the surface area" },
             { id: "c", text: "Adding a catalyst" },
             { id: "d", text: "Increasing the concentration" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Rate factors", statement: "Higher T increases rate." }],
             steps: [{ reasoning: "Lower T slows particles.", working: "T \\downarrow \\Rightarrow \\text{rate} \\downarrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Decreasing the temperature",
+            finalAnswer: "**(a)** Decreasing the temperature",
             commonErrors: ["Thinking lower temperature speeds reactions."],
           },
         },
@@ -206,7 +206,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Surface area", statement: "More surface → more collisions per second." }],
             steps: [{ reasoning: "Recall.", working: "\\text{surface} \\uparrow \\Rightarrow \\text{collisions} \\uparrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Greater surface area is exposed to the acid",
+            finalAnswer: "**(d)** Greater surface area is exposed to the acid",
             commonErrors: ["Saying activation energy changes — it does not."],
           },
         },
@@ -275,7 +275,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Effective collision", statement: "Energy + orientation." }],
             steps: [{ reasoning: "Recall.", working: "\\text{energy + orientation}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A collision with sufficient energy and correct orientation",
+            finalAnswer: "**(c)** A collision with sufficient energy and correct orientation",
             commonErrors: ["Any collision is not necessarily effective."],
           },
         },
@@ -380,7 +380,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Catalyst", statement: "Lowers Ea." }],
             steps: [{ reasoning: "Recall.", working: "E_a \\downarrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Lowers it",
+            finalAnswer: "**(c)** Lowers it",
             commonErrors: ["Saying 'no effect' — it doesn't change ΔH but lowers Ea."],
           },
         },
@@ -519,11 +519,11 @@ export const lesson162: Lesson = {
             { id: "b", text: "Shifts equilibrium to the left" },
             { id: "c", text: "Stops both forward and reverse reactions" },
             { id: "d", text: "No effect on position — only changes the rate" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Catalyst and equilibrium", statement: "No shift in position." }],
             steps: [{ reasoning: "Recall.", working: "\\text{no shift}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** No effect on position — only changes the rate",
+            finalAnswer: "**(d)** No effect on position — only changes the rate",
             commonErrors: ["Thinking catalysts shift equilibrium."],
           },
         },
@@ -592,7 +592,7 @@ export const lesson162: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Haber process", statement: "Uses Fe catalyst." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Haber} = \\text{Fe}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Haber process",
+            finalAnswer: "**(d)** Haber process",
             commonErrors: ["V₂O₅ is the Contact process catalyst."],
           },
         },

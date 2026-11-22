@@ -84,7 +84,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "Isobaric" },
               { id: "d", text: "Adiabatic" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -97,7 +97,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Adiabatic means Q = 0.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Adiabatic",
+            finalAnswer: "**(d)** Adiabatic",
             commonErrors: ["Confusing isothermal with adiabatic."],
           },
         },
@@ -356,7 +356,7 @@ export const lesson51: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Work function",
+            finalAnswer: "**(d)** Work function",
             commonErrors: ["Thinking intensity sets the threshold."],
           },
         },

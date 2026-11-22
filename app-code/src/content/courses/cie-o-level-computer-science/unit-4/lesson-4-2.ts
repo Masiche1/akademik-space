@@ -42,7 +42,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Assembly" },
             { id: "d", text: "HTML" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Machine code", statement: "Binary, CPU-native." }], steps: [{ reasoning: "Machine code runs directly.", working: "\\text{machine code}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Machine code" },
+          markscheme: { principles: [{ kind: "definition", name: "Machine code", statement: "Binary, CPU-native." }], steps: [{ reasoning: "Machine code runs directly.", working: "\\text{machine code}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Machine code" },
         },
         {
           id: "olcs-u4-lang-q2", difficulty: "core", totalMarks: 2,
@@ -97,7 +97,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Only binary digits" },
             { id: "d", text: "English sentences" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Assembly", statement: "Mnemonic codes, one step from machine code." }], steps: [{ reasoning: "Assembly uses mnemonics.", working: "\\text{mnemonics}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Mnemonics" },
+          markscheme: { principles: [{ kind: "definition", name: "Assembly", statement: "Mnemonic codes, one step from machine code." }], steps: [{ reasoning: "Assembly uses mnemonics.", working: "\\text{mnemonics}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Mnemonics" },
         },
         {
           id: "olcs-u4-lang-q6", difficulty: "core", totalMarks: 2,
@@ -117,7 +117,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "They use only binary" },
             { id: "d", text: "They are easier to read, write and portable" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "High-level", statement: "Readable and portable." }], steps: [{ reasoning: "High-level = human-readable, portable.", working: "\\text{readable}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Easier and portable" },
+          markscheme: { principles: [{ kind: "principle", name: "High-level", statement: "Readable and portable." }], steps: [{ reasoning: "High-level = human-readable, portable.", working: "\\text{readable}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Easier and portable" },
         },
         {
           id: "olcs-u4-lang-q8", difficulty: "core", totalMarks: 2,
@@ -149,7 +149,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Mnemonics" },
             { id: "d", text: "English words" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Machine code", statement: "Binary instructions." }], steps: [{ reasoning: "Machine code = binary.", working: "\\text{binary}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Binary digits" },
+          markscheme: { principles: [{ kind: "definition", name: "Machine code", statement: "Binary instructions." }], steps: [{ reasoning: "Machine code = binary.", working: "\\text{binary}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Binary digits" },
         },
         {
           id: "olcs-u4-lang-q11", difficulty: "core", totalMarks: 2,
@@ -169,7 +169,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Firmware" },
             { id: "d", text: "High-level languages" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Portability", statement: "High-level code is machine-independent." }], steps: [{ reasoning: "High-level runs anywhere with a translator.", working: "\\text{portable}", marks: 1, markCode: "M" }, { reasoning: "Machine/assembly are machine-specific.", marks: 1, markCode: "A" }], finalAnswer: "**(a)** High-level languages" },
+          markscheme: { principles: [{ kind: "principle", name: "Portability", statement: "High-level code is machine-independent." }], steps: [{ reasoning: "High-level runs anywhere with a translator.", working: "\\text{portable}", marks: 1, markCode: "M" }, { reasoning: "Machine/assembly are machine-specific.", marks: 1, markCode: "A" }], finalAnswer: "**(d)** High-level languages" },
         },
         {
           id: "olcs-u4-lang-q13", difficulty: "challenge", totalMarks: 4,
@@ -191,7 +191,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Text into images" },
             { id: "d", text: "Machine code into assembly" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Assembler", statement: "Assembly → machine code." }], steps: [{ reasoning: "Assembler handles mnemonics.", working: "\\text{asm→machine}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Assembly to machine code" },
+          markscheme: { principles: [{ kind: "definition", name: "Assembler", statement: "Assembly → machine code." }], steps: [{ reasoning: "Assembler handles mnemonics.", working: "\\text{asm→machine}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Assembly to machine code" },
         },
         {
           id: "olcs-u4-lang-q15", difficulty: "challenge", totalMarks: 3,
@@ -245,7 +245,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Editor, translator and debugger" },
             { id: "d", text: "A web browser" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "IDE", statement: "All-in-one dev tool." }], steps: [{ reasoning: "IDE = editor+translator+debugger.", working: "\\text{IDE}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Editor+translator+debugger" },
+          markscheme: { principles: [{ kind: "definition", name: "IDE", statement: "All-in-one dev tool." }], steps: [{ reasoning: "IDE = editor+translator+debugger.", working: "\\text{IDE}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Editor+translator+debugger" },
         },
         {
           id: "olcs-u4-ide-q2", difficulty: "core", totalMarks: 2,
@@ -300,7 +300,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Find and fix errors by stepping through code" },
             { id: "d", text: "Print documents" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Debugger", statement: "Steps through code to find errors." }], steps: [{ reasoning: "Debugger traces execution.", working: "\\text{debugger}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Find/fix errors" },
+          markscheme: { principles: [{ kind: "definition", name: "Debugger", statement: "Steps through code to find errors." }], steps: [{ reasoning: "Debugger traces execution.", working: "\\text{debugger}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Find/fix errors" },
         },
         {
           id: "olcs-u4-ide-q6", difficulty: "core", totalMarks: 2,
@@ -320,7 +320,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Colours different parts of the code for readability" },
             { id: "d", text: "Encrypts the file" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Syntax highlighting", statement: "Colours code elements." }], steps: [{ reasoning: "Highlighting improves readability.", working: "\\text{highlight}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Colours code parts" },
+          markscheme: { principles: [{ kind: "definition", name: "Syntax highlighting", statement: "Colours code elements." }], steps: [{ reasoning: "Highlighting improves readability.", working: "\\text{highlight}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Colours code parts" },
         },
         {
           id: "olcs-u4-ide-q8", difficulty: "core", totalMarks: 2,
@@ -349,7 +349,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Fortran only" },
             { id: "d", text: "Assembly" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "IDLE", statement: "Python's IDE." }], steps: [{ reasoning: "IDLE is for Python.", working: "\\text{Python}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Python" },
+          markscheme: { principles: [{ kind: "definition", name: "IDLE", statement: "Python's IDE." }], steps: [{ reasoning: "IDLE is for Python.", working: "\\text{Python}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Python" },
         },
         {
           id: "olcs-u4-ide-q11", difficulty: "core", totalMarks: 2,
@@ -369,7 +369,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Executing one line at a time to watch variables" },
             { id: "d", text: "Running it at full speed" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Step through", statement: "Line-by-line execution." }], steps: [{ reasoning: "Step = one line at a time.", working: "\\text{line-by-line}", marks: 1, markCode: "M" }, { reasoning: "Allows inspecting variables.", marks: 1, markCode: "A" }], finalAnswer: "**(a)** One line at a time" },
+          markscheme: { principles: [{ kind: "definition", name: "Step through", statement: "Line-by-line execution." }], steps: [{ reasoning: "Step = one line at a time.", working: "\\text{line-by-line}", marks: 1, markCode: "M" }, { reasoning: "Allows inspecting variables.", marks: 1, markCode: "A" }], finalAnswer: "**(c)** One line at a time" },
         },
         {
           id: "olcs-u4-ide-q13", difficulty: "challenge", totalMarks: 4,
@@ -391,7 +391,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "A type of printer" },
             { id: "d", text: "A mistake in the code's grammar that stops it running" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Syntax error", statement: "Code grammar mistake." }], steps: [{ reasoning: "Syntax errors prevent execution.", working: "\\text{syntax}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Grammar mistake" },
+          markscheme: { principles: [{ kind: "definition", name: "Syntax error", statement: "Code grammar mistake." }], steps: [{ reasoning: "Syntax errors prevent execution.", working: "\\text{syntax}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Grammar mistake" },
         },
         {
           id: "olcs-u4-ide-q15", difficulty: "challenge", totalMarks: 3,
@@ -412,7 +412,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Translates the whole program before it runs" },
             { id: "d", text: "Prints the program" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Compiler", statement: "Whole program → machine code." }], steps: [{ reasoning: "Compiler translates everything at once.", working: "\\text{whole}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Translates whole program" },
+          markscheme: { principles: [{ kind: "definition", name: "Compiler", statement: "Whole program → machine code." }], steps: [{ reasoning: "Compiler translates everything at once.", working: "\\text{whole}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Translates whole program" },
         },
       ],
     },

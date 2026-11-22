@@ -299,7 +299,7 @@ export const lesson32: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** In straight lines",
+            finalAnswer: "**(d)** In straight lines",
             commonErrors: ["Curved path view."],
           },
         },

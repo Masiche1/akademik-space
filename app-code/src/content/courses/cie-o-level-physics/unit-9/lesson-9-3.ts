@@ -53,11 +53,11 @@ export const lessonp93: Lesson = {
             { id: "b", text: "All" },
             { id: "c", text: "Liquid" },
             { id: "d", text: "Solid" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "States", statement: "Solid fixed both." }],
             steps: [{ reasoning: "Recall.", working: "\\text{solid}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Solid",
+            finalAnswer: "**(d)** Solid",
             commonErrors: ["Liquid fixed volume only."],
           },
         },
@@ -137,7 +137,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "States", statement: "Liquid: fixed volume, takes container shape." }],
             steps: [{ reasoning: "Recall.", working: "\\text{liquid}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Liquid",
+            finalAnswer: "**(d)** Liquid",
             commonErrors: ["Gases have no fixed volume."],
           },
         },
@@ -151,11 +151,11 @@ export const lessonp93: Lesson = {
             { id: "b", text: "liquids" },
             { id: "c", text: "solids" },
             { id: "d", text: "all states equally" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Diffusion", statement: "Gas > liquid > solid diffusion rate." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gas} > \\text{liquid} > \\text{solid}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** gases",
+            finalAnswer: "**(a)** gases",
             commonErrors: ["Solids diffuse extremely slowly."],
           },
         },
@@ -191,7 +191,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Meniscus", statement: "Curved liquid surface in a container." }],
             steps: [{ reasoning: "Recall.", working: "\\text{meniscus}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** a liquid is placed in a container",
+            finalAnswer: "**(a)** a liquid is placed in a container",
             commonErrors: ["Meniscus is a liquid surface feature."],
           },
         },
@@ -209,7 +209,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Compressibility", statement: "Liquid particles close-packed → little room to compress." }],
             steps: [{ reasoning: "Recall.", working: "\\text{close together}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** their particles are already close together with little free space",
+            finalAnswer: "**(c)** their particles are already close together with little free space",
             commonErrors: ["Gases compress easily because particles are far apart."],
           },
         },
@@ -380,7 +380,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Brownian", statement: "Random collisions." }],
             steps: [{ reasoning: "Recall.", working: "\\text{random}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Random particle motion from collisions",
+            finalAnswer: "**(a)** Random particle motion from collisions",
             commonErrors: ["Not random — it's random."],
           },
         },
@@ -460,7 +460,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Brownian motion", statement: "Visible grains jitter in a fluid." }],
             steps: [{ reasoning: "Recall.", working: "\\text{pollen in water}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** pollen grains suspended in water",
+            finalAnswer: "**(d)** pollen grains suspended in water",
             commonErrors: ["Needs a fluid with invisible fast particles."],
           },
         },
@@ -478,7 +478,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Brownian motion", statement: "Random motion from uneven collisions with fluid particles." }],
             steps: [{ reasoning: "Recall.", working: "\\text{collisions}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** collisions with invisible, fast-moving particles",
+            finalAnswer: "**(a)** collisions with invisible, fast-moving particles",
             commonErrors: ["Not a directed force — it's random collisions."],
           },
         },
@@ -514,7 +514,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Temperature effect", statement: "Higher T → faster particles → faster Brownian motion." }],
             steps: [{ reasoning: "Recall.", working: "T \\uparrow \\Rightarrow \\text{faster}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** higher temperatures",
+            finalAnswer: "**(a)** higher temperatures",
             commonErrors: ["Colder fluids slow the motion."],
           },
         },
@@ -532,7 +532,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Brownian motion", statement: "Unequal molecular bombardment causes random jitter." }],
             steps: [{ reasoning: "Recall.", working: "\\text{unequal bombardment}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** it is bombarded unevenly by countless fast-moving water molecules",
+            finalAnswer: "**(a)** it is bombarded unevenly by countless fast-moving water molecules",
             commonErrors: ["The grain moves due to net imbalance of molecular hits."],
           },
         },

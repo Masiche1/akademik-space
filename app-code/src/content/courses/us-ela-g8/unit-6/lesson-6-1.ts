@@ -115,7 +115,7 @@ export const lesson61: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Arguments use evidence; opinions just assert.",
+              "**(c)**. Arguments use evidence; opinions just assert.",
             commonErrors: [
               "Thinking opinions are 'wrong' — they're just unsupported.",
             ],
@@ -350,7 +350,7 @@ export const lesson61: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Introduce, state, analyze, connect to claim.",
+              "**(a)**. Introduce, state, analyze, connect to claim.",
             commonErrors: ["Choosing (a) — evidence without analysis is weak."],
           },
         },

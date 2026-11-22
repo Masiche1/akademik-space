@@ -100,7 +100,7 @@ export const lesson73: Lesson = {
               { id: "c", text: "Sentence 3" },
               { id: "d", text: "Sentence 2" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -120,7 +120,7 @@ export const lesson73: Lesson = {
               },
             ],
             finalAnswer:
-              "**(d)**. Sentence 4 — mixes noun phrases with a clause.",
+              "**(b)**. Sentence 4 — mixes noun phrases with a clause.",
             commonErrors: [
               "Missing sentence 3 — 'learn to speak, how to research, and listening' is also broken but less obvious.",
             ],
@@ -360,7 +360,7 @@ export const lesson73: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Two independent clauses joined by 'and.'",
+            finalAnswer: "**(d)**. Two independent clauses joined by 'and.'",
             commonErrors: [
               "Choosing (a) — that's complex (has dependent clause).",
             ],

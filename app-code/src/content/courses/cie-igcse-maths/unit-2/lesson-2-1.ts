@@ -67,7 +67,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Multiply each term: $x^2+5x+3x+15$, then collect the middle terms.", working: "x^2+8x+15", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x^2+8x+15$",
+            finalAnswer: "**(d)** $x^2+8x+15$",
             commonErrors: ["Dropping the cross terms to get $x^2+15$.", "Adding the constants incorrectly to get $+8$."],
           },
         },
@@ -176,7 +176,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Middle term is $4+7=11$; constant term is $4\\times7=28$.", working: "x^2+11x+28", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $x^2+11x+28$",
+            finalAnswer: "**(c)** $x^2+11x+28$",
             commonErrors: ["Writing $x^2+28x+11$ by swapping the middle and constant terms.", "Adding the $x$ terms incorrectly."],
           },
         },
@@ -202,7 +202,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$4\\times5=20$ and $4+5=9$.", working: "(x+4)(x+5)=x^2+9x+20", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $(x+4)(x+5)$",
+            finalAnswer: "**(d)** $(x+4)(x+5)$",
             commonErrors: ["Choosing $2$ and $10$, which multiply to 20 but add to 12.", "Using negative signs for a positive constant term."],
           },
         },
@@ -228,7 +228,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Need factors of 6 ($2\\times3$) that combine to give $7x$: $6x+x$.", working: "2x^2+6x+x+3=x(2x+3)+(2x+3)=(2x+1)(x+3)", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $(2x+1)(x+3)$",
+            finalAnswer: "**(c)** $(2x+1)(x+3)$",
             commonErrors: ["Choosing $(2x+3)(x+1)$, which expands to $2x^2+5x+3$.", "Sign error giving negative brackets."],
           },
         },
@@ -411,7 +411,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Middle term: $-6+2=-4$; constant: $-6\\times2=-12$.", working: "x^2-4x-12", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $x^2-4x-12$",
+            finalAnswer: "**(b)** $x^2-4x-12$",
             commonErrors: ["Sign error on the middle term giving $+4x$.", "Sign error on the constant giving $+12$."],
           },
         },
@@ -437,7 +437,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Compare $(x+3)^2=x^2+6x+9$ with $x^2+kx+9$.", working: "k=6", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $k=6$",
+            finalAnswer: "**(a)** $k=6$",
             commonErrors: ["Writing $k=3$ by forgetting the factor 2 in the middle term."],
           },
         },
@@ -496,7 +496,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Multiply coefficients and add indices.", working: "3\\times4=12,\\quad x^{2+3}=x^5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $12x^5$",
+            finalAnswer: "**(d)** $12x^5$",
             commonErrors: ["Adding coefficients to get 7.", "Multiplying indices to get $x^6$."],
           },
         },
@@ -604,7 +604,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Add the indices: $5+3=8$.", working: "x^{5+3}=x^8", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $x^8$",
+            finalAnswer: "**(b)** $x^8$",
             commonErrors: ["Multiplying the indices to get $x^{15}$.", "Adding the bases to get $2x^8$."],
           },
         },
@@ -630,7 +630,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Subtract the indices: $9-4=5$.", working: "x^{9-4}=x^5", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $x^5$",
+            finalAnswer: "**(c)** $x^5$",
             commonErrors: ["Dividing the indices to get $x^{2.25}$.", "Adding the indices to get $x^{13}$."],
           },
         },
@@ -656,7 +656,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Square both the coefficient and the power: $2^2=4$ and $(x^3)^2=x^6$.", working: "(2x^3)^2=4x^6", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $4x^6$",
+            finalAnswer: "**(c)** $4x^6$",
             commonErrors: ["Writing $2x^6$ — forgetting to square the coefficient.", "Writing $4x^9$ — adding instead of multiplying the indices."],
           },
         },
@@ -826,7 +826,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "$x^5\\times x^3$" },
               { id: "d", text: "$x^{12}\\div x^4$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -835,7 +835,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Evaluate each: (a) $x^8$, (b) $x^8$, (c) $x^9$, (d) $x^8$.", working: "x^{11-2}=x^9\\ne x^8", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** $x^{11}\\div x^2=x^9$",
+            finalAnswer: "**(a)** $x^{11}\\div x^2=x^9$",
             commonErrors: ["Misreading (c) as $x^{11-2}=x^8$."],
           },
         },
@@ -861,7 +861,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Write $125$ as a power of 5: $125=5^3$, so $x=3$.", working: "5^x=5^3\\Rightarrow x=3", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $x=3$",
+            finalAnswer: "**(c)** $x=3$",
             commonErrors: ["Writing $125=5^2\\times5$ and mishandling the index.", "Answering $x=25$ by dividing instead of matching bases."],
           },
         },

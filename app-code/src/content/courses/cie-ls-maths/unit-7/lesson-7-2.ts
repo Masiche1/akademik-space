@@ -65,7 +65,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Same orientation, uniform shift → translation by $\\begin{pmatrix}5\\\\2\\end{pmatrix}$.", working: "translation", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Translation",
+            finalAnswer: "**(d)** Translation",
             commonErrors: ["Choosing (c) — no turning occurred."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Mirror-image flip → reflection.", working: "reflection", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Reflection",
+            finalAnswer: "**(a)** Reflection",
             commonErrors: ["Choosing (c) — rotation turns, doesn't flip."],
           },
         },
@@ -293,7 +293,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Reflection reverses orientation while keeping size.", working: "reflection", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Reflection",
+            finalAnswer: "**(d)** Reflection",
             commonErrors: ["Choosing (d) — rotation preserves orientation."],
           },
         },
@@ -337,7 +337,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Turned a right angle → rotation of $90°$.", working: "90°", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A rotation of $90°$",
+            finalAnswer: "**(d)** A rotation of $90°$",
             commonErrors: ["Choosing (a) — a flip isn't a turn."],
           },
         },
@@ -398,7 +398,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "$(3,4) \\times 2 = (6,8)$.", working: "(6,8)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $(6, 8)$",
+            finalAnswer: "**(a)** $(6, 8)$",
             commonErrors: ["Choosing (a) — added 2 instead of multiplying."],
           },
         },
@@ -473,7 +473,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Order can matter — e.g. reflect-then-translate differs from translate-then-reflect.", working: "\\text{sometimes}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Yes, sometimes",
+            finalAnswer: "**(d)** Yes, sometimes",
             commonErrors: ["Choosing (b) — most transformation sequences are order-dependent."],
           },
         },
@@ -578,7 +578,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Parallel mirror lines → net translation.", working: "translation", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Translation",
+            finalAnswer: "**(a)** Translation",
             commonErrors: ["Choosing (a) — parallel reflections don't rotate."],
           },
         },
@@ -639,7 +639,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Both coordinates negate = $180°$ rotation about origin.", working: "180°", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A rotation of $180°$",
+            finalAnswer: "**(c)** A rotation of $180°$",
             commonErrors: ["Choosing (d) — reflections in perpendicular axes don't cancel."],
           },
         },
@@ -745,7 +745,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "$(-3,4)+(1,0) = (-2,4)$.", working: "(-2,4)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(-2, 4)$",
+            finalAnswer: "**(c)** $(-2, 4)$",
             commonErrors: ["Choosing (d) — forgot the y-axis reflection negates $x$ first."],
           },
         },
@@ -806,7 +806,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "$(5,-3)+(2,0) = (7,-3)$.", working: "(7,-3)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $(7, -3)$",
+            finalAnswer: "**(d)** $(7, -3)$",
             commonErrors: ["Choosing (a) — forgot the x-axis reflection flips $y$."],
           },
         },

@@ -51,7 +51,7 @@ export const lesson213: Lesson = {
             { id: "b", text: "White wall" },
             { id: "c", text: "Moon" },
             { id: "d", text: "Sun" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Light source", statement: "Makes own light." }],
             steps: [{ reasoning: "Sun makes its own light; others reflect.", marks: 1, markCode: "A" }],

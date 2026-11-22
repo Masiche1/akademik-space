@@ -51,7 +51,7 @@ export const lesson210: Lesson = {
             { id: "b", text: "All of them" },
             { id: "c", text: "Sedimentary" },
             { id: "d", text: "Metamorphic" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Igneous", statement: "Formed from cooled magma/lava." }],
             steps: [{ reasoning: "Molten rock cooling = igneous.", marks: 1, markCode: "A" }],
@@ -225,7 +225,7 @@ export const lesson210: Lesson = {
             { id: "b", text: "Metamorphic" },
             { id: "c", text: "Sedimentary" },
             { id: "d", text: "Igneous" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Igneous", statement: "Forms from cooled magma or lava." }],
             steps: [{ reasoning: "Cooled magma → igneous rock.", marks: 1, markCode: "A" }],

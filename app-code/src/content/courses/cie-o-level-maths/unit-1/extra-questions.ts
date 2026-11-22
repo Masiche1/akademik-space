@@ -229,4 +229,21 @@ export function extraQuestions(id: string): Question[] {
         ["core", "A time is 15 seconds to the nearest second. The possible range is…", ["14.5 s to 15.5 s", "14 s to 16 s", "15 s to 16 s", "14.9 s to 15.1 s"], 0, "Bounds are $15\\pm0.5$ seconds.", "Error bounds"],
         ["core", "A measurement of 0.30 m to 2 decimal places has upper bound…", ["0.305 m", "0.31 m", "0.35 m", "0.304 m"], 0, "Half of 0.01 is 0.005; $0.30+0.005=0.305$ m.", "Error bounds"],
         ["foundation", "If a length is 12 mm to the nearest mm, the lower bound is…", ["11.5 mm", "11 mm", "12.5 mm", "11.9 mm"], 0, "Half a millimetre below 12 is 11.5 mm.", "Error bounds"],
-        ["challenge", "A rectangle has length 10.0 cm and width 5.0 cm, both to 1 d.p. The largest possible perimeter is…", ["30.2 cm", "30 cm", "30.4 cm", "30.1 cm"], 0, "Use upper bounds 10.05
+        ["challenge", "A rectangle has length 10.0 cm and width 5.0 cm, both to 1 d.p. The largest possible perimeter is…", ["30.2 cm", "30 cm", "30.4 cm", "30.1 cm"], 0, "Use upper bounds 10.05 and 5.05: $2(10.05+5.05)=30.2$ cm.", "Bounds of perimeter"],
+      ];
+      const n: N[] = [
+        ["foundation", "Write the lower bound of 7.3 to 1 decimal place.", 7.25, "Half of 0.1 is 0.05.", "$7.3-0.05=7.25$.", "7.25", "Lower bound"],
+        ["foundation", "Write the upper bound of 4.8 to 1 decimal place.", 4.85, "Half of 0.1 is 0.05.", "$4.8+0.05=4.85$.", "4.85", "Upper bound"],
+        ["core", "A measurement is 3.0 m to 1 decimal place. Find the upper bound.", 3.05, "Half of 0.1 is 0.05.", "$3.0+0.05=3.05$ m.", "3.05", "Upper bound"],
+        ["challenge", "A square has side 6.0 cm to 1 decimal place. Find the maximum possible area.", 36.6025, "Maximum side is 6.05 cm.", "$6.05^2=36.6025$ cm².", "36.6025", "Bounds of area"],
+      ];
+      const o: O[] = [
+        ["core", "A journey takes 25 minutes to the nearest minute. Explain the bounds and state the maximum possible time.", "Nearest minute gives $25\\pm0.5$ minutes.", "Lower 24.5 min; upper 25.5 min.", "Maximum time is 25.5 minutes.", "Error bounds", "Bounds"],
+        ["challenge", "Two lengths are 4.0 cm and 2.0 cm, each to 1 d.p. Find the minimum and maximum possible sum.", "Minimum uses lower bounds: $3.95+1.95=5.90$ cm.", "Maximum uses upper bounds: $4.05+2.05=6.10$ cm.", "Sum lies between 5.90 cm and 6.10 cm.", "Bounds of sum", "Bounds"],
+      ];
+      return [...m.map((s, i) => mcq(q(5 + i), ...s)), ...n.map((s, i) => num(q(11 + i), ...s)), ...o.map((s, i) => open(q(15 + i), ...s))];
+    }
+    default:
+      return [];
+  }
+}

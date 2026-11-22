@@ -65,7 +65,7 @@ export const lesson53: Lesson = {
               { reasoning: "Divide the population by the area to obtain people per square mile.", working: "D=\\frac{18{,}000}{60}", marks: 1, markCode: "M" },
               { reasoning: "Evaluate the quotient and preserve the density units.", working: "D=300\\text{ people per square mile}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $300$ people per square mile.",
+            finalAnswer: "**(b)** $300$ people per square mile.",
             commonErrors: ["Multiplying population by area instead of dividing.", "Reporting the total population instead of a per-square-mile rate."],
           },
         },

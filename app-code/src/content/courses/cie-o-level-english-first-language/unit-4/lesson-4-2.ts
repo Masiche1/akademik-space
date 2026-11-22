@@ -65,7 +65,7 @@ export const lesson142: Lesson = {
             steps: [
               { reasoning: "Sensationalism = exciting emphasis.", working: "exciting", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Emphasis on exciting aspects",
+            finalAnswer: "**(d)** Emphasis on exciting aspects",
             commonErrors: ["Choosing (b) — that's accuracy."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson142: Lesson = {
             steps: [
               { reasoning: "Choices shape news.", working: "choices", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Selection, word choice and placement shape it",
+            finalAnswer: "**(d)** Selection, word choice and placement shape it",
             commonErrors: ["Accepting news as neutral."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson142: Lesson = {
             steps: [
               { reasoning: "Fame persuades.", working: "fame", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** A persuasion technique using fame",
+            finalAnswer: "**(b)** A persuasion technique using fame",
             commonErrors: ["Treating as neutral."],
           },
         },
@@ -278,7 +278,7 @@ export const lesson142: Lesson = {
             steps: [
               { reasoning: "Bandwagon = belonging.", working: "belonging", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Desire to belong or follow the crowd",
+            finalAnswer: "**(d)** Desire to belong or follow the crowd",
             commonErrors: ["Confusing with fear appeal."],
           },
         },
@@ -322,7 +322,7 @@ export const lesson142: Lesson = {
             steps: [
               { reasoning: "Fear persuades.", working: "fear", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Scare the audience into buying",
+            finalAnswer: "**(c)** Scare the audience into buying",
             commonErrors: ["Fear appeal as information."],
           },
         },
@@ -483,7 +483,7 @@ export const lesson142: Lesson = {
             steps: [
               { reasoning: "Qualified+verifiable=credible.", working: "qualified", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Qualified author, verifiable facts",
+            finalAnswer: "**(d)** Qualified author, verifiable facts",
             commonErrors: ["Choosing (d) — popularity ≠ credibility."],
           },
         },
@@ -588,7 +588,7 @@ export const lesson142: Lesson = {
             steps: [
               { reasoning: "Fact = verifiable.", working: "verifiable", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Verified or checked",
+            finalAnswer: "**(d)** Verified or checked",
             commonErrors: ["Fact as belief."],
           },
         },
@@ -632,7 +632,7 @@ export const lesson142: Lesson = {
             steps: [
               { reasoning: "Disinformation = deliberate.", working: "deliberate", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Deliberately false",
+            finalAnswer: "**(d)** Deliberately false",
             commonErrors: ["Confusing with misinformation (accidental)."],
           },
         },
@@ -696,7 +696,7 @@ export const lesson142: Lesson = {
             steps: [
               { reasoning: "Echo = agreement only.", working: "agreement", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Exposure only to agreeing views",
+            finalAnswer: "**(b)** Exposure only to agreeing views",
             commonErrors: ["Echo chamber as neutral."],
           },
         },
@@ -740,7 +740,7 @@ export const lesson142: Lesson = {
             steps: [
               { reasoning: "Citations+transparency.", working: "transparent", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Citations and transparency",
+            finalAnswer: "**(d)** Citations and transparency",
             commonErrors: ["Popularity as reliability."],
           },
         },
@@ -786,7 +786,7 @@ export const lesson142: Lesson = {
             steps: [
               { reasoning: "Vague=unsupported.", working: "vague", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Vague and unsupported",
+            finalAnswer: "**(d)** Vague and unsupported",
             commonErrors: ["Accepting consensus claims."],
           },
         },
@@ -1050,7 +1050,7 @@ export const lesson142: Lesson = {
             steps: [
               { reasoning: "Review = evaluate.", working: "evaluate", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Evaluate and recommend",
+            finalAnswer: "**(c)** Evaluate and recommend",
             commonErrors: ["Review as neutral report."],
           },
         },
@@ -1114,7 +1114,7 @@ export const lesson142: Lesson = {
             steps: [
               { reasoning: "Register+audience.", working: "register", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Register and audience",
+            finalAnswer: "**(c)** Register and audience",
             commonErrors: ["Genre as only structure."],
           },
         },
@@ -1204,7 +1204,7 @@ export const lesson142: Lesson = {
             steps: [
               { reasoning: "Feature = in-depth.", working: "depth", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Explores a topic in depth",
+            finalAnswer: "**(c)** Explores a topic in depth",
             commonErrors: ["Confusing with news report."],
           },
         },

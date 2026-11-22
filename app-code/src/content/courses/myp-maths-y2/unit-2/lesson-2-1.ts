@@ -71,7 +71,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Multiply both terms by 4: $4\\times x=4x$ and $4\\times(-3)=-12$.", working: "4(x-3)=4x-12", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $4x-12$",
+            finalAnswer: "**(b)** $4x-12$",
             commonErrors: ["Multiplying only the first term, giving $4x-3$.", "Getting the sign wrong, giving $4x+12$.", "Multiplying only the number, giving $x-12$."],
             examinerNote: "B1 for 4x - 12.",
           },
@@ -192,7 +192,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Multiply both terms inside by 3.", working: "3x+12", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3x+12$",
+            finalAnswer: "**(c)** $3x+12$",
             commonErrors: ["Multiplying only the first term, giving $3x+4$.", "Adding 3 and 4 instead of multiplying."],
             examinerNote: "B1 for choice (a).",
           },
@@ -219,7 +219,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Multiply both terms by $-2$: $-2\\times x=-2x$ and $-2\\times(-5)=+10$.", working: "-2x+10", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $-2x+10$",
+            finalAnswer: "**(a)** $-2x+10$",
             commonErrors: ["Keeping the sign of $-5$ unchanged, giving $-2x-10$.", "Dropping the minus on $x$."],
             examinerNote: "B1 for choice (b).",
           },
@@ -296,7 +296,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$(x+1)(x+1)=x^2+x+x+1=x^2+2x+1$.", working: "x^2+2x+1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $x^2+2x+1$",
+            finalAnswer: "**(c)** $x^2+2x+1$",
             commonErrors: ["Choosing (a), the classic error of squaring only the terms."],
             examinerNote: "B1 for choice (b).",
           },
@@ -369,7 +369,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Need $a+b=-5$ and $ab=6$; $-2$ and $-3$ work.", working: "(x-2)(x-3)=x^2-5x+6", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $(x-2)(x-3)$",
+            finalAnswer: "**(a)** $(x-2)(x-3)$",
             commonErrors: ["Choosing (a), which gives $x^2+5x+6$."],
             examinerNote: "B1 for choice (b).",
           },
@@ -540,7 +540,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "The HCF of 6 and 15 is 3. Divide each term by 3.", working: "6x+15=3(2x+5)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3(2x+5)$",
+            finalAnswer: "**(b)** $3(2x+5)$",
             commonErrors: ["Dividing only the first term by 3, giving $3(2x+15)$.", "Taking out 6 from both terms without dividing 15 correctly.", "Adding the terms together, giving $21x$."],
             examinerNote: "B1 for 3(2x + 5). Check by expanding.",
           },
@@ -689,7 +689,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "The HCF is 5; divide each term by 5, keeping the minus sign.", working: "5x-10=5(x-2)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $5(x-2)$",
+            finalAnswer: "**(a)** $5(x-2)$",
             commonErrors: ["Writing $5(x-10)$ by not dividing 10 by 5.", "Getting the sign wrong inside the bracket."],
             examinerNote: "B1 for choice (b). Check: $5(x-2)=5x-10$.",
           },

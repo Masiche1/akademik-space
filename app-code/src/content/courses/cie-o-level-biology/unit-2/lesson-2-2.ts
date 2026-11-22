@@ -65,7 +65,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{substrate binding}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Where the substrate binds",
+            finalAnswer: "**(c)** Where the substrate binds",
             commonErrors: ["Confusing active site with active transport."],
           },
         },
@@ -161,7 +161,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{protein catalyst}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Protein catalysts",
+            finalAnswer: "**(c)** Protein catalysts",
             commonErrors: ["Choosing vitamin — vitamins are not catalysts for metabolism in this sense."],
           },
         },
@@ -187,7 +187,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recall the function.", working: "\\text{substrate binds}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Where the substrate binds",
+            finalAnswer: "**(c)** Where the substrate binds",
             commonErrors: ["Confusing with active transport proteins."],
           },
         },
@@ -362,7 +362,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "They act as catalysts" },
               { id: "d", text: "They are used up in the reaction" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -371,7 +371,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Identify the false statement.", working: "\\text{reusable}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** They are used up in the reaction",
+            finalAnswer: "**(d)** They are used up in the reaction",
             commonErrors: ["Thinking enzymes are consumed — they are regenerated unchanged."],
           },
         },
@@ -480,7 +480,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recall the effect.", working: "\\text{denaturation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It denatures",
+            finalAnswer: "**(b)** It denatures",
             commonErrors: ["Saying activity stops but enzyme can recover — heat denaturation is irreversible."],
           },
         },
@@ -565,7 +565,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "$100^\\circ$C" },
               { id: "d", text: "$0^\\circ$C" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -574,7 +574,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recall body temperature.", working: "37^\\circ\\text{C}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $37^\\circ$C",
+            finalAnswer: "**(b)** $37^\\circ$C",
             commonErrors: ["Choosing 100°C — that would denature the enzyme."],
           },
         },
@@ -627,7 +627,7 @@ export const lesson22: Lesson = {
               { reasoning: "Interpret pH 2 on the scale.", working: "\\text{pH} < 7 = \\text{acid}", marks: 1, markCode: "M" },
               { reasoning: "Match to stomach conditions.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It works best in acidic conditions",
+            finalAnswer: "**(d)** It works best in acidic conditions",
             commonErrors: ["Thinking all enzymes prefer pH 7 — optima vary."],
           },
         },
@@ -720,7 +720,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recall the plateau explanation.", working: "\\text{saturation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** All active sites are occupied — the enzyme is saturated",
+            finalAnswer: "**(d)** All active sites are occupied — the enzyme is saturated",
             commonErrors: ["Saying substrate runs out — substrate is in excess at the plateau."],
           },
         },

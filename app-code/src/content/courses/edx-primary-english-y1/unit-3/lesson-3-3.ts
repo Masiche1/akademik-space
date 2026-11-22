@@ -277,7 +277,7 @@ export const lesson33: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Read it back and check",
+            finalAnswer: "**(a)** Read it back and check",
             commonErrors: ["Skipping the checking step."],
           },
         },

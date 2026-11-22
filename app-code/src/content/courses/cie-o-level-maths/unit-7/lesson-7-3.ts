@@ -134,7 +134,7 @@ export const lesson73: Lesson = {
             { id: "b", text: "A∩B" },
             { id: "c", text: "The universal set" },
             { id: "d", text: "A∪B" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Outside both", statement: "Complement of union." }], steps: [{ reasoning: "Outside both circles = neither.", marks: 1, markCode: "A" }], finalAnswer: "Neither A nor B" },
         },
         {

@@ -60,7 +60,7 @@ export const lesson91: Lesson = {
               { id: "c", text: "48 cm²" },
               { id: "d", text: "10 cm²" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -69,7 +69,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Area = length × width.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** 24 cm²",
+            finalAnswer: "**(b)** 24 cm²",
             commonErrors: ["Adding 6+4=10 — that's perimeter-ish."],
           },
         },
@@ -272,7 +272,7 @@ export const lesson91: Lesson = {
               },
             ],
             steps: [{ reasoning: "4×3=12, ×2=24.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 24 cm³",
+            finalAnswer: "**(d)** 24 cm³",
             commonErrors: ["Adding dimensions: 4+3+2=9."],
           },
         },

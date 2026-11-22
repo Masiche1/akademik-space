@@ -119,7 +119,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Audience and purpose decide how formal the writing should be.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** The audience and purpose",
+            finalAnswer: "**(d)** The audience and purpose",
           },
         },
         {
@@ -168,7 +168,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "A letter to the headteacher requires formal register.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** A letter to the headteacher",
+            finalAnswer: "**(c)** A letter to the headteacher",
           },
         },
         {
@@ -254,7 +254,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Only option b is formal, polite and clear.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** I am writing to raise a concern about the school lunch provision.",
+            finalAnswer: "**(c)** I am writing to raise a concern about the school lunch provision.",
           },
         },
         {
@@ -597,7 +597,7 @@ export const lesson43: Lesson = {
             { id: "b", text: "Unfortunately the ending felt rushed." },
             { id: "c", text: "The acting was superb." },
             { id: "d", text: "I would recommend it to anyone who likes thrillers." },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "convention", name: "Review relevance", statement: "Only evaluative content." }],
             steps: [

@@ -97,7 +97,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Increasing temperature" },
               { id: "d", text: "Adding a catalyst" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -272,7 +272,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "It shifts to the right, favouring products" },
               { id: "d", text: "The reaction stops because the catalyst is consumed" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

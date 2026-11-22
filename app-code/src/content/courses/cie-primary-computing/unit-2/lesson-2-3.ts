@@ -231,7 +231,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "FOR loops repeat a set number of times — best when the count is known.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** When you know exactly how many times",
+            finalAnswer: "**(c)** When you know exactly how many times",
           },
         },
         {
@@ -280,7 +280,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "WHILE repeats as long as its condition is true; stops when false.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Condition must stay true",
+            finalAnswer: "**(b)** Condition must stay true",
           },
         },
         {
@@ -316,7 +316,7 @@ export const lesson23: Lesson = {
               { reasoning: "If the condition never becomes false the loop never ends — an infinite loop bug.", marks: 1, markCode: "M" },
               { reasoning: "Something inside (counter, variable) must change the condition.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Otherwise it becomes an infinite loop",
+            finalAnswer: "**(c)** Otherwise it becomes an infinite loop",
           },
         },
         {

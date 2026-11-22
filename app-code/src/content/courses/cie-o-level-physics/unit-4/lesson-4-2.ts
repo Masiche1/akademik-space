@@ -60,7 +60,7 @@ export const lessonp42: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Sound", statement: "Vibration produces sound." }],
             steps: [{ reasoning: "Recall.", working: "\\text{vibration} \\to \\text{sound}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Vibrating objects",
+            finalAnswer: "**(c)** Vibrating objects",
             commonErrors: ["Sound needs vibration not heat."],
           },
         },
@@ -158,7 +158,7 @@ export const lessonp42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Ultrasound", statement: "Sound above human hearing range (>20 kHz)." }],
             steps: [{ reasoning: "Recall.", working: "f > 20\\ \\text{kHz}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Sound above 20 kHz",
+            finalAnswer: "**(a)** Sound above 20 kHz",
             commonErrors: ["Confusing with infrasound."],
           },
         },
@@ -243,7 +243,7 @@ export const lessonp42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Compression", statement: "Region where particles are crowded — high pressure." }],
             steps: [{ reasoning: "Recall.", working: "\\text{compression} = \\text{high pressure}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A region of high pressure",
+            finalAnswer: "**(a)** A region of high pressure",
             commonErrors: ["Confusing compression with rarefaction."],
           },
         },
@@ -261,7 +261,7 @@ export const lessonp42: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Sonar", statement: "Sound navigation and ranging uses echoes." }],
             steps: [{ reasoning: "Recall.", working: "\\text{sonar} \\to \\text{echoes}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Echoes of sound",
+            finalAnswer: "**(a)** Echoes of sound",
             commonErrors: ["Saying light, which does not travel well in water."],
           },
         },
@@ -389,7 +389,7 @@ export const lessonp42: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Wave", statement: "v = fλ." }],
             steps: [{ reasoning: "Recall.", working: "v = f\\lambda", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** v = fλ",
+            finalAnswer: "**(d)** v = fλ",
             commonErrors: ["Dividing instead of multiplying."],
           },
         },
@@ -469,7 +469,7 @@ export const lessonp42: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Wave", statement: "v = fλ → f = v/λ." }],
             steps: [{ reasoning: "Recall.", working: "f = \\frac{v}{\\lambda}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $f = \\dfrac{v}{\\lambda}$",
+            finalAnswer: "**(a)** $f = \\dfrac{v}{\\lambda}$",
             commonErrors: ["Rearranging incorrectly — dividing by λ not multiplying."],
           },
         },
@@ -483,11 +483,11 @@ export const lessonp42: Lesson = {
             { id: "b", text: "zero speed" },
             { id: "c", text: "$1500\\ \\text{m/s}$" },
             { id: "d", text: "$340\\ \\text{m/s}$" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "EM waves", statement: "All EM waves travel at 3×10⁸ m/s in vacuum." }],
             steps: [{ reasoning: "Recall.", working: "c = 3 \\times 10^{8}\\ \\text{m/s}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** $3 \\times 10^{8}\\ \\text{m/s}$",
+            finalAnswer: "**(a)** $3 \\times 10^{8}\\ \\text{m/s}$",
             commonErrors: ["Using the speed of sound — that applies to sound waves in air."],
           },
         },
@@ -553,7 +553,7 @@ export const lessonp42: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Diffraction", statement: "Greatest when gap ≈ wavelength." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gap} \\approx \\lambda", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The gap is about the same size as the wavelength",
+            finalAnswer: "**(c)** The gap is about the same size as the wavelength",
             commonErrors: ["Thinking diffraction only happens through small holes — any gap comparable to λ works."],
           },
         },

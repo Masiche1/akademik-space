@@ -99,7 +99,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "A payment to domestic producers" },
             { id: "d", text: "A limit on the quantity of imports allowed" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Quota", statement: "Import quantity limit." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Quota", statement: "Import quantity limit." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u5-pm-q6", difficulty: "foundation", totalMarks: 2,
@@ -145,7 +145,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Removing foreign competition entirely" },
             { id: "d", text: "Raising the price of imports so domestic goods become relatively cheaper" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Tariff effect", statement: "Price mechanism." }], steps: [{ reasoning: "The tax raises import prices, shifting demand to domestic goods.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Tariff effect", statement: "Price mechanism." }], steps: [{ reasoning: "The tax raises import prices, shifting demand to domestic goods.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u5-pm-q10", difficulty: "challenge", totalMarks: 4,
@@ -167,7 +167,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Selling exports below cost to gain market share" },
             { id: "d", text: "Exporting at the world price" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Dumping", statement: "Below-cost exports." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Dumping", statement: "Below-cost exports." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u5-pm-q12", difficulty: "challenge", totalMarks: 3,
@@ -203,7 +203,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "A limit on import quantities" },
             { id: "d", text: "A free trade agreement" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Embargo", statement: "Total trade ban." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Embargo", statement: "Total trade ban." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u5-pm-q15", difficulty: "core", totalMarks: 2,
@@ -268,7 +268,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Common currency" },
             { id: "d", text: "Closed borders" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "FTA", statement: "No internal tariffs." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "FTA", statement: "No internal tariffs." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u5-ag-q2", difficulty: "core", totalMarks: 2,
@@ -324,7 +324,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Free movement of labour" },
             { id: "d", text: "A common government" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Customs union", statement: "FTA + common external tariff." }], steps: [{ reasoning: "Correct distinction.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Customs union", statement: "FTA + common external tariff." }], steps: [{ reasoning: "Correct distinction.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u5-ag-q6", difficulty: "core", totalMarks: 1,
@@ -335,7 +335,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Promote free trade, set trade rules and settle disputes" },
             { id: "d", text: "Lend money to developing countries" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "WTO", statement: "Global trade rules." }], steps: [{ reasoning: "Correct function.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "WTO", statement: "Global trade rules." }], steps: [{ reasoning: "Correct function.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u5-ag-q7", difficulty: "core", totalMarks: 2,
@@ -367,7 +367,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Exports exceed imports" },
             { id: "d", text: "Members buy from a higher-cost member instead of a lower-cost non-member because of the agreement" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Trade diversion", statement: "Inefficient sourcing." }], steps: [{ reasoning: "Tariff preferences can shift trade to less efficient suppliers.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Trade diversion", statement: "Inefficient sourcing." }], steps: [{ reasoning: "Tariff preferences can shift trade to less efficient suppliers.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u5-ag-q10", difficulty: "challenge", totalMarks: 4,
@@ -434,7 +434,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Are removed entirely" },
             { id: "d", text: "Remain unchanged — each member keeps its own" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "FTA", statement: "External tariffs unchanged." }], steps: [{ reasoning: "Correct feature of an FTA.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "FTA", statement: "External tariffs unchanged." }], steps: [{ reasoning: "Correct feature of an FTA.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u5-ag-q16", difficulty: "challenge", totalMarks: 9,

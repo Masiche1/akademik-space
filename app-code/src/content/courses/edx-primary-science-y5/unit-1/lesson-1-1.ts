@@ -231,7 +231,7 @@ export const lesson151: Lesson = {
             steps: [
               { reasoning: "Ecosystem defined.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Community of organisms + their environment",
+            finalAnswer: "**(c)** Community of organisms + their environment",
             commonErrors: ["Partial definition."],
           },
         },
@@ -266,7 +266,7 @@ export const lesson151: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Pollution and habitat destruction",
+            finalAnswer: "**(a)** Pollution and habitat destruction",
             commonErrors: ["Positive actions chosen."],
           },
         },

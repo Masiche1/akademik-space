@@ -151,7 +151,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Diaries kept by participants" },
               { id: "d", text: "Newspaper reports" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -646,7 +646,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Quota sampling" },
               { id: "d", text: "Convenience sampling" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -3569,7 +3569,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Quantitative" },
               { id: "d", text: "Unstructured" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -4978,7 +4978,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Newspaper archives" },
               { id: "d", text: "Official statistics" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

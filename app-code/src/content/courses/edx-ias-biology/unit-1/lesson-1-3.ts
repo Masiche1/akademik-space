@@ -57,7 +57,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Enzyme", statement: "Biological catalyst lowering activation energy." }],
             steps: [{ reasoning: "Enzymes are unchanged at the end and catalyse specific reactions.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Lowers activation energy",
+            finalAnswer: "**(a)** Lowers activation energy",
           },
         },
         {
@@ -170,7 +170,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Meiosis", statement: "Two divisions → 4 haploid gametes." }],
             steps: [{ reasoning: "Direct fact.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 4 haploid",
+            finalAnswer: "**(c)** 4 haploid",
           },
         },
         {

@@ -281,7 +281,7 @@ export const lesson61: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Spending + taxation",
+            finalAnswer: "**(c)** Spending + taxation",
             commonErrors: ["Monetary confused."],
           },
         },

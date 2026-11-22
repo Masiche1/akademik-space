@@ -78,7 +78,7 @@ export const lesson93: Lesson = {
               },
             ],
             steps: [{ reasoning: "Definition.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Poisson",
+            finalAnswer: "**(b)** Poisson",
           },
         },
         {

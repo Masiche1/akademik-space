@@ -69,7 +69,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): speech marks go around the exact words spoken, so (b) is correct.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Around the exact words the character says",
+            finalAnswer: "**(d)** Around the exact words the character says",
           },
         },
         {
@@ -150,7 +150,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Speech marks", statement: "Speech marks enclose exact spoken words." }],
             steps: [{ reasoning: "Criterion D (Using language): the exact words spoken go inside the marks — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** The exact words a character says",
+            finalAnswer: "**(c)** The exact words a character says",
           },
         },
         {
@@ -171,7 +171,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Paragraph per speaker", statement: "A new paragraph begins each time the speaker changes." }],
             steps: [{ reasoning: "Criterion B (Organizing): new speaker = new paragraph — (a).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Start a new paragraph",
+            finalAnswer: "**(b)** Start a new paragraph",
           },
         },
         {
@@ -192,7 +192,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Dialogue punctuation", statement: "Speech marks around words; punctuation inside the marks." }],
             steps: [{ reasoning: "Criterion D (Using language): 'Leila said 'I love ice cream.'' — marks around exact words, full stop inside — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** Leila said 'I love ice cream.'",
+            finalAnswer: "**(d)** Leila said 'I love ice cream.'",
           },
         },
         {
@@ -345,7 +345,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Dialogue punctuation", statement: "Questions inside speech take '?' inside the marks." }],
             steps: [{ reasoning: "Criterion D (Using language): speech marks around the words and '?' inside — (a).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(a)** 'Are you coming to the park?'",
+            finalAnswer: "**(b)** 'Are you coming to the park?'",
           },
         },
         {
@@ -519,7 +519,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Speaker signals", statement: "Speech verbs and new paragraphs identify the speaker." }],
             steps: [{ reasoning: "Criterion B (Organizing): 'said Ana' and new paragraphs tell you who is speaking — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Words like 'said Ana' or a new paragraph",
+            finalAnswer: "**(a)** Words like 'said Ana' or a new paragraph",
           },
         },
         {
@@ -561,7 +561,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Indirect speech", statement: "Indirect speech reports words without quoting them exactly." }],
             steps: [{ reasoning: "Criterion D (Using language): indirect speech reports rather than quotes — (a).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(a)** Reporting what someone said without their exact words",
+            finalAnswer: "**(b)** Reporting what someone said without their exact words",
           },
         },
         {
@@ -643,7 +643,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Indirect speech", statement: "Indirect speech reports words without speech marks." }],
             steps: [{ reasoning: "Criterion D (Using language): 'she was tired' reports without exact words — indirect speech, (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** Indirect speech",
+            finalAnswer: "**(c)** Indirect speech",
           },
         },
         {
@@ -713,7 +713,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Speaker", statement: "The speaker is the character who says a line." }],
             steps: [{ reasoning: "Criterion B (Organizing): the speaker says the words — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The character who says a line",
+            finalAnswer: "**(c)** The character who says a line",
           },
         },
         {
@@ -734,7 +734,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Dialogue and feeling", statement: "Words like 'moaned' and the content show emotion." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'going to fail' and 'moaned' show worry/hopelessness — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Worried or hopeless",
+            finalAnswer: "**(a)** Worried or hopeless",
           },
         },
         {

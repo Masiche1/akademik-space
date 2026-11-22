@@ -200,7 +200,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Aerobic respiration uses oxygen and glucose as reactants and produces carbon dioxide and water.", working: "\\text{glucose} + \\text{oxygen} \\rightarrow \\text{carbon dioxide} + \\text{water}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(a)**",
             commonErrors: ["Choosing (c), which is the equation for photosynthesis.", "Choosing (d), which is anaerobic respiration in muscle cells."],
             examinerNote: "B1 for (b).",
           },

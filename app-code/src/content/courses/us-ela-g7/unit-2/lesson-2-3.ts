@@ -181,7 +181,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The contrast with stone and the example of a small temperature rise causing damage show that reefs are easily damaged.",
+              "**(a)** The contrast with stone and the example of a small temperature rise causing damage show that reefs are easily damaged.",
             commonErrors: [
               "Choosing 'brightly colored' because color is mentioned later in the passage.",
             ],
@@ -435,7 +435,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Passage A stresses success. Choices (b), (c), and (d) come from Passage B.",
+              "**(c)** Passage A stresses success. Choices (b), (c), and (d) come from Passage B.",
             commonErrors: ["Choosing details from the other passage."],
           },
         },
@@ -487,7 +487,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Both agree on the improvement; Passage B emphasizes what remains to be done. Choice (c) is wrong because Passage B states that fish returned.",
+              "**(a)** Both agree on the improvement; Passage B emphasizes what remains to be done. Choice (c) is wrong because Passage B states that fish returned.",
             commonErrors: [
               "Thinking the passages contradict each other on the facts.",
             ],

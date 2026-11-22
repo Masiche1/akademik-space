@@ -57,7 +57,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Ea", statement: "Peak = transition state; height = Ea." }],
             steps: [{ reasoning: "Recall.", working: "\\text{peak} = E_a", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Transition state / activation energy",
+            finalAnswer: "**(a)** Transition state / activation energy",
             commonErrors: ["Confusing peak height with ΔH."],
           },
         },
@@ -190,7 +190,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Catalyst", statement: "Lower Ea means lower peak." }],
             steps: [{ reasoning: "Catalyst gives lower activation-energy peak.", working: "E_a \\downarrow \\to \\text{lower peak}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It lowers the peak",
+            finalAnswer: "**(d)** It lowers the peak",
             commonErrors: ["Saying catalyst removes activation energy."],
           },
         },
@@ -298,7 +298,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Energy profile", statement: "X-axis = reaction progress; Y-axis = energy." }],
             steps: [{ reasoning: "Progress goes from reactants to products.", working: "x = \\text{progress}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Reaction progress",
+            finalAnswer: "**(c)** Reaction progress",
             commonErrors: ["Putting energy on x-axis."],
           },
         },
@@ -376,11 +376,11 @@ export const lesson153: Lesson = {
             { id: "b", text: "Photosynthesis" },
             { id: "c", text: "Respiration" },
             { id: "d", text: "Neutralisation" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Endothermic", statement: "Absorbs heat: photosynthesis, decomposition." }],
             steps: [{ reasoning: "Recall.", working: "\\text{photosynthesis}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Photosynthesis",
+            finalAnswer: "**(b)** Photosynthesis",
             commonErrors: ["Respiration is exothermic (releases energy)."],
           },
         },
@@ -460,7 +460,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Photosynthesis", statement: "Absorbs light energy; $\\Delta H>0$." }],
             steps: [{ reasoning: "Photosynthesis stores energy in glucose.", working: "\\text{photosynthesis} \\to \\text{endo}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Photosynthesis",
+            finalAnswer: "**(a)** Photosynthesis",
             commonErrors: ["Confusing with respiration."],
           },
         },
@@ -513,7 +513,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Self-heating cans", statement: "CaO + H₂O → Ca(OH)₂ releases heat." }],
             steps: [{ reasoning: "Reaction is exothermic.", working: "CaO + H_2O \\to \\text{heat}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** CaO + H₂O is exothermic",
+            finalAnswer: "**(c)** CaO + H₂O is exothermic",
             commonErrors: ["Saying it absorbs heat."],
           },
         },
@@ -567,7 +567,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Electrolysis", statement: "Electrolysis requires electrical energy input." }],
             steps: [{ reasoning: "Electrolysis is driven by electrical energy.", working: "\\text{electrolysis} \\to \\text{endo}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Electrolysis",
+            finalAnswer: "**(c)** Electrolysis",
             commonErrors: ["Classifying electrolysis as exothermic."],
           },
         },
@@ -617,11 +617,11 @@ export const lesson153: Lesson = {
             { id: "b", text: "Respiration" },
             { id: "c", text: "Thermal decomposition" },
             { id: "d", text: "Photosynthesis" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Respiration", statement: "Releases energy from food." }],
             steps: [{ reasoning: "Respiration releases energy.", working: "\\text{respiration} \\to \\text{exo}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Respiration",
+            finalAnswer: "**(b)** Respiration",
             commonErrors: ["Confusing with photosynthesis."],
           },
         },

@@ -57,7 +57,7 @@ export const lesson1102: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Alkenes", statement: "CₙH₂ₙ." }],
             steps: [{ reasoning: "Recall.", working: "C_nH_{2n}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** CₙH₂ₙ",
+            finalAnswer: "**(c)** CₙH₂ₙ",
             commonErrors: ["CₙH₂ₙ₊₂ is alkanes."],
           },
         },
@@ -151,11 +151,11 @@ export const lesson1102: Lesson = {
             { id: "b", text: "C₄H₁₀" },
             { id: "c", text: "C₅H₁₂" },
             { id: "d", text: "C₄H₈" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "formula", name: "Alkenes", statement: "CₙH₂ₙ — C₄H₈ fits." }],
             steps: [{ reasoning: "Recall.", working: "C_4H_8 = C_nH_{2n}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** C₄H₈ (butene)",
+            finalAnswer: "**(d)** C₄H₈ (butene)",
             commonErrors: ["C₄H₁₀ and C₅H₁₂ are alkanes."],
           },
         },
@@ -204,7 +204,7 @@ export const lesson1102: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Bromine test", statement: "Only alkenes decolourise bromine water." }],
             steps: [{ reasoning: "Recall.", working: "\\text{no change}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Stays orange",
+            finalAnswer: "**(c)** Stays orange",
             commonErrors: ["Alkanes do not react with bromine water."],
           },
         },
@@ -272,7 +272,7 @@ export const lesson1102: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Combustion", statement: "Complete combustion → CO₂ + H₂O." }],
             steps: [{ reasoning: "Recall.", working: "\\text{CO}_2 + \\text{H}_2\\text{O}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** CO₂ and H₂O",
+            finalAnswer: "**(a)** CO₂ and H₂O",
             commonErrors: ["CO is from incomplete combustion."],
           },
         },
@@ -379,7 +379,7 @@ export const lesson1102: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Cracking", statement: "Long→short hydrocarbons." }],
             steps: [{ reasoning: "Recall.", working: "\\text{long} \\to \\text{short}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Breaking long hydrocarbons into shorter ones",
+            finalAnswer: "**(c)** Breaking long hydrocarbons into shorter ones",
             commonErrors: ["Confusing with fractional distillation."],
           },
         },
@@ -459,7 +459,7 @@ export const lesson1102: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Cracking", statement: "Long alkane → short alkane + alkene." }],
             steps: [{ reasoning: "Recall.", working: "\\text{short alkane} + \\text{alkene}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Shorter alkanes and alkenes",
+            finalAnswer: "**(a)** Shorter alkanes and alkenes",
             commonErrors: ["CO₂ + H₂O is combustion, not cracking."],
           },
         },
@@ -477,7 +477,7 @@ export const lesson1102: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Cracking catalyst", statement: "Zeolites or alumina." }],
             steps: [{ reasoning: "Recall.", working: "\\text{zeolite}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Zeolites/alumina",
+            finalAnswer: "**(c)** Zeolites/alumina",
             commonErrors: ["Nickel is used in hydrogenation."],
           },
         },

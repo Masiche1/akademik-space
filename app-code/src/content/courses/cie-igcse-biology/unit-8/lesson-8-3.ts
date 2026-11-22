@@ -185,7 +185,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Match infections to type.", working: "\\text{chlamydia, gonorrhoea} = \\text{bacterial}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Chlamydia and gonorrhoea",
+            finalAnswer: "**(b)** Chlamydia and gonorrhoea",
             commonErrors: ["Choosing HIV — HIV is viral and has no cure."],
           },
         },
@@ -211,7 +211,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Recall the mechanism.", working: "\\text{IUD} \\to \\text{blocks implantation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It prevents implantation of the embryo",
+            finalAnswer: "**(d)** It prevents implantation of the embryo",
             commonErrors: ["Choosing 'stops ovulation' — that's the pill's mechanism."],
           },
         },
@@ -378,7 +378,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Recall the unique method.", working: "\\text{condom}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Condom",
+            finalAnswer: "**(b)** Condom",
             commonErrors: ["Choosing the pill — it prevents pregnancy but not STIs."],
           },
         },
@@ -404,7 +404,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Recall which method is permanent.", working: "\\text{sterilisation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sterilisation",
+            finalAnswer: "**(c)** Sterilisation",
             commonErrors: ["Choosing IUD — it is long-acting but removable, not permanent."],
           },
         },
@@ -458,7 +458,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{first milk + antibodies}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** First milk rich in antibodies",
+            finalAnswer: "**(d)** First milk rich in antibodies",
             commonErrors: ["Choosing 'hormone' — it's a milk secretion."],
           },
         },
@@ -553,7 +553,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Match hormone to role.", working: "\\text{oxytocin} \\to \\text{contractions}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oxytocin",
+            finalAnswer: "**(b)** Oxytocin",
             commonErrors: ["Choosing progesterone — that maintains the pregnancy lining, not contractions."],
           },
         },

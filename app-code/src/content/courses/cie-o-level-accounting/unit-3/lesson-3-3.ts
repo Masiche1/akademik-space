@@ -102,7 +102,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Gearing" },
             { id: "d", text: "Liquidity" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "GP margin", statement: "GP/Sales %." }], steps: [{ reasoning: "It shows gross profit per dollar of sales before expenses.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Trading efficiency" },
+          markscheme: { principles: [{ kind: "definition", name: "GP margin", statement: "GP/Sales %." }], steps: [{ reasoning: "It shows gross profit per dollar of sales before expenses.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Trading efficiency" },
         },
         {
           id: "olacc-u3-rt-q6", difficulty: "core", totalMarks: 1,
@@ -113,7 +113,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Current liabilities / current assets" },
             { id: "d", text: "Net profit / capital" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "principle", name: "Current ratio", statement: "CA/CL." }], steps: [{ reasoning: "Current assets divided by current liabilities.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Current assets / current liabilities" },
+          markscheme: { principles: [{ kind: "principle", name: "Current ratio", statement: "CA/CL." }], steps: [{ reasoning: "Current assets divided by current liabilities.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Current assets / current liabilities" },
         },
         {
           id: "olacc-u3-rt-q7", difficulty: "challenge", totalMarks: 3,
@@ -143,7 +143,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Cannot pay its debts" },
             { id: "d", text: "Is making a loss" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "principle", name: "Current ratio", statement: "Above ~2 may be excessive." }], steps: [{ reasoning: "A high ratio means assets comfortably exceed short-term debts — possibly too much cash tied up.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Liquidity may be excessive" },
+          markscheme: { principles: [{ kind: "principle", name: "Current ratio", statement: "Above ~2 may be excessive." }], steps: [{ reasoning: "A high ratio means assets comfortably exceed short-term debts — possibly too much cash tied up.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Liquidity may be excessive" },
         },
         {
           id: "olacc-u3-rt-q10", difficulty: "challenge", totalMarks: 4,
@@ -182,8 +182,8 @@ export const lesson33: Lesson = {
             { id: "b", text: "ROCE" },
             { id: "c", text: "Gross profit margin" },
             { id: "d", text: "Current ratio" },
-          ], dorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Liquidity", statement: "Current ratio." }], steps: [{ reasoning: "The current ratio compares short-term assets with short-term debts.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Current ratio" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "definition", name: "Liquidity", statement: "Current ratio." }], steps: [{ reasoning: "The current ratio compares short-term assets with short-term debts.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Current ratio" },
         },
         {
           id: "olacc-u3-rt-q14", difficulty: "challenge", totalMarks: 4,
@@ -260,7 +260,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Only stock levels" },
             { id: "d", text: "Only drawings" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Users", statement: "Bank: repayment ability." }], steps: [{ reasoning: "Liquidity+gearing.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Liquidity and gearing" },
+          markscheme: { principles: [{ kind: "principle", name: "Users", statement: "Bank: repayment ability." }], steps: [{ reasoning: "Liquidity+gearing.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Liquidity and gearing" },
         },
         {
           id: "olacc-u3-us-q2", difficulty: "core", totalMarks: 2,
@@ -315,7 +315,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Only last week's sales" },
             { id: "d", text: "The number of employees" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "principle", name: "Users", statement: "Investor: returns and risk." }], steps: [{ reasoning: "Investors want to know expected returns and the risk of the business.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Future returns and risk" },
+          markscheme: { principles: [{ kind: "principle", name: "Users", statement: "Investor: returns and risk." }], steps: [{ reasoning: "Investors want to know expected returns and the risk of the business.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Future returns and risk" },
         },
         {
           id: "olacc-u3-us-q6", difficulty: "core", totalMarks: 1,
@@ -326,7 +326,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Set staff wages" },
             { id: "d", text: "Calculate the business's taxable profit" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Users", statement: "Government: tax." }], steps: [{ reasoning: "The tax authority needs reported profit to assess tax.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Calculate taxable profit" },
+          markscheme: { principles: [{ kind: "principle", name: "Users", statement: "Government: tax." }], steps: [{ reasoning: "The tax authority needs reported profit to assess tax.", marks: 1, markCode: "M" }], finalAnswer: "**(d)** Calculate taxable profit" },
         },
         {
           id: "olacc-u3-us-q7", difficulty: "foundation", totalMarks: 2,
@@ -354,8 +354,8 @@ export const lesson33: Lesson = {
             { id: "b", text: "A passing customer" },
             { id: "c", text: "A supplier" },
             { id: "d", text: "The owner" },
-          ], aorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Users", statement: "Government: tax." }], steps: [{ reasoning: "Tax is calculated on reported profit.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** Government/tax authority" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "principle", name: "Users", statement: "Government: tax." }], steps: [{ reasoning: "Tax is calculated on reported profit.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Government/tax authority" },
         },
         {
           id: "olacc-u3-us-q10", difficulty: "challenge", totalMarks: 4,
@@ -395,7 +395,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Liquidity and gearing — the ability to repay" },
             { id: "d", text: "The number of suppliers" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Users", statement: "Bank: repayment ability." }], steps: [{ reasoning: "The bank assesses whether the business can service and repay the loan.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Liquidity and gearing" },
+          markscheme: { principles: [{ kind: "principle", name: "Users", statement: "Bank: repayment ability." }], steps: [{ reasoning: "The bank assesses whether the business can service and repay the loan.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** Liquidity and gearing" },
         },
         {
           id: "olacc-u3-us-q14", difficulty: "challenge", totalMarks: 4,

@@ -200,7 +200,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Sand is insoluble in water, so it stays on the filter paper.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Filtration",
+            finalAnswer: "**(d)** Filtration",
             commonErrors: ["Choosing evaporation or distillation, which are used for dissolved substances.", "Choosing chromatography, which separates coloured dissolved substances."],
             examinerNote: "B1 for (a) only.",
           },

@@ -262,7 +262,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Vacuole", statement: "The vacuole stores substances and helps maintain turgor pressure." }],
             steps: [{ reasoning: "The vacuole stores water and maintains plant cell shape.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Storage and maintaining turgor",
+            finalAnswer: "**(d)** Storage and maintaining turgor",
           },
         },
         {
@@ -295,7 +295,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Nucleus", statement: "The nucleus contains DNA and controls cell activities." }],
             steps: [{ reasoning: "DNA in the nucleus controls cell functions.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Nucleus",
+            finalAnswer: "**(b)** Nucleus",
           },
         },
         {
@@ -343,7 +343,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Osmosis", statement: "Water moves out of the cell into a more concentrated solution." }],
             steps: [{ reasoning: "Water loss can cause plasmolysis in plant cells.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Water leaves the cell and it may plasmolyse",
+            finalAnswer: "**(d)** Water leaves the cell and it may plasmolyse",
           },
         },
       ],
@@ -398,7 +398,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Red blood cells contain haemoglobin for oxygen transport.", working: "haemoglobin", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Red blood cell",
+            finalAnswer: "**(c)** Red blood cell",
             commonErrors: ["Choosing nerve — signal transmission, not oxygen."],
           },
         },
@@ -499,7 +499,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Xylem", statement: "Xylem transports water and dissolved minerals." }],
             steps: [{ reasoning: "Xylem carries water from roots to leaves.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Transport water through the plant",
+            finalAnswer: "**(b)** Transport water through the plant",
           },
         },
         {
@@ -594,7 +594,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Nerve cell", statement: "Long axons and myelin speed signal transmission." }],
             steps: [{ reasoning: "Myelin insulates the axon and speeds impulses.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Long axon with myelin sheath",
+            finalAnswer: "**(d)** Long axon with myelin sheath",
           },
         },
         {
@@ -627,7 +627,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Specialisation", statement: "Specialised cells perform specific functions more efficiently." }],
             steps: [{ reasoning: "Division of labour improves efficiency.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Different cells can perform different jobs efficiently",
+            finalAnswer: "**(c)** Different cells can perform different jobs efficiently",
           },
         },
         {
@@ -675,7 +675,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Nerve cell", statement: "Nerve cells transmit electrical impulses." }],
             steps: [{ reasoning: "Nerve cells are specialised for signal transmission.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Nerve cell",
+            finalAnswer: "**(c)** Nerve cell",
           },
         },
       ],

@@ -125,7 +125,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Similar $4s$ and $3d$ subshell energies",
+            finalAnswer: "**(d)** Similar $4s$ and $3d$ subshell energies",
             commonErrors: [
               "Attributing variable oxidation states to 'many valence electrons' without the energy argument.",
             ],
@@ -367,7 +367,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Iron",
+            finalAnswer: "**(d)** Iron",
             commonErrors: [
               "Choosing zinc — Zn$^{2+}$ is $3d^{10}$ (completely filled), so Zn is often excluded from the strict definition.",
             ],
@@ -387,7 +387,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "+5" },
               { id: "d", text: "+2" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -411,7 +411,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $+7$",
+            finalAnswer: "**(a)** $+7$",
             commonErrors: [
               "Forgetting the overall $-1$ charge of the ion.",
             ],
@@ -1081,7 +1081,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** d-d transitions",
+            finalAnswer: "**(d)** d-d transitions",
             commonErrors: [
               "Thinking the complex emits the colour it shows — it absorbs the complementary colour.",
             ],
@@ -1326,7 +1326,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $t_{2g}$",
+            finalAnswer: "**(d)** $t_{2g}$",
             commonErrors: [
               "Reversing the splitting — $e_g$ points directly at the ligands and is higher.",
             ],
@@ -1414,7 +1414,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Blue",
+            finalAnswer: "**(c)** Blue",
             commonErrors: [
               "Saying the complex appears orange — that is the absorbed colour, not the observed one.",
             ],

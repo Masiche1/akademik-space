@@ -61,7 +61,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Work", statement: "W = Fd." }],
             steps: [{ reasoning: "Recall.", working: "W = Fd", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** W = Fd",
+            finalAnswer: "**(a)** W = Fd",
             commonErrors: ["Confusing with power P=W/t."],
           },
         },
@@ -141,7 +141,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Power", statement: "P = W/t." }],
             steps: [{ reasoning: "Recall.", working: "P = \\frac{W}{t}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $P = \\dfrac{W}{t}$",
+            finalAnswer: "**(a)** $P = \\dfrac{W}{t}$",
             commonErrors: ["Inverting W/t."],
           },
         },
@@ -175,7 +175,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Watt", statement: "1 W = 1 J/s." }],
             steps: [{ reasoning: "Recall.", working: "1\\ \\text{W} = 1\\ \\text{J/s}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 1 J/s",
+            finalAnswer: "**(d)** 1 J/s",
             commonErrors: ["N m is a joule, not a watt."],
           },
         },
@@ -231,7 +231,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Power", statement: "P = W/t = Fv." }],
             steps: [{ reasoning: "Recall.", working: "P = \\frac{Fd}{t} = Fv", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $P = Fv$",
+            finalAnswer: "**(a)** $P = Fv$",
             commonErrors: ["Fv requires constant velocity."],
           },
         },
@@ -305,7 +305,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Power unit", statement: "Watt (W)." }],
             steps: [{ reasoning: "Recall.", working: "P = W/t \\Rightarrow \\text{W}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** watt",
+            finalAnswer: "**(c)** watt",
             commonErrors: ["Joule is energy."],
           },
         },
@@ -402,7 +402,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Efficiency", statement: "Useful/total ×100%." }],
             steps: [{ reasoning: "Recall.", working: "\\eta = \\frac{\\text{useful}}{\\text{total}}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Useful output ÷ total input × 100%",
+            finalAnswer: "**(a)** Useful output ÷ total input × 100%",
             commonErrors: ["Using power not energy."],
           },
         },
@@ -482,7 +482,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Efficiency", statement: "η = useful/total × 100%." }],
             steps: [{ reasoning: "Recall.", working: "\\eta = \\frac{\\text{useful}}{\\text{total}} \\times 100\\%", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** useful output ÷ total input × 100%",
+            finalAnswer: "**(d)** useful output ÷ total input × 100%",
             commonErrors: ["Inverting the ratio."],
           },
         },
@@ -516,7 +516,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Efficiency", statement: "Some energy always dissipated." }],
             steps: [{ reasoning: "Recall.", working: "\\eta < 100\\%", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** less than 100%",
+            finalAnswer: "**(c)** less than 100%",
             commonErrors: ["Perpetual motion impossible."],
           },
         },
@@ -572,7 +572,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Efficiency", statement: "Reduce dissipation → higher efficiency." }],
             steps: [{ reasoning: "Recall.", working: "\\eta \\uparrow \\text{ if waste} \\downarrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** using lubricants and reducing heat loss",
+            finalAnswer: "**(d)** using lubricants and reducing heat loss",
             commonErrors: ["More input doesn't mean more efficiency."],
           },
         },
@@ -611,7 +611,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Efficiency", statement: "useful = η × input = 0.8 × 5000." }],
             steps: [{ reasoning: "0.8 × 5000 = 4000.", working: "0.8 \\times 5000", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 4000 J",
+            finalAnswer: "**(b)** 4000 J",
             commonErrors: ["4000 J useful; 1000 J wasted."],
           },
         },
@@ -646,7 +646,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Efficiency", statement: "η = useful/total × 100%." }],
             steps: [{ reasoning: "Recall.", working: "\\eta = \\ldots \\times 100\\%", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** percentage",
+            finalAnswer: "**(c)** percentage",
             commonErrors: ["Must multiply by 100 for %."],
           },
         },

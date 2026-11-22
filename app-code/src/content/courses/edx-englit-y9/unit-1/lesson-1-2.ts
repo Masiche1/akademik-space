@@ -81,7 +81,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Rhetorical question", statement: "A question asked for effect, not an answer, often to persuade or reveal emotion." }],
             steps: [{ reasoning: "The narrator insists he is sane, which suggests he is defensive and perhaps not sane at all.", evidence: "How, then, am I mad?", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** He is anxious to convince others he is sane. His defensiveness hints that he is not.",
+            finalAnswer: "**(c)** He is anxious to convince others he is sane. His defensiveness hints that he is not.",
             commonErrors: ["Choosing (b), taking his claims at face value as calm.", "Choosing (c), misreading 'mad' as a boast."],
           },
         },
@@ -215,7 +215,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Paradox", statement: "A statement that seems contradictory but reveals a deeper truth, here the divided self." }],
             steps: [{ reasoning: "The paradox shows the double is the narrator yet also something other.", evidence: "a face that was mine and was not mine", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** The reflection is both familiar and disturbingly different.",
+            finalAnswer: "**(b)** The reflection is both familiar and disturbingly different.",
             commonErrors: ["Reading the line literally, as about a house or mirror, not the self."],
           },
         },

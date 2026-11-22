@@ -64,7 +64,7 @@ Check the final ordered pair in both original equations. If combining produces a
               { reasoning: "The coefficients of $y$ are $1$ and $-1$, which are opposites.", working: "y+(-y)=0", marks: 1, markCode: "B" },
               { reasoning: "Adding the equations cancels $y$ while retaining an equivalent consequence of the system.", working: "(3x+y)+(2x-y)=10+5", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Add the equations.",
+            finalAnswer: "**(c)** Add the equations.",
             commonErrors: ["Subtracting the equations, which combines the $y$ coefficients as $y-(-y)=2y$ rather than eliminating $y$."],
           },
         },

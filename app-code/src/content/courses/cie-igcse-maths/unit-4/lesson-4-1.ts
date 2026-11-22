@@ -68,7 +68,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Angles on a line sum to $180^\\circ$, so $3x=180$ and $x=60$.", working: "x=60", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x=60^\\circ$",
+            finalAnswer: "**(d)** $x=60^\\circ$",
             commonErrors: ["Using $360^\\circ$ (angles at a point) instead of $180^\\circ$."],
           },
         },
@@ -164,7 +164,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Vertically opposite angles are equal, so the angle is also $47^\\circ$.", working: "47^\\circ", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $47^\\circ$",
+            finalAnswer: "**(c)** $47^\\circ$",
             commonErrors: ["Subtracting from $180^\\circ$ to get the adjacent angle instead."],
           },
         },
@@ -252,7 +252,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Subtract the three known angles from $360^\\circ$.", working: "360-(80+95+105)=80^\\circ", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $80^\\circ$",
+            finalAnswer: "**(d)** $80^\\circ$",
             commonErrors: ["Adding the three angles and forgetting to subtract from $360^\\circ$."],
           },
         },
@@ -297,7 +297,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Co-interior angles are supplementary.", working: "180-72=108^\\circ", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $108^\\circ$",
+            finalAnswer: "**(d)** $108^\\circ$",
             commonErrors: ["Assuming the angle is equal rather than supplementary."],
           },
         },
@@ -352,7 +352,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Let the angles be $2x$ and $3x$; then $5x=180$ so $x=36$ and the larger is $3x=108^\\circ$.", working: "3\\times36=108^\\circ", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $108^\\circ$",
+            finalAnswer: "**(c)** $108^\\circ$",
             commonErrors: ["Answering $72^\\circ$, the smaller angle."],
           },
         },
@@ -479,7 +479,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Apply the formula with $n=6$.", working: "(6-2)\\times180^\\circ=4\\times180^\\circ=720^\\circ", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $720^\\circ$",
+            finalAnswer: "**(c)** $720^\\circ$",
             commonErrors: ["Using $n\\times180^\\circ$ instead of $(n-2)\\times180^\\circ$."],
           },
         },
@@ -616,7 +616,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Apply the formula with $n=9$.", working: "(9-2)\\times180^\\circ=7\\times180^\\circ=1260^\\circ", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $1260^\\circ$",
+            finalAnswer: "**(c)** $1260^\\circ$",
             commonErrors: ["Using $n\\times180^\\circ$ instead of $(n-2)\\times180^\\circ$."],
           },
         },
@@ -651,7 +651,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "$8$" },
               { id: "d", text: "$7$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -660,7 +660,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Set $(n-2)\\times180^\\circ=900^\\circ$, so $n-2=5$ and $n=7$.", working: "n-2=\\frac{900}{180}=5 \\Rightarrow n=7", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** $7$ sides (a heptagon)",
+            finalAnswer: "**(d)** $7$ sides (a heptagon)",
             commonErrors: ["Answering $5$ — that is $n-2$, not $n$."],
           },
         },
@@ -732,7 +732,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Sum $=6x+150$ equals $(6-2)\\times180^\\circ=720^\\circ$, so $6x=570$ and $x=95$.", working: "6x+150=720 \\Rightarrow x=95", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $x=95$",
+            finalAnswer: "**(c)** $x=95$",
             commonErrors: ["Adding the offsets to get $150$ but forgetting to subtract it from $720$ before dividing by $6$."],
           },
         },
@@ -758,7 +758,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Exterior angle $=180^\\circ-120^\\circ=60^\\circ$.", working: "180-120=60^\\circ", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $60^\\circ$",
+            finalAnswer: "**(b)** $60^\\circ$",
             commonErrors: ["Thinking the exterior angle equals the interior angle."],
           },
         },

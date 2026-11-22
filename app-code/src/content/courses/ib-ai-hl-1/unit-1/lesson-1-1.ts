@@ -394,7 +394,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $1$",
+            finalAnswer: "**(b)** $1$",
             commonErrors: ["Subtracting the arguments to get $\\log_3 8$."],
           },
         },
@@ -412,7 +412,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$25$" },
               { id: "d", text: "$\\log_5 72$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -437,7 +437,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $2$",
+            finalAnswer: "**(a)** $2$",
             commonErrors: [
               "Giving the argument $25$ instead of its logarithm.",
             ],
@@ -457,7 +457,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$x=32$" },
               { id: "d", text: "$x=25$" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -481,7 +481,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(d)** $x=32$",
+            finalAnswer: "**(c)** $x=32$",
             commonErrors: [
               "Adding 5 to 2 instead of raising 2 to the power 5.",
             ],
@@ -843,7 +843,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $x=2$",
+            finalAnswer: "**(a)** $x=2$",
             commonErrors: [
               "Choosing (d) without checking that $\\log_3(x-1)$ requires $x>1$.",
             ],
@@ -978,7 +978,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $\\frac{3\\pi}{4}$",
+            finalAnswer: "**(c)** $\\frac{3\\pi}{4}$",
             commonErrors: [
               "Using $\\arctan(-1)=-\\frac{\\pi}{4}$ without checking the quadrant.",
             ],
@@ -1275,7 +1275,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $5$",
+            finalAnswer: "**(b)** $5$",
             commonErrors: [
               "Adding $3+4=7$ instead of using the Pythagorean formula.",
             ],
@@ -1321,7 +1321,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $-\\frac{\\pi}{4}$",
+            finalAnswer: "**(c)** $-\\frac{\\pi}{4}$",
             commonErrors: [
               "Giving $+\\frac{\\pi}{4}$ without checking the quadrant.",
             ],
@@ -1569,7 +1569,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $2\\cos\\theta$",
+            finalAnswer: "**(c)** $2\\cos\\theta$",
             commonErrors: [
               "Mixing up the plus and minus identities: $e^{i\\theta}-e^{-i\\theta}=2i\\sin\\theta$.",
             ],

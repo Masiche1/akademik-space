@@ -69,7 +69,7 @@ export const lesson71: Lesson = {
               { id: "c", text: "700" },
               { id: "d", text: "70" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -86,7 +86,7 @@ export const lesson71: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(d)** 70 000",
+            finalAnswer: "**(b)** 70 000",
             commonErrors: ["Reading digit value instead of place value."],
           },
         },
@@ -298,7 +298,7 @@ export const lesson71: Lesson = {
               },
             ],
             steps: [{ reasoning: "-7 < -3.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** -7",
+            finalAnswer: "**(d)** -7",
             commonErrors: ["Thinking -3 < -7 because 3 < 7."],
           },
         },

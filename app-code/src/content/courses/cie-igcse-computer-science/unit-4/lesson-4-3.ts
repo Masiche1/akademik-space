@@ -241,7 +241,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The input and the expected output",
+            finalAnswer: "**(c)** The input and the expected output",
           },
         },
         {
@@ -367,7 +367,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Breaking a large problem into smaller sub-problems",
+            finalAnswer: "**(c)** Breaking a large problem into smaller sub-problems",
           },
         },
         {
@@ -545,7 +545,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** A program that runs but produces wrong results",
+            finalAnswer: "**(d)** A program that runs but produces wrong results",
           },
         },
         {

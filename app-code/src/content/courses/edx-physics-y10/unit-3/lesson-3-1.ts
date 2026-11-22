@@ -68,7 +68,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Sound is a series of compressions and rarefactions along the direction of travel. Light, water ripples and radio waves are all transverse.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Sound",
+            finalAnswer: "**(a)** Sound",
             commonErrors: ["Choosing (c) because water appears to move up and down along the wave; water ripples are transverse."],
             examinerNote: "B1 for (b).",
           },
@@ -206,7 +206,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Glass is optically denser than air, so light slows down and bends towards the normal.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The ray slows down and bends towards the normal.",
+            finalAnswer: "**(a)** The ray slows down and bends towards the normal.",
             commonErrors: ["Thinking light speeds up in glass.", "Forgetting that refraction is caused by a change in speed."],
             examinerNote: "B1 for (b).",
           },

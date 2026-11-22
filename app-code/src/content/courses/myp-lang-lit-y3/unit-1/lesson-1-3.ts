@@ -168,7 +168,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): speeches are built to be heard and build toward a climax — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A speech",
+            finalAnswer: "**(a)** A speech",
           },
         },
         {
@@ -193,7 +193,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): describe → evaluate → verdict is the review arc — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Description, then evaluation, then verdict",
+            finalAnswer: "**(c)** Description, then evaluation, then verdict",
           },
         },
         {
@@ -223,7 +223,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'My fellow students' is direct address — a speech convention — (a).", evidence: "My fellow students", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** It uses direct address ('My fellow students')",
+            finalAnswer: "**(b)** It uses direct address ('My fellow students')",
           },
         },
         {
@@ -253,7 +253,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): the essential information (closure, reason, Friday) comes first, then resumption and apology — quick, efficient — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Key fact first — closure, reason and date — then resumption and apology",
+            finalAnswer: "**(a)** Key fact first — closure, reason and date — then resumption and apology",
           },
         },
         {
@@ -357,7 +357,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): the verdict addresses specific viewers (slow-cinema fans vs thriller fans) — targeted — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It targets a specific audience rather than a universal verdict",
+            finalAnswer: "**(a)** It targets a specific audience rather than a universal verdict",
           },
         },
         {
@@ -414,7 +414,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): ingredients-first matches the cook's needs — gather before cooking — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Because the cook needs to know what to gather before starting — structure follows order of use",
+            finalAnswer: "**(a)** Because the cook needs to know what to gather before starting — structure follows order of use",
           },
         },
         {
@@ -439,7 +439,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): a news article informs quickly — facts first via the inverted pyramid — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Inverted pyramid — most important facts first",
+            finalAnswer: "**(a)** Inverted pyramid — most important facts first",
           },
         },
         {
@@ -631,7 +631,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): advertisements persuade — they end with 'Buy now', 'Join us' — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** An advertisement",
+            finalAnswer: "**(a)** An advertisement",
           },
         },
         {
@@ -661,7 +661,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): the ad's 'Splash into summer', 'awaits', 'Book today' persuades — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The ad",
+            finalAnswer: "**(a)** The ad",
           },
         },
         {
@@ -686,7 +686,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): the ad persuades — it dramatizes the benefit and adds a call to action; the report stays factual — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The ad's purpose is to persuade — it dramatizes the benefit and calls readers to action",
+            finalAnswer: "**(a)** The ad's purpose is to persuade — it dramatizes the benefit and calls readers to action",
           },
         },
         {
@@ -786,7 +786,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): the toast aims to entertain/move — emotional purpose needs build-to-climax — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Because the purpose is to entertain and move listeners emotionally, not just inform them",
+            finalAnswer: "**(c)** Because the purpose is to entertain and move listeners emotionally, not just inform them",
           },
         },
         {
@@ -868,7 +868,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): a speech can build emotional momentum, use direct address and end with advice — best for warning students — (a).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A speech — it can build emotional momentum and end with advice",
+            finalAnswer: "**(d)** A speech — it can build emotional momentum and end with advice",
           },
         },
         {

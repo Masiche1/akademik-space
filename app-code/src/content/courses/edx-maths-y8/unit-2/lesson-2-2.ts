@@ -60,7 +60,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Add 5 to both sides, then divide by 3.", working: "3x=15,\\quad x=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $x=5$",
+            finalAnswer: "**(c)** $x=5$",
             commonErrors: ["Forgetting to divide by 3 (giving 15).", "Subtracting 5 instead of adding it (giving $\\frac{5}{3}$)."],
           },
         },
@@ -187,7 +187,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "The closed circle includes 3 and the arrow points to values less than 3.", working: "x\\le3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $x\\le3$",
+            finalAnswer: "**(c)** $x\\le3$",
             commonErrors: ["Using an open circle's meaning ($x<3$).", "Reading the arrow direction the wrong way."],
           },
         },

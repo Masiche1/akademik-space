@@ -58,7 +58,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "$3$" },
               { id: "d", text: "$1$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson12: Lesson = {
               { reasoning: "Substitute the coordinates into the gradient formula.", working: "m=\\frac{11-5}{4-(-2)}=\\frac{6}{6}=1", marks: 1, markCode: "M" },
               { reasoning: "The gradient is $1$.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $1$",
+            finalAnswer: "**(d)** $1$",
             commonErrors: ["Subtracting in the wrong order gives $-1$.", "Using $\\frac{x_2-x_1}{y_2-y_1}$ gives $\\frac{1}{1}=1$ coincidentally — check the formula direction."],
             examinerNote: "Order of subtraction must be consistent.",
           },
@@ -200,7 +200,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Multiply by $\\frac{\\pi}{180}$ and simplify.", working: "150\\times\\frac{\\pi}{180}=\\frac{5\\pi}{6}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{5\\pi}{6}$",
+            finalAnswer: "**(d)** $\\frac{5\\pi}{6}$",
             commonErrors: ["Multiplying by $\\frac{180}{\\pi}$ instead of $\\frac{\\pi}{180}$.", "Simplifying $\\frac{150\\pi}{180}$ incorrectly."],
           },
         },

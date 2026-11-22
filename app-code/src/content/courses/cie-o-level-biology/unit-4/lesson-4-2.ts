@@ -65,7 +65,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the structure.", working: "\\text{stomata}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Stomata",
+            finalAnswer: "**(b)** Stomata",
             commonErrors: ["Choosing xylem — xylem transports water up, not out of the leaf."],
           },
         },
@@ -161,7 +161,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{stomata}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Stomata",
+            finalAnswer: "**(b)** Stomata",
             commonErrors: ["Choosing xylem — that transports water up, not out of the leaf."],
           },
         },
@@ -187,7 +187,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Match tissue to transport.", working: "\\text{xylem}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Xylem",
+            finalAnswer: "**(a)** Xylem",
             commonErrors: ["Choosing phloem — that carries sucrose, not water up."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson42: Lesson = {
               { reasoning: "Identify the mechanism.", working: "\\text{removes moist air}", marks: 1, markCode: "M" },
               { reasoning: "Link to gradient.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It removes moist air around the leaf, steepening the water potential gradient",
+            finalAnswer: "**(a)** It removes moist air around the leaf, steepening the water potential gradient",
             commonErrors: ["Saying wind 'pushes water out' — it increases the gradient."],
           },
         },
@@ -307,7 +307,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Identify the decreasing factor.", working: "\\text{high humidity}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** High humidity",
+            finalAnswer: "**(c)** High humidity",
             commonErrors: ["Choosing wind — wind increases transpiration."],
           },
         },
@@ -371,7 +371,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the mechanism.", working: "\\text{turgor loss}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Transpiration exceeds water uptake and cells lose turgor",
+            finalAnswer: "**(b)** Transpiration exceeds water uptake and cells lose turgor",
             commonErrors: ["Saying stomata close permanently — they may close but wilting is water deficit."],
           },
         },
@@ -577,7 +577,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the cargo.", working: "\\text{sucrose/AA}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Sucrose and amino acids",
+            finalAnswer: "**(a)** Sucrose and amino acids",
             commonErrors: ["Choosing water/minerals — that is xylem."],
           },
         },
@@ -603,7 +603,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{produces/loads}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Where sucrose is produced and loaded into phloem",
+            finalAnswer: "**(a)** Where sucrose is produced and loaded into phloem",
             commonErrors: ["Confusing with sink — sink uses/stores."],
           },
         },
@@ -723,7 +723,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the effect.", working: "\\text{phloem removed}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Translocation of sugars is disrupted and the tree may die above the ring",
+            finalAnswer: "**(a)** Translocation of sugars is disrupted and the tree may die above the ring",
             commonErrors: ["Saying water transport stops — xylem is deeper and unaffected."],
           },
         },
@@ -787,7 +787,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Identify the sink.", working: "\\text{fruit = sink}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A developing fruit",
+            finalAnswer: "**(c)** A developing fruit",
             commonErrors: ["Choosing leaf — leaves are sources."],
           },
         },
@@ -897,7 +897,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the structure.", working: "\\text{guard cells}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Guard cells",
+            finalAnswer: "**(c)** Guard cells",
             commonErrors: ["Choosing xylem — that's water transport, not pore control."],
           },
         },
@@ -991,7 +991,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the structure.", working: "\\text{kidney-shaped}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Two kidney-shaped cells surrounding each stoma",
+            finalAnswer: "**(c)** Two kidney-shaped cells surrounding each stoma",
             commonErrors: ["Choosing round — they are kidney-shaped."],
           },
         },
@@ -1044,7 +1044,7 @@ export const lesson42: Lesson = {
               { reasoning: "Recall night response.", working: "\\text{close}", marks: 1, markCode: "M" },
               { reasoning: "Link to water conservation.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** They close to conserve water when photosynthesis stops",
+            finalAnswer: "**(d)** They close to conserve water when photosynthesis stops",
             commonErrors: ["Saying they open at night — no light → guard cells flaccid → closed."],
           },
         },
@@ -1137,7 +1137,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the adaptation.", working: "\\text{night opening}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Reduce water loss while still taking in CO₂",
+            finalAnswer: "**(d)** Reduce water loss while still taking in CO₂",
             commonErrors: ["Saying 'to photosynthesise at night' — photosynthesis needs light."],
           },
         },
@@ -1201,7 +1201,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Recall the organelle.", working: "\\text{chloroplasts}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Chloroplasts",
+            finalAnswer: "**(a)** Chloroplasts",
             commonErrors: ["Choosing mitochondria — chloroplasts are the light-responsive ones."],
           },
         },

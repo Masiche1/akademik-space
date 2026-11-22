@@ -59,7 +59,7 @@ export const lesson171: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "pH", statement: "Acid <7, neutral 7, alkali >7." }],
             steps: [{ reasoning: "Recall.", working: "pH < 7", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Below 7",
+            finalAnswer: "**(d)** Below 7",
             commonErrors: ["Reversing acid/alkali ranges."],
           },
         },
@@ -152,11 +152,11 @@ export const lesson171: Lesson = {
             { id: "b", text: "Litmus" },
             { id: "c", text: "Methyl orange" },
             { id: "d", text: "Phenolphthalein" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "Indicators", statement: "Phenolphthalein: colourless → pink above pH ~8." }],
             steps: [{ reasoning: "Recall indicator colours.", working: "\\text{phenolphthalein}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Phenolphthalein",
+            finalAnswer: "**(d)** Phenolphthalein",
             commonErrors: ["Choosing litmus — it is red/blue, not colourless/pink."],
           },
         },
@@ -174,7 +174,7 @@ export const lesson171: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Carbonate + acid", statement: "Salt + water + CO₂." }],
             steps: [{ reasoning: "Recall.", working: "\\text{salt} + \\text{water} + \\text{CO}_2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Salt, water and carbon dioxide",
+            finalAnswer: "**(c)** Salt, water and carbon dioxide",
             commonErrors: ["Giving hydrogen — that is the product with metals, not carbonates."],
           },
         },
@@ -262,7 +262,7 @@ export const lesson171: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "pH scale", statement: "Lowest pH = strongest acid." }],
             steps: [{ reasoning: "Recall.", working: "\\text{pH 1 lowest}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** pH 1",
+            finalAnswer: "**(c)** pH 1",
             commonErrors: ["Choosing the highest number."],
           },
         },
@@ -388,7 +388,7 @@ export const lesson171: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Insoluble salts", statement: "Prepared by precipitation." }],
             steps: [{ reasoning: "Recall.", working: "\\text{precipitation}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Precipitation",
+            finalAnswer: "**(d)** Precipitation",
             commonErrors: ["Saying titration — that's for soluble salts."],
           },
         },
@@ -485,7 +485,7 @@ export const lesson171: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Precipitation", statement: "Two soluble salts can form an insoluble product." }],
             steps: [{ reasoning: "Ba²⁺ and SO₄²⁻ combine to give insoluble BaSO₄.", working: "\\text{Ba}^{2+} + \\text{SO}_4^{2-} \\rightarrow \\text{BaSO}_4(s)", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** BaCl₂(aq) and Na₂SO₄(aq)",
+            finalAnswer: "**(a)** BaCl₂(aq) and Na₂SO₄(aq)",
             commonErrors: ["Choosing acid + alkali — that gives a soluble salt."],
           },
         },
@@ -555,7 +555,7 @@ export const lesson171: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Excess reactant", statement: "Excess insoluble base drives the reaction to completion and is removed later." }],
             steps: [{ reasoning: "The acid is the limiting reactant and must be completely consumed.", working: "\\text{excess base ensures completion}", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** To ensure all the acid reacts",
+            finalAnswer: "**(c)** To ensure all the acid reacts",
             commonErrors: ["Saying excess is needed to make more salt — the acid limits the product."],
           },
         },
@@ -614,11 +614,11 @@ export const lesson171: Lesson = {
             { id: "b", text: "AgCl" },
             { id: "c", text: "KNO₃" },
             { id: "d", text: "NaCl" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Solubility", statement: "Silver chloride is insoluble and forms by precipitation." }],
             steps: [{ reasoning: "AgCl is insoluble in water.", working: "\\text{AgCl}(s)", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** AgCl",
+            finalAnswer: "**(b)** AgCl",
             commonErrors: ["Choosing NaCl — it is soluble and made by crystallisation."],
           },
         },

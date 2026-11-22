@@ -101,7 +101,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Sales - cost of sales" },
             { id: "d", text: "Gross profit - expenses" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Net profit", statement: "GP - expenses." }], steps: [{ reasoning: "Net profit is gross profit minus all expenses.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Gross profit - expenses" },
+          markscheme: { principles: [{ kind: "definition", name: "Net profit", statement: "GP - expenses." }], steps: [{ reasoning: "Net profit is gross profit minus all expenses.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Gross profit - expenses" },
         },
         {
           id: "olacc-u3-is-q6", difficulty: "core", totalMarks: 1,
@@ -111,8 +111,8 @@ export const lesson31: Lesson = {
             { id: "b", text: "Capital" },
             { id: "c", text: "Expenses" },
             { id: "d", text: "Cost of sales" },
-          ], dorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Carriage inward", statement: "Part of CoS." }], steps: [{ reasoning: "Carriage inward is a cost of bringing stock in, so it increases cost of sales.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** Cost of sales" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "principle", name: "Carriage inward", statement: "Part of CoS." }], steps: [{ reasoning: "Carriage inward is a cost of bringing stock in, so it increases cost of sales.", marks: 1, markCode: "M" }], finalAnswer: "**(d)** Cost of sales" },
         },
         {
           id: "olacc-u3-is-q7", difficulty: "challenge", totalMarks: 3,
@@ -141,8 +141,8 @@ export const lesson31: Lesson = {
             { id: "b", text: "Carriage inward" },
             { id: "c", text: "Carriage outward" },
             { id: "d", text: "Opening stock" },
-          ], correctChoiceIc: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Cost of sales", statement: "Direct costs only." }], steps: [{ reasoning: "Carriage outward is a selling/distribution cost treated as an expense, not cost of sales.", marks: 1, markCode: "M" }], finalAnswer: "**(d)** Carriage outward" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "principle", name: "Cost of sales", statement: "Direct costs only." }], steps: [{ reasoning: "Carriage outward is a selling/distribution cost treated as an expense, not cost of sales.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** Carriage outward" },
         },
         {
           id: "olacc-u3-is-q10", difficulty: "challenge", totalMarks: 4,
@@ -182,7 +182,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "A single point in time" },
             { id: "d", text: "A period of time" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Income statement", statement: "Covers a period." }], steps: [{ reasoning: "It shows income and expenses over a period, unlike the balance sheet which is at a date.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** A period of time" },
+          markscheme: { principles: [{ kind: "definition", name: "Income statement", statement: "Covers a period." }], steps: [{ reasoning: "It shows income and expenses over a period, unlike the balance sheet which is at a date.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** A period of time" },
         },
         {
           id: "olacc-u3-is-q14", difficulty: "challenge", totalMarks: 4,
@@ -313,7 +313,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "A deduction from purchases, reducing cost of sales" },
             { id: "d", text: "An expense" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Purchases returns", statement: "Reduce purchases." }], steps: [{ reasoning: "Purchases returns reduce the purchases figure in cost of sales.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Deducted from purchases" },
+          markscheme: { principles: [{ kind: "definition", name: "Purchases returns", statement: "Reduce purchases." }], steps: [{ reasoning: "Purchases returns reduce the purchases figure in cost of sales.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Deducted from purchases" },
         },
         {
           id: "olacc-u3-adj-q6", difficulty: "core", totalMarks: 1,
@@ -352,8 +352,8 @@ export const lesson31: Lesson = {
             { id: "b", text: "Recorded as an expense" },
             { id: "c", text: "Added to purchases" },
             { id: "d", text: "Not recorded in the books at all" },
-          ], dorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Trade discount", statement: "Never recorded." }], steps: [{ reasoning: "Trade discount reduces the invoice price before recording, so it never enters the books.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Not recorded" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "definition", name: "Trade discount", statement: "Never recorded." }], steps: [{ reasoning: "Trade discount reduces the invoice price before recording, so it never enters the books.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Not recorded" },
         },
         {
           id: "olacc-u3-adj-q10", difficulty: "challenge", totalMarks: 4,
@@ -393,8 +393,8 @@ export const lesson31: Lesson = {
             { id: "b", text: "An expense" },
             { id: "c", text: "A deduction from purchases" },
             { id: "d", text: "Cost of sales" },
-          ], aorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Discount received", statement: "Non-trading income." }], steps: [{ reasoning: "Discount received is recorded as other income below gross profit.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** Other income" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "Discount received", statement: "Non-trading income." }], steps: [{ reasoning: "Discount received is recorded as other income below gross profit.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Other income" },
         },
         {
           id: "olacc-u3-adj-q14", difficulty: "challenge", totalMarks: 4,

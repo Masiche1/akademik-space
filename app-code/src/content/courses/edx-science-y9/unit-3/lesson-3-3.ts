@@ -58,7 +58,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Her mass decreases and her weight stays the same." },
               { id: "d", text: "Her mass and her weight both stay the same." },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -67,7 +67,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The amount of matter is unchanged, but the Moon's gravitational field strength is less than Earth's, so her weight is less.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Her mass stays the same and her weight decreases.",
+            finalAnswer: "**(a)** Her mass stays the same and her weight decreases.",
             commonErrors: ["Thinking mass and weight are the same quantity.", "Thinking that mass changes when gravity changes."],
             examinerNote: "B1 for (c) only.",
           },

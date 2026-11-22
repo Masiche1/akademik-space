@@ -71,7 +71,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Electricity splits ionic compound into elements.", working: "\\text{electrolysis}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Electrical decomposition",
+            finalAnswer: "**(b)** Electrical decomposition",
             commonErrors: ["Confusing with electroplating."],
             examinerNote: "B1 for (a).",
           },
@@ -186,7 +186,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Cathode = negative, reduction occurs.", working: "\\text{cathode}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Negative, reduction",
+            finalAnswer: "**(d)** Negative, reduction",
             commonErrors: ["Confusing with anode."],
             examinerNote: "B1 for (a).",
           },
@@ -649,7 +649,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Zn is anode (loses e⁻) → electrons flow to Cu.", working: "Zn\\to Cu", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Zinc to copper",
+            finalAnswer: "**(d)** Zinc to copper",
             commonErrors: ["Reversing electron flow."],
             examinerNote: "B1 for (a).",
           },

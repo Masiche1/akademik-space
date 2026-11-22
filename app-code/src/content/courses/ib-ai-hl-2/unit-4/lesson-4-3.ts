@@ -171,7 +171,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Upper bound", statement: "Any Hamiltonian cycle is a valid tour, so the optimum is no larger than its weight." }],
             steps: [{ reasoning: "The found tour is a possible tour; the best tour cannot be worse than it.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(a)**",
             commonErrors: ["Thinking the nearest neighbour tour is always optimal."],
           },
         },
@@ -194,7 +194,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Nearest neighbour", statement: "The algorithm visits each unvisited vertex once and returns, so it always yields a valid tour (upper bound), but greedy choices can be suboptimal." }],
             steps: [{ reasoning: "The tour is valid but greedy, so it need not be optimal.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(a)**",
             commonErrors: ["Claiming the greedy tour must be optimal."],
           },
         },
@@ -287,7 +287,7 @@ export const lesson43: Lesson = {
               { reasoning: "A tie does not break validity: either neighbour may be chosen, but the choice should be recorded.", marks: 1, markCode: "A" },
               { reasoning: "Different tie choices can lead to different tours and weights.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(d)**",
             commonErrors: ["Assuming ties cannot occur or do not matter."],
           },
         },
@@ -521,7 +521,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Deleted vertex", statement: "Lower bound $=$ MST of the remaining graph $+$ the two shortest edges at the deleted vertex." }],
             steps: [{ reasoning: "A tour uses exactly two edges at the deleted vertex, at minimum the two shortest.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(c)**",
             commonErrors: ["Confusing lower and upper bounds."],
           },
         },
@@ -646,7 +646,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Best lower bound", statement: "Every deletion gives a valid lower bound; the largest is the strongest." }],
             steps: [{ reasoning: "A lower bound is more informative when larger, so take the maximum over all choices of $v$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(c)**",
             commonErrors: ["Taking the smallest value, which is the weakest bound."],
           },
         },
@@ -743,7 +743,7 @@ export const lesson43: Lesson = {
               { reasoning: "We have $28\\le$ optimal $\\le 28$.", marks: 1, markCode: "M" },
               { reasoning: "The only value satisfying both inequalities is 28.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(c)**",
             commonErrors: ["Thinking equal bounds are a coincidence rather than a proof of optimality."],
           },
         },
@@ -846,7 +846,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Spanning tree", statement: "A connected acyclic subgraph containing all vertices." }],
             steps: [{ reasoning: "Removing $v$ breaks the cycle into a single path visiting every other vertex once.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(d)**",
             commonErrors: ["Thinking the remainder is still a cycle."],
           },
         },

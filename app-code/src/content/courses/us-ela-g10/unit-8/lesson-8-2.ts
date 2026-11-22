@@ -659,7 +659,7 @@ export const lesson82: Lesson = {
       ],
     },
     {
-      id: "ela10-u8-integrated",
+      id: "ela10-u8-integrated-r2",
       title: "Integrated Literary Analysis Practice",
       skill:
         "Apply poetry, memoir, and satire analysis in comprehensive literary study.",
@@ -693,7 +693,7 @@ export const lesson82: Lesson = {
       },
       questions: [
         {
-          id: "ela10-u8-integrated-q1",
+          id: "ela10-u8-integrated-q1-r2",
           difficulty: "foundation",
           totalMarks: 1,
           extract: POEM,
@@ -730,7 +730,7 @@ export const lesson82: Lesson = {
           },
         },
         {
-          id: "ela10-u8-integrated-q2",
+          id: "ela10-u8-integrated-q2-r2",
           difficulty: "core",
           totalMarks: 3,
           extract: POEM,
@@ -773,7 +773,7 @@ export const lesson82: Lesson = {
           },
         },
         {
-          id: "ela10-u8-integrated-q3",
+          id: "ela10-u8-integrated-q3-r2",
           difficulty: "challenge",
           totalMarks: 8,
           extract: MEMOIR,
@@ -822,7 +822,7 @@ export const lesson82: Lesson = {
           },
         },
         {
-          id: "ela10-u8-integrated-q4",
+          id: "ela10-u8-integrated-q4-r2",
           difficulty: "core",
           totalMarks: 4,
           extract: SATIRE,

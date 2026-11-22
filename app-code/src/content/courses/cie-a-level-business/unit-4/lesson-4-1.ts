@@ -368,7 +368,7 @@ export const lesson401: Lesson = {
                 text: "Tariff",
               },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -387,7 +387,7 @@ export const lesson401: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(d)** Free trade agreement",
+            finalAnswer: "**(b)** Free trade agreement",
           },
         },
         {
@@ -635,7 +635,7 @@ export const lesson401: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** A complete ban on trade with a country",
+            finalAnswer: "**(d)** A complete ban on trade with a country",
           },
         },
         {
@@ -723,7 +723,7 @@ export const lesson401: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** It protects an infant industry until it can compete internationally",
+              "**(d)** It protects an infant industry until it can compete internationally",
           },
         },
         {

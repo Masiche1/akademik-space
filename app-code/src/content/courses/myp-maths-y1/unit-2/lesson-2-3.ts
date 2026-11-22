@@ -72,7 +72,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Subtract consecutive terms: $11-7=4$, $15-11=4$, $19-15=4$.", working: "d=4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Add 4",
+            finalAnswer: "**(b)** Add 4",
             commonErrors: ["Choosing the first term, 7, as the difference.", "Counting the difference incorrectly as 3."],
             examinerNote: "B1 for add 4.",
           },
@@ -176,7 +176,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Substitute $n=10$: $5\\times10+2=52$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $52$",
+            finalAnswer: "**(b)** $52$",
             commonErrors: ["Computing $5\\times(10+2)=60$.", "Reading $5n$ as 510."],
             examinerNote: "B1 for 52.",
           },
@@ -203,7 +203,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Subtract consecutive terms: $7-3=4$, $11-7=4$, $15-11=4$.", working: "d=4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $4$",
+            finalAnswer: "**(d)** $4$",
             commonErrors: ["Choosing the first term, 3."],
             examinerNote: "B1 for 4.",
           },
@@ -624,7 +624,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The highest common factor of 20 and 30 is 10; divide both parts by 10.", working: "20:30=2:3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2:3$",
+            finalAnswer: "**(b)** $2:3$",
             commonErrors: ["Choosing $10:15$, which is not fully simplified.", "Reversing the order."],
             examinerNote: "B1 for 2:3.",
           },
@@ -642,7 +642,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "$9$" },
               { id: "d", text: "$12$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -651,7 +651,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Total parts $=1+2=3$; one part is $18\\div3=6$; second child gets $2\\times6=12$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $12$",
+            finalAnswer: "**(d)** $12$",
             commonErrors: ["Giving 6, which is one part only.", "Splitting equally to get 9."],
             examinerNote: "B1 for 12.",
           },
@@ -669,7 +669,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "$2$ litres" },
               { id: "d", text: "$6$ litres" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -678,7 +678,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Scale the ratio by 2: $2$ litres cordial needs $4\\times2=8$ litres water.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** $8$ litres",
+            finalAnswer: "**(b)** $8$ litres",
             commonErrors: ["Adding 4 litres to make 6.", "Using 4 litres because the ratio says 4."],
             examinerNote: "B1 for 8 litres.",
           },
@@ -743,7 +743,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Divide both parts by 3: $6:9=2:3$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2:3$",
+            finalAnswer: "**(b)** $2:3$",
             commonErrors: ["Choosing $3:2$ by reversing.", "Choosing $6:18$ which is not equivalent ($\\frac{6}{18}=\\frac13$)."],
             examinerNote: "B1 for 2:3.",
           },
@@ -790,7 +790,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Each centimetre on the map is 5 km, so $7\\times5=35$ km.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $35$ km",
+            finalAnswer: "**(a)** $35$ km",
             commonErrors: ["Dividing 7 by 5 to get 1.4.", "Multiplying by 10 instead of 5."],
             examinerNote: "B1 for 35 km.",
           },

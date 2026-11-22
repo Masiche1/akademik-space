@@ -117,7 +117,7 @@ export const lesson41: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Double angle", statement: "Standard identity." }],
             steps: [{ reasoning: "$\\tan 2\\theta = \\frac{2\\tan\\theta}{1-\\tan^2\\theta}$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** $\\frac{2\\tan\\theta}{1-\\tan^2\\theta}$",
+            finalAnswer: "**(c)** $\\frac{2\\tan\\theta}{1-\\tan^2\\theta}$",
           },
         },
         {
@@ -165,7 +165,7 @@ export const lesson41: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Compound angle", statement: "Standard identity." }],
             steps: [{ reasoning: "$\\sin(A-B) = \\sin A\\cos B - \\cos A\\sin B$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** $\\sin A\\cos B - \\cos A\\sin B$",
+            finalAnswer: "**(b)** $\\sin A\\cos B - \\cos A\\sin B$",
           },
         },
         {
@@ -214,7 +214,7 @@ export const lesson41: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Triple angle", statement: "Derived from compound angles." }],
             steps: [{ reasoning: "$\\cos 3\\theta = \\cos(2\\theta+\\theta) = 4\\cos^3\\theta - 3\\cos\\theta$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** $4\\cos^3\\theta - 3\\cos\\theta$",
+            finalAnswer: "**(b)** $4\\cos^3\\theta - 3\\cos\\theta$",
           },
         },
         {
@@ -264,7 +264,7 @@ export const lesson41: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Compound angle", statement: "Standard identity." }],
             steps: [{ reasoning: "$\\tan(A+B) = \\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** $\\frac{\\tan A + \\tan B}{1 - \\tan A\\tan B}$",
+            finalAnswer: "**(c)** $\\frac{\\tan A + \\tan B}{1 - \\tan A\\tan B}$",
           },
         },
         {
@@ -404,7 +404,7 @@ export const lesson41: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "t-substitution", statement: "Standard result." }],
             steps: [{ reasoning: "$\\sin\\theta = \\frac{2t}{1+t^2}$; $\\cos\\theta = \\frac{1-t^2}{1+t^2}$, $\\tan\\theta = \\frac{2t}{1-t^2}$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** $\\frac{2t}{1+t^2}$",
+            finalAnswer: "**(d)** $\\frac{2t}{1+t^2}$",
           },
         },
         {
@@ -457,7 +457,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "$\\frac{1}{\\sin\\theta\\cos\\theta} = 2$ → $\\sin 2\\theta = 1$ → $\\theta = \\frac{\\pi}{4}$.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $\\frac{\\pi}{4}$",
+            finalAnswer: "**(d)** $\\frac{\\pi}{4}$",
           },
         },
         {
@@ -510,7 +510,7 @@ export const lesson41: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Strategy", statement: "Quadratic in one trig function." }],
             steps: [{ reasoning: "Let $u=\\sin\\theta$: $3u^2-u-1=0$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** Quadratic in $\\sin\\theta$",
+            finalAnswer: "**(b)** Quadratic in $\\sin\\theta$",
           },
         },
         {

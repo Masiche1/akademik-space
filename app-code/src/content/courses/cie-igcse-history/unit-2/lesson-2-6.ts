@@ -283,7 +283,7 @@ export const lesson346: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** It declared school segregation unconstitutional",
+              "**(a)** It declared school segregation unconstitutional",
           },
         },
         {
@@ -395,7 +395,7 @@ export const lesson346: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Rosa Parks",
+            finalAnswer: "**(c)** Rosa Parks",
           },
         },
         {
@@ -484,7 +484,7 @@ export const lesson346: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A law ensuring the voting rights of African Americans",
+              "**(c)** A law ensuring the voting rights of African Americans",
           },
         },
         {
@@ -570,7 +570,7 @@ export const lesson346: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** It showed the power of organised non-violent economic protest",
+              "**(a)** It showed the power of organised non-violent economic protest",
           },
         },
         {
@@ -703,7 +703,7 @@ export const lesson346: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Racial separation enforced by law in public facilities",
+              "**(c)** Racial separation enforced by law in public facilities",
           },
         },
         {

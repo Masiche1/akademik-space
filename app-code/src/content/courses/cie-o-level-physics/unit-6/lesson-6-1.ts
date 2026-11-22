@@ -61,7 +61,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Ohm's law", statement: "V = IR." }],
             steps: [{ reasoning: "Recall.", working: "V = IR", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** V = IR",
+            finalAnswer: "**(b)** V = IR",
             commonErrors: ["All are rearrangements — the law is V=IR."],
           },
         },
@@ -141,7 +141,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Series", statement: "Single path → same current everywhere." }],
             steps: [{ reasoning: "Recall.", working: "\\text{series: same } I", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Is the same through every component",
+            finalAnswer: "**(d)** Is the same through every component",
             commonErrors: ["Confusing series with parallel where current splits."],
           },
         },
@@ -171,11 +171,11 @@ export const lessonp61: Lesson = {
             { id: "b", text: "stays the same" },
             { id: "c", text: "becomes zero" },
             { id: "d", text: "halves" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "law", name: "Ohm's law", statement: "I = V/R — I proportional to V at constant R." }],
             steps: [{ reasoning: "Recall.", working: "I \\propto V", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Doubles",
+            finalAnswer: "**(a)** Doubles",
             commonErrors: ["Thinking current is fixed — it depends on V."],
           },
         },
@@ -193,7 +193,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Parallel", statement: "Same voltage across all branches." }],
             steps: [{ reasoning: "Recall.", working: "\\text{parallel: same } V", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Is the same across each branch",
+            finalAnswer: "**(d)** Is the same across each branch",
             commonErrors: ["Confusing with series where voltage splits."],
           },
         },
@@ -264,7 +264,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "application", name: "Safety", statement: "Fuse/circuit breaker cuts current on overload." }],
             steps: [{ reasoning: "Recall.", working: "\\text{break on excess current}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** To protect the circuit by breaking it when current is too large",
+            finalAnswer: "**(d)** To protect the circuit by breaking it when current is too large",
             commonErrors: ["Thinking fuses increase current."],
           },
         },
@@ -336,7 +336,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "application", name: "Fuse", statement: "Melts when current exceeds rating." }],
             steps: [{ reasoning: "Recall.", working: "\\text{fuse melts at rated current}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It melts and breaks the circuit if current exceeds 13 A",
+            finalAnswer: "**(d)** It melts and breaks the circuit if current exceeds 13 A",
             commonErrors: ["Thinking the fuse rating is the normal current — it is the maximum safe current."],
           },
         },
@@ -384,7 +384,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Electromagnet", statement: "Current-carrying coil." }],
             steps: [{ reasoning: "Recall.", working: "\\text{coil + current}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Coil of wire carrying current",
+            finalAnswer: "**(d)** Coil of wire carrying current",
             commonErrors: ["Permanent magnet — electromagnets are temporary."],
           },
         },
@@ -464,7 +464,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Field lines", statement: "N → S outside magnet." }],
             steps: [{ reasoning: "Recall.", working: "N \\rightarrow S \\text{ outside}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** North pole to south pole",
+            finalAnswer: "**(a)** North pole to south pole",
             commonErrors: ["Reversing — inside the magnet lines run S to N."],
           },
         },
@@ -482,7 +482,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "application", name: "Compass", statement: "Needle aligns with local magnetic field." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Earth's magnetic field}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The Earth's magnetic field",
+            finalAnswer: "**(a)** The Earth's magnetic field",
             commonErrors: ["Confusing magnetic and electric fields."],
           },
         },
@@ -571,7 +571,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Induction", statement: "Faster change of flux → larger induced emf." }],
             steps: [{ reasoning: "Recall.", working: "\\text{faster rotation} \\Rightarrow \\text{greater emf}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Spinning the coil faster",
+            finalAnswer: "**(d)** Spinning the coil faster",
             commonErrors: ["Slowing rotation decreases induced voltage."],
           },
         },
@@ -635,11 +635,11 @@ export const lessonp61: Lesson = {
             { id: "b", text: "using a plastic core" },
             { id: "c", text: "decreasing the current" },
             { id: "d", text: "removing the iron core" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Electromagnet", statement: "Stronger with more turns, more current, iron core." }],
             steps: [{ reasoning: "Recall.", working: "\\text{more turns} \\Rightarrow \\text{stronger}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Increasing the number of turns on the coil",
+            finalAnswer: "**(a)** Increasing the number of turns on the coil",
             commonErrors: ["Choosing options that weaken the field."],
           },
         },
@@ -653,11 +653,11 @@ export const lessonp61: Lesson = {
             { id: "b", text: "zero" },
             { id: "c", text: "equal to the primary voltage" },
             { id: "d", text: "lower than the primary voltage" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "Transformer", statement: "Step-down: Vs < Vp (fewer secondary turns)." }],
             steps: [{ reasoning: "Recall.", working: "V_s < V_p \\text{ for step-down}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Lower than the primary voltage",
+            finalAnswer: "**(d)** Lower than the primary voltage",
             commonErrors: ["Confusing step-up with step-down."],
           },
         },

@@ -41,7 +41,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Objective, factual language" },
             { id: "d", text: "Poetic language" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Report tone", statement: "Objective and factual." }], steps: [{ reasoning: "Reports state facts, not feelings.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Objective, factual language" },
+          markscheme: { principles: [{ kind: "convention", name: "Report tone", statement: "Objective and factual." }], steps: [{ reasoning: "Reports state facts, not feelings.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Objective, factual language" },
         },
         {
           id: "oles-u3-rp-q2", difficulty: "core", totalMarks: 2,
@@ -170,7 +170,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Sums up the findings or gives recommendations" },
             { id: "d", text: "Asks the reader questions" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Report structure", statement: "Conclusion = summary or recommendations." }], steps: [{ reasoning: "Conclusions close the report with results or next steps.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Sums up findings or recommendations" },
+          markscheme: { principles: [{ kind: "convention", name: "Report structure", statement: "Conclusion = summary or recommendations." }], steps: [{ reasoning: "Conclusions close the report with results or next steps.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Sums up findings or recommendations" },
         },
         {
           id: "oles-u3-rp-q12", difficulty: "core", totalMarks: 2,
@@ -190,7 +190,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Too personal and opinionated" },
             { id: "d", text: "A heading" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Report tone", statement: "Objective, no 'I think'." }], steps: [{ reasoning: "Reports ban personal opinion and emotion.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Too personal and opinionated" },
+          markscheme: { principles: [{ kind: "skill", name: "Report tone", statement: "Objective, no 'I think'." }], steps: [{ reasoning: "Reports ban personal opinion and emotion.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Too personal and opinionated" },
         },
         {
           id: "oles-u3-rp-q14", difficulty: "challenge", totalMarks: 3,
@@ -244,7 +244,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Hook like a headline" },
             { id: "d", text: "Tell a story" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "Report title", statement: "States the topic." }], steps: [{ reasoning: "Report titles label the content, not entertain.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Identify the topic at a glance" },
+          markscheme: { principles: [{ kind: "convention", name: "Report title", statement: "States the topic." }], steps: [{ reasoning: "Report titles label the content, not entertain.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Identify the topic at a glance" },
         },
       ],
     },
@@ -275,7 +275,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Give the full story" },
             { id: "d", text: "Grab attention and show the topic" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Headline", statement: "Attention + topic." }], steps: [{ reasoning: "Headlines attract readers and preview the topic.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Grab attention and show the topic" },
+          markscheme: { principles: [{ kind: "convention", name: "Headline", statement: "Attention + topic." }], steps: [{ reasoning: "Headlines attract readers and preview the topic.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Grab attention and show the topic" },
         },
         {
           id: "oles-u3-ar-q2", difficulty: "core", totalMarks: 2,
@@ -339,7 +339,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "The topic sentence" },
             { id: "d", text: "The publication date" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "By-line", statement: "Writer's name under the headline." }], steps: [{ reasoning: "The by-line credits the author.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The writer's name" },
+          markscheme: { principles: [{ kind: "convention", name: "By-line", statement: "Writer's name under the headline." }], steps: [{ reasoning: "The by-line credits the author.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** The writer's name" },
         },
         {
           id: "oles-u3-ar-q6", difficulty: "core", totalMarks: 2,
@@ -368,7 +368,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Language and examples students understand" },
             { id: "d", text: "Adult financial jargon" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Audience", statement: "Match readers." }], steps: [{ reasoning: "School readers need accessible vocabulary and examples.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Language students understand" },
+          markscheme: { principles: [{ kind: "skill", name: "Audience", statement: "Match readers." }], steps: [{ reasoning: "School readers need accessible vocabulary and examples.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Language students understand" },
         },
         {
           id: "oles-u3-ar-q9", difficulty: "challenge", totalMarks: 3,
@@ -404,7 +404,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Only use the past tense" },
             { id: "d", text: "Have no conclusion" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "technique", name: "Article vs report", statement: "Articles may be lively." }], steps: [{ reasoning: "Articles engage readers; reports stay dry and factual.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Be livelier and more engaging" },
+          markscheme: { principles: [{ kind: "technique", name: "Article vs report", statement: "Articles may be lively." }], steps: [{ reasoning: "Articles engage readers; reports stay dry and factual.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Be livelier and more engaging" },
         },
         {
           id: "oles-u3-ar-q12", difficulty: "core", totalMarks: 2,
@@ -424,7 +424,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "A fishing tool" },
             { id: "d", text: "A by-line" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "technique", name: "Hook", statement: "Captures the reader's interest." }], steps: [{ reasoning: "The hook makes readers want to continue.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** An attention-grabbing opening" },
+          markscheme: { principles: [{ kind: "technique", name: "Hook", statement: "Captures the reader's interest." }], steps: [{ reasoning: "The hook makes readers want to continue.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** An attention-grabbing opening" },
         },
         {
           id: "oles-u3-ar-q14", difficulty: "challenge", totalMarks: 3,

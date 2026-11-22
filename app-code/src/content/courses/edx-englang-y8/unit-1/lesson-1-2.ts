@@ -78,7 +78,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Connotation", statement: "'Crept' connotes stealth, caution and fear." }],
             steps: [{ reasoning: "'Crept' suggests slow, careful, quiet movement, linked to the fear created by the storm and the groaning stairs.", evidence: "crept upwards", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** 'Crept' connotes caution and quiet, suggesting nervousness. A hurry would be 'raced' or 'dashed'.",
+            finalAnswer: "**(c)** 'Crept' connotes caution and quiet, suggesting nervousness. A hurry would be 'raced' or 'dashed'.",
             commonErrors: ["Choosing 'in a hurry': the verb suggests slowness, not speed."],
           },
         },
@@ -202,7 +202,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Metaphor", statement: "States that one thing is another, without 'like' or 'as'." }],
             steps: [{ reasoning: "The sea is said to 'be' silver, with no 'like' or 'as'.", evidence: "The sea was a sheet of hammered silver", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(b)** Metaphor. A simile would need 'like' or 'as'; nothing is given human feelings, so it is not personification.",
+            finalAnswer: "**(d)** Metaphor. A simile would need 'like' or 'as'; nothing is given human feelings, so it is not personification.",
             commonErrors: ["Choosing simile because comparisons are often labelled 'similes' loosely."],
           },
         },
@@ -228,7 +228,7 @@ export const lesson12: Lesson = {
               { reasoning: "Cattle are gentle, slow animals, so the boats seem calm and docile.", evidence: "like sleepy cattle", marks: 1, markCode: "AO2" },
               { reasoning: "'Sleepy' and 'nodded' add the idea of peaceful early morning rest, creating a quiet mood.", evidence: "nodded at their moorings", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** The boats seem gentle, calm and slow, creating a peaceful atmosphere. Nothing in the simile suggests damage, power or noise.",
+            finalAnswer: "**(c)** The boats seem gentle, calm and slow, creating a peaceful atmosphere. Nothing in the simile suggests damage, power or noise.",
             commonErrors: ["Choosing 'huge and powerful' by thinking of cattle as large animals instead of the 'sleepy' quality."],
           },
         },

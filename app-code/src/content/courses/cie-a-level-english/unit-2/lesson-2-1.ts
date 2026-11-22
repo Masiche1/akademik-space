@@ -99,7 +99,7 @@ export const lesson221: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Highest tension/turning point",
+            finalAnswer: "**(d)** Highest tension/turning point",
             commonErrors: ["Confusing with resolution."],
           },
         },
@@ -315,7 +315,7 @@ export const lesson221: Lesson = {
           totalMarks: 1,
           stem: "What is the function of exposition in a narrative?",
           response: { type: "mcq", choices: [ { id: "a", text: "It lists the ending" }, { id: "b", text: "It repeats the climax" }, { id: "c", text: "It resolves the conflict" }, { id: "d", text: "It introduces character, setting and situation" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Exposition", statement: "Opening context establishes who, where and what is at stake." }], steps: [{ reasoning: "Exposition supplies initial context.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Introduces context", commonErrors: ["Confusing exposition with resolution."] },
+          markscheme: { principles: [{ kind: "convention", name: "Exposition", statement: "Opening context establishes who, where and what is at stake." }], steps: [{ reasoning: "Exposition supplies initial context.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Introduces context", commonErrors: ["Confusing exposition with resolution."] },
         },
         {
           id: "cial-e-u2-nc-q6",
@@ -323,7 +323,7 @@ export const lesson221: Lesson = {
           totalMarks: 1,
           stem: "What happens during rising action?",
           response: { type: "mcq", choices: [ { id: "a", text: "The conflict disappears" }, { id: "b", text: "Characters are introduced for the first time" }, { id: "c", text: "Tension and complications increase toward the climax" }, { id: "d", text: "The story ends quietly" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Rising action", statement: "Complications build pressure before the climax." }], steps: [{ reasoning: "Rising action increases tension.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Tension increases", commonErrors: ["Thinking rising action is the opening."] },
+          markscheme: { principles: [{ kind: "convention", name: "Rising action", statement: "Complications build pressure before the climax." }], steps: [{ reasoning: "Rising action increases tension.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Tension increases", commonErrors: ["Thinking rising action is the opening."] },
         },
         {
           id: "cial-e-u2-nc-q7",
@@ -331,7 +331,7 @@ export const lesson221: Lesson = {
           totalMarks: 1,
           stem: "Which point of view gives the narrator's private thoughts most directly?",
           response: { type: "mcq", choices: [ { id: "a", text: "First person" }, { id: "b", text: "Third-person omniscient" }, { id: "c", text: "Objective report" }, { id: "d", text: "Second-person instructions" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "technique", name: "Point of view", statement: "First person gives direct access to one consciousness." }], steps: [{ reasoning: "First person most directly voices private thought.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** First person", commonErrors: ["Confusing omniscient access with intimacy."] },
+          markscheme: { principles: [{ kind: "technique", name: "Point of view", statement: "First person gives direct access to one consciousness." }], steps: [{ reasoning: "First person most directly voices private thought.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** First person", commonErrors: ["Confusing omniscient access with intimacy."] },
         },
         {
           id: "cial-e-u2-nc-q8",
@@ -339,7 +339,7 @@ export const lesson221: Lesson = {
           totalMarks: 1,
           stem: "Why use short sentences at a crisis point?",
           response: { type: "mcq", choices: [ { id: "a", text: "To introduce a new character" }, { id: "b", text: "To make the paragraph longer" }, { id: "c", text: "To quicken pace and heighten urgency" }, { id: "d", text: "To explain the backstory" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "technique", name: "Sentence pacing", statement: "Short sentences accelerate rhythm and focus attention." }], steps: [{ reasoning: "Short units create urgency at crisis moments.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Quicker pace and urgency", commonErrors: ["Treating sentence length as decorative."] },
+          markscheme: { principles: [{ kind: "technique", name: "Sentence pacing", statement: "Short sentences accelerate rhythm and focus attention." }], steps: [{ reasoning: "Short units create urgency at crisis moments.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Quicker pace and urgency", commonErrors: ["Treating sentence length as decorative."] },
         },
         {
           id: "cial-e-u2-nc-q9",
@@ -471,7 +471,7 @@ export const lesson221: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Single mood created",
+            finalAnswer: "**(c)** Single mood created",
             commonErrors: ["Confusing with structure."],
           },
         },
@@ -694,7 +694,7 @@ export const lesson221: Lesson = {
           totalMarks: 1,
           stem: "Which sense is most often neglected in weak description?",
           response: { type: "mcq", choices: [ { id: "a", text: "Sound" }, { id: "b", text: "Touch" }, { id: "c", text: "Sight" }, { id: "d", text: "Smell" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "technique", name: "Multi-sensory description", statement: "Smell and touch often add the missing immersive layer." }], steps: [{ reasoning: "Sight is common; smell is frequently omitted.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Smell", commonErrors: ["Assuming visual detail alone creates immersion."] },
+          markscheme: { principles: [{ kind: "technique", name: "Multi-sensory description", statement: "Smell and touch often add the missing immersive layer." }], steps: [{ reasoning: "Sight is common; smell is frequently omitted.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Smell", commonErrors: ["Assuming visual detail alone creates immersion."] },
         },
         {
           id: "cial-e-u2-dc-q7",
@@ -702,7 +702,7 @@ export const lesson221: Lesson = {
           totalMarks: 1,
           stem: "What is the effect of inconsistent connotations?",
           response: { type: "mcq", choices: [ { id: "a", text: "They strengthen the mood" }, { id: "b", text: "They add more facts" }, { id: "c", text: "They weaken the dominant impression" }, { id: "d", text: "They shorten the paragraph" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "technique", name: "Connotation consistency", statement: "Conflicting associations blur the intended mood." }], steps: [{ reasoning: "Mixed associations prevent a unified impression.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** They weaken the mood", commonErrors: ["Thinking more detail always helps."] },
+          markscheme: { principles: [{ kind: "technique", name: "Connotation consistency", statement: "Conflicting associations blur the intended mood." }], steps: [{ reasoning: "Mixed associations prevent a unified impression.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** They weaken the mood", commonErrors: ["Thinking more detail always helps."] },
         },
         {
           id: "cial-e-u2-dc-q8",
@@ -710,7 +710,7 @@ export const lesson221: Lesson = {
           totalMarks: 1,
           stem: "Which organisational method suits a description that follows the eye moving through a room?",
           response: { type: "mcq", choices: [ { id: "a", text: "Cause and effect" }, { id: "b", text: "Chronological summary" }, { id: "c", text: "Spatial" }, { id: "d", text: "Thematic" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Spatial organisation", statement: "Description moves near to far or across locations." }], steps: [{ reasoning: "Eye movement through space fits spatial order.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Spatial", commonErrors: ["Choosing chronological order for a static scene."] },
+          markscheme: { principles: [{ kind: "convention", name: "Spatial organisation", statement: "Description moves near to far or across locations." }], steps: [{ reasoning: "Eye movement through space fits spatial order.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Spatial", commonErrors: ["Choosing chronological order for a static scene."] },
         },
         {
           id: "cial-e-u2-dc-q9",
@@ -718,7 +718,7 @@ export const lesson221: Lesson = {
           totalMarks: 1,
           stem: "Why are precise verbs stronger than general verbs in description?",
           response: { type: "mcq", choices: [ { id: "a", text: "They convey specific action and mood economically" }, { id: "b", text: "They make the text formal" }, { id: "c", text: "They remove the need for imagery" }, { id: "d", text: "They are always longer" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "technique", name: "Precise diction", statement: "Specific verbs carry action, tone and image." }], steps: [{ reasoning: "Precise verbs do more imaginative work per word.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Specific action and mood", commonErrors: ["Using vague verbs such as 'went' or 'got'."] },
+          markscheme: { principles: [{ kind: "technique", name: "Precise diction", statement: "Specific verbs carry action, tone and image." }], steps: [{ reasoning: "Precise verbs do more imaginative work per word.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Specific action and mood", commonErrors: ["Using vague verbs such as 'went' or 'got'."] },
         },
         {
           id: "cial-e-u2-dc-q10",

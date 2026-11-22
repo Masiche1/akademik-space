@@ -65,7 +65,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Soliloquy = alone, thoughts aloud.", working: "alone", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Character speaks thoughts aloud alone",
+            finalAnswer: "**(c)** Character speaks thoughts aloud alone",
             commonErrors: ["Choosing (b) — that's dialogue."],
           },
         },
@@ -278,7 +278,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Audience knows more.", working: "audience", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Audience knows what characters don't",
+            finalAnswer: "**(d)** Audience knows what characters don't",
             commonErrors: ["Confusing with verbal irony."],
           },
         },
@@ -322,7 +322,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Denouement = resolution.", working: "resolution", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Resolution after the climax",
+            finalAnswer: "**(d)** Resolution after the climax",
             commonErrors: ["Choosing (b) — that's exposition."],
           },
         },
@@ -588,7 +588,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Downstage = intimacy.", working: "intimacy", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Intimacy or approach",
+            finalAnswer: "**(d)** Intimacy or approach",
             commonErrors: ["Confusing with upstage."],
           },
         },
@@ -632,7 +632,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Lighting = atmosphere.", working: "atmosphere", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Mood and atmosphere",
+            finalAnswer: "**(b)** Mood and atmosphere",
             commonErrors: ["Ignoring lighting as decoration."],
           },
         },
@@ -696,7 +696,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Bright = open.", working: "open", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Openness or optimism",
+            finalAnswer: "**(c)** Openness or optimism",
             commonErrors: ["Reversing bright/dark effects."],
           },
         },
@@ -740,7 +740,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Spotlight = focus.", working: "focus", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Focus and isolation",
+            finalAnswer: "**(c)** Focus and isolation",
             commonErrors: ["Treating lighting as decoration only."],
           },
         },
@@ -786,7 +786,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Actor's perspective.", working: "actor", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The actor's perspective",
+            finalAnswer: "**(b)** The actor's perspective",
             commonErrors: ["Using audience perspective — reversed."],
           },
         },
@@ -901,7 +901,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Subtext = implied.", working: "implied", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** What isn't said but implied",
+            finalAnswer: "**(c)** What isn't said but implied",
             commonErrors: ["Choosing (b) — that's just text."],
           },
         },
@@ -1006,7 +1006,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Text + performance.", working: "both", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Text and performance",
+            finalAnswer: "**(c)** Text and performance",
             commonErrors: ["Analysing only the written text."],
           },
         },
@@ -1050,7 +1050,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Immediate + shared.", working: "shared", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Immediate and shared",
+            finalAnswer: "**(b)** Immediate and shared",
             commonErrors: ["Treating audience like novel readers."],
           },
         },
@@ -1114,7 +1114,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Conflict+choices+resolution.", working: "sources", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Conflict, choices and resolution",
+            finalAnswer: "**(d)** Conflict, choices and resolution",
             commonErrors: ["Theme as stated message."],
           },
         },
@@ -1158,7 +1158,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Written + staged.", working: "both", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Written and staged elements",
+            finalAnswer: "**(b)** Written and staged elements",
             commonErrors: ["Ignoring performance half."],
           },
         },

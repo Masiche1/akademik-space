@@ -261,7 +261,7 @@ export const lesson643: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(b)** The United States"
+          "finalAnswer": "**(c)** The United States"
 },
         },
         {
@@ -369,7 +369,7 @@ export const lesson643: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(b)** US-led response to terrorism"
+          "finalAnswer": "**(d)** US-led response to terrorism"
 },
         },
         {
@@ -532,7 +532,7 @@ export const lesson643: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(b)** The 9/11 terrorist attacks"
+          "finalAnswer": "**(d)** The 9/11 terrorist attacks"
 },
         },
         {
@@ -592,7 +592,7 @@ export const lesson643: Lesson = {
                               "text": "It was fought directly against NATO"
                     }
           ],
-          "aorrectChoiceId": "c"
+          "correctChoiceId": "a"
 },
           markscheme: {
           "principles": [
@@ -609,7 +609,7 @@ export const lesson643: Lesson = {
                               "markCode": "A"
                     }
           ],
-          "finalAnswer": "**(c)** Disagreements over justification and UN support"
+          "finalAnswer": "**(a)** Disagreements over justification and UN support"
 },
         },
         {

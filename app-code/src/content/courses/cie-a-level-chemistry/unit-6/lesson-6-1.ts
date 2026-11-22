@@ -213,7 +213,7 @@ export const lesson611: Lesson = {
               { id: "c", text: "Pent-1-ene" },
               { id: "d", text: "2-methylbut-1-ene" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Structural isomer", statement: "Same molecular formula, different structural arrangement." }],
@@ -304,7 +304,7 @@ export const lesson611: Lesson = {
               { id: "c", text: "Aqueous sodium hydroxide" },
               { id: "d", text: "Concentrated sulfuric acid" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Free-radical substitution", statement: "UV light initiates radical chain reactions between alkanes and halogens." }],
@@ -553,7 +553,7 @@ export const lesson611: Lesson = {
               { id: "c", text: "Hydrochloric acid" },
               { id: "d", text: "Alcoholic KOH" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Nitrile formation", statement: "CN$^-$ replaces the halogen to give R–CN." }],
@@ -644,7 +644,7 @@ export const lesson611: Lesson = {
               { id: "c", text: "Carbon is $\\delta^-$ and attacked by electrophiles" },
               { id: "d", text: "Reactivity order is R–F > R–Cl > R–Br > R–I" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Halogenoalkane polarity", statement: "X is more electronegative, so carbon is $\\delta^+$ and is attacked by nucleophiles." }],

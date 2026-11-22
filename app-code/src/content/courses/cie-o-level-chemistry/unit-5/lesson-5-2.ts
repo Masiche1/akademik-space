@@ -173,7 +173,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Endothermic", statement: "Absorbs heat → temperature falls." }],
             steps: [{ reasoning: "Recall.", working: "\\Delta T < 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Falls",
+            finalAnswer: "**(d)** Falls",
             commonErrors: ["Reversing exo/endo temperature changes."],
           },
         },
@@ -240,7 +240,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Calorimetry errors", statement: "Heat escapes → measured ΔH smaller than true." }],
             steps: [{ reasoning: "Recall.", working: "\\text{heat loss}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Heat loss to the surroundings",
+            finalAnswer: "**(c)** Heat loss to the surroundings",
             commonErrors: ["Choosing measurement accuracy — heat loss is dominant."],
           },
         },
@@ -258,7 +258,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "ΔHn", statement: "≈ −57 kJ/mol for strong acid + strong base." }],
             steps: [{ reasoning: "Recall.", working: "\\Delta H_n \\approx -57", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** −57 kJ/mol",
+            finalAnswer: "**(b)** −57 kJ/mol",
             commonErrors: ["Wrong sign — neutralisation is exothermic."],
           },
         },
@@ -337,7 +337,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Calorimetry", statement: "Measure ΔT with thermometer." }],
             steps: [{ reasoning: "Recall.", working: "\\text{thermometer}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Thermometer",
+            finalAnswer: "**(d)** Thermometer",
             commonErrors: ["Balance measures mass, not temperature."],
           },
         },
@@ -385,7 +385,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Hess's law", statement: "ΔH same for any route." }],
             steps: [{ reasoning: "Recall.", working: "\\Delta H \\text{ path-independent}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Enthalpy change is the same regardless of the route taken",
+            finalAnswer: "**(d)** Enthalpy change is the same regardless of the route taken",
             commonErrors: ["Thinking ΔH depends on steps — it's path-independent."],
           },
         },
@@ -461,11 +461,11 @@ export const lesson152: Lesson = {
             { id: "b", text: "Positive" },
             { id: "c", text: "Depends on the element" },
             { id: "d", text: "Zero" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "ΔHf", statement: "Elements in standard state have ΔHf = 0." }],
             steps: [{ reasoning: "Recall.", working: "\\Delta H_f(\\text{element}) = 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Zero",
+            finalAnswer: "**(d)** Zero",
             commonErrors: ["Assigning non-zero values to elements like O₂ or C."],
           },
         },
@@ -498,7 +498,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Hess's law", statement: "Direct ΔH = sum of steps ΔH." }],
             steps: [{ reasoning: "Recall.", working: "\\Delta H_{direct} = \\sum \\Delta H_{steps}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The sum of the alternative step enthalpies",
+            finalAnswer: "**(a)** The sum of the alternative step enthalpies",
             commonErrors: ["Subtracting instead of adding steps."],
           },
         },
@@ -547,7 +547,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Hess", statement: "Reversing a reaction reverses the sign of ΔH." }],
             steps: [{ reasoning: "Recall.", working: "\\Delta H_{rev} = -\\Delta H", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** +100 kJ/mol",
+            finalAnswer: "**(a)** +100 kJ/mol",
             commonErrors: ["Keeping the same sign — direction matters."],
           },
         },
@@ -626,7 +626,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "ΔHf", statement: "Formation of water is exothermic → ΔHf negative." }],
             steps: [{ reasoning: "Recall value ≈ −286 kJ/mol.", working: "\\Delta H_f = -286", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Negative",
+            finalAnswer: "**(a)** Negative",
             commonErrors: ["Thinking all ΔHf are positive."],
           },
         },
@@ -662,7 +662,7 @@ export const lesson152: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Hess", statement: "Exothermic when products' ΔHf sum < reactants' sum." }],
             steps: [{ reasoning: "Negative ΔH = products lower.", working: "\\sum \\Delta H_f(\\text{prod}) < \\sum \\Delta H_f(\\text{react})", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** Products have lower ΔHf sum than reactants",
+            finalAnswer: "**(c)** Products have lower ΔHf sum than reactants",
             commonErrors: ["Reversing — lower products sum gives negative ΔH."],
           },
         },

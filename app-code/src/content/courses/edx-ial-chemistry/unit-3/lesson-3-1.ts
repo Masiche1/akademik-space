@@ -60,7 +60,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Alkanes", statement: "Saturated CₙH₂ₙ₊₂." }],
             steps: [{ reasoning: "Direct.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** CₙH₂ₙ₊₂",
+            finalAnswer: "**(d)** CₙH₂ₙ₊₂",
           },
         },
         {
@@ -176,7 +176,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Alkenes", statement: "Unsaturated CₙH₂ₙ." }],
             steps: [{ reasoning: "One C=C reduces H count by 2 vs alkane.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** CₙH₂ₙ",
+            finalAnswer: "**(d)** CₙH₂ₙ",
           },
         },
         {

@@ -116,7 +116,7 @@ export const lesson51: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Green spaces provide health, community, and environmental benefits.",
+              "**(c)**. Green spaces provide health, community, and environmental benefits.",
             commonErrors: [
               "Choosing (a) — too superficial; misses the benefits argument.",
             ],
@@ -354,7 +354,7 @@ export const lesson51: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Combining information from multiple formats/sources.",
+              "**(a)**. Combining information from multiple formats/sources.",
             commonErrors: ["Choosing (d) — summary isn't synthesis."],
           },
         },

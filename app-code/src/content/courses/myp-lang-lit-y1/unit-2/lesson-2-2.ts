@@ -150,7 +150,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Synonym", statement: "A synonym means the same or nearly the same." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'large' means the same as 'big' — (b). 'small' is the antonym.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** large",
+            finalAnswer: "**(a)** large",
           },
         },
         {
@@ -171,7 +171,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Antonym", statement: "An antonym means the opposite." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'cold' is the opposite of 'hot' — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** cold",
+            finalAnswer: "**(a)** cold",
           },
         },
         {
@@ -187,12 +187,12 @@ export const lesson22: Lesson = {
               { id: "c", text: "ancient — modern" },
               { id: "d", text: "begin — end" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Synonym", statement: "Synonyms share meaning; the others in (a),(b),(d) are antonyms." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'clever' and 'smart' mean the same — (c). The other pairs are opposites.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** clever — smart",
+            finalAnswer: "**(a)** clever — smart",
           },
         },
         {
@@ -259,7 +259,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Antonym", statement: "Antonyms are opposites; 'modern' opposes 'ancient'." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'modern' means new/recent — the opposite of ancient, (b). 'Old', 'historic' and 'antique' are synonyms.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** modern",
+            finalAnswer: "**(a)** modern",
           },
         },
         {
@@ -319,7 +319,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Antonym", statement: "An antonym is a word meaning the opposite." }],
             steps: [{ reasoning: "Criterion D (Using language): an antonym means the opposite, e.g. hot/cold — (b).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** A word that means the opposite",
+            finalAnswer: "**(d)** A word that means the opposite",
           },
         },
         {
@@ -340,7 +340,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Synonym", statement: "'Start' means the same as 'begin'." }],
             steps: [{ reasoning: "Criterion D (Using language): 'start' is a synonym of 'begin' — (b). 'End' and 'finish' are antonyms.", marks: 1, markCode: "D" }],
-            finalAnswer: "**(b)** start",
+            finalAnswer: "**(a)** start",
           },
         },
         {
@@ -504,7 +504,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Context clues", statement: "'No water for miles' in a desert shows 'arid' means dry." }],
             steps: [{ reasoning: "Criterion A (Analysing): a desert with no water must be dry — 'arid' means very dry, (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Very dry",
+            finalAnswer: "**(a)** Very dry",
           },
         },
         {
@@ -525,7 +525,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Context clues", statement: "'Could fit inside my shoe' shows the kitten is very small." }],
             steps: [{ reasoning: "Criterion A (Analysing): fitting inside a shoe means very small — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Very small",
+            finalAnswer: "**(a)** Very small",
           },
         },
         {
@@ -541,12 +541,12 @@ export const lesson22: Lesson = {
               { id: "c", text: "Very thirsty" },
               { id: "d", text: "Very full" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Context clue: cause/effect", statement: "Skipping lunch causes hunger — 'famished' means extremely hungry." }],
             steps: [{ reasoning: "Criterion A (Analysing): not eating all day leads to extreme hunger — (c).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** Extremely hungry",
+            finalAnswer: "**(a)** Extremely hungry",
           },
         },
         {
@@ -678,7 +678,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Context clues", statement: "Comparisons reveal word meanings." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'no bigger than my hand' means very small — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Very small",
+            finalAnswer: "**(a)** Very small",
           },
         },
         {

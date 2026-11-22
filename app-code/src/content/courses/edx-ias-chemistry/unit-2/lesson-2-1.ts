@@ -57,7 +57,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Group 1 + water", statement: "Alkali metal → hydroxide + H₂." }],
             steps: [{ reasoning: "2Na + 2H₂O → 2NaOH + H₂.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** NaOH and H₂",
+            finalAnswer: "**(a)** NaOH and H₂",
           },
         },
         {

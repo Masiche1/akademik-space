@@ -80,7 +80,7 @@ export const lesson103: Lesson = {
               { id: "c", text: "0–2 years" },
               { id: "d", text: "3–6 years" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -98,7 +98,7 @@ export const lesson103: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** 7–11 years",
+            finalAnswer: "**(b)** 7–11 years",
             commonErrors: ["Confusing with identity stage."],
           },
         },
@@ -325,7 +325,7 @@ export const lesson103: Lesson = {
               { id: "c", text: "18–25 years" },
               { id: "d", text: "65+ years" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -343,7 +343,7 @@ export const lesson103: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** 41–64 years",
+            finalAnswer: "**(a)** 41–64 years",
             commonErrors: ["Confusing with integrity stage."],
           },
         },

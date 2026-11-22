@@ -57,7 +57,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Magnetism", statement: "Like repel." }],
             steps: [{ reasoning: "Recall.", working: "\\text{like repel}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Repel",
+            finalAnswer: "**(c)** Repel",
             commonErrors: ["Confusing with unlike poles."],
           },
         },
@@ -137,7 +137,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Magnetism", statement: "Unlike poles attract." }],
             steps: [{ reasoning: "Recall.", working: "\\text{unlike attract}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Attract each other",
+            finalAnswer: "**(d)** Attract each other",
             commonErrors: ["Swapping with like poles."],
           },
         },
@@ -155,7 +155,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Magnetic field", statement: "Field strongest at poles." }],
             steps: [{ reasoning: "Recall.", working: "\\text{strongest at poles}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** At the poles",
+            finalAnswer: "**(a)** At the poles",
             commonErrors: ["Thinking the field is uniform around a bar magnet."],
           },
         },
@@ -191,7 +191,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "application", name: "Earth's field", statement: "Needle aligns with Earth's magnetic field → points north." }],
             steps: [{ reasoning: "Recall.", working: "\\text{points to magnetic north}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Toward magnetic north",
+            finalAnswer: "**(a)** Toward magnetic north",
             commonErrors: ["Confusing geographic and magnetic north."],
           },
         },
@@ -330,7 +330,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Core", statement: "Soft iron concentrates and strengthens the field." }],
             steps: [{ reasoning: "Recall.", working: "\\text{soft iron core}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Soft iron",
+            finalAnswer: "**(d)** Soft iron",
             commonErrors: ["Choosing copper/aluminium — they are not magnetic."],
           },
         },
@@ -378,7 +378,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Induction", statement: "Changing flux induces EMF." }],
             steps: [{ reasoning: "Recall.", working: "\\Delta B \\to EMF", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Changing magnetic field",
+            finalAnswer: "**(d)** Changing magnetic field",
             commonErrors: ["Static field induces nothing."],
           },
         },
@@ -458,7 +458,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Induction", statement: "Changing flux → induced e.m.f." }],
             steps: [{ reasoning: "Recall.", working: "\\Delta \\Phi \\rightarrow EMF", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The magnetic flux through it is changing",
+            finalAnswer: "**(a)** The magnetic flux through it is changing",
             commonErrors: ["Thinking a steady field induces current."],
           },
         },
@@ -492,7 +492,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Lenz's law", statement: "Induced current opposes the change causing it." }],
             steps: [{ reasoning: "Recall.", working: "\\text{opposes change}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Opposes the change producing it",
+            finalAnswer: "**(a)** Opposes the change producing it",
             commonErrors: ["Saying induced current aids the change."],
           },
         },
@@ -628,7 +628,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Ideal transformer", statement: "VpIp = VsIs — power conserved." }],
             steps: [{ reasoning: "Recall.", working: "V_p I_p = V_s I_s", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Power is conserved: $V_pI_p = V_sI_s$",
+            finalAnswer: "**(a)** Power is conserved: $V_pI_p = V_sI_s$",
             commonErrors: ["Thinking a transformer creates energy."],
           },
         },

@@ -117,7 +117,7 @@ export const lesson82: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Chronological — events unfold in time.",
+            finalAnswer: "**(d)**. Chronological — events unfold in time.",
             commonErrors: [
               "Choosing (a) — there's cause-effect but primary structure is chronological.",
             ],
@@ -331,7 +331,7 @@ export const lesson82: Lesson = {
               { id: "c", text: "Simile" },
               { id: "d", text: "Hyperbole" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -350,7 +350,7 @@ export const lesson82: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(c)**. Personification.",
+            finalAnswer: "**(a)**. Personification.",
             commonErrors: [
               "Choosing (b) — metaphor would be 'windows were eyes' without 'like/as' but personification specifically gives human traits.",
             ],

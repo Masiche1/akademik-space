@@ -120,7 +120,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Aggregate demand exceeding productive capacity",
+              "**(a)** Aggregate demand exceeding productive capacity",
             commonErrors: [
               "Confusing demand-pull (AD side) with cost-push (AS side).",
             ],
@@ -361,7 +361,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The average price of a representative basket of consumer goods and services",
+              "**(d)** The average price of a representative basket of consumer goods and services",
             commonErrors: [
               "Confusing CPI (consumer prices) with measures of total output like GDP.",
             ],
@@ -456,7 +456,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Cost-push inflation",
+            finalAnswer: "**(a)** Cost-push inflation",
             commonErrors: [
               "Calling it demand-pull — the trigger is supply-side cost, not excess demand.",
             ],
@@ -504,7 +504,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Workers demanding higher wages because they expect inflation, and firms raising prices",
+              "**(b)** Workers demanding higher wages because they expect inflation, and firms raising prices",
             commonErrors: [
               "Confusing built-in inflation with one-off cost-push shocks.",
             ],
@@ -1111,7 +1111,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Costs firms incur changing their prices",
+            finalAnswer: "**(d)** Costs firms incur changing their prices",
             commonErrors: [
               "Confusing menu costs with shoe-leather costs (transaction costs of holding less cash).",
             ],
@@ -1349,7 +1349,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The cost of making extra transactions to reduce cash holdings",
+              "**(d)** The cost of making extra transactions to reduce cash holdings",
             commonErrors: [
               "Confusing shoe-leather costs with menu costs (price-changing costs).",
             ],
@@ -1396,7 +1396,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Savers on fixed incomes",
+            finalAnswer: "**(a)** Savers on fixed incomes",
             commonErrors: [
               "Saying debtors always lose — inflation reduces the real burden of fixed nominal debt.",
             ],
@@ -1440,7 +1440,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Interest rate changes",
+            finalAnswer: "**(d)** Interest rate changes",
             commonErrors: [
               "Confusing fiscal tools (spending/taxes) with the central bank's monetary tool.",
             ],
@@ -1490,7 +1490,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Supply-side policies to raise productivity",
+            finalAnswer: "**(a)** Supply-side policies to raise productivity",
             commonErrors: [
               "Applying demand-side tools (interest rates) to a supply-side problem.",
             ],

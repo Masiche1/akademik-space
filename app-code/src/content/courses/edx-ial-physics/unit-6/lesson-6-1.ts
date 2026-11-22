@@ -389,7 +389,7 @@ export const lesson61: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(b)** Repeats and averaging improve reliability.",
+            "finalAnswer": "**(c)** Repeats and averaging improve reliability.",
             "commonErrors": [
               "Assuming one careful reading is enough."
             ]

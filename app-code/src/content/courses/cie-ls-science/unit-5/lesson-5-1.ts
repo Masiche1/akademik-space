@@ -65,7 +65,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Only solids have fixed particle positions.", working: "solid", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Solid",
+            finalAnswer: "**(b)** Solid",
             commonErrors: ["Choosing (b) — liquid particles slide past each other."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Only liquids have fixed volume but no fixed shape.", working: "liquid", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Liquid",
+            finalAnswer: "**(b)** Liquid",
             commonErrors: ["Choosing (b) — solids also have fixed shape."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Evaporation happens at the surface and below boiling point.", working: "surface, below bp", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Liquid → gas at surface below boiling point",
+            finalAnswer: "**(c)** Liquid → gas at surface below boiling point",
             commonErrors: ["Choosing (b) — that describes boiling."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Large empty spaces between gas particles can be reduced.", working: "empty space", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Gas particles are far apart with empty space between them",
+            finalAnswer: "**(b)** Gas particles are far apart with empty space between them",
             commonErrors: ["Choosing (c) — vibration speed does not affect compressibility."],
           },
         },
@@ -274,7 +274,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Energy is used to break bonds, not raise temperature.", working: "latent heat", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Stays constant while solid and liquid coexist",
+            finalAnswer: "**(c)** Stays constant while solid and liquid coexist",
             commonErrors: ["Choosing (b) — temperature only rises before and after the change."],
           },
         },
@@ -300,7 +300,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Diffusion is down the concentration gradient.", working: "high to low", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** High to low concentration",
+            finalAnswer: "**(d)** High to low concentration",
             commonErrors: ["Choosing (b) — particles spread out, they do not clump together."],
           },
         },
@@ -326,7 +326,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Fixed particle positions give a fixed shape.", working: "vibrate in place", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Particles vibrate in fixed positions",
+            finalAnswer: "**(d)** Particles vibrate in fixed positions",
             commonErrors: ["Choosing (b) — free movement describes gases."],
           },
         },
@@ -352,7 +352,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Only oxygen is a gas at room temperature.", working: "oxygen", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oxygen",
+            finalAnswer: "**(d)** Oxygen",
             commonErrors: ["Choosing (c) — water is a liquid at room temperature."],
           },
         },
@@ -593,7 +593,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Filtration separates insoluble solids from liquids.", working: "filtration", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Filtration",
+            finalAnswer: "**(b)** Filtration",
             commonErrors: ["Choosing (d) — evaporation removes the solvent, not the insoluble solid."],
           },
         },
@@ -619,7 +619,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Distilled water is pure H₂O; the others are mixtures.", working: "H₂O", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Distilled water",
+            finalAnswer: "**(c)** Distilled water",
             commonErrors: ["Choosing (c) — air is a mixture of gases."],
           },
         },
@@ -645,7 +645,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Chromatography separates coloured dyes/solutes.", working: "chromatography", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Chromatography",
+            finalAnswer: "**(b)** Chromatography",
             commonErrors: ["Choosing (b) — filtration only works for insoluble solids."],
           },
         },
@@ -671,7 +671,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Salt is dissolved so filtration cannot remove it — evaporate the water instead.", working: "evaporation", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Evaporation of the water",
+            finalAnswer: "**(c)** Evaporation of the water",
             commonErrors: ["Choosing (b) — dissolved salt passes through filter paper."],
           },
         },
@@ -697,7 +697,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Suspension particles are visible and settle; solution particles do not.", working: "settles out", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Particles visible and settle out",
+            finalAnswer: "**(d)** Particles visible and settle out",
             commonErrors: ["Choosing (b) — that describes a solution."],
           },
         },
@@ -723,7 +723,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Crude oil fractions boil at different temperatures.", working: "boiling points", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Different boiling points",
+            finalAnswer: "**(c)** Different boiling points",
             commonErrors: ["Choosing (b) — crude oil components are not separated by colour."],
           },
         },
@@ -749,7 +749,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Magnetic property separates iron from sulphur.", working: "magnet", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A magnet",
+            finalAnswer: "**(b)** A magnet",
             commonErrors: ["Choosing (b) — neither component dissolves or evaporates selectively."],
           },
         },
@@ -775,7 +775,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Milk is a colloid; salt water is a solution.", working: "milk", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Milk",
+            finalAnswer: "**(b)** Milk",
             commonErrors: ["Choosing (b) — salt water is a solution, not a colloid."],
           },
         },
@@ -911,7 +911,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "O₂ = oxygen element; others are compounds.", working: "O₂", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oxygen (O₂)",
+            finalAnswer: "**(b)** Oxygen (O₂)",
             commonErrors: ["Choosing (b) — water is a compound of H and O."],
           },
         },
@@ -1019,7 +1019,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "CO₂ contains carbon and oxygen chemically joined; the others are elements.", working: "CO₂", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Carbon dioxide ($\\text{CO}_2$)",
+            finalAnswer: "**(c)** Carbon dioxide ($\\text{CO}_2$)",
             commonErrors: ["Choosing (b) — O₂ is one element only."],
           },
         },
@@ -1045,7 +1045,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Sodium's symbol is Na (from Latin natrium).", working: "Na", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\text{Na}$",
+            finalAnswer: "**(c)** $\\text{Na}$",
             commonErrors: ["Choosing (b) or (c) — S and So are not sodium."],
           },
         },
@@ -1123,7 +1123,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "No chemical bonds between salt and water — physical separation possible.", working: "physical", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Only physically combined",
+            finalAnswer: "**(d)** Only physically combined",
             commonErrors: ["Choosing (d) — mixtures are precisely what can be separated."],
           },
         },
@@ -1175,7 +1175,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Chlorine's symbol is Cl.", working: "Cl", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\text{Cl}$",
+            finalAnswer: "**(b)** $\\text{Cl}$",
             commonErrors: ["Choosing (c) — Ca is calcium."],
           },
         },
@@ -1201,7 +1201,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Air's components are not chemically bonded — it is a mixture.", working: "mixture", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Not chemically joined, physically separable",
+            finalAnswer: "**(b)** Not chemically joined, physically separable",
             commonErrors: ["Choosing (c) — air CAN be separated (e.g. fractional distillation of liquid air)."],
           },
         },

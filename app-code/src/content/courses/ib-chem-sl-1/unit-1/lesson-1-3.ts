@@ -119,7 +119,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $1:1$",
+            finalAnswer: "**(a)** $1:1$",
             commonErrors: [
               "Using the coefficient of $\\mathrm{O_2}$ by mistake, giving $2:1$.",
               "Choosing $4:2$ without simplifying (this equals $2:1$, still wrong).",
@@ -407,7 +407,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $3:2$",
+            finalAnswer: "**(a)** $3:2$",
             commonErrors: [
               "Reversing the ratio to $2:3$.",
               "Using the $\\mathrm{N_2}:\\mathrm{H_2}$ ratio $1:3$ by mistake.",
@@ -428,7 +428,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$2.0\\ \\mathrm{mol}$" },
               { id: "d", text: "$1.0\\ \\mathrm{mol}$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -453,7 +453,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $4.0\\ \\mathrm{mol}$",
+            finalAnswer: "**(a)** $4.0\\ \\mathrm{mol}$",
             commonErrors: [
               "Using the $1:3$ ratio to get $6.0\\ \\mathrm{mol}$.",
               "Answering $2.0\\ \\mathrm{mol}$ by assuming a $1:1$ ratio.",
@@ -501,7 +501,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\mathrm{C_3H_8}+5\\mathrm{O_2}\\to3\\mathrm{CO_2}+4\\mathrm{H_2O}$",
+            finalAnswer: "**(b)** $\\mathrm{C_3H_8}+5\\mathrm{O_2}\\to3\\mathrm{CO_2}+4\\mathrm{H_2O}$",
             commonErrors: [
               "Choosing $4\\mathrm{O_2}$ which leaves oxygen unbalanced.",
               "Writing $5\\mathrm{H_2O}$ which does not balance hydrogen.",
@@ -549,7 +549,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $\\mathrm{O_2}$",
+            finalAnswer: "**(d)** $\\mathrm{O_2}$",
             commonErrors: [
               "Choosing $\\mathrm{H_2}$ because it has the larger amount.",
               "Claiming neither is limiting without comparing amounts to the mole ratio.",
@@ -1047,7 +1047,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$1:2$" },
               { id: "d", text: "$2:2$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1073,7 +1073,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $1:1$",
+            finalAnswer: "**(b)** $1:1$",
             commonErrors: [
               "Choosing $2:1$ by comparing $\\mathrm{O_2}$ to $\\mathrm{CH_4}$ instead of $\\mathrm{H_2O}$.",
               "Choosing $1:2$ by reversing the ratio.",
@@ -1247,7 +1247,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $72\\ \\mathrm{g}$",
+            finalAnswer: "**(d)** $72\\ \\mathrm{g}$",
             commonErrors: [
               "Answering $36\\ \\mathrm{g}$ by using the $2:1$ oxygen ratio.",
               "Stopping at $4.0\\ \\mathrm{mol}$ without converting to mass.",
@@ -1553,7 +1553,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $36\\ \\mathrm{g}$",
+            finalAnswer: "**(d)** $36\\ \\mathrm{g}$",
             commonErrors: [
               "Answering $18\\ \\mathrm{g}$ by using $1.0\\ \\mathrm{mol}$ of hydrogen.",
               "Answering $72\\ \\mathrm{g}$ by using the $2:1$ oxygen ratio.",
@@ -1692,7 +1692,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $12.0\\ \\mathrm{dm^3}$",
+            finalAnswer: "**(a)** $12.0\\ \\mathrm{dm^3}$",
             commonErrors: [
               "Answering $24.0\\ \\mathrm{dm^3}$ (one mole) without multiplying by $0.500$.",
               "Halving again to get $6.0\\ \\mathrm{dm^3}$.",
@@ -2213,7 +2213,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $2.20\\ \\mathrm{g}$",
+            finalAnswer: "**(c)** $2.20\\ \\mathrm{g}$",
             commonErrors: [
               "Doubling the answer using the $1:2$ HCl ratio.",
               "Using $0.100\\ \\mathrm{mol}$ (from $10.0\\ \\mathrm{g}$) to get $4.40\\ \\mathrm{g}$.",

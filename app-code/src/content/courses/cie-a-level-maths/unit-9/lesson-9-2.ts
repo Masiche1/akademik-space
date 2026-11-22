@@ -190,7 +190,7 @@ export const lesson92: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "v = u + at", statement: "a is negative." }],
             steps: [{ reasoning: "$v = 20 + (-9.8)(1) = 10.2$ m/s.", marks: 1, markCode: "M" }],
-            finalAnswer: "**(a)** $10.2$ m/s",
+            finalAnswer: "**(b)** $10.2$ m/s",
           },
         },
         {
@@ -225,7 +225,7 @@ export const lesson92: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Motion graphs", statement: "v–t: area = s, gradient = a." }],
             steps: [{ reasoning: "Area under a $v$–$t$ graph gives displacement (signed).", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** The displacement",
+            finalAnswer: "**(c)** The displacement",
           },
         },
         {

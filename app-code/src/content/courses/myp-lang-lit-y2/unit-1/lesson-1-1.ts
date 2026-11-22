@@ -71,7 +71,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'I never told anyone' is first person — the narrator lived the events, so (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The character who lived through it",
+            finalAnswer: "**(d)** The character who lived through it",
           },
         },
         {
@@ -202,7 +202,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): dynamic = changes during the story — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A character who changes during the story",
+            finalAnswer: "**(c)** A character who changes during the story",
           },
         },
         {

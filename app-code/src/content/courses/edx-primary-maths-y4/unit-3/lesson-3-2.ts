@@ -287,7 +287,7 @@ export const lesson62: Lesson = {
               },
             ],
             steps: [{ reasoning: "X=10, IV=4 → 14.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 14",
+            finalAnswer: "**(d)** 14",
             commonErrors: ["Reading XIV as 10+1+5=16 — IV is subtractive."],
           },
         },

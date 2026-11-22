@@ -104,7 +104,7 @@ export const lesson211: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** 11p, 12n, 11e",
+            finalAnswer: "**(b)** 11p, 12n, 11e",
           },
         },
         {

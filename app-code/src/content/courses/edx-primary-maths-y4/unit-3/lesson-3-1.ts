@@ -76,7 +76,7 @@ export const lesson61: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** 15 cm²",
+            finalAnswer: "**(a)** 15 cm²",
             commonErrors: ["Adding 5+3=8 — that's not area."],
           },
         },
@@ -292,7 +292,7 @@ export const lesson61: Lesson = {
               { id: "c", text: "Reflex" },
               { id: "d", text: "Right" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -309,7 +309,7 @@ export const lesson61: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(d)** Reflex",
+            finalAnswer: "**(c)** Reflex",
             commonErrors: ["Calling it obtuse — obtuse stops at 180°."],
           },
         },

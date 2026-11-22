@@ -240,7 +240,7 @@ export const lesson17: Lesson = {
                               "text": "10"
                     }
           ],
-          "borrectChoiceId": "c"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [

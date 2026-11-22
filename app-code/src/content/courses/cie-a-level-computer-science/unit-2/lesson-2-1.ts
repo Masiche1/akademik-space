@@ -263,7 +263,7 @@ export const lesson131: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Coordinates instruction execution",
+            finalAnswer: "**(d)** Coordinates instruction execution",
           },
         },
         {
@@ -424,7 +424,7 @@ export const lesson131: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Intermediate results",
+            finalAnswer: "**(b)** Intermediate results",
           },
         },
         {
@@ -521,7 +521,7 @@ export const lesson131: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Faster access to frequent data",
+            finalAnswer: "**(c)** Faster access to frequent data",
           },
         },
         {

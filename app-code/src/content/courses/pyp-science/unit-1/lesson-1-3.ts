@@ -57,7 +57,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Eyes" },
               { id: "d", text: "Tongue" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -66,7 +66,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Hearing uses the ears.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Ears",
+            finalAnswer: "**(b)** Ears",
             commonErrors: ["Choosing 'nose' — that is smell."],
           },
         },
@@ -150,7 +150,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Ears" },
               { id: "d", text: "Tongue" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -159,7 +159,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The tongue detects sweet, salty, sour and bitter tastes.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Tongue",
+            finalAnswer: "**(d)** Tongue",
             commonErrors: ["Choosing skin — skin is for touch, not taste."],
           },
         },
@@ -215,7 +215,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Stomach" },
               { id: "d", text: "Brain" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -224,7 +224,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The brain is the control organ.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Brain",
+            finalAnswer: "**(d)** Brain",
             commonErrors: ["Choosing heart — the heart pumps blood but does not control thoughts."],
           },
         },
@@ -291,7 +291,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The skeleton supports the body and protects organs.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To give the body shape and protect organs",
+            finalAnswer: "**(c)** To give the body shape and protect organs",
             commonErrors: ["Choosing digestion — that is the stomach's job."],
           },
         },
@@ -348,7 +348,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Hearing a bell ring" },
               { id: "d", text: "Seeing the colour of a leaf" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -358,7 +358,7 @@ export const lesson13: Lesson = {
               { reasoning: "Seeing colour uses the eyes and light.", marks: 1, markCode: "M" },
               { reasoning: "The other options use hearing, smell or touch.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Seeing the colour of a leaf",
+            finalAnswer: "**(d)** Seeing the colour of a leaf",
             commonErrors: ["Choosing hearing or smell — those use different senses."],
           },
         },
@@ -460,7 +460,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Hand washing is a healthy hygiene habit.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Washing hands before eating",
+            finalAnswer: "**(c)** Washing hands before eating",
             commonErrors: ["Choosing 'eating only sweets' — that harms health."],
           },
         },
@@ -552,7 +552,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Brushing teeth is a healthy hygiene habit.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Brushing teeth regularly",
+            finalAnswer: "**(b)** Brushing teeth regularly",
             commonErrors: ["Choosing sweets — sugar harms teeth."],
           },
         },
@@ -617,7 +617,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Germs are the cause of many illnesses.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Germs",
+            finalAnswer: "**(d)** Germs",
             commonErrors: ["Choosing water — clean water helps health, but germs cause illness."],
           },
         },
@@ -800,7 +800,7 @@ export const lesson13: Lesson = {
               { reasoning: "Early learning supports lifelong health.", marks: 1, markCode: "M" },
               { reasoning: "Habits do not expire; they continue to help if kept.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Early habits can become lifelong habits that keep them healthy",
+            finalAnswer: "**(d)** Early habits can become lifelong habits that keep them healthy",
             commonErrors: ["Choosing options that say habits stop mattering — healthy habits remain useful."],
           },
         },

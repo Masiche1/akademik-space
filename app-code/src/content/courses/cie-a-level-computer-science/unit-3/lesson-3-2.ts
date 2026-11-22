@@ -270,7 +270,7 @@ export const lesson142: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** It must be sorted",
+            finalAnswer: "**(c)** It must be sorted",
           },
         },
         {
@@ -332,7 +332,7 @@ export const lesson142: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Merge sort",
+            finalAnswer: "**(b)** Merge sort",
           },
         },
         {
@@ -426,7 +426,7 @@ export const lesson142: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Adjacent items",
+            finalAnswer: "**(b)** Adjacent items",
           },
         },
         {
@@ -531,7 +531,7 @@ export const lesson142: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Requires additional memory",
+            finalAnswer: "**(d)** Requires additional memory",
           },
         },
         {

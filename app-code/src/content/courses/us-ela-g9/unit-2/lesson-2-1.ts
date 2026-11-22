@@ -123,7 +123,7 @@ export const lesson21: Lesson = {
                 text: "Trees give cities practical and social benefits, so they should be treated as essential infrastructure.",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -145,7 +145,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** It covers the whole text. Choices (a), (b), and (d) are details from single paragraphs.",
+              "**(d)** It covers the whole text. Choices (a), (b), and (d) are details from single paragraphs.",
             commonErrors: [
               "Choosing a true detail (such as hot asphalt) that supports only one paragraph.",
             ],
@@ -177,7 +177,7 @@ export const lesson21: Lesson = {
                 text: "Tree roots, soil, and canopies absorb or catch rainwater, so cities with more trees have fewer floods and lower repair costs.",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -206,7 +206,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** It is neutral and accurate. (a) adds opinion ('wonderful', 'terrible'), (b) adds claims not in the text, and (d) only describes where the paragraph begins and ends.",
+              "**(d)** It is neutral and accurate. (a) adds opinion ('wonderful', 'terrible'), (b) adds claims not in the text, and (d) only describes where the paragraph begins and ends.",
             commonErrors: [
               "Choosing (a) because it agrees with the author; a summary must stay neutral.",
               "Choosing (d), which describes the paragraph's order instead of its content.",
@@ -481,7 +481,7 @@ export const lesson21: Lesson = {
                 text: "It spoiled the flavor of meat and vegetables.",
               },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -501,7 +501,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** The text says ice melted and had to be replaced. Choice (d) is wrong because ice was shipped 'even to distant ports'.",
+              "**(a)** The text says ice melted and had to be replaced. Choice (d) is wrong because ice was shipped 'even to distant ports'.",
             commonErrors: ["Choosing (d), which contradicts the text."],
           },
         },
@@ -556,7 +556,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Mechanical refrigeration solved the problem of depending on winter ice. (d) is wrong because paragraph 3 describes later events.",
+              "**(a)** Mechanical refrigeration solved the problem of depending on winter ice. (d) is wrong because paragraph 3 describes later events.",
             commonErrors: [
               "Choosing (a) because both paragraphs mention cold; the new paragraph adds a new development.",
             ],

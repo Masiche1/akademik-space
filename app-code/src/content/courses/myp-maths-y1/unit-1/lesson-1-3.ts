@@ -71,7 +71,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Multiply the numerator and denominator of $\\frac{3}{4}$ by 3.", working: "\\frac{3\\times3}{4\\times3}=\\frac{9}{12}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\frac{9}{12}$",
+            finalAnswer: "**(c)** $\\frac{9}{12}$",
             commonErrors: ["Adding the same number to the numerator and denominator, for example $\\frac{4}{5}$.", "Choosing $\\frac{6}{12}$, which equals $\\frac{1}{2}$."],
             examinerNote: "B1 for choice (b).",
           },
@@ -178,7 +178,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Multiply numerator and denominator of $\\frac{2}{3}$ by 4: $\\frac{8}{12}$, which simplifies back to $\\frac{2}{3}$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\frac{8}{12}$",
+            finalAnswer: "**(a)** $\\frac{8}{12}$",
             commonErrors: ["Choosing $\\frac{4}{5}$ by adding the same number to top and bottom.", "Choosing $\\frac{2}{6}$, which equals $\\frac{1}{3}$."],
             examinerNote: "B1 for choice (b).",
           },
@@ -223,7 +223,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$\\frac{6}{20}$" },
               { id: "d", text: "$\\frac{3}{10}$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -232,7 +232,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Multiply numerators and denominators: $\\frac{6}{20}=\\frac{3}{10}$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\frac{3}{10}$",
+            finalAnswer: "**(d)** $\\frac{3}{10}$",
             commonErrors: ["Choosing $\\frac{6}{20}$ without simplifying.", "Adding fractions instead of multiplying, giving $\\frac{5}{9}$."],
             examinerNote: "B1 for 3/10 (6/20 acceptable if shown unsimplified, but simplest form expected).",
           },
@@ -297,7 +297,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$7\\div4=1$ remainder $3$, so $\\frac{7}{4}=1\\frac{3}{4}$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $1\\frac{3}{4}$",
+            finalAnswer: "**(d)** $1\\frac{3}{4}$",
             commonErrors: ["Writing $1\\frac{7}{4}$, keeping the original numerator.", "Writing $7\\frac{1}{4}$ by inverting."],
             examinerNote: "B1 for 1 3/4.",
           },
@@ -344,7 +344,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$0.4=\\frac{4}{10}$, which simplifies to $\\frac{2}{5}$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\frac{2}{5}$",
+            finalAnswer: "**(d)** $\\frac{2}{5}$",
             commonErrors: ["Choosing $\\frac{4}{10}$ without simplifying, or $\\frac{4}{100}$ by using the wrong place value."],
             examinerNote: "B1 for 2/5 (4/10 accepted only if stated as equivalent).",
           },
@@ -496,7 +496,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$\\frac{3}{5}$" },
               { id: "d", text: "$\\frac{35}{10}$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -505,7 +505,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Write as hundredths and divide top and bottom by 5.", working: "0.35=\\frac{35}{100}=\\frac{7}{20}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\frac{7}{20}$",
+            finalAnswer: "**(b)** $\\frac{7}{20}$",
             commonErrors: ["Using the wrong power of ten, for example $\\frac{35}{10}$.", "Confusing 0.35 with 0.6, which is $\\frac{3}{5}$."],
             examinerNote: "B1 for choice (c).",
           },
@@ -610,7 +610,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$0.6=\\frac{6}{10}$, which simplifies by dividing top and bottom by 2 to $\\frac{3}{5}$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\frac{3}{5}$",
+            finalAnswer: "**(a)** $\\frac{3}{5}$",
             commonErrors: ["Using hundredths to get $\\frac{6}{100}$.", "Inverting to get $\\frac{1}{6}$."],
             examinerNote: "B1 for 3/5 (6/10 accepted only if unsimplified is acknowledged).",
           },
@@ -637,7 +637,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Divide 45 by 100: $45\\div100=0.45$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0.45$",
+            finalAnswer: "**(b)** $0.45$",
             commonErrors: ["Multiplying by 100 to get 4500 or by 10 to get 4.5."],
             examinerNote: "B1 for 0.45.",
           },
@@ -655,7 +655,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$375\\%$" },
               { id: "d", text: "$37.5\\%$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -664,7 +664,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$3\\div8=0.375$ and $0.375\\times100=37.5$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $37.5\\%$",
+            finalAnswer: "**(d)** $37.5\\%$",
             commonErrors: ["Writing $0.375\\%$ by forgetting to multiply by 100.", "Dividing 8 by 3 instead of 3 by 8."],
             examinerNote: "B1 for 37.5%.",
           },
@@ -729,7 +729,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Multiply by 100: $0.375\\times100=37.5$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $37.5\\%$",
+            finalAnswer: "**(a)** $37.5\\%$",
             commonErrors: ["Multiplying by 10 instead of 100.", "Forgetting the percent sign and writing 37.5 as a decimal."],
             examinerNote: "B1 for 37.5%.",
           },
@@ -776,7 +776,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$20\\%$ of 50 is 10, so the sale price is $50-10=40$ euros.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $40$ euros",
+            finalAnswer: "**(a)** $40$ euros",
             commonErrors: ["Adding the 20% to get 70.", "Stopping at the reduction, 10 euros."],
             examinerNote: "B1 for 40.",
           },

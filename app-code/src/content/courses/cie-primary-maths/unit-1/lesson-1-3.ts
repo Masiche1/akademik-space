@@ -114,7 +114,7 @@ export const lesson13: Lesson = {
             { id: "b", text: "46" },
             { id: "c", text: "42" },
             { id: "d", text: "56" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Times table", statement: "Recall multiplication facts." }],
             steps: [{ reasoning: "$8 \\times 6 = 48$.", marks: 1, markCode: "A" }],
@@ -178,7 +178,7 @@ export const lesson13: Lesson = {
             { id: "b", text: "35" },
             { id: "c", text: "22" },
             { id: "d", text: "14" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Multiple", statement: "A number in the times table." }],
             steps: [{ reasoning: "$6 \\times 5 = 30$, so 30 is a multiple of 6.", marks: 1, markCode: "A" }],
@@ -211,7 +211,7 @@ export const lesson13: Lesson = {
             { id: "b", text: "121" },
             { id: "c", text: "132" },
             { id: "d", text: "144" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Times table", statement: "Recall to 12×12." }],
             steps: [{ reasoning: "$12 \\times 12 = 144$.", marks: 1, markCode: "A" }],
@@ -262,7 +262,7 @@ export const lesson13: Lesson = {
             { id: "b", text: "45" },
             { id: "c", text: "56" },
             { id: "d", text: "49" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Times table", statement: "Recall facts." }],
             steps: [{ reasoning: "$7 \\times 7 = 49$.", marks: 1, markCode: "A" }],
@@ -338,7 +338,7 @@ export const lesson13: Lesson = {
             { id: "b", text: "$\\frac{1}{2}$" },
             { id: "c", text: "$\\frac{1}{4}$" },
             { id: "d", text: "$\\frac{2}{4}$" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Fraction", statement: "Numerator over denominator; half = 1 of 2 parts." }],
             steps: [{ reasoning: "One half is written $\\frac{1}{2}$.", marks: 1, markCode: "A" }],

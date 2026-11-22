@@ -43,7 +43,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "The business must close" },
             { id: "d", text: "Owners are personally responsible for all business debts" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Unlimited liability", statement: "Personal responsibility." }], steps: [{ reasoning: "Owners liable for debts.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Unlimited liability", statement: "Personal responsibility." }], steps: [{ reasoning: "Owners liable for debts.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u1-ty-q2", difficulty: "core", totalMarks: 2,
@@ -136,7 +136,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "It cannot sell products" },
             { id: "d", text: "Its shares can be bought by the general public" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "PLC", statement: "Public share issue." }], steps: [{ reasoning: "PLC shares are sold to the public.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Shares sold publicly" },
+          markscheme: { principles: [{ kind: "definition", name: "PLC", statement: "Public share issue." }], steps: [{ reasoning: "PLC shares are sold to the public.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Shares sold publicly" },
         },
         {
           id: "olbus-u1-ty-q10", difficulty: "core", totalMarks: 2,
@@ -238,7 +238,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Sole trader" },
             { id: "d", text: "Limited company" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Structure choice", statement: "Capital + liability." }], steps: [{ reasoning: "Companies offer both.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Limited company" },
+          markscheme: { principles: [{ kind: "principle", name: "Structure choice", statement: "Capital + liability." }], steps: [{ reasoning: "Companies offer both.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Limited company" },
         },
         {
           id: "olbus-u1-cc-q2", difficulty: "core", totalMarks: 2,
@@ -293,7 +293,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Sole trader" },
             { id: "d", text: "Cooperative" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Structure choice", statement: "Control and simplicity." }], steps: [{ reasoning: "Sole trader gives full control and simple setup.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Sole trader" },
+          markscheme: { principles: [{ kind: "principle", name: "Structure choice", statement: "Control and simplicity." }], steps: [{ reasoning: "Sole trader gives full control and simple setup.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Sole trader" },
         },
         {
           id: "olbus-u1-cc-q6", difficulty: "foundation", totalMarks: 1,
@@ -304,7 +304,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Sales tax only" },
             { id: "d", text: "Income tax on profits" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Tax", statement: "Income vs corporation tax." }], steps: [{ reasoning: "Unincorporated businesses pay income tax.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Income tax" },
+          markscheme: { principles: [{ kind: "principle", name: "Tax", statement: "Income vs corporation tax." }], steps: [{ reasoning: "Unincorporated businesses pay income tax.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Income tax" },
         },
         {
           id: "olbus-u1-cc-q7", difficulty: "core", totalMarks: 2,
@@ -375,7 +375,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Sole trader" },
             { id: "d", text: "Franchise" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Partnership", statement: "Shared ownership." }], steps: [{ reasoning: "Partnerships have 2+ owners.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Partnership" },
+          markscheme: { principles: [{ kind: "definition", name: "Partnership", statement: "Shared ownership." }], steps: [{ reasoning: "Partnerships have 2+ owners.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Partnership" },
         },
         {
           id: "olbus-u1-cc-q14", difficulty: "core", totalMarks: 2,

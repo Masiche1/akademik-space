@@ -98,7 +98,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Repetition", statement: "Repeated words emphasise scale and insistence." }],
             steps: [{ reasoning: "‘Every’ repeated shows no one escapes suffering.", evidence: "In every cry of every Man", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** The suffering is everywhere.",
+            finalAnswer: "**(d)** The suffering is everywhere.",
             commonErrors: ["Choosing (b), a literal reading that ignores effect."],
           },
         },
@@ -238,7 +238,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Tercet", statement: "A stanza of three lines." }],
             steps: [{ reasoning: "Each stanza has three lines; the poem has six in total.", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(b)** Three, so each stanza is a tercet.",
+            finalAnswer: "**(d)** Three, so each stanza is a tercet.",
             commonErrors: ["Choosing six, the total number of lines."],
           },
         },

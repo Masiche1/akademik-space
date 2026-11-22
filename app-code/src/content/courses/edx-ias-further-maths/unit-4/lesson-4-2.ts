@@ -197,7 +197,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "$p=3\\times5=15$ kg m/s.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $15$ kg m/s",
+            finalAnswer: "**(d)** $15$ kg m/s",
             commonErrors: ["Dividing instead of multiplying."],
           },
         },

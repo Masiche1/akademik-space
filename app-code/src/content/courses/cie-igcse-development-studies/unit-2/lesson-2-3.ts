@@ -407,7 +407,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "They cause air pollution when burned" },
               { id: "d", text: "They are very expensive to extract" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

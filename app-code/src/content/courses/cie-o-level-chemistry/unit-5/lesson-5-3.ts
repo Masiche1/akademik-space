@@ -57,7 +57,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Ea", statement: "Peak = transition state; height = Ea." }],
             steps: [{ reasoning: "Recall.", working: "\\text{peak} = E_a", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Transition state / activation energy",
+            finalAnswer: "**(d)** Transition state / activation energy",
             commonErrors: ["Confusing peak height with ΔH."],
           },
         },
@@ -155,7 +155,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Endothermic", statement: "Products higher energy; ΔH positive." }],
             steps: [{ reasoning: "Recall.", working: "\\text{endo} \\Rightarrow \\text{products higher}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Products are higher than reactants",
+            finalAnswer: "**(d)** Products are higher than reactants",
             commonErrors: ["Reversing with exothermic profiles."],
           },
         },
@@ -204,7 +204,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Catalyst", statement: "Lower Ea, unchanged ΔH." }],
             steps: [{ reasoning: "Recall.", working: "\\text{lower peak, same } \\Delta H", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A lower peak and the same ΔH",
+            finalAnswer: "**(a)** A lower peak and the same ΔH",
             commonErrors: ["Thinking ΔH changes with catalyst."],
           },
         },
@@ -255,7 +255,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "ΔH", statement: "ΔH = products − reactants energy levels." }],
             steps: [{ reasoning: "Recall.", working: "\\Delta H = E_{prod} - E_{react}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The difference between product and reactant energy levels",
+            finalAnswer: "**(c)** The difference between product and reactant energy levels",
             commonErrors: ["Confusing ΔH with Ea (peak height)."],
           },
         },
@@ -330,11 +330,11 @@ export const lesson153: Lesson = {
             { id: "b", text: "Peak − reactants" },
             { id: "c", text: "Products − reactants" },
             { id: "d", text: "Reactants − products" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Exothermic", statement: "Energy released = reactants level − products level." }],
             steps: [{ reasoning: "Energy released is the downward drop.", working: "E_{released} = E_{react} - E_{prod}", marks: 1, markCode: "M" }],
-            finalAnswer: "**(c)** Reactants − products",
+            finalAnswer: "**(d)** Reactants − products",
             commonErrors: ["Confusing with ΔH sign convention."],
           },
         },
@@ -376,11 +376,11 @@ export const lesson153: Lesson = {
             { id: "b", text: "Respiration" },
             { id: "c", text: "Combustion" },
             { id: "d", text: "Neutralisation" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Endothermic", statement: "Absorbs heat: photosynthesis, decomposition." }],
             steps: [{ reasoning: "Recall.", working: "\\text{photosynthesis}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Photosynthesis",
+            finalAnswer: "**(a)** Photosynthesis",
             commonErrors: ["Respiration is exothermic (releases energy)."],
           },
         },
@@ -460,7 +460,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Hand warmer", statement: "Exothermic oxidation releases heat." }],
             steps: [{ reasoning: "Warmth = heat released.", working: "\\text{warm} \\Rightarrow \\text{exo}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Exothermic",
+            finalAnswer: "**(c)** Exothermic",
             commonErrors: ["Endothermic would feel cold."],
           },
         },
@@ -478,7 +478,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Cold pack", statement: "Endothermic dissolution absorbs heat." }],
             steps: [{ reasoning: "Cold = heat absorbed.", working: "\\text{cold} \\Rightarrow \\text{endo}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Endothermic",
+            finalAnswer: "**(c)** Endothermic",
             commonErrors: ["Confusing cold with exothermic."],
           },
         },
@@ -560,7 +560,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Electrolysis", statement: "Requires electrical energy → endothermic." }],
             steps: [{ reasoning: "Energy input needed.", working: "\\text{electrical energy in}", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** Endothermic",
+            finalAnswer: "**(a)** Endothermic",
             commonErrors: ["Confusing with cells which release energy."],
           },
         },
@@ -621,7 +621,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Thermal decomposition", statement: "Endothermic — needs heat." }],
             steps: [{ reasoning: "Recall.", working: "\\text{decomposition} = \\text{endo}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Heat energy input (endothermic)",
+            finalAnswer: "**(c)** Heat energy input (endothermic)",
             commonErrors: ["Thinking decomposition releases heat."],
           },
         },
@@ -657,7 +657,7 @@ export const lesson153: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Exothermic", statement: "ΔH negative — energy released." }],
             steps: [{ reasoning: "Recall.", working: "\\Delta H < 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Negative",
+            finalAnswer: "**(a)** Negative",
             commonErrors: ["Confusing with endothermic."],
           },
         },

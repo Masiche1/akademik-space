@@ -337,7 +337,7 @@ export const lesson14: Lesson = {
               { id: "c", text: "Technological factor" },
               { id: "d", text: "Social factor" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -361,7 +361,7 @@ export const lesson14: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Legal factor",
+            finalAnswer: "**(a)** Legal factor",
             commonErrors: [
               "Classifying it as social — the law itself is legal, though its effects are social.",
             ],
@@ -405,7 +405,7 @@ export const lesson14: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Social",
+            finalAnswer: "**(d)** Social",
             commonErrors: [
               "Classifying demographics as economic — they are social factors.",
             ],
@@ -425,7 +425,7 @@ export const lesson14: Lesson = {
               { id: "c", text: "Legal factor" },
               { id: "d", text: "Social factor" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -448,7 +448,7 @@ export const lesson14: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Economic factor",
+            finalAnswer: "**(a)** Economic factor",
             commonErrors: [
               "Confusing exchange rates with political factors — they are economic.",
             ],
@@ -468,7 +468,7 @@ export const lesson14: Lesson = {
               { id: "c", text: "Environmental factor" },
               { id: "d", text: "Social factor" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -492,7 +492,7 @@ export const lesson14: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Legal/Ethical factor",
+            finalAnswer: "**(b)** Legal/Ethical factor",
             commonErrors: [
               "Classifying it as technological because it concerns data — the driver is law.",
             ],
@@ -542,7 +542,7 @@ export const lesson14: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Political factor",
+            finalAnswer: "**(c)** Political factor",
             commonErrors: [
               "Classifying by the policy's goal rather than its source — subsidies are political.",
             ],
@@ -590,7 +590,7 @@ export const lesson14: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Change creates both threats and opportunities that must be anticipated",
+              "**(c)** Change creates both threats and opportunities that must be anticipated",
             commonErrors: [
               "Thinking the environment is static or that scanning is a one-off exercise.",
             ],
@@ -991,7 +991,7 @@ export const lesson14: Lesson = {
               { id: "c", text: "Organic growth" },
               { id: "d", text: "Diversification" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1015,7 +1015,7 @@ export const lesson14: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** External growth",
+            finalAnswer: "**(b)** External growth",
             commonErrors: [
               "Calling any expansion 'internal' — buying another firm is external.",
             ],
@@ -1219,7 +1219,7 @@ export const lesson14: Lesson = {
               { id: "c", text: "Selling shares to the public" },
               { id: "d", text: "Increasing its own sales, output or capacity" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1243,7 +1243,7 @@ export const lesson14: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Increasing its own sales, output or capacity",
+            finalAnswer: "**(d)** Increasing its own sales, output or capacity",
             commonErrors: [
               "Confusing internal growth with acquisitions — buying firms is external.",
             ],
@@ -1287,7 +1287,7 @@ export const lesson14: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Two firms of roughly equal size combine",
+            finalAnswer: "**(a)** Two firms of roughly equal size combine",
             commonErrors: [
               "Using 'merger' and 'takeover' interchangeably — the key is relative size and control.",
             ],
@@ -1331,7 +1331,7 @@ export const lesson14: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Economies of scale",
+            finalAnswer: "**(a)** Economies of scale",
             commonErrors: [
               "Calling every cost reduction diseconomy — falling average cost is an economy of scale.",
             ],
@@ -1375,7 +1375,7 @@ export const lesson14: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Diseconomies of scale",
+            finalAnswer: "**(a)** Diseconomies of scale",
             commonErrors: ["Assuming larger firms are always more efficient."],
           },
         },

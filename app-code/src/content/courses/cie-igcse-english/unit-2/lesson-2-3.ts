@@ -392,7 +392,7 @@ export const lesson23: Lesson = {
             { id: "b", text: "Flashback" },
             { id: "c", text: "Circular structure" },
             { id: "d", text: "Cliffhanger" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Parallel storylines", statement: "Two events shown at the same time." }],
             steps: [
@@ -665,7 +665,7 @@ export const lesson23: Lesson = {
             { id: "b", text: "Past perfect — happened before the main past event" },
             { id: "c", text: "Present tense — happening now" },
             { id: "d", text: "Imperative — a command" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Past perfect", statement: "'Had done' shows an earlier past event." }],
             steps: [
@@ -781,7 +781,7 @@ export const lesson23: Lesson = {
             { id: "b", text: "Abrupt action creating suspense" },
             { id: "c", text: "Description" },
             { id: "d", text: "Flashback" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Pace and action", statement: "Sudden events create tension." }],
             steps: [

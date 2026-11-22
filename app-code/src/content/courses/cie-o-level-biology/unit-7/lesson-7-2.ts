@@ -160,7 +160,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Match the hormone to its effect on glucose.", working: "\\text{insulin} \\downarrow \\text{glucose}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Insulin",
+            finalAnswer: "**(d)** Insulin",
             commonErrors: ["Choosing glucagon — it raises blood glucose."],
           },
         },
@@ -287,7 +287,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Match the gland to a hormone it secretes.", working: "\\text{pancreas} \\to \\text{insulin}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Insulin",
+            finalAnswer: "**(c)** Insulin",
             commonErrors: ["Choosing ADH — that is produced by the pituitary gland."],
           },
         },
@@ -444,7 +444,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Match stimulus to tropism.", working: "\\text{light} \\to \\text{phototropism}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Phototropism",
+            finalAnswer: "**(b)** Phototropism",
             commonErrors: ["Choosing gravitropism — that's response to gravity."],
           },
         },
@@ -538,7 +538,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Match stimulus to tropism.", working: "\\text{gravity} \\to \\text{gravitropism}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Gravitropism",
+            finalAnswer: "**(d)** Gravitropism",
             commonErrors: ["Choosing phototropism — that's the response to light."],
           },
         },
@@ -582,7 +582,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Recall where auxin collects in unilateral light.", working: "\\text{shaded side}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The shaded side",
+            finalAnswer: "**(a)** The shaded side",
             commonErrors: ["Saying the lit side — auxin moves away from the light source."],
           },
         },
@@ -652,7 +652,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Match the stimulus to the tropism.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Touch",
+            finalAnswer: "**(c)** Touch",
             commonErrors: ["Choosing gravity — that is gravitropism."],
           },
         },
@@ -719,7 +719,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Recall why tropisms evolved in plants.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** They are anchored in place and cannot move",
+            finalAnswer: "**(d)** They are anchored in place and cannot move",
             commonErrors: ["Choosing 'cells cannot divide' — growth itself requires cell division and elongation."],
           },
         },

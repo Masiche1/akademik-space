@@ -71,7 +71,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Diffusion occurs from high to low concentration — the gradient drives it.", working: "\\text{gradient}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A concentration gradient",
+            finalAnswer: "**(c)** A concentration gradient",
             commonErrors: ["Thinking energy is required."],
             examinerNote: "B1 for (a).",
           },
@@ -655,7 +655,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Enzymes reduce the energy needed to start a reaction.", working: "E_a", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Activation energy",
+            finalAnswer: "**(b)** Activation energy",
             commonErrors: ["Thinking enzymes are consumed or change the products."],
             examinerNote: "B1 for (a).",
           },

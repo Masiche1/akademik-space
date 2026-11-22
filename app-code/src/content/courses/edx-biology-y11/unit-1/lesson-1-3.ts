@@ -192,7 +192,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Homeostasis is about keeping internal conditions such as temperature, water and glucose steady. A reflex is a fast automatic response, and plant growth to light is phototropism.", working: "\\text{(a)}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(c)**",
             commonErrors: ["Choosing (b), which describes a reflex.", "Choosing (d), because hormones are used in homeostasis, but this is not its definition."],
             examinerNote: "B1 for (a).",
           },

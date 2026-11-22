@@ -415,7 +415,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $y=A$",
+            finalAnswer: "**(b)** $y=A$",
             commonErrors: [
               "Choosing $A+B$, which is the value at $t=0$, not the asymptote.",
             ],
@@ -461,7 +461,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $L$",
+            finalAnswer: "**(b)** $L$",
             commonErrors: [
               "Confusing the carrying capacity with the initial population.",
             ],
@@ -505,7 +505,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $100$",
+            finalAnswer: "**(c)** $100$",
             commonErrors: [
               "Using $C=4$ as the denominator alone, giving $\\frac{500}{4}=125$.",
             ],
@@ -552,7 +552,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $P=\\frac{L}{2}$",
+            finalAnswer: "**(d)** $P=\\frac{L}{2}$",
             commonErrors: [
               "Assuming growth is fastest at the carrying capacity, where the rate is actually zero.",
             ],
@@ -760,7 +760,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $T$ approaches $A$ from above.",
+            finalAnswer: "**(b)** $T$ approaches $A$ from above.",
             commonErrors: [
               "Ignoring the sign of $B$; if $B<0$ the approach would be from below.",
             ],
@@ -1206,7 +1206,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "$1.5$ m" },
               { id: "d", text: "$4$ m" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1224,7 +1224,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $6.5$ m",
+            finalAnswer: "**(a)** $6.5$ m",
             commonErrors: [
               "Giving the amplitude 2.5 as the maximum.",
               "Choosing the minimum 1.5.",
@@ -1586,7 +1586,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $4$",
+            finalAnswer: "**(c)** $4$",
             commonErrors: [
               "Reporting the amplitude 3 or the minimum $1-3=-2$.",
             ],
@@ -1632,7 +1632,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $y=6$",
+            finalAnswer: "**(c)** $y=6$",
             commonErrors: [
               "Confusing the amplitude 2.4 or the maximum 8.4 with the midline.",
             ],
@@ -1677,7 +1677,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $C(t)\\to0$",
+            finalAnswer: "**(c)** $C(t)\\to0$",
             commonErrors: [
               "Choosing 20 or 4, the coefficients, rather than the limiting behaviour.",
             ],
@@ -1723,7 +1723,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $5$",
+            finalAnswer: "**(d)** $5$",
             commonErrors: [
               "Using the first rule because $2<2$ is false but the boundary was ignored.",
             ],
@@ -1773,7 +1773,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $y=4\\sin(2t)$",
+            finalAnswer: "**(d)** $y=4\\sin(2t)$",
             commonErrors: ["Option (d) has amplitude 1 and vertical shift 4."],
           },
         },

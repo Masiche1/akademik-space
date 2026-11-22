@@ -296,7 +296,7 @@ export const lesson43: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Best-adapted survive",
+            finalAnswer: "**(d)** Best-adapted survive",
             commonErrors: ["Selective breeding confused."],
           },
         },

@@ -188,7 +188,7 @@ export const lesson11: Lesson = {
               { reasoning: "Both angles lie between the parallel lines, and they are on opposite sides of the transversal, so they are alternate interior angles.", marks: 1, markCode: "R" },
               { reasoning: "Apply the alternate interior angles theorem.", working: "m\\angle A = m\\angle B", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** They are alternate interior angles and are congruent.",
+            finalAnswer: "**(c)** They are alternate interior angles and are congruent.",
             commonErrors: ["Choosing same-side interior because both angles are inside; the sides of the transversal must also be compared."],
           },
         },

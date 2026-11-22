@@ -122,7 +122,7 @@ export const lesson131: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. It's summary — retells events without analysis or evidence.",
+              "**(a)**. It's summary — retells events without analysis or evidence.",
             commonErrors: [
               "Thinking it's 'wrong' — it's just not analytical enough.",
             ],
@@ -358,7 +358,7 @@ export const lesson131: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Quotation marks/citation + explanation of significance.",
+              "**(d)**. Quotation marks/citation + explanation of significance.",
             commonErrors: [
               "Thinking the fact itself is enough — must explain what it means.",
             ],

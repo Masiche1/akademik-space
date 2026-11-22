@@ -66,7 +66,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Speed is the magnitude: $\\sqrt{3^2+(-4)^2}=\\sqrt{25}=5$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5$",
+            finalAnswer: "**(c)** $5$",
             commonErrors: ["Adding components instead of using Pythagoras.", "Forgetting to square the components."],
           },
         },
@@ -197,7 +197,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$a=\\frac{v-u}{t}=\\frac{22-10}{4}=3$ m/s$^2$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3$ m/s$^2$",
+            finalAnswer: "**(c)** $3$ m/s$^2$",
             commonErrors: ["Dividing by the wrong time or forgetting to subtract $u$."],
           },
         },

@@ -159,7 +159,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{air left after max exhale}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Air remaining in the lungs after maximum exhalation",
+            finalAnswer: "**(c)** Air remaining in the lungs after maximum exhalation",
             commonErrors: ["Choosing vital capacity — RV is the air that cannot be expelled."],
           },
         },
@@ -224,7 +224,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Recall the limitation.", working: "\\text{RV not measurable}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Residual volume",
+            finalAnswer: "**(c)** Residual volume",
             commonErrors: ["Choosing tidal volume — that is the easiest volume to measure."],
           },
         },
@@ -336,7 +336,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Recall the value.", working: "\\sim 500 \\text{ cm}^3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 500 cm³",
+            finalAnswer: "**(b)** 500 cm³",
             commonErrors: ["Choosing 5 dm³ — that's closer to vital capacity."],
           },
         },
@@ -464,7 +464,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Recall function.", working: "\\text{move mucus up}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Beat mucus upward to be swallowed",
+            finalAnswer: "**(b)** Beat mucus upward to be swallowed",
             commonErrors: ["Choosing 'produce mucus' — that's goblet cells."],
           },
         },
@@ -558,7 +558,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Match cell to product.", working: "\\text{goblet} \\to \\text{mucus}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Mucus",
+            finalAnswer: "**(d)** Mucus",
             commonErrors: ["Choosing cilia — those are produced by different cells."],
           },
         },
@@ -623,7 +623,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Recall the targets.", working: "\\text{cilia + alveoli}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cilia and alveoli",
+            finalAnswer: "**(d)** Cilia and alveoli",
             commonErrors: ["Choosing red blood cells — that's carbon monoxide's target."],
           },
         },
@@ -690,7 +690,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Recall the mechanism.", working: "\\text{CO} + \\text{Hb}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Binds haemoglobin and reduces oxygen transport",
+            finalAnswer: "**(c)** Binds haemoglobin and reduces oxygen transport",
             commonErrors: ["Saying CO 'blocks the lungs' — it acts in the blood on haemoglobin."],
           },
         },
@@ -736,7 +736,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Identify the defence.", working: "\\text{cilia + mucus}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cilia and goblet cells",
+            finalAnswer: "**(d)** Cilia and goblet cells",
             commonErrors: ["Choosing bile or peristalsis — those belong to digestion."],
           },
         },

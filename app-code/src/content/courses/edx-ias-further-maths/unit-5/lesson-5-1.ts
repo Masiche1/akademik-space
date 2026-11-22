@@ -61,7 +61,7 @@ export const lesson51: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Kinematics", statement: "$v=\\int a\\,dt+C$." }],
             steps: [{ reasoning: "Acceleration is derivative of velocity.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** integrating",
+            finalAnswer: "**(b)** integrating",
           },
         },
         {

@@ -67,7 +67,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Earth spins every $24$ hours — day side faces Sun, night side faces away.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Earth spinning on its axis",
+            finalAnswer: "**(d)** Earth spinning on its axis",
             commonErrors: ["Choosing 'Sun moving around Earth' — the Sun stays still; Earth moves."],
           },
         },
@@ -169,7 +169,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The side facing the Sun has day; the side away has night.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Earth spinning on its axis",
+            finalAnswer: "**(c)** Earth spinning on its axis",
             commonErrors: ["Choosing the Moon — the Moon does not cause daily night."],
           },
         },
@@ -322,7 +322,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Tilting towards the Sun gives more direct light.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** When it tilts towards the Sun",
+            finalAnswer: "**(a)** When it tilts towards the Sun",
             commonErrors: ["Choosing tilts away — that gives winter."],
           },
         },
@@ -369,7 +369,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Sunlight reaches the side facing the Sun.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The side facing the Sun",
+            finalAnswer: "**(d)** The side facing the Sun",
             commonErrors: ["Choosing facing away — that side has night."],
           },
         },
@@ -418,7 +418,7 @@ export const lesson32: Lesson = {
               { reasoning: "Rotation changes which side faces the Sun.", marks: 1, markCode: "M" },
               { reasoning: "This makes sunrise and sunset appear without the Sun orbiting Earth daily.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Earth's rotation makes the Sun only appear to move",
+            finalAnswer: "**(b)** Earth's rotation makes the Sun only appear to move",
             commonErrors: ["Choosing Earth does not move — Earth both spins and orbits."],
           },
         },
@@ -564,7 +564,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "We see the Moon because it reflects sunlight.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It reflects sunlight",
+            finalAnswer: "**(c)** It reflects sunlight",
             commonErrors: ["Choosing makes own light — the Moon only reflects sunlight."],
           },
         },
@@ -717,7 +717,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The Moon is not a light source.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** No, it reflects sunlight",
+            finalAnswer: "**(a)** No, it reflects sunlight",
             commonErrors: ["Thinking full Moon means own light — it still reflects sunlight."],
           },
         },
@@ -764,7 +764,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Crescent means a thin lit sliver.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A thin sliver of light",
+            finalAnswer: "**(c)** A thin sliver of light",
             commonErrors: ["Choosing complete circle — that is full Moon."],
           },
         },

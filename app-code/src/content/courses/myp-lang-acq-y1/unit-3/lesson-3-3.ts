@@ -69,7 +69,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — recognise 'Bonjour' as a greeting meaning hello.", working: "hello / good day", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Hello / good day",
+            finalAnswer: "**(c)** Hello / good day",
             commonErrors: ["Confusing 'Bonjour' with a farewell."],
             examinerNote: "C1 for (b).",
           },
@@ -165,7 +165,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'Hola' = hello in Spanish.", working: "hello", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Hello (Spanish)",
+            finalAnswer: "**(a)** Hello (Spanish)",
             commonErrors: ["Confusing 'Hola' with a farewell."],
             examinerNote: "C1 for (b).",
           },
@@ -279,7 +279,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "French" },
               { id: "d", text: "Spanish" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -288,7 +288,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'Guten Tag' is German.", working: "German", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(c)** German",
+            finalAnswer: "**(a)** German",
             commonErrors: ["Confusing it with 'Bonjour' (French)."],
             examinerNote: "C1 for (c).",
           },
@@ -357,7 +357,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Bonjour" },
               { id: "d", text: "Konnichiwa" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -366,7 +366,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'Thank you' is not a greeting.", working: "Thank you", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(c)** Thank you",
+            finalAnswer: "**(a)** Thank you",
             commonErrors: ["Thinking all polite phrases are greetings."],
             examinerNote: "C1 for (c).",
           },
@@ -515,7 +515,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — respectful response = curiosity + polite question.", working: "be curious and ask politely", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Be curious and ask politely",
+            finalAnswer: "**(c)** Be curious and ask politely",
             commonErrors: ["Choosing judgement ('it is wrong') — disrespectful."],
             examinerNote: "C1 for (b).",
           },
@@ -619,7 +619,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — respectful response = curiosity + polite question.", working: "be curious and ask politely", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Be curious and ask politely",
+            finalAnswer: "**(d)** Be curious and ask politely",
             commonErrors: ["Choosing judgement — disrespectful."],
             examinerNote: "C1 for (b).",
           },
@@ -646,7 +646,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — slow, clear speech helps a learner understand.", working: "speak slowly and clearly", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Speak slowly and clearly",
+            finalAnswer: "**(c)** Speak slowly and clearly",
             commonErrors: ["Thinking louder = clearer — it is not."],
             examinerNote: "C1 for (b).",
           },
@@ -715,7 +715,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — differences are normal; respect means not laughing.", working: "differences are normal", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(a)** Differences are normal and laughing is disrespectful",
+            finalAnswer: "**(b)** Differences are normal and laughing is disrespectful",
             commonErrors: ["Choosing a rule-based reason instead of respect."],
             examinerNote: "C1 for (a).",
           },
@@ -742,7 +742,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — slower, simpler speech helps understanding.", working: "speak more slowly and use simpler words", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Speak more slowly and use simpler words",
+            finalAnswer: "**(c)** Speak more slowly and use simpler words",
             commonErrors: ["Thinking louder helps — clarity does."],
             examinerNote: "C1 for (b).",
           },

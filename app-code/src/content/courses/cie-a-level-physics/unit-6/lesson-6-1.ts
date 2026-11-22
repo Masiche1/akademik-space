@@ -144,7 +144,7 @@ export const lesson611: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Beta decay", statement: "$^{A}_{Z}X \\to ^{A}_{Z+1}Y + ^0_{-1}\\beta$ (+ antineutrino)." }],
             steps: [{ reasoning: "Beta-minus: A unchanged, Z increases by 1.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** $^{A}_{Z}X \\to ^{A}_{Z+1}Y + ^0_{-1}\\beta$",
+            finalAnswer: "**(a)** $^{A}_{Z}X \\to ^{A}_{Z+1}Y + ^0_{-1}\\beta$",
           },
         },
         {
@@ -244,7 +244,7 @@ export const lesson611: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Conservation", statement: "Total mass number A and atomic number Z are conserved in nuclear equations." }],
             steps: [{ reasoning: "A and Z balance on both sides of every decay equation.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** mass number and atomic number",
+            finalAnswer: "**(c)** mass number and atomic number",
           },
         },
         {
@@ -284,7 +284,7 @@ export const lesson611: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Beta decay", statement: "$n \\to p + e^- + \\bar{\\nu}_e$." }],
             steps: [{ reasoning: "Neutron → proton + electron (β⁻) + antineutrino.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** proton + electron + antineutrino",
+            finalAnswer: "**(b)** proton + electron + antineutrino",
           },
         },
         {
@@ -336,12 +336,12 @@ export const lesson611: Lesson = {
               { id: "c", text: "gamma" },
               { id: "d", text: "beta" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Ionisation", statement: "Alpha: most ionising, least penetrating; gamma: least ionising, most penetrating." }],
             steps: [{ reasoning: "Alpha's large mass and charge make it strongly ionising.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** alpha",
+            finalAnswer: "**(b)** alpha",
           },
         },
         {
@@ -496,7 +496,7 @@ export const lesson611: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Half-life", statement: "$N = N_0 (1/2)^{t/T_{1/2}}$." }],
             steps: [{ reasoning: "$(1/2)^2 = 1/4$ remains after 2 half-lives.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** $1/4$",
+            finalAnswer: "**(c)** $1/4$",
           },
         },
         {
@@ -588,12 +588,12 @@ export const lesson611: Lesson = {
               { id: "c", text: "become zero" },
               { id: "d", text: "remain unchanged" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Half-life constancy", statement: "Half-life is a nuclear property — independent of temperature, pressure and amount." }],
             steps: [{ reasoning: "Decay is a spontaneous nuclear process; temperature does not affect it.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** remain unchanged",
+            finalAnswer: "**(d)** remain unchanged",
           },
         },
         {
@@ -633,7 +633,7 @@ export const lesson611: Lesson = {
           markscheme: {
             principles: [{ kind: "application", name: "Carbon dating", statement: "$^{14}C$ decays (T½ ≈ 5730 y) after death; ratio falls exponentially." }],
             steps: [{ reasoning: "No new $^{14}C$ is absorbed after death → ratio decreases.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** decreases steadily with time",
+            finalAnswer: "**(c)** decreases steadily with time",
           },
         },
         {
@@ -693,7 +693,7 @@ export const lesson611: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Becquerel", statement: "$1\\ Bq = 1$ nuclear decay per second." }],
             steps: [{ reasoning: "Becquerel = decays per second.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** one decay per second",
+            finalAnswer: "**(c)** one decay per second",
           },
         },
         {

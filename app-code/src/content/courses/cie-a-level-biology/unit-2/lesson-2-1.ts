@@ -100,7 +100,7 @@ export const lesson221b: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Glycosidic bond",
+            finalAnswer: "**(d)** Glycosidic bond",
             commonErrors: ["Confusing with peptide (protein) bonds."],
           },
         },
@@ -285,7 +285,7 @@ export const lesson221b: Lesson = {
             steps: [
               { reasoning: "Sucrose contains glucose and fructose.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sucrose",
+            finalAnswer: "**(c)** Sucrose",
             commonErrors: ["Confusing sucrose with lactose or maltose."],
           },
         },
@@ -375,7 +375,7 @@ export const lesson221b: Lesson = {
             steps: [
               { reasoning: "Condensation removes water.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A water molecule",
+            finalAnswer: "**(d)** A water molecule",
             commonErrors: ["Confusing condensation with hydrolysis."],
           },
         },
@@ -405,7 +405,7 @@ export const lesson221b: Lesson = {
             steps: [
               { reasoning: "Cellulose is the β-glucose structural polysaccharide.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cellulose",
+            finalAnswer: "**(c)** Cellulose",
             commonErrors: ["Choosing amylose, an α-glucose storage polymer."],
           },
         },
@@ -435,7 +435,7 @@ export const lesson221b: Lesson = {
             steps: [
               { reasoning: "Glycogen branching increases hydrolysis sites.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** More highly branched with more chain ends",
+            finalAnswer: "**(b)** More highly branched with more chain ends",
             commonErrors: ["Confusing storage branching with cellulose structure."],
           },
         },
@@ -652,7 +652,7 @@ export const lesson221b: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Glycerol + three fatty acids",
+            finalAnswer: "**(d)** Glycerol + three fatty acids",
             commonErrors: ["Confusing with phospholipid (has phosphate)."],
           },
         },
@@ -837,7 +837,7 @@ export const lesson221b: Lesson = {
             steps: [
               { reasoning: "Fatty acid-glycerol bonds are ester bonds.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Ester bond",
+            finalAnswer: "**(c)** Ester bond",
             commonErrors: ["Confusing ester bonds with peptide or glycosidic bonds."],
           },
         },
@@ -927,7 +927,7 @@ export const lesson221b: Lesson = {
             steps: [
               { reasoning: "Cloudy white emulsion is the positive lipid result.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cloudy white emulsion",
+            finalAnswer: "**(c)** Cloudy white emulsion",
             commonErrors: ["Confusing the emulsion test with Biuret or Benedict tests."],
           },
         },
@@ -957,7 +957,7 @@ export const lesson221b: Lesson = {
             steps: [
               { reasoning: "Higher energy per gram makes lipids efficient stores.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Higher energy value per gram",
+            finalAnswer: "**(b)** Higher energy value per gram",
             commonErrors: ["Claiming lipids contain no energy."],
           },
         },
@@ -987,7 +987,7 @@ export const lesson221b: Lesson = {
             steps: [
               { reasoning: "Hydrophobic tails avoid water by facing inward.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** In the hydrophobic interior",
+            finalAnswer: "**(b)** In the hydrophobic interior",
             commonErrors: ["Reversing heads and tails."],
           },
         },

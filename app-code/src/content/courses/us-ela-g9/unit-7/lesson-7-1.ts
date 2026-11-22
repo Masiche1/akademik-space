@@ -343,7 +343,7 @@ export const lesson71: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. After 'spent' — 'When platforms optimize for time spent, they optimize for emotional content.'",
+              "**(c)**. After 'spent' — 'When platforms optimize for time spent, they optimize for emotional content.'",
             commonErrors: ["Missing comma after intro clause."],
           },
         },
@@ -562,7 +562,7 @@ export const lesson71: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. engagement-optimizing algorithms exploit psychological vulnerabilities.",
+              "**(d)**. engagement-optimizing algorithms exploit psychological vulnerabilities.",
             commonErrors: ["Thinking longer = more precise."],
           },
         },
@@ -778,7 +778,7 @@ export const lesson71: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. deliberation, nuance, and patience.",
+            finalAnswer: "**(c)**. deliberation, nuance, and patience.",
             commonErrors: ["Missing mixed grammatical forms."],
           },
         },

@@ -41,7 +41,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Government spending" },
             { id: "d", text: "Prices of goods" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "PPF", statement: "Max combinations." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "PPF", statement: "Max combinations." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u1-ppf-q2", difficulty: "core", totalMarks: 2,
@@ -95,8 +95,8 @@ export const lesson12: Lesson = {
             { id: "b", text: "Inefficiency" },
             { id: "c", text: "Economic growth" },
             { id: "d", text: "An unattainable output combination" },
-          ], dorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "PPF", statement: "Outside = unattainable." }], steps: [{ reasoning: "Beyond current resources and technology.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "principle", name: "PPF", statement: "Outside = unattainable." }], steps: [{ reasoning: "Beyond current resources and technology.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u1-ppf-q6", difficulty: "core", totalMarks: 1,
@@ -129,7 +129,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Using resources fully and productively efficient" },
             { id: "d", text: "Unable to produce more" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "PPF", statement: "On curve = efficient." }], steps: [{ reasoning: "Maximum output combinations achieved.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "PPF", statement: "On curve = efficient." }], steps: [{ reasoning: "Maximum output combinations achieved.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u1-ppf-q9", difficulty: "core", totalMarks: 1,
@@ -139,8 +139,8 @@ export const lesson12: Lesson = {
             { id: "b", text: "Resources and technology" },
             { id: "c", text: "Prices" },
             { id: "d", text: "Money" },
-          ], borrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "PPF", statement: "Given resources and technology." }], steps: [{ reasoning: "Curve drawn for current resources and technology.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "definition", name: "PPF", statement: "Given resources and technology." }], steps: [{ reasoning: "Curve drawn for current resources and technology.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u1-ppf-q10", difficulty: "foundation", totalMarks: 2,
@@ -262,7 +262,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Full employment" },
             { id: "d", text: "Underutilised resources" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "PPF", statement: "Inside = underuse." }], steps: [{ reasoning: "Resources not fully used.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "PPF", statement: "Inside = underuse." }], steps: [{ reasoning: "Resources not fully used.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u1-ppa-q2", difficulty: "core", totalMarks: 2,
@@ -318,7 +318,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Taxes are raised automatically" },
             { id: "d", text: "It must fall" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Government choice", statement: "Fixed budget = trade-off." }], steps: [{ reasoning: "Limited budget forces spending elsewhere to fall.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Government choice", statement: "Fixed budget = trade-off." }], steps: [{ reasoning: "Limited budget forces spending elsewhere to fall.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u1-ppa-q6", difficulty: "core", totalMarks: 2,
@@ -361,7 +361,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "A fall in consumer spending" },
             { id: "d", text: "Investment in education and new technology" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "PPF shift", statement: "Growth causes." }], steps: [{ reasoning: "Better skills and technology raise productive capacity.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "PPF shift", statement: "Growth causes." }], steps: [{ reasoning: "Better skills and technology raise productive capacity.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u1-ppa-q10", difficulty: "core", totalMarks: 2,
@@ -383,8 +383,8 @@ export const lesson12: Lesson = {
             { id: "b", text: "Rising consumer incomes" },
             { id: "c", text: "Improved technology" },
             { id: "d", text: "Higher export prices" },
-          ], aorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "PPF applications", statement: "Inside = underuse." }], steps: [{ reasoning: "Unused resources keep output below potential.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "principle", name: "PPF applications", statement: "Inside = underuse." }], steps: [{ reasoning: "Unused resources keep output below potential.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
         },
         {
           id: "olec-u1-ppa-q12", difficulty: "core", totalMarks: 3,
@@ -428,7 +428,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Choosing more defence spending means less can be spent on healthcare" },
             { id: "d", text: "An increase in the money supply" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Opportunity cost", statement: "Forgone alternative." }], steps: [{ reasoning: "Extra defence requires sacrificing healthcare.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Opportunity cost", statement: "Forgone alternative." }], steps: [{ reasoning: "Extra defence requires sacrificing healthcare.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u1-ppa-q16", difficulty: "challenge", totalMarks: 9,

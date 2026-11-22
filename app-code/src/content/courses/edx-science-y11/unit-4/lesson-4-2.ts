@@ -102,7 +102,7 @@ export const lesson42: Lesson = {
 ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Peer review", statement: "Experts evaluate research before publication." }],
             steps: [{ reasoning: "Expert evaluation before publication.", marks: 2, markCode: "AO1" }],
-            finalAnswer: "**(b)** Expert evaluation", commonErrors: ["Public vote assumed."] },
+            finalAnswer: "**(a)** Expert evaluation", commonErrors: ["Public vote assumed."] },
         },
         {
           id: "esc11-u4-critical-q2", difficulty: "core", totalMarks: 3,

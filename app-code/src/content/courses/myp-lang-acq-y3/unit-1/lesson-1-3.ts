@@ -69,7 +69,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'I am writing to inform you' is formal; others are slang/informal.", working: "I am writing to inform you", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** I am writing to inform you...",
+            finalAnswer: "**(a)** I am writing to inform you...",
             commonErrors: ["Choosing slang because it sounds 'nicer'."],
             examinerNote: "B1 for (b).",
           },
@@ -172,7 +172,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'can't'/'gonna' are informal markers.", working: "contractions + slang", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Contractions like 'can't' and 'gonna'",
+            finalAnswer: "**(c)** Contractions like 'can't' and 'gonna'",
             commonErrors: ["Choosing formal features."],
             examinerNote: "B1 for (a).",
           },
@@ -190,7 +190,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "What's up?" },
               { id: "d", text: "Hey there!" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -199,7 +199,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Dear Mr Smith,' is the formal greeting.", working: "Dear Mr Smith,", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** Dear Mr Smith,",
+            finalAnswer: "**(b)** Dear Mr Smith,",
             commonErrors: ["Choosing casual greetings."],
             examinerNote: "D1 for (c).",
           },
@@ -232,7 +232,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — Note A uses casual words and contractions.", working: "Note A", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Note A",
+            finalAnswer: "**(d)** Note A",
             commonErrors: ["Choosing Note B because it is longer."],
             examinerNote: "B1 for (a).",
           },
@@ -256,7 +256,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Semi-formal" },
               { id: "d", text: "Informal" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -265,7 +265,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — official phrasing and no contractions = formal.", working: "formal", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Formal",
+            finalAnswer: "**(a)** Formal",
             commonErrors: ["Choosing semi-formal — this is an official notice."],
             examinerNote: "B1 for (c).",
           },
@@ -298,7 +298,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — Version 2 is polite and complete; Version 1 uses texting abbreviations.", working: "Version 2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Version 2 — polite, full forms for a teacher",
+            finalAnswer: "**(c)** Version 2 — polite, full forms for a teacher",
             commonErrors: ["Saying meaning is the same — register still matters."],
             examinerNote: "B1 for (b).",
           },
@@ -522,7 +522,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — exclamation = strong feeling.", working: "strong feeling", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Strong feeling or emphasis",
+            finalAnswer: "**(a)** Strong feeling or emphasis",
             commonErrors: ["Thinking it marks a question."],
             examinerNote: "B1 for (b).",
           },
@@ -660,7 +660,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'absolutely brilliant' + exclamation = strong positive.", working: "brilliant", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The film was absolutely brilliant!",
+            finalAnswer: "**(d)** The film was absolutely brilliant!",
             commonErrors: ["Choosing 'OK' — that is neutral, not positive."],
             examinerNote: "B1 for (b).",
           },
@@ -693,7 +693,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — multiple negative adjectives + 'would not recommend'.", working: "negative", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Negative",
+            finalAnswer: "**(a)** Negative",
             commonErrors: ["Missing 'clean' and thinking the review is positive."],
             examinerNote: "B1 for (b).",
           },
@@ -720,7 +720,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'I DIDN'T say he was wrong' vs 'I didn't say HE was wrong' differ.", working: "emphasis changes meaning", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Emphasis changes which word is stressed, changing the meaning",
+            finalAnswer: "**(a)** Emphasis changes which word is stressed, changing the meaning",
             commonErrors: ["Thinking the sentences are identical in speech."],
             examinerNote: "B1 for (b).",
           },
@@ -753,7 +753,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — positive outcome + 'proud' = happy.", working: "proud and happy", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Proud and happy",
+            finalAnswer: "**(c)** Proud and happy",
             commonErrors: ["Missing the positive words."],
             examinerNote: "B1 for (b).",
           },
@@ -780,7 +780,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'disgusting' is a harsh judgement.", working: "disgusting", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** disgusting",
+            finalAnswer: "**(d)** disgusting",
             commonErrors: ["Choosing 'delicious' — positive but still evaluative, less harsh."],
             examinerNote: "B1 for (b).",
           },

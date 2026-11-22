@@ -94,7 +94,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "2,8" },
               { id: "d", text: "2,8,7" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -388,7 +388,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "CCl₄" },
               { id: "d", text: "CO₂" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

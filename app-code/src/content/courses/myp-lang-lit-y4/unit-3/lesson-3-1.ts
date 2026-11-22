@@ -64,7 +64,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Text type choice", statement: "Purpose + audience determine text type." }],
             steps: [{ reasoning: "Criterion B (Organizing): purpose + audience — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Purpose and audience",
+            finalAnswer: "**(a)** Purpose and audience",
           },
         },
         {
@@ -146,7 +146,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): narrative = story — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To tell a story with plot, character and setting",
+            finalAnswer: "**(a)** To tell a story with plot, character and setting",
           },
         },
         {
@@ -190,7 +190,7 @@ export const lesson31: Lesson = {
               { reasoning: "Criterion B (Organizing): narrative, descriptive, argumentative, report cover main types — (b).", marks: 1, markCode: "B" },
               { reasoning: "Criterion B (Organizing): each has conventions — structure follows purpose.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Narrative, descriptive, argumentative, report — each with specific purpose.",
+            finalAnswer: "**(d)** Narrative, descriptive, argumentative, report — each with specific purpose.",
           },
         },
         {
@@ -235,7 +235,7 @@ export const lesson31: Lesson = {
               { reasoning: "Criterion B (Organizing): explaining = expository/instructional — (b).", marks: 1, markCode: "B" },
               { reasoning: "Criterion B (Organizing): needs clear steps, not story or persuasion.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Expository/instructional",
+            finalAnswer: "**(c)** Expository/instructional",
           },
         },
         {
@@ -337,7 +337,7 @@ export const lesson31: Lesson = {
               { reasoning: "Criterion A (Analysing): A is formal letter ('Dear Editor', 'express my concern'); B is narrative (scene, characters).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): A suits editorial audience; B suits story readers.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** A = formal letter; B = narrative",
+            finalAnswer: "**(c)** A = formal letter; B = narrative",
           },
         },
         {
@@ -361,7 +361,7 @@ export const lesson31: Lesson = {
               { reasoning: "Criterion B (Organizing): narrative = chronological — (b).", marks: 1, markCode: "B" },
               { reasoning: "Criterion B (Organizing): story needs beginning, middle, end.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Narrative",
+            finalAnswer: "**(c)** Narrative",
           },
         },
         {
@@ -589,7 +589,7 @@ export const lesson31: Lesson = {
               { reasoning: "Criterion C (Producing text): age, knowledge, interests are key factors — (a).", marks: 1, markCode: "C" },
               { reasoning: "Criterion C (Producing text): relationship to writer also matters.", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(a)** Age, knowledge level, and interests",
+            finalAnswer: "**(b)** Age, knowledge level, and interests",
           },
         },
         {
@@ -707,7 +707,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion C (Producing text): vocabulary matches audience — (b).", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Because vocabulary must match audience knowledge",
+            finalAnswer: "**(c)** Because vocabulary must match audience knowledge",
           },
         },
         {
@@ -751,7 +751,7 @@ export const lesson31: Lesson = {
               { reasoning: "Criterion C (Producing text): how-to = instruct — (b).", marks: 1, markCode: "C" },
               { reasoning: "Criterion C (Producing text): needs clear sequential steps.", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** To instruct — guide the reader through steps",
+            finalAnswer: "**(a)** To instruct — guide the reader through steps",
           },
         },
         {

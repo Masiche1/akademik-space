@@ -263,7 +263,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Footprints are traces left behind — childhood's marks that outlast the moment.", working: "\\text{traces of childhood}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** The traces of childhood that remain after we have grown",
+            finalAnswer: "**(c)** The traces of childhood that remain after we have grown",
             commonErrors: ["Choosing (a) — the image is symbolic, not literal."],
           },
         },
@@ -505,7 +505,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "She lived there 61 years and is leaving out of necessity, not desire.", working: "\\text{attachment vs necessity}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Marisol's attachment to the island vs the necessity of leaving",
+            finalAnswer: "**(a)** Marisol's attachment to the island vs the necessity of leaving",
             commonErrors: ["Choosing (d) — the island/mainland is setting, not the conflict."],
           },
         },
@@ -614,7 +614,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The ferry 'pulled away from the harbour at dusk' carrying her to the mainland.", working: "\\text{ferry at dusk}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** A ferry crossing from an island to the mainland at dusk",
+            finalAnswer: "**(d)** A ferry crossing from an island to the mainland at dusk",
             commonErrors: ["Choosing (c) — the house is mentioned but the action happens on the ferry."],
           },
         },
@@ -755,7 +755,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "House too large + stairs too steep = practical, not emotional, reasons to leave.", working: "\\text{practical reasons}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** The practical reasons forcing her to leave",
+            finalAnswer: "**(d)** The practical reasons forcing her to leave",
             commonErrors: ["Choosing (a) — these details explain why she must leave, not why she loves it."],
           },
         },

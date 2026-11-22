@@ -176,7 +176,7 @@ export const lesson15: Lesson = {
             { id: "b", text: "Carrots" },
             { id: "c", text: "An apple" },
             { id: "d", text: "A packet of sweets only" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Healthy food", statement: "Fruit, vegetables, bread, milk, meat, beans." }],
             steps: [{ reasoning: "Sweets are not healthy food; the others are.", marks: 1, markCode: "A" }],

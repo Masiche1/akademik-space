@@ -83,7 +83,7 @@ export const lesson43: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Wrist or neck",
+            finalAnswer: "**(a)** Wrist or neck",
             commonErrors: ["Single site assumed."],
           },
         },

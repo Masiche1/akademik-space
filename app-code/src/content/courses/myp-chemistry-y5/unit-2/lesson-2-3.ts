@@ -72,7 +72,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Oxidation at anode releases electrons → flow to cathode.", working: "\\text{anode}\\to\\text{cathode}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Anode to cathode",
+            finalAnswer: "**(c)** Anode to cathode",
             commonErrors: ["Reversing direction — electrons flow opposite to conventional current."],
             examinerNote: "B1 for (a).",
           },
@@ -187,7 +187,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "OIL RIG: oxidation = loss of electrons at the anode.", working: "\\text{OIL}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oxidation, electrons released",
+            finalAnswer: "**(c)** Oxidation, electrons released",
             commonErrors: ["Confusing anode with cathode."],
             examinerNote: "B1 for (a).",
           },
@@ -513,7 +513,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Cathode is negative → attracts positive cations.", working: "\\text{cations}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Positive ions",
+            finalAnswer: "**(b)** Positive ions",
             commonErrors: ["Mixing up anode/cathode attraction."],
             examinerNote: "B1 for (a).",
           },
@@ -628,7 +628,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Cu²⁺ is less reactive than H⁺ → Cu²⁺ + 2e⁻ → Cu at cathode.", working: "Cu^{2+}\\to Cu", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Copper metal",
+            finalAnswer: "**(b)** Copper metal",
             commonErrors: ["Choosing H₂ — that's for very reactive metals like Na⁺."],
             examinerNote: "B1 for (a).",
           },

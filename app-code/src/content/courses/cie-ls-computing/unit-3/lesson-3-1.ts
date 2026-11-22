@@ -58,7 +58,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Decomposition" },
               { id: "d", text: "Sequence" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -356,7 +356,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Iteration" },
               { id: "d", text: "Selection" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -586,7 +586,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Sequence" },
               { id: "d", text: "Iteration" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -646,7 +646,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Integer" },
               { id: "d", text: "Boolean" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -886,7 +886,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Integer" },
               { id: "d", text: "Character" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1076,7 +1076,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "String" },
               { id: "d", text: "Boolean" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

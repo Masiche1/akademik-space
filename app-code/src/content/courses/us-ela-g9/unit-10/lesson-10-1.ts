@@ -118,7 +118,7 @@ export const lesson101: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Summary = restate each; synthesis = find relationships.",
+              "**(a)**. Summary = restate each; synthesis = find relationships.",
             commonErrors: ["Confusing the two."],
           },
         },
@@ -545,7 +545,7 @@ export const lesson101: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Presenting strongest version of opposing view.",
+              "**(c)**. Presenting strongest version of opposing view.",
             commonErrors: ["Confusing with strawman (weak version)."],
           },
         },
@@ -756,7 +756,7 @@ export const lesson101: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Research → plan → draft → revise → edit → proofread.",
+              "**(c)**. Research → plan → draft → revise → edit → proofread.",
             commonErrors: ["Starting with draft — need research first."],
           },
         },

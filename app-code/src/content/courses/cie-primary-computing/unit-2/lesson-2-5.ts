@@ -230,7 +230,7 @@ export const lesson25: Lesson = {
             steps: [
               { reasoning: "Calling a function runs its stored code wherever the name is used.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Running the function's code by name",
+            finalAnswer: "**(d)** Running the function's code by name",
           },
         },
         {
@@ -279,7 +279,7 @@ export const lesson25: Lesson = {
             steps: [
               { reasoning: "The parameter is the placeholder 'name' that receives the value.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** name",
+            finalAnswer: "**(b)** name",
           },
         },
         {
@@ -315,7 +315,7 @@ export const lesson25: Lesson = {
               { reasoning: "Functions return a result value; procedures perform actions without returning.", marks: 1, markCode: "M" },
               { reasoning: "e.g. 'return n×2' is a function; 'move forward' is a procedure.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Function returns a value; procedure does actions",
+            finalAnswer: "**(b)** Function returns a value; procedure does actions",
           },
         },
         {

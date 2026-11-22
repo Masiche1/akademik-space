@@ -93,7 +93,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Triple", statement: "Three parallel items create rhythm and emphasis." }],
             steps: [{ reasoning: "The repeated sentence pattern appears three times, building emphasis.", evidence: "Teachers know this. Parents know this.", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** Repetition in a triple.",
+            finalAnswer: "**(d)** Repetition in a triple.",
             commonErrors: ["Choosing a simile because no ‘like’ or ‘as’ appears.", "Choosing personification, as nothing is given human traits."],
           },
         },

@@ -181,7 +181,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Derivative", statement: "$\\frac{d}{dx}\\text{arsinh}\\,x=\\frac{1}{\\sqrt{x^2+1}}$." }],
             steps: [{ reasoning: "Standard result.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\frac{1}{\\sqrt{x^2+1}}$",
+            finalAnswer: "**(d)** $\\frac{1}{\\sqrt{x^2+1}}$",
           },
         },
         {

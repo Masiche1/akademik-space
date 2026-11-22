@@ -65,7 +65,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{substrate binding}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Where the substrate binds",
+            finalAnswer: "**(c)** Where the substrate binds",
             commonErrors: ["Confusing active site with active transport."],
           },
         },
@@ -161,7 +161,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recall what enzymes are made of.", working: "\\text{protein}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Protein",
+            finalAnswer: "**(c)** Protein",
             commonErrors: ["Choosing DNA — DNA codes for enzymes but enzymes themselves are proteins."],
           },
         },
@@ -272,7 +272,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recall the model.", working: "\\text{exact fit}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fits the active site exactly like a key in a lock",
+            finalAnswer: "**(c)** Fits the active site exactly like a key in a lock",
             commonErrors: ["Choosing (b) — that describes induced fit, not lock-and-key."],
           },
         },
@@ -319,7 +319,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recall which model is current.", working: "\\text{induced fit}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Induced fit",
+            finalAnswer: "**(b)** Induced fit",
             commonErrors: ["Choosing lock-and-key — it is the older, simpler model."],
           },
         },
@@ -385,7 +385,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recall the suffix.", working: "-\\text{ase}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** -ase",
+            finalAnswer: "**(b)** -ase",
             commonErrors: ["Choosing -ose — that suffix is for sugars."],
           },
         },
@@ -459,7 +459,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recall the effect.", working: "\\text{denaturation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It denatures",
+            finalAnswer: "**(b)** It denatures",
             commonErrors: ["Saying activity stops but enzyme can recover — heat denaturation is irreversible."],
           },
         },
@@ -579,7 +579,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{shape lost}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Permanent loss of the active site's shape",
+            finalAnswer: "**(b)** Permanent loss of the active site's shape",
             commonErrors: ["Choosing (b) — slowing is reversible; denaturation is permanent."],
           },
         },
@@ -736,7 +736,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recall what saturation means.", working: "\\text{all sites full}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Does not increase the rate — all active sites are occupied",
+            finalAnswer: "**(c)** Does not increase the rate — all active sites are occupied",
             commonErrors: ["Thinking rate rises forever with substrate — it plateaus."],
           },
         },

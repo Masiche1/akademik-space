@@ -72,7 +72,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$60=2\\times2\\times3\\times5$, and 2, 3 and 5 are all prime.", working: "60=2^2\\times3\\times5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2^2\\times3\\times5$",
+            finalAnswer: "**(c)** $2^2\\times3\\times5$",
             commonErrors: ["Choosing $4\\times15$, where neither factor is prime.", "Choosing $2\\times3^2\\times5=90$ or $2^3\\times3\\times5=120$ without multiplying out."],
             examinerNote: "B1 for choice (a).",
           },
@@ -179,7 +179,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$48=2\\times2\\times2\\times2\\times3=2^4\\times3$. The other choices contain non-prime factors or give a different number.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2^4\\times3$",
+            finalAnswer: "**(b)** $2^4\\times3$",
             commonErrors: ["Choosing $2\\times3\\times8$, where 8 is not prime.", "Choosing $2^3\\times3^2=72$, a different number."],
             examinerNote: "B1 for choice (a).",
           },
@@ -224,7 +224,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "$24$" },
               { id: "d", text: "$12$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -233,7 +233,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Multiples of 4: 4, 8, 12, 16. Multiples of 6: 6, 12, 18. The smallest common multiple is 12.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $12$",
+            finalAnswer: "**(d)** $12$",
             commonErrors: ["Choosing 2, the common factor rather than the common multiple.", "Choosing 24, a common multiple but not the lowest."],
             examinerNote: "B1 for 12.",
           },
@@ -289,7 +289,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "$1$" },
               { id: "d", text: "$2$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -298,7 +298,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "1 is not greater than 1; 9=3×3; 15=3×5. Only 2 has just the factors 1 and 2.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $2$",
+            finalAnswer: "**(d)** $2$",
             commonErrors: ["Choosing 1, forgetting that a prime must be greater than 1.", "Choosing 9 or 15 by missing a factor."],
             examinerNote: "B1 for choice (c).",
           },
@@ -336,7 +336,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "$25$ minutes" },
               { id: "d", text: "$5$ minutes" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -345,7 +345,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The buses leave together after the lowest common multiple of 10 and 15, which is 30.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $30$ minutes",
+            finalAnswer: "**(b)** $30$ minutes",
             commonErrors: ["Multiplying 10 and 15 to get 150.", "Finding the HCF, 5."],
             examinerNote: "B1 for 30.",
           },
@@ -504,7 +504,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "$15$" },
               { id: "d", text: "$243$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -513,7 +513,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Multiply 5 by itself three times.", working: "5\\times5\\times5=125", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $125$",
+            finalAnswer: "**(a)** $125$",
             commonErrors: ["Multiplying the base by the power: $5\\times3=15$.", "Squaring instead of cubing, giving 25."],
             examinerNote: "B1 for 125.",
           },
@@ -619,7 +619,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Multiply 6 by itself.", working: "6\\times6=36", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $36$",
+            finalAnswer: "**(d)** $36$",
             commonErrors: ["Multiplying the base by the power: $6\\times2=12$.", "Cubing instead of squaring, giving 216."],
             examinerNote: "B1 for 36.",
           },
@@ -646,7 +646,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$8\\times8=64$, so the square root is 8.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $8$",
+            finalAnswer: "**(d)** $8$",
             commonErrors: ["Halving 64 to get 32.", "Choosing 4 because $4\\times4=16$ and confusing the numbers."],
             examinerNote: "B1 for 8.",
           },
@@ -664,7 +664,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "$481$" },
               { id: "d", text: "$235$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -673,7 +673,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Digit sums: $1+2+7=10$, $2+3+5=10$, $3+4+2=9$, $4+8+1=13$. Only 9 is a multiple of 3.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $342$",
+            finalAnswer: "**(b)** $342$",
             commonErrors: ["Checking the last digit instead of the digit sum.", "Adding the digits incorrectly."],
             examinerNote: "B1 for choice (c).",
           },
@@ -738,7 +738,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Divisibility by 5 depends only on the last digit being 0 or 5; the digit-sum rule applies to 3 and 9, and 'even' applies to 2.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It is 0 or 5",
+            finalAnswer: "**(a)** It is 0 or 5",
             commonErrors: ["Confusing the rule for 5 with the digit-sum rule for 3 and 9."],
             examinerNote: "B1 for choice (b).",
           },
@@ -785,7 +785,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The differences increase by 2 each time: $9+2=11$. Check: $36-25=11$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $11$",
+            finalAnswer: "**(d)** $11$",
             commonErrors: ["Adding 1 instead of 2 and giving 10."],
             examinerNote: "B1 for 11.",
           },

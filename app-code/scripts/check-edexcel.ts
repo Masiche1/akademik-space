@@ -9,6 +9,8 @@ import { edxIasBusiness } from "../src/content/courses/edx-ias-business/index.ts
 import { edxIasEconomics } from "../src/content/courses/edx-ias-economics/index.ts";
 import { edxIasPsychology } from "../src/content/courses/edx-ias-psychology/index.ts";
 import { edxIasSociology } from "../src/content/courses/edx-ias-sociology/index.ts";
+import { edxIasComputerScience } from "../src/content/courses/edx-ias-computerscience/index.ts";
+import { edxIasAccounting } from "../src/content/courses/edx-ias-accounting/index.ts";
 import { edxIalMaths } from "../src/content/courses/edx-ial-maths/index.ts";
 import { edxIalFurtherMaths } from "../src/content/courses/edx-ial-further-maths/index.ts";
 import { edxIalPureMaths } from "../src/content/courses/edx-ial-pure-maths/index.ts";
@@ -129,6 +131,8 @@ const courses = [
   edxIasEconomics,
   edxIasPsychology,
   edxIasSociology,
+  edxIasComputerScience,
+  edxIasAccounting,
   edxIalMaths,
   edxIalFurtherMaths,
   edxIalPureMaths,

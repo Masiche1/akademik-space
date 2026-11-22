@@ -215,7 +215,7 @@ export const lesson613: Lesson = {
             steps: [
               { reasoning: "Relay = connector.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Relay neuron",
+            finalAnswer: "**(d)** Relay neuron",
             commonErrors: ["Confusing with interneuron (same thing)."],
           },
         },

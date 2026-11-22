@@ -48,7 +48,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "15" },
             { id: "c", text: "9" },
             { id: "d", text: "17" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Prime", statement: "Exactly two factors." }],
             steps: [{ reasoning: "17 has only factors 1 and 17.", marks: 1, markCode: "B" }],
@@ -111,7 +111,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "$\\sqrt{9}$" },
             { id: "c", text: "$\\frac{2}{3}$" },
             { id: "d", text: "$0.5$" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Irrational", statement: "Cannot be written as a fraction." }],
             steps: [{ reasoning: "$\\pi$ cannot be written as a fraction; the others can.", marks: 1, markCode: "A" }],
@@ -176,7 +176,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "14" },
             { id: "c", text: "7" },
             { id: "d", text: "9" },
-          ], correctChoiceIa: "d" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Factor", statement: "Divides exactly." }],
             steps: [{ reasoning: "$48 \\div 16 = 3$ exactly; the others do not divide 48.", marks: 1, markCode: "A" }],

@@ -57,7 +57,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Nitrogen fixation", statement: "N₂ → usable compounds." }],
             steps: [{ reasoning: "Recall.", working: "N_2 \\to \\text{nitrates}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Converting N₂ gas to usable compounds",
+            finalAnswer: "**(d)** Converting N₂ gas to usable compounds",
             commonErrors: ["Confusing with denitrification (reverse)."],
           },
         },
@@ -155,7 +155,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Rhizobium", statement: "Nitrogen-fixing bacteria in root nodules." }],
             steps: [{ reasoning: "Recall.", working: "\\text{N}_2 \\rightarrow \\text{NH}_3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** They fix atmospheric N₂ in legume root nodules",
+            finalAnswer: "**(c)** They fix atmospheric N₂ in legume root nodules",
             commonErrors: ["Rhizobium fixes nitrogen; decomposers do ammonification."],
           },
         },
@@ -173,7 +173,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Assimilation", statement: "Plants take up NO₃⁻/NH₄⁺ → proteins." }],
             steps: [{ reasoning: "Recall.", working: "\\text{plants absorb N}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Plants absorbing nitrates/ammonium to make proteins",
+            finalAnswer: "**(a)** Plants absorbing nitrates/ammonium to make proteins",
             commonErrors: ["Assimilation is uptake by organisms, not bacterial conversion."],
           },
         },
@@ -377,7 +377,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Eutrophication", statement: "Excess nutrients → algal bloom." }],
             steps: [{ reasoning: "Recall.", working: "\\text{nitrates/phosphates}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Excess nitrates/phosphates",
+            finalAnswer: "**(c)** Excess nitrates/phosphates",
             commonErrors: ["Oil spills cause different problems."],
           },
         },
@@ -457,7 +457,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Haber process", statement: "N₂ + 3H₂ → 2NH₃." }],
             steps: [{ reasoning: "Recall.", working: "\\text{NH}_3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ammonia (NH₃)",
+            finalAnswer: "**(c)** Ammonia (NH₃)",
             commonErrors: ["Haber makes ammonia; fertilisers are made from it."],
           },
         },
@@ -475,7 +475,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Fertiliser runoff", statement: "Nitrates enter water → eutrophication." }],
             steps: [{ reasoning: "Recall.", working: "\\text{runoff} \\rightarrow \\text{eutrophication}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It runs off into water bodies causing eutrophication",
+            finalAnswer: "**(a)** It runs off into water bodies causing eutrophication",
             commonErrors: ["The problem is nutrient enrichment of water, not evaporation."],
           },
         },
@@ -493,7 +493,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Buffer strips", statement: "Absorb nutrients, reduce runoff." }],
             steps: [{ reasoning: "Recall.", working: "\\text{absorb nitrates}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** To absorb nitrates before they reach the water",
+            finalAnswer: "**(b)** To absorb nitrates before they reach the water",
             commonErrors: ["Buffer strips reduce runoff, they don't aerate water."],
           },
         },
@@ -507,11 +507,11 @@ export const lesson192: Lesson = {
             { id: "b", text: "Fertiliser runoff" },
             { id: "c", text: "Sewage discharge" },
             { id: "d", text: "Phosphate detergents" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Eutrophication", statement: "Excess nitrates/phosphates." }],
             steps: [{ reasoning: "Recall.", working: "\\text{oil} \\neq \\text{nutrients}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Oil spills",
+            finalAnswer: "**(a)** Oil spills",
             commonErrors: ["Oil causes different pollution — not nutrient enrichment."],
           },
         },
@@ -529,7 +529,7 @@ export const lesson192: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Eutrophication sequence", statement: "Nutrients → bloom → death → O₂ depletion." }],
             steps: [{ reasoning: "Recall.", working: "\\text{bloom}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Rapid algal growth (algal bloom)",
+            finalAnswer: "**(c)** Rapid algal growth (algal bloom)",
             commonErrors: ["Fish die last, after oxygen is depleted."],
           },
         },

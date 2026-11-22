@@ -68,7 +68,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "A leveling off shows births and deaths balance because resources limit further growth.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The carrying capacity",
+            finalAnswer: "**(d)** The carrying capacity",
             commonErrors: ["Choosing exponential growth, which keeps rising.", "Choosing (d): limiting factors become stronger near the plateau."],
             examinerNote: "B1 carrying capacity.",
           },
@@ -213,7 +213,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Roads cut across habitats, isolating populations. The other options help conserve species.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Building a road through a forest",
+            finalAnswer: "**(b)** Building a road through a forest",
             commonErrors: ["Choosing (c); corridors reconnect habitats."],
             examinerNote: "B1 for road building.",
           },

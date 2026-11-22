@@ -44,7 +44,7 @@ export const lesson83: Lesson = {
             { id: "c", text: "No data" },
             { id: "d", text: "Only raw bytes" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Text file", statement: "Readable characters." }], steps: [{ reasoning: "Text = readable.", working: "\\text{text}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Readable characters" },
+          markscheme: { principles: [{ kind: "definition", name: "Text file", statement: "Readable characters." }], steps: [{ reasoning: "Text = readable.", working: "\\text{text}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Readable characters" },
         },
         {
           id: "olcs-u8-fh-q2", difficulty: "core", totalMarks: 2,
@@ -99,7 +99,7 @@ export const lesson83: Lesson = {
             { id: "c", text: "No data" },
             { id: "d", text: "Human-readable text" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Binary file", statement: "Raw bytes." }], steps: [{ reasoning: "Binary = raw machine-readable bytes.", working: "\\text{bytes}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Raw bytes" },
+          markscheme: { principles: [{ kind: "definition", name: "Binary file", statement: "Raw bytes." }], steps: [{ reasoning: "Binary = raw machine-readable bytes.", working: "\\text{bytes}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Raw bytes" },
         },
         {
           id: "olcs-u8-fh-q6", difficulty: "foundation", totalMarks: 1,
@@ -137,7 +137,7 @@ export const lesson83: Lesson = {
             { id: "c", text: "One complete entry" },
             { id: "d", text: "A folder" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Record", statement: "One complete entry." }], steps: [{ reasoning: "Record = complete entry.", working: "\\text{entry}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** One complete entry" },
+          markscheme: { principles: [{ kind: "definition", name: "Record", statement: "One complete entry." }], steps: [{ reasoning: "Record = complete entry.", working: "\\text{entry}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** One complete entry" },
         },
         {
           id: "olcs-u8-fh-q10", difficulty: "core", totalMarks: 2,
@@ -157,7 +157,7 @@ export const lesson83: Lesson = {
             { id: "c", text: "An array" },
             { id: "d", text: "Sequential file" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Sequential access", statement: "In-order only." }], steps: [{ reasoning: "Sequential files require reading in order.", working: "\\text{sequential}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sequential file" },
+          markscheme: { principles: [{ kind: "definition", name: "Sequential access", statement: "In-order only." }], steps: [{ reasoning: "Sequential files require reading in order.", working: "\\text{sequential}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Sequential file" },
         },
         {
           id: "olcs-u8-fh-q12", difficulty: "core", totalMarks: 1,
@@ -255,7 +255,7 @@ export const lesson83: Lesson = {
             { id: "c", text: "Using its name with arguments" },
             { id: "d", text: "A variable name only" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Procedure call", statement: "Name + arguments." }], steps: [{ reasoning: "Call by name.", working: "\\text{call}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Name with arguments" },
+          markscheme: { principles: [{ kind: "definition", name: "Procedure call", statement: "Name + arguments." }], steps: [{ reasoning: "Call by name.", working: "\\text{call}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Name with arguments" },
         },
         {
           id: "olcs-u8-pu-q2", difficulty: "core", totalMarks: 2,
@@ -310,7 +310,7 @@ export const lesson83: Lesson = {
             { id: "c", text: "Using its name with arguments" },
             { id: "d", text: "Its line number" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Procedure call", statement: "Name + arguments." }], steps: [{ reasoning: "Call uses the routine's name.", working: "\\text{call}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Name with arguments" },
+          markscheme: { principles: [{ kind: "definition", name: "Procedure call", statement: "Name + arguments." }], steps: [{ reasoning: "Call uses the routine's name.", working: "\\text{call}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Name with arguments" },
         },
         {
           id: "olcs-u8-pu-q6", difficulty: "foundation", totalMarks: 1,
@@ -348,7 +348,7 @@ export const lesson83: Lesson = {
             { id: "c", text: "Reusable and readable" },
             { id: "d", text: "Longer" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Procedures", statement: "Reusable, readable, maintainable." }], steps: [{ reasoning: "Procedures make code reusable and readable.", working: "\\text{reuse}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Reusable and readable" },
+          markscheme: { principles: [{ kind: "principle", name: "Procedures", statement: "Reusable, readable, maintainable." }], steps: [{ reasoning: "Procedures make code reusable and readable.", working: "\\text{reuse}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Reusable and readable" },
         },
         {
           id: "olcs-u8-pu-q10", difficulty: "core", totalMarks: 2,
@@ -398,7 +398,7 @@ export const lesson83: Lesson = {
             { id: "c", text: "The procedure is deleted" },
             { id: "d", text: "The loop is skipped" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Procedure calls", statement: "Re-executes with new args." }], steps: [{ reasoning: "Each call runs the routine with the given arguments.", working: "\\text{run}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Runs again with those values" },
+          markscheme: { principles: [{ kind: "principle", name: "Procedure calls", statement: "Re-executes with new args." }], steps: [{ reasoning: "Each call runs the routine with the given arguments.", working: "\\text{run}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Runs again with those values" },
         },
         {
           id: "olcs-u8-pu-q15", difficulty: "core", totalMarks: 2,

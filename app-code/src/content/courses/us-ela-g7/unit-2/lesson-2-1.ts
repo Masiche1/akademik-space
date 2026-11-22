@@ -137,7 +137,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** This is the point the whole paragraph supports. Choice (a) belongs to paragraph 1, (c) is not stated, and (d) is only a supporting detail.",
+              "**(c)** This is the point the whole paragraph supports. Choice (a) belongs to paragraph 1, (c) is not stated, and (d) is only a supporting detail.",
             commonErrors: [
               "Choosing a supporting detail, such as where wild bees nest, instead of the main point.",
             ],
@@ -169,7 +169,7 @@ export const lesson21: Lesson = {
                 text: "The passage explains that cities can support honeybees but that too many hives can threaten wild bees.",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -197,7 +197,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** It covers both central ideas and contains no opinion. Choice (d) is accurate but covers only a single detail.",
+              "**(d)** It covers both central ideas and contains no opinion. Choice (d) is accurate but covers only a single detail.",
             commonErrors: [
               "Choosing an accurate detail (d) that is not a summary of the whole passage.",
               "Missing the opinion words 'wonderful' and 'sadly'.",
@@ -460,7 +460,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** 'Before 1844' is a time signal. The other choices name people, events, or places and do not show time order.",
+              "**(d)** 'Before 1844' is a time signal. The other choices name people, events, or places and do not show time order.",
             commonErrors: [
               "Choosing a detail about content instead of a word that signals organization.",
             ],
@@ -486,7 +486,7 @@ export const lesson21: Lesson = {
               },
               { id: "d", text: "Problem/solution, signaled by 'competed'" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -515,7 +515,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** The paragraph links causes and effects with 'Since' and 'As a result'. 'Next morning' is only a detail inside that chain.",
+              "**(a)** The paragraph links causes and effects with 'Since' and 'As a result'. 'Next morning' is only a detail inside that chain.",
             commonErrors: [
               "Choosing chronological order because of 'next morning', even though the paragraph's main pattern is cause and effect.",
             ],

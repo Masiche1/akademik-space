@@ -65,7 +65,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall the cause.", working: "\\text{nitrates/phosphates}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Excess nutrients (nitrates/phosphates) in water",
+            finalAnswer: "**(c)** Excess nutrients (nitrates/phosphates) in water",
             commonErrors: ["Choosing acid rain — that's SO₂ pollution."],
           },
         },
@@ -159,7 +159,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall common greenhouse gases.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Carbon dioxide and methane",
+            finalAnswer: "**(c)** Carbon dioxide and methane",
             commonErrors: ["Choosing oxygen/nitrogen — they are not greenhouse gases."],
           },
         },
@@ -185,7 +185,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall the causal chain.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Nutrients → algal bloom → decomposition uses oxygen → fish die",
+            finalAnswer: "**(c)** Nutrients → algal bloom → decomposition uses oxygen → fish die",
             commonErrors: ["Reversing the sequence — oxygen falls after decomposition."],
           },
         },
@@ -211,7 +211,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall the ecological drawback.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It reduces biodiversity and can increase pest problems",
+            finalAnswer: "**(c)** It reduces biodiversity and can increase pest problems",
             commonErrors: ["Thinking monoculture is always beneficial."],
           },
         },
@@ -237,7 +237,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall the formation steps.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** SO₂ and NOₓ react with water vapour to form acids",
+            finalAnswer: "**(d)** SO₂ and NOₓ react with water vapour to form acids",
             commonErrors: ["Naming only CO₂ — that is mainly greenhouse gas."],
           },
         },
@@ -389,7 +389,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall the source of SO₂.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Burning fossil fuels",
+            finalAnswer: "**(c)** Burning fossil fuels",
             commonErrors: ["Choosing renewable energy — it reduces emissions."],
           },
         },
@@ -463,7 +463,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{replenish stocks}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fishing at levels allowing stocks to replenish",
+            finalAnswer: "**(c)** Fishing at levels allowing stocks to replenish",
             commonErrors: ["Choosing 'catch as many as possible' — that's overfishing."],
           },
         },
@@ -610,7 +610,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall the conservation aim.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** To increase the number of endangered species for release",
+            finalAnswer: "**(b)** To increase the number of endangered species for release",
             commonErrors: ["Thinking captive breeding is only for display."],
           },
         },
@@ -636,7 +636,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall the environmental benefit.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It avoids synthetic chemicals, reducing pollution",
+            finalAnswer: "**(a)** It avoids synthetic chemicals, reducing pollution",
             commonErrors: ["Claiming always higher yield — organic can be lower yielding."],
           },
         },
@@ -662,7 +662,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall the environmental benefit.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It reduces reliance on fossil fuels and lowers emissions",
+            finalAnswer: "**(c)** It reduces reliance on fossil fuels and lowers emissions",
             commonErrors: ["Thinking renewable energy removes all energy demand."],
           },
         },
@@ -788,7 +788,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Meeting present needs without compromising future generations",
+            finalAnswer: "**(a)** Meeting present needs without compromising future generations",
             commonErrors: ["Choosing 'use everything now' — that is unsustainable."],
           },
         },

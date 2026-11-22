@@ -296,7 +296,7 @@ export const lesson72: Lesson = {
               },
             ],
             steps: [{ reasoning: "6 × 76 = 456.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 76",
+            finalAnswer: "**(c)** 76",
             commonErrors: ["Dividing digits separately."],
           },
         },

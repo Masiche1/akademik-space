@@ -117,7 +117,7 @@ export const lesson122: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. First person — narrator uses 'I'.",
+            finalAnswer: "**(a)**. First person — narrator uses 'I'.",
             commonErrors: [
               "Choosing (d) — first person is limited, not omniscient.",
             ],
@@ -356,7 +356,7 @@ export const lesson122: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Shows fear through physical detail — readers experience it.",
+              "**(a)**. Shows fear through physical detail — readers experience it.",
             commonErrors: [
               "Choosing (a) — length isn't the point; showing vs telling is.",
             ],

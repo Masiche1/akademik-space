@@ -66,7 +66,7 @@ export const lesson61: Lesson = {
               { id: "c", text: "8 000 000" },
               { id: "d", text: "8" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -83,7 +83,7 @@ export const lesson61: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(d)** 8 000 000",
+            finalAnswer: "**(c)** 8 000 000",
             commonErrors: ["Reading digit value instead of place value."],
           },
         },

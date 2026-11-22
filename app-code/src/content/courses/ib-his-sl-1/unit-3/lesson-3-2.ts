@@ -122,7 +122,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** First sub-Saharan colony",
+            finalAnswer: "**(d)** First sub-Saharan colony",
             commonErrors: [
               "Confusing with first African country overall — Egypt etc. predate.",
             ],
@@ -354,7 +354,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Self-determination for peoples",
+            finalAnswer: "**(d)** Self-determination for peoples",
             commonErrors: [
               "Confusing it with the UN Charter or later declarations.",
             ],
@@ -442,7 +442,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 1947",
+            finalAnswer: "**(d)** 1947",
             commonErrors: [
               "Confusing it with Ghana (1957) or later independence dates.",
             ],
@@ -490,7 +490,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Macmillan's 1960 speech on African independence",
+              "**(a)** Macmillan's 1960 speech on African independence",
             commonErrors: [
               "Treating it as a literal weather event or Cold War term.",
             ],
@@ -547,7 +547,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** European exhaustion + nationalism + international pressure",
+              "**(a)** European exhaustion + nationalism + international pressure",
             commonErrors: [
               "Attributing decolonisation to European generosity.",
             ],
@@ -1033,7 +1033,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Non-Aligned Movement",
+            finalAnswer: "**(c)** Non-Aligned Movement",
             commonErrors: ["Confusing with other conferences."],
           },
         },
@@ -1334,7 +1334,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 1955",
+            finalAnswer: "**(a)** 1955",
             commonErrors: ["Confusing it with the Belgrade founding (1961)."],
           },
         },
@@ -1379,7 +1379,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Independence from both blocs",
+            finalAnswer: "**(c)** Independence from both blocs",
             commonErrors: ["Thinking NAM meant alliance with the USSR."],
           },
         },
@@ -1425,7 +1425,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Economic needs + security threats + superpower competition",
+              "**(a)** Economic needs + security threats + superpower competition",
             commonErrors: ["Treating non-alignment as a simple free choice."],
           },
         },

@@ -256,7 +256,7 @@ export const lesson644: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Formulate a research question"
+          "finalAnswer": "**(d)** Formulate a research question"
 },
         },
         {
@@ -333,7 +333,7 @@ export const lesson644: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Combining multiple perspectives"
+          "finalAnswer": "**(d)** Combining multiple perspectives"
 },
         },
         {
@@ -455,7 +455,7 @@ export const lesson644: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Alternative outcomes"
+          "finalAnswer": "**(c)** Alternative outcomes"
 },
         },
         {
@@ -532,7 +532,7 @@ export const lesson644: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Historical background"
+          "finalAnswer": "**(b)** Historical background"
 },
         },
         {
@@ -618,7 +618,7 @@ export const lesson644: Lesson = {
                               "markCode": "A"
                     }
           ],
-          "finalAnswer": "**(a)** Weighing interpretations"
+          "finalAnswer": "**(b)** Weighing interpretations"
 },
         },
         {

@@ -42,7 +42,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Retained profit" },
             { id: "d", text: "Share capital" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Internal finance", statement: "From within." }], steps: [{ reasoning: "Retained profit is internal.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Internal finance", statement: "From within." }], steps: [{ reasoning: "Retained profit is internal.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u5-sf-q2", difficulty: "core", totalMarks: 2,
@@ -97,7 +97,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Bank loan" },
             { id: "d", text: "Share capital" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Internal finance", statement: "From within the business." }], steps: [{ reasoning: "Selling assets is internal.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Internal finance", statement: "From within the business." }], steps: [{ reasoning: "Selling assets is internal.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u5-sf-q6", difficulty: "foundation", totalMarks: 1,
@@ -130,7 +130,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Buying a factory outright" },
             { id: "d", text: "Paying dividends to shareholders" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Overdraft", statement: "Short-term flexible borrowing." }], steps: [{ reasoning: "Overdrafts are short-term.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Overdraft", statement: "Short-term flexible borrowing." }], steps: [{ reasoning: "Overdrafts are short-term.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u5-sf-q9", difficulty: "core", totalMarks: 1,
@@ -141,7 +141,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Borrowing money from a bank" },
             { id: "d", text: "Renting equipment instead of buying it" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Leasing", statement: "Renting assets." }], steps: [{ reasoning: "Lease = rent assets.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Leasing", statement: "Renting assets." }], steps: [{ reasoning: "Lease = rent assets.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u5-sf-q10", difficulty: "core", totalMarks: 2,
@@ -255,7 +255,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Actual money coming in and going out" },
             { id: "d", text: "Sales revenue" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Cash flow", statement: "Money in/out." }], steps: [{ reasoning: "Real cash movements.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Cash flow", statement: "Money in/out." }], steps: [{ reasoning: "Real cash movements.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u5-cf-q2", difficulty: "core", totalMarks: 2,
@@ -310,7 +310,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Wages paid" },
             { id: "d", text: "Cash received from sales" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Cash inflow", statement: "Money coming in." }], steps: [{ reasoning: "Sales receipts are inflows.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Cash inflow", statement: "Money coming in." }], steps: [{ reasoning: "Sales receipts are inflows.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u5-cf-q6", difficulty: "foundation", totalMarks: 1,
@@ -354,7 +354,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "To reduce tax payments" },
             { id: "d", text: "To cover unexpected cash shortfalls" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Cash reserve", statement: "Buffer against shortfalls." }], steps: [{ reasoning: "Reserve covers emergencies.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Cash reserve", statement: "Buffer against shortfalls." }], steps: [{ reasoning: "Reserve covers emergencies.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u5-cf-q10", difficulty: "core", totalMarks: 2,

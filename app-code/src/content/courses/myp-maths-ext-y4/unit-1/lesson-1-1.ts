@@ -69,7 +69,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$16^{\\frac{1}{2}}=\\sqrt{16}=4$.", working: "4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 4",
+            finalAnswer: "**(d)** 4",
             commonErrors: ["Leaving the answer as $\\sqrt{16}$ without evaluating."],
             examinerNote: "B1 for (a).",
           },
@@ -184,7 +184,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$81^{\\frac{1}{2}}=\\sqrt{81}=9$.", working: "9", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 9",
+            finalAnswer: "**(d)** 9",
             commonErrors: ["Dividing 81 by 2 instead of taking the square root."],
             examinerNote: "B1 for (a).",
           },
@@ -516,7 +516,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$2^4=16$, so $\\log_2 16=4$.", working: "4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 4",
+            finalAnswer: "**(b)** 4",
             commonErrors: ["Confusing log with the power itself."],
             examinerNote: "B1 for (a).",
           },

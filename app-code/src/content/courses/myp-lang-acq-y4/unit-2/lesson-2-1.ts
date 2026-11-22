@@ -65,7 +65,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Polite disagreement", statement: "Respectful language acknowledges the other person before disagreeing." }],
             steps: [{ reasoning: "Criterion C: Speaking — option b is polite and gives a position.", working: "polite", marks: 1, markCode: "C" }],
-            finalAnswer: "**(b)** 'I see your point, but I think...'",
+            finalAnswer: "**(a)** 'I see your point, but I think...'",
             commonErrors: ["Choosing rude or vague responses."],
             examinerNote: "C1 for (b).",
           },
@@ -176,7 +176,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'I agree because...' is polite agreement.", working: "agree", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** 'I agree because...'.",
+            finalAnswer: "**(c)** 'I agree because...'.",
             commonErrors: ["Choosing rude or dismissive options."],
             examinerNote: "C1 for (b).",
           },
@@ -203,7 +203,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — asking for evidence deepens discussion.", working: "evidence", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(a)** 'What evidence supports that?'",
+            finalAnswer: "**(b)** 'What evidence supports that?'",
             commonErrors: ["Choosing questions that shut down discussion."],
             examinerNote: "C1 for (a).",
           },
@@ -291,7 +291,7 @@ export const lesson21: Lesson = {
               { reasoning: "Criterion C: Speaking — 'That is true' agrees partially; 'but' introduces a concern.", working: "partial agree", marks: 1, markCode: "C" },
               { reasoning: "Criterion D: Writing — language is polite and clear.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Partial agreement followed by a different view",
+            finalAnswer: "**(d)** Partial agreement followed by a different view",
             commonErrors: ["Reading it as full agreement or full disagreement."],
             examinerNote: "C2 for (b).",
           },
@@ -370,7 +370,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'You are stupid' is insulting and inappropriate.", working: "rude", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** 'You are stupid.'",
+            finalAnswer: "**(a)** 'You are stupid.'",
             commonErrors: ["Choosing phrases that are actually polite."],
             examinerNote: "C1 for (b).",
           },
@@ -404,7 +404,7 @@ export const lesson21: Lesson = {
               { reasoning: "Criterion C: Speaking — 'partly agree' + 'value for special events' = mostly agree with limits.", working: "mostly agree", marks: 1, markCode: "C" },
               { reasoning: "Criterion D: Writing — language is polite and precise.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** They mostly agree but see limited value",
+            finalAnswer: "**(a)** They mostly agree but see limited value",
             commonErrors: ["Reading 'partly' as full agreement or rejection."],
             examinerNote: "C2 for (b).",
           },
@@ -464,7 +464,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'not sure' + 'hear more' = open and curious.", working: "curious", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** They are open-minded and curious",
+            finalAnswer: "**(d)** They are open-minded and curious",
             commonErrors: ["Reading 'not sure' as disagreement."],
             examinerNote: "C1 for (b).",
           },
@@ -553,7 +553,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Presentation order", statement: "Introduction comes before main points and conclusion." }],
             steps: [{ reasoning: "Criterion C: Speaking — introduction is first.", working: "intro", marks: 1, markCode: "C" }],
-            finalAnswer: "**(b)** Introduction",
+            finalAnswer: "**(c)** Introduction",
             commonErrors: ["Starting with details before context."],
             examinerNote: "C1 for (b).",
           },
@@ -655,7 +655,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Introduction" },
               { id: "d", text: "Conclusion" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -664,7 +664,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — conclusion is the final part.", working: "conclusion", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(c)** Conclusion",
+            finalAnswer: "**(d)** Conclusion",
             commonErrors: ["Confusing order of parts."],
             examinerNote: "C1 for (c).",
           },
@@ -779,7 +779,7 @@ export const lesson21: Lesson = {
               { reasoning: "Criterion C: Speaking — greeting + 'Today I will talk' = intro; First/Second = main points.", marks: 1, markCode: "C" },
               { reasoning: "Criterion C: Speaking — no conclusion or summary present.", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(a)** Introduction and main points, but no conclusion",
+            finalAnswer: "**(b)** Introduction and main points, but no conclusion",
             commonErrors: ["Assuming a conclusion exists."],
             examinerNote: "C2 for (a).",
           },
@@ -858,7 +858,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — pause and continue keeps flow.", working: "pause", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Pause briefly and continue",
+            finalAnswer: "**(c)** Pause briefly and continue",
             commonErrors: ["Choosing to stop or apologise excessively."],
             examinerNote: "C1 for (b).",
           },
@@ -892,7 +892,7 @@ export const lesson21: Lesson = {
               { reasoning: "Criterion C: Speaking — vague, no structure, no examples or conclusion.", working: "no structure", marks: 1, markCode: "C" },
               { reasoning: "Criterion D: Writing — evaluation is accurate.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** It has no structure, detail or examples",
+            finalAnswer: "**(b)** It has no structure, detail or examples",
             commonErrors: ["Not identifying the missing structure."],
             examinerNote: "C2 for (a).",
           },
@@ -952,7 +952,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'To sum up' marks the conclusion.", working: "conclusion", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** It signals the conclusion or summary",
+            finalAnswer: "**(d)** It signals the conclusion or summary",
             commonErrors: ["Confusing it with an example signal."],
             examinerNote: "C1 for (b).",
           },

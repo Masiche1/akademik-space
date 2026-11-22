@@ -117,7 +117,7 @@ export const lesson102: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Frequency density", statement: "f $\\div$ width." }],
             steps: [{ reasoning: "Density $= \\frac{25}{10} = 2.5$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** 2.5",
+            finalAnswer: "**(b)** 2.5",
           },
         },
         {
@@ -164,7 +164,7 @@ export const lesson102: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Ogive", statement: "Cumulative frequency vs upper boundary." }],
             steps: [{ reasoning: "Points are plotted at the upper class boundary of each class.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** Upper class boundaries",
+            finalAnswer: "**(b)** Upper class boundaries",
           },
         },
         {
@@ -212,7 +212,7 @@ export const lesson102: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Frequency density", statement: "Frequency $\\div$ class width; histogram bar height." }],
             steps: [{ reasoning: "Bar height $=$ frequency density so that bar area $=$ frequency.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** Frequency density",
+            finalAnswer: "**(d)** Frequency density",
           },
         },
         {
@@ -277,7 +277,7 @@ export const lesson102: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Frequency density", statement: "density $= \\frac{f}{\\text{width}}$, so $f = \\text{density} \\times \\text{width}$." }],
             steps: [{ reasoning: "$f = 3 \\times 5 = 15$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** 15",
+            finalAnswer: "**(d)** 15",
           },
         },
         {

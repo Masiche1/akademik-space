@@ -70,7 +70,7 @@ export const lesson11: Lesson = {
               { reasoning: "Divide repeatedly by prime numbers until the quotient is 1.", working: "180=2\\times2\\times3\\times3\\times5", marks: 1, markCode: "M" },
               { reasoning: "Write the repeated primes in index form.", working: "2^2\\times3^2\\times5", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $2^2\\times3^2\\times5$",
+            finalAnswer: "**(d)** $2^2\\times3^2\\times5$",
             commonErrors: ["Giving $2^2\\times3\\times5=60$ by losing one factor of 3.", "Including $9$, which is not prime."],
             examinerNote: "Answers that are not fully in primes (such as $4\\times9\\times5$) score M1 only.",
           },
@@ -226,7 +226,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Split off the largest square factor, $72=36\\times2$.", working: "\\sqrt{72}=\\sqrt{36}\\times\\sqrt{2}=6\\sqrt{2}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $6\\sqrt{2}$",
+            finalAnswer: "**(d)** $6\\sqrt{2}$",
             commonErrors: ["Halving 36 to get $18\\sqrt{2}$.", "Writing $2\\sqrt{36}$, which equals 12, not $\\sqrt{72}$."],
           },
         },

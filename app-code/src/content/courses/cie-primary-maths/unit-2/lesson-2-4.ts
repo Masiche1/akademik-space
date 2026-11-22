@@ -180,7 +180,7 @@ export const lesson24: Lesson = {
             { id: "b", text: "reflection" },
             { id: "c", text: "enlargement" },
             { id: "d", text: "translation" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Rotation", statement: "Turn about a point." }],
             steps: [{ reasoning: "Turning is a rotation.", marks: 1, markCode: "A" }],

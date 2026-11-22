@@ -180,7 +180,7 @@ export const lesson92: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Regression line", statement: "Passes through means point." }],
             steps: [{ reasoning: "Property.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $(\\bar x,\\bar y)$",
+            finalAnswer: "**(d)** $(\\bar x,\\bar y)$",
           },
         },
         {

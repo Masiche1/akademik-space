@@ -65,7 +65,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Gas evolution indicates new substance; melting/boiling/dissolving are physical.", working: "gas", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Gas given off",
+            finalAnswer: "**(c)** Gas given off",
             commonErrors: ["Choosing (c) — dissolving is physical change."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Melting is a physical change of state; the others indicate chemical change.", working: "melting physical", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Melting",
+            finalAnswer: "**(b)** Melting",
             commonErrors: ["Choosing (b) — gas evolution is a chemical sign."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Hydrogen and oxygen are the starting substances.", working: "H₂ + O₂", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Hydrogen and oxygen",
+            finalAnswer: "**(c)** Hydrogen and oxygen",
             commonErrors: ["Choosing (b) — water is the product, not a reactant."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Combustion requires oxygen as a reactant.", working: "O₂", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oxygen",
+            finalAnswer: "**(b)** Oxygen",
             commonErrors: ["Choosing (c) — CO₂ is a product of combustion, not a reactant."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Burning magnesium gives magnesium oxide.", working: "MgO", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** magnesium + oxygen → magnesium oxide",
+            finalAnswer: "**(c)** magnesium + oxygen → magnesium oxide",
             commonErrors: ["Choosing (c) — that is the reverse (decomposition) equation."],
           },
         },
@@ -274,7 +274,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Burning forms new substances; the others are physical changes.", working: "combustion", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Burning a candle",
+            finalAnswer: "**(c)** Burning a candle",
             commonErrors: ["Choosing (c) — dissolving is a physical change."],
           },
         },
@@ -300,7 +300,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Iron oxide is a new substance — chemical change.", working: "Fe₂O₃·xH₂O", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** New substance (iron oxide) formed",
+            finalAnswer: "**(b)** New substance (iron oxide) formed",
             commonErrors: ["Choosing (d) — a new substance IS formed, so it is chemical."],
           },
         },
@@ -326,7 +326,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Atoms conserved means total mass conserved.", working: "conserved", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The same — mass is conserved",
+            finalAnswer: "**(c)** The same — mass is conserved",
             commonErrors: ["Choosing (b) — ignoring gases escaping in open containers."],
           },
         },
@@ -482,7 +482,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Litmus = red for acid.", working: "red", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Red",
+            finalAnswer: "**(d)** Red",
             commonErrors: ["Choosing (b) — blue is for alkali."],
           },
         },
@@ -587,7 +587,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "pH 3 is below 7 — acidic.", working: "pH 3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 3",
+            finalAnswer: "**(c)** 3",
             commonErrors: ["Choosing (b) — pH 7 is neutral."],
           },
         },
@@ -613,7 +613,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Strong acid gives red with universal indicator.", working: "red", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Red",
+            finalAnswer: "**(b)** Red",
             commonErrors: ["Choosing (c) — green is neutral."],
           },
         },
@@ -639,7 +639,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "NaOH is an alkali; the others are acids.", working: "NaOH", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sodium hydroxide",
+            finalAnswer: "**(c)** Sodium hydroxide",
             commonErrors: ["Choosing (c) — vinegar is ethanoic acid."],
           },
         },
@@ -665,7 +665,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "pH 7 is the neutral point of the scale.", working: "neutral", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Neutral",
+            finalAnswer: "**(b)** Neutral",
             commonErrors: ["Choosing (d) — a salt is a product, not a pH description."],
           },
         },
@@ -691,7 +691,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "The products are always a salt and water.", working: "salt + water", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A salt and water",
+            finalAnswer: "**(c)** A salt and water",
             commonErrors: ["Choosing (b) — metals + acid gives hydrogen; acid + alkali gives water."],
           },
         },
@@ -743,7 +743,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Lime is an alkali — neutralises acid in soil.", working: "neutralise", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Neutralise acid, raise pH",
+            finalAnswer: "**(d)** Neutralise acid, raise pH",
             commonErrors: ["Choosing (b) — lime reduces acidity, does not increase it."],
           },
         },
@@ -899,7 +899,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Copper = excellent conductor.", working: "copper", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Copper",
+            finalAnswer: "**(d)** Copper",
             commonErrors: ["Choosing (b) — wood is insulator."],
           },
         },
@@ -1004,7 +1004,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Copper/aluminium are metals — good heat conductors.", working: "metal", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Copper or aluminium",
+            finalAnswer: "**(d)** Copper or aluminium",
             commonErrors: ["Choosing (c) — ceramics conduct heat poorly."],
           },
         },
@@ -1030,7 +1030,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Plug cases must insulate — plastic is a good insulator.", working: "insulator", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Plastic insulates — safe to touch",
+            finalAnswer: "**(c)** Plastic insulates — safe to touch",
             commonErrors: ["Choosing (b) — that would be dangerous."],
           },
         },
@@ -1056,7 +1056,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Only glass is transparent among the choices.", working: "glass", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Glass",
+            finalAnswer: "**(b)** Glass",
             commonErrors: ["Choosing (b) — wood is opaque."],
           },
         },
@@ -1082,7 +1082,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Insulators prevent heat reaching the hand.", working: "insulator", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Poor conductors — stay cool",
+            finalAnswer: "**(d)** Poor conductors — stay cool",
             commonErrors: ["Choosing (b) — opposite of the truth."],
           },
         },
@@ -1108,7 +1108,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Alloying improves strength and corrosion resistance.", working: "steel", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Stronger and more rust-resistant",
+            finalAnswer: "**(d)** Stronger and more rust-resistant",
             commonErrors: ["Choosing (d) — conductivity is irrelevant for bridges."],
           },
         },
@@ -1160,7 +1160,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Flexibility + grip + shock absorption suit tyres.", working: "rubber", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Flexible, grippy, shock-absorbing",
+            finalAnswer: "**(b)** Flexible, grippy, shock-absorbing",
             commonErrors: ["Choosing (b) — rigid tyres would not work."],
           },
         },

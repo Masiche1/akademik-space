@@ -181,7 +181,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Active site", statement: "The active site is the region of an enzyme whose shape is complementary to the substrate." }],
             steps: [{ reasoning: "The substrate binds at the active site, forming an enzyme-substrate complex.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The region with a specific shape where the substrate binds",
+            finalAnswer: "**(a)** The region with a specific shape where the substrate binds",
             commonErrors: ["Thinking the enzyme is used up in the reaction.", "Confusing the active site with the product."],
             examinerNote: "B1 for (b).",
           },

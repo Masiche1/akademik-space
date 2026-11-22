@@ -89,7 +89,7 @@ export const lesson402: Lesson = {
             steps: [
               { reasoning: "WHERE filters rows.", marks: 2, markCode: "B" },
             ],
-            finalAnswer: "**(b)** WHERE",
+            finalAnswer: "**(a)** WHERE",
             commonErrors: ["Confusing with SELECT."],
           },
         },
@@ -299,7 +299,7 @@ export const lesson402: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** All rows updated",
+            finalAnswer: "**(c)** All rows updated",
             commonErrors: ["Thinking WHERE optional."],
           },
         },

@@ -57,7 +57,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Monomer", statement: "Building block of polymer." }],
             steps: [{ reasoning: "Recall.", working: "\\text{building block}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Small molecule that forms polymers",
+            finalAnswer: "**(d)** Small molecule that forms polymers",
             commonErrors: ["Confusing with polymer itself."],
           },
         },
@@ -151,11 +151,11 @@ export const lesson1103: Lesson = {
             { id: "b", text: "Polyethene" },
             { id: "c", text: "Protein" },
             { id: "d", text: "Nylon" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Addition polymer", statement: "Formed from alkene monomers with no atoms lost." }],
             steps: [{ reasoning: "Polyethene is from ethene (C=C).", working: "\\text{n(C}_2\\text{H}_4)\\to(\\text{C}_2\\text{H}_4)_n", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Polyethene",
+            finalAnswer: "**(b)** Polyethene",
             commonErrors: ["Nylon, Terylene and protein are condensation polymers."],
           },
         },
@@ -287,7 +287,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Natural polymers", statement: "Proteins and carbohydrates form by condensation." }],
             steps: [{ reasoning: "Recall.", working: "\\text{protein} = \\text{condensation}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Condensation polymer",
+            finalAnswer: "**(d)** Condensation polymer",
             commonErrors: ["Proteins are natural but still condensation polymers."],
           },
         },
@@ -397,7 +397,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Esterification", statement: "Acid + alcohol → ester." }],
             steps: [{ reasoning: "Recall.", working: "\\text{carboxylic acid}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Carboxylic acid",
+            finalAnswer: "**(a)** Carboxylic acid",
             commonErrors: ["Alkene gives alcohol via hydration, not ester."],
           },
         },
@@ -495,7 +495,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Ester naming", statement: "Alcohol part + 'yl' + acid part + 'oate'." }],
             steps: [{ reasoning: "CH₃OH part = methyl; CH₃COOH part = ethanoate.", working: "\\text{methyl ethanoate}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Methyl ethanoate",
+            finalAnswer: "**(d)** Methyl ethanoate",
             commonErrors: ["Reversing the alcohol and acid parts."],
           },
         },
@@ -513,7 +513,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Esters", statement: "Sweet/fruity smell — used in flavourings." }],
             steps: [{ reasoning: "Recall.", working: "\\text{fruity smell}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Sweet and fruity",
+            finalAnswer: "**(a)** Sweet and fruity",
             commonErrors: ["Vinegary smell is ethanoic acid, not an ester."],
           },
         },
@@ -531,7 +531,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Esterification", statement: "Carboxylic acid + alcohol → ester + water." }],
             steps: [{ reasoning: "Ethyl = ethanol; ethanoate = ethanoic acid.", working: "\\text{CH}_3\\text{COOH} + \\text{C}_2\\text{H}_5\\text{OH}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ethanoic acid and ethanol",
+            finalAnswer: "**(d)** Ethanoic acid and ethanol",
             commonErrors: ["Matching acid and alcohol parts incorrectly."],
           },
         },
@@ -627,7 +627,7 @@ export const lesson1103: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ester uses", statement: "Flavourings, perfumes, solvents, medicines." }],
             steps: [{ reasoning: "Recall.", working: "\\text{flavourings/perfumes}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Food flavourings and perfumes",
+            finalAnswer: "**(a)** Food flavourings and perfumes",
             commonErrors: ["Esters are not fuels or fertilisers."],
           },
         },

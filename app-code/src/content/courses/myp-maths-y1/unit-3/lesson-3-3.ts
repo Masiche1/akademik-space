@@ -72,7 +72,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Put the values in order: 3, 5, 7, 9, 11. The middle value is the third one.", working: "7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $7$",
+            finalAnswer: "**(c)** $7$",
             commonErrors: ["Choosing the middle value of the unordered list, which is 5.", "Choosing the mode or the range because the question does not look like a calculation."],
           },
         },
@@ -176,7 +176,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "In order: 2, 4, 6, 8, 10. The middle (third) value is 6.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $6$",
+            finalAnswer: "**(a)** $6$",
             commonErrors: ["Taking the middle of the unordered list, which is 2.", "Averaging 4 and 6 to get 5."],
             examinerNote: "B1 for 6.",
           },
@@ -230,7 +230,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Largest is 20, smallest is 7: $20-7=13$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $13$",
+            finalAnswer: "**(d)** $13$",
             commonErrors: ["Dividing instead of subtracting."],
             examinerNote: "B1 for 13.",
           },
@@ -295,7 +295,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The outlier inflates the total and hence the mean; the median depends only on the middle position, so it is unaffected.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The median",
+            finalAnswer: "**(d)** The median",
             commonErrors: ["Choosing the mean because it uses every value."],
             examinerNote: "B1 for median.",
           },
@@ -333,7 +333,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "$9$" },
               { id: "d", text: "$8$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -342,7 +342,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$2.5\\times6=15$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $15$",
+            finalAnswer: "**(b)** $15$",
             commonErrors: ["Treating the half symbol as a whole, giving 18, or counting symbols as books."],
             examinerNote: "B1 for 15.",
           },
@@ -618,7 +618,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "$\\frac{2}{3}$" },
               { id: "d", text: "$\\frac{1}{6}$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -627,7 +627,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Even numbers are 2, 4, 6: 3 favourable outcomes out of 6, so $\\frac{3}{6}=\\frac{1}{2}$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\frac{1}{2}$",
+            finalAnswer: "**(a)** $\\frac{1}{2}$",
             commonErrors: ["Counting only one even number and giving $\\frac{1}{6}$."],
             examinerNote: "B1 for 1/2.",
           },
@@ -681,7 +681,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "An impossible event can never happen, so its probability is 0.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0$",
+            finalAnswer: "**(d)** $0$",
             commonErrors: ["Choosing 1, confusing impossible with certain."],
             examinerNote: "B1 for 0.",
           },
@@ -746,7 +746,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$\\frac{1}{4}\\times200=50$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $50$",
+            finalAnswer: "**(b)** $50$",
             commonErrors: ["Dividing 200 by 4 incorrectly or multiplying by 4."],
             examinerNote: "B1 for 50.",
           },
@@ -792,7 +792,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Red or blue gives $3+3=6$ favourable outcomes out of 8 equal sections: $\\frac{6}{8}$ (which simplifies to $\\frac{3}{4}$).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\frac{6}{8}$",
+            finalAnswer: "**(a)** $\\frac{6}{8}$",
             commonErrors: ["Counting only one colour and giving $\\frac{3}{8}$."],
             examinerNote: "B1 for 6/8 or 3/4.",
           },

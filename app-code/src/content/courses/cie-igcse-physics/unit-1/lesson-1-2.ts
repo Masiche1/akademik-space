@@ -56,11 +56,11 @@ export const lessonp12: Lesson = {
             { id: "b", text: "Mass" },
             { id: "c", text: "Speed" },
             { id: "d", text: "Time" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Vector", statement: "Magnitude + direction." }],
             steps: [{ reasoning: "Recall.", working: "\\text{velocity}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Velocity",
+            finalAnswer: "**(a)** Velocity",
             commonErrors: ["Speed is scalar — velocity is vector."],
           },
         },
@@ -230,7 +230,7 @@ export const lessonp12: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Velocity", statement: "Direction matters — east ≠ west." }],
             steps: [{ reasoning: "Same magnitude, opposite direction.", working: "20\\ \\text{east} \\neq 20\\ \\text{west}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The velocities are different",
+            finalAnswer: "**(a)** The velocities are different",
             commonErrors: ["Speeds are the same (both 20 m/s) but velocities differ."],
           },
         },
@@ -304,7 +304,7 @@ export const lessonp12: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Weight unit", statement: "Newton (N)." }],
             steps: [{ reasoning: "Recall.", working: "W = mg \\Rightarrow \\text{N}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Newton",
+            finalAnswer: "**(d)** Newton",
             commonErrors: ["Kilogram is the unit of mass."],
           },
         },
@@ -399,7 +399,7 @@ export const lessonp12: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "g", statement: "9.8 m/s²." }],
             steps: [{ reasoning: "Recall.", working: "9.8", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 9.8 m/s²",
+            finalAnswer: "**(d)** 9.8 m/s²",
             commonErrors: ["10 is approximation, 9.8 is standard."],
           },
         },
@@ -479,7 +479,7 @@ export const lessonp12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Free fall", statement: "Gravity only, no air resistance." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gravity only}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** motion under gravity alone, ignoring air resistance",
+            finalAnswer: "**(c)** motion under gravity alone, ignoring air resistance",
             commonErrors: ["Including air resistance — that's not free fall."],
           },
         },
@@ -509,11 +509,11 @@ export const lessonp12: Lesson = {
             { id: "b", text: "the hammer lands first" },
             { id: "c", text: "both float" },
             { id: "d", text: "the feather lands first" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Free fall", statement: "g independent of mass." }],
             steps: [{ reasoning: "No air resistance → same acceleration.", working: "a = g = 9.8\\ \\text{m/s}^2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** land at the same time",
+            finalAnswer: "**(a)** land at the same time",
             commonErrors: ["Thinking heavier falls faster — only true with air resistance."],
           },
         },
@@ -569,7 +569,7 @@ export const lessonp12: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Drag", statement: "Larger surface → more air resistance." }],
             steps: [{ reasoning: "Parachute increases drag.", working: "F_{drag} \\uparrow \\Rightarrow v \\downarrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Air resistance increases and speed decreases",
+            finalAnswer: "**(a)** Air resistance increases and speed decreases",
             commonErrors: ["Thinking weight changes — only the forces balance changes."],
           },
         },
@@ -608,7 +608,7 @@ export const lessonp12: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Terminal velocity", statement: "Drag = weight → no acceleration." }],
             steps: [{ reasoning: "Recall.", working: "F_{drag} = W \\Rightarrow a = 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** air resistance equals its weight",
+            finalAnswer: "**(a)** air resistance equals its weight",
             commonErrors: ["The forces balance — gravity still acts."],
           },
         },
@@ -643,7 +643,7 @@ export const lessonp12: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "g", statement: "9.8 m/s² on Earth." }],
             steps: [{ reasoning: "Recall.", working: "g = 9.8\\ \\text{m/s}^2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 9.8 m/s²",
+            finalAnswer: "**(d)** 9.8 m/s²",
             commonErrors: ["1.6 m/s² is the Moon's value."],
           },
         },

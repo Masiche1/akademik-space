@@ -203,7 +203,7 @@ export const lesson42: Lesson = {
               { reasoning: "Set the product along one chord equal to the product along the other.", working: "AE \\cdot EB = CE \\cdot ED", marks: 1, markCode: "M" },
               { reasoning: "Substitute and solve for the unknown segment.", working: "3 \\cdot 8 = 4x \\implies x = 6", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $x = 6$",
+            finalAnswer: "**(d)** $x = 6$",
             commonErrors: ["Adding the segments rather than multiplying the two parts of each chord."],
           },
         },

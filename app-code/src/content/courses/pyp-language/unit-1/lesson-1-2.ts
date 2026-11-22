@@ -56,7 +56,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "When" },
               { id: "d", text: "Who" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -65,7 +65,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Where asks about a place, so it is the right question word.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Where",
+            finalAnswer: "**(a)** Where",
             commonErrors: ["Choosing 'when' — that asks about a time, not a place."],
           },
         },
@@ -158,7 +158,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Who = person, so it is the right question word.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Who",
+            finalAnswer: "**(a)** Who",
             commonErrors: ["Choosing 'what' — that asks about a thing, not a person."],
           },
         },
@@ -203,7 +203,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Why asks for a reason, e.g. 'Why did you go?'", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Why",
+            finalAnswer: "**(c)** Why",
             commonErrors: ["Choosing 'when' — that asks about a time, not a reason."],
           },
         },
@@ -285,7 +285,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "(a) finds out new information about the photo; the others are unrelated or already known.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 'When did you take this photo?'",
+            finalAnswer: "**(b)** 'When did you take this photo?'",
             commonErrors: ["Choosing (b) — it asks something obvious, not useful new information."],
           },
         },
@@ -340,7 +340,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "A person" },
               { id: "d", text: "A time" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -349,7 +349,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Where = place, so the answer should name a place like 'the park'.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** A place",
+            finalAnswer: "**(b)** A place",
             commonErrors: ["Choosing (b) — the question already gives the time (Saturday); it asks for a place."],
           },
         },
@@ -375,7 +375,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "(a) asks useful planning questions; the others ask things you already know or that do not matter.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 'When are we going and what should we bring?'",
+            finalAnswer: "**(b)** 'When are we going and what should we bring?'",
             commonErrors: ["Choosing (d) — it is silly and finds out nothing useful."],
           },
         },
@@ -457,7 +457,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The middle is where the main events happen.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Middle",
+            finalAnswer: "**(d)** Middle",
             commonErrors: ["Choosing 'end' — the end is where things finish, not where main events happen."],
           },
         },
@@ -540,7 +540,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Middle" },
               { id: "d", text: "Title" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -549,7 +549,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The beginning introduces the characters and setting.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Beginning",
+            finalAnswer: "**(b)** Beginning",
             commonErrors: ["Choosing 'middle' — the middle is where the main events happen, not the introduction."],
           },
         },
@@ -585,7 +585,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "When" },
               { id: "d", text: "Where" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -594,7 +594,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Where asks about the place where the story happens.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Where",
+            finalAnswer: "**(d)** Where",
             commonErrors: ["Choosing 'when' — that asks about a time, not a place."],
           },
         },
@@ -676,7 +676,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "She sleeps first (3), then the kiss wakes her (2), then she wakes up (1).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** (3), (2), (1)",
+            finalAnswer: "**(c)** (3), (2), (1)",
             commonErrors: ["Choosing (d) — waking up cannot happen before the kiss that caused it."],
           },
         },
@@ -740,7 +740,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Careful listening gives you the events to retell; the other options lose the story.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Listen carefully and remember who, what and where",
+            finalAnswer: "**(c)** Listen carefully and remember who, what and where",
             commonErrors: ["Choosing (a) — interrupting means you miss most of the story."],
           },
         },

@@ -46,7 +46,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Computerised records" },
             { id: "d", text: "No records exist" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Incomplete records", statement: "Partial records." }], steps: [{ reasoning: "Partial recording.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Partial records" },
+          markscheme: { principles: [{ kind: "definition", name: "Incomplete records", statement: "Partial records." }], steps: [{ reasoning: "Partial recording.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Partial records" },
         },
         {
           id: "olacc-u5-ir-q2", difficulty: "core", totalMarks: 2,
@@ -102,7 +102,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Supplier invoices only" },
             { id: "d", text: "Opening capital, closing capital, drawings and capital introduced" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Incomplete records data", statement: "Capital account items needed." }], steps: [{ reasoning: "Profit is derived from capital movements.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Capital items" },
+          markscheme: { principles: [{ kind: "definition", name: "Incomplete records data", statement: "Capital account items needed." }], steps: [{ reasoning: "Profit is derived from capital movements.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Capital items" },
         },
         {
           id: "olacc-u5-ir-q6", difficulty: "core", totalMarks: 2,
@@ -131,7 +131,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Ignored entirely" },
             { id: "d", text: "Added when calculating profit" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "formula", name: "Profit formula", statement: "CC - OC + D - CI." }], steps: [{ reasoning: "Drawings increase the profit figure.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Added" },
+          markscheme: { principles: [{ kind: "formula", name: "Profit formula", statement: "CC - OC + D - CI." }], steps: [{ reasoning: "Drawings increase the profit figure.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Added" },
         },
         {
           id: "olacc-u5-ir-q9", difficulty: "core", totalMarks: 2,
@@ -151,7 +151,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Incomplete records" },
             { id: "d", text: "A bank reconciliation" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Incomplete records", statement: "Partial records." }], steps: [{ reasoning: "Only summaries kept — records are incomplete.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Incomplete records" },
+          markscheme: { principles: [{ kind: "definition", name: "Incomplete records", statement: "Partial records." }], steps: [{ reasoning: "Only summaries kept — records are incomplete.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Incomplete records" },
         },
         {
           id: "olacc-u5-ir-q11", difficulty: "challenge", totalMarks: 3,
@@ -205,8 +205,8 @@ export const lesson51: Lesson = {
             { id: "b", text: "Subtract opening capital" },
             { id: "c", text: "Add drawings" },
             { id: "d", text: "Subtract capital introduced" },
-          ], aorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "formula", name: "Profit formula", statement: "CC - OC + D - CI." }], steps: [{ reasoning: "Stock is irrelevant to the capital formula.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Closing stock" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "formula", name: "Profit formula", statement: "CC - OC + D - CI." }], steps: [{ reasoning: "Stock is irrelevant to the capital formula.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Closing stock" },
         },
         {
           id: "olacc-u5-ir-q16", difficulty: "challenge", totalMarks: 9,
@@ -264,7 +264,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Cost price" },
             { id: "d", text: "Revenue" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Mark-up", statement: "On cost." }], steps: [{ reasoning: "On cost price.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Cost price" },
+          markscheme: { principles: [{ kind: "definition", name: "Mark-up", statement: "On cost." }], steps: [{ reasoning: "On cost price.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Cost price" },
         },
         {
           id: "olacc-u5-mu-q2", difficulty: "core", totalMarks: 2,
@@ -320,7 +320,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Cost price" },
             { id: "d", text: "Selling price" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Margin", statement: "On selling price." }], steps: [{ reasoning: "Margin uses selling price.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Selling price" },
+          markscheme: { principles: [{ kind: "definition", name: "Margin", statement: "On selling price." }], steps: [{ reasoning: "Margin uses selling price.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Selling price" },
         },
         {
           id: "olacc-u5-mu-q6", difficulty: "core", totalMarks: 2,
@@ -352,7 +352,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "33.3%" },
             { id: "d", text: "50%" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "formula", name: "Conversion", statement: "Margin = MU/(100+MU)." }], steps: [{ reasoning: "$50/150 = 33.3%$.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** 33.3%" },
+          markscheme: { principles: [{ kind: "formula", name: "Conversion", statement: "Margin = MU/(100+MU)." }], steps: [{ reasoning: "$50/150 = 33.3%$.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** 33.3%" },
         },
         {
           id: "olacc-u5-mu-q9", difficulty: "core", totalMarks: 2,
@@ -381,7 +381,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "Trader B" },
             { id: "d", text: "Trader A" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "comparison", name: "Mark-up vs margin", statement: "25% MU = 20% margin." }], steps: [{ reasoning: "Both give profit of $20 on $100 sales.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Equal" },
+          markscheme: { principles: [{ kind: "comparison", name: "Mark-up vs margin", statement: "25% MU = 20% margin." }], steps: [{ reasoning: "Both give profit of $20 on $100 sales.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Equal" },
         },
         {
           id: "olacc-u5-mu-q12", difficulty: "challenge", totalMarks: 2,
@@ -424,7 +424,7 @@ export const lesson51: Lesson = {
             { id: "c", text: "25%" },
             { id: "d", text: "24%" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "formula", name: "Conversion", statement: "MU = margin/(100-margin)." }], steps: [{ reasoning: "$20/80 = 25%$.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** 25%" },
+          markscheme: { principles: [{ kind: "formula", name: "Conversion", statement: "MU = margin/(100-margin)." }], steps: [{ reasoning: "$20/80 = 25%$.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** 25%" },
         },
         {
           id: "olacc-u5-mu-q16", difficulty: "challenge", totalMarks: 9,

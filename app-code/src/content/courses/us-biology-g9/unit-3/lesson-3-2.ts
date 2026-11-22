@@ -55,7 +55,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Metaphase" },
               { id: "d", text: "Anaphase" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -64,7 +64,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Spindle fibers shorten and pull the chromatids apart during anaphase.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Anaphase",
+            finalAnswer: "**(d)** Anaphase",
             commonErrors: ["Choosing metaphase, when chromosomes line up at the equator but have not yet separated.", "Choosing telophase, when the new nuclei form."],
             examinerNote: "B1 for anaphase.",
           },

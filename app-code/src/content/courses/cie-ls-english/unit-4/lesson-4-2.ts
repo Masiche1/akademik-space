@@ -233,7 +233,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Rising action is the build-up — complications that raise tension.", working: "\\text{build-up}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** The events that build tension toward the climax",
+            finalAnswer: "**(d)** The events that build tension toward the climax",
             commonErrors: ["Choosing (a) — exposition is the opening setup, not the build-up."],
           },
         },
@@ -288,7 +288,7 @@ export const lesson42: Lesson = {
               { id: "c", text: "She had always loved performing." },
               { id: "d", text: "The curtains opened and her voice cracked on the first line." },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -297,7 +297,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Stepping on stage is the point of no return — peak tension.", working: "\\text{point of no return}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** The curtains opened and her voice cracked on the first line.",
+            finalAnswer: "**(d)** The curtains opened and her voice cracked on the first line.",
             commonErrors: ["Choosing (d) — that is the resolution, not the climax."],
           },
         },
@@ -427,7 +427,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Dark clouds and a storm warning plant the idea of the storm before it arrives.", working: "\\text{early clue}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Dark clouds gather on the horizon while the radio warns of a storm front.",
+            finalAnswer: "**(d)** Dark clouds gather on the horizon while the radio warns of a storm front.",
             commonErrors: ["Choosing details unrelated to the coming event — foreshadowing must point forward."],
           },
         },
@@ -711,7 +711,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "'As you know' flags information both characters already share — unnatural.", working: "\\text{'as you know'}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** 'As you know, we have been friends since we were five.'",
+            finalAnswer: "**(c)** 'As you know, we have been friends since we were five.'",
             commonErrors: ["Choosing lines that reveal conflict — conflict is natural; shared-history explanation is not."],
           },
         },
@@ -756,7 +756,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Fragmented rapid-fire lines create urgency and speed.", working: "\\text{rapid}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Quick one-word exchanges: 'Run.' 'Now?' 'Now!'",
+            finalAnswer: "**(c)** Quick one-word exchanges: 'Run.' 'Now?' 'Now!'",
             commonErrors: ["Choosing (a) — long speeches slow the pace down."],
           },
         },
@@ -841,7 +841,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "(b) implies grief through a small request — the reader infers the feeling.", working: "\\text{implied}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** 'You'll send me a postcard, won't you? From wherever you go.'",
+            finalAnswer: "**(a)** 'You'll send me a postcard, won't you? From wherever you go.'",
             commonErrors: ["Choosing a line that names the emotion — subtext requires implication."],
           },
         },

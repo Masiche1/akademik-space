@@ -170,7 +170,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$x = 14 \\div 2 = 7$.", working: "x=7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x = 7$",
+            finalAnswer: "**(b)** $x = 7$",
             commonErrors: ["Choosing (b) — subtracting 2 instead of dividing."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$x = 8 + 5 = 13$.", working: "x=13", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x = 13$",
+            finalAnswer: "**(c)** $x = 13$",
             commonErrors: ["Choosing (b) — $8-5$ subtracts instead of undoing subtraction."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$3x = 15$ → $x = 5$.", working: "x=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x = 5$",
+            finalAnswer: "**(d)** $x = 5$",
             commonErrors: ["Choosing (b) — $16-1=15$, $15\\div3=5$ not 4."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$x+3=7$ → $x=4$.", working: "x=4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x = 4$",
+            finalAnswer: "**(b)** $x = 4$",
             commonErrors: ["Choosing (c) — $14\\div2=7$ gives $x+3$, not $x$; subtract 3."],
           },
         },
@@ -274,7 +274,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$4x-3x = 5+8$ → $x = 13$.", working: "x=13", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x = 13$",
+            finalAnswer: "**(b)** $x = 13$",
             commonErrors: ["Choosing (d) — $-8$ must move to the right as $+8$."],
           },
         },
@@ -481,7 +481,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Doubled = $2x$; equals 18 → $2x=18$.", working: "2x=18", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2x = 18$",
+            finalAnswer: "**(d)** $2x = 18$",
             commonErrors: ["Choosing (b) — 'plus 2' is not 'doubled'."],
           },
         },
@@ -612,7 +612,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$x-5=12$.", working: "x-5=12", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x - 5 = 12$",
+            finalAnswer: "**(c)** $x - 5 = 12$",
             commonErrors: ["Choosing (b) — '5 less than a number' subtracts from the number, not the reverse."],
           },
         },
@@ -664,7 +664,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Consecutive integers are $x, x+1, x+2$ (differ by 1, not 3): $x+(x+1)+(x+2)=45$.", working: "x+(x+1)+(x+2)=45", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x + (x+1) + (x+2) = 45$",
+            finalAnswer: "**(d)** $x + (x+1) + (x+2) = 45$",
             commonErrors: ["Choosing (d) — step 3 applies to multiples of 3, not consecutive integers."],
           },
         },

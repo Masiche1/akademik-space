@@ -57,7 +57,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$125$ miles" },
               { id: "d", text: "$8\\frac{1}{3}$ miles" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -66,7 +66,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Each map inch stands for $25$ miles, so multiply.", working: "3 \\times 25 = 75", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $75$ miles",
+            finalAnswer: "**(b)** $75$ miles",
             commonErrors: ["Dividing $25 \\div 3$ and getting $8\\frac{1}{3}$.", "Adding $3 + 25$ to get $28$."],
           },
         },
@@ -202,7 +202,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Substitute $P = 500$, $r = 0.04$, $t = 3$.", working: "I = 500 \\times 0.04 \\times 3 = 60", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\$60$",
+            finalAnswer: "**(a)** $\\$60$",
             commonErrors: ["Choosing $\\$20$, the interest for one year only.", "Choosing $\\$560$, the total amount instead of the interest.", "Using $r = 4$ instead of $0.04$."],
           },
         },

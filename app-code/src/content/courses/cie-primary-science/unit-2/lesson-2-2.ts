@@ -395,7 +395,7 @@ export const lesson22: Lesson = {
             { id: "b", text: "Salt" },
             { id: "c", text: "Sugar" },
             { id: "d", text: "Sand" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Insoluble", statement: "Does not dissolve." }],
             steps: [{ reasoning: "Sand does not dissolve in water.", marks: 1, markCode: "B" }],

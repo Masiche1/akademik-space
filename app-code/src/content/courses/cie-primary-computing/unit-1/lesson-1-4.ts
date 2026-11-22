@@ -231,7 +231,7 @@ export const lesson14: Lesson = {
             steps: [
               { reasoning: "The green flag event starts Scratch programs.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** When green flag clicked",
+            finalAnswer: "**(d)** When green flag clicked",
           },
         },
         {
@@ -280,7 +280,7 @@ export const lesson14: Lesson = {
             steps: [
               { reasoning: "In Scratch, motion blocks (move, turn) are blue.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Blue",
+            finalAnswer: "**(d)** Blue",
           },
         },
         {
@@ -316,7 +316,7 @@ export const lesson14: Lesson = {
               { reasoning: "Programs run instructions in sequence; swapping steps changes what happens.", marks: 1, markCode: "M" },
               { reasoning: "e.g. moving before saying hello gives a different result than saying hello first.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Blocks run in order, so order changes the result",
+            finalAnswer: "**(b)** Blocks run in order, so order changes the result",
           },
         },
         {
@@ -383,7 +383,7 @@ export const lesson14: Lesson = {
               { reasoning: "Only (a) matches that order.", marks: 1, markCode: "M" },
               { reasoning: "Correct sequence selected.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Say Ready → move forward 20 → say Go",
+            finalAnswer: "**(b)** Say Ready → move forward 20 → say Go",
           },
         },
         {

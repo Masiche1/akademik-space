@@ -207,7 +207,7 @@ export const lesson32: Lesson = {
               { reasoning: "Substitute into the area formula.", working: "\\frac12\\times6\\times8\\times\\sin30^\\circ", marks: 1, markCode: "M" },
               { reasoning: "Evaluate with $\\sin30^\\circ=0.5$.", working: "24\\times0.5=12", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $12\\text{ cm}^2$",
+            finalAnswer: "**(c)** $12\\text{ cm}^2$",
             commonErrors: ["Omitting the $\\frac12$, giving $24$.", "Using $\\sin60^\\circ$, giving $20.8$."],
           },
         },

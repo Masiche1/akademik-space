@@ -77,7 +77,7 @@ export const lesson53: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Measures claim",
+            finalAnswer: "**(a)** Measures claim",
             commonErrors: ["External confused."],
           },
         },

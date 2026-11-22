@@ -78,7 +78,7 @@ export const lesson42: Lesson = {
               { id: "c", text: "J s" },
               { id: "d", text: "N s" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -91,7 +91,7 @@ export const lesson42: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(d)** kg m/s",
+            finalAnswer: "**(b)** kg m/s",
             commonErrors: ["Choosing N s, which is the unit of impulse."],
           },
         },
@@ -334,7 +334,7 @@ export const lesson42: Lesson = {
               { id: "c", text: "mv" },
               { id: "d", text: "2mv²" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -347,7 +347,7 @@ export const lesson42: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** ½mv²",
+            finalAnswer: "**(a)** ½mv²",
             commonErrors: ["Omitting the factor of ½."],
           },
         },

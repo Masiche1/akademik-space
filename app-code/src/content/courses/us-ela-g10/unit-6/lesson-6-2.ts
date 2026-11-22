@@ -117,7 +117,7 @@ export const lesson62: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Informative explains; argument persuades.",
+            finalAnswer: "**(d)**. Informative explains; argument persuades.",
             commonErrors: ["Confusing the two genres."],
           },
         },
@@ -330,7 +330,7 @@ export const lesson62: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Conveys exact meaning.",
+            finalAnswer: "**(d)**. Conveys exact meaning.",
             commonErrors: ["Thinking precision = complexity."],
           },
         },
@@ -537,7 +537,7 @@ export const lesson62: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Synthesize and extend.",
+            finalAnswer: "**(c)**. Synthesize and extend.",
             commonErrors: ["Thinking conclusion = summary only."],
           },
         },
@@ -677,7 +677,7 @@ export const lesson62: Lesson = {
       ],
     },
     {
-      id: "ela10-u6-integrated",
+      id: "ela10-u6-integrated-r2",
       title: "Integrated Informative Writing Practice",
       skill:
         "Integrate structure, precision, and conclusions in comprehensive informative writing.",
@@ -709,7 +709,7 @@ export const lesson62: Lesson = {
       },
       questions: [
         {
-          id: "ela10-u6-integrated-q1",
+          id: "ela10-u6-integrated-q1-r2",
           difficulty: "foundation",
           totalMarks: 1,
           extract: INFO,
@@ -746,7 +746,7 @@ export const lesson62: Lesson = {
           },
         },
         {
-          id: "ela10-u6-integrated-q2",
+          id: "ela10-u6-integrated-q2-r2",
           difficulty: "core",
           totalMarks: 3,
           extract: INFO,
@@ -788,7 +788,7 @@ export const lesson62: Lesson = {
           },
         },
         {
-          id: "ela10-u6-integrated-q3",
+          id: "ela10-u6-integrated-q3-r2",
           difficulty: "challenge",
           totalMarks: 8,
           extract: INFO,
@@ -837,7 +837,7 @@ export const lesson62: Lesson = {
           },
         },
         {
-          id: "ela10-u6-integrated-q4",
+          id: "ela10-u6-integrated-q4-r2",
           difficulty: "core",
           totalMarks: 4,
           extract: INFO,

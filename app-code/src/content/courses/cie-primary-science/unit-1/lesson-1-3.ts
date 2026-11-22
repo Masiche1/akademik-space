@@ -222,7 +222,7 @@ export const lesson13: Lesson = {
             { id: "b", text: "Beetle" },
             { id: "c", text: "Frog" },
             { id: "d", text: "Oak tree" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Metamorphosis", statement: "Some animals change form; plants don't." }],
             steps: [{ reasoning: "The oak tree grows but does not change body form.", marks: 1, markCode: "A" }],

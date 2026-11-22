@@ -64,7 +64,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Animal imagery", statement: "Comparing a character with an animal conveys instinct, innocence or strength without human reasoning." }],
             steps: [{ reasoning: "A bear is powerful but acts on instinct, mirroring Lennie's strength without understanding of its consequences.", evidence: "drags his paws", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** Lennie has great strength but little awareness or control, like a large animal.",
+            finalAnswer: "**(b)** Lennie has great strength but little awareness or control, like a large animal.",
             commonErrors: ["Choosing (b) because bears are dangerous; Lennie's harm is never intended.", "Choosing (d) and forgetting how much Lennie depends on George."],
           },
         },

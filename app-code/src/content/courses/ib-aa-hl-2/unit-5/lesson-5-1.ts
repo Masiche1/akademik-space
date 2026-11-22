@@ -113,7 +113,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $3$",
+            finalAnswer: "**(b)** $3$",
             commonErrors: [
               "Forgetting the chain-rule factor 3.",
               "Quoting $\\lim\\frac{\\sin x}{x}=1$ without adjusting for the argument.",
@@ -639,7 +639,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "$\\lim_{x\\to0}\\dfrac{x}{x+1}$" },
               { id: "d", text: "$\\lim_{x\\to1}\\dfrac{x}{x-1}$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -664,7 +664,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)**",
+            finalAnswer: "**(a)**",
             commonErrors: [
               "Confusing an infinite limit with an indeterminate form.",
             ],
@@ -964,7 +964,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $1$",
+            finalAnswer: "**(b)** $1$",
             commonErrors: ["Differentiating $e^x-1$ as $e^x-1$."],
           },
         },
@@ -1196,7 +1196,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $6x$",
+            finalAnswer: "**(d)** $6x$",
             commonErrors: ["Leaving $h$ in the answer (option c) ."],
           },
         },

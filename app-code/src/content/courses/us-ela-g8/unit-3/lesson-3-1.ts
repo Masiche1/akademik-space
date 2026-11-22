@@ -205,7 +205,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The cousin is a single anecdote about a different school, 'everyone knows' is an unsupported bandwagon appeal, and the writer's opinion is the claim itself, not evidence.",
+              "**(a)**. The cousin is a single anecdote about a different school, 'everyone knows' is an unsupported bandwagon appeal, and the writer's opinion is the claim itself, not evidence.",
             commonErrors: [
               "Treating any statement in the essay as equally credible.",
               "Choosing the cousin because he is a real person, ignoring that one anecdote about another school is weak and irrelevant.",
@@ -508,7 +508,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Choices (a), (c) and (d) swap one vague phrase for another.",
+              "**(a)**. Choices (a), (c) and (d) swap one vague phrase for another.",
             commonErrors: [
               "Choosing (a) because 'many different' sounds more formal even though it adds no information.",
             ],
@@ -528,7 +528,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "for example" },
               { id: "d", text: "meanwhile" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -556,7 +556,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** as a result. 'However' signals contrast, 'for example' introduces an illustration and 'meanwhile' suggests two things happening at the same time.",
+              "**(b)** as a result. 'However' signals contrast, 'for example' introduces an illustration and 'meanwhile' suggests two things happening at the same time.",
             commonErrors: [
               "Choosing 'for example' because the second clause gives a detail, without noticing it is an effect of having no bones.",
             ],

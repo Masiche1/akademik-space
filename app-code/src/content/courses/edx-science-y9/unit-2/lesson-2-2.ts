@@ -64,7 +64,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Elements in a group have the same number of outer electrons. The number of shells is the period number, which changes down a group.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The elements in a group have the same number of outer-shell electrons.",
+            finalAnswer: "**(a)** The elements in a group have the same number of outer-shell electrons.",
             commonErrors: ["Confusing group and period, choosing (a).", "Thinking atomic number is shared, but it is different for every element.", "Thinking groups contain only metals; Group 7 and Group 0 contain non-metals."],
             examinerNote: "B1 for (b).",
           },
@@ -198,7 +198,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Sodium displaces hydrogen from water, forming sodium hydroxide and hydrogen gas.", working: "2\\text{Na} + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{NaOH} + \\text{H}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Hydrogen",
+            finalAnswer: "**(d)** Hydrogen",
             commonErrors: ["Choosing oxygen because water contains oxygen.", "Choosing carbon dioxide, which would require carbon."],
             examinerNote: "B1 for hydrogen.",
           },

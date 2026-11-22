@@ -279,7 +279,7 @@ export const lesson341: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Ho Chi Minh",
+            finalAnswer: "**(b)** Ho Chi Minh",
           },
         },
         {
@@ -391,7 +391,7 @@ export const lesson341: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** 17th parallel",
+            finalAnswer: "**(a)** 17th parallel",
           },
         },
         {
@@ -480,7 +480,7 @@ export const lesson341: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** South Vietnamese communist guerrilla forces",
+            finalAnswer: "**(b)** South Vietnamese communist guerrilla forces",
           },
         },
         {
@@ -567,7 +567,7 @@ export const lesson341: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** The division was intended to be temporary but both sides refused to compromise",
+              "**(d)** The division was intended to be temporary but both sides refused to compromise",
           },
         },
         {
@@ -702,7 +702,7 @@ export const lesson341: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** France",
+            finalAnswer: "**(d)** France",
           },
         },
         {

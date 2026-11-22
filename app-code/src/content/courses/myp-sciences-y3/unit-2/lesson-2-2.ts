@@ -71,7 +71,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Reactants are carbon dioxide and water.", working: "CO_2+H_2O", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Carbon dioxide and water",
+            finalAnswer: "**(c)** Carbon dioxide and water",
             commonErrors: ["Choosing oxygen — that's a product."],
             examinerNote: "B1 for (b).",
           },
@@ -171,7 +171,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Products are glucose (food) and oxygen.", working: "\\text{glucose}+O_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Glucose and oxygen",
+            finalAnswer: "**(a)** Glucose and oxygen",
             commonErrors: ["Choosing reactants — CO₂ and water are inputs."],
             examinerNote: "B1 for (b).",
           },
@@ -198,7 +198,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "CO₂ enters through stomata; water enters through roots.", working: "\\text{stomata}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Stomata",
+            finalAnswer: "**(a)** Stomata",
             commonErrors: ["Choosing root hairs — those absorb water, not CO₂."],
             examinerNote: "B1 for (b).",
           },
@@ -225,7 +225,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Only the scarcest factor restricts the rate.", working: "\\text{shortest supply}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The factor in shortest supply that limits the rate",
+            finalAnswer: "**(c)** The factor in shortest supply that limits the rate",
             commonErrors: ["Thinking every factor limits the rate equally."],
             examinerNote: "B1 for (b).",
           },
@@ -299,7 +299,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Light intensity" },
               { id: "d", text: "Carbon dioxide concentration" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -308,7 +308,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Wind speed is not one of the three limiting factors.", working: "\\text{wind}\\notin\\{\\text{light, temp, }CO_2\\}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Wind speed",
+            finalAnswer: "**(a)** Wind speed",
             commonErrors: ["Thinking any environmental factor is a limiting factor."],
             examinerNote: "B1 for (d).",
           },
@@ -335,7 +335,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "White areas have no chlorophyll, so they cannot absorb light energy.", working: "\\text{no chlorophyll}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** They lack chlorophyll",
+            finalAnswer: "**(d)** They lack chlorophyll",
             commonErrors: ["Saying the white parts are dead — they are living but lack pigment."],
             examinerNote: "B1 for (b).",
           },
@@ -401,7 +401,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Chlorophyll absorbs light energy, which powers the conversion of CO₂ and water into glucose and oxygen.", working: "\\text{absorbs light}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It absorbs light energy to drive the reaction",
+            finalAnswer: "**(c)** It absorbs light energy to drive the reaction",
             examinerNote: "B1 for (a).",
           },
         },
@@ -467,7 +467,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Carbon dioxide and water" },
               { id: "d", text: "Oxygen and energy" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -476,7 +476,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Products include CO₂, water and energy.", working: "CO_2+H_2O+energy", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Carbon dioxide, water and energy",
+            finalAnswer: "**(a)** Carbon dioxide, water and energy",
             commonErrors: ["Forgetting energy is a product."],
             examinerNote: "B1 for (c).",
           },
@@ -619,7 +619,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Oxygen" },
               { id: "d", text: "Nitrogen" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -628,7 +628,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "CO₂ is excreted as a waste gas; oxygen is a reactant.", working: "CO_2\\text{ waste}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Carbon dioxide",
+            finalAnswer: "**(b)** Carbon dioxide",
             commonErrors: ["Choosing oxygen — it is used up, not produced."],
             examinerNote: "B1 for (c).",
           },
@@ -719,7 +719,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "These features maximise the rate of diffusion of gases.", working: "\\text{thin walls, large area, moist}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Thin walls, large surface area and a moist lining",
+            finalAnswer: "**(d)** Thin walls, large surface area and a moist lining",
             commonErrors: ["Saying alveoli produce oxygen — they only exchange gases."],
             examinerNote: "B1 for (b).",
           },
@@ -794,7 +794,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Plants only photosynthesise and never respire" },
               { id: "d", text: "Plants do not need oxygen" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -803,7 +803,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "All living cells respire; plants also photosynthesise in daylight.", working: "\\text{both processes}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Plants carry out both photosynthesis and respiration",
+            finalAnswer: "**(b)** Plants carry out both photosynthesis and respiration",
             commonErrors: ["Thinking plants only photosynthesise."],
             examinerNote: "B1 for (c).",
           },
@@ -830,7 +830,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Photosynthesis uses CO₂ + H₂O → glucose + O₂; respiration reverses this, and energy flow is opposite too.", working: "\\text{reactants/products swapped}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Their reactants and products are reversed",
+            finalAnswer: "**(b)** Their reactants and products are reversed",
             examinerNote: "B1 for (a).",
           },
         },

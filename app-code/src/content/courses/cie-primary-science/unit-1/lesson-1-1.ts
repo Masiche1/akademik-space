@@ -111,7 +111,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "A flower" },
             { id: "c", text: "A bird" },
             { id: "d", text: "A dog" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Living thing", statement: "Grows, needs food and water, can reproduce." }],
             steps: [{ reasoning: "A car does not grow, need food or reproduce.", marks: 1, markCode: "B" }],
@@ -395,7 +395,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "Flowers" },
             { id: "c", text: "Roots" },
             { id: "d", text: "Leaves" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Leaves", statement: "Leaves use sunlight to make food." }],
             steps: [{ reasoning: "Leaves make food using sunlight.", marks: 1, markCode: "B" }],
@@ -412,7 +412,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "Leaves" },
             { id: "c", text: "Flowers" },
             { id: "d", text: "Stem" },
-          ], correctChoiceIc: "d" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Flowers", statement: "Flowers make seeds." }],
             steps: [{ reasoning: "Flowers make seeds.", marks: 1, markCode: "B" }],
@@ -550,7 +550,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "Sunlight" },
             { id: "c", text: "Air" },
             { id: "d", text: "Water" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Plant needs", statement: "Water, sunlight, air, nutrients." }],
             steps: [{ reasoning: "Plants make their own food — they do not need meat.", marks: 1, markCode: "B" }],

@@ -221,10 +221,10 @@ export const lesson82: Lesson = {
             { id: "c", text: "The grand total" },
             { id: "d", text: "The joint cell" }
  ],
-            correctChoiceIa: "d" },
+            correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "formula", name: "Conditional probability", statement: "$P(A\\,|\\,B)=\\frac{\\text{joint}}{\\text{total of }B}$" } ],
             steps: [ { reasoning: "Condition on $B$'s row or column total.", working: "\\text{total of }B", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(d)** The total for $B$", commonErrors: ["Using the grand total."] },
+            finalAnswer: "**(a)** The total for $B$", commonErrors: ["Using the grand total."] },
         },
         {
           id: "ciem-u8-two-way-tables-q12", difficulty: "core", totalMarks: 4,
@@ -273,7 +273,7 @@ export const lesson82: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "definition", name: "Conditional probability", statement: "The condition is the event after the bar." } ],
             steps: [ { reasoning: "Read $P(A\\,|\\,B)$ as probability of $A$ given $B$.", working: "\\text{given }B", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** $B$", commonErrors: ["Reversing the condition."] },
+            finalAnswer: "**(c)** $B$", commonErrors: ["Reversing the condition."] },
         },
         {
           id: "ciem-u8-two-way-tables-q16", difficulty: "challenge", totalMarks: 8,
@@ -349,7 +349,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Recall the notation.", working: "P(A|B)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $P(A\\,|\\,B)$ = probability of $A$ given $B$",
+            finalAnswer: "**(b)** $P(A\\,|\\,B)$ = probability of $A$ given $B$",
             commonErrors: ["Reversing the condition."],
           },
         },
@@ -435,7 +435,7 @@ export const lesson82: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "formula", name: "Conditional probability", statement: "$P(A\\,|\\,B)=\\frac{P(A\\cap B)}{P(B)}$" } ],
             steps: [ { reasoning: "Recall the formula.", working: "\\frac{P(A\\cap B)}{P(B)}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(a)** $\\frac{P(A\\cap B)}{P(B)}$", commonErrors: ["Dividing by $P(A)$."] },
+            finalAnswer: "**(c)** $\\frac{P(A\\cap B)}{P(B)}$", commonErrors: ["Dividing by $P(A)$."] },
         },
         {
           id: "ciem-u8-conditional-probability-q6", difficulty: "core", totalMarks: 1,
@@ -449,7 +449,7 @@ export const lesson82: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "property", name: "Independence", statement: "$A,B$ independent if $P(A\\cap B)=P(A)P(B)$." } ],
             steps: [ { reasoning: "Compare $0.4\\times0.5=0.2$ with $P(A\\cap B)=0.2$.", working: "0.2=0.2", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** Yes, they are independent", commonErrors: ["Using addition instead of multiplication."] },
+            finalAnswer: "**(c)** Yes, they are independent", commonErrors: ["Using addition instead of multiplication."] },
         },
         {
           id: "ciem-u8-conditional-probability-q7", difficulty: "core", totalMarks: 3,
@@ -506,10 +506,10 @@ export const lesson82: Lesson = {
             { id: "c", text: "$P(A\\cap B)$" },
             { id: "d", text: "$P(B)$" }
  ],
-            correctChoiceIb: "d" },
+            correctChoiceId: "b" },
           markscheme: { principles: [ { kind: "property", name: "Independence", statement: "For independent events, $P(A\\,|\\,B)=P(A)$." } ],
             steps: [ { reasoning: "Recall the independence property.", working: "P(A|B)=P(A)", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(d)** $P(A)$", commonErrors: ["Thinking it equals $P(B)$."] },
+            finalAnswer: "**(b)** $P(A)$", commonErrors: ["Thinking it equals $P(B)$."] },
         },
         {
           id: "ciem-u8-conditional-probability-q12", difficulty: "core", totalMarks: 4,
@@ -557,7 +557,7 @@ export const lesson82: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Joint from conditional", statement: "$P(A\\cap B)=P(A\\,|\\,B)P(B)$" } ],
             steps: [ { reasoning: "Rearrange the conditional formula.", working: "P(A|B)P(B)", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $P(A\\,|\\,B)P(B)$", commonErrors: ["Dividing by $P(B)$."] },
+            finalAnswer: "**(d)** $P(A\\,|\\,B)P(B)$", commonErrors: ["Dividing by $P(B)$."] },
         },
         {
           id: "ciem-u8-conditional-probability-q16", difficulty: "challenge", totalMarks: 8,

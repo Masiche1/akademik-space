@@ -89,7 +89,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "It unwinds and unzips the double helix" },
               { id: "d", text: "It joins the two DNA strands with hydrogen bonds" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -117,7 +117,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "All hybrid (heavy–light) DNA" },
               { id: "d", text: "All light DNA" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -206,7 +206,7 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "Heavy ${}^{15}N$ DNA is transferred to ${}^{14}N$ medium. What is the composition after two rounds of semi-conservative replication?",
           response: { type: "mcq", choices: [ { id: "a", text: "One quarter heavy–light and three quarters light–light" }, { id: "b", text: "All heavy–heavy DNA" }, { id: "c", text: "Half heavy–light and half light–light" }, { id: "d", text: "All light–light DNA" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Replication generations", statement: "After one round all molecules are hybrid; after two rounds half are hybrid and half are light–light." }], steps: [{ reasoning: "The first round makes hybrid molecules; the second produces light–light daughters from hybrid templates.", working: "2\\text{ rounds} \\to \\tfrac12\\text{ hybrid}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Half heavy–light and half light–light" },
+          markscheme: { principles: [{ kind: "principle", name: "Replication generations", statement: "After one round all molecules are hybrid; after two rounds half are hybrid and half are light–light." }], steps: [{ reasoning: "The first round makes hybrid molecules; the second produces light–light daughters from hybrid templates.", working: "2\\text{ rounds} \\to \\tfrac12\\text{ hybrid}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Half heavy–light and half light–light" },
         },
         {
           id: "mypb5-u1-dna-q10",
@@ -234,7 +234,7 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "Which observation after two replication rounds best supports semi-conservative replication?",
           response: { type: "mcq", choices: [ { id: "a", text: "All molecules are heavy–light" }, { id: "b", text: "No label is found in any strand" }, { id: "c", text: "Half the molecules are hybrid and half are light–light" }, { id: "d", text: "All DNA is light–light" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Meselson–Stahl prediction", statement: "Semi-conservative replication gives 1/2 hybrid and 1/2 light–light molecules after two rounds." }], steps: [{ reasoning: "The expected second-generation ratio distinguishes semi-conservative from conservative or dispersive models.", working: "\\tfrac12\\text{ hybrid}+\\tfrac12\\text{ light}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Half hybrid and half light–light" },
+          markscheme: { principles: [{ kind: "principle", name: "Meselson–Stahl prediction", statement: "Semi-conservative replication gives 1/2 hybrid and 1/2 light–light molecules after two rounds." }], steps: [{ reasoning: "The expected second-generation ratio distinguishes semi-conservative from conservative or dispersive models.", working: "\\tfrac12\\text{ hybrid}+\\tfrac12\\text{ light}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Half hybrid and half light–light" },
         },
         {
           id: "mypb5-u1-dna-q13",
@@ -258,7 +258,7 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "What is the most likely effect of an uncorrected point mutation in a gene?",
           response: { type: "mcq", choices: [ { id: "a", text: "It prevents all transcription" }, { id: "b", text: "It always destroys the chromosome" }, { id: "c", text: "It always has no effect" }, { id: "d", text: "It can change the amino-acid sequence and alter protein function" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Gene mutation", statement: "A base change may alter a codon and therefore the protein produced." }], steps: [{ reasoning: "Only some mutations are silent or neutral, but a missense mutation can change protein structure and function.", working: "codon\\to\\text{amino acid}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** It can change the amino-acid sequence and alter protein function" },
+          markscheme: { principles: [{ kind: "principle", name: "Gene mutation", statement: "A base change may alter a codon and therefore the protein produced." }], steps: [{ reasoning: "Only some mutations are silent or neutral, but a missense mutation can change protein structure and function.", working: "codon\\to\\text{amino acid}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** It can change the amino-acid sequence and alter protein function" },
         },
         {
           id: "mypb5-u1-dna-q16",
@@ -266,7 +266,7 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "What did Meselson and Stahl use to distinguish heavy, light and hybrid DNA?",
           response: { type: "mcq", choices: [ { id: "a", text: "Light microscopy" }, { id: "b", text: "Gel electrophoresis" }, { id: "c", text: "Density-gradient centrifugation" }, { id: "d", text: "Antibiotic selection" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "method", name: "Density gradient", statement: "Centrifugation separates DNA bands according to density, revealing ${}^{15}N$ and ${}^{14}N$ content." }], steps: [{ reasoning: "The different nitrogen isotopes give DNA different densities that separate into bands.", working: "density\\text{ bands}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Density-gradient centrifugation" },
+          markscheme: { principles: [{ kind: "method", name: "Density gradient", statement: "Centrifugation separates DNA bands according to density, revealing ${}^{15}N$ and ${}^{14}N$ content." }], steps: [{ reasoning: "The different nitrogen isotopes give DNA different densities that separate into bands.", working: "density\\text{ bands}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Density-gradient centrifugation" },
         },
       ],
     },
@@ -457,7 +457,7 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "Which mRNA codon normally starts translation and codes for methionine?",
           response: { type: "mcq", choices: [ { id: "a", text: "AUG" }, { id: "b", text: "UAA" }, { id: "c", text: "UAG" }, { id: "d", text: "UGA" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Start codon", statement: "AUG codes for methionine and initiates translation." }], steps: [{ reasoning: "UAA, UAG and UGA are stop codons.", working: "AUG\\text{ starts}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** AUG" },
+          markscheme: { principles: [{ kind: "definition", name: "Start codon", statement: "AUG codes for methionine and initiates translation." }], steps: [{ reasoning: "UAA, UAG and UGA are stop codons.", working: "AUG\\text{ starts}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** AUG" },
         },
         {
           id: "mypb5-u1-synth-q10",
@@ -485,7 +485,7 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "A point mutation changes a sense codon into UAA. What is the most likely result?",
           response: { type: "mcq", choices: [ { id: "a", text: "A longer functional protein" }, { id: "b", text: "No change in the protein" }, { id: "c", text: "A new start codon" }, { id: "d", text: "Premature termination of translation" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Nonsense mutation", statement: "A mutation creating a stop codon ends translation early." }], steps: [{ reasoning: "UAA is a stop codon, so the ribosome terminates at that position.", working: "sense\\to stop", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Premature termination of translation" },
+          markscheme: { principles: [{ kind: "principle", name: "Nonsense mutation", statement: "A mutation creating a stop codon ends translation early." }], steps: [{ reasoning: "UAA is a stop codon, so the ribosome terminates at that position.", working: "sense\\to stop", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Premature termination of translation" },
         },
         {
           id: "mypb5-u1-synth-q13",
@@ -513,7 +513,7 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "What is the role of the anticodon on tRNA?",
           response: { type: "mcq", choices: [ { id: "a", text: "It carries the amino acid to the nucleus" }, { id: "b", text: "It joins amino acids into a polypeptide" }, { id: "c", text: "It base-pairs with the mRNA codon" }, { id: "d", text: "It reads the DNA template strand" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Anticodon", statement: "The three-base sequence on tRNA complementary to an mRNA codon." }], steps: [{ reasoning: "The anticodon recognises the codon while tRNA carries the amino acid.", working: "anticodon\\text{–}codon", marks: 1, markCode: "B" }], finalAnswer: "**(b)** It base-pairs with the mRNA codon" },
+          markscheme: { principles: [{ kind: "definition", name: "Anticodon", statement: "The three-base sequence on tRNA complementary to an mRNA codon." }], steps: [{ reasoning: "The anticodon recognises the codon while tRNA carries the amino acid.", working: "anticodon\\text{–}codon", marks: 1, markCode: "B" }], finalAnswer: "**(c)** It base-pairs with the mRNA codon" },
         },
         {
           id: "mypb5-u1-synth-q16",
@@ -521,7 +521,7 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "Why are stop codons essential during translation?",
           response: { type: "mcq", choices: [ { id: "a", text: "They code for extra amino acids" }, { id: "b", text: "They provide the start signal for every protein" }, { id: "c", text: "They terminate polypeptide synthesis at the correct position" }, { id: "d", text: "They copy DNA into mRNA" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Stop codons", statement: "Stop codons signal release of the polypeptide and end translation." }], steps: [{ reasoning: "Without a stop codon the ribosome would continue translating beyond the gene.", working: "stop\\to release", marks: 1, markCode: "B" }], finalAnswer: "**(b)** They terminate polypeptide synthesis at the correct position" },
+          markscheme: { principles: [{ kind: "principle", name: "Stop codons", statement: "Stop codons signal release of the polypeptide and end translation." }], steps: [{ reasoning: "Without a stop codon the ribosome would continue translating beyond the gene.", working: "stop\\to release", marks: 1, markCode: "B" }], finalAnswer: "**(c)** They terminate polypeptide synthesis at the correct position" },
         },
       ],
     },

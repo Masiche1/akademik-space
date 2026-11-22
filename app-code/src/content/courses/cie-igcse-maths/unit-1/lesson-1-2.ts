@@ -67,7 +67,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Move the decimal point 4 places right to get $A=4.5$; each right move makes $n$ one more negative.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $4.5\\times10^{-4}$",
+            finalAnswer: "**(d)** $4.5\\times10^{-4}$",
             commonErrors: ["Writing $4.5\\times10^{-3}$ by miscounting the decimal places.", "Choosing $45\\times10^{-5}$, which has $A=45\\ge10$ and is not standard form."],
           },
         },
@@ -175,7 +175,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "$1.0\\times10^{-3}$" },
               { id: "d", text: "$2.8\\times10^{-2}$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -184,7 +184,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Standard form requires $1\\le A<10$; only $56\\times10^4$ has $A\\ge10$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $56\\times10^{4}$",
+            finalAnswer: "**(b)** $56\\times10^{4}$",
             commonErrors: ["Thinking $1.0\\times10^{-3}$ is invalid — $A=1.0$ satisfies $1\\le A<10$.", "Missing that $56\\times10^4$ can be renormalised to $5.6\\times10^5$."],
           },
         },
@@ -210,7 +210,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Divide the coefficients and subtract the indices.", working: "\\frac{6}{2}\\times10^{5-2}=3\\times10^3", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $3\\times10^3$",
+            finalAnswer: "**(c)** $3\\times10^3$",
             commonErrors: ["Adding the indices instead of subtracting.", "Dividing $6$ by $2$ incorrectly to get $4\\times10^3$."],
           },
         },
@@ -236,7 +236,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Divide the masses and renormalise the power of 10.", working: "\\frac{2\\times10^{-6}}{4\\times10^{-9}}=0.5\\times10^{3}=5\\times10^{2}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $500$",
+            finalAnswer: "**(d)** $500$",
             commonErrors: ["Stopping at $0.5\\times10^3$ without renormalising, giving the wrong choice.", "Subtracting the powers of 10 incorrectly."],
           },
         },
@@ -451,7 +451,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "A negative power of 10 means the decimal point moves left: $7.5\\times10^{-3}=0.0075$.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $0.0075$",
+            finalAnswer: "**(c)** $0.0075$",
             commonErrors: ["Moving the decimal point only 2 places to get $0.075$.", "Moving it 4 places to get $0.00075$."],
           },
         },
@@ -510,7 +510,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Add half of $0.1$ to $2.4$.", working: "2.4+0.05=2.45", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2.45$ m",
+            finalAnswer: "**(c)** $2.45$ m",
             commonErrors: ["Adding the full $0.1$ to get $2.5$.", "Subtracting $0.05$ to get the lower bound."],
           },
         },
@@ -622,7 +622,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Subtract half of $0.1$ from $5.6$.", working: "5.6-0.05=5.55", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $5.55$ kg",
+            finalAnswer: "**(c)** $5.55$ kg",
             commonErrors: ["Subtracting the full $0.1$ to get $5.5$.", "Adding $0.05$ to get the upper bound $5.65$."],
           },
         },
@@ -674,7 +674,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "2 s.f. on $0.046$ means precision $\\pm0.0005$, giving $0.0455$ and $0.0465$.", working: "0.046\\pm0.0005", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $0.0455 \\le v < 0.0465$",
+            finalAnswer: "**(a)** $0.0455 \\le v < 0.0465$",
             commonErrors: ["Using $\\pm0.005$ (3 d.p. thinking) to get the wider interval (a).", "Confusing significant figures with decimal places."],
           },
         },
@@ -868,7 +868,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "2 d.p. means $\\pm0.005$: $0.038-0.005=0.033$ and $0.038+0.005=0.043$.", working: "0.038\\pm0.005=[0.033,\\,0.043)", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $0.033 \\le v < 0.043$",
+            finalAnswer: "**(c)** $0.033 \\le v < 0.043$",
             commonErrors: ["Using $\\pm0.05$ (1 d.p. thinking) to get interval (d).", "Thinking the recorded value itself is a bound."],
           },
         },
@@ -894,7 +894,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The interval width is $0.1$, so the degree of accuracy is $0.1$ — i.e. 1 decimal place.", working: "12.35-12.25=0.10", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** nearest $0.1$",
+            finalAnswer: "**(d)** nearest $0.1$",
             commonErrors: ["Answering 'nearest $0.01$' by looking at the bounds' decimal places rather than the interval width."],
           },
         },

@@ -172,7 +172,7 @@ export const lesson12: Lesson = {
             { id: "b", text: "The lungs" },
             { id: "c", text: "The bones" },
             { id: "d", text: "The heart" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Stomach", statement: "Digests food." }],
             steps: [{ reasoning: "The stomach digests food.", marks: 1, markCode: "A" }],
@@ -412,7 +412,7 @@ export const lesson12: Lesson = {
             { id: "b", text: "Ears" },
             { id: "c", text: "Eyes" },
             { id: "d", text: "Nose" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Hearing", statement: "Ears detect sounds." }],
             steps: [{ reasoning: "You use your ears (hearing) to hear a bell.", marks: 1, markCode: "B" }],
@@ -456,7 +456,7 @@ export const lesson12: Lesson = {
             { id: "b", text: "Smell" },
             { id: "c", text: "Taste" },
             { id: "d", text: "Sight" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Touch", statement: "Skin detects touch." }],
             steps: [{ reasoning: "Skin is the organ for touch.", marks: 1, markCode: "A" }],

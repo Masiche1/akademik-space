@@ -65,7 +65,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "(a) is a prediction that can be tested; (b) is established fact, (c) is a law, (d) is an observation.", working: "testable prediction", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 'Plants given fertiliser will grow taller'",
+            finalAnswer: "**(c)** 'Plants given fertiliser will grow taller'",
             commonErrors: ["Choosing (c) — a law describes what happens, not a prediction to test."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Fact", statement: "An observation verified repeatedly." }],
             steps: [{ reasoning: "Freezing point is repeatedly observed and verified.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Water freezes at 0 °C at sea level",
+            finalAnswer: "**(b)** Water freezes at 0 °C at sea level",
           },
         },
         {
@@ -214,7 +214,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Peer review", statement: "Evaluation of research by independent experts." }],
             steps: [{ reasoning: "Peer review uses expert checking to improve reliability.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Experts check research before publication",
+            finalAnswer: "**(c)** Experts check research before publication",
           },
         },
         {
@@ -296,7 +296,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Provisional knowledge", statement: "Scientific explanations improve when better evidence appears." }],
             steps: [{ reasoning: "Revision is a normal feature of scientific progress.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Scientific knowledge can be revised",
+            finalAnswer: "**(b)** Scientific knowledge can be revised",
           },
         },
         {
@@ -393,7 +393,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Height is measured — it depends on fertiliser amount.", working: "dependent", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Dependent variable",
+            finalAnswer: "**(d)** Dependent variable",
             commonErrors: ["Choosing (b) — fertiliser amount is independent, not height."],
           },
         },
@@ -494,7 +494,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Independent variable", statement: "The factor deliberately changed by the investigator." }],
             steps: [{ reasoning: "Light is the factor being varied.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Amount of light",
+            finalAnswer: "**(d)** Amount of light",
           },
         },
         {
@@ -542,7 +542,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Dependent variable", statement: "The measured response that may depend on the independent variable." }],
             steps: [{ reasoning: "The outcome being measured is dependent.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Dependent variable",
+            finalAnswer: "**(b)** Dependent variable",
           },
         },
         {
@@ -591,7 +591,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Controlled variable", statement: "All factors except the independent variable should be controlled." }],
             steps: [{ reasoning: "If temperature is the variable being tested, it is not controlled; the others can be.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Water temperature",
+            finalAnswer: "**(c)** Water temperature",
           },
         },
         {
@@ -673,7 +673,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Controlled variable", statement: "A factor kept constant so it does not affect the result." }],
             steps: [{ reasoning: "Keeping water constant controls a possible effect.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Same amount of water for every plant",
+            finalAnswer: "**(b)** Same amount of water for every plant",
           },
         },
       ],

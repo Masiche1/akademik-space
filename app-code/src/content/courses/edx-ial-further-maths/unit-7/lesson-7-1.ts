@@ -66,7 +66,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "$\\frac{3+7+8+10+12}{5}=\\frac{40}{5}=8$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $8$",
+            finalAnswer: "**(c)** $8$",
             commonErrors: ["Forgetting to divide by $n$."],
           },
         },
@@ -202,7 +202,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "$P(A\\cap B)=0.5\\times0.4=0.2$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0.2$",
+            finalAnswer: "**(d)** $0.2$",
             commonErrors: ["Adding probabilities instead of multiplying for independent events."],
           },
         },

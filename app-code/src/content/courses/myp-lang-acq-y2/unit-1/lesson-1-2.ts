@@ -61,7 +61,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "The game started at three o'clock." },
               { id: "d", text: "The match was absolutely brilliant." },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -70,7 +70,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'absolutely brilliant' is a judgement; the others are checkable facts.", working: "the match was absolutely brilliant", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** The match was absolutely brilliant.",
+            finalAnswer: "**(d)** The match was absolutely brilliant.",
             commonErrors: ["Choosing a fact with a number — numbers do not make opinions."],
             examinerNote: "B1 for (c).",
           },
@@ -187,7 +187,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — headline and opening paragraph give the main news.", working: "headline + first paragraph", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** In the headline and first paragraph",
+            finalAnswer: "**(c)** In the headline and first paragraph",
             commonErrors: ["Thinking important details only appear at the end."],
             examinerNote: "B1 for (b).",
           },
@@ -214,7 +214,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — opening time can be checked; 'worst' is a judgement.", working: "opens at nine o'clock", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The library opens at nine o'clock.",
+            finalAnswer: "**(d)** The library opens at nine o'clock.",
             commonErrors: ["Choosing a sentence with strong feeling words."],
             examinerNote: "B1 for (b).",
           },
@@ -232,7 +232,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "scored" },
               { id: "d", text: "opened" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -241,7 +241,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'believe' expresses what someone thinks, not a checkable fact.", working: "believe", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** believe",
+            finalAnswer: "**(a)** believe",
             commonErrors: ["Choosing a past-tense verb — tense does not make an opinion."],
             examinerNote: "B1 for (c).",
           },
@@ -387,7 +387,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — the headline names the topic before you read.", working: "the topic", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To tell you the topic of the article",
+            finalAnswer: "**(d)** To tell you the topic of the article",
             commonErrors: ["Thinking a headline must be a question."],
             examinerNote: "B1 for (b).",
           },
@@ -445,7 +445,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — the start time is a specific detail supporting the event.", working: "started at eight", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It started at eight",
+            finalAnswer: "**(a)** It started at eight",
             commonErrors: ["Choosing 'on Saturday' — that is closer to the main news."],
             examinerNote: "B1 for (b).",
           },
@@ -569,7 +569,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — the three parts are beginning/middle/end.", working: "beginning, middle, end", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Beginning, middle, end",
+            finalAnswer: "**(d)** Beginning, middle, end",
             commonErrors: ["Choosing 'problem, solution, moral' — that is a different structure."],
             examinerNote: "B1 for (b).",
           },
@@ -686,7 +686,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — the middle develops the problem/adventure.", working: "problem or adventure", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The problem or adventure",
+            finalAnswer: "**(c)** The problem or adventure",
             commonErrors: ["Thinking the middle only repeats the beginning."],
             examinerNote: "B1 for (b).",
           },
@@ -713,7 +713,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'delighted' is the direct feeling word.", working: "delighted", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** delighted",
+            finalAnswer: "**(c)** delighted",
             commonErrors: ["Choosing 'saw' — that is an action, not a feeling."],
             examinerNote: "B1 for (a).",
           },
@@ -740,7 +740,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — clenched fists + shouting = anger.", working: "angry", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Angry",
+            finalAnswer: "**(d)** Angry",
             commonErrors: ["Guessing 'happy' — the actions are aggressive."],
             examinerNote: "B1 for (b).",
           },
@@ -886,7 +886,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — a summary is short but complete.", working: "main events in order", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A short version keeping only the main events, in order",
+            finalAnswer: "**(a)** A short version keeping only the main events, in order",
             commonErrors: ["Thinking a summary must include every detail."],
             examinerNote: "B1 for (b).",
           },

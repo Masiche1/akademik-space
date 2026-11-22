@@ -43,7 +43,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Cash, bank, discount" },
             { id: "d", text: "Sales, purchases, stock" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "3-col cash book", statement: "Cash+bank+discount." }], steps: [{ reasoning: "Cash, bank, discount.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Cash, bank, discount" },
+          markscheme: { principles: [{ kind: "definition", name: "3-col cash book", statement: "Cash+bank+discount." }], steps: [{ reasoning: "Cash, bank, discount.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Cash, bank, discount" },
         },
         {
           id: "olacc-u4-cb3-q2", difficulty: "core", totalMarks: 2,
@@ -110,7 +110,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Discount given to customers" },
             { id: "d", text: "An accrued expense" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Discount received", statement: "From suppliers — income." }], steps: [{ reasoning: "Discount received comes from suppliers for prompt payment and is income.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Discount from suppliers — income" },
+          markscheme: { principles: [{ kind: "definition", name: "Discount received", statement: "From suppliers — income." }], steps: [{ reasoning: "Discount received comes from suppliers for prompt payment and is income.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Discount from suppliers — income" },
         },
         {
           id: "olacc-u4-cb3-q7", difficulty: "core", totalMarks: 2,
@@ -139,7 +139,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Record only cash sales" },
             { id: "d", text: "Record the discount portion of transactions" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Discount columns", statement: "Discount portion." }], steps: [{ reasoning: "They isolate the discount element of receipts and payments.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Record the discount portion" },
+          markscheme: { principles: [{ kind: "principle", name: "Discount columns", statement: "Discount portion." }], steps: [{ reasoning: "They isolate the discount element of receipts and payments.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Record the discount portion" },
         },
         {
           id: "olacc-u4-cb3-q10", difficulty: "challenge", totalMarks: 4,
@@ -254,7 +254,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Cash in hand" },
             { id: "d", text: "Bank overdraft" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Overdraft", statement: "Credit bank balance." }], steps: [{ reasoning: "Credit balance = overdraft.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Bank overdraft" },
+          markscheme: { principles: [{ kind: "definition", name: "Overdraft", statement: "Credit bank balance." }], steps: [{ reasoning: "Credit balance = overdraft.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Bank overdraft" },
         },
         {
           id: "olacc-u4-cb3b-q2", difficulty: "core", totalMarks: 2,
@@ -310,7 +310,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "A credit balance — a bank overdraft" },
             { id: "d", text: "Cash in hand" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Overdraft", statement: "Credit bank balance." }], steps: [{ reasoning: "Payments exceeding receipts leave a credit balance — an overdraft.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Credit balance — overdraft" },
+          markscheme: { principles: [{ kind: "definition", name: "Overdraft", statement: "Credit bank balance." }], steps: [{ reasoning: "Payments exceeding receipts leave a credit balance — an overdraft.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Credit balance — overdraft" },
         },
         {
           id: "olacc-u4-cb3b-q6", difficulty: "core", totalMarks: 1,
@@ -350,7 +350,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Discount Allowed and Discount Received accounts" },
             { id: "d", text: "The suspense account" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Discount posting", statement: "To discount accounts." }], steps: [{ reasoning: "Discount allowed and received totals post to their respective ledger accounts.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Discount Allowed and Discount Received" },
+          markscheme: { principles: [{ kind: "principle", name: "Discount posting", statement: "To discount accounts." }], steps: [{ reasoning: "Discount allowed and received totals post to their respective ledger accounts.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** Discount Allowed and Discount Received" },
         },
         {
           id: "olacc-u4-cb3b-q10", difficulty: "challenge", totalMarks: 4,
@@ -390,7 +390,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "The bank account in the ledger" },
             { id: "d", text: "The sales account" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Cash book posting", statement: "Balances to ledger." }], steps: [{ reasoning: "The bank column balance posts to the bank ledger account.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** The bank account" },
+          markscheme: { principles: [{ kind: "principle", name: "Cash book posting", statement: "Balances to ledger." }], steps: [{ reasoning: "The bank column balance posts to the bank ledger account.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** The bank account" },
         },
         {
           id: "olacc-u4-cb3b-q14", difficulty: "challenge", totalMarks: 4,

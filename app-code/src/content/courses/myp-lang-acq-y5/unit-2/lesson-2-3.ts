@@ -70,7 +70,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — opening states purpose early.", working: "purpose", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** State the purpose of writing clearly and early",
+            finalAnswer: "**(c)** State the purpose of writing clearly and early",
             commonErrors: ["Burying the request until the end."],
             examinerNote: "D1 for (b).",
           },
@@ -187,7 +187,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — purpose belongs in the first two sentences.", working: "early purpose", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** State the purpose of writing within the first two sentences",
+            finalAnswer: "**(c)** State the purpose of writing within the first two sentences",
             commonErrors: ["Burying the request at the end."],
             examinerNote: "D1 for (b).",
           },
@@ -327,7 +327,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Hey', 'thx' and vague 'need' are informal.", working: "informal", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Sentence B",
+            finalAnswer: "**(d)** Sentence B",
             commonErrors: ["Missing the slang markers."],
             examinerNote: "D1 for (b).",
           },
@@ -426,7 +426,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Cheers, talk soon" },
               { id: "d", text: "Yours sincerely / Yours faithfully" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -435,7 +435,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — standard formal closes are 'Yours sincerely/faithfully'.", working: "formal close", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** Yours sincerely / Yours faithfully",
+            finalAnswer: "**(d)** Yours sincerely / Yours faithfully",
             commonErrors: ["Choosing informal closings."],
             examinerNote: "D1 for (c).",
           },
@@ -505,7 +505,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — overusing 'please' weakens directness; strategic use stays clear.", working: "balance", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** It preserves politeness without weakening clarity",
+            finalAnswer: "**(a)** It preserves politeness without weakening clarity",
             commonErrors: ["Thinking more 'please' equals more politeness."],
             examinerNote: "D1 for (b).",
           },
@@ -563,7 +563,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — audience awareness = appropriate language.", working: "appropriate", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Choosing language appropriate to the reader and purpose",
+            finalAnswer: "**(c)** Choosing language appropriate to the reader and purpose",
             commonErrors: ["Confusing audience awareness with length or complexity."],
             examinerNote: "D1 for (b).",
           },
@@ -680,7 +680,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — register adapts to audience.", working: "adaptation", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Adjusting language to the relationship, purpose and expectations of the reader",
+            finalAnswer: "**(d)** Adjusting language to the relationship, purpose and expectations of the reader",
             commonErrors: ["Using one register for all audiences."],
             examinerNote: "D1 for (b).",
           },
@@ -707,7 +707,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — idioms rely on shared cultural knowledge.", working: "untranslatable", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** They often fail to translate and may confuse or offend",
+            finalAnswer: "**(d)** They often fail to translate and may confuse or offend",
             commonErrors: ["Assuming idioms are universally understood."],
             examinerNote: "D1 for (b).",
           },
@@ -928,7 +928,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — neutral polite language is the lowest-risk option.", working: "neutral+clarify", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Use neutral polite language, avoid idioms, and offer to clarify",
+            finalAnswer: "**(d)** Use neutral polite language, avoid idioms, and offer to clarify",
             commonErrors: ["Choosing familiarity over safety."],
             examinerNote: "D1 for (b).",
           },

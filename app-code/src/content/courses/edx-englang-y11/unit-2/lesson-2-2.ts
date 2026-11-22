@@ -101,7 +101,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Interpreting evidence", statement: "Turn a statistic into an argument by interpreting what it shows." }],
             steps: [{ reasoning: "Reinterpreting 46 per cent as less than half supports the opposing argument and shows critical use of the source.", evidence: "46 per cent supported the plan", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** Reframe it to show a majority did not back the plan.",
+            finalAnswer: "**(b)** Reframe it to show a majority did not back the plan.",
             commonErrors: ["Copying without comment (b).", "Misreading 46 per cent as a majority (d)."],
           },
         },
@@ -232,7 +232,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Report conventions", statement: "Headings, objective language and recommendations." }],
             steps: [{ reasoning: "Reports use headings and recommendations to help decision-makers.", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** Headed sections and a recommendation.",
+            finalAnswer: "**(c)** Headed sections and a recommendation.",
             commonErrors: ["Choosing (d), confusing a report with a blog or speech."],
           },
         },

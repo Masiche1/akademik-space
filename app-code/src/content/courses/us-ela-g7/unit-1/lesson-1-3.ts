@@ -140,7 +140,7 @@ export const lesson13: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The other choices are facts known to everyone in the story.",
+              "**(a)**. The other choices are facts known to everyone in the story.",
             commonErrors: ["Choosing an answer that is simply a plot fact."],
           },
         },
@@ -461,7 +461,7 @@ export const lesson13: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. The Keeper is already known, no new character appears, and the tone is ominous rather than funny.",
+              "**(c)**. The Keeper is already known, no new character appears, and the tone is ominous rather than funny.",
             commonErrors: ["Choosing (b) because polishing is mentioned."],
           },
         },

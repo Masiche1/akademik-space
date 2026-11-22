@@ -57,7 +57,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Heading" },
               { id: "d", text: "Chapter" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -66,7 +66,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Poems are made of lines grouped into stanzas.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Stanza",
+            finalAnswer: "**(a)** Stanza",
             commonErrors: ["Choosing 'paragraph' — paragraphs belong to prose, not poems."],
           },
         },
@@ -93,7 +93,7 @@ export const lesson22: Lesson = {
               { reasoning: "Sun and run end with the same sound '-un'.", marks: 1, markCode: "M" },
               { reasoning: "The other pairs do not share an ending sound.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Sun and run",
+            finalAnswer: "**(d)** Sun and run",
             commonErrors: ["Choosing words that start with the same letter — rhyme is about ending sounds."],
           },
         },
@@ -174,7 +174,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Cat and hat share the ending sound — that is rhyme.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Rhyme",
+            finalAnswer: "**(a)** Rhyme",
             commonErrors: ["Choosing 'rhythm' — rhythm is the beat, rhyme is the matching sounds."],
           },
         },
@@ -301,7 +301,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Moon and spoon both end with the '-oon' sound; the others do not rhyme.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Moon and spoon",
+            finalAnswer: "**(b)** Moon and spoon",
             commonErrors: ["Choosing words that share a letter — rhyme is about sounds, not spelling."],
           },
         },
@@ -365,7 +365,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Both stanzas and paragraphs group related lines or sentences together.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A paragraph",
+            finalAnswer: "**(c)** A paragraph",
             commonErrors: ["Choosing 'a character' — a stanza is about layout, not people."],
           },
         },
@@ -391,7 +391,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "The beat you clap along to is rhythm.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Rhythm",
+            finalAnswer: "**(d)** Rhythm",
             commonErrors: ["Choosing 'rhyme' — rhyme is matching sounds, not the beat."],
           },
         },
@@ -479,7 +479,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Facts about dolphins with title and pictures = a report.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Report",
+            finalAnswer: "**(a)** Report",
             commonErrors: ["Choosing 'story' — stories are made up; reports give true facts."],
           },
         },
@@ -583,7 +583,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Recounts are real events in order — not made up, not just facts, not steps.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Retells real events in time order",
+            finalAnswer: "**(a)** Retells real events in time order",
             commonErrors: ["Choosing (d) — steps to follow are instructions, not a recount."],
           },
         },
@@ -710,7 +710,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "A report about sharks gives true facts — non-fiction. The others are made up or poems.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A report about sharks with facts",
+            finalAnswer: "**(c)** A report about sharks with facts",
             commonErrors: ["Choosing (c) — poems are not non-fiction texts in this sense."],
           },
         },
@@ -774,7 +774,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "'Last Monday we went to...' gives when and what happened — a recount opening.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'Last Monday we went to...'",
+            finalAnswer: "**(c)** 'Last Monday we went to...'",
             commonErrors: ["Choosing (a) — 'once upon a time' is for made-up stories, not recounts."],
           },
         },
@@ -800,7 +800,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "(b) states general facts about dogs; the others are a story, steps or nonsense.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 'Dogs are popular pets that need food, water and exercise.'",
+            finalAnswer: "**(c)** 'Dogs are popular pets that need food, water and exercise.'",
             commonErrors: ["Choosing (a) — that is a personal story, a recount or narrative, not a report."],
           },
         },

@@ -60,7 +60,7 @@ export const lesson63: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Polar area", statement: "$A=\\frac12\\int r^2\\,d\\theta$." }],
             steps: [{ reasoning: "Sector area $\\frac12r^2d\\theta$ integrated.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\frac12\\int r^2\\,d\\theta$",
+            finalAnswer: "**(b)** $\\frac12\\int r^2\\,d\\theta$",
           },
         },
         {
@@ -176,7 +176,7 @@ export const lesson63: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Arc length", statement: "$ds=\\sqrt{r^2+r'^2}\\,d\\theta$." }],
             steps: [{ reasoning: "From $x=r\\cos\\theta,y=r\\sin\\theta$ differentiation.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\sqrt{r^2+r'^2}\\,d\\theta$",
+            finalAnswer: "**(d)** $\\sqrt{r^2+r'^2}\\,d\\theta$",
           },
         },
         {

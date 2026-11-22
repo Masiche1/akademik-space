@@ -73,7 +73,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The point is the same distance from the $y$-axis on the other side, so only $x$ changes sign.", working: "(3,2)\\to(-3,2)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $(-3,2)$",
+            finalAnswer: "**(c)** $(-3,2)$",
             commonErrors: ["Reflecting in the $x$-axis instead (answer a).", "Changing both signs, which is a rotation of $180^\\circ$ (answer c).", "Swapping the coordinates, which is a reflection in $y=x$ (answer d)."],
           },
         },
@@ -191,7 +191,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Reflection in the $x$-axis changes the sign of $y$ only.", working: "(-4,3)\\to(-4,-3)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(-4,-3)$",
+            finalAnswer: "**(d)** $(-4,-3)$",
             commonErrors: ["Changing the $x$-coordinate instead (answer b).", "Changing both signs, a $180^\\circ$ rotation (answer c)."],
           },
         },
@@ -540,7 +540,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "They are equal because they are corresponding angles." },
               { id: "d", text: "They are equal because they are alternate angles." },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -549,7 +549,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Angles between the parallel lines on the same side of the transversal are co-interior, and they add up to $180^\\circ$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** They add up to $180^\\circ$ because they are co-interior angles.",
+            finalAnswer: "**(b)** They add up to $180^\\circ$ because they are co-interior angles.",
             commonErrors: ["Confusing co-interior angles with alternate or corresponding angles, which are equal."],
           },
         },
@@ -725,7 +725,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Scale factor $=10\\div4=2.5$; other side $=6\\times2.5=15$.", working: "6\\times2.5=15", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $15\\ \\text{cm}$",
+            finalAnswer: "**(c)** $15\\ \\text{cm}$",
             commonErrors: ["Adding 6 to 10 to get 16 (answer a).", "Using scale factor $\\frac45$ and dividing (answer d)."],
             examinerNote: "B1 for choice (b).",
           },
@@ -807,7 +807,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "The corresponding angle" },
               { id: "d", text: "The vertically opposite angle" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -816,7 +816,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Corresponding, alternate and vertically opposite angles equal $65^\\circ$; the co-interior angle equals $180-65=115^\\circ$.", working: "180-65=115", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** The co-interior angle on the same side",
+            finalAnswer: "**(a)** The co-interior angle on the same side",
             commonErrors: ["Confusing co-interior with alternate angles."],
           },
         },

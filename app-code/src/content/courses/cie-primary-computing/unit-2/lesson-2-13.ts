@@ -230,7 +230,7 @@ export const lesson213: Lesson = {
             steps: [
               { reasoning: "A specification lists what the program must do before building starts.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Written description of requirements",
+            finalAnswer: "**(d)** Written description of requirements",
           },
         },
         {
@@ -265,7 +265,7 @@ export const lesson213: Lesson = {
               { reasoning: "Bugs found in testing mean going back to build/fix, then retest.", marks: 1, markCode: "M" },
               { reasoning: "The cycle repeats until evaluation is satisfactory.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Build — fix then retest",
+            finalAnswer: "**(d)** Build — fix then retest",
           },
         },
         {
@@ -284,7 +284,7 @@ export const lesson213: Lesson = {
             steps: [
               { reasoning: "Evaluation = checking the finished program against the spec and user needs.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Judging against the specification",
+            finalAnswer: "**(b)** Judging against the specification",
           },
         },
         {
@@ -320,7 +320,7 @@ export const lesson213: Lesson = {
               { reasoning: "Feedback comes from evaluation; it triggers another design/build cycle.", marks: 1, markCode: "M" },
               { reasoning: "Revise the spec/design (harder levels) and rebuild.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Evaluation → redesign and rebuild",
+            finalAnswer: "**(d)** Evaluation → redesign and rebuild",
           },
         },
         {
@@ -371,7 +371,7 @@ export const lesson213: Lesson = {
               { reasoning: "Problems found in testing go back to build/design to fix.", marks: 1, markCode: "M" },
               { reasoning: "Adjust speed, retest, re-evaluate.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Back to build/design, then retest",
+            finalAnswer: "**(c)** Back to build/design, then retest",
           },
         },
         {

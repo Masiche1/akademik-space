@@ -65,7 +65,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "A criterion is an objective standard for comparison.", working: "\\text{objective}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Student-teacher ratio",
+            finalAnswer: "**(c)** Student-teacher ratio",
             commonErrors: ["Choosing (a) — preference is not a criterion."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson52: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Point-by-point", statement: "Comparing criterion by criterion keeps treatment balanced and analysis clear." }],
             steps: [{ reasoning: "Point-by-point alternates subjects under each criterion — balanced and easy to analyse.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Point-by-point (criterion by criterion)",
+            finalAnswer: "**(c)** Point-by-point (criterion by criterion)",
             commonErrors: ["Choosing (a) — subject-by-subject risks imbalance in detailed comparisons."],
           },
         },
@@ -217,7 +217,7 @@ export const lesson52: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Comparison vs analysis", statement: "Comparison identifies differences; analysis explains their significance." }],
             steps: [{ reasoning: "Only (b) explains WHY the price difference matters — market access.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Phone A's lower price makes it accessible to budget buyers, widening its potential market.",
+            finalAnswer: "**(c)** Phone A's lower price makes it accessible to budget buyers, widening its potential market.",
             commonErrors: ["Choosing (a) or (c) — those state differences without explaining significance."],
           },
         },
@@ -272,7 +272,7 @@ export const lesson52: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Criteria", statement: "Criteria are the agreed features used to compare subjects fairly." }],
             steps: [{ reasoning: "Criteria are the measuring standards — price, quality, etc. — applied to both subjects.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** The standards or features used to judge both subjects",
+            finalAnswer: "**(c)** The standards or features used to judge both subjects",
             commonErrors: ["Choosing (a) — preference is not a criterion; fairness requires neutral standards."],
           },
         },
@@ -324,7 +324,7 @@ export const lesson52: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Significance", statement: "Significance explains why a difference matters in real terms." }],
             steps: [{ reasoning: "(b) links the price difference to affordability and learning access — real-world significance.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Phone A's lower price means students on tight budgets can afford it, widening access to smartphone learning.",
+            finalAnswer: "**(d)** Phone A's lower price means students on tight budgets can afford it, widening access to smartphone learning.",
             commonErrors: ["Choosing (a) — stating the difference is comparison, not significance."],
           },
         },
@@ -438,7 +438,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Analysis begins with the whole, then breaks into parts.", working: "\\text{whole first}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Introduce the whole you will analyse",
+            finalAnswer: "**(c)** Introduce the whole you will analyse",
             commonErrors: ["Choosing (a) — analysis is objective, not opinion-led."],
           },
         },
@@ -534,12 +534,12 @@ export const lesson52: Lesson = {
               { id: "c", text: "List examples" },
               { id: "d", text: "Examine the parts" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Analytical structure", statement: "Introduce whole → examine parts → synthesise." }],
             steps: [{ reasoning: "Synthesis — explaining how parts create the whole — closes the analysis.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(c)** Synthesise the significance",
+            finalAnswer: "**(b)** Synthesise the significance",
             commonErrors: ["Choosing (b) — examining parts is the middle step, not the last."],
           },
         },
@@ -599,7 +599,7 @@ export const lesson52: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Analytical language", statement: "'On one hand... on the other' signals balanced consideration of aspects." }],
             steps: [{ reasoning: "Balanced analytical phrasing weighs aspects without asserting opinion.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** On one hand... on the other hand...",
+            finalAnswer: "**(d)** On one hand... on the other hand...",
             commonErrors: ["Choosing (c) — analysis is objective; 'in my opinion' signals argument, not analysis."],
           },
         },
@@ -652,7 +652,7 @@ export const lesson52: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Synthesis", statement: "Synthesis explains how analysed parts combine to produce the whole." }],
             steps: [{ reasoning: "Synthesis is the final move — relating parts to the whole's significance.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Explaining how the parts create the whole and why it matters",
+            finalAnswer: "**(c)** Explaining how the parts create the whole and why it matters",
             commonErrors: ["Choosing (a) — listing parts is decomposition, not synthesis."],
           },
         },
@@ -704,7 +704,7 @@ export const lesson52: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Synthesis", statement: "Synthesis relates parts to the whole and draws the analytical conclusion." }],
             steps: [{ reasoning: "(b) relates the components to the overall pattern and its implication — the whole, not one part.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Because transport, engagement and family responsibilities interact, solutions must address several components at once.",
+            finalAnswer: "**(d)** Because transport, engagement and family responsibilities interact, solutions must address several components at once.",
             commonErrors: ["Choosing (a) — that describes one component's effect, not the whole."],
           },
         },

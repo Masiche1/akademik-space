@@ -153,7 +153,7 @@ export const lesson213: Lesson = {
             { id: "b", text: "100°" },
             { id: "c", text: "720°" },
             { id: "d", text: "108°" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Regular polygon", statement: "Divide sum by number of sides." }],
             steps: [{ reasoning: "$720 \\div 6 = 120°$.", marks: 1, markCode: "A" }],

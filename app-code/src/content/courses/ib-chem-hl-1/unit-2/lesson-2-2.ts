@@ -121,7 +121,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $sp^3$",
+            finalAnswer: "**(c)** $sp^3$",
             commonErrors: [
               "Choosing $sp^2$ — that requires 3 domains, e.g. trigonal planar.",
             ],
@@ -356,7 +356,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $sp^2$",
+            finalAnswer: "**(a)** $sp^2$",
             commonErrors: [
               "Counting three bonds plus thinking boron has a lone pair — it does not.",
             ],
@@ -399,7 +399,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** BeCl$_2$",
+            finalAnswer: "**(c)** BeCl$_2$",
             commonErrors: [
               "Choosing CO$_2$-like reasoning for NH$_3$ — the lone pair still counts as a domain.",
             ],
@@ -596,7 +596,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $sp^3$ with lone pair in a hybrid orbital",
+            finalAnswer: "**(b)** $sp^3$ with lone pair in a hybrid orbital",
             commonErrors: [
               "Excluding the lone pair from the domain count and choosing $sp^2$.",
             ],
@@ -639,7 +639,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $sp$",
+            finalAnswer: "**(d)** $sp$",
             commonErrors: ["Counting the triple bond as three domains."],
           },
         },
@@ -903,7 +903,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $sp$",
+            finalAnswer: "**(b)** $sp$",
             commonErrors: ["Counting each C=O as two domains."],
           },
         },
@@ -1036,7 +1036,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** 1$\\sigma$ + 1$\\pi$",
+            finalAnswer: "**(c)** 1$\\sigma$ + 1$\\pi$",
             commonErrors: [
               "Saying two $\\sigma$ bonds — the second bond is always $\\pi$.",
             ],
@@ -1270,7 +1270,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** 1$\\sigma$ + 2$\\pi$",
+            finalAnswer: "**(d)** 1$\\sigma$ + 2$\\pi$",
             commonErrors: [
               "Saying three $\\sigma$ bonds — only the first bond is $\\sigma$.",
             ],
@@ -1290,7 +1290,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Propane (two C–C single bonds)" },
               { id: "d", text: "Ethene (C=C double bond)" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1313,7 +1313,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Ethyne",
+            finalAnswer: "**(a)** Ethyne",
             commonErrors: [
               "Thinking more atoms makes a shorter bond — bond order is what matters.",
             ],
@@ -1806,7 +1806,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** But-2-ene",
+            finalAnswer: "**(b)** But-2-ene",
             commonErrors: [
               "Choosing propene — its terminal CH$_2$ has two identical H atoms.",
             ],

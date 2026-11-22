@@ -100,7 +100,7 @@ export const lesson73: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Personal spirituality without organised religion",
+              "**(d)** Personal spirituality without organised religion",
             commonErrors: ["Confusing with atheism."],
           },
         },
@@ -282,7 +282,7 @@ export const lesson73: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Strict adherence to traditional religious beliefs",
+              "**(d)** Strict adherence to traditional religious beliefs",
             commonErrors: ["Confusing with secularism."],
           },
         },
@@ -333,7 +333,7 @@ export const lesson73: Lesson = {
               { id: "c", text: "Only political" },
               { id: "d", text: "Extinct" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -351,7 +351,7 @@ export const lesson73: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Declining in the West but strong in the Global South",
+              "**(b)** Declining in the West but strong in the Global South",
             commonErrors: ["Overgeneralising decline."],
           },
         },
@@ -408,7 +408,7 @@ export const lesson73: Lesson = {
                 text: "Multiple religious traditions coexist",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -426,7 +426,7 @@ export const lesson73: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Multiple religious traditions coexist",
+              "**(d)** Multiple religious traditions coexist",
             commonErrors: ["Confusing with tolerance."],
           },
         },
@@ -477,7 +477,7 @@ export const lesson73: Lesson = {
               { id: "c", text: "Disappear completely" },
               { id: "d", text: "Only intensify" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -495,7 +495,7 @@ export const lesson73: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Moderate to appeal broadly or intensify to retain core followers",
+              "**(b)** Moderate to appeal broadly or intensify to retain core followers",
             commonErrors: ["One-sided answer."],
           },
         },
@@ -552,7 +552,7 @@ export const lesson73: Lesson = {
               { id: "c", text: "Scientific beliefs" },
               { id: "d", text: "Ancient rituals only" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -570,7 +570,7 @@ export const lesson73: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Combining elements from different traditions",
+              "**(a)** Combining elements from different traditions",
             commonErrors: ["Confusing with single tradition."],
           },
         },
@@ -692,7 +692,7 @@ export const lesson73: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** It shapes values, identity and politics",
+              "**(d)** It shapes values, identity and politics",
             commonErrors: ["Assuming decline = disappearance."],
           },
         },

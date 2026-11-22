@@ -55,11 +55,11 @@ export const lesson121: Lesson = {
             { id: "b", text: "Proton" },
             { id: "c", text: "Neutron" },
             { id: "d", text: "Electron" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "Subatomic particles", statement: "Electron −1, proton +1, neutron 0." }],
             steps: [{ reasoning: "Recall charges.", working: "e^- = -1", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Electron",
+            finalAnswer: "**(d)** Electron",
             commonErrors: ["Confusing proton (+1) with electron (−1)."],
           },
         },
@@ -305,7 +305,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Mass number", statement: "$A = \\text{protons} + \\text{neutrons}$." }],
             steps: [{ reasoning: "Mass number counts nucleons in the nucleus.", working: "A = p + n", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Number of protons plus neutrons",
+            finalAnswer: "**(c)** Number of protons plus neutrons",
             commonErrors: ["Confusing mass number with atomic number."],
           },
         },
@@ -319,11 +319,11 @@ export const lesson121: Lesson = {
             { id: "b", text: "$18$" },
             { id: "c", text: "$12$" },
             { id: "d", text: "$20$" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "Electron arrangement", statement: "Total electrons equal atomic number in a neutral atom." }],
             steps: [{ reasoning: "Add all shell electrons.", working: "2 + 8 + 8 + 2 = 20", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** $20$",
+            finalAnswer: "**(d)** $20$",
             commonErrors: ["Counting only the outer-shell electrons."],
           },
         },
@@ -390,7 +390,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Groups", statement: "Same outer electrons → similar chemistry." }],
             steps: [{ reasoning: "Recall rule.", working: "\\text{outer e}^-", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Number of outer electrons",
+            finalAnswer: "**(d)** Number of outer electrons",
             commonErrors: ["Choosing shells — that's period, not group."],
           },
         },
@@ -469,7 +469,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Periods", statement: "Period number equals the number of occupied shells." }],
             steps: [{ reasoning: "Recall the periodic-table rule.", working: "\\text{period} = \\text{shells}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Number of occupied electron shells",
+            finalAnswer: "**(a)** Number of occupied electron shells",
             commonErrors: ["Confusing period with group."],
           },
         },
@@ -522,7 +522,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Groups", statement: "Elements in the same group have the same outer-electron number." }],
             steps: [{ reasoning: "Magnesium and calcium both have two outer electrons.", working: "Mg \\text{ and } Ca \\to \\text{Group } 2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Calcium",
+            finalAnswer: "**(c)** Calcium",
             commonErrors: ["Choosing sodium because both are metals, not because they share a group."],
           },
         },
@@ -577,7 +577,7 @@ export const lesson121: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Noble gases", statement: "A full outer shell is stable, so no electron transfer is needed." }],
             steps: [{ reasoning: "Group 18 atoms already have stable full outer shells.", working: "\\text{full shell} \\to \\text{stable}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** They have full outer shells",
+            finalAnswer: "**(c)** They have full outer shells",
             commonErrors: ["Saying noble gases have no electrons."],
           },
         },

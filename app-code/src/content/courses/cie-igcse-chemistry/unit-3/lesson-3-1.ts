@@ -60,7 +60,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Mole", statement: "6.02×10²³ particles (Avogadro)." }],
             steps: [{ reasoning: "Recall definition.", working: "N_A = 6.02 \\times 10^{23}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 6.02 × 10²³ particles",
+            finalAnswer: "**(d)** 6.02 × 10²³ particles",
             commonErrors: ["Confusing mole with gram."],
           },
         },
@@ -194,7 +194,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Equation ratios", statement: "Coefficients give mole ratio." }],
             steps: [{ reasoning: "Read coefficients 2 and 1.", working: "2:1", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 2 : 1",
+            finalAnswer: "**(d)** 2 : 1",
             commonErrors: ["Including the coefficient of MgO instead of O₂."],
           },
         },
@@ -254,7 +254,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Avogadro's law", statement: "Equal moles of gas occupy equal volumes at same T and P." }],
             steps: [{ reasoning: "Recall molar volume.", working: "V_m = 24\\ \\text{dm}^3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Volume",
+            finalAnswer: "**(c)** Volume",
             commonErrors: ["Confusing mass (varies) with volume (fixed)."],
           },
         },
@@ -309,7 +309,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Avogadro constant", statement: "6.02 × 10²³ mol⁻¹." }],
             steps: [{ reasoning: "Recall value.", working: "N_A = 6.02 \\times 10^{23}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 6.02 × 10²³",
+            finalAnswer: "**(d)** 6.02 × 10²³",
             commonErrors: ["Mixing up powers of ten."],
           },
         },
@@ -411,7 +411,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Indicator", statement: "Colour change = endpoint." }],
             steps: [{ reasoning: "Recall purpose.", working: "\\text{endpoint}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The endpoint of neutralisation",
+            finalAnswer: "**(a)** The endpoint of neutralisation",
             commonErrors: ["Saying 'start' — it marks completion."],
           },
         },
@@ -492,7 +492,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "n = cV", statement: "c in mol/dm³ so V must be in dm³." }],
             steps: [{ reasoning: "Concentration is per dm³, so volume must be in dm³.", working: "V \\text{ in dm}^3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** dm³",
+            finalAnswer: "**(c)** dm³",
             commonErrors: ["Using cm³ without converting to dm³."],
           },
         },
@@ -529,7 +529,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Percentage yield", statement: "Actual < theoretical due to losses, incomplete reaction or side reactions." }],
             steps: [{ reasoning: "Product can be lost in transfer and side reactions reduce yield.", working: "\\text{losses} \\rightarrow \\%\\text{yield} < 100", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Some product is lost or side reactions occur",
+            finalAnswer: "**(c)** Some product is lost or side reactions occur",
             commonErrors: ["Saying yield can exceed 100% — it cannot."],
           },
         },
@@ -566,7 +566,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Limiting reactant", statement: "Reactant used up first; sets maximum product." }],
             steps: [{ reasoning: "Recall definition.", working: "\\text{used up first}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** is completely used up first",
+            finalAnswer: "**(a)** is completely used up first",
             commonErrors: ["Confusing limiting reactant with the excess reactant."],
           },
         },
@@ -643,7 +643,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Titration", statement: "The burette holds the solution of known concentration (the titrant)." }],
             steps: [{ reasoning: "The burette measures variable volume of the known solution.", working: "\\text{burette} = \\text{known}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The solution of known concentration",
+            finalAnswer: "**(a)** The solution of known concentration",
             commonErrors: ["Putting the unknown in the burette — the pipette delivers the fixed unknown volume."],
           },
         },
@@ -680,7 +680,7 @@ export const lesson131: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "% yield", statement: "actual ÷ theoretical × 100." }],
             steps: [{ reasoning: "Recall the formula.", working: "\\%\\text{yield} = \\frac{\\text{actual}}{\\text{theoretical}} \\times 100", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** (actual yield ÷ theoretical yield) × 100",
+            finalAnswer: "**(c)** (actual yield ÷ theoretical yield) × 100",
             commonErrors: ["Inverting the ratio."],
           },
         },

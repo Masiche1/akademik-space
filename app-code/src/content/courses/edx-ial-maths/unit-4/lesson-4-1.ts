@@ -65,7 +65,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "$1(3)+0(1)+2(-1)=3-2=1$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $1$",
+            finalAnswer: "**(b)** $1$",
             commonErrors: ["Arithmetic slips on the third component."],
           },
         },

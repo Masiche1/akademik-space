@@ -217,7 +217,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Selecting accurately", statement: "Match each detail to the correct source." }],
             steps: [{ reasoning: "Source A has the shared cabin and porthole; Source B has the cafes and gift shop.", evidence: "a floating shopping centre with a gift shop", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** The cabin belongs to Source A and the cafes to Source B.",
+            finalAnswer: "**(b)** The cabin belongs to Source A and the cafes to Source B.",
             commonErrors: ["Mixing up the crew member (B) and the sailor (A)."],
           },
         },

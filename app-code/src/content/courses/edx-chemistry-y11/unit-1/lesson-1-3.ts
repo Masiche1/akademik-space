@@ -58,7 +58,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "The concentrations of reactants and products are equal" },
               { id: "d", text: "The forward and reverse reactions happen at the same rate" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -67,7 +67,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "At equilibrium both reactions continue at equal rates. The reactions have not stopped, and the concentrations are constant but not necessarily equal.", working: "\\text{rate}_{\\text{forward}} = \\text{rate}_{\\text{reverse}}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** The forward and reverse reactions happen at the same rate",
+            finalAnswer: "**(d)** The forward and reverse reactions happen at the same rate",
             commonErrors: ["Thinking the reactions stop at equilibrium.", "Thinking the concentrations must be equal."],
             examinerNote: "B1 for (c).",
           },
@@ -200,7 +200,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Iron is the catalyst for ammonia manufacture. Vanadium(V) oxide is used in the Contact process.", working: "\\text{iron}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Iron",
+            finalAnswer: "**(a)** Iron",
             commonErrors: ["Choosing vanadium(V) oxide, the catalyst in the Contact process."],
             examinerNote: "B1 for iron.",
           },

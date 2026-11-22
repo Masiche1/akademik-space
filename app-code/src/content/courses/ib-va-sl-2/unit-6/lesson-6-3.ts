@@ -70,7 +70,7 @@ export const lesson63: Lesson = {
               { reasoning: "Reflective commentary documents and analyses artistic growth and learning.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Document and analyse artistic growth and learning",
+            finalAnswer: "**(d)** Document and analyse artistic growth and learning",
             commonErrors: [
               "Writing a diary or list rather than analytical reflection.",
             ],
@@ -171,7 +171,7 @@ export const lesson63: Lesson = {
               { reasoning: "It documents and analyses growth, challenges and learning.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Structured evidence of artistic development and learning",
+            finalAnswer: "**(c)** Structured evidence of artistic development and learning",
             commonErrors: [
               "Writing a diary or inventory instead of analysis.",
             ],
@@ -222,7 +222,7 @@ export const lesson63: Lesson = {
               { reasoning: "The other options are general feelings without evidence.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'My March portrait shows accurate proportions, unlike my September attempt.'",
+            finalAnswer: "**(d)** 'My March portrait shows accurate proportions, unlike my September attempt.'",
             commonErrors: [
               "Confusing enthusiasm with evidence of development.",
             ],
@@ -274,7 +274,7 @@ export const lesson63: Lesson = {
               { reasoning: "Choice (b) captures the analysis requirement.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** What went wrong and what was learned from it",
+            finalAnswer: "**(c)** What went wrong and what was learned from it",
             commonErrors: [
               "Presenting only successes to appear more competent.",
             ],
@@ -328,7 +328,7 @@ export const lesson63: Lesson = {
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
               { reasoning: "Honesty about difficulty is itself evidence of critical thinking.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(b)** Struggle, honest analysis and clear learning",
+            finalAnswer: "**(c)** Struggle, honest analysis and clear learning",
             commonErrors: [
               "Equating a long commentary with a strong one.",
             ],
@@ -383,7 +383,7 @@ export const lesson63: Lesson = {
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
               { reasoning: "The arc mirrors how artists actually develop.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(b)** Intention → process → challenges → breakthroughs → learning",
+            finalAnswer: "**(a)** Intention → process → challenges → breakthroughs → learning",
             commonErrors: [
               "Organising reflection chronologically without analytical framing.",
             ],
@@ -444,7 +444,7 @@ export const lesson63: Lesson = {
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
               { reasoning: "Documentation without reflection is incomplete; reflection without documentation is unverifiable.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(b)** Evidence of thinking, experimentation and development",
+            finalAnswer: "**(c)** Evidence of thinking, experimentation and development",
             commonErrors: [
               "Treating process documentation as optional decoration.",
             ],
@@ -530,7 +530,7 @@ export const lesson63: Lesson = {
               { reasoning: "SL assessment comprises comparative study, exhibition and reflective portfolio.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Comparative study, exhibition and reflective portfolio",
+            finalAnswer: "**(d)** Comparative study, exhibition and reflective portfolio",
             commonErrors: [
               "Assuming assessment is only practical or only written.",
             ],
@@ -631,7 +631,7 @@ export const lesson63: Lesson = {
               { reasoning: "Sketchbooks and process records are required evidence of practice.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Process documentation such as sketchbook pages",
+            finalAnswer: "**(a)** Process documentation such as sketchbook pages",
             commonErrors: [
               "Assuming finished pieces alone satisfy portfolio requirements.",
             ],
@@ -682,7 +682,7 @@ export const lesson63: Lesson = {
               { reasoning: "Photographs are the standard means of preserving and presenting such work.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Three-dimensional or temporary work that cannot be shown directly",
+            finalAnswer: "**(d)** Three-dimensional or temporary work that cannot be shown directly",
             commonErrors: [
               "Forgetting to document work that cannot be physically submitted.",
             ],
@@ -734,7 +734,7 @@ export const lesson63: Lesson = {
               { reasoning: "Choice (b) matches this function.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Explain the artist's practice, intentions and development",
+            finalAnswer: "**(a)** Explain the artist's practice, intentions and development",
             commonErrors: [
               "Writing a materials list or biography instead of a statement of practice.",
             ],
@@ -788,7 +788,7 @@ export const lesson63: Lesson = {
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
               { reasoning: "It is curated evidence, not a container or record of grades.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(b)** The artist's professional identity and evidence of sustained practice",
+            finalAnswer: "**(a)** The artist's professional identity and evidence of sustained practice",
             commonErrors: [
               "Treating the portfolio as an archive rather than a curated presentation.",
             ],
@@ -843,7 +843,7 @@ export const lesson63: Lesson = {
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
               { reasoning: "Single-dimension checks miss gaps in evidence.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(b)** Range, growth, process evidence and presentation",
+            finalAnswer: "**(c)** Range, growth, process evidence and presentation",
             commonErrors: [
               "Reviewing only the visual quality of finished pieces.",
             ],
@@ -904,7 +904,7 @@ export const lesson63: Lesson = {
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
               { reasoning: "Feedback improves quality but does not guarantee marks.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(b)** Reveals gaps and presentation issues early",
+            finalAnswer: "**(d)** Reveals gaps and presentation issues early",
             commonErrors: [
               "Assuming feedback guarantees outcomes rather than improving them.",
             ],

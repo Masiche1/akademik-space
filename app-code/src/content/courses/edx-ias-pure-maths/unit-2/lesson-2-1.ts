@@ -66,7 +66,7 @@ export const lesson21: Lesson = {
               { reasoning: "By the remainder theorem $f(1)=11$: $1+p+q+6=11$.", working: "p+q+7=11", marks: 1, markCode: "M" },
               { reasoning: "Solve for $p+q$.", working: "p+q=4", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $4$",
+            finalAnswer: "**(c)** $4$",
             commonErrors: ["Using $f(-1)$ instead of $f(1)$.", "Arithmetic slips in $f(1)$."],
           },
         },

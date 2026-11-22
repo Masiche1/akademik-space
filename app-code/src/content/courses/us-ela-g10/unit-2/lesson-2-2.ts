@@ -109,7 +109,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Source D, the blog post" },
               { id: "d", text: "Source C, the diary entry" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -130,7 +130,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** The diary is a first-hand account. The others make arguments or interpret research, though they are not diaries of lived experience.",
+              "**(d)** The diary is a first-hand account. The others make arguments or interpret research, though they are not diaries of lived experience.",
             commonErrors: [
               "Choosing (b) because it has data; the report summarizes and interprets a study, which is more of a secondary account.",
             ],
@@ -182,7 +182,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The medium (a) and date (c) alone do not make a source unreliable, and (d) is simply the topic. The missing evidence and dismissal of experts are the real warning signs.",
+              "**(c)** The medium (a) and date (c) alone do not make a source unreliable, and (d) is simply the topic. The missing evidence and dismissal of experts are the real warning signs.",
             commonErrors: [
               "Choosing (c): the year matters less here than the lack of support.",
             ],
@@ -472,7 +472,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The draft names the study, so (c) is wrong, and a statistic is a strength, so (d) is wrong.",
+              "**(a)** The draft names the study, so (c) is wrong, and a statistic is a strength, so (d) is wrong.",
             commonErrors: [
               "Choosing (c), although the draft does name the Brightwater center.",
             ],

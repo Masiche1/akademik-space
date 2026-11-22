@@ -231,7 +231,7 @@ export const lesson19: Lesson = {
             steps: [
               { reasoning: "A network links devices so they can communicate and share.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Devices connected together so they can share data",
+            finalAnswer: "**(b)** Devices connected together so they can share data",
           },
         },
         {
@@ -367,7 +367,7 @@ export const lesson19: Lesson = {
               { reasoning: "A device is on a network only when connected to others.", marks: 1, markCode: "M" },
               { reasoning: "A standalone calculator connects to nothing, so it is not on a network.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** No — it is not connected to any other device",
+            finalAnswer: "**(b)** No — it is not connected to any other device",
           },
         },
         {

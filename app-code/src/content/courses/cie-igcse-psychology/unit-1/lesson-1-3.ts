@@ -469,7 +469,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "The id" },
               { id: "d", text: "The unconscious" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -504,7 +504,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Psychodynamic approach" },
               { id: "d", text: "All equally" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

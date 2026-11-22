@@ -125,7 +125,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The claim is that school should start later, supported by the focus argument.",
+              "**(d)**. The claim is that school should start later, supported by the focus argument.",
             commonErrors: [
               "Choosing (a) — tiredness is evidence, not the claim itself.",
             ],
@@ -379,7 +379,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Both supporting claims and testing evidence are valuable discussion moves.",
+              "**(a)**. Both supporting claims and testing evidence are valuable discussion moves.",
             commonErrors: [
               "Thinking 'both moves' means both students should agree with each other.",
             ],

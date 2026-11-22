@@ -112,7 +112,7 @@ export const lesson93: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. The questions — know what to look for.",
+            finalAnswer: "**(d)**. The questions — know what to look for.",
             commonErrors: [
               "Reading passage first — wastes time on irrelevant details.",
             ],
@@ -552,7 +552,7 @@ export const lesson93: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Categorize your errors.",
+            finalAnswer: "**(a)**. Categorize your errors.",
             commonErrors: ["Just checking score without analysis."],
           },
         },

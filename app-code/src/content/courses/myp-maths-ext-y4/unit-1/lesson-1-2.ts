@@ -70,7 +70,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$3.7\\pm0.05$: lower 3.65, upper 3.75.", working: "3.65\\text{ and }3.75", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 3.65 kg and 3.75 kg",
+            finalAnswer: "**(c)** 3.65 kg and 3.75 kg",
             commonErrors: ["Using $\\pm0.1$ instead of $\\pm0.05$."],
             examinerNote: "B1 for (a).",
           },
@@ -185,7 +185,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$2.5\\pm0.05$: lower 2.45, upper 2.55 s.", working: "2.45\\text{ and }2.55", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 2.45 s and 2.55 s",
+            finalAnswer: "**(b)** 2.45 s and 2.55 s",
             commonErrors: ["Using $\\pm0.1$ instead of $\\pm0.05$."],
             examinerNote: "B1 for (a).",
           },
@@ -522,7 +522,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Place values: 8, 4, 2, 1; digits give 8+0+2+0=10.", working: "10", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 10",
+            finalAnswer: "**(d)** 10",
             commonErrors: ["Reading binary digits as decimal digits."],
             examinerNote: "B1 for (a).",
           },
@@ -637,7 +637,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Place values 8,4,2,1: $8+4+0+0=12$.", working: "12", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 12",
+            finalAnswer: "**(c)** 12",
             commonErrors: ["Reading the digits as a decimal number."],
             examinerNote: "B1 for (a).",
           },

@@ -70,7 +70,7 @@ export const lesson51: Lesson = {
               { reasoning: "A directorial concept is the unifying interpretation guiding all choices.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The unifying interpretation guiding all production choices",
+            finalAnswer: "**(a)** The unifying interpretation guiding all production choices",
             commonErrors: [
               "Confusing concept (unifying vision) with plot or design.",
             ],
@@ -200,7 +200,7 @@ export const lesson51: Lesson = {
               { reasoning: "The concept guides every element: casting, design, movement, delivery.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Guide every production choice toward a unifying interpretation",
+            finalAnswer: "**(c)** Guide every production choice toward a unifying interpretation",
             commonErrors: [
               "Thinking a concept is only a plot summary or a single design choice.",
             ],
@@ -229,7 +229,7 @@ export const lesson51: Lesson = {
               { reasoning: "Addressing the audience acknowledges the theatrical frame, an abstract/metatheatrical choice.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Metatheatrical or abstract stylisation",
+            finalAnswer: "**(a)** Metatheatrical or abstract stylisation",
             commonErrors: [
               "Confusing stylisation levels with acting techniques.",
             ],
@@ -248,7 +248,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "Bright, open lighting suggesting freedom" },
               { id: "d", text: "Dark, heavy, oppressive set and lighting suggesting control" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -258,7 +258,7 @@ export const lesson51: Lesson = {
               { reasoning: "Power and corruption are served by oppressive, heavy visual imagery.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (c) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Dark, heavy, oppressive set and lighting suggesting control",
+            finalAnswer: "**(d)** Dark, heavy, oppressive set and lighting suggesting control",
             commonErrors: [
               "Choosing elements for visual appeal rather than conceptual fit.",
             ],
@@ -287,7 +287,7 @@ export const lesson51: Lesson = {
               { reasoning: "Choices contradicting the themes fail the justification test — they serve ego, not the play.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A choice serving the director's ego rather than the play",
+            finalAnswer: "**(c)** A choice serving the director's ego rather than the play",
             commonErrors: [
               "Assuming boldness automatically equals strong direction.",
             ],
@@ -316,7 +316,7 @@ export const lesson51: Lesson = {
               { reasoning: "Subtext is the unspoken meaning underlying dialogue.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The meaning beneath the spoken words",
+            finalAnswer: "**(c)** The meaning beneath the spoken words",
             commonErrors: [
               "Confusing subtext with literal text or stage directions.",
             ],
@@ -345,7 +345,7 @@ export const lesson51: Lesson = {
               { reasoning: "Clear communication of the concept enables consistent choices across all departments.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Clearly and specifically explain the unifying concept and goals",
+            finalAnswer: "**(c)** Clearly and specifically explain the unifying concept and goals",
             commonErrors: [
               "Assuming the team can infer an uncommunicated vision.",
             ],
@@ -513,7 +513,7 @@ export const lesson51: Lesson = {
               { reasoning: "Metatheatre acknowledges theatricality — actors address audience, sets are constructed.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Acknowledges its own theatricality — breaking the fourth wall",
+            finalAnswer: "**(a)** Acknowledges its own theatricality — breaking the fourth wall",
             commonErrors: [
               "Confusing metatheatre with realism or naturalism.",
             ],
@@ -614,7 +614,7 @@ export const lesson51: Lesson = {
               { reasoning: "Realistic production seeks to create the illusion of real life.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Convince the audience they are watching real life",
+            finalAnswer: "**(b)** Convince the audience they are watching real life",
             commonErrors: [
               "Confusing realistic stylisation with naturalism of acting alone.",
             ],
@@ -643,7 +643,7 @@ export const lesson51: Lesson = {
               { reasoning: "Partially stylised combines realistic elements with symbolic or distorted ones.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A mix of realistic elements and deliberate distortion",
+            finalAnswer: "**(d)** A mix of realistic elements and deliberate distortion",
             commonErrors: [
               "Thinking stylisation must be total or absent.",
             ],
@@ -662,7 +662,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "Prove it is the most expensive option" },
               { id: "d", text: "Ensure everyone on the team agrees" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -672,7 +672,7 @@ export const lesson51: Lesson = {
               { reasoning: "Justification means explaining why a choice serves the play, not why it is novel.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (c) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Articulate reasoning linking the choice to the play's themes",
+            finalAnswer: "**(b)** Articulate reasoning linking the choice to the play's themes",
             commonErrors: [
               "Confusing justification with novelty or consensus.",
             ],
@@ -701,7 +701,7 @@ export const lesson51: Lesson = {
               { reasoning: "The justification test asks whether the choice illuminates the play or serves the director.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It reveals the play's complexity rather than imposing the director's agenda",
+            finalAnswer: "**(c)** It reveals the play's complexity rather than imposing the director's agenda",
             commonErrors: [
               "Assuming boldness is self-justifying.",
             ],
@@ -749,7 +749,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "Illusionism" },
               { id: "d", text: "Naturalism" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -759,7 +759,7 @@ export const lesson51: Lesson = {
               { reasoning: "Direct audience address comments on the theatrical frame — metatheatrical/abstract stylisation.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (c) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Metatheatrical or abstract stylisation",
+            finalAnswer: "**(b)** Metatheatrical or abstract stylisation",
             commonErrors: [
               "Confusing metatheatre with realism or naturalism.",
             ],
@@ -788,7 +788,7 @@ export const lesson51: Lesson = {
               { reasoning: "The key question is whether the choice serves the play's complexity, not external factors.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The risk against the reward — whether the choice serves the play",
+            finalAnswer: "**(d)** The risk against the reward — whether the choice serves the play",
             commonErrors: [
               "Weighing external factors rather than artistic justification.",
             ],

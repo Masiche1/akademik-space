@@ -73,7 +73,7 @@ export const lesson43: Lesson = {
               { id: "c", text: "7" },
               { id: "d", text: "6" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -90,7 +90,7 @@ export const lesson43: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(d)** 5",
+            finalAnswer: "**(b)** 5",
             commonErrors: [
               "Thinking any smaller number is a factor — it must divide exactly.",
             ],

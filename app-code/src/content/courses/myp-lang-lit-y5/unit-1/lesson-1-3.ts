@@ -64,7 +64,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Dramatic irony", statement: "Audience knows more than characters." }],
             steps: [{ reasoning: "Criterion A (Analysing): dramatic irony = audience knows — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** When the audience knows something characters don't",
+            finalAnswer: "**(c)** When the audience knows something characters don't",
           },
         },
         {
@@ -149,7 +149,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Situational irony", statement: "Outcome opposite to expectation." }],
             steps: [{ reasoning: "Criterion A (Analysing): counsellor divorcing = outcome contradicts role — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** A marriage counsellor announces her own divorce",
+            finalAnswer: "**(a)** A marriage counsellor announces her own divorce",
           },
         },
         {
@@ -195,7 +195,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Dramatic irony", statement: "Audience knows something characters don't." }],
             steps: [{ reasoning: "Criterion A (Analysing): audience sees the bomb; characters don't — dramatic irony — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Dramatic irony — the audience knows about the bomb but the detective and other characters do not",
+            finalAnswer: "**(d)** Dramatic irony — the audience knows about the bomb but the detective and other characters do not",
           },
         },
         {
@@ -221,7 +221,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Verbal irony", statement: "Words contradict meaning when context signals the opposite." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'not looking up' signals displeasure — 'fine' is ironic — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Verbal irony — 'fine' means the opposite given her body language",
+            finalAnswer: "**(a)** Verbal irony — 'fine' means the opposite given her body language",
           },
         },
         {
@@ -242,7 +242,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Ambiguity vs irony", statement: "Ambiguity = multiple meanings; irony = opposite expectation." }],
             steps: [{ reasoning: "Criterion A (Analysing): ambiguity = multiple readings; irony = meaning opposite to expectation — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Ambiguity offers multiple possible meanings; irony specifically means the opposite of what is expected",
+            finalAnswer: "**(d)** Ambiguity offers multiple possible meanings; irony specifically means the opposite of what is expected",
           },
         },
         {
@@ -373,7 +373,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Ambiguity", statement: "An unexplained detail can carry multiple emotional meanings." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'empty chair' suggests absence/death — 'best of us' becomes ambiguous between honour and elegy — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** A poignant ambiguity — the absent person makes the toast ambiguous between celebration and mourning",
+            finalAnswer: "**(c)** A poignant ambiguity — the absent person makes the toast ambiguous between celebration and mourning",
           },
         },
         {
@@ -447,7 +447,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Allusion", statement: "Brief reference to another work/event/person." }],
             steps: [{ reasoning: "Criterion A (Analysing): allusion = brief reference — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** A brief reference to another work, event or person",
+            finalAnswer: "**(c)** A brief reference to another work, event or person",
           },
         },
         {
@@ -532,7 +532,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Allusion", statement: "Brief reference to another work/event/person." }],
             steps: [{ reasoning: "Criterion A (Analysing): allusion = brief indirect reference — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** A brief, indirect reference to another work, event or person",
+            finalAnswer: "**(c)** A brief, indirect reference to another work, event or person",
           },
         },
         {
@@ -578,7 +578,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Mythological allusion", statement: "Allusions borrow meaning from the original story." }],
             steps: [{ reasoning: "Criterion A (Analysing): Pandora's box = unleashing evils — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** The myth of Pandora — it suggests unleashing trouble or irreversible consequences",
+            finalAnswer: "**(a)** The myth of Pandora — it suggests unleashing trouble or irreversible consequences",
           },
         },
         {
@@ -761,7 +761,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Idiom and allusion", statement: "Idioms borrow figurative meaning from cultural usage." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'can of worms' = unleashing uncontrollable problems — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** The idiom of opening a can of worms — it suggests unleashing problems that are hard to control",
+            finalAnswer: "**(a)** The idiom of opening a can of worms — it suggests unleashing problems that are hard to control",
           },
         },
         {

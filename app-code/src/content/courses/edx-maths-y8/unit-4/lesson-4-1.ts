@@ -63,7 +63,7 @@ export const lesson41: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Median", statement: "The middle value when the data is in order." }],
             steps: [{ reasoning: "Write in order: $2, 3, 5, 7, 9$. The middle value is the 3rd.", working: "2,\\,3,\\,\\mathbf{5},\\,7,\\,9", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $5$",
+            finalAnswer: "**(a)** $5$",
             commonErrors: ["Choosing the middle of the unordered list ($2$).", "Giving the mean $5.2$.", "Giving the range $7$."],
           },
         },
@@ -177,12 +177,12 @@ export const lesson41: Lesson = {
               { id: "c", text: "$72^\\circ$" },
               { id: "d", text: "$90^\\circ$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Pie chart angle", statement: "angle $=\\frac{f}{\\text{total}}\\times360^\\circ$" }],
             steps: [{ reasoning: "Divide $18$ by $72$ and multiply by $360$.", working: "\\tfrac{18}{72}\\times360=90", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** $90^\\circ$",
+            finalAnswer: "**(d)** $90^\\circ$",
             commonErrors: ["Using the frequency as the angle.", "Using $360\\div18$."],
           },
         },

@@ -559,7 +559,7 @@ export const lesson21: Lesson = {
             { id: "b", text: "0" },
             { id: "c", text: "4" },
             { id: "d", text: "$-4$" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "theorem", name: "Determinant of inverse", statement: "$\\det(A^{-1}) = \\frac{1}{\\det A}$." }],
             steps: [{ reasoning: "$\\det(A^{-1}) = 1/4$.", marks: 1, markCode: "A" }],

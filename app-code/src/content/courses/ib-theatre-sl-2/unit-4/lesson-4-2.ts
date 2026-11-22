@@ -70,7 +70,7 @@ export const lesson42: Lesson = {
               { reasoning: "Theme is the central idea explored, not plot events or setting.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The central idea or subject a play explores",
+            finalAnswer: "**(c)** The central idea or subject a play explores",
             commonErrors: [
               "Confusing theme with plot or setting.",
             ],
@@ -177,7 +177,7 @@ export const lesson42: Lesson = {
               { reasoning: "Approach describes treatment, not setting or character lists.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The particular way a playwright treats a theme",
+            finalAnswer: "**(a)** The particular way a playwright treats a theme",
             commonErrors: [
               "Confusing approach with plot or setting.",
             ],
@@ -227,7 +227,7 @@ export const lesson42: Lesson = {
               { reasoning: "How a subject is dramatised communicates the playwright's stance.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The way a theme is treated itself communicates meaning",
+            finalAnswer: "**(c)** The way a theme is treated itself communicates meaning",
             commonErrors: [
               "Treating genre as a neutral container for content.",
             ],
@@ -278,7 +278,7 @@ export const lesson42: Lesson = {
               { reasoning: "Tragic vs comic treatment encodes different worldviews.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Different genre worldviews about power",
+            finalAnswer: "**(d)** Different genre worldviews about power",
             commonErrors: [
               "Missing that treatment reflects worldview, not just style.",
             ],
@@ -334,7 +334,7 @@ export const lesson42: Lesson = {
               { reasoning: "Universal themes transcend time and culture.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A subject that transcends cultures and periods",
+            finalAnswer: "**(c)** A subject that transcends cultures and periods",
             commonErrors: [
               "Confusing universality with popularity.",
             ],
@@ -392,7 +392,7 @@ export const lesson42: Lesson = {
               { reasoning: "Satire exposes folly through comic ridicule.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Ridiculing it to expose folly or vice",
+            finalAnswer: "**(d)** Ridiculing it to expose folly or vice",
             commonErrors: [
               "Confusing satire with straightforward comedy.",
             ],
@@ -450,7 +450,7 @@ export const lesson42: Lesson = {
               { reasoning: "Absurdism denies stable meaning while dramatising the search for it.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Denies that stable meaning can be found",
+            finalAnswer: "**(a)** Denies that stable meaning can be found",
             commonErrors: [
               "Confusing absurdism with simple confusion.",
             ],
@@ -541,7 +541,7 @@ export const lesson42: Lesson = {
               { reasoning: "Theme meaning is activated by the cultural and historical context.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The cultural and historical context of its creation",
+            finalAnswer: "**(d)** The cultural and historical context of its creation",
             commonErrors: [
               "Treating theme meaning as fixed across all contexts.",
             ],
@@ -648,7 +648,7 @@ export const lesson42: Lesson = {
               { reasoning: "Contextual themes derive meaning from their circumstances.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A theme whose meaning is shaped by its cultural and historical context",
+            finalAnswer: "**(c)** A theme whose meaning is shaped by its cultural and historical context",
             commonErrors: [
               "Treating theme meaning as timeless and fixed.",
             ],
@@ -698,7 +698,7 @@ export const lesson42: Lesson = {
               { reasoning: "Theme evolution records shifts in values and power.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Reveals changing values, technology and power structures",
+            finalAnswer: "**(d)** Reveals changing values, technology and power structures",
             commonErrors: [
               "Missing that theme shifts are historical evidence.",
             ],
@@ -749,7 +749,7 @@ export const lesson42: Lesson = {
               { reasoning: "Crossing time and culture reveals the widest range of thematic reframing.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Both time and culture",
+            finalAnswer: "**(a)** Both time and culture",
             commonErrors: [
               "Limiting comparisons to convenient pairs.",
             ],
@@ -863,7 +863,7 @@ export const lesson42: Lesson = {
               { reasoning: "Theme shifts reflect deeper cultural change.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Cultural and social change",
+            finalAnswer: "**(c)** Cultural and social change",
             commonErrors: [
               "Attributing theme shifts to craft rather than culture.",
             ],

@@ -61,7 +61,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Ohm's law", statement: "V = IR." }],
             steps: [{ reasoning: "Recall.", working: "V = IR", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** V = IR",
+            finalAnswer: "**(c)** V = IR",
             commonErrors: ["All are rearrangements — the law is V=IR."],
           },
         },
@@ -141,7 +141,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Charge", statement: "$Q = It$" }],
             steps: [{ reasoning: "Recall the charge equation.", working: "Q = It", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $Q = It$",
+            finalAnswer: "**(c)** $Q = It$",
             commonErrors: ["Dividing current by time instead of multiplying."],
           },
         },
@@ -175,7 +175,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Series circuit", statement: "Same current everywhere." }],
             steps: [{ reasoning: "Recall series-circuit behaviour.", working: "\\text{same current}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Current",
+            finalAnswer: "**(a)** Current",
             commonErrors: ["Thinking voltage is shared equally rather than current being constant."],
           },
         },
@@ -209,7 +209,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Parallel circuit", statement: "Same voltage across branches." }],
             steps: [{ reasoning: "Recall parallel-circuit behaviour.", working: "\\text{same voltage}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Voltage",
+            finalAnswer: "**(a)** Voltage",
             commonErrors: ["Thinking current is the same in every branch."],
           },
         },
@@ -227,7 +227,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Power", statement: "$P = IV$" }],
             steps: [{ reasoning: "Recall the power equation.", working: "P = IV", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $P = IV$",
+            finalAnswer: "**(c)** $P = IV$",
             commonErrors: ["Confusing power with current $I=Q/t$."],
           },
         },
@@ -257,11 +257,11 @@ export const lessonp61: Lesson = {
             { id: "b", text: "$12$ C" },
             { id: "c", text: "$5$ C" },
             { id: "d", text: "$20$ C" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "formula", name: "Charge", statement: "$Q = It$" }],
             steps: [{ reasoning: "Multiply current by time.", working: "Q = 2 \\times 10 = 20\\ \\text{C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** $20$ C",
+            finalAnswer: "**(d)** $20$ C",
             commonErrors: ["Dividing current by time."],
           },
         },
@@ -295,7 +295,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Domestic wiring", statement: "Parallel gives full voltage and independence." }],
             steps: [{ reasoning: "Recall why homes use parallel circuits.", working: "\\text{full voltage, independent}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Each receives the full mains voltage and operates independently",
+            finalAnswer: "**(a)** Each receives the full mains voltage and operates independently",
             commonErrors: ["Thinking series wiring would be more convenient."],
           },
         },
@@ -385,7 +385,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Electromagnet", statement: "Current-carrying coil." }],
             steps: [{ reasoning: "Recall.", working: "\\text{coil + current}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Coil of wire carrying current",
+            finalAnswer: "**(d)** Coil of wire carrying current",
             commonErrors: ["Permanent magnet — electromagnets are temporary."],
           },
         },
@@ -500,7 +500,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Electromagnet", statement: "Strength increases with current, turns and iron core." }],
             steps: [{ reasoning: "Recall factors affecting electromagnet strength.", working: "\\text{more current/turns/core}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Increasing the current",
+            finalAnswer: "**(a)** Increasing the current",
             commonErrors: ["Thinking fewer turns would strengthen the field."],
           },
         },
@@ -534,7 +534,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Motor effect", statement: "Fleming's left-hand rule gives force direction." }],
             steps: [{ reasoning: "Recall motor versus generator rules.", working: "\\text{left-hand for motor}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Fleming's left-hand rule",
+            finalAnswer: "**(a)** Fleming's left-hand rule",
             commonErrors: ["Confusing motor and generator hand rules."],
           },
         },
@@ -552,7 +552,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Magnetic poles", statement: "Like poles repel." }],
             steps: [{ reasoning: "Recall pole interaction.", working: "\\text{like repel}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Repel",
+            finalAnswer: "**(a)** Repel",
             commonErrors: ["Confusing like and unlike poles."],
           },
         },
@@ -587,7 +587,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Induction", statement: "Changing flux induces EMF." }],
             steps: [{ reasoning: "Recall Faraday's induction condition.", working: "\\Delta \\Phi \\to EMF", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The magnetic flux through the coil changes",
+            finalAnswer: "**(c)** The magnetic flux through the coil changes",
             commonErrors: ["Thinking a steady magnetic field induces current."],
           },
         },
@@ -622,7 +622,7 @@ export const lessonp61: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Step-down transformer", statement: "$N_s < N_p$ gives lower voltage." }],
             steps: [{ reasoning: "Recall step-down turn ratio.", working: "N_s < N_p", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Fewer secondary turns than primary turns",
+            finalAnswer: "**(d)** Fewer secondary turns than primary turns",
             commonErrors: ["Confusing step-up and step-down transformers."],
           },
         },

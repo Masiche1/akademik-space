@@ -64,7 +64,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Recall the property.", working: "\\text{polar}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It is polar",
+            finalAnswer: "**(d)** It is polar",
             commonErrors: ["Choosing non-polar — polarity is what makes it a good solvent."],
           },
         },
@@ -159,7 +159,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Recall the property.", working: "\\text{polar}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Polar",
+            finalAnswer: "**(c)** Polar",
             commonErrors: ["Choosing non-polar — polarity enables dissolving."],
           },
         },
@@ -185,7 +185,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{water-water}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Water molecules sticking to each other",
+            finalAnswer: "**(b)** Water molecules sticking to each other",
             commonErrors: ["Confusing cohesion with adhesion — adhesion is sticking to other surfaces."],
           },
         },
@@ -212,7 +212,7 @@ export const lesson23: Lesson = {
               { reasoning: "Interpret the property.", working: "\\text{slow temp change}", marks: 1, markCode: "M" },
               { reasoning: "Link to biological benefit.", working: "\\text{temperature buffer}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It resists temperature change, buffering organisms against fluctuations",
+            finalAnswer: "**(c)** It resists temperature change, buffering organisms against fluctuations",
             commonErrors: ["Choosing 'warms quickly' — high specific heat means the opposite."],
           },
         },
@@ -296,7 +296,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "It has a high specific heat capacity" },
               { id: "d", text: "It has cohesion and adhesion" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -305,7 +305,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Identify the false statement.", working: "\\text{polar}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** It is non-polar",
+            finalAnswer: "**(a)** It is non-polar",
             commonErrors: ["Choosing a real property — the question asks which is NOT true."],
           },
         },
@@ -369,7 +369,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Match example to property.", working: "\\text{surface}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** An insect walking on the surface of a pond",
+            finalAnswer: "**(d)** An insect walking on the surface of a pond",
             commonErrors: ["Choosing xylem — that is cohesion/adhesion capillary action, not surface tension."],
           },
         },
@@ -479,7 +479,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Recall neutral value.", working: "\\text{pH } 7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 7",
+            finalAnswer: "**(d)** 7",
             commonErrors: ["Choosing 0 — that's strong acid."],
           },
         },
@@ -565,7 +565,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Alkaline" },
               { id: "d", text: "Neutral" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -574,7 +574,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Recall the scale.", working: "\\text{pH } 7 = \\text{neutral}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Neutral",
+            finalAnswer: "**(d)** Neutral",
             commonErrors: ["Choosing acidic — that's pH below 7."],
           },
         },

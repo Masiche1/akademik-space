@@ -53,11 +53,11 @@ export const lesson193: Lesson = {
             { id: "b", text: "Water vapour" },
             { id: "c", text: "Methane" },
             { id: "d", text: "CO₂" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Greenhouse gases", statement: "CO₂, CH₄, H₂O — not O₂." }],
             steps: [{ reasoning: "Recall.", working: "\\text{O}_2 \\text{ not GHG}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Oxygen",
+            finalAnswer: "**(a)** Oxygen",
             commonErrors: ["O₂ is essential but not a GHG."],
           },
         },
@@ -137,7 +137,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Greenhouse gases", statement: "CO₂, CH₄, H₂O absorb IR." }],
             steps: [{ reasoning: "Recall.", working: "\\text{CH}_4 \\text{ is GHG}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Methane",
+            finalAnswer: "**(a)** Methane",
             commonErrors: ["O₂, Ar and N₂ are major air components but not greenhouse gases."],
           },
         },
@@ -155,7 +155,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "CO₂ source", statement: "Fossil fuel combustion." }],
             steps: [{ reasoning: "Recall.", working: "\\text{fossil fuels}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Burning fossil fuels",
+            finalAnswer: "**(a)** Burning fossil fuels",
             commonErrors: ["Photosynthesis removes CO₂, not adds it."],
           },
         },
@@ -191,7 +191,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "NOx", statement: "Acid rain + smog precursor." }],
             steps: [{ reasoning: "Recall.", working: "\\text{NO}_x", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Nitrogen oxides (NOx)",
+            finalAnswer: "**(c)** Nitrogen oxides (NOx)",
             commonErrors: ["CO₂ causes the greenhouse effect, not smog."],
           },
         },
@@ -209,7 +209,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Acid rain formation", statement: "SO₂ + H₂O → H₂SO₃ → H₂SO₄." }],
             steps: [{ reasoning: "Recall.", working: "\\text{H}_2\\text{SO}_3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Sulphurous acid (H₂SO₃)",
+            finalAnswer: "**(d)** Sulphurous acid (H₂SO₃)",
             commonErrors: ["H₂SO₄ forms after further oxidation — H₂SO₃ is first."],
           },
         },
@@ -377,7 +377,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ozone", statement: "Absorbs UV." }],
             steps: [{ reasoning: "Recall.", working: "\\text{O}_3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ozone layer",
+            finalAnswer: "**(a)** Ozone layer",
             commonErrors: ["CO₂ traps heat not UV."],
           },
         },
@@ -457,7 +457,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ozone layer", statement: "Stratospheric O₃ absorbs UV." }],
             steps: [{ reasoning: "Recall.", working: "\\text{stratosphere}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Stratosphere",
+            finalAnswer: "**(a)** Stratosphere",
             commonErrors: ["Ground-level ozone is a pollutant, not the protective layer."],
           },
         },
@@ -475,7 +475,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "CFCs", statement: "Aerosols, refrigerants, solvents." }],
             steps: [{ reasoning: "Recall.", working: "\\text{aerosols/refrigerants}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Aerosols and refrigerants",
+            finalAnswer: "**(d)** Aerosols and refrigerants",
             commonErrors: ["CFCs are not fuels — they are solvents/propellants."],
           },
         },
@@ -493,7 +493,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ozone depletion", statement: "More UV → skin cancer, crop damage." }],
             steps: [{ reasoning: "Recall.", working: "\\text{UV} \\uparrow \\rightarrow \\text{cancer}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Increased skin cancer rates from more UV",
+            finalAnswer: "**(b)** Increased skin cancer rates from more UV",
             commonErrors: ["Ozone depletion increases UV, it does not cool Earth."],
           },
         },
@@ -511,7 +511,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Photochemical smog", statement: "NOx + VOCs + sunlight." }],
             steps: [{ reasoning: "Recall.", working: "\\text{sunlight}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Sunlight",
+            finalAnswer: "**(c)** Sunlight",
             commonErrors: ["'Photo' in photochemical means light-driven."],
           },
         },
@@ -529,7 +529,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ozone", statement: "Good in stratosphere, bad at ground level." }],
             steps: [{ reasoning: "Recall.", working: "\\text{location matters}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Stratospheric ozone is beneficial but ground-level ozone is a pollutant",
+            finalAnswer: "**(a)** Stratospheric ozone is beneficial but ground-level ozone is a pollutant",
             commonErrors: ["Same molecule, different effects depending on altitude."],
           },
         },

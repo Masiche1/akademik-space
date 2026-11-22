@@ -135,7 +135,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. He accepts the idea but raises a practical problem — that is building, not ignoring.",
+              "**(a)**. He accepts the idea but raises a practical problem — that is building, not ignoring.",
             commonErrors: [
               "Choosing (a) because Jordan disagrees, missing that disagreement can still build on an idea.",
             ],
@@ -385,7 +385,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The basketball court is a related concern, not the main question.",
+              "**(c)**. The basketball court is a related concern, not the main question.",
             commonErrors: [
               "Choosing (a) because Priya mentions it, missing that it is a sub-issue.",
             ],

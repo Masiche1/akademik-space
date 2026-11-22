@@ -230,7 +230,7 @@ export const lesson28: Lesson = {
             steps: [
               { reasoning: "RAM holds programs and data currently being used; it is temporary.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Random Access Memory — working memory",
+            finalAnswer: "**(d)** Random Access Memory — working memory",
           },
         },
         {
@@ -279,7 +279,7 @@ export const lesson28: Lesson = {
             steps: [
               { reasoning: "The CPU executes instructions and processes data.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Executes program instructions",
+            finalAnswer: "**(d)** Executes program instructions",
           },
         },
         {

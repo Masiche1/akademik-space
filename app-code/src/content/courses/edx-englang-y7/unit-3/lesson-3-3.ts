@@ -92,7 +92,7 @@ export const lesson33: Lesson = {
                 markCode: "AO3",
               },
             ],
-            finalAnswer: "**(b)** Three points most memorable",
+            finalAnswer: "**(c)** Three points most memorable",
             commonErrors: ["Literal interpretation."],
           },
         },

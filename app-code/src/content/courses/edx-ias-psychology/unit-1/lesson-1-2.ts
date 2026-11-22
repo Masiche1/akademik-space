@@ -276,7 +276,7 @@ export const lesson12: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Control belief",
+            finalAnswer: "**(c)** Control belief",
             commonErrors: ["Authority confused."],
           },
         },

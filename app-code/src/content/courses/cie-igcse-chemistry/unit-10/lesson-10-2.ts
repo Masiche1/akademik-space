@@ -57,7 +57,7 @@ export const lesson1102: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Alkenes", statement: "CₙH₂ₙ." }],
             steps: [{ reasoning: "Recall.", working: "C_nH_{2n}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** CₙH₂ₙ",
+            finalAnswer: "**(d)** CₙH₂ₙ",
             commonErrors: ["CₙH₂ₙ₊₂ is alkanes."],
           },
         },
@@ -241,7 +241,7 @@ export const lesson1102: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Substitution", statement: "UV light initiates radical substitution." }],
             steps: [{ reasoning: "Recall.", working: "UV \\to \\text{substitution}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** UV light",
+            finalAnswer: "**(d)** UV light",
             commonErrors: ["UV light is not needed for alkene addition."],
           },
         },
@@ -375,7 +375,7 @@ export const lesson1102: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Cracking", statement: "Long→short hydrocarbons." }],
             steps: [{ reasoning: "Recall.", working: "\\text{long} \\to \\text{short}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Breaking long hydrocarbons into shorter ones",
+            finalAnswer: "**(d)** Breaking long hydrocarbons into shorter ones",
             commonErrors: ["Confusing with fractional distillation."],
           },
         },
@@ -455,7 +455,7 @@ export const lesson1102: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Catalytic cracking", statement: "Zeolites or alumina act as catalysts." }],
             steps: [{ reasoning: "Recall.", working: "\\text{zeolite catalyst}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Zeolite",
+            finalAnswer: "**(c)** Zeolite",
             commonErrors: ["Water is not a cracking catalyst."],
           },
         },
@@ -507,7 +507,7 @@ export const lesson1102: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Cracking products", statement: "Shorter alkane + alkene." }],
             steps: [{ reasoning: "Recall.", working: "\\text{short alkane} + \\text{alkene}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A shorter alkane and an alkene",
+            finalAnswer: "**(d)** A shorter alkane and an alkene",
             commonErrors: ["Cracking breaks chains; it does not only combust them."],
           },
         },
@@ -556,11 +556,11 @@ export const lesson1102: Lesson = {
             { id: "b", text: "100–150 °C" },
             { id: "c", text: "1000–1200 °C" },
             { id: "d", text: "0–10 °C" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Cracking", statement: "High temperature about 400–700 °C." }],
             steps: [{ reasoning: "Recall.", working: "400\\text{–}700^\\circ\\text{C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** 400–700 °C",
+            finalAnswer: "**(a)** 400–700 °C",
             commonErrors: ["Cracking needs much higher temperature than fractional distillation."],
           },
         },

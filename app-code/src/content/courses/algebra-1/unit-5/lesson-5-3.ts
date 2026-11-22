@@ -198,7 +198,7 @@ export const lesson53: Lesson = {
               { reasoning: "The negative sign gives a negative direction, and $|-0.92|$ is close to 1, indicating strong linear association.", working: "r=-0.92", marks: 1, markCode: "A" },
               { reasoning: "Correlation describes association and does not by itself prove a causal relationship.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(a)** The data show a strong negative linear association; the correlation alone does not prove causation.",
+            finalAnswer: "**(d)** The data show a strong negative linear association; the correlation alone does not prove causation.",
             commonErrors: ["Treating a negative $r$ as a weak relationship.", "Interpreting correlation as proof of cause."],
           },
         },

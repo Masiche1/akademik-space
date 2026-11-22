@@ -113,7 +113,7 @@ export const lesson501: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(a)** First in, first out — queue",
+        finalAnswer: "**(c)** First in, first out — queue",
       },
     },
     {
@@ -147,7 +147,7 @@ export const lesson501: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** How algorithm runtime grows as input size grows",
+        finalAnswer: "**(c)** How algorithm runtime grows as input size grows",
       },
     },
     {
@@ -388,7 +388,7 @@ export const lesson501: Lesson = {
           { id: "c", text: "O(n²)" },
           { id: "d", text: "O(log n)" },
         ],
-        aorrectChoiceId: "c",
+        correctChoiceId: "a",
       },
       markscheme: {
         principles: [
@@ -406,7 +406,7 @@ export const lesson501: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(c)** O(1)",
+        finalAnswer: "**(a)** O(1)",
       },
     },
     {

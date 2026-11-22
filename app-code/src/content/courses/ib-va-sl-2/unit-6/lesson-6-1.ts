@@ -70,7 +70,7 @@ export const lesson61: Lesson = {
               { reasoning: "Primary sources are direct evidence: the artwork itself, artist statements, exhibition catalogues.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The artwork itself or an artist's statement",
+            finalAnswer: "**(a)** The artwork itself or an artist's statement",
             commonErrors: [
               "Confusing primary sources with secondary interpretations.",
             ],
@@ -171,7 +171,7 @@ export const lesson61: Lesson = {
               { reasoning: "Secondary sources interpret the work: criticism, scholarship, museum texts by others.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A peer-reviewed article interpreting the work",
+            finalAnswer: "**(d)** A peer-reviewed article interpreting the work",
             commonErrors: [
               "Classifying the artwork image or artist statement as secondary.",
             ],
@@ -222,7 +222,7 @@ export const lesson61: Lesson = {
               { reasoning: "It is answerable in principle but too vague to produce a focused essay.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Does not name the artists or specify the aspect of comparison",
+            finalAnswer: "**(c)** Does not name the artists or specify the aspect of comparison",
             commonErrors: [
               "Assuming any 'how' question is automatically strong.",
             ],
@@ -274,7 +274,7 @@ export const lesson61: Lesson = {
               { reasoning: "Anonymous and AI-generated content cannot be verified against evidence.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A museum publication or peer-reviewed scholarship",
+            finalAnswer: "**(d)** A museum publication or peer-reviewed scholarship",
             commonErrors: [
               "Treating confident-sounding online text as equally reliable.",
             ],
@@ -316,7 +316,7 @@ export const lesson61: Lesson = {
               { id: "c", text: "Use it because it is interesting" },
               { id: "d", text: "Reject all blogs automatically" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -328,7 +328,7 @@ export const lesson61: Lesson = {
               { reasoning: "Therefore choice (c) is correct.", marks: 1, markCode: "A" },
               { reasoning: "If corroboration fails, the claim should be dropped.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(c)** Verify it across reliable sources or find corroboration",
+            finalAnswer: "**(a)** Verify it across reliable sources or find corroboration",
             commonErrors: [
               "Citing the first source that states a convenient claim.",
             ],
@@ -383,7 +383,7 @@ export const lesson61: Lesson = {
               { reasoning: "The other options are evaluative, vague or biographical rather than comparative.", marks: 1, markCode: "R" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'How do Kahlo and O'Keeffe construct identity differently through scale and symbolism?'",
+            finalAnswer: "**(d)** 'How do Kahlo and O'Keeffe construct identity differently through scale and symbolism?'",
             commonErrors: [
               "Choosing questions that invite opinion or biography rather than analysis.",
             ],
@@ -444,7 +444,7 @@ export const lesson61: Lesson = {
               { reasoning: "Agreement with the writer is irrelevant to reliability.", marks: 1, markCode: "R" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The author's expertise, publication venue and whether claims are evidenced",
+            finalAnswer: "**(c)** The author's expertise, publication venue and whether claims are evidenced",
             commonErrors: [
               "Judging sources by agreement or length rather than authority.",
             ],
@@ -631,7 +631,7 @@ export const lesson61: Lesson = {
               { reasoning: "Yes/no questions cannot sustain comparative analysis or nuance.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Cannot develop the nuanced argument an essay requires",
+            finalAnswer: "**(a)** Cannot develop the nuanced argument an essay requires",
             commonErrors: [
               "Assuming a closed question is automatically a bad one in all contexts.",
             ],
@@ -682,7 +682,7 @@ export const lesson61: Lesson = {
               { reasoning: "Choice (b) explicitly asks how backgrounds shape treatment of the theme.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'How do their cultural backgrounds shape their treatment of the theme?'",
+            finalAnswer: "**(c)** 'How do their cultural backgrounds shape their treatment of the theme?'",
             commonErrors: [
               "Confusing formal questions about technique with contextual questions.",
             ],
@@ -843,7 +843,7 @@ export const lesson61: Lesson = {
               { reasoning: "Choices (a), (c) and (d) are unsupported opinion or biography.", marks: 1, markCode: "R" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'Whose treatment of grief is more effective, and through which formal means?'",
+            finalAnswer: "**(a)** 'Whose treatment of grief is more effective, and through which formal means?'",
             commonErrors: [
               "Writing evaluative questions that demand an unsupported verdict.",
             ],
@@ -904,7 +904,7 @@ export const lesson61: Lesson = {
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
               { reasoning: "Evidence remains essential regardless of openness.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(b)** Nuance and multiple defensible interpretations",
+            finalAnswer: "**(c)** Nuance and multiple defensible interpretations",
             commonErrors: [
               "Confusing openness with lack of rigour.",
             ],

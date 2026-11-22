@@ -40,7 +40,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Close the accounts" },
             { id: "d", text: "Issue invoices" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "TB steps", statement: "Balance accounts first." }], steps: [{ reasoning: "Balance ledgers first.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Balance accounts" },
+          markscheme: { principles: [{ kind: "principle", name: "TB steps", statement: "Balance accounts first." }], steps: [{ reasoning: "Balance ledgers first.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Balance accounts" },
         },
         {
           id: "olacc-u2-tp-q2", difficulty: "core", totalMarks: 2,
@@ -95,7 +95,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Prepare the balance sheet" },
             { id: "d", text: "Balance every ledger account" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "TB steps", statement: "Balance accounts first." }], steps: [{ reasoning: "Ledger accounts must be balanced before their balances can be listed.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Balance every ledger account" },
+          markscheme: { principles: [{ kind: "principle", name: "TB steps", statement: "Balance accounts first." }], steps: [{ reasoning: "Ledger accounts must be balanced before their balances can be listed.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Balance every ledger account" },
         },
         {
           id: "olacc-u2-tp-q6", difficulty: "core", totalMarks: 1,
@@ -106,7 +106,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "$1,600 debit" },
             { id: "d", text: "$200 credit" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Balance", statement: "Larger minus smaller." }], steps: [{ reasoning: "$900 - $700 = $200, and debits are larger so it is a debit balance.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** $200 debit" },
+          markscheme: { principles: [{ kind: "principle", name: "Balance", statement: "Larger minus smaller." }], steps: [{ reasoning: "$900 - $700 = $200, and debits are larger so it is a debit balance.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** $200 debit" },
         },
         {
           id: "olacc-u2-tp-q7", difficulty: "foundation", totalMarks: 2,
@@ -135,7 +135,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Post the difference to suspense immediately" },
             { id: "d", text: "Check the ledger postings and workings for the error" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "TB discrepancy", statement: "Investigate first." }], steps: [{ reasoning: "The error should be found first; suspense is only a temporary measure.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Check postings and workings" },
+          markscheme: { principles: [{ kind: "principle", name: "TB discrepancy", statement: "Investigate first." }], steps: [{ reasoning: "The error should be found first; suspense is only a temporary measure.", marks: 1, markCode: "M" }], finalAnswer: "**(d)** Check postings and workings" },
         },
         {
           id: "olacc-u2-tp-q10", difficulty: "challenge", totalMarks: 4,
@@ -250,7 +250,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Erasing entries" },
             { id: "d", text: "Trial balance only" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Correction", statement: "Journal entries." }], steps: [{ reasoning: "Journal corrects.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Journal entries" },
+          markscheme: { principles: [{ kind: "principle", name: "Correction", statement: "Journal entries." }], steps: [{ reasoning: "Journal corrects.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Journal entries" },
         },
         {
           id: "olacc-u2-ce-q2", difficulty: "core", totalMarks: 2,
@@ -305,7 +305,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Journal entries" },
             { id: "d", text: "Ignoring small errors" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Correction", statement: "Journal entries." }], steps: [{ reasoning: "Corrections are made by journal debit/credit entries.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Journal entries" },
+          markscheme: { principles: [{ kind: "principle", name: "Correction", statement: "Journal entries." }], steps: [{ reasoning: "Corrections are made by journal debit/credit entries.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Journal entries" },
         },
         {
           id: "olacc-u2-ce-q6", difficulty: "core", totalMarks: 1,
@@ -316,7 +316,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Dr correct account $100, Cr wrong account $100" },
             { id: "d", text: "No entry needed" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Correction", statement: "Dr correct, Cr wrong." }], steps: [{ reasoning: "The correct account is debited and the wrongly used account credited.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Dr correct, Cr wrong" },
+          markscheme: { principles: [{ kind: "principle", name: "Correction", statement: "Dr correct, Cr wrong." }], steps: [{ reasoning: "The correct account is debited and the wrongly used account credited.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** Dr correct, Cr wrong" },
         },
         {
           id: "olacc-u2-ce-q7", difficulty: "core", totalMarks: 2,

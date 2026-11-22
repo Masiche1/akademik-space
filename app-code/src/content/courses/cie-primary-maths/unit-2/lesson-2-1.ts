@@ -51,7 +51,7 @@ export const lesson21: Lesson = {
             { id: "b", text: "34" },
             { id: "c", text: "33" },
             { id: "d", text: "36" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Times table", statement: "Recall multiplication facts." }],
             steps: [{ reasoning: "$12 \\times 3 = 36$.", marks: 1, markCode: "A" }],
@@ -117,7 +117,7 @@ export const lesson21: Lesson = {
             { id: "b", text: "45" },
             { id: "c", text: "50" },
             { id: "d", text: "60" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Times table", statement: "Recall multiplication facts." }],
             steps: [{ reasoning: "$15 \\times 4 = 60$.", marks: 1, markCode: "A" }],
@@ -183,7 +183,7 @@ export const lesson21: Lesson = {
             { id: "b", text: "5" },
             { id: "c", text: "3" },
             { id: "d", text: "6" },
-          ], correctChoiceIc: "d" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Remainder", statement: "$45 = 6 \\times 7 + 3$." }],
             steps: [{ reasoning: "$6 \\times 7 = 42$; $45 - 42 = 3$.", marks: 1, markCode: "A" }],
@@ -441,7 +441,7 @@ export const lesson21: Lesson = {
             { id: "b", text: "6 tenths" },
             { id: "c", text: "3 tenths" },
             { id: "d", text: "36 hundredths" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Decimal places", statement: "First digit = tenths; second = hundredths." }],
             steps: [{ reasoning: "The 6 is in the hundredths place.", marks: 1, markCode: "A" }],
@@ -506,7 +506,7 @@ export const lesson21: Lesson = {
             { id: "b", text: "$0.4$" },
             { id: "c", text: "$0.14$" },
             { id: "d", text: "$0.25$" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "technique", name: "Fraction to decimal", statement: "$\\frac{1}{4} = 25$ hundredths." }],
             steps: [{ reasoning: "$\\frac{1}{4} = \\frac{25}{100} = 0.25$.", marks: 1, markCode: "A" }],

@@ -60,7 +60,7 @@ export const lesson91: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Chi-squared", statement: "$\\sum\\frac{(O-E)^2}{E}$." }],
             steps: [{ reasoning: "Definition.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\sum\\frac{(O-E)^2}{E}$",
+            finalAnswer: "**(b)** $\\sum\\frac{(O-E)^2}{E}$",
           },
         },
         {
@@ -176,7 +176,7 @@ export const lesson91: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "df", statement: "$\\nu=(r-1)(c-1)=2\\times3=6$." }],
             steps: [{ reasoning: "Compute.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $6$",
+            finalAnswer: "**(b)** $6$",
           },
         },
         {

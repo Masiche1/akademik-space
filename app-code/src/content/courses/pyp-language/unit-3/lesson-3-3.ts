@@ -65,7 +65,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Planning comes first in the writing process.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Plan what will happen",
+            finalAnswer: "**(c)** Plan what will happen",
             commonErrors: ["Choosing 'check spelling' — editing comes after drafting."],
           },
         },
@@ -92,7 +92,7 @@ export const lesson33: Lesson = {
               { reasoning: "Option (b) lists real events in time order — perfect for a recount.", marks: 1, markCode: "M" },
               { reasoning: "The others are too vague or unrelated.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'Arrived → saw animals → ate lunch → went home'",
+            finalAnswer: "**(c)** 'Arrived → saw animals → ate lunch → went home'",
             commonErrors: ["Choosing (a) — 'it was fun' is a feeling, not a plan of events."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The first rough version is the draft.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Draft",
+            finalAnswer: "**(d)** Draft",
             commonErrors: ["Choosing 'plan' — a plan comes before the draft."],
           },
         },
@@ -293,7 +293,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Drafts capture ideas first; mistakes are fixed later.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Get your ideas down without worrying about mistakes yet",
+            finalAnswer: "**(a)** Get your ideas down without worrying about mistakes yet",
             commonErrors: ["Choosing (a) — editing comes after drafting, not during."],
           },
         },
@@ -357,7 +357,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Drafts capture ideas in order — perfection comes in revise/edit.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Your ideas in order — rough is okay",
+            finalAnswer: "**(a)** Your ideas in order — rough is okay",
             commonErrors: ["Choosing (a) — perfect spelling is an editing goal, not a drafting goal."],
           },
         },
@@ -383,7 +383,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The plan guides the drafting so you do not get stuck.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Use it as a guide so you remember what happens next",
+            finalAnswer: "**(a)** Use it as a guide so you remember what happens next",
             commonErrors: ["Choosing (c) — the plan is notes, not the story itself."],
           },
         },
@@ -455,7 +455,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Drafting" },
               { id: "d", text: "Reading aloud only" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -464,7 +464,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Fixing mistakes = editing.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Editing",
+            finalAnswer: "**(b)** Editing",
             commonErrors: ["Choosing 'revising' would also be close — but the question asks about mistakes specifically."],
           },
         },
@@ -601,7 +601,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Fixing capitals and punctuation mistakes is editing.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Editing",
+            finalAnswer: "**(c)** Editing",
             commonErrors: ["Choosing 'revising' — revising improves content; fixing mistakes is editing."],
           },
         },
@@ -747,7 +747,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Adding 'fluffy' improves the writing's quality — revising. The others fix mistakes — editing.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Adding a describing word like 'fluffy'",
+            finalAnswer: "**(a)** Adding a describing word like 'fluffy'",
             commonErrors: ["Choosing (a) — fixing spelling is editing, not revising."],
           },
         },
@@ -773,7 +773,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "'it was fun' starts a new sentence but has no capital — fix 'it' to 'It'.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Change 'it' to 'It' with a capital letter",
+            finalAnswer: "**(a)** Change 'it' to 'It' with a capital letter",
             commonErrors: ["Choosing (a) — adding describing words is revising, not the needed editing fix."],
           },
         },

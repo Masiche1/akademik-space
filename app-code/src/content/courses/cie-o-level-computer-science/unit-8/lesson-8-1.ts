@@ -43,7 +43,7 @@ export const lesson81: Lesson = {
             { id: "c", text: "A fixed value" },
             { id: "d", text: "A named storage location that can change" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Variable", statement: "Changeable named storage." }], steps: [{ reasoning: "Variable = changeable.", working: "\\text{variable}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Changeable storage" },
+          markscheme: { principles: [{ kind: "definition", name: "Variable", statement: "Changeable named storage." }], steps: [{ reasoning: "Variable = changeable.", working: "\\text{variable}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Changeable storage" },
         },
         {
           id: "olcs-u8-bc-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson81: Lesson = {
             { id: "c", text: "String" },
             { id: "d", text: "Boolean" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "String", statement: "Text data type." }], steps: [{ reasoning: "'Hello' is text → string.", working: "\\text{string}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** String" },
+          markscheme: { principles: [{ kind: "definition", name: "String", statement: "Text data type." }], steps: [{ reasoning: "'Hello' is text → string.", working: "\\text{string}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** String" },
         },
         {
           id: "olcs-u8-bc-q6", difficulty: "foundation", totalMarks: 1,
@@ -117,7 +117,7 @@ export const lesson81: Lesson = {
             { id: "c", text: "Is always a string" },
             { id: "d", text: "Is faster" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Constant", statement: "Fixed value." }], steps: [{ reasoning: "Constants don't change.", working: "\\text{fixed}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Cannot change" },
+          markscheme: { principles: [{ kind: "definition", name: "Constant", statement: "Fixed value." }], steps: [{ reasoning: "Constants don't change.", working: "\\text{fixed}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Cannot change" },
         },
         {
           id: "olcs-u8-bc-q8", difficulty: "core", totalMarks: 1,
@@ -136,7 +136,7 @@ export const lesson81: Lesson = {
             { id: "c", text: "Exactly once" },
             { id: "d", text: "Until its condition becomes false" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "WHILE loop", statement: "Repeats until condition false." }], steps: [{ reasoning: "WHILE = conditional iteration.", working: "\\text{until false}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Until condition false" },
+          markscheme: { principles: [{ kind: "definition", name: "WHILE loop", statement: "Repeats until condition false." }], steps: [{ reasoning: "WHILE = conditional iteration.", working: "\\text{until false}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Until condition false" },
         },
         {
           id: "olcs-u8-bc-q10", difficulty: "core", totalMarks: 2,
@@ -186,7 +186,7 @@ export const lesson81: Lesson = {
             { id: "c", text: "Selection" },
             { id: "d", text: "Iteration" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Selection", statement: "Choosing between paths." }], steps: [{ reasoning: "IF/ELSE is selection.", working: "\\text{select}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Selection" },
+          markscheme: { principles: [{ kind: "definition", name: "Selection", statement: "Choosing between paths." }], steps: [{ reasoning: "IF/ELSE is selection.", working: "\\text{select}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Selection" },
         },
         {
           id: "olcs-u8-bc-q15", difficulty: "core", totalMarks: 2,
@@ -326,7 +326,7 @@ export const lesson81: Lesson = {
             { id: "c", text: "Is always a constant" },
             { id: "d", text: "Exists only inside its routine" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Local variable", statement: "Confined to its routine." }], steps: [{ reasoning: "Local vars exist only inside the routine.", working: "\\text{local}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Exists only inside its routine" },
+          markscheme: { principles: [{ kind: "definition", name: "Local variable", statement: "Confined to its routine." }], steps: [{ reasoning: "Local vars exist only inside the routine.", working: "\\text{local}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Exists only inside its routine" },
         },
         {
           id: "olcs-u8-fn-q8", difficulty: "core", totalMarks: 1,
@@ -345,7 +345,7 @@ export const lesson81: Lesson = {
             { id: "c", text: "The names in the definition" },
             { id: "d", text: "Return values" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Actual parameter", statement: "Values at the call site." }], steps: [{ reasoning: "Actual = values passed at call.", working: "\\text{call values}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Values supplied at the call" },
+          markscheme: { principles: [{ kind: "definition", name: "Actual parameter", statement: "Values at the call site." }], steps: [{ reasoning: "Actual = values passed at call.", working: "\\text{call values}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Values supplied at the call" },
         },
         {
           id: "olcs-u8-fn-q10", difficulty: "core", totalMarks: 2,
@@ -365,7 +365,7 @@ export const lesson81: Lesson = {
             { id: "c", text: "Returns a value" },
             { id: "d", text: "Is always slower" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Function", statement: "Returns a value." }], steps: [{ reasoning: "Functions return values; procedures don't.", working: "\\text{return}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Returns a value" },
+          markscheme: { principles: [{ kind: "definition", name: "Function", statement: "Returns a value." }], steps: [{ reasoning: "Functions return values; procedures don't.", working: "\\text{return}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Returns a value" },
         },
         {
           id: "olcs-u8-fn-q12", difficulty: "core", totalMarks: 1,
@@ -395,7 +395,7 @@ export const lesson81: Lesson = {
             { id: "c", text: "The names used in the routine's definition" },
             { id: "d", text: "Constants" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Formal parameter", statement: "Names in the definition." }], steps: [{ reasoning: "Formal = names in definition.", working: "\\text{names}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Names in the definition" },
+          markscheme: { principles: [{ kind: "definition", name: "Formal parameter", statement: "Names in the definition." }], steps: [{ reasoning: "Formal = names in definition.", working: "\\text{names}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Names in the definition" },
         },
         {
           id: "olcs-u8-fn-q15", difficulty: "core", totalMarks: 2,

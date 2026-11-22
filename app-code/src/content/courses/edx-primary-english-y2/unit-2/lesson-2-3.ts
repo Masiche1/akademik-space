@@ -77,7 +77,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Main event of story.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A girl learns to ride a bike",
+            finalAnswer: "**(c)** A girl learns to ride a bike",
             commonErrors: ["Choosing a detail not main idea."],
           },
         },
@@ -112,7 +112,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The class planted seeds and flowers grew",
+            finalAnswer: "**(c)** The class planted seeds and flowers grew",
             commonErrors: ["Choosing detail not summary."],
           },
         },
@@ -254,7 +254,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Find weather clue.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Sunny",
+            finalAnswer: "**(a)** Sunny",
             commonErrors: ["Not reading carefully."],
           },
         },

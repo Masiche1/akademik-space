@@ -55,12 +55,12 @@ export const lesson43: Lesson = {
               { id: "c", text: "A substance that produces $\\text{OH}^-$ in water" },
               { id: "d", text: "A proton acceptor" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Brønsted-Lowry acid", statement: "A Brønsted-Lowry acid is a proton ($\\text{H}^+$) donor." }],
             steps: [{ reasoning: "Brønsted-Lowry acids donate protons; bases accept them.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** A proton donor",
+            finalAnswer: "**(b)** A proton donor",
             commonErrors: ["Choosing (a), the definition of a base.", "Choosing (d), which describes an Arrhenius base."],
             examinerNote: "B1 for proton donor.",
           },
@@ -181,7 +181,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Neutralization", statement: "acid + base $\\rightarrow$ salt + water" }],
             steps: [{ reasoning: "$\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$: the salt is NaCl and water forms.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Sodium chloride and water",
+            finalAnswer: "**(d)** Sodium chloride and water",
             commonErrors: ["Choosing (a), which is the product of an acid with a metal.", "Choosing (d), which is the product of an acid with a carbonate."],
             examinerNote: "B1 for salt and water.",
           },

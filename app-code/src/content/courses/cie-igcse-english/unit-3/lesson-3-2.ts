@@ -354,7 +354,7 @@ export const lesson32: Lesson = {
             { id: "b", text: "He wiped his eyes and sighed." },
             { id: "c", text: "She was angry." },
             { id: "d", text: "He was sad." },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Show don't tell", statement: "Actions reveal feelings." }],
             steps: [

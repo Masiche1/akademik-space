@@ -57,7 +57,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Xylem", statement: "Transports water and minerals upward." }],
             steps: [{ reasoning: "Xylem vessels form continuous dead tubes.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Xylem",
+            finalAnswer: "**(d)** Xylem",
           },
         },
         {
@@ -170,7 +170,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Heart", statement: "RV → pulmonary artery → lungs." }],
             steps: [{ reasoning: "Pulmonary circuit starts at right ventricle.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Right ventricle",
+            finalAnswer: "**(d)** Right ventricle",
           },
         },
         {

@@ -53,7 +53,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "H₂ test", statement: "Squeaky pop with lighted splint." }],
             steps: [{ reasoning: "Recall.", working: "\\text{squeaky pop}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Lighted splint gives squeaky pop",
+            finalAnswer: "**(c)** Lighted splint gives squeaky pop",
             commonErrors: ["Confusing with O₂ test."],
           },
         },
@@ -132,7 +132,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "O₂ test", statement: "Glowing splint relights." }],
             steps: [{ reasoning: "Recall.", working: "\\text{relights}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Glowing splint relights",
+            finalAnswer: "**(c)** Glowing splint relights",
             commonErrors: ["Squeaky pop is hydrogen."],
           },
         },
@@ -150,7 +150,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "NH₃ test", statement: "Damp red litmus → blue (alkaline)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{red} \\to \\text{blue}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Damp red litmus turns blue",
+            finalAnswer: "**(a)** Damp red litmus turns blue",
             commonErrors: ["Bleaching blue litmus is chlorine."],
           },
         },
@@ -199,7 +199,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Gas collection", statement: "Denser-than-air gases collected upward." }],
             steps: [{ reasoning: "Recall.", working: "\\text{denser}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Denser than air",
+            finalAnswer: "**(c)** Denser than air",
             commonErrors: ["Colourlessness doesn't determine collection method."],
           },
         },
@@ -231,11 +231,11 @@ export const lesson1111: Lesson = {
             { id: "b", text: "Oxygen" },
             { id: "c", text: "Hydrogen" },
             { id: "d", text: "Ammonia" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "CO₂ test", statement: "Limewater turns milky." }],
             steps: [{ reasoning: "Recall.", working: "\\text{CO}_2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Carbon dioxide",
+            finalAnswer: "**(a)** Carbon dioxide",
             commonErrors: ["Ammonia turns litmus blue, not limewater."],
           },
         },
@@ -373,7 +373,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Flame tests", statement: "K⁺ = lilac." }],
             steps: [{ reasoning: "Recall.", working: "K^+ = \\text{lilac}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Lilac",
+            finalAnswer: "**(c)** Lilac",
             commonErrors: ["Confusing with Na⁺ yellow."],
           },
         },
@@ -467,11 +467,11 @@ export const lesson1111: Lesson = {
             { id: "b", text: "White" },
             { id: "c", text: "Pale blue" },
             { id: "d", text: "Green" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Fe³⁺ test", statement: "Orange/brown precipitate with NaOH." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Fe}^{3+} \\to \\text{orange}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Orange/brown",
+            finalAnswer: "**(a)** Orange/brown",
             commonErrors: ["Green is Fe²⁺, blue is Cu²⁺."],
           },
         },
@@ -520,7 +520,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Silver halides", statement: "AgBr = cream." }],
             steps: [{ reasoning: "Recall.", working: "\\text{AgBr cream}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Cream",
+            finalAnswer: "**(a)** Cream",
             commonErrors: ["White is AgCl; yellow is AgI."],
           },
         },
@@ -556,7 +556,7 @@ export const lesson1111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "CO₃²⁻ test", statement: "Acid → CO₂ effervescence." }],
             steps: [{ reasoning: "Recall.", working: "\\text{dilute acid}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Dilute acid",
+            finalAnswer: "**(c)** Dilute acid",
             commonErrors: ["AgNO₃ tests halides; BaCl₂ tests sulfate."],
           },
         },

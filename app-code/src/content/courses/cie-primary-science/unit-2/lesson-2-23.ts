@@ -122,7 +122,7 @@ export const lesson223: Lesson = {
             { id: "b", text: "Mantle" },
             { id: "c", text: "Atmosphere" },
             { id: "d", text: "Core" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Core", statement: "Hottest centre of Earth." }],
             steps: [{ reasoning: "The core is the hottest layer.", marks: 1, markCode: "A" }],

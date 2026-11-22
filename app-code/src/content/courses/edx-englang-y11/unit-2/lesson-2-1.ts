@@ -101,7 +101,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Scene-setting hook", statement: "A precise time, place and image drop the reader into the topic." }],
             steps: [{ reasoning: "Opening 2 gives a precise time and scene, with a striking image of heads bowed.", evidence: "At 8.52 on a Tuesday morning", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(b)** Opening 2 places the reader in a specific scene.",
+            finalAnswer: "**(a)** Opening 2 places the reader in a specific scene.",
             commonErrors: ["Choosing Opening 3, which opens with a general question and teacher's observation rather than a scene.", "Choosing Opening 1, which announces its argument."],
           },
         },
@@ -231,7 +231,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Concession and pivot", statement: "Acknowledge fairly, then pivot with 'however' to a reasoned point." }],
             steps: [{ reasoning: "Sentence (a) grants a fair point and pivots to a reasoned objection, whereas (c) dismisses opponents without reason.", evidence: "It is true that ... however", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** It concedes a fair point and pivots with a reason.",
+            finalAnswer: "**(c)** It concedes a fair point and pivots with a reason.",
             commonErrors: ["Choosing (c), which mentions the other side but gives no reason.", "Choosing (d), which is circular."],
           },
         },

@@ -237,7 +237,7 @@ export const lesson614: Lesson = {
             steps: [
               { reasoning: "Perestroika sought systemic economic and political reform.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** To restructure and modernise the Soviet economy and system"
+            finalAnswer: "**(c)** To restructure and modernise the Soviet economy and system"
           }
         },
         {
@@ -281,7 +281,7 @@ export const lesson614: Lesson = {
             steps: [
               { reasoning: "The wall opened on 9 November 1989.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** 9 November 1989"
+            finalAnswer: "**(d)** 9 November 1989"
           }
         },
         {
@@ -345,7 +345,7 @@ export const lesson614: Lesson = {
             steps: [
               { reasoning: "Stagnation and defence costs undermined the Soviet system.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** Long-term economic stagnation and the burden of military spending"
+            finalAnswer: "**(b)** Long-term economic stagnation and the burden of military spending"
           }
         },
         {
@@ -408,7 +408,7 @@ export const lesson614: Lesson = {
             steps: [
               { reasoning: "Soviet satellites depended on Moscow for security and ideology.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** Political and military alignment with the Soviet Union"
+            finalAnswer: "**(d)** Political and military alignment with the Soviet Union"
           }
         },
         {
@@ -452,7 +452,7 @@ export const lesson614: Lesson = {
             steps: [
               { reasoning: "The reforms aimed to revitalise socialism rather than end it.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** To renew and strengthen the Soviet system"
+            finalAnswer: "**(b)** To renew and strengthen the Soviet system"
           }
         },
         {

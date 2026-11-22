@@ -69,7 +69,7 @@ export const lesson51: Lesson = {
               { reasoning: "Identify $x^3+27=x^3+3^3$ and substitute $a=x$, $b=3$ into the sum-of-cubes identity.", working: "(x+3)(x^2-3x+9)", marks: 1, markCode: "M" },
               { reasoning: "The factorization uses a plus sign in the linear factor and a negative middle term in the quadratic factor.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $(x+3)(x^2-3x+9)$",
+            finalAnswer: "**(d)** $(x+3)(x^2-3x+9)$",
             commonErrors: ["Using the difference-of-cubes pattern for a sum.", "Giving the quadratic factor a positive middle term."],
           },
         },
@@ -200,7 +200,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "$x^2+5x+25$" },
               { id: "d", text: "$x^2+10x+25$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -210,7 +210,7 @@ export const lesson51: Lesson = {
               { reasoning: "Apply the square-of-a-sum identity with $a=x$ and $b=5$.", working: "(x+5)^2=x^2+2(x)(5)+5^2", marks: 1, markCode: "M" },
               { reasoning: "Simplify the middle and constant terms.", working: "x^2+10x+25", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $x^2+10x+25$",
+            finalAnswer: "**(d)** $x^2+10x+25$",
             commonErrors: ["Omitting the middle term $10x$.", "Using $5x$ instead of $2(x)(5)$."],
           },
         },

@@ -357,7 +357,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** How gender shapes power",
+            finalAnswer: "**(a)** How gender shapes power",
           },
         },
         {
@@ -412,7 +412,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Power through humiliation",
+            finalAnswer: "**(a)** Power through humiliation",
           },
         },
         {
@@ -454,7 +454,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Whose culture is centred",
+            finalAnswer: "**(a)** Whose culture is centred",
           },
         },
         {
@@ -610,7 +610,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Report sustained readings",
+            finalAnswer: "**(a)** Report sustained readings",
           },
         },
         {
@@ -1094,7 +1094,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "The poem uses lots of metaphors." },
               { id: "d", text: "The poem is about grief." },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1117,7 +1117,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Judgement + evidence + qualification",
+            finalAnswer: "**(b)** Judgement + evidence + qualification",
           },
         },
         {
@@ -1401,7 +1401,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Judgement + evidence + qualification",
+            finalAnswer: "**(d)** Judgement + evidence + qualification",
           },
         },
         {
@@ -1501,7 +1501,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Strong escalation, vague evidence",
+            finalAnswer: "**(b)** Strong escalation, vague evidence",
           },
         },
         {
@@ -1555,7 +1555,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Powerful paradox, some risk of overstatement",
+            finalAnswer: "**(c)** Powerful paradox, some risk of overstatement",
           },
         },
         {
@@ -1597,7 +1597,7 @@ export const lesson32: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Strengths and limits, both evidenced",
+            finalAnswer: "**(a)** Strengths and limits, both evidenced",
           },
         },
         {
@@ -1914,7 +1914,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Contains truth the sentences deny — effective but conventional",
+              "**(a)** Contains truth the sentences deny — effective but conventional",
           },
         },
         {

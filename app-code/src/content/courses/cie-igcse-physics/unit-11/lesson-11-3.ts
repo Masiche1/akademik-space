@@ -140,7 +140,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Ohm's law", statement: "I ∝ V → straight line through origin." }],
             steps: [{ reasoning: "Recall.", working: "\\text{straight line}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A straight line through the origin",
+            finalAnswer: "**(a)** A straight line through the origin",
             commonErrors: ["Not all conductors obey Ohm's law — metal at constant temp does."],
           },
         },
@@ -190,7 +190,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Density graph", statement: "Gradient of m vs V = ρ." }],
             steps: [{ reasoning: "Recall.", working: "\\rho", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Density",
+            finalAnswer: "**(a)** Density",
             commonErrors: ["Gradient is density, not volume."],
           },
         },
@@ -242,7 +242,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Specific heat", statement: "$c = Q/(m\\Delta T)$" }],
             steps: [{ reasoning: "Recall.", working: "\\frac{Q}{m\\Delta T}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\frac{Q}{m\\Delta T}$",
+            finalAnswer: "**(c)** $\\frac{Q}{m\\Delta T}$",
             commonErrors: ["Confusing with density formula."],
           },
         },
@@ -314,7 +314,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Ohm's law", statement: "Linear I–V → constant R." }],
             steps: [{ reasoning: "Recall.", working: "\\text{constant } R", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Constant resistance — the conductor obeys Ohm's law",
+            finalAnswer: "**(d)** Constant resistance — the conductor obeys Ohm's law",
             commonErrors: ["Curved I–V would indicate non-ohmic behaviour."],
           },
         },
@@ -388,7 +388,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Systematic", statement: "Consistent shift." }],
             steps: [{ reasoning: "Recall.", working: "\\text{consistent}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Consistent shift in all readings",
+            finalAnswer: "**(c)** Consistent shift in all readings",
             commonErrors: ["Confusing with random."],
           },
         },
@@ -468,7 +468,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Reliability", statement: "Repeatable/consistent results." }],
             steps: [{ reasoning: "Recall.", working: "\\text{repeatable}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Repeat measurements give consistent results",
+            finalAnswer: "**(a)** Repeat measurements give consistent results",
             commonErrors: ["Reliable ≠ necessarily accurate."],
           },
         },
@@ -570,7 +570,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Parallax", statement: "Human viewing error." }],
             steps: [{ reasoning: "Recall.", working: "\\text{human}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A human error",
+            finalAnswer: "**(c)** A human error",
             commonErrors: ["Parallax comes from viewing angle — human, not instrument."],
           },
         },
@@ -604,7 +604,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "method", name: "Precision", statement: "Repeats + finer resolution." }],
             steps: [{ reasoning: "Recall.", working: "\\text{repeats/instrument}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Take more repeat readings and use a more precise instrument",
+            finalAnswer: "**(b)** Take more repeat readings and use a more precise instrument",
             commonErrors: ["Changing units doesn't improve precision."],
           },
         },
@@ -642,7 +642,7 @@ export const lessonp113: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Fair test", statement: "Only IV changed; controls constant." }],
             steps: [{ reasoning: "Recall.", working: "\\text{only IV}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Only the independent variable is changed",
+            finalAnswer: "**(d)** Only the independent variable is changed",
             commonErrors: ["Changing multiple variables invalidates the test."],
           },
         },

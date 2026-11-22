@@ -63,7 +63,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Energy unit", statement: "Joule (J)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{J}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Joule",
+            finalAnswer: "**(d)** Joule",
             commonErrors: ["Watt = power."],
           },
         },
@@ -143,7 +143,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Power unit", statement: "Watt (W) = J/s." }],
             steps: [{ reasoning: "Recall.", working: "1\\ \\text{W} = 1\\ \\text{J/s}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Watt",
+            finalAnswer: "**(d)** Watt",
             commonErrors: ["Confusing energy (J) with power (W)."],
           },
         },
@@ -177,7 +177,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Work", statement: "W = Fd — displacement in force direction needed." }],
             steps: [{ reasoning: "Recall condition.", working: "W = Fd \\Rightarrow d \\neq 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** the force causes the object to move in its direction",
+            finalAnswer: "**(c)** the force causes the object to move in its direction",
             commonErrors: ["Thinking any applied force does work."],
           },
         },
@@ -233,7 +233,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Efficiency", statement: "η = useful ÷ total × 100%." }],
             steps: [{ reasoning: "η = 600/800 × 100 = 75%.", working: "\\eta = \\frac{600}{800} \\times 100", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 75%",
+            finalAnswer: "**(a)** 75%",
             commonErrors: ["Inverting the ratio to get 133%."],
           },
         },
@@ -337,7 +337,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Efficiency", statement: "Useful = efficiency × input." }],
             steps: [{ reasoning: "0.80 × 2500 = 2000 J.", working: "0.8 \\times 2500", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $2000\\ \\text{J}$",
+            finalAnswer: "**(c)** $2000\\ \\text{J}$",
             commonErrors: ["Calculating the wasted energy instead."],
           },
         },
@@ -383,7 +383,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Falling object", statement: "GPE→KE." }],
             steps: [{ reasoning: "Recall.", working: "GPE \\to KE", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Decreases, converts to KE",
+            finalAnswer: "**(c)** Decreases, converts to KE",
             commonErrors: ["GPE doesn't disappear — transfers to KE."],
           },
         },
@@ -459,11 +459,11 @@ export const lessonp31: Lesson = {
             { id: "b", text: "thermal energy" },
             { id: "c", text: "gravitational potential energy" },
             { id: "d", text: "kinetic energy" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Elastic PE", statement: "Energy stored in stretched/compressed objects." }],
             steps: [{ reasoning: "Recall.", working: "\\text{elastic PE}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** elastic potential energy",
+            finalAnswer: "**(a)** elastic potential energy",
             commonErrors: ["Confusing with gravitational PE."],
           },
         },
@@ -497,7 +497,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Pendulum", statement: "Bottom: max KE, min GPE." }],
             steps: [{ reasoning: "Recall.", working: "\\text{bottom} \\to \\text{max KE}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** kinetic energy is maximum and gravitational PE is minimum",
+            finalAnswer: "**(a)** kinetic energy is maximum and gravitational PE is minimum",
             commonErrors: ["Swapping the top and bottom points."],
           },
         },
@@ -559,11 +559,11 @@ export const lessonp31: Lesson = {
             { id: "b", text: "Wind" },
             { id: "c", text: "Diesel" },
             { id: "d", text: "Natural gas" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Renewable sources", statement: "Solar, wind, hydro, biomass." }],
             steps: [{ reasoning: "Recall.", working: "\\text{wind} \\to \\text{renewable}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Wind",
+            finalAnswer: "**(b)** Wind",
             commonErrors: ["Coal, gas and diesel are non-renewable."],
           },
         },
@@ -597,7 +597,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Conservation", statement: "Energy is transferred, not destroyed." }],
             steps: [{ reasoning: "Recall.", working: "\\text{conserved, dissipated}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** transferred to the surroundings, still conserved overall",
+            finalAnswer: "**(a)** transferred to the surroundings, still conserved overall",
             commonErrors: ["Thinking wasted energy is destroyed."],
           },
         },
@@ -631,7 +631,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Damping", statement: "Energy dissipated to surroundings." }],
             steps: [{ reasoning: "Recall.", working: "\\text{heat/sound losses}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** energy is transferred to the surroundings as heat and sound",
+            finalAnswer: "**(b)** energy is transferred to the surroundings as heat and sound",
             commonErrors: ["Claiming energy is destroyed."],
           },
         },

@@ -79,7 +79,7 @@ export const lesson54: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** A program in execution with its own memory space",
+        finalAnswer: "**(c)** A program in execution with its own memory space",
       },
     },
     {
@@ -113,7 +113,7 @@ export const lesson54: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Using disk space as an extension of RAM",
+        finalAnswer: "**(a)** Using disk space as an extension of RAM",
       },
     },
     {
@@ -189,7 +189,7 @@ export const lesson54: Lesson = {
           },
         ],
         finalAnswer:
-          "**(b)** When processes circularly wait for each other's resources",
+          "**(d)** When processes circularly wait for each other's resources",
       },
     },
     {
@@ -398,7 +398,7 @@ export const lesson54: Lesson = {
           { id: "c", text: "Priority scheduling" },
           { id: "d", text: "Shortest-job-first" },
         ],
-        aorrectChoiceId: "c",
+        correctChoiceId: "a",
       },
       markscheme: {
         principles: [
@@ -416,7 +416,7 @@ export const lesson54: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(c)** Round-robin",
+        finalAnswer: "**(a)** Round-robin",
       },
     },
     {
@@ -691,7 +691,7 @@ export const lesson54: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Excessive page swapping between RAM and disk",
+        finalAnswer: "**(d)** Excessive page swapping between RAM and disk",
       },
     },
     {

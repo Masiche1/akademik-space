@@ -64,7 +64,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "The optimal solution is at a corner point of the feasible region.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** At a vertex",
+            finalAnswer: "**(c)** At a vertex",
             commonErrors: ["Thinking the optimum can be interior."],
           },
         },
@@ -193,7 +193,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "The region is the triangle with vertices $(0,0)$, $(4,0)$, $(0,4)$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(0,0)$, $(4,0)$, $(0,4)$",
+            finalAnswer: "**(b)** $(0,0)$, $(4,0)$, $(0,4)$",
             commonErrors: ["Including points violating $x+y\\le4$."],
           },
         },

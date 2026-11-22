@@ -68,7 +68,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Neutrons are uncharged and have the same relative mass as protons.", working: "\\text{charge } 0,\\ \\text{mass } 1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(b)**",
             commonErrors: ["Choosing (b), which is a proton.", "Choosing (c), which describes the mass of an electron but with the neutron's charge."],
             examinerNote: "B1 for (a).",
           },

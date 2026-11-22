@@ -80,7 +80,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "N to S outside.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** N to S",
+            finalAnswer: "**(a)** N to S",
             commonErrors: ["S to N confused."],
           },
         },
@@ -272,7 +272,7 @@ export const lesson42: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Paper or skin",
+            finalAnswer: "**(c)** Paper or skin",
             commonErrors: ["Lead confused — that's gamma."],
           },
         },

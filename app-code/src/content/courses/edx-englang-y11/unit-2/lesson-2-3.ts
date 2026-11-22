@@ -228,7 +228,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Semicolon", statement: "A semicolon joins two complete, related clauses." }],
             steps: [{ reasoning: "Both sides of the semicolon in (a) can stand alone as sentences.", evidence: "The library was silent; the only sound was a clock", marks: 1, markCode: "AO5" }],
-            finalAnswer: "**(a)** Both clauses are complete and closely related.",
+            finalAnswer: "**(d)** Both clauses are complete and closely related.",
             commonErrors: ["Using a semicolon after a subordinate clause (c).", "Using it like a comma (b, d)."],
           },
         },

@@ -66,7 +66,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Subtract $2x$ and add 7 to both sides.", working: "x=5+7=12", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x=12$",
+            finalAnswer: "**(d)** $x=12$",
             commonErrors: ["Moving $2x$ across without changing its sign, getting $x=2$."],
           },
         },
@@ -165,7 +165,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "$x=3$" },
               { id: "d", text: "$x=6$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -174,7 +174,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Subtract $3x$ and 2 from both sides: $2x=8$, so $x=4$.", working: "5x-3x=10-2\\Rightarrow 2x=8\\Rightarrow x=4", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** $x=4$",
+            finalAnswer: "**(a)** $x=4$",
             commonErrors: ["Moving terms without changing signs: $5x+3x=10-2$."],
           },
         },
@@ -191,7 +191,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "$x=2$" },
               { id: "d", text: "$x=18$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -200,7 +200,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Multiply both sides by 3.", working: "x=6\\times3=18", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** $x=18$",
+            finalAnswer: "**(d)** $x=18$",
             commonErrors: ["Dividing by 3 instead of multiplying, giving $x=2$."],
           },
         },
@@ -226,7 +226,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Take the square root of both sides, remembering both signs.", working: "x=\\pm\\sqrt{49}=\\pm7", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $x=\\pm7$",
+            finalAnswer: "**(a)** $x=\\pm7$",
             commonErrors: ["Giving only $x=7$ and missing the negative root."],
           },
         },
@@ -394,7 +394,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "5" },
               { id: "d", text: "7" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -403,7 +403,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Subtract $2x$ and add 2: $x=7$.", working: "3x-2x=5+2\\Rightarrow x=7", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** $x=7$",
+            finalAnswer: "**(d)** $x=7$",
             commonErrors: ["Sign error giving $x=3$."],
           },
         },
@@ -429,7 +429,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$1\\times4=4$ and $1+4=5$, so $(x-1)(x-4)=0$.", working: "x=1\\ \\text{or}\\ x=4", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $x=1$ or $x=4$",
+            finalAnswer: "**(c)** $x=1$ or $x=4$",
             commonErrors: ["Sign error writing $(x+1)(x+4)$.", "Choosing $2$ and $3$ — they sum to 5 but multiply to 6, not 4."],
           },
         },
@@ -486,7 +486,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Subtract 3 and divide by 2 (positive, so sign unchanged).", working: "2x>4\\Rightarrow x>2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x>2$",
+            finalAnswer: "**(b)** $x>2$",
             commonErrors: ["Writing $x<2$ by wrongly reversing the sign for a positive divisor."],
           },
         },
@@ -593,7 +593,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Subtract 5 from both sides.", working: "x>9-5=4", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $x>4$",
+            finalAnswer: "**(c)** $x>4$",
             commonErrors: ["Flipping the sign unnecessarily to get $x<4$.", "Dividing both sides by 5 to get $\\frac{9}{5}$."],
           },
         },
@@ -619,7 +619,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Divide both sides by 4 (positive, so direction unchanged).", working: "x\\le5", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $x\\le5$",
+            finalAnswer: "**(b)** $x\\le5$",
             commonErrors: ["Writing $x<5$ and losing the boundary value.", "Multiplying by 4 instead of dividing."],
           },
         },
@@ -645,7 +645,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Divide by $-2$, reversing the sign.", working: "x<-4", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $x<-4$",
+            finalAnswer: "**(b)** $x<-4$",
             commonErrors: ["Forgetting to reverse the inequality to get $x>-4$.", "Dividing by 2 instead of $-2$."],
           },
         },
@@ -823,7 +823,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "(a) gives $x\\ge3$; (b) and (c) give strict $x>3$; (d) gives $x<3$.", working: "x-2\\ge1\\Rightarrow x\\ge3", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $x-2\\ge1$",
+            finalAnswer: "**(d)** $x-2\\ge1$",
             commonErrors: ["Choosing (b) — it gives $x>3$, which excludes the boundary."],
           },
         },

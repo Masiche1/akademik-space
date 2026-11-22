@@ -55,7 +55,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "$\\text{HCl}$" },
               { id: "d", text: "$\\text{CH}_4$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -64,7 +64,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Only $\\text{NH}_3$ has hydrogen bonded directly to nitrogen. In $\\text{HCl}$ the H is bonded to Cl, and $\\text{CH}_4$ and $\\text{CH}_3\\text{Cl}$ have H bonded only to C.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\text{NH}_3$",
+            finalAnswer: "**(a)** $\\text{NH}_3$",
             commonErrors: ["Choosing $\\text{HCl}$ because it contains hydrogen; the hydrogen must be bonded to N, O or F.", "Choosing $\\text{CH}_3\\text{Cl}$ because it is polar."],
             examinerNote: "B1 for $\\text{NH}_3$.",
           },
@@ -198,7 +198,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "The temperature is constant, so average kinetic energy is not changing. The energy absorbed is used to overcome intermolecular forces.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Energy is overcoming intermolecular forces during a phase change.",
+            finalAnswer: "**(a)** Energy is overcoming intermolecular forces during a phase change.",
             commonErrors: ["Choosing (a): kinetic energy changes only on the sloped sections.", "Choosing (d): energy is still being added."],
             examinerNote: "B1 for (b).",
           },

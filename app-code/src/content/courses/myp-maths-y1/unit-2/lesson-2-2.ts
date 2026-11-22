@@ -71,7 +71,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Add 4 to both sides, then divide both sides by 3.", working: "3x=15,\\quad x=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x=5$",
+            finalAnswer: "**(c)** $x=5$",
             commonErrors: ["Subtracting 4 instead of adding, giving $3x=7$ and $x=\\frac{7}{3}$.", "Forgetting to divide by 3 and giving 15."],
             examinerNote: "B1 for x = 5.",
           },
@@ -177,7 +177,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Subtract 9 from both sides: $x=14-9=5$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $x=5$",
+            finalAnswer: "**(c)** $x=5$",
             commonErrors: ["Adding 9 to get 23.", "Subtracting 14 from 9 to get $-5$."],
             examinerNote: "B1 for x = 5.",
           },
@@ -204,7 +204,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Divide both sides by 4: $x=28\\div4=7$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x=7$",
+            finalAnswer: "**(d)** $x=7$",
             commonErrors: ["Multiplying 28 by 4 to get 112.", "Subtracting 4 to get 24."],
             examinerNote: "B1 for x = 7.",
           },
@@ -344,7 +344,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Test each at $x=-2$: (a) $3\\times(-2)+4=-2\\neq10$; (b) $5\\times(-2)-1=-11$, true; (c) $\\frac{-2}{2}-3=-4\\neq2$; (d) $2\\times(-2)+5=1\\neq3$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(c)**",
             commonErrors: ["Testing only one equation."],
             examinerNote: "B1 for choice (b).",
           },
@@ -505,7 +505,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Doubling gives $2n$, then adding 4 gives $2n+4$, which equals 18.", working: "2n+4=18", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2n+4=18$",
+            finalAnswer: "**(c)** $2n+4=18$",
             commonErrors: ["Adding 4 before doubling, giving $2(n+4)$.", "Swapping the 2 and the 4."],
             examinerNote: "B1 for 2n + 4 = 18.",
           },
@@ -610,7 +610,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Tripling gives $3n$, then subtracting 6 gives $3n-6$, which equals 21.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3n-6=21$",
+            finalAnswer: "**(d)** $3n-6=21$",
             commonErrors: ["Subtracting inside the bracket to get $3(n-6)$.", "Swapping 3 and 6 to get $6n-3$."],
             examinerNote: "B1 for 3n - 6 = 21.",
           },
@@ -628,7 +628,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "$x-4$" },
               { id: "d", text: "$4x-4$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -637,7 +637,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Width is $x-4$. Perimeter $=2x+2(x-4)=2x+2x-8=4x-8$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $4x-8$",
+            finalAnswer: "**(b)** $4x-8$",
             commonErrors: ["Forgetting to double the width, giving $2x+(x-4)=3x-4$.", "Expanding $2(x-4)$ as $2x-4$."],
             examinerNote: "B1 for 4x - 8.",
           },
@@ -664,7 +664,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Add the four angle expressions and set equal to 360; $x+2x+3x+4x=10x$.", working: "10x=360", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $x+2x+3x+4x=360$",
+            finalAnswer: "**(a)** $x+2x+3x+4x=360$",
             commonErrors: ["Using 180, the triangle sum.", "Multiplying the angles instead of adding."],
             examinerNote: "B1 for choice (b).",
           },
@@ -776,7 +776,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Multiply by 4 gives $4n$, then add 7 gives $4n+7=31$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $4n+7=31$",
+            finalAnswer: "**(d)** $4n+7=31$",
             commonErrors: ["Adding 7 before multiplying, giving $4(n+7)$."],
             examinerNote: "B1 for 4n + 7 = 31.",
           },
@@ -828,7 +828,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Halving gives $\\frac{n}{2}$, then adding 3 gives $\\frac{n}{2}+3=11$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{n}{2}+3=11$",
+            finalAnswer: "**(d)** $\\frac{n}{2}+3=11$",
             commonErrors: ["Adding 3 before halving, giving $\\frac{n+3}{2}$."],
             examinerNote: "B1 for choice (a).",
           },

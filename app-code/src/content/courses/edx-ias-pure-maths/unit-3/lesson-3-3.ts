@@ -59,7 +59,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Inductive step", statement: "Prove $P(k)\\Rightarrow P(k+1)$." }],
             steps: [{ reasoning: "The step shows truth propagates from $k$ to $k+1$.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $P(k)\\Rightarrow P(k+1)$",
+            finalAnswer: "**(d)** $P(k)\\Rightarrow P(k+1)$",
           },
         },
         {
@@ -175,7 +175,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Base case", statement: "Start where the statement first holds." }],
             steps: [{ reasoning: "$4!=24>16=2^4$; fails for $n=3$ ($6>8$ false).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $n=4$",
+            finalAnswer: "**(b)** $n=4$",
           },
         },
         {

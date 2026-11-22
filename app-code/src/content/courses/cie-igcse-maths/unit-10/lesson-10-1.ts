@@ -117,7 +117,7 @@ export const lesson101: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Mode", statement: "Most frequent value." }],
             steps: [{ reasoning: "7 appears 3 times, more than any other value.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** 7",
+            finalAnswer: "**(d)** 7",
           },
         },
         {
@@ -149,7 +149,7 @@ export const lesson101: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Median", statement: "Average the two middle values for even $n$." }],
             steps: [{ reasoning: "Ordered data already; middle two are 10 and 12, median $= \\frac{10+12}{2} = 11$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** 11",
+            finalAnswer: "**(b)** 11",
           },
         },
         {
@@ -275,7 +275,7 @@ export const lesson101: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Mean", statement: "Sum $= \\bar{x} \\times n$." }],
             steps: [{ reasoning: "Total $= 14 \\times 5 = 70$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** 70",
+            finalAnswer: "**(d)** 70",
           },
         },
         {

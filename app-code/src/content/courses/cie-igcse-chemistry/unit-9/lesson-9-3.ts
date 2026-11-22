@@ -53,11 +53,11 @@ export const lesson193: Lesson = {
             { id: "b", text: "Oxygen" },
             { id: "c", text: "Water vapour" },
             { id: "d", text: "Methane" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Greenhouse gases", statement: "CO₂, CH₄, H₂O — not O₂." }],
             steps: [{ reasoning: "Recall.", working: "\\text{O}_2 \\text{ not GHG}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Oxygen",
+            finalAnswer: "**(b)** Oxygen",
             commonErrors: ["O₂ is essential but not a GHG."],
           },
         },
@@ -137,7 +137,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Greenhouse effect", statement: "GHG absorb IR." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Infrared",
+            finalAnswer: "**(a)** Infrared",
             commonErrors: ["Sunlight is visible; Earth emits IR."],
           },
         },
@@ -276,7 +276,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Enhanced greenhouse", statement: "More GHG → more warming." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Increased greenhouse gas emissions",
+            finalAnswer: "**(d)** Increased greenhouse gas emissions",
             commonErrors: ["Ozone depletion is separate issue."],
           },
         },
@@ -319,7 +319,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Greenhouse effect", statement: "Natural and essential." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Essential for life on Earth",
+            finalAnswer: "**(a)** Essential for life on Earth",
             commonErrors: ["Enhanced effect is the problem."],
           },
         },
@@ -337,7 +337,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "NOₓ", statement: "→ HNO₃." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Nitric acid",
+            finalAnswer: "**(d)** Nitric acid",
             commonErrors: ["SO₂ → sulphuric acid."],
           },
         },
@@ -383,7 +383,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ozone", statement: "Absorbs UV." }],
             steps: [{ reasoning: "Recall.", working: "\\text{O}_3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ozone layer",
+            finalAnswer: "**(c)** Ozone layer",
             commonErrors: ["CO₂ traps heat not UV."],
           },
         },
@@ -463,7 +463,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ozone layer", statement: "Stratosphere." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Stratosphere",
+            finalAnswer: "**(c)** Stratosphere",
             commonErrors: ["Ground-level ozone is smog."],
           },
         },
@@ -481,7 +481,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "CFCs", statement: "Destroy O₃ via Cl radicals." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** CFCs",
+            finalAnswer: "**(d)** CFCs",
             commonErrors: ["CO₂ is greenhouse gas."],
           },
         },
@@ -598,7 +598,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Montreal Protocol", statement: "CFC phase-out." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Phase out CFCs",
+            finalAnswer: "**(c)** Phase out CFCs",
             commonErrors: ["It targets ozone-depleting substances."],
           },
         },
@@ -641,7 +641,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ground ozone", statement: "Pollutant in smog." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A harmful component of smog",
+            finalAnswer: "**(c)** A harmful component of smog",
             commonErrors: ["Stratospheric O₃ good; ground-level bad."],
           },
         },
@@ -659,7 +659,7 @@ export const lesson193: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Catalytic converter", statement: "Reduces NOₓ/CO." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** NOₓ and CO",
+            finalAnswer: "**(d)** NOₓ and CO",
             commonErrors: ["Not CO₂ specifically."],
           },
         },

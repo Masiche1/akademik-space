@@ -92,7 +92,7 @@ export const lesson312: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Nucleus",
+            finalAnswer: "**(d)** Nucleus",
             commonErrors: ["Confusing with translation (cytoplasm)."],
           },
         },
@@ -260,7 +260,7 @@ export const lesson312: Lesson = {
             steps: [
               { reasoning: "RNA polymerase carries out transcription.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** RNA polymerase",
+            finalAnswer: "**(c)** RNA polymerase",
             commonErrors: ["Confusing RNA and DNA polymerase."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson312: Lesson = {
             steps: [
               { reasoning: "Uracil pairs with adenine in RNA.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Uracil",
+            finalAnswer: "**(c)** Uracil",
             commonErrors: ["Using thymine in mRNA."],
           },
         },
@@ -320,7 +320,7 @@ export const lesson312: Lesson = {
             steps: [
               { reasoning: "AUG is the start codon.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** AUG",
+            finalAnswer: "**(c)** AUG",
             commonErrors: ["Choosing a stop codon."],
           },
         },
@@ -350,7 +350,7 @@ export const lesson312: Lesson = {
             steps: [
               { reasoning: "The three stop codons are UAA, UAG and UGA.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** UAA, UAG, UGA",
+            finalAnswer: "**(b)** UAA, UAG, UGA",
             commonErrors: ["Confusing stop codons with sense codons."],
           },
         },
@@ -380,7 +380,7 @@ export const lesson312: Lesson = {
             steps: [
               { reasoning: "Degeneracy means redundancy in codon assignment.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Multiple codons per amino acid",
+            finalAnswer: "**(d)** Multiple codons per amino acid",
             commonErrors: ["Thinking degeneracy means inaccurate coding."],
           },
         },
@@ -410,7 +410,7 @@ export const lesson312: Lesson = {
             steps: [
               { reasoning: "A codon change may still code for the same amino acid.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Mutations may be silent",
+            finalAnswer: "**(d)** Mutations may be silent",
             commonErrors: ["Claiming degeneracy prevents all mutation effects."],
           },
         },
@@ -627,7 +627,7 @@ export const lesson312: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Ribosomes in cytoplasm",
+            finalAnswer: "**(c)** Ribosomes in cytoplasm",
             commonErrors: ["Confusing with transcription (nucleus)."],
           },
         },
@@ -829,7 +829,7 @@ export const lesson312: Lesson = {
             steps: [
               { reasoning: "tRNA delivers amino acids to the ribosome.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** An amino acid",
+            finalAnswer: "**(c)** An amino acid",
             commonErrors: ["Confusing tRNA with mRNA."],
           },
         },
@@ -859,7 +859,7 @@ export const lesson312: Lesson = {
             steps: [
               { reasoning: "Anticodon pairs with codon during translation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** tRNA sequence complementary to codon",
+            finalAnswer: "**(b)** tRNA sequence complementary to codon",
             commonErrors: ["Confusing anticodon with codon."],
           },
         },
@@ -889,7 +889,7 @@ export const lesson312: Lesson = {
             steps: [
               { reasoning: "The ribosome catalyses peptide bond formation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Peptide bonds",
+            finalAnswer: "**(b)** Peptide bonds",
             commonErrors: ["Saying glycosidic bonds join amino acids."],
           },
         },
@@ -919,7 +919,7 @@ export const lesson312: Lesson = {
             steps: [
               { reasoning: "Stop codons terminate polypeptide synthesis.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Polypeptide released",
+            finalAnswer: "**(b)** Polypeptide released",
             commonErrors: ["Thinking stop codons code for an amino acid."],
           },
         },
@@ -949,7 +949,7 @@ export const lesson312: Lesson = {
             steps: [
               { reasoning: "Start and stop codons mark translation boundaries.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Define translation boundaries",
+            finalAnswer: "**(b)** Define translation boundaries",
             commonErrors: ["Thinking stop codons add amino acids."],
           },
         },

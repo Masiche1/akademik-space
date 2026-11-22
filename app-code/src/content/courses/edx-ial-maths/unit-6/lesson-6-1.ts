@@ -378,7 +378,7 @@ export const lesson61: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** $0.2$",
+            finalAnswer: "**(b)** $0.2$",
             commonErrors: [
               "Adding probabilities instead of multiplying for independent events.",
             ],

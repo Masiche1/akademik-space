@@ -228,7 +228,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Surface area" },
               { id: "d", text: "Concentration gradient" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -237,7 +237,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Identify the factor that is irrelevant.", working: "\\text{colour}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Colour of the particles",
+            finalAnswer: "**(b)** Colour of the particles",
             commonErrors: ["Choosing surface area — it does affect rate."],
           },
         },
@@ -365,7 +365,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Recall which molecules cross during osmosis.", working: "\\text{water only}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Only water molecules move across the partially permeable membrane",
+            finalAnswer: "**(d)** Only water molecules move across the partially permeable membrane",
             commonErrors: ["Choosing (b) — that describes diffusion of solutes."],
           },
         },
@@ -421,7 +421,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Recall the definition of osmosis.", working: "\\text{water + PPM}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Water across a partially permeable membrane",
+            finalAnswer: "**(b)** Water across a partially permeable membrane",
             commonErrors: ["Confusing osmosis with diffusion of solutes."],
           },
         },
@@ -570,7 +570,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Recall which process needs energy.", working: "\\text{active transport}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Active transport",
+            finalAnswer: "**(b)** Active transport",
             commonErrors: ["Choosing diffusion — it is passive."],
           },
         },
@@ -622,7 +622,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Recall how minerals enter root hairs.", working: "\\text{active transport}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Active transport",
+            finalAnswer: "**(d)** Active transport",
             commonErrors: ["Choosing diffusion — soil is too dilute for net inward diffusion of ions."],
           },
         },
@@ -648,7 +648,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Recall the direction of movement.", working: "\\text{low} \\to \\text{high}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It moves substances from a low to a high concentration",
+            finalAnswer: "**(d)** It moves substances from a low to a high concentration",
             commonErrors: ["Choosing (b) — active transport always needs energy."],
           },
         },
@@ -774,7 +774,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Recall the actively transported nutrient.", working: "\\text{glucose}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Glucose",
+            finalAnswer: "**(b)** Glucose",
             commonErrors: ["Choosing water — water moves by osmosis."],
           },
         },
@@ -831,7 +831,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Match the description to the process.", working: "\\text{active transport}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Active transport",
+            finalAnswer: "**(c)** Active transport",
             commonErrors: ["Choosing osmosis — it concerns water movement only."],
           },
         },

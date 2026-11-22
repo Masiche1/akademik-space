@@ -264,7 +264,7 @@ export const lesson345: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Division of Palestine into separate Jewish and Arab states",
+              "**(b)** Division of Palestine into separate Jewish and Arab states",
           },
         },
         {
@@ -377,7 +377,7 @@ export const lesson345: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Israel captured the West Bank, Gaza, Golan Heights and Sinai",
+              "**(c)** Israel captured the West Bank, Gaza, Golan Heights and Sinai",
           },
         },
         {
@@ -465,7 +465,7 @@ export const lesson345: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** A Palestinian uprising against Israeli occupation",
+              "**(b)** A Palestinian uprising against Israeli occupation",
           },
         },
         {
@@ -551,7 +551,7 @@ export const lesson345: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Competing national claims to Palestine, the 1948 war and the resulting Palestinian displacement",
+              "**(a)** Competing national claims to Palestine, the 1948 war and the resulting Palestinian displacement",
           },
         },
         {
@@ -686,7 +686,7 @@ export const lesson345: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** A movement for a Jewish homeland in Palestine",
+              "**(d)** A movement for a Jewish homeland in Palestine",
           },
         },
         {

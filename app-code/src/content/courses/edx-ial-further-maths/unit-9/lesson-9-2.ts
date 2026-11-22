@@ -60,7 +60,7 @@ export const lesson92: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Correlation", statement: "$-1\\le r\\le1$." }],
             steps: [{ reasoning: "Standard.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $[-1,1]$",
+            finalAnswer: "**(b)** $[-1,1]$",
           },
         },
         {
@@ -180,7 +180,7 @@ export const lesson92: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Regression line", statement: "Passes through means point." }],
             steps: [{ reasoning: "Property.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $(\\bar x,\\bar y)$",
+            finalAnswer: "**(d)** $(\\bar x,\\bar y)$",
           },
         },
         {

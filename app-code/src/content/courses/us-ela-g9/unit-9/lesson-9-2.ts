@@ -111,7 +111,7 @@ export const lesson92: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Correlation confused with causation.",
+            finalAnswer: "**(c)**. Correlation confused with causation.",
             commonErrors: ["Missing the logical fallacy."],
           },
         },
@@ -539,7 +539,7 @@ export const lesson92: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Combining reading, writing, language, speaking/listening.",
+              "**(a)**. Combining reading, writing, language, speaking/listening.",
             commonErrors: ["Thinking strands are separate."],
           },
         },

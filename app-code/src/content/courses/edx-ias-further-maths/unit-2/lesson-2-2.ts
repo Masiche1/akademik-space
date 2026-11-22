@@ -178,7 +178,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Tangent condition", statement: "Stationary $r$ gives perpendicular tangent." }],
             steps: [{ reasoning: "$\\tan\\psi=\\frac{r}{r'}$; $r'=0\\Rightarrow\\psi=\\frac{\\pi}{2}$.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\frac{dr}{d\\theta}=0$",
+            finalAnswer: "**(d)** $\\frac{dr}{d\\theta}=0$",
           },
         },
         {

@@ -315,7 +315,7 @@ export const lesson24: Lesson = {
               { reasoning: "Binary needs sorted data and overhead; linear is simpler for small lists.", marks: 1, markCode: "M" },
               { reasoning: "Unsorted lists can't use binary search at all.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Small or unsorted lists",
+            finalAnswer: "**(c)** Small or unsorted lists",
           },
         },
         {

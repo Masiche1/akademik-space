@@ -64,7 +64,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Subtract the atomic number (protons) from the mass number.", working: "37 - 17 = 20", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 20",
+            finalAnswer: "**(a)** 20",
             commonErrors: ["Choosing 17, the number of protons.", "Choosing 37, the mass number, which counts protons and neutrons together.", "Adding 37 and 17 to get 54."],
             examinerNote: "B1 for 20.",
           },
@@ -193,7 +193,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The superscripts must add to 16: $2 + 2 + 6 + 2 + 4 = 16$, and $3p$ fills before $3d$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^4$",
+            finalAnswer: "**(b)** $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^4$",
             commonErrors: ["Choosing (b), which has 18 electrons (argon).", "Choosing (c), which skips the 3p subshell.", "Choosing (d), which has only 14 electrons (silicon)."],
             examinerNote: "B1 for (a).",
           },

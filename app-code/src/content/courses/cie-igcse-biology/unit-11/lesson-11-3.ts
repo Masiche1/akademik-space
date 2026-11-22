@@ -67,7 +67,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{no soil}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Growing plants without soil in nutrient solution",
+            finalAnswer: "**(c)** Growing plants without soil in nutrient solution",
             commonErrors: ["Confusing with fish farming — that's aquaculture."],
           },
         },
@@ -161,7 +161,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall the term.", working: "\\text{aquaculture}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Aquaculture",
+            finalAnswer: "**(b)** Aquaculture",
             commonErrors: ["Choosing hydroponics — that is soilless plant growing."],
           },
         },
@@ -213,7 +213,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Identify the disadvantage.", working: "\\text{waste pollution}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Waste pollutes the surrounding water",
+            finalAnswer: "**(c)** Waste pollutes the surrounding water",
             commonErrors: ["Choosing (b) — intensive farming gives HIGH yields; that is its advantage."],
           },
         },
@@ -298,7 +298,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Identify the energy-intensive method.", working: "\\text{greenhouse energy}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Hydroponics in a heated, lit greenhouse",
+            finalAnswer: "**(d)** Hydroponics in a heated, lit greenhouse",
             commonErrors: ["Choosing open-field farming — it relies on natural light and climate."],
           },
         },
@@ -383,7 +383,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall the benefit.", working: "\\text{nutrients + pests}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Replenishing soil nutrients and reducing pests",
+            finalAnswer: "**(b)** Replenishing soil nutrients and reducing pests",
             commonErrors: ["Confusing with monoculture — rotation is the opposite of one-crop farming."],
           },
         },
@@ -460,7 +460,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{up the chain}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Increasing toxin concentration up the food chain",
+            finalAnswer: "**(c)** Increasing toxin concentration up the food chain",
             commonErrors: ["Confusing with bioaccumulation — that's within one organism."],
           },
         },
@@ -554,7 +554,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{build-up in tissues}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Build-up of a substance in an organism's tissues over time",
+            finalAnswer: "**(c)** Build-up of a substance in an organism's tissues over time",
             commonErrors: ["Choosing (b) — that describes biomagnification."],
           },
         },
@@ -580,7 +580,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall the gases.", working: "SO_2, NO_x", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sulphur dioxide and nitrogen oxides",
+            finalAnswer: "**(c)** Sulphur dioxide and nitrogen oxides",
             commonErrors: ["Choosing CO₂/methane — those are greenhouse gases."],
           },
         },
@@ -606,7 +606,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall the threshold.", working: "pH < 5.6", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Below 5.6",
+            finalAnswer: "**(d)** Below 5.6",
             commonErrors: ["Choosing below 2 — acid rain only needs pH under ~5.6."],
           },
         },
@@ -691,7 +691,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall the effect on stone.", working: "\\text{corrosion}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Corrosion/chemical weathering of limestone",
+            finalAnswer: "**(d)** Corrosion/chemical weathering of limestone",
             commonErrors: ["Choosing (b) — acid rain damages, not strengthens, stonework."],
           },
         },
@@ -776,7 +776,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall the mechanism.", working: "\\text{eggshell thinning}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Thinned eggshells so eggs broke before hatching",
+            finalAnswer: "**(c)** Thinned eggshells so eggs broke before hatching",
             commonErrors: ["Choosing (b) — DDT harms reproduction via eggshells, not direct killing."],
           },
         },

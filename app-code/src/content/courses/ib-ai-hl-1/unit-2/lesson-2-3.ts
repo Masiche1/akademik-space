@@ -385,7 +385,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "$\\ln y$ against $\\ln x$" },
               { id: "d", text: "$y$ against $x$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -411,7 +411,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $\\ln y$ against $x$",
+            finalAnswer: "**(b)** $\\ln y$ against $x$",
             commonErrors: [
               "Choosing the log-log plot, which linearizes power models instead.",
             ],
@@ -458,7 +458,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $b$",
+            finalAnswer: "**(c)** $b$",
             commonErrors: ["Thinking the gradient gives $a$ or $\\ln a$."],
           },
         },
@@ -546,7 +546,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $y=ax^b$",
+            finalAnswer: "**(c)** $y=ax^b$",
             commonErrors: [
               "Confusing with the semi-log plot that linearizes $y=ka^x$.",
             ],
@@ -638,7 +638,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $y=e^{1.5}x^{-2}\\approx4.48x^{-2}$",
+            finalAnswer: "**(d)** $y=e^{1.5}x^{-2}\\approx4.48x^{-2}$",
             commonErrors: [
               "Swapping gradient and intercept, or using $a=1.5$ instead of $e^{1.5}$.",
             ],
@@ -1192,7 +1192,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(b)**",
             commonErrors: [
               "Treating $R^2$ as the proportion of correct predictions.",
             ],
@@ -1474,7 +1474,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(c)**",
             commonErrors: [
               "Interpreting $R^2$ as a percentage of correct predictions.",
             ],
@@ -1519,7 +1519,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $R^2=r^2$",
+            finalAnswer: "**(d)** $R^2=r^2$",
             commonErrors: ["Reporting $R^2=r$ or keeping the negative sign."],
           },
         },
@@ -1561,7 +1561,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $y-\\hat y$",
+            finalAnswer: "**(d)** $y-\\hat y$",
             commonErrors: [
               "Reversing the order to $\\hat y-y$; acceptable only if used consistently.",
             ],
@@ -1660,7 +1660,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $R^2=0.36$",
+            finalAnswer: "**(d)** $R^2=0.36$",
             commonErrors: ["Giving $R^2=0.6$ or keeping the sign of $r$."],
           },
         },
@@ -1714,7 +1714,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(d)**",
             commonErrors: ["Treating a high $R^2$ as proof of model validity."],
           },
         },

@@ -70,7 +70,7 @@ export const lesson53: Lesson = {
               { reasoning: "Interpretive text provides context and guidance for viewers.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Help viewers understand context and meaning",
+            finalAnswer: "**(c)** Help viewers understand context and meaning",
             commonErrors: [
               "Thinking interpretive text replaces or competes with the artwork.",
             ],
@@ -171,7 +171,7 @@ export const lesson53: Lesson = {
               { reasoning: "Engagement means inviting meaningful viewer response, not just occupancy.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Techniques that invite viewers to interact with, respond to or participate in art",
+            finalAnswer: "**(a)** Techniques that invite viewers to interact with, respond to or participate in art",
             commonErrors: [
               "Confusing engagement with entertainment or crowd control.",
             ],
@@ -200,7 +200,7 @@ export const lesson53: Lesson = {
               { reasoning: "Interpretive text frames what the work is, its significance and points of attention.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** What am I looking at, why does it matter, what should I notice",
+            finalAnswer: "**(a)** What am I looking at, why does it matter, what should I notice",
             commonErrors: [
               "Confusing interpretive text with basic catalogue data.",
             ],
@@ -229,7 +229,7 @@ export const lesson53: Lesson = {
               { reasoning: "Accessible language lets non-specialist viewers engage with the work.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Accessible to viewers without specialist background",
+            finalAnswer: "**(c)** Accessible to viewers without specialist background",
             commonErrors: [
               "Writing interpretive text for peers rather than the general public.",
             ],
@@ -258,7 +258,7 @@ export const lesson53: Lesson = {
               { reasoning: "The best interactive elements extend the theme rather than compete with it.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Relate to the exhibition's themes and deepen engagement",
+            finalAnswer: "**(d)** Relate to the exhibition's themes and deepen engagement",
             commonErrors: [
               "Adding unrelated games or gimmicks to an exhibition.",
             ],
@@ -316,7 +316,7 @@ export const lesson53: Lesson = {
               { reasoning: "Comment cards invite written response — a simple but effective interactive.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A simple interactive element that invites viewer response",
+            finalAnswer: "**(a)** A simple interactive element that invites viewer response",
             commonErrors: [
               "Assuming interaction must be technological or complex.",
             ],
@@ -345,7 +345,7 @@ export const lesson53: Lesson = {
               { reasoning: "Framing text shapes the lens through which viewers approach the work.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A lens that shapes how viewers interpret what they see",
+            finalAnswer: "**(d)** A lens that shapes how viewers interpret what they see",
             commonErrors: [
               "Underestimating how introductory text directs interpretation.",
             ],
@@ -548,7 +548,7 @@ export const lesson53: Lesson = {
               { reasoning: "The critic's role is to offer perspective that helps the artist improve.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Help the artist see the work more clearly and improve it",
+            finalAnswer: "**(a)** Help the artist see the work more clearly and improve it",
             commonErrors: [
               "Using critique to display personal taste rather than help the artist.",
             ],
@@ -649,7 +649,7 @@ export const lesson53: Lesson = {
               { reasoning: "A critique is a structured feedback process, not an attack or judgement.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A structured process of presenting work and receiving feedback",
+            finalAnswer: "**(d)** A structured process of presenting work and receiving feedback",
             commonErrors: [
               "Confusing critique with hostile criticism.",
             ],
@@ -678,7 +678,7 @@ export const lesson53: Lesson = {
               { reasoning: "Describing observed features keeps feedback grounded in the work, not taste.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** State what they observe — colours, forms, composition — before evaluating",
+            finalAnswer: "**(d)** State what they observe — colours, forms, composition — before evaluating",
             commonErrors: [
               "Jumping to opinion without describing what is seen.",
             ],
@@ -707,7 +707,7 @@ export const lesson53: Lesson = {
               { reasoning: "'I' statements frame feedback as perspective, not command.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Owns the response as personal perspective rather than objective fact",
+            finalAnswer: "**(d)** Owns the response as personal perspective rather than objective fact",
             commonErrors: [
               "Stating opinions as universal truths about the work.",
             ],
@@ -736,7 +736,7 @@ export const lesson53: Lesson = {
               { reasoning: "Patterns across viewers are more informative than single opinions.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** More reliable because it shows a pattern in how the work communicates",
+            finalAnswer: "**(a)** More reliable because it shows a pattern in how the work communicates",
             commonErrors: [
               "Dismissing repeated feedback as coincidence.",
             ],
@@ -765,7 +765,7 @@ export const lesson53: Lesson = {
               { reasoning: "Feedback offers perspective; the artist decides what aligns with intention.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Decide what serves the work's intention — feedback informs but does not command",
+            finalAnswer: "**(c)** Decide what serves the work's intention — feedback informs but does not command",
             commonErrors: [
               "Either obeying all feedback or rejecting all of it.",
             ],
@@ -823,7 +823,7 @@ export const lesson53: Lesson = {
               { reasoning: "Records over time show improvement and persistent weaknesses.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Reveals growth and recurring issues across their practice",
+            finalAnswer: "**(c)** Reveals growth and recurring issues across their practice",
             commonErrors: [
               "Collecting feedback once rather than tracking it over time.",
             ],

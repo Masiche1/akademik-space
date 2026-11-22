@@ -237,7 +237,7 @@ export const lesson213: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Reusable code block",
+            finalAnswer: "**(a)** Reusable code block",
             commonErrors: ["Variable confused."],
           },
         },

@@ -140,7 +140,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Moment unit", statement: "Newton-metre (N m)." }],
             steps: [{ reasoning: "Recall.", working: "M = Fd \\Rightarrow \\text{N m}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** N m",
+            finalAnswer: "**(c)** N m",
             commonErrors: ["N m is not the same as J in this context."],
           },
         },
@@ -174,7 +174,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Moment", statement: "M = F × perpendicular distance." }],
             steps: [{ reasoning: "Recall.", working: "d \\perp F", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** perpendicular to the force",
+            finalAnswer: "**(d)** perpendicular to the force",
             commonErrors: ["Using distance along the force line."],
           },
         },
@@ -230,7 +230,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Moments", statement: "M = Fd — larger d needs smaller F." }],
             steps: [{ reasoning: "Double distance → half force for same moment.", working: "2d \\times F = d \\times 2F", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** half as much",
+            finalAnswer: "**(d)** half as much",
             commonErrors: ["Inverting the relationship."],
           },
         },
@@ -269,7 +269,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Levers", statement: "Effort × effort arm = load × load arm." }],
             steps: [{ reasoning: "Recall.", working: "F_{effort} \\times d_{effort} = F_{load} \\times d_{load}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** a longer effort arm means a smaller effort force is needed",
+            finalAnswer: "**(c)** a longer effort arm means a smaller effort force is needed",
             commonErrors: ["Levers multiply force but not energy."],
           },
         },
@@ -304,7 +304,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Pivot", statement: "Point about which object turns." }],
             steps: [{ reasoning: "Recall.", working: "\\text{pivot}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** the fixed point about which the lever turns",
+            finalAnswer: "**(d)** the fixed point about which the lever turns",
             commonErrors: ["Pivot need not be at the centre."],
           },
         },
@@ -401,7 +401,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "CoG", statement: "Weight acts here." }],
             steps: [{ reasoning: "Recall.", working: "\\text{weight point}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Point where weight appears to act",
+            finalAnswer: "**(a)** Point where weight appears to act",
             commonErrors: ["Only geometric centre for regular shapes."],
           },
         },
@@ -515,7 +515,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Stability", statement: "Vertical through CoG must stay within base." }],
             steps: [{ reasoning: "Recall.", working: "\\text{CoG line within base}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** the vertical line through its CoG falls within its base",
+            finalAnswer: "**(c)** the vertical line through its CoG falls within its base",
             commonErrors: ["High CoG makes objects LESS stable."],
           },
         },
@@ -645,7 +645,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "CoG", statement: "Irregular objects: find by balancing." }],
             steps: [{ reasoning: "Recall.", working: "\\text{balance point} = \\text{CoG}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** balancing it on a point",
+            finalAnswer: "**(c)** balancing it on a point",
             commonErrors: ["Geometric centre only works for regular shapes."],
           },
         },

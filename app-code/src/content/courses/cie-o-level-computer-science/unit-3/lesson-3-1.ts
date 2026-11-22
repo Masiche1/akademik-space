@@ -44,7 +44,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "ALU" },
             { id: "d", text: "Control Unit" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "ALU", statement: "Arithmetic and logic." }], steps: [{ reasoning: "ALU does calculations.", working: "\\text{ALU}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** ALU" },
+          markscheme: { principles: [{ kind: "definition", name: "ALU", statement: "Arithmetic and logic." }], steps: [{ reasoning: "ALU does calculations.", working: "\\text{ALU}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** ALU" },
         },
         {
           id: "olcs-u3-cpu-q2", difficulty: "core", totalMarks: 2,
@@ -148,7 +148,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "A cooling system" },
             { id: "d", text: "The list of commands a CPU understands" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Instruction set", statement: "Fixed list of CPU commands." }], steps: [{ reasoning: "CPU understands only its instruction set.", working: "\\text{commands}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** List of commands" },
+          markscheme: { principles: [{ kind: "definition", name: "Instruction set", statement: "Fixed list of CPU commands." }], steps: [{ reasoning: "CPU understands only its instruction set.", working: "\\text{commands}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** List of commands" },
         },
         {
           id: "olcs-u3-cpu-q11", difficulty: "core", totalMarks: 2,
@@ -168,7 +168,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Holds frequently used data for faster access" },
             { id: "d", text: "Stores files permanently" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Cache", statement: "Fast memory for frequent data." }], steps: [{ reasoning: "Cache avoids slow RAM access.", working: "\\text{fast access}", marks: 1, markCode: "M" }, { reasoning: "Reduces waiting time.", marks: 1, markCode: "A" }], finalAnswer: "**(a)** Fast access to frequent data" },
+          markscheme: { principles: [{ kind: "definition", name: "Cache", statement: "Fast memory for frequent data." }], steps: [{ reasoning: "Cache avoids slow RAM access.", working: "\\text{fast access}", marks: 1, markCode: "M" }, { reasoning: "Reduces waiting time.", marks: 1, markCode: "A" }], finalAnswer: "**(c)** Fast access to frequent data" },
         },
         {
           id: "olcs-u3-cpu-q13", difficulty: "challenge", totalMarks: 4,
@@ -190,7 +190,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "A network protocol" },
             { id: "d", text: "A storage device" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Microprocessor", statement: "CPU on one chip." }], steps: [{ reasoning: "Microprocessor = single-chip CPU.", working: "\\text{one chip}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Single-chip CPU" },
+          markscheme: { principles: [{ kind: "definition", name: "Microprocessor", statement: "CPU on one chip." }], steps: [{ reasoning: "Microprocessor = single-chip CPU.", working: "\\text{one chip}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Single-chip CPU" },
         },
         {
           id: "olcs-u3-cpu-q15", difficulty: "challenge", totalMarks: 3,
@@ -211,7 +211,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Only display" },
             { id: "d", text: "Only networking" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "ALU", statement: "Arithmetic + logic." }], steps: [{ reasoning: "ALU does calculations and logic.", working: "\\text{ALU}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Arithmetic and logic" },
+          markscheme: { principles: [{ kind: "definition", name: "ALU", statement: "Arithmetic + logic." }], steps: [{ reasoning: "ALU does calculations and logic.", working: "\\text{ALU}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Arithmetic and logic" },
         },
       ],
     },
@@ -243,7 +243,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "MB" },
             { id: "d", text: "Hz/s" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Clock speed", statement: "Cycles per second, GHz." }], steps: [{ reasoning: "GHz = cycles/sec.", working: "\\text{GHz}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** GHz" },
+          markscheme: { principles: [{ kind: "definition", name: "Clock speed", statement: "Cycles per second, GHz." }], steps: [{ reasoning: "GHz = cycles/sec.", working: "\\text{GHz}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** GHz" },
         },
         {
           id: "olcs-u3-perf-q2", difficulty: "core", totalMarks: 2,
@@ -347,7 +347,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "A programming language" },
             { id: "d", text: "A type of monitor" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Firmware", statement: "Permanent low-level software." }], steps: [{ reasoning: "Firmware lives in ROM/flash.", working: "\\text{ROM}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Permanent chip software" },
+          markscheme: { principles: [{ kind: "definition", name: "Firmware", statement: "Permanent low-level software." }], steps: [{ reasoning: "Firmware lives in ROM/flash.", working: "\\text{ROM}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Permanent chip software" },
         },
         {
           id: "olcs-u3-perf-q11", difficulty: "core", totalMarks: 2,
@@ -389,7 +389,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Adding more RAM" },
             { id: "d", text: "Doing more work per clock cycle" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Instruction set", statement: "Richer instructions = more per cycle." }], steps: [{ reasoning: "Better instructions do more per cycle.", working: "\\text{per cycle}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** More work per cycle" },
+          markscheme: { principles: [{ kind: "principle", name: "Instruction set", statement: "Richer instructions = more per cycle." }], steps: [{ reasoning: "Better instructions do more per cycle.", working: "\\text{per cycle}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** More work per cycle" },
         },
         {
           id: "olcs-u3-perf-q15", difficulty: "challenge", totalMarks: 3,
@@ -410,7 +410,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Has no processor" },
             { id: "d", text: "Requires a full OS always" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Embedded", statement: "Dedicated-task computer." }], steps: [{ reasoning: "Embedded = one fixed task.", working: "\\text{dedicated}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Dedicated task device" },
+          markscheme: { principles: [{ kind: "definition", name: "Embedded", statement: "Dedicated-task computer." }], steps: [{ reasoning: "Embedded = one fixed task.", working: "\\text{dedicated}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Dedicated task device" },
         },
       ],
     },

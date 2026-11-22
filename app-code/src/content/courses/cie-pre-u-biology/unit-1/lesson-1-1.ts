@@ -504,7 +504,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Facilitated diffusion" },
               { id: "d", text: "Osmosis" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

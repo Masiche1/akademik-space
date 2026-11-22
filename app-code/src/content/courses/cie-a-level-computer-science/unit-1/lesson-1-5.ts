@@ -263,7 +263,7 @@ export const lesson125: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Asymmetric encryption",
+            finalAnswer: "**(d)** Asymmetric encryption",
           },
         },
         {
@@ -328,7 +328,7 @@ export const lesson125: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Secure key distribution",
+            finalAnswer: "**(b)** Secure key distribution",
           },
         },
         {
@@ -422,7 +422,7 @@ export const lesson125: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Recipient's private key",
+            finalAnswer: "**(b)** Recipient's private key",
           },
         },
         {
@@ -523,7 +523,7 @@ export const lesson125: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Authenticity and integrity",
+            finalAnswer: "**(d)** Authenticity and integrity",
           },
         },
         {

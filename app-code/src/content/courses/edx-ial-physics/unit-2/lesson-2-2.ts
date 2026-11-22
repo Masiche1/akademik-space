@@ -61,7 +61,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Interference", statement: "Constructive: nλ; destructive: (n+½)λ." }],
             steps: [{ reasoning: "Direct.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** nλ",
+            finalAnswer: "**(c)** nλ",
           },
         },
         {
@@ -177,7 +177,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Node", statement: "Zero amplitude point." }],
             steps: [{ reasoning: "Node = destructive superposition.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Zero amplitude",
+            finalAnswer: "**(a)** Zero amplitude",
           },
         },
         {

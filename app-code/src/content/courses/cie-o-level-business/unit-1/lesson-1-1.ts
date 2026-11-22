@@ -41,7 +41,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Any organisation making money" },
             { id: "d", text: "An organisation producing goods/services to satisfy needs" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Business", statement: "Produces goods/services for needs." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Business", statement: "Produces goods/services for needs." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u1-wh-q2", difficulty: "core", totalMarks: 2,
@@ -147,7 +147,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Becoming a public company" },
             { id: "d", text: "Minimising tax only" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Objectives", statement: "Context-dependent." }], steps: [{ reasoning: "Small businesses focus on profit and survival.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Profit and survival" },
+          markscheme: { principles: [{ kind: "principle", name: "Objectives", statement: "Context-dependent." }], steps: [{ reasoning: "Small businesses focus on profit and survival.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Profit and survival" },
         },
         {
           id: "olbus-u1-wh-q11", difficulty: "challenge", totalMarks: 4,
@@ -178,7 +178,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Interest" },
             { id: "d", text: "Wages" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Rewards", statement: "Rent, wages, interest, profit." }], steps: [{ reasoning: "Enterprise earns profit.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Profit" },
+          markscheme: { principles: [{ kind: "definition", name: "Rewards", statement: "Rent, wages, interest, profit." }], steps: [{ reasoning: "Enterprise earns profit.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Profit" },
         },
         {
           id: "olbus-u1-wh-q14", difficulty: "core", totalMarks: 2,
@@ -208,8 +208,8 @@ export const lesson11: Lesson = {
             { id: "b", text: "Customer satisfaction" },
             { id: "c", text: "Eliminating all competitors by law" },
             { id: "d", text: "Survival" },
-          ], correctChoiceIc: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Objectives", statement: "Legitimate goals." }], steps: [{ reasoning: "Not a legitimate objective.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Not a typical objective" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "definition", name: "Objectives", statement: "Legitimate goals." }], steps: [{ reasoning: "Not a legitimate objective.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Not a typical objective" },
         },
       ],
     },
@@ -239,7 +239,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Capital, labour, land, profit" },
             { id: "d", text: "Money, machines, materials, management" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Factors", statement: "L, L, C, E." }], steps: [{ reasoning: "Correct four.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Factors", statement: "L, L, C, E." }], steps: [{ reasoning: "Correct four.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u1-ff-q2", difficulty: "core", totalMarks: 2,
@@ -295,7 +295,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Enterprise" },
             { id: "d", text: "Land" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Land", statement: "Natural resources." }], steps: [{ reasoning: "Land = natural resources.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Land" },
+          markscheme: { principles: [{ kind: "definition", name: "Land", statement: "Natural resources." }], steps: [{ reasoning: "Land = natural resources.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Land" },
         },
         {
           id: "olbus-u1-ff-q6", difficulty: "foundation", totalMarks: 1,
@@ -334,8 +334,8 @@ export const lesson11: Lesson = {
             { id: "b", text: "Labour" },
             { id: "c", text: "Land" },
             { id: "d", text: "Capital" },
-          ], correctChoiceIa: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Enterprise", statement: "Risk and organisation." }], steps: [{ reasoning: "Organisation + risk-taking = enterprise.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Enterprise" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "Enterprise", statement: "Risk and organisation." }], steps: [{ reasoning: "Organisation + risk-taking = enterprise.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Enterprise" },
         },
         {
           id: "olbus-u1-ff-q10", difficulty: "core", totalMarks: 2,
@@ -376,8 +376,8 @@ export const lesson11: Lesson = {
             { id: "b", text: "Interest" },
             { id: "c", text: "Rent" },
             { id: "d", text: "Profit" },
-          ], borrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Rewards", statement: "Rent, wages, interest, profit." }], steps: [{ reasoning: "Capital earns interest (and profit).", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Interest" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "definition", name: "Rewards", statement: "Rent, wages, interest, profit." }], steps: [{ reasoning: "Capital earns interest (and profit).", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Interest" },
         },
         {
           id: "olbus-u1-ff-q14", difficulty: "core", totalMarks: 2,

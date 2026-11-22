@@ -64,7 +64,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Lettuce is a green plant that makes food by photosynthesis. The Sun is the source of energy but is not an organism.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Lettuce",
+            finalAnswer: "**(c)** Lettuce",
             commonErrors: ["Choosing the Sun because it is the source of energy.", "Choosing the last organism in the chain."],
             examinerNote: "B1 for lettuce.",
           },
@@ -193,7 +193,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Adaptations are features that give an organism a better chance of surviving and reproducing in its habitat.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A feature that helps an organism survive in its environment",
+            finalAnswer: "**(c)** A feature that helps an organism survive in its environment",
             commonErrors: ["Choosing (c), which describes a population.", "Choosing (d), which describes a habitat."],
             examinerNote: "B1 for the correct definition.",
           },

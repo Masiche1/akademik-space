@@ -270,7 +270,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Recall the example of surface tension.", working: "\\text{insects on water}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Some insects to walk on water",
+            finalAnswer: "**(b)** Some insects to walk on water",
             commonErrors: ["Choosing (d) — pure water is a poor conductor."],
           },
         },
@@ -337,7 +337,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Identify the false statement.", working: "\\text{good solvent}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It is a poor solvent for ionic substances",
+            finalAnswer: "**(b)** It is a poor solvent for ionic substances",
             commonErrors: ["Choosing a true statement — the question asks for the incorrect one."],
           },
         },
@@ -383,7 +383,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Recall the mechanism.", working: "\\text{adhesion + cohesion}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Adhesion and cohesion",
+            finalAnswer: "**(b)** Adhesion and cohesion",
             commonErrors: ["Choosing gravity — capillary rise works against gravity."],
           },
         },
@@ -579,7 +579,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Recall the scale interpretation.", working: "pH < 7 \\to \\text{acid}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Acidic",
+            finalAnswer: "**(d)** Acidic",
             commonErrors: ["Reversing the scale — below 7 is acid, above is alkali."],
           },
         },
@@ -605,7 +605,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Recall the scale rule.", working: "10\\times", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Increases tenfold",
+            finalAnswer: "**(c)** Increases tenfold",
             commonErrors: ["Choosing (d) — lower pH means MORE H⁺, not less."],
           },
         },
@@ -737,7 +737,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Identify the alkaline substance.", working: "\\text{soap}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Soap solution",
+            finalAnswer: "**(c)** Soap solution",
             commonErrors: ["Choosing vinegar — that is acidic."],
           },
         },

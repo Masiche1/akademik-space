@@ -205,7 +205,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Square the radius and multiply by $\\pi$.", working: "A=\\pi\\times5^2=25\\pi", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $25\\pi\\ \\text{cm}^2$",
+            finalAnswer: "**(a)** $25\\pi\\ \\text{cm}^2$",
             commonErrors: ["Using $2\\pi r$, the circumference, giving $10\\pi$."],
             examinerNote: "B1 for choice (b).",
           },
@@ -252,7 +252,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Use $C=2\\pi r$ with $r=9$: $C=18\\pi$, so $k=18$.", working: "2\\times9=18", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $k=18$",
+            finalAnswer: "**(d)** $k=18$",
             commonErrors: ["Using $\\pi r$ instead of $2\\pi r$, giving 9 (a).", "Squaring the radius, giving 81 (d)."],
             examinerNote: "B1 for choice (b).",
           },
@@ -279,7 +279,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Half the area of a circle of radius 4: $\\frac12\\pi\\times16=8\\pi$.", working: "\\frac12\\times16\\pi=8\\pi", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $8\\pi\\ \\text{cm}^2$",
+            finalAnswer: "**(d)** $8\\pi\\ \\text{cm}^2$",
             commonErrors: ["Forgetting to halve, giving $16\\pi$."],
             examinerNote: "B1 for choice (a).",
           },
@@ -337,7 +337,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Circle A has twice the area of circle B" },
               { id: "d", text: "Circle A has four times the area of circle B" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -346,7 +346,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Circle B's radius is $12\\div2=6$ cm, the same as circle A, so the areas are equal: $36\\pi$ cm$^2$ each.", working: "\\pi\\times6^2=36\\pi", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** The areas are equal",
+            finalAnswer: "**(b)** The areas are equal",
             commonErrors: ["Thinking diameter 12 is 'bigger' than radius 6 without converting."],
             examinerNote: "B1 for choice (c).",
           },
@@ -524,7 +524,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The sector is a quarter of the circle, so the arc is a quarter of the circumference $8\\pi$.", working: "\\frac{90}{360}\\times2\\pi\\times4=\\frac14\\times8\\pi=2\\pi", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $2\\pi\\ \\text{cm}$",
+            finalAnswer: "**(c)** $2\\pi\\ \\text{cm}$",
             commonErrors: ["Giving the whole circumference, $8\\pi$.", "Giving the area of the quarter circle, $4\\pi$."],
           },
         },
@@ -631,7 +631,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The sector is $\\frac{60}{360}=\\frac16$ of the circle; circumference is $12\\pi$, so the arc is $\\frac{12\\pi}{6}=2\\pi$.", working: "\\frac{60}{360}\\times2\\pi\\times6=2\\pi", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $2\\pi\\ \\text{cm}$",
+            finalAnswer: "**(c)** $2\\pi\\ \\text{cm}$",
             commonErrors: ["Giving the whole circumference $12\\pi$."],
             examinerNote: "B1 for choice (b).",
           },
@@ -658,7 +658,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Base area $\\times$ height: $\\pi\\times2^2\\times5=20\\pi$.", working: "4\\pi\\times5=20\\pi", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $20\\pi\\ \\text{cm}^3$",
+            finalAnswer: "**(d)** $20\\pi\\ \\text{cm}^3$",
             commonErrors: ["Using the diameter or forgetting to square the radius."],
             examinerNote: "B1 for choice (b).",
           },
@@ -797,7 +797,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "A: $\\pi\\times9\\times3=27\\pi$. B: $\\pi\\times16\\times3=48\\pi$. B is greater.", working: "27\\pi<48\\pi", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Cylinder B",
+            finalAnswer: "**(a)** Cylinder B",
             commonErrors: ["Thinking equal heights mean equal volumes."],
             examinerNote: "B1 for choice (b).",
           },

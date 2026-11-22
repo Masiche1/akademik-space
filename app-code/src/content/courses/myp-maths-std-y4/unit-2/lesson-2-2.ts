@@ -70,7 +70,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Add: $2x=6$, $x=3$; then $y=2$. Check: $3+2=5$, $3-2=1$.", working: "x=3,\\ y=2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x=3,\\ y=2$",
+            finalAnswer: "**(c)** $x=3,\\ y=2$",
             commonErrors: ["Solving only one equation."],
             examinerNote: "B1 for (a).",
           },
@@ -185,7 +185,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Add: $2x=10$, $x=5$; then $y=3$. Check: $5+3=8$, $5-3=2$. ✓", working: "x=5,\\ y=3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x=5,\\ y=3$",
+            finalAnswer: "**(b)** $x=5,\\ y=3$",
             commonErrors: ["Solving only one equation."],
             examinerNote: "B1 for (a).",
           },
@@ -285,7 +285,7 @@ export const lesson22: Lesson = {
               { reasoning: "Add the equations: $2x=14$, so $x=7$ and $y=3$.", working: "x=7,\\ y=3", marks: 1, markCode: "M" },
               { reasoning: "Verify: $7+3=10$ and $7-3=4$. ✓", working: "10\\text{ and }4", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $x=7,\\ y=3$",
+            finalAnswer: "**(d)** $x=7,\\ y=3$",
             commonErrors: ["Choosing a pair that satisfies only one equation."],
             examinerNote: "M1 A1.",
           },
@@ -518,7 +518,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$x^2-4$ has $x^2$ as the highest power.", working: "x^2-4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $f(x)=x^2-4$",
+            finalAnswer: "**(a)** $f(x)=x^2-4$",
             commonErrors: ["Choosing a linear function."],
             examinerNote: "B1 for (b).",
           },
@@ -634,7 +634,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$x^2+3x-1$ has highest power 2.", working: "x^2+3x-1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $f(x)=x^2+3x-1$",
+            finalAnswer: "**(b)** $f(x)=x^2+3x-1$",
             commonErrors: ["Choosing the cubic $x^3+1$."],
             examinerNote: "B1 for (a).",
           },

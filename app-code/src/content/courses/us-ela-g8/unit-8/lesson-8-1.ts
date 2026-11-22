@@ -347,7 +347,7 @@ export const lesson81: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Dynamic — she changes.",
+            finalAnswer: "**(d)**. Dynamic — she changes.",
             commonErrors: ["Choosing (a) — she clearly changes."],
           },
         },
@@ -575,7 +575,7 @@ export const lesson81: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Third person limited.",
+            finalAnswer: "**(a)**. Third person limited.",
             commonErrors: [
               "Choosing (c) — omniscient would show Ms. Okafor's thoughts too.",
             ],

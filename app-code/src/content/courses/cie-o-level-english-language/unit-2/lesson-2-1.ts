@@ -65,7 +65,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Stanza = group of verses.", working: "group", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Group of verses",
+            finalAnswer: "**(c)** Group of verses",
             commonErrors: ["Choosing (b) — that's a verse."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Verse = one line.", working: "one line", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** A single line",
+            finalAnswer: "**(d)** A single line",
             commonErrors: ["Choosing (b) — that's a stanza."],
           },
         },
@@ -220,7 +220,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Same letters rhyme: A lines rhyme with A, B with B.", working: "ABAB", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Lines 1 and 3 rhyme, and lines 2 and 4 rhyme",
+            finalAnswer: "**(c)** Lines 1 and 3 rhyme, and lines 2 and 4 rhyme",
             commonErrors: ["Choosing (d) — AABB is a different pattern."],
           },
         },
@@ -421,7 +421,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Deeper meaning = themes/symbolism.", working: "themes", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Exploring themes and symbolism",
+            finalAnswer: "**(c)** Exploring themes and symbolism",
             commonErrors: ["Choosing (b) — counting is not interpretation."],
           },
         },
@@ -501,7 +501,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Alliteration = repeated initial sounds.", working: "initial sounds", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Repeated initial sounds",
+            finalAnswer: "**(d)** Repeated initial sounds",
             commonErrors: ["Choosing (b) — that's assonance."],
           },
         },
@@ -606,7 +606,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Assonance = repeated vowels.", working: "vowels", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Repeated vowel sounds",
+            finalAnswer: "**(b)** Repeated vowel sounds",
             commonErrors: ["Choosing (b) — that's alliteration."],
           },
         },
@@ -658,7 +658,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Personification = human traits.", working: "human", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Human qualities",
+            finalAnswer: "**(b)** Human qualities",
             commonErrors: ["Choosing (c) — that's a simile."],
           },
         },
@@ -728,7 +728,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Whispering is a human action given to wind.", working: "whisper", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Personification",
+            finalAnswer: "**(c)** Personification",
             commonErrors: ["Choosing (d) — 'whispered' describes, doesn't imitate sound."],
           },
         },
@@ -774,7 +774,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "'Buzz' imitates a sound.", working: "buzz", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** buzz",
+            finalAnswer: "**(d)** buzz",
             commonErrors: ["Choosing (d) — 'whispered' describes, not imitates."],
           },
         },
@@ -859,7 +859,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Enjambment = run-on lines = momentum.", working: "flow", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Flow and momentum across lines",
+            finalAnswer: "**(c)** Flow and momentum across lines",
             commonErrors: ["Thinking it's just formatting."],
           },
         },
@@ -939,7 +939,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Literal = surface.", working: "surface", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Surface meaning",
+            finalAnswer: "**(b)** Surface meaning",
             commonErrors: ["Choosing (b) — that's deeper meaning."],
           },
         },
@@ -1044,7 +1044,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Deeper meaning = themes/symbolism.", working: "themes", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Themes, symbolism and the speaker's message",
+            finalAnswer: "**(c)** Themes, symbolism and the speaker's message",
             commonErrors: ["Choosing (b) — that's literal meaning."],
           },
         },
@@ -1094,7 +1094,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Theme = central idea.", working: "central idea", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The central idea or message",
+            finalAnswer: "**(c)** The central idea or message",
             commonErrors: ["Choosing (d) — that's a stanza."],
           },
         },
@@ -1164,7 +1164,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Context (war, era, society) shapes meaning.", working: "context", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Historical and social settings shape meaning",
+            finalAnswer: "**(d)** Historical and social settings shape meaning",
             commonErrors: ["Ignoring context — war poems differ from nature poems."],
           },
         },
@@ -1210,7 +1210,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Emptiness/fading light images suggest loss.", working: "images", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Images of emptiness and fading light",
+            finalAnswer: "**(d)** Images of emptiness and fading light",
             commonErrors: ["Choosing (b) — counting is not evidence of theme."],
           },
         },
@@ -1295,7 +1295,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Interpretation must be supported by quotes.", working: "evidence", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Evidence-based, quoting the text",
+            finalAnswer: "**(d)** Evidence-based, quoting the text",
             commonErrors: ["Choosing (b) — guessing is not interpretation."],
           },
         },

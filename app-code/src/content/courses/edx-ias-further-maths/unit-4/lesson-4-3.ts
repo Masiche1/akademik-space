@@ -67,7 +67,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "The third force must cancel the resultant of the first two: $\\sqrt{10^2+10^2}=10\\sqrt2$ N directed north-east, so the third force is $10\\sqrt2$ N south-west.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $10\\sqrt2$ N south-west",
+            finalAnswer: "**(b)** $10\\sqrt2$ N south-west",
             commonErrors: ["Adding the magnitudes instead of using Pythagoras.", "Wrong direction — the third force opposes the resultant."],
           },
         },
@@ -199,7 +199,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "$M=20\\times0.5=10$ N m.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $10$ N m",
+            finalAnswer: "**(c)** $10$ N m",
             commonErrors: ["Dividing instead of multiplying."],
           },
         },

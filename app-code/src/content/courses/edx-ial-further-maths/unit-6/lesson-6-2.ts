@@ -59,7 +59,7 @@ export const lesson62: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "SHM", statement: "$a=-\\omega^2x$ restoring." }],
             steps: [{ reasoning: "Restoring force toward equilibrium.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** toward equilibrium",
+            finalAnswer: "**(d)** toward equilibrium",
           },
         },
         {
@@ -178,7 +178,7 @@ export const lesson62: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Hooke", statement: "$T\\propto x$ within elastic limit." }],
             steps: [{ reasoning: "Extension.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** extension",
+            finalAnswer: "**(b)** extension",
           },
         },
         {

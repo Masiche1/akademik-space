@@ -64,7 +64,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Recall the product.", working: "\\text{CO}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Carbon dioxide",
+            finalAnswer: "**(d)** Carbon dioxide",
             commonErrors: ["Choosing oxygen — fermentation is anaerobic."],
           },
         },
@@ -210,7 +210,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Recall the oxygen requirement.", working: "\\text{anaerobic}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oxygen-free (anaerobic)",
+            finalAnswer: "**(d)** Oxygen-free (anaerobic)",
             commonErrors: ["Choosing (b) — with oxygen yeast respires aerobically and makes no ethanol."],
           },
         },
@@ -295,7 +295,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Recall the industrial use.", working: "\\text{yoghurt/cheese}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Yoghurt and cheese",
+            finalAnswer: "**(b)** Yoghurt and cheese",
             commonErrors: ["Choosing penicillin — that is made by Penicillium mould."],
           },
         },
@@ -379,7 +379,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Recall the production method.", working: "\\text{GM bacteria}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Genetically modified bacteria grown in a fermenter",
+            finalAnswer: "**(b)** Genetically modified bacteria grown in a fermenter",
             commonErrors: ["Choosing (b) — insulin is not extracted from humans; bacteria produce it."],
           },
         },
@@ -454,7 +454,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{gene manipulation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Direct manipulation of genes",
+            finalAnswer: "**(d)** Direct manipulation of genes",
             commonErrors: ["Choosing selective breeding — that's artificial but not genetic engineering."],
           },
         },
@@ -575,7 +575,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Recall the typical host.", working: "\\text{bacteria}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Bacteria (e.g. E. coli)",
+            finalAnswer: "**(c)** Bacteria (e.g. E. coli)",
             commonErrors: ["Choosing humans — human cells are not used as production hosts at this level."],
           },
         },
@@ -601,7 +601,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Recall the sequence.", working: "\\text{isolate gene first}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Isolate the gene for the desired product",
+            finalAnswer: "**(b)** Isolate the gene for the desired product",
             commonErrors: ["Choosing (b) — you cannot insert a gene you have not isolated."],
           },
         },
@@ -686,7 +686,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Identify the introduced trait.", working: "\\text{herbicide tolerance}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Herbicide tolerance",
+            finalAnswer: "**(b)** Herbicide tolerance",
             commonErrors: ["Choosing photosynthesis — all plants photosynthesise; GM traits are novel additions."],
           },
         },
@@ -774,7 +774,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Identify the valid disadvantage.", working: "\\text{unknown effects}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Unknown long-term effects on health and ecosystems",
+            finalAnswer: "**(d)** Unknown long-term effects on health and ecosystems",
             commonErrors: ["Choosing (c) — GE is specifically used to produce proteins like insulin."],
           },
         },

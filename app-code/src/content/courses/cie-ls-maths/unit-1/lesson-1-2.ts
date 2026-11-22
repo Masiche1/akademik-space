@@ -171,7 +171,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$0.6 \\times 100 = 60$, so $60\\%$.", working: "0.6\\times100=60", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $60\\%$",
+            finalAnswer: "**(a)** $60\\%$",
             commonErrors: ["Choosing (a) — $\\times 10$ instead of $\\times 100$."],
           },
         },
@@ -232,7 +232,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$0.375 = \\frac{375}{1000}$; divide by $125$ to get $\\frac{3}{8}$.", working: "\\frac{375}{1000}=\\frac{3}{8}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{3}{8}$",
+            finalAnswer: "**(b)** $\\frac{3}{8}$",
             commonErrors: ["Choosing (d) — $\\frac{7}{8}=0.875$, not $0.375$."],
           },
         },
@@ -295,7 +295,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$\\frac{1}{3} = 0.333\\ldots$ — the only exact match.", working: "\\frac{1}{3}=0.\\dot{3}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{1}{3}$",
+            finalAnswer: "**(b)** $\\frac{1}{3}$",
             commonErrors: ["Choosing (d) — $\\frac{33}{100}=0.33$ truncates; the recurring decimal is exactly $\\frac{1}{3}$."],
           },
         },
@@ -452,7 +452,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Change $=10$; $\\frac{10}{50}\\times100=20\\%$.", working: "\\frac{10}{50}=0.2=20\\%", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $20\\%$",
+            finalAnswer: "**(c)** $20\\%$",
             commonErrors: ["Choosing (d) — that divides by the NEW price $60$, not the original $50$."],
           },
         },
@@ -655,7 +655,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Increases by $4\\%$" },
               { id: "d", text: "Decreases by $20\\%$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -664,7 +664,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$1.2 \\times 0.8 = 0.96$ — the price ends at $96\\%$ of the original, a $4\\%$ decrease.", working: "1.2 \\times 0.8 = 0.96", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Decreases by $4\\%$",
+            finalAnswer: "**(b)** Decreases by $4\\%$",
             commonErrors: ["Choosing (b) — equal percentages do not cancel because the bases differ."],
           },
         },

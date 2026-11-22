@@ -75,7 +75,7 @@ export const lesson223: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Data chunk + header",
+            finalAnswer: "**(d)** Data chunk + header",
             commonErrors: ["File confused."],
           },
         },
@@ -261,7 +261,7 @@ export const lesson223: Lesson = {
             steps: [
               { reasoning: "Bandwidth = capacity.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Data capacity/sec",
+            finalAnswer: "**(d)** Data capacity/sec",
             commonErrors: ["Latency confused."],
           },
         },

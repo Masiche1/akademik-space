@@ -21,9 +21,41 @@ function makeQ(id: string, difficulty: Difficulty, totalMarks: number, stem: str
   if (parts) q.parts = parts;
   return q;
 }
+const MCQ_SPECIAL = /all of the (above|these)|none of the (above|these)|none of these|\b[abcd]\s+and\s+[abcd]\b/i;
+const mcqSeed = (s: string): number => {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
+  return h >>> 0;
+};
+const mcqOrder = (texts: readonly string[], seed: string): number[] | null => {
+  if (texts.some((t) => MCQ_SPECIAL.test(t))) return null;
+  let a = mcqSeed(seed);
+  const rnd = () => {
+    a |= 0; a = (a + 0x6D2B79F5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+  const order = texts.map((_, i) => i);
+  for (let i = order.length - 1; i > 0; i--) {
+    const j = Math.floor(rnd() * (i + 1));
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+  return order.every((v, i) => v === i) && order.length > 1 ? [order[1], order[0], ...order.slice(2)] : order;
+};
+const letterOf = (i: number): string => String.fromCharCode(97 + i);
+const letterMapOf = (order: number[]): Record<string, string> =>
+  Object.fromEntries(order.map((oldI, pos) => [letterOf(oldI), letterOf(pos)]));
+const remapLetters = (s: string, map: Record<string, string> | null): string =>
+  map ? s.replace(/\(([abcd])\)/g, (m, L) => (map[L] ? "(" + map[L] + ")" : m)) : s;
+
 function mcq(id: string, difficulty: Difficulty, stem: string, choices: [string, string, string, string], correct: "a" | "b" | "c" | "d", principle: MarkPrinciple, reasoning: string, commonError?: string): Question {
-  const textById = { a: choices[0], b: choices[1], c: choices[2], d: choices[3] };
-  return makeQ(id, difficulty, 1, stem, { type: "mcq", choices: [{ id: "a", text: choices[0] }, { id: "b", text: choices[1] }, { id: "c", text: choices[2] }, { id: "d", text: choices[3] }], correctChoiceId: correct }, scheme([principle], [step(reasoning, 1, "B")], `**(${correct})** ${textById[correct]}`, commonError ? [commonError] : undefined));
+  const __o = mcqOrder(choices, id);
+  const __choices = (__o ? __o.map((i) => choices[i]) : choices) as [string, string, string, string];
+  const __correct = (__o ? letterOf(__o.indexOf(correct.charCodeAt(0) - 97)) : correct) as "a" | "b" | "c" | "d";
+  const __lmap = __o ? letterMapOf(__o) : null;
+  const textById = { a: __choices[0], b: __choices[1], c: __choices[2], d: __choices[3] };
+  return makeQ(id, difficulty, 1, stem, { type: "mcq", choices: [{ id: "a", text: __choices[0] }, { id: "b", text: __choices[1] }, { id: "c", text: __choices[2] }, { id: "d", text: __choices[3] }], correctChoiceId: __correct }, scheme([principle], [step(remapLetters(reasoning, __lmap), 1, "B")], `**(${__correct})** ${textById[__correct]}`, commonError ? [commonError] : undefined));
 }
 function num(id: string, difficulty: Difficulty, stem: string, answer: number, unit: string | undefined, principle: MarkPrinciple, reasoning: string, working: string, finalAnswer: string, markCode: MarkStep["markCode"] = "M", commonError?: string): Question {
   const part: { label: string; answer: number; unit?: string } = { label: "a", answer, ...(unit !== undefined ? { unit } : {}) };
@@ -101,7 +133,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Recall the hormone.", working: "\\text{insulin}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Insulin",
+            finalAnswer: "**(d)** Insulin",
             commonErrors: ["Choosing glucagon — that RAISES glucose."],
           },
         },
@@ -236,7 +268,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Recall the function.", working: "\\text{more water reabsorption}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Increases water reabsorption",
+            finalAnswer: "**(d)** Increases water reabsorption",
             commonErrors: ["Choosing 'filters blood' — that's the glomerulus, not ADH."],
           },
         },

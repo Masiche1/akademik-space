@@ -57,7 +57,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "$6x-5$" },
               { id: "d", text: "$6x-15$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -66,7 +66,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Multiply both terms inside the parentheses by $3$.", working: "3(2x-5)=6x-15", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $6x-15$",
+            finalAnswer: "**(d)** $6x-15$",
             commonErrors: ["Multiplying only the first term, giving $6x-5$.", "Changing the sign of the constant term, giving $6x+15$."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Round to $20\\%$ of $\\$60$, which is one fifth of $\\$60$.", working: "0.2\\times60=12", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\$12$",
+            finalAnswer: "**(a)** $\\$12$",
             commonErrors: ["Using $10\\%$ instead of $20\\%$, giving $\\$6$.", "Misplacing the decimal point, giving $\\$120$."],
           },
         },

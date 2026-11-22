@@ -256,7 +256,7 @@ export const lesson153: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Uniquely identifies records",
+            finalAnswer: "**(d)** Uniquely identifies records",
           },
         },
         {
@@ -321,7 +321,7 @@ export const lesson153: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Links records between tables",
+            finalAnswer: "**(c)** Links records between tables",
           },
         },
         {
@@ -416,7 +416,7 @@ export const lesson153: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** SELECT",
+            finalAnswer: "**(c)** SELECT",
           },
         },
         {
@@ -510,7 +510,7 @@ export const lesson153: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Sorts the results",
+            finalAnswer: "**(b)** Sorts the results",
           },
         },
         {
@@ -614,7 +614,7 @@ export const lesson153: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Students and courses",
+            finalAnswer: "**(b)** Students and courses",
           },
         },
       ],

@@ -269,7 +269,7 @@ export const lesson353: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** The study of how history is written and interpreted",
+              "**(d)** The study of how history is written and interpreted",
           },
         },
         {
@@ -381,7 +381,7 @@ export const lesson353: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** Formulating a thesis statement",
+            finalAnswer: "**(d)** Formulating a thesis statement",
           },
         },
         {
@@ -471,7 +471,7 @@ export const lesson353: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Because they use different evidence, perspectives and values",
+              "**(d)** Because they use different evidence, perspectives and values",
           },
         },
         {
@@ -557,7 +557,7 @@ export const lesson353: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The central argument or claim the essay will defend",
+              "**(d)** The central argument or claim the essay will defend",
           },
         },
         {

@@ -234,7 +234,7 @@ export const lesson32: Lesson = {
           totalMarks: 1,
           stem: "What is required for speciation?",
           response: { type: "mcq", choices: [ { id: "a", text: "One individual moving to a new area" }, { id: "b", text: "Only a temporary change in diet" }, { id: "c", text: "Reproductive isolation plus genetic divergence" }, { id: "d", text: "Identical allele frequencies" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Speciation", statement: "Speciation occurs when populations become reproductively isolated and diverge genetically." }], steps: [{ reasoning: "Isolation prevents gene flow; selection and drift then separate the gene pools.", working: "isolation+divergence", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Reproductive isolation plus genetic divergence" },
+          markscheme: { principles: [{ kind: "principle", name: "Speciation", statement: "Speciation occurs when populations become reproductively isolated and diverge genetically." }], steps: [{ reasoning: "Isolation prevents gene flow; selection and drift then separate the gene pools.", working: "isolation+divergence", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Reproductive isolation plus genetic divergence" },
         },
         {
           id: "mypb5-u3-evo-q13",
@@ -322,7 +322,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Richness = number of species, regardless of abundance.", working: "\\text{species count}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Number of different species present",
+            finalAnswer: "**(a)** Number of different species present",
             commonErrors: ["Confusing richness with evenness or abundance."],
             examinerNote: "B1 for (b).",
           },
@@ -485,7 +485,7 @@ export const lesson32: Lesson = {
           totalMarks: 1,
           stem: "What is a keystone species?",
           response: { type: "mcq", choices: [ { id: "a", text: "A species found everywhere" }, { id: "b", text: "The most abundant species" }, { id: "c", text: "A species whose removal causes disproportionate ecosystem change" }, { id: "d", text: "A domesticated species" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Keystone species", statement: "Keystone species have effects on ecosystem structure disproportionate to their abundance." }], steps: [{ reasoning: "Their loss can trigger trophic cascades.", working: "keystone", marks: 1, markCode: "B" }], finalAnswer: "**(b)** A species whose removal causes disproportionate ecosystem change" },
+          markscheme: { principles: [{ kind: "definition", name: "Keystone species", statement: "Keystone species have effects on ecosystem structure disproportionate to their abundance." }], steps: [{ reasoning: "Their loss can trigger trophic cascades.", working: "keystone", marks: 1, markCode: "B" }], finalAnswer: "**(c)** A species whose removal causes disproportionate ecosystem change" },
         },
         {
           id: "mypb5-u3-bio-q13",
@@ -521,7 +521,7 @@ export const lesson32: Lesson = {
           totalMarks: 1,
           stem: "Why does high biodiversity generally increase ecosystem resilience?",
           response: { type: "mcq", choices: [ { id: "a", text: "It guarantees no species ever die" }, { id: "b", text: "It reduces the need for sunlight" }, { id: "c", text: "It prevents all competition" }, { id: "d", text: "Functional redundancy allows other species to maintain processes after disturbance" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Resilience", statement: "Diverse communities contain species that can compensate for losses of others." }], steps: [{ reasoning: "Redundancy buffers ecosystems against species loss or environmental change.", working: "redundancy", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Functional redundancy allows other species to maintain processes after disturbance" },
+          markscheme: { principles: [{ kind: "principle", name: "Resilience", statement: "Diverse communities contain species that can compensate for losses of others." }], steps: [{ reasoning: "Redundancy buffers ecosystems against species loss or environmental change.", working: "redundancy", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Functional redundancy allows other species to maintain processes after disturbance" },
         },
       ],
     },

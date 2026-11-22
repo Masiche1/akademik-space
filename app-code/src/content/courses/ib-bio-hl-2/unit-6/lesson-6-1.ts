@@ -191,7 +191,7 @@ export const lesson61: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The membrane behind the impulse cannot depolarise again immediately, so the impulse can only spread to the unrefracted region ahead",
+              "**(c)** The membrane behind the impulse cannot depolarise again immediately, so the impulse can only spread to the unrefracted region ahead",
             commonErrors: [
               "Saying 'the axon is one-way' — axons conduct both ways experimentally; the refractory period is the real mechanism.",
             ],
@@ -573,7 +573,7 @@ export const lesson61: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Calcium ion influx through voltage-gated channels, triggering vesicle exocytosis",
+              "**(d)** Calcium ion influx through voltage-gated channels, triggering vesicle exocytosis",
             commonErrors: [
               "Attributing release to Na$^+$ influx — Na$^+$ carries the impulse along the axon; Ca$^{2+}$ triggers release at the terminal.",
             ],
@@ -757,7 +757,7 @@ export const lesson61: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Drug-driven dopamine signals trigger long-term potentiation, strengthening drug-associated synapses so cues alone can later trigger craving",
+              "**(a)** Drug-driven dopamine signals trigger long-term potentiation, strengthening drug-associated synapses so cues alone can later trigger craving",
             commonErrors: [
               "Describing addiction as receptor destruction — the mechanism is synaptic strengthening via plasticity.",
             ],
@@ -1227,7 +1227,7 @@ export const lesson61: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Type 2 diabetes — insulin resistance where cells fail to respond despite insulin being present",
+              "**(a)** Type 2 diabetes — insulin resistance where cells fail to respond despite insulin being present",
             commonErrors: [
               "Choosing Type 1 — that involves LOW insulin from $\\beta$-cell destruction, not high glucose with high insulin.",
             ],
@@ -1469,7 +1469,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Beta cells of the pancreatic islets",
+            finalAnswer: "**(a)** Beta cells of the pancreatic islets",
             commonErrors: [
               "Confusing alpha and beta cells — alpha = glucagon (raises glucose), beta = insulin (lowers glucose).",
             ],
@@ -1572,7 +1572,7 @@ export const lesson61: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Glucagon release, stimulating glycogen breakdown and gluconeogenesis in the liver",
+              "**(c)** Glucagon release, stimulating glycogen breakdown and gluconeogenesis in the liver",
             commonErrors: [
               "Choosing insulin — insulin lowers glucose; glucagon raises it.",
             ],
@@ -1756,7 +1756,7 @@ export const lesson61: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Because hormones act at trace concentrations, a mimic at low doses can send false hormonal signals and disrupt development — a legitimate low-dose concern",
+              "**(c)** Because hormones act at trace concentrations, a mimic at low doses can send false hormonal signals and disrupt development — a legitimate low-dose concern",
             commonErrors: [
               "Assuming 'the dose makes the poison' linearly — endocrine effects can occur at doses far below toxic thresholds.",
             ],
@@ -2065,7 +2065,7 @@ export const lesson61: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Hormone receptors are exquisitely sensitive — hormones act at trace concentrations, so trace amounts of a mimic or blocker can alter signalling, especially during development",
+              "**(d)** Hormone receptors are exquisitely sensitive — hormones act at trace concentrations, so trace amounts of a mimic or blocker can alter signalling, especially during development",
             commonErrors: [
               "Applying a simple dose-response assumption — endocrine effects violate 'the dose makes the poison' at low doses.",
             ],
@@ -2123,7 +2123,7 @@ export const lesson61: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Cortisol inhibits CRH and ACTH release — negative feedback that limits the stress response",
+              "**(d)** Cortisol inhibits CRH and ACTH release — negative feedback that limits the stress response",
             commonErrors: [
               "Reversing the feedback direction — cortisol SUPPRESSES the axis once levels are adequate.",
             ],

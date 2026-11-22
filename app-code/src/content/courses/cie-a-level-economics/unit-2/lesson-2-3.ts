@@ -273,7 +273,7 @@ export const lesson423: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "LRAS", "statement": "Vertical at full employment output." } ],
           "steps": [ { "reasoning": "In the long run all prices and wages adjust, so output is determined by the economy's productive capacity, not the price level.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** vertical at the full-employment level of output"
+          "finalAnswer": "**(b)** vertical at the full-employment level of output"
 },
         },
         {
@@ -311,7 +311,7 @@ export const lesson423: Lesson = {
           markscheme: {
           "principles": [ { "kind": "principle", "name": "AD near full employment", "statement": "Extra demand is inflationary." } ],
           "steps": [ { "reasoning": "At full employment output cannot rise much, so extra AD bids up prices — demand-pull inflation.", "marks": 1, "markCode": "A" } ],
-          "finalAnswer": "**(a)** mainly demand-pull inflation rather than extra output"
+          "finalAnswer": "**(b)** mainly demand-pull inflation rather than extra output"
 },
         },
         {

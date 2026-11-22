@@ -150,7 +150,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Temperature" },
               { id: "d", text: "Concentration gradient" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -159,7 +159,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Colour has no effect on particle movement.", working: "\\text{colour irrelevant}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Colour of the particles",
+            finalAnswer: "**(b)** Colour of the particles",
             commonErrors: ["Thinking colour affects rate — only movement-related factors matter."],
           },
         },
@@ -185,7 +185,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{water + PPM}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Water across a partially permeable membrane",
+            finalAnswer: "**(d)** Water across a partially permeable membrane",
             commonErrors: ["Choosing solute movement — the solute does not move in osmosis."],
           },
         },
@@ -212,7 +212,7 @@ export const lesson12: Lesson = {
               { reasoning: "Identify the solution as hypotonic.", working: "\\text{water enters}", marks: 1, markCode: "M" },
               { reasoning: "Cell wall prevents bursting; cell becomes turgid.", working: "\\text{turgid}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It becomes turgid",
+            finalAnswer: "**(c)** It becomes turgid",
             commonErrors: ["Choosing plasmolysis — that is water leaving in a hypertonic solution."],
           },
         },
@@ -305,7 +305,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Recall the reference value.", working: "\\Psi = 0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0$ kPa",
+            finalAnswer: "**(c)** $0$ kPa",
             commonErrors: ["Choosing a negative value — pure water is the reference at zero."],
           },
         },
@@ -371,7 +371,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Identify the correct description.", working: "\\text{water, PPM, water potential}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It moves water across a partially permeable membrane from high to low water potential",
+            finalAnswer: "**(a)** It moves water across a partially permeable membrane from high to low water potential",
             commonErrors: ["Choosing ATP — osmosis is passive and needs no energy."],
           },
         },
@@ -481,7 +481,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Recall the direction.", working: "\\text{against}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Against the gradient",
+            finalAnswer: "**(c)** Against the gradient",
             commonErrors: ["Confusing with diffusion."],
           },
         },
@@ -602,7 +602,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Match the example to the process.", working: "\\text{ions against gradient}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Mineral ions absorbed by root hair cells",
+            finalAnswer: "**(a)** Mineral ions absorbed by root hair cells",
             commonErrors: ["Choosing osmosis or diffusion — those are passive."],
           },
         },
@@ -722,7 +722,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Recall the energy source.", working: "\\text{ATP}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** ATP",
+            finalAnswer: "**(a)** ATP",
             commonErrors: ["Choosing light energy — that powers photosynthesis, not active transport."],
           },
         },
@@ -786,7 +786,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Recall the comparison table.", working: "\\text{down vs against}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Diffusion moves down the gradient without energy; active transport moves against it using ATP",
+            finalAnswer: "**(d)** Diffusion moves down the gradient without energy; active transport moves against it using ATP",
             commonErrors: ["Saying both need energy — diffusion is passive."],
           },
         },

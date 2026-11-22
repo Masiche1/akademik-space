@@ -261,7 +261,7 @@ export const lesson42: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Spring constant",
+            finalAnswer: "**(c)** Spring constant",
             commonErrors: ["Mass confused."],
           },
         },

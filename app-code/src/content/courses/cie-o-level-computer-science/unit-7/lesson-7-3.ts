@@ -43,7 +43,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "File sizes" },
             { id: "d", text: "Only correct inputs" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Boundary data", statement: "Limits of valid range." }], steps: [{ reasoning: "Boundary = edges.", working: "\\text{edges}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Edge cases" },
+          markscheme: { principles: [{ kind: "definition", name: "Boundary data", statement: "Limits of valid range." }], steps: [{ reasoning: "Boundary = edges.", working: "\\text{edges}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Edge cases" },
         },
         {
           id: "olcs-u7-td-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Typical valid input" },
             { id: "d", text: "Invalid input the program should reject" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Abnormal data", statement: "Invalid input to reject." }], steps: [{ reasoning: "Abnormal = invalid input.", working: "\\text{invalid}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Invalid input to reject" },
+          markscheme: { principles: [{ kind: "definition", name: "Abnormal data", statement: "Invalid input to reject." }], steps: [{ reasoning: "Abnormal = invalid input.", working: "\\text{invalid}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Invalid input to reject" },
         },
         {
           id: "olcs-u7-td-q6", difficulty: "foundation", totalMarks: 1,
@@ -117,7 +117,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "0 and 100" },
             { id: "d", text: "'abc'" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Boundary data", statement: "Limits of the valid range." }], steps: [{ reasoning: "0 and 100 are the edges.", working: "0,100", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 0 and 100" },
+          markscheme: { principles: [{ kind: "definition", name: "Boundary data", statement: "Limits of the valid range." }], steps: [{ reasoning: "0 and 100 are the edges.", working: "0,100", marks: 1, markCode: "B" }], finalAnswer: "**(c)** 0 and 100" },
         },
         {
           id: "olcs-u7-td-q8", difficulty: "core", totalMarks: 1,
@@ -136,7 +136,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "'abc'" },
             { id: "d", text: "30" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Abnormal data", statement: "Invalid input type." }], steps: [{ reasoning: "Letters are invalid for a numeric age field.", working: "\\text{'abc'}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 'abc'" },
+          markscheme: { principles: [{ kind: "definition", name: "Abnormal data", statement: "Invalid input type." }], steps: [{ reasoning: "Letters are invalid for a numeric age field.", working: "\\text{'abc'}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** 'abc'" },
         },
         {
           id: "olcs-u7-td-q10", difficulty: "core", totalMarks: 2,
@@ -156,7 +156,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "It tests presentation" },
             { id: "d", text: "It is quicker to enter" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Boundary testing", statement: "Errors cluster at edges." }], steps: [{ reasoning: "Off-by-one errors appear at boundaries.", working: "\\text{edges}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Errors hide at range edges" },
+          markscheme: { principles: [{ kind: "principle", name: "Boundary testing", statement: "Errors cluster at edges." }], steps: [{ reasoning: "Off-by-one errors appear at boundaries.", working: "\\text{edges}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Errors hide at range edges" },
         },
         {
           id: "olcs-u7-td-q12", difficulty: "core", totalMarks: 1,
@@ -186,7 +186,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "25 and 30" },
             { id: "d", text: "0 and 51" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Boundary data", statement: "Edges of valid range." }], steps: [{ reasoning: "1 and 50 are the limits.", working: "1,50", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 1 and 50" },
+          markscheme: { principles: [{ kind: "definition", name: "Boundary data", statement: "Edges of valid range." }], steps: [{ reasoning: "1 and 50 are the limits.", working: "1,50", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 1 and 50" },
         },
         {
           id: "olcs-u7-td-q15", difficulty: "core", totalMarks: 2,
@@ -254,7 +254,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Track variable values through algorithm steps" },
             { id: "d", text: "Encrypt data" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Trace table", statement: "Track variables per step." }], steps: [{ reasoning: "Trace = track values.", working: "\\text{track}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Track variables" },
+          markscheme: { principles: [{ kind: "definition", name: "Trace table", statement: "Track variables per step." }], steps: [{ reasoning: "Trace = track values.", working: "\\text{track}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Track variables" },
         },
         {
           id: "olcs-u7-tr-q2", difficulty: "core", totalMarks: 2,
@@ -328,7 +328,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Runs faster" },
             { id: "d", text: "Runs but produces wrong results" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Logic error", statement: "Runs but wrong output." }], steps: [{ reasoning: "Logic error = wrong results despite running.", working: "\\text{wrong}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Runs but wrong results" },
+          markscheme: { principles: [{ kind: "definition", name: "Logic error", statement: "Runs but wrong output." }], steps: [{ reasoning: "Logic error = wrong results despite running.", working: "\\text{wrong}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Runs but wrong results" },
         },
         {
           id: "olcs-u7-tr-q8", difficulty: "core", totalMarks: 1,
@@ -347,7 +347,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "At compile time" },
             { id: "d", text: "During execution, e.g. dividing by zero" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Runtime error", statement: "Crash during execution." }], steps: [{ reasoning: "Runtime errors happen while running.", working: "\\text{crash}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** During execution" },
+          markscheme: { principles: [{ kind: "definition", name: "Runtime error", statement: "Crash during execution." }], steps: [{ reasoning: "Runtime errors happen while running.", working: "\\text{crash}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** During execution" },
         },
         {
           id: "olcs-u7-tr-q10", difficulty: "core", totalMarks: 2,
@@ -367,7 +367,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Logic error" },
             { id: "d", text: "Syntax error" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Tracing", statement: "Finds wrong-value reasoning." }], steps: [{ reasoning: "Trace tables reveal logic errors.", working: "\\text{logic}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Logic error" },
+          markscheme: { principles: [{ kind: "principle", name: "Tracing", statement: "Finds wrong-value reasoning." }], steps: [{ reasoning: "Trace tables reveal logic errors.", working: "\\text{logic}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Logic error" },
         },
         {
           id: "olcs-u7-tr-q12", difficulty: "core", totalMarks: 1,
@@ -397,7 +397,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Faster execution" },
             { id: "d", text: "A syntax error" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Initialisation", statement: "Missing init → wrong results." }], steps: [{ reasoning: "Undefined starting value gives wrong output.", working: "\\text{wrong}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A logic error" },
+          markscheme: { principles: [{ kind: "principle", name: "Initialisation", statement: "Missing init → wrong results." }], steps: [{ reasoning: "Undefined starting value gives wrong output.", working: "\\text{wrong}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** A logic error" },
         },
         {
           id: "olcs-u7-tr-q15", difficulty: "core", totalMarks: 2,

@@ -40,7 +40,7 @@ export const lesson41: Lesson = {
 ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Control group", statement: "Untreated comparison — isolates treatment effect." }],
             steps: [{ reasoning: "Control = untreated comparison.", marks: 2, markCode: "AO1" }],
-            finalAnswer: "**(b)** Compare against treated", commonErrors: ["Speed assumed."] },
+            finalAnswer: "**(d)** Compare against treated", commonErrors: ["Speed assumed."] },
         },
         {
           id: "esc11-u4-design-q2", difficulty: "core", totalMarks: 3,
@@ -111,7 +111,7 @@ export const lesson41: Lesson = {
 ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Standard deviation", statement: "Small SD = data clustered tightly around mean." }],
             steps: [{ reasoning: "Small SD = small spread.", marks: 2, markCode: "AO1" }],
-            finalAnswer: "**(b)** Small spread", commonErrors: ["Large spread confused."] },
+            finalAnswer: "**(a)** Small spread", commonErrors: ["Large spread confused."] },
         },
         {
           id: "esc11-u4-analysis-q2", difficulty: "core", totalMarks: 3,

@@ -59,7 +59,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "$36$" },
               { id: "d", text: "$45$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$u_{10}=5+9\\times4=41$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $41$",
+            finalAnswer: "**(b)** $41$",
             commonErrors: ["Using $n$ instead of $n-1$ in the formula."],
           },
         },
@@ -202,7 +202,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "$\\log_2 8=3$ and $\\log_2 4=2$, so the sum is $5$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5$",
+            finalAnswer: "**(c)** $5$",
             commonErrors: ["Multiplying the logs instead of adding.", "Writing $\\log_2 12$ without evaluating."],
           },
         },

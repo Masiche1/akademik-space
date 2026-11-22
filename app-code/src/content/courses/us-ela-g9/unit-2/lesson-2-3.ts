@@ -144,7 +144,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The councilor's taxes have nothing to do with whether closures are a good idea.",
+              "**(d)** The councilor's taxes have nothing to do with whether closures are a good idea.",
             commonErrors: [
               "Choosing bandwagon because of 'everyone knows' elsewhere in the text; that is a different sentence.",
             ],
@@ -505,7 +505,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Four score = 80; 80 + 7 = 87. Counting back from 1863 leads to 1776.",
+              "**(c)** Four score = 80; 80 + 7 = 87. Counting back from 1863 leads to 1776.",
             commonErrors: ["Treating 'score' as meaning ten or one."],
           },
         },
@@ -535,7 +535,7 @@ export const lesson23: Lesson = {
                 text: "To explain that the signers owe the world a public explanation of their reasons for separating",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -564,7 +564,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** The sentence announces that the document will give reasons. It does not request permission, express shame, or threaten.",
+              "**(d)** The sentence announces that the document will give reasons. It does not request permission, express shame, or threaten.",
             commonErrors: ["Reading 'respect' as asking for permission."],
           },
         },

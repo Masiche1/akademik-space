@@ -65,7 +65,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Collect the $x$ terms and the $y$ terms separately.", working: "3x+4x=7x,\\quad 2y-y=y", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $7x+y$",
+            finalAnswer: "**(b)** $7x+y$",
             commonErrors: ["Treating $-y$ as $+y$, giving $7x+3y$.", "Combining unlike terms to get $8xy$."],
           },
         },
@@ -195,7 +195,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Square 3 first, then multiply by 2.", working: "2\\times3^2=2\\times9=18", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $18$",
+            finalAnswer: "**(d)** $18$",
             commonErrors: ["Calculating $(2\\times3)^2=36$.", "Calculating $2\\times3\\times2=12$."],
           },
         },

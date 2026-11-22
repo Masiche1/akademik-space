@@ -121,7 +121,7 @@ export const lesson42: Lesson = {
           },
         ],
         finalAnswer:
-          "**(b)** Short-term borrowing up to an agreed limit, charged interest",
+          "**(d)** Short-term borrowing up to an agreed limit, charged interest",
       },
     },
     {
@@ -155,7 +155,7 @@ export const lesson42: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Profit kept in the business for reinvestment",
+        finalAnswer: "**(c)** Profit kept in the business for reinvestment",
       },
     },
     {
@@ -225,7 +225,7 @@ export const lesson42: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Retained profit",
+        finalAnswer: "**(a)** Retained profit",
       },
     },
     {
@@ -414,7 +414,7 @@ export const lesson42: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Projected money inflows and outflows over time",
+        finalAnswer: "**(a)** Projected money inflows and outflows over time",
       },
     },
     {
@@ -701,7 +701,7 @@ export const lesson42: Lesson = {
           },
         ],
         finalAnswer:
-          "**(b)** Interest costs and the bank can demand repayment at short notice",
+          "**(a)** Interest costs and the bank can demand repayment at short notice",
       },
     },
     {

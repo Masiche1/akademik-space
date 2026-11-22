@@ -66,7 +66,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "One favourable outcome out of six.", working: "\\frac16", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac16$",
+            finalAnswer: "**(b)** $\\frac16$",
             commonErrors: ["Writing $\\frac16$ of $6$ or $\\frac1{36}$."],
           },
         },
@@ -161,7 +161,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Blue balls $=2$ out of $10$ total.", working: "\\frac{2}{10}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac15$",
+            finalAnswer: "**(c)** $\\frac15$",
             commonErrors: ["Using $\\frac28$ instead of $\\frac{2}{10}$."],
           },
         },
@@ -187,7 +187,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Probabilities cannot be negative.", working: "-0.2<0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $-0.2$",
+            finalAnswer: "**(b)** $-0.2$",
             commonErrors: ["Thinking $1$ is not allowed — certainty has probability $1$."],
           },
         },
@@ -213,7 +213,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Mutually exclusive means no overlap.", working: "P(A\\cap B)=0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $P(A\\cap B)=0$",
+            finalAnswer: "**(b)** $P(A\\cap B)=0$",
             commonErrors: ["Confusing mutually exclusive with independent."],
           },
         },
@@ -239,7 +239,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Favourable outcomes $=4$ out of $6$.", working: "\\frac46", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\frac23$",
+            finalAnswer: "**(c)** $\\frac23$",
             commonErrors: ["Adding $\\frac12+\\frac13$ without removing the overlap at 6."],
           },
         },
@@ -256,7 +256,7 @@ export const lesson81: Lesson = {
               { id: "c", text: "$\\frac12$" },
               { id: "d", text: "$1$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -265,7 +265,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Only TT fails; $P(TT)=\\frac14$, so answer $=\\frac34$.", working: "1-\\frac14=\\frac34", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\frac34$",
+            finalAnswer: "**(b)** $\\frac34$",
             commonErrors: ["Counting HH, HT, TH but missing that TT is the only failure."],
           },
         },
@@ -291,7 +291,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Complement rule.", working: "1-0.35", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0.65$",
+            finalAnswer: "**(c)** $0.65$",
             commonErrors: ["Giving $P(A)$ again."],
           },
         },
@@ -475,7 +475,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Recall the multiplication rule for sequential events.", working: "\\text{multiply}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Multiply",
+            finalAnswer: "**(b)** Multiply",
             commonErrors: ["Adding branch probabilities along a path."],
           },
         },
@@ -571,7 +571,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "With replacement the bag returns to its original state after each draw.", working: "\\text{unchanged}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The same — replacement keeps the probabilities constant",
+            finalAnswer: "**(c)** The same — replacement keeps the probabilities constant",
             commonErrors: ["Assuming the second draw always has a smaller denominator (that is without replacement)."],
           },
         },
@@ -615,7 +615,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "The final path probabilities form a complete probability distribution.", working: "\\sum=1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sum to $1$",
+            finalAnswer: "**(c)** Sum to $1$",
             commonErrors: ["Forgetting that the tree covers every possible outcome."],
           },
         },
@@ -660,7 +660,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "$P(RR)+P(BB)=\\frac5{10}\\times\\frac49+\\frac5{10}\\times\\frac49=\\frac{40}{90}=\\frac49$.", working: "\\frac49", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $\\frac49$",
+            finalAnswer: "**(c)** $\\frac49$",
             commonErrors: ["Using with-replacement probabilities and getting $\\frac12$."],
           },
         },
@@ -686,7 +686,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Remaining red $=3$, remaining total $=9$.", working: "\\frac39=\\frac13", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac13$",
+            finalAnswer: "**(b)** $\\frac13$",
             commonErrors: ["Keeping $\\frac4{10}$ from the first draw."],
           },
         },
@@ -783,7 +783,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Independence means probabilities multiply along the path.", working: "P(A)\\times P(B)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $P(A)\\times P(B)$",
+            finalAnswer: "**(c)** $P(A)\\times P(B)$",
             commonErrors: ["Adding probabilities — that is for mutually exclusive 'or' events."],
           },
         },
@@ -887,7 +887,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Add and subtract the overlap.", working: "0.3+0.4-0.1=0.6", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0.6$",
+            finalAnswer: "**(d)** $0.6$",
             commonErrors: ["Not subtracting $P(A\\cap B)$."],
           },
         },
@@ -983,7 +983,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "No overlap to subtract, so add.", working: "0.5+0.3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0.8$",
+            finalAnswer: "**(d)** $0.8$",
             commonErrors: ["Subtracting the overlap anyway (there is none)."],
           },
         },
@@ -1027,7 +1027,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "The complement of 'at least one' is 'none', which is usually a single path.", working: "1-P(\\text{none})", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Use the complement",
+            finalAnswer: "**(d)** Use the complement",
             commonErrors: ["Listing all 'at least one' cases individually when the complement is far quicker."],
           },
         },
@@ -1074,7 +1074,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Union $=0.7$, so neither $=1-0.7=0.3$.", working: "1-0.7=0.3", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $0.3$",
+            finalAnswer: "**(b)** $0.3$",
             commonErrors: ["Forgetting to subtract $P(A\\cap B)$ when finding the union."],
           },
         },
@@ -1119,7 +1119,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Expected frequency scales the probability by the number of trials.", working: "n\\times P(E)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $n\\times P(E)$",
+            finalAnswer: "**(b)** $n\\times P(E)$",
             commonErrors: ["Dividing by $n$ instead of multiplying."],
           },
         },

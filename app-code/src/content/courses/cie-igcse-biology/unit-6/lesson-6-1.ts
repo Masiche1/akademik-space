@@ -158,7 +158,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{stable internal}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Maintenance of stable internal conditions despite external changes",
+            finalAnswer: "**(c)** Maintenance of stable internal conditions despite external changes",
             commonErrors: ["Choosing 'external temperature' — homeostasis concerns the INTERNAL environment."],
           },
         },
@@ -223,7 +223,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Match role to component.", working: "\\text{receptor detects}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Detect the change",
+            finalAnswer: "**(b)** Detect the change",
             commonErrors: ["Choosing 'produce the response' — that's the effector."],
           },
         },
@@ -288,7 +288,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Recall the coordinator.", working: "\\text{hypothalamus}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Hypothalamus",
+            finalAnswer: "**(d)** Hypothalamus",
             commonErrors: ["Choosing kidney — the kidney coordinates water balance, not temperature."],
           },
         },
@@ -314,7 +314,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Match hormone to condition.", working: "\\text{low glucose} \\to \\text{glucagon}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Glucagon",
+            finalAnswer: "**(b)** Glucagon",
             commonErrors: ["Choosing insulin — that is released when glucose is HIGH."],
           },
         },
@@ -340,7 +340,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Identify the regulated variable.", working: "\\text{glucose control}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Control of blood glucose concentration",
+            finalAnswer: "**(b)** Control of blood glucose concentration",
             commonErrors: ["Choosing digestion — that's a one-way process, not regulation of a set point."],
           },
         },
@@ -467,7 +467,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Recall the response.", working: "\\text{vasodilation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Vasodilation",
+            finalAnswer: "**(d)** Vasodilation",
             commonErrors: ["Choosing shivering — that's for cold."],
           },
         },
@@ -561,7 +561,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Recall the hot responses.", working: "\\text{sweat + vasodilate}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sweating and vasodilation",
+            finalAnswer: "**(b)** Sweating and vasodilation",
             commonErrors: ["Choosing shivering — that's a cold response that generates heat."],
           },
         },
@@ -693,7 +693,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Recall the reason.", working: "\\text{enzyme optimum} \\approx 37\\text{°C}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Enzymes work best at this temperature",
+            finalAnswer: "**(d)** Enzymes work best at this temperature",
             commonErrors: ["Choosing 'room temperature' — thermoregulation is about internal temperature."],
           },
         },
@@ -739,7 +739,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Recall the heat-generating response.", working: "\\text{shivering} \\to \\text{heat}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Shivering",
+            finalAnswer: "**(d)** Shivering",
             commonErrors: ["Choosing sweating — that cools the body."],
           },
         },
@@ -817,7 +817,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Identify the cold response.", working: "\\text{warm clothing/huddle}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Putting on warm clothing and huddling",
+            finalAnswer: "**(b)** Putting on warm clothing and huddling",
             commonErrors: ["Choosing fan or iced water — those are hot-weather behaviours."],
           },
         },

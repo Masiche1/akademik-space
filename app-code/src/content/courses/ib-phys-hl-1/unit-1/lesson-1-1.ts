@@ -334,7 +334,7 @@ export const lesson11: Lesson = {
                 text: "A spacecraft travelling at constant velocity far from any massive object",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -359,7 +359,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** constant velocity — no acceleration",
+            finalAnswer: "**(d)** constant velocity — no acceleration",
             commonErrors: [
               "Forgetting that circular orbits involve centripetal acceleration, so satellites are non-inertial.",
             ],
@@ -388,7 +388,7 @@ export const lesson11: Lesson = {
                 text: "Light travels at $3.00 \\times 10^8$ m/s in a vacuum in all inertial frames",
               },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -413,7 +413,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** — a consequence, not a postulate",
+            finalAnswer: "**(b)** — a consequence, not a postulate",
             commonErrors: [
               "Quoting consequences ('nothing exceeds c') as postulates.",
             ],
@@ -458,7 +458,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** may not be simultaneous",
+            finalAnswer: "**(c)** may not be simultaneous",
             commonErrors: [
               "Assuming simultaneity is absolute — it is frame-dependent in special relativity.",
             ],
@@ -478,7 +478,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$0.9c$" },
               { id: "d", text: "$c$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -503,7 +503,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $c$",
+            finalAnswer: "**(d)** $c$",
             commonErrors: [
               "Adding the train's speed classically — gives an impossible $1.9c$.",
             ],
@@ -523,7 +523,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "lengths" },
               { id: "d", text: "the velocities of objects" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -548,7 +548,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** the laws of physics",
+            finalAnswer: "**(a)** the laws of physics",
             commonErrors: [
               "Thinking Galilean physics makes velocities absolute — velocities add by $v = v' + V$.",
             ],
@@ -1066,7 +1066,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Slow — time dilation",
+            finalAnswer: "**(c)** Slow — time dilation",
             commonErrors: [
               "Thinking moving clocks run fast — they always run slow.",
             ],
@@ -1306,7 +1306,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** events at the same place",
+            finalAnswer: "**(b)** events at the same place",
             commonErrors: [
               "Thinking proper time is the longest measured time — it is actually the shortest.",
             ],
@@ -1371,7 +1371,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "neither — time stops for both" },
               { id: "d", text: "both twins age the same amount" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1396,7 +1396,7 @@ export const lesson11: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** the travelling twin",
+            finalAnswer: "**(b)** the travelling twin",
             commonErrors: [
               "Claiming symmetry means both age equally — the traveller accelerates, breaking the symmetry.",
             ],

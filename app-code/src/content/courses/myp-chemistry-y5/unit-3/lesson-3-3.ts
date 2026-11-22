@@ -72,7 +72,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Rf is a ratio comparing component travel to solvent travel.", working: "\\text{ratio}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Spot distance ÷ solvent distance",
+            finalAnswer: "**(c)** Spot distance ÷ solvent distance",
             commonErrors: ["Reversing the ratio."],
             examinerNote: "B1 for (a).",
           },
@@ -187,7 +187,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Titration measures volume of known solution needed → calculate unknown concentration.", working: "\\text{titration}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Find unknown concentration",
+            finalAnswer: "**(d)** Find unknown concentration",
             commonErrors: ["Confusing with chromatography separation."],
             examinerNote: "B1 for (a).",
           },
@@ -513,7 +513,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "AE quantifies waste minimisation at atomic level.", working: "\\text{AE}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Atoms in product ÷ total atoms",
+            finalAnswer: "**(d)** Atoms in product ÷ total atoms",
             commonErrors: ["Confusing with yield or percentage purity."],
             examinerNote: "B1 for (a).",
           },
@@ -628,7 +628,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Green chemistry prevents waste/toxicity at the design stage.", working: "\\text{design}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Minimise waste, toxicity, energy",
+            finalAnswer: "**(c)** Minimise waste, toxicity, energy",
             commonErrors: ["Thinking it's only about cost."],
             examinerNote: "B1 for (a).",
           },

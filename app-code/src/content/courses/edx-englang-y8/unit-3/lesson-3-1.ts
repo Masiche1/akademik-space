@@ -89,7 +89,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Sensory detail", statement: "Name the sense the detail appeals to." }],
             steps: [{ reasoning: "The sentence describes what the air smelled of.", evidence: "the air smelled of crushed oranges", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** Smell.",
+            finalAnswer: "**(b)** Smell.",
             commonErrors: ["Choosing sight because oranges are visual, when the writer states smell."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Zoom structure", statement: "Moving focus from wide to close detail." }],
             steps: [{ reasoning: "The focus narrows from city to window to face, which is a zoom.", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** A zoom from wide to close.",
+            finalAnswer: "**(d)** A zoom from wide to close.",
             commonErrors: ["Choosing a flashback because the focus changes, when no time shift happens."],
           },
         },

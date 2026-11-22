@@ -64,7 +64,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Tokenism", statement: "One representative included superficially, not real representation." }],
             steps: [{ reasoning: "Criterion A (Analysing): tokenism = superficial inclusion — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Including one representative to appear inclusive without real representation",
+            finalAnswer: "**(c)** Including one representative to appear inclusive without real representation",
           },
         },
         {
@@ -149,7 +149,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Stereotype", statement: "Oversimplified, fixed idea about a group." }],
             steps: [{ reasoning: "Criterion A (Analysing): stereotype = oversimplified fixed idea — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** An oversimplified, fixed idea about a group",
+            finalAnswer: "**(a)** An oversimplified, fixed idea about a group",
           },
         },
         {
@@ -195,7 +195,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Tokenism", statement: "Inclusion that serves others' narratives, not the character's own." }],
             steps: [{ reasoning: "Criterion A (Analysing): character defined by inspiring others = tokenism — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Tokenism — the character exists to serve another's narrative",
+            finalAnswer: "**(c)** Tokenism — the character exists to serve another's narrative",
           },
         },
         {
@@ -221,7 +221,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Stereotyped representation", statement: "Texts reinforce assumptions about who does what." }],
             steps: [{ reasoning: "Criterion A (Analysing): only women + aprons + smiling = gender stereotype — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** It reinforces the stereotype that cleaning is women's work",
+            finalAnswer: "**(c)** It reinforces the stereotype that cleaning is women's work",
           },
         },
         {
@@ -242,7 +242,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Agency", statement: "Capacity to act and make choices." }],
             steps: [{ reasoning: "Criterion A (Analysing): agency = capacity to act — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** The capacity of characters to act and make choices",
+            finalAnswer: "**(d)** The capacity of characters to act and make choices",
           },
         },
         {
@@ -304,7 +304,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Othering", statement: "Representing a group as different/inferior — 'them' vs 'us'." }],
             steps: [{ reasoning: "Criterion A (Analysing): othering = 'them' vs 'us' — (a).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** Representing a group as fundamentally different or inferior",
+            finalAnswer: "**(c)** Representing a group as fundamentally different or inferior",
           },
         },
         {
@@ -373,7 +373,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Tokenism", statement: "Inclusion without agency/complexity is superficial." }],
             steps: [{ reasoning: "Criterion A (Analysing): one line, no storyline = tokenism — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Because it is tokenism — inclusion without real representation",
+            finalAnswer: "**(d)** Because it is tokenism — inclusion without real representation",
           },
         },
         {
@@ -447,7 +447,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Perspective and representation", statement: "Perspective determines whose voice is centred." }],
             steps: [{ reasoning: "Criterion A (Analysing): perspective determines representation — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** It determines whose reality is centred",
+            finalAnswer: "**(a)** It determines whose reality is centred",
           },
         },
         {
@@ -532,7 +532,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Perspective and representation", statement: "Perspective determines whose voice is centred." }],
             steps: [{ reasoning: "Criterion A (Analysing): perspective determines centred vs marginalised reality — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** It determines whose reality is centred and whose is marginalised",
+            finalAnswer: "**(a)** It determines whose reality is centred and whose is marginalised",
           },
         },
         {
@@ -573,7 +573,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Reading against the grain", statement: "Critical reading questions assumptions and finds silences." }],
             steps: [{ reasoning: "Criterion A (Analysing): against the grain = questioning dominant perspective — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Questioning the text's assumptions and imagining silenced perspectives",
+            finalAnswer: "**(c)** Questioning the text's assumptions and imagining silenced perspectives",
           },
         },
         {
@@ -599,7 +599,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Centred perspective", statement: "Privileged narrator centres own view; victims become statistics." }],
             steps: [{ reasoning: "Criterion A (Analysing): workers = 'casualties' — voiceless; owner's son narrates — (a).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** The workers have no voice — reduced to 'casualties'",
+            finalAnswer: "**(d)** The workers have no voice — reduced to 'casualties'",
           },
         },
         {
@@ -625,7 +625,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Colonial discourse", statement: "'Discovery' language erases indigenous knowledge." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'discovered' implies prior emptiness — erases that locals knew the valley; unnamed guide = silenced labour — (a).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** 'Discovered' is colonial language erasing prior knowledge and the unnamed guide's role",
+            finalAnswer: "**(d)** 'Discovered' is colonial language erasing prior knowledge and the unnamed guide's role",
           },
         },
         {
@@ -756,7 +756,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Perspective and representation", statement: "Whose eyes we see through determines whose humanity is visible." }],
             steps: [{ reasoning: "Criterion A (Analysing): guard's POV; prisoners = silent, uniform objects — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** The guard's — the prisoners' inner lives, voices and individuality are lost",
+            finalAnswer: "**(c)** The guard's — the prisoners' inner lives, voices and individuality are lost",
           },
         },
         {

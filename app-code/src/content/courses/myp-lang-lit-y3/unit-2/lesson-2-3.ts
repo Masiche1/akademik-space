@@ -69,7 +69,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): foreshadowing = future hints — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Clues that hint at future events",
+            finalAnswer: "**(d)** Clues that hint at future events",
           },
         },
         {
@@ -169,7 +169,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): flashback jumps back in time — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A scene that jumps back to show earlier events",
+            finalAnswer: "**(a)** A scene that jumps back to show earlier events",
           },
         },
         {
@@ -194,7 +194,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): pacing controls the speed of events — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The speed at which events unfold",
+            finalAnswer: "**(a)** The speed at which events unfold",
           },
         },
         {
@@ -254,7 +254,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): the long stare and delayed, unexplained laugh stretch time and leave the reader guessing — suspense — (b).", evidence: "stared at it for a long moment", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The stretched pause and unexplained bitter laugh delay meaning and build suspense",
+            finalAnswer: "**(a)** The stretched pause and unexplained bitter laugh delay meaning and build suspense",
           },
         },
         {
@@ -358,7 +358,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): frame narrative = story within a story — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A story within a story — an outer narrator tells an inner tale",
+            finalAnswer: "**(a)** A story within a story — an outer narrator tells an inner tale",
           },
         },
         {
@@ -415,7 +415,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): circular structure creates inevitability/completion — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** To create a sense of inevitability, timelessness or completion",
+            finalAnswer: "**(d)** To create a sense of inevitability, timelessness or completion",
           },
         },
         {
@@ -525,7 +525,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): pacing = speed of events — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The speed at which events unfold",
+            finalAnswer: "**(d)** The speed at which events unfold",
           },
         },
         {
@@ -625,7 +625,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): in medias res = starting in the middle of action — (a).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Starting a story in the middle of the action",
+            finalAnswer: "**(c)** Starting a story in the middle of the action",
           },
         },
         {
@@ -650,7 +650,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): backwards structure creates mystery about cause — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Mystery and curiosity about how events led to the ending",
+            finalAnswer: "**(c)** Mystery and curiosity about how events led to the ending",
           },
         },
         {
@@ -710,7 +710,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): slow pacing stretches a small decision — the reader waits in suspense with her — (b).", evidence: "Time seemed to slow", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It stretches a small decision into an eternity, making the reader wait in suspense",
+            finalAnswer: "**(d)** It stretches a small decision into an eternity, making the reader wait in suspense",
           },
         },
         {
@@ -814,7 +814,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): cliffhanger = tense, unresolved ending — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** An ending that leaves the reader in suspense at a tense moment",
+            finalAnswer: "**(d)** An ending that leaves the reader in suspense at a tense moment",
           },
         },
         {
@@ -871,7 +871,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): withholding = delaying key info to build suspense — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Delaying key information to build suspense or curiosity",
+            finalAnswer: "**(c)** Delaying key information to build suspense or curiosity",
           },
         },
         {
@@ -896,7 +896,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): withholding delays key information — it builds suspense by controlling what readers know — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It delays key information to control suspense and curiosity",
+            finalAnswer: "**(a)** It delays key information to control suspense and curiosity",
           },
         },
         {

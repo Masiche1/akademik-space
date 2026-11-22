@@ -64,7 +64,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Analysis order", statement: "Purpose first — what does the text want to achieve?" }],
             steps: [{ reasoning: "Criterion A (Analysing): purpose is the starting point — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** What's its purpose?",
+            finalAnswer: "**(d)** What's its purpose?",
           },
         },
         {
@@ -151,7 +151,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): advertising persuades — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** To persuade the reader to buy or act",
+            finalAnswer: "**(d)** To persuade the reader to buy or act",
           },
         },
         {
@@ -195,7 +195,7 @@ export const lesson23: Lesson = {
               { reasoning: "Criterion A (Analysing): intended audience = who the writer wants to reach — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): determined by language, register, examples and concerns.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The specific group the text aims to persuade",
+            finalAnswer: "**(a)** The specific group the text aims to persuade",
           },
         },
         {
@@ -240,7 +240,7 @@ export const lesson23: Lesson = {
               { reasoning: "Criterion A (Analysing): social proof = others have done it — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): 'join millions' implies it's normal/expected.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Claiming others have done/chosen it",
+            finalAnswer: "**(d)** Claiming others have done/chosen it",
           },
         },
         {
@@ -313,7 +313,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): call to action = request to act — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A direct request for the reader to do something",
+            finalAnswer: "**(a)** A direct request for the reader to do something",
           },
         },
         {
@@ -357,7 +357,7 @@ export const lesson23: Lesson = {
               { reasoning: "Criterion A (Analysing): specific study data = strongest evidence — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): others are vague/unverifiable claims.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'A 2023 study of 500 people showed 80% improvement'",
+            finalAnswer: "**(a)** 'A 2023 study of 500 people showed 80% improvement'",
           },
         },
         {
@@ -458,7 +458,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Bias", statement: "Bias = preference that distorts objectivity." }],
             steps: [{ reasoning: "Criterion A (Analysing): bias = distorts objectivity — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** A preference that distorts objectivity",
+            finalAnswer: "**(a)** A preference that distorts objectivity",
           },
         },
         {
@@ -589,7 +589,7 @@ export const lesson23: Lesson = {
               { reasoning: "Criterion A (Analysing): balanced + sourced + acknowledges opposition = credible — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): extreme claims and attacks undermine credibility.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Being balanced, sourced and acknowledging opposition",
+            finalAnswer: "**(a)** Being balanced, sourced and acknowledging opposition",
           },
         },
         {
@@ -751,7 +751,7 @@ export const lesson23: Lesson = {
               { reasoning: "Criterion A (Analysing): extreme claims without evidence = low credibility — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): others indicate credibility.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Making extreme claims with no evidence",
+            finalAnswer: "**(d)** Making extreme claims with no evidence",
           },
         },
         {

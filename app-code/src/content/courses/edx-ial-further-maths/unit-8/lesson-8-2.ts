@@ -180,7 +180,7 @@ export const lesson82: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Type I", statement: "False rejection." }],
             steps: [{ reasoning: "Definition.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** rejecting true $H_0$",
+            finalAnswer: "**(c)** rejecting true $H_0$",
           },
         },
         {

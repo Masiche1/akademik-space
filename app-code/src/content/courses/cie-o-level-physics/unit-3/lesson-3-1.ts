@@ -63,7 +63,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Energy unit", statement: "Joule (J)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{J}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Joule",
+            finalAnswer: "**(d)** Joule",
             commonErrors: ["Watt = power."],
           },
         },
@@ -143,7 +143,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Work unit", statement: "W = Fd → J = N m." }],
             steps: [{ reasoning: "Recall.", working: "\\text{J}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Joule",
+            finalAnswer: "**(c)** Joule",
             commonErrors: ["Watt is power, not work."],
           },
         },
@@ -245,7 +245,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "KE", statement: "KE = ½mv²; compute each." }],
             steps: [{ reasoning: "a)9, b)8, c)8, d)6 J — a largest.", working: "KE = \\tfrac{1}{2}mv^2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 2 kg at 3 m/s",
+            finalAnswer: "**(d)** 2 kg at 3 m/s",
             commonErrors: ["Ignoring the squared velocity."],
           },
         },
@@ -302,7 +302,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Work", statement: "W = Fd; d = 0 → W = 0." }],
             steps: [{ reasoning: "No displacement.", working: "d = 0 \\Rightarrow W = 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A force is applied but the object does not move",
+            finalAnswer: "**(d)** A force is applied but the object does not move",
             commonErrors: ["Thinking holding a weight does work continuously."],
           },
         },
@@ -397,7 +397,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Falling object", statement: "GPE→KE." }],
             steps: [{ reasoning: "Recall.", working: "GPE \\to KE", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Decreases, converts to KE",
+            finalAnswer: "**(d)** Decreases, converts to KE",
             commonErrors: ["GPE doesn't disappear — transfers to KE."],
           },
         },
@@ -477,7 +477,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Falling", statement: "GPE → KE." }],
             steps: [{ reasoning: "Recall.", working: "GPE \\to KE", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** GPE to KE",
+            finalAnswer: "**(a)** GPE to KE",
             commonErrors: ["Reversing the direction."],
           },
         },
@@ -528,7 +528,7 @@ export const lessonp31: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Engine", statement: "Chemical → kinetic + thermal + sound." }],
             steps: [{ reasoning: "Recall.", working: "\\text{chemical} \\to \\text{kinetic} + \\text{heat}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Kinetic energy of the car plus heat and sound",
+            finalAnswer: "**(a)** Kinetic energy of the car plus heat and sound",
             commonErrors: ["Ignoring wasted energy."],
           },
         },
@@ -576,11 +576,11 @@ export const lessonp31: Lesson = {
             { id: "b", text: "Wind" },
             { id: "c", text: "Coal" },
             { id: "d", text: "Natural gas" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Renewable", statement: "Replenished naturally, not used up." }],
             steps: [{ reasoning: "Recall.", working: "\\text{wind} \\Rightarrow \\text{renewable}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Wind",
+            finalAnswer: "**(b)** Wind",
             commonErrors: ["Confusing sustainable with non-renewable."],
           },
         },

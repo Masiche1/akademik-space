@@ -75,7 +75,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Turning point", statement: "A sentence that breaks the established pattern and signals change." }],
             steps: [{ reasoning: "After a repeated ritual, 'This August was different' breaks the pattern and announces change.", evidence: "This August was different.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** 'This August was different.' It interrupts the established routine.",
+            finalAnswer: "**(c)** 'This August was different.' It interrupts the established routine.",
             commonErrors: ["Choosing (b), which establishes the pattern rather than breaking it."],
           },
         },
@@ -215,7 +215,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Show, don't tell", statement: "Use physical detail to imply emotion." }],
             steps: [{ reasoning: "Option (a) uses a physical action to imply nervousness; the others name the emotion directly.", evidence: "twisted the strap of her bag", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** It shows nervousness through action instead of naming it.",
+            finalAnswer: "**(d)** It shows nervousness through action instead of naming it.",
             commonErrors: ["Choosing (b) or (c) because they are clearer; clarity is not the same as showing."],
           },
         },

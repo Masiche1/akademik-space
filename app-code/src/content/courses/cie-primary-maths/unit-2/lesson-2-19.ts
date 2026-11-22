@@ -268,7 +268,7 @@ export const lesson219: Lesson = {
             { id: "b", text: "1" },
             { id: "c", text: "0" },
             { id: "d", text: "1/2" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Probability range", statement: "Certain = 1." }],
             steps: [{ reasoning: "Certain events have probability 1.", marks: 1, markCode: "A" }],

@@ -272,7 +272,7 @@ export const lesson364: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Combining multiple sources and perspectives into one argument",
+              "**(b)** Combining multiple sources and perspectives into one argument",
           },
         },
         {
@@ -385,7 +385,7 @@ export const lesson364: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Clear structure, integrated evidence, analysis and evaluation",
+              "**(a)** Clear structure, integrated evidence, analysis and evaluation",
           },
         },
         {
@@ -475,7 +475,7 @@ export const lesson364: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Subtle complexity recognising multiple factors and perspectives",
+              "**(a)** Subtle complexity recognising multiple factors and perspectives",
           },
         },
         {
@@ -562,7 +562,7 @@ export const lesson364: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Judging the quality and validity of arguments and evidence",
+              "**(c)** Judging the quality and validity of arguments and evidence",
           },
         },
         {

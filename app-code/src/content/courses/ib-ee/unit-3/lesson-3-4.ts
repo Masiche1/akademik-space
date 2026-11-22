@@ -125,7 +125,7 @@ export const lesson34: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** One 500-word statement plus a viva voce",
+            finalAnswer: "**(a)** One 500-word statement plus a viva voce",
             commonErrors: [
               "Outdated knowledge of the old RPPF with three reflections.",
             ],
@@ -404,7 +404,7 @@ export const lesson34: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Your essay, sources, reasoning and reflection with your supervisor",
+              "**(a)** Your essay, sources, reasoning and reflection with your supervisor",
             commonErrors: ["Underestimating what the viva covers."],
           },
         },
@@ -497,7 +497,7 @@ export const lesson34: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** I learned to manage my time better",
+            finalAnswer: "**(d)** I learned to manage my time better",
             commonErrors: [
               "Confusing honesty with specificity — generic honesty still scores low.",
             ],
@@ -543,7 +543,7 @@ export const lesson34: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Re-read your research question, reflective statement and key arguments",
+              "**(a)** Re-read your research question, reflective statement and key arguments",
             commonErrors: [
               "Preparing scripts instead of genuine understanding.",
             ],
@@ -590,7 +590,7 @@ export const lesson34: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Accounts for the learning process, challenges and growth",
+              "**(c)** Accounts for the learning process, challenges and growth",
             commonErrors: ["Confusing reflection with a narrative summary."],
           },
         },
@@ -1059,7 +1059,7 @@ export const lesson34: Lesson = {
               { id: "c", text: "24" },
               { id: "d", text: "36" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1077,7 +1077,7 @@ export const lesson34: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** 30",
+            finalAnswer: "**(a)** 30",
             commonErrors: [
               "Using outdated criteria totals from the pre-2027 guide.",
             ],
@@ -1302,7 +1302,7 @@ export const lesson34: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 30 marks",
+            finalAnswer: "**(a)** 30 marks",
             commonErrors: [
               "Using outdated criteria totals from earlier guides.",
             ],
@@ -1349,7 +1349,7 @@ export const lesson34: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The research question, introduction and conclusion",
+              "**(a)** The research question, introduction and conclusion",
             commonErrors: ["Confusing Criterion A with content criteria B-D."],
           },
         },
@@ -1407,7 +1407,7 @@ export const lesson34: Lesson = {
               { id: "c", text: "Quality of reflection" },
               { id: "d", text: "Discussion and evaluation of perspectives" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1430,7 +1430,7 @@ export const lesson34: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Discussion and evaluation of perspectives",
+            finalAnswer: "**(d)** Discussion and evaluation of perspectives",
             commonErrors: ["Confusing D with the reflection criterion E."],
           },
         },
@@ -1471,7 +1471,7 @@ export const lesson34: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The RPF reflective statement and viva voce",
+            finalAnswer: "**(d)** The RPF reflective statement and viva voce",
             commonErrors: [
               "Thinking Criterion E is assessed from the essay text.",
             ],
@@ -1518,7 +1518,7 @@ export const lesson34: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Command of relevant research, sources and argument",
+              "**(c)** Command of relevant research, sources and argument",
             commonErrors: ["Confusing Criterion B with writing style."],
           },
         },

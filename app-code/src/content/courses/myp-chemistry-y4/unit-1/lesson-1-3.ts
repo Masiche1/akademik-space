@@ -71,7 +71,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Na is metal, Cl is non-metal → electron transfer → ionic.", working: "\\text{ionic}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Ionic",
+            finalAnswer: "**(c)** Ionic",
             commonErrors: ["Choosing covalent — that's non-metal pairs."],
             examinerNote: "B1 for (a).",
           },
@@ -186,7 +186,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Ionic = electron transfer between metal and non-metal.", working: "\\text{metal+nonmetal}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Metal and non-metal",
+            finalAnswer: "**(b)** Metal and non-metal",
             commonErrors: ["Choosing two non-metals — that's covalent."],
             examinerNote: "B1 for (a).",
           },
@@ -649,7 +649,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Diamond = every carbon bonded to 4 others in a network.", working: "\\text{diamond}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Diamond",
+            finalAnswer: "**(d)** Diamond",
             commonErrors: ["Choosing CO₂ — that's a simple molecule."],
             examinerNote: "B1 for (a).",
           },

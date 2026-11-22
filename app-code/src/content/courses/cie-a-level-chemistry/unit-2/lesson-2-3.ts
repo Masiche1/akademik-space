@@ -286,7 +286,7 @@ export const lesson213: Lesson = {
               { id: "c", text: "Neutrons" },
               { id: "d", text: "Nuclei" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Metallic bond", statement: "Positive ions + electron sea." }],
@@ -754,7 +754,7 @@ export const lesson213: Lesson = {
               { id: "c", text: "Ionic bond" },
               { id: "d", text: "Permanent dipole-dipole" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "IMF strength", statement: "vdW weakest." }],

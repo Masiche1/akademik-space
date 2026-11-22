@@ -43,7 +43,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Cost and NRV" },
             { id: "d", text: "NRV and profit" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Stock valuation", statement: "Lower of cost/NRV." }], steps: [{ reasoning: "Prudence principle.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Cost and NRV" },
+          markscheme: { principles: [{ kind: "principle", name: "Stock valuation", statement: "Lower of cost/NRV." }], steps: [{ reasoning: "Prudence principle.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Cost and NRV" },
         },
         {
           id: "olacc-u5-sv-q2", difficulty: "core", totalMarks: 2,
@@ -128,7 +128,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "The oldest purchase price" },
             { id: "d", text: "The weighted average cost of all purchases" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "method", name: "AVCO", statement: "Average cost." }], steps: [{ reasoning: "AVCO uses average cost per unit.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Average cost" },
+          markscheme: { principles: [{ kind: "method", name: "AVCO", statement: "Average cost." }], steps: [{ reasoning: "AVCO uses average cost per unit.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Average cost" },
         },
         {
           id: "olacc-u5-sv-q9", difficulty: "challenge", totalMarks: 2,
@@ -204,7 +204,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Transport costs bringing stock to the store" },
             { id: "d", text: "Advertising costs" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Cost of stock", statement: "Cost to present location/condition." }], steps: [{ reasoning: "Costs to bring stock to condition are included.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Transport costs" },
+          markscheme: { principles: [{ kind: "definition", name: "Cost of stock", statement: "Cost to present location/condition." }], steps: [{ reasoning: "Costs to bring stock to condition are included.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Transport costs" },
         },
         {
           id: "olacc-u5-sv-q16", difficulty: "challenge", totalMarks: 9,
@@ -260,7 +260,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Deducted from profit" },
             { id: "d", text: "Added back to profit" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Private expenses", statement: "Add back." }], steps: [{ reasoning: "They are drawings not expenses.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Added back" },
+          markscheme: { principles: [{ kind: "principle", name: "Private expenses", statement: "Add back." }], steps: [{ reasoning: "They are drawings not expenses.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Added back" },
         },
         {
           id: "olacc-u5-adj-q2", difficulty: "core", totalMarks: 2,
@@ -317,7 +317,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Drawings" },
             { id: "d", text: "A business expense" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Drawings", statement: "Owner's withdrawals." }], steps: [{ reasoning: "Personal use of goods is drawings at cost.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Drawings" },
+          markscheme: { principles: [{ kind: "definition", name: "Drawings", statement: "Owner's withdrawals." }], steps: [{ reasoning: "Personal use of goods is drawings at cost.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Drawings" },
         },
         {
           id: "olacc-u5-adj-q6", difficulty: "core", totalMarks: 2,
@@ -349,7 +349,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "They are always tax-deductible" },
             { id: "d", text: "They are drawings, not business costs" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Private expenses", statement: "Drawings not expenses." }], steps: [{ reasoning: "Personal costs wrongly reduced profit.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Drawings not business costs" },
+          markscheme: { principles: [{ kind: "principle", name: "Private expenses", statement: "Drawings not expenses." }], steps: [{ reasoning: "Personal costs wrongly reduced profit.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Drawings not business costs" },
         },
         {
           id: "olacc-u5-adj-q9", difficulty: "challenge", totalMarks: 2,
@@ -378,7 +378,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Added back if wrongly included in expenses" },
             { id: "d", text: "Always deducted from sales" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Drawings", statement: "Not business expenses." }], steps: [{ reasoning: "Drawings are the owner's, not the business's.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Added back if in expenses" },
+          markscheme: { principles: [{ kind: "principle", name: "Drawings", statement: "Not business expenses." }], steps: [{ reasoning: "Drawings are the owner's, not the business's.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Added back if in expenses" },
         },
         {
           id: "olacc-u5-adj-q12", difficulty: "challenge", totalMarks: 2,

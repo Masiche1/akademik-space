@@ -114,7 +114,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $11$",
+            finalAnswer: "**(b)** $11$",
             commonErrors: [
               "Applying $f$ first and then $g$, which gives $(g\\circ f)(2)=49$.",
             ],
@@ -389,7 +389,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $4$",
+            finalAnswer: "**(a)** $4$",
             commonErrors: [
               "Computing $(f\\circ g)(5)=f(16)=12$ by applying the functions in the wrong order.",
             ],
@@ -435,7 +435,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $f^{-1}(x)=2x+3$",
+            finalAnswer: "**(c)** $f^{-1}(x)=2x+3$",
             commonErrors: [
               "Halving instead of doubling, giving $\\frac{x+3}{2}$.",
             ],
@@ -479,7 +479,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $x\\ge0$",
+            finalAnswer: "**(c)** $x\\ge0$",
             commonErrors: [
               "Repeating the domain of $f$, $x\\ge2$, instead of using its range.",
             ],
@@ -524,7 +524,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac{1}{3}$",
+            finalAnswer: "**(b)** $\\frac{1}{3}$",
             commonErrors: [
               "Computing $(g\\circ f)(1)=g(1)=3$, which reverses the order.",
             ],
@@ -734,7 +734,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $-3$",
+            finalAnswer: "**(d)** $-3$",
             commonErrors: [
               "Giving both roots $\\pm3$; only $-3$ lies in the domain of $f$.",
             ],
@@ -1495,7 +1495,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $y=f(-x)$",
+            finalAnswer: "**(b)** $y=f(-x)$",
             commonErrors: [
               "Writing $y=-f(x)$, which is a reflection in the $x$-axis instead.",
             ],
@@ -1540,7 +1540,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $y=f(3x)$",
+            finalAnswer: "**(c)** $y=f(3x)$",
             commonErrors: [
               "Replacing $x$ by $\\frac{x}{3}$, which gives scale factor $3$ instead of $\\frac13$.",
             ],
@@ -1615,7 +1615,7 @@ export const lesson21: Lesson = {
                 text: "Vertical stretch scale factor $2$, horizontal stretch scale factor $\\frac12$, translation $3$ units up.",
               },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1642,7 +1642,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)**",
+            finalAnswer: "**(b)**",
             commonErrors: [
               "Reading $2x$ as a horizontal stretch with scale factor $2$ instead of $\\frac12$.",
             ],
@@ -1832,7 +1832,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $y=f(2x-2)$",
+            finalAnswer: "**(c)** $y=f(2x-2)$",
             commonErrors: [
               "Applying the stretch to the translation, giving $f(2x-4)$.",
             ],
@@ -2214,7 +2214,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** A rotation of $180^\\circ$ about the origin.",
+            finalAnswer: "**(b)** A rotation of $180^\\circ$ about the origin.",
             commonErrors: [
               "Thinking the two reflections cancel; they do not, because they act on different coordinates.",
             ],

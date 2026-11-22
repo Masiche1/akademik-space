@@ -358,7 +358,7 @@ export const lesson123: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Executable code",
+            finalAnswer: "**(b)** Executable code",
           },
         },
         {
@@ -424,7 +424,7 @@ export const lesson123: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Reduces average bits",
+            finalAnswer: "**(d)** Reduces average bits",
           },
         },
         {
@@ -458,7 +458,7 @@ export const lesson123: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** JPEG image archive",
+            finalAnswer: "**(d)** JPEG image archive",
           },
         },
         {

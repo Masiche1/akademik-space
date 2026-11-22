@@ -274,7 +274,7 @@ export const lesson132: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Registers",
+            finalAnswer: "**(c)** Registers",
           },
         },
         {
@@ -336,7 +336,7 @@ export const lesson132: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Disk storage",
+            finalAnswer: "**(c)** Disk storage",
           },
         },
         {
@@ -434,7 +434,7 @@ export const lesson132: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Magnetic platters, moving heads",
+            finalAnswer: "**(c)** Magnetic platters, moving heads",
           },
         },
         {
@@ -633,7 +633,7 @@ export const lesson132: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** SSD",
+            finalAnswer: "**(d)** SSD",
           },
         },
       ],

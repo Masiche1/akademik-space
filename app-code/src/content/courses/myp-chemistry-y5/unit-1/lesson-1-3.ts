@@ -71,7 +71,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Delocalised electrons are the hallmark of metallic bonding.", working: "\\text{metallic}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Metallic",
+            finalAnswer: "**(b)** Metallic",
             commonErrors: ["Choosing covalent — shared pairs are localised."],
             examinerNote: "B1 for (a).",
           },
@@ -186,7 +186,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Complete electron transfer is the hallmark of ionic bonding.", working: "\\text{ionic}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Ionic",
+            finalAnswer: "**(b)** Ionic",
             commonErrors: ["Choosing covalent — that is electron sharing."],
             examinerNote: "B1 for (a).",
           },
@@ -213,7 +213,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "H₂O has shared electron pairs between H and O.", working: "H_2O", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Water",
+            finalAnswer: "**(d)** Water",
             commonErrors: ["Choosing NaCl — that is ionic."],
             examinerNote: "B1 for (a).",
           },
@@ -382,7 +382,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Hg's metallic bonds are unusually weak → low melting point (−39 °C).", working: "mp=-39^\\circ C", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Weak metallic bonds",
+            finalAnswer: "**(c)** Weak metallic bonds",
             commonErrors: ["Claiming mercury is not a metal."],
             examinerNote: "B1 for (a).",
           },
@@ -541,7 +541,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Hydrogen bonding is the strongest intermolecular force.", working: "\\text{H-bond}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Hydrogen bond",
+            finalAnswer: "**(c)** Hydrogen bond",
             commonErrors: ["Choosing ionic bond — that is not an intermolecular force."],
             examinerNote: "B1 for (a).",
           },

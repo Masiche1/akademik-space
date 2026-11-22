@@ -58,7 +58,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "Reflex" },
               { id: "d", text: "Acute" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -67,7 +67,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "$120°$ is between $90°$ and $180°$ → obtuse.", working: "90<120<180", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Obtuse",
+            finalAnswer: "**(a)** Obtuse",
             commonErrors: ["Choosing (d) — reflex is $>180°$."],
           },
         },
@@ -163,7 +163,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "$210°$" },
               { id: "d", text: "$90°$" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -172,7 +172,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "$210°>180°$ — the only reflex angle.", working: "210>180", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** $210°$",
+            finalAnswer: "**(c)** $210°$",
             commonErrors: ["Choosing (c) — $120°$ is obtuse, not reflex."],
           },
         },
@@ -233,7 +233,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Vertically opposite angles are equal: $55°$.", working: "55°", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $55°$",
+            finalAnswer: "**(d)** $55°$",
             commonErrors: ["Choosing (b) — that's the adjacent angle on the straight line."],
           },
         },
@@ -339,7 +339,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "$x = 180 - 65 - 45 = 70°$.", working: "180-110=70", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $70°$",
+            finalAnswer: "**(b)** $70°$",
             commonErrors: ["Choosing (c) — check: $65+70+45=180$ ✓."],
           },
         },
@@ -391,7 +391,7 @@ export const lesson51: Lesson = {
               { id: "c", text: "$160°$" },
               { id: "d", text: "$140°$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -400,7 +400,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "$3x+5x+4x=12x=360$ → $x=30$; largest $5x=150°$.", working: "5\\times30=150", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $150°$",
+            finalAnswer: "**(b)** $150°$",
             commonErrors: ["Choosing (d) — largest is $5x$, not $4x$ or the sum."],
           },
         },
@@ -475,7 +475,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Corresponding angles are equal.", working: "equal", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Equal",
+            finalAnswer: "**(d)** Equal",
             commonErrors: ["Choosing (b) — that's co-interior angles."],
           },
         },
@@ -704,7 +704,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "The rules only hold when the lines are parallel.", working: "parallel", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The two lines are parallel",
+            finalAnswer: "**(c)** The two lines are parallel",
             commonErrors: ["Applying the rules without checking the lines are parallel."],
           },
         },
@@ -748,7 +748,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Co-interior $=180-38=142°$.", working: "180-38=142", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $142°$",
+            finalAnswer: "**(b)** $142°$",
             commonErrors: ["Choosing (b) — that's the corresponding/alternate acute angle, not co-interior."],
           },
         },
@@ -809,7 +809,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Co-interior $=180-42=138°$.", working: "180-42=138", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $138°$",
+            finalAnswer: "**(a)** $138°$",
             commonErrors: ["Choosing (a) — equal applies to corresponding/alternate, not co-interior."],
           },
         },

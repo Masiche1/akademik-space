@@ -44,7 +44,7 @@ export const lesson102: Lesson = {
             { id: "c", text: "Choose which data to return" },
             { id: "d", text: "Delete records" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "SELECT", statement: "Chooses returned data." }], steps: [{ reasoning: "SELECT retrieves.", working: "\\text{select}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Choose data" },
+          markscheme: { principles: [{ kind: "definition", name: "SELECT", statement: "Chooses returned data." }], steps: [{ reasoning: "SELECT retrieves.", working: "\\text{select}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Choose data" },
         },
         {
           id: "olcs-u10-qr-q2", difficulty: "core", totalMarks: 2,
@@ -99,7 +99,7 @@ export const lesson102: Lesson = {
             { id: "c", text: "Filter which records are returned" },
             { id: "d", text: "Create a new table" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "WHERE", statement: "Condition filtering records." }], steps: [{ reasoning: "WHERE filters matching records.", working: "\\text{where}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Filter which records are returned" },
+          markscheme: { principles: [{ kind: "definition", name: "WHERE", statement: "Condition filtering records." }], steps: [{ reasoning: "WHERE filters matching records.", working: "\\text{where}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Filter which records are returned" },
         },
         {
           id: "olcs-u10-qr-q6", difficulty: "foundation", totalMarks: 1,
@@ -117,8 +117,8 @@ export const lesson102: Lesson = {
             { id: "b", text: "SELECT" },
             { id: "c", text: "FROM" },
             { id: "d", text: "WHERE" },
-          ], aorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "ORDER BY", statement: "Sorts results by a field." }], steps: [{ reasoning: "ORDER BY sorts the output.", working: "\\text{order by}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** ORDER BY" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "ORDER BY", statement: "Sorts results by a field." }], steps: [{ reasoning: "ORDER BY sorts the output.", working: "\\text{order by}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** ORDER BY" },
         },
         {
           id: "olcs-u10-qr-q8", difficulty: "core", totalMarks: 1,
@@ -129,7 +129,7 @@ export const lesson102: Lesson = {
             { id: "c", text: "Fields" },
             { id: "d", text: "Matching records" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "COUNT", statement: "Counts matching records." }], steps: [{ reasoning: "COUNT(*) counts records.", working: "\\text{count}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Matching records" },
+          markscheme: { principles: [{ kind: "definition", name: "COUNT", statement: "Counts matching records." }], steps: [{ reasoning: "COUNT(*) counts records.", working: "\\text{count}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Matching records" },
         },
         {
           id: "olcs-u10-qr-q9", difficulty: "core", totalMarks: 2,
@@ -169,8 +169,8 @@ export const lesson102: Lesson = {
             { id: "b", text: "SELECT" },
             { id: "c", text: "GROUP BY" },
             { id: "d", text: "ORDER BY" },
-          ], aorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "WHERE", statement: "Filters records by condition." }], steps: [{ reasoning: "WHERE applies the condition.", working: "\\text{where}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** WHERE" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "WHERE", statement: "Filters records by condition." }], steps: [{ reasoning: "WHERE applies the condition.", working: "\\text{where}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** WHERE" },
         },
         {
           id: "olcs-u10-qr-q13", difficulty: "foundation", totalMarks: 1,
@@ -189,7 +189,7 @@ export const lesson102: Lesson = {
             { id: "c", text: "SELECT Name DESC only" },
             { id: "d", text: "WHERE Name" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "ORDER BY", statement: "Sorts results ascending or descending." }], steps: [{ reasoning: "ORDER BY Name ASC sorts alphabetically.", working: "\\text{order by}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** ORDER BY Name ASC" },
+          markscheme: { principles: [{ kind: "definition", name: "ORDER BY", statement: "Sorts results ascending or descending." }], steps: [{ reasoning: "ORDER BY Name ASC sorts alphabetically.", working: "\\text{order by}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** ORDER BY Name ASC" },
         },
         {
           id: "olcs-u10-qr-q15", difficulty: "core", totalMarks: 2,
@@ -252,7 +252,7 @@ export const lesson102: Lesson = {
             { id: "c", text: "Formatted output of query results" },
             { id: "d", text: "A type of table" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Report", statement: "Formatted query output." }], steps: [{ reasoning: "Report = formatted results.", working: "\\text{report}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Formatted query output" },
+          markscheme: { principles: [{ kind: "definition", name: "Report", statement: "Formatted query output." }], steps: [{ reasoning: "Report = formatted results.", working: "\\text{report}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Formatted query output" },
         },
         {
           id: "olcs-u10-rp-q2", difficulty: "core", totalMarks: 2,
@@ -307,7 +307,7 @@ export const lesson102: Lesson = {
             { id: "c", text: "Store raw data permanently" },
             { id: "d", text: "Encrypt database tables" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Report", statement: "Formatted query output." }], steps: [{ reasoning: "Reports format results for reading.", working: "\\text{report}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Present query results in a readable format" },
+          markscheme: { principles: [{ kind: "definition", name: "Report", statement: "Formatted query output." }], steps: [{ reasoning: "Reports format results for reading.", working: "\\text{report}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Present query results in a readable format" },
         },
         {
           id: "olcs-u10-rp-q6", difficulty: "foundation", totalMarks: 1,
@@ -326,7 +326,7 @@ export const lesson102: Lesson = {
             { id: "c", text: "Playing a game" },
             { id: "d", text: "A hospital storing patient records" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "DB uses", statement: "Real-world applications." }], steps: [{ reasoning: "Hospitals store patient records in databases.", working: "\\text{hospital}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** A hospital storing patient records" },
+          markscheme: { principles: [{ kind: "principle", name: "DB uses", statement: "Real-world applications." }], steps: [{ reasoning: "Hospitals store patient records in databases.", working: "\\text{hospital}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** A hospital storing patient records" },
         },
         {
           id: "olcs-u10-rp-q8", difficulty: "core", totalMarks: 1,
@@ -337,7 +337,7 @@ export const lesson102: Lesson = {
             { id: "c", text: "Printing reports" },
             { id: "d", text: "Speeding up the processor" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "principle", name: "Validation", statement: "Checks data meets rules." }], steps: [{ reasoning: "Validation rejects invalid data.", working: "\\text{validate}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Rejecting data that breaks the rules" },
+          markscheme: { principles: [{ kind: "principle", name: "Validation", statement: "Checks data meets rules." }], steps: [{ reasoning: "Validation rejects invalid data.", working: "\\text{validate}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Rejecting data that breaks the rules" },
         },
         {
           id: "olcs-u10-rp-q9", difficulty: "core", totalMarks: 2,
@@ -357,7 +357,7 @@ export const lesson102: Lesson = {
             { id: "c", text: "Faster queries" },
             { id: "d", text: "Data loss or corruption" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Backup", statement: "Copy of data for recovery." }], steps: [{ reasoning: "Backups allow recovery after loss.", working: "\\text{backup}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Data loss or corruption" },
+          markscheme: { principles: [{ kind: "principle", name: "Backup", statement: "Copy of data for recovery." }], steps: [{ reasoning: "Backups allow recovery after loss.", working: "\\text{backup}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Data loss or corruption" },
         },
         {
           id: "olcs-u10-rp-q11", difficulty: "challenge", totalMarks: 3,
@@ -397,7 +397,7 @@ export const lesson102: Lesson = {
             { id: "c", text: "Larger fonts" },
             { id: "d", text: "Validation rules" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Data integrity", statement: "Validation rules restrict invalid data." }], steps: [{ reasoning: "Validation rules check data meets requirements.", working: "\\text{validate}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Validation rules" },
+          markscheme: { principles: [{ kind: "principle", name: "Data integrity", statement: "Validation rules restrict invalid data." }], steps: [{ reasoning: "Validation rules check data meets requirements.", working: "\\text{validate}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Validation rules" },
         },
         {
           id: "olcs-u10-rp-q15", difficulty: "core", totalMarks: 2,

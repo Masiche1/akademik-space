@@ -63,7 +63,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Pressure arises from the many collisions of fast-moving particles with the walls.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Gas particles colliding with the walls of the container",
+            finalAnswer: "**(d)** Gas particles colliding with the walls of the container",
             commonErrors: ["Choosing (c): gas pressure acts equally in all directions and does not depend on the weight of the gas.", "Choosing (a): ideal gas particles are assumed to have no attractions."],
             examinerNote: "B1 for (b).",
           },
@@ -182,7 +182,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "It quadruples." },
               { id: "d", text: "It doubles." },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -191,7 +191,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "$P$ and $V$ are inversely proportional, so halving $V$ doubles $P$.", working: "P_2 = \\frac{P_1V_1}{V_1/2} = 2P_1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** It doubles.",
+            finalAnswer: "**(d)** It doubles.",
             commonErrors: ["Choosing (a), treating the relationship as direct.", "Choosing (d), squaring the change."],
             examinerNote: "B1 for (c).",
           },

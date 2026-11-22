@@ -221,7 +221,7 @@ export const lesson52: Lesson = {
           totalMarks: 1,
           stem: "Which character encoding can represent symbols from many languages, including emoji?",
           response: { "type": "mcq", "choices": [ { "id": "a", "text": "Run-length encoding" }, { "id": "b", "text": "ASCII" }, { "id": "c", "text": "Unicode" }, { "id": "d", "text": "Binary-coded decimal" } ], "correctChoiceId": "c" },
-          markscheme: { "principles": [ { "kind": "definition", "name": "Unicode", "statement": "Universal multi-language encoding." } ], "steps": [ { "reasoning": "Unicode covers many languages and symbols; ASCII is English-focused.", "marks": 1, "markCode": "M" } ], "finalAnswer": "**(b)** Unicode" }
+          markscheme: { "principles": [ { "kind": "definition", "name": "Unicode", "statement": "Universal multi-language encoding." } ], "steps": [ { "reasoning": "Unicode covers many languages and symbols; ASCII is English-focused.", "marks": 1, "markCode": "M" } ], "finalAnswer": "**(c)** Unicode" }
         },
         {
           id: "ciecs-u1-md-q6",
@@ -229,23 +229,23 @@ export const lesson52: Lesson = {
           totalMarks: 1,
           stem: "What does colour depth measure for a bitmap image?",
           response: { "type": "mcq", "choices": [ { "id": "a", "text": "The number of pixels in the image" }, { "id": "b", "text": "The number of images in a folder" }, { "id": "c", "text": "The number of bits used for each pixel" }, { "id": "d", "text": "The physical width of the screen" } ], "correctChoiceId": "c" },
-          markscheme: { "principles": [ { "kind": "definition", "name": "Colour depth", "statement": "Bits per pixel." } ], "steps": [ { "reasoning": "Colour depth is the number of bits storing each pixel's colour.", "marks": 1, "markCode": "M" } ], "finalAnswer": "**(a)** Bits used for each pixel" }
+          markscheme: { "principles": [ { "kind": "definition", "name": "Colour depth", "statement": "Bits per pixel." } ], "steps": [ { "reasoning": "Colour depth is the number of bits storing each pixel's colour.", "marks": 1, "markCode": "M" } ], "finalAnswer": "**(c)** Bits used for each pixel" }
         },
         {
           id: "ciecs-u1-md-q7",
           difficulty: "foundation",
           totalMarks: 1,
           stem: "What is a pixel?",
-          response: { "type": "mcq", "choices": [ { "id": "a", "text": "A sound sample" }, { "id": "b", "text": "The smallest picture element in a digital image" }, { "id": "c", "text": "A network packet" }, { "id": "d", "text": "A type of image file" } ], "borrectChoiceId": "c" },
-          markscheme: { "principles": [ { "kind": "definition", "name": "Pixel", "statement": "Smallest image element." } ], "steps": [ { "reasoning": "A pixel is one coloured element in a bitmap image.", "marks": 1, "markCode": "M" } ], "finalAnswer": "**(c)** Smallest picture element" }
+          response: { "type": "mcq", "choices": [ { "id": "a", "text": "A sound sample" }, { "id": "b", "text": "The smallest picture element in a digital image" }, { "id": "c", "text": "A network packet" }, { "id": "d", "text": "A type of image file" } ], "correctChoiceId": "b" },
+          markscheme: { "principles": [ { "kind": "definition", "name": "Pixel", "statement": "Smallest image element." } ], "steps": [ { "reasoning": "A pixel is one coloured element in a bitmap image.", "marks": 1, "markCode": "M" } ], "finalAnswer": "**(b)** Smallest picture element" }
         },
         {
           id: "ciecs-u1-md-q8",
           difficulty: "core",
           totalMarks: 1,
           stem: "Which change would increase the file size of a bitmap image the most?",
-          response: { "type": "mcq", "choices": [ { "id": "a", "text": "Doubling the resolution only" }, { "id": "b", "text": "Doubling the colour depth only" }, { "id": "c", "text": "Doubling both resolution and colour depth" }, { "id": "d", "text": "Changing only the file name" } ], "correctChoiceIc": "d" },
-          markscheme: { "principles": [ { "kind": "skill", "name": "Image size", "statement": "Pixels × bits per pixel." } ], "steps": [ { "reasoning": "File size depends on both pixel count and colour depth, so increasing both has the largest effect.", "marks": 1, "markCode": "M" } ], "finalAnswer": "**(d)** Doubling both resolution and colour depth" }
+          response: { "type": "mcq", "choices": [ { "id": "a", "text": "Doubling the resolution only" }, { "id": "b", "text": "Doubling the colour depth only" }, { "id": "c", "text": "Doubling both resolution and colour depth" }, { "id": "d", "text": "Changing only the file name" } ], "correctChoiceId": "c" },
+          markscheme: { "principles": [ { "kind": "skill", "name": "Image size", "statement": "Pixels × bits per pixel." } ], "steps": [ { "reasoning": "File size depends on both pixel count and colour depth, so increasing both has the largest effect.", "marks": 1, "markCode": "M" } ], "finalAnswer": "**(c)** Doubling both resolution and colour depth" }
         },
         {
           id: "ciecs-u1-md-q9",
@@ -261,7 +261,7 @@ export const lesson52: Lesson = {
           totalMarks: 1,
           stem: "How many different characters can standard $7$-bit ASCII represent?",
           response: { "type": "mcq", "choices": [ { "id": "a", "text": "$256$" }, { "id": "b", "text": "$128$" }, { "id": "c", "text": "$64$" }, { "id": "d", "text": "$1024$" } ], "correctChoiceId": "b" },
-          markscheme: { "principles": [ { "kind": "skill", "name": "ASCII capacity", "statement": "$2^7 = 128$ codes." } ], "steps": [ { "reasoning": "$2^7 = 128$ possible codes.", "marks": 1, "markCode": "M" } ], "finalAnswer": "**(a)** $128$" }
+          markscheme: { "principles": [ { "kind": "skill", "name": "ASCII capacity", "statement": "$2^7 = 128$ codes." } ], "steps": [ { "reasoning": "$2^7 = 128$ possible codes.", "marks": 1, "markCode": "M" } ], "finalAnswer": "**(b)** $128$" }
         },
         {
           id: "ciecs-u1-md-q11",

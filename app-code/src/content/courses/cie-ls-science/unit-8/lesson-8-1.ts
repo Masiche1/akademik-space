@@ -65,7 +65,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Crust = outermost.", working: "crust", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Crust",
+            finalAnswer: "**(c)** Crust",
             commonErrors: ["Choosing (d) — atmosphere is above crust, not part of Earth structure."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Inner core", statement: "Centre of Earth — extremely hot, solid iron/nickel." }],
             steps: [{ reasoning: "Temperature rises towards centre.", working: "inner core", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Inner core",
+            finalAnswer: "**(b)** Inner core",
             commonErrors: ["Choosing (b) — crust is the coolest."],
           },
         },
@@ -188,7 +188,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Outer core", statement: "Liquid iron/nickel — generates Earth's magnetic field." }],
             steps: [{ reasoning: "Outer core is molten metal.", working: "liquid Fe/Ni", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Liquid iron and nickel",
+            finalAnswer: "**(c)** Liquid iron and nickel",
           },
         },
         {
@@ -209,7 +209,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Plate movement", statement: "Convection currents in hot mantle rock move plates." }],
             steps: [{ reasoning: "Convection in mantle drives plates.", working: "convection", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Convection currents",
+            finalAnswer: "**(c)** Convection currents",
           },
         },
         {
@@ -230,7 +230,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Magnetic field", statement: "Liquid outer core motion creates Earth's magnetic field." }],
             steps: [{ reasoning: "Outer core metal flow → magnetic field.", working: "outer core", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Liquid metal in outer core",
+            finalAnswer: "**(b)** Liquid metal in outer core",
           },
         },
         {
@@ -251,7 +251,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Plate boundaries", statement: "Boundaries concentrate stress → earthquakes and volcanoes." }],
             steps: [{ reasoning: "Plate edges are zones of activity.", working: "boundaries", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Plate boundaries",
+            finalAnswer: "**(c)** Plate boundaries",
           },
         },
         {
@@ -272,7 +272,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Continental drift", statement: "Fitting coastlines, matching fossils and rocks across oceans." }],
             steps: [{ reasoning: "Pangaea fit is classic evidence.", working: "fit", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Continents fit together",
+            finalAnswer: "**(b)** Continents fit together",
           },
         },
         {
@@ -293,7 +293,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Lithosphere", statement: "Crust + rigid upper mantle — broken into plates." }],
             steps: [{ reasoning: "Lithosphere = crust + upper mantle.", working: "crust+mantle", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Crust + rigid upper mantle",
+            finalAnswer: "**(d)** Crust + rigid upper mantle",
           },
         },
         {
@@ -425,7 +425,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Igneous = from magma.", working: "igneous", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Igneous",
+            finalAnswer: "**(c)** Igneous",
             commonErrors: ["Choosing (b) — sedimentary is from sediments."],
           },
         },
@@ -526,7 +526,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Sedimentary", statement: "Sediments compacted and cemented → sedimentary rock." }],
             steps: [{ reasoning: "Sediments → sedimentary.", working: "sedimentary", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Sedimentary",
+            finalAnswer: "**(d)** Sedimentary",
           },
         },
         {
@@ -547,7 +547,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Metamorphic", statement: "Heat + pressure transform existing rock → metamorphic." }],
             steps: [{ reasoning: "Marble = metamorphosed limestone.", working: "heat+pressure", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Heat and pressure",
+            finalAnswer: "**(d)** Heat and pressure",
           },
         },
         {
@@ -568,7 +568,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Igneous texture", statement: "Fast cooling (lava) → fine-grained basalt; slow (magma) → granite." }],
             steps: [{ reasoning: "Surface lava cools fast → basalt.", working: "fast cool", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Quickly at the surface",
+            finalAnswer: "**(d)** Quickly at the surface",
           },
         },
         {
@@ -610,7 +610,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Rock cycle", statement: "Metamorphic → melt → magma → igneous." }],
             steps: [{ reasoning: "Melting turns rock to magma.", working: "melt", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Melting",
+            finalAnswer: "**(d)** Melting",
           },
         },
         {
@@ -631,7 +631,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Fossils", statement: "Organisms buried in sediment can be preserved as fossils." }],
             steps: [{ reasoning: "Sediment burial preserves remains.", working: "burial", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Remains preserved in sediments",
+            finalAnswer: "**(c)** Remains preserved in sediments",
           },
         },
         {
@@ -652,7 +652,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Rock cycle", statement: "Igneous → weathering/erosion → sediments → sedimentary." }],
             steps: [{ reasoning: "Weathering breaks rock; erosion carries it away.", working: "weathering", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Weathering and erosion",
+            finalAnswer: "**(b)** Weathering and erosion",
           },
         },
         {
@@ -784,7 +784,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Troposphere = weather layer.", working: "troposphere", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Troposphere",
+            finalAnswer: "**(b)** Troposphere",
             commonErrors: ["Choosing (b) — stratosphere has ozone, not weather."],
           },
         },
@@ -885,7 +885,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Ozone", statement: "Ozone layer sits in the stratosphere and absorbs UV." }],
             steps: [{ reasoning: "Ozone is in stratosphere.", working: "stratosphere", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Stratosphere",
+            finalAnswer: "**(b)** Stratosphere",
           },
         },
         {
@@ -906,7 +906,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Mesosphere", statement: "Meteors burn up in the mesosphere." }],
             steps: [{ reasoning: "Mesosphere = meteor layer.", working: "mesosphere", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Mesosphere",
+            finalAnswer: "**(b)** Mesosphere",
           },
         },
         {
@@ -927,7 +927,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Thermosphere", statement: "Auroras and satellites occur in the thermosphere." }],
             steps: [{ reasoning: "Thermosphere hosts auroras.", working: "thermosphere", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Thermosphere",
+            finalAnswer: "**(b)** Thermosphere",
           },
         },
         {
@@ -948,7 +948,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Wind", statement: "Air flows from high to low pressure → wind." }],
             steps: [{ reasoning: "Pressure gradient drives wind.", working: "pressure diff", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Pressure differences",
+            finalAnswer: "**(d)** Pressure differences",
           },
         },
         {
@@ -969,7 +969,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Front", statement: "Boundary where warm and cold air masses meet." }],
             steps: [{ reasoning: "Front = air mass boundary.", working: "boundary", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Boundary between air masses",
+            finalAnswer: "**(b)** Boundary between air masses",
           },
         },
         {
@@ -990,7 +990,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Pressure systems", statement: "Low pressure → rising air → clouds and rain." }],
             steps: [{ reasoning: "Low pressure brings rain.", working: "low P", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Cloudy, wet weather",
+            finalAnswer: "**(d)** Cloudy, wet weather",
           },
         },
         {
@@ -1143,7 +1143,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "8 planets.", working: "8", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 8",
+            finalAnswer: "**(c)** 8",
             commonErrors: ["Choosing (c) — Pluto is dwarf planet now."],
           },
         },
@@ -1286,7 +1286,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Planet types", statement: "Terrestrial planets are rocky and inner." }],
             steps: [{ reasoning: "First four are rocky.", working: "terrestrial", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Mercury–Mars",
+            finalAnswer: "**(b)** Mercury–Mars",
           },
         },
         {
@@ -1307,7 +1307,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Seasons", statement: "Axial tilt means hemispheres get different sunlight through the year." }],
             steps: [{ reasoning: "Tilt + orbit → seasons.", working: "tilt", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Axial tilt",
+            finalAnswer: "**(c)** Axial tilt",
           },
         },
         {
@@ -1328,7 +1328,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Solar eclipse", statement: "Moon blocks sunlight reaching Earth." }],
             steps: [{ reasoning: "Moon between Sun and Earth.", working: "moon", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Moon passes between Earth and Sun",
+            finalAnswer: "**(c)** Moon passes between Earth and Sun",
           },
         },
         {
@@ -1349,7 +1349,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Tides", statement: "Moon's gravity pulls on oceans → tides." }],
             steps: [{ reasoning: "Moon gravity → tides.", working: "moon gravity", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Moon's gravitational pull",
+            finalAnswer: "**(b)** Moon's gravitational pull",
           },
         },
         {
@@ -1370,7 +1370,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Gas giants", statement: "Jupiter, Saturn, Uranus, Neptune are gas/ice giants." }],
             steps: [{ reasoning: "Mars is terrestrial.", working: "mars", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Mars",
+            finalAnswer: "**(b)** Mars",
           },
         },
         {

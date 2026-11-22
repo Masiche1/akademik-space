@@ -113,7 +113,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Amplitude always zero",
+            finalAnswer: "**(b)** Amplitude always zero",
             commonErrors: [
               "Confusing nodes with antinodes — nodes are zero, antinodes are max.",
             ],
@@ -348,7 +348,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\lambda/2$",
+            finalAnswer: "**(d)** $\\lambda/2$",
             commonErrors: [
               "Confusing node-node spacing ($\\lambda/2$) with node-antinode spacing ($\\lambda/4$).",
             ],
@@ -438,7 +438,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** A node",
+            finalAnswer: "**(b)** A node",
             commonErrors: [
               "Confusing the closed end (node) with the open end (antinode).",
             ],
@@ -677,7 +677,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** An antinode",
+            finalAnswer: "**(d)** An antinode",
             commonErrors: [
               "Reversing node and antinode conditions at pipe ends.",
             ],
@@ -908,7 +908,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** A standing wave",
+            finalAnswer: "**(b)** A standing wave",
             commonErrors: [
               "Thinking the waves keep travelling — the resultant pattern is stationary.",
             ],
@@ -993,7 +993,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\lambda = 4L$",
+            finalAnswer: "**(c)** $\\lambda = 4L$",
             commonErrors: ["Using $2L$ — that's for open pipes/strings."],
           },
         },
@@ -1226,7 +1226,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The 3rd harmonic",
+            finalAnswer: "**(c)** The 3rd harmonic",
             commonErrors: [
               "Assuming first overtone = 2nd harmonic — even harmonics are not allowed in a closed pipe.",
             ],
@@ -1342,7 +1342,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $v = \\sqrt{T/\\mu}$",
+            finalAnswer: "**(d)** $v = \\sqrt{T/\\mu}$",
             commonErrors: [
               "Inverting the ratio — heavier strings carry waves more slowly.",
             ],
@@ -1428,7 +1428,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $1/\\sqrt{2}$ times",
+            finalAnswer: "**(b)** $1/\\sqrt{2}$ times",
             commonErrors: [
               "Thinking wave speed halves — it falls by $\\sqrt{2}$ because $v \\propto 1/\\sqrt{\\mu}$.",
             ],
@@ -1515,7 +1515,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $n$",
+            finalAnswer: "**(b)** $n$",
             commonErrors: [
               "Confusing antinode count ($n$) with node count ($n+1$).",
             ],

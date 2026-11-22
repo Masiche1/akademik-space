@@ -148,7 +148,7 @@ export const lesson31: Lesson = {
             { id: "b", text: "The story ends" },
             { id: "c", text: "The owner gives up" },
             { id: "d", text: "The dog returns home" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Middle section", statement: "Problem develops through events." }],
             steps: [

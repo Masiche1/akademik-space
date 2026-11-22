@@ -218,7 +218,7 @@ export const lesson217: Lesson = {
             { id: "b", text: "in the first quadrant" },
             { id: "c", text: "on the y-axis" },
             { id: "d", text: "on the x-axis" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Quadrants", statement: "Both positive = first quadrant." }],
             steps: [{ reasoning: "x and y both positive → first quadrant.", marks: 1, markCode: "A" }],

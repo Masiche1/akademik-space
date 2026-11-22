@@ -164,7 +164,7 @@ export const lesson51: Lesson = {
             { id: "b", text: "$(\\frac32,0)$" },
             { id: "c", text: "$(3,0)$" },
             { id: "d", text: "$(0,-3)$" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "technique", name: "x-intercept", statement: "Set $y=0$." }], steps: [{ reasoning: "$0=2x-3$ gives $x=\\frac32$.", marks: 1, markCode: "A" }], finalAnswer: "$(\\frac32,0)$" },
         },
         {

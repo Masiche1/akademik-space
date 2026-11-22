@@ -90,7 +90,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Iodine = starch test.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Iodine solution",
+            finalAnswer: "**(d)** Iodine solution",
             commonErrors: ["Confusing with Benedict's."],
           },
         },
@@ -301,7 +301,7 @@ export const lesson12: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** A protein catalyst",
+            finalAnswer: "**(c)** A protein catalyst",
             commonErrors: ["Not a nutrient view."],
           },
         },

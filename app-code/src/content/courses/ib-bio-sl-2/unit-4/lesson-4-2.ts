@@ -129,7 +129,7 @@ export const lesson42: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** They are different species",
+            finalAnswer: "**(a)** They are different species",
             commonErrors: [
               "Stopping at 'can interbreed' and ignoring the fertility requirement.",
             ],
@@ -239,7 +239,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Pre-zygotic isolation by habitat and breeding season",
+              "**(a)** Pre-zygotic isolation by habitat and breeding season",
             commonErrors: [
               "Calling it post-zygotic — there is no hybrid at all.",
             ],
@@ -405,7 +405,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** They can interbreed to produce fertile offspring",
+              "**(c)** They can interbreed to produce fertile offspring",
             commonErrors: [
               "Using physical similarity or shared habitat as the definition instead of reproductive compatibility.",
             ],
@@ -453,7 +453,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Sympatric speciation through polyploidy",
+            finalAnswer: "**(d)** Sympatric speciation through polyploidy",
             commonErrors: [
               "Choosing allopatric — there is no barrier separating the populations.",
             ],
@@ -622,7 +622,7 @@ export const lesson42: Lesson = {
                 text: "Hybrid offspring of two species that are sterile",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -656,7 +656,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Sterile hybrid offspring",
+            finalAnswer: "**(d)** Sterile hybrid offspring",
             commonErrors: [
               "Confusing pre-zygotic barriers (prevent mating) with post-zygotic barriers (hybrid failure).",
             ],
@@ -743,7 +743,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Behavioural pre-zygotic isolation",
+            finalAnswer: "**(d)** Behavioural pre-zygotic isolation",
             commonErrors: [
               "Calling it geographical isolation — the species share the same meadow.",
             ],
@@ -898,7 +898,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Prevents fertilisation from occurring",
+            finalAnswer: "**(d)** Prevents fertilisation from occurring",
             commonErrors: ["Reversing pre- and post-zygotic isolation."],
             examinerNote: "M1 A1.",
           },
@@ -1122,7 +1122,7 @@ export const lesson42: Lesson = {
               { id: "c", text: "homo sapiens" },
               { id: "d", text: "Homo Sapiens" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1141,7 +1141,7 @@ export const lesson42: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** Homo sapiens",
+            finalAnswer: "**(a)** Homo sapiens",
             commonErrors: ["Capitalising both words or lowercasing both."],
             examinerNote: "B1 for (c).",
           },
@@ -1229,7 +1229,7 @@ export const lesson42: Lesson = {
                 text: "They are equal because they have the same area",
               },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1262,7 +1262,7 @@ export const lesson42: Lesson = {
                 markCode: "R",
               },
             ],
-            finalAnswer: "**(c)** First reserve — higher species richness",
+            finalAnswer: "**(a)** First reserve — higher species richness",
             commonErrors: ["Assuming equal area means equal biodiversity."],
             examinerNote: "M1 A1 R1.",
           },
@@ -1422,7 +1422,7 @@ export const lesson42: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Felis",
+            finalAnswer: "**(c)** Felis",
             commonErrors: [
               "Choosing catus — that is the species name, not the genus.",
             ],
@@ -1443,7 +1443,7 @@ export const lesson42: Lesson = {
               { id: "c", text: "Family" },
               { id: "d", text: "Genus" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1470,7 +1470,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Kingdom",
+            finalAnswer: "**(a)** Kingdom",
             commonErrors: [
               "Choosing species — it is the most specific, least diverse level.",
             ],
@@ -1671,7 +1671,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Relationships are unchanged — branch points determine relatedness",
+              "**(a)** Relationships are unchanged — branch points determine relatedness",
             commonErrors: [
               "Reading horizontal position of tips as a measure of relatedness.",
             ],
@@ -1913,7 +1913,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Separate species, based on evolutionary relationships",
+              "**(a)** Separate species, based on evolutionary relationships",
             commonErrors: [
               "Classifying by looks alone — the whole point of modern classification is ancestry.",
             ],

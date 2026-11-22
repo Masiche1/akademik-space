@@ -57,7 +57,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Blast furnace", statement: "CO reduces Fe₂O₃." }],
             steps: [{ reasoning: "Recall.", working: "\\text{CO}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Carbon monoxide",
+            finalAnswer: "**(a)** Carbon monoxide",
             commonErrors: ["Coke is fuel; CO is actual reducer."],
           },
         },
@@ -137,7 +137,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Blast furnace", statement: "Iron bottom, slag top." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Molten iron",
+            finalAnswer: "**(d)** Molten iron",
             commonErrors: ["Slag floats on top."],
           },
         },
@@ -274,7 +274,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Waste gases", statement: "CO₂ + CO." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** CO₂ and CO",
+            finalAnswer: "**(c)** CO₂ and CO",
             commonErrors: ["Oxygen is consumed."],
           },
         },
@@ -331,7 +331,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Limestone", statement: "Flux — removes impurities." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Flux",
+            finalAnswer: "**(c)** Flux",
             commonErrors: ["Not a reducer or fuel."],
           },
         },
@@ -377,7 +377,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Extraction", statement: "Above C needs electrolysis." }],
             steps: [{ reasoning: "Recall.", working: "\\text{above C}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It's too reactive — above carbon in the series",
+            finalAnswer: "**(d)** It's too reactive — above carbon in the series",
             commonErrors: ["Saying 'too expensive' — it's reactivity."],
           },
         },
@@ -457,7 +457,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Al extraction", statement: "Al₂O₃ electrolyte." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Al₂O₃ (alumina)",
+            finalAnswer: "**(d)** Al₂O₃ (alumina)",
             commonErrors: ["Bauxite is purified to Al₂O₃ first."],
           },
         },
@@ -475,7 +475,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Cathode", statement: "Reduction: Al³⁺ + 3e⁻ → Al." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Al³⁺ + 3e⁻ → Al",
+            finalAnswer: "**(c)** Al³⁺ + 3e⁻ → Al",
             commonErrors: ["O²⁻ oxidation is at anode."],
           },
         },
@@ -595,7 +595,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Reactivity", statement: "Above C → carbon can't reduce." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Al is above carbon in reactivity",
+            finalAnswer: "**(a)** Al is above carbon in reactivity",
             commonErrors: ["Reactivity not cost."],
           },
         },
@@ -638,7 +638,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Electrolyte", statement: "Al₂O₃ in cryolite." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Al₂O₃ dissolved in cryolite",
+            finalAnswer: "**(c)** Al₂O₃ dissolved in cryolite",
             commonErrors: ["Not aqueous — Al would react."],
           },
         },
@@ -656,7 +656,7 @@ export const lesson183: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Anode", statement: "O²⁻ → O₂." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Oxygen",
+            finalAnswer: "**(c)** Oxygen",
             commonErrors: ["Al forms at cathode."],
           },
         },

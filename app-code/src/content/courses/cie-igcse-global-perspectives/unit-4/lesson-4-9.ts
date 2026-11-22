@@ -290,7 +290,7 @@ export const lesson49: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Moral buying choices",
+            finalAnswer: "**(c)** Moral buying choices",
             commonErrors: ["Confusing with frugality."],
           },
         },
@@ -407,7 +407,7 @@ export const lesson49: Lesson = {
             steps: [
               { reasoning: "Concern for those not yet born.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fairness between current and future generations",
+            finalAnswer: "**(d)** Fairness between current and future generations",
             commonErrors: ["Confusing with intragenerational equity."],
           },
         },
@@ -638,7 +638,7 @@ export const lesson49: Lesson = {
             ],
             steps: [{ reasoning: "Correct list.", marks: 1, markCode: "B" }],
             finalAnswer:
-              "**(a)** Research, analysis, evaluation, reflection, collaboration, communication",
+              "**(c)** Research, analysis, evaluation, reflection, collaboration, communication",
             commonErrors: ["Confusing with generic skills."],
           },
         },
@@ -844,7 +844,7 @@ export const lesson49: Lesson = {
             steps: [
               { reasoning: "Correct interpretation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Weigh and qualify",
+            finalAnswer: "**(c)** Weigh and qualify",
             commonErrors: ["Treating as yes/no."],
           },
         },
@@ -973,7 +973,7 @@ export const lesson49: Lesson = {
             steps: [
               { reasoning: "The standard high-scoring structure.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Identify→analyse→evaluate→conclude",
+            finalAnswer: "**(b)** Identify→analyse→evaluate→conclude",
             commonErrors: ["Skipping evaluation entirely."],
           },
         },
@@ -1015,7 +1015,7 @@ export const lesson49: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** One-sided answers without evaluation",
+            finalAnswer: "**(c)** One-sided answers without evaluation",
             commonErrors: ["Thinking headings or paragraphs hurt."],
           },
         },

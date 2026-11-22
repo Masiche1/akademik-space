@@ -68,7 +68,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Liquid particles touch but are not fixed in position, so a liquid flows and takes the shape of its container.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Close together but able to slide past each other",
+            finalAnswer: "**(a)** Close together but able to slide past each other",
             commonErrors: ["Choosing (a), which describes a solid.", "Choosing (c), which describes a gas.", "Believing that particles in a solid or liquid stop moving."],
             examinerNote: "B1 for (b).",
           },

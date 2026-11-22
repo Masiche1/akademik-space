@@ -60,7 +60,7 @@ export const lessonp22: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Newton's 2nd", statement: "F = ma." }],
             steps: [{ reasoning: "Recall.", working: "F = ma", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** F = ma",
+            finalAnswer: "**(c)** F = ma",
             commonErrors: ["Inverting to F=m/a."],
           },
         },
@@ -174,7 +174,7 @@ export const lessonp22: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Inertia", statement: "Resistance to change in motion; related to mass." }],
             steps: [{ reasoning: "Recall.", working: "\\text{inertia} \\propto m", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** an object's resistance to change in its motion",
+            finalAnswer: "**(a)** an object's resistance to change in its motion",
             commonErrors: ["Confusing inertia with momentum."],
           },
         },
@@ -230,7 +230,7 @@ export const lessonp22: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Newton's 3rd", statement: "Action-reaction pairs act on different bodies." }],
             steps: [{ reasoning: "Recall.", working: "F_{AB} = -F_{BA}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** are equal and opposite but act on different objects",
+            finalAnswer: "**(a)** are equal and opposite but act on different objects",
             commonErrors: ["They don't cancel — different objects."],
           },
         },
@@ -269,7 +269,7 @@ export const lessonp22: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Newton's 1st", statement: "Motion continues until resultant force." }],
             steps: [{ reasoning: "Recall.", working: "\\text{friction stops it eventually}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Newton's first law — it keeps its motion until a force (friction) acts",
+            finalAnswer: "**(d)** Newton's first law — it keeps its motion until a force (friction) acts",
             commonErrors: ["Ignoring friction as the stopping force."],
           },
         },
@@ -515,7 +515,7 @@ export const lessonp22: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Friction", statement: "Depends on surfaces and normal force." }],
             steps: [{ reasoning: "Recall.", working: "\\text{surfaces} + N", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** the nature of the surfaces and the normal force",
+            finalAnswer: "**(c)** the nature of the surfaces and the normal force",
             commonErrors: ["Not simply 'more mass = more friction'."],
           },
         },
@@ -571,7 +571,7 @@ export const lessonp22: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Static friction", statement: "Friction opposes attempted motion too." }],
             steps: [{ reasoning: "No motion → friction balances applied force.", working: "F_{friction} = F_{applied}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** equal to the applied force (static friction)",
+            finalAnswer: "**(c)** equal to the applied force (static friction)",
             commonErrors: ["Saying friction is zero when not moving."],
           },
         },
@@ -645,7 +645,7 @@ export const lessonp22: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Useful friction", statement: "Walking and braking need friction." }],
             steps: [{ reasoning: "Recall.", working: "\\text{walking needs grip}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** walking without slipping",
+            finalAnswer: "**(c)** walking without slipping",
             commonErrors: ["The others are friction-reduction methods."],
           },
         },

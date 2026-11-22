@@ -60,7 +60,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Height" },
               { id: "d", text: "ABO blood group" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -69,7 +69,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Blood group falls into four separate categories (A, B, AB, O). Mass, height and length can take any value in a range.", working: "\\text{blood group}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** ABO blood group",
+            finalAnswer: "**(d)** ABO blood group",
             commonErrors: ["Choosing height because people can be sorted into 'tall' and 'short', but height is a continuous measurement."],
             examinerNote: "B1 for (c).",
           },
@@ -194,7 +194,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Individual bacteria gradually become used to the antibiotic" },
               { id: "d", text: "Antibiotics cause bacteria to mutate into resistant forms" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -203,7 +203,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Mutations are random and occur before the antibiotic is used. The antibiotic only selects the resistant bacteria that already exist.", working: "\\text{selection of resistant bacteria}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)**",
+            finalAnswer: "**(b)**",
             commonErrors: ["Choosing (b): antibiotics do not cause the mutation, they select resistant bacteria.", "Choosing (d): individual bacteria do not adapt during their lifetime."],
             examinerNote: "B1 for (c).",
           },

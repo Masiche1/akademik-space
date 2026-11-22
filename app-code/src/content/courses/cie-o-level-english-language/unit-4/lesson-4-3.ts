@@ -170,7 +170,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Unseen = new text.", working: "new", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** A text not seen before the exam",
+            finalAnswer: "**(b)** A text not seen before the exam",
             commonErrors: ["Choosing (b) — that's seen."],
           },
         },
@@ -220,7 +220,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Read questions first.", working: "questions", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Read the questions first",
+            finalAnswer: "**(c)** Read the questions first",
             commonErrors: ["Starting immediately — no plan."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Quote evidence.", working: "evidence", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Quote evidence from the text",
+            finalAnswer: "**(d)** Quote evidence from the text",
             commonErrors: ["Choosing (b) — need evidence."],
           },
         },
@@ -336,7 +336,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Writing without reading is bad.", working: "read first", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Writing without reading",
+            finalAnswer: "**(b)** Writing without reading",
             commonErrors: ["Choosing (b) — that's good."],
           },
         },
@@ -421,7 +421,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Reading questions helps planning.", working: "plan", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** It helps plan time and approach",
+            finalAnswer: "**(b)** It helps plan time and approach",
             commonErrors: ["Choosing (d) — it is important."],
           },
         },
@@ -501,7 +501,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Literal = stated.", working: "stated", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** What is stated directly",
+            finalAnswer: "**(c)** What is stated directly",
             commonErrors: ["Choosing (b) — that's inference."],
           },
         },
@@ -606,7 +606,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Comprehension = understanding.", working: "understanding", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Question testing understanding of text",
+            finalAnswer: "**(d)** Question testing understanding of text",
             commonErrors: ["Choosing (b) — that's opinion."],
           },
         },
@@ -726,7 +726,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Evaluation = judging.", working: "evaluation", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Evaluation",
+            finalAnswer: "**(b)** Evaluation",
             commonErrors: ["Choosing (b) — that's comprehension."],
           },
         },
@@ -772,7 +772,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "'Analyse' is a command word.", working: "analyse", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Analyse",
+            finalAnswer: "**(b)** Analyse",
             commonErrors: ["Choosing (b) — that's article."],
           },
         },
@@ -857,7 +857,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "'Evaluate' is a command word.", working: "evaluate", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Evaluate",
+            finalAnswer: "**(b)** Evaluate",
             commonErrors: ["Choosing (b) — that's article."],
           },
         },
@@ -1092,7 +1092,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Plan first.", working: "plan", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Plan your points",
+            finalAnswer: "**(b)** Plan your points",
             commonErrors: ["Starting immediately — no structure."],
           },
         },
@@ -1162,7 +1162,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "PEEL = Point, Evidence, Explanation, Link.", working: "PEEL", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Point, Evidence, Explanation, Link",
+            finalAnswer: "**(d)** Point, Evidence, Explanation, Link",
             commonErrors: ["Choosing (c) — that's PEEL variant."],
           },
         },
@@ -1208,7 +1208,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Link back to question.", working: "link", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Link back to the question",
+            finalAnswer: "**(b)** Link back to the question",
             commonErrors: ["Choosing (b) — incomplete."],
           },
         },
@@ -1293,7 +1293,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Re-read and verify.", working: "verify", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Re-read and verify points",
+            finalAnswer: "**(d)** Re-read and verify points",
             commonErrors: ["Choosing (b) — errors remain."],
           },
         },

@@ -56,7 +56,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Drawing back a bow" },
               { id: "d", text: "Pulling a door open" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -65,7 +65,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Kicking moves the ball away — a push. The others are pulls.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Kicking a football",
+            finalAnswer: "**(b)** Kicking a football",
             commonErrors: ["Choosing 'opening a drawer' — drawers are pulled towards you."],
           },
         },
@@ -270,7 +270,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Magnets attract metal objects at a distance.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Attracts them without touching",
+            finalAnswer: "**(a)** Attracts them without touching",
             commonErrors: ["Thinking magnets need to touch — magnetism works at a distance."],
           },
         },
@@ -407,7 +407,7 @@ export const lesson22: Lesson = {
               { reasoning: "Friction rubs against the surface and removes motion.", marks: 1, markCode: "M" },
               { reasoning: "Magnetism, light and sound do not directly stop rolling.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Friction",
+            finalAnswer: "**(d)** Friction",
             commonErrors: ["Choosing magnetism — magnets attract metal, not stop all rolling."],
           },
         },
@@ -452,7 +452,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Snail" },
               { id: "d", text: "Cheetah" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -461,7 +461,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Cheetah is fastest; snail, turtle and sloth are slow.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Cheetah",
+            finalAnswer: "**(d)** Cheetah",
             commonErrors: ["Choosing 'turtle' — turtles are slow; cheetahs are built for speed."],
           },
         },
@@ -553,7 +553,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Speed describes quickness of movement.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** How quickly an object moves",
+            finalAnswer: "**(a)** How quickly an object moves",
             commonErrors: ["Choosing weight — speed is about movement, not mass."],
           },
         },
@@ -667,7 +667,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "A harder push usually makes the ball go faster.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It usually moves faster",
+            finalAnswer: "**(c)** It usually moves faster",
             commonErrors: ["Thinking the ball becomes heavier — the force changes speed, not mass."],
           },
         },
@@ -734,7 +734,7 @@ export const lesson22: Lesson = {
               { reasoning: "More initial speed lets the plane travel further.", marks: 1, markCode: "M" },
               { reasoning: "Air resistance still slows it; gravity still acts.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The throw gives speed to overcome air resistance for longer",
+            finalAnswer: "**(c)** The throw gives speed to overcome air resistance for longer",
             commonErrors: ["Choosing air resistance helps — resistance slows the plane."],
           },
         },

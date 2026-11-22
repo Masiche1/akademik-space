@@ -61,7 +61,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Work", statement: "W = Fd." }],
             steps: [{ reasoning: "Recall.", working: "W = Fd", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** W = Fd",
+            finalAnswer: "**(a)** W = Fd",
             commonErrors: ["Confusing with power P=W/t."],
           },
         },
@@ -191,7 +191,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Power", statement: "P = W/t — same W, less t → more P." }],
             steps: [{ reasoning: "A: 20 W vs B: 10 W.", working: "P_A = \\frac{100}{5} > P_B = \\frac{100}{10}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Machine A",
+            finalAnswer: "**(c)** Machine A",
             commonErrors: ["Thinking same work means same power."],
           },
         },
@@ -398,7 +398,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Efficiency", statement: "Useful/total ×100%." }],
             steps: [{ reasoning: "Recall.", working: "\\eta = \\frac{\\text{useful}}{\\text{total}}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Useful output ÷ total input × 100%",
+            finalAnswer: "**(d)** Useful output ÷ total input × 100%",
             commonErrors: ["Using power not energy."],
           },
         },
@@ -524,11 +524,11 @@ export const lessonp33: Lesson = {
             { id: "b", text: "Modern transformer" },
             { id: "c", text: "Electric motor" },
             { id: "d", text: "LED bulb" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Efficiency", statement: "Filament bulbs waste most energy as heat." }],
             steps: [{ reasoning: "Recall.", working: "\\text{filament} \\Rightarrow \\text{low} \\eta", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Incandescent filament bulb",
+            finalAnswer: "**(a)** Incandescent filament bulb",
             commonErrors: ["Thinking all bulbs have same efficiency."],
           },
         },
@@ -576,11 +576,11 @@ export const lessonp33: Lesson = {
             { id: "b", text: "Decreases" },
             { id: "c", text: "Becomes zero" },
             { id: "d", text: "Increases" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "formula", name: "Efficiency", statement: "Useful = η × input." }],
             steps: [{ reasoning: "Higher η, same input.", working: "\\eta \\uparrow \\Rightarrow \\text{useful} \\uparrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Increases",
+            finalAnswer: "**(d)** Increases",
             commonErrors: ["Confusing efficiency with total energy."],
           },
         },
@@ -637,7 +637,7 @@ export const lessonp33: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Efficiency", statement: "Reduce heat loss → higher efficiency." }],
             steps: [{ reasoning: "Recall.", working: "\\text{insulation} \\Rightarrow \\text{less loss}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Adding insulation to reduce heat loss",
+            finalAnswer: "**(a)** Adding insulation to reduce heat loss",
             commonErrors: ["Thinking higher power means higher efficiency."],
           },
         },

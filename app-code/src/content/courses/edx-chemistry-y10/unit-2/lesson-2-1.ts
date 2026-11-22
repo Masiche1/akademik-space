@@ -63,7 +63,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "$M_r$ of NaOH is $23 + 16 + 1 = 40$. Divide the mass by $M_r$.", working: "\\frac{8.0}{40} = 0.2\\text{ mol}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0.2\\text{ mol}$",
+            finalAnswer: "**(d)** $0.2\\text{ mol}$",
             commonErrors: ["Dividing $M_r$ by the mass to get 5.", "Multiplying mass by $M_r$ to get 320.", "Adding the mass and $M_r$ to get 48."],
             examinerNote: "B1 for 0.2.",
           },
@@ -197,7 +197,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "The ratio C : H : O is $6 : 12 : 6$. Divide by 6 to get $1 : 2 : 1$.", working: "\\text{CH}_2\\text{O}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\text{CH}_2\\text{O}$",
+            finalAnswer: "**(b)** $\\text{CH}_2\\text{O}$",
             commonErrors: ["Choosing the molecular formula (b).", "Choosing (d), which is a simpler ratio but not the simplest."],
             examinerNote: "B1 for $\\text{CH}_2\\text{O}$.",
           },

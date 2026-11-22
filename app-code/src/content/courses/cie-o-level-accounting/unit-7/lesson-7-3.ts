@@ -40,7 +40,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Materiality" },
             { id: "d", text: "Consistency" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Prudence", statement: "Anticipate losses." }], steps: [{ reasoning: "Prudence principle.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Prudence" },
+          markscheme: { principles: [{ kind: "definition", name: "Prudence", statement: "Anticipate losses." }], steps: [{ reasoning: "Prudence principle.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Prudence" },
         },
         {
           id: "olacc-u7-pr-q2", difficulty: "core", totalMarks: 2,
@@ -100,7 +100,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Owners cannot withdraw money" },
             { id: "d", text: "The business is treated separately from its owner" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Business entity", statement: "Separate from owner." }], steps: [{ reasoning: "Owner and business are distinct.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Separate entity" },
+          markscheme: { principles: [{ kind: "definition", name: "Business entity", statement: "Separate from owner." }], steps: [{ reasoning: "Owner and business are distinct.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Separate entity" },
         },
         {
           id: "olacc-u7-pr-q6", difficulty: "core", totalMarks: 2,
@@ -129,7 +129,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Profits to be maximised" },
             { id: "d", text: "The same accounting methods be used year to year" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Consistency", statement: "Same methods." }], steps: [{ reasoning: "Consistency aids comparability.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Same methods" },
+          markscheme: { principles: [{ kind: "definition", name: "Consistency", statement: "Same methods." }], steps: [{ reasoning: "Consistency aids comparability.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Same methods" },
         },
         {
           id: "olacc-u7-pr-q9", difficulty: "challenge", totalMarks: 2,
@@ -174,7 +174,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Prudence" },
             { id: "d", text: "Going concern" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Materiality", statement: "Ignore insignificant." }], steps: [{ reasoning: "$3 is immaterial.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Materiality" },
+          markscheme: { principles: [{ kind: "definition", name: "Materiality", statement: "Ignore insignificant." }], steps: [{ reasoning: "$3 is immaterial.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Materiality" },
         },
         {
           id: "olacc-u7-pr-q13", difficulty: "challenge", totalMarks: 4,
@@ -208,7 +208,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Consistency" },
             { id: "d", text: "Materiality" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Matching", statement: "Expenses ↔ revenue." }], steps: [{ reasoning: "Wages matched to the period's work.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Matching" },
+          markscheme: { principles: [{ kind: "principle", name: "Matching", statement: "Expenses ↔ revenue." }], steps: [{ reasoning: "Wages matched to the period's work.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Matching" },
         },
         {
           id: "olacc-u7-pr-q16", difficulty: "challenge", totalMarks: 9,
@@ -266,7 +266,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Neat handwriting" },
             { id: "d", text: "Showing correct workings and method" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Exam marks", statement: "Method matters." }], steps: [{ reasoning: "Workings earn marks.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Workings/method" },
+          markscheme: { principles: [{ kind: "skill", name: "Exam marks", statement: "Method matters." }], steps: [{ reasoning: "Workings earn marks.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Workings/method" },
         },
         {
           id: "olacc-u7-ex-q2", difficulty: "core", totalMarks: 2,
@@ -351,7 +351,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Checking totals" },
             { id: "d", text: "Mixing up mark-up and margin" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Pitfalls", statement: "Common errors." }], steps: [{ reasoning: "Mark-up/margin confusion costs marks.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Mark-up vs margin" },
+          markscheme: { principles: [{ kind: "skill", name: "Pitfalls", statement: "Common errors." }], steps: [{ reasoning: "Mark-up/margin confusion costs marks.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Mark-up vs margin" },
         },
         {
           id: "olacc-u7-ex-q9", difficulty: "challenge", totalMarks: 2,
@@ -397,7 +397,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Showing clear method and workings" },
             { id: "d", text: "Skipping definitions" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Exam marks", statement: "Method matters." }], steps: [{ reasoning: "Workings earn method marks.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Show workings" },
+          markscheme: { principles: [{ kind: "skill", name: "Exam marks", statement: "Method matters." }], steps: [{ reasoning: "Workings earn method marks.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Show workings" },
         },
         {
           id: "olacc-u7-ex-q13", difficulty: "challenge", totalMarks: 4,
@@ -428,7 +428,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "A T-account with debit and credit columns" },
             { id: "d", text: "A single column of figures" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Format", statement: "T-account." }], steps: [{ reasoning: "Standard ledger format required.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** T-account" },
+          markscheme: { principles: [{ kind: "skill", name: "Format", statement: "T-account." }], steps: [{ reasoning: "Standard ledger format required.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** T-account" },
         },
         {
           id: "olacc-u7-ex-q16", difficulty: "challenge", totalMarks: 9,

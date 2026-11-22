@@ -648,7 +648,7 @@ export const lesson85: Lesson = {
                 text: "qwerty",
               },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

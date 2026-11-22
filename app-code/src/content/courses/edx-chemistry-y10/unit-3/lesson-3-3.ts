@@ -69,7 +69,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$2\\text{NaOH} + \\text{H}_2\\text{SO}_4 \\rightarrow \\text{Na}_2\\text{SO}_4 + 2\\text{H}_2\\text{O}$, so the salt is sodium sulfate.", working: "\\text{Na}_2\\text{SO}_4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Sodium sulfate",
+            finalAnswer: "**(a)** Sodium sulfate",
             commonErrors: ["Choosing sodium sulfide because the names look similar."],
             examinerNote: "B1 for (b).",
           },

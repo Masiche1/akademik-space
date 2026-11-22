@@ -170,7 +170,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Neutrons carry no charge; protons and electrons are charged.", working: "\\text{neutron}=0", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Neutron",
+            finalAnswer: "**(a)** Neutron",
             commonErrors: ["Choosing the nucleus — it is a region containing charged particles, not a particle."],
             examinerNote: "B1 for (b).",
           },
@@ -197,7 +197,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Mass number counts the nucleons: protons plus neutrons.", working: "\\text{mass number}=p+n", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Protons and neutrons",
+            finalAnswer: "**(d)** Protons and neutrons",
             commonErrors: ["Including electrons — they have negligible mass."],
             examinerNote: "B1 for (b).",
           },
@@ -263,7 +263,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "11 electrons fill 2, then 8, leaving 1 for the third shell.", working: "2+8+1=11", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 2, 8, 1",
+            finalAnswer: "**(c)** 2, 8, 1",
             commonErrors: ["Putting 8 electrons in the first shell."],
             examinerNote: "B1 for (a).",
           },
@@ -328,7 +328,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Same protons → same element; different neutrons → isotopes.", working: "\\text{same }Z,\\ \\text{different }N", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Isotopes",
+            finalAnswer: "**(c)** Isotopes",
             commonErrors: ["Choosing ions — those differ in electron number, not neutrons."],
             examinerNote: "B1 for (a).",
           },
@@ -393,7 +393,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Protons and neutrons are heavy; electrons have negligible mass.", working: "\\text{nucleus}=\\text{almost all mass}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The nucleus",
+            finalAnswer: "**(c)** The nucleus",
             commonErrors: ["Choosing electron shells — electrons are very light."],
             examinerNote: "B1 for (b).",
           },
@@ -624,7 +624,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Lithium, sodium and potassium are all in Group 1 with one valence electron.", working: "\\text{Li, Na, K in Group 1}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Lithium",
+            finalAnswer: "**(c)** Lithium",
             commonErrors: ["Choosing calcium — it is in Group 2."],
             examinerNote: "B1 for (a).",
           },
@@ -688,7 +688,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Larger atoms down the group find it harder to gain an electron.", working: "\\text{reactivity decreases}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It decreases",
+            finalAnswer: "**(c)** It decreases",
             commonErrors: ["Applying the Group 1 trend to Group 7."],
             examinerNote: "B1 for (b).",
           },
@@ -745,7 +745,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Non-metal" },
               { id: "d", text: "Noble gas" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -754,7 +754,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The diagonal line contains metalloids such as silicon and germanium.", working: "\\text{metalloid}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Metalloid",
+            finalAnswer: "**(b)** Metalloid",
             commonErrors: ["Choosing non-metal — silicon shows some metallic properties."],
             examinerNote: "B1 for (c).",
           },

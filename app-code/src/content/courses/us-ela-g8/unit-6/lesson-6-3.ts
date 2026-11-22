@@ -118,7 +118,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Describe through actions and details, not statements.",
+              "**(d)**. Describe through actions and details, not statements.",
             commonErrors: ["Thinking it means only dialogue."],
           },
         },
@@ -349,7 +349,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Advance plot, reveal character, control pacing.",
+              "**(c)**. Advance plot, reveal character, control pacing.",
             commonErrors: [
               "Thinking dialogue is just conversation — it has craft functions.",
             ],

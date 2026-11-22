@@ -299,7 +299,7 @@ export const lesson45: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Multiple methods/sources to verify",
+            finalAnswer: "**(d)** Multiple methods/sources to verify",
             commonErrors: ["Confusing with replication."],
           },
         },
@@ -453,7 +453,7 @@ export const lesson45: Lesson = {
             steps: [
               { reasoning: "Surveys measure prevalence across a sample.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Survey/questionnaire",
+            finalAnswer: "**(c)** Survey/questionnaire",
             commonErrors: ["Choosing interviews for a breadth question."],
           },
         },
@@ -484,7 +484,7 @@ export const lesson45: Lesson = {
               { reasoning: "Option A presumes the respondent agrees.", marks: 1, markCode: "M" },
               { reasoning: "Correct option identified.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 'Don't you agree that X is harmful?'",
+            finalAnswer: "**(b)** 'Don't you agree that X is harmful?'",
             commonErrors: ["Missing the presupposition in option A."],
           },
         },
@@ -682,7 +682,7 @@ export const lesson45: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Knowing purpose and freely agreeing",
+            finalAnswer: "**(d)** Knowing purpose and freely agreeing",
             commonErrors: ["Confusing with institutional permission."],
           },
         },
@@ -1042,7 +1042,7 @@ export const lesson45: Lesson = {
             steps: [
               { reasoning: "Consent requires knowledge and voluntariness.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Know purpose and freely agree",
+            finalAnswer: "**(b)** Know purpose and freely agree",
             commonErrors: ["Confusing consent with payment."],
           },
         },

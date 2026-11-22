@@ -112,7 +112,7 @@ export const lesson41: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Respectfully disagree with reasoning.",
+            finalAnswer: "**(a)**. Respectfully disagree with reasoning.",
             commonErrors: [
               "Choosing (a) — 'you're wrong' shuts down discussion.",
             ],
@@ -349,7 +349,7 @@ export const lesson41: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Acknowledge tangent and redirect to topic.",
+            finalAnswer: "**(a)**. Acknowledge tangent and redirect to topic.",
             commonErrors: ["Choosing (a) — tangents waste discussion time."],
           },
         },

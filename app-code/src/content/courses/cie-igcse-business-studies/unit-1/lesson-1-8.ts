@@ -245,7 +245,7 @@ export const lesson258: Lesson = {
               { id: "c", text: "Social" },
               { id: "d", text: "Esteem" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -597,7 +597,7 @@ export const lesson258: Lesson = {
               { id: "c", text: "Choosing suppliers" },
               { id: "d", text: "Setting machine prices" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

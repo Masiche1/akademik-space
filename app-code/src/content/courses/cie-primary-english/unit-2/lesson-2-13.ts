@@ -191,7 +191,7 @@ export const lesson213: Lesson = {
             { id: "b", text: "biger" },
             { id: "c", text: "most big" },
             { id: "d", text: "biggest" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "convention", name: "Superlatives", statement: "Add -est for three or more." }],
             steps: [{ reasoning: "big → biggest (double g + est).", marks: 1, markCode: "AO1" }],

@@ -64,7 +64,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Speed is squared: $2^2=4$, so the kinetic energy is four times greater.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It becomes four times greater.",
+            finalAnswer: "**(c)** It becomes four times greater.",
             commonErrors: ["Choosing 'doubles' because KE is wrongly thought to be proportional to speed."],
             examinerNote: "B1 for four times greater.",
           },
@@ -191,7 +191,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The hotter object has particles with higher average kinetic energy, so net energy flows to the cooler object.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** From the hotter object to the cooler object.",
+            finalAnswer: "**(d)** From the hotter object to the cooler object.",
             commonErrors: ["Thinking that 'cold' flows into a warm object."],
             examinerNote: "B1 for hotter to cooler.",
           },

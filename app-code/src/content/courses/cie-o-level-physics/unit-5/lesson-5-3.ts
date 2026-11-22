@@ -57,7 +57,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Pupil", statement: "Controls light entry." }],
             steps: [{ reasoning: "Recall.", working: "\\text{iris/pupil}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Iris/pupil",
+            finalAnswer: "**(d)** Iris/pupil",
             commonErrors: ["Confusing with lens (focus)."],
           },
         },
@@ -133,11 +133,11 @@ export const lessonp53: Lesson = {
             { id: "b", text: "Lens" },
             { id: "c", text: "Iris" },
             { id: "d", text: "Cornea" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Retina", statement: "Light-sensitive layer at back of eye." }],
             steps: [{ reasoning: "Recall.", working: "\\text{retina}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Retina",
+            finalAnswer: "**(a)** Retina",
             commonErrors: ["Confusing retina with the lens which focuses light."],
           },
         },
@@ -151,11 +151,11 @@ export const lessonp53: Lesson = {
             { id: "b", text: "lens" },
             { id: "c", text: "retina" },
             { id: "d", text: "cornea" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Cornea", statement: "Transparent front of eye — first refraction." }],
             steps: [{ reasoning: "Recall light path.", working: "\\text{cornea first}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Cornea",
+            finalAnswer: "**(d)** Cornea",
             commonErrors: ["Saying pupil — pupil is the hole, cornea is the surface."],
           },
         },
@@ -206,7 +206,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Fovea", statement: "Central retina — sharpest vision." }],
             steps: [{ reasoning: "Recall.", working: "\\text{fovea = sharp central vision}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The central part of the retina where vision is sharpest",
+            finalAnswer: "**(c)** The central part of the retina where vision is sharpest",
             commonErrors: ["Confusing fovea with pupil or iris."],
           },
         },
@@ -246,7 +246,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Accommodation", statement: "Ciliary muscles change lens shape for focusing." }],
             steps: [{ reasoning: "Recall.", working: "\\text{lens shape change}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The changing shape of the lens by the ciliary muscles",
+            finalAnswer: "**(c)** The changing shape of the lens by the ciliary muscles",
             commonErrors: ["Confusing with pupil adjustment."],
           },
         },
@@ -313,7 +313,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Light path", statement: "Cornea → pupil → lens → retina." }],
             steps: [{ reasoning: "Recall.", working: "\\text{cornea} \\rightarrow \\text{pupil} \\rightarrow \\text{lens} \\rightarrow \\text{retina}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Cornea → pupil → lens → retina",
+            finalAnswer: "**(a)** Cornea → pupil → lens → retina",
             commonErrors: ["Reversing the path direction."],
           },
         },
@@ -375,7 +375,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Myopia", statement: "Image before retina." }],
             steps: [{ reasoning: "Recall.", working: "\\text{before retina}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Before retina",
+            finalAnswer: "**(d)** Before retina",
             commonErrors: ["Confusing with long sight."],
           },
         },
@@ -455,7 +455,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Myopia", statement: "Short sightedness = myopia." }],
             steps: [{ reasoning: "Recall.", working: "\\text{myopia}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Myopia",
+            finalAnswer: "**(a)** Myopia",
             commonErrors: ["Confusing myopia with hypermetropia."],
           },
         },
@@ -473,7 +473,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Correction", statement: "Convex lens for long sightedness." }],
             steps: [{ reasoning: "Recall.", working: "\\text{convex for hyperopia}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Convex",
+            finalAnswer: "**(c)** Convex",
             commonErrors: ["Using concave — that is for short sight."],
           },
         },
@@ -524,7 +524,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Hypermetropia", statement: "Image would form behind retina." }],
             steps: [{ reasoning: "Recall.", working: "\\text{behind retina}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Behind the retina",
+            finalAnswer: "**(a)** Behind the retina",
             commonErrors: ["Confusing with short sightedness."],
           },
         },
@@ -630,7 +630,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Correction", statement: "Concave lens for short sightedness." }],
             steps: [{ reasoning: "Recall.", working: "\\text{concave for myopia}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Short sightedness",
+            finalAnswer: "**(a)** Short sightedness",
             commonErrors: ["Swapping with convex correction."],
           },
         },

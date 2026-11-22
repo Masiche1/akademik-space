@@ -70,7 +70,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Upper left to lower right means as temperature increases, sales decrease.", working: "\\text{negative correlation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Negative correlation",
+            finalAnswer: "**(a)** Negative correlation",
             commonErrors: ["Confusing positive and negative correlation."],
             examinerNote: "B1 for (b).",
           },
@@ -152,15 +152,15 @@ export const lesson33: Lesson = {
           totalMarks: 1,
           stem: "What does a positive correlation on a scatter graph mean?",
           response: { type: "mcq", choices: [ { id: "a", text: "The variables are unrelated" }, { id: "b", text: "One variable causes the other" }, { id: "c", text: "As one variable increases, the other tends to decrease" }, { id: "d", text: "As one variable increases, the other tends to increase" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Positive correlation", statement: "Both variables increase together." }], steps: [{ reasoning: "Positive correlation means values rise together.", working: "increase together", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Variables increase together", commonErrors: ["Confusing correlation with causation."], examinerNote: "B1 for (b)." },
+          markscheme: { principles: [{ kind: "definition", name: "Positive correlation", statement: "Both variables increase together." }], steps: [{ reasoning: "Positive correlation means values rise together.", working: "increase together", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Variables increase together", commonErrors: ["Confusing correlation with causation."], examinerNote: "B1 for (b)." },
         },
         {
           id: "mypm3-u3-scatter-graphs-q6",
           difficulty: "foundation",
           totalMarks: 1,
           stem: "What should a line of best fit do on a scatter graph?",
-          response: { type: "mcq", choices: [ { id: "a", text: "Balance the points on both sides along its length" }, { id: "b", text: "Pass through as many points as possible" }, { id: "c", text: "Avoid all outliers" }, { id: "d", text: "Join the first and last points only" } ], aorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Line of best fit", statement: "It summarises the trend with points balanced above and below." }], steps: [{ reasoning: "A good line balances the scatter of points.", working: "balanced trend", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Balance the points on both sides", commonErrors: ["Forcing the line through every point."], examinerNote: "B1 for (c)." },
+          response: { type: "mcq", choices: [ { id: "a", text: "Balance the points on both sides along its length" }, { id: "b", text: "Pass through as many points as possible" }, { id: "c", text: "Avoid all outliers" }, { id: "d", text: "Join the first and last points only" } ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "principle", name: "Line of best fit", statement: "It summarises the trend with points balanced above and below." }], steps: [{ reasoning: "A good line balances the scatter of points.", working: "balanced trend", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Balance the points on both sides", commonErrors: ["Forcing the line through every point."], examinerNote: "B1 for (c)." },
         },
         {
           id: "mypm3-u3-scatter-graphs-q7",
@@ -168,7 +168,7 @@ export const lesson33: Lesson = {
           totalMarks: 1,
           stem: "Which estimate is generally more reliable from a line of best fit: interpolation or extrapolation?",
           response: { type: "mcq", choices: [ { id: "a", text: "Neither is reliable" }, { id: "b", text: "Extrapolation, because it extends the trend" }, { id: "c", text: "Interpolation, because it lies within the data range" }, { id: "d", text: "Both are equally reliable" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Interpolation and extrapolation", statement: "Interpolation within the range is safer than extending beyond it." }], steps: [{ reasoning: "Estimates inside the observed range rely on nearby data.", working: "within range", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Interpolation", commonErrors: ["Treating extrapolation as equally safe."], examinerNote: "B1 for (b)." },
+          markscheme: { principles: [{ kind: "principle", name: "Interpolation and extrapolation", statement: "Interpolation within the range is safer than extending beyond it." }], steps: [{ reasoning: "Estimates inside the observed range rely on nearby data.", working: "within range", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Interpolation", commonErrors: ["Treating extrapolation as equally safe."], examinerNote: "B1 for (b)." },
         },
         {
           id: "mypm3-u3-scatter-graphs-q8",
@@ -176,7 +176,7 @@ export const lesson33: Lesson = {
           totalMarks: 1,
           stem: "What is an outlier on a scatter graph?",
           response: { type: "mcq", choices: [ { id: "a", text: "The highest value on the graph" }, { id: "b", text: "The origin" }, { id: "c", text: "A point lying close to the line of best fit" }, { id: "d", text: "A point far from the general pattern" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Outlier", statement: "A point that does not follow the general pattern." }], steps: [{ reasoning: "Outliers stand away from the trend.", working: "far from pattern", marks: 1, markCode: "B" }], finalAnswer: "**(b)** A point far from the general pattern", commonErrors: ["Calling any high value an outlier."], examinerNote: "B1 for (b)." },
+          markscheme: { principles: [{ kind: "definition", name: "Outlier", statement: "A point that does not follow the general pattern." }], steps: [{ reasoning: "Outliers stand away from the trend.", working: "far from pattern", marks: 1, markCode: "B" }], finalAnswer: "**(d)** A point far from the general pattern", commonErrors: ["Calling any high value an outlier."], examinerNote: "B1 for (b)." },
         },
         {
           id: "mypm3-u3-scatter-graphs-q9",
@@ -300,7 +300,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Add the probabilities of rolling 2 and rolling 5.", working: "P=\\frac{1}{6}+\\frac{1}{6}=\\frac{2}{6}=\\frac{1}{3}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\frac{1}{3}$",
+            finalAnswer: "**(d)** $\\frac{1}{3}$",
             commonErrors: ["Multiplying instead of adding."],
             examinerNote: "B1 for (b).",
           },
@@ -383,8 +383,8 @@ export const lesson33: Lesson = {
           difficulty: "foundation",
           totalMarks: 1,
           stem: "A fair die is rolled. What is the probability of an even number?",
-          response: { type: "mcq", choices: [ { id: "a", text: "$\\frac{2}{3}$" }, { id: "b", text: "$\\frac{1}{3}$" }, { id: "c", text: "$\\frac{1}{6}$" }, { id: "d", text: "$\\frac{1}{2}$" } ], dorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "formula", name: "Probability", statement: "$P(\\text{event})=\\frac{\\text{favourable outcomes}}{\\text{total outcomes}}$." }], steps: [{ reasoning: "Even numbers are 2, 4, 6: three out of six.", working: "\\frac{3}{6}=\\frac{1}{2}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** $\\frac{1}{2}$", commonErrors: ["Counting only one even number."], examinerNote: "B1 for (c)." },
+          response: { type: "mcq", choices: [ { id: "a", text: "$\\frac{2}{3}$" }, { id: "b", text: "$\\frac{1}{3}$" }, { id: "c", text: "$\\frac{1}{6}$" }, { id: "d", text: "$\\frac{1}{2}$" } ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "formula", name: "Probability", statement: "$P(\\text{event})=\\frac{\\text{favourable outcomes}}{\\text{total outcomes}}$." }], steps: [{ reasoning: "Even numbers are 2, 4, 6: three out of six.", working: "\\frac{3}{6}=\\frac{1}{2}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** $\\frac{1}{2}$", commonErrors: ["Counting only one even number."], examinerNote: "B1 for (c)." },
         },
         {
           id: "mypm3-u3-probability-q6",
@@ -392,7 +392,7 @@ export const lesson33: Lesson = {
           totalMarks: 1,
           stem: "Events $A$ and $B$ are mutually exclusive. Which formula gives $P(A \\text{ or } B)$?",
           response: { type: "mcq", choices: [ { id: "a", text: "$P(A)+P(B)$" }, { id: "b", text: "$P(A)\\times P(B)$" }, { id: "c", text: "$P(A)-P(B)$" }, { id: "d", text: "$1-P(A)P(B)$" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Mutually exclusive events", statement: "They cannot happen together, so probabilities add." }], steps: [{ reasoning: "Mutually exclusive events cannot overlap.", working: "P(A)+P(B)", marks: 1, markCode: "B" }], finalAnswer: "**(b)** $P(A)+P(B)$", commonErrors: ["Multiplying probabilities of mutually exclusive events."], examinerNote: "B1 for (b)." },
+          markscheme: { principles: [{ kind: "definition", name: "Mutually exclusive events", statement: "They cannot happen together, so probabilities add." }], steps: [{ reasoning: "Mutually exclusive events cannot overlap.", working: "P(A)+P(B)", marks: 1, markCode: "B" }], finalAnswer: "**(a)** $P(A)+P(B)$", commonErrors: ["Multiplying probabilities of mutually exclusive events."], examinerNote: "B1 for (b)." },
         },
         {
           id: "mypm3-u3-probability-q7",
@@ -400,7 +400,7 @@ export const lesson33: Lesson = {
           totalMarks: 1,
           stem: "Events $A$ and $B$ are independent. Which formula gives $P(A \\text{ and } B)$?",
           response: { type: "mcq", choices: [ { id: "a", text: "$P(A)+P(B)$" }, { id: "b", text: "$\\frac{P(A)}{P(B)}$" }, { id: "c", text: "$P(A)-P(B)$" }, { id: "d", text: "$P(A)\\times P(B)$" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "formula", name: "Independent events", statement: "$P(A\\text{ and }B)=P(A)\\times P(B)$." }], steps: [{ reasoning: "Independence means one outcome does not affect the other.", working: "P(A)\\times P(B)", marks: 1, markCode: "B" }], finalAnswer: "**(b)** $P(A)\\times P(B)$", commonErrors: ["Adding instead of multiplying."], examinerNote: "B1 for (b)." },
+          markscheme: { principles: [{ kind: "formula", name: "Independent events", statement: "$P(A\\text{ and }B)=P(A)\\times P(B)$." }], steps: [{ reasoning: "Independence means one outcome does not affect the other.", working: "P(A)\\times P(B)", marks: 1, markCode: "B" }], finalAnswer: "**(d)** $P(A)\\times P(B)$", commonErrors: ["Adding instead of multiplying."], examinerNote: "B1 for (b)." },
         },
         {
           id: "mypm3-u3-probability-q8",
@@ -408,7 +408,7 @@ export const lesson33: Lesson = {
           totalMarks: 1,
           stem: "On a tree diagram for two events, how do you find the probability of one combined outcome?",
           response: { type: "mcq", choices: [ { id: "a", text: "Subtract the smaller probability" }, { id: "b", text: "Add all branch probabilities" }, { id: "c", text: "Multiply along the branches" }, { id: "d", text: "Average the branch probabilities" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Tree diagrams", statement: "Multiply probabilities along branches for combined outcomes." }], steps: [{ reasoning: "Each path is a product of conditional probabilities.", working: "multiply along branches", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Multiply along the branches", commonErrors: ["Adding branch probabilities for a single outcome."], examinerNote: "B1 for (b)." },
+          markscheme: { principles: [{ kind: "principle", name: "Tree diagrams", statement: "Multiply probabilities along branches for combined outcomes." }], steps: [{ reasoning: "Each path is a product of conditional probabilities.", working: "multiply along branches", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Multiply along the branches", commonErrors: ["Adding branch probabilities for a single outcome."], examinerNote: "B1 for (b)." },
         },
         {
           id: "mypm3-u3-probability-q9",
@@ -416,7 +416,7 @@ export const lesson33: Lesson = {
           totalMarks: 1,
           stem: "A ball is drawn from a bag and not replaced. Why does the second draw have different probabilities?",
           response: { type: "mcq", choices: [ { id: "a", text: "The first draw always gives red" }, { id: "b", text: "Probability does not change" }, { id: "c", text: "The total number of balls has changed" }, { id: "d", text: "The bag becomes biased" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Without replacement", statement: "Removing an item changes both favourable and total outcomes." }], steps: [{ reasoning: "The denominator decreases by one after the first draw.", working: "total changes", marks: 1, markCode: "B" }], finalAnswer: "**(a)** The total number of balls has changed", commonErrors: ["Using the same probabilities for both draws."], examinerNote: "B1 for (a)." },
+          markscheme: { principles: [{ kind: "principle", name: "Without replacement", statement: "Removing an item changes both favourable and total outcomes." }], steps: [{ reasoning: "The denominator decreases by one after the first draw.", working: "total changes", marks: 1, markCode: "B" }], finalAnswer: "**(c)** The total number of balls has changed", commonErrors: ["Using the same probabilities for both draws."], examinerNote: "B1 for (a)." },
         },
         {
           id: "mypm3-u3-probability-q10",

@@ -105,7 +105,7 @@ export const lesson152: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Community action can preserve what matters.",
+            finalAnswer: "**(a)**. Community action can preserve what matters.",
             commonErrors: [
               "Choosing (a) — too surface-level; misses the community theme.",
             ],
@@ -337,7 +337,7 @@ export const lesson152: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Skim all questions first.",
+            finalAnswer: "**(d)**. Skim all questions first.",
             commonErrors: [
               "Choosing (a) — diving in without overview wastes time.",
             ],

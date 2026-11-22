@@ -230,7 +230,7 @@ export const lesson29: Lesson = {
             steps: [
               { reasoning: "Digital footprint = all the data/trace you leave when using the internet.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** The trail of data you leave online",
+            finalAnswer: "**(d)** The trail of data you leave online",
           },
         },
         {
@@ -315,7 +315,7 @@ export const lesson29: Lesson = {
               { reasoning: "Deleted content can persist on servers, backups, other devices, screenshots.", marks: 1, markCode: "M" },
               { reasoning: "Once shared, you cannot fully control copies.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Copies persist elsewhere",
+            finalAnswer: "**(d)** Copies persist elsewhere",
           },
         },
         {
@@ -381,7 +381,7 @@ export const lesson29: Lesson = {
               { reasoning: "Privacy settings control who sees you; thinking before posting limits bad content.", marks: 1, markCode: "M" },
               { reasoning: "Public posting, shared passwords and hoarding content all increase risk.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Review privacy settings and think before posting",
+            finalAnswer: "**(c)** Review privacy settings and think before posting",
           },
         },
         {

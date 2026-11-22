@@ -68,7 +68,7 @@ export const lesson313: Lesson = {
             steps: [
               { reasoning: "GDPR = EU data law.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** General Data Protection Regulation",
+            finalAnswer: "**(b)** General Data Protection Regulation",
             commonErrors: ["Wrong expansion."],
           },
         },
@@ -262,7 +262,7 @@ export const lesson313: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Unauthorised access",
+            finalAnswer: "**(c)** Unauthorised access",
             commonErrors: ["Legal use confused."],
           },
         },

@@ -106,7 +106,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Primary = original research; secondary = interpretation.",
+              "**(d)**. Primary = original research; secondary = interpretation.",
             commonErrors: ["Confusing source types."],
           },
         },
@@ -313,7 +313,7 @@ export const lesson53: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. How information is emphasized/omitted.",
+            finalAnswer: "**(d)**. How information is emphasized/omitted.",
             commonErrors: ["Confusing framing with lying."],
           },
         },
@@ -453,7 +453,7 @@ export const lesson53: Lesson = {
       ],
     },
     {
-      id: "ela10-u5-synthesis",
+      id: "ela10-u5-synthesis-r2",
       title: "Research Synthesis and Writing About Sources",
       skill:
         "Synthesize information from multiple sources into coherent research writing.",
@@ -487,7 +487,7 @@ export const lesson53: Lesson = {
       },
       questions: [
         {
-          id: "ela10-u5-synthesis-q1",
+          id: "ela10-u5-synthesis-q1-r2",
           difficulty: "foundation",
           totalMarks: 1,
           extract: SOURCE,
@@ -523,12 +523,12 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Summary = restate; synthesis = combine into new understanding.",
+              "**(d)**. Summary = restate; synthesis = combine into new understanding.",
             commonErrors: ["Confusing the two."],
           },
         },
         {
-          id: "ela10-u5-synthesis-q2",
+          id: "ela10-u5-synthesis-q2-r2",
           difficulty: "core",
           totalMarks: 3,
           extract: SOURCE,
@@ -571,7 +571,7 @@ export const lesson53: Lesson = {
           },
         },
         {
-          id: "ela10-u5-synthesis-q3",
+          id: "ela10-u5-synthesis-q3-r2",
           difficulty: "challenge",
           totalMarks: 8,
           extract: SOURCE,
@@ -620,7 +620,7 @@ export const lesson53: Lesson = {
           },
         },
         {
-          id: "ela10-u5-synthesis-q4",
+          id: "ela10-u5-synthesis-q4-r2",
           difficulty: "core",
           totalMarks: 4,
           extract: SOURCE,
@@ -666,7 +666,7 @@ export const lesson53: Lesson = {
       ],
     },
     {
-      id: "ela10-u5-integrated",
+      id: "ela10-u5-integrated-r2",
       title: "Integrated Informational Text Analysis Practice",
       skill:
         "Apply source evaluation, bias detection, and synthesis in comprehensive informational text practice.",
@@ -701,7 +701,7 @@ export const lesson53: Lesson = {
       },
       questions: [
         {
-          id: "ela10-u5-integrated-q1",
+          id: "ela10-u5-integrated-q1-r2",
           difficulty: "foundation",
           totalMarks: 1,
           extract: SOURCE,
@@ -737,12 +737,12 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Source evaluation + bias detection + synthesis.",
+              "**(c)**. Source evaluation + bias detection + synthesis.",
             commonErrors: ["Thinking one skill is enough."],
           },
         },
         {
-          id: "ela10-u5-integrated-q2",
+          id: "ela10-u5-integrated-q2-r2",
           difficulty: "core",
           totalMarks: 3,
           extract: SOURCE,
@@ -787,7 +787,7 @@ export const lesson53: Lesson = {
           },
         },
         {
-          id: "ela10-u5-integrated-q3",
+          id: "ela10-u5-integrated-q3-r2",
           difficulty: "challenge",
           totalMarks: 8,
           extract: SOURCE,
@@ -836,7 +836,7 @@ export const lesson53: Lesson = {
           },
         },
         {
-          id: "ela10-u5-integrated-q4",
+          id: "ela10-u5-integrated-q4-r2",
           difficulty: "core",
           totalMarks: 4,
           extract: SOURCE,

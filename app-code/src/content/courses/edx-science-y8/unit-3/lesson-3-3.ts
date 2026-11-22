@@ -68,7 +68,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Charge is not used up. The same current flows through every component in the single loop.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The current is the same at every point in the circuit.",
+            finalAnswer: "**(a)** The current is the same at every point in the circuit.",
             commonErrors: ["Thinking current is used up by components; it is energy that is transferred.", "Applying the parallel rule that current splits."],
             examinerNote: "B1 for the same current everywhere.",
           },
@@ -198,7 +198,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Ampere" },
               { id: "d", text: "Watt" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -207,7 +207,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Resistance $R=\\dfrac{V}{I}$ is measured in ohms.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Ohm",
+            finalAnswer: "**(b)** Ohm",
             commonErrors: ["Choosing volt, the unit of potential difference.", "Choosing ampere, the unit of current."],
             examinerNote: "B1 for ohm only.",
           },

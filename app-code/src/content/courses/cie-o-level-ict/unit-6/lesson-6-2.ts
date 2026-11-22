@@ -99,7 +99,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Sorting, calculating and analysing data" },
             { id: "d", text: "Printing data" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Data processing", statement: "Sort/calculate/analyse." }], steps: [{ reasoning: "Processing analyses collected data.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sort/calculate/analyse" },
+          markscheme: { principles: [{ kind: "definition", name: "Data processing", statement: "Sort/calculate/analyse." }], steps: [{ reasoning: "Processing analyses collected data.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Sort/calculate/analyse" },
         },
         {
           id: "olict-u6-dh-q6", difficulty: "core", totalMarks: 2,
@@ -161,7 +161,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Fetching stored data when needed" },
             { id: "d", text: "Deleting old files" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Retrieval", statement: "Fetch data." }], steps: [{ reasoning: "Retrieval fetches stored data.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Fetching stored data" },
+          markscheme: { principles: [{ kind: "definition", name: "Retrieval", statement: "Fetch data." }], steps: [{ reasoning: "Retrieval fetches stored data.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Fetching stored data" },
         },
         {
           id: "olict-u6-dh-q12", difficulty: "core", totalMarks: 2,
@@ -192,7 +192,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Deleting files" },
             { id: "d", text: "Printing the screen" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Verification", statement: "Accuracy check." }], steps: [{ reasoning: "Verification re-checks entry accuracy.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Double entry or visual check" },
+          markscheme: { principles: [{ kind: "definition", name: "Verification", statement: "Accuracy check." }], steps: [{ reasoning: "Verification re-checks entry accuracy.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Double entry or visual check" },
         },
         {
           id: "olict-u6-dh-q15", difficulty: "core", totalMarks: 2,
@@ -299,7 +299,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Files from deletion" },
             { id: "d", text: "Networks from hackers" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Copyright", statement: "Protects works." }], steps: [{ reasoning: "Copyright guards creative works.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Protects creators' works" },
+          markscheme: { principles: [{ kind: "definition", name: "Copyright", statement: "Protects works." }], steps: [{ reasoning: "Copyright guards creative works.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Protects creators' works" },
         },
         {
           id: "olict-u6-et-q6", difficulty: "core", totalMarks: 2,
@@ -319,7 +319,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Saving electricity" },
             { id: "d", text: "Constant surveillance of individuals" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Surveillance", statement: "Privacy invasion." }], steps: [{ reasoning: "CCTV raises surveillance concerns.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Constant surveillance" },
+          markscheme: { principles: [{ kind: "principle", name: "Surveillance", statement: "Privacy invasion." }], steps: [{ reasoning: "CCTV raises surveillance concerns.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Constant surveillance" },
         },
         {
           id: "olict-u6-et-q8", difficulty: "foundation", totalMarks: 1,
@@ -361,7 +361,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Computers and cables" },
             { id: "d", text: "Network routers" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Intellectual property", statement: "Creative works." }], steps: [{ reasoning: "Creative works are IP.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Software, music, images, text" },
+          markscheme: { principles: [{ kind: "definition", name: "Intellectual property", statement: "Creative works." }], steps: [{ reasoning: "Creative works are IP.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Software, music, images, text" },
         },
         {
           id: "olict-u6-et-q12", difficulty: "challenge", totalMarks: 2,

@@ -127,7 +127,7 @@ export const lesson61: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. An argument needs reasons, evidence, and counterargument response.",
+              "**(d)**. An argument needs reasons, evidence, and counterargument response.",
             commonErrors: [
               "Thinking an argument is just 'my opinion' — it requires support and engagement.",
             ],

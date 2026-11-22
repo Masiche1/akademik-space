@@ -94,7 +94,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "3 × 4 = 12 children.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 12",
+            finalAnswer: "**(a)** 12",
             commonErrors: ["Adding 3 + 4 = 7 instead of multiplying."],
           },
         },

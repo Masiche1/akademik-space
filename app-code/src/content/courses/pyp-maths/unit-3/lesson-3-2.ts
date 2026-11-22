@@ -57,7 +57,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "You will eat lunch today" },
               { id: "d", text: "You might win a prize" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -66,7 +66,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "A dog flying to the moon by itself cannot happen.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** A dog will fly to the moon by itself",
+            finalAnswer: "**(b)** A dog will fly to the moon by itself",
             commonErrors: ["Choosing 'rain tomorrow' — rain is possible, just not certain."],
           },
         },
@@ -93,7 +93,7 @@ export const lesson32: Lesson = {
               { reasoning: "Blue is only $1$ of $4$ equal sections — a small chance.", marks: 1, markCode: "M" },
               { reasoning: "Small chance but possible = unlikely.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Unlikely",
+            finalAnswer: "**(d)** Unlikely",
             commonErrors: ["Choosing 'impossible' — blue can land, it is just rare."],
           },
         },
@@ -158,7 +158,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "You might get a new pencil" },
               { id: "d", text: "A fish will fly out of the water by itself" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -167,7 +167,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "A fish flying out of water by itself cannot happen.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** A fish will fly out of the water by itself",
+            finalAnswer: "**(d)** A fish will fly out of the water by itself",
             commonErrors: ["Choosing 'rain this afternoon' — rain is possible."],
           },
         },
@@ -210,7 +210,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Everyone sleeps at night — it is certain (barring illness).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** You will sleep tonight",
+            finalAnswer: "**(c)** You will sleep tonight",
             commonErrors: ["Choosing 'snow tomorrow' — possible but not certain."],
           },
         },
@@ -263,7 +263,7 @@ export const lesson32: Lesson = {
               { reasoning: "Blue is $1$ out of $10$ counters — possible but rare.", marks: 1, markCode: "M" },
               { reasoning: "Answer: unlikely.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Unlikely",
+            finalAnswer: "**(c)** Unlikely",
             commonErrors: ["Choosing 'impossible' — there IS a blue counter, so it can be picked."],
           },
         },
@@ -362,7 +362,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Red" },
               { id: "d", text: "Purple" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -373,7 +373,7 @@ export const lesson32: Lesson = {
               { reasoning: "More counters = bigger chance, so red is most likely.", marks: 1, markCode: "M" },
               { reasoning: "Answer: red.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(d)** Red",
+            finalAnswer: "**(c)** Red",
             commonErrors: ["Picking purple — only $1$ counter, very unlikely."],
           },
         },
@@ -421,7 +421,7 @@ export const lesson32: Lesson = {
               { reasoning: "Most counters = biggest chance; fewest = smallest chance.", marks: 1, markCode: "M" },
               { reasoning: "Answer: red most likely, green least likely.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Red most, green least",
+            finalAnswer: "**(b)** Red most, green least",
             commonErrors: ["Choosing (c) — counts differ, so chances differ."],
           },
         },
@@ -566,7 +566,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Red covers half the spinner — even chance (half and half with not-red).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Even chance",
+            finalAnswer: "**(a)** Even chance",
             commonErrors: ["Choosing 'likely' — red is exactly half, not more than half."],
           },
         },
@@ -609,7 +609,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Small samples vary; large samples settle near expectation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Closer to expected chance",
+            finalAnswer: "**(a)** Closer to expected chance",
             commonErrors: ["Thinking one lucky streak proves the spinner is biased."],
           },
         },
@@ -671,7 +671,7 @@ export const lesson32: Lesson = {
               { reasoning: "Even chance means $5$-$5$ is expected but not guaranteed.", marks: 1, markCode: "M" },
               { reasoning: "$7$-$3$ is within normal variation for $10$ flips — not surprising.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** No — normal variation",
+            finalAnswer: "**(c)** No — normal variation",
             commonErrors: ["Declaring the coin unfair from just $10$ flips."],
           },
         },

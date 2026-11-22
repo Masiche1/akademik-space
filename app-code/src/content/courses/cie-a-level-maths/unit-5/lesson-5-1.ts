@@ -345,7 +345,7 @@ export const lesson151: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** $y = 2x + 7$",
+            finalAnswer: "**(d)** $y = 2x + 7$",
             commonErrors: ["Matching the intercept instead of the gradient."],
           },
         },
@@ -429,7 +429,7 @@ export const lesson151: Lesson = {
             steps: [
               { reasoning: "$m = 3 \\Rightarrow m_\\perp = -\\frac{1}{3}$.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $-\\frac{1}{3}$",
+            finalAnswer: "**(a)** $-\\frac{1}{3}$",
             commonErrors: ["Using $-m$ instead of $-1/m$."],
           },
         },
@@ -512,7 +512,7 @@ export const lesson151: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** $y = -2$",
+            finalAnswer: "**(b)** $y = -2$",
             commonErrors: ["Writing $x=4$, which is vertical."],
           },
         },
@@ -887,7 +887,7 @@ export const lesson151: Lesson = {
             steps: [
               { reasoning: "$r = \\sqrt{36} = 6$.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $6$",
+            finalAnswer: "**(d)** $6$",
             commonErrors: ["Radius = 36 instead of 6."],
           },
         },
@@ -978,7 +978,7 @@ export const lesson151: Lesson = {
             steps: [
               { reasoning: "Centre $(-g,-f)$.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $(-g, -f)$",
+            finalAnswer: "**(d)** $(-g, -f)$",
             commonErrors: ["Forgetting the negative signs."],
           },
         },
@@ -1181,7 +1181,7 @@ export const lesson151: Lesson = {
             steps: [
               { reasoning: "$2^2+3^2 = 4+9 = 13$.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $(2, 3)$",
+            finalAnswer: "**(c)** $(2, 3)$",
             commonErrors: ["Not checking all candidates."],
           },
         },

@@ -73,7 +73,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "7/4 = 1 whole + 3/4.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 1 3/4",
+            finalAnswer: "**(b)** 1 3/4",
             commonErrors: [
               "Writing 1 4/3 — remainder can't exceed denominator.",
             ],
@@ -276,7 +276,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Divide by denominator.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 9",
+            finalAnswer: "**(a)** 9",
             commonErrors: ["Multiplying instead of dividing."],
           },
         },

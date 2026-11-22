@@ -193,7 +193,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "At the lower end of each class" },
               { id: "d", text: "At the upper end of each class" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -202,7 +202,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "The midpoint represents all the values in the class, so points are plotted there.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** At the midpoint of each class",
+            finalAnswer: "**(a)** At the midpoint of each class",
             commonErrors: ["Plotting at the upper boundary, which is used for cumulative frequency graphs, not polygons."],
           },
         },

@@ -63,7 +63,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Recall the movement.", working: "\\text{contracts, flattens}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Contracts and flattens",
+            finalAnswer: "**(d)** Contracts and flattens",
             commonErrors: ["Choosing 'relaxes' — that's expiration."],
           },
         },
@@ -158,7 +158,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Recall the movement.", working: "\\text{relax, dome}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Relaxes and domes upward",
+            finalAnswer: "**(b)** Relaxes and domes upward",
             commonErrors: ["Choosing 'contracts' — that's inspiration."],
           },
         },
@@ -223,7 +223,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Recall the gradient.", working: "\\text{volume} \\uparrow \\to \\text{pressure} \\downarrow \\to \\text{air in}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Thoracic volume increases so the pressure decreases",
+            finalAnswer: "**(b)** Thoracic volume increases so the pressure decreases",
             commonErrors: ["Choosing 'pressure increases' — that would push air out."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Recall the muscles.", working: "\\text{external intercostals}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** External intercostal muscles",
+            finalAnswer: "**(c)** External intercostal muscles",
             commonErrors: ["Choosing abdominal muscles — they assist forced expiration, not inspiration."],
           },
         },
@@ -336,7 +336,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Recall the change.", working: "\\text{pressure} \\downarrow", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Decreases",
+            finalAnswer: "**(d)** Decreases",
             commonErrors: ["Choosing 'increases' — that describes expiration."],
           },
         },
@@ -463,7 +463,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Recall the composition change.", working: "\\text{CO}_2 \\uparrow", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Carbon dioxide",
+            finalAnswer: "**(b)** Carbon dioxide",
             commonErrors: ["Choosing nitrogen — it's roughly unchanged."],
           },
         },
@@ -557,7 +557,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Recall the adaptation.", working: "\\text{many small sacs} \\to \\text{large area}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Millions of tiny air sacs",
+            finalAnswer: "**(c)** Millions of tiny air sacs",
             commonErrors: ["Choosing thick walls — walls are one cell thick."],
           },
         },
@@ -689,7 +689,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "Recall the reason.", working: "\\text{N}_2 \\text{ not exchanged}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Nitrogen is not used in respiration or exchanged",
+            finalAnswer: "**(c)** Nitrogen is not used in respiration or exchanged",
             commonErrors: ["Thinking nitrogen is absorbed by blood — it is essentially inert here."],
           },
         },

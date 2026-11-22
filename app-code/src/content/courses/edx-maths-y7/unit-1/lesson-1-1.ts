@@ -91,7 +91,7 @@ export const lesson11: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** $-6$",
+            finalAnswer: "**(a)** $-6$",
             commonErrors: [
               "Choosing $-2$ — thinking closer to zero is smaller.",
             ],

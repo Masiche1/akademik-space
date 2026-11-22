@@ -397,7 +397,7 @@ export const lesson393: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** people, planet and profit",
+            finalAnswer: "**(d)** people, planet and profit",
           },
         },
         {
@@ -640,7 +640,7 @@ export const lesson393: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Deontology",
+            finalAnswer: "**(d)** Deontology",
           },
         },
         {
@@ -728,7 +728,7 @@ export const lesson393: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** enhanced reputation and customer loyalty",
+            finalAnswer: "**(d)** enhanced reputation and customer loyalty",
           },
         },
         {

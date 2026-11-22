@@ -74,7 +74,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Check each: (b) has 4 H and 2 O on both sides.", working: "4H,2O\\text{ each side}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $2H_2+O_2\\to 2H_2O$",
+            finalAnswer: "**(a)** $2H_2+O_2\\to 2H_2O$",
             commonErrors: ["Choosing (d) which has 4 O on left but only 2 on right."],
             examinerNote: "B1 for (b).",
           },
@@ -173,7 +173,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Reactants are on the left; products on the right.", working: "\\text{reactants}\\to\\text{products}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** On the left of the arrow",
+            finalAnswer: "**(b)** On the left of the arrow",
             commonErrors: ["Reversing reactants and products."],
             examinerNote: "B1 for (a).",
           },
@@ -200,7 +200,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The arrow shows the direction of the reaction.", working: "\\text{reacts to form}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Reacts to form",
+            finalAnswer: "**(d)** Reacts to form",
             commonErrors: ["Reading it as 'equals' — atoms are conserved but substances change."],
             examinerNote: "B1 for (b).",
           },
@@ -349,7 +349,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Subscripts define the formula — changing them makes a different substance.", working: "\\text{subscripts}=\\text{identity}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It changes the identity of the substance",
+            finalAnswer: "**(c)** It changes the identity of the substance",
             commonErrors: ["Thinking subscripts can be adjusted like coefficients."],
             examinerNote: "B1 for (b).",
           },
@@ -455,7 +455,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Decomposition" },
               { id: "d", text: "Displacement" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -465,7 +465,7 @@ export const lesson12: Lesson = {
               { reasoning: "Two reactants ($H_2$ and $O_2$) form one product ($H_2O$).",
                 working: "2\\to1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Synthesis",
+            finalAnswer: "**(a)** Synthesis",
             commonErrors: ["Choosing combustion — no oxygen is consumed as a separate reactant here (it's part of $O_2$)."],
             examinerNote: "B1 for (c).",
           },
@@ -564,7 +564,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Complete combustion of a hydrocarbon gives $CO_2$ and $H_2O$.", working: "CO_2+H_2O", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Carbon dioxide and water",
+            finalAnswer: "**(d)** Carbon dioxide and water",
             commonErrors: ["Choosing carbon monoxide — that is incomplete combustion."],
             examinerNote: "B1 for (b).",
           },
@@ -591,7 +591,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Synthesis means 'putting together' — many reactants to one product.", working: "\\text{many}\\to\\text{one}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Two or more reactants forming one product",
+            finalAnswer: "**(a)** Two or more reactants forming one product",
             commonErrors: ["Confusing synthesis with decomposition."],
             examinerNote: "B1 for (b).",
           },
@@ -682,7 +682,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Exo- means 'out' — energy leaves the reaction system.", working: "\\text{energy released}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Releases energy to the surroundings",
+            finalAnswer: "**(c)** Releases energy to the surroundings",
             commonErrors: ["Confusing exothermic with endothermic."],
             examinerNote: "B1 for (b).",
           },
@@ -700,7 +700,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Burning methane in a Bunsen flame" },
               { id: "d", text: "Neutralisation of an acid and alkali" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -709,7 +709,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Thermal decomposition needs continuous heating, so it absorbs energy.", working: "\\text{needs heat}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Thermal decomposition of calcium carbonate",
+            finalAnswer: "**(a)** Thermal decomposition of calcium carbonate",
             commonErrors: ["Choosing combustion — combustion is always exothermic."],
             examinerNote: "B1 for (c).",
           },
@@ -736,7 +736,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Endo- means 'in' — energy is absorbed, so products sit higher on the profile.", working: "\\text{products higher}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Products at a higher energy level than reactants",
+            finalAnswer: "**(a)** Products at a higher energy level than reactants",
             examinerNote: "B1 for (b).",
           },
         },
@@ -811,7 +811,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Displacement" },
               { id: "d", text: "Synthesis" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -820,7 +820,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Neutralisation is a specific acid–base reaction, not one of the four main types.", working: "\\text{neutralisation}\\neq\\text{type}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Neutralisation",
+            finalAnswer: "**(b)** Neutralisation",
             commonErrors: ["Thinking neutralisation is a separate main type."],
             examinerNote: "B1 for (d).",
           },

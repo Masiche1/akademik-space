@@ -159,7 +159,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Add the components.", working: "\\begin{pmatrix}2+5\\\\-1+3\\end{pmatrix}=\\begin{pmatrix}7\\\\2\\end{pmatrix}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\begin{pmatrix}7\\\\2\\end{pmatrix}$",
+            finalAnswer: "**(b)** $\\begin{pmatrix}7\\\\2\\end{pmatrix}$",
             commonErrors: ["Adding all four numbers together."],
           },
         },
@@ -203,7 +203,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recall the definition of subtraction.", working: "a-b=a+(-b)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\mathbf{a}-\\mathbf{b}=\\mathbf{a}+(-\\mathbf{b})$",
+            finalAnswer: "**(d)** $\\mathbf{a}-\\mathbf{b}=\\mathbf{a}+(-\\mathbf{b})$",
             commonErrors: ["Confusing $\\mathbf{a}-\\mathbf{b}$ with $\\mathbf{b}-\\mathbf{a}$."],
           },
         },
@@ -266,7 +266,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Match both components.", working: "(4,-2)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\begin{pmatrix}4\\\\-2\\end{pmatrix}$",
+            finalAnswer: "**(c)** $\\begin{pmatrix}4\\\\-2\\end{pmatrix}$",
             commonErrors: ["Choosing the negative or the doubled vector."],
           },
         },
@@ -302,7 +302,7 @@ export const lesson91: Lesson = {
               { id: "c", text: "$\\begin{pmatrix}4\\\\3\\end{pmatrix}$" },
               { id: "d", text: "$\\begin{pmatrix}-4\\\\-3\\end{pmatrix}$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -311,7 +311,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Write $x$ on top, $y$ below.", working: "(4,-3)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\begin{pmatrix}4\\\\-3\\end{pmatrix}$",
+            finalAnswer: "**(b)** $\\begin{pmatrix}4\\\\-3\\end{pmatrix}$",
             commonErrors: ["Swapping the components or losing the sign."],
           },
         },
@@ -337,7 +337,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Multiply each component by 3.", working: "3\\times(2,-1)=(6,-3)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\begin{pmatrix}6\\\\-3\\end{pmatrix}$",
+            finalAnswer: "**(d)** $\\begin{pmatrix}6\\\\-3\\end{pmatrix}$",
             commonErrors: ["Adding 3 to each component instead of multiplying."],
           },
         },
@@ -560,7 +560,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "$\\begin{pmatrix}2\\\\4\\end{pmatrix}=2\\begin{pmatrix}1\\\\2\\end{pmatrix}$ — scalar multiple.", working: "k=2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Parallel",
+            finalAnswer: "**(b)** Parallel",
             commonErrors: ["Thinking different lengths means not parallel."],
           },
         },
@@ -604,7 +604,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "$\\overrightarrow{AB}=\\begin{pmatrix}2\\\\3\\end{pmatrix}$, $\\overrightarrow{AC}=\\begin{pmatrix}4\\\\6\\end{pmatrix}=2\\overrightarrow{AB}$.", working: "AC=2AB", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Collinear",
+            finalAnswer: "**(d)** Collinear",
             commonErrors: ["Assuming three points always form a triangle."],
           },
         },
@@ -667,7 +667,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "$\\begin{pmatrix}-6\\\\4\\end{pmatrix}=-2\\begin{pmatrix}3\\\\-2\\end{pmatrix}$ — scalar multiple with $k=-2$.", working: "k=-2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Yes — parallel with $k=-2$",
+            finalAnswer: "**(b)** Yes — parallel with $k=-2$",
             commonErrors: ["Thinking a negative scalar means not parallel."],
           },
         },
@@ -862,7 +862,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recall the formula.", working: "\\frac{a+b}{2}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{\\mathbf{a}+\\mathbf{b}}{2}$",
+            finalAnswer: "**(c)** $\\frac{\\mathbf{a}+\\mathbf{b}}{2}$",
             commonErrors: ["Forgetting the factor $\\frac12$."],
           },
         },
@@ -958,7 +958,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recall the section formula.", working: "\\frac{n a + m b}{m+n}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{n\\mathbf{a}+m\\mathbf{b}}{m+n}$",
+            finalAnswer: "**(d)** $\\frac{n\\mathbf{a}+m\\mathbf{b}}{m+n}$",
             commonErrors: ["Not reversing the weights."],
           },
         },
@@ -1002,7 +1002,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Average each coordinate.", working: "\\left(\\frac{2+6}{2},\\frac{4+10}{2}\\right)=(4,7)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $(4,7)$",
+            finalAnswer: "**(a)** $(4,7)$",
             commonErrors: ["Forgetting to halve the sum."],
           },
         },
@@ -1065,7 +1065,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Reason: closer to $A$ means more of $\\mathbf{a}$.", working: "n a + m b", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\mathbf{a}$",
+            finalAnswer: "**(b)** $\\mathbf{a}$",
             commonErrors: ["Weighting the nearer endpoint less."],
           },
         },
@@ -1111,7 +1111,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recall the centroid property.", working: "AG:GM=2:1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2:1$ from the vertex",
+            finalAnswer: "**(c)** $2:1$ from the vertex",
             commonErrors: ["Reversing the ratio."],
           },
         },
@@ -1137,7 +1137,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Ratio $2:1$ → fraction $\\frac{2}{2+1}=\\frac23$.", working: "\\frac23", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac23$",
+            finalAnswer: "**(b)** $\\frac23$",
             commonErrors: ["Using $\\frac13$ — the wrong part of the ratio."],
           },
         },

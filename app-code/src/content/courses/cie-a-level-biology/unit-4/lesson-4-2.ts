@@ -96,7 +96,7 @@ export const lesson412: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Artery",
+            finalAnswer: "**(c)** Artery",
             commonErrors: ["Confusing artery/vein direction."],
           },
         },
@@ -262,7 +262,7 @@ export const lesson412: Lesson = {
             steps: [
               { reasoning: "One-cell-thick walls give a short diffusion distance for exchange.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Walls one cell thick",
+            finalAnswer: "**(b)** Walls one cell thick",
             commonErrors: ["Describing artery walls."],
           },
         },
@@ -324,7 +324,7 @@ export const lesson412: Lesson = {
             steps: [
               { reasoning: "Pulmonary vein returns oxygenated blood to the left atrium.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Pulmonary vein",
+            finalAnswer: "**(b)** Pulmonary vein",
             commonErrors: ["Confusing pulmonary artery and vein."],
           },
         },
@@ -446,7 +446,7 @@ export const lesson412: Lesson = {
             steps: [
               { reasoning: "The septum keeps oxygenated (left) and deoxygenated (right) blood apart.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Separates oxygenated and deoxygenated blood",
+            finalAnswer: "**(c)** Separates oxygenated and deoxygenated blood",
             commonErrors: ["Thinking the septum is a valve."],
           },
         },
@@ -567,7 +567,7 @@ export const lesson412: Lesson = {
             steps: [
               { reasoning: "Haemoglobin in RBCs.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Haemoglobin in erythrocytes",
+            finalAnswer: "**(c)** Haemoglobin in erythrocytes",
             commonErrors: [
               "Confusing with plasma (transports dissolved O₂ only).",
             ],
@@ -742,7 +742,7 @@ export const lesson412: Lesson = {
             steps: [
               { reasoning: "Platelets aggregate at wounds to form blood clots.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Clotting after injury",
+            finalAnswer: "**(c)** Clotting after injury",
             commonErrors: ["Confusing platelets with white cells."],
           },
         },
@@ -786,7 +786,7 @@ export const lesson412: Lesson = {
             steps: [
               { reasoning: "Systole = contraction phase of the cardiac cycle.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Contraction of the heart chambers",
+            finalAnswer: "**(d)** Contraction of the heart chambers",
             commonErrors: ["Confusing systole with diastole."],
           },
         },
@@ -850,7 +850,7 @@ export const lesson412: Lesson = {
             steps: [
               { reasoning: "Haematocrit measures the RBC fraction of total blood volume.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Proportion of blood volume that is red cells",
+            finalAnswer: "**(b)** Proportion of blood volume that is red cells",
             commonErrors: ["Thinking it measures white cell count."],
           },
         },
@@ -935,7 +935,7 @@ export const lesson412: Lesson = {
             steps: [
               { reasoning: "Phagocytes and lymphocytes are the main white cell types for immunity.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Phagocytes and lymphocytes",
+            finalAnswer: "**(c)** Phagocytes and lymphocytes",
             commonErrors: ["Including erythrocytes, which carry oxygen."],
           },
         },

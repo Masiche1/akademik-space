@@ -69,7 +69,7 @@ export const lesson42: Lesson = {
               { reasoning: "Divide the distance by the time.", working: "\\frac{150}{2.5}", marks: 1, markCode: "M" },
               { reasoning: "Evaluate with units.", working: "60 \\text{ km/h}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $60$ km/h",
+            finalAnswer: "**(c)** $60$ km/h",
             commonErrors: ["Multiplying distance by time to get $375$.", "Dividing time by distance."],
           },
         },

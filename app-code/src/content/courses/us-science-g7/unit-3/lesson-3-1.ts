@@ -198,7 +198,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "A freshwater reptile could not cross a salt-water ocean, so the continents must have been joined.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The two continents were once joined together.",
+            finalAnswer: "**(d)** The two continents were once joined together.",
             commonErrors: ["Choosing (a); a freshwater animal could not survive in the salty ocean."],
             examinerNote: "B1 for (b).",
           },

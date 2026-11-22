@@ -37,10 +37,10 @@ export const lesson43: Lesson = {
             { id: "b", text: "Brick red" },
             { id: "c", text: "Purple" },
             { id: "d", text: "Yellow" }
-], borrectChoiceId: "c" },
+], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "convention", name: "Benedict's", statement: "Reducing sugar → brick red precipitate on heating." }],
             steps: [{ reasoning: "Brick red = positive.", marks: 2, markCode: "AO1" }],
-            finalAnswer: "**(c)** Brick red", commonErrors: ["Purple = Biuret protein."] },
+            finalAnswer: "**(b)** Brick red", commonErrors: ["Purple = Biuret protein."] },
         },
         {
           id: "esc11-u4-bio-chem-prac-q2", difficulty: "core", totalMarks: 3,
@@ -111,7 +111,7 @@ export const lesson43: Lesson = {
 ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "convention", name: "Voltmeter", statement: "Parallel — measures potential difference across component." }],
             steps: [{ reasoning: "Voltmeter in parallel.", marks: 2, markCode: "AO1" }],
-            finalAnswer: "**(b)** In parallel", commonErrors: ["Series confused with ammeter."] },
+            finalAnswer: "**(c)** In parallel", commonErrors: ["Series confused with ammeter."] },
         },
         {
           id: "esc11-u4-physics-prac-q2", difficulty: "core", totalMarks: 3,

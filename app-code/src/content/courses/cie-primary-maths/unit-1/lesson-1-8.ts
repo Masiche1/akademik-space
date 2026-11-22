@@ -180,7 +180,7 @@ export const lesson18: Lesson = {
             { id: "b", text: "5" },
             { id: "c", text: "4" },
             { id: "d", text: "6" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Cube", statement: "6 square faces." }],
             steps: [{ reasoning: "A cube has 6 faces.", marks: 1, markCode: "A" }],

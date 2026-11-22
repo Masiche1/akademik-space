@@ -59,7 +59,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Planets", statement: "Inner four rocky." }],
             steps: [{ reasoning: "Recall.", working: "M,V,E,M", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Mercury, Venus, Earth, Mars",
+            finalAnswer: "**(d)** Mercury, Venus, Earth, Mars",
             commonErrors: ["Including gas giants."],
           },
         },
@@ -157,7 +157,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Asteroid belt", statement: "Between Mars and Jupiter." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Mars--Jupiter}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Between Mars and Jupiter",
+            finalAnswer: "**(a)** Between Mars and Jupiter",
             commonErrors: ["Placing it inside Earth's orbit."],
           },
         },
@@ -272,11 +272,11 @@ export const lessonp102: Lesson = {
             { id: "b", text: "Mars" },
             { id: "c", text: "Jupiter" },
             { id: "d", text: "Mercury" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Orbits", statement: "Farthest planet → longest year." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Neptune}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Neptune",
+            finalAnswer: "**(a)** Neptune",
             commonErrors: ["Picking Jupiter — large but closer than Neptune."],
           },
         },
@@ -388,7 +388,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Gravity", statement: "Gravity provides centripetal force." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gravity}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Gravity",
+            finalAnswer: "**(a)** Gravity",
             commonErrors: ["No friction in space."],
           },
         },
@@ -486,7 +486,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Orbit", statement: "Weightlessness = free fall around Earth." }],
             steps: [{ reasoning: "Recall.", working: "\\text{free fall} \\to \\text{weightless}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** They are in continuous free fall",
+            finalAnswer: "**(c)** They are in continuous free fall",
             commonErrors: ["Saying there is no gravity — gravity is what keeps them in orbit."],
           },
         },
@@ -537,7 +537,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Satellites", statement: "Used for communications, GPS, weather, astronomy." }],
             steps: [{ reasoning: "Recall.", working: "\\text{GPS},\\ \\text{comms}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** GPS and communications",
+            finalAnswer: "**(d)** GPS and communications",
             commonErrors: ["Listing ground-based activities instead of orbital uses."],
           },
         },
@@ -572,7 +572,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Escape velocity", statement: "Minimum speed to escape a body's gravity." }],
             steps: [{ reasoning: "Recall.", working: "v_{\\text{esc}} \\to \\text{escape}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The minimum speed needed to escape Earth's gravitational pull completely",
+            finalAnswer: "**(a)** The minimum speed needed to escape Earth's gravitational pull completely",
             commonErrors: ["Confusing escape velocity with orbital speed."],
           },
         },
@@ -624,7 +624,7 @@ export const lessonp102: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Gravity", statement: "Gravity acts everywhere, not just near Earth." }],
             steps: [{ reasoning: "Recall.", working: "\\text{everywhere}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Everywhere in space",
+            finalAnswer: "**(d)** Everywhere in space",
             commonErrors: ["Thinking space is gravity-free — it is only free of air."],
           },
         },

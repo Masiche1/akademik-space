@@ -60,7 +60,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Moment", statement: "M = Fd." }],
             steps: [{ reasoning: "Recall.", working: "M = Fd", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Force × perpendicular distance",
+            finalAnswer: "**(a)** Force × perpendicular distance",
             commonErrors: ["Using parallel distance not perpendicular."],
           },
         },
@@ -190,7 +190,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Moment", statement: "M = Fd; compute each." }],
             steps: [{ reasoning: "a)5, b)10, c)4, d)8 N m — b largest.", working: "M = Fd", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 5 N at 2 m",
+            finalAnswer: "**(a)** 5 N at 2 m",
             commonErrors: ["Choosing biggest force without considering distance."],
           },
         },
@@ -242,7 +242,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Moment", statement: "M = Fd; M increases with d." }],
             steps: [{ reasoning: "M proportional to d.", working: "M \\propto d", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Increase the perpendicular distance from the pivot",
+            finalAnswer: "**(c)** Increase the perpendicular distance from the pivot",
             commonErrors: ["Using distance along the bar not perpendicular."],
           },
         },
@@ -295,11 +295,11 @@ export const lessonp23: Lesson = {
             { id: "b", text: "The magnitude of the force only" },
             { id: "c", text: "The perpendicular distance from the pivot only" },
             { id: "d", text: "Both the force and its perpendicular distance from the pivot" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "formula", name: "Moment", statement: "M = Fd — depends on both." }],
             steps: [{ reasoning: "M = F×d.", working: "M = Fd", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Both the force and its perpendicular distance from the pivot",
+            finalAnswer: "**(d)** Both the force and its perpendicular distance from the pivot",
             commonErrors: ["Thinking moment depends on mass."],
           },
         },
@@ -476,7 +476,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "CoG", statement: "Regular uniform objects: CoG at geometric centre." }],
             steps: [{ reasoning: "Recall.", working: "\\text{geometric centre}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** At the geometric centre",
+            finalAnswer: "**(a)** At the geometric centre",
             commonErrors: ["For irregular objects CoG is not at geometric centre."],
           },
         },
@@ -527,7 +527,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Stability", statement: "Wide base + low CoG = stable." }],
             steps: [{ reasoning: "Recall.", working: "\\text{wide base, low CoG}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Its base is wide and CoG is low",
+            finalAnswer: "**(d)** Its base is wide and CoG is low",
             commonErrors: ["Thinking heavy always means stable."],
           },
         },
@@ -579,7 +579,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Stability", statement: "Higher CoG → easier to tip." }],
             steps: [{ reasoning: "Recall.", working: "\\text{high CoG} \\Rightarrow \\text{unstable}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Its centre of gravity is higher",
+            finalAnswer: "**(a)** Its centre of gravity is higher",
             commonErrors: ["Thinking weight alone determines stability."],
           },
         },
@@ -636,7 +636,7 @@ export const lessonp23: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Stability", statement: "Tipping when CoG line exits base." }],
             steps: [{ reasoning: "Recall.", working: "\\text{CoG line outside base} \\Rightarrow \\text{tips}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The vertical line through its CoG falls outside its base",
+            finalAnswer: "**(d)** The vertical line through its CoG falls outside its base",
             commonErrors: ["Thinking it tips when CoG is high regardless of base."],
           },
         },

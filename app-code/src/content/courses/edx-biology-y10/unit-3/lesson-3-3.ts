@@ -69,7 +69,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The glomerulus and Bowman's capsule are where filtration occurs. Glucose is reabsorbed back into the blood in the first tubule, the PCT.", working: "\\text{proximal convoluted tubule}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Proximal convoluted tubule",
+            finalAnswer: "**(c)** Proximal convoluted tubule",
             commonErrors: ["Choosing the collecting duct, which is where water reabsorption is controlled by ADH.", "Choosing the glomerulus, where glucose is filtered out of the blood."],
             examinerNote: "B1 for (b).",
           },
@@ -198,7 +198,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Liver" },
               { id: "d", text: "Pituitary gland" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -207,7 +207,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "ADH is released by the pituitary gland, and acts on the kidney.", working: "\\text{pituitary gland}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Pituitary gland",
+            finalAnswer: "**(d)** Pituitary gland",
             commonErrors: ["Choosing the kidney, which is the organ ADH acts on, not where it is made."],
             examinerNote: "B1 for (c).",
           },

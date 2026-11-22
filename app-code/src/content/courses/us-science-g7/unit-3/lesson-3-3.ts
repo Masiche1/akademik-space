@@ -64,7 +64,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Fossil fuels formed from buried ancient organisms in specific basins over millions of years.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** They formed where specific geologic conditions existed over millions of years.",
+            finalAnswer: "**(a)** They formed where specific geologic conditions existed over millions of years.",
             commonErrors: ["Choosing (d); fossil fuels take millions of years to form and cannot be made quickly."],
             examinerNote: "B1 for (b).",
           },
@@ -195,7 +195,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Earthquakes are caused by plate motion; the others are caused by weather and climate.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Earthquake",
+            finalAnswer: "**(c)** Earthquake",
             commonErrors: ["Choosing hurricane, which is driven by warm ocean water and the atmosphere."],
             examinerNote: "B1 for earthquake.",
           },

@@ -70,7 +70,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "$12\\div6=2$; $18\\div6=3$ → $2:3$.", working: "2:3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2:3$",
+            finalAnswer: "**(c)** $2:3$",
             commonErrors: ["Choosing (c)/(d) — not fully simplified."],
           },
         },
@@ -175,7 +175,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Divide both parts by $6$ to obtain $3:4$.", working: "3:4", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $3:4$",
+            finalAnswer: "**(b)** $3:4$",
           },
         },
         {
@@ -217,7 +217,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "$1+0.12=1.12$.", working: "1.12", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $1.12$",
+            finalAnswer: "**(b)** $1.12$",
           },
         },
         {
@@ -260,7 +260,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Multiply the successive multipliers rather than adding percentages.", working: "1.21", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $21\\%$",
+            finalAnswer: "**(b)** $21\\%$",
           },
         },
         {
@@ -302,7 +302,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Dogs correspond to $5$ parts, giving $25$ animals.", working: "25", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $25$",
+            finalAnswer: "**(c)** $25$",
           },
         },
         {
@@ -364,7 +364,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "$45\\div0.60=75$.", working: "75", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $75$",
+            finalAnswer: "**(d)** $75$",
           },
         },
         {
@@ -457,7 +457,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Interest $=$ principal × rate × time.", working: "Prt", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $I = P \\times r \\times t$",
+            finalAnswer: "**(c)** $I = P \\times r \\times t$",
             commonErrors: ["Using percentage as whole number — rate must be decimal."],
           },
         },
@@ -562,7 +562,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Principal is the starting amount before interest.", working: "P", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The original amount",
+            finalAnswer: "**(d)** The original amount",
           },
         },
         {
@@ -595,7 +595,7 @@ export const lesson92: Lesson = {
               { id: "c", text: "Cannot compare" },
               { id: "d", text: "The first pack" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -604,7 +604,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Unit prices are $2.40\\div6=0.40$ and $3.20\\div8=0.40$.", working: "0.40", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** They are equal",
+            finalAnswer: "**(b)** They are equal",
             commonErrors: ["Comparing total prices without dividing by quantity."],
           },
         },
@@ -690,7 +690,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Simple interest is always based on the original principal.", working: "P", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The original principal",
+            finalAnswer: "**(b)** The original principal",
           },
         },
         {
@@ -751,7 +751,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "$20\\%$ of $140$ is $28$.", working: "28", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $\\pounds28$",
+            finalAnswer: "**(b)** $\\pounds28$",
           },
         },
         {

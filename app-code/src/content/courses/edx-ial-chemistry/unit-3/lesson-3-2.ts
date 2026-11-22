@@ -59,7 +59,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Alcohol", statement: "–OH functional group." }],
             steps: [{ reasoning: "Direct.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** –OH",
+            finalAnswer: "**(c)** –OH",
           },
         },
         {
@@ -174,7 +174,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Carboxylic acid", statement: "–COOH group." }],
             steps: [{ reasoning: "Direct.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** –COOH",
+            finalAnswer: "**(d)** –COOH",
           },
         },
         {

@@ -133,11 +133,11 @@ export const lessonp111: Lesson = {
             { id: "b", text: "Hour" },
             { id: "c", text: "Minute" },
             { id: "d", text: "Second" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "SI units", statement: "Time = second (s)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{s}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Second",
+            finalAnswer: "**(d)** Second",
             commonErrors: ["Minute/hour are not base units."],
           },
         },
@@ -187,7 +187,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Prefixes", statement: "milli = 10⁻³." }],
             steps: [{ reasoning: "Recall.", working: "10^{-3}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $\\times 10^{-3}$",
+            finalAnswer: "**(a)** $\\times 10^{-3}$",
             commonErrors: ["Confusing milli with micro."],
           },
         },
@@ -273,7 +273,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Instruments", statement: "Micrometer for small thickness." }],
             steps: [{ reasoning: "Recall.", working: "\\text{micrometer}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Micrometer screw gauge",
+            finalAnswer: "**(c)** Micrometer screw gauge",
             commonErrors: ["A ruler lacks precision for thin wires."],
           },
         },
@@ -311,7 +311,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Reliability", statement: "Repeats give consistent, trustworthy results." }],
             steps: [{ reasoning: "Recall.", working: "\\text{reliability}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Reliability",
+            finalAnswer: "**(d)** Reliability",
             commonErrors: ["Repeats reduce random error but can't fix systematic error."],
           },
         },
@@ -385,7 +385,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Systematic error", statement: "Consistent offset." }],
             steps: [{ reasoning: "Recall.", working: "\\text{consistent}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Consistent offset from true value",
+            finalAnswer: "**(d)** Consistent offset from true value",
             commonErrors: ["Confusing with random."],
           },
         },
@@ -465,7 +465,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Random error", statement: "Unpredictable scatter." }],
             steps: [{ reasoning: "Recall.", working: "\\text{scatter}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Scatter unpredictably above and below the true value",
+            finalAnswer: "**(a)** Scatter unpredictably above and below the true value",
             commonErrors: ["Confusing with systematic error."],
           },
         },
@@ -515,7 +515,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Parallax", statement: "Viewing angle causes misreading." }],
             steps: [{ reasoning: "Recall.", working: "\\text{viewing angle}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The eye not being perpendicular to the scale",
+            finalAnswer: "**(a)** The eye not being perpendicular to the scale",
             commonErrors: ["Parallax is a human error, not instrument fault."],
           },
         },
@@ -567,7 +567,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "method", name: "Zero error", statement: "Check instrument reads zero before use." }],
             steps: [{ reasoning: "Recall.", working: "\\text{zero/calibrate}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Zeroing or calibrating the instrument before use",
+            finalAnswer: "**(a)** Zeroing or calibrating the instrument before use",
             commonErrors: ["Repeats don't fix a zero error."],
           },
         },
@@ -635,7 +635,7 @@ export const lessonp111: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Errors", statement: "Averaging cancels random scatter." }],
             steps: [{ reasoning: "Recall.", working: "\\text{random}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Random errors",
+            finalAnswer: "**(c)** Random errors",
             commonErrors: ["Systematic errors are not reduced by averaging."],
           },
         },

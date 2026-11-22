@@ -87,7 +87,7 @@ export const lesson62: Lesson = {
               { id: "c", text: "cake is nice" },
               { id: "d", text: "a big chocolate cake" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -109,7 +109,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** a big chocolate cake",
+            finalAnswer: "**(d)** a big chocolate cake",
             commonErrors: ["Adding words after noun — not noun phrase."],
           },
         },
@@ -253,7 +253,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Commas between items.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Between list items",
+            finalAnswer: "**(a)** Between list items",
             commonErrors: ["Comma after 'and' — wrong position."],
           },
         },
@@ -288,7 +288,7 @@ export const lesson62: Lesson = {
               },
               { reasoning: "Answer: dog's.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The dog's bone",
+            finalAnswer: "**(d)** The dog's bone",
             commonErrors: ["Missing apostrophe or wrong position."],
           },
         },

@@ -83,7 +83,7 @@ export const lesson43: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Freezes motion",
+            finalAnswer: "**(a)** Freezes motion",
             commonErrors: ["Creates waves confused."],
           },
         },

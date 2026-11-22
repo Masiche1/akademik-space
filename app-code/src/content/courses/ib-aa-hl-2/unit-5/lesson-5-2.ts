@@ -621,7 +621,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $-\\csc^2x$",
+            finalAnswer: "**(c)** $-\\csc^2x$",
             commonErrors: [
               "Confusing $(\\cot x)'$ with $(\\tan x)'=\\sec^2x$.",
             ],
@@ -871,7 +871,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $-\\csc x\\cot x$",
+            finalAnswer: "**(d)** $-\\csc x\\cot x$",
             commonErrors: [
               "Confusing $(\\csc x)'$ with $(\\sec x)'=\\sec x\\tan x$.",
             ],
@@ -1180,7 +1180,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $-\\frac34$",
+            finalAnswer: "**(d)** $-\\frac34$",
             commonErrors: [
               "Inverting the ratio, giving $-\\frac43$.",
               "Missing the negative sign.",
@@ -1473,7 +1473,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0$",
+            finalAnswer: "**(b)** $0$",
             commonErrors: [
               "Writing $\\frac{dy}{dx}=-\\frac{x}{y}$ and then evaluating $-\\frac01$ incorrectly.",
             ],

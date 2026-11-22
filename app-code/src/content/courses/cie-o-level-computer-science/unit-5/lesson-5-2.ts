@@ -41,7 +41,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Exists only electronically" },
             { id: "d", text: "Is made of metal" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Digital currency", statement: "Electronic only." }], steps: [{ reasoning: "Digital = electronic only.", working: "\\text{electronic}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Exists electronically" },
+          markscheme: { principles: [{ kind: "definition", name: "Digital currency", statement: "Electronic only." }], steps: [{ reasoning: "Digital = electronic only.", working: "\\text{electronic}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Exists electronically" },
         },
         {
           id: "olcs-u5-dc-q2", difficulty: "core", totalMarks: 2,
@@ -96,7 +96,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Metal coins" },
             { id: "d", text: "A type of cheque" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Digital currency", statement: "Electronic-only money." }], steps: [{ reasoning: "Exists only electronically.", working: "\\text{electronic}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Electronic-only money" },
+          markscheme: { principles: [{ kind: "definition", name: "Digital currency", statement: "Electronic-only money." }], steps: [{ reasoning: "Exists only electronically.", working: "\\text{electronic}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Electronic-only money" },
         },
         {
           id: "olcs-u5-dc-q6", difficulty: "foundation", totalMarks: 1,
@@ -115,7 +115,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Recovered by an exchange" },
             { id: "d", text: "Permanently lost" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Key ownership", statement: "Keys are the only proof of ownership." }], steps: [{ reasoning: "No central authority can reset keys.", working: "\\text{no reset}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Permanently lost" },
+          markscheme: { principles: [{ kind: "principle", name: "Key ownership", statement: "Keys are the only proof of ownership." }], steps: [{ reasoning: "No central authority can reset keys.", working: "\\text{no reset}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Permanently lost" },
         },
         {
           id: "olcs-u5-dc-q8", difficulty: "core", totalMarks: 1,
@@ -134,7 +134,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Guaranteed stable value" },
             { id: "d", text: "Programmable money" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Volatility", statement: "Value is not stable." }], steps: [{ reasoning: "Cryptocurrency value swings — not guaranteed stable.", working: "\\text{volatile}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Guaranteed stable value" },
+          markscheme: { principles: [{ kind: "principle", name: "Volatility", statement: "Value is not stable." }], steps: [{ reasoning: "Cryptocurrency value swings — not guaranteed stable.", working: "\\text{volatile}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Guaranteed stable value" },
         },
         {
           id: "olcs-u5-dc-q10", difficulty: "core", totalMarks: 2,
@@ -154,7 +154,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Not digital" },
             { id: "d", text: "Issued by a central bank" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "CBDC", statement: "Central bank digital currency." }], steps: [{ reasoning: "Issued by a central bank.", working: "\\text{central bank}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Issued by a central bank" },
+          markscheme: { principles: [{ kind: "definition", name: "CBDC", statement: "Central bank digital currency." }], steps: [{ reasoning: "Issued by a central bank.", working: "\\text{central bank}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Issued by a central bank" },
         },
         {
           id: "olcs-u5-dc-q12", difficulty: "core", totalMarks: 1,
@@ -184,7 +184,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "An email agreement" },
             { id: "d", text: "A bank loan" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Smart contract", statement: "Code that executes agreement terms." }], steps: [{ reasoning: "Self-executing agreement on the ledger.", working: "\\text{code}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Self-executing agreement" },
+          markscheme: { principles: [{ kind: "definition", name: "Smart contract", statement: "Code that executes agreement terms." }], steps: [{ reasoning: "Self-executing agreement on the ledger.", working: "\\text{code}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Self-executing agreement" },
         },
         {
           id: "olcs-u5-dc-q15", difficulty: "core", totalMarks: 2,
@@ -252,7 +252,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "A single database on one server" },
             { id: "d", text: "A distributed ledger of transactions" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Blockchain", statement: "Distributed transaction ledger." }], steps: [{ reasoning: "Blockchain = distributed ledger.", working: "\\text{ledger}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Distributed ledger" },
+          markscheme: { principles: [{ kind: "definition", name: "Blockchain", statement: "Distributed transaction ledger." }], steps: [{ reasoning: "Blockchain = distributed ledger.", working: "\\text{ledger}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Distributed ledger" },
         },
         {
           id: "olcs-u5-bc-q2", difficulty: "core", totalMarks: 2,
@@ -326,7 +326,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "A network cable" },
             { id: "d", text: "A digital fingerprint of data" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Hash", statement: "Digital fingerprint of data." }], steps: [{ reasoning: "Hash uniquely represents the block's data.", working: "\\text{fingerprint}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Digital fingerprint" },
+          markscheme: { principles: [{ kind: "definition", name: "Hash", statement: "Digital fingerprint of data." }], steps: [{ reasoning: "Hash uniquely represents the block's data.", working: "\\text{fingerprint}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Digital fingerprint" },
         },
         {
           id: "olcs-u5-bc-q8", difficulty: "core", totalMarks: 1,
@@ -365,7 +365,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "It changes the block's hash and breaks the chain" },
             { id: "d", text: "Miners stop working" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Tamper-evidence", statement: "Alteration breaks hash links." }], steps: [{ reasoning: "Changed data → changed hash → broken chain.", working: "\\text{hash change}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** It changes the hash and breaks the chain" },
+          markscheme: { principles: [{ kind: "principle", name: "Tamper-evidence", statement: "Alteration breaks hash links." }], steps: [{ reasoning: "Changed data → changed hash → broken chain.", working: "\\text{hash change}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** It changes the hash and breaks the chain" },
         },
         {
           id: "olcs-u5-bc-q12", difficulty: "core", totalMarks: 1,
@@ -395,7 +395,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Broadcasts the new block for others to verify" },
             { id: "d", text: "Deletes old blocks" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Mining", statement: "Winner adds the block." }], steps: [{ reasoning: "Winner broadcasts the block for verification.", working: "\\text{broadcast}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Broadcasts the new block for verification" },
+          markscheme: { principles: [{ kind: "principle", name: "Mining", statement: "Winner adds the block." }], steps: [{ reasoning: "Winner broadcasts the block for verification.", working: "\\text{broadcast}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Broadcasts the new block for verification" },
         },
         {
           id: "olcs-u5-bc-q15", difficulty: "core", totalMarks: 2,

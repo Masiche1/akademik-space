@@ -72,7 +72,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Stanza = verse group.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A group of lines",
+            finalAnswer: "**(d)** A group of lines",
             commonErrors: ["Confusing with verse."],
           },
         },
@@ -103,7 +103,7 @@ export const lesson113: Lesson = {
               { reasoning: "Identify imagery.", marks: 1, markCode: "M" },
               { reasoning: "Answer: fear/power.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Fear/power",
+            finalAnswer: "**(c)** Fear/power",
             commonErrors: ["Missing imagery effect."],
           },
         },
@@ -247,7 +247,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Mammal = verifiable.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Cats are mammals",
+            finalAnswer: "**(d)** Cats are mammals",
             commonErrors: ["Choosing opinion."],
           },
         },

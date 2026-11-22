@@ -69,7 +69,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Add the vector components.", working: "(2+3,5-1)=(5,4)", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $(5,4)$",
+            finalAnswer: "**(d)** $(5,4)$",
             commonErrors: ["Subtracting instead of adding the vector."],
           },
         },
@@ -146,10 +146,10 @@ export const lesson71: Lesson = {
             { id: "c", text: "$(6,-2)$" },
             { id: "d", text: "$(6,4)$" }
  ],
-            aorrectChoiceId: "c" },
+            correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "formula", name: "Translation", statement: "$(x,y)\\to(x+a,y+b)$" } ],
             steps: [ { reasoning: "Add the vector components.", working: "(4-2,1+3)=(2,4)", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(c)** $(2,4)$", commonErrors: ["Subtracting the vector instead of adding."] },
+            finalAnswer: "**(a)** $(2,4)$", commonErrors: ["Subtracting the vector instead of adding."] },
         },
         {
           id: "ciem-u7-basic-transformations-q6", difficulty: "core", totalMarks: 1,
@@ -163,7 +163,7 @@ export const lesson71: Lesson = {
             correctChoiceId: "b" },
           markscheme: { principles: [ { kind: "formula", name: "Reflect y=x", statement: "$(x,y)\\to(y,x)$" } ],
             steps: [ { reasoning: "Swap the coordinates.", working: "(y,x)=(-2,5)", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(a)** $(-2,5)$", commonErrors: ["Negating coordinates instead of swapping."] },
+            finalAnswer: "**(b)** $(-2,5)$", commonErrors: ["Negating coordinates instead of swapping."] },
         },
         {
           id: "ciem-u7-basic-transformations-q7", difficulty: "core", totalMarks: 2,
@@ -184,10 +184,10 @@ export const lesson71: Lesson = {
             { id: "c", text: "$(3,-2)$" },
             { id: "d", text: "$(2,-3)$" }
  ],
-            correctChoiceIc: "d" },
+            correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "formula", name: "Rotate 180°", statement: "$(x,y)\\to(-x,-y)$" } ],
             steps: [ { reasoning: "Negate both coordinates.", working: "(3,-2)", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(d)** $(3,-2)$", commonErrors: ["Negating only one coordinate."] },
+            finalAnswer: "**(c)** $(3,-2)$", commonErrors: ["Negating only one coordinate."] },
         },
         {
           id: "ciem-u7-basic-transformations-q9", difficulty: "core", totalMarks: 2,
@@ -267,7 +267,7 @@ export const lesson71: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "property", name: "Isometry", statement: "These transformations preserve shape and area." } ],
             steps: [ { reasoning: "Recall that reflections/rotations/translations are congruence transformations.", working: "\\text{area preserved}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(a)** Area", commonErrors: ["Thinking position is preserved."] },
+            finalAnswer: "**(d)** Area", commonErrors: ["Thinking position is preserved."] },
         },
         {
           id: "ciem-u7-basic-transformations-q16", difficulty: "challenge", totalMarks: 8,
@@ -342,7 +342,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Interpret $k=-2$.", working: "|k|=2\\text{, opposite side}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Doubles and moves to opposite side",
+            finalAnswer: "**(d)** Doubles and moves to opposite side",
             commonErrors: ["Ignoring the negative sign."],
           },
         },
@@ -424,7 +424,7 @@ export const lesson71: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "property", name: "Negative scale factor", statement: "$|k|$ scales distance; negative $k$ reverses direction." } ],
             steps: [ { reasoning: "Interpret $k=-2$.", working: "|k|=2\\text{, opposite side}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(a)** Doubles and moves to the opposite side", commonErrors: ["Ignoring the negative sign."] },
+            finalAnswer: "**(c)** Doubles and moves to the opposite side", commonErrors: ["Ignoring the negative sign."] },
         },
         {
           id: "ciem-u7-enlargements-q6", difficulty: "core", totalMarks: 1,
@@ -438,7 +438,7 @@ export const lesson71: Lesson = {
             correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "formula", name: "Enlargement", statement: "$\\vec{OP'}=k\\vec{OP}$" } ],
             steps: [ { reasoning: "Multiply coordinates by $3$.", working: "(6,3)", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $(6,3)$", commonErrors: ["Adding $3$ instead of multiplying."] },
+            finalAnswer: "**(a)** $(6,3)$", commonErrors: ["Adding $3$ instead of multiplying."] },
         },
         {
           id: "ciem-u7-enlargements-q7", difficulty: "core", totalMarks: 2,
@@ -462,7 +462,7 @@ export const lesson71: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "property", name: "Negative scale factor", statement: "$k=-1$ reverses every vector from the centre." } ],
             steps: [ { reasoning: "A scale factor of $-1$ maps each point to the opposite side of $C$ at the same distance.", working: "\\text{rotation }180^\\circ", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** Rotation $180^\\circ$ about $C$", commonErrors: ["Thinking it is a reflection."] },
+            finalAnswer: "**(c)** Rotation $180^\\circ$ about $C$", commonErrors: ["Thinking it is a reflection."] },
         },
         {
           id: "ciem-u7-enlargements-q9", difficulty: "core", totalMarks: 2,
@@ -496,7 +496,7 @@ export const lesson71: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Area scale", statement: "Area multiplies by $k^2$." } ],
             steps: [ { reasoning: "Square the scale factor.", working: "3^2=9", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $9$", commonErrors: ["Multiplying area by $k$."] },
+            finalAnswer: "**(d)** $9$", commonErrors: ["Multiplying area by $k$."] },
         },
         {
           id: "ciem-u7-enlargements-q12", difficulty: "core", totalMarks: 3,
@@ -543,7 +543,7 @@ export const lesson71: Lesson = {
             correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "formula", name: "Area scale", statement: "Area multiplies by $k^2$." } ],
             steps: [ { reasoning: "Square the scale factor.", working: "\\left(\\frac12\\right)^2=\\frac14", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** $\\frac14$", commonErrors: ["Multiplying area by $\\frac12$."] },
+            finalAnswer: "**(a)** $\\frac14$", commonErrors: ["Multiplying area by $\\frac12$."] },
         },
         {
           id: "ciem-u7-enlargements-q16", difficulty: "challenge", totalMarks: 8,

@@ -137,7 +137,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "States", statement: "Liquid: fixed volume, container shape." }],
             steps: [{ reasoning: "Recall.", working: "\\text{liquid}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Liquid",
+            finalAnswer: "**(c)** Liquid",
             commonErrors: ["Gas has no fixed volume either."],
           },
         },
@@ -239,7 +239,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Meniscus", statement: "Curved liquid surface." }],
             steps: [{ reasoning: "Recall.", working: "\\text{curved surface}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** The curved surface of a liquid in a container",
+            finalAnswer: "**(c)** The curved surface of a liquid in a container",
             commonErrors: ["Confusing with liquid level generally."],
           },
         },
@@ -273,7 +273,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Melting", statement: "Fixed temperature during phase change." }],
             steps: [{ reasoning: "Recall.", working: "\\text{constant}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Stays constant",
+            finalAnswer: "**(c)** Stays constant",
             commonErrors: ["Thinking temperature rises while melting."],
           },
         },
@@ -307,7 +307,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Surface tension", statement: "Surface acts like stretched film." }],
             steps: [{ reasoning: "Recall.", working: "\\text{stretched film}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Behave like a stretched film, minimising area",
+            finalAnswer: "**(c)** Behave like a stretched film, minimising area",
             commonErrors: ["Confusing with pressure inside liquid."],
           },
         },
@@ -381,7 +381,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Brownian", statement: "Random collisions." }],
             steps: [{ reasoning: "Recall.", working: "\\text{random}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Random particle motion from collisions",
+            finalAnswer: "**(a)** Random particle motion from collisions",
             commonErrors: ["Not random — it's random."],
           },
         },
@@ -461,7 +461,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Brownian motion", statement: "Evidence for particle theory." }],
             steps: [{ reasoning: "Recall.", working: "\\text{particles}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The existence of invisible moving particles",
+            finalAnswer: "**(c)** The existence of invisible moving particles",
             commonErrors: ["Not linking to particle theory."],
           },
         },
@@ -507,11 +507,11 @@ export const lessonp93: Lesson = {
             { id: "b", text: "Solids" },
             { id: "c", text: "All states equally" },
             { id: "d", text: "Liquids" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Diffusion", statement: "Gas > liquid > solid." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gas}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Gases",
+            finalAnswer: "**(a)** Gases",
             commonErrors: ["Solids diffuse extremely slowly."],
           },
         },
@@ -597,7 +597,7 @@ export const lessonp93: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Diffusion", statement: "Gas particles spread high → low concentration." }],
             steps: [{ reasoning: "Recall.", working: "\\text{diffusion}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Perfume particles diffuse through the air",
+            finalAnswer: "**(d)** Perfume particles diffuse through the air",
             commonErrors: ["Not naming diffusion."],
           },
         },

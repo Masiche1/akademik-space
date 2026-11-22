@@ -116,7 +116,7 @@ export const lesson51: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(b)** The dependent variable is the result being measured.",
+            "finalAnswer": "**(a)** The dependent variable is the result being measured.",
             "commonErrors": [
               "Choosing the independent variable."
             ]

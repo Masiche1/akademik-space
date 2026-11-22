@@ -310,7 +310,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "$45^\\circ$" },
               { id: "d", text: "$90^\\circ$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

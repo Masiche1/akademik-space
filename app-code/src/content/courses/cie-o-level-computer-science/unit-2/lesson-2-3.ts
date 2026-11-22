@@ -41,7 +41,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Power cuts" },
             { id: "d", text: "Unauthorised reading of data" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Encryption", statement: "Confidentiality via keys." }], steps: [{ reasoning: "Encryption = confidentiality.", working: "\\text{confidentiality}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Unauthorised reading" },
+          markscheme: { principles: [{ kind: "definition", name: "Encryption", statement: "Confidentiality via keys." }], steps: [{ reasoning: "Encryption = confidentiality.", working: "\\text{confidentiality}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Unauthorised reading" },
         },
         {
           id: "olcs-u2-we-q2", difficulty: "core", totalMarks: 2,
@@ -96,7 +96,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Confidentiality of data" },
             { id: "d", text: "Size of files" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Confidentiality", statement: "Only authorised parties can read." }], steps: [{ reasoning: "Encryption = confidentiality.", working: "\\text{confidentiality}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Confidentiality" },
+          markscheme: { principles: [{ kind: "definition", name: "Confidentiality", statement: "Only authorised parties can read." }], steps: [{ reasoning: "Encryption = confidentiality.", working: "\\text{confidentiality}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Confidentiality" },
         },
         {
           id: "olcs-u2-we-q6", difficulty: "core", totalMarks: 2,
@@ -145,7 +145,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "An attacker secretly relaying messages between two parties" },
             { id: "d", text: "A backup server" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "MITM", statement: "Attacker relays/alters communication." }], steps: [{ reasoning: "MITM sits between sender and receiver.", working: "\\text{MITM}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Secretly relaying messages" },
+          markscheme: { principles: [{ kind: "definition", name: "MITM", statement: "Attacker relays/alters communication." }], steps: [{ reasoning: "MITM sits between sender and receiver.", working: "\\text{MITM}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Secretly relaying messages" },
         },
         {
           id: "olcs-u2-we-q11", difficulty: "core", totalMarks: 2,
@@ -165,7 +165,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "The data becomes unrecoverable" },
             { id: "d", text: "It converts to plaintext" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Key loss", statement: "Key secrecy = data secrecy." }], steps: [{ reasoning: "Without key, ciphertext stays unreadable.", working: "\\text{unrecoverable}", marks: 1, markCode: "M" }, { reasoning: "Key management is critical.", marks: 1, markCode: "A" }], finalAnswer: "**(a)** Unrecoverable" },
+          markscheme: { principles: [{ kind: "principle", name: "Key loss", statement: "Key secrecy = data secrecy." }], steps: [{ reasoning: "Without key, ciphertext stays unreadable.", working: "\\text{unrecoverable}", marks: 1, markCode: "M" }, { reasoning: "Key management is critical.", marks: 1, markCode: "A" }], finalAnswer: "**(c)** Unrecoverable" },
         },
         {
           id: "olcs-u2-we-q13", difficulty: "challenge", totalMarks: 4,
@@ -208,7 +208,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Plaintext into ciphertext" },
             { id: "d", text: "Files into folders" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Encryption", statement: "Plaintext → ciphertext." }], steps: [{ reasoning: "Encryption scrambles readable data.", working: "\\text{P→C}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Plaintext to ciphertext" },
+          markscheme: { principles: [{ kind: "definition", name: "Encryption", statement: "Plaintext → ciphertext." }], steps: [{ reasoning: "Encryption scrambles readable data.", working: "\\text{P→C}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Plaintext to ciphertext" },
         },
       ],
     },
@@ -241,7 +241,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Encrypt only" },
             { id: "d", text: "Sign documents" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Symmetric", statement: "One key both ways." }], steps: [{ reasoning: "Symmetric = same key.", working: "\\text{same key}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Encrypt and decrypt" },
+          markscheme: { principles: [{ kind: "definition", name: "Symmetric", statement: "One key both ways." }], steps: [{ reasoning: "Symmetric = same key.", working: "\\text{same key}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Encrypt and decrypt" },
         },
         {
           id: "olcs-u2-sa-q2", difficulty: "core", totalMarks: 2,
@@ -296,7 +296,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Both encryption and decryption" },
             { id: "d", text: "Key exchange only" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Symmetric", statement: "One shared key both ways." }], steps: [{ reasoning: "Same key encrypts and decrypts.", working: "\\text{same key}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Both ways" },
+          markscheme: { principles: [{ kind: "definition", name: "Symmetric", statement: "One shared key both ways." }], steps: [{ reasoning: "Same key encrypts and decrypts.", working: "\\text{same key}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Both ways" },
         },
         {
           id: "olcs-u2-sa-q6", difficulty: "core", totalMarks: 2,
@@ -348,7 +348,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Asymmetric key exchange with symmetric bulk encryption" },
             { id: "d", text: "Two symmetric ciphers only" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Hybrid", statement: "Asymmetric exchange + symmetric data." }], steps: [{ reasoning: "Best of both combined.", working: "\\text{hybrid}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Asymmetric + symmetric" },
+          markscheme: { principles: [{ kind: "principle", name: "Hybrid", statement: "Asymmetric exchange + symmetric data." }], steps: [{ reasoning: "Best of both combined.", working: "\\text{hybrid}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Asymmetric + symmetric" },
         },
         {
           id: "olcs-u2-sa-q11", difficulty: "core", totalMarks: 2,
@@ -368,7 +368,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Decrypt messages and must stay secret" },
             { id: "d", text: "Compress files" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Private key", statement: "Secret decrypting key." }], steps: [{ reasoning: "Private key decrypts.", working: "\\text{decrypt}", marks: 1, markCode: "M" }, { reasoning: "Must never be shared.", marks: 1, markCode: "A" }], finalAnswer: "**(a)** Decrypt; kept secret" },
+          markscheme: { principles: [{ kind: "definition", name: "Private key", statement: "Secret decrypting key." }], steps: [{ reasoning: "Private key decrypts.", working: "\\text{decrypt}", marks: 1, markCode: "M" }, { reasoning: "Must never be shared.", marks: 1, markCode: "A" }], finalAnswer: "**(c)** Decrypt; kept secret" },
         },
         {
           id: "olcs-u2-sa-q13", difficulty: "challenge", totalMarks: 4,
@@ -390,7 +390,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Choosing a file name" },
             { id: "d", text: "Speeding up encryption" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Key distribution", statement: "Sharing a secret securely is hard." }], steps: [{ reasoning: "Symmetric needs a pre-shared secret.", working: "\\text{shared secret}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sharing the key securely" },
+          markscheme: { principles: [{ kind: "principle", name: "Key distribution", statement: "Sharing a secret securely is hard." }], steps: [{ reasoning: "Symmetric needs a pre-shared secret.", working: "\\text{shared secret}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Sharing the key securely" },
         },
         {
           id: "olcs-u2-sa-q15", difficulty: "challenge", totalMarks: 3,
@@ -411,7 +411,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Error detection" },
             { id: "d", text: "Compression" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "AES", statement: "Symmetric block cipher." }], steps: [{ reasoning: "AES uses one shared key.", working: "\\text{AES}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Symmetric encryption" },
+          markscheme: { principles: [{ kind: "definition", name: "AES", statement: "Symmetric block cipher." }], steps: [{ reasoning: "AES uses one shared key.", working: "\\text{AES}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Symmetric encryption" },
         },
       ],
     },

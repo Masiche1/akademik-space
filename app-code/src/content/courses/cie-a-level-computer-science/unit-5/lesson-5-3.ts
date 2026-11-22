@@ -313,7 +313,7 @@ export const lesson53: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Sign bit",
+        finalAnswer: "**(a)** Sign bit",
       },
     },
     {
@@ -587,7 +587,7 @@ export const lesson53: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Adjusting mantissa so leading digit is non-zero",
+        finalAnswer: "**(d)** Adjusting mantissa so leading digit is non-zero",
       },
     },
     {

@@ -112,7 +112,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $1+2x+2x^2$",
+            finalAnswer: "**(c)** $1+2x+2x^2$",
             commonErrors: [
               "Forgetting to divide by $2!$ (option c).",
               "Forgetting to square the 2 (option b).",
@@ -456,7 +456,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $1-2x^2$",
+            finalAnswer: "**(b)** $1-2x^2$",
             commonErrors: [
               "Forgetting to square the $2$ (option c).",
               "Keeping $\\frac{(2x)^2}{2}$ unsimplified (option b).",
@@ -503,7 +503,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $x-\\frac{x^2}{2}+\\frac{x^3}{3}$",
+            finalAnswer: "**(c)** $x-\\frac{x^2}{2}+\\frac{x^3}{3}$",
             commonErrors: [
               "All-positive signs (option b).",
               "Including a constant term $1$.",
@@ -635,7 +635,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $1+x+x^2+x^3$",
+            finalAnswer: "**(b)** $1+x+x^2+x^3$",
             commonErrors: [
               "Alternating signs (option b).",
               "Omitting the constant term (option d).",
@@ -722,7 +722,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $1-x+\\frac{x^2}{2}-\\frac{x^3}{6}$",
+            finalAnswer: "**(d)** $1-x+\\frac{x^2}{2}-\\frac{x^3}{6}$",
             commonErrors: [
               "All-positive signs (option b).",
               "Wrong sign on the constant term (option d).",
@@ -917,7 +917,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $1+x-\\frac{x^3}{3}$",
+            finalAnswer: "**(c)** $1+x-\\frac{x^3}{3}$",
             commonErrors: [
               "Including an $x^2$ term.",
               "Sign error on the $x^3$ coefficient.",
@@ -1257,7 +1257,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac12$",
+            finalAnswer: "**(b)** $\\frac12$",
             commonErrors: ["Dropping the factor $\\frac1{2!}$."],
           },
         },
@@ -1525,7 +1525,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $1$",
+            finalAnswer: "**(c)** $1$",
             commonErrors: ["Including the constant term $1$ in the numerator."],
           },
         },
@@ -1651,7 +1651,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac12$",
+            finalAnswer: "**(b)** $\\frac12$",
             commonErrors: ["Forgetting the $-1$ in the numerator."],
           },
         },
@@ -1694,7 +1694,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $2$",
+            finalAnswer: "**(c)** $2$",
             commonErrors: [
               "Stopping after the linear term and getting $\\frac00$.",
             ],
@@ -1860,7 +1860,7 @@ export const lesson63: Lesson = {
                 markCode: "R",
               },
             ],
-            finalAnswer: "**(a)** error $<\\frac1{n+1}$",
+            finalAnswer: "**(d)** error $<\\frac1{n+1}$",
             commonErrors: [
               "Using $\\frac1n$ (the last included term) as the bound.",
             ],

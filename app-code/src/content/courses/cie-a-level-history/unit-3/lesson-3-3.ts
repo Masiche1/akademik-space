@@ -256,7 +256,7 @@ export const lesson633: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Connects back to the question"
+          "finalAnswer": "**(b)** Connects back to the question"
 },
         },
         {
@@ -333,7 +333,7 @@ export const lesson633: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** The main argument"
+          "finalAnswer": "**(b)** The main argument"
 },
         },
         {
@@ -378,7 +378,7 @@ export const lesson633: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Restate argument, answer question"
+          "finalAnswer": "**(b)** Restate argument, answer question"
 },
         },
         {
@@ -532,7 +532,7 @@ export const lesson633: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** State the thesis"
+          "finalAnswer": "**(b)** State the thesis"
 },
         },
         {

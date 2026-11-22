@@ -67,7 +67,7 @@ export const lesson61: Lesson = {
               { reasoning: "The arc is opening, development, conclusion — with explicit signposting.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Opening, development, conclusion",
+            finalAnswer: "**(c)** Opening, development, conclusion",
           },
         },
         {
@@ -163,7 +163,7 @@ export const lesson61: Lesson = {
               { reasoning: "Signposts orient the listener — 'the first point' marks where the argument is.", marks: 1, markCode: "M" },
               { reasoning: "Filler, apologies and vague transitions do not guide the listener.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The first point I want to make is...",
+            finalAnswer: "**(d)** The first point I want to make is...",
           },
         },
         {
@@ -189,7 +189,7 @@ export const lesson61: Lesson = {
               { reasoning: "The opening must capture attention and announce the argument.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Present a hook and state the thesis",
+            finalAnswer: "**(c)** Present a hook and state the thesis",
           },
         },
         {
@@ -216,7 +216,7 @@ export const lesson61: Lesson = {
               { reasoning: "A judgement gives the listener something to remember.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It draws the points together into a judgement the listener can retain",
+            finalAnswer: "**(a)** It draws the points together into a judgement the listener can retain",
           },
         },
         {
@@ -243,7 +243,7 @@ export const lesson61: Lesson = {
               { reasoning: "Slowing down and restating re-establishes contact with the audience.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Slow down, pause and restate the key point",
+            finalAnswer: "**(d)** Slow down, pause and restate the key point",
           },
         },
         {
@@ -269,7 +269,7 @@ export const lesson61: Lesson = {
               { reasoning: "Volume controls how loudly the voice carries.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Volume",
+            finalAnswer: "**(d)** Volume",
           },
         },
         {
@@ -296,7 +296,7 @@ export const lesson61: Lesson = {
               { reasoning: "Fixed or avoided eye contact disconnects the speaker from listeners.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Distributed across the audience",
+            finalAnswer: "**(d)** Distributed across the audience",
           },
         },
         {
@@ -501,7 +501,7 @@ export const lesson61: Lesson = {
               { reasoning: "Confidence comes from preparation and reframing nerves as energy.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Prepare thoroughly and channel energy",
+            finalAnswer: "**(c)** Prepare thoroughly and channel energy",
           },
         },
         {
@@ -600,7 +600,7 @@ export const lesson61: Lesson = {
               { reasoning: "Nervousness and excitement share the same physiology — only the label changes.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Same arousal, positive interpretation",
+            finalAnswer: "**(c)** Same arousal, positive interpretation",
           },
         },
         {
@@ -653,7 +653,7 @@ export const lesson61: Lesson = {
               { reasoning: "It also separates points and reads as confidence, not panic.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Creates anticipation, marks the transition and signals composure",
+            finalAnswer: "**(a)** Creates anticipation, marks the transition and signals composure",
           },
         },
         {
@@ -680,7 +680,7 @@ export const lesson61: Lesson = {
               { reasoning: "A steady slow pace also gives the audience processing time.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Deliberately slower than feels natural",
+            finalAnswer: "**(d)** Deliberately slower than feels natural",
           },
         },
         {
@@ -706,7 +706,7 @@ export const lesson61: Lesson = {
               { reasoning: "Early positive responses steady the speaker before addressing the whole room.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Establishes early connection and builds confidence gradually",
+            finalAnswer: "**(c)** Establishes early connection and builds confidence gradually",
           },
         },
         {
@@ -733,7 +733,7 @@ export const lesson61: Lesson = {
               { reasoning: "Pauses, steady voice and planned transitions read as control.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Rushing, filler words and apologising",
+            finalAnswer: "**(a)** Rushing, filler words and apologising",
           },
         },
         {

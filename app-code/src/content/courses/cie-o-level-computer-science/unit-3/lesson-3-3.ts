@@ -99,7 +99,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "RAM" },
             { id: "d", text: "SSD" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Non-volatile", statement: "Keeps data without power." }], steps: [{ reasoning: "SSD retains data when off.", working: "\\text{SSD}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** SSD" },
+          markscheme: { principles: [{ kind: "definition", name: "Non-volatile", statement: "Keeps data without power." }], steps: [{ reasoning: "SSD retains data when off.", working: "\\text{SSD}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** SSD" },
         },
         {
           id: "olcs-u3-st-q6", difficulty: "core", totalMarks: 2,
@@ -119,7 +119,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "A faster type of CPU" },
             { id: "d", text: "Using part of the hard disk as extra RAM" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Virtual memory", statement: "Disk used as overflow RAM." }], steps: [{ reasoning: "Disk space acts as extra memory.", working: "\\text{disk}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Disk as extra RAM" },
+          markscheme: { principles: [{ kind: "definition", name: "Virtual memory", statement: "Disk used as overflow RAM." }], steps: [{ reasoning: "Disk space acts as extra memory.", working: "\\text{disk}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Disk as extra RAM" },
         },
         {
           id: "olcs-u3-st-q8", difficulty: "core", totalMarks: 2,
@@ -148,7 +148,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Firmware such as the BIOS" },
             { id: "d", text: "User documents" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "ROM", statement: "Non-volatile, read-only firmware." }], steps: [{ reasoning: "ROM holds BIOS/firmware.", working: "\\text{BIOS}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Firmware/BIOS" },
+          markscheme: { principles: [{ kind: "definition", name: "ROM", statement: "Non-volatile, read-only firmware." }], steps: [{ reasoning: "ROM holds BIOS/firmware.", working: "\\text{BIOS}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Firmware/BIOS" },
         },
         {
           id: "olcs-u3-st-q11", difficulty: "core", totalMarks: 2,
@@ -168,7 +168,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Portable media read by a laser" },
             { id: "d", text: "Wireless storage" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Optical", statement: "Laser-read portable discs." }], steps: [{ reasoning: "Optical = laser-read discs.", working: "\\text{laser}", marks: 1, markCode: "M" }, { reasoning: "Portable but slow.", marks: 1, markCode: "A" }], finalAnswer: "**(a)** Laser-read portable media" },
+          markscheme: { principles: [{ kind: "definition", name: "Optical", statement: "Laser-read portable discs." }], steps: [{ reasoning: "Optical = laser-read discs.", working: "\\text{laser}", marks: 1, markCode: "M" }, { reasoning: "Portable but slow.", marks: 1, markCode: "A" }], finalAnswer: "**(c)** Laser-read portable media" },
         },
         {
           id: "olcs-u3-st-q13", difficulty: "challenge", totalMarks: 4,
@@ -211,7 +211,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Volatile primary storage directly accessed by the CPU" },
             { id: "d", text: "An output device" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "RAM", statement: "Volatile primary memory." }], steps: [{ reasoning: "RAM = volatile primary storage.", working: "\\text{RAM}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Volatile primary storage" },
+          markscheme: { principles: [{ kind: "definition", name: "RAM", statement: "Volatile primary memory." }], steps: [{ reasoning: "RAM = volatile primary storage.", working: "\\text{RAM}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Volatile primary storage" },
         },
       ],
     },
@@ -241,7 +241,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "A website URL" },
             { id: "d", text: "A unique hardware address" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "MAC", statement: "Hardware NIC address." }], steps: [{ reasoning: "MAC = hardware address.", working: "\\text{hardware}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Unique hardware address" },
+          markscheme: { principles: [{ kind: "definition", name: "MAC", statement: "Hardware NIC address." }], steps: [{ reasoning: "MAC = hardware address.", working: "\\text{hardware}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Unique hardware address" },
         },
         {
           id: "olcs-u3-nh-q2", difficulty: "core", totalMarks: 2,
@@ -296,7 +296,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Forward packets between different networks" },
             { id: "d", text: "Charge batteries" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Router", statement: "Connects/forwards between networks." }], steps: [{ reasoning: "Routers join networks.", working: "\\text{between networks}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Forward between networks" },
+          markscheme: { principles: [{ kind: "definition", name: "Router", statement: "Connects/forwards between networks." }], steps: [{ reasoning: "Routers join networks.", working: "\\text{between networks}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Forward between networks" },
         },
         {
           id: "olcs-u3-nh-q6", difficulty: "core", totalMarks: 2,
@@ -316,7 +316,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "A password" },
             { id: "d", text: "A logical address that can change" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "IP", statement: "Logical, changeable address." }], steps: [{ reasoning: "IP addresses can change (DHCP).", working: "\\text{logical}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Logical, changeable" },
+          markscheme: { principles: [{ kind: "definition", name: "IP", statement: "Logical, changeable address." }], steps: [{ reasoning: "IP addresses can change (DHCP).", working: "\\text{logical}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Logical, changeable" },
         },
         {
           id: "olcs-u3-nh-q8", difficulty: "core", totalMarks: 2,
@@ -365,7 +365,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Routing between continents" },
             { id: "d", text: "Delivering data within a local network" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "MAC use", statement: "Local delivery on a LAN." }], steps: [{ reasoning: "MAC works at local level.", working: "\\text{LAN}", marks: 1, markCode: "M" }, { reasoning: "IP handles inter-network routing.", marks: 1, markCode: "A" }], finalAnswer: "**(a)** Local network delivery" },
+          markscheme: { principles: [{ kind: "principle", name: "MAC use", statement: "Local delivery on a LAN." }], steps: [{ reasoning: "MAC works at local level.", working: "\\text{LAN}", marks: 1, markCode: "M" }, { reasoning: "IP handles inter-network routing.", marks: 1, markCode: "A" }], finalAnswer: "**(d)** Local network delivery" },
         },
         {
           id: "olcs-u3-nh-q13", difficulty: "challenge", totalMarks: 4,
@@ -387,7 +387,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Speeds up the CPU" },
             { id: "d", text: "Automatically assigns IP addresses to devices" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "DHCP", statement: "Auto-assigns IP addresses." }], steps: [{ reasoning: "DHCP gives out IP addresses.", working: "\\text{DHCP}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Assigns IP addresses" },
+          markscheme: { principles: [{ kind: "definition", name: "DHCP", statement: "Auto-assigns IP addresses." }], steps: [{ reasoning: "DHCP gives out IP addresses.", working: "\\text{DHCP}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Assigns IP addresses" },
         },
         {
           id: "olcs-u3-nh-q15", difficulty: "challenge", totalMarks: 3,
@@ -408,7 +408,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "The user" },
             { id: "d", text: "The manufacturer of the network card" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "MAC", statement: "Factory-assigned hardware ID." }], steps: [{ reasoning: "MAC is set at manufacture.", working: "\\text{manufacturer}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Manufacturer" },
+          markscheme: { principles: [{ kind: "definition", name: "MAC", statement: "Factory-assigned hardware ID." }], steps: [{ reasoning: "MAC is set at manufacture.", working: "\\text{manufacturer}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Manufacturer" },
         },
       ],
     },

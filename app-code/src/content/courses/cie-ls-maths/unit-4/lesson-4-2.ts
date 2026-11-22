@@ -170,7 +170,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "At $(2,5)$ both lines share the same coordinates — both equations hold there.", working: "both satisfied", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Both equations are satisfied at $x=2, y=5$",
+            finalAnswer: "**(c)** Both equations are satisfied at $x=2, y=5$",
             commonErrors: ["Choosing (d) — intersection means BOTH equations are true."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "$x+2=2x-1$ → $x=3$; $y=5$ — intersection $(3,5)$.", working: "x=3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x = 3$",
+            finalAnswer: "**(c)** $x = 3$",
             commonErrors: ["Choosing (b) — reading the $y$-coordinate instead of the $x$-coordinate."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Both gradients are $3$; $3x+1=3x-4$ gives $1=-4$, impossible.", working: "1=-4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** No solution — parallel lines",
+            finalAnswer: "**(c)** No solution — parallel lines",
             commonErrors: ["Choosing (c) — different intercepts mean different lines, not the same line."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "You can only estimate to the nearest unit/grid division.", working: "grid resolution", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Grid resolution limits precision",
+            finalAnswer: "**(d)** Grid resolution limits precision",
             commonErrors: ["Choosing (b) — the graph isn't 'wrong', it's just less precise than algebra."],
           },
         },
@@ -481,7 +481,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Setting equal gives $1=5$ — impossible; both gradients are 1, lines parallel.", working: "1=5 contradiction", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** No solution — parallel lines",
+            finalAnswer: "**(d)** No solution — parallel lines",
             commonErrors: ["Choosing (c) — different intercepts mean different lines, not the same line."],
           },
         },
@@ -586,7 +586,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Setting equal gives contradiction; both gradients 1 → parallel → no solution.", working: "2=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** No solution — parallel lines",
+            finalAnswer: "**(c)** No solution — parallel lines",
             commonErrors: ["Choosing (c) — different intercepts mean different lines."],
           },
         },
@@ -612,7 +612,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "$x=3$; $y=2(3)+1=7$.", working: "x=3,y=7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x = 3, y = 7$",
+            finalAnswer: "**(b)** $x = 3, y = 7$",
             commonErrors: ["Choosing (c) — using the second equation's intercept as $y$ without computing."],
           },
         },
@@ -664,7 +664,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "$(2x+y)-(x+y)=7-5$ → $x=2$; $y=5-2=3$.", working: "x=2,y=3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x = 2$",
+            finalAnswer: "**(b)** $x = 2$",
             commonErrors: ["Choosing (d) — $7-5=2$, not 6; subtraction of equations eliminates $y$."],
           },
         },
@@ -690,7 +690,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "$2y=4x+6$ simplifies to $y=2x+3$ — same equation, infinite solutions.", working: "y=2x+3 \\text{ both}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Infinitely many solutions",
+            finalAnswer: "**(d)** Infinitely many solutions",
             commonErrors: ["Choosing (b) — proportional equations are the same line, not parallel."],
           },
         },

@@ -42,7 +42,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Only sales totals" },
             { id: "d", text: "All ledger account balances" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Trial balance", statement: "All balances." }], steps: [{ reasoning: "All account balances.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** All balances" },
+          markscheme: { principles: [{ kind: "definition", name: "Trial balance", statement: "All balances." }], steps: [{ reasoning: "All account balances.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** All balances" },
         },
         {
           id: "olacc-u2-tb-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Both columns" },
             { id: "d", text: "Credit column" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Trial balance", statement: "Assets+expenses debit." }], steps: [{ reasoning: "Expenses have debit balances so appear in the debit column.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Debit column" },
+          markscheme: { principles: [{ kind: "principle", name: "Trial balance", statement: "Assets+expenses debit." }], steps: [{ reasoning: "Expenses have debit balances so appear in the debit column.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Debit column" },
         },
         {
           id: "olacc-u2-tb-q6", difficulty: "core", totalMarks: 1,
@@ -109,7 +109,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Cash = bank" },
             { id: "d", text: "Total debits = total credits" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "TB agreement", statement: "Dr = Cr." }], steps: [{ reasoning: "Agreement means debit and credit totals are equal.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Total debits = total credits" },
+          markscheme: { principles: [{ kind: "principle", name: "TB agreement", statement: "Dr = Cr." }], steps: [{ reasoning: "Agreement means debit and credit totals are equal.", marks: 1, markCode: "M" }], finalAnswer: "**(d)** Total debits = total credits" },
         },
         {
           id: "olacc-u2-tb-q7", difficulty: "core", totalMarks: 2,
@@ -138,7 +138,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Error of omission" },
             { id: "d", text: "Compensating error" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "TB detection", statement: "Detects one-sided errors." }], steps: [{ reasoning: "An omission unbalances one side, so the TB detects it; the others affect both sides equally.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Error of omission" },
+          markscheme: { principles: [{ kind: "principle", name: "TB detection", statement: "Detects one-sided errors." }], steps: [{ reasoning: "An omission unbalances one side, so the TB detects it; the others affect both sides equally.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** Error of omission" },
         },
         {
           id: "olacc-u2-tb-q10", difficulty: "challenge", totalMarks: 4,
@@ -254,7 +254,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Missing an entry" },
             { id: "d", text: "Wrong total" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Commission", statement: "Wrong account." }], steps: [{ reasoning: "Commission = wrong account.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Wrong account" },
+          markscheme: { principles: [{ kind: "definition", name: "Commission", statement: "Wrong account." }], steps: [{ reasoning: "Commission = wrong account.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Wrong account" },
         },
         {
           id: "olacc-u2-er-q2", difficulty: "core", totalMarks: 2,
@@ -350,7 +350,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Wrong total in one account" },
             { id: "d", text: "Error of omission" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "principle", name: "TB limits", statement: "Both-sides errors." }], steps: [{ reasoning: "Commission affects both debit and credit equally, so the TB still agrees.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Error of commission" },
+          markscheme: { principles: [{ kind: "principle", name: "TB limits", statement: "Both-sides errors." }], steps: [{ reasoning: "Commission affects both debit and credit equally, so the TB still agrees.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Error of commission" },
         },
         {
           id: "olacc-u2-er-q10", difficulty: "challenge", totalMarks: 4,

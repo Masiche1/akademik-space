@@ -73,7 +73,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "The E in MRS GREN is excretion, which means getting rid of the body's waste, for example carbon dioxide or urea.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Excretion",
+            finalAnswer: "**(c)** Excretion",
             commonErrors: ["Choosing respiration because carbon dioxide is a waste product; respiration is the release of energy from food, not the removal of waste.", "Choosing nutrition because it is about substances entering the body, not leaving it."],
             examinerNote: "B1 for excretion.",
           },
@@ -172,7 +172,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Making food by photosynthesis is a form of nutrition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Nutrition",
+            finalAnswer: "**(c)** Nutrition",
             commonErrors: ["Choosing movement, which is changing position.", "Choosing excretion, which is removing waste."],
             examinerNote: "B1 for nutrition.",
           },
@@ -190,7 +190,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Mitochondria" },
               { id: "d", text: "Nucleus" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -199,7 +199,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Chloroplasts (and the cell wall and permanent vacuole) are plant-only; the nucleus, cell membrane and mitochondria are in both.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Chloroplasts",
+            finalAnswer: "**(b)** Chloroplasts",
             commonErrors: ["Choosing mitochondria, which are found in both plant and animal cells."],
             examinerNote: "B1 for chloroplasts (accept cell wall or permanent vacuole).",
           },
@@ -226,7 +226,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Mitochondria release energy through respiration.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To release energy by respiration",
+            finalAnswer: "**(d)** To release energy by respiration",
             commonErrors: ["Choosing the cell membrane's role (controls entry and exit).", "Choosing chloroplasts' role (photosynthesis)."],
             examinerNote: "B1 for releasing energy / respiration.",
           },
@@ -273,7 +273,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Many chloroplasts mean the cell carries out lots of photosynthesis, which is the job of a palisade cell.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** To carry out a lot of photosynthesis",
+            finalAnswer: "**(a)** To carry out a lot of photosynthesis",
             commonErrors: ["Choosing respiration (mitochondria's job).", "Choosing cell membrane's job (control of entry and exit)."],
             examinerNote: "B1 for photosynthesis.",
           },
@@ -493,7 +493,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "$2\\ \\mu\\text{m}$" },
               { id: "d", text: "$20\\ \\mu\\text{m}$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -502,7 +502,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Multiply by 1000 to change millimetres into micrometres.", working: "0.2\\times1000=200\\ \\mu\\text{m}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $200\\ \\mu\\text{m}$",
+            finalAnswer: "**(b)** $200\\ \\mu\\text{m}$",
             commonErrors: ["Dividing by 1000 instead of multiplying.", "Multiplying by 100 or 10 000 by confusing the conversion factor with centimetres."],
             examinerNote: "B1 for 200 $\\mu\\text{m}$.",
           },
@@ -657,7 +657,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "The coarse focus moves the stage a long way for rough focusing; the fine focus is then used for sharp focus.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Coarse focus",
+            finalAnswer: "**(a)** Coarse focus",
             commonErrors: ["Choosing fine focus, which is for final sharp focusing only."],
             examinerNote: "B1 for coarse focus.",
           },
@@ -703,7 +703,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Multiply by 1000: $0.05\\times1000=50\\ \\mu\\text{m}$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $50\\ \\mu\\text{m}$",
+            finalAnswer: "**(a)** $50\\ \\mu\\text{m}$",
             commonErrors: ["Dividing by 1000.", "Multiplying by 100 instead of 1000."],
             examinerNote: "B1 for 50 $\\mu\\text{m}$.",
           },

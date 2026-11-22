@@ -58,7 +58,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Convection" },
               { id: "d", text: "Radiation" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -67,7 +67,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Space is a vacuum with no particles, so conduction and convection cannot happen. Only radiation can cross it.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Radiation",
+            finalAnswer: "**(d)** Radiation",
             commonErrors: ["Choosing convection because the Sun heats air; there is no air between the Sun and the Earth."],
             examinerNote: "B1 for (c).",
           },

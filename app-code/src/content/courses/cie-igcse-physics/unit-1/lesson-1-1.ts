@@ -61,7 +61,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Acceleration unit", statement: "m/s²." }],
             steps: [{ reasoning: "Recall.", working: "\\text{m/s}^2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** m/s²",
+            finalAnswer: "**(d)** m/s²",
             commonErrors: ["m/s is velocity."],
           },
         },
@@ -137,11 +137,11 @@ export const lessonp11: Lesson = {
             { id: "b", text: "Distance" },
             { id: "c", text: "Acceleration" },
             { id: "d", text: "Displacement" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Scalar", statement: "Magnitude only — distance is scalar." }],
             steps: [{ reasoning: "Recall.", working: "\\text{distance}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Distance",
+            finalAnswer: "**(b)** Distance",
             commonErrors: ["Velocity/displacement/acceleration are vectors."],
           },
         },
@@ -175,7 +175,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Velocity", statement: "Speed in a given direction — vector." }],
             steps: [{ reasoning: "Recall.", working: "v = \\frac{s}{t} \\text{ with direction}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** includes a direction",
+            finalAnswer: "**(a)** includes a direction",
             commonErrors: ["Velocity is displacement/time, not distance/time."],
           },
         },
@@ -231,7 +231,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Acceleration", statement: "a = (v−u)/t." }],
             steps: [{ reasoning: "a = (10−25)/5 = −3.", working: "a = \\frac{10-25}{5}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $-3\\ \\text{m/s}^2$",
+            finalAnswer: "**(c)** $-3\\ \\text{m/s}^2$",
             commonErrors: ["Dropping the negative sign for deceleration."],
           },
         },
@@ -270,7 +270,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Average speed", statement: "Total distance ÷ total time." }],
             steps: [{ reasoning: "Recall.", working: "v_{avg} = \\frac{\\text{total distance}}{\\text{total time}}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** total distance ÷ total time",
+            finalAnswer: "**(d)** total distance ÷ total time",
             commonErrors: ["Averaging the leg speeds — wrong when times differ."],
           },
         },
@@ -301,11 +301,11 @@ export const lessonp11: Lesson = {
             { id: "b", text: "km/h only" },
             { id: "c", text: "m/s²" },
             { id: "d", text: "s/m" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Velocity unit", statement: "m/s." }],
             steps: [{ reasoning: "Recall.", working: "\\text{m/s}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** m/s",
+            finalAnswer: "**(a)** m/s",
             commonErrors: ["m/s² is acceleration."],
           },
         },
@@ -404,7 +404,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "d-t gradient", statement: "Gradient = speed." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gradient} = v", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Speed",
+            finalAnswer: "**(a)** Speed",
             commonErrors: ["Acceleration is on v-t graph."],
           },
         },
@@ -484,7 +484,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "v-t gradient", statement: "Gradient = acceleration." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gradient} = a", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Acceleration",
+            finalAnswer: "**(a)** Acceleration",
             commonErrors: ["Speed is the d-t gradient."],
           },
         },
@@ -518,7 +518,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "d-t graph", statement: "Horizontal = distance not changing = stationary." }],
             steps: [{ reasoning: "Recall.", working: "\\text{flat} \\Rightarrow s \\text{ constant}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Stationary object",
+            finalAnswer: "**(d)** Stationary object",
             commonErrors: ["Zero gradient → zero speed, not constant speed."],
           },
         },
@@ -569,7 +569,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "v-t graph", statement: "Below axis = negative velocity." }],
             steps: [{ reasoning: "Recall.", working: "v < 0 \\Rightarrow \\text{opposite direction}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** moving with negative velocity (opposite direction)",
+            finalAnswer: "**(a)** moving with negative velocity (opposite direction)",
             commonErrors: ["Below axis is still motion, not rest."],
           },
         },
@@ -608,7 +608,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "v-t graph", statement: "Area = distance." }],
             steps: [{ reasoning: "Recall.", working: "s = \\text{area}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** the area under the line",
+            finalAnswer: "**(d)** the area under the line",
             commonErrors: ["Gradient gives acceleration, not distance."],
           },
         },

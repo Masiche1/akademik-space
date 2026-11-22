@@ -96,7 +96,7 @@ export const lesson411: Lesson = {
             steps: [
               { reasoning: "Xylem = water/minerals.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Water and minerals",
+            finalAnswer: "**(b)** Water and minerals",
             commonErrors: ["Confusing with phloem (sugars)."],
           },
         },
@@ -263,7 +263,7 @@ export const lesson411: Lesson = {
             steps: [
               { reasoning: "Xylem vessels are dead hollow tubes with lignified walls and no end walls.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Dead, hollow tubes with lignified walls",
+            finalAnswer: "**(c)** Dead, hollow tubes with lignified walls",
             commonErrors: ["Confusing xylem vessels with living phloem cells."],
           },
         },
@@ -325,7 +325,7 @@ export const lesson411: Lesson = {
             steps: [
               { reasoning: "High humidity reduces the water potential gradient, slowing transpiration.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** High humidity",
+            finalAnswer: "**(c)** High humidity",
             commonErrors: ["Picking a factor that increases transpiration."],
           },
         },
@@ -369,7 +369,7 @@ export const lesson411: Lesson = {
             steps: [
               { reasoning: "Open stomata in light increase water vapour loss, raising transpiration rate.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Transpiration rate increases",
+            finalAnswer: "**(b)** Transpiration rate increases",
             commonErrors: ["Thinking open stomata reduce water loss."],
           },
         },
@@ -415,7 +415,7 @@ export const lesson411: Lesson = {
             steps: [
               { reasoning: "Lignin provides mechanical support and prevents water leaking from xylem.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Support and waterproofing",
+            finalAnswer: "**(b)** Support and waterproofing",
             commonErrors: ["Confusing lignin with chlorophyll."],
           },
         },
@@ -461,7 +461,7 @@ export const lesson411: Lesson = {
             steps: [
               { reasoning: "Xylem carries water and dissolved minerals from roots to leaves.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Xylem",
+            finalAnswer: "**(d)** Xylem",
             commonErrors: ["Confusing with phloem."],
           },
         },
@@ -579,7 +579,7 @@ export const lesson411: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Sugars and amino acids",
+            finalAnswer: "**(c)** Sugars and amino acids",
             commonErrors: ["Confusing with xylem (water)."],
           },
         },
@@ -765,7 +765,7 @@ export const lesson411: Lesson = {
             steps: [
               { reasoning: "Companion cells contain many mitochondria and power active transport.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Companion cells",
+            finalAnswer: "**(d)** Companion cells",
             commonErrors: ["Thinking sieve tube elements have nuclei to supply energy."],
           },
         },
@@ -827,7 +827,7 @@ export const lesson411: Lesson = {
             steps: [
               { reasoning: "Sinks consume or store sucrose — developing fruits, roots and growing tissues qualify.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A developing fruit",
+            finalAnswer: "**(a)** A developing fruit",
             commonErrors: ["Confusing source leaves with sinks."],
           },
         },
@@ -891,7 +891,7 @@ export const lesson411: Lesson = {
             steps: [
               { reasoning: "Sucrose is the principal sugar transported in phloem sap.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sucrose",
+            finalAnswer: "**(b)** Sucrose",
             commonErrors: ["Saying glucose is the main transported sugar."],
           },
         },
@@ -937,7 +937,7 @@ export const lesson411: Lesson = {
             steps: [
               { reasoning: "Sieve tubes are living cells that lack nuclei and depend on companion cells.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Living, no nucleus, with companion cells",
+            finalAnswer: "**(a)** Living, no nucleus, with companion cells",
             commonErrors: ["Calling them dead like xylem vessels."],
           },
         },

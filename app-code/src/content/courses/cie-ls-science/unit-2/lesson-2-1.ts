@@ -66,7 +66,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "MRS GREN doesn't include thinking; bacteria live without it.", working: "not MRS GREN", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Thinking",
+            finalAnswer: "**(b)** Thinking",
             commonErrors: ["Choosing a life process — thinking is cognitive, not vital."],
           },
         },
@@ -211,7 +211,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Sensitivity", statement: "Detecting and responding to environmental changes." }],
             steps: [{ reasoning: "The plant detects light and responds by growing towards it.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Sensitivity",
+            finalAnswer: "**(d)** Sensitivity",
           },
         },
         {
@@ -259,7 +259,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Reproduction", statement: "Producing offspring to continue the species." }],
             steps: [{ reasoning: "Reproduction is the production of offspring.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Reproduction",
+            finalAnswer: "**(b)** Reproduction",
           },
         },
         {
@@ -292,7 +292,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Growth vs movement", statement: "Growth is permanent size increase; movement is position change." }],
             steps: [{ reasoning: "Growth changes size permanently, while movement changes position.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Growth is permanent increase in size; movement changes position",
+            finalAnswer: "**(b)** Growth is permanent increase in size; movement changes position",
           },
         },
         {
@@ -340,7 +340,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Living criteria", statement: "All seven life processes are needed for full classification as living." }],
             steps: [{ reasoning: "Missing any MRS GREN process means the organism is not fully living.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** It carries out all seven MRS GREN processes",
+            finalAnswer: "**(b)** It carries out all seven MRS GREN processes",
           },
         },
       ],
@@ -395,7 +395,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Correct sequence: Kingdom, Phylum, Class, Order, Family, Genus, Species.", working: "KPCOFGS", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Kingdom, Phylum, Class, Order, Family, Genus, Species",
+            finalAnswer: "**(c)** Kingdom, Phylum, Class, Order, Family, Genus, Species",
             commonErrors: ["Choosing (c) — Class before Phylum is wrong."],
           },
         },
@@ -496,7 +496,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Hierarchy", statement: "Species is the most specific major classification level." }],
             steps: [{ reasoning: "Species comes after genus and groups the most similar organisms.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Species",
+            finalAnswer: "**(d)** Species",
           },
         },
         {
@@ -543,7 +543,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Binomial nomenclature", statement: "The genus name comes first." }],
             steps: [{ reasoning: "Homo is the genus; sapiens is the species.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Homo",
+            finalAnswer: "**(b)** Homo",
           },
         },
         {
@@ -591,7 +591,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Binomial nomenclature", statement: "Scientific names are italicised or underlined." }],
             steps: [{ reasoning: "Italicising distinguishes the scientific name from common names.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** In italics or underlined",
+            finalAnswer: "**(c)** In italics or underlined",
           },
         },
         {
@@ -672,7 +672,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Hierarchy", statement: "Order is broader than family." }],
             steps: [{ reasoning: "Order comes before family in the classification sequence.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Order",
+            finalAnswer: "**(b)** Order",
           },
         },
       ],
@@ -727,7 +727,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Plants make their own food via photosynthesis.", working: "autotrophic", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Plantae",
+            finalAnswer: "**(d)** Plantae",
             commonErrors: ["Choosing (d) — some bacteria photosynthesise but plants are the main group."],
           },
         },
@@ -828,7 +828,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Fungi", statement: "Fungal cell walls contain chitin." }],
             steps: [{ reasoning: "Chitin distinguishes fungal walls from plant cellulose walls.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Chitin",
+            finalAnswer: "**(d)** Chitin",
           },
         },
         {
@@ -875,7 +875,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Protoctists", statement: "Protoctists are mostly unicellular eukaryotes." }],
             steps: [{ reasoning: "Amoeba is a unicellular eukaryotic protoctist.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Protoctists",
+            finalAnswer: "**(c)** Protoctists",
           },
         },
         {
@@ -956,7 +956,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Prokaryotes", statement: "Bacteria lack a nucleus and are prokaryotic." }],
             steps: [{ reasoning: "Bacteria are unicellular prokaryotes.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Prokaryotes",
+            finalAnswer: "**(b)** Prokaryotes",
           },
         },
         {
@@ -1004,7 +1004,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Classification key", statement: "Kingdoms are distinguished by cell type, structure and nutrition." }],
             steps: [{ reasoning: "Cell structure and nutrition provide reliable kingdom criteria.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Cell structure and nutrition",
+            finalAnswer: "**(d)** Cell structure and nutrition",
           },
         },
       ],

@@ -122,7 +122,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Splitting heavy nucleus",
+            finalAnswer: "**(b)** Splitting heavy nucleus",
             commonErrors: [
               "Confusing with fusion — fission splits, fusion joins.",
             ],
@@ -353,7 +353,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Slow neutrons to thermal energies",
+            finalAnswer: "**(a)** Slow neutrons to thermal energies",
             commonErrors: [
               "Confusing moderator with control rods — rods absorb neutrons.",
             ],
@@ -404,7 +404,7 @@ export const lesson63: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Minimum mass for a self-sustaining chain reaction",
+              "**(a)** Minimum mass for a self-sustaining chain reaction",
             commonErrors: [
               "Thinking critical mass is a chemical property — it depends on geometry and enrichment.",
             ],
@@ -448,7 +448,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Absorb neutrons strongly",
+            finalAnswer: "**(c)** Absorb neutrons strongly",
             commonErrors: [
               "Thinking control rods generate energy — they regulate neutron number.",
             ],
@@ -492,7 +492,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Kinetic energy of fission fragments",
+            finalAnswer: "**(c)** Kinetic energy of fission fragments",
             commonErrors: [
               "Thinking electricity is generated directly by fission radiation.",
             ],
@@ -542,7 +542,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Exactly one further fission per fission",
+            finalAnswer: "**(a)** Exactly one further fission per fission",
             commonErrors: [
               "Confusing critical with supercritical — critical is steady, not accelerating.",
             ],
@@ -980,7 +980,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Joining light nuclei",
+            finalAnswer: "**(c)** Joining light nuclei",
             commonErrors: [
               "Confusing with fission — fusion joins, fission splits.",
             ],
@@ -1306,7 +1306,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $17.6\\text{ MeV}$",
+            finalAnswer: "**(d)** $17.6\\text{ MeV}$",
             commonErrors: ["Using the much larger U-235 fission energy."],
           },
         },
@@ -1401,7 +1401,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Abundant fuel and little long-lived waste",
+            finalAnswer: "**(a)** Abundant fuel and little long-lived waste",
             commonErrors: [
               "Claiming controlled fusion is already commercial — it remains experimental.",
             ],

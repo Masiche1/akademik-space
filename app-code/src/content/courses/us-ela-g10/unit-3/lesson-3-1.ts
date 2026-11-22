@@ -121,7 +121,7 @@ export const lesson31: Lesson = {
                 text: "By comparing life to a fleeting candle and a bad actor, Macbeth reveals a despair so complete that he can no longer find meaning in his own ambition.",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -142,7 +142,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)**. It is specific and arguable and explains how the speech creates meaning. The others are vague, a statement of fact or avoid taking a position.",
+              "**(d)**. It is specific and arguable and explains how the speech creates meaning. The others are vague, a statement of fact or avoid taking a position.",
             commonErrors: [
               "Choosing (b) because it names figurative language, but it does not say what the language reveals.",
             ],
@@ -500,7 +500,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. It explains how repetition works and what it suggests. The others report what Macbeth says.",
+              "**(c)**. It explains how repetition works and what it suggests. The others report what Macbeth says.",
             commonErrors: [
               "Choosing (a) because it mentions a reason (the death) for his speech; that is still plot.",
             ],
@@ -526,7 +526,7 @@ export const lesson31: Lesson = {
                 text: "Through theatrical imagery, Macbeth reduces life to a hollow performance, conveying his despair at its futility.",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -554,7 +554,7 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)**. It states a focused, arguable claim. (a) is too vague, (b) only locates the scene and (d) is a general observation.",
+              "**(d)**. It states a focused, arguable claim. (a) is too vague, (b) only locates the scene and (d) is a general observation.",
             commonErrors: [
               "Choosing (b) because it mentions the act and soliloquy, but it makes no claim.",
             ],

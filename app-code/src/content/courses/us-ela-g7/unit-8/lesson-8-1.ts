@@ -124,7 +124,7 @@ export const lesson81: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Exhausted = extremely tired.",
+            finalAnswer: "**(d)**. Exhausted = extremely tired.",
             commonErrors: [
               "Choosing (a) — 'pride' comes later, not 'exhausted'.",
             ],
@@ -337,7 +337,7 @@ export const lesson81: Lesson = {
               { id: "c", text: "Slender" },
               { id: "d", text: "Thin" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -356,7 +356,7 @@ export const lesson81: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(c)**. 'Skinny' has the most negative connotation.",
+            finalAnswer: "**(a)**. 'Skinny' has the most negative connotation.",
             commonErrors: ["Choosing 'thin' — it's neutral, not negative."],
           },
         },
@@ -572,7 +572,7 @@ export const lesson81: Lesson = {
               { id: "c", text: "Climbed" },
               { id: "d", text: "Walked" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -592,7 +592,7 @@ export const lesson81: Lesson = {
               },
             ],
             finalAnswer:
-              "**(d)**. 'Trudged' best captures the weary effort of a steep climb.",
+              "**(b)**. 'Trudged' best captures the weary effort of a steep climb.",
             commonErrors: [
               "Choosing 'walked' — too neutral for an exhausting climb.",
             ],

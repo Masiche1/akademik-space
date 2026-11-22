@@ -42,7 +42,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Managing staff" },
             { id: "d", text: "Gathering information about markets and customers" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Market research", statement: "Info gathering." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Market research", statement: "Info gathering." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u2-pu-q2", difficulty: "core", totalMarks: 2,
@@ -109,7 +109,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "The cheapest market to enter" },
             { id: "d", text: "The largest possible market" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Target market", statement: "Specific customer group." }], steps: [{ reasoning: "Target market = specific group the business aims to serve.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Target market", statement: "Specific customer group." }], steps: [{ reasoning: "Target market = specific group the business aims to serve.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u2-pu-q7", difficulty: "foundation", totalMarks: 1,
@@ -173,7 +173,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Buy new kitchen equipment" },
             { id: "d", text: "Lower its prices" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Market research", statement: "Before decisions." }], steps: [{ reasoning: "Research gathers customer preference data first.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Conduct market research" },
+          markscheme: { principles: [{ kind: "principle", name: "Market research", statement: "Before decisions." }], steps: [{ reasoning: "Research gathers customer preference data first.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Conduct market research" },
         },
         {
           id: "olbus-u2-pu-q13", difficulty: "core", totalMarks: 2,
@@ -193,7 +193,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Hire more staff" },
             { id: "d", text: "Reduce uncertainty about markets and customers" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Market research", statement: "Reduce uncertainty." }], steps: [{ reasoning: "Research reduces uncertainty.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Market research", statement: "Reduce uncertainty." }], steps: [{ reasoning: "Research reduces uncertainty.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u2-pu-q15", difficulty: "core", totalMarks: 2,
@@ -257,7 +257,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Data from the internet" },
             { id: "d", text: "Data from competitors" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Primary research", statement: "First-hand." }], steps: [{ reasoning: "Collected directly.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Primary research", statement: "First-hand." }], steps: [{ reasoning: "Collected directly.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u2-mr-q2", difficulty: "core", totalMarks: 2,
@@ -313,7 +313,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "First-hand customer surveys" },
             { id: "d", text: "Data already collected by others" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Secondary research", statement: "Existing data." }], steps: [{ reasoning: "Secondary = data collected by others.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Secondary research", statement: "Existing data." }], steps: [{ reasoning: "Secondary = data collected by others.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u2-mr-q6", difficulty: "core", totalMarks: 1,
@@ -324,7 +324,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Government census data" },
             { id: "d", text: "A competitor's annual report" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Primary methods", statement: "First-hand." }], steps: [{ reasoning: "Questionnaires are collected first-hand.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Questionnaire" },
+          markscheme: { principles: [{ kind: "definition", name: "Primary methods", statement: "First-hand." }], steps: [{ reasoning: "Questionnaires are collected first-hand.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Questionnaire" },
         },
         {
           id: "olbus-u2-mr-q7", difficulty: "foundation", totalMarks: 1,
@@ -408,7 +408,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "First-hand by the business itself" },
             { id: "d", text: "Only from competitors' websites" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Primary research", statement: "First-hand." }], steps: [{ reasoning: "Primary = collected directly by the business.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Primary research", statement: "First-hand." }], steps: [{ reasoning: "Primary = collected directly by the business.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u2-mr-q15", difficulty: "core", totalMarks: 2,

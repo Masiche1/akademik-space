@@ -230,7 +230,7 @@ export const lesson27: Lesson = {
             steps: [
               { reasoning: "An IP address uniquely identifies a device on a network.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Unique number identifying a device",
+            finalAnswer: "**(c)** Unique number identifying a device",
           },
         },
         {
@@ -279,7 +279,7 @@ export const lesson27: Lesson = {
             steps: [
               { reasoning: "DNS converts human-readable domain names into IP addresses.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Translates names into IP addresses",
+            finalAnswer: "**(d)** Translates names into IP addresses",
           },
         },
         {
@@ -315,7 +315,7 @@ export const lesson27: Lesson = {
               { reasoning: "Packets can travel different routes and are reassembled at the destination.", marks: 1, markCode: "M" },
               { reasoning: "If one packet is lost, only it needs resending — the rest still arrive.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Flexibility and resilience",
+            finalAnswer: "**(c)** Flexibility and resilience",
           },
         },
         {

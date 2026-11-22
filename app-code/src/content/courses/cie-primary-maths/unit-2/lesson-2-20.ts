@@ -267,7 +267,7 @@ export const lesson220: Lesson = {
             { id: "b", text: "mean" },
             { id: "c", text: "mode" },
             { id: "d", text: "range" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Choosing averages", statement: "Median resists outliers." }],
             steps: [{ reasoning: "Median is unaffected by extreme values.", marks: 1, markCode: "A" }],

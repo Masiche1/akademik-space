@@ -68,7 +68,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The warming mechanism is absorption and re-emission of infrared radiation, which slows the loss of energy to space.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** They absorb outgoing infrared radiation and re-emit part of it back toward the surface.",
+            finalAnswer: "**(c)** They absorb outgoing infrared radiation and re-emit part of it back toward the surface.",
             commonErrors: ["Confusing the greenhouse effect with reflection of sunlight, which cools Earth.", "Thinking greenhouse gases change the Sun's output."],
             examinerNote: "B1 for (a).",
           },

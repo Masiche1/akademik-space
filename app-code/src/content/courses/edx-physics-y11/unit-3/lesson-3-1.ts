@@ -205,7 +205,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "An alpha particle has mass number 4 and atomic number 2, so the nucleus loses 4 from $A$ and 2 from $Z$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(a)**",
             commonErrors: ["Choosing (c), which describes beta decay.", "Choosing (a) by losing 4 from both numbers."],
             examinerNote: "B1 for (b).",
           },

@@ -59,7 +59,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Expansion", statement: "Heat → expand." }],
             steps: [{ reasoning: "Recall.", working: "\\text{expand}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Expand",
+            finalAnswer: "**(c)** Expand",
             commonErrors: ["Water ice anomaly exception."],
           },
         },
@@ -139,7 +139,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Expansion", statement: "Heating increases average particle spacing." }],
             steps: [{ reasoning: "Recall expansion mechanism.", working: "\\text{spacing increases}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Average particle spacing increases",
+            finalAnswer: "**(a)** Average particle spacing increases",
             commonErrors: ["Thinking particles are created during heating."],
           },
         },
@@ -174,7 +174,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Bimetallic strip", statement: "Different expansion rates cause bending." }],
             steps: [{ reasoning: "Recall bimetal mechanism.", working: "\\text{different expansion}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The two metals expand by different amounts",
+            finalAnswer: "**(a)** The two metals expand by different amounts",
             commonErrors: ["Thinking both metals expand identically."],
           },
         },
@@ -227,7 +227,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Expansion", statement: "Metals generally expand most." }],
             steps: [{ reasoning: "Recall relative expansion.", working: "\\text{metals expand most}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Metal",
+            finalAnswer: "**(d)** Metal",
             commonErrors: ["Thinking all materials expand equally."],
           },
         },
@@ -262,7 +262,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Thermometer", statement: "Liquid expands more than glass." }],
             steps: [{ reasoning: "Recall thermometer operation.", working: "\\text{liquid expands more}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Expands more than the glass",
+            finalAnswer: "**(d)** Expands more than the glass",
             commonErrors: ["Thinking the glass expands more than the liquid."],
           },
         },
@@ -296,7 +296,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Expansion applications", statement: "Thermostats, gaps, thermometers." }],
             steps: [{ reasoning: "Recall an expansion application.", working: "\\text{thermostat}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A bimetallic thermostat",
+            finalAnswer: "**(c)** A bimetallic thermostat",
             commonErrors: ["Choosing an insulation device."],
           },
         },
@@ -464,7 +464,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Insulation", statement: "Trapped air is a poor conductor." }],
             steps: [{ reasoning: "Recall how fibreglass works.", working: "\\text{trapped air}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Trapping air to reduce conduction",
+            finalAnswer: "**(c)** Trapping air to reduce conduction",
             commonErrors: ["Thinking fibreglass mainly reflects radiation."],
           },
         },
@@ -498,7 +498,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Vacuum flask", statement: "Vacuum blocks conduction and convection." }],
             steps: [{ reasoning: "Recall vacuum function.", working: "\\text{conduction + convection}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Conduction and convection",
+            finalAnswer: "**(d)** Conduction and convection",
             commonErrors: ["Thinking vacuum stops radiation too."],
           },
         },
@@ -550,7 +550,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Double glazing", statement: "Air gap reduces conduction." }],
             steps: [{ reasoning: "Recall glazing mechanism.", working: "\\text{air poor conductor}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A poor conductor",
+            finalAnswer: "**(a)** A poor conductor",
             commonErrors: ["Thinking air conducts heat well."],
           },
         },
@@ -584,7 +584,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Draught excluders", statement: "Reduce unwanted air movement." }],
             steps: [{ reasoning: "Recall what draughts cause.", working: "\\text{convection}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Convection",
+            finalAnswer: "**(c)** Convection",
             commonErrors: ["Thinking draughts mainly increase radiation."],
           },
         },
@@ -618,7 +618,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Loft insulation", statement: "Traps air to reduce conduction." }],
             steps: [{ reasoning: "Recall loft insulation function.", working: "\\text{traps air}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Trap air and reduce conduction",
+            finalAnswer: "**(c)** Trap air and reduce conduction",
             commonErrors: ["Thinking insulation conducts heat."],
           },
         },

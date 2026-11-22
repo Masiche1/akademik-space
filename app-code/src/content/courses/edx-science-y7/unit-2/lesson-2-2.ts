@@ -93,7 +93,7 @@ export const lesson22: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Change of state",
+            finalAnswer: "**(d)** Change of state",
             commonErrors: ["All are chemical view."],
           },
         },
@@ -321,7 +321,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Acid = pH below 7.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** 0-6",
+            finalAnswer: "**(a)** 0-6",
             commonErrors: ["Including 7."],
           },
         },

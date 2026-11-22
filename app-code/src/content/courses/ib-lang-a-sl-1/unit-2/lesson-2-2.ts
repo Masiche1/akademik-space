@@ -99,7 +99,7 @@ export const lesson22: Lesson = {
                 text: "This essay will discuss the poem's use of imagery.",
               },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -123,7 +123,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** The grief-as-house thesis",
+            finalAnswer: "**(a)** The grief-as-house thesis",
             commonErrors: ["Confusing a topic announcement with a thesis."],
           },
         },
@@ -357,7 +357,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Light as moral visibility",
+            finalAnswer: "**(a)** Light as moral visibility",
             commonErrors: ["Announcing a topic instead of arguing a claim."],
           },
         },
@@ -398,7 +398,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** A reasonable reader could disagree",
+            finalAnswer: "**(a)** A reasonable reader could disagree",
             commonErrors: ["Writing claims so safe they require no evidence."],
           },
         },
@@ -442,7 +442,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Each paragraph can be a step toward proving it",
+              "**(d)** Each paragraph can be a step toward proving it",
             commonErrors: ["Writing a thesis too narrow to sustain an essay."],
           },
         },
@@ -531,7 +531,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** A list of observations, not an argument",
+            finalAnswer: "**(a)** A list of observations, not an argument",
             commonErrors: [
               "Treating paragraph count as a substitute for argument.",
             ],
@@ -578,7 +578,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Journey as passage from certainty to acceptance",
+              "**(a)** Journey as passage from certainty to acceptance",
             commonErrors: ["Choosing a thesis that merely restates the plot."],
           },
         },
@@ -1065,7 +1065,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Frame the argument and state the thesis",
+            finalAnswer: "**(c)** Frame the argument and state the thesis",
           },
         },
         {
@@ -1281,7 +1281,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "Ending with a thesis" },
               { id: "d", text: "Detailed plot summary" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1304,7 +1304,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Detailed plot summary",
+            finalAnswer: "**(d)** Detailed plot summary",
             commonErrors: ["Using the introduction to retell the text."],
           },
         },
@@ -1344,7 +1344,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Topic sentence, evidence, analysis, link",
+            finalAnswer: "**(b)** Topic sentence, evidence, analysis, link",
             commonErrors: [
               "Writing paragraphs of quotation and commentary without a linking move.",
             ],
@@ -1391,7 +1391,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Repeats a topic rather than resolving the argument",
+              "**(c)** Repeats a topic rather than resolving the argument",
             commonErrors: ["Summarising instead of resolving."],
           },
         },
@@ -1435,7 +1435,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Connect back to thesis or forward to next point",
+              "**(d)** Connect back to thesis or forward to next point",
             commonErrors: [
               "Ending paragraphs abruptly without a linking move.",
             ],
@@ -1483,7 +1483,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Names text, frames context, ends with thesis",
+            finalAnswer: "**(a)** Names text, frames context, ends with thesis",
             commonErrors: ["Front-loading summary and device lists."],
           },
         },
@@ -1527,7 +1527,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** An acknowledgement of complexity or limitation",
+              "**(c)** An acknowledgement of complexity or limitation",
             commonErrors: [
               "Introducing new evidence or repeating the introduction.",
             ],

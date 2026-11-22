@@ -43,7 +43,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Materials arrive only when needed" },
             { id: "d", text: "Buying in bulk" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "JIT", statement: "On-demand delivery." }], steps: [{ reasoning: "Materials when needed.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "JIT", statement: "On-demand delivery." }], steps: [{ reasoning: "Materials when needed.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u3-inv-q2", difficulty: "core", totalMarks: 2,
@@ -174,7 +174,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Flow" },
             { id: "d", text: "Reorder level" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Stockout", statement: "Out of stock." }], steps: [{ reasoning: "Stockout = running out of stock.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Stockout" },
+          markscheme: { principles: [{ kind: "definition", name: "Stockout", statement: "Out of stock." }], steps: [{ reasoning: "Stockout = running out of stock.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Stockout" },
         },
         {
           id: "olbus-u3-inv-q13", difficulty: "core", totalMarks: 2,
@@ -194,7 +194,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Sales revenue" },
             { id: "d", text: "Storage space, insurance and obsolescence" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Holding cost", statement: "Cost of storing." }], steps: [{ reasoning: "Holding costs = storage, insurance, obsolescence.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Holding cost", statement: "Cost of storing." }], steps: [{ reasoning: "Holding costs = storage, insurance, obsolescence.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u3-inv-q15", difficulty: "core", totalMarks: 2,
@@ -260,7 +260,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Output per unit of input" },
             { id: "d", text: "Total cost" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Productivity", statement: "Output/input." }], steps: [{ reasoning: "Efficiency measure.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Productivity", statement: "Output/input." }], steps: [{ reasoning: "Efficiency measure.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u3-prod-q2", difficulty: "core", totalMarks: 2,
@@ -316,7 +316,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Total cost only" },
             { id: "d", text: "Output per unit of input" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Productivity", statement: "Output/input." }], steps: [{ reasoning: "Productivity = output per input.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Productivity", statement: "Output/input." }], steps: [{ reasoning: "Productivity = output per input.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u3-prod-q6", difficulty: "core", totalMarks: 1,
@@ -327,7 +327,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Buying more raw materials only" },
             { id: "d", text: "Reducing output deliberately" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Improving productivity", statement: "Methods." }], steps: [{ reasoning: "Training and technology raise efficiency.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Improving productivity", statement: "Methods." }], steps: [{ reasoning: "Training and technology raise efficiency.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u3-prod-q7", difficulty: "foundation", totalMarks: 1,
@@ -338,7 +338,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "More waste" },
             { id: "d", text: "Lower quality" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Productivity benefits", statement: "Efficiency gains." }], steps: [{ reasoning: "Higher productivity lowers costs, boosting competitiveness.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Productivity benefits", statement: "Efficiency gains." }], steps: [{ reasoning: "Higher productivity lowers costs, boosting competitiveness.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u3-prod-q8", difficulty: "core", totalMarks: 2,
@@ -391,7 +391,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Output divided by input" },
             { id: "d", text: "Input divided by output" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "formula", name: "Productivity", statement: "Output / input." }], steps: [{ reasoning: "Productivity = output / input.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "formula", name: "Productivity", statement: "Output / input." }], steps: [{ reasoning: "Productivity = output / input.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u3-prod-q13", difficulty: "core", totalMarks: 2,
@@ -411,7 +411,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Slow down the production line" },
             { id: "d", text: "Use lean production methods that reduce waste" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Lean methods", statement: "Waste reduction." }], steps: [{ reasoning: "Lean methods cut waste, raising productivity.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Lean methods", statement: "Waste reduction." }], steps: [{ reasoning: "Lean methods cut waste, raising productivity.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u3-prod-q15", difficulty: "core", totalMarks: 2,

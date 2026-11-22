@@ -370,7 +370,7 @@ export const lesson171: Lesson = {
             steps: [
               { reasoning: "Only (a) contains a dependent clause opened by 'although'.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Although it was late, she kept working.",
+            finalAnswer: "**(d)** Although it was late, she kept working.",
             commonErrors: ["Choosing (b) or (c) — those are compound sentences."],
           },
         },
@@ -431,7 +431,7 @@ export const lesson171: Lesson = {
             steps: [
               { reasoning: "Run-on = clauses fused together with no punctuation or conjunction.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Independent clauses joined with no punctuation or conjunction",
+            finalAnswer: "**(c)** Independent clauses joined with no punctuation or conjunction",
             commonErrors: ["Confusing a run-on with a comma splice."],
           },
         },
@@ -494,7 +494,7 @@ export const lesson171: Lesson = {
             steps: [
               { reasoning: "Only (a) adds a conjunction without breaking punctuation rules.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** I wanted to go, but I was too tired.",
+            finalAnswer: "**(b)** I wanted to go, but I was too tired.",
             commonErrors: ["Choosing (d) — a semicolon cannot be followed by 'but'."],
           },
         },
@@ -700,7 +700,7 @@ export const lesson171: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Possession or contraction",
+            finalAnswer: "**(d)** Possession or contraction",
             commonErrors: ["Writing 'student's' for plural students."],
           },
         },
@@ -951,7 +951,7 @@ export const lesson171: Lesson = {
             steps: [
               { reasoning: "'Children' is an irregular plural, so the apostrophe goes before the s.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** The children's room was tidy.",
+            finalAnswer: "**(d)** The children's room was tidy.",
             commonErrors: ["Writing 'childrens'' or 'childrens'."],
           },
         },
@@ -1012,7 +1012,7 @@ export const lesson171: Lesson = {
             steps: [
               { reasoning: "Only (a) places commas correctly between list items.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** She bought apples, oranges, and bread.",
+            finalAnswer: "**(c)** She bought apples, oranges, and bread.",
             commonErrors: ["Commas in the wrong positions or missing."],
           },
         },
@@ -1075,7 +1075,7 @@ export const lesson171: Lesson = {
             steps: [
               { reasoning: "Only (a) has a complete bracketed phrase with both marks.", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The film (which we had waited months for) finally arrived.",
+            finalAnswer: "**(c)** The film (which we had waited months for) finally arrived.",
             commonErrors: ["Missing one bracket or misplaced brackets."],
           },
         },

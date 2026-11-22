@@ -235,7 +235,7 @@ export const lesson424: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "Expansionary fiscal policy", "statement": "Higher G or lower T to raise AD." } ],
           "steps": [ { "reasoning": "Expansionary fiscal policy stimulates demand by increasing government spending or reducing taxation.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** increasing government spending or cutting taxes"
+          "finalAnswer": "**(d)** increasing government spending or cutting taxes"
 },
         },
         {
@@ -254,7 +254,7 @@ export const lesson424: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "Contractionary monetary policy", "statement": "Higher interest rates to reduce AD." } ],
           "steps": [ { "reasoning": "Raising interest rates discourages borrowing and encourages saving, reducing consumption and investment.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** raising interest rates to reduce borrowing and spending"
+          "finalAnswer": "**(c)** raising interest rates to reduce borrowing and spending"
 },
         },
         {
@@ -273,7 +273,7 @@ export const lesson424: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "Supply-side policy", "statement": "Raises productive capacity / LRAS." } ],
           "steps": [ { "reasoning": "Training improves labour productivity and shifts LRAS right; the other options are demand-side or fiscal measures.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** Government-funded vocational training schemes"
+          "finalAnswer": "**(d)** Government-funded vocational training schemes"
 },
         },
         {
@@ -292,7 +292,7 @@ export const lesson424: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "Crowding out", "statement": "Government borrowing displaces private investment." } ],
           "steps": [ { "reasoning": "When government borrowing raises interest rates, private investment falls — partly offsetting the fiscal stimulus.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** government borrowing pushes up interest rates and reduces private investment"
+          "finalAnswer": "**(c)** government borrowing pushes up interest rates and reduces private investment"
 },
         },
         {
@@ -311,7 +311,7 @@ export const lesson424: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "Quantitative easing", "statement": "Central bank asset purchases when rates are near zero." } ],
           "steps": [ { "reasoning": "QE involves buying assets to inject money when interest rates cannot be cut further — an unconventional policy for deep recessions.", "marks": 1, "markCode": "A" } ],
-          "finalAnswer": "**(a)** interest rates are near zero and conventional monetary policy has limited effect"
+          "finalAnswer": "**(b)** interest rates are near zero and conventional monetary policy has limited effect"
 },
         },
         {

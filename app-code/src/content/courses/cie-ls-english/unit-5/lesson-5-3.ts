@@ -65,7 +65,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "'However' marks opposition or contrast.", working: "\\text{'however'}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** However",
+            finalAnswer: "**(c)** However",
             commonErrors: ["Choosing 'because' — that signals cause, not contrast."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson53: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Cohesive device", statement: "Words or phrases that link ideas — pronouns, connectives, reference." }],
             steps: [{ reasoning: "'It' links back to a previous noun — classic pronominal cohesion.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** The pronoun 'it'",
+            finalAnswer: "**(c)** The pronoun 'it'",
             commonErrors: ["Choosing punctuation — cohesive devices are words or phrases, not punctuation."],
           },
         },
@@ -331,7 +331,7 @@ export const lesson53: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Signposting", statement: "Signposts announce the logical direction — 'as a result' signals consequence." }],
             steps: [{ reasoning: "'As a result' tells the reader a consequence follows.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** As a result",
+            finalAnswer: "**(c)** As a result",
             commonErrors: ["Choosing content phrases — signposts are discourse markers, not content."],
           },
         },
@@ -445,7 +445,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Making bread is a sequence of steps in time.", working: "\\text{steps}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Chronological",
+            finalAnswer: "**(a)** Chronological",
             commonErrors: ["Choosing cause-effect — the recipe is sequential, not causal."],
           },
         },
@@ -546,7 +546,7 @@ export const lesson53: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Cause-effect signpost", statement: "'Therefore' and 'as a result' mark consequence." }],
             steps: [{ reasoning: "'Therefore' signals that what follows results from what came before.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Therefore",
+            finalAnswer: "**(c)** Therefore",
             commonErrors: ["Choosing 'however' — that signals contrast, not consequence."],
           },
         },
@@ -597,7 +597,7 @@ export const lesson53: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Pattern selection", statement: "Problem-solution fits content that identifies a problem then proposes remedies." }],
             steps: [{ reasoning: "Reducing plastic waste is a problem needing solutions; the others fit chronology, comparison or process.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** How schools can reduce plastic waste",
+            finalAnswer: "**(d)** How schools can reduce plastic waste",
             commonErrors: ["Choosing (d) — a process explanation wants chronological order."],
           },
         },
@@ -697,12 +697,12 @@ export const lesson53: Lesson = {
               { id: "c", text: "The problem is clear: litter is increasing." },
               { id: "d", text: "As a result, the scheme reduced litter by 30%." },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Signposting quality", statement: "Effective signposts name the logical relationship precisely." }],
             steps: [{ reasoning: "(c) is vague and marks no relationship; the others signal problem, solution and result.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(c)** And then stuff happened and people did things.",
+            finalAnswer: "**(a)** And then stuff happened and people did things.",
             commonErrors: ["Choosing (d) — 'as a result' is a strong, precise signpost."],
           },
         },

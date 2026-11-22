@@ -64,7 +64,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "S waves stop at the outer core, so the core must be liquid.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** S waves are not detected on the opposite side of Earth.",
+            finalAnswer: "**(a)** S waves are not detected on the opposite side of Earth.",
             commonErrors: ["Choosing (d): lava comes from magma in the crust and upper mantle, not from the core.", "Choosing (a): P being faster than S does not reveal any physical state."],
             examinerNote: "B1 for (b).",
           },
@@ -186,7 +186,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Convergent boundary" },
               { id: "d", text: "A hot spot, not a plate boundary" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -195,7 +195,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "At a ridge the plates move apart and new oceanic crust forms.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Divergent boundary",
+            finalAnswer: "**(b)** Divergent boundary",
             commonErrors: ["Choosing (a): convergent boundaries make trenches, not ridges.", "Choosing (d): hot spots exist, but ridges are plate boundaries."],
             examinerNote: "B1 for (c).",
           },

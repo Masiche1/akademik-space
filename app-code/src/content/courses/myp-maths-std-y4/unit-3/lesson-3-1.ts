@@ -71,7 +71,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The angle subtended by a diameter is always $90°$.", working: "90°", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $90°$",
+            finalAnswer: "**(c)** $90°$",
             commonErrors: ["Thinking it depends on the circle size."],
             examinerNote: "B1 for (b).",
           },
@@ -117,7 +117,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Cannot be determined" },
               { id: "d", text: "$45°$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -187,7 +187,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "By the tangent theorem, tangent $\\perp$ radius at $T$.", working: "\\perp", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The tangent is perpendicular to the radius at $T$",
+            finalAnswer: "**(a)** The tangent is perpendicular to the radius at $T$",
             commonErrors: ["Confusing 'touches at one point' with parallel."],
             examinerNote: "B1 for (b).",
           },
@@ -286,7 +286,7 @@ export const lesson31: Lesson = {
               { reasoning: "By the chord theorem, it bisects the chord.", working: "\\text{bisects}", marks: 1, markCode: "M" },
               { reasoning: "Select the correct answer.", working: "\\text{bisects the chord}", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** bisects the chord",
+            finalAnswer: "**(d)** bisects the chord",
             commonErrors: ["Confusing with the perpendicular bisector of a segment."],
             examinerNote: "M1 A1.",
           },
@@ -508,7 +508,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$\\left(\\frac{2+8}{2},\\frac{4+10}{2}\\right)=(5,7)$.", working: "(5,7)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(5,7)$",
+            finalAnswer: "**(c)** $(5,7)$",
             commonErrors: ["Adding without dividing by 2."],
             examinerNote: "B1 for (a).",
           },
@@ -625,7 +625,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$\\left(\\frac{0+4}{2},\\frac{0+8}{2}\\right)=(2,4)$.", working: "(2,4)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(2,4)$",
+            finalAnswer: "**(c)** $(2,4)$",
             commonErrors: ["Adding without dividing by 2."],
             examinerNote: "B1 for (a).",
           },

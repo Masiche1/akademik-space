@@ -121,7 +121,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Democratic leadership",
+            finalAnswer: "**(c)** Democratic leadership",
             commonErrors: [
               "Confusing democratic (consults, still decides) with laissez-faire (delegates).",
             ],
@@ -165,7 +165,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Span of control",
+            finalAnswer: "**(c)** Span of control",
             commonErrors: [
               "Confusing span of control with chain of command (levels of hierarchy).",
             ],
@@ -326,7 +326,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Laissez-faire leadership" },
               { id: "d", text: "Autocratic leadership" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -350,7 +350,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Autocratic leadership",
+            finalAnswer: "**(d)** Autocratic leadership",
             commonErrors: [
               "Confusing autocratic (decides alone) with democratic (consults).",
             ],
@@ -394,7 +394,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Span of control",
+            finalAnswer: "**(a)** Span of control",
             commonErrors: [
               "Confusing span of control with chain of command (levels).",
             ],
@@ -716,7 +716,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The task, the team's skill and the urgency of the decision",
+              "**(a)** The task, the team's skill and the urgency of the decision",
             commonErrors: [
               "Assuming one leadership style suits all situations.",
             ],
@@ -758,7 +758,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Few layers and wide spans of control",
+            finalAnswer: "**(c)** Few layers and wide spans of control",
             commonErrors: [
               "Confusing flat (few layers) with tall (many layers).",
             ],
@@ -1024,7 +1024,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Functional structure",
+            finalAnswer: "**(c)** Functional structure",
             commonErrors: [
               "Confusing functional (by skill) with divisional (by product/region).",
             ],
@@ -1067,7 +1067,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Delayering",
+            finalAnswer: "**(d)** Delayering",
             commonErrors: [
               "Confusing delayering (structure) with downsizing (reducing workforce).",
             ],
@@ -1247,7 +1247,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Divisional structure",
+            finalAnswer: "**(a)** Divisional structure",
             commonErrors: [
               "Confusing divisional (by product/region) with functional (by skill).",
             ],
@@ -1291,7 +1291,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** A functional manager and a project manager",
+            finalAnswer: "**(c)** A functional manager and a project manager",
             commonErrors: ["Thinking matrix staff report to only one manager."],
           },
         },
@@ -1609,7 +1609,7 @@ export const lesson33: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Outsource most functions and keep only core activities",
+              "**(a)** Outsource most functions and keep only core activities",
             commonErrors: [
               "Confusing network (outsourced) with divisional (self-contained).",
             ],
@@ -1653,7 +1653,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Flat structure",
+            finalAnswer: "**(d)** Flat structure",
             commonErrors: [
               "Confusing wide spans (flat) with narrow spans (tall).",
             ],
@@ -1793,7 +1793,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Chain of command",
+            finalAnswer: "**(a)** Chain of command",
             commonErrors: ["Confusing chain of command with span of control."],
           },
         },

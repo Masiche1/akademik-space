@@ -40,7 +40,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "TV advertisements" },
             { id: "d", text: "Salary payments" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Sales promotion", statement: "Short-term incentives." }], steps: [{ reasoning: "Discounts/samples/coupons.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Sales promotion", statement: "Short-term incentives." }], steps: [{ reasoning: "Discounts/samples/coupons.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u2-pr-q2", difficulty: "core", totalMarks: 2,
@@ -96,7 +96,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Train sales staff" },
             { id: "d", text: "Pay for TV advertisements" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Public relations", statement: "Image building." }], steps: [{ reasoning: "PR builds a positive image.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Public relations", statement: "Image building." }], steps: [{ reasoning: "PR builds a positive image.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u2-pr-q6", difficulty: "core", totalMarks: 1,
@@ -118,7 +118,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Unpaid word-of-mouth" },
             { id: "d", text: "Paid communication through media to promote products" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Advertising", statement: "Paid media." }], steps: [{ reasoning: "Advertising = paid media promotion.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Advertising", statement: "Paid media." }], steps: [{ reasoning: "Advertising = paid media promotion.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u2-pr-q8", difficulty: "core", totalMarks: 2,
@@ -171,7 +171,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Sales promotion" },
             { id: "d", text: "Public relations" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Sales promotion", statement: "Short-term incentives." }], steps: [{ reasoning: "Time-limited discount = sales promotion.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Sales promotion" },
+          markscheme: { principles: [{ kind: "definition", name: "Sales promotion", statement: "Short-term incentives." }], steps: [{ reasoning: "Time-limited discount = sales promotion.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Sales promotion" },
         },
         {
           id: "olbus-u2-pr-q13", difficulty: "core", totalMarks: 2,
@@ -191,7 +191,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Cheap everyday goods" },
             { id: "d", text: "Internal staff communications" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Personal selling", statement: "High-value persuasion." }], steps: [{ reasoning: "Personal selling suits high-value/B2B products.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Personal selling", statement: "High-value persuasion." }], steps: [{ reasoning: "Personal selling suits high-value/B2B products.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u2-pr-q15", difficulty: "core", totalMarks: 2,
@@ -311,7 +311,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Competitive" },
             { id: "d", text: "Task-based" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Task-based budget", statement: "Activity-driven." }], steps: [{ reasoning: "Task-based sets budget by required activities.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Task-based" },
+          markscheme: { principles: [{ kind: "definition", name: "Task-based budget", statement: "Activity-driven." }], steps: [{ reasoning: "Task-based sets budget by required activities.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Task-based" },
         },
         {
           id: "olbus-u2-mb-q6", difficulty: "core", totalMarks: 1,
@@ -333,7 +333,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Setting prices" },
             { id: "d", text: "Setting objectives" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Campaign planning", statement: "Steps." }], steps: [{ reasoning: "Objectives come first in campaign planning.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Campaign planning", statement: "Steps." }], steps: [{ reasoning: "Objectives come first in campaign planning.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u2-mb-q8", difficulty: "core", totalMarks: 2,
@@ -386,7 +386,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Percentage-of-sales method" },
             { id: "d", text: "Zero-based method" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Competitive budget", statement: "Match rivals." }], steps: [{ reasoning: "Matching competitors = competitive method.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Competitive budget", statement: "Match rivals." }], steps: [{ reasoning: "Matching competitors = competitive method.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u2-mb-q13", difficulty: "core", totalMarks: 2,
@@ -406,7 +406,7 @@ export const lesson23: Lesson = {
             { id: "c", text: "Set the objectives" },
             { id: "d", text: "Monitor and review the results" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Campaign planning", statement: "Steps." }], steps: [{ reasoning: "Review/monitor comes last.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Campaign planning", statement: "Steps." }], steps: [{ reasoning: "Review/monitor comes last.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u2-mb-q15", difficulty: "core", totalMarks: 2,

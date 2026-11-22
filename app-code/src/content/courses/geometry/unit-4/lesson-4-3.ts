@@ -69,7 +69,7 @@ export const lesson43: Lesson = {
               { reasoning: "The central angle is one quarter of a full turn.", working: "\\frac{90^\\circ}{360^\\circ} = \\frac14", marks: 1, markCode: "M" },
               { reasoning: "Take one quarter of the circle's circumference.", working: "s = \\frac14(2\\pi \\cdot 8) = 4\\pi", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $4\\pi$ units",
+            finalAnswer: "**(c)** $4\\pi$ units",
             commonErrors: ["Using the area formula when the question asks for arc length.", "Using $90/180$ rather than $90/360$ as the fraction of a full turn."],
           },
         },

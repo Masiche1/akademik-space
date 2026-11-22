@@ -107,7 +107,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $2$ and $5$",
+            finalAnswer: "**(b)** $2$ and $5$",
             commonErrors: [
               "Using the trace and determinant as the eigenvalues.",
               "Reversing the signs.",
@@ -403,7 +403,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $3$ and $-2$",
+            finalAnswer: "**(d)** $3$ and $-2$",
             commonErrors: [
               "Using the trace $1$ and determinant $-6$ as the eigenvalues.",
             ],
@@ -447,7 +447,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $1$ and $3$",
+            finalAnswer: "**(d)** $1$ and $3$",
             commonErrors: ["Computing the determinant as $4+1=5$."],
           },
         },
@@ -492,7 +492,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$",
+            finalAnswer: "**(c)** $\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$",
             commonErrors: [
               "Picking the eigenvector for $\\lambda=-1$, which is $\\begin{pmatrix}1\\\\-1\\end{pmatrix}.",
             ],
@@ -680,7 +680,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\lambda^2-(a+d)\\lambda+(ad-bc)=0$",
+            finalAnswer: "**(b)** $\\lambda^2-(a+d)\\lambda+(ad-bc)=0$",
             commonErrors: ["Sign errors on the trace and determinant terms."],
           },
         },
@@ -1021,7 +1021,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$P^{-1}D^5P$" },
               { id: "d", text: "$PD^5P^{-1}$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1041,7 +1041,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $PD^5P^{-1}$",
+            finalAnswer: "**(d)** $PD^5P^{-1}$",
             commonErrors: [
               "Raising $P$ to a power as well.",
               "Reversing $P$ and $P^{-1}$.",
@@ -1346,7 +1346,7 @@ export const lesson13: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** $\\begin{pmatrix} 16 & 0 \\\\ 0 & 81 \\end{pmatrix}$",
+              "**(c)** $\\begin{pmatrix} 16 & 0 \\\\ 0 & 81 \\end{pmatrix}$",
             commonErrors: [
               "Multiplying the diagonal entries by 4 instead of raising to the power 4.",
             ],
@@ -1391,7 +1391,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The eigenvalues of $A$",
+            finalAnswer: "**(a)** The eigenvalues of $A$",
             commonErrors: [
               "Confusing the roles of $P$ (eigenvectors) and $D$ (eigenvalues).",
             ],
@@ -1436,7 +1436,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The eigenvalue $1$",
+            finalAnswer: "**(c)** The eigenvalue $1$",
             commonErrors: ["Thinking the smaller eigenvalue dominates."],
           },
         },
@@ -1600,7 +1600,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "It grows without bound" },
               { id: "d", text: "It oscillates between two fixed values" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1627,7 +1627,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** It depends on the eigenvector decomposition",
+            finalAnswer: "**(b)** It depends on the eigenvector decomposition",
             commonErrors: [
               "Assuming $|-1|<1$ means that component vanishes; $|-1|=1$ so it persists.",
             ],

@@ -188,7 +188,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Yes, because bubbles always mean a gas is produced by a reaction" },
               { id: "d", text: "No, because boiling water is still water, just in gas form" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -197,7 +197,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Boiling is a physical change: the bubbles are water vapour, still water, and the change can be reversed by cooling.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** No, because boiling water is still water, just in gas form",
+            finalAnswer: "**(d)** No, because boiling water is still water, just in gas form",
             commonErrors: ["Assuming bubbles always mean a chemical reaction."],
             examinerNote: "B1 for choice (c).",
           },
@@ -381,7 +381,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Only the formation of a new substance proves a chemical change; the others can have physical explanations (boiling, dissolving).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A new substance with different properties is formed",
+            finalAnswer: "**(a)** A new substance with different properties is formed",
             commonErrors: ["Choosing temperature change, which boiling water also shows."],
             examinerNote: "B1 for choice (b).",
           },
@@ -408,7 +408,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Dissolving and evaporation are physical changes: the salt is unchanged and can be recovered by evaporation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The student: no new substance formed and the salt can be recovered unchanged",
+            finalAnswer: "**(a)** The student: no new substance formed and the salt can be recovered unchanged",
             commonErrors: ["Thinking dissolving is chemical because the salt 'disappears'."],
             examinerNote: "B1 for choice (b).",
           },
@@ -495,7 +495,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "A temperature rise shows energy has been given out, so the reaction is exothermic.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Exothermic, because energy is given out to the surroundings",
+            finalAnswer: "**(a)** Exothermic, because energy is given out to the surroundings",
             commonErrors: ["Thinking that 'hot' means energy is taken in, which is endothermic."],
             examinerNote: "B1 for choice (b).",
           },
@@ -589,7 +589,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Carbon dioxide and hydrogen" },
               { id: "d", text: "Carbon dioxide and water" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -598,7 +598,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Complete combustion gives carbon dioxide and water; carbon monoxide forms only in incomplete combustion.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Carbon dioxide and water",
+            finalAnswer: "**(d)** Carbon dioxide and water",
             commonErrors: ["Choosing carbon monoxide, the product of incomplete combustion."],
             examinerNote: "B1 for choice (c).",
           },
@@ -625,7 +625,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Iron gains oxygen to form iron oxide (rust) slowly over time, so it is slow oxidation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Slow oxidation",
+            finalAnswer: "**(c)** Slow oxidation",
             commonErrors: ["Calling it combustion; rusting is slow, not burning."],
             examinerNote: "B1 for choice (b). Allow 'oxidation' alone.",
           },
@@ -652,7 +652,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$\\Delta T = 24.5 - 30.0 = -5.5\\ ^\\circ\\text{C}$; a fall gives a negative change.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $-5.5\\ ^\\circ\\text{C}$",
+            finalAnswer: "**(a)** $-5.5\\ ^\\circ\\text{C}$",
             commonErrors: ["Giving +5.5 by ignoring the direction of the change."],
             examinerNote: "B1 for choice (b).",
           },
@@ -804,7 +804,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "One substance reacts with oxygen and burns" },
               { id: "d", text: "An acid and an alkali react to form a salt and water" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -813,7 +813,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Thermal decomposition is the reverse of a joining reaction: one compound splits into simpler substances when heated.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Heat breaks one compound down into two or more simpler substances",
+            finalAnswer: "**(b)** Heat breaks one compound down into two or more simpler substances",
             commonErrors: ["Confusing decomposition with combustion."],
             examinerNote: "B1 for choice (c).",
           },
@@ -831,7 +831,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Burning methane in a gas stove" },
               { id: "d", text: "Heating copper carbonate so it decomposes" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -840,7 +840,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Heating copper carbonate is thermal decomposition, which takes in energy from the surroundings, so it is endothermic. The others release energy.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Heating copper carbonate so it decomposes",
+            finalAnswer: "**(d)** Heating copper carbonate so it decomposes",
             commonErrors: ["Choosing rusting because it is slow; it still releases energy (exothermic)."],
             examinerNote: "B1 for choice (c).",
           },

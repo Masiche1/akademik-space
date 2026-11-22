@@ -44,7 +44,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Compress the file" },
             { id: "d", text: "Speed up transfer" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Parity", statement: "Redundant bit for error detection." }], steps: [{ reasoning: "Parity detects errors.", working: "\\text{detect}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Detect errors" },
+          markscheme: { principles: [{ kind: "definition", name: "Parity", statement: "Redundant bit for error detection." }], steps: [{ reasoning: "Parity detects errors.", working: "\\text{detect}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Detect errors" },
         },
         {
           id: "olcs-u2-em-q2", difficulty: "core", totalMarks: 2,
@@ -119,7 +119,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Only monitors" },
             { id: "d", text: "IP and TCP headers" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Checksum use", statement: "Used in network protocol headers." }], steps: [{ reasoning: "Checksums verify header/data integrity.", working: "\\text{IP/TCP}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** IP and TCP headers" },
+          markscheme: { principles: [{ kind: "principle", name: "Checksum use", statement: "Used in network protocol headers." }], steps: [{ reasoning: "Checksums verify header/data integrity.", working: "\\text{IP/TCP}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** IP and TCP headers" },
         },
         {
           id: "olcs-u2-em-q8", difficulty: "core", totalMarks: 2,
@@ -148,7 +148,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Often missed" },
             { id: "d", text: "Impossible" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Parity limit", statement: "Even number of flips can preserve parity." }], steps: [{ reasoning: "Two flips may keep the count valid.", working: "\\text{even flips}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Often missed" },
+          markscheme: { principles: [{ kind: "principle", name: "Parity limit", statement: "Even number of flips can preserve parity." }], steps: [{ reasoning: "Two flips may keep the count valid.", working: "\\text{even flips}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Often missed" },
         },
         {
           id: "olcs-u2-em-q11", difficulty: "core", totalMarks: 2,
@@ -211,7 +211,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Screen resolution" },
             { id: "d", text: "ISBN book numbers" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Check digit use", statement: "ISBNs, bank cards, barcodes." }], steps: [{ reasoning: "ISBN uses a check digit.", working: "\\text{ISBN}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** ISBN book numbers" },
+          markscheme: { principles: [{ kind: "definition", name: "Check digit use", statement: "ISBNs, bank cards, barcodes." }], steps: [{ reasoning: "ISBN uses a check digit.", working: "\\text{ISBN}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** ISBN book numbers" },
         },
       ],
     },
@@ -241,7 +241,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Compresses the data" },
             { id: "d", text: "Sends the data back for comparison" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Echo check", statement: "Data echoed back and compared." }], steps: [{ reasoning: "Echo = send back.", working: "\\text{echo back}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sends data back" },
+          markscheme: { principles: [{ kind: "definition", name: "Echo check", statement: "Data echoed back and compared." }], steps: [{ reasoning: "Echo = send back.", working: "\\text{echo back}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Sends data back" },
         },
         {
           id: "olcs-u2-arq-q2", difficulty: "core", totalMarks: 2,
@@ -316,7 +316,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Encrypted packets" },
             { id: "d", text: "Packets received correctly" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "ACK", statement: "Acknowledges good packets." }], steps: [{ reasoning: "ACK confirms correct receipt.", working: "\\text{ACK}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Correct packets" },
+          markscheme: { principles: [{ kind: "definition", name: "ACK", statement: "Acknowledges good packets." }], steps: [{ reasoning: "ACK confirms correct receipt.", working: "\\text{ACK}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Correct packets" },
         },
         {
           id: "olcs-u2-arq-q8", difficulty: "core", totalMarks: 2,
@@ -345,7 +345,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "It doubles the amount of traffic" },
             { id: "d", text: "It requires encryption" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Echo cost", statement: "Every byte sent twice." }], steps: [{ reasoning: "Echo = send back = double traffic.", working: "\\text{double}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Doubles traffic" },
+          markscheme: { principles: [{ kind: "principle", name: "Echo cost", statement: "Every byte sent twice." }], steps: [{ reasoning: "Echo = send back = double traffic.", working: "\\text{double}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Doubles traffic" },
         },
         {
           id: "olcs-u2-arq-q11", difficulty: "core", totalMarks: 2,
@@ -365,7 +365,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "A routing address" },
             { id: "d", text: "A request for the sender to resend data" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "NAK", statement: "Negative acknowledgement → resend." }], steps: [{ reasoning: "NAK asks for retransmission.", working: "\\text{NAK}", marks: 1, markCode: "M" }, { reasoning: "Counterpart of ACK.", marks: 1, markCode: "A" }], finalAnswer: "**(a)** Resend request" },
+          markscheme: { principles: [{ kind: "definition", name: "NAK", statement: "Negative acknowledgement → resend." }], steps: [{ reasoning: "NAK asks for retransmission.", working: "\\text{NAK}", marks: 1, markCode: "M" }, { reasoning: "Counterpart of ACK.", marks: 1, markCode: "A" }], finalAnswer: "**(d)** Resend request" },
         },
         {
           id: "olcs-u2-arq-q13", difficulty: "challenge", totalMarks: 4,
@@ -387,7 +387,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Encrypts all data" },
             { id: "d", text: "Acknowledges and retransmits lost data" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "TCP reliability", statement: "ARQ-style acknowledgement." }], steps: [{ reasoning: "TCP uses ACKs and retransmission.", working: "\\text{ACK/retransmit}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** ACKs and retransmits" },
+          markscheme: { principles: [{ kind: "principle", name: "TCP reliability", statement: "ARQ-style acknowledgement." }], steps: [{ reasoning: "TCP uses ACKs and retransmission.", working: "\\text{ACK/retransmit}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** ACKs and retransmits" },
         },
         {
           id: "olcs-u2-arq-q15", difficulty: "challenge", totalMarks: 3,
@@ -408,7 +408,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "TCP" },
             { id: "d", text: "HTTP over TCP" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "UDP", statement: "No acknowledgement — fast but lossy." }], steps: [{ reasoning: "UDP sends without guarantees.", working: "\\text{UDP}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** UDP" },
+          markscheme: { principles: [{ kind: "principle", name: "UDP", statement: "No acknowledgement — fast but lossy." }], steps: [{ reasoning: "UDP sends without guarantees.", working: "\\text{UDP}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** UDP" },
         },
       ],
     },

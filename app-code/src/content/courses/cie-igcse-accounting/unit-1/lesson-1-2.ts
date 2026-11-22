@@ -85,7 +85,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "An employee" },
               { id: "d", text: "A bank that lent money to the business" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -551,7 +551,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "An employee" },
               { id: "d", text: "A manager" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

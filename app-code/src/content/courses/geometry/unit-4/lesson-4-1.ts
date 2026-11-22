@@ -69,7 +69,7 @@ export const lesson41: Lesson = {
               { reasoning: "Identify the minor arc intercepted by the given central angle.", working: "m\\widehat{AB} = m\\angle AOB", marks: 1, markCode: "M" },
               { reasoning: "Substitute the central angle measure; no halving or supplement is needed.", working: "m\\widehat{AB} = 64^\\circ", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $64^\\circ$",
+            finalAnswer: "**(a)** $64^\\circ$",
             commonErrors: ["Halving the central angle as if it were an inscribed angle.", "Giving the major arc measure rather than the minor arc."],
           },
         },

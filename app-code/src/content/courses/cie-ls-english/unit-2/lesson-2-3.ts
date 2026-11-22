@@ -270,7 +270,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "'The film's weakness is its middle hour' sits between praise and the final verdict.", working: "\\text{middle position}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** In the middle, between praise and verdict",
+            finalAnswer: "**(a)** In the middle, between praise and verdict",
             commonErrors: ["Choosing (a) — the opening is praise, not weakness."],
           },
         },
@@ -328,7 +328,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "The evidence" },
               { id: "d", text: "The problem" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -337,7 +337,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "It states what the speaker wants the council to do — the solution request.", working: "\\text{request for action}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** The demand/solution request",
+            finalAnswer: "**(b)** The demand/solution request",
             commonErrors: ["Choosing (a) — it is not describing the problem; it is asking for action."],
           },
         },
@@ -755,7 +755,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "The film's weakness is its middle hour" },
               { id: "d", text: "The story follows a teenager, Mara" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -764,7 +764,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "'Recommended for...' is the verdict — who should see it.", working: "\\text{verdict}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(d)** Recommended for anyone who has ever lost someone",
+            finalAnswer: "**(a)** Recommended for anyone who has ever lost someone",
             commonErrors: ["Choosing (c) — it interprets the film but does not resolve the review's purpose."],
           },
         },
@@ -791,7 +791,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Reading twice signals reluctance — he must process the end of his work.", working: "\\text{reluctance}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** He is hesitant — the letters force a decision he is not ready for",
+            finalAnswer: "**(d)** He is hesitant — the letters force a decision he is not ready for",
             commonErrors: ["Choosing (a) — excitement would not require reading twice."],
           },
         },

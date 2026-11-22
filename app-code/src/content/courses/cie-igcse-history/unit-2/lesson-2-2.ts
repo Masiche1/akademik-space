@@ -272,7 +272,7 @@ export const lesson342: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A supply route through Laos and Cambodia used by North Vietnam",
+              "**(c)** A supply route through Laos and Cambodia used by North Vietnam",
           },
         },
         {
@@ -473,7 +473,7 @@ export const lesson342: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** It proved to the American public that the US could not win the war",
+              "**(d)** It proved to the American public that the US could not win the war",
           },
         },
         {
@@ -559,7 +559,7 @@ export const lesson342: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Guerrilla warfare, difficult terrain and political constraints neutralised conventional strength",
+              "**(c)** Guerrilla warfare, difficult terrain and political constraints neutralised conventional strength",
           },
         },
         {
@@ -694,7 +694,7 @@ export const lesson342: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** An incendiary jellied fuel weapon used for bombing",
+              "**(b)** An incendiary jellied fuel weapon used for bombing",
           },
         },
         {

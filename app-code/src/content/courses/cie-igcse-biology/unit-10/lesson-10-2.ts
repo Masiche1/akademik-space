@@ -65,7 +65,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall the source.", working: "\\text{sunlight}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sunlight",
+            finalAnswer: "**(c)** Sunlight",
             commonErrors: ["Choosing 'producers' — they capture energy, don't create it."],
           },
         },
@@ -160,7 +160,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall what a producer is.", working: "\\text{photosynthesis}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Grass",
+            finalAnswer: "**(b)** Grass",
             commonErrors: ["Choosing fungus — that's a decomposer."],
           },
         },
@@ -186,7 +186,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Count levels from producer.", working: "\\text{producer} \\to \\text{primary} \\to \\text{secondary}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Secondary consumer",
+            finalAnswer: "**(d)** Secondary consumer",
             commonErrors: ["Counting the rabbit as producer — only grass produces."],
           },
         },
@@ -212,7 +212,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall their function.", working: "\\text{recycle nutrients}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Break down dead matter and recycle nutrients",
+            finalAnswer: "**(c)** Break down dead matter and recycle nutrients",
             commonErrors: ["Confusing decomposers with consumers — they feed on dead matter."],
           },
         },
@@ -238,7 +238,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Link structure to stability.", working: "\\text{alternative food sources}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** If one food source is removed, organisms can feed on alternatives",
+            finalAnswer: "**(b)** If one food source is removed, organisms can feed on alternatives",
             commonErrors: ["Saying 'more arrows = more energy' — the point is resilience."],
           },
         },
@@ -264,7 +264,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall arrow convention.", working: "\\text{food} \\to \\text{eater}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** The organism that is eaten to the organism that eats it",
+            finalAnswer: "**(d)** The organism that is eaten to the organism that eats it",
             commonErrors: ["Reversing arrows — they point prey → predator, not predator → prey."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall where energy goes.", working: "\\text{heat loss}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** It is lost as heat through respiration and other processes",
+            finalAnswer: "**(c)** It is lost as heat through respiration and other processes",
             commonErrors: ["Saying 'energy is destroyed' — it's lost as unusable heat."],
           },
         },
@@ -474,7 +474,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{nutrients} \\to \\text{algae} \\to \\text{O}_2 \\downarrow", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Excess nutrients causing algal blooms and deoxygenation",
+            finalAnswer: "**(d)** Excess nutrients causing algal blooms and deoxygenation",
             commonErrors: ["Choosing 'soil erosion' — that's a different impact."],
           },
         },
@@ -569,7 +569,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall the direction of the cycle.", working: "\\text{CO}_2 \\downarrow \\text{ via photosynthesis}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It removes carbon dioxide from the atmosphere",
+            finalAnswer: "**(b)** It removes carbon dioxide from the atmosphere",
             commonErrors: ["Choosing respiration — that releases CO₂."],
           },
         },
@@ -595,7 +595,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall which group fixes nitrogen.", working: "\\text{nitrogen-fixing bacteria}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Nitrogen-fixing bacteria",
+            finalAnswer: "**(b)** Nitrogen-fixing bacteria",
             commonErrors: ["Choosing decomposers — they release nitrates but do not fix N₂."],
           },
         },
@@ -621,7 +621,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall their outputs.", working: "\\text{CO}_2 + \\text{mineral nutrients}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Carbon dioxide and mineral nutrients such as nitrates",
+            finalAnswer: "**(d)** Carbon dioxide and mineral nutrients such as nitrates",
             commonErrors: ["Choosing oxygen — decomposers consume oxygen during respiration."],
           },
         },
@@ -673,7 +673,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Recall why nitrogen limits growth.", working: "\\text{N}_2 \\text{ unusable by plants}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Plants cannot use atmospheric N₂ directly and rely on nitrates in soil",
+            finalAnswer: "**(b)** Plants cannot use atmospheric N₂ directly and rely on nitrates in soil",
             commonErrors: ["Saying 'plants need no nitrogen' — nitrogen is essential for proteins/DNA."],
           },
         },
@@ -699,7 +699,7 @@ export const lesson102: Lesson = {
             steps: [
               { reasoning: "Identify the non-living factor.", working: "\\text{non-living}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Light intensity",
+            finalAnswer: "**(d)** Light intensity",
             commonErrors: ["Choosing herbivores — that's a biotic factor."],
           },
         },

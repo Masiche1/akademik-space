@@ -116,7 +116,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Loss of pleasure or interest",
+            finalAnswer: "**(a)** Loss of pleasure or interest",
             commonErrors: ["Confusing anhedonia with anxiety or OCD symptoms."],
           },
         },
@@ -391,7 +391,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Self, world and future",
+            finalAnswer: "**(b)** Self, world and future",
             commonErrors: [
               "Omitting one component or substituting family/work for world/future.",
             ],
@@ -438,7 +438,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Magnifying the worst possible outcome",
+            finalAnswer: "**(c)** Magnifying the worst possible outcome",
             commonErrors: [
               "Confusing catastrophising with overgeneralisation or selective abstraction.",
             ],
@@ -482,7 +482,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Two weeks",
+            finalAnswer: "**(a)** Two weeks",
             commonErrors: [
               "Confusing with GAD's six-month duration criterion.",
             ],
@@ -538,7 +538,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Sudden, unexpected panic attacks",
+            finalAnswer: "**(a)** Sudden, unexpected panic attacks",
             commonErrors: [
               "Confusing panic disorder with GAD — attacks vs chronic worry.",
             ],
@@ -1327,7 +1327,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Intrusive, unwanted thoughts or images",
+            finalAnswer: "**(c)** Intrusive, unwanted thoughts or images",
             commonErrors: [
               "Confusing obsessions (thoughts) with compulsions (behaviours).",
             ],
@@ -1374,7 +1374,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Reduce the anxiety produced by obsessions",
+            finalAnswer: "**(c)** Reduce the anxiety produced by obsessions",
             commonErrors: [
               "Calling it positive reinforcement — no reward is added; anxiety is removed.",
             ],
@@ -1475,7 +1475,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Increasing serotonin availability",
+            finalAnswer: "**(d)** Increasing serotonin availability",
             commonErrors: [
               "Confusing SSRIs (serotonin) with antipsychotics (dopamine).",
             ],
@@ -1584,7 +1584,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Exposure + resisting the compulsion",
+            finalAnswer: "**(d)** Exposure + resisting the compulsion",
             commonErrors: [
               "Confusing ERP with simple exposure — response prevention is essential.",
             ],

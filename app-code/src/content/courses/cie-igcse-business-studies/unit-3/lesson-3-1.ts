@@ -81,7 +81,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Just-in-time production" },
               { id: "d", text: "Job production" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -228,7 +228,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Craft production" },
               { id: "d", text: "Job production" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

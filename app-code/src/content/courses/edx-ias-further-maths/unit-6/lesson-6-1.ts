@@ -182,7 +182,7 @@ export const lesson61: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Banked curve", statement: "$N\\sin\\theta$ provides centripetal force." }],
             steps: [{ reasoning: "Normal reaction component.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** normal reaction",
+            finalAnswer: "**(b)** normal reaction",
           },
         },
         {

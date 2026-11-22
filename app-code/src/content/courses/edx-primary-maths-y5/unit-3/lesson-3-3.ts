@@ -278,7 +278,7 @@ export const lesson93: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** The whole/total",
+            finalAnswer: "**(c)** The whole/total",
             commonErrors: ["Thinking each slice is 100%."],
           },
         },

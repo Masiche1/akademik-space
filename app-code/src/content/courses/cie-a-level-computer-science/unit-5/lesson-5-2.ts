@@ -86,7 +86,7 @@ export const lesson52: Lesson = {
           },
         ],
         finalAnswer:
-          "**(b)** A class is the blueprint; an object is an instance",
+          "**(d)** A class is the blueprint; an object is an instance",
       },
     },
     {
@@ -162,7 +162,7 @@ export const lesson52: Lesson = {
           },
         ],
         finalAnswer:
-          "**(b)** A subclass deriving attributes and methods from a superclass",
+          "**(a)** A subclass deriving attributes and methods from a superclass",
       },
     },
     {
@@ -705,7 +705,7 @@ export const lesson52: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(a)** Accessible only within the class",
+        finalAnswer: "**(b)** Accessible only within the class",
       },
     },
     {

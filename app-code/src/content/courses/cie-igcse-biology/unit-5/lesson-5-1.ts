@@ -63,7 +63,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall the equation.", working: "\\text{CO}_2 + \\text{H}_2\\text{O}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Carbon dioxide and water",
+            finalAnswer: "**(c)** Carbon dioxide and water",
             commonErrors: ["Choosing oxygen — that's a reactant, not a product."],
           },
         },
@@ -159,7 +159,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall the site.", working: "\\text{mitochondria}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Mitochondrion",
+            finalAnswer: "**(d)** Mitochondrion",
             commonErrors: ["Choosing chloroplast — that's photosynthesis."],
           },
         },
@@ -185,7 +185,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall the equation.", working: "\\text{glucose} + \\text{O}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Glucose and oxygen",
+            finalAnswer: "**(d)** Glucose and oxygen",
             commonErrors: ["Choosing CO₂/water — those are products."],
           },
         },
@@ -211,7 +211,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall oxygen's role.", working: "\\text{final electron acceptor}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Acts as the final electron acceptor, allowing full oxidation of glucose",
+            finalAnswer: "**(b)** Acts as the final electron acceptor, allowing full oxidation of glucose",
             commonErrors: ["Saying 'oxygen makes energy' directly — it enables the final stage of oxidation."],
           },
         },
@@ -339,7 +339,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall the debt mechanism.", working: "\\text{oxidise lactate}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Extra oxygen is needed to oxidise the lactic acid accumulated in muscles",
+            finalAnswer: "**(b)** Extra oxygen is needed to oxidise the lactic acid accumulated in muscles",
             commonErrors: ["Saying 'to get rid of CO₂' — the debt is about supplying O₂ for lactate."],
           },
         },
@@ -365,7 +365,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Compare yields.", working: "\\text{aerobic} \\gg \\text{anaerobic}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Aerobic respiration",
+            finalAnswer: "**(b)** Aerobic respiration",
             commonErrors: ["Choosing anaerobic — it yields far less ATP."],
           },
         },
@@ -391,7 +391,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall the acronym.", working: "\\text{adenosine triphosphate}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Adenosine triphosphate",
+            finalAnswer: "**(c)** Adenosine triphosphate",
             commonErrors: ["Confusing with ADP (diphosphate)."],
           },
         },
@@ -465,7 +465,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall the product.", working: "\\text{lactic acid}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Lactic acid",
+            finalAnswer: "**(c)** Lactic acid",
             commonErrors: ["Choosing ethanol/CO₂ — that's yeast, not human muscles."],
           },
         },
@@ -560,7 +560,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{yeast} \\to \\text{ethanol} + \\text{CO}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Anaerobic respiration in yeast producing ethanol and CO₂",
+            finalAnswer: "**(c)** Anaerobic respiration in yeast producing ethanol and CO₂",
             commonErrors: ["Choosing lactic acid — that's animal anaerobic respiration, not fermentation."],
           },
         },
@@ -607,7 +607,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall the condition.", working: "\\text{O}_2 \\text{ deficit}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oxygen supply cannot meet demand during vigorous exercise",
+            finalAnswer: "**(d)** Oxygen supply cannot meet demand during vigorous exercise",
             commonErrors: ["Choosing 'plenty of oxygen' — that's when aerobic respiration occurs."],
           },
         },
@@ -651,7 +651,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall the effect.", working: "\\text{lactic acid} \\uparrow \\to \\text{fatigue}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Build-up of lactic acid",
+            finalAnswer: "**(c)** Build-up of lactic acid",
             commonErrors: ["Attributing fatigue to oxygen surplus — oxygen is actually in deficit."],
           },
         },
@@ -698,7 +698,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{extra O}_2 \\text{ to clear lactate}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Extra oxygen needed after exercise to oxidise lactic acid",
+            finalAnswer: "**(b)** Extra oxygen needed after exercise to oxidise lactic acid",
             commonErrors: ["Thinking the debt occurs during exercise — it is repaid afterwards."],
           },
         },
@@ -867,7 +867,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall formula.", working: "RQ = \\text{CO}_2/\\text{O}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** CO₂ produced divided by O₂ consumed",
+            finalAnswer: "**(b)** CO₂ produced divided by O₂ consumed",
             commonErrors: ["Inverting — CO₂ is numerator, O₂ is denominator."],
           },
         },
@@ -961,7 +961,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Match value to substrate.", working: "RQ \\approx 0.7 \\to \\text{fat}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fat",
+            finalAnswer: "**(b)** Fat",
             commonErrors: ["Choosing protein — protein has RQ ≈ 0.9."],
           },
         },
@@ -1026,7 +1026,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Match RQ to substrate.", working: "0.7 \\to \\text{fat}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fat",
+            finalAnswer: "**(c)** Fat",
             commonErrors: ["Choosing carbohydrate — that has RQ = 1.0."],
           },
         },
@@ -1093,7 +1093,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall the response.", working: "\\text{HR} \\uparrow", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Heart rate increases",
+            finalAnswer: "**(b)** Heart rate increases",
             commonErrors: ["Choosing a decrease — the body needs more oxygen during exercise."],
           },
         },
@@ -1159,7 +1159,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recall the value.", working: "RQ \\approx 0.9", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 0.9",
+            finalAnswer: "**(c)** 0.9",
             commonErrors: ["Choosing 0.7 — that's fat."],
           },
         },

@@ -43,7 +43,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "11" },
             { id: "d", text: "14" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Binary place values", statement: "8+0+2+1=11." }], steps: [{ reasoning: "$8+2+1=11$.", working: "8+0+2+1=11", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 11" },
+          markscheme: { principles: [{ kind: "definition", name: "Binary place values", statement: "8+0+2+1=11." }], steps: [{ reasoning: "$8+2+1=11$.", working: "8+0+2+1=11", marks: 1, markCode: "B" }], finalAnswer: "**(c)** 11" },
         },
         {
           id: "olcs-u1-ns-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "20" },
             { id: "d", text: "24" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Binary place values", statement: "$16+8+0+2+0=26$." }], steps: [{ reasoning: "$16+8+2=26$.", working: "16+8+2=26", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 26" },
+          markscheme: { principles: [{ kind: "definition", name: "Binary place values", statement: "$16+8+0+2+0=26$." }], steps: [{ reasoning: "$16+8+2=26$.", working: "16+8+2=26", marks: 1, markCode: "B" }], finalAnswer: "**(b)** 26" },
         },
         {
           id: "olcs-u1-ns-q6", difficulty: "core", totalMarks: 2,
@@ -127,7 +127,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "16" },
             { id: "d", text: "15" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Hex digits", statement: "A=10 ... F=15." }], steps: [{ reasoning: "$F=15$.", working: "15", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 15" },
+          markscheme: { principles: [{ kind: "definition", name: "Hex digits", statement: "A=10 ... F=15." }], steps: [{ reasoning: "$F=15$.", working: "15", marks: 1, markCode: "B" }], finalAnswer: "**(d)** 15" },
         },
         {
           id: "olcs-u1-ns-q9", difficulty: "challenge", totalMarks: 4,
@@ -169,7 +169,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "$100000000_2$" },
             { id: "d", text: "$100000001_2$" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Overflow wrap", statement: "Bits beyond the width are discarded." }], steps: [{ reasoning: "True sum needs 9 bits; the extra bit is lost → all zeros.", working: "00000000", marks: 1, markCode: "B" }], finalAnswer: "**(a)** $00000000_2$" },
+          markscheme: { principles: [{ kind: "principle", name: "Overflow wrap", statement: "Bits beyond the width are discarded." }], steps: [{ reasoning: "True sum needs 9 bits; the extra bit is lost → all zeros.", working: "00000000", marks: 1, markCode: "B" }], finalAnswer: "**(b)** $00000000_2$" },
         },
         {
           id: "olcs-u1-ns-q13", difficulty: "core", totalMarks: 2,
@@ -310,7 +310,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "$11011001_2$" },
             { id: "d", text: "$10110101_2$" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Logical shift", statement: "Shift right, fill with 0, discard bottom bit." }], steps: [{ reasoning: "Move bits right, insert 0 at left, drop the 1.", working: "01011010", marks: 1, markCode: "B" }], finalAnswer: "**(a)** $01011010_2$" },
+          markscheme: { principles: [{ kind: "principle", name: "Logical shift", statement: "Shift right, fill with 0, discard bottom bit." }], steps: [{ reasoning: "Move bits right, insert 0 at left, drop the 1.", working: "01011010", marks: 1, markCode: "B" }], finalAnswer: "**(b)** $01011010_2$" },
         },
         {
           id: "olcs-u1-bit-q6", difficulty: "core", totalMarks: 2,
@@ -339,7 +339,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "The middle bit" },
             { id: "d", text: "A separate sign bit after the data" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Sign bit", statement: "Most significant bit: 0 positive, 1 negative." }], steps: [{ reasoning: "Leftmost bit is the sign bit.", working: "\\text{MSB}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** The leftmost bit" },
+          markscheme: { principles: [{ kind: "definition", name: "Sign bit", statement: "Most significant bit: 0 positive, 1 negative." }], steps: [{ reasoning: "Leftmost bit is the sign bit.", working: "\\text{MSB}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** The leftmost bit" },
         },
         {
           id: "olcs-u1-bit-q9", difficulty: "challenge", totalMarks: 4,
@@ -361,7 +361,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "$-8$ to $+7$" },
             { id: "d", text: "$-7$ to $+8$" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Two's complement range", statement: "$-2^{n-1}$ to $2^{n-1}-1$." }], steps: [{ reasoning: "$n=4$: $-8$ to $+7$.", working: "-8\\ldots7", marks: 1, markCode: "B" }], finalAnswer: "**(a)** $-8$ to $+7$" },
+          markscheme: { principles: [{ kind: "principle", name: "Two's complement range", statement: "$-2^{n-1}$ to $2^{n-1}-1$." }], steps: [{ reasoning: "$n=4$: $-8$ to $+7$.", working: "-8\\ldots7", marks: 1, markCode: "B" }], finalAnswer: "**(c)** $-8$ to $+7$" },
         },
         {
           id: "olcs-u1-bit-q11", difficulty: "foundation", totalMarks: 1,
@@ -372,7 +372,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "$00011101_2$" },
             { id: "d", text: "$00111011_2$" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Logical shift", statement: "Shift right, fill with 0, discard bottom bit." }], steps: [{ reasoning: "Move bits right, insert 0 at left, drop the trailing 0.", working: "00011101", marks: 1, markCode: "B" }], finalAnswer: "**(a)** $00011101_2$" },
+          markscheme: { principles: [{ kind: "principle", name: "Logical shift", statement: "Shift right, fill with 0, discard bottom bit." }], steps: [{ reasoning: "Move bits right, insert 0 at left, drop the trailing 0.", working: "00011101", marks: 1, markCode: "B" }], finalAnswer: "**(c)** $00011101_2$" },
         },
         {
           id: "olcs-u1-bit-q12", difficulty: "core", totalMarks: 2,
@@ -392,7 +392,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "$-5$" },
             { id: "d", text: "$-6$" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Two's complement decode", statement: "Sign bit 1 → negative; invert and add 1 for magnitude." }], steps: [{ reasoning: "Invert $11111010_2$ → $00000101_2$, add 1 → $6$; sign bit set → $-6$.", working: "-6", marks: 1, markCode: "B" }], finalAnswer: "**(a)** $-6$" },
+          markscheme: { principles: [{ kind: "principle", name: "Two's complement decode", statement: "Sign bit 1 → negative; invert and add 1 for magnitude." }], steps: [{ reasoning: "Invert $11111010_2$ → $00000101_2$, add 1 → $6$; sign bit set → $-6$.", working: "-6", marks: 1, markCode: "B" }], finalAnswer: "**(d)** $-6$" },
         },
         {
           id: "olcs-u1-bit-q14", difficulty: "core", totalMarks: 2,

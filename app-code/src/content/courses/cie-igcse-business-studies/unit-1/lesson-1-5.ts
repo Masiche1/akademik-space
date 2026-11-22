@@ -345,7 +345,7 @@ export const lesson255: Lesson = {
               { id: "c", text: "Monthly rent" },
               { id: "d", text: "Salaries of managers" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -444,7 +444,7 @@ export const lesson255: Lesson = {
               { id: "c", text: "Only enough to pay fixed costs" },
               { id: "d", text: "Zero profit and zero loss" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

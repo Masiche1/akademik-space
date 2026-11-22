@@ -177,7 +177,7 @@ export const lesson43: Lesson = {
               { reasoning: "Afrobeat combines Ghanaian/Nigerian highlife, funk rhythms and jazz-influenced harmony.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Ghanaian highlife with funk and jazz",
+            finalAnswer: "**(b)** Ghanaian highlife with funk and jazz",
             commonErrors: [
               "Confusing Afrobeat with other fusion genres.",
             ],
@@ -226,7 +226,7 @@ export const lesson43: Lesson = {
               { reasoning: "Appropriation involves taking elements without understanding context, giving credit or sharing benefit.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Without understanding, credit or benefit to the source",
+            finalAnswer: "**(c)** Without understanding, credit or benefit to the source",
             commonErrors: [
               "Judging sampling only by musical outcome, not ethical process.",
             ],
@@ -276,7 +276,7 @@ export const lesson43: Lesson = {
               { reasoning: "'World music' lumps heterogeneous traditions into one category, obscuring their distinct identities.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Flattens distinct traditions into a single marketing category",
+            finalAnswer: "**(c)** Flattens distinct traditions into a single marketing category",
             commonErrors: [
               "Accepting the label as neutral rather than critically examining it.",
             ],
@@ -337,7 +337,7 @@ export const lesson43: Lesson = {
               { reasoning: "Ethics are judged by reciprocity — understanding, credit and benefit — not musical complexity.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Reciprocity — credit, benefit and respect for source traditions",
+            finalAnswer: "**(c)** Reciprocity — credit, benefit and respect for source traditions",
             commonErrors: [
               "Equating musical sophistication with ethical practice.",
             ],
@@ -473,7 +473,7 @@ export const lesson43: Lesson = {
               { reasoning: "Jazz gained emotional depth from African-American traditions and harmonic sophistication from European practice.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** An exchange where blues feeling met harmonic sophistication to create something new",
+            finalAnswer: "**(c)** An exchange where blues feeling met harmonic sophistication to create something new",
             commonErrors: [
               "Attributing jazz to only one tradition.",
             ],
@@ -689,7 +689,7 @@ export const lesson43: Lesson = {
               { reasoning: "The first analytical question identifies precisely which elements crossed the boundary.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Which specific elements — rhythm, melody, instruments, technique — were taken",
+            finalAnswer: "**(d)** Which specific elements — rhythm, melody, instruments, technique — were taken",
             commonErrors: [
               "Vague description without identifying specific elements.",
             ],
@@ -739,7 +739,7 @@ export const lesson43: Lesson = {
               { reasoning: "The rhythm survives recognisably but its cultural context does not — partial transformation.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Partial transformation — surface retained, context altered",
+            finalAnswer: "**(c)** Partial transformation — surface retained, context altered",
             commonErrors: [
               "Assuming retention of sound equals retention of meaning.",
             ],
@@ -800,7 +800,7 @@ export const lesson43: Lesson = {
               { reasoning: "Analytical frameworks centre on who benefits and whether exchange is mutual.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Who benefits and whether the exchange is reciprocal",
+            finalAnswer: "**(a)** Who benefits and whether the exchange is reciprocal",
             commonErrors: [
               "Reducing analysis to musical description alone.",
             ],
@@ -886,7 +886,7 @@ export const lesson43: Lesson = {
               { reasoning: "Reciprocity means mutual benefit and shared control; extraction is one-sided taking.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Both parties benefit and retain agency over their elements",
+            finalAnswer: "**(a)** Both parties benefit and retain agency over their elements",
             commonErrors: [
               "Equating musical quality with ethical reciprocity.",
             ],
@@ -937,7 +937,7 @@ export const lesson43: Lesson = {
               { reasoning: "Questions of profit and reciprocity reveal whether exchange honours or exploits.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Who profits from the borrowing and is it reciprocal",
+            finalAnswer: "**(a)** Who profits from the borrowing and is it reciprocal",
             commonErrors: [
               "Choosing descriptive rather than analytical questions.",
             ],

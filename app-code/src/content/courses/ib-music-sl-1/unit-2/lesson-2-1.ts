@@ -347,7 +347,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Da capo aria" },
               { id: "d", text: "Sonata form" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -371,7 +371,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Sonata form",
+            finalAnswer: "**(d)** Sonata form",
             commonErrors: [
               "Confusing sonata form with rondo or variation structures used in later movements.",
             ],
@@ -390,7 +390,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Heterophony" },
               { id: "d", text: "Contrapuntal counterpoint" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -414,7 +414,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Contrapuntal counterpoint",
+            finalAnswer: "**(d)** Contrapuntal counterpoint",
             commonErrors: [
               "Assuming melody-plus-accompaniment homophony describes Baroque music.",
             ],
@@ -513,7 +513,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Aesthetic values changed toward proportion, order and intellectual clarity",
+              "**(a)** Aesthetic values changed toward proportion, order and intellectual clarity",
             commonErrors: [
               "Explaining the shift as technological progress rather than a change in values.",
             ],
@@ -1239,7 +1239,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Emotional intensity, virtuosic display and programme elements",
+              "**(a)** Emotional intensity, virtuosic display and programme elements",
             commonErrors: [
               "Confusing Romantic emotionalism with Classical restraint.",
             ],
@@ -1286,7 +1286,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Using folk elements and cultural symbols to express national identity",
+              "**(c)** Using folk elements and cultural symbols to express national identity",
             commonErrors: [
               "Equating nationalism with political propaganda rather than cultural expression.",
             ],
@@ -1372,7 +1372,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The social conditions of each era",
+            finalAnswer: "**(c)** The social conditions of each era",
             commonErrors: [
               "Treating popular music as commercially driven only, without social meaning.",
             ],
@@ -1441,7 +1441,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "fixed by each genre's origins" },
               { id: "d", text: "irrelevant to all listeners" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1465,7 +1465,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Contested and constantly negotiated",
+            finalAnswer: "**(b)** Contested and constantly negotiated",
             commonErrors: [
               "Assuming the art/popular distinction is natural and permanent.",
             ],

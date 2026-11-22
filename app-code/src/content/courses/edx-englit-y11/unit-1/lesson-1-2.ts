@@ -193,7 +193,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Wall Street Crash", statement: "The stock market collapsed in 1929, beginning the Great Depression." }],
             steps: [{ reasoning: "The Crash happened in 1929.", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(b)** 1929",
+            finalAnswer: "**(a)** 1929",
             commonErrors: ["Choosing 1937, the year the novel was published."],
           },
         },

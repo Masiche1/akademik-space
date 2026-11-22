@@ -68,7 +68,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Choosing from the whole roster at random avoids bias. The other groups over-represent certain students.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Ask $30$ students chosen at random from the school roster",
+            finalAnswer: "**(a)** Ask $30$ students chosen at random from the school roster",
             commonErrors: ["Choosing a convenient sample (first arrivals or cafeteria line) that may not represent all students.", "Choosing a group with a built-in interest, such as the cooking club."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "$\\frac{5}{8}$" },
               { id: "d", text: "$\\frac{3}{10}$" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -205,7 +205,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "There are $3 + 5 + 2 = 10$ marbles in total and $5$ are blue.", working: "P(\\text{blue}) = \\frac{5}{10} = \\frac{1}{2}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** $\\frac{1}{2}$",
+            finalAnswer: "**(b)** $\\frac{1}{2}$",
             commonErrors: ["Dividing by $8$ (red and blue only) to get $\\frac{5}{8}$.", "Giving $\\frac{3}{10}$, the probability of red."],
           },
         },

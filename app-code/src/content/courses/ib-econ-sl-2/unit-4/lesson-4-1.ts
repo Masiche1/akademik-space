@@ -118,7 +118,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Output produced within a country's borders",
+            finalAnswer: "**(d)** Output produced within a country's borders",
             commonErrors: ["Confusing GDP (territory) with GNP (residency)."],
           },
         },
@@ -347,7 +347,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** GDP minus depreciation",
+            finalAnswer: "**(a)** GDP minus depreciation",
             commonErrors: ["Adding depreciation instead of subtracting it."],
           },
         },
@@ -493,7 +493,7 @@ export const lesson41: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Unpaid childcare provided by a parent at home",
+              "**(a)** Unpaid childcare provided by a parent at home",
             commonErrors: [
               "Forgetting that GDP counts output, not just income.",
             ],
@@ -543,7 +543,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** It rose by less than the 8% nominal rise",
+            finalAnswer: "**(a)** It rose by less than the 8% nominal rise",
             commonErrors: [
               "Forgetting to strip out inflation when comparing nominal and real growth.",
             ],
@@ -1092,7 +1092,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** C + I + G + (X − M)",
+            finalAnswer: "**(d)** C + I + G + (X − M)",
             commonErrors: ["Adding imports instead of subtracting them."],
           },
         },
@@ -1291,7 +1291,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "Government spending" },
               { id: "d", text: "Saving by households" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1315,7 +1315,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Saving by households",
+            finalAnswer: "**(d)** Saving by households",
             commonErrors: [
               "Confusing injections (entering the flow) with withdrawals (leaving it).",
             ],
@@ -1452,7 +1452,7 @@ export const lesson41: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** AD decreases",
+            finalAnswer: "**(d)** AD decreases",
             commonErrors: [
               "Forgetting that higher taxes reduce disposable income and hence consumption.",
             ],

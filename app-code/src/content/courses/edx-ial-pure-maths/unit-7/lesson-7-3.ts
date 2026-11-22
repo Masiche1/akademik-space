@@ -60,7 +60,7 @@ export const lesson73: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Intersection", statement: "Linear equation in $t$ gives unique solution unless parallel." }],
             steps: [{ reasoning: "Plane equation linear in $t$.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** unique $t$",
+            finalAnswer: "**(b)** unique $t$",
           },
         },
         {

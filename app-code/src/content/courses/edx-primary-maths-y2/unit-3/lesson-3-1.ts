@@ -87,7 +87,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Hexagon has 6 sides.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Hexagon",
+            finalAnswer: "**(a)** Hexagon",
             commonErrors: ["Choosing pentagon — off by one."],
           },
         },

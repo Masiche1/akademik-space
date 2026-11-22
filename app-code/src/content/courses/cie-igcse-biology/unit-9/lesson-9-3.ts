@@ -64,7 +64,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the pattern.", working: "\\text{intermediate}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** An intermediate/blended phenotype",
+            finalAnswer: "**(d)** An intermediate/blended phenotype",
             commonErrors: ["Confusing with codominance — that's both expressed fully."],
           },
         },
@@ -158,7 +158,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the pattern.", working: "\\text{both expressed}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Both alleles fully expressed",
+            finalAnswer: "**(b)** Both alleles fully expressed",
             commonErrors: ["Confusing with incomplete dominance — that's the blended phenotype."],
           },
         },
@@ -210,7 +210,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Each genotype gives a different phenotype.", working: "\\text{1:2:1}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 1 red : 2 pink : 1 white",
+            finalAnswer: "**(c)** 1 red : 2 pink : 1 white",
             commonErrors: ["Choosing 3:1 — that's complete dominance, not incomplete."],
           },
         },
@@ -383,7 +383,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "AB requires one IA and one IB allele.", working: "\\text{AB} = IAIB", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $IAIB$",
+            finalAnswer: "**(d)** $IAIB$",
             commonErrors: ["Choosing $IAIA$ — that gives blood group A only."],
           },
         },
@@ -409,7 +409,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{both expressed}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Both alleles are expressed equally in the heterozygote",
+            finalAnswer: "**(b)** Both alleles are expressed equally in the heterozygote",
             commonErrors: ["Choosing 'blend into intermediate' — that's incomplete dominance."],
           },
         },
@@ -467,7 +467,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{DNA change}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A permanent change in DNA sequence",
+            finalAnswer: "**(b)** A permanent change in DNA sequence",
             commonErrors: ["Choosing 'cell division' — mutation is a change, not a process."],
           },
         },
@@ -561,7 +561,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall a mutagen.", working: "\\text{radiation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** UV radiation",
+            finalAnswer: "**(b)** UV radiation",
             commonErrors: ["Choosing a normal substance — mutagens damage DNA."],
           },
         },
@@ -613,7 +613,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the advantage.", working: "\\text{malaria resistance}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Their blood cells resist malaria infection",
+            finalAnswer: "**(c)** Their blood cells resist malaria infection",
             commonErrors: ["Choosing 'never get anaemia' — heterozygotes can still pass the allele on."],
           },
         },
@@ -639,7 +639,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the mechanism.", working: "\\text{one X only}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Males have only one X chromosome to mask the allele",
+            finalAnswer: "**(b)** Males have only one X chromosome to mask the allele",
             commonErrors: ["Choosing 'two X' — males are XY, not XX."],
           },
         },
@@ -786,7 +786,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the effect.", working: "\\text{sickle-shaped RBCs}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** They become sickle-shaped and can block capillaries",
+            finalAnswer: "**(c)** They become sickle-shaped and can block capillaries",
             commonErrors: ["Choosing 'stop carrying oxygen' — they still carry some oxygen but deform."],
           },
         },
@@ -812,7 +812,7 @@ export const lesson93: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{heterozygote, unaffected}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A heterozygote who does not show the disorder but can pass it on",
+            finalAnswer: "**(b)** A heterozygote who does not show the disorder but can pass it on",
             commonErrors: ["Choosing 'immune' — carriers are unaffected but NOT immune."],
           },
         },

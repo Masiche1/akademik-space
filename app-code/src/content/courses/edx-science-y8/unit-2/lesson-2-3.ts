@@ -68,7 +68,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Magnesium and oxygen are the reactants and magnesium oxide is the only product.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** magnesium + oxygen $\\rightarrow$ magnesium oxide",
+            finalAnswer: "**(c)** magnesium + oxygen $\\rightarrow$ magnesium oxide",
             commonErrors: ["Choosing (b); there is no carbon so a carbonate cannot form.", "Choosing (c), which swaps reactants and products."],
             examinerNote: "B1 for (a) only.",
           },

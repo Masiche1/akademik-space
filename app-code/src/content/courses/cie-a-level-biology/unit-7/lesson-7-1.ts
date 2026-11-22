@@ -839,7 +839,7 @@ export const lesson711: Lesson = {
               { id: "c", text: "Variation in a population" },
               { id: "d", text: "Differential survival and reproduction" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Natural selection", statement: "Needs variation, heritability and differential survival — not large size." }],

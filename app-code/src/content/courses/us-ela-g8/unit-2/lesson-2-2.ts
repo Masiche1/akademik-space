@@ -137,7 +137,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** It is the topic sentence. The statistic and examples that follow are supporting details.",
+              "**(b)** It is the topic sentence. The statistic and examples that follow are supporting details.",
             commonErrors: [
               "Choosing (c), mistaking the first sentence for a conclusion.",
             ],
@@ -160,7 +160,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "It introduces a new topic unrelated to bees." },
               { id: "d", text: "It states a fact about almond production." },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -188,7 +188,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** The sentence closes the paragraph by showing what losing bees would mean for ordinary shoppers. The definition of pollination appears earlier in the paragraph.",
+              "**(b)** The sentence closes the paragraph by showing what losing bees would mean for ordinary shoppers. The definition of pollination appears earlier in the paragraph.",
             commonErrors: [
               "Choosing (d), which describes an earlier sentence.",
             ],
@@ -447,7 +447,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The author says 'I disagree' and urges residents to attend the meeting to oppose the closure.",
+              "**(c)** The author says 'I disagree' and urges residents to attend the meeting to oppose the closure.",
             commonErrors: [
               "Choosing (c) because the author mentions the council's argument fairly.",
             ],
@@ -498,7 +498,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** The author concedes the budget point to seem fair, then rebuts it with the word 'But'. The author does not change position or dismiss the budget.",
+              "**(d)** The author concedes the budget point to seem fair, then rebuts it with the word 'But'. The author does not change position or dismiss the budget.",
             commonErrors: [
               "Choosing (b), reading the concession as a change of mind.",
             ],

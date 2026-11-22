@@ -85,7 +85,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Its / it's", statement: "Possessive 'its' has no apostrophe." }],
             steps: [{ reasoning: "'Its' meaning 'belonging to it' takes no apostrophe.", marks: 1, markCode: "AO5" }],
-            finalAnswer: "**(a)** 'its tail' is correct. (b) wrongly uses it's, (c) wrongly uses an apostrophe for a plural, (d) needs can't.",
+            finalAnswer: "**(b)** 'its tail' is correct. (b) wrongly uses it's, (c) wrongly uses an apostrophe for a plural, (d) needs can't.",
             commonErrors: ["Choosing (b) because it 'looks' possessive."],
           },
         },
@@ -213,7 +213,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Complex sentence", statement: "A main clause with a subordinate clause." }],
             steps: [{ reasoning: "'Although it was raining' is a subordinate clause attached to a main clause.", marks: 1, markCode: "AO5" }],
-            finalAnswer: "**(a)** Complex. (b) is simple, (c) is compound and (d) is a fragment.",
+            finalAnswer: "**(b)** Complex. (b) is simple, (c) is compound and (d) is a fragment.",
             commonErrors: ["Choosing (c), which joins two main clauses and is compound."],
           },
         },

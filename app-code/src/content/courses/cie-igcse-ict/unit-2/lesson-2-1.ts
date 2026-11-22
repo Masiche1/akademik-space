@@ -518,7 +518,7 @@ export const lesson91: Lesson = {
                 text: "300 dpi",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

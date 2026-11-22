@@ -58,14 +58,14 @@ export const lesson13: Lesson = {
               { id: "c", text: "$1.15$" },
               { id: "d", text: "$0.115$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Multiplier", statement: "A decrease of $p\\%$ has multiplier $1 - \\frac{p}{100}$." }],
             steps: [
               { reasoning: "After a 15% decrease, 85% of the original remains.", working: "1 - 0.15 = 0.85", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $0.85$",
+            finalAnswer: "**(a)** $0.85$",
             commonErrors: ["Choosing $1.15$, which is the multiplier for an increase.", "Choosing $0.15$, which finds only the amount taken off."],
           },
         },
@@ -193,7 +193,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "5% of £400 is £20 each year; multiply by 3 years.", working: "20 \\times 3 = 60", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** £60",
+            finalAnswer: "**(c)** £60",
             commonErrors: ["Stopping at one year's interest, £20.", "Using compound interest, £63.05.", "Giving the total amount £460 instead of the interest."],
           },
         },

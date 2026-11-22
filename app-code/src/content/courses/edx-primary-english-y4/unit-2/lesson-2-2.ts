@@ -72,7 +72,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Use weather clues.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It will rain",
+            finalAnswer: "**(a)** It will rain",
             commonErrors: ["Ignoring clues."],
           },
         },
@@ -257,7 +257,7 @@ export const lesson112: Lesson = {
             steps: [
               { reasoning: "Headings organise.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Shows what a section is about",
+            finalAnswer: "**(a)** Shows what a section is about",
             commonErrors: ["Not understanding purpose."],
           },
         },
@@ -292,7 +292,7 @@ export const lesson112: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Compare and contrast",
+            finalAnswer: "**(a)** Compare and contrast",
             commonErrors: ["Not recognising structure."],
           },
         },

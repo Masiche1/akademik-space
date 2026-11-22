@@ -42,7 +42,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "General rise in prices" },
             { id: "d", text: "Higher wages" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Inflation", statement: "Rising prices." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Inflation", statement: "Rising prices." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u6-ec-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Falling interest rates" },
             { id: "d", text: "Rising wages and material costs" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Inflation impact", statement: "Cost pressure." }], steps: [{ reasoning: "Inflation raises input costs.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Inflation impact", statement: "Cost pressure." }], steps: [{ reasoning: "Inflation raises input costs.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u6-ec-q6", difficulty: "core", totalMarks: 1,
@@ -109,7 +109,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Cheaper loans and higher demand" },
             { id: "d", text: "No effect on businesses" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Interest rates", statement: "Cost and demand." }], steps: [{ reasoning: "Higher rates raise costs, cut spending.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Interest rates", statement: "Cost and demand." }], steps: [{ reasoning: "Higher rates raise costs, cut spending.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u6-ec-q7", difficulty: "core", totalMarks: 1,
@@ -131,7 +131,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Rises sharply" },
             { id: "d", text: "Only affects luxury goods" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Recession", statement: "Falling demand." }], steps: [{ reasoning: "Recession = declining demand/output.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Recession", statement: "Falling demand." }], steps: [{ reasoning: "Recession = declining demand/output.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u6-ec-q9", difficulty: "core", totalMarks: 1,
@@ -142,7 +142,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Daily cash flow movements" },
             { id: "d", text: "Fluctuations between economic growth and recession" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Business cycle", statement: "Economic fluctuations." }], steps: [{ reasoning: "Cycle = growth/recession phases.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Business cycle", statement: "Economic fluctuations." }], steps: [{ reasoning: "Cycle = growth/recession phases.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u6-ec-q10", difficulty: "core", totalMarks: 2,
@@ -253,7 +253,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Video games" },
             { id: "d", text: "School supplies" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Social influences", statement: "Demographic impact." }], steps: [{ reasoning: "Health/retirement needs.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Social influences", statement: "Demographic impact." }], steps: [{ reasoning: "Health/retirement needs.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u6-so-q2", difficulty: "core", totalMarks: 2,
@@ -319,7 +319,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Fast food only" },
             { id: "d", text: "Tobacco products" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Lifestyle trends", statement: "Health impact." }], steps: [{ reasoning: "Health trend boosts healthy products.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Lifestyle trends", statement: "Health impact." }], steps: [{ reasoning: "Health trend boosts healthy products.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u6-so-q7", difficulty: "core", totalMarks: 1,
@@ -330,7 +330,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Office buildings only" },
             { id: "d", text: "Home office equipment and video conferencing" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Remote work", statement: "New demand." }], steps: [{ reasoning: "Remote work needs home office products.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Remote work", statement: "New demand." }], steps: [{ reasoning: "Remote work needs home office products.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u6-so-q8", difficulty: "core", totalMarks: 1,
@@ -341,7 +341,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Slower delivery" },
             { id: "d", text: "Limited choice" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Consumer expectations", statement: "Rising standards." }], steps: [{ reasoning: "Convenience/quality/ethics expected.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Consumer expectations", statement: "Rising standards." }], steps: [{ reasoning: "Convenience/quality/ethics expected.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u6-so-q9", difficulty: "core", totalMarks: 1,
@@ -352,7 +352,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Education, entertainment and technology" },
             { id: "d", text: "Funeral services" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Demographics", statement: "Youth impact." }], steps: [{ reasoning: "Younger population drives youth-oriented demand.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Demographics", statement: "Youth impact." }], steps: [{ reasoning: "Younger population drives youth-oriented demand.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u6-so-q10", difficulty: "core", totalMarks: 2,

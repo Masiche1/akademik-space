@@ -70,7 +70,7 @@ export const lesson63: Lesson = {
               { reasoning: "Reflective evaluation documents and analyses musical growth and learning.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Document and analyse musical development and learning",
+            finalAnswer: "**(a)** Document and analyse musical development and learning",
             commonErrors: [
               "Writing a diary or list rather than analytical reflection.",
             ],
@@ -171,7 +171,7 @@ export const lesson63: Lesson = {
               { reasoning: "Reflection is structured evidence of learning.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Structured evidence of musical learning and development",
+            finalAnswer: "**(d)** Structured evidence of musical learning and development",
             commonErrors: [
               "Confusing reflection with a diary or list.",
             ],
@@ -200,7 +200,7 @@ export const lesson63: Lesson = {
               { reasoning: "Vague claims lack the specific evidence reflection requires.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Lacks specific evidence of how and where improvement occurred",
+            finalAnswer: "**(c)** Lacks specific evidence of how and where improvement occurred",
             commonErrors: [
               "Making vague claims without supporting examples.",
             ],
@@ -229,7 +229,7 @@ export const lesson63: Lesson = {
               { reasoning: "Reflection follows a structured progression.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Intention, process, challenges, breakthroughs and learning",
+            finalAnswer: "**(a)** Intention, process, challenges, breakthroughs and learning",
             commonErrors: [
               "Writing without a clear structure.",
             ],
@@ -258,7 +258,7 @@ export const lesson63: Lesson = {
               { reasoning: "Comparisons evidence growth concretely.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Concrete evidence of musical growth",
+            finalAnswer: "**(d)** Concrete evidence of musical growth",
             commonErrors: [
               "Asserting growth without comparative evidence.",
             ],
@@ -287,7 +287,7 @@ export const lesson63: Lesson = {
               { reasoning: "Self-assessment is honest evaluation of own progress.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Honest evaluation of one's own musical abilities and progress",
+            finalAnswer: "**(c)** Honest evaluation of one's own musical abilities and progress",
             commonErrors: [
               "Overstating or understating abilities insincerely.",
             ],
@@ -316,7 +316,7 @@ export const lesson63: Lesson = {
               { reasoning: "A breakthrough is significant progress or insight.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A moment of significant progress or insight",
+            finalAnswer: "**(a)** A moment of significant progress or insight",
             commonErrors: [
               "Confusing routine progress with breakthrough moments.",
             ],
@@ -345,7 +345,7 @@ export const lesson63: Lesson = {
               { reasoning: "Challenges analysed honestly show learning.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Demonstrate honest analysis and learning from difficulty",
+            finalAnswer: "**(d)** Demonstrate honest analysis and learning from difficulty",
             commonErrors: [
               "Hiding challenges or presenting only successes.",
             ],
@@ -374,7 +374,7 @@ export const lesson63: Lesson = {
               { reasoning: "Struggle-breakthrough evidence shows genuine learning.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It provides verifiable evidence of learning and critical thinking",
+            finalAnswer: "**(c)** It provides verifiable evidence of learning and critical thinking",
             commonErrors: [
               "Believing polished narratives are more convincing than honest ones.",
             ],
@@ -623,7 +623,7 @@ export const lesson63: Lesson = {
               { reasoning: "SL assessment comprises performance, composition, analysis and reflection.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Performance, composition, analysis and reflection",
+            finalAnswer: "**(c)** Performance, composition, analysis and reflection",
             commonErrors: [
               "Assuming assessment is only performance or only written.",
             ],
@@ -724,7 +724,7 @@ export const lesson63: Lesson = {
               { reasoning: "SL assessment has four components including performance and reflection.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Performance, composition, analysis and reflection",
+            finalAnswer: "**(d)** Performance, composition, analysis and reflection",
             commonErrors: [
               "Assuming assessment is only performance or only written.",
             ],
@@ -753,7 +753,7 @@ export const lesson63: Lesson = {
               { reasoning: "The portfolio evidences sustained practice and development.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Evidencing sustained practice and development across components",
+            finalAnswer: "**(d)** Evidencing sustained practice and development across components",
             commonErrors: [
               "Thinking the portfolio replaces other assessment components.",
             ],
@@ -782,7 +782,7 @@ export const lesson63: Lesson = {
               { reasoning: "A performance log records performances and repertoire.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Performances given, repertoire and experiences",
+            finalAnswer: "**(d)** Performances given, repertoire and experiences",
             commonErrors: [
               "Recording only dates without detail.",
             ],
@@ -811,7 +811,7 @@ export const lesson63: Lesson = {
               { reasoning: "Recent material shows current ability.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It represents the student's current ability level",
+            finalAnswer: "**(c)** It represents the student's current ability level",
             commonErrors: [
               "Including outdated material that misrepresents current level.",
             ],
@@ -840,7 +840,7 @@ export const lesson63: Lesson = {
               { reasoning: "Composition portfolio requires original works with scores.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Original compositions with scores and recordings",
+            finalAnswer: "**(d)** Original compositions with scores and recordings",
             commonErrors: [
               "Submitting performances instead of original compositions.",
             ],
@@ -927,7 +927,7 @@ export const lesson63: Lesson = {
               { reasoning: "Feedback reveals gaps before submission.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Identifies gaps and weaknesses before assessment",
+            finalAnswer: "**(d)** Identifies gaps and weaknesses before assessment",
             commonErrors: [
               "Assuming feedback guarantees grades rather than improving quality.",
             ],

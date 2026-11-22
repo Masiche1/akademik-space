@@ -65,7 +65,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{DNA section}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A section of DNA coding for a protein",
+            finalAnswer: "**(d)** A section of DNA coding for a protein",
             commonErrors: ["Choosing chromosome — a chromosome contains MANY genes."],
           },
         },
@@ -159,7 +159,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recall the order from smallest to largest packaging.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** DNA → genes → chromosomes → nucleus",
+            finalAnswer: "**(c)** DNA → genes → chromosomes → nucleus",
             commonErrors: ["Reversing DNA and chromosomes — DNA is inside chromosomes."],
           },
         },
@@ -185,7 +185,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Gametes are haploid (n = 23).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 23",
+            finalAnswer: "**(c)** 23",
             commonErrors: ["Choosing 46 — that is the diploid body-cell number."],
           },
         },
@@ -211,7 +211,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Match the definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** One chromosome from each parent carrying the same genes",
+            finalAnswer: "**(d)** One chromosome from each parent carrying the same genes",
             commonErrors: ["Confusing homologous pairs with sister chromatids."],
           },
         },
@@ -263,7 +263,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** An alternative form of a gene",
+            finalAnswer: "**(a)** An alternative form of a gene",
             commonErrors: ["Confusing allele with gene — a gene has alleles."],
           },
         },
@@ -471,7 +471,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Match process to product.", working: "\\text{meiosis} \\to \\text{gametes}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Meiosis",
+            finalAnswer: "**(c)** Meiosis",
             commonErrors: ["Choosing mitosis — that's for growth/repair."],
           },
         },
@@ -566,7 +566,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Match the product to the process.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Mitosis",
+            finalAnswer: "**(d)** Mitosis",
             commonErrors: ["Choosing meiosis — it gives four varied haploid cells."],
           },
         },
@@ -618,7 +618,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Asexual offspring are clones from mitosis.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Mitosis",
+            finalAnswer: "**(c)** Mitosis",
             commonErrors: ["Choosing meiosis — that introduces variation for sexual reproduction."],
           },
         },
@@ -635,7 +635,7 @@ export const lesson91: Lesson = {
               { id: "c", text: "Producing sperm" },
               { id: "d", text: "Producing eggs" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -644,7 +644,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Identify a mitotic role.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Growth and repair of tissues",
+            finalAnswer: "**(a)** Growth and repair of tissues",
             commonErrors: ["Choosing sperm/eggs — those come from meiosis."],
           },
         },
@@ -670,7 +670,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recall the product of meiosis.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It produces four haploid genetically different cells",
+            finalAnswer: "**(d)** It produces four haploid genetically different cells",
             commonErrors: ["Choosing identical cells — meiosis creates variation."],
           },
         },
@@ -804,7 +804,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Mitosis preserves 2n = 46.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 46",
+            finalAnswer: "**(a)** 46",
             commonErrors: ["Choosing 23 — that would be after meiosis."],
           },
         },

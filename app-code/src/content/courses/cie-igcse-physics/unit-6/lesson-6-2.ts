@@ -61,7 +61,7 @@ export const lessonp62: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Series", statement: "Same current." }],
             steps: [{ reasoning: "Recall.", working: "I \\text{ same}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Current",
+            finalAnswer: "**(d)** Current",
             commonErrors: ["Series: same I, shared V."],
           },
         },
@@ -141,7 +141,7 @@ export const lessonp62: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Parallel", statement: "Same voltage across branches." }],
             steps: [{ reasoning: "Recall parallel-circuit rules.", working: "\\text{same V}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Voltage",
+            finalAnswer: "**(d)** Voltage",
             commonErrors: ["Confusing parallel voltage with series current."],
           },
         },
@@ -175,7 +175,7 @@ export const lessonp62: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Series circuit", statement: "Single path; one break stops all." }],
             steps: [{ reasoning: "Recall series-path dependence.", working: "\\text{single path}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** They all stop because the path is broken",
+            finalAnswer: "**(d)** They all stop because the path is broken",
             commonErrors: ["Applying parallel independence to a series circuit."],
           },
         },
@@ -209,7 +209,7 @@ export const lessonp62: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Series voltage", statement: "Voltage divides according to resistance." }],
             steps: [{ reasoning: "Recall voltage division in series.", working: "V \\propto R", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** In proportion to resistance",
+            finalAnswer: "**(c)** In proportion to resistance",
             commonErrors: ["Assuming voltage always divides equally."],
           },
         },
@@ -227,7 +227,7 @@ export const lessonp62: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Fuse", statement: "Series placement ensures same current." }],
             steps: [{ reasoning: "Recall why protection is in series.", working: "\\text{same current path}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** So the same current passes through the fuse and appliance",
+            finalAnswer: "**(c)** So the same current passes through the fuse and appliance",
             commonErrors: ["Thinking a fuse in parallel would protect the appliance."],
           },
         },
@@ -262,7 +262,7 @@ export const lessonp62: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Parallel resistance", statement: "Total is less than the smallest branch resistance." }],
             steps: [{ reasoning: "Recall parallel resistance behaviour.", working: "R_{total} = R/3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** One third of one resistor",
+            finalAnswer: "**(c)** One third of one resistor",
             commonErrors: ["Treating parallel resistors like series resistors."],
           },
         },
@@ -296,7 +296,7 @@ export const lessonp62: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Parallel resistance", statement: "Total is less than smallest branch." }],
             steps: [{ reasoning: "Recall the parallel resistance property.", working: "R_{total} < R_{min}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Less than the smallest branch resistance",
+            finalAnswer: "**(a)** Less than the smallest branch resistance",
             commonErrors: ["Applying series-resistance thinking to parallel circuits."],
           },
         },
@@ -466,7 +466,7 @@ export const lessonp62: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Power", statement: "$P = IV$" }],
             steps: [{ reasoning: "Recall the basic power equation.", working: "P = IV", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $P = IV$",
+            finalAnswer: "**(a)** $P = IV$",
             commonErrors: ["Dividing voltage by current."],
           },
         },
@@ -500,7 +500,7 @@ export const lessonp62: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Earth wire", statement: "Safety path for fault current." }],
             steps: [{ reasoning: "Recall the earth wire function.", working: "\\text{safety path}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** To provide a safety path for fault current",
+            finalAnswer: "**(a)** To provide a safety path for fault current",
             commonErrors: ["Thinking the earth wire carries normal operating current."],
           },
         },
@@ -534,7 +534,7 @@ export const lessonp62: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Circuit breaker", statement: "Switches off and can be reset." }],
             steps: [{ reasoning: "Recall breaker versus fuse behaviour.", working: "\\text{resettable}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Can be reset after it trips",
+            finalAnswer: "**(d)** Can be reset after it trips",
             commonErrors: ["Thinking a breaker melts like a fuse."],
           },
         },
@@ -621,7 +621,7 @@ export const lessonp62: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Power", statement: "$P = I^2R = V^2/R$" }],
             steps: [{ reasoning: "Use $V=IR$ to rewrite power.", working: "P = I^2R = V^2/R", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $P = V^2/R$",
+            finalAnswer: "**(c)** $P = V^2/R$",
             commonErrors: ["Forgetting Ohm's law is needed to convert forms."],
           },
         },

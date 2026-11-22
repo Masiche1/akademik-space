@@ -41,7 +41,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Words in alphabetical order" },
             { id: "d", text: "Words with opposite meanings" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Word family", statement: "Same root, different forms." }], steps: [{ reasoning: "Families share a root like decide/decision.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Words sharing a root" },
+          markscheme: { principles: [{ kind: "definition", name: "Word family", statement: "Same root, different forms." }], steps: [{ reasoning: "Families share a root like decide/decision.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Words sharing a root" },
         },
         {
           id: "oles-u5-wf-q2", difficulty: "core", totalMarks: 2,
@@ -105,7 +105,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "define" },
             { id: "d", text: "decoration" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Word family", statement: "Same root, different forms." }], steps: [{ reasoning: "Decision shares the root 'decide'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** decision" },
+          markscheme: { principles: [{ kind: "definition", name: "Word family", statement: "Same root, different forms." }], steps: [{ reasoning: "Decision shares the root 'decide'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** decision" },
         },
         {
           id: "oles-u5-wf-q6", difficulty: "core", totalMarks: 2,
@@ -119,7 +119,7 @@ export const lesson53: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Word family", statement: "Different forms for different positions." }], steps: [
             { reasoning: "'Happiness' is the noun form of 'happy'.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** happiness" },
+          ], finalAnswer: "**(c)** happiness" },
         },
         {
           id: "oles-u5-wf-q7", difficulty: "foundation", totalMarks: 1,
@@ -225,7 +225,7 @@ export const lesson53: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Register", statement: "Match formality to context." }], steps: [
             { reasoning: "'Children' and 'offspring' are neutral/formal; 'kids' and 'babies' are informal.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(b)** children and offspring" },
+          ], finalAnswer: "**(c)** children and offspring" },
         },
       ],
     },
@@ -256,7 +256,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "Words in alphabetical order" },
             { id: "d", text: "Words with the same meaning" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Collocation", statement: "Natural word partnerships." }], steps: [{ reasoning: "Collocations are fixed pairings like 'make a decision'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Words that naturally go together" },
+          markscheme: { principles: [{ kind: "definition", name: "Collocation", statement: "Natural word partnerships." }], steps: [{ reasoning: "Collocations are fixed pairings like 'make a decision'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Words that naturally go together" },
         },
         {
           id: "oles-u5-co-q2", difficulty: "core", totalMarks: 2,
@@ -270,7 +270,7 @@ export const lesson53: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Collocation", statement: "make a mistake." }], steps: [
             { reasoning: "'Make a mistake' is the fixed collocation.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** make a mistake" },
+          ], finalAnswer: "**(b)** make a mistake" },
         },
         {
           id: "oles-u5-co-q3", difficulty: "challenge", totalMarks: 4,
@@ -339,7 +339,7 @@ export const lesson53: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Collocation", statement: "heavy rain." }], steps: [
             { reasoning: "Rain collocates with 'heavy', not 'strong'.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** heavy" },
+          ], finalAnswer: "**(b)** heavy" },
         },
         {
           id: "oles-u5-co-q7", difficulty: "foundation", totalMarks: 1,
@@ -361,7 +361,7 @@ export const lesson53: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Collocation", statement: "do homework." }], steps: [
             { reasoning: "'Do homework' is the fixed collocation.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** do" },
+          ], finalAnswer: "**(b)** do" },
         },
         {
           id: "oles-u5-co-q9", difficulty: "core", totalMarks: 2,
@@ -392,7 +392,7 @@ export const lesson53: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Collocation effect", statement: "Fixed partnerships cannot be reasoned out." }], steps: [
             { reasoning: "Collocations are memorised chunks, not grammar rules — 'do' + noun fails here.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** fixed chunks" },
+          ], finalAnswer: "**(d)** fixed chunks" },
         },
         {
           id: "oles-u5-co-q12", difficulty: "challenge", totalMarks: 2,
@@ -412,7 +412,7 @@ export const lesson53: Lesson = {
             { id: "c", text: "large" },
             { id: "d", text: "strong" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Collocation", statement: "strong coffee." }], steps: [{ reasoning: "Coffee collocates with 'strong'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** strong" },
+          markscheme: { principles: [{ kind: "convention", name: "Collocation", statement: "strong coffee." }], steps: [{ reasoning: "Coffee collocates with 'strong'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** strong" },
         },
         {
           id: "oles-u5-co-q14", difficulty: "challenge", totalMarks: 4,
@@ -445,7 +445,7 @@ export const lesson53: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Precise word choice", statement: "Pick precise, appropriate synonyms." }], steps: [
             { reasoning: "'Excellent' is precise and positive; 'goodish' and 'okay' are weak.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(b)** excellent" },
+          ], finalAnswer: "**(a)** excellent" },
         },
       ],
     },

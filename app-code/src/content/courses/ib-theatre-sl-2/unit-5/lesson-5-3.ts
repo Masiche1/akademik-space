@@ -70,7 +70,7 @@ export const lesson53: Lesson = {
               { reasoning: "A run-through is a complete performance without stopping for corrections.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Performing the complete piece without stopping",
+            finalAnswer: "**(d)** Performing the complete piece without stopping",
             commonErrors: [
               "Confusing run-through (complete performance) with isolated practice.",
             ],
@@ -171,7 +171,7 @@ export const lesson53: Lesson = {
               { reasoning: "Table work is the analytical reading stage at the start of rehearsal.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Reading and analysing the text with the cast",
+            finalAnswer: "**(a)** Reading and analysing the text with the cast",
             commonErrors: [
               "Confusing table work with physical staging.",
             ],
@@ -200,7 +200,7 @@ export const lesson53: Lesson = {
               { reasoning: "Blocking determines where actors move and stand on stage.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Staging movement and positioning of actors",
+            finalAnswer: "**(c)** Staging movement and positioning of actors",
             commonErrors: [
               "Confusing blocking with line rehearsal.",
             ],
@@ -229,7 +229,7 @@ export const lesson53: Lesson = {
               { reasoning: "Tech rehearsal brings all technical elements together with the performance.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Lighting, sound and set elements with the performance",
+            finalAnswer: "**(d)** Lighting, sound and set elements with the performance",
             commonErrors: [
               "Confusing tech rehearsal with dress rehearsal.",
             ],
@@ -258,7 +258,7 @@ export const lesson53: Lesson = {
               { reasoning: "Movement and staging must be settled before complete run-throughs are useful.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Because unsettled blocking undermines the foundations of the production",
+            finalAnswer: "**(d)** Because unsettled blocking undermines the foundations of the production",
             commonErrors: [
               "Thinking more rehearsal time always means better results regardless of stage.",
             ],
@@ -287,7 +287,7 @@ export const lesson53: Lesson = {
               { reasoning: "Dress rehearsal includes costumes, makeup and all technical elements.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A rehearsal with costumes, makeup and full technical elements",
+            finalAnswer: "**(d)** A rehearsal with costumes, makeup and full technical elements",
             commonErrors: [
               "Confusing dress rehearsal with an actual performance.",
             ],
@@ -316,7 +316,7 @@ export const lesson53: Lesson = {
               { reasoning: "Isolating and diagnosing the specific problem allows targeted correction.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Isolate the scene and diagnose the specific problem",
+            finalAnswer: "**(d)** Isolate the scene and diagnose the specific problem",
             commonErrors: [
               "Repeating mistakes hoping they will fix themselves.",
             ],
@@ -345,7 +345,7 @@ export const lesson53: Lesson = {
               { reasoning: "Preparation done alone means group time can focus on ensemble issues.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Frees group time for coordination and problem-solving",
+            finalAnswer: "**(c)** Frees group time for coordination and problem-solving",
             commonErrors: [
               "Seeing individual prep as competing with collaboration.",
             ],
@@ -512,7 +512,7 @@ export const lesson53: Lesson = {
               { reasoning: "Effective collaboration requires communication, respect and shared ownership.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Clear communication, mutual respect and shared ownership",
+            finalAnswer: "**(d)** Clear communication, mutual respect and shared ownership",
             commonErrors: [
               "Treating theatre as director-only decision making.",
             ],
@@ -613,7 +613,7 @@ export const lesson53: Lesson = {
               { reasoning: "Ensemble exercises develop the trust and responsiveness needed for performance.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Trust, awareness and responsiveness within the group",
+            finalAnswer: "**(a)** Trust, awareness and responsiveness within the group",
             commonErrors: [
               "Seeing ensemble work as unrelated to performance skill.",
             ],
@@ -642,7 +642,7 @@ export const lesson53: Lesson = {
               { reasoning: "Shared ownership distributes responsibility and investment across the company.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The production belongs to the whole ensemble, not just the director",
+            finalAnswer: "**(c)** The production belongs to the whole ensemble, not just the director",
             commonErrors: [
               "Treating theatre as a director-only hierarchy.",
             ],
@@ -671,7 +671,7 @@ export const lesson53: Lesson = {
               { reasoning: "Specific, actionable suggestions give the actor something to try.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'Try slowing that gesture on the second line.'",
+            finalAnswer: "**(c)** 'Try slowing that gesture on the second line.'",
             commonErrors: [
               "Giving vague or demoralising criticism.",
             ],
@@ -700,7 +700,7 @@ export const lesson53: Lesson = {
               { reasoning: "Respectful dialogue allows insight while preserving the director's final authority.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The actor voices concerns respectfully; the director listens, then decides and explains",
+            finalAnswer: "**(a)** The actor voices concerns respectfully; the director listens, then decides and explains",
             commonErrors: [
               "Treating disagreement as disobedience rather than dialogue.",
             ],
@@ -729,7 +729,7 @@ export const lesson53: Lesson = {
               { reasoning: "Specific constructive feedback gives clear direction for improvement.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Specific and constructive",
+            finalAnswer: "**(d)** Specific and constructive",
             commonErrors: [
               "Thinking vague praise or criticism counts as feedback.",
             ],
@@ -787,7 +787,7 @@ export const lesson53: Lesson = {
               { reasoning: "The best ensembles feel interdependent rather than collections of individuals.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** One organism where each member supports the whole",
+            finalAnswer: "**(a)** One organism where each member supports the whole",
             commonErrors: [
               "Confusing a strong ensemble with strong individual performers.",
             ],

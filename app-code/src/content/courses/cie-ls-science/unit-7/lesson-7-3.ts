@@ -65,7 +65,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Vibrations create sound waves.", working: "vibrations", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Vibrations",
+            finalAnswer: "**(b)** Vibrations",
             commonErrors: ["Choosing (d) — electricity can produce sound but vibrations are the cause."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Sound = longitudinal wave.", working: "longitudinal", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Longitudinal",
+            finalAnswer: "**(d)** Longitudinal",
             commonErrors: ["Choosing (b) — transverse describes light, not sound."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Amplitude controls loudness; frequency controls pitch.", working: "amplitude", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Amplitude",
+            finalAnswer: "**(b)** Amplitude",
             commonErrors: ["Choosing (b) — frequency is pitch."],
           },
         },
@@ -274,7 +274,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Ultrasound = too high frequency to hear.", working: ">20 kHz", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Above human hearing",
+            finalAnswer: "**(b)** Above human hearing",
             commonErrors: ["Choosing (b) — that's infrasound."],
           },
         },
@@ -300,7 +300,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Echo = reflected sound wave.", working: "reflection", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Reflected sound",
+            finalAnswer: "**(d)** Reflected sound",
             commonErrors: ["Choosing (b) — absorption is different from reflection."],
           },
         },
@@ -326,7 +326,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Pitch = frequency; increase frequency for higher pitch.", working: "frequency", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Increase frequency",
+            finalAnswer: "**(d)** Increase frequency",
             commonErrors: ["Choosing (b) — amplitude changes loudness, not pitch."],
           },
         },
@@ -482,7 +482,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Light travels through space — no medium needed.", working: "vacuum", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** No — travels through vacuum",
+            finalAnswer: "**(c)** No — travels through vacuum",
             commonErrors: ["Choosing (b) — that's sound, not light."],
           },
         },
@@ -587,7 +587,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Light = transverse electromagnetic wave.", working: "transverse", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Transverse",
+            finalAnswer: "**(c)** Transverse",
             commonErrors: ["Choosing (b) — longitudinal is sound."],
           },
         },
@@ -613,7 +613,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Light speed ≈ 300,000 km/s in vacuum.", working: "3×10⁸ m/s", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $300\\,000\\ \\text{km/s}$",
+            finalAnswer: "**(b)** $300\\,000\\ \\text{km/s}$",
             commonErrors: ["Choosing (b) — that's sound in air."],
           },
         },
@@ -639,7 +639,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Radio waves have longest wavelengths.", working: "radio", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Radio waves",
+            finalAnswer: "**(c)** Radio waves",
             commonErrors: ["Choosing (c) — gamma has shortest wavelength, highest energy."],
           },
         },
@@ -665,7 +665,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Gamma rays have highest frequency and energy.", working: "gamma", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Gamma rays",
+            finalAnswer: "**(b)** Gamma rays",
             commonErrors: ["Choosing (b) — radio is lowest frequency."],
           },
         },
@@ -691,7 +691,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Each colour bends differently → spectrum.", working: "dispersion", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Different refraction per colour",
+            finalAnswer: "**(b)** Different refraction per colour",
             commonErrors: ["Choosing (b) — colours were already in white light."],
           },
         },
@@ -743,7 +743,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Reflection law: i = r.", working: "i = r", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Angle of reflection",
+            finalAnswer: "**(b)** Angle of reflection",
             commonErrors: ["Choosing (c) — angles measured from normal, not surface."],
           },
         },
@@ -899,7 +899,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Ammeter = current.", working: "current", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Current",
+            finalAnswer: "**(d)** Current",
             commonErrors: ["Choosing (b) — voltmeter measures voltage."],
           },
         },
@@ -1004,7 +1004,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Voltmeter = voltage.", working: "voltage", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Voltage",
+            finalAnswer: "**(c)** Voltage",
             commonErrors: ["Choosing (b) — ammeter measures current."],
           },
         },
@@ -1030,7 +1030,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "W = watt = power.", working: "W", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Watt (W)",
+            finalAnswer: "**(b)** Watt (W)",
             commonErrors: ["Choosing (b) — J is energy, not power."],
           },
         },
@@ -1108,7 +1108,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Parallel = same voltage each branch.", working: "same V", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Same as supply",
+            finalAnswer: "**(b)** Same as supply",
             commonErrors: ["Choosing (b) — that's series circuits."],
           },
         },
@@ -1134,7 +1134,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Fuse melts on excessive current.", working: "melt", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Melts and breaks circuit",
+            finalAnswer: "**(b)** Melts and breaks circuit",
             commonErrors: ["Choosing (d) — fuse doesn't reduce resistance."],
           },
         },
@@ -1160,7 +1160,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Only visible light is EM and visible.", working: "visible", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Visible light",
+            finalAnswer: "**(d)** Visible light",
             commonErrors: ["Choosing (b) — sound is mechanical, not EM."],
           },
         },

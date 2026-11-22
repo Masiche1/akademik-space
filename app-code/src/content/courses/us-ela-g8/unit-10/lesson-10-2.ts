@@ -118,7 +118,7 @@ export const lesson102: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Visual impact making waste tangible.",
+            finalAnswer: "**(d)**. Visual impact making waste tangible.",
             commonErrors: [
               "Thinking media just repeats text — it adds impact.",
             ],
@@ -342,7 +342,7 @@ export const lesson102: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Peer-reviewed journal.",
+            finalAnswer: "**(a)**. Peer-reviewed journal.",
             commonErrors: ["Choosing (a) — anonymous sources unverifiable."],
           },
         },

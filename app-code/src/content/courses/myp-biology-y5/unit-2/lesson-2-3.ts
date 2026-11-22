@@ -62,7 +62,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Vena cava" },
               { id: "d", text: "Pulmonary vein" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -71,7 +71,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The aorta is the systemic artery; the pulmonary artery carries deoxygenated blood to the lungs.", working: "\\text{aorta}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Aorta",
+            finalAnswer: "**(a)** Aorta",
             commonErrors: ["Choosing pulmonary artery — it carries deoxygenated blood to the lungs."],
             examinerNote: "B1 for (c).",
           },
@@ -205,8 +205,8 @@ export const lesson23: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which vessel type allows exchange of substances between blood and tissues?",
-          response: { type: "mcq", choices: [ { id: "a", text: "Capillary" }, { id: "b", text: "Lymph vessel" }, { id: "c", text: "Vein" }, { id: "d", text: "Artery" } ], aorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Capillary", statement: "Capillaries are thin-walled vessels where exchange occurs." }], steps: [{ reasoning: "Capillaries have thin walls and slow flow for diffusion.", working: "capillary", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Capillary" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Capillary" }, { id: "b", text: "Lymph vessel" }, { id: "c", text: "Vein" }, { id: "d", text: "Artery" } ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "Capillary", statement: "Capillaries are thin-walled vessels where exchange occurs." }], steps: [{ reasoning: "Capillaries have thin walls and slow flow for diffusion.", working: "capillary", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Capillary" },
         },
         {
           id: "mypb5-u2-circ-q10",
@@ -234,7 +234,7 @@ export const lesson23: Lesson = {
           totalMarks: 1,
           stem: "Why are valves important in veins and the heart?",
           response: { type: "mcq", choices: [ { id: "a", text: "They increase blood pressure" }, { id: "b", text: "They filter blood" }, { id: "c", text: "They produce hormones" }, { id: "d", text: "They prevent backflow of blood" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Valves", statement: "Valves ensure one-way blood flow and prevent backflow." }], steps: [{ reasoning: "Valves close when blood would reverse direction.", working: "one-way", marks: 1, markCode: "B" }], finalAnswer: "**(b)** They prevent backflow of blood" },
+          markscheme: { principles: [{ kind: "definition", name: "Valves", statement: "Valves ensure one-way blood flow and prevent backflow." }], steps: [{ reasoning: "Valves close when blood would reverse direction.", working: "one-way", marks: 1, markCode: "B" }], finalAnswer: "**(d)** They prevent backflow of blood" },
         },
         {
           id: "mypb5-u2-circ-q13",
@@ -262,7 +262,7 @@ export const lesson23: Lesson = {
           totalMarks: 1,
           stem: "Which statement correctly compares xylem and phloem?",
           response: { type: "mcq", choices: [ { id: "a", text: "Xylem carries sugars; phloem carries water" }, { id: "b", text: "Phloem only moves upward" }, { id: "c", text: "Xylem carries water upward; phloem carries sucrose from sources to sinks" }, { id: "d", text: "Both tissues are living sieve tubes" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "comparison", name: "Plant transport", statement: "Xylem = water/minerals upward; phloem = sucrose source-to-sink." }], steps: [{ reasoning: "Xylem is dead lignified tissue; phloem contains living sieve tubes.", working: "xylem\\neq phloem", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Xylem carries water upward; phloem carries sucrose from sources to sinks" },
+          markscheme: { principles: [{ kind: "comparison", name: "Plant transport", statement: "Xylem = water/minerals upward; phloem = sucrose source-to-sink." }], steps: [{ reasoning: "Xylem is dead lignified tissue; phloem contains living sieve tubes.", working: "xylem\\neq phloem", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Xylem carries water upward; phloem carries sucrose from sources to sinks" },
         },
         {
           id: "mypb5-u2-circ-q16",
@@ -270,7 +270,7 @@ export const lesson23: Lesson = {
           totalMarks: 1,
           stem: "Which adaptation helps plants in dry habitats reduce water loss?",
           response: { type: "mcq", choices: [ { id: "a", text: "More open stomata" }, { id: "b", text: "Thinner xylem walls" }, { id: "c", text: "Sunken stomata and a waxy cuticle" }, { id: "d", text: "Fewer root hairs" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Plant adaptations", statement: "Dry-habitat plants reduce transpiration with sunken stomata, waxy cuticles and deep roots." }], steps: [{ reasoning: "These features conserve water while maintaining transport.", working: "water\\text{ conservation}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sunken stomata and a waxy cuticle" },
+          markscheme: { principles: [{ kind: "principle", name: "Plant adaptations", statement: "Dry-habitat plants reduce transpiration with sunken stomata, waxy cuticles and deep roots." }], steps: [{ reasoning: "These features conserve water while maintaining transport.", working: "water\\text{ conservation}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Sunken stomata and a waxy cuticle" },
         },
       ],
     },
@@ -317,7 +317,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "In the cervix" },
               { id: "d", text: "In the oviduct (fallopian tube)" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -326,7 +326,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The zygote then travels to the uterus for implantation.", working: "\\text{oviduct}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** In the oviduct",
+            finalAnswer: "**(d)** In the oviduct",
             commonErrors: ["Choosing the uterus — that is where implantation occurs, not fertilisation."],
             examinerNote: "B1 for (c).",
           },
@@ -344,7 +344,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "LH" },
               { id: "d", text: "FSH" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -460,8 +460,8 @@ export const lesson23: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which hormone surge directly triggers ovulation?",
-          response: { type: "mcq", choices: [ { id: "a", text: "LH" }, { id: "b", text: "Progesterone" }, { id: "c", text: "FSH" }, { id: "d", text: "Oestrogen" } ], aorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "LH surge", statement: "A peak in LH around mid-cycle triggers ovulation." }], steps: [{ reasoning: "High oestrogen stimulates the LH surge that releases the ovum.", working: "LH\\text{ surge}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** LH" },
+          response: { type: "mcq", choices: [ { id: "a", text: "LH" }, { id: "b", text: "Progesterone" }, { id: "c", text: "FSH" }, { id: "d", text: "Oestrogen" } ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "LH surge", statement: "A peak in LH around mid-cycle triggers ovulation." }], steps: [{ reasoning: "High oestrogen stimulates the LH surge that releases the ovum.", working: "LH\\text{ surge}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** LH" },
         },
         {
           id: "mypb5-u2-repro-q10",
@@ -489,7 +489,7 @@ export const lesson23: Lesson = {
           totalMarks: 1,
           stem: "Which contraception method physically blocks sperm from reaching the ovum?",
           response: { type: "mcq", choices: [ { id: "a", text: "Hormonal pill" }, { id: "b", text: "Barrier method such as a condom" }, { id: "c", text: "IUD" }, { id: "d", text: "Sterilisation" } ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Barrier contraception", statement: "Barrier methods prevent sperm from contacting the ovum." }], steps: [{ reasoning: "Hormonal methods and IUDs act by different mechanisms.", working: "barrier", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Barrier method such as a condom" },
+          markscheme: { principles: [{ kind: "definition", name: "Barrier contraception", statement: "Barrier methods prevent sperm from contacting the ovum." }], steps: [{ reasoning: "Hormonal methods and IUDs act by different mechanisms.", working: "barrier", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Barrier method such as a condom" },
         },
         {
           id: "mypb5-u2-repro-q13",
@@ -512,8 +512,8 @@ export const lesson23: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which hormone maintains the uterine lining after ovulation?",
-          response: { type: "mcq", choices: [ { id: "a", text: "Insulin" }, { id: "b", text: "Oestrogen only" }, { id: "c", text: "FSH" }, { id: "d", text: "Progesterone" } ], dorrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Progesterone", statement: "Progesterone maintains the endometrium for possible implantation." }], steps: [{ reasoning: "The corpus luteum secretes progesterone after ovulation.", working: "progesterone", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Progesterone" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Insulin" }, { id: "b", text: "Oestrogen only" }, { id: "c", text: "FSH" }, { id: "d", text: "Progesterone" } ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "definition", name: "Progesterone", statement: "Progesterone maintains the endometrium for possible implantation." }], steps: [{ reasoning: "The corpus luteum secretes progesterone after ovulation.", working: "progesterone", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Progesterone" },
         },
         {
           id: "mypb5-u2-repro-q16",
@@ -521,7 +521,7 @@ export const lesson23: Lesson = {
           totalMarks: 1,
           stem: "Which plant reproduction method produces clones?",
           response: { type: "mcq", choices: [ { id: "a", text: "Seed formation after pollination" }, { id: "b", text: "Fertilisation in flowers" }, { id: "c", text: "Asexual reproduction by runners, bulbs or cuttings" }, { id: "d", text: "Cross-pollination between species" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Asexual plant reproduction", statement: "Runners, bulbs and cuttings produce genetically identical clones." }], steps: [{ reasoning: "Sexual reproduction introduces variation; asexual reproduction clones the parent.", working: "clone", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Asexual reproduction by runners, bulbs or cuttings" },
+          markscheme: { principles: [{ kind: "definition", name: "Asexual plant reproduction", statement: "Runners, bulbs and cuttings produce genetically identical clones." }], steps: [{ reasoning: "Sexual reproduction introduces variation; asexual reproduction clones the parent.", working: "clone", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Asexual reproduction by runners, bulbs or cuttings" },
         },
       ],
     },

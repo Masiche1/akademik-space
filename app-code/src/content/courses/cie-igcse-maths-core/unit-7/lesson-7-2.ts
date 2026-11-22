@@ -161,7 +161,7 @@ export const lesson72: Lesson = {
             { id: "b", text: "$\\frac{7}{10}$" },
             { id: "c", text: "$\\frac{3}{10}$" },
             { id: "d", text: "$\\frac{1}{10}$" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Complement", statement: "$1 - P(\\text{both blue})$." }],
             steps: [{ reasoning: "$P(\\text{BB}) = \\frac{2}{5}\\times\\frac{1}{4} = \\frac{1}{10}$, so $P(\\text{at least one R}) = \\frac{9}{10}$.", marks: 1, markCode: "A" }],

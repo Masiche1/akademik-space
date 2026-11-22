@@ -65,7 +65,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Parallel = consistent form.", working: "consistent", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Consistent grammatical form",
+            finalAnswer: "**(b)** Consistent grammatical form",
             commonErrors: ["Choosing (b) — that's variety, not parallel."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Variety = different lengths/structures.", working: "variety", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Using different sentence lengths and structures",
+            finalAnswer: "**(d)** Using different sentence lengths and structures",
             commonErrors: ["Choosing (b) — that's monotony."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Varied = engaging.", working: "varied", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Varied — mix of short and long",
+            finalAnswer: "**(c)** Varied — mix of short and long",
             commonErrors: ["Choosing (b) — monotony."],
           },
         },
@@ -336,7 +336,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "(a) has dependent clause 'although'.", working: "complex", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Although it rained, we went out",
+            finalAnswer: "**(b)** Although it rained, we went out",
             commonErrors: ["Choosing (b) — that's simple."],
           },
         },
@@ -421,7 +421,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "(a) has two independent clauses.", working: "compound", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** She ran and he walked",
+            finalAnswer: "**(b)** She ran and he walked",
             commonErrors: ["Choosing (b) — that's simple."],
           },
         },
@@ -656,7 +656,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Alliteration = consonant repetition.", working: "consonant", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Repetition of initial consonant sounds",
+            finalAnswer: "**(c)** Repetition of initial consonant sounds",
             commonErrors: ["Choosing (b) — that's simile."],
           },
         },
@@ -726,7 +726,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "'Million times' = exaggeration.", working: "exaggeration", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** I've told you a million times",
+            finalAnswer: "**(b)** I've told you a million times",
             commonErrors: ["Choosing (b) — literal."],
           },
         },
@@ -857,7 +857,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "'Peter Piper' = alliteration.", working: "alliteration", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Peter Piper picked peppers",
+            finalAnswer: "**(d)** Peter Piper picked peppers",
             commonErrors: ["Choosing (b) — no repetition."],
           },
         },
@@ -937,7 +937,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Rhetorical = for effect.", working: "effect", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Question not expecting answer",
+            finalAnswer: "**(b)** Question not expecting answer",
             commonErrors: ["Thinking it's a real question."],
           },
         },
@@ -1042,7 +1042,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Rhetorical analysis = persuasive techniques.", working: "persuasive", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Analysing how a writer persuades readers",
+            finalAnswer: "**(c)** Analysing how a writer persuades readers",
             commonErrors: ["Choosing (c) — that's summarising."],
           },
         },
@@ -1092,7 +1092,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Rhetorical = for effect.", working: "effect", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Question asked for effect, not answer",
+            finalAnswer: "**(b)** Question asked for effect, not answer",
             commonErrors: ["Choosing (b) — that's genuine question."],
           },
         },
@@ -1162,7 +1162,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Repeated structure = parallelism.", working: "parallel", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** We shall fight on the beaches, we shall fight on the landing grounds",
+            finalAnswer: "**(c)** We shall fight on the beaches, we shall fight on the landing grounds",
             commonErrors: ["Choosing (b) — no repetition."],
           },
         },
@@ -1208,7 +1208,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Repeated 'we must' = repetition.", working: "repetition", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** We must fight, we must win, we must never surrender",
+            finalAnswer: "**(b)** We must fight, we must win, we must never surrender",
             commonErrors: ["Choosing (b) — no repetition."],
           },
         },
@@ -1293,7 +1293,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "'How long will we wait?' = rhetorical.", working: "rhetorical", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** How long will we wait?",
+            finalAnswer: "**(d)** How long will we wait?",
             commonErrors: ["Choosing (b) — genuine question."],
           },
         },

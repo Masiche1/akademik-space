@@ -42,7 +42,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Feedback to adjust the process" },
             { id: "d", text: "A bigger computer" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Closed-loop", statement: "Uses feedback." }], steps: [{ reasoning: "Closed-loop = feedback.", working: "\\text{feedback}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Feedback" },
+          markscheme: { principles: [{ kind: "definition", name: "Closed-loop", statement: "Uses feedback." }], steps: [{ reasoning: "Closed-loop = feedback.", working: "\\text{feedback}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Feedback" },
         },
         {
           id: "olcs-u6-au-q2", difficulty: "core", totalMarks: 2,
@@ -97,7 +97,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Store data" },
             { id: "d", text: "Produce physical movement or action" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Actuator", statement: "Converts signals into physical action." }], steps: [{ reasoning: "Actuators carry out physical actions.", working: "\\text{act}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Produce physical action" },
+          markscheme: { principles: [{ kind: "definition", name: "Actuator", statement: "Converts signals into physical action." }], steps: [{ reasoning: "Actuators carry out physical actions.", working: "\\text{act}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Produce physical action" },
         },
         {
           id: "olcs-u6-au-q6", difficulty: "foundation", totalMarks: 1,
@@ -116,7 +116,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Needs no sensors" },
             { id: "d", text: "Always uses feedback" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Open-loop", statement: "No feedback control." }], steps: [{ reasoning: "Open-loop runs blind, no feedback.", working: "\\text{no feedback}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Runs without feedback" },
+          markscheme: { principles: [{ kind: "definition", name: "Open-loop", statement: "No feedback control." }], steps: [{ reasoning: "Open-loop runs blind, no feedback.", working: "\\text{no feedback}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Runs without feedback" },
         },
         {
           id: "olcs-u6-au-q8", difficulty: "core", totalMarks: 1,
@@ -135,7 +135,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Artificial intelligence" },
             { id: "d", text: "Open-loop control" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Thermostat", statement: "Feedback maintains set point." }], steps: [{ reasoning: "Thermostat uses feedback → closed-loop.", working: "\\text{feedback}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Closed-loop control" },
+          markscheme: { principles: [{ kind: "principle", name: "Thermostat", statement: "Feedback maintains set point." }], steps: [{ reasoning: "Thermostat uses feedback → closed-loop.", working: "\\text{feedback}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Closed-loop control" },
         },
         {
           id: "olcs-u6-au-q10", difficulty: "core", totalMarks: 2,
@@ -155,7 +155,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Feedback lets them measure and correct output" },
             { id: "d", text: "They are cheaper" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Feedback", statement: "Measures and corrects output." }], steps: [{ reasoning: "Feedback corrects deviations.", working: "\\text{correct}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Feedback corrects output" },
+          markscheme: { principles: [{ kind: "principle", name: "Feedback", statement: "Measures and corrects output." }], steps: [{ reasoning: "Feedback corrects deviations.", working: "\\text{correct}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Feedback corrects output" },
         },
         {
           id: "olcs-u6-au-q12", difficulty: "core", totalMarks: 1,
@@ -185,7 +185,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Is too slow" },
             { id: "d", text: "Cannot detect or correct errors" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Open-loop limit", statement: "No error correction." }], steps: [{ reasoning: "Without feedback, errors go uncorrected.", working: "\\text{no check}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Cannot correct errors" },
+          markscheme: { principles: [{ kind: "principle", name: "Open-loop limit", statement: "No error correction." }], steps: [{ reasoning: "Without feedback, errors go uncorrected.", working: "\\text{no check}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Cannot correct errors" },
         },
         {
           id: "olcs-u6-au-q15", difficulty: "core", totalMarks: 2,
@@ -251,7 +251,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Never fails" },
             { id: "d", text: "Consistent quality" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Automation pros", statement: "Consistency, speed, safety." }], steps: [{ reasoning: "Automation gives consistency.", working: "\\text{consistent}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Consistent quality" },
+          markscheme: { principles: [{ kind: "principle", name: "Automation pros", statement: "Consistency, speed, safety." }], steps: [{ reasoning: "Automation gives consistency.", working: "\\text{consistent}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Consistent quality" },
         },
         {
           id: "olcs-u6-pc-q2", difficulty: "core", totalMarks: 2,
@@ -325,7 +325,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Repetitive and precision-critical" },
             { id: "d", text: "Socially interactive" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Suitability", statement: "Machines suit repetitive, precise work." }], steps: [{ reasoning: "Repetitive/precise tasks suit automation.", working: "\\text{repetitive}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Repetitive and precision-critical" },
+          markscheme: { principles: [{ kind: "principle", name: "Suitability", statement: "Machines suit repetitive, precise work." }], steps: [{ reasoning: "Repetitive/precise tasks suit automation.", working: "\\text{repetitive}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Repetitive and precision-critical" },
         },
         {
           id: "olcs-u6-pc-q8", difficulty: "core", totalMarks: 1,
@@ -344,7 +344,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Output is faster" },
             { id: "d", text: "Routine jobs may be replaced" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Job losses", statement: "Routine tasks get automated." }], steps: [{ reasoning: "Workers lose routine jobs.", working: "\\text{jobs}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Routine jobs may be replaced" },
+          markscheme: { principles: [{ kind: "principle", name: "Job losses", statement: "Routine tasks get automated." }], steps: [{ reasoning: "Workers lose routine jobs.", working: "\\text{jobs}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Routine jobs may be replaced" },
         },
         {
           id: "olcs-u6-pc-q10", difficulty: "core", totalMarks: 2,
@@ -364,7 +364,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Products selling too well" },
             { id: "d", text: "High initial cost and ongoing maintenance" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Costs", statement: "High setup and maintenance." }], steps: [{ reasoning: "Automation is expensive to buy and maintain.", working: "\\text{cost}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** High cost and maintenance" },
+          markscheme: { principles: [{ kind: "principle", name: "Costs", statement: "High setup and maintenance." }], steps: [{ reasoning: "Automation is expensive to buy and maintain.", working: "\\text{cost}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** High cost and maintenance" },
         },
         {
           id: "olcs-u6-pc-q12", difficulty: "core", totalMarks: 1,
@@ -394,7 +394,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Tasks needing judgement, creativity or empathy" },
             { id: "d", text: "Assembly lines" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Human strengths", statement: "Judgement and creativity." }], steps: [{ reasoning: "Humans excel at judgement/empathy.", working: "\\text{judgement}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Tasks needing judgement/creativity" },
+          markscheme: { principles: [{ kind: "principle", name: "Human strengths", statement: "Judgement and creativity." }], steps: [{ reasoning: "Humans excel at judgement/empathy.", working: "\\text{judgement}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Tasks needing judgement/creativity" },
         },
         {
           id: "olcs-u6-pc-q15", difficulty: "core", totalMarks: 2,

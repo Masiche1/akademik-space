@@ -41,7 +41,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Only the ending" },
             { id: "d", text: "Opening, development and ending" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Plan", statement: "Opening, development, ending." }], steps: [{ reasoning: "Three-part structure covers the composition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Opening, development, ending" },
+          markscheme: { principles: [{ kind: "convention", name: "Plan", statement: "Opening, development, ending." }], steps: [{ reasoning: "Three-part structure covers the composition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Opening, development, ending" },
         },
         {
           id: "oles-u4-pl-q2", difficulty: "core", totalMarks: 2,
@@ -105,7 +105,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "The exam questions" },
             { id: "d", text: "A bibliography" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "Plan", statement: "Opening + development + ending." }], steps: [{ reasoning: "Development holds the body paragraph points.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** 2-3 points for body paragraphs" },
+          markscheme: { principles: [{ kind: "convention", name: "Plan", statement: "Opening + development + ending." }], steps: [{ reasoning: "Development holds the body paragraph points.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** 2-3 points for body paragraphs" },
         },
         {
           id: "oles-u4-pl-q6", difficulty: "core", totalMarks: 1,
@@ -131,7 +131,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Bullet points or short phrases" },
             { id: "d", text: "Nothing at all" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Plan format", statement: "Bullets, not sentences." }], steps: [{ reasoning: "Bullets are fast to write in exam time.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Bullet points or short phrases" },
+          markscheme: { principles: [{ kind: "skill", name: "Plan format", statement: "Bullets, not sentences." }], steps: [{ reasoning: "Bullets are fast to write in exam time.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Bullet points or short phrases" },
         },
         {
           id: "oles-u4-pl-q9", difficulty: "challenge", totalMarks: 3,
@@ -167,7 +167,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Sensory details and focus points" },
             { id: "d", text: "A debate" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Genre", statement: "Description = sensory focus." }], steps: [{ reasoning: "Descriptive plans collect what to see, hear, feel.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Sensory details and focus points" },
+          markscheme: { principles: [{ kind: "skill", name: "Genre", statement: "Description = sensory focus." }], steps: [{ reasoning: "Descriptive plans collect what to see, hear, feel.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Sensory details and focus points" },
         },
         {
           id: "oles-u4-pl-q12", difficulty: "core", totalMarks: 1,
@@ -184,7 +184,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Be longer" },
             { id: "d", text: "Ignore it" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Scenario", statement: "Task defines the frame." }], steps: [{ reasoning: "The scenario is the task's requirement.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Fit it exactly" },
+          markscheme: { principles: [{ kind: "skill", name: "Scenario", statement: "Task defines the frame." }], steps: [{ reasoning: "The scenario is the task's requirement.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Fit it exactly" },
         },
         {
           id: "oles-u4-pl-q14", difficulty: "challenge", totalMarks: 3,
@@ -333,7 +333,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "First in the paragraph" },
             { id: "d", text: "Nowhere" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Topic sentence", statement: "Usually first." }], steps: [{ reasoning: "It opens the paragraph with the main idea.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** First in the paragraph" },
+          markscheme: { principles: [{ kind: "convention", name: "Topic sentence", statement: "Usually first." }], steps: [{ reasoning: "It opens the paragraph with the main idea.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** First in the paragraph" },
         },
         {
           id: "oles-u4-pa-q6", difficulty: "core", totalMarks: 2,
@@ -362,7 +362,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Example" },
             { id: "d", text: "Contrast" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Transitions", statement: "However = contrast." }], steps: [{ reasoning: "'However' introduces an opposing idea.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Contrast" },
+          markscheme: { principles: [{ kind: "convention", name: "Transitions", statement: "However = contrast." }], steps: [{ reasoning: "'However' introduces an opposing idea.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Contrast" },
         },
         {
           id: "oles-u4-pa-q9", difficulty: "challenge", totalMarks: 3,
@@ -398,7 +398,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Move it to the title" },
             { id: "d", text: "Continue anyway" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "One idea", statement: "New idea = new paragraph." }], steps: [{ reasoning: "Each paragraph develops one idea only.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Start a new paragraph" },
+          markscheme: { principles: [{ kind: "skill", name: "One idea", statement: "New idea = new paragraph." }], steps: [{ reasoning: "Each paragraph develops one idea only.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Start a new paragraph" },
         },
         {
           id: "oles-u4-pa-q12", difficulty: "core", totalMarks: 1,
@@ -469,7 +469,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Examiners count sentences" },
             { id: "d", text: "They are readable and focused" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Readability", statement: "Short, focused paragraphs." }], steps: [{ reasoning: "This length balances development with readability.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Readable and focused" },
+          markscheme: { principles: [{ kind: "skill", name: "Readability", statement: "Short, focused paragraphs." }], steps: [{ reasoning: "This length balances development with readability.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Readable and focused" },
         },
       ],
     },

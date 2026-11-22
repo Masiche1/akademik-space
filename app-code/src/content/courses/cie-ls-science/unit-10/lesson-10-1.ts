@@ -220,7 +220,7 @@ export const lesson1012: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Oxygen",
+            finalAnswer: "**(a)** Oxygen",
           },
         },
         {
@@ -286,7 +286,7 @@ export const lesson1012: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Carbon dioxide and water",
+            finalAnswer: "**(d)** Carbon dioxide and water",
           },
         },
         {
@@ -302,7 +302,7 @@ export const lesson1012: Lesson = {
               { id: "c", text: "Flowers" },
               { id: "d", text: "Stem" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -319,7 +319,7 @@ export const lesson1012: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Leaves",
+            finalAnswer: "**(a)** Leaves",
           },
         },
         {
@@ -480,7 +480,7 @@ export const lesson1012: Lesson = {
               { id: "c", text: "Nucleus" },
               { id: "d", text: "Mitochondrion" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -497,7 +497,7 @@ export const lesson1012: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Mitochondrion",
+            finalAnswer: "**(d)** Mitochondrion",
           },
         },
         {
@@ -798,7 +798,7 @@ export const lesson1012: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Kidney",
+            finalAnswer: "**(c)** Kidney",
           },
         },
         {
@@ -841,7 +841,7 @@ export const lesson1012: Lesson = {
               { id: "c", text: "Tissue" },
               { id: "d", text: "Organ" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -858,7 +858,7 @@ export const lesson1012: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Organ",
+            finalAnswer: "**(d)** Organ",
           },
         },
         {
@@ -1063,7 +1063,7 @@ export const lesson1012: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Red blood cells",
+            finalAnswer: "**(d)** Red blood cells",
           },
         },
         {
@@ -1373,7 +1373,7 @@ export const lesson1012: Lesson = {
               { id: "c", text: "Cytoplasm" },
               { id: "d", text: "Nucleus" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1391,7 +1391,7 @@ export const lesson1012: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Nucleus",
+            finalAnswer: "**(d)** Nucleus",
           },
         },
         {
@@ -1563,7 +1563,7 @@ export const lesson1012: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Respiration",
+            finalAnswer: "**(c)** Respiration",
           },
         },
         {
@@ -1687,7 +1687,7 @@ export const lesson1012: Lesson = {
               { id: "c", text: "Nitrogen" },
               { id: "d", text: "Oxygen" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1704,7 +1704,7 @@ export const lesson1012: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Carbon dioxide",
+            finalAnswer: "**(a)** Carbon dioxide",
           },
         },
         {

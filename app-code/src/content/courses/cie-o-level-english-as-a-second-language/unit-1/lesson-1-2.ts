@@ -41,7 +41,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "The title of the text" },
             { id: "d", text: "Surrounding words that help you understand an unknown word" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Context clues", statement: "Nearby words revealing meaning." }], steps: [{ reasoning: "Context = the words around the unknown word.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Surrounding words that reveal meaning" },
+          markscheme: { principles: [{ kind: "definition", name: "Context clues", statement: "Nearby words revealing meaning." }], steps: [{ reasoning: "Context = the words around the unknown word.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Surrounding words that reveal meaning" },
         },
         {
           id: "oles-u1-ctx-q2", difficulty: "core", totalMarks: 2,
@@ -105,7 +105,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Easy and pleasant" },
             { id: "d", text: "Extremely difficult and tiring" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Context clues", statement: "Two days to finish → arduous = very hard." }], steps: [{ reasoning: "The clue 'two full days' suggests the trek was extremely difficult.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Extremely difficult and tiring" },
+          markscheme: { principles: [{ kind: "skill", name: "Context clues", statement: "Two days to finish → arduous = very hard." }], steps: [{ reasoning: "The clue 'two full days' suggests the trek was extremely difficult.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Extremely difficult and tiring" },
         },
         {
           id: "oles-u1-ctx-q6", difficulty: "core", totalMarks: 1,
@@ -116,7 +116,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Very hungry" },
             { id: "d", text: "Very full" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Context clues", statement: "Eating three plates → famished = starving." }], steps: [{ reasoning: "The eating behaviour reveals the meaning: extremely hungry.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Very hungry" },
+          markscheme: { principles: [{ kind: "skill", name: "Context clues", statement: "Eating three plates → famished = starving." }], steps: [{ reasoning: "The eating behaviour reveals the meaning: extremely hungry.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Very hungry" },
         },
         {
           id: "oles-u1-ctx-q7", difficulty: "foundation", totalMarks: 2,
@@ -166,7 +166,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Therefore" },
             { id: "d", text: "Such as" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Example signals", statement: "'Such as', 'for example' introduce illustrations." }], steps: [{ reasoning: "'Such as' introduces examples.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Such as" },
+          markscheme: { principles: [{ kind: "convention", name: "Example signals", statement: "'Such as', 'for example' introduce illustrations." }], steps: [{ reasoning: "'Such as' introduces examples.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Such as" },
         },
         {
           id: "oles-u1-ctx-q12", difficulty: "core", totalMarks: 2,
@@ -196,7 +196,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Causing happiness" },
             { id: "d", text: "Happening once" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Context clues", statement: "The situation of hardship supports 'often'." }], steps: [{ reasoning: "The listed deprivations suggest illness occurred regularly.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Happening often" },
+          markscheme: { principles: [{ kind: "skill", name: "Context clues", statement: "The situation of hardship supports 'often'." }], steps: [{ reasoning: "The listed deprivations suggest illness occurred regularly.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Happening often" },
         },
         {
           id: "oles-u1-ctx-q15", difficulty: "foundation", totalMarks: 2,
@@ -269,7 +269,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "A contrast" },
             { id: "d", text: "An example" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Signpost words", statement: "'However' = contrast." }], steps: [{ reasoning: "However introduces an opposite idea.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** A contrast" },
+          markscheme: { principles: [{ kind: "convention", name: "Signpost words", statement: "'However' = contrast." }], steps: [{ reasoning: "However introduces an opposite idea.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** A contrast" },
         },
         {
           id: "oles-u1-str-q2", difficulty: "core", totalMarks: 2,
@@ -333,7 +333,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Opinion" },
             { id: "d", text: "Cause and effect" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "Signposts", statement: "Sequence words mark chronological order." }], steps: [{ reasoning: "'First, then, finally' mark steps in time.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Time order" },
+          markscheme: { principles: [{ kind: "convention", name: "Signposts", statement: "Sequence words mark chronological order." }], steps: [{ reasoning: "'First, then, finally' mark steps in time.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Time order" },
         },
         {
           id: "oles-u1-str-q6", difficulty: "core", totalMarks: 1,
@@ -344,7 +344,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "An illustration of a point" },
             { id: "d", text: "A question" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Signposts", statement: "'For example' introduces illustration." }], steps: [{ reasoning: "These phrases introduce examples supporting a point.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** An illustration of a point" },
+          markscheme: { principles: [{ kind: "convention", name: "Signposts", statement: "'For example' introduces illustration." }], steps: [{ reasoning: "These phrases introduce examples supporting a point.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** An illustration of a point" },
         },
         {
           id: "oles-u1-str-q7", difficulty: "foundation", totalMarks: 2,
@@ -394,7 +394,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "Summarising the main points" },
             { id: "d", text: "Asking a question" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Signposts", statement: "'In conclusion' marks the summary." }], steps: [{ reasoning: "Conclusion signposts introduce a summary of the text.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Summarising the main points" },
+          markscheme: { principles: [{ kind: "convention", name: "Signposts", statement: "'In conclusion' marks the summary." }], steps: [{ reasoning: "Conclusion signposts introduce a summary of the text.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Summarising the main points" },
         },
         {
           id: "oles-u1-str-q12", difficulty: "core", totalMarks: 2,
@@ -424,7 +424,7 @@ export const lesson12: Lesson = {
             { id: "c", text: "As a result" },
             { id: "d", text: "In addition" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "Contrast signals", statement: "'On the other hand' marks opposition." }], steps: [{ reasoning: "This phrase introduces an opposing or contrasting point.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** On the other hand" },
+          markscheme: { principles: [{ kind: "convention", name: "Contrast signals", statement: "'On the other hand' marks opposition." }], steps: [{ reasoning: "This phrase introduces an opposing or contrasting point.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** On the other hand" },
         },
         {
           id: "oles-u1-str-q15", difficulty: "foundation", totalMarks: 2,

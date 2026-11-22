@@ -71,7 +71,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Ligase joins the cut ends; restriction enzymes only cut.", working: "\\text{ligase joins}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** DNA ligase",
+            finalAnswer: "**(a)** DNA ligase",
             commonErrors: ["Confusing ligase (joins) with restriction enzyme (cuts)."],
             examinerNote: "B1 for (b).",
           },
@@ -234,7 +234,7 @@ export const lesson13: Lesson = {
           totalMarks: 1,
           stem: "Why is a plasmid a useful vector for genetic engineering?",
           response: { type: "mcq", choices: [ { id: "a", text: "It is a small circular DNA molecule that can carry foreign genes" }, { id: "b", text: "It prevents gene expression" }, { id: "c", text: "It contains only human DNA" }, { id: "d", text: "It cannot enter bacterial cells" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Vector", statement: "A vector carries foreign DNA into a host cell; plasmids are common bacterial vectors." }], steps: [{ reasoning: "Plasmids can be cut, ligated and replicated inside bacteria.", working: "plasmid\\text{ vector}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** It is a small circular DNA molecule that can carry foreign genes" },
+          markscheme: { principles: [{ kind: "definition", name: "Vector", statement: "A vector carries foreign DNA into a host cell; plasmids are common bacterial vectors." }], steps: [{ reasoning: "Plasmids can be cut, ligated and replicated inside bacteria.", working: "plasmid\\text{ vector}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** It is a small circular DNA molecule that can carry foreign genes" },
         },
         {
           id: "mypb5-u1-ge-q13",
@@ -250,7 +250,7 @@ export const lesson13: Lesson = {
           totalMarks: 1,
           stem: "What does gel electrophoresis separate?",
           response: { type: "mcq", choices: [ { id: "a", text: "Proteins by colour only" }, { id: "b", text: "Lipids by smell" }, { id: "c", text: "Cells by age" }, { id: "d", text: "DNA fragments by size using an electric field" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Gel electrophoresis", statement: "An electric field moves negatively charged DNA through a gel, separating fragments by size." }], steps: [{ reasoning: "Smaller fragments travel farther, producing bands.", working: "size\\text{ separation}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** DNA fragments by size using an electric field" },
+          markscheme: { principles: [{ kind: "definition", name: "Gel electrophoresis", statement: "An electric field moves negatively charged DNA through a gel, separating fragments by size." }], steps: [{ reasoning: "Smaller fragments travel farther, producing bands.", working: "size\\text{ separation}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** DNA fragments by size using an electric field" },
         },
         {
           id: "mypb5-u1-ge-q15",
@@ -258,7 +258,7 @@ export const lesson13: Lesson = {
           totalMarks: 1,
           stem: "Which feature allows transformed bacteria to be selected on agar containing an antibiotic?",
           response: { type: "mcq", choices: [ { id: "a", text: "A flagellum" }, { id: "b", text: "A gene for antibiotic resistance on the plasmid" }, { id: "c", text: "A capsule" }, { id: "d", text: "A larger cell wall" } ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Selectable marker", statement: "Antibiotic-resistance genes on vectors allow selection of transformed cells." }], steps: [{ reasoning: "Only bacteria carrying the resistance gene survive the antibiotic.", working: "marker\\text{ selection}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A gene for antibiotic resistance on the plasmid" },
+          markscheme: { principles: [{ kind: "definition", name: "Selectable marker", statement: "Antibiotic-resistance genes on vectors allow selection of transformed cells." }], steps: [{ reasoning: "Only bacteria carrying the resistance gene survive the antibiotic.", working: "marker\\text{ selection}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** A gene for antibiotic resistance on the plasmid" },
         },
         {
           id: "mypb5-u1-ge-q16",
@@ -266,7 +266,7 @@ export const lesson13: Lesson = {
           totalMarks: 1,
           stem: "Why is cDNA often used instead of a human gene containing introns for bacterial expression?",
           response: { type: "mcq", choices: [ { id: "a", text: "cDNA is made from spliced mRNA and lacks introns that bacteria cannot remove" }, { id: "b", text: "cDNA contains introns" }, { id: "c", text: "cDNA is larger than genomic DNA" }, { id: "d", text: "cDNA cannot be translated" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "principle", name: "cDNA", statement: "cDNA is reverse-transcribed from mature mRNA and excludes introns." }], steps: [{ reasoning: "Bacteria lack the splicing machinery needed to remove introns.", working: "no\\text{ introns}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** cDNA is made from spliced mRNA and lacks introns that bacteria cannot remove" },
+          markscheme: { principles: [{ kind: "principle", name: "cDNA", statement: "cDNA is reverse-transcribed from mature mRNA and excludes introns." }], steps: [{ reasoning: "Bacteria lack the splicing machinery needed to remove introns.", working: "no\\text{ introns}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** cDNA is made from spliced mRNA and lacks introns that bacteria cannot remove" },
         },
       ],
     },
@@ -457,7 +457,7 @@ export const lesson13: Lesson = {
           totalMarks: 1,
           stem: "What is the main purpose of DNA fingerprinting?",
           response: { type: "mcq", choices: [ { id: "a", text: "To produce insulin" }, { id: "b", text: "To stain cells" }, { id: "c", text: "To sequence every gene in a genome" }, { id: "d", text: "To compare variable DNA band patterns between individuals" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "DNA fingerprinting", statement: "PCR and gel electrophoresis produce band patterns used to identify individuals." }], steps: [{ reasoning: "The band pattern is highly variable between people.", working: "band\\text{ pattern}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** To compare variable DNA band patterns between individuals" },
+          markscheme: { principles: [{ kind: "definition", name: "DNA fingerprinting", statement: "PCR and gel electrophoresis produce band patterns used to identify individuals." }], steps: [{ reasoning: "The band pattern is highly variable between people.", working: "band\\text{ pattern}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** To compare variable DNA band patterns between individuals" },
         },
         {
           id: "mypb5-u1-biotech-q10",
@@ -485,7 +485,7 @@ export const lesson13: Lesson = {
           totalMarks: 1,
           stem: "Which is a possible risk of growing GM crops?",
           response: { type: "mcq", choices: [ { id: "a", text: "They always increase biodiversity" }, { id: "b", text: "They require no regulation" }, { id: "c", text: "They cannot be labelled" }, { id: "d", text: "Transgenes may spread to wild relatives or create resistant pests" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "GM crop risk", statement: "Gene flow and resistance evolution are recognised environmental risks." }], steps: [{ reasoning: "GM traits can move to wild populations or select for resistant pests.", working: "gene\\text{ flow}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Transgenes may spread to wild relatives or create resistant pests" },
+          markscheme: { principles: [{ kind: "principle", name: "GM crop risk", statement: "Gene flow and resistance evolution are recognised environmental risks." }], steps: [{ reasoning: "GM traits can move to wild populations or select for resistant pests.", working: "gene\\text{ flow}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Transgenes may spread to wild relatives or create resistant pests" },
         },
         {
           id: "mypb5-u1-biotech-q13",
@@ -517,7 +517,7 @@ export const lesson13: Lesson = {
           totalMarks: 1,
           stem: "How do mRNA vaccines differ from vaccines containing live viruses?",
           response: { type: "mcq", choices: [ { id: "a", text: "They cannot trigger immunity" }, { id: "b", text: "They require antibiotics" }, { id: "c", text: "They deliver instructions for cells to make viral antigens without using live virus" }, { id: "d", text: "They insert viral DNA into the human genome" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "mRNA vaccine", statement: "mRNA vaccines provide temporary instructions for cells to produce an antigen." }], steps: [{ reasoning: "The immune system responds to the antigen without infection by live virus.", working: "mRNA\\to antigen", marks: 1, markCode: "B" }], finalAnswer: "**(a)** They deliver instructions for cells to make viral antigens without using live virus" },
+          markscheme: { principles: [{ kind: "definition", name: "mRNA vaccine", statement: "mRNA vaccines provide temporary instructions for cells to produce an antigen." }], steps: [{ reasoning: "The immune system responds to the antigen without infection by live virus.", working: "mRNA\\to antigen", marks: 1, markCode: "B" }], finalAnswer: "**(c)** They deliver instructions for cells to make viral antigens without using live virus" },
         },
       ],
     },

@@ -72,7 +72,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'smelled sweet' is smell — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The roses smelled sweet",
+            finalAnswer: "**(a)** The roses smelled sweet",
           },
         },
         {
@@ -183,7 +183,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Progressed" },
               { id: "d", text: "Travelled" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -192,7 +192,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): 'darted' is the most precise — it shows speed and suddenness — (c).", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** Darted",
+            finalAnswer: "**(b)** Darted",
           },
         },
         {

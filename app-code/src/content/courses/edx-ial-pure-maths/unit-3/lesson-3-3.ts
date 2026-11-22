@@ -65,7 +65,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Apply product rule with $u=x^2$, $v=\\sin x$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2x\\sin x+x^2\\cos x$",
+            finalAnswer: "**(d)** $2x\\sin x+x^2\\cos x$",
             commonErrors: ["Differentiating only one factor."],
           },
         },
@@ -194,7 +194,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$u=x^2$ gives $du=2x\\,dx$, matching the integrand.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x^2$",
+            finalAnswer: "**(c)** $x^2$",
             commonErrors: ["Choosing $u=\\sin(x^2)$ which does not simplify."],
           },
         },

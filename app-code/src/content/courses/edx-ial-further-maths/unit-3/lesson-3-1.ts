@@ -61,7 +61,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Matrix product", statement: "Diagonal matrices multiply entrywise." }],
             steps: [{ reasoning: "$A^2=\\begin{pmatrix}4&0\\\\0&9\\end{pmatrix}$.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\begin{pmatrix}4&0\\\\0&9\\end{pmatrix}$",
+            finalAnswer: "**(c)** $\\begin{pmatrix}4&0\\\\0&9\\end{pmatrix}$",
           },
         },
         {
@@ -179,7 +179,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Eigenvector", statement: "$A\\mathbf{v}=\\lambda\\mathbf{v}$ defines eigenvector." }],
             steps: [{ reasoning: "Direct definition.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** eigenvector",
+            finalAnswer: "**(c)** eigenvector",
           },
         },
         {

@@ -79,7 +79,7 @@ export const lesson51: Lesson = {
               },
             ],
             steps: [{ reasoning: "180 + 24 = 204.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 204",
+            finalAnswer: "**(c)** 204",
             commonErrors: [
               "Multiplying digits separately without place value.",
             ],
@@ -279,7 +279,7 @@ export const lesson51: Lesson = {
               },
             ],
             steps: [{ reasoning: "4 × 24 = 96.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 24",
+            finalAnswer: "**(a)** 24",
             commonErrors: ["Dividing digits separately: 9÷4 and 6÷4."],
           },
         },

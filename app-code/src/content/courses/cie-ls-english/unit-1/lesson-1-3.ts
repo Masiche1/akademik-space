@@ -76,7 +76,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "'Order yours today' and 'join the revolution' are calls to action.", working: "\\text{order today}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** To persuade readers to buy the Zephyr",
+            finalAnswer: "**(d)** To persuade readers to buy the Zephyr",
             commonErrors: ["Choosing (a) — it mentions traffic but only as a problem the product solves."],
           },
         },
@@ -194,7 +194,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "To inform" },
               { id: "d", text: "To describe" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -203,7 +203,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The product details serve the call to action 'Order yours today'.", working: "\\text{order today}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** To persuade",
+            finalAnswer: "**(a)** To persuade",
             commonErrors: ["Choosing (a) — facts are present but they are there to sell, not to inform for its own sake."],
           },
         },
@@ -505,7 +505,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The opening question and benefits target commuters losing time in queues.", working: "\\text{commuters in queues}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Commuters frustrated by traffic queues",
+            finalAnswer: "**(d)** Commuters frustrated by traffic queues",
             commonErrors: ["Choosing (d) — manufacturers would need technical specs, not emotional appeals."],
           },
         },
@@ -615,7 +615,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Private, first-person reflection with no public address indicates a self-audience.", working: "\\text{future self}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The writer's future self",
+            finalAnswer: "**(c)** The writer's future self",
             commonErrors: ["Choosing (b) — classmates appear in the story but are not the audience."],
           },
         },

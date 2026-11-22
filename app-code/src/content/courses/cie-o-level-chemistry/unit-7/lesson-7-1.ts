@@ -59,7 +59,7 @@ export const lesson171: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "pH", statement: "Acid <7, neutral 7, alkali >7." }],
             steps: [{ reasoning: "Recall.", working: "pH < 7", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Below 7",
+            finalAnswer: "**(d)** Below 7",
             commonErrors: ["Reversing acid/alkali ranges."],
           },
         },
@@ -134,11 +134,11 @@ export const lesson171: Lesson = {
             { id: "b", text: "Methyl orange" },
             { id: "c", text: "Litmus" },
             { id: "d", text: "Universal indicator" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Indicators", statement: "Phenolphthalein: colourless→pink in alkali." }],
             steps: [{ reasoning: "Recall.", working: "\\text{phenolphthalein}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Phenolphthalein",
+            finalAnswer: "**(a)** Phenolphthalein",
             commonErrors: ["Litmus is red/blue, not colourless/pink."],
           },
         },
@@ -156,7 +156,7 @@ export const lesson171: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "pH", statement: "Pure water is neutral, pH 7." }],
             steps: [{ reasoning: "Recall.", working: "pH = 7", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 7",
+            finalAnswer: "**(d)** 7",
             commonErrors: ["Thinking water is acidic or alkaline."],
           },
         },
@@ -317,7 +317,7 @@ export const lesson171: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Acid", statement: "Produces H⁺ ions in water." }],
             steps: [{ reasoning: "Recall.", working: "\\text{H}^+", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** H⁺ ions",
+            finalAnswer: "**(c)** H⁺ ions",
             commonErrors: ["OH⁻ is the alkaline ion."],
           },
         },
@@ -381,7 +381,7 @@ export const lesson171: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Insoluble salts", statement: "Prepared by precipitation." }],
             steps: [{ reasoning: "Recall.", working: "\\text{precipitation}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Precipitation",
+            finalAnswer: "**(c)** Precipitation",
             commonErrors: ["Saying titration — that's for soluble salts."],
           },
         },
@@ -526,7 +526,7 @@ export const lesson171: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Excess reactant", statement: "Ensures complete reaction." }],
             steps: [{ reasoning: "Recall.", working: "\\text{excess} \\to \\text{complete}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** To ensure all the acid reacts",
+            finalAnswer: "**(d)** To ensure all the acid reacts",
             commonErrors: ["The excess is removed by filtration, not converted."],
           },
         },
@@ -562,7 +562,7 @@ export const lesson171: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Precipitation", statement: "BaSO₄ is insoluble." }],
             steps: [{ reasoning: "Recall.", working: "\\text{BaSO}_4 \\downarrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** BaCl₂ + Na₂SO₄",
+            finalAnswer: "**(d)** BaCl₂ + Na₂SO₄",
             commonErrors: ["NaOH + HCl gives soluble NaCl, not a precipitate."],
           },
         },
@@ -594,11 +594,11 @@ export const lesson171: Lesson = {
             { id: "b", text: "KNO₃" },
             { id: "c", text: "NaCl" },
             { id: "d", text: "BaSO₄" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "Solubility", statement: "BaSO₄ insoluble." }],
             steps: [{ reasoning: "Recall.", working: "\\text{BaSO}_4", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** BaSO₄",
+            finalAnswer: "**(d)** BaSO₄",
             commonErrors: ["CuSO₄ is soluble despite containing a heavy metal."],
           },
         },

@@ -68,7 +68,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Retrieval", statement: "Explicit information can be found stated directly in the text." }],
             steps: [{ reasoning: "The first sentence states the time of departure directly.", evidence: "a little after five", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** The text states they left 'a little after five'. The other options are not stated, or only vaguely implied.",
+            finalAnswer: "**(d)** The text states they left 'a little after five'. The other options are not stated, or only vaguely implied.",
             commonErrors: ["Choosing (b) because the driver is 'taciturn', but dislike is not stated."],
           },
         },

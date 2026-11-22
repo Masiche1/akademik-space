@@ -266,7 +266,7 @@ export const lesson334: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Gorbachev",
+            finalAnswer: "**(b)** Gorbachev",
           },
         },
         {
@@ -378,7 +378,7 @@ export const lesson334: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** Perestroika",
+            finalAnswer: "**(c)** Perestroika",
           },
         },
         {
@@ -448,7 +448,7 @@ export const lesson334: Lesson = {
                 text: "Rising nationalism in the republics",
               },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -466,7 +466,7 @@ export const lesson334: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(d)** Successful economic reform",
+            finalAnswer: "**(b)** Successful economic reform",
           },
         },
         {
@@ -552,7 +552,7 @@ export const lesson334: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Economic failure and reform policies that unleashed uncontrollable change",
+              "**(c)** Economic failure and reform policies that unleashed uncontrollable change",
           },
         },
         {
@@ -687,7 +687,7 @@ export const lesson334: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** The end of the Cold War",
+            finalAnswer: "**(b)** The end of the Cold War",
           },
         },
         {

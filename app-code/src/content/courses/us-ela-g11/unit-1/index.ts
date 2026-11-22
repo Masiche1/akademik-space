@@ -7,6 +7,7 @@ export const unit1: Unit = {
   id: "ela11-u1",
   code: "1",
   title: "American Literature",
-  description: "Trace how Puritan, Romantic, and Transcendentalist ideas develop, analyze mood and ambiguity in Dark Romanticism, study how setting, narration, and irony work in realism and naturalism, and weigh structure and competing interpretations.",
+  description:
+    "Trace how Puritan, Romantic, and Transcendentalist ideas develop, analyze mood and ambiguity in Dark Romanticism, study how setting, narration, and irony work in realism and naturalism, and weigh structure and competing interpretations.",
   lessons: [lesson11, lesson12, lesson13],
 };

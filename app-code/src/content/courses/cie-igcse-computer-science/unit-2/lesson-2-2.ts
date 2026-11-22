@@ -228,7 +228,7 @@ export const lesson62: Lesson = {
               { id: "c", text: "Speakers" },
               { id: "d", text: "Monitor" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -237,7 +237,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "A microphone captures sound and sends it to the computer as input.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** Microphone",
+            finalAnswer: "**(a)** Microphone",
           },
         },
         {
@@ -253,7 +253,7 @@ export const lesson62: Lesson = {
               { id: "c", text: "Joystick" },
               { id: "d", text: "Keyboard" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -262,7 +262,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "A plotter produces physical output from computer data.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** Plotter",
+            finalAnswer: "**(a)** Plotter",
           },
         },
         {
@@ -278,7 +278,7 @@ export const lesson62: Lesson = {
               { id: "c", text: "Buzzer" },
               { id: "d", text: "Motor" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -287,7 +287,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "A light-dependent sensor detects light levels from the environment.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** Light-dependent sensor",
+            finalAnswer: "**(b)** Light-dependent sensor",
           },
         },
         {
@@ -303,7 +303,7 @@ export const lesson62: Lesson = {
               { id: "c", text: "Temperature sensor" },
               { id: "d", text: "Webcam" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -312,7 +312,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "A motor converts computer control into physical movement.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(d)** Stepper motor",
+            finalAnswer: "**(a)** Stepper motor",
           },
         },
         {
@@ -337,7 +337,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "The screen shows output while touch sensors send input to the computer.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Displays output and detects touch input",
+            finalAnswer: "**(d)** Displays output and detects touch input",
           },
         },
         {
@@ -362,7 +362,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Automatic control needs sensors for input and actuators for physical response.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Sensors and actuators",
+            finalAnswer: "**(a)** Sensors and actuators",
           },
         },
         {

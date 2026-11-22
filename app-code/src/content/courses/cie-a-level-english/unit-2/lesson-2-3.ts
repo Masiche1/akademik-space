@@ -98,7 +98,7 @@ export const lesson223: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Core meaning",
+            finalAnswer: "**(d)** Core meaning",
             commonErrors: ["Thinking transformation changes meaning."],
           },
         },
@@ -321,7 +321,7 @@ export const lesson223: Lesson = {
           totalMarks: 1,
           stem: "Which feature should remain constant in a style transformation?",
           response: { type: "mcq", choices: [ { id: "a", text: "The punctuation" }, { id: "b", text: "Every original word" }, { id: "c", text: "The core meaning" }, { id: "d", text: "The sentence length" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Style transformation", statement: "Surface features change; core meaning stays." }], steps: [{ reasoning: "Meaning is preserved while packaging changes.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Core meaning", commonErrors: ["Changing meaning while changing style."] },
+          markscheme: { principles: [{ kind: "definition", name: "Style transformation", statement: "Surface features change; core meaning stays." }], steps: [{ reasoning: "Meaning is preserved while packaging changes.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Core meaning", commonErrors: ["Changing meaning while changing style."] },
         },
         {
           id: "cial-e-u2-st-q6",
@@ -329,7 +329,7 @@ export const lesson223: Lesson = {
           totalMarks: 1,
           stem: "Which change is a register shift rather than a change of meaning?",
           response: { type: "mcq", choices: [ { id: "a", text: "'He left' becomes 'She arrived'" }, { id: "b", text: "'Purchase' becomes 'buy'" }, { id: "c", text: "'The train was late' becomes 'The train was early'" }, { id: "d", text: "'Rain' becomes 'Snow'" } ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "technique", name: "Register shift", statement: "Formality changes while sense remains." }], steps: [{ reasoning: "Purchase/buy changes formality, not meaning.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** 'Purchase' becomes 'buy'", commonErrors: ["Changing factual content during transformation."] },
+          markscheme: { principles: [{ kind: "technique", name: "Register shift", statement: "Formality changes while sense remains." }], steps: [{ reasoning: "Purchase/buy changes formality, not meaning.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** 'Purchase' becomes 'buy'", commonErrors: ["Changing factual content during transformation."] },
         },
         {
           id: "cial-e-u2-st-q7",
@@ -337,7 +337,7 @@ export const lesson223: Lesson = {
           totalMarks: 1,
           stem: "Why must register shifts change multiple features consistently?",
           response: { type: "mcq", choices: [ { id: "a", text: "Mixed features create an accidental, inconsistent voice" }, { id: "b", text: "One word change is always enough" }, { id: "c", text: "Consistency makes the text longer" }, { id: "d", text: "It removes the need for meaning" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "skill", name: "Consistent register", statement: "Vocabulary, syntax and tone should move together." }], steps: [{ reasoning: "Partial shifts feel careless and break credibility.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Mixed features create inconsistency", commonErrors: ["Swapping single words without adjusting tone."] },
+          markscheme: { principles: [{ kind: "skill", name: "Consistent register", statement: "Vocabulary, syntax and tone should move together." }], steps: [{ reasoning: "Partial shifts feel careless and break credibility.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Mixed features create inconsistency", commonErrors: ["Swapping single words without adjusting tone."] },
         },
         {
           id: "cial-e-u2-st-q8",
@@ -345,7 +345,7 @@ export const lesson223: Lesson = {
           totalMarks: 1,
           stem: "What does changing tone require beyond adding jokes?",
           response: { type: "mcq", choices: [ { id: "a", text: "Removing all description" }, { id: "b", text: "Only exclamation marks" }, { id: "c", text: "Changing the topic" }, { id: "d", text: "Adjusting connotation, rhythm, punctuation and imagery" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "technique", name: "Tone transformation", statement: "Tone is built through multiple language choices." }], steps: [{ reasoning: "Tone shifts require coordinated changes in diction and rhythm.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Connotation, rhythm, punctuation and imagery", commonErrors: ["Using surface jokes instead of tonal control."] },
+          markscheme: { principles: [{ kind: "technique", name: "Tone transformation", statement: "Tone is built through multiple language choices." }], steps: [{ reasoning: "Tone shifts require coordinated changes in diction and rhythm.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Connotation, rhythm, punctuation and imagery", commonErrors: ["Using surface jokes instead of tonal control."] },
         },
         {
           id: "cial-e-u2-st-q9",
@@ -353,7 +353,7 @@ export const lesson223: Lesson = {
           totalMarks: 1,
           stem: "What is paraphrase?",
           response: { type: "mcq", choices: [ { id: "a", text: "Changing the meaning completely" }, { id: "b", text: "Copying a text exactly" }, { id: "c", text: "Restating meaning in different words" }, { id: "d", text: "Summarising only the ending" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Paraphrase", statement: "Different wording with preserved sense." }], steps: [{ reasoning: "Paraphrase changes expression, not meaning.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Restating meaning in different words", commonErrors: ["Drifting into a different meaning."] },
+          markscheme: { principles: [{ kind: "definition", name: "Paraphrase", statement: "Different wording with preserved sense." }], steps: [{ reasoning: "Paraphrase changes expression, not meaning.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Restating meaning in different words", commonErrors: ["Drifting into a different meaning."] },
         },
         {
           id: "cial-e-u2-st-q10",
@@ -478,7 +478,7 @@ export const lesson223: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Who they are and what they know",
+            finalAnswer: "**(c)** Who they are and what they know",
             commonErrors: ["Ignoring audience entirely."],
           },
         },
@@ -702,7 +702,7 @@ export const lesson223: Lesson = {
           totalMarks: 1,
           stem: "How should technical terms be handled for a lay audience?",
           response: { type: "mcq", choices: [ { id: "a", text: "Put in footnotes only" }, { id: "b", text: "Used without explanation" }, { id: "c", text: "Explained or replaced with everyday equivalents" }, { id: "d", text: "Removed with the information" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Technical language", statement: "Lay readers need accessible explanations." }], steps: [{ reasoning: "Unexplained jargon excludes non-expert readers.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Explained or replaced", commonErrors: ["Assuming the reader shares specialist knowledge."] },
+          markscheme: { principles: [{ kind: "skill", name: "Technical language", statement: "Lay readers need accessible explanations." }], steps: [{ reasoning: "Unexplained jargon excludes non-expert readers.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Explained or replaced", commonErrors: ["Assuming the reader shares specialist knowledge."] },
         },
         {
           id: "cial-e-u2-au-q7",
@@ -710,7 +710,7 @@ export const lesson223: Lesson = {
           totalMarks: 1,
           stem: "Why would a report to management stress costs while a letter to parents stresses safety?",
           response: { type: "mcq", choices: [ { id: "a", text: "Because parents dislike costs" }, { id: "b", text: "Because the facts change" }, { id: "c", text: "Because each audience has different priorities" }, { id: "d", text: "Because reports cannot mention safety" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Audience priorities", statement: "Emphasis follows what the reader cares about." }], steps: [{ reasoning: "Same content is framed by audience priorities.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Different audience priorities", commonErrors: ["Giving every audience identical emphasis."] },
+          markscheme: { principles: [{ kind: "skill", name: "Audience priorities", statement: "Emphasis follows what the reader cares about." }], steps: [{ reasoning: "Same content is framed by audience priorities.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Different audience priorities", commonErrors: ["Giving every audience identical emphasis."] },
         },
         {
           id: "cial-e-u2-au-q8",
@@ -726,7 +726,7 @@ export const lesson223: Lesson = {
           totalMarks: 1,
           stem: "Which adaptation best suits a school newsletter?",
           response: { type: "mcq", choices: [ { id: "a", text: "Clear, friendly language with relevant emphasis" }, { id: "b", text: "Only statistics with no context" }, { id: "c", text: "A formal legal report" }, { id: "d", text: "Dense technical terminology" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "skill", name: "Audience fit", statement: "Language and emphasis should match readers' expectations." }], steps: [{ reasoning: "A newsletter needs accessible and engaging language.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Clear, friendly, relevant language", commonErrors: ["Choosing a format unrelated to the audience."] },
+          markscheme: { principles: [{ kind: "skill", name: "Audience fit", statement: "Language and emphasis should match readers' expectations." }], steps: [{ reasoning: "A newsletter needs accessible and engaging language.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Clear, friendly, relevant language", commonErrors: ["Choosing a format unrelated to the audience."] },
         },
         {
           id: "cial-e-u2-au-q10",

@@ -75,7 +75,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Counter-argument", statement: "Raising an opposing view in order to answer it." }],
             steps: [{ reasoning: "The paragraph states what supporters claim and then answers it with 'However'.", evidence: "Supporters of homework claim that it builds discipline.", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** It raises the discipline argument and answers it.",
+            finalAnswer: "**(c)** It raises the discipline argument and answers it.",
             commonErrors: ["Choosing (c), which describes the conclusion, not the second paragraph."],
           },
         },
@@ -226,7 +226,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Repetition", statement: "Repeating a word for emphasis and memorability." }],
             steps: [{ reasoning: "The number 'three' is repeated to stress how small and achievable the request is.", evidence: "Three. Not thirty. Three.", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** Repetition: 'Three' is repeated to make the request memorable and achievable.",
+            finalAnswer: "**(b)** Repetition: 'Three' is repeated to make the request memorable and achievable.",
             commonErrors: ["Choosing (b) because it sounds rhythmic; no comparison is made."],
           },
         },

@@ -64,7 +64,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The velocity is constant, so the acceleration is zero, so the net force is zero. No force is needed to maintain motion.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Zero",
+            finalAnswer: "**(d)** Zero",
             commonErrors: ["Believing a force is required to keep an object moving (an Aristotelian idea).", "Confusing weight, which is balanced by the normal force, with net force."],
             examinerNote: "B1 for choice (a).",
           },

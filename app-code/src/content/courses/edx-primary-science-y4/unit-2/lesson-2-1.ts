@@ -239,7 +239,7 @@ export const lesson211: Lesson = {
               },
             ],
             steps: [{ reasoning: "Villi absorb.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Villi",
+            finalAnswer: "**(d)** Villi",
             commonErrors: ["Wrong structure."],
           },
         },

@@ -258,7 +258,7 @@ export const lesson124: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** 0",
+            finalAnswer: "**(b)** 0",
           },
         },
         {
@@ -320,7 +320,7 @@ export const lesson124: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** 0",
+            finalAnswer: "**(b)** 0",
           },
         },
         {
@@ -381,7 +381,7 @@ export const lesson124: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** 0",
+            finalAnswer: "**(b)** 0",
           },
         },
         {
@@ -446,7 +446,7 @@ export const lesson124: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** A NAND B",
+            finalAnswer: "**(d)** A NAND B",
           },
         },
         {
@@ -507,7 +507,7 @@ export const lesson124: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** 1",
+            finalAnswer: "**(c)** 1",
           },
         },
         {

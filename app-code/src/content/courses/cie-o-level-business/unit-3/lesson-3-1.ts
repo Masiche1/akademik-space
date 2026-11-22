@@ -42,7 +42,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "High-volume standardised products" },
             { id: "d", text: "Handmade goods" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Flow production", statement: "Mass production." }], steps: [{ reasoning: "High volume, standardised.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Flow production", statement: "Mass production." }], steps: [{ reasoning: "High volume, standardised.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u3-pm-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "One-off customised products" },
             { id: "d", text: "Mass-produced cars" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Job production", statement: "One-off custom." }], steps: [{ reasoning: "Job = one-off customised items.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Job production", statement: "One-off custom." }], steps: [{ reasoning: "Job = one-off customised items.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u3-pm-q6", difficulty: "core", totalMarks: 1,
@@ -109,7 +109,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Making one custom order at a time" },
             { id: "d", text: "Continuous flow 24 hours a day" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Batch production", statement: "Groups of identical items." }], steps: [{ reasoning: "Batch = groups of identical items.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Batch production", statement: "Groups of identical items." }], steps: [{ reasoning: "Batch = groups of identical items.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u3-pm-q7", difficulty: "foundation", totalMarks: 1,
@@ -173,7 +173,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Flow production" },
             { id: "d", text: "Hand production" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Flow production", statement: "Assembly line." }], steps: [{ reasoning: "Assembly line mass production = flow.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Flow production" },
+          markscheme: { principles: [{ kind: "definition", name: "Flow production", statement: "Assembly line." }], steps: [{ reasoning: "Assembly line mass production = flow.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Flow production" },
         },
         {
           id: "olbus-u3-pm-q13", difficulty: "core", totalMarks: 2,
@@ -257,7 +257,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "It slows production" },
             { id: "d", text: "It affects customer satisfaction and competitiveness" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Quality", statement: "Customer satisfaction." }], steps: [{ reasoning: "Quality → satisfaction → competitiveness.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Quality", statement: "Customer satisfaction." }], steps: [{ reasoning: "Quality → satisfaction → competitiveness.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u3-qc-q2", difficulty: "core", totalMarks: 2,
@@ -313,7 +313,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Ordering raw materials" },
             { id: "d", text: "Checking finished products for defects" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Inspection", statement: "Checking products." }], steps: [{ reasoning: "Inspection = checking products for defects.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Inspection", statement: "Checking products." }], steps: [{ reasoning: "Inspection = checking products for defects.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u3-qc-q6", difficulty: "core", totalMarks: 1,
@@ -324,7 +324,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Time and Quality Monitoring" },
             { id: "d", text: "Total Quality Management" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "TQM", statement: "Total Quality Management." }], steps: [{ reasoning: "TQM = Total Quality Management.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "TQM", statement: "Total Quality Management." }], steps: [{ reasoning: "TQM = Total Quality Management.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u3-qc-q7", difficulty: "foundation", totalMarks: 1,
@@ -335,7 +335,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "The business is government-owned" },
             { id: "d", text: "The business is the cheapest in its market" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "ISO 9001", statement: "Quality certification." }], steps: [{ reasoning: "ISO 9001 certifies quality management systems.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "ISO 9001", statement: "Quality certification." }], steps: [{ reasoning: "ISO 9001 certifies quality management systems.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u3-qc-q8", difficulty: "core", totalMarks: 2,
@@ -388,7 +388,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Sampling inspection" },
             { id: "d", text: "Job production" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Sampling inspection", statement: "Sample checks." }], steps: [{ reasoning: "Checking a sample = sampling inspection.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Sampling inspection" },
+          markscheme: { principles: [{ kind: "definition", name: "Sampling inspection", statement: "Sample checks." }], steps: [{ reasoning: "Checking a sample = sampling inspection.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Sampling inspection" },
         },
         {
           id: "olbus-u3-qc-q13", difficulty: "core", totalMarks: 2,
@@ -408,7 +408,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Reducing staff numbers" },
             { id: "d", text: "Increasing prices" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Quality control", statement: "Meeting standards." }], steps: [{ reasoning: "QC ensures products meet standards.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Quality control", statement: "Meeting standards." }], steps: [{ reasoning: "QC ensures products meet standards.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u3-qc-q15", difficulty: "core", totalMarks: 2,

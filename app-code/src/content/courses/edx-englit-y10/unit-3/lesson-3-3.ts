@@ -66,7 +66,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Metaphor", statement: "A direct comparison transfers qualities from one thing to another." }],
             steps: [{ reasoning: "A shadow has no substance, so life seems empty and fleeting.", evidence: "Life's but a walking shadow", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** The metaphor suggests that life is insubstantial and meaningless.",
+            finalAnswer: "**(b)** The metaphor suggests that life is insubstantial and meaningless.",
             commonErrors: ["Reading the shadow literally (c, d)."],
           },
         },
@@ -198,7 +198,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Linking", statement: "Choose a moment that develops the same idea." }],
             steps: [{ reasoning: "Both scenes show Macbeth's guilt and fear producing visions only he can see.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** Banquo's ghost is another hallucination caused by guilt.",
+            finalAnswer: "**(d)** Banquo's ghost is another hallucination caused by guilt.",
             commonErrors: ["Choosing a moment unrelated to guilt or perception."],
           },
         },

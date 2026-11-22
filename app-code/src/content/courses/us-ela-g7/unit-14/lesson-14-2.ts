@@ -342,7 +342,7 @@ export const lesson142: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Listen actively and respond to their ideas.",
+            finalAnswer: "**(d)**. Listen actively and respond to their ideas.",
             commonErrors: ["Choosing (a) — planning response isn't listening."],
           },
         },

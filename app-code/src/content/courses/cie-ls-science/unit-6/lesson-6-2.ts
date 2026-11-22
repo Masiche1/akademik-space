@@ -65,7 +65,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Weight is force — newtons.", working: "N", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Newton (N)",
+            finalAnswer: "**(c)** Newton (N)",
             commonErrors: ["Choosing (b) — kg is mass."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "kg = kilogram = mass.", working: "kg", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Kilogram (kg)",
+            finalAnswer: "**(b)** Kilogram (kg)",
             commonErrors: ["Choosing (b) — N is force/weight."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "g ≈ 10 N/kg on Earth.", working: "10", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $10\\ \\text{N/kg}$",
+            finalAnswer: "**(b)** $10\\ \\text{N/kg}$",
             commonErrors: ["Choosing (b) — that is closer to the Moon's value."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Weaker gravity → less weight; mass unchanged.", working: "less weight", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Same mass, less weight",
+            finalAnswer: "**(c)** Same mass, less weight",
             commonErrors: ["Choosing (b) — mass does not change."],
           },
         },
@@ -300,7 +300,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Weight is a force caused by gravity.", working: "force", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Gravitational force on mass",
+            finalAnswer: "**(b)** Gravitational force on mass",
             commonErrors: ["Choosing (b) — that is mass."],
           },
         },
@@ -326,7 +326,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Mass stays 2 kg everywhere.", working: "2 kg", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2\\ \\text{kg}$ unchanged",
+            finalAnswer: "**(d)** $2\\ \\text{kg}$ unchanged",
             commonErrors: ["Choosing (b) — confusing weight ratio with mass."],
           },
         },
@@ -587,7 +587,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Pressure = force per unit area.", working: "F/A", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** force ÷ area",
+            finalAnswer: "**(d)** force ÷ area",
             commonErrors: ["Choosing (c) — multiplying gives wrong units."],
           },
         },
@@ -639,7 +639,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Pa = force/area = N/m².", working: "N/m²", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $1\\ \\text{N/m}^2$",
+            finalAnswer: "**(c)** $1\\ \\text{N/m}^2$",
             commonErrors: ["Choosing (b) — J is energy."],
           },
         },
@@ -665,7 +665,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Sharp tip = minimal area = maximum pressure.", working: "high pressure", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Tiny area → high pressure",
+            finalAnswer: "**(b)** Tiny area → high pressure",
             commonErrors: ["Choosing (d) — force is similar; area is what changes."],
           },
         },
@@ -691,7 +691,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Wide surface spreads weight → lower pressure on snow.", working: "larger area", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Larger area → lower pressure",
+            finalAnswer: "**(c)** Larger area → lower pressure",
             commonErrors: ["Choosing (b) — weight unchanged; area is what changes."],
           },
         },
@@ -717,7 +717,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Fluid transmits pressure — mechanical advantage.", working: "transmit", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Pressure transmitted equally in fluid",
+            finalAnswer: "**(d)** Pressure transmitted equally in fluid",
             commonErrors: ["Choosing (d) — hydraulics use pressure, not gravity."],
           },
         },
@@ -743,7 +743,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Same F, smaller A → higher pressure.", working: "F/A", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Higher pressure",
+            finalAnswer: "**(d)** Higher pressure",
             commonErrors: ["Choosing (c) — pressure depends on area too."],
           },
         },
@@ -899,7 +899,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Moment = Nm.", working: "Nm", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Newton metre (Nm)",
+            finalAnswer: "**(b)** Newton metre (Nm)",
             commonErrors: ["Choosing (b) — N is force."],
           },
         },
@@ -1030,7 +1030,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Balance of moments, not forces or masses.", working: "moments equal", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** CW moments = ACW moments",
+            finalAnswer: "**(d)** CW moments = ACW moments",
             commonErrors: ["Choosing (d) — distances from pivot also matter."],
           },
         },
@@ -1056,7 +1056,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Moment arm = perpendicular distance from pivot.", working: "perpendicular", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Perpendicular distance from pivot",
+            finalAnswer: "**(c)** Perpendicular distance from pivot",
             commonErrors: ["Choosing (b) — it's about distance to pivot, not total length."],
           },
         },
@@ -1082,7 +1082,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Greater distance from pivot → larger moment arm → larger moment.", working: "distance", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Further from pivot",
+            finalAnswer: "**(d)** Further from pivot",
             commonErrors: ["Choosing (c) — reducing force reduces moment."],
           },
         },
@@ -1108,7 +1108,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Hinges = pivot; distant handle = large moment arm.", working: "moment arm", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Larger moment arm — easier to open",
+            finalAnswer: "**(d)** Larger moment arm — easier to open",
             commonErrors: ["Choosing (c) — this is about moments, not friction."],
           },
         },
@@ -1134,7 +1134,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Child far away has big moment; friend needs bigger weight or smaller distance to match.", working: "balance", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Heavier or closer to centre",
+            finalAnswer: "**(c)** Heavier or closer to centre",
             commonErrors: ["Choosing (c) — moving further increases the friend's moment too much."],
           },
         },
@@ -1160,7 +1160,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Bigger clockwise moment → clockwise rotation.", working: "CW", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Rotate clockwise",
+            finalAnswer: "**(d)** Rotate clockwise",
             commonErrors: ["Choosing (b) — equilibrium needs equal moments."],
           },
         },

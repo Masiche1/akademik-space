@@ -68,7 +68,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Nitrogen gas cannot be used by plants; they absorb nitrate ions through their roots.", working: "\\text{nitrate ions}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Nitrates",
+            finalAnswer: "**(a)** Nitrates",
             commonErrors: ["Choosing nitrogen gas because air is 78% nitrogen.", "Choosing ammonium ions, which must first be converted to nitrates by nitrifying bacteria."],
             examinerNote: "B1 for nitrates.",
           },
@@ -202,7 +202,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Oxygen and nitrogen make up most of the air but do not absorb infrared radiation. Carbon dioxide and methane do.", working: "\\text{CO}_2 \\text{ and CH}_4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Carbon dioxide and methane",
+            finalAnswer: "**(b)** Carbon dioxide and methane",
             commonErrors: ["Choosing a pair that includes sulfur dioxide, which causes acid rain rather than the greenhouse effect."],
             examinerNote: "B1 for (a).",
           },

@@ -78,7 +78,7 @@ export const lesson121: Lesson = {
             steps: [
               { reasoning: "Choose formal option.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Dear Sir or Madam",
+            finalAnswer: "**(d)** Dear Sir or Madam",
             commonErrors: ["Choosing informal."],
           },
         },
@@ -287,7 +287,7 @@ export const lesson121: Lesson = {
               { reasoning: "Identify directive.", marks: 1, markCode: "M" },
               { reasoning: "Answer: 'Try it today!'", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Try it today!",
+            finalAnswer: "**(c)** Try it today!",
             commonErrors: ["Choosing statement not action."],
           },
         },

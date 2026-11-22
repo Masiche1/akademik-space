@@ -102,7 +102,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Comparing purpose and voice", statement: "Start comparison from the writer's purpose and voice." }],
             steps: [{ reasoning: "Text A uses 'I' and emotion; Text B is reportage with third-person statistics and quotations.", evidence: "I have never been so tired, and I have never been so happy", marks: 1, markCode: "AO3" }],
-            finalAnswer: "**(a)** Text A is personal and emotional; Text B is detached and informative.",
+            finalAnswer: "**(c)** Text A is personal and emotional; Text B is detached and informative.",
             commonErrors: ["Reversing the attitudes of the two texts (b).", "Assuming both use the first person (d), when only Text A does."],
           },
         },
@@ -238,7 +238,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Command words", statement: "Explain requires a point, evidence and development of what the evidence suggests." }],
             steps: [{ reasoning: "'Explain' asks for reasons and inference, not copying, listing or retelling.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** State the feeling, support it with a short quotation and explain what it suggests.",
+            finalAnswer: "**(d)** State the feeling, support it with a short quotation and explain what it suggests.",
             commonErrors: ["Treating 'explain' as 'retrieve' (b).", "Treating every question as a language-technique hunt (c)."],
           },
         },

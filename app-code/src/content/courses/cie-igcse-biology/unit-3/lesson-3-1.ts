@@ -63,7 +63,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Recall the equation.", working: "\\text{O}_2 \\text{ released}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oxygen",
+            finalAnswer: "**(c)** Oxygen",
             commonErrors: ["Choosing carbon dioxide — that's a reactant."],
           },
         },
@@ -159,7 +159,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Recall the pigment.", working: "\\text{chlorophyll}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Chlorophyll",
+            finalAnswer: "**(c)** Chlorophyll",
             commonErrors: ["Choosing haemoglobin — that carries oxygen in blood."],
           },
         },
@@ -185,7 +185,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Recall the site.", working: "\\text{chloroplast}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Chloroplast",
+            finalAnswer: "**(c)** Chloroplast",
             commonErrors: ["Choosing mitochondrion — that's the site of respiration."],
           },
         },
@@ -211,7 +211,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Recall the plateau explanation.", working: "\\text{another factor limiting}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Another factor, such as CO₂ or temperature, has become limiting",
+            finalAnswer: "**(d)** Another factor, such as CO₂ or temperature, has become limiting",
             commonErrors: ["Saying 'light stops working' — light is still available, it just isn't limiting anymore."],
           },
         },
@@ -237,7 +237,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Match feature to water loss.", working: "\\text{waxy cuticle}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Waxy cuticle",
+            finalAnswer: "**(d)** Waxy cuticle",
             commonErrors: ["Choosing stomata — they are pores that actually allow water vapour out."],
           },
         },
@@ -263,7 +263,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Link position to function.", working: "\\text{gas exchange + less water loss}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** To allow gas exchange while reducing water loss",
+            finalAnswer: "**(c)** To allow gas exchange while reducing water loss",
             commonErrors: ["Saying 'to absorb light' — stomata do not absorb light."],
           },
         },
@@ -467,7 +467,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Recall the link.", working: "\\text{Mg}^{2+} \\to \\text{chlorophyll}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Magnesium",
+            finalAnswer: "**(c)** Magnesium",
             commonErrors: ["Choosing nitrate — that's for amino acids/protein."],
           },
         },
@@ -561,7 +561,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Match mineral to function.", working: "\\text{nitrate} \\to \\text{amino acids/protein}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Nitrate",
+            finalAnswer: "**(d)** Nitrate",
             commonErrors: ["Choosing magnesium — that is for chlorophyll."],
           },
         },
@@ -613,7 +613,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Recall mobility of nitrogen.", working: "\\text{mobile} \\to \\text{older leaves first}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Nitrogen is mobile and is moved from older to younger leaves",
+            finalAnswer: "**(d)** Nitrogen is mobile and is moved from older to younger leaves",
             commonErrors: ["Saying 'roots cannot absorb it' — the plant lacks nitrate in the soil/fertiliser, not uptake ability."],
           },
         },
@@ -793,7 +793,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Match mineral to role.", working: "\\text{calcium} \\to \\text{cell walls}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Formation of cell walls",
+            finalAnswer: "**(c)** Formation of cell walls",
             commonErrors: ["Choosing chlorophyll — that is magnesium."],
           },
         },

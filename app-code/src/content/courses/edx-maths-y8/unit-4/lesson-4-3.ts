@@ -63,7 +63,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Probability", statement: "$P=\\frac{\\text{favourable}}{\\text{total}}$" }],
             steps: [{ reasoning: "The numbers greater than $4$ are $5$ and $6$: $2$ out of $6$.", working: "\\tfrac26=\\tfrac13", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $\\frac13$",
+            finalAnswer: "**(d)** $\\frac13$",
             commonErrors: ["Including $4$ and getting $\\frac12$.", "Counting only one outcome."],
           },
         },
@@ -189,7 +189,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Counting outcomes", statement: "Multiply the number of outcomes of each event." }],
             steps: [{ reasoning: "$2$ coin outcomes $\\times$ $6$ dice outcomes.", working: "2\\times6=12", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $12$",
+            finalAnswer: "**(d)** $12$",
             commonErrors: ["Adding: $2+6=8$."],
           },
         },

@@ -40,7 +40,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Keyboard" },
             { id: "d", text: "Printer" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Output", statement: "Presents processed data." }], steps: [{ reasoning: "Printer outputs.", working: "\\text{printer}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Printer" },
+          markscheme: { principles: [{ kind: "definition", name: "Output", statement: "Presents processed data." }], steps: [{ reasoning: "Printer outputs.", working: "\\text{printer}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Printer" },
         },
         {
           id: "olcs-u3-io-q2", difficulty: "core", totalMarks: 2,
@@ -95,7 +95,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Neither input nor output" },
             { id: "d", text: "Both an input and an output device" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Touchscreen", statement: "Combined input + output." }], steps: [{ reasoning: "Displays output and senses touch input.", working: "\\text{both}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Both input and output" },
+          markscheme: { principles: [{ kind: "definition", name: "Touchscreen", statement: "Combined input + output." }], steps: [{ reasoning: "Displays output and senses touch input.", working: "\\text{both}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Both input and output" },
         },
         {
           id: "olcs-u3-io-q6", difficulty: "core", totalMarks: 2,
@@ -186,7 +186,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "An input device" },
             { id: "d", text: "A processor" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Input", statement: "Captures data for the computer." }], steps: [{ reasoning: "Microphone captures sound.", working: "\\text{input}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Input device" },
+          markscheme: { principles: [{ kind: "definition", name: "Input", statement: "Captures data for the computer." }], steps: [{ reasoning: "Microphone captures sound.", working: "\\text{input}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Input device" },
         },
         {
           id: "olcs-u3-io-q15", difficulty: "challenge", totalMarks: 3,
@@ -207,7 +207,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "An output device" },
             { id: "d", text: "A sensor" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Output", statement: "Presents data to the user." }], steps: [{ reasoning: "Speaker produces sound output.", working: "\\text{output}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Output device" },
+          markscheme: { principles: [{ kind: "definition", name: "Output", statement: "Presents data to the user." }], steps: [{ reasoning: "Speaker produces sound output.", working: "\\text{output}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Output device" },
         },
       ],
     },
@@ -239,7 +239,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Connect to the internet" },
             { id: "d", text: "Measure a physical property" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Sensor", statement: "Detects physical property." }], steps: [{ reasoning: "Sensors measure.", working: "\\text{measure}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Measure property" },
+          markscheme: { principles: [{ kind: "definition", name: "Sensor", statement: "Detects physical property." }], steps: [{ reasoning: "Sensors measure.", working: "\\text{measure}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Measure property" },
         },
         {
           id: "olcs-u3-sen-q2", difficulty: "core", totalMarks: 2,
@@ -294,7 +294,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Converts an electrical signal into physical action" },
             { id: "d", text: "Measures temperature" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Actuator", statement: "Signal → physical action." }], steps: [{ reasoning: "Actuators cause movement/action.", working: "\\text{act}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Signal to action" },
+          markscheme: { principles: [{ kind: "definition", name: "Actuator", statement: "Signal → physical action." }], steps: [{ reasoning: "Actuators cause movement/action.", working: "\\text{act}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Signal to action" },
         },
         {
           id: "olcs-u3-sen-q6", difficulty: "core", totalMarks: 2,
@@ -343,7 +343,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Monitor" },
             { id: "d", text: "Sensor (input)" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Sensor", statement: "Detects physical property." }], steps: [{ reasoning: "Level detector senses water.", working: "\\text{sensor}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sensor" },
+          markscheme: { principles: [{ kind: "principle", name: "Sensor", statement: "Detects physical property." }], steps: [{ reasoning: "Level detector senses water.", working: "\\text{sensor}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Sensor" },
         },
         {
           id: "olcs-u3-sen-q11", difficulty: "core", totalMarks: 2,
@@ -363,7 +363,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "The target value the system tries to maintain" },
             { id: "d", text: "The maximum file size" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Set point", statement: "Target value to maintain." }], steps: [{ reasoning: "Set point = desired value.", working: "\\text{target}", marks: 1, markCode: "M" }, { reasoning: "System acts to reach/keep it.", marks: 1, markCode: "A" }], finalAnswer: "**(a)** Target value" },
+          markscheme: { principles: [{ kind: "definition", name: "Set point", statement: "Target value to maintain." }], steps: [{ reasoning: "Set point = desired value.", working: "\\text{target}", marks: 1, markCode: "M" }, { reasoning: "System acts to reach/keep it.", marks: 1, markCode: "A" }], finalAnswer: "**(c)** Target value" },
         },
         {
           id: "olcs-u3-sen-q13", difficulty: "challenge", totalMarks: 4,
@@ -385,7 +385,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Plotter" },
             { id: "d", text: "Motion sensor" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Security", statement: "Motion sensors trigger alarms." }], steps: [{ reasoning: "Motion sensor detects intruders.", working: "\\text{motion}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Motion sensor" },
+          markscheme: { principles: [{ kind: "principle", name: "Security", statement: "Motion sensors trigger alarms." }], steps: [{ reasoning: "Motion sensor detects intruders.", working: "\\text{motion}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Motion sensor" },
         },
         {
           id: "olcs-u3-sen-q15", difficulty: "challenge", totalMarks: 3,
@@ -406,7 +406,7 @@ export const lesson32: Lesson = {
             { id: "c", text: "Sense → process → act" },
             { id: "d", text: "Sense → act → process" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Control loop", statement: "Sense first, then decide, then act." }], steps: [{ reasoning: "Measure → decide → change.", working: "\\text{s-p-a}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sense → process → act" },
+          markscheme: { principles: [{ kind: "principle", name: "Control loop", statement: "Sense first, then decide, then act." }], steps: [{ reasoning: "Measure → decide → change.", working: "\\text{s-p-a}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Sense → process → act" },
         },
       ],
     },

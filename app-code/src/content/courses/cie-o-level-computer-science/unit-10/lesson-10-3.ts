@@ -42,7 +42,7 @@ export const lesson103: Lesson = {
             { id: "c", text: "A row" },
             { id: "d", text: "A column" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Field", statement: "Column." }], steps: [{ reasoning: "Field = column.", working: "\\text{column}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A column" },
+          markscheme: { principles: [{ kind: "definition", name: "Field", statement: "Column." }], steps: [{ reasoning: "Field = column.", working: "\\text{column}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** A column" },
         },
         {
           id: "olcs-u10-rv-q2", difficulty: "core", totalMarks: 2,
@@ -97,7 +97,7 @@ export const lesson103: Lesson = {
             { id: "c", text: "A column" },
             { id: "d", text: "A row" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Record", statement: "Row in table." }], steps: [{ reasoning: "Record = row.", working: "\\text{row}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** A row" },
+          markscheme: { principles: [{ kind: "definition", name: "Record", statement: "Row in table." }], steps: [{ reasoning: "Record = row.", working: "\\text{row}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** A row" },
         },
         {
           id: "olcs-u10-rv-q6", difficulty: "foundation", totalMarks: 1,
@@ -116,7 +116,7 @@ export const lesson103: Lesson = {
             { id: "c", text: "Join tables" },
             { id: "d", text: "Sort results" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "ORDER BY", statement: "Sorts results by a field." }], steps: [{ reasoning: "ORDER BY sorts the output.", working: "\\text{order by}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Sort results" },
+          markscheme: { principles: [{ kind: "definition", name: "ORDER BY", statement: "Sorts results by a field." }], steps: [{ reasoning: "ORDER BY sorts the output.", working: "\\text{order by}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Sort results" },
         },
         {
           id: "olcs-u10-rv-q8", difficulty: "core", totalMarks: 1,
@@ -127,7 +127,7 @@ export const lesson103: Lesson = {
             { id: "c", text: "Link records between tables" },
             { id: "d", text: "Make data look neat" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Foreign key", statement: "References another table's PK." }], steps: [{ reasoning: "FK links records across tables.", working: "\\text{fk}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Link records between tables" },
+          markscheme: { principles: [{ kind: "definition", name: "Foreign key", statement: "References another table's PK." }], steps: [{ reasoning: "FK links records across tables.", working: "\\text{fk}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Link records between tables" },
         },
         {
           id: "olcs-u10-rv-q9", difficulty: "core", totalMarks: 2,
@@ -147,7 +147,7 @@ export const lesson103: Lesson = {
             { id: "c", text: "SELECT COUNT(*) FROM table" },
             { id: "d", text: "WHERE COUNT table" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "COUNT", statement: "Counts matching records." }], steps: [{ reasoning: "COUNT(*) counts records.", working: "\\text{count}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** SELECT COUNT(*) FROM table" },
+          markscheme: { principles: [{ kind: "definition", name: "COUNT", statement: "Counts matching records." }], steps: [{ reasoning: "COUNT(*) counts records.", working: "\\text{count}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** SELECT COUNT(*) FROM table" },
         },
         {
           id: "olcs-u10-rv-q11", difficulty: "challenge", totalMarks: 3,
@@ -167,8 +167,8 @@ export const lesson103: Lesson = {
             { id: "b", text: "StudentID" },
             { id: "c", text: "Age" },
             { id: "d", text: "Class" },
-          ], borrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Primary key", statement: "Unique identifier." }], steps: [{ reasoning: "StudentID uniquely identifies each student.", working: "\\text{unique}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** StudentID" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "definition", name: "Primary key", statement: "Unique identifier." }], steps: [{ reasoning: "StudentID uniquely identifies each student.", working: "\\text{unique}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** StudentID" },
         },
         {
           id: "olcs-u10-rv-q13", difficulty: "foundation", totalMarks: 1,
@@ -187,7 +187,7 @@ export const lesson103: Lesson = {
             { id: "c", text: "ORDER BY Class" },
             { id: "d", text: "WHERE Class = '10A'" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "WHERE", statement: "Filters records by condition." }], steps: [{ reasoning: "WHERE applies the class condition.", working: "\\text{where}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** WHERE Class = '10A'" },
+          markscheme: { principles: [{ kind: "definition", name: "WHERE", statement: "Filters records by condition." }], steps: [{ reasoning: "WHERE applies the class condition.", working: "\\text{where}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** WHERE Class = '10A'" },
         },
         {
           id: "olcs-u10-rv-q15", difficulty: "core", totalMarks: 2,

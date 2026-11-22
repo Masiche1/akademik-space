@@ -68,7 +68,7 @@ export const lesson42: Lesson = {
               { reasoning: "The inner dimensions match (3 columns of $A$, 3 rows of $B$), so the product is defined.", working: "(2\\times3)(3\\times4)", marks: 1, markCode: "M" },
               { reasoning: "The result takes the outer dimensions.", working: "2\\times4", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $2\\times4$",
+            finalAnswer: "**(d)** $2\\times4$",
             commonErrors: ["Thinking the product is undefined because $A$ and $B$ differ in size.", "Reversing the outer dimensions."],
           },
         },

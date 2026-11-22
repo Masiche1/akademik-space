@@ -88,7 +88,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "$5-2=3$ — constant.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $d=3$",
+            finalAnswer: "**(b)** $d=3$",
             commonErrors: ["Reading a term instead of the difference."],
           },
         },
@@ -255,7 +255,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "$7 - 10 = -3$ — constant.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $d=-3$",
+            finalAnswer: "**(b)** $d=-3$",
             commonErrors: ["Giving the absolute difference instead of signed $d$."],
           },
         },
@@ -385,7 +385,7 @@ export const lesson131: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $2, 5, 8, 11$",
+            finalAnswer: "**(d)** $2, 5, 8, 11$",
             commonErrors: ["Choosing a geometric sequence like $2,4,8,16$."],
           },
         },
@@ -486,7 +486,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Correct formula stated.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $u_n = a + (n-1)d$",
+            finalAnswer: "**(c)** $u_n = a + (n-1)d$",
             commonErrors: ["Confusing nth term with sum formula."],
           },
         },
@@ -808,7 +808,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "$15 \\div 5 = 3$.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $r=3$",
+            finalAnswer: "**(d)** $r=3$",
             commonErrors: ["Subtracting instead of dividing."],
           },
         },
@@ -986,7 +986,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "$6 \\div 2 = 3$.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $r=3$",
+            finalAnswer: "**(b)** $r=3$",
             commonErrors: ["Subtracting instead of dividing."],
           },
         },
@@ -1221,7 +1221,7 @@ export const lesson131: Lesson = {
             steps: [
               { reasoning: "Condition: $|r| < 1$.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $|r| < 1$",
+            finalAnswer: "**(d)** $|r| < 1$",
             commonErrors: ["Thinking any $r$ gives a finite sum."],
           },
         },
@@ -1296,7 +1296,7 @@ export const lesson131: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $r = 2$",
+            finalAnswer: "**(b)** $r = 2$",
             commonErrors: ["Using $\\frac{u_6}{u_3} = r$ instead of $r^3$."],
           },
         },

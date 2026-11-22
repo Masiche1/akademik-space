@@ -118,7 +118,7 @@ export const lesson51: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A thesis, supporting points and paragraph structure",
+              "**(d)** A thesis, supporting points and paragraph structure",
             commonErrors: ["Skipping planning and losing the essay's thread."],
           },
         },
@@ -337,7 +337,7 @@ export const lesson51: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** To fix the thesis, select points and structure paragraphs before writing",
+              "**(a)** To fix the thesis, select points and structure paragraphs before writing",
             commonErrors: ["Treating the plan as optional decoration."],
           },
         },
@@ -378,7 +378,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Often first or last for maximum impact",
+            finalAnswer: "**(a)** Often first or last for maximum impact",
             commonErrors: [
               "Burying the strongest point in the middle of the essay.",
             ],
@@ -474,7 +474,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The three or four strongest",
+            finalAnswer: "**(d)** The three or four strongest",
             commonErrors: [
               "Trying to include every idea — this causes repetition and drift.",
             ],
@@ -570,7 +570,7 @@ export const lesson51: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** It states the paragraph's point and links it to the thesis",
+              "**(c)** It states the paragraph's point and links it to the thesis",
             commonErrors: [
               "Writing topic sentences that introduce a point unrelated to the thesis.",
             ],
@@ -1200,7 +1200,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Furthermore",
+            finalAnswer: "**(a)** Furthermore",
             commonErrors: [
               "Confusing addition ('furthermore') with consequence ('as a result').",
             ],
@@ -1242,7 +1242,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** As a result",
+            finalAnswer: "**(d)** As a result",
             commonErrors: [
               "Using 'for example' (illustration) where a consequence is needed.",
             ],
@@ -1297,7 +1297,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The city is expensive and crowded.",
+            finalAnswer: "**(a)** The city is expensive and crowded.",
             commonErrors: [
               "Swapping one repeated noun for a repeated synonym — still clumsy.",
             ],
@@ -1345,7 +1345,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** A pronoun or synonym reference",
+            finalAnswer: "**(c)** A pronoun or synonym reference",
             commonErrors: [
               "Repeating the full noun instead of using reference.",
             ],
@@ -1392,7 +1392,7 @@ export const lesson51: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Good cohesion but weak coherence",
+            finalAnswer: "**(b)** Good cohesion but weak coherence",
             commonErrors: [
               "Assuming grammatical linking guarantees logical sense.",
             ],

@@ -117,7 +117,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Equivalent DC power value",
+            finalAnswer: "**(b)** Equivalent DC power value",
             commonErrors: [
               "Thinking RMS = average — it's the square root of mean square.",
             ],
@@ -332,7 +332,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 141 V",
+            finalAnswer: "**(a)** 141 V",
             commonErrors: [
               "Dividing by $\\sqrt{2}$ — peak is LARGER than RMS.",
             ],
@@ -379,7 +379,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Equivalent DC power value",
+            finalAnswer: "**(d)** Equivalent DC power value",
             commonErrors: [
               "Thinking RMS is just an average — it is specifically for power.",
             ],
@@ -465,7 +465,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $P = V_{rms}I_{rms} = I_{rms}^2R$",
+            finalAnswer: "**(c)** $P = V_{rms}I_{rms} = I_{rms}^2R$",
             commonErrors: [
               "Using peak values — they give twice the actual average power.",
             ],
@@ -507,7 +507,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 20 ms",
+            finalAnswer: "**(a)** 20 ms",
             commonErrors: ["Using $f$ as period — period is $1/f$."],
           },
         },
@@ -961,7 +961,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** More secondary turns",
+            finalAnswer: "**(b)** More secondary turns",
             commonErrors: ["Reversing — step-up has MORE secondary turns."],
           },
         },
@@ -1189,7 +1189,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $N_s/N_p$",
+            finalAnswer: "**(d)** $N_s/N_p$",
             commonErrors: [
               "Inverting the ratio — secondary over primary matches $V_s/V_p$.",
             ],
@@ -1233,7 +1233,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Voltage down, current up",
+            finalAnswer: "**(c)** Voltage down, current up",
             commonErrors: [
               "Thinking both decrease — power conservation forces current up.",
             ],
@@ -1277,7 +1277,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Reduce eddy current losses",
+            finalAnswer: "**(b)** Reduce eddy current losses",
             commonErrors: [
               "Thinking laminations reduce copper losses — they target eddy currents in the core.",
             ],
@@ -1297,7 +1297,7 @@ export const lesson42: Lesson = {
               { id: "c", text: "Induced EMF in the secondary" },
               { id: "d", text: "Eddy currents in the core" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1321,7 +1321,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(d)** Induced EMF is useful output, not a loss",
+            finalAnswer: "**(c)** Induced EMF is useful output, not a loss",
             commonErrors: [
               "Listing induced EMF as a loss — it is the transformer output mechanism.",
             ],
@@ -1365,7 +1365,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Step-down ($N_s < N_p$)",
+            finalAnswer: "**(c)** Step-down ($N_s < N_p$)",
             commonErrors: ["Choosing step-up — voltage is being reduced."],
           },
         },

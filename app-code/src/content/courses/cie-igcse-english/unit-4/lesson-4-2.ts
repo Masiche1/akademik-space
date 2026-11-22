@@ -168,7 +168,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Discursive writing explores multiple viewpoints fairly.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Present both viewpoints, then reach a balanced judgement",
+            finalAnswer: "**(a)** Present both viewpoints, then reach a balanced judgement",
           },
         },
         {
@@ -254,7 +254,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Option b acknowledges both viewpoints and reaches a reasoned judgement.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** While uniforms promote equality, they may restrict individuality; a balanced view suggests optional smart dress.",
+            finalAnswer: "**(c)** While uniforms promote equality, they may restrict individuality; a balanced view suggests optional smart dress.",
           },
         },
         {
@@ -424,7 +424,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Strong arguments have logical reasons and convincing evidence.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Whether the reasons are logical and the evidence convincing",
+            finalAnswer: "**(d)** Whether the reasons are logical and the evidence convincing",
           },
         },
         {
@@ -473,7 +473,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Option b weighs the arguments and reaches a judgement.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** On balance, the evidence suggests a middle path is wisest.",
+            finalAnswer: "**(a)** On balance, the evidence suggests a middle path is wisest.",
           },
         },
         {
@@ -559,7 +559,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "Option b is an unsupported assertion with no reason or evidence.", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Everyone knows uniforms are just better.",
+            finalAnswer: "**(a)** Everyone knows uniforms are just better.",
           },
         },
         {

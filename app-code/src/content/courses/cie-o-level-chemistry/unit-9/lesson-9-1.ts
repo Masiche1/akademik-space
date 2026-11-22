@@ -57,7 +57,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Air composition", statement: "N₂ ~78%, O₂ ~21%." }],
             steps: [{ reasoning: "Recall.", working: "N_2 = 78\\%", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 78%",
+            finalAnswer: "**(a)** 78%",
             commonErrors: ["Confusing N₂ with O₂ percentages."],
           },
         },
@@ -154,7 +154,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "CO₂ test", statement: "Limewater → milky CaCO₃." }],
             steps: [{ reasoning: "Recall.", working: "\\text{limewater milky}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Limewater turns milky",
+            finalAnswer: "**(a)** Limewater turns milky",
             commonErrors: ["Relighting splint tests oxygen."],
           },
         },
@@ -186,11 +186,11 @@ export const lesson191: Lesson = {
             { id: "b", text: "It is toxic and reduces oxygen carriage in blood" },
             { id: "c", text: "It causes acid rain" },
             { id: "d", text: "It destroys the ozone layer" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "CO", statement: "Toxic gas from incomplete combustion." }],
             steps: [{ reasoning: "Recall.", working: "\\text{CO toxic}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** It is toxic and reduces oxygen carriage in blood",
+            finalAnswer: "**(b)** It is toxic and reduces oxygen carriage in blood",
             commonErrors: ["CO binds haemoglobin — it does not cause acid rain."],
           },
         },
@@ -208,7 +208,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Catalytic converter", statement: "Converts CO and NOx to less harmful gases." }],
             steps: [{ reasoning: "Recall.", working: "\\text{catalytic converter}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Catalytic converter",
+            finalAnswer: "**(d)** Catalytic converter",
             commonErrors: ["Scrubbers remove SO₂ from power station flue gases."],
           },
         },
@@ -376,7 +376,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Hard water", statement: "Ca²⁺/Mg²⁺ ions." }],
             steps: [{ reasoning: "Recall.", working: "Ca^{2+}, Mg^{2+}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ca²⁺ and Mg²⁺",
+            finalAnswer: "**(d)** Ca²⁺ and Mg²⁺",
             commonErrors: ["Naming the anions — it's the cations."],
           },
         },
@@ -474,7 +474,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Permanent hardness", statement: "Needs ion exchange/resin." }],
             steps: [{ reasoning: "Recall.", working: "\\text{ion exchange}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** An ion exchange column",
+            finalAnswer: "**(d)** An ion exchange column",
             commonErrors: ["Boiling only removes temporary hardness."],
           },
         },
@@ -492,7 +492,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Scum", statement: "Ca²⁺/Mg²⁺ + soap → insoluble precipitate." }],
             steps: [{ reasoning: "Recall.", working: "\\text{insoluble precipitate}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** An insoluble precipitate",
+            finalAnswer: "**(d)** An insoluble precipitate",
             commonErrors: ["Scum is the white solid that stops lather."],
           },
         },
@@ -510,7 +510,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Water treatment", statement: "Coagulate→settle→filter→chlorinate." }],
             steps: [{ reasoning: "Recall.", working: "\\text{coagulation}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Coagulation with alum",
+            finalAnswer: "**(a)** Coagulation with alum",
             commonErrors: ["Chlorination is the last stage, not the first."],
           },
         },
@@ -528,7 +528,7 @@ export const lesson191: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Chlorination", statement: "Kills pathogens." }],
             steps: [{ reasoning: "Recall.", working: "\\text{disinfect}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** To kill bacteria and other microbes",
+            finalAnswer: "**(d)** To kill bacteria and other microbes",
             commonErrors: ["Chlorine disinfects; it does not soften water."],
           },
         },

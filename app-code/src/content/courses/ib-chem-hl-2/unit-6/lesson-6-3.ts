@@ -118,7 +118,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** O–H bond",
+            finalAnswer: "**(b)** O–H bond",
             commonErrors: ["Choosing C=O — C=O appears at ~1700, not 3300."],
           },
         },
@@ -341,7 +341,7 @@ export const lesson63: Lesson = {
               },
               { reasoning: "Choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A C=O bond",
+            finalAnswer: "**(c)** A C=O bond",
             commonErrors: [
               "Choosing O–H — O–H absorbs broadly around 3200–3600 cm$^{-1}$.",
             ],
@@ -381,7 +381,7 @@ export const lesson63: Lesson = {
               },
               { reasoning: "Choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A C≡N or C≡C triple bond",
+            finalAnswer: "**(a)** A C≡N or C≡C triple bond",
             commonErrors: [
               "Choosing C=O — carbonyl absorbs near 1700 cm$^{-1}$, not 2250.",
             ],
@@ -425,7 +425,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** One chlorine atom",
+            finalAnswer: "**(d)** One chlorine atom",
             commonErrors: [
               "Choosing bromine — Br isotopes are ~50:50, giving M+2 ≈ M intensity.",
             ],
@@ -470,7 +470,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The most abundant fragment ion",
+            finalAnswer: "**(d)** The most abundant fragment ion",
             commonErrors: [
               "Confusing base peak with molecular ion — they are usually different peaks.",
             ],
@@ -490,7 +490,7 @@ export const lesson63: Lesson = {
               { id: "c", text: "An alcohol" },
               { id: "d", text: "An ester" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -515,7 +515,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** A carboxylic acid",
+            finalAnswer: "**(b)** A carboxylic acid",
             commonErrors: [
               "Choosing alcohol — an alcohol has O–H but no C=O band.",
             ],
@@ -560,7 +560,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Ethanal, CH$_3$CHO",
+            finalAnswer: "**(c)** Ethanal, CH$_3$CHO",
             commonErrors: ["Choosing propanone — its M$^+$ is 58, not 44."],
           },
         },
@@ -893,7 +893,7 @@ export const lesson63: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** 2",
+            finalAnswer: "**(d)** 2",
             commonErrors: ["Choosing 3 — that's a quartet (n+1=4 needs n=3)."],
           },
         },
@@ -1111,7 +1111,7 @@ export const lesson63: Lesson = {
               },
               { reasoning: "Choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The O–H proton of a carboxylic acid",
+            finalAnswer: "**(a)** The O–H proton of a carboxylic acid",
             commonErrors: [
               "Choosing aldehyde — aldehyde H appears near δ 9–10, not 11–13.",
             ],
@@ -1151,7 +1151,7 @@ export const lesson63: Lesson = {
               },
               { reasoning: "Choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 3",
+            finalAnswer: "**(d)** 3",
             commonErrors: [
               "Confusing quartet with triplet — triplet has 2 neighbours, quartet has 3.",
             ],
@@ -1251,7 +1251,7 @@ export const lesson63: Lesson = {
               { id: "c", text: "8" },
               { id: "d", text: "2" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1271,7 +1271,7 @@ export const lesson63: Lesson = {
               },
               { reasoning: "Choice (c) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** 4",
+            finalAnswer: "**(b)** 4",
             commonErrors: [
               "Thinking signals < carbons is impossible — equivalent carbons always share a signal.",
             ],

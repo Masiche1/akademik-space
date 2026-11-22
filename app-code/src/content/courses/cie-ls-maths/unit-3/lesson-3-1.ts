@@ -66,7 +66,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$3x+2x=(3+2)x=5x$.", working: "3+2=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5x$",
+            finalAnswer: "**(b)** $5x$",
             commonErrors: ["Choosing (b) — multiplying coefficients instead of adding."],
           },
         },
@@ -171,7 +171,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$6x-2x=(6-2)x=4x$.", working: "6-2=4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $4x$",
+            finalAnswer: "**(c)** $4x$",
             commonErrors: ["Choosing (b) — adding instead of subtracting coefficients."],
           },
         },
@@ -197,7 +197,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$3a+a=4a$; $2b-b=b$ → $4a+b$.", working: "4a+b", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $4a + b$",
+            finalAnswer: "**(d)** $4a + b$",
             commonErrors: ["Choosing (b) — forgetting $-b$ reduces the $b$ coefficient to 1, not 3."],
           },
         },
@@ -249,7 +249,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$2(x+3)=2x+6$; then $2x+6+x=3x+6$.", working: "3x+6", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3x + 6$",
+            finalAnswer: "**(b)** $3x + 6$",
             commonErrors: ["Choosing (c) — forgetting the extra $+x$ term."],
           },
         },
@@ -275,7 +275,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "FOIL: $x^2+3x+2x+6=x^2+5x+6$.", working: "x^2+5x+6", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x^2 + 5x + 6$",
+            finalAnswer: "**(c)** $x^2 + 5x + 6$",
             commonErrors: ["Choosing (b) — forgetting the middle terms $3x+2x$."],
           },
         },
@@ -491,7 +491,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$4 \\times 3 = 12$, then $+1 = 13$.", working: "12+1=13", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $13$",
+            finalAnswer: "**(d)** $13$",
             commonErrors: ["Choosing (d) — forgetting the $+1$."],
           },
         },
@@ -596,7 +596,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$12+2=14$.", working: "12+2=14", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $14$",
+            finalAnswer: "**(c)** $14$",
             commonErrors: ["Choosing (d) — forgetting the $+2$."],
           },
         },
@@ -622,7 +622,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$9+1=10$.", working: "9+1=10", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $10$",
+            finalAnswer: "**(c)** $10$",
             commonErrors: ["Choosing (b) — computing $3^2=6$ wrongly or $(3+1)^2$ misread."],
           },
         },
@@ -648,7 +648,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$5-2(-3)=5+6=11$.", working: "5+6=11", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $11$",
+            finalAnswer: "**(c)** $11$",
             commonErrors: ["Choosing (b) — $-2(-3)=-6$ is wrong; negative times negative is positive."],
           },
         },
@@ -674,7 +674,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$8\\times5=40$.", working: "8\\times5=40", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $40$",
+            finalAnswer: "**(b)** $40$",
             commonErrors: ["Choosing (b) — adding $l+w$ gives perimeter-like value, not area."],
           },
         },
@@ -700,7 +700,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$-2-3=-5$.", working: "-2-3=-5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $-5$",
+            finalAnswer: "**(b)** $-5$",
             commonErrors: ["Choosing (d) — $2(-1)=-2$, not $+2$; then $-2-3=-5$."],
           },
         },

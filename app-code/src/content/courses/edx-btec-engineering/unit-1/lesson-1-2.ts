@@ -194,7 +194,7 @@ export const lesson102: Lesson = {
                 text: "It is the same for all metals",
               },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

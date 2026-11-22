@@ -65,7 +65,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Formal = standard, complex.", working: "standard", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Standard English, complex sentences",
+            finalAnswer: "**(c)** Standard English, complex sentences",
             commonErrors: ["Choosing (b) — that's informal."],
           },
         },
@@ -220,7 +220,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "'Would be grateful' is formal.", working: "grateful", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** I would be grateful",
+            finalAnswer: "**(b)** I would be grateful",
             commonErrors: ["Choosing (d) — too direct/informal."],
           },
         },
@@ -336,7 +336,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Business email = formal.", working: "formal", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Formal",
+            finalAnswer: "**(c)** Formal",
             commonErrors: ["Choosing (b) — too casual."],
           },
         },
@@ -421,7 +421,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "'Wanna' is informal.", working: "wanna", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Wanna",
+            finalAnswer: "**(d)** Wanna",
             commonErrors: ["Choosing (b) — formal."],
           },
         },
@@ -501,7 +501,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Tone = writer's attitude.", working: "attitude", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Writer's attitude",
+            finalAnswer: "**(b)** Writer's attitude",
             commonErrors: ["Choosing (b) — that's mood."],
           },
         },
@@ -606,7 +606,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Tone = attitude/mood.", working: "attitude", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The attitude or mood conveyed",
+            finalAnswer: "**(c)** The attitude or mood conveyed",
             commonErrors: ["Choosing (c) — that's structure."],
           },
         },
@@ -656,7 +656,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Wonderful is positive.", working: "positive", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Wonderful",
+            finalAnswer: "**(b)** Wonderful",
             commonErrors: ["Choosing (b) — negative."],
           },
         },
@@ -726,7 +726,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Funeral needs respectful tone.", working: "respectful", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Respectful and solemn",
+            finalAnswer: "**(b)** Respectful and solemn",
             commonErrors: ["Choosing (b) — inappropriate."],
           },
         },
@@ -772,7 +772,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Dreadful is negative.", working: "negative", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Dreadful",
+            finalAnswer: "**(c)** Dreadful",
             commonErrors: ["Choosing (b) — positive."],
           },
         },
@@ -857,7 +857,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Comedy needs humorous tone.", working: "humorous", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Humorous",
+            finalAnswer: "**(d)** Humorous",
             commonErrors: ["Choosing (b) — inappropriate."],
           },
         },
@@ -937,7 +937,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Voice = narrator/perspective.", working: "narrator", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Who is telling the story",
+            finalAnswer: "**(b)** Who is telling the story",
             commonErrors: ["Choosing (b) — that's tone."],
           },
         },
@@ -1042,7 +1042,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Style = distinctive expression.", working: "distinctive", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The writer's distinctive way of expressing ideas",
+            finalAnswer: "**(d)** The writer's distinctive way of expressing ideas",
             commonErrors: ["Choosing (c) — that's length."],
           },
         },
@@ -1162,7 +1162,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Scientific = formal.", working: "formal", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Formal and objective",
+            finalAnswer: "**(b)** Formal and objective",
             commonErrors: ["Choosing (b) — inappropriate."],
           },
         },
@@ -1208,7 +1208,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Verbose = wordy.", working: "wordy", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Wordy and repetitive",
+            finalAnswer: "**(c)** Wordy and repetitive",
             commonErrors: ["Choosing (b) — that's concise."],
           },
         },
@@ -1293,7 +1293,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Poetic = figurative+rhythm.", working: "figurative", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Figurative language and rhythm",
+            finalAnswer: "**(c)** Figurative language and rhythm",
             commonErrors: ["Choosing (b) — that's plain."],
           },
         },
@@ -1373,7 +1373,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Denotation = literal.", working: "literal", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Literal meaning",
+            finalAnswer: "**(c)** Literal meaning",
             commonErrors: ["Choosing (b) — that's connotation."],
           },
         },
@@ -1478,7 +1478,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Connotation = emotional associations.", working: "associations", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Emotional associations of a word",
+            finalAnswer: "**(b)** Emotional associations of a word",
             commonErrors: ["Choosing (d) — that's denotation."],
           },
         },
@@ -1528,7 +1528,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Denotation = literal meaning.", working: "literal", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The literal dictionary meaning",
+            finalAnswer: "**(b)** The literal dictionary meaning",
             commonErrors: ["Choosing (b) — that's connotation."],
           },
         },
@@ -1598,7 +1598,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Skinny = negative.", working: "negative", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Skinny",
+            finalAnswer: "**(b)** Skinny",
             commonErrors: ["Choosing (b) — positive."],
           },
         },
@@ -1644,7 +1644,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Cruel is emotive.", working: "emotive", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Cruel",
+            finalAnswer: "**(d)** Cruel",
             commonErrors: ["Choosing (b) — that's neutral."],
           },
         },
@@ -1729,7 +1729,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Frugal is positive.", working: "positive", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Frugal",
+            finalAnswer: "**(b)** Frugal",
             commonErrors: ["Choosing (b) — negative."],
           },
         },

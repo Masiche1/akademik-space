@@ -85,7 +85,7 @@ export const lesson43: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Making one-off, customised products",
+        finalAnswer: "**(c)** Making one-off, customised products",
       },
     },
     {
@@ -187,7 +187,7 @@ export const lesson43: Lesson = {
           },
         ],
         finalAnswer:
-          "**(b)** Delivering inputs only when needed to reduce waste",
+          "**(a)** Delivering inputs only when needed to reduce waste",
       },
     },
     {
@@ -404,7 +404,7 @@ export const lesson43: Lesson = {
           { id: "c", text: "Mass production" },
           { id: "d", text: "Flow production" },
         ],
-        aorrectChoiceId: "c",
+        correctChoiceId: "a",
       },
       markscheme: {
         principles: [
@@ -422,7 +422,7 @@ export const lesson43: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(c)** Job production",
+        finalAnswer: "**(a)** Job production",
       },
     },
     {
@@ -698,7 +698,7 @@ export const lesson43: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Batch production",
+        finalAnswer: "**(a)** Batch production",
       },
     },
     {

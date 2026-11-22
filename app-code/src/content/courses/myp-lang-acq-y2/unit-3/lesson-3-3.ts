@@ -70,7 +70,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — Diwali = festival of lights.", working: "Diwali", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Diwali",
+            finalAnswer: "**(a)** Diwali",
             commonErrors: ["Confusing Diwali with Hanukkah (also lights, but different)."],
             examinerNote: "C1 for (b).",
           },
@@ -195,7 +195,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — festival = special celebration/event.", working: "special celebration", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A special celebration or event at a particular time",
+            finalAnswer: "**(c)** A special celebration or event at a particular time",
             commonErrors: ["Thinking a festival is everyday life."],
             examinerNote: "B1 for (b).",
           },
@@ -222,7 +222,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'similar to' is correct.", working: "similar to", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Christmas is similar to Diwali.",
+            finalAnswer: "**(c)** Christmas is similar to Diwali.",
             commonErrors: ["'similar like/of' — not correct English."],
             examinerNote: "D1 for (b).",
           },
@@ -355,7 +355,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — Oktoberfest = Germany.", working: "Germany", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Germany",
+            finalAnswer: "**(d)** Germany",
             commonErrors: ["Confusing it with other European festivals."],
             examinerNote: "C1 for (b).",
           },
@@ -413,7 +413,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'interesting because...' describes without judging.", working: "interesting because", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Their festival is interesting because it celebrates family.",
+            finalAnswer: "**(a)** Their festival is interesting because it celebrates family.",
             commonErrors: ["Choosing a judging phrase ('boring', 'wrong', 'not as good')."],
             examinerNote: "C1 for (b).",
           },
@@ -528,7 +528,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — observing others first is the respectful approach.", working: "watch what others do", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Watch what others do first",
+            finalAnswer: "**(c)** Watch what others do first",
             commonErrors: ["Imposing your own customs without observing."],
             examinerNote: "C1 for (b).",
           },
@@ -633,7 +633,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — hospitality = friendly treatment of guests.", working: "friendly treatment of guests", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The friendly way people treat guests",
+            finalAnswer: "**(c)** The friendly way people treat guests",
             commonErrors: ["Confusing it with 'hospital' (the building)."],
             examinerNote: "B1 for (b).",
           },
@@ -660,7 +660,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — custom = traditional cultural practice.", working: "traditional way", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A traditional way of doing something in a culture",
+            finalAnswer: "**(d)** A traditional way of doing something in a culture",
             commonErrors: ["Thinking customs are modern rules."],
             examinerNote: "B1 for (b).",
           },
@@ -820,7 +820,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — a polite question shows respect.", working: "ask politely", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Ask politely, e.g. 'Is it OK to...?'",
+            finalAnswer: "**(c)** Ask politely, e.g. 'Is it OK to...?'",
             commonErrors: ["Imposing your own habits or refusing rudely."],
             examinerNote: "C1 for (b).",
           },
@@ -878,7 +878,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'not used to' is honest and respectful.", working: "not used to", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** I am not used to this flavour, but it is interesting.",
+            finalAnswer: "**(a)** I am not used to this flavour, but it is interesting.",
             commonErrors: ["Choosing a rude or dismissive phrase."],
             examinerNote: "C1 for (b).",
           },

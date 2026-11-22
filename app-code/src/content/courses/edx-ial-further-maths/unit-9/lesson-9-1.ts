@@ -60,7 +60,7 @@ export const lesson91: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Chi-squared", statement: "$\\sum\\frac{(O-E)^2}{E}$." }],
             steps: [{ reasoning: "Definition.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\sum\\frac{(O-E)^2}{E}$",
+            finalAnswer: "**(c)** $\\sum\\frac{(O-E)^2}{E}$",
           },
         },
         {

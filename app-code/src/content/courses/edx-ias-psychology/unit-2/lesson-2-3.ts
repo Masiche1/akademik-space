@@ -278,7 +278,7 @@ export const lesson23: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Real-world fit",
+            finalAnswer: "**(a)** Real-world fit",
             commonErrors: ["Lab confused."],
           },
         },

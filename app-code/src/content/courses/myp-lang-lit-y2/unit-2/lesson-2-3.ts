@@ -187,7 +187,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): 'She said she was happy' is reported — no marks, 'I'→'she', 'am'→'was'. (b)", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** She said she was happy.",
+            finalAnswer: "**(a)** She said she was happy.",
           },
         },
         {

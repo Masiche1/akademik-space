@@ -63,7 +63,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Using fewer turns of wire" },
               { id: "d", text: "Replacing the iron core with a plastic rod" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -72,7 +72,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Soft iron becomes magnetised by the coil's field and adds to it. The other changes weaken the magnet.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Putting a soft iron core inside the coil",
+            finalAnswer: "**(a)** Putting a soft iron core inside the coil",
             commonErrors: ["Thinking fewer turns concentrate the field.", "Thinking a plastic rod acts as a core."],
             examinerNote: "B1 for soft iron core.",
           },
@@ -190,7 +190,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Plastic" },
               { id: "d", text: "Copper" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -199,7 +199,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Iron is magnetic; copper, plastic and aluminium are not.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Iron",
+            finalAnswer: "**(a)** Iron",
             commonErrors: ["Choosing aluminium because it is a metal."],
             examinerNote: "B1 for choice (c).",
           },
@@ -387,7 +387,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The field is strongest at the poles where the field lines are closest together.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** At the poles",
+            finalAnswer: "**(c)** At the poles",
             commonErrors: ["Thinking the field is uniform."],
             examinerNote: "B1 for choice (b).",
           },
@@ -414,7 +414,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The crane needs to drop the scrap when finished, so a switchable magnet is essential; strength can also be varied.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** They can be switched off and their strength can be changed",
+            finalAnswer: "**(a)** They can be switched off and their strength can be changed",
             commonErrors: ["Thinking permanent magnets cannot be turned off at all is the only issue."],
             examinerNote: "B1 for choice (b).",
           },
@@ -607,7 +607,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "$\\text{speed} = \\frac{100}{20} = 5\\text{ m/s}$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 5 m/s",
+            finalAnswer: "**(d)** 5 m/s",
             commonErrors: ["Dividing 20 by 100 to get 0.2."],
             examinerNote: "B1 for choice (b).",
           },
@@ -634,7 +634,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Gradient = change in distance / change in time = speed.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The speed",
+            finalAnswer: "**(a)** The speed",
             commonErrors: ["Thinking gradient gives acceleration (that is a speed-time graph)."],
             examinerNote: "B1 for choice (b).",
           },
@@ -652,7 +652,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Slowing down" },
               { id: "d", text: "Speeding up" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -661,7 +661,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "The gradient equals speed, so an increasing gradient means the object is accelerating / speeding up.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Speeding up",
+            finalAnswer: "**(d)** Speeding up",
             commonErrors: ["Confusing with a speed-time graph."],
             examinerNote: "B1 for choice (c).",
           },
@@ -820,7 +820,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "One metre per second equals 3.6 kilometres per hour.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 3.6 km/h",
+            finalAnswer: "**(c)** 3.6 km/h",
             commonErrors: ["Choosing 60 (confusing seconds and minutes)."],
             examinerNote: "B1 for choice (b).",
           },
@@ -847,7 +847,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Distance stays constant while time passes, so the object is not moving.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Stationary",
+            finalAnswer: "**(c)** Stationary",
             commonErrors: ["Confusing with a speed-time graph where horizontal means constant speed."],
             examinerNote: "B1 for choice (b).",
           },

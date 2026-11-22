@@ -69,7 +69,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Amino acids from protein are used to make new cells and tissues.", working: "\\text{protein}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Protein",
+            finalAnswer: "**(c)** Protein",
             commonErrors: ["Choosing carbohydrate because it is the main energy source and confusing energy with growth.", "Choosing fibre, which keeps food moving through the gut."],
             examinerNote: "B1 for protein.",
           },
@@ -191,7 +191,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Stomach" },
               { id: "d", text: "Oesophagus" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -200,7 +200,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The small intestine is where digestion is completed and the products are absorbed.", working: "\\text{small intestine}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Small intestine",
+            finalAnswer: "**(a)** Small intestine",
             commonErrors: ["Choosing the large intestine, which mainly absorbs water.", "Choosing the stomach, where digestion starts but little is absorbed."],
             examinerNote: "B1 for small intestine.",
           },

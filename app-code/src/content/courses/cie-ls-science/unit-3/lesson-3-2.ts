@@ -65,7 +65,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Magnesium deficiency causes yellow leaves — chlorophyll needs Mg.", working: "Mg", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Magnesium",
+            finalAnswer: "**(d)** Magnesium",
             commonErrors: ["Choosing (d) — iron is for humans (hemoglobin), not chlorophyll."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Mineral deficiency", statement: "Nitrate deficiency reduces protein and chlorophyll production." }],
             steps: [{ reasoning: "Yellowing and stunted growth are typical symptoms.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Yellow leaves and poor growth",
+            finalAnswer: "**(c)** Yellow leaves and poor growth",
           },
         },
         {
@@ -213,7 +213,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Phosphates", statement: "Phosphates support roots, flowers and seeds." }],
             steps: [{ reasoning: "Phosphate is needed for reproductive and root development.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Phosphate",
+            finalAnswer: "**(c)** Phosphate",
           },
         },
         {
@@ -261,7 +261,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Potassium", statement: "Potassium supports enzyme activity and resistance." }],
             steps: [{ reasoning: "Potassium is the mineral needed for these functions.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Potassium",
+            finalAnswer: "**(c)** Potassium",
           },
         },
         {
@@ -342,7 +342,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Xylem", statement: "Xylem transports water and minerals upward." }],
             steps: [{ reasoning: "Xylem carries water from roots to leaves.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Xylem",
+            finalAnswer: "**(c)** Xylem",
           },
         },
       ],
@@ -397,7 +397,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Transpiration = water vapour loss through stomata.", working: "water loss", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Water loss from leaves through stomata",
+            finalAnswer: "**(d)** Water loss from leaves through stomata",
             commonErrors: ["Choosing (b) — that's absorption, opposite process."],
           },
         },
@@ -498,7 +498,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Xylem", statement: "Xylem transports water upward." }],
             steps: [{ reasoning: "Water moves from roots toward leaves.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** From roots to leaves",
+            finalAnswer: "**(b)** From roots to leaves",
           },
         },
         {
@@ -545,7 +545,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Potometer", statement: "A potometer measures water uptake." }],
             steps: [{ reasoning: "Water uptake is used to estimate transpiration.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Water uptake by a plant",
+            finalAnswer: "**(b)** Water uptake by a plant",
           },
         },
         {
@@ -593,7 +593,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Transpiration factors", statement: "Wind removes moist air around leaves." }],
             steps: [{ reasoning: "Drier air around leaves increases water loss.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** It removes moist air and increases transpiration",
+            finalAnswer: "**(d)** It removes moist air and increases transpiration",
           },
         },
         {
@@ -674,7 +674,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Transpiration pull", statement: "Water loss at leaves creates suction in xylem." }],
             steps: [{ reasoning: "Evaporation from leaves pulls the water column upward.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Transpiration pull from leaves",
+            finalAnswer: "**(c)** Transpiration pull from leaves",
           },
         },
       ],

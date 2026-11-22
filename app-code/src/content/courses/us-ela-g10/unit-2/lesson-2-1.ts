@@ -133,7 +133,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** The inspection history appears only in the print article. The deaths appear in both, while the stairs and the church bell appear only in the documentary.",
+              "**(d)** The inspection history appears only in the print article. The deaths appear in both, while the stairs and the church bell appear only in the documentary.",
             commonErrors: [
               "Choosing (b) without noticing that the narrator also gives the number of deaths.",
             ],
@@ -480,7 +480,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The idea is treated as a mere guess. Choice (a) is a common meaning of 'dismiss' but does not fit an idea.",
+              "**(a)** The idea is treated as a mere guess. Choice (a) is a common meaning of 'dismiss' but does not fit an idea.",
             commonErrors: [
               "Choosing (a), the most familiar meaning, without testing it in context.",
             ],
@@ -541,7 +541,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Choice (a) reverses the scientific meanings, which the passage warns against. Plate tectonics is only one example, so (c) is wrong, and (d) invents a relationship the text does not state.",
+              "**(c)** Choice (a) reverses the scientific meanings, which the passage warns against. Plate tectonics is only one example, so (c) is wrong, and (d) invents a relationship the text does not state.",
             commonErrors: [
               "Choosing (a), which matches the everyday misunderstanding the passage corrects.",
             ],

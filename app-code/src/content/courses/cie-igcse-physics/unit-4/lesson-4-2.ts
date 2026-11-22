@@ -140,7 +140,7 @@ export const lessonp42: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Pitch", statement: "Higher frequency = higher pitch." }],
             steps: [{ reasoning: "Recall.", working: "\\text{pitch} \\propto f", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Frequency",
+            finalAnswer: "**(d)** Frequency",
             commonErrors: ["Confusing pitch with loudness (amplitude)."],
           },
         },
@@ -158,7 +158,7 @@ export const lessonp42: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Loudness", statement: "Larger amplitude = louder sound." }],
             steps: [{ reasoning: "Recall.", working: "\\text{loudness} \\propto A", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Amplitude",
+            finalAnswer: "**(d)** Amplitude",
             commonErrors: ["Confusing loudness with pitch."],
           },
         },
@@ -206,11 +206,11 @@ export const lessonp42: Lesson = {
             { id: "b", text: "20 Hz" },
             { id: "c", text: "20 MHz" },
             { id: "d", text: "200 Hz" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Ultrasound", statement: "Above human hearing range, >20 kHz." }],
             steps: [{ reasoning: "Recall.", working: "f > 20\\ \\text{kHz}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** 20 kHz",
+            finalAnswer: "**(a)** 20 kHz",
             commonErrors: ["Confusing with infrasonic (below hearing)."],
           },
         },
@@ -331,7 +331,7 @@ export const lessonp42: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Compression", statement: "High-pressure region." }],
             steps: [{ reasoning: "Recall.", working: "\\text{compression} = \\text{high pressure}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A high-pressure region",
+            finalAnswer: "**(a)** A high-pressure region",
             commonErrors: ["Confusing compression with rarefaction."],
           },
         },
@@ -459,7 +459,7 @@ export const lessonp42: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Wave", statement: "$f = \\dfrac{v}{\\lambda}$" }],
             steps: [{ reasoning: "Divide both sides by λ.", working: "f = \\frac{v}{\\lambda}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $f = \\dfrac{v}{\\lambda}$",
+            finalAnswer: "**(c)** $f = \\dfrac{v}{\\lambda}$",
             commonErrors: ["Multiplying instead of dividing."],
           },
         },
@@ -493,7 +493,7 @@ export const lessonp42: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Refraction", statement: "Speed changes entering a new medium; frequency stays constant." }],
             steps: [{ reasoning: "Recall.", working: "v_{\\text{glass}} < v_{\\text{air}}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** decreases",
+            finalAnswer: "**(a)** decreases",
             commonErrors: ["Thinking light always travels at the same speed."],
           },
         },
@@ -558,11 +558,11 @@ export const lessonp42: Lesson = {
             { id: "b", text: "Gamma rays" },
             { id: "c", text: "Visible light" },
             { id: "d", text: "X-rays" },
-          ], correctChoiceIa: "d" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "EM spectrum", statement: "Radio → microwave → IR → visible → UV → X-ray → gamma (wavelength decreases)." }],
             steps: [{ reasoning: "Recall.", working: "\\lambda_{\\text{radio}} \\text{ largest}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(d)** Radio waves",
+            finalAnswer: "**(a)** Radio waves",
             commonErrors: ["Reversing the spectrum order."],
           },
         },
@@ -595,7 +595,7 @@ export const lessonp42: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Wave", statement: "$\\lambda = \\dfrac{v}{f}$ — v constant, f doubles → λ halves." }],
             steps: [{ reasoning: "Apply v = fλ.", working: "f \\uparrow 2\\times \\Rightarrow \\lambda \\downarrow 2\\times", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** halves",
+            finalAnswer: "**(d)** halves",
             commonErrors: ["Thinking wavelength follows frequency directly."],
           },
         },
@@ -629,7 +629,7 @@ export const lessonp42: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Reflection", statement: "Angle of incidence = angle of reflection." }],
             steps: [{ reasoning: "Recall.", working: "i = r", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** equal to the angle of incidence",
+            finalAnswer: "**(d)** equal to the angle of incidence",
             commonErrors: ["Confusing reflection with refraction."],
           },
         },

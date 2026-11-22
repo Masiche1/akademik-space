@@ -224,7 +224,7 @@ export const lesson213: Lesson = {
             steps: [
               { reasoning: "Dispersal = spreading.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Spreading seeds away from parent",
+            finalAnswer: "**(a)** Spreading seeds away from parent",
             commonErrors: ["Wrong definition."],
           },
         },
@@ -255,7 +255,7 @@ export const lesson213: Lesson = {
               { reasoning: "Identify water seed.", marks: 1, markCode: "M" },
               { reasoning: "Answer: coconut.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Coconut",
+            finalAnswer: "**(a)** Coconut",
             commonErrors: ["Wrong seed."],
           },
         },

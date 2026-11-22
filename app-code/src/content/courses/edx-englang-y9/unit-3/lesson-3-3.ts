@@ -75,7 +75,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Register", statement: "Slang and idioms mark an informal register." }],
             steps: [{ reasoning: "'Chucking it down' is a colloquial idiom for heavy rain, replaced in Version 2 by 'heavy rainfall'.", evidence: "chucking it down", marks: 1, markCode: "AO5" }],
-            finalAnswer: "**(a)** 'Chucking it down' is slang; the formal equivalent is 'heavy rainfall'.",
+            finalAnswer: "**(d)** 'Chucking it down' is slang; the formal equivalent is 'heavy rainfall'.",
             commonErrors: ["Choosing (d) because 'honestly' is chatty, though it is not slang."],
           },
         },

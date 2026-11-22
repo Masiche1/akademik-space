@@ -311,7 +311,7 @@ export const lesson82: Lesson = {
               { id: "c", text: "Scatter plot" },
               { id: "d", text: "Bar chart" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

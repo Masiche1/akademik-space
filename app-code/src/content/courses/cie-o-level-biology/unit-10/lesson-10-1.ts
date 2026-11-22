@@ -64,7 +64,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Recall what selection acts on.", working: "\\text{variation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Variation within a population",
+            finalAnswer: "**(d)** Variation within a population",
             commonErrors: ["Choosing 'individuals change' — acquired characteristics are NOT inherited (Lamarck's error)."],
           },
         },
@@ -204,7 +204,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Identify the role of the mutation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Heritable variation that selection can act on",
+            finalAnswer: "**(b)** Heritable variation that selection can act on",
             commonErrors: ["Saying the antibiotic caused the mutation — selection does not create the variation."],
           },
         },
@@ -372,7 +372,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Link inheritance to genes/alleles.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** They do not change the alleles in reproductive cells",
+            finalAnswer: "**(b)** They do not change the alleles in reproductive cells",
             commonErrors: ["Saying acquired traits are never useful — the point is they are not inherited."],
           },
         },
@@ -472,7 +472,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Recall evidence type.", working: "\\text{fossils}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fossils showing change over time",
+            finalAnswer: "**(b)** Fossils showing change over time",
             commonErrors: ["Choosing 'individual adaptation' — that's not inherited."],
           },
         },
@@ -566,7 +566,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Recall the direct historical evidence.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fossils in different rock layers",
+            finalAnswer: "**(d)** Fossils in different rock layers",
             commonErrors: ["Choosing present-day distribution — it supports but is less direct than fossils."],
           },
         },
@@ -612,7 +612,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Link selective breeding to the selection mechanism.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Humans can rapidly change populations by selecting parents",
+            finalAnswer: "**(d)** Humans can rapidly change populations by selecting parents",
             commonErrors: ["Saying it proves only artificial evolution — it demonstrates the same mechanism."],
           },
         },
@@ -662,7 +662,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Recall the defining feature of homologous structures.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Similar in basic structure but may have different functions",
+            finalAnswer: "**(c)** Similar in basic structure but may have different functions",
             commonErrors: ["Choosing 'same function, different origins' — that describes analogous structures."],
           },
         },
@@ -723,7 +723,7 @@ export const lesson101: Lesson = {
               { id: "c", text: "Similar limb bone structure in whales, bats and humans" },
               { id: "d", text: "A sequence of fossils in different rock layers" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -732,7 +732,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Identify the option that is neither heritable nor population-level.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** An individual bird growing a stronger beak during its lifetime",
+            finalAnswer: "**(a)** An individual bird growing a stronger beak during its lifetime",
             commonErrors: ["Choosing a population-level change — that IS evidence for evolution."],
           },
         },

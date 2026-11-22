@@ -193,7 +193,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "50%" },
               { id: "d", text: "100%" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -248,7 +248,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "$I^Ai$" },
               { id: "d", text: "$I^AI^B$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

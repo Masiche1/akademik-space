@@ -120,7 +120,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** How treatments differ",
+            finalAnswer: "**(c)** How treatments differ",
           },
         },
         {
@@ -342,7 +342,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Similar conclusions through different means",
+            finalAnswer: "**(b)** Similar conclusions through different means",
           },
         },
         {
@@ -386,7 +386,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Claims the divergence in treatment",
+            finalAnswer: "**(a)** Claims the divergence in treatment",
           },
         },
         {
@@ -432,7 +432,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Point about A paired with point about B",
+            finalAnswer: "**(a)** Point about A paired with point about B",
           },
         },
         {
@@ -493,7 +493,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Fortress versus hospitality",
+            finalAnswer: "**(c)** Fortress versus hospitality",
           },
         },
         {
@@ -551,7 +551,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Divergence on where the fault lies",
+            finalAnswer: "**(d)** Divergence on where the fault lies",
           },
         },
         {
@@ -594,7 +594,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Central idea versus recurring element",
+            finalAnswer: "**(b)** Central idea versus recurring element",
           },
         },
         {
@@ -900,7 +900,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Identity asserted versus overlooked",
+            finalAnswer: "**(a)** Identity asserted versus overlooked",
           },
         },
         {
@@ -1269,7 +1269,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Formal constraints",
+            finalAnswer: "**(d)** Formal constraints",
           },
         },
         {
@@ -1333,7 +1333,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Symbolic versus practical treatment",
+            finalAnswer: "**(b)** Symbolic versus practical treatment",
           },
         },
         {
@@ -1532,7 +1532,7 @@ export const lesson31: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Purpose determines angle",
+            finalAnswer: "**(d)** Purpose determines angle",
           },
         },
         {
@@ -1839,7 +1839,7 @@ export const lesson31: Lesson = {
                 markCode: "R",
               },
             ],
-            finalAnswer: "**(b)** Mobilisation versus confession",
+            finalAnswer: "**(c)** Mobilisation versus confession",
           },
         },
         {

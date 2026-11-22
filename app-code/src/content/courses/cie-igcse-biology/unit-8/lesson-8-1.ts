@@ -160,7 +160,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Recall the key feature.", working: "\\text{gametes fuse}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fusion of gametes from two parents",
+            finalAnswer: "**(c)** Fusion of gametes from two parents",
             commonErrors: ["Choosing 'one parent' — that's asexual."],
           },
         },
@@ -225,7 +225,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Recall the result.", working: "\\text{identical}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Genetically identical to the parent",
+            finalAnswer: "**(b)** Genetically identical to the parent",
             commonErrors: ["Choosing 'different' — that's sexual reproduction."],
           },
         },
@@ -292,7 +292,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Identify the asexual method.", working: "\\text{binary fission}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Binary fission in bacteria",
+            finalAnswer: "**(d)** Binary fission in bacteria",
             commonErrors: ["Choosing seed formation — seeds come from sexual reproduction in flowering plants."],
           },
         },
@@ -565,7 +565,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Match part to function.", working: "\\text{stigma receives}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Stigma",
+            finalAnswer: "**(d)** Stigma",
             commonErrors: ["Choosing anther — that's where pollen is produced."],
           },
         },
@@ -630,7 +630,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Match part to sex.", working: "\\text{stamen} = \\text{male}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Stamen",
+            finalAnswer: "**(d)** Stamen",
             commonErrors: ["Choosing carpel — that's the female part."],
           },
         },
@@ -697,7 +697,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Recall the cargo.", working: "\\text{male nuclei}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Male nuclei to the ovule",
+            finalAnswer: "**(c)** Male nuclei to the ovule",
             commonErrors: ["Choosing female nuclei — the tube delivers the MALE nuclei."],
           },
         },
@@ -743,7 +743,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Recall the fate.", working: "\\text{ovule} \\to \\text{seed}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Seed",
+            finalAnswer: "**(b)** Seed",
             commonErrors: ["Choosing fruit — that's the ovary's fate."],
           },
         },
@@ -821,7 +821,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Match feature to vector.", working: "\\text{light pollen + feathery stigma}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Light pollen grains and a feathery stigma",
+            finalAnswer: "**(b)** Light pollen grains and a feathery stigma",
             commonErrors: ["Choosing scented petals — that's insect pollination."],
           },
         },

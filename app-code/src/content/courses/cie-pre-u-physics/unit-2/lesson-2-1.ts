@@ -93,7 +93,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "−373 °C" },
               { id: "d", text: "−273 °C" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -339,7 +339,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "It stays constant" },
               { id: "d", text: "It increases" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -452,7 +452,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "It increases" },
               { id: "d", text: "It decreases" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -559,7 +559,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Isothermal" },
               { id: "d", text: "Isochoric" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

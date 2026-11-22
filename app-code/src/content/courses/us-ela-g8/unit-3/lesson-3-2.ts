@@ -137,7 +137,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. The narrator says 'I', and Marcus addresses him as Nico.",
+              "**(b)**. The narrator says 'I', and Marcus addresses him as Nico.",
             commonErrors: [
               "Choosing third person because other characters are named.",
             ],
@@ -191,7 +191,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The passage stays inside the moment; it does not summarize, change perspective or pause to describe the pond.",
+              "**(a)**. The passage stays inside the moment; it does not summarize, change perspective or pause to describe the pond.",
             commonErrors: [
               "Choosing (d): the moment is slowed by detail of the action, not by describing the setting.",
             ],
@@ -459,7 +459,7 @@ export const lesson32: Lesson = {
               },
               { id: "d", text: "Source B, the blog post by a tourist" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -480,7 +480,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)**. Source A is credible but is about nesting and survival, not lighting; Source B is a personal opinion; the date does not make a source weak.",
+              "**(b)**. Source A is credible but is about nesting and survival, not lighting; Source B is a personal opinion; the date does not make a source weak.",
             commonErrors: [
               "Choosing A because it is also credible, without checking relevance to the question.",
             ],
@@ -540,7 +540,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. It changes the wording and structure, keeps the meaning and names the source.",
+              "**(a)**. It changes the wording and structure, keeps the meaning and names the source.",
             commonErrors: [
               "Choosing (a), which copies most of the original words and gives no credit.",
               "Choosing (d) because it uses quotation marks, but it does not name the source.",

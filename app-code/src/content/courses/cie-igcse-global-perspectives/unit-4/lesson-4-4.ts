@@ -494,7 +494,7 @@ export const lesson44: Lesson = {
             steps: [
               { reasoning: "Per capita normalises for population.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Average living standards per person",
+            finalAnswer: "**(b)** Average living standards per person",
             commonErrors: ["Confusing total GDP with GDP per capita."],
           },
         },
@@ -1091,7 +1091,7 @@ export const lesson44: Lesson = {
             steps: [
               { reasoning: "Virtual water travels with traded products.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Water embedded in traded goods",
+            finalAnswer: "**(c)** Water embedded in traded goods",
             commonErrors: ["Confusing with physical water trade."],
           },
         },

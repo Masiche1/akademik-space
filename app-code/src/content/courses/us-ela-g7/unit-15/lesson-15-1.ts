@@ -352,7 +352,7 @@ export const lesson151: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. All sources cited, alphabetically.",
+            finalAnswer: "**(a)**. All sources cited, alphabetically.",
             commonErrors: [
               "Choosing (a) — includes articles, websites, studies, not just books.",
             ],

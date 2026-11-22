@@ -88,7 +88,7 @@ export const lesson72: Lesson = {
               { id: "c", text: "store" },
               { id: "d", text: "snacks" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -107,7 +107,7 @@ export const lesson72: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(c)**. 'me' should be 'I' — always capitalized.",
+            finalAnswer: "**(a)**. 'me' should be 'I' — always capitalized.",
             commonErrors: [
               "Choosing 'store' — common nouns aren't capitalized.",
             ],
@@ -344,7 +344,7 @@ export const lesson72: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. After 'snacks' — separates the two independent clauses.",
+              "**(a)**. After 'snacks' — separates the two independent clauses.",
             commonErrors: [
               "Choosing (a) — 'soccer and ate' isn't a clause boundary.",
             ],

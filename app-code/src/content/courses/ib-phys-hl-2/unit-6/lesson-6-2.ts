@@ -123,7 +123,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Proton + electron + antineutrino",
+            finalAnswer: "**(b)** Proton + electron + antineutrino",
             commonErrors: ["Choosing positron — that's beta-PLUS decay."],
           },
         },
@@ -386,7 +386,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Electron and antineutrino",
+            finalAnswer: "**(d)** Electron and antineutrino",
             commonErrors: [
               "Choosing a positron — that belongs to beta-plus decay.",
             ],
@@ -429,7 +429,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $A$ and $Z$ unchanged",
+            finalAnswer: "**(c)** $A$ and $Z$ unchanged",
             commonErrors: [
               "Treating gamma emission as a nucleon-changing decay.",
             ],
@@ -476,7 +476,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Absorbs an electron and emits a neutrino",
+            finalAnswer: "**(d)** Absorbs an electron and emits a neutrino",
             commonErrors: [
               "Confusing electron capture with beta-plus emission of a positron.",
             ],
@@ -520,7 +520,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Beta-minus decay",
+            finalAnswer: "**(d)** Beta-minus decay",
             commonErrors: [
               "Ignoring the charge change — $A$ staying constant does not mean beta-plus.",
             ],
@@ -894,7 +894,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Time for half to decay",
+            finalAnswer: "**(c)** Time for half to decay",
             commonErrors: [
               "Thinking it's time for ALL to decay — it's just half.",
             ],
@@ -1113,7 +1113,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Probability of decay per unit time",
+            finalAnswer: "**(c)** Probability of decay per unit time",
             commonErrors: [
               "Confusing $\\lambda$ with half-life — $t_{1/2}=\\ln2/\\lambda$.",
             ],
@@ -1156,7 +1156,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** One decay per second",
+            finalAnswer: "**(c)** One decay per second",
             commonErrors: [
               "Using curie or becquerel incorrectly — Bq is per second.",
             ],
@@ -1199,7 +1199,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $A=\\lambda N$",
+            finalAnswer: "**(b)** $A=\\lambda N$",
             commonErrors: [
               "Inverting the relation — larger $N$ gives larger activity.",
             ],
@@ -1289,7 +1289,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Limited by its half-life",
+            finalAnswer: "**(c)** Limited by its half-life",
             commonErrors: [
               "Thinking it dates minerals — carbon dating needs carbon-containing material.",
             ],

@@ -65,7 +65,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Recall the exception: artery carries deoxygenated blood to lungs.", working: "\\text{pulmonary artery}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Pulmonary artery",
+            finalAnswer: "**(b)** Pulmonary artery",
             commonErrors: ["Choosing pulmonary vein — that carries oxygenated blood TO the heart."],
           },
         },
@@ -160,7 +160,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Recall which vessel enters which atrium.", working: "\\text{PV} \\to \\text{LA}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Left atrium",
+            finalAnswer: "**(c)** Left atrium",
             commonErrors: ["Choosing right atrium — that receives blood from the vena cava."],
           },
         },
@@ -186,7 +186,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Recall the septum's role.", working: "\\text{separates sides}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It separates the oxygenated and deoxygenated sides of the heart",
+            finalAnswer: "**(b)** It separates the oxygenated and deoxygenated sides of the heart",
             commonErrors: ["Saying it pumps blood — the ventricles do that."],
           },
         },
@@ -212,7 +212,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Match ventricle to exit vessel.", working: "\\text{LV} \\to \\text{aorta}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Aorta",
+            finalAnswer: "**(c)** Aorta",
             commonErrors: ["Choosing pulmonary artery — that exits the RIGHT ventricle."],
           },
         },
@@ -238,7 +238,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Recall the pulmonary circuit exception.", working: "\\text{lungs} \\to \\text{PV} \\to \\text{heart}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Pulmonary vein",
+            finalAnswer: "**(d)** Pulmonary vein",
             commonErrors: ["Choosing vena cava — it carries deoxygenated blood from the body."],
           },
         },
@@ -339,7 +339,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Ventricle pumps blood out.", working: "\\text{ventricle contracts}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Right ventricle wall",
+            finalAnswer: "**(c)** Right ventricle wall",
             commonErrors: ["Choosing atrium — atria receive blood, they don't pump it out."],
           },
         },
@@ -365,7 +365,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Trace the systemic path.", working: "\\text{aorta} \\to \\text{body} \\to \\text{capillaries}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Travels through arteries to body tissues and capillaries",
+            finalAnswer: "**(d)** Travels through arteries to body tissues and capillaries",
             commonErrors: ["Forgetting it must reach tissues via capillaries before returning."],
           },
         },
@@ -469,7 +469,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Recall the function.", working: "\\text{RBC/haemoglobin} \\to \\text{O}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Red blood cells",
+            finalAnswer: "**(d)** Red blood cells",
             commonErrors: ["Choosing plasma — plasma transports dissolved CO₂ but O₂ is carried by haemoglobin."],
           },
         },
@@ -589,7 +589,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Match component to role.", working: "\\text{plasma} \\to \\text{transport}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Plasma",
+            finalAnswer: "**(d)** Plasma",
             commonErrors: ["Choosing haemoglobin — that carries oxygen inside red blood cells."],
           },
         },
@@ -615,7 +615,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Compare vessel features.", working: "\\text{vein} = \\text{valves}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Valves",
+            finalAnswer: "**(c)** Valves",
             commonErrors: ["Saying veins have high pressure — pressure is low in veins."],
           },
         },
@@ -742,7 +742,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{artery = away}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Artery",
+            finalAnswer: "**(c)** Artery",
             commonErrors: ["Choosing vein — veins carry blood TO the heart."],
           },
         },
@@ -768,7 +768,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Recall the clotting protein.", working: "\\text{fibrinogen} \\to \\text{fibrin}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fibrinogen",
+            finalAnswer: "**(c)** Fibrinogen",
             commonErrors: ["Confusing fibrinogen (the plasma protein) with fibrin (the product)."],
           },
         },

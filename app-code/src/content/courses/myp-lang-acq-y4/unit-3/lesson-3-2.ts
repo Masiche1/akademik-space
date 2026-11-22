@@ -167,7 +167,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'demonstrate' is precise and academic.", working: "academic", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** 'demonstrate'",
+            finalAnswer: "**(a)** 'demonstrate'",
             commonErrors: ["Choosing informal words."],
             examinerNote: "D1 for (b).",
           },
@@ -361,7 +361,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'significant issue' is precise academic language.", working: "significant", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** 'significant issue'",
+            finalAnswer: "**(a)** 'significant issue'",
             commonErrors: ["Choosing informal intensifiers."],
             examinerNote: "D1 for (b).",
           },
@@ -395,7 +395,7 @@ export const lesson32: Lesson = {
               { reasoning: "Criterion D: Writing — 'demonstrates' and 'enjoy' are more academic than 'shows'/'like'.", marks: 1, markCode: "D" },
               { reasoning: "Criterion D: Writing — option b is the most improved.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** 'The data demonstrates that students enjoy reading.'",
+            finalAnswer: "**(d)** 'The data demonstrates that students enjoy reading.'",
             commonErrors: ["Keeping the original or choosing informal options."],
             examinerNote: "D2 for (b).",
           },
@@ -682,7 +682,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'however' introduces contrast.", working: "contrast", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** 'however'",
+            finalAnswer: "**(a)** 'however'",
             commonErrors: ["Confusing with addition ('also')."],
             examinerNote: "D1 for (b).",
           },
@@ -770,7 +770,7 @@ export const lesson32: Lesson = {
               { reasoning: "Criterion D: Writing — sentences are disconnected; no links showing cause/effect.", marks: 1, markCode: "D" },
               { reasoning: "Criterion D: Writing — needs linking like 'because' or 'therefore'.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Ideas are not connected with linking words or logic",
+            finalAnswer: "**(c)** Ideas are not connected with linking words or logic",
             commonErrors: ["Thinking short sentences = cohesive."],
             examinerNote: "D2 for (b).",
           },
@@ -849,7 +849,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'therefore' shows result.", working: "cause", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** 'therefore'",
+            finalAnswer: "**(a)** 'therefore'",
             commonErrors: ["Confusing with contrast or addition."],
             examinerNote: "D1 for (b).",
           },
@@ -934,7 +934,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "All sentences are cohesive" },
               { id: "d", text: "'The results were surprising.'" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -943,7 +943,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Technology changes fast' is unrelated to experiment results.", working: "irrelevant", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** 'Technology changes fast.'",
+            finalAnswer: "**(a)** 'Technology changes fast.'",
             commonErrors: ["Not identifying the topic jump."],
             examinerNote: "D1 for (c).",
           },

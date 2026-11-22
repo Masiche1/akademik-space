@@ -66,7 +66,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "In set (b) the inputs $1$, $2$, $3$ are all different, so each input has one output. Repeated outputs are allowed.", working: "\\{(1,2),(2,2),(3,5)\\}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(a)**",
             commonErrors: ["Thinking a repeated output (the two $2$s in set b) breaks the rule; only repeated inputs with different outputs do.", "Not noticing that inputs $1$, $0$ or $2$ repeat in the other sets."],
           },
         },
@@ -195,7 +195,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "$y=5$" },
               { id: "d", text: "$y=\\frac{x}{3}$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -204,7 +204,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "The variable $x$ is squared in $y=x^2+1$, so the graph is a curve (parabola). The others are lines, including the horizontal line $y=5$.", working: "y=x^2+1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $y=x^2+1$",
+            finalAnswer: "**(b)** $y=x^2+1$",
             commonErrors: ["Thinking the constant function $y=5$ is nonlinear; it is a horizontal line with slope $0$.", "Thinking $y=\\frac{x}{3}$ is not linear because it has a fraction."],
           },
         },

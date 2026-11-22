@@ -85,7 +85,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Allegory", statement: "The children embody social evils." }],
             steps: [{ reasoning: "They are 'Man's' children and a warning, symbolising the neglect and need that society allows.", evidence: "They are Man's", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** The problems of poor people that society ignores.",
+            finalAnswer: "**(b)** The problems of poor people that society ignores.",
             commonErrors: ["Taking them literally as relatives of Scrooge."],
           },
         },
@@ -208,7 +208,7 @@ export const lesson22: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Workhouses", statement: "Harsh institutions for the poor." }],
             steps: [{ reasoning: "Workhouses gave basic food and shelter in return for hard labour.", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(b)** A place where the poor lived and worked in return for food and shelter.",
+            finalAnswer: "**(a)** A place where the poor lived and worked in return for food and shelter.",
             commonErrors: ["Confusing workhouses with schools or hospitals."],
           },
         },

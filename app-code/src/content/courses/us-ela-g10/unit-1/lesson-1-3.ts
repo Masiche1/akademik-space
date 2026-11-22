@@ -151,7 +151,7 @@ export const lesson13: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. In both stories the lovers die because of a misunderstanding about the other's death. The lioness, the crack in the wall, and the mulberry tree appear only in the myth.",
+              "**(a)**. In both stories the lovers die because of a misunderstanding about the other's death. The lioness, the crack in the wall, and the mulberry tree appear only in the myth.",
             commonErrors: [
               "Choosing an element that appears only in the source.",
             ],
@@ -476,7 +476,7 @@ export const lesson13: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Close-ups are possible only on film. Both versions use dialogue and gesture, and the stage has a balcony set.",
+              "**(a)**. Close-ups are possible only on film. Both versions use dialogue and gesture, and the stage has a balcony set.",
             commonErrors: ["Choosing something both versions use."],
           },
         },

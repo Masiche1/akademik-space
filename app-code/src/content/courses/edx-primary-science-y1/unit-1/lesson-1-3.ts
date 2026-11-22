@@ -75,7 +75,7 @@ export const lesson103: Lesson = {
             steps: [
               { reasoning: "Flower is living.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Flower",
+            finalAnswer: "**(c)** Flower",
             commonErrors: ["Choosing non-living."],
           },
         },
@@ -265,7 +265,7 @@ export const lesson103: Lesson = {
               { reasoning: "Match habitat.", marks: 1, markCode: "M" },
               { reasoning: "Answer: fish.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Fish",
+            finalAnswer: "**(d)** Fish",
             commonErrors: ["Wrong habitat match."],
           },
         },

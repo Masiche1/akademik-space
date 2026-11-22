@@ -65,7 +65,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall trigger.", working: "\\text{vessel damage}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Damage to a blood vessel",
+            finalAnswer: "**(d)** Damage to a blood vessel",
             commonErrors: ["Choosing 'low oxygen' — that's a different response."],
           },
         },
@@ -160,7 +160,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall the trigger.", working: "\\text{vessel damage}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Damage to a blood vessel",
+            finalAnswer: "**(c)** Damage to a blood vessel",
             commonErrors: ["Choosing low oxygen — that's a respiratory response, not clotting."],
           },
         },
@@ -186,7 +186,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall the conversion.", working: "\\text{fibrinogen} \\to \\text{fibrin}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fibrin",
+            finalAnswer: "**(d)** Fibrin",
             commonErrors: ["Choosing haemoglobin — that's the oxygen carrier."],
           },
         },
@@ -213,7 +213,7 @@ export const lesson43: Lesson = {
               { reasoning: "Recall the hormone's effect.", working: "\\text{increases}", marks: 1, markCode: "M" },
               { reasoning: "Link to fight-or-flight.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It increases heart rate in preparation for action",
+            finalAnswer: "**(c)** It increases heart rate in preparation for action",
             commonErrors: ["Saying it decreases — adrenaline speeds the heart up."],
           },
         },
@@ -306,7 +306,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{initiates heartbeat}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A group of cells that initiates each heartbeat",
+            finalAnswer: "**(c)** A group of cells that initiates each heartbeat",
             commonErrors: ["Choosing a nerve — the pacemaker is cells within the heart."],
           },
         },
@@ -480,7 +480,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall the process.", working: "\\text{osmosis}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** By osmosis",
+            finalAnswer: "**(b)** By osmosis",
             commonErrors: ["Choosing active transport — that's for mineral ions, not water."],
           },
         },
@@ -575,7 +575,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall the process.", working: "\\text{active transport}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Active transport",
+            finalAnswer: "**(a)** Active transport",
             commonErrors: ["Choosing osmosis — that is for water, not ions."],
           },
         },
@@ -628,7 +628,7 @@ export const lesson43: Lesson = {
               { reasoning: "Identify the cause.", working: "\\text{root pressure}", marks: 1, markCode: "M" },
               { reasoning: "Link to low transpiration.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Root pressure pushing water up and out when transpiration is low",
+            finalAnswer: "**(d)** Root pressure pushing water up and out when transpiration is low",
             commonErrors: ["Saying 'dew' — guttation is internal water pushed out."],
           },
         },
@@ -721,7 +721,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall the cell type.", working: "\\text{living}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Living cells with cytoplasm and companion cells",
+            finalAnswer: "**(d)** Living cells with cytoplasm and companion cells",
             commonErrors: ["Choosing dead cells — that's xylem."],
           },
         },
@@ -785,7 +785,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Recall the function.", working: "\\text{ATP support}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** ATP for active loading and metabolic support",
+            finalAnswer: "**(d)** ATP for active loading and metabolic support",
             commonErrors: ["Choosing water — companion cells support loading, not water supply."],
           },
         },

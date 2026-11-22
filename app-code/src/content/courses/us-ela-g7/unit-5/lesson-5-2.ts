@@ -130,7 +130,7 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The diagram shows the cycle's structure and connections visually.",
+              "**(c)**. The diagram shows the cycle's structure and connections visually.",
             commonErrors: [
               "Choosing (a) — the diagram shows processes, not measurements.",
             ],

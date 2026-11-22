@@ -235,7 +235,7 @@ export const lesson422: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "Demand-pull inflation", "statement": "AD > AS at full employment." } ],
           "steps": [ { "reasoning": "When demand outruns the economy's capacity to supply, prices are bid up — demand-pull inflation.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** aggregate demand exceeds aggregate supply at the full-employment output"
+          "finalAnswer": "**(b)** aggregate demand exceeds aggregate supply at the full-employment output"
 },
         },
         {
@@ -273,7 +273,7 @@ export const lesson422: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "Frictional unemployment", "statement": "Short-term job search between jobs." } ],
           "steps": [ { "reasoning": "Frictional unemployment reflects normal job search and matching delays in a dynamic labour market.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** unemployment caused by people moving between jobs or entering the labour force"
+          "finalAnswer": "**(b)** unemployment caused by people moving between jobs or entering the labour force"
 },
         },
         {
@@ -292,7 +292,7 @@ export const lesson422: Lesson = {
           markscheme: {
           "principles": [ { "kind": "definition", "name": "Cyclical unemployment", "statement": "Rises when AD falls in a downturn." } ],
           "steps": [ { "reasoning": "When aggregate demand falls, firms cut output and lay off workers — cyclical unemployment rises with the business cycle.", "marks": 1, "markCode": "M" } ],
-          "finalAnswer": "**(a)** a recession or economic downturn"
+          "finalAnswer": "**(c)** a recession or economic downturn"
 },
         },
         {
@@ -311,7 +311,7 @@ export const lesson422: Lesson = {
           markscheme: {
           "principles": [ { "kind": "principle", "name": "Phillips curve", "statement": "SR trade-off; LR vertical at natural rate." } ],
           "steps": [ { "reasoning": "Once expectations adjust, there is no permanent trade-off — unemployment returns to the natural rate whatever the inflation rate.", "marks": 1, "markCode": "A" } ],
-          "finalAnswer": "**(a)** vertical at the natural rate of unemployment"
+          "finalAnswer": "**(c)** vertical at the natural rate of unemployment"
 },
         },
         {

@@ -56,7 +56,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "1 : 2 : 1" },
               { id: "d", text: "3 : 1" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -65,7 +65,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "A 16-square Punnett square gives 9 double dominant, 3 + 3 with one recessive trait, and 1 double recessive.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** 9 : 3 : 3 : 1",
+            finalAnswer: "**(a)** 9 : 3 : 3 : 1",
             commonErrors: ["Choosing 3 : 1, the monohybrid ratio.", "Choosing 1 : 1 : 1 : 1, the test cross ratio."],
             examinerNote: "B1 for (c).",
           },
@@ -199,7 +199,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "Half red and half white petals on each flower" },
               { id: "d", text: "White" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -208,7 +208,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "All offspring are C^R C^W, which have an intermediate (pink) phenotype.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Pink",
+            finalAnswer: "**(a)** Pink",
             commonErrors: ["Choosing red, treating one allele as completely dominant.", "Choosing (d), which describes codominance rather than a blended phenotype."],
             examinerNote: "B1 for pink.",
           },

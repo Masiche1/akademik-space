@@ -63,7 +63,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Wavelength is a length measured along the direction of travel, from one crest to the next.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The distance from one crest to the next crest",
+            finalAnswer: "**(d)** The distance from one crest to the next crest",
             commonErrors: ["Choosing (a), which is frequency.", "Choosing (c), which is amplitude.", "Choosing (d), which describes wave speed."],
             examinerNote: "B1 for crest to crest distance.",
           },
@@ -186,7 +186,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Water" },
               { id: "d", text: "A vacuum" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -195,7 +195,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "A vacuum contains no particles, so there is nothing to pass the vibration along.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** A vacuum",
+            finalAnswer: "**(d)** A vacuum",
             commonErrors: ["Thinking sound cannot travel through solids such as steel; it travels fastest in solids."],
             examinerNote: "B1 for vacuum.",
           },

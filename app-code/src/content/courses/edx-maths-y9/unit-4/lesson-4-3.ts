@@ -66,7 +66,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "Gym users are not typical of the whole town, so the sample favours high exercise levels.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(d)**",
             commonErrors: ["Thinking a large sample causes bias; a sample can be large and still biased."],
           },
         },
@@ -211,7 +211,7 @@ export const lesson43: Lesson = {
             steps: [
               { reasoning: "If the axis does not start at zero, small differences look much bigger than they are.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(d)**",
             commonErrors: ["Thinking labels or titles make a chart misleading."],
           },
         },

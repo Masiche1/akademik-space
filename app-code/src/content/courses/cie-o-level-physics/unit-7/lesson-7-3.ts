@@ -59,7 +59,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Protection", statement: "Time/distance/shielding." }],
             steps: [{ reasoning: "Recall.", working: "\\text{TDS}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Time, distance, shielding",
+            finalAnswer: "**(c)** Time, distance, shielding",
             commonErrors: ["Missing one principle."],
           },
         },
@@ -173,7 +173,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Shielding", statement: "Dense materials absorb radiation." }],
             steps: [{ reasoning: "Recall.", working: "\\text{lead absorbs}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Absorbs ionising radiation strongly",
+            finalAnswer: "**(c)** Absorbs ionising radiation strongly",
             commonErrors: ["Saying lead reflects — it absorbs."],
           },
         },
@@ -265,7 +265,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Biological effect", statement: "Ionisation damages DNA → mutations/cancer." }],
             steps: [{ reasoning: "Recall.", working: "\\text{ionise DNA}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ionising atoms and damaging DNA",
+            finalAnswer: "**(d)** Ionising atoms and damaging DNA",
             commonErrors: ["Thinking radiation only heats tissue."],
           },
         },
@@ -315,7 +315,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Geiger counter", statement: "Detector for radiation." }],
             steps: [{ reasoning: "Recall.", working: "\\text{radiation detector}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Detect and measure radiation intensity",
+            finalAnswer: "**(a)** Detect and measure radiation intensity",
             commonErrors: ["Confusing it with a thermometer."],
           },
         },
@@ -378,7 +378,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Tracer", statement: "Tracks processes." }],
             steps: [{ reasoning: "Recall.", working: "\\text{tracking}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Tracking body processes",
+            finalAnswer: "**(c)** Tracking body processes",
             commonErrors: ["Confusing with therapy."],
           },
         },
@@ -458,7 +458,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Radiotherapy", statement: "Radiation damages cancer cells." }],
             steps: [{ reasoning: "Recall.", working: "\\text{radiation kills cells}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Using ionising radiation to damage cancer cells",
+            finalAnswer: "**(a)** Using ionising radiation to damage cancer cells",
             commonErrors: ["Confusing with chemotherapy (drugs)."],
           },
         },
@@ -476,7 +476,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "application", name: "Smoke detector", statement: "Alpha ionises air; smoke disrupts current." }],
             steps: [{ reasoning: "Recall.", working: "\\alpha \\text{ source}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Alpha-emitting isotope",
+            finalAnswer: "**(a)** Alpha-emitting isotope",
             commonErrors: ["Choosing gamma — alpha is used because it's easily stopped."],
           },
         },
@@ -494,7 +494,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "application", name: "Industrial", statement: "Gauging, leak detection, dating." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gauging}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Thickness gauging of metal sheet",
+            finalAnswer: "**(c)** Thickness gauging of metal sheet",
             commonErrors: ["Choosing medical uses — question asks industrial."],
           },
         },
@@ -566,7 +566,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "application", name: "Dating", statement: "C-14 half-life suits archaeological timescales." }],
             steps: [{ reasoning: "Recall.", working: "\\text{T}_{1/2} = 5700 \\text{ y}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Its half-life of ~5700 years matches archaeological timescales",
+            finalAnswer: "**(c)** Its half-life of ~5700 years matches archaeological timescales",
             commonErrors: ["Choosing 'short half-life' — C-14 is actually long-lived."],
           },
         },
@@ -617,7 +617,7 @@ export const lessonp73: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Tracer selection", statement: "Short half-life limits patient dose." }],
             steps: [{ reasoning: "Recall.", working: "\\text{short } T_{1/2}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Technetium-99m (half-life ~6 hours)",
+            finalAnswer: "**(a)** Technetium-99m (half-life ~6 hours)",
             commonErrors: ["Choosing long half-lives — they would irradiate the patient for years."],
           },
         },

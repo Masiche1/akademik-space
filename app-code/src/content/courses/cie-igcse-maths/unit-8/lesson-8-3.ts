@@ -65,7 +65,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Recall the region.", working: "\\text{overlap}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The overlap",
+            finalAnswer: "**(c)** The overlap",
             commonErrors: ["Confusing intersection with union."],
           },
         },
@@ -150,7 +150,7 @@ export const lesson83: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "definition", name: "Set regions", statement: "$A\\cap B'$ = in $A$ but not $B$." } ],
             steps: [ { reasoning: "Recall the region notation.", working: "A\\text{ only}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(a)** Elements in $A$ only", commonErrors: ["Confusing with $A\\cap B$."] },
+            finalAnswer: "**(c)** Elements in $A$ only", commonErrors: ["Confusing with $A\\cap B$."] },
         },
         {
           id: "ciem-u8-venn-diagrams-q6", difficulty: "core", totalMarks: 1,
@@ -161,10 +161,10 @@ export const lesson83: Lesson = {
             { id: "c", text: "$25$" },
             { id: "d", text: "$20$" }
  ],
-            dorrectChoiceId: "c" },
+            correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "formula", name: "Region count", statement: "$|A\\text{ only}|=|A|-|A\\cap B|$" } ],
             steps: [ { reasoning: "Subtract the overlap from $A$.", working: "30-10=20", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(c)** $20$", commonErrors: ["Not subtracting the overlap."] },
+            finalAnswer: "**(d)** $20$", commonErrors: ["Not subtracting the overlap."] },
         },
         {
           id: "ciem-u8-venn-diagrams-q7", difficulty: "core", totalMarks: 3,
@@ -198,10 +198,10 @@ export const lesson83: Lesson = {
             { id: "c", text: "Only $A$" },
             { id: "d", text: "Everything except the overlap" }
  ],
-            correctChoiceIb: "d" },
+            correctChoiceId: "b" },
           markscheme: { principles: [ { kind: "definition", name: "Union", statement: "$A\\cup B$ = in $A$, in $B$, or both." } ],
             steps: [ { reasoning: "Recall union includes the overlap.", working: "\\text{either circle}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(d)** Everything inside either circle", commonErrors: ["Excluding the overlap."] },
+            finalAnswer: "**(b)** Everything inside either circle", commonErrors: ["Excluding the overlap."] },
         },
         {
           id: "ciem-u8-venn-diagrams-q10", difficulty: "foundation", totalMarks: 2,
@@ -347,7 +347,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Match the data type to the tool.", working: "\\text{Venn/table}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Two-way table or Venn diagram",
+            finalAnswer: "**(b)** Two-way table or Venn diagram",
             commonErrors: ["Using a tree for non-sequential data."],
           },
         },
@@ -434,7 +434,7 @@ export const lesson83: Lesson = {
             correctChoiceId: "c" },
           markscheme: { principles: [ { kind: "technique", name: "Complement", statement: "$P(\\text{at least one})=1-P(\\text{none})$." } ],
             steps: [ { reasoning: "Recall the complement method.", working: "1-P(\\text{none})", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** Use $1-P(\\text{none})$", commonErrors: ["Listing cases instead of complement."] },
+            finalAnswer: "**(c)** Use $1-P(\\text{none})$", commonErrors: ["Listing cases instead of complement."] },
         },
         {
           id: "ciem-u8-probability-problem-solving-q6", difficulty: "core", totalMarks: 1,
@@ -485,7 +485,7 @@ export const lesson83: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "technique", name: "Method selection", statement: "'Given that' signals conditional probability." } ],
             steps: [ { reasoning: "Recognise the 'given' condition.", working: "P(A|B)", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** Conditional probability", commonErrors: ["Using a tree without conditions."] },
+            finalAnswer: "**(d)** Conditional probability", commonErrors: ["Using a tree without conditions."] },
         },
         {
           id: "ciem-u8-probability-problem-solving-q10", difficulty: "foundation", totalMarks: 2,
@@ -532,7 +532,7 @@ export const lesson83: Lesson = {
             correctChoiceId: "a" },
           markscheme: { principles: [ { kind: "formula", name: "Complement of union", statement: "$P(A'\\cap B')=1-P(A\\cup B)$" } ],
             steps: [ { reasoning: "Neither is the complement of the union.", working: "1-P(A\\cup B)", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** $1-P(A\\cup B)$", commonErrors: ["Adding complements without subtracting overlap."] },
+            finalAnswer: "**(a)** $1-P(A\\cup B)$", commonErrors: ["Adding complements without subtracting overlap."] },
         },
         {
           id: "ciem-u8-probability-problem-solving-q14", difficulty: "foundation", totalMarks: 3,

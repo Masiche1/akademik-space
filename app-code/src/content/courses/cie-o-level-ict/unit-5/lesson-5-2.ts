@@ -45,7 +45,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Paragraphs" },
             { id: "d", text: "Folders" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Spreadsheet", statement: "Cells grid." }], steps: [{ reasoning: "Cells grid.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Cells" },
+          markscheme: { principles: [{ kind: "definition", name: "Spreadsheet", statement: "Cells grid." }], steps: [{ reasoning: "Cells grid.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Cells" },
         },
         {
           id: "olict-u5-pr-q2", difficulty: "core", totalMarks: 2,
@@ -101,7 +101,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Sending emails" },
             { id: "d", text: "Drawing images" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Word processor", statement: "Text documents." }], steps: [{ reasoning: "Word processor handles text documents.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Text documents" },
+          markscheme: { principles: [{ kind: "definition", name: "Word processor", statement: "Text documents." }], steps: [{ reasoning: "Word processor handles text documents.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Text documents" },
         },
         {
           id: "olict-u5-pr-q6", difficulty: "core", totalMarks: 2,
@@ -121,7 +121,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Create personalised bulk letters" },
             { id: "d", text: "Sort spreadsheets" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Mail merge", statement: "Personalised bulk letters." }], steps: [{ reasoning: "Mail merge personalises bulk letters.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Personalised bulk letters" },
+          markscheme: { principles: [{ kind: "definition", name: "Mail merge", statement: "Personalised bulk letters." }], steps: [{ reasoning: "Mail merge personalises bulk letters.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Personalised bulk letters" },
         },
         {
           id: "olict-u5-pr-q8", difficulty: "core", totalMarks: 1,
@@ -132,7 +132,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Slide shows" },
             { id: "d", text: "Letters" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Database", statement: "Structured tables." }], steps: [{ reasoning: "Databases store structured table data.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Structured tables" },
+          markscheme: { principles: [{ kind: "definition", name: "Database", statement: "Structured tables." }], steps: [{ reasoning: "Databases store structured table data.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Structured tables" },
         },
         {
           id: "olict-u5-pr-q9", difficulty: "core", totalMarks: 2,
@@ -194,7 +194,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Database software" },
             { id: "d", text: "A word processor" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Software choice", statement: "Match task." }], steps: [{ reasoning: "Book loans are structured records → database.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Database software" },
+          markscheme: { principles: [{ kind: "principle", name: "Software choice", statement: "Match task." }], steps: [{ reasoning: "Book loans are structured records → database.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Database software" },
         },
         {
           id: "olict-u5-pr-q15", difficulty: "core", totalMarks: 2,
@@ -243,7 +243,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Presentation software" },
             { id: "d", text: "Spreadsheet" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Software choice", statement: "Match task." }], steps: [{ reasoning: "Spreadsheet for calculations.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Spreadsheet" },
+          markscheme: { principles: [{ kind: "principle", name: "Software choice", statement: "Match task." }], steps: [{ reasoning: "Spreadsheet for calculations.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Spreadsheet" },
         },
         {
           id: "olict-u5-cs-q2", difficulty: "core", totalMarks: 2,
@@ -299,7 +299,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "Presentation software" },
             { id: "d", text: "Desktop publishing software" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Software choice", statement: "Match task." }], steps: [{ reasoning: "DTP handles print layouts.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Desktop publishing" },
+          markscheme: { principles: [{ kind: "principle", name: "Software choice", statement: "Match task." }], steps: [{ reasoning: "DTP handles print layouts.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Desktop publishing" },
         },
         {
           id: "olict-u5-cs-q6", difficulty: "core", totalMarks: 2,
@@ -330,7 +330,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "A spreadsheet" },
             { id: "d", text: "Game development software" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Software choice", statement: "Match task." }], steps: [{ reasoning: "Game development software suits game creation.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Game development software" },
+          markscheme: { principles: [{ kind: "principle", name: "Software choice", statement: "Match task." }], steps: [{ reasoning: "Game development software suits game creation.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Game development software" },
         },
         {
           id: "olict-u5-cs-q9", difficulty: "core", totalMarks: 2,
@@ -392,7 +392,7 @@ export const lesson52: Lesson = {
             { id: "c", text: "It makes computers faster" },
             { id: "d", text: "New software may not run on old hardware or file formats" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Compatibility", statement: "Hardware + formats." }], steps: [{ reasoning: "Compatibility affects whether software runs.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** May not run on old hardware/formats" },
+          markscheme: { principles: [{ kind: "principle", name: "Compatibility", statement: "Hardware + formats." }], steps: [{ reasoning: "Compatibility affects whether software runs.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** May not run on old hardware/formats" },
         },
         {
           id: "olict-u5-cs-q15", difficulty: "core", totalMarks: 2,

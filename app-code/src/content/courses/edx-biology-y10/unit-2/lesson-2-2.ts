@@ -69,7 +69,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Lipase digests lipids into fatty acids and glycerol.", working: "\\text{lipid} \\rightarrow \\text{fatty acids} + \\text{glycerol}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(d)**",
             commonErrors: ["Choosing (a): amylase makes maltose, which maltase then breaks down to glucose.", "Mixing up the products of protease and lipase."],
             examinerNote: "B1 for (b).",
           },
@@ -204,7 +204,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "The small intestine has villi that provide a large surface area for absorbing digested food.", working: "\\text{small intestine}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Small intestine",
+            finalAnswer: "**(a)** Small intestine",
             commonErrors: ["Choosing the large intestine, which mainly absorbs water.", "Choosing the stomach, where protein digestion begins but little is absorbed."],
             examinerNote: "B1 for small intestine. Allow ileum.",
           },

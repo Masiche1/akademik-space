@@ -58,7 +58,7 @@ export const lesson62: Lesson = {
               { id: "c", text: "$3^{81}=4$" },
               { id: "d", text: "$3^4=81$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson62: Lesson = {
               { reasoning: "In $\\log_b x=y$, the base is 3, the argument is 81, and the exponent is 4.", working: "\\log_3 81=4 \\iff 3^4=81", marks: 1, markCode: "M" },
               { reasoning: "The equivalent exponential statement is choice (c).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $3^4=81$.",
+            finalAnswer: "**(d)** $3^4=81$.",
             commonErrors: ["Reversing the argument and exponent.", "Using 81 as the base."],
           },
         },

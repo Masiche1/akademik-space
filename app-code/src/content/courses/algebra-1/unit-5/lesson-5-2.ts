@@ -62,7 +62,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "The joint count is 12; use all 50 students as the denominator because the requested frequency is joint, not conditional.", working: "\\frac{12}{50}=0.24=24\\%", marks: 2, markCode: "M" },
             ],
-            finalAnswer: "**(b)** The joint relative frequency is $24\\%$.",
+            finalAnswer: "**(c)** The joint relative frequency is $24\\%$.",
             commonErrors: ["Using 12 as the denominator, which would not produce a relative frequency."],
           },
         },
@@ -171,7 +171,7 @@ export const lesson52: Lesson = {
               { id: "c", text: "$60\\%$" },
               { id: "d", text: "$15\\%$" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -180,7 +180,7 @@ export const lesson52: Lesson = {
             steps: [
               { reasoning: "The condition is being a bike rider, so divide the Grade 10 bike riders by all 25 bike riders.", working: "\\frac{15}{25}=0.60=60\\%", marks: 2, markCode: "M" },
             ],
-            finalAnswer: "**(d)** $60\\%$ of bike riders are in Grade 10.",
+            finalAnswer: "**(c)** $60\\%$ of bike riders are in Grade 10.",
             commonErrors: ["Using a whole-survey total that is not given, rather than the stated group of 25."],
           },
         },

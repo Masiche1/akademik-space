@@ -59,7 +59,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Scary" },
               { id: "d", text: "Sad" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'shone', 'sang' and 'cheered' are all happy words, so the tone is happy — (c).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Happy",
+            finalAnswer: "**(b)** Happy",
           },
         },
         {
@@ -164,7 +164,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Tone", statement: "Tone is the feeling created by the writer's word choices." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'dark clouds' and 'howl' are threatening words — the tone is scary or tense, (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Scary or tense",
+            finalAnswer: "**(c)** Scary or tense",
           },
         },
         {
@@ -185,7 +185,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Mood words", statement: "Gentle, quiet words create calm; loud, violent words create excitement or fear." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'gently, softly, quietly' are calm words — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** gently, softly, quietly",
+            finalAnswer: "**(d)** gently, softly, quietly",
           },
         },
         {
@@ -201,12 +201,12 @@ export const lesson13: Lesson = {
               { id: "c", text: "Angry" },
               { id: "d", text: "Scary" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Tone", statement: "Friendly actions like wagging tails create a happy tone." }],
             steps: [{ reasoning: "Criterion A (Analysing): wagging and licking are affectionate actions — the tone is happy and friendly, (c).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** Happy and friendly",
+            finalAnswer: "**(b)** Happy and friendly",
           },
         },
         {
@@ -358,7 +358,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Tone", statement: "Loud, forceful words create an angry or exciting tone." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'shouted', 'banged', 'roared' are loud, forceful words — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Angry or exciting",
+            finalAnswer: "**(d)** Angry or exciting",
           },
         },
         {
@@ -462,7 +462,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): shaking hands before opening something suggests nervousness or fear about the result — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** He is nervous about what is in the envelope",
+            finalAnswer: "**(c)** He is nervous about what is in the envelope",
           },
         },
         {
@@ -558,7 +558,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Inference", statement: "Clues like 'umbrella' let you guess what is not said." }],
             steps: [{ reasoning: "Criterion A (Analysing): an umbrella suggests rain — (a).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** It is probably raining",
+            finalAnswer: "**(b)** It is probably raining",
           },
         },
         {
@@ -579,7 +579,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Inference", statement: "Actions like licking lips and staring suggest desire." }],
             steps: [{ reasoning: "Criterion A (Analysing): licking lips and staring at food suggest hunger — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** He is hungry and wants to buy something",
+            finalAnswer: "**(c)** He is hungry and wants to buy something",
           },
         },
         {
@@ -773,7 +773,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Inference from absence", statement: "Missing sounds and objects reveal that someone is away." }],
             steps: [{ reasoning: "Criterion A (Analysing): no sounds of life and one washed bowl suggest nobody else is home — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Nobody else is home",
+            finalAnswer: "**(d)** Nobody else is home",
           },
         },
         {

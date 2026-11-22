@@ -65,7 +65,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Clause = subject+verb.", working: "subject+verb", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Subject + verb",
+            finalAnswer: "**(b)** Subject + verb",
             commonErrors: ["Choosing (b) — that's phrase."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Plural subject needs plural verb.", working: "plural", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The students write essays",
+            finalAnswer: "**(d)** The students write essays",
             commonErrors: ["Choosing (b) — singular verb with plural subject."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "(a) uses consistent past tense.", working: "past", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** She walked to school and opened the door",
+            finalAnswer: "**(b)** She walked to school and opened the door",
             commonErrors: ["Mixing tenses inconsistently."],
           },
         },
@@ -336,7 +336,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "(a) uses articles correctly.", working: "articles", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** I saw a bird in the tree",
+            finalAnswer: "**(c)** I saw a bird in the tree",
             commonErrors: ["Missing articles."],
           },
         },
@@ -421,7 +421,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Students = they.", working: "they", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** They",
+            finalAnswer: "**(b)** They",
             commonErrors: ["Choosing (b) — singular pronoun."],
           },
         },
@@ -606,7 +606,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Question mark ends questions.", working: "?", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Question mark",
+            finalAnswer: "**(c)** Question mark",
             commonErrors: ["Choosing (b) — full stop for statements."],
           },
         },
@@ -656,7 +656,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Comma separates lists.", working: "comma", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Comma",
+            finalAnswer: "**(d)** Comma",
             commonErrors: ["Choosing (b) — full stop ends sentences."],
           },
         },
@@ -726,7 +726,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "(a) has correct commas in list.", working: "commas", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** She bought apples, oranges, and bananas",
+            finalAnswer: "**(d)** She bought apples, oranges, and bananas",
             commonErrors: ["Missing commas in list."],
           },
         },
@@ -772,7 +772,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Quotation marks = direct speech.", working: "quotes", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Quotation marks",
+            finalAnswer: "**(c)** Quotation marks",
             commonErrors: ["Choosing (b) — full stop for statements."],
           },
         },
@@ -857,7 +857,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "(a) singular possessive correct.", working: "singular", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** The student's book",
+            finalAnswer: "**(c)** The student's book",
             commonErrors: ["Choosing (b) — plural possessive."],
           },
         },
@@ -937,7 +937,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Connotation = associated meaning.", working: "associated", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Associated feelings/ideas",
+            finalAnswer: "**(d)** Associated feelings/ideas",
             commonErrors: ["Choosing (b) — that's spelling."],
           },
         },
@@ -1092,7 +1092,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Substantial = formal.", working: "substantial", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Substantial",
+            finalAnswer: "**(c)** Substantial",
             commonErrors: ["Choosing (c) — informal."],
           },
         },
@@ -1162,7 +1162,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Devastating is emotive.", working: "emotive", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Devastating",
+            finalAnswer: "**(d)** Devastating",
             commonErrors: ["Choosing (b) — that's neutral."],
           },
         },
@@ -1208,7 +1208,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Significant is best synonym.", working: "significant", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Significant",
+            finalAnswer: "**(c)** Significant",
             commonErrors: ["Choosing (b) — informal."],
           },
         },
@@ -1293,7 +1293,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Approximately = formal.", working: "approximately", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Approximately",
+            finalAnswer: "**(d)** Approximately",
             commonErrors: ["Choosing (b) — informal."],
           },
         },

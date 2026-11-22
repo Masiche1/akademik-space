@@ -78,7 +78,7 @@ export const lesson23: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** All About Sharks",
+            finalAnswer: "**(a)** All About Sharks",
             commonErrors: ["Choosing a storybook."],
           },
         },
@@ -273,7 +273,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Poems are musical.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It often has rhythm and rhyme",
+            finalAnswer: "**(d)** It often has rhythm and rhyme",
             commonErrors: ["Thinking poems need pictures."],
           },
         },
@@ -304,7 +304,7 @@ export const lesson23: Lesson = {
               { reasoning: "Find same ending sound.", marks: 1, markCode: "M" },
               { reasoning: "Answer: mat and fat.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** mat and fat",
+            finalAnswer: "**(c)** mat and fat",
             commonErrors: [
               "Choosing cat/sat — they rhyme too but question asks line endings.",
             ],

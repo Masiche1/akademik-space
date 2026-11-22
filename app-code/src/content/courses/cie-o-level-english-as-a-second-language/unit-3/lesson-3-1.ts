@@ -41,7 +41,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Love" },
             { id: "d", text: "Best wishes" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "Closing rule", statement: "Unnamed recipient → faithfully." }], steps: [{ reasoning: "No name known → 'Yours faithfully'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Yours faithfully" },
+          markscheme: { principles: [{ kind: "convention", name: "Closing rule", statement: "Unnamed recipient → faithfully." }], steps: [{ reasoning: "No name known → 'Yours faithfully'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Yours faithfully" },
         },
         {
           id: "oles-u3-ly-q2", difficulty: "core", totalMarks: 2,
@@ -105,7 +105,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Yours sincerely" },
             { id: "d", text: "Best wishes" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Closing rule", statement: "Named recipient → sincerely." }], steps: [{ reasoning: "A known name pairs with 'Yours sincerely'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Yours sincerely" },
+          markscheme: { principles: [{ kind: "convention", name: "Closing rule", statement: "Named recipient → sincerely." }], steps: [{ reasoning: "A known name pairs with 'Yours sincerely'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Yours sincerely" },
         },
         {
           id: "oles-u3-ly-q6", difficulty: "core", totalMarks: 2,
@@ -134,7 +134,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Emoji and exclamation marks" },
             { id: "d", text: "A clear subject line and polite formal tone" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Email layout", statement: "Subject line + professional tone." }], steps: [{ reasoning: "Formal emails need purpose and polish.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Subject line and polite formal tone" },
+          markscheme: { principles: [{ kind: "convention", name: "Email layout", statement: "Subject line + professional tone." }], steps: [{ reasoning: "Formal emails need purpose and polish.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Subject line and polite formal tone" },
         },
         {
           id: "oles-u3-ly-q9", difficulty: "challenge", totalMarks: 3,
@@ -170,7 +170,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "With love" },
             { id: "d", text: "Cheers" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "Closing rule", statement: "Named → sincerely." }], steps: [{ reasoning: "'Yours sincerely' pairs with a named recipient.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Yours sincerely" },
+          markscheme: { principles: [{ kind: "convention", name: "Closing rule", statement: "Named → sincerely." }], steps: [{ reasoning: "'Yours sincerely' pairs with a named recipient.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Yours sincerely" },
         },
         {
           id: "oles-u3-ly-q12", difficulty: "core", totalMarks: 2,
@@ -190,7 +190,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Consistently indented or consistently blocked" },
             { id: "d", text: "Randomly indented" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Paragraph style", statement: "Consistent indentation." }], steps: [{ reasoning: "Mixing styles looks untidy; pick one system.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Consistently indented or blocked" },
+          markscheme: { principles: [{ kind: "convention", name: "Paragraph style", statement: "Consistent indentation." }], steps: [{ reasoning: "Mixing styles looks untidy; pick one system.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Consistently indented or blocked" },
         },
         {
           id: "oles-u3-ly-q14", difficulty: "challenge", totalMarks: 3,
@@ -275,7 +275,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Formal, polite language" },
             { id: "d", text: "Slang and abbreviations" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Register", statement: "Match language to reader." }], steps: [{ reasoning: "Complaints to companies need formal polite register.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Formal, polite language" },
+          markscheme: { principles: [{ kind: "skill", name: "Register", statement: "Match language to reader." }], steps: [{ reasoning: "Complaints to companies need formal polite register.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Formal, polite language" },
         },
         {
           id: "oles-u3-tr-q2", difficulty: "core", totalMarks: 2,
@@ -339,7 +339,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "I would be grateful if you could…" },
             { id: "d", text: "Send it now" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Polite requests", statement: "Courteous phrasing." }], steps: [{ reasoning: "Only (a) is polite and formal.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** I would be grateful if you could…" },
+          markscheme: { principles: [{ kind: "convention", name: "Polite requests", statement: "Courteous phrasing." }], steps: [{ reasoning: "Only (a) is polite and formal.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** I would be grateful if you could…" },
         },
         {
           id: "oles-u3-tr-q6", difficulty: "core", totalMarks: 1,
@@ -365,7 +365,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Sounds rude and loses marks" },
             { id: "d", text: "Is completely neutral" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Register", statement: "Positive phrasing scores better." }], steps: [{ reasoning: "Demands create resistance and poor register.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Sounds rude and loses marks" },
+          markscheme: { principles: [{ kind: "skill", name: "Register", statement: "Positive phrasing scores better." }], steps: [{ reasoning: "Demands create resistance and poor register.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Sounds rude and loses marks" },
         },
         {
           id: "oles-u3-tr-q9", difficulty: "challenge", totalMarks: 3,
@@ -421,7 +421,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "No greeting at all" },
             { id: "d", text: "Formal legal language" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Register", statement: "Match tone to reader." }], steps: [{ reasoning: "Friends receive informal, friendly language.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Informal friendly language" },
+          markscheme: { principles: [{ kind: "skill", name: "Register", statement: "Match tone to reader." }], steps: [{ reasoning: "Friends receive informal, friendly language.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Informal friendly language" },
         },
         {
           id: "oles-u3-tr-q14", difficulty: "challenge", totalMarks: 3,
@@ -475,7 +475,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "A closing phrase" },
             { id: "d", text: "A headline" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "Formal openings", statement: "Standard letter openings." }], steps: [{ reasoning: "This is a standard formal opening line.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** A formal opening" },
+          markscheme: { principles: [{ kind: "convention", name: "Formal openings", statement: "Standard letter openings." }], steps: [{ reasoning: "This is a standard formal opening line.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** A formal opening" },
         },
       ],
     },

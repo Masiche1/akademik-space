@@ -208,7 +208,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Iron is the catalyst in the Haber process; vanadium(V) oxide is used in the Contact process.", working: "\\text{V}_2\\text{O}_5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Vanadium(V) oxide",
+            finalAnswer: "**(d)** Vanadium(V) oxide",
             commonErrors: ["Choosing iron, the Haber process catalyst."],
             examinerNote: "B1 for (b).",
           },

@@ -271,7 +271,7 @@ export const lesson403: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** To set global trade rules and resolve trade disputes",
+              "**(b)** To set global trade rules and resolve trade disputes",
           },
         },
         {
@@ -396,7 +396,7 @@ export const lesson403: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Members must treat all trading partners equally",
+              "**(b)** Members must treat all trading partners equally",
           },
         },
         {
@@ -535,7 +535,7 @@ export const lesson403: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Require both sides to negotiate and attempt a settlement through the dispute process",
+              "**(a)** Require both sides to negotiate and attempt a settlement through the dispute process",
           },
         },
         {
@@ -650,7 +650,7 @@ export const lesson403: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Trade shifts from a low-cost non-member to a higher-cost member because tariffs favour the member",
+              "**(d)** Trade shifts from a low-cost non-member to a higher-cost member because tariffs favour the member",
           },
         },
         {
@@ -739,7 +739,7 @@ export const lesson403: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Single market, because free movement of labour and capital can help absorb surplus farm workers and attract investment",
+              "**(a)** Single market, because free movement of labour and capital can help absorb surplus farm workers and attract investment",
           },
         },
         {

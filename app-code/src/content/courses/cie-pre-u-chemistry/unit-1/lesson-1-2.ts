@@ -310,7 +310,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** H₂",
+            finalAnswer: "**(b)** H₂",
           },
         },
         {
@@ -380,7 +380,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** (actual mass ÷ theoretical mass) × 100",
+            finalAnswer: "**(d)** (actual mass ÷ theoretical mass) × 100",
           },
         },
         {
@@ -415,7 +415,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** It is negative because energy is released",
+            finalAnswer: "**(b)** It is negative because energy is released",
           },
         },
         {
@@ -488,7 +488,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** They are the reference level",
+            finalAnswer: "**(d)** They are the reference level",
           },
         },
         {
@@ -522,7 +522,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Liquid",
+            finalAnswer: "**(c)** Liquid",
           },
         },
         {
@@ -590,7 +590,7 @@ export const lesson12: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** 436 + 243 − 2 × 431",
+            finalAnswer: "**(b)** 436 + 243 − 2 × 431",
           },
         },
         {

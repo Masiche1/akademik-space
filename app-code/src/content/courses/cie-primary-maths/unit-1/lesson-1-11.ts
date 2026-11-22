@@ -152,7 +152,7 @@ export const lesson111: Lesson = {
             { id: "b", text: "9" },
             { id: "c", text: "5" },
             { id: "d", text: "54" },
-          ], correctChoiceIa: "d" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Column method", statement: "6×9=54: write ones digit, carry tens." }],
             steps: [{ reasoning: "6×9=54, write 4 in the ones column and carry 5.", marks: 1, markCode: "A" }],

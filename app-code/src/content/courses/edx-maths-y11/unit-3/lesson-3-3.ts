@@ -68,7 +68,7 @@ export const lesson33: Lesson = {
               { reasoning: "An index of one half means the square root.", working: "9^{\\frac12} = \\sqrt{9}", marks: 1, markCode: "M" },
               { reasoning: "Evaluate.", working: "= 3", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $3$",
+            finalAnswer: "**(c)** $3$",
             commonErrors: ["Halving the base to get $4.5$.", "Treating the index as negative and giving $\\frac19$."],
           },
         },

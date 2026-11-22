@@ -230,7 +230,7 @@ export const lesson210: Lesson = {
             steps: [
               { reasoning: "Phishing = fake emails/messages designed to steal personal data.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Fake messages stealing personal info",
+            finalAnswer: "**(d)** Fake messages stealing personal info",
           },
         },
         {
@@ -315,7 +315,7 @@ export const lesson210: Lesson = {
               { reasoning: "Ransomware encrypts files and demands money to decrypt.", marks: 1, markCode: "M" },
               { reasoning: "Protection: backups and updated software.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Encrypts files, demands payment",
+            finalAnswer: "**(b)** Encrypts files, demands payment",
           },
         },
         {

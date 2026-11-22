@@ -65,7 +65,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "$x=2\\cos60^\\circ=1$, $y=2\\sin60^\\circ=\\sqrt3$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(1,\\sqrt3)$",
+            finalAnswer: "**(b)** $(1,\\sqrt3)$",
             commonErrors: ["Swapping $\\sin$ and $\\cos$."],
           },
         },
@@ -194,7 +194,7 @@ export const lesson42: Lesson = {
             steps: [
               { reasoning: "$\\frac{2}{2t}=\\frac{1}{t}$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{1}{t}$",
+            finalAnswer: "**(c)** $\\frac{1}{t}$",
             commonErrors: ["Inverting the ratio."],
           },
         },

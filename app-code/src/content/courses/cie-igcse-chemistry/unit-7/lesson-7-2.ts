@@ -59,7 +59,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Endpoint", statement: "Indicator colour change = reaction complete." }],
             steps: [{ reasoning: "Recall.", working: "\\text{colour change}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Indicator colour change",
+            finalAnswer: "**(c)** Indicator colour change",
             commonErrors: ["Endpoint vs equivalence — endpoint is observed colour change."],
           },
         },
@@ -157,7 +157,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Concordant titres", statement: "Repeat titres that agree within a small tolerance." }],
             steps: [{ reasoning: "Concordant titres are close, usually within ±0.1 cm³.", working: "\\pm 0.1\\ \\text{cm}^3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Volumes agreeing within about 0.1 cm³",
+            finalAnswer: "**(d)** Volumes agreeing within about 0.1 cm³",
             commonErrors: ["Thinking concordant means identical to the last digit."],
           },
         },
@@ -227,7 +227,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Indicator choice", statement: "The indicator must change within the steep part of the curve." }],
             steps: [{ reasoning: "Strong acid + weak base has an acidic equivalence point, so methyl orange changes in the right region.", working: "\\text{methyl orange}", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** Methyl orange",
+            finalAnswer: "**(d)** Methyl orange",
             commonErrors: ["Choosing phenolphthalein, which changes too late for an acidic equivalence point."],
           },
         },
@@ -399,7 +399,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Equivalence point", statement: "Steepest point where moles equal." }],
             steps: [{ reasoning: "Recall.", working: "\\text{steepest}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Steepest part of curve",
+            finalAnswer: "**(d)** Steepest part of curve",
             commonErrors: ["Assuming always pH 7."],
           },
         },
@@ -479,7 +479,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Titration curve", statement: "Strong acid + strong base → equivalence at pH 7." }],
             steps: [{ reasoning: "Neither ion hydrolyses, so the salt solution is neutral.", working: "\\text{pH} = 7", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 7",
+            finalAnswer: "**(c)** 7",
             commonErrors: ["Assuming the equivalence pH depends on the volumes used."],
           },
         },
@@ -513,7 +513,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Salt hydrolysis", statement: "Salt of strong acid + weak base gives acidic solution." }],
             steps: [{ reasoning: "The weak base cation hydrolyses to give H⁺, so pH < 7.", working: "\\text{strong acid} + \\text{weak base} \\rightarrow \\text{pH} < 7", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Strong acid + weak base",
+            finalAnswer: "**(d)** Strong acid + weak base",
             commonErrors: ["Reversing the rule — weak acid gives pH above 7, weak base gives pH below 7."],
           },
         },
@@ -589,7 +589,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Equivalence point", statement: "Steepest point where moles acid = moles base." }],
             steps: [{ reasoning: "The steep region corresponds to the equivalence point.", working: "\\text{steepest} \\Leftrightarrow n_{acid} = n_{base}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** the moles of acid and base are equal",
+            finalAnswer: "**(a)** the moles of acid and base are equal",
             commonErrors: ["Confusing the equivalence point with the endpoint (indicator change)."],
           },
         },
@@ -632,7 +632,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Indicator choice", statement: "Indicator must change within the steep part of the curve." }],
             steps: [{ reasoning: "Equivalence pH is above 7, so phenolphthalein changes in the right region.", working: "\\text{phenolphthalein}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Phenolphthalein",
+            finalAnswer: "**(a)** Phenolphthalein",
             commonErrors: ["Choosing methyl orange, which changes before the equivalence point."],
           },
         },
@@ -672,7 +672,7 @@ export const lesson172: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Salt hydrolysis", statement: "Weak acid + strong base → alkaline equivalence point." }],
             steps: [{ reasoning: "The salt of a weak acid and strong base hydrolyses to give OH⁻.", working: "\\text{pH} > 7", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** above 7",
+            finalAnswer: "**(d)** above 7",
             commonErrors: ["Assuming equivalence is always pH 7."],
           },
         },

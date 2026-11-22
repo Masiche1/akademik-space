@@ -69,6 +69,8 @@ import { edxIasBusiness } from "./courses/edx-ias-business/index.ts";
 import { edxIasEconomics } from "./courses/edx-ias-economics/index.ts";
 import { edxIasPsychology } from "./courses/edx-ias-psychology/index.ts";
 import { edxIasSociology } from "./courses/edx-ias-sociology/index.ts";
+import { edxIasComputerScience } from "./courses/edx-ias-computerscience/index.ts";
+import { edxIasAccounting } from "./courses/edx-ias-accounting/index.ts";
 import { edxPrimaryMathsY1 } from "./courses/edx-primary-maths-y1/index.ts";
 import { edxPrimaryMathsY2 } from "./courses/edx-primary-maths-y2/index.ts";
 import { edxPrimaryMathsY3 } from "./courses/edx-primary-maths-y3/index.ts";
@@ -340,6 +342,8 @@ export const COURSES: Course[] = [
   edxIasEconomics,
   edxIasPsychology,
   edxIasSociology,
+  edxIasComputerScience,
+  edxIasAccounting,
   edxPrimaryMathsY1,
   edxPrimaryMathsY2,
   edxPrimaryMathsY3,

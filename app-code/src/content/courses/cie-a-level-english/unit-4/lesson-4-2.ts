@@ -94,7 +94,7 @@ export const lesson242: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Recurring element developing theme",
+            finalAnswer: "**(c)** Recurring element developing theme",
             commonErrors: ["Confusing with theme itself."],
           },
         },
@@ -307,7 +307,7 @@ export const lesson242: Lesson = {
           totalMarks: 1,
           stem: "What does it mean that setting is never neutral?",
           response: { type: "mcq", choices: [ { id: "a", text: "It reflects and shapes character and theme" }, { id: "b", text: "It is always outdoors" }, { id: "c", text: "It cannot be analysed" }, { id: "d", text: "It has no description" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "technique", name: "Setting meaning", statement: "Place carries symbolic and thematic weight." }], steps: [{ reasoning: "Setting is interpretively loaded.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Reflects and shapes meaning", commonErrors: ["Treating setting as background only."] },
+          markscheme: { principles: [{ kind: "technique", name: "Setting meaning", statement: "Place carries symbolic and thematic weight." }], steps: [{ reasoning: "Setting is interpretively loaded.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Reflects and shapes meaning", commonErrors: ["Treating setting as background only."] },
         },
         {
           id: "cial-e-u4-st-q6",
@@ -315,7 +315,7 @@ export const lesson242: Lesson = {
           totalMarks: 1,
           stem: "What is the role of a motif?",
           response: { type: "mcq", choices: [ { id: "a", text: "It recurs to reinforce theme" }, { id: "b", text: "It names the narrator" }, { id: "c", text: "It appears once" }, { id: "d", text: "It replaces the plot" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Motif", statement: "Recurring element developing theme." }], steps: [{ reasoning: "Repetition builds thematic emphasis.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Recurs to reinforce theme", commonErrors: ["Confusing motif with theme."] },
+          markscheme: { principles: [{ kind: "definition", name: "Motif", statement: "Recurring element developing theme." }], steps: [{ reasoning: "Repetition builds thematic emphasis.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Recurs to reinforce theme", commonErrors: ["Confusing motif with theme."] },
         },
         {
           id: "cial-e-u4-st-q7",
@@ -323,7 +323,7 @@ export const lesson242: Lesson = {
           totalMarks: 1,
           stem: "What might light and dark symbolise?",
           response: { type: "mcq", choices: [ { id: "a", text: "Hope and despair" }, { id: "b", text: "Dialogue and silence" }, { id: "c", text: "Time and place only" }, { id: "d", text: "Names and dates" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "technique", name: "Symbolism", statement: "Light/dark often figure hope/despair." }], steps: [{ reasoning: "Light-dark is a conventional symbolic pair.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Hope and despair", commonErrors: ["Assuming symbols have fixed meanings without context."] },
+          markscheme: { principles: [{ kind: "technique", name: "Symbolism", statement: "Light/dark often figure hope/despair." }], steps: [{ reasoning: "Light-dark is a conventional symbolic pair.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Hope and despair", commonErrors: ["Assuming symbols have fixed meanings without context."] },
         },
         {
           id: "cial-e-u4-st-q8",
@@ -331,7 +331,7 @@ export const lesson242: Lesson = {
           totalMarks: 1,
           stem: "How can weather function symbolically?",
           response: { type: "mcq", choices: [ { id: "a", text: "It mirrors emotional or narrative states" }, { id: "b", text: "It prevents analysis" }, { id: "c", text: "It only gives temperature" }, { id: "d", text: "It replaces dialogue" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "technique", name: "Weather symbolism", statement: "Storm, sunshine and fog can mirror states." }], steps: [{ reasoning: "Weather is used to echo inner or plot states.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Mirrors emotional/narrative states", commonErrors: ["Describing weather literally only."] },
+          markscheme: { principles: [{ kind: "technique", name: "Weather symbolism", statement: "Storm, sunshine and fog can mirror states." }], steps: [{ reasoning: "Weather is used to echo inner or plot states.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Mirrors emotional/narrative states", commonErrors: ["Describing weather literally only."] },
         },
         {
           id: "cial-e-u4-st-q9",
@@ -339,7 +339,7 @@ export const lesson242: Lesson = {
           totalMarks: 1,
           stem: "Why should symbols be analysed in context rather than assumed?",
           response: { type: "mcq", choices: [ { id: "a", text: "Meaning depends on the text's usage" }, { id: "b", text: "Context removes symbolism" }, { id: "c", text: "Symbols are always identical" }, { id: "d", text: "It makes essays shorter" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "skill", name: "Symbolic context", statement: "Symbols gain meaning from their textual environment." }], steps: [{ reasoning: "Context determines a symbol's specific effect.", marks: 1, markCode: "AO3" }], finalAnswer: "**(b)** Meaning depends on usage", commonErrors: ["Using a fixed symbol dictionary mechanically."] },
+          markscheme: { principles: [{ kind: "skill", name: "Symbolic context", statement: "Symbols gain meaning from their textual environment." }], steps: [{ reasoning: "Context determines a symbol's specific effect.", marks: 1, markCode: "AO3" }], finalAnswer: "**(a)** Meaning depends on usage", commonErrors: ["Using a fixed symbol dictionary mechanically."] },
         },
         {
           id: "cial-e-u4-st-q10",
@@ -464,7 +464,7 @@ export const lesson242: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Middle of action",
+            finalAnswer: "**(d)** Middle of action",
             commonErrors: ["Confusing with flashback."],
           },
         },
@@ -671,7 +671,7 @@ export const lesson242: Lesson = {
           totalMarks: 1,
           stem: "What is a flashback?",
           response: { type: "mcq", choices: [ { id: "a", text: "A narrative interruption showing earlier events" }, { id: "b", text: "The climax" }, { id: "c", text: "A chapter title" }, { id: "d", text: "A forward prediction" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Flashback", statement: "Earlier events interrupt the main chronology." }], steps: [{ reasoning: "Flashback revisits past events.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Earlier events interrupt", commonErrors: ["Confusing flashback with foreshadowing."] },
+          markscheme: { principles: [{ kind: "definition", name: "Flashback", statement: "Earlier events interrupt the main chronology." }], steps: [{ reasoning: "Flashback revisits past events.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Earlier events interrupt", commonErrors: ["Confusing flashback with foreshadowing."] },
         },
         {
           id: "cial-e-u4-ps-q6",
@@ -687,7 +687,7 @@ export const lesson242: Lesson = {
           totalMarks: 1,
           stem: "What characterises stream of consciousness?",
           response: { type: "mcq", choices: [ { id: "a", text: "Unfiltered flow of thoughts" }, { id: "b", text: "Ordered plot summary" }, { id: "c", text: "Dialogue only" }, { id: "d", text: "A circular plot" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "technique", name: "Stream of consciousness", statement: "Mimics continuous inner thought." }], steps: [{ reasoning: "The technique reproduces mental flow.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Unfiltered flow of thoughts", commonErrors: ["Confusing it with dialogue."] },
+          markscheme: { principles: [{ kind: "technique", name: "Stream of consciousness", statement: "Mimics continuous inner thought." }], steps: [{ reasoning: "The technique reproduces mental flow.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Unfiltered flow of thoughts", commonErrors: ["Confusing it with dialogue."] },
         },
         {
           id: "cial-e-u4-ps-q8",
@@ -703,7 +703,7 @@ export const lesson242: Lesson = {
           totalMarks: 1,
           stem: "How does pacing affect tension?",
           response: { type: "mcq", choices: [ { id: "a", text: "Chapter breaks speed everything up" }, { id: "b", text: "Fast pacing always relaxes the reader" }, { id: "c", text: "Pacing has no effect" }, { id: "d", text: "Slow reflection and fast crisis control suspense" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "technique", name: "Pacing and tension", statement: "Speed variation builds or releases suspense." }], steps: [{ reasoning: "Pacing modulates emotional pressure.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Speed variation controls suspense", commonErrors: ["Equating pacing only with plot speed."] },
+          markscheme: { principles: [{ kind: "technique", name: "Pacing and tension", statement: "Speed variation builds or releases suspense." }], steps: [{ reasoning: "Pacing modulates emotional pressure.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Speed variation controls suspense", commonErrors: ["Equating pacing only with plot speed."] },
         },
         {
           id: "cial-e-u4-ps-q10",

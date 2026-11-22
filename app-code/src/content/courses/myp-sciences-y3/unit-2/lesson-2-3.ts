@@ -62,7 +62,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Respiratory system" },
               { id: "d", text: "Circulatory system" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -71,7 +71,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The excretory system (kidneys) removes wastes.", working: "\\text{excretory}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Excretory system",
+            finalAnswer: "**(a)** Excretory system",
             commonErrors: ["Choosing digestive — that breaks down food, not removes metabolic waste."],
             examinerNote: "B1 for (c).",
           },
@@ -168,7 +168,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The digestive system handles food breakdown and nutrient absorption.", working: "\\text{digestive}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Digestive system",
+            finalAnswer: "**(d)** Digestive system",
             commonErrors: ["Choosing circulatory — it transports, but does not break down food."],
             examinerNote: "B1 for (b).",
           },
@@ -186,7 +186,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Respiratory system" },
               { id: "d", text: "Endocrine system" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -195,7 +195,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The circulatory system uses blood to transport materials.", working: "\\text{circulatory}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Circulatory system",
+            finalAnswer: "**(a)** Circulatory system",
             commonErrors: ["Choosing respiratory — it exchanges gases but does not transport nutrients."],
             examinerNote: "B1 for (c).",
           },
@@ -268,7 +268,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Blood carries absorbed nutrients from the digestive system to all cells.", working: "\\text{blood transport}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Circulatory system",
+            finalAnswer: "**(a)** Circulatory system",
             examinerNote: "B1 for (b).",
           },
         },
@@ -294,7 +294,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Hormones are produced by the endocrine glands.", working: "\\text{endocrine}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Endocrine system",
+            finalAnswer: "**(d)** Endocrine system",
             commonErrors: ["Choosing nervous — that uses impulses, not hormones."],
             examinerNote: "B1 for (b).",
           },
@@ -321,7 +321,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Homeostasis keeps internal conditions (temperature, glucose, pH) stable.", working: "\\text{stable internal conditions}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Maintaining stable internal conditions despite external changes",
+            finalAnswer: "**(d)** Maintaining stable internal conditions despite external changes",
             commonErrors: ["Thinking it means keeping the environment outside the body stable."],
             examinerNote: "B1 for (b).",
           },
@@ -406,7 +406,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The kidneys filter blood and produce urine.", working: "\\text{kidneys}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Kidney",
+            finalAnswer: "**(a)** Kidney",
             commonErrors: ["Choosing the stomach — that is digestive."],
             examinerNote: "B1 for (b).",
           },
@@ -433,7 +433,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Speed of nerve impulses vs slower transport of hormones in blood explains the difference.", working: "\\text{impulses fast};\\ \\text{hormones slow}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Nerve impulses travel quickly along nerves while hormones travel more slowly in the blood",
+            finalAnswer: "**(b)** Nerve impulses travel quickly along nerves while hormones travel more slowly in the blood",
             examinerNote: "B1 for (a).",
           },
         },
@@ -588,7 +588,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Glucagon raises glucose; insulin lowers it.", working: "\\text{glucagon}\\uparrow glucose", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Glucagon",
+            finalAnswer: "**(a)** Glucagon",
             commonErrors: ["Choosing insulin — that lowers glucose."],
             examinerNote: "B1 for (b).",
           },
@@ -606,7 +606,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "Heart disease" },
               { id: "d", text: "Type 2 diabetes" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -615,7 +615,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Influenza is caused by a virus; the others are lifestyle-related.", working: "\\text{virus}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Influenza",
+            finalAnswer: "**(a)** Influenza",
             commonErrors: ["Choosing type 2 diabetes — that is linked to lifestyle."],
             examinerNote: "B1 for (c).",
           },
@@ -642,7 +642,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Type 2 diabetes is linked to diet and exercise; the others are infectious.", working: "\\text{lifestyle-linked}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Type 2 diabetes",
+            finalAnswer: "**(b)** Type 2 diabetes",
             commonErrors: ["Choosing an infectious disease."],
             examinerNote: "B1 for (a).",
           },
@@ -734,7 +734,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Fitness adaptations are lost gradually when exercise stops.", working: "\\text{reversible}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Reversible — they decline if exercise stops",
+            finalAnswer: "**(d)** Reversible — they decline if exercise stops",
             commonErrors: ["Saying the benefits are permanent."],
             examinerNote: "B1 for (b).",
           },
@@ -781,7 +781,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Sweat evaporates from the skin, cooling the body back to normal temperature.", working: "\\text{sweat}\\to\\text{cooling}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Producing more sweat to cool the skin",
+            finalAnswer: "**(d)** Producing more sweat to cool the skin",
             examinerNote: "B1 for (a).",
           },
         },
@@ -853,7 +853,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Interdependence means damage in one system reduces oxygen/nutrient supply to cells everywhere.", working: "\\text{knock-on effects}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The systems are interdependent and rely on shared transport and coordination",
+            finalAnswer: "**(c)** The systems are interdependent and rely on shared transport and coordination",
             examinerNote: "B1 for (a).",
           },
         },

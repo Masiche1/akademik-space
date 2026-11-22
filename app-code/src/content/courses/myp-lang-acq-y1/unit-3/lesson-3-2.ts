@@ -70,7 +70,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — subject 'they' requires 'are'.", working: "are", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** are",
+            finalAnswer: "**(a)** are",
             commonErrors: ["Choosing 'is' — that is for he/she/it."],
             examinerNote: "D1 for (b).",
           },
@@ -165,7 +165,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'I am happy'.", working: "am", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** am",
+            finalAnswer: "**(a)** am",
             commonErrors: ["Choosing 'is' — that is for he/she/it."],
             examinerNote: "D1 for (b).",
           },
@@ -261,7 +261,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'they' requires 'are'.", working: "They are friends.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** They are friends.",
+            finalAnswer: "**(d)** They are friends.",
             commonErrors: ["Choosing 'is' — that is for he/she/it."],
             examinerNote: "D1 for (b).",
           },
@@ -288,7 +288,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'is not' keeps correct order.", working: "She is not happy.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** She is not happy.",
+            finalAnswer: "**(c)** She is not happy.",
             commonErrors: ["Putting 'not' before the verb."],
             examinerNote: "D1 for (b).",
           },
@@ -366,7 +366,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Are' comes before 'you' — inverted order.", working: "Are you...", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** It starts with 'Are' before the subject",
+            finalAnswer: "**(c)** It starts with 'Are' before the subject",
             commonErrors: ["Thinking the question mark alone makes it a question — word order matters."],
             examinerNote: "D1 for (a).",
           },
@@ -399,7 +399,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — 'Yes, I have' = yes, I have got a pen.", working: "he has a pen", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** He has a pen",
+            finalAnswer: "**(b)** He has a pen",
             commonErrors: ["Thinking B wants a pen — A asked the question."],
             examinerNote: "A1 for (a).",
           },
@@ -515,7 +515,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'she' requires 'plays' (verb + s).", working: "plays", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** She plays tennis every week.",
+            finalAnswer: "**(a)** She plays tennis every week.",
             commonErrors: ["Choosing (a) — forgetting the -s for 'she'."],
             examinerNote: "D1 for (b).",
           },
@@ -612,7 +612,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'she' requires 'plays'.", working: "plays", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** plays",
+            finalAnswer: "**(c)** plays",
             commonErrors: ["Choosing 'play' — missing the -s for 'she'."],
             examinerNote: "D1 for (b).",
           },
@@ -639,7 +639,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'every day' signals a routine in present simple.", working: "every day", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Every day",
+            finalAnswer: "**(c)** Every day",
             commonErrors: ["Choosing past/future time words."],
             examinerNote: "D1 for (b).",
           },
@@ -714,7 +714,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Does she play' is correct (does + base verb).", working: "Does she play tennis?", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Does she play tennis?",
+            finalAnswer: "**(d)** Does she play tennis?",
             commonErrors: ["Choosing (a) — a statement with a question mark is still wrong."],
             examinerNote: "D1 for (b).",
           },
@@ -741,7 +741,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'he' takes 'doesn't' + base verb 'like'.", working: "He doesn't like milk.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** He doesn't like milk.",
+            finalAnswer: "**(d)** He doesn't like milk.",
             commonErrors: ["'doesn't likes' — double marking is wrong."],
             examinerNote: "D1 for (b).",
           },

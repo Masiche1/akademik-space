@@ -425,7 +425,7 @@ export const lesson313: Lesson = {
               { id: "c", text: "$Br_2 + 2KCl \\rightarrow 2KBr + Cl_2$" },
               { id: "d", text: "$I_2 + 2KBr \\rightarrow 2KI + Br_2$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Displacement", statement: "More reactive halogen displaces less reactive." }],

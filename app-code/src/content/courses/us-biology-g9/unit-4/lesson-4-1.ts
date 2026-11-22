@@ -68,7 +68,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Mutations accumulate after a split, so highly similar DNA indicates a recent split. Habitat, size and diet can be similar in unrelated species through convergent evolution.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Their DNA sequences are very similar.",
+            finalAnswer: "**(a)** Their DNA sequences are very similar.",
             commonErrors: ["Choosing a shared habitat or similar body size, which unrelated species can also share."],
             examinerNote: "B1 for DNA sequence similarity.",
           },
@@ -191,7 +191,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "Individuals change their traits to meet the needs of the environment." },
               { id: "d", text: "All offspring survive to adulthood." },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -200,7 +200,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Selection needs variation that is inherited and that affects fitness. Traits caused only by the environment are not passed on.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Some differences between individuals are heritable and affect survival or reproduction.",
+            finalAnswer: "**(b)** Some differences between individuals are heritable and affect survival or reproduction.",
             commonErrors: ["Choosing (a), the 'need' misconception.", "Choosing (b): natural selection requires that not all offspring survive."],
             examinerNote: "B1 for heritable variation affecting survival.",
           },

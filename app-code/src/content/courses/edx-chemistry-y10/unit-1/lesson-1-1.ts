@@ -69,7 +69,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Liquid particles touch each other but are not held in a lattice, so they can slide past one another.", working: "\\text{close, irregular, moving around each other}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(d)**",
             commonErrors: ["Choosing (a), which describes a solid.", "Choosing (c), which describes a gas.", "Choosing (d), which combines a regular pattern with free movement, which no state has."],
             examinerNote: "B1 for (b).",
           },

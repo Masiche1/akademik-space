@@ -65,7 +65,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Match organ to function.", working: "\\text{testis} \\to \\text{sperm}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Testis",
+            finalAnswer: "**(d)** Testis",
             commonErrors: ["Choosing penis — that's for delivery, not production."],
           },
         },
@@ -160,7 +160,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Recall the hormone made by testes.", working: "\\text{testosterone}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Testosterone",
+            finalAnswer: "**(d)** Testosterone",
             commonErrors: ["Choosing oestrogen/progesterone — those are ovarian hormones."],
           },
         },
@@ -186,7 +186,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Recall the site.", working: "\\text{oviduct}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oviduct (Fallopian tube)",
+            finalAnswer: "**(d)** Oviduct (Fallopian tube)",
             commonErrors: ["Choosing uterus — implantation happens there, fertilisation happens earlier in the oviduct."],
           },
         },
@@ -212,7 +212,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Match structure to function.", working: "\\text{flagellum} \\to \\text{swimming}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Flagellum",
+            finalAnswer: "**(c)** Flagellum",
             commonErrors: ["Choosing acrosome — that contains enzymes to penetrate the egg, not to swim."],
           },
         },
@@ -366,7 +366,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Recall egg structure.", working: "\\text{large + nutrients}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It is large and contains nutrients for early development",
+            finalAnswer: "**(c)** It is large and contains nutrients for early development",
             commonErrors: ["Describing sperm features — flagellum and small size belong to sperm."],
           },
         },
@@ -392,7 +392,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Match function to organ.", working: "\\text{penis} \\to \\text{delivery}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Penis",
+            finalAnswer: "**(c)** Penis",
             commonErrors: ["Choosing sperm duct — it transports sperm but does not deliver them into the female."],
           },
         },
@@ -476,7 +476,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Recall the event.", working: "\\text{egg released}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Release of an egg from the ovary",
+            finalAnswer: "**(c)** Release of an egg from the ovary",
             commonErrors: ["Choosing menstruation — that's lining shedding."],
           },
         },
@@ -571,7 +571,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Recall the phase.", working: "\\text{menstruation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Menstruation",
+            finalAnswer: "**(d)** Menstruation",
             commonErrors: ["Choosing repair — that is when the lining is rebuilt, not shed."],
           },
         },
@@ -597,7 +597,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Match hormone to event.", working: "\\text{LH} \\to \\text{ovulation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** LH",
+            finalAnswer: "**(c)** LH",
             commonErrors: ["Choosing FSH — FSH stimulates egg development earlier in the cycle."],
           },
         },
@@ -623,7 +623,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Recall the definition.", working: "\\text{embed in uterus lining}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The embryo embedding in the lining of the uterus",
+            finalAnswer: "**(b)** The embryo embedding in the lining of the uterus",
             commonErrors: ["Choosing fertilisation — that happens in the oviduct before implantation."],
           },
         },
@@ -787,7 +787,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Recall the order.", working: "\\text{zygote} \\to \\text{embryo} \\to \\text{implantation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Zygote → embryo → implantation",
+            finalAnswer: "**(b)** Zygote → embryo → implantation",
             commonErrors: ["Putting implantation before embryo development — implantation is the last step."],
           },
         },
@@ -813,7 +813,7 @@ export const lesson82: Lesson = {
             steps: [
               { reasoning: "Match hormone to function.", working: "\\text{progesterone} \\to \\text{lining maintained}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Progesterone",
+            finalAnswer: "**(c)** Progesterone",
             commonErrors: ["Choosing oestrogen alone — progesterone is the key hormone for maintaining the lining."],
           },
         },

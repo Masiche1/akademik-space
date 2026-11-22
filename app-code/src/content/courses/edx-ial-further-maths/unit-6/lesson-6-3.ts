@@ -61,7 +61,7 @@ export const lesson63: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Moment of inertia", statement: "$I=mr^2$." }],
             steps: [{ reasoning: "Definition.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $mr^2$",
+            finalAnswer: "**(d)** $mr^2$",
           },
         },
         {

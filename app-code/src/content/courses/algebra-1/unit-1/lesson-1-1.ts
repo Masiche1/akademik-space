@@ -60,7 +60,7 @@ export const lesson11: Lesson = {
               { reasoning: "Distribute, then add 2 to both sides to isolate the variable term.", working: "3x+12-2=19 \\implies 3x+10=19 \\implies 3x=9", marks: 1, markCode: "M" },
               { reasoning: "Divide both sides by 3.", working: "x=3", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $x=3$",
+            finalAnswer: "**(d)** $x=3$",
             commonErrors: ["Distributing 3 to $x$ but not to 4.", "Subtracting 2 from 19 instead of undoing $-2$ by adding 2 to both sides."],
           },
         },

@@ -103,7 +103,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac{5\\pi}{6}$",
+            finalAnswer: "**(c)** $\\frac{5\\pi}{6}$",
             commonErrors: ["Using $\\frac{180}{\\pi}$ the wrong way round."],
           },
         },
@@ -397,7 +397,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $45^\\circ$",
+            finalAnswer: "**(c)** $45^\\circ$",
             commonErrors: [
               "Multiplying by $\\frac{\\pi}{180}$ instead of $\\frac{180}{\\pi}$.",
             ],
@@ -442,7 +442,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $s=r\\theta$",
+            finalAnswer: "**(d)** $s=r\\theta$",
             commonErrors: [
               "Confusing the arc length and sector area formulas.",
             ],
@@ -861,7 +861,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $1$",
+            finalAnswer: "**(a)** $1$",
             commonErrors: [
               "Confusing the identity with the double angle formula $\\sin2\\theta=2\\sin\\theta\\cos\\theta$.",
             ],
@@ -907,7 +907,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(b)**",
             commonErrors: ["Confusing $\\sin2\\theta$ with $\\cos2\\theta$."],
           },
         },
@@ -949,7 +949,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $2\\pi$ cm",
+            finalAnswer: "**(c)** $2\\pi$ cm",
             commonErrors: [
               "Using the sector area formula $\\frac12r^2\\theta$.",
             ],
@@ -995,7 +995,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $1$",
+            finalAnswer: "**(d)** $1$",
             commonErrors: [
               "Adding the angles to get $\\frac{\\pi}{2}$ but then evaluating $\\cos\\frac{\\pi}{2}$ instead of $\\sin\\frac{\\pi}{2}$.",
             ],
@@ -1085,7 +1085,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(c)**",
             commonErrors: ["Choosing the reflection in the $y$-axis (a)."],
           },
         },
@@ -1405,7 +1405,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(b)**",
             commonErrors: [
               "Confusing an enlargement with a stretch in one direction only.",
             ],
@@ -1449,7 +1449,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $(-2,5)$",
+            finalAnswer: "**(d)** $(-2,5)$",
             commonErrors: [
               "Changing the sign of the $y$-coordinate instead (that is reflection in the $x$-axis).",
             ],
@@ -1934,7 +1934,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(d)**",
             commonErrors: [
               "Thinking a negative determinant means areas shrink; only the absolute value matters for area.",
             ],
@@ -1991,7 +1991,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(d)**",
             commonErrors: [
               "Confusing $180^\\circ$ rotation with a reflection.",
             ],
@@ -2036,7 +2036,7 @@ export const lesson33: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $AB$",
+            finalAnswer: "**(d)** $AB$",
             commonErrors: [
               "Writing $BA$, which reverses the order of application.",
             ],

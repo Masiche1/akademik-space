@@ -66,7 +66,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Move the decimal point 4 places right to get 3.2, so the power is $-4$.", working: "3.2\\times10^{-4}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3.2\\times10^{-4}$",
+            finalAnswer: "**(c)** $3.2\\times10^{-4}$",
             commonErrors: ["Counting the zeros (3) rather than the places moved (4).", "Using a positive power."],
           },
         },

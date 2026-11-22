@@ -65,7 +65,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "$3 \\times 100 = 300$ cm.", working: "3\\times100=300", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $300$ cm",
+            finalAnswer: "**(d)** $300$ cm",
             commonErrors: ["Choosing (b) — off by factor of 10."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "$2.5 \\times 1000 = 2500$ m.", working: "2.5\\times1000=2500", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $2500$ m",
+            finalAnswer: "**(a)** $2500$ m",
             commonErrors: ["Choosing (a) — off by factor of 10."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson63: Lesson = {
               { id: "c", text: "$1$ L $= 1$ cm³" },
               { id: "d", text: "$1$ L $= 100$ cm³" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -231,7 +231,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "$1$ litre $= 1000$ cm³.", working: "1000", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $1$ L $= 1000$ cm³",
+            finalAnswer: "**(b)** $1$ L $= 1000$ cm³",
             commonErrors: ["Choosing (a) — off by factor of 10."],
           },
         },
@@ -284,7 +284,7 @@ export const lesson63: Lesson = {
               { id: "c", text: "Milligrams" },
               { id: "d", text: "Kilograms" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -293,7 +293,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Adult mass is best in kilograms.", working: "kg", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Kilograms",
+            finalAnswer: "**(d)** Kilograms",
             commonErrors: ["Choosing (b) — grams give numbers like $70\\,000$."],
           },
         },
@@ -398,7 +398,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "$0.8$ kg $=800$ g $> 750$ g $> 90$ g.", working: "800>750>90", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0.8$ kg",
+            finalAnswer: "**(c)** $0.8$ kg",
             commonErrors: ["Choosing (b) — comparing numbers without converting units."],
           },
         },
@@ -474,7 +474,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "$30 \\div 2 = 15$ km/h.", working: "30\\div2=15", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $15$ km/h",
+            finalAnswer: "**(c)** $15$ km/h",
             commonErrors: ["Choosing (b) — multiplied instead of divided."],
           },
         },
@@ -579,7 +579,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "$100 \\div 20 = 5$ m/s.", working: "100\\div20=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $5$ m/s",
+            finalAnswer: "**(d)** $5$ m/s",
             commonErrors: ["Choosing (b) — that's $100\\div5$, wrong operation."],
           },
         },
@@ -702,7 +702,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "Water density $= 1$ g/cm³.", working: "1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $1$ g/cm³",
+            finalAnswer: "**(c)** $1$ g/cm³",
             commonErrors: ["Choosing (c) — confusing with iron or similar."],
           },
         },
@@ -737,7 +737,7 @@ export const lesson63: Lesson = {
               { id: "c", text: "$200$ km/h" },
               { id: "d", text: "$36$ km/h" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -746,7 +746,7 @@ export const lesson63: Lesson = {
             steps: [
               { reasoning: "$20 \\times 3.6 = 72$ km/h.", working: "20\\times3.6=72", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $72$ km/h",
+            finalAnswer: "**(a)** $72$ km/h",
             commonErrors: ["Choosing (b) — used $\\div3.6$ direction wrongly for m/s→km/h."],
           },
         },

@@ -97,7 +97,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Waiting for others to act first" },
               { id: "d", text: "Preferring guaranteed salaries" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -121,7 +121,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Taking calculated risks",
+            finalAnswer: "**(b)** Taking calculated risks",
             commonErrors: [
               "Confusing entrepreneurs with managers — managers may not own or risk capital.",
             ],
@@ -326,7 +326,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Lends money to businesses" },
               { id: "d", text: "Manages an existing business for a salary" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -351,7 +351,7 @@ export const lesson13: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Identifies opportunities, takes risks and organises resources",
+              "**(b)** Identifies opportunities, takes risks and organises resources",
             commonErrors: [
               "Confusing entrepreneurs with managers or investors.",
             ],
@@ -399,7 +399,7 @@ export const lesson13: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Develop enterprise skills and awareness of business opportunities",
+              "**(c)** Develop enterprise skills and awareness of business opportunities",
             commonErrors: [
               "Thinking enterprise education guarantees success — it builds skills, not outcomes.",
             ],
@@ -447,7 +447,7 @@ export const lesson13: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Employees acting entrepreneurially inside an established firm",
+              "**(a)** Employees acting entrepreneurially inside an established firm",
             commonErrors: [
               "Confusing intrapreneurship with starting an independent business.",
             ],
@@ -543,7 +543,7 @@ export const lesson13: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Most entrepreneurs fail several times before succeeding",
+              "**(d)** Most entrepreneurs fail several times before succeeding",
             commonErrors: [
               "Thinking resilience means never failing — it means recovering from failure.",
             ],
@@ -1036,7 +1036,7 @@ export const lesson13: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Cash-flow forecast",
+            finalAnswer: "**(c)** Cash-flow forecast",
             commonErrors: [
               "Choosing profit forecast — profit ignores timing of cash.",
             ],
@@ -1262,7 +1262,7 @@ export const lesson13: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A document setting out objectives, strategies, finances and forecasts",
+              "**(c)** A document setting out objectives, strategies, finances and forecasts",
             commonErrors: [
               "Confusing a business plan with an accounting document.",
             ],

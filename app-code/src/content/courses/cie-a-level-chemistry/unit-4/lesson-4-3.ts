@@ -1199,7 +1199,7 @@ export const lesson413: Lesson = {
               { id: "c", text: "dm$^9$ mol$^{-3}$ s$^{-1}$" },
               { id: "d", text: "dm$^6$ mol$^{-2}$ s$^{-1}$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

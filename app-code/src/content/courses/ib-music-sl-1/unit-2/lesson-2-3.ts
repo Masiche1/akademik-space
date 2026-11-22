@@ -118,7 +118,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Give voice to dissent and challenge authority",
+              "**(d)** Give voice to dissent and challenge authority",
             commonErrors: [
               "Confusing protest music with entertainment or propaganda.",
             ],
@@ -387,7 +387,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The suppression or restriction of musical works for political, moral or religious reasons",
+              "**(c)** The suppression or restriction of musical works for political, moral or religious reasons",
             commonErrors: [
               "Confusing censorship with ordinary editorial or broadcasting decisions.",
             ],
@@ -477,7 +477,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Giving collective voice to dissent and shared grievance",
+              "**(a)** Giving collective voice to dissent and shared grievance",
             commonErrors: [
               "Confusing protest music with patriotic or ceremonial music.",
             ],
@@ -524,7 +524,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Censorship creates forbidden-fruit appeal and may drive the music underground or into coded forms",
+              "**(a)** Censorship creates forbidden-fruit appeal and may drive the music underground or into coded forms",
             commonErrors: [
               "Assuming official bans effectively suppress musical dissent.",
             ],
@@ -571,7 +571,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Mobilising populations and projecting state power and discipline",
+              "**(c)** Mobilising populations and projecting state power and discipline",
             commonErrors: [
               "Treating marches as purely ceremonial without political function.",
             ],
@@ -1250,7 +1250,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Personal identity, values and social belonging",
+              "**(a)** Personal identity, values and social belonging",
             commonErrors: [
               "Treating taste as a neutral preference without social signalling.",
             ],
@@ -1297,7 +1297,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Adopting another group's musical traditions without credit, understanding or benefit to that community",
+              "**(a)** Adopting another group's musical traditions without credit, understanding or benefit to that community",
             commonErrors: [
               "Equating all cross-cultural borrowing with appropriation.",
             ],
@@ -1340,7 +1340,7 @@ export const lesson23: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Collective national identity and belonging",
+            finalAnswer: "**(a)** Collective national identity and belonging",
             commonErrors: [
               "Confusing national identity expression with individual taste expression.",
             ],
@@ -1387,7 +1387,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** New musical identities through respectful exchange between traditions",
+              "**(c)** New musical identities through respectful exchange between traditions",
             commonErrors: ["Confusing hybridity with appropriation."],
           },
         },
@@ -1432,7 +1432,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** 'Who profits, who is represented, and who gets to define the meaning?'",
+              "**(d)** 'Who profits, who is represented, and who gets to define the meaning?'",
             commonErrors: [
               "Reducing appropriation debates to commercial or legal questions.",
             ],
@@ -1479,7 +1479,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Preserve cultural memory and communal tradition",
+              "**(d)** Preserve cultural memory and communal tradition",
             commonErrors: [
               "Treating folk music as merely old-fashioned popular music.",
             ],

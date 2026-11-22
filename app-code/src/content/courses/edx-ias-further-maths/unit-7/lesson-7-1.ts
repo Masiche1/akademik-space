@@ -66,7 +66,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "$\\frac{3+7+8+10+12}{5}=\\frac{40}{5}=8$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $8$",
+            finalAnswer: "**(b)** $8$",
             commonErrors: ["Forgetting to divide by $n$."],
           },
         },

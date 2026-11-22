@@ -94,7 +94,7 @@ export const lesson513: Lesson = {
             steps: [
               { reasoning: "Reverse of respiration.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 6CO₂+6H₂O+light→C₆H₁₂O₆+6O₂",
+            finalAnswer: "**(d)** 6CO₂+6H₂O+light→C₆H₁₂O₆+6O₂",
             commonErrors: ["Confusing with respiration (reversed)."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson513: Lesson = {
             steps: [
               { reasoning: "Photosynthesis occurs in chloroplasts.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Chloroplast",
+            finalAnswer: "**(b)** Chloroplast",
             commonErrors: ["Confusing chloroplasts with mitochondria."],
           },
         },
@@ -278,7 +278,7 @@ export const lesson513: Lesson = {
             steps: [
               { reasoning: "Thylakoids contain the photosynthetic pigments and electron transport components.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Thylakoid membranes",
+            finalAnswer: "**(c)** Thylakoid membranes",
             commonErrors: ["Placing light reactions in the stroma."],
           },
         },
@@ -308,7 +308,7 @@ export const lesson513: Lesson = {
             steps: [
               { reasoning: "Oxygen comes from water, not carbon dioxide.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Photolysis of water",
+            finalAnswer: "**(c)** Photolysis of water",
             commonErrors: ["Saying oxygen comes from $CO_2$."],
           },
         },
@@ -338,7 +338,7 @@ export const lesson513: Lesson = {
             steps: [
               { reasoning: "RuBisCO is the $CO_2$-fixing enzyme.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** RuBisCO",
+            finalAnswer: "**(b)** RuBisCO",
             commonErrors: ["Confusing RuBisCO with digestive enzymes."],
           },
         },
@@ -368,7 +368,7 @@ export const lesson513: Lesson = {
             steps: [
               { reasoning: "ATP and NADPH supply energy and reducing power to Calvin cycle.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** ATP and NADPH",
+            finalAnswer: "**(b)** ATP and NADPH",
             commonErrors: ["Saying glucose is produced directly in light reactions."],
           },
         },
@@ -398,7 +398,7 @@ export const lesson513: Lesson = {
             steps: [
               { reasoning: "Light products provide energy and reducing equivalents.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Uses ATP and NADPH",
+            finalAnswer: "**(b)** Uses ATP and NADPH",
             commonErrors: ["Thinking Calvin cycle is independent of light reactions."],
           },
         },
@@ -616,7 +616,7 @@ export const lesson513: Lesson = {
             steps: [
               { reasoning: "Three correct factors.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Light, CO₂, temperature",
+            finalAnswer: "**(c)** Light, CO₂, temperature",
             commonErrors: ["Listing nutrients instead."],
           },
         },
@@ -790,7 +790,7 @@ export const lesson513: Lesson = {
             steps: [
               { reasoning: "Soil colour is not a standard limiting factor.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Soil colour",
+            finalAnswer: "**(b)** Soil colour",
             commonErrors: ["Listing nutrients as direct limiting factors."],
           },
         },
@@ -820,7 +820,7 @@ export const lesson513: Lesson = {
             steps: [
               { reasoning: "Broad leaves capture more light.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Broad flat surface",
+            finalAnswer: "**(d)** Broad flat surface",
             commonErrors: ["Focusing only on thickness."],
           },
         },
@@ -850,7 +850,7 @@ export const lesson513: Lesson = {
             steps: [
               { reasoning: "$CO_2$ enters and $O_2$/water vapour leave through stomata.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Gas exchange",
+            finalAnswer: "**(d)** Gas exchange",
             commonErrors: ["Saying stomata absorb light."],
           },
         },
@@ -910,7 +910,7 @@ export const lesson513: Lesson = {
             steps: [
               { reasoning: "Denaturation reduces enzyme activity and rate.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Enzymes denature",
+            finalAnswer: "**(b)** Enzymes denature",
             commonErrors: ["Assuming higher temperature always increases rate."],
           },
         },
@@ -940,7 +940,7 @@ export const lesson513: Lesson = {
             steps: [
               { reasoning: "Gas exchange or product formation indicates rate.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $O_2$ production or $CO_2$ uptake",
+            finalAnswer: "**(c)** $O_2$ production or $CO_2$ uptake",
             commonErrors: ["Measuring only light intensity."],
           },
         },

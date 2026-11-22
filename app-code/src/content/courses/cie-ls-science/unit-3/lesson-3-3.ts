@@ -65,7 +65,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Pollination = pollen moving to stigma.", working: "pollen→stigma", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Transfer of pollen to stigma",
+            finalAnswer: "**(b)** Transfer of pollen to stigma",
             commonErrors: ["Choosing (b) — germination is seed sprouting, different stage."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Anther", statement: "The anther produces pollen grains." }],
             steps: [{ reasoning: "Anther is part of the stamen and makes pollen.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** To produce pollen",
+            finalAnswer: "**(b)** To produce pollen",
           },
         },
         {
@@ -213,7 +213,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Fruit formation", statement: "The ovary develops into fruit." }],
             steps: [{ reasoning: "Ovary wall becomes fruit wall and protects seeds.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Fruit",
+            finalAnswer: "**(b)** Fruit",
           },
         },
         {
@@ -261,7 +261,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Stigma", statement: "The stigma is sticky and receives pollen." }],
             steps: [{ reasoning: "Stigma is the receptive part of the carpel.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** To receive pollen",
+            finalAnswer: "**(c)** To receive pollen",
           },
         },
         {
@@ -294,7 +294,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Cross-pollination", statement: "Cross-pollination mixes genetic material between plants." }],
             steps: [{ reasoning: "Mixing pollen from different plants increases variation.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** It can increase genetic variation",
+            finalAnswer: "**(d)** It can increase genetic variation",
           },
         },
         {
@@ -342,7 +342,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Pollen tube", statement: "The pollen tube carries male gametes to the ovule." }],
             steps: [{ reasoning: "Pollen tube grows through the style.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Pollen tube",
+            finalAnswer: "**(b)** Pollen tube",
           },
         },
       ],
@@ -397,7 +397,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Photo = light; tropism = directional growth.", working: "towards light", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Growth towards light",
+            finalAnswer: "**(d)** Growth towards light",
             commonErrors: ["Choosing (b) — that's negative phototropism (rare)."],
           },
         },
@@ -498,7 +498,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Geotropism", statement: "Geotropism is a directional growth response to gravity." }],
             steps: [{ reasoning: "Geo refers to gravity or earth direction.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Growth response to gravity",
+            finalAnswer: "**(c)** Growth response to gravity",
           },
         },
         {
@@ -545,7 +545,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Auxin", statement: "Auxin accumulates on the shaded side of a shoot." }],
             steps: [{ reasoning: "Shaded-side cells elongate more, causing bending.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** On the shaded side",
+            finalAnswer: "**(d)** On the shaded side",
           },
         },
         {
@@ -593,7 +593,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Thigmotropism", statement: "Thigmotropism is response to touch." }],
             steps: [{ reasoning: "Touch on the tendril causes curling.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Thigmotropism",
+            finalAnswer: "**(c)** Thigmotropism",
           },
         },
         {
@@ -626,7 +626,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Negative geotropism", statement: "Negative geotropism is growth away from gravity." }],
             steps: [{ reasoning: "Shoots grow upward, away from gravitational pull.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Shoot growing upwards away from gravity",
+            finalAnswer: "**(d)** Shoot growing upwards away from gravity",
           },
         },
         {
@@ -674,7 +674,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Tropism", statement: "Tropisms are directional growth responses." }],
             steps: [{ reasoning: "Plants grow directionally in response to stimuli.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** A directional growth response to a stimulus",
+            finalAnswer: "**(c)** A directional growth response to a stimulus",
           },
         },
       ],

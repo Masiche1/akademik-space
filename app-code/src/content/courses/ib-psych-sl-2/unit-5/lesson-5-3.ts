@@ -121,7 +121,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Negative symptoms",
+            finalAnswer: "**(d)** Negative symptoms",
             commonErrors: [
               "Confusing negative symptoms (deficits) with positive symptoms (excesses).",
             ],
@@ -361,7 +361,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** False perceptions without external stimulus",
+            finalAnswer: "**(b)** False perceptions without external stimulus",
             commonErrors: [
               "Confusing hallucinations (perception) with delusions (belief).",
             ],
@@ -409,7 +409,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Loss of motivation and goal-directed behaviour",
+              "**(d)** Loss of motivation and goal-directed behaviour",
             commonErrors: [
               "Confusing avolition (motivation deficit) with alogia (speech poverty).",
             ],
@@ -500,7 +500,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Blocking dopamine receptors",
+            finalAnswer: "**(d)** Blocking dopamine receptors",
             commonErrors: [
               "Confusing antipsychotics with SSRIs which target serotonin.",
             ],
@@ -551,7 +551,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Critical, hostile or over-involved family climates",
+              "**(a)** Critical, hostile or over-involved family climates",
             commonErrors: [
               "Confusing expressed emotion with general family conflict — it is a specific measured construct.",
             ],
@@ -595,7 +595,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Dramatic, emotional and erratic patterns",
+            finalAnswer: "**(a)** Dramatic, emotional and erratic patterns",
             commonErrors: [
               "Confusing Cluster B (dramatic) with Cluster C (anxious).",
             ],
@@ -1090,7 +1090,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Increasing serotonin availability",
+            finalAnswer: "**(c)** Increasing serotonin availability",
             commonErrors: [
               "Confusing SSRIs (serotonin) with antipsychotics (dopamine).",
             ],
@@ -1327,7 +1327,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Specific phobias",
+            finalAnswer: "**(d)** Specific phobias",
             commonErrors: [
               "Confusing with ERP — desensitisation uses relaxation, ERP uses response prevention.",
             ],
@@ -1371,7 +1371,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Antipsychotic medication",
+            finalAnswer: "**(c)** Antipsychotic medication",
             commonErrors: [
               "Attributing it to SSRIs — it is a dopamine-blocker side effect.",
             ],
@@ -1419,7 +1419,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Supporting patients in their own environments",
+              "**(a)** Supporting patients in their own environments",
             commonErrors: [
               "Confusing community care with institutionalisation — it is the opposite.",
             ],
@@ -1463,7 +1463,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Severe treatment-resistant depression",
+            finalAnswer: "**(a)** Severe treatment-resistant depression",
             commonErrors: [
               "Thinking ECT is a first-line treatment — it is reserved for severe cases.",
             ],
@@ -1511,7 +1511,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Increasing engagement in rewarding activities",
+              "**(a)** Increasing engagement in rewarding activities",
             commonErrors: [
               "Confusing with cognitive restructuring — BA targets behaviour, not thoughts directly.",
             ],

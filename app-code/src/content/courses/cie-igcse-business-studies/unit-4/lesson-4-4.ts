@@ -187,7 +187,7 @@ export const lesson44: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Leader makes all decisions alone",
+        finalAnswer: "**(c)** Leader makes all decisions alone",
       },
     },
     {
@@ -221,7 +221,7 @@ export const lesson44: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Job analysis — defining the role's requirements",
+        finalAnswer: "**(a)** Job analysis — defining the role's requirements",
       },
     },
     {
@@ -407,7 +407,7 @@ export const lesson44: Lesson = {
           { id: "c", text: "Democratic" },
           { id: "d", text: "Laissez-faire" },
         ],
-        dorrectChoiceId: "c",
+        correctChoiceId: "d",
       },
       markscheme: {
         principles: [
@@ -425,7 +425,7 @@ export const lesson44: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(c)** Laissez-faire",
+        finalAnswer: "**(d)** Laissez-faire",
       },
     },
     {
@@ -705,7 +705,7 @@ export const lesson44: Lesson = {
           },
         ],
         finalAnswer:
-          "**(b)** Introducing new employees to the organisation and their role",
+          "**(a)** Introducing new employees to the organisation and their role",
       },
     },
     {

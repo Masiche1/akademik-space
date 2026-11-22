@@ -69,7 +69,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Plants take in carbon dioxide and water and, using light energy, make glucose and release oxygen.", working: "\\text{CO}_2 + \\text{H}_2\\text{O} \\rightarrow \\text{glucose} + \\text{O}_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)**",
+            finalAnswer: "**(c)**",
             commonErrors: ["Choosing (b), which is the reverse reaction: aerobic respiration.", "Thinking oxygen is a reactant because plants 'need' it."],
             examinerNote: "B1 for (a).",
           },
@@ -196,7 +196,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Xylem" },
               { id: "d", text: "Spongy mesophyll" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -205,7 +205,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "The palisade cells are packed with chloroplasts and sit near the top of the leaf to absorb the most light.", working: "\\text{palisade mesophyll}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Palisade mesophyll",
+            finalAnswer: "**(a)** Palisade mesophyll",
             commonErrors: ["Choosing the spongy mesophyll, which has some chloroplasts but mainly has air spaces for gas diffusion.", "Choosing the upper epidermis because it is nearest the light, but it is transparent and has few or no chloroplasts."],
             examinerNote: "B1 for palisade mesophyll.",
           },

@@ -61,7 +61,7 @@ export const lesson51: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Kinematics", statement: "$v=\\int a\\,dt+C$." }],
             steps: [{ reasoning: "Acceleration is derivative of velocity.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** integrating",
+            finalAnswer: "**(d)** integrating",
           },
         },
         {
@@ -177,7 +177,7 @@ export const lesson51: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Chain rule", statement: "$\\frac{dv}{dt}=\\frac{dv}{ds}\\cdot\\frac{ds}{dt}=v\\frac{dv}{ds}$." }],
             steps: [{ reasoning: "Direct application.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** chain rule",
+            finalAnswer: "**(c)** chain rule",
           },
         },
         {

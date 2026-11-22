@@ -64,7 +64,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Evaporation needs thermal energy, which comes from the Sun.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Energy from the Sun",
+            finalAnswer: "**(d)** Energy from the Sun",
             commonErrors: ["Choosing gravity, which pulls precipitation and runoff downward but does not evaporate water."],
             examinerNote: "B1 for the Sun.",
           },
@@ -199,7 +199,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Low pressure means air is rising, which cools and forms clouds and precipitation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Clouds and precipitation",
+            finalAnswer: "**(a)** Clouds and precipitation",
             commonErrors: ["Choosing (a), which describes high pressure with sinking air."],
             examinerNote: "B1 for (b).",
           },

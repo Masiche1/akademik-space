@@ -61,7 +61,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "u", statement: "Initial velocity." }],
             steps: [{ reasoning: "Recall.", working: "u = u_{initial}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Initial velocity",
+            finalAnswer: "**(a)** Initial velocity",
             commonErrors: ["u vs v confusion."],
           },
         },
@@ -141,7 +141,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "s", statement: "Distance (displacement) travelled." }],
             steps: [{ reasoning: "Recall.", working: "s = \\text{distance}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Distance travelled",
+            finalAnswer: "**(b)** Distance travelled",
             commonErrors: ["Confusing s with speed — different quantities."],
           },
         },
@@ -191,7 +191,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "a=(v−u)/t", statement: "a = (5−25)/10 = −2 m/s²." }],
             steps: [{ reasoning: "Calculate.", working: "a = \\frac{5-25}{10} = -2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $-2\\ \\text{m/s}^2$",
+            finalAnswer: "**(b)** $-2\\ \\text{m/s}^2$",
             commonErrors: ["Ignoring the sign — slowing down is negative acceleration."],
           },
         },
@@ -240,11 +240,11 @@ export const lessonp13: Lesson = {
             { id: "b", text: "$s = \\tfrac{1}{2}(u+v)t$" },
             { id: "c", text: "$v = u + at$" },
             { id: "d", text: "$s = ut + \\tfrac{1}{2}at^2$" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "formula", name: "Suvat choice", statement: "Pick equation containing only known and unknown variables." }],
             steps: [{ reasoning: "s=½(u+v)t uses u,v,t only.", working: "s = \\tfrac{1}{2}(u+v)t", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** $s = \\tfrac{1}{2}(u+v)t$",
+            finalAnswer: "**(b)** $s = \\tfrac{1}{2}(u+v)t$",
             commonErrors: ["Choosing an equation that still contains the unknown a."],
           },
         },
@@ -301,7 +301,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Vertical throw", statement: "v = 0 momentarily at maximum height." }],
             steps: [{ reasoning: "Ball stops rising momentarily.", working: "v = 0 \\text{ at top}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Zero",
+            finalAnswer: "**(d)** Zero",
             commonErrors: ["Confusing velocity with acceleration — acceleration is still g downward."],
           },
         },
@@ -479,7 +479,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "d-t graph", statement: "Horizontal = no change in distance = stationary." }],
             steps: [{ reasoning: "No change in position.", working: "\\text{gradient} = 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Stationary",
+            finalAnswer: "**(b)** Stationary",
             commonErrors: ["Confusing horizontal d-t line with horizontal v-t line."],
           },
         },
@@ -529,7 +529,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "v-t graph", statement: "Horizontal = zero gradient = constant velocity." }],
             steps: [{ reasoning: "Zero gradient.", working: "a = 0 \\Rightarrow v \\text{ constant}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Constant velocity",
+            finalAnswer: "**(a)** Constant velocity",
             commonErrors: ["Confusing with distance–time horizontal line (stationary)."],
           },
         },
@@ -585,7 +585,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "d-t graph", statement: "Steeper gradient = greater speed." }],
             steps: [{ reasoning: "Increasing gradient.", working: "\\text{steeper} \\Rightarrow \\text{faster}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Speeding up",
+            finalAnswer: "**(a)** Speeding up",
             commonErrors: ["Confusing gradient with the line itself."],
           },
         },
@@ -642,7 +642,7 @@ export const lessonp13: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "v-t graph", statement: "Below axis = negative velocity (opposite direction)." }],
             steps: [{ reasoning: "Negative region.", working: "v < 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The velocity is negative",
+            finalAnswer: "**(c)** The velocity is negative",
             commonErrors: ["Thinking below axis means stopped — it means moving backward."],
           },
         },

@@ -108,7 +108,7 @@ export const lesson52: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Schools should delay start times.",
+            finalAnswer: "**(a)**. Schools should delay start times.",
             commonErrors: [
               "Choosing (c) — sleep is supporting evidence, not the claim.",
             ],
@@ -344,7 +344,7 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Value judgment — frames benefits as more important.",
+              "**(d)**. Value judgment — frames benefits as more important.",
             commonErrors: ["Choosing (a) — it's persuasive, not just factual."],
           },
         },

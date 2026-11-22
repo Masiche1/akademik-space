@@ -179,7 +179,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Poisson moments", statement: "$E=\\text{Var}=\\lambda$." }],
             steps: [{ reasoning: "Standard result.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\lambda$",
+            finalAnswer: "**(c)** $\\lambda$",
           },
         },
         {

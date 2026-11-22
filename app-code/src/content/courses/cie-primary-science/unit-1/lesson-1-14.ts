@@ -122,7 +122,7 @@ export const lesson114: Lesson = {
             { id: "b", text: "A torch" },
             { id: "c", text: "A candle" },
             { id: "d", text: "The Moon" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Light source", statement: "Makes its own light." }],
             steps: [{ reasoning: "The Moon reflects sunlight — it is not a source.", marks: 1, markCode: "A" }],

@@ -227,7 +227,7 @@ export const lesson71: Lesson = {
               { id: "c", text: "Rectangle" },
               { id: "d", text: "Oval" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -236,7 +236,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "The oval terminator shows where the algorithm begins or ends.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** Oval",
+            finalAnswer: "**(d)** Oval",
           },
         },
         {
@@ -261,7 +261,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "A rectangle contains an action or calculation in a flowchart.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Rectangle",
+            finalAnswer: "**(d)** Rectangle",
           },
         },
         {
@@ -277,7 +277,7 @@ export const lesson71: Lesson = {
               { id: "c", text: "Oval" },
               { id: "d", text: "Diamond" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -286,7 +286,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "The parallelogram is used for data entering or leaving the algorithm.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** Parallelogram",
+            finalAnswer: "**(a)** Parallelogram",
           },
         },
         {
@@ -311,7 +311,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "IF/ELSE chooses between alternatives based on a condition.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Selection",
+            finalAnswer: "**(d)** Selection",
           },
         },
         {
@@ -336,7 +336,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Decomposition makes large problems easier to design and test.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** Breaking into sub-problems",
+            finalAnswer: "**(c)** Breaking into sub-problems",
           },
         },
         {
@@ -352,7 +352,7 @@ export const lesson71: Lesson = {
               { id: "c", text: "END" },
               { id: "d", text: "INPUT" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -361,7 +361,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "FOR loops repeat a block for a counted range of values.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(c)** FOR ... TO ... DO",
+            finalAnswer: "**(a)** FOR ... TO ... DO",
           },
         },
         {

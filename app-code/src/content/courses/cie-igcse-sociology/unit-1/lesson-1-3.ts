@@ -539,7 +539,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "Symbolic interactionism" },
               { id: "d", text: "Functionalism" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

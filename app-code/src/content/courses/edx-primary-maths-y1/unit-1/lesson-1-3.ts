@@ -90,7 +90,7 @@ export const lesson13: Lesson = {
               },
             ],
             steps: [{ reasoning: "7 + 7 = 14.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 14",
+            finalAnswer: "**(c)** 14",
             commonErrors: [
               "Adding 2 instead of the number itself (7 + 2 = 9).",
             ],
@@ -325,7 +325,7 @@ export const lesson13: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** 6",
+            finalAnswer: "**(d)** 6",
             commonErrors: ["Answering 5 — counting on one too few."],
           },
         },

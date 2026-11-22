@@ -68,7 +68,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Electron" },
               { id: "d", text: "Neutron" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -81,7 +81,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Proton positive.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** Proton",
+            finalAnswer: "**(b)** Proton",
             commonErrors: ["Confusing charges."],
           },
         },

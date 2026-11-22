@@ -60,7 +60,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Zinc" },
               { id: "d", text: "Aluminium" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -69,7 +69,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Aluminium is above carbon in the reactivity series, so carbon cannot remove its oxygen. Iron, zinc and copper are below carbon.", working: "\\text{aluminium}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Aluminium",
+            finalAnswer: "**(d)** Aluminium",
             commonErrors: ["Choosing iron because it is a very common metal that is extracted in industry."],
             examinerNote: "B1 for (c).",
           },
@@ -205,7 +205,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Rusting is oxidation of iron, which requires oxygen and water.", working: "\\text{oxygen and water}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Oxygen and water",
+            finalAnswer: "**(c)** Oxygen and water",
             commonErrors: ["Choosing (d): salt speeds rusting up but is not essential."],
             examinerNote: "B1 for (a).",
           },

@@ -59,7 +59,7 @@ export const lesson43: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Retrosynthesis", statement: "Work backwards to plan route." }],
             steps: [{ reasoning: "Identify target → work back to starting material.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Planning backwards",
+            finalAnswer: "**(a)** Planning backwards",
           },
         },
         {

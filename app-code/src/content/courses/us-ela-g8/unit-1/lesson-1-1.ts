@@ -449,7 +449,7 @@ export const lesson11: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. The story follows slow recovery through patient care. (b) is a minor detail, and (c) and (d) are not developed across the story.",
+              "**(c)**. The story follows slow recovery through patient care. (b) is a minor detail, and (c) and (d) are not developed across the story.",
             commonErrors: [
               "Choosing a plot detail instead of a message about life.",
             ],
@@ -481,7 +481,7 @@ export const lesson11: Lesson = {
                 text: "It shows that early progress is small and discouraging, which makes the later recovery feel earned and supports the idea that results take time.",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -509,7 +509,7 @@ export const lesson11: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)**. The weak spring shows how slowly recovery begins, so the later success supports the theme. (a) contradicts the ending, (b) is unsupported, and (d) is not in the passage.",
+              "**(d)**. The weak spring shows how slowly recovery begins, so the later success supports the theme. (a) contradicts the ending, (b) is unsupported, and (d) is not in the passage.",
             commonErrors: [
               "Choosing (a) after reading only the discouraging detail and ignoring the ending.",
             ],

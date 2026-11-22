@@ -92,7 +92,7 @@ export const lesson72: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Decline of religious influence in society",
+            finalAnswer: "**(c)** Decline of religious influence in society",
             commonErrors: ["Confusing with secularism."],
           },
         },
@@ -244,7 +244,7 @@ export const lesson72: Lesson = {
               { id: "c", text: "Durkheim" },
               { id: "d", text: "Wilson" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -261,7 +261,7 @@ export const lesson72: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(c)** Wilson",
+            finalAnswer: "**(d)** Wilson",
             commonErrors: ["Confusing with other theorists."],
           },
         },
@@ -448,7 +448,7 @@ export const lesson72: Lesson = {
                 text: "Religion remains politically influential and new movements are growing",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -466,7 +466,7 @@ export const lesson72: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Religion remains politically influential and new movements are growing",
+              "**(d)** Religion remains politically influential and new movements are growing",
             commonErrors: ["Confusing with evidence for."],
           },
         },
@@ -538,7 +538,7 @@ export const lesson72: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Religion can remain or grow strong",
+              "**(c)** Religion can remain or grow strong",
             commonErrors: ["Misreading the point."],
           },
         },
@@ -651,7 +651,7 @@ export const lesson72: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Religion remains influential despite secularisation",
+              "**(a)** Religion remains influential despite secularisation",
             commonErrors: ["Confusing with secularisation."],
           },
         },
@@ -762,7 +762,7 @@ export const lesson72: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Individuals pick and mix beliefs like consumers",
+              "**(c)** Individuals pick and mix beliefs like consumers",
             commonErrors: ["Literal interpretation."],
           },
         },
@@ -947,7 +947,7 @@ export const lesson72: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Eclectic, individualistic spirituality",
+              "**(a)** Eclectic, individualistic spirituality",
             commonErrors: ["Confusing with organised religion."],
           },
         },
@@ -1073,7 +1073,7 @@ export const lesson72: Lesson = {
               { id: "c", text: "Accepting patriarchy" },
               { id: "d", text: "Removing sacred texts" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1091,7 +1091,7 @@ export const lesson72: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Questioning male dominance in religious institutions",
+              "**(a)** Questioning male dominance in religious institutions",
             commonErrors: ["Confusing with anti-religion."],
           },
         },
@@ -1142,7 +1142,7 @@ export const lesson72: Lesson = {
               { id: "c", text: "A neutral academic term" },
               { id: "d", text: "A legal term" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1160,7 +1160,7 @@ export const lesson72: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Applied pejoratively to unfamiliar groups",
+              "**(b)** Applied pejoratively to unfamiliar groups",
             commonErrors: ["Taking label literally."],
           },
         },
@@ -1217,7 +1217,7 @@ export const lesson72: Lesson = {
               { id: "c", text: "Strict doctrine" },
               { id: "d", text: "Centralised authority" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1235,7 +1235,7 @@ export const lesson72: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Individual choice and personal spirituality",
+              "**(a)** Individual choice and personal spirituality",
             commonErrors: ["Confusing with fundamentalism."],
           },
         },
@@ -1335,7 +1335,7 @@ export const lesson72: Lesson = {
               { id: "c", text: "Male-only clergy" },
               { id: "d", text: "Removing sacred texts" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1352,7 +1352,7 @@ export const lesson72: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(c)** Ordaining women as leaders",
+            finalAnswer: "**(b)** Ordaining women as leaders",
             commonErrors: ["Assuming all religion is patriarchal."],
           },
         },

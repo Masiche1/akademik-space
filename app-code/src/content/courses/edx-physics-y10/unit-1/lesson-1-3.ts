@@ -68,7 +68,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Mass in kg multiplied by velocity in m/s gives kg m/s. N m is the unit of a moment; $\\text{kg m/s}^2$ is equivalent to a newton.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\text{kg m/s}$",
+            finalAnswer: "**(d)** $\\text{kg m/s}$",
             commonErrors: ["Choosing $\\text{kg m/s}^2$, which is a force unit (N)."],
             examinerNote: "B1 for (a). Allow Ns in other contexts, but only (a) is offered here.",
           },
@@ -208,7 +208,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Force in newtons multiplied by distance in metres gives newton metres. N/m is the unit of the spring constant.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\text{N m}$",
+            finalAnswer: "**(c)** $\\text{N m}$",
             commonErrors: ["Choosing $\\text{N/m}$, the spring constant unit."],
             examinerNote: "B1 for (b).",
           },

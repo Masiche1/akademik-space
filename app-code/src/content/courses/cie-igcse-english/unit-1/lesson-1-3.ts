@@ -436,7 +436,7 @@ export const lesson13: Lesson = {
             { id: "b", text: "Caught the bus" },
             { id: "c", text: "Got dressed" },
             { id: "d", text: "Woke at six" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "skill", name: "Sequencing", statement: "Identify first event." }],
             steps: [

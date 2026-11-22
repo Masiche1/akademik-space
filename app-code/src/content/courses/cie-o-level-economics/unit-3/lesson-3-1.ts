@@ -45,7 +45,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Total output" },
             { id: "d", text: "Number of workers" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Productivity", statement: "Output/input." }], steps: [{ reasoning: "Efficiency measure.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Productivity", statement: "Output/input." }], steps: [{ reasoning: "Efficiency measure.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u3-prod-q2", difficulty: "core", totalMarks: 2,
@@ -102,7 +102,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Packaging materials" },
             { id: "d", text: "The size of the factory" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Fixed factor", statement: "Does not change with output." }], steps: [{ reasoning: "Factory size stays constant regardless of output.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Fixed factor", statement: "Does not change with output." }], steps: [{ reasoning: "Factory size stays constant regardless of output.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u3-prod-q6", difficulty: "foundation", totalMarks: 1,
@@ -113,7 +113,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Factory buildings" },
             { id: "d", text: "Labour" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Variable factor", statement: "Changes with output." }], steps: [{ reasoning: "Labour can be increased or decreased with output.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Variable factor", statement: "Changes with output." }], steps: [{ reasoning: "Labour can be increased or decreased with output.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u3-prod-q7", difficulty: "core", totalMarks: 1,
@@ -146,7 +146,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Technology always deteriorates" },
             { id: "d", text: "Demand for the product always falls" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Diminishing returns", statement: "Fixed factor constraint." }], steps: [{ reasoning: "Extra variable inputs have fewer fixed resources to work with.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Diminishing returns", statement: "Fixed factor constraint." }], steps: [{ reasoning: "Extra variable inputs have fewer fixed resources to work with.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u3-prod-q10", difficulty: "foundation", totalMarks: 1,
@@ -317,7 +317,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Raw materials" },
             { id: "d", text: "Packaging" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Fixed costs", statement: "Constant with output." }], steps: [{ reasoning: "Rent is paid regardless of how much is produced.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Fixed costs", statement: "Constant with output." }], steps: [{ reasoning: "Rent is paid regardless of how much is produced.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u3-co-q6", difficulty: "foundation", totalMarks: 1,
@@ -339,7 +339,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Price × quantity" },
             { id: "d", text: "Fixed costs + variable costs" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Total cost", statement: "FC + VC." }], steps: [{ reasoning: "Total cost combines all fixed and variable costs.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Total cost", statement: "FC + VC." }], steps: [{ reasoning: "Total cost combines all fixed and variable costs.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u3-co-q8", difficulty: "core", totalMarks: 1,
@@ -350,7 +350,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Variable cost × quantity" },
             { id: "d", text: "Fixed cost / quantity" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Average cost", statement: "TC / Q." }], steps: [{ reasoning: "Average cost is the cost per unit of output.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Average cost", statement: "TC / Q." }], steps: [{ reasoning: "Average cost is the cost per unit of output.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u3-co-q9", difficulty: "challenge", totalMarks: 1,
@@ -361,7 +361,7 @@ export const lesson31: Lesson = {
             { id: "c", text: "Fall because fixed costs are spread over more units" },
             { id: "d", text: "Rise steadily" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Average fixed cost", statement: "Spreading effect." }], steps: [{ reasoning: "The same fixed cost is divided across more units.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Average fixed cost", statement: "Spreading effect." }], steps: [{ reasoning: "The same fixed cost is divided across more units.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u3-co-q10", difficulty: "foundation", totalMarks: 1,

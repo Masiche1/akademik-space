@@ -66,7 +66,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Outer derivative $4(2x-3)^3$ times inner derivative $2$.", working: "4(2x-3)^3\\times2=8(2x-3)^3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $8(2x-3)^3$",
+            finalAnswer: "**(d)** $8(2x-3)^3$",
             commonErrors: ["Forgetting to multiply by the inner derivative $2$."],
           },
         },
@@ -195,7 +195,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "The principal value is $\\frac{\\pi}{6}$; the second solution in $[0,2\\pi)$ is $\\pi-\\frac{\\pi}{6}=\\frac{5\\pi}{6}$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\theta=\\frac{\\pi}{6}$ or $\\frac{5\\pi}{6}$",
+            finalAnswer: "**(c)** $\\theta=\\frac{\\pi}{6}$ or $\\frac{5\\pi}{6}$",
             commonErrors: ["Giving only the principal value.", "Using $\\frac{\\pi}{3}$ — that is where sine equals $\\frac{\\sqrt3}{2}$."],
           },
         },

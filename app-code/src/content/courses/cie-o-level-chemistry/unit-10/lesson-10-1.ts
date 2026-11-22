@@ -140,7 +140,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Alkenes", statement: "CnH2n." }],
             steps: [{ reasoning: "Recall.", working: "C_3H_6 = C_nH_{2n}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** C₃H₆ (propene)",
+            finalAnswer: "**(c)** C₃H₆ (propene)",
             commonErrors: ["C₂H₆ and C₄H₁₀ are alkanes."],
           },
         },
@@ -158,7 +158,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Alkane formula", statement: "CnH2n+2." }],
             steps: [{ reasoning: "Recall.", working: "C_nH_{2n+2}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** CnH2n+2",
+            finalAnswer: "**(c)** CnH2n+2",
             commonErrors: ["Confusing with alkene CnH2n."],
           },
         },
@@ -225,7 +225,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Cracking", statement: "Long alkane → short alkane + alkene." }],
             steps: [{ reasoning: "Recall.", working: "\\text{short alkane} + \\text{alkene}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Shorter alkanes + alkenes",
+            finalAnswer: "**(d)** Shorter alkanes + alkenes",
             commonErrors: ["CO₂ + H₂O is combustion, not cracking."],
           },
         },
@@ -274,11 +274,11 @@ export const lesson1101: Lesson = {
             { id: "b", text: "Propene, C₃H₆" },
             { id: "c", text: "Ethene, C₂H₄" },
             { id: "d", text: "Ethyne, C₂H₂" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Saturated", statement: "Single bonds only, CnH2n+2." }],
             steps: [{ reasoning: "Recall.", working: "C_3H_8 = C_nH_{2n+2}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Propane (C₃H₈)",
+            finalAnswer: "**(a)** Propane (C₃H₈)",
             commonErrors: ["Unsaturated means a C=C or C≡C bond is present."],
           },
         },
@@ -312,7 +312,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Hydrogenation", statement: "C₂H₄ + H₂ → C₂H₆." }],
             steps: [{ reasoning: "Recall.", working: "C_2H_4 + H_2 \\to C_2H_6", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Ethane",
+            finalAnswer: "**(d)** Ethane",
             commonErrors: ["Ethanol needs water (hydration), not H₂."],
           },
         },
@@ -383,7 +383,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Alcohol group", statement: "–OH hydroxyl." }],
             steps: [{ reasoning: "Recall.", working: "-OH", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** –OH",
+            finalAnswer: "**(c)** –OH",
             commonErrors: ["–COOH is carboxylic acid."],
           },
         },
@@ -460,11 +460,11 @@ export const lesson1101: Lesson = {
             { id: "b", text: "–COO–" },
             { id: "c", text: "–OH" },
             { id: "d", text: "–CHO" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Carboxylic acid group", statement: "–COOH carboxyl." }],
             steps: [{ reasoning: "Recall.", working: "-\\text{COOH}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** –COOH",
+            finalAnswer: "**(a)** –COOH",
             commonErrors: ["–OH is alcohol; –COO– is ester."],
           },
         },
@@ -482,7 +482,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ester group", statement: "–COO– ester linkage." }],
             steps: [{ reasoning: "Recall.", working: "-\\text{COO}-", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** –COO–",
+            finalAnswer: "**(b)** –COO–",
             commonErrors: ["–COOH is carboxylic acid, not ester."],
           },
         },
@@ -532,7 +532,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Alcohol", statement: "Contains –OH group." }],
             steps: [{ reasoning: "Recall.", working: "-OH", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** CH₃CH₂OH (ethanol)",
+            finalAnswer: "**(d)** CH₃CH₂OH (ethanol)",
             commonErrors: ["CH₃COOH is a carboxylic acid, not an alcohol."],
           },
         },
@@ -550,7 +550,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Carboxylic acid reactions", statement: "Acid + carbonate → salt + water + CO₂." }],
             steps: [{ reasoning: "Recall.", working: "\\text{CO}_2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Carbon dioxide",
+            finalAnswer: "**(c)** Carbon dioxide",
             commonErrors: ["Effervescence is due to CO₂, not H₂."],
           },
         },
@@ -616,7 +616,7 @@ export const lesson1101: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Esterification", statement: "Acid catalyst (conc. H₂SO₄) speeds the reaction." }],
             steps: [{ reasoning: "Recall.", working: "\\text{conc. H}_2\\text{SO}_4", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Concentrated sulfuric acid",
+            finalAnswer: "**(d)** Concentrated sulfuric acid",
             commonErrors: ["Nickel is used for hydrogenation, not esterification."],
           },
         },

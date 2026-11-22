@@ -65,7 +65,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Questions first — know targets.", working: "questions", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Read all questions first",
+            finalAnswer: "**(d)** Read all questions first",
             commonErrors: ["Choosing (b) — need context first."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson81: Lesson = {
         steps: [
           { reasoning: "Read questions before passage.", working: "questions", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Read the questions first",
+        finalAnswer: "**(c)** Read the questions first",
         commonErrors: ["Reading passage without questions."],
       },
     },
@@ -196,7 +196,7 @@ export const lesson81: Lesson = {
         steps: [
           { reasoning: "Active reading = engaged.", working: "active", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Engaged reading — annotating, questioning, summarising",
+        finalAnswer: "**(b)** Engaged reading — annotating, questioning, summarising",
         commonErrors: ["Passive reading only."],
       },
     },
@@ -222,7 +222,7 @@ export const lesson81: Lesson = {
         steps: [
           { reasoning: "Allocate time and review.", working: "time", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Allocate time per question and review at end",
+        finalAnswer: "**(b)** Allocate time per question and review at end",
         commonErrors: ["Getting stuck on one question."],
       },
     },
@@ -506,7 +506,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Plan before writing.", working: "plan", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Read question and plan",
+            finalAnswer: "**(b)** Read question and plan",
             commonErrors: ["Choosing (b) — need planning."],
           },
         },
@@ -611,7 +611,7 @@ export const lesson81: Lesson = {
         steps: [
           { reasoning: "Analyse and plan before writing.", working: "plan", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Read question, identify audience/purpose, plan",
+        finalAnswer: "**(b)** Read question, identify audience/purpose, plan",
         commonErrors: ["Writing without planning."],
       },
     },
@@ -637,7 +637,7 @@ export const lesson81: Lesson = {
         steps: [
           { reasoning: "Formal = professional, objective.", working: "formal", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Professional, objective language — no slang",
+        finalAnswer: "**(c)** Professional, objective language — no slang",
         commonErrors: ["Using slang in formal writing."],
       },
     },
@@ -663,7 +663,7 @@ export const lesson81: Lesson = {
         steps: [
           { reasoning: "Improve via structure, evidence, variety, proofreading.", working: "improve", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Clear structure, evidence, varied sentences, proofread",
+        finalAnswer: "**(d)** Clear structure, evidence, varied sentences, proofread",
         commonErrors: ["Only making it longer."],
       },
     },
@@ -715,7 +715,7 @@ export const lesson81: Lesson = {
         steps: [
           { reasoning: "Process = question→plan→write→check.", working: "process", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Question → plan → write → check",
+        finalAnswer: "**(b)** Question → plan → write → check",
         commonErrors: ["Skipping steps."],
       },
     },
@@ -947,7 +947,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Review before exam.", working: "review", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Review key concepts",
+            finalAnswer: "**(b)** Review key concepts",
             commonErrors: ["Choosing (b) — ineffective cramming."],
           },
         },
@@ -1052,7 +1052,7 @@ export const lesson81: Lesson = {
         steps: [
           { reasoning: "Review, practice, analyse mark schemes.", working: "prep", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Review key concepts, practice papers, analyse mark schemes",
+        finalAnswer: "**(b)** Review key concepts, practice papers, analyse mark schemes",
         commonErrors: ["Only reading notes."],
       },
     },
@@ -1078,7 +1078,7 @@ export const lesson81: Lesson = {
         steps: [
           { reasoning: "Mark schemes = examiner expectations.", working: "mark schemes", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Guides showing what examiners expect",
+        finalAnswer: "**(d)** Guides showing what examiners expect",
         commonErrors: ["Ignoring mark schemes."],
       },
     },
@@ -1104,7 +1104,7 @@ export const lesson81: Lesson = {
         steps: [
           { reasoning: "Analyse for patterns of lost marks.", working: "patterns", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Find patterns of lost marks and focus revision",
+        finalAnswer: "**(c)** Find patterns of lost marks and focus revision",
         commonErrors: ["Not analysing mistakes."],
       },
     },
@@ -1130,7 +1130,7 @@ export const lesson81: Lesson = {
         steps: [
           { reasoning: "Exam day tips: arrive early, read instructions, manage time.", working: "tips", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Arrive early, read instructions, manage time",
+        finalAnswer: "**(c)** Arrive early, read instructions, manage time",
         commonErrors: ["Panicking or rushing."],
       },
     },
@@ -1156,7 +1156,7 @@ export const lesson81: Lesson = {
         steps: [
           { reasoning: "Notes consolidate learning.", working: "consolidate", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Consolidate learning for quick review",
+        finalAnswer: "**(c)** Consolidate learning for quick review",
         commonErrors: ["Thinking notes replace studying."],
       },
     },

@@ -65,7 +65,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Active listening = engaged processing, not passive hearing.", working: "\\text{engaged}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Fully concentrating on what is being said",
+            finalAnswer: "**(d)** Fully concentrating on what is being said",
             commonErrors: ["Choosing (a) — hearing without processing is passive listening."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "The main idea is the big point; details support it.", working: "\\text{central}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** The single most important point",
+            finalAnswer: "**(d)** The single most important point",
             commonErrors: ["Choosing (a) — details are not the main idea."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "An example backs up a claim — it supports rather than states the main idea.", working: "\\text{example}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** An example the speaker gives",
+            finalAnswer: "**(d)** An example the speaker gives",
             commonErrors: ["Choosing (b) — the central claim IS the main idea."],
           },
         },
@@ -274,7 +274,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Tone conveys attitude, not volume, speed or accent.", working: "\\text{attitude}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Their attitude towards the subject",
+            finalAnswer: "**(d)** Their attitude towards the subject",
             commonErrors: ["Choosing (a) — volume is delivery, not tone."],
           },
         },
@@ -585,7 +585,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "The column layout is the defining feature of Cornell notes.", working: "\\text{columns}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Cornell notes",
+            finalAnswer: "**(a)** Cornell notes",
             commonErrors: ["Choosing (a) — mind maps branch from a centre, not columns."],
           },
         },
@@ -611,7 +611,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Branches visually link ideas — ideal for cause-effect and comparisons.", working: "\\text{branches}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Mind map",
+            finalAnswer: "**(c)** Mind map",
             commonErrors: ["Choosing (a) — linear notes show sequence, not relationships."],
           },
         },
@@ -637,7 +637,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Effective notes capture meaning selectively, not every word.", working: "\\text{keywords}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Keywords, main ideas and key facts",
+            finalAnswer: "**(c)** Keywords, main ideas and key facts",
             commonErrors: ["Choosing (a) — verbatim notes are too slow to write."],
           },
         },
@@ -663,7 +663,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Cues are short prompts that help you recall the fuller notes.", working: "\\text{prompts}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** Short questions and prompts for review",
+            finalAnswer: "**(c)** Short questions and prompts for review",
             commonErrors: ["Choosing (a) — the cues column holds short prompts, not sentences."],
           },
         },
@@ -689,7 +689,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Full sentences capture nuance but take longest — choose when detail matters more than speed.", working: "\\text{detail}", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(b)** When maximum detail and accuracy are needed and time allows",
+            finalAnswer: "**(a)** When maximum detail and accuracy are needed and time allows",
             commonErrors: ["Choosing (c) — linear notes are the worst choice for fast speech."],
           },
         },

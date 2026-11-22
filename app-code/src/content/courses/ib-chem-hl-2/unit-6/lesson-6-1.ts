@@ -120,7 +120,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Inversion of configuration",
+            finalAnswer: "**(b)** Inversion of configuration",
             commonErrors: ["Choosing carbocation — that is SN1, not SN2."],
           },
         },
@@ -329,7 +329,7 @@ export const lesson61: Lesson = {
               { id: "c", text: "Rate depends only on [RX]" },
               { id: "d", text: "Rate is independent of concentration" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -354,7 +354,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Rate depends on both [RX] and [Nu$^-$]",
+            finalAnswer: "**(b)** Rate depends on both [RX] and [Nu$^-$]",
             commonErrors: ["Choosing (a) — that describes the SN1 rate law."],
           },
         },
@@ -397,7 +397,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Primary halide, strong nucleophile, acetone",
+            finalAnswer: "**(d)** Primary halide, strong nucleophile, acetone",
             commonErrors: [
               "Choosing a tertiary halide — steric hindrance blocks the SN2 backside attack.",
             ],
@@ -423,7 +423,7 @@ export const lesson61: Lesson = {
               },
               { id: "d", text: "A racemic mixture of enantiomers" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -448,7 +448,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** A racemic mixture of enantiomers",
+            finalAnswer: "**(d)** A racemic mixture of enantiomers",
             commonErrors: [
               "Choosing inversion — that is the SN2 outcome, not SN1.",
             ],
@@ -493,7 +493,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** I$^-$ > Br$^-$ > Cl$^-$ > F$^-$",
+            finalAnswer: "**(c)** I$^-$ > Br$^-$ > Cl$^-$ > F$^-$",
             commonErrors: [
               "Choosing F$^-$ as best — F$^-$ is a very poor leaving group.",
             ],
@@ -538,7 +538,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** SN1",
+            finalAnswer: "**(a)** SN1",
             commonErrors: [
               "Assuming a strong nucleophile always gives SN2 — substrate structure can override nucleophile strength.",
             ],
@@ -583,7 +583,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** SN2",
+            finalAnswer: "**(d)** SN2",
             commonErrors: [
               "Choosing SN1 — primary carbocations are too unstable.",
             ],
@@ -932,7 +932,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** C2 — the middle carbon",
+            finalAnswer: "**(c)** C2 — the middle carbon",
             commonErrors: [
               "Reversing Markovnikov — H goes to C with MORE hydrogens.",
             ],
@@ -1174,7 +1174,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 2-bromopropane",
+            finalAnswer: "**(c)** 2-bromopropane",
             commonErrors: [
               "Choosing 1-bromopropane — that would come from the less stable primary carbocation.",
             ],
@@ -1219,7 +1219,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** But-2-ene",
+            finalAnswer: "**(c)** But-2-ene",
             commonErrors: [
               "Choosing but-1-ene — that is the Hofmann (minor) product.",
             ],
@@ -1264,7 +1264,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** A strong base and anti-periplanar geometry",
+            finalAnswer: "**(d)** A strong base and anti-periplanar geometry",
             commonErrors: [
               "Choosing a carbocation — that describes E1, not E2.",
             ],
@@ -1308,7 +1308,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 2-chloropropane",
+            finalAnswer: "**(d)** 2-chloropropane",
             commonErrors: [
               "Choosing 1-chloropropane — anti-Markovnikov would need peroxides for HBr only, not HCl.",
             ],
@@ -1352,7 +1352,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Anti addition",
+            finalAnswer: "**(d)** Anti addition",
             commonErrors: [
               "Choosing syn — bromine addition proceeds through a bromonium ion giving anti stereochemistry.",
             ],
@@ -1397,7 +1397,7 @@ export const lesson61: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Ethanolic KOH",
+            finalAnswer: "**(a)** Ethanolic KOH",
             commonErrors: [
               "Choosing aqueous KOH — that gives the alcohol, not the alkene.",
             ],

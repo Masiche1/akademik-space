@@ -1176,7 +1176,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Happy ending" },
               { id: "d", text: "External conflict" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

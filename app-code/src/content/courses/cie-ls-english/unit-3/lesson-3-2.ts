@@ -76,7 +76,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The call to action 'Please sign the petition' makes the purpose explicit.", working: "\\text{sign the petition}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** To persuade people to sign a petition against the car park plan",
+            finalAnswer: "**(a)** To persuade people to sign a petition against the car park plan",
             commonErrors: ["Choosing (c) — the history is used as evidence, not as the purpose."],
           },
         },
@@ -250,7 +250,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "'We have a petition with 2,000 signatures'" },
               { id: "d", text: "The closing 'Please sign the petition'" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -259,7 +259,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "'Not just soil and seeds... community feeds itself' elevates stakes just before the CTA.", working: "\\text{reframe before CTA}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** 'The garden is not just soil and seeds'",
+            finalAnswer: "**(b)** 'The garden is not just soil and seeds'",
             commonErrors: ["Choosing (b) — that paragraph is evidence, not the emotional peak."],
           },
         },
@@ -326,7 +326,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "'People came back... to use libraries as... free, warm, quiet public space' states the claim.", working: "\\text{gathering space}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Libraries are reviving as community gathering spaces, not just book lenders",
+            finalAnswer: "**(d)** Libraries are reviving as community gathering spaces, not just book lenders",
             commonErrors: ["Choosing (c) — the article says the internet cannot provide gathering, not that it is useless."],
           },
         },
@@ -505,7 +505,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "'Save' is an imperative — it commands action.", working: "\\text{'save'}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** It uses a command to create urgency and moral duty",
+            finalAnswer: "**(a)** It uses a command to create urgency and moral duty",
             commonErrors: ["Choosing (a) — 'Save' is not neutral."],
           },
         },
@@ -623,7 +623,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "The Quiet Return of the Library" },
               { id: "d", text: "Visits to Libraries Rise 30%" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -632,7 +632,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "'Outdated' and 'secretly' are loaded — they frame libraries as obsolete yet secretly vital.", working: "\\text{'outdated'; 'secretly'}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** Outdated Book Warehouses Secretly Save Communities",
+            finalAnswer: "**(b)** Outdated Book Warehouses Secretly Save Communities",
             commonErrors: ["Choosing (d) — it is factual, not emotive."],
           },
         },

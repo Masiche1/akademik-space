@@ -446,7 +446,7 @@ export const lesson52: Lesson = {
               { id: "c", text: "$\\sigma$" },
               { id: "d", text: "$\\sigma \\sqrt{n}$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

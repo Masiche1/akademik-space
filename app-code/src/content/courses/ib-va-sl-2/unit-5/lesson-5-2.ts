@@ -70,7 +70,7 @@ export const lesson52: Lesson = {
               { reasoning: "Site-specific works are conceived for and depend on their particular location.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Is made for and inseparable from its particular location",
+            finalAnswer: "**(d)** Is made for and inseparable from its particular location",
             commonErrors: [
               "Confusing site-specific with portable or outdoor art.",
             ],
@@ -177,7 +177,7 @@ export const lesson52: Lesson = {
               { reasoning: "Space is not background — walls, light, sound and scale are active design elements.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Walls, light, sound and scale are designed elements that shape the viewer's experience",
+            finalAnswer: "**(a)** Walls, light, sound and scale are designed elements that shape the viewer's experience",
             commonErrors: [
               "Treating space as neutral background rather than medium.",
             ],
@@ -235,7 +235,7 @@ export const lesson52: Lesson = {
               { reasoning: "Blocking sightlines makes viewers move to discover what lies ahead.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Discovery and anticipation as viewers move",
+            finalAnswer: "**(c)** Discovery and anticipation as viewers move",
             commonErrors: [
               "Assuming all sightlines should be clear.",
             ],
@@ -322,7 +322,7 @@ export const lesson52: Lesson = {
               { reasoning: "Immersion surrounds the viewer in light, sound and space so they enter the work.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Surrounds the viewer so they become part of the artwork",
+            finalAnswer: "**(a)** Surrounds the viewer so they become part of the artwork",
             commonErrors: [
               "Confusing immersion with merely looking at large works.",
             ],
@@ -351,7 +351,7 @@ export const lesson52: Lesson = {
               { reasoning: "Flow design chooses between viewer freedom and directed narrative.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The choice between inviting wandering exploration and imposing a narrative sequence",
+            finalAnswer: "**(c)** The choice between inviting wandering exploration and imposing a narrative sequence",
             commonErrors: [
               "Assuming one flow type is always better than the other.",
             ],
@@ -554,7 +554,7 @@ export const lesson52: Lesson = {
               { reasoning: "Installations require the viewer to move through and often interact with the work.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** An active participant who moves through and may interact with the work",
+            finalAnswer: "**(d)** An active participant who moves through and may interact with the work",
             commonErrors: [
               "Treating installation viewers as passive observers.",
             ],
@@ -655,7 +655,7 @@ export const lesson52: Lesson = {
               { reasoning: "Installations use space itself as the medium the viewer enters.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A work that transforms a space the viewer moves through or inhabits",
+            finalAnswer: "**(a)** A work that transforms a space the viewer moves through or inhabits",
             commonErrors: [
               "Confusing installations with conventional sculpture on pedestals.",
             ],
@@ -684,7 +684,7 @@ export const lesson52: Lesson = {
               { reasoning: "Found objects carry prior use and associations that enrich meaning.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Carry their own histories and associations into the work",
+            finalAnswer: "**(a)** Carry their own histories and associations into the work",
             commonErrors: [
               "Choosing found objects only for convenience rather than meaning.",
             ],
@@ -713,7 +713,7 @@ export const lesson52: Lesson = {
               { reasoning: "Industrial materials carry associations of construction, labour and systems.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Labour, systems and modern infrastructure",
+            finalAnswer: "**(d)** Labour, systems and modern infrastructure",
             commonErrors: [
               "Choosing materials for appearance without reading their associations.",
             ],
@@ -742,7 +742,7 @@ export const lesson52: Lesson = {
               { reasoning: "Organic materials suggest natural processes — growth, decay and life.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Decay, growth and the natural world",
+            finalAnswer: "**(c)** Decay, growth and the natural world",
             commonErrors: [
               "Ignoring the conceptual associations carried by materials.",
             ],
@@ -771,7 +771,7 @@ export const lesson52: Lesson = {
               { reasoning: "Concept drives all later decisions about space, materials and interaction.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Deciding the concept — the experience the viewer should have",
+            finalAnswer: "**(d)** Deciding the concept — the experience the viewer should have",
             commonErrors: [
               "Starting with materials before clarifying the concept.",
             ],
@@ -800,7 +800,7 @@ export const lesson52: Lesson = {
               { reasoning: "Installations are dismantled; documentation preserves the experience beyond physical existence.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Temporary — they are dismantled after exhibition, so the record preserves them",
+            finalAnswer: "**(d)** Temporary — they are dismantled after exhibition, so the record preserves them",
             commonErrors: [
               "Assuming installations persist like paintings.",
             ],
@@ -829,7 +829,7 @@ export const lesson52: Lesson = {
               { reasoning: "The viewer's movement and presence are constitutive of the work.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The viewer's presence, movement and physical experience complete the work",
+            finalAnswer: "**(d)** The viewer's presence, movement and physical experience complete the work",
             commonErrors: [
               "Reducing participation to physical touching of objects.",
             ],

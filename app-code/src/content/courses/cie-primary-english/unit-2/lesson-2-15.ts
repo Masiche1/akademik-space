@@ -192,7 +192,7 @@ export const lesson215: Lesson = {
             { id: "b", text: "should" },
             { id: "c", text: "could" },
             { id: "d", text: "might" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Modal verbs", statement: "should = advice." }],
             steps: [{ reasoning: "'should' gives advice or recommendation.", marks: 1, markCode: "AO1" }],

@@ -60,7 +60,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Newton", statement: "kg m s⁻²." }],
             steps: [{ reasoning: "Force = mass × acceleration.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Newton",
+            finalAnswer: "**(c)** Newton",
           },
         },
         {
@@ -176,7 +176,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Accuracy/precision", statement: "True value vs consistency." }],
             steps: [{ reasoning: "Accuracy: closeness to true; precision: closeness of repeats.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Accuracy=true, precision=repeatability",
+            finalAnswer: "**(d)** Accuracy=true, precision=repeatability",
           },
         },
         {

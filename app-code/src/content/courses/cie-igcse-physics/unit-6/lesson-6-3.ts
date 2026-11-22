@@ -57,7 +57,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Magnetism", statement: "Like repel." }],
             steps: [{ reasoning: "Recall.", working: "\\text{like repel}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Repel",
+            finalAnswer: "**(c)** Repel",
             commonErrors: ["Confusing with unlike poles."],
           },
         },
@@ -137,7 +137,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Field lines", statement: "Outside a magnet they run N to S." }],
             steps: [{ reasoning: "Recall field-line direction.", working: "N \\to S", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** North to south",
+            finalAnswer: "**(a)** North to south",
             commonErrors: ["Reversing the field-line direction."],
           },
         },
@@ -171,7 +171,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Magnetic poles", statement: "Unlike poles attract." }],
             steps: [{ reasoning: "Recall pole interaction.", working: "\\text{unlike attract}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Attract",
+            finalAnswer: "**(a)** Attract",
             commonErrors: ["Swapping like and unlike pole behaviour."],
           },
         },
@@ -205,7 +205,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Fleming left-hand", statement: "Gives force direction for motor effect." }],
             steps: [{ reasoning: "Recall the left-hand rule purpose.", working: "\\text{force/motion}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Force on a current-carrying conductor",
+            finalAnswer: "**(d)** Force on a current-carrying conductor",
             commonErrors: ["Using it for electromagnetic induction."],
           },
         },
@@ -257,7 +257,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Electromagnet", statement: "Temporary magnet from current." }],
             steps: [{ reasoning: "Recall electromagnet behaviour.", working: "\\text{current-controlled}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Is produced by current and can be switched off",
+            finalAnswer: "**(c)** Is produced by current and can be switched off",
             commonErrors: ["Thinking electromagnets are permanent."],
           },
         },
@@ -291,7 +291,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Electromagnets", statement: "Used in cranes and relays." }],
             steps: [{ reasoning: "Recall an electromagnet application.", working: "\\text{crane}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** An electromagnetic crane",
+            finalAnswer: "**(c)** An electromagnetic crane",
             commonErrors: ["Naming a device that does not use a magnetic field."],
           },
         },
@@ -380,7 +380,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Induction", statement: "Changing flux induces EMF." }],
             steps: [{ reasoning: "Recall.", working: "\\Delta B \\to EMF", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Changing magnetic field",
+            finalAnswer: "**(a)** Changing magnetic field",
             commonErrors: ["Static field induces nothing."],
           },
         },
@@ -460,7 +460,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Induction", statement: "EMF induced by changing flux." }],
             steps: [{ reasoning: "Recall Faraday's condition.", working: "\\Delta \\Phi \\to EMF", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A changing magnetic flux",
+            finalAnswer: "**(d)** A changing magnetic flux",
             commonErrors: ["Thinking a stationary magnet in a coil induces current."],
           },
         },
@@ -495,7 +495,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Generator", statement: "Rotating coil induces alternating current." }],
             steps: [{ reasoning: "Recall generator output.", working: "\\text{AC}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Alternating current",
+            finalAnswer: "**(d)** Alternating current",
             commonErrors: ["Thinking a generator produces steady DC."],
           },
         },
@@ -529,7 +529,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Fleming right-hand", statement: "Used for induced current direction." }],
             steps: [{ reasoning: "Recall generator versus motor rules.", working: "\\text{right-hand for induction}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Electromagnetic induction",
+            finalAnswer: "**(d)** Electromagnetic induction",
             commonErrors: ["Confusing it with the left-hand motor rule."],
           },
         },
@@ -547,7 +547,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Lenz's law", statement: "Induced current opposes flux change." }],
             steps: [{ reasoning: "Recall Lenz's law.", working: "\\text{opposes change}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Opposes the change producing it",
+            finalAnswer: "**(d)** Opposes the change producing it",
             commonErrors: ["Thinking induced current reinforces the change."],
           },
         },
@@ -581,7 +581,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Transformer", statement: "Needs changing flux, so AC." }],
             steps: [{ reasoning: "Recall transformer supply requirement.", working: "\\text{AC}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Alternating current",
+            finalAnswer: "**(c)** Alternating current",
             commonErrors: ["Thinking DC can drive a transformer continuously."],
           },
         },
@@ -616,7 +616,7 @@ export const lessonp63: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Step-up transformer", statement: "$N_s>N_p$ gives higher voltage." }],
             steps: [{ reasoning: "Recall step-up turn ratio.", working: "N_s > N_p", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** More secondary turns than primary turns",
+            finalAnswer: "**(d)** More secondary turns than primary turns",
             commonErrors: ["Reversing step-up and step-down ratios."],
           },
         },

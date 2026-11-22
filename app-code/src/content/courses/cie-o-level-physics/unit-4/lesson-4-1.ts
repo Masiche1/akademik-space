@@ -60,7 +60,7 @@ export const lessonp41: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Wave equation", statement: "v = fλ." }],
             steps: [{ reasoning: "Recall.", working: "v = f\\lambda", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** v = fλ",
+            finalAnswer: "**(c)** v = fλ",
             commonErrors: ["Dividing instead of multiplying."],
           },
         },
@@ -154,11 +154,11 @@ export const lessonp41: Lesson = {
             { id: "b", text: "hertz (Hz)" },
             { id: "c", text: "seconds (s)" },
             { id: "d", text: "metres per second (m/s)" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Frequency", statement: "Number of waves per second, unit Hz." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Hz} = \\text{s}^{-1}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** hertz (Hz)",
+            finalAnswer: "**(b)** hertz (Hz)",
             commonErrors: ["Confusing with wavelength units."],
           },
         },
@@ -396,7 +396,7 @@ export const lessonp41: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Reflection", statement: "i = r (from normal)." }],
             steps: [{ reasoning: "Recall.", working: "i = r", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Angle of incidence = angle of reflection",
+            finalAnswer: "**(b)** Angle of incidence = angle of reflection",
             commonErrors: ["Measured from surface not normal."],
           },
         },
@@ -476,7 +476,7 @@ export const lessonp41: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Reflection", statement: "Angles measured from the normal." }],
             steps: [{ reasoning: "Recall.", working: "i, r \\text{ from normal}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The normal",
+            finalAnswer: "**(c)** The normal",
             commonErrors: ["Measuring from the surface."],
           },
         },
@@ -557,11 +557,11 @@ export const lessonp41: Lesson = {
             { id: "b", text: "Diffraction" },
             { id: "c", text: "Reflection" },
             { id: "d", text: "Refraction" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "Refraction", statement: "Bending due to speed change at boundary." }],
             steps: [{ reasoning: "Recall.", working: "\\text{bend} = \\text{refraction}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Refraction",
+            finalAnswer: "**(d)** Refraction",
             commonErrors: ["Choosing diffraction."],
           },
         },
@@ -595,7 +595,7 @@ export const lessonp41: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Diffraction", statement: "Spreading through gaps/around obstacles." }],
             steps: [{ reasoning: "Recall.", working: "\\text{diffraction} = \\text{spreading}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It happens when waves pass through gaps or around obstacles",
+            finalAnswer: "**(a)** It happens when waves pass through gaps or around obstacles",
             commonErrors: ["Confusing diffraction with refraction."],
           },
         },

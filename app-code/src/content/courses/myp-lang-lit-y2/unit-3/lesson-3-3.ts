@@ -73,7 +73,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): editing improves ideas/style; proofreading catches final errors — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Editing improves content and style; proofreading checks final spelling/punctuation",
+            finalAnswer: "**(d)** Editing improves content and style; proofreading checks final spelling/punctuation",
           },
         },
         {
@@ -194,7 +194,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Criterion B (Organizing): revising = rethinking content/structure/style — (b).", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Rethinking and improving content, structure and style",
+            finalAnswer: "**(a)** Rethinking and improving content, structure and style",
           },
         },
         {

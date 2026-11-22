@@ -61,7 +61,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Acceleration unit", statement: "m/s²." }],
             steps: [{ reasoning: "Recall.", working: "\\text{m/s}^2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** m/s²",
+            finalAnswer: "**(c)** m/s²",
             commonErrors: ["m/s is velocity."],
           },
         },
@@ -141,7 +141,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Vector", statement: "Magnitude + direction." }],
             steps: [{ reasoning: "Recall.", working: "\\text{displacement}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Displacement",
+            finalAnswer: "**(c)** Displacement",
             commonErrors: ["Speed is a scalar — velocity is the vector."],
           },
         },
@@ -191,7 +191,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Acceleration", statement: "a = (v−u)/t = (20−8)/3 = 4 m/s²." }],
             steps: [{ reasoning: "Calculate.", working: "a = \\frac{20-8}{3} = 4", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $4\\ \\text{m/s}^2$",
+            finalAnswer: "**(c)** $4\\ \\text{m/s}^2$",
             commonErrors: ["Dividing 28 by 3 instead of 12 by 3."],
           },
         },
@@ -242,7 +242,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Newton's first law", statement: "Constant velocity → zero acceleration → zero resultant force." }],
             steps: [{ reasoning: "Recall.", working: "\\Delta v = 0 \\Rightarrow a = 0", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Its acceleration is zero",
+            finalAnswer: "**(a)** Its acceleration is zero",
             commonErrors: ["Constant velocity does not mean stationary."],
           },
         },
@@ -389,7 +389,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "d-t gradient", statement: "Gradient = speed." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gradient} = v", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Speed",
+            finalAnswer: "**(d)** Speed",
             commonErrors: ["Acceleration is on v-t graph."],
           },
         },
@@ -469,7 +469,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "d-t graph", statement: "Horizontal line = no change in distance = stationary." }],
             steps: [{ reasoning: "Recall.", working: "\\text{horizontal} \\Rightarrow \\text{stationary}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Stationary",
+            finalAnswer: "**(d)** Stationary",
             commonErrors: ["Constant speed needs a sloping straight line."],
           },
         },
@@ -519,7 +519,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "v-t gradient", statement: "Gradient = acceleration." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gradient} = a", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Acceleration",
+            finalAnswer: "**(c)** Acceleration",
             commonErrors: ["Speed is the gradient of a d-t graph."],
           },
         },
@@ -571,7 +571,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "d-t graph", statement: "Horizontal = distance not changing." }],
             steps: [{ reasoning: "Recall.", working: "\\text{horizontal} \\Rightarrow \\text{stationary}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Stationary, 50 m from the start",
+            finalAnswer: "**(d)** Stationary, 50 m from the start",
             commonErrors: ["Thinking any motion shows a sloping line — horizontal means not moving."],
           },
         },
@@ -634,7 +634,7 @@ export const lessonp11: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "v-t graph", statement: "Gradient = acceleration." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gradient} = \\frac{\\Delta v}{\\Delta t} = a", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Gradient",
+            finalAnswer: "**(c)** Gradient",
             commonErrors: ["Area gives distance, not acceleration."],
           },
         },

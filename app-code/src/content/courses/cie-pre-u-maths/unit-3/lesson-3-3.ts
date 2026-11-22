@@ -503,7 +503,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "4" },
               { id: "d", text: "2" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

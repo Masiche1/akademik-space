@@ -63,7 +63,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Impulse is force multiplied by time, so the unit is newton-seconds.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\text{N}\\cdot\\text{s}$",
+            finalAnswer: "**(a)** $\\text{N}\\cdot\\text{s}$",
             commonErrors: ["Choosing $\\text{N}\\cdot\\text{m}$, the unit of work (joule).", "Choosing $\\text{kg}\\cdot\\text{m/s}^2$, which is a newton (force)."],
             examinerNote: "B1 for choice (b).",
           },
@@ -196,7 +196,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "No external net force acts, so momentum is conserved. Sticking together is perfectly inelastic, so kinetic energy is transformed into other forms and decreases.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Momentum is conserved but kinetic energy decreases.",
+            finalAnswer: "**(a)** Momentum is conserved but kinetic energy decreases.",
             commonErrors: ["Thinking energy is not conserved at all; total energy is conserved but not as kinetic energy.", "Thinking momentum is lost in inelastic collisions."],
             examinerNote: "B1 for choice (b).",
           },

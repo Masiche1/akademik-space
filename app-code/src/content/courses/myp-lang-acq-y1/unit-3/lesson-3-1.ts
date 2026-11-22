@@ -166,7 +166,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'elephant' begins with a vowel sound, so 'an'.", working: "an elephant", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** an",
+            finalAnswer: "**(c)** an",
             commonErrors: ["Choosing 'a' — 'elephant' starts with a vowel."],
             examinerNote: "D1 for (b).",
           },
@@ -262,7 +262,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — general plural needs no article.", working: "I have got cats.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I have got cats.",
+            finalAnswer: "**(a)** I have got cats.",
             commonErrors: ["Keeping 'a' before a plural."],
             examinerNote: "D1 for (b).",
           },
@@ -289,7 +289,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'the' = specific/unique.", working: "the sun", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** For a specific thing everyone knows, like 'the sun'",
+            finalAnswer: "**(a)** For a specific thing everyone knows, like 'the sun'",
             commonErrors: ["Confusing 'the' with 'a/an'."],
             examinerNote: "B1 for (b).",
           },
@@ -507,7 +507,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Happy" },
               { id: "d", text: "Between" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -516,7 +516,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'ruler' is a physical classroom object; the others are adjective/adverb/preposition.", working: "ruler", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(c)** Ruler",
+            finalAnswer: "**(b)** Ruler",
             commonErrors: ["Choosing a describing word instead of an object noun."],
             examinerNote: "C1 for (c).",
           },
@@ -613,7 +613,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'pen' is a writing tool.", working: "Pen", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Pen",
+            finalAnswer: "**(a)** Pen",
             commonErrors: ["Choosing 'ruler' — that is for measuring, not writing."],
             examinerNote: "C1 for (b).",
           },
@@ -640,7 +640,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — a ruler measures and draws straight lines.", working: "measuring and straight lines", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(a)** Drawing straight lines and measuring",
+            finalAnswer: "**(b)** Drawing straight lines and measuring",
             commonErrors: ["Confusing it with a pen."],
             examinerNote: "C1 for (a).",
           },
@@ -709,7 +709,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Open your books.' is verb-first with no subject.", working: "Open your books.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Open your books.",
+            finalAnswer: "**(c)** Open your books.",
             commonErrors: ["Choosing (a) — that is a statement, not an imperative."],
             examinerNote: "D1 for (b).",
           },
@@ -814,7 +814,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — verb-first, no subject is the rule.", working: "verb first, no subject", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Verb first, no subject",
+            finalAnswer: "**(d)** Verb first, no subject",
             commonErrors: ["Thinking 'you' must appear — imperatives drop the subject."],
             examinerNote: "D1 for (b).",
           },
@@ -838,7 +838,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "2" },
               { id: "d", text: "4" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -847,7 +847,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'three doors'.", working: "3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** 3",
+            finalAnswer: "**(a)** 3",
             commonErrors: ["Choosing 'two' — that is the windows."],
             examinerNote: "B1 for (c).",
           },

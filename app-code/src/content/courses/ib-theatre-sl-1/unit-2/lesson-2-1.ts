@@ -118,7 +118,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The point of highest tension or turning point",
+              "**(c)** The point of highest tension or turning point",
             commonErrors: [
               "Confusing climax (peak tension) with resolution or opening.",
             ],
@@ -646,7 +646,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Between rising action and climax" },
               { id: "d", text: "Before the exposition" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -669,7 +669,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** After the climax, showing consequences",
+            finalAnswer: "**(a)** After the climax, showing consequences",
             commonErrors: [
               "Placing falling action before or during the climax.",
             ],
@@ -862,7 +862,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Revealing the outcome early creates dramatic irony",
+              "**(c)** Revealing the outcome early creates dramatic irony",
             commonErrors: [
               "Confusing dramatic irony with surprise or coincidence.",
             ],
@@ -982,7 +982,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "A single continuous scene" },
               { id: "d", text: "Strict adherence to the five-act form" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1007,7 +1007,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** Self-contained scenes without clear progressive plot",
+              "**(a)** Self-contained scenes without clear progressive plot",
             commonErrors: [
               "Confusing episodic structure with a single-act play.",
             ],
@@ -1197,7 +1197,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The character trait that leads to the protagonist's downfall",
+              "**(d)** The character trait that leads to the protagonist's downfall",
             commonErrors: ["Confusing tragic flaw with plot device or error."],
           },
         },
@@ -1499,7 +1499,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The convention of comic resolution through reconciliation",
+              "**(d)** The convention of comic resolution through reconciliation",
             commonErrors: [
               "Identifying subversion without naming the convention being broken.",
             ],
@@ -1594,7 +1594,7 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The audience's emotional release through pity and fear",
+              "**(c)** The audience's emotional release through pity and fear",
             commonErrors: ["Confusing catharsis with plot resolution."],
           },
         },
@@ -1735,7 +1735,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Hamartia",
+            finalAnswer: "**(d)** Hamartia",
             commonErrors: [
               "Confusing hamartia with catharsis, which is the audience's emotional release.",
             ],
@@ -1911,7 +1911,7 @@ export const lesson21: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Set expectations that guide interpretation",
+            finalAnswer: "**(d)** Set expectations that guide interpretation",
             commonErrors: [
               "Reducing genre to production logistics rather than meaning.",
             ],

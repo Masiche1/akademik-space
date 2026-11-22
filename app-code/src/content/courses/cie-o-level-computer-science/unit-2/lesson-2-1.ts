@@ -95,7 +95,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Find the sender's password" },
             { id: "d", text: "Compress the data" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Sequence number", statement: "Identifies packet order for reassembly." }], steps: [{ reasoning: "Sequence numbers order packets.", working: "\\text{order}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Reassemble in order" },
+          markscheme: { principles: [{ kind: "definition", name: "Sequence number", statement: "Identifies packet order for reassembly." }], steps: [{ reasoning: "Sequence numbers order packets.", working: "\\text{order}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Reassemble in order" },
         },
         {
           id: "olcs-u2-pk-q6", difficulty: "core", totalMarks: 2,
@@ -115,7 +115,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Bypass all routers" },
             { id: "d", text: "Only travel together" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Packet switching", statement: "Packets routed independently." }], steps: [{ reasoning: "Each packet can take its own path.", working: "\\text{different routes}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Travel by different routes" },
+          markscheme: { principles: [{ kind: "principle", name: "Packet switching", statement: "Packets routed independently." }], steps: [{ reasoning: "Each packet can take its own path.", working: "\\text{different routes}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Travel by different routes" },
         },
         {
           id: "olcs-u2-pk-q8", difficulty: "core", totalMarks: 2,
@@ -144,7 +144,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Works only wirelessly" },
             { id: "d", text: "Uses IP addresses" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Circuit switching", statement: "Dedicated path reserved for the session." }], steps: [{ reasoning: "Circuit = reserved path.", working: "\\text{dedicated}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Reserves a dedicated path" },
+          markscheme: { principles: [{ kind: "definition", name: "Circuit switching", statement: "Dedicated path reserved for the session." }], steps: [{ reasoning: "Circuit = reserved path.", working: "\\text{dedicated}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Reserves a dedicated path" },
         },
         {
           id: "olcs-u2-pk-q11", difficulty: "core", totalMarks: 2,
@@ -164,7 +164,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Header overhead on every packet" },
             { id: "d", text: "It cannot share links" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Overhead", statement: "Headers add extra bytes per packet." }], steps: [{ reasoning: "Each packet carries address/sequence/check overhead.", working: "\\text{header}", marks: 1, markCode: "M" }, { reasoning: "This reduces efficiency slightly.", working: "\\text{overhead}", marks: 1, markCode: "A" }], finalAnswer: "**(a)** Header overhead" },
+          markscheme: { principles: [{ kind: "principle", name: "Overhead", statement: "Headers add extra bytes per packet." }], steps: [{ reasoning: "Each packet carries address/sequence/check overhead.", working: "\\text{header}", marks: 1, markCode: "M" }, { reasoning: "This reduces efficiency slightly.", working: "\\text{overhead}", marks: 1, markCode: "A" }], finalAnswer: "**(c)** Header overhead" },
         },
         {
           id: "olcs-u2-pk-q13", difficulty: "challenge", totalMarks: 4,
@@ -186,7 +186,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "The file name" },
             { id: "d", text: "The sender's email" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Error check", statement: "Redundant bits detect corruption." }], steps: [{ reasoning: "Error-check fields detect damage.", working: "\\text{error check}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Error-checking bits" },
+          markscheme: { principles: [{ kind: "definition", name: "Error check", statement: "Redundant bits detect corruption." }], steps: [{ reasoning: "Error-check fields detect damage.", working: "\\text{error check}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Error-checking bits" },
         },
         {
           id: "olcs-u2-pk-q15", difficulty: "challenge", totalMarks: 3,
@@ -207,7 +207,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Only printers" },
             { id: "d", text: "The internet" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Internet", statement: "The internet uses packet switching." }], steps: [{ reasoning: "Internet = packet switched.", working: "\\text{internet}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** The internet" },
+          markscheme: { principles: [{ kind: "principle", name: "Internet", statement: "The internet uses packet switching." }], steps: [{ reasoning: "Internet = packet switched.", working: "\\text{internet}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** The internet" },
         },
       ],
     },
@@ -237,7 +237,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "One at a time" },
             { id: "d", text: "In pairs" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Serial", statement: "One bit at a time." }], steps: [{ reasoning: "Serial = sequential bits.", working: "\\text{one at a time}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** One at a time" },
+          markscheme: { principles: [{ kind: "definition", name: "Serial", statement: "One bit at a time." }], steps: [{ reasoning: "Serial = sequential bits.", working: "\\text{one at a time}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** One at a time" },
         },
         {
           id: "olcs-u2-tm-q2", difficulty: "core", totalMarks: 2,
@@ -293,7 +293,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Sending one bit at a time" },
             { id: "d", text: "Sending bits randomly" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Parallel", statement: "Multiple bits simultaneously." }], steps: [{ reasoning: "Parallel = bits at once.", working: "\\text{simultaneous}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Several bits at once" },
+          markscheme: { principles: [{ kind: "definition", name: "Parallel", statement: "Multiple bits simultaneously." }], steps: [{ reasoning: "Parallel = bits at once.", working: "\\text{simultaneous}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Several bits at once" },
         },
         {
           id: "olcs-u2-tm-q6", difficulty: "core", totalMarks: 2,
@@ -313,7 +313,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "Only power" },
             { id: "d", text: "Only data" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "USB", statement: "Carries data and power." }], steps: [{ reasoning: "USB supplies power to devices.", working: "\\text{data+power}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Data and power" },
+          markscheme: { principles: [{ kind: "definition", name: "USB", statement: "Carries data and power." }], steps: [{ reasoning: "USB supplies power to devices.", working: "\\text{data+power}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Data and power" },
         },
         {
           id: "olcs-u2-tm-q8", difficulty: "core", totalMarks: 2,
@@ -362,7 +362,7 @@ export const lesson21: Lesson = {
             { id: "c", text: "It works without a computer" },
             { id: "d", text: "It runs very hot" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Hot-swap", statement: "Connect/disconnect without powering off." }], steps: [{ reasoning: "Hot-swap = live connection.", working: "\\text{live}", marks: 1, markCode: "M" }, { reasoning: "No shutdown needed.", marks: 1, markCode: "A" }], finalAnswer: "**(a)** Connect/remove while powered" },
+          markscheme: { principles: [{ kind: "definition", name: "Hot-swap", statement: "Connect/disconnect without powering off." }], steps: [{ reasoning: "Hot-swap = live connection.", working: "\\text{live}", marks: 1, markCode: "M" }, { reasoning: "No shutdown needed.", marks: 1, markCode: "A" }], finalAnswer: "**(b)** Connect/remove while powered" },
         },
         {
           id: "olcs-u2-tm-q13", difficulty: "challenge", totalMarks: 4,

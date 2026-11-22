@@ -230,7 +230,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Home address is private personal information; the others are safe to share.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Your home address",
+            finalAnswer: "**(b)** Your home address",
           },
         },
         {
@@ -279,7 +279,7 @@ export const lesson111: Lesson = {
             steps: [
               { reasoning: "Cat$9!Blue mixes letters, numbers and symbols and is not easily guessed.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Cat$9!Blue",
+            finalAnswer: "**(d)** Cat$9!Blue",
           },
         },
         {
@@ -315,7 +315,7 @@ export const lesson111: Lesson = {
               { reasoning: "Never arrange to meet people you only know digitally.", marks: 1, markCode: "M" },
               { reasoning: "Refuse and tell a trusted adult immediately.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Say no and tell a trusted adult",
+            finalAnswer: "**(b)** Say no and tell a trusted adult",
           },
         },
         {
@@ -382,7 +382,7 @@ export const lesson111: Lesson = {
               { reasoning: "'Win a prize, send password' is a classic scam.", marks: 1, markCode: "M" },
               { reasoning: "Correctly identified the phishing attempt.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Prize message asking for password",
+            finalAnswer: "**(d)** Prize message asking for password",
           },
         },
         {

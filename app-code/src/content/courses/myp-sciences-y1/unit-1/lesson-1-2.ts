@@ -59,7 +59,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "They are stationary and do not move at all" },
               { id: "d", text: "They are far apart and move quickly in all directions" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -68,7 +68,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "In a solid the particles are closely packed in a regular pattern and vibrate in place.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** They are close together in a regular pattern and vibrate",
+            finalAnswer: "**(a)** They are close together in a regular pattern and vibrate",
             commonErrors: ["Thinking particles in a solid do not move at all; they vibrate.", "Confusing solids with liquids or gases."],
             examinerNote: "B1 for choice (c).",
           },
@@ -169,7 +169,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The regular arrangement and vibration about fixed positions describe a solid.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Solid",
+            finalAnswer: "**(b)** Solid",
             commonErrors: ["Choosing liquid; liquid particles are close but arranged randomly and slide past each other."],
             examinerNote: "B1 for solid.",
           },
@@ -187,7 +187,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Attached to each other by strong forces" },
               { id: "d", text: "Far apart, moving quickly in random directions" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -196,7 +196,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Gas particles are far apart with lots of empty space and move quickly in all directions.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Far apart, moving quickly in random directions",
+            finalAnswer: "**(d)** Far apart, moving quickly in random directions",
             commonErrors: ["Choosing the solid or liquid description because the particles are still tiny."],
             examinerNote: "B1 for far apart / fast random movement.",
           },
@@ -483,7 +483,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Freezing" },
               { id: "d", text: "Evaporation" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -492,7 +492,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Gas changing to liquid is condensation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Condensation",
+            finalAnswer: "**(a)** Condensation",
             commonErrors: ["Choosing evaporation, which is liquid to gas.", "Choosing freezing, which is liquid to solid."],
             examinerNote: "B1 for condensation.",
           },
@@ -594,7 +594,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Solid changing to liquid is melting.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Melting",
+            finalAnswer: "**(d)** Melting",
             commonErrors: ["Choosing freezing, which is liquid to solid.", "Choosing boiling, which is liquid to gas."],
             examinerNote: "B1 for melting.",
           },
@@ -612,7 +612,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "$0\\ ^\\circ\\text{C}$" },
               { id: "d", text: "$1000\\ ^\\circ\\text{C}$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -621,7 +621,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Water boils at $100\\ ^\\circ\\text{C}$; it melts at $0\\ ^\\circ\\text{C}$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $100\\ ^\\circ\\text{C}$",
+            finalAnswer: "**(a)** $100\\ ^\\circ\\text{C}$",
             commonErrors: ["Choosing $0\\ ^\\circ\\text{C}$, which is the melting point.", "Choosing a temperature from a different substance."],
             examinerNote: "B1 for 100°C. Accept 373 K only if the unit is stated.",
           },
@@ -687,7 +687,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "The perfume vapour spreads from where the concentration is high to where it is low by random motion — diffusion.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Diffusion; particles move randomly from high to low concentration",
+            finalAnswer: "**(d)** Diffusion; particles move randomly from high to low concentration",
             commonErrors: ["Choosing evaporation; evaporation is the liquid changing to gas, not the spreading of the gas.", "Choosing the wrong direction (low to high)."],
             examinerNote: "B1 for diffusion and high to low concentration.",
           },

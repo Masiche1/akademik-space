@@ -82,7 +82,7 @@ export const lesson93: Lesson = {
               },
             ],
             steps: [{ reasoning: "Definition.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Poisson",
+            finalAnswer: "**(d)** Poisson",
           },
         },
         {
@@ -304,7 +304,7 @@ export const lesson93: Lesson = {
               },
             ],
             steps: [{ reasoning: "Standard result.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $n-1$",
+            finalAnswer: "**(b)** $n-1$",
           },
         },
         {

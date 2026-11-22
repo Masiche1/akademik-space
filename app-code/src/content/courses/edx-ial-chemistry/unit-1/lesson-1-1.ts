@@ -174,7 +174,7 @@ export const lesson11: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Atomic radius", statement: "Decreases across period (↑Z), increases down group." }],
             steps: [{ reasoning: "Increased nuclear charge pulls electrons in.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Decreases",
+            finalAnswer: "**(c)** Decreases",
           },
         },
         {

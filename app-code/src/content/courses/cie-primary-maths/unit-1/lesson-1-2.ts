@@ -115,7 +115,7 @@ export const lesson12: Lesson = {
             { id: "b", text: "5" },
             { id: "c", text: "50" },
             { id: "d", text: "5000" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Place value", statement: "Digit value depends on position." }],
             steps: [{ reasoning: "The 5 is in the hundreds column, so it is worth 500.", marks: 1, markCode: "A" }],
@@ -471,7 +471,7 @@ export const lesson12: Lesson = {
             { id: "b", text: "$65 - 30$" },
             { id: "c", text: "$52 - 21$" },
             { id: "d", text: "$76 - 54$" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Exchange", statement: "Exchange when the top ones digit is smaller." }],
             steps: [{ reasoning: "Only $43 - 18$ has 3 ones, which is less than 8 ones, so a ten must be exchanged.", marks: 1, markCode: "A" }],

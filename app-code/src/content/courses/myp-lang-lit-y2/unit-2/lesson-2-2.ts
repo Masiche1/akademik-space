@@ -71,7 +71,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Criterion D (Using language): 'walked' + 'yesterday' = past tense — (b).", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** She walked to school yesterday.",
+            finalAnswer: "**(d)** She walked to school yesterday.",
           },
         },
         {

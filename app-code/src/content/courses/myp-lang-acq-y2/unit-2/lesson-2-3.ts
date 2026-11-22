@@ -69,7 +69,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'go' past simple is 'went'.", working: "went", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** went",
+            finalAnswer: "**(a)** went",
             commonErrors: ["Choosing 'goed' — 'go' is irregular."],
             examinerNote: "D1 for (b).",
           },
@@ -166,7 +166,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — past simple of 'eat' is 'ate'.", working: "ate", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** ate",
+            finalAnswer: "**(a)** ate",
             commonErrors: ["Choosing 'eated' — 'eat' is irregular."],
             examinerNote: "D1 for (b).",
           },
@@ -193,7 +193,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'played' + 'yesterday' = past simple.", working: "I played football yesterday.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I played football yesterday.",
+            finalAnswer: "**(d)** I played football yesterday.",
             commonErrors: ["Choosing present or future forms."],
             examinerNote: "D1 for (b).",
           },
@@ -352,7 +352,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'yesterday' is a past time marker.", working: "yesterday", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** yesterday",
+            finalAnswer: "**(a)** yesterday",
             commonErrors: ["Choosing future or habitual time words."],
             examinerNote: "D1 for (b).",
           },
@@ -410,7 +410,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'didn't go' is correct.", working: "didn't go", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I didn't go to the party.",
+            finalAnswer: "**(a)** I didn't go to the party.",
             commonErrors: ["Keeping the past form after didn't."],
             examinerNote: "D1 for (b).",
           },
@@ -623,7 +623,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'am going to visit' is correct.", working: "I am going to visit", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I am going to visit my grandma.",
+            finalAnswer: "**(d)** I am going to visit my grandma.",
             commonErrors: ["Missing 'am' or adding -ed to the main verb."],
             examinerNote: "D1 for (b).",
           },
@@ -650,7 +650,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — the two forms have different uses.", working: "plan vs decision/prediction", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** 'Going to' = a plan; 'will' = a quick decision or prediction",
+            finalAnswer: "**(a)** 'Going to' = a plan; 'will' = a quick decision or prediction",
             commonErrors: ["Thinking they are interchangeable at all times."],
             examinerNote: "C1 for (b).",
           },
@@ -677,7 +677,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'she is going to' is correct.", working: "She is going to", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** She is going to study tonight.",
+            finalAnswer: "**(a)** She is going to study tonight.",
             commonErrors: ["'She are' — wrong agreement."],
             examinerNote: "D1 for (b).",
           },
@@ -809,7 +809,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'are you going to' is correct inversion.", working: "Are you going to come?", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Are you going to come?",
+            finalAnswer: "**(c)** Are you going to come?",
             commonErrors: ["No inversion — statement order in a question."],
             examinerNote: "D1 for (b).",
           },
@@ -867,7 +867,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'Let's play football together' is a natural suggestion.", working: "Let's + verb", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Let's play football together.",
+            finalAnswer: "**(c)** Let's play football together.",
             commonErrors: ["Choosing a phrase that does not invite togetherness."],
             examinerNote: "C1 for (b).",
           },

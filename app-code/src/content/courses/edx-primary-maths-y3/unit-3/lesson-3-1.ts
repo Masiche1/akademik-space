@@ -323,7 +323,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "After ● comes ▲ again.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** ▲",
+            finalAnswer: "**(d)** ▲",
             commonErrors: ["Saying ■ — not restarting the chunk."],
           },
         },

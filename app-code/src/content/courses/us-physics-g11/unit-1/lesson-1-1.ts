@@ -192,7 +192,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$v_f = v_i + at$" },
               { id: "d", text: "$\\Delta x = v_i t + \\frac{1}{2}at^2$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -201,7 +201,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Only $v_f^2 = v_i^2 + 2a\\Delta x$ links the known $v_i$, $a$ and $\\Delta x$ to $v_f$ without needing $t$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $v_f^2 = v_i^2 + 2a\\Delta x$",
+            finalAnswer: "**(a)** $v_f^2 = v_i^2 + 2a\\Delta x$",
             commonErrors: ["Choosing an equation that needs the unknown time.", "Using $v = \\frac{\\Delta x}{\\Delta t}$, which only gives an average velocity and needs $\\Delta t$."],
             examinerNote: "B1 for choice (c).",
           },

@@ -63,7 +63,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Subtract the known angles from $180^\\circ$.", working: "180 - 52 - 71 = 57", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $57^\\circ$",
+            finalAnswer: "**(a)** $57^\\circ$",
             commonErrors: ["Choosing $123^\\circ$, which is the sum $52 + 71$.", "Subtracting the sum from $90^\\circ$ or arithmetic slips."],
           },
         },
@@ -201,7 +201,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Add the squares of the legs and take the square root.", working: "c = \\sqrt{36 + 64} = \\sqrt{100} = 10", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $10$",
+            finalAnswer: "**(c)** $10$",
             commonErrors: ["Adding the legs to get $14$.", "Forgetting to take the square root (choice d)."],
           },
         },

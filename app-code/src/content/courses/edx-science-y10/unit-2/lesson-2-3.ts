@@ -83,7 +83,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Neutral = pH 7.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** 7",
+            finalAnswer: "**(c)** 7",
             commonErrors: ["0 or 14 chosen."],
           },
         },
@@ -286,7 +286,7 @@ export const lesson23: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** ⇌",
+            finalAnswer: "**(c)** ⇌",
             commonErrors: ["→ chosen."],
           },
         },

@@ -136,7 +136,7 @@ export const lesson12: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Her comment directly triggers Mr. Alvarez's reprimand. The passage does not say Owen finishes (a), Dani has already spelled her word (c), and no new contestant appears (d).",
+              "**(d)**. Her comment directly triggers Mr. Alvarez's reprimand. The passage does not say Owen finishes (a), Dani has already spelled her word (c), and no new contestant appears (d).",
             commonErrors: [
               "Choosing (a) by assuming a result the passage never states.",
             ],
@@ -448,7 +448,7 @@ export const lesson12: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. The surrounding description shows the quiet is the calm before a violent storm. (b) ignores the following events, and (c) and (d) are not supported.",
+              "**(b)**. The surrounding description shows the quiet is the calm before a violent storm. (b) ignores the following events, and (c) and (d) are not supported.",
             commonErrors: [
               "Choosing (b) by using the everyday meaning of 'hush' and ignoring context.",
             ],

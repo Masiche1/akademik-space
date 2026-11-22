@@ -184,7 +184,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall the deficiency disease.", working: "\\text{vit D/Ca} \\to \\text{rickets}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Vitamin D and calcium",
+            finalAnswer: "**(d)** Vitamin D and calcium",
             commonErrors: ["Choosing vitamin C — that causes scurvy."],
           },
         },
@@ -210,7 +210,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Match nutrient to gut function.", working: "\\text{fibre} \\to \\text{gut health}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Fibre",
+            finalAnswer: "**(c)** Fibre",
             commonErrors: ["Choosing lipids — they are for energy storage/insulation."],
           },
         },
@@ -338,7 +338,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Link obesity to diabetes mechanism.", working: "\\text{obesity} \\to \\text{insulin resistance}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Excess body fat can cause insulin resistance, so blood glucose is poorly controlled",
+            finalAnswer: "**(c)** Excess body fat can cause insulin resistance, so blood glucose is poorly controlled",
             commonErrors: ["Saying 'obesity causes diabetes directly' — it increases risk via insulin resistance."],
           },
         },
@@ -390,7 +390,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall deficiency disease.", working: "\\text{vit C} \\to \\text{scurvy}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Vitamin C",
+            finalAnswer: "**(d)** Vitamin C",
             commonErrors: ["Choosing vitamin D — that causes rickets."],
           },
         },
@@ -464,7 +464,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Match enzyme to substrate.", working: "\\text{amylase} \\to \\text{starch}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Amylase",
+            finalAnswer: "**(c)** Amylase",
             commonErrors: ["Choosing protease — that's for proteins."],
           },
         },
@@ -559,7 +559,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Match enzyme to site and substrate.", working: "\\text{stomach} \\to \\text{pepsin} \\to \\text{protein}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Pepsin",
+            finalAnswer: "**(b)** Pepsin",
             commonErrors: ["Choosing amylase — that digests starch, not protein."],
           },
         },
@@ -585,7 +585,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall the source organ.", working: "\\text{liver}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Liver",
+            finalAnswer: "**(b)** Liver",
             commonErrors: ["Choosing gall bladder — it stores bile but does not produce it."],
           },
         },
@@ -611,7 +611,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Match structure to function.", working: "\\text{villi} \\to \\text{absorption}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Absorbing digested food molecules",
+            finalAnswer: "**(b)** Absorbing digested food molecules",
             commonErrors: ["Choosing 'producing enzymes' — enzymes come from pancreas/salivary glands, not villi."],
           },
         },
@@ -739,7 +739,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Link churning to function.", working: "\\text{churning} \\to \\text{surface area}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Increase the surface area of food for enzyme action",
+            finalAnswer: "**(b)** Increase the surface area of food for enzyme action",
             commonErrors: ["Saying 'to absorb nutrients' — absorption happens in the ileum."],
           },
         },
@@ -765,7 +765,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall the absorption site.", working: "\\text{ileum}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Ileum (small intestine)",
+            finalAnswer: "**(c)** Ileum (small intestine)",
             commonErrors: ["Choosing large intestine — that mainly absorbs water."],
           },
         },
@@ -791,7 +791,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Match enzyme to substrate.", working: "\\text{lipase} \\to \\text{lipid}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Lipase",
+            finalAnswer: "**(b)** Lipase",
             commonErrors: ["Choosing amylase — that is for starch."],
           },
         },
@@ -867,7 +867,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall formula.", working: "BMI = \\text{kg}/\\text{m}^2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Mass divided by height squared",
+            finalAnswer: "**(d)** Mass divided by height squared",
             commonErrors: ["Using cm for height — must convert to metres."],
           },
         },
@@ -961,7 +961,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall the category table.", working: "18.5 \\leq BMI \\leq 24.9", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 18.5 to 24.9",
+            finalAnswer: "**(d)** 18.5 to 24.9",
             commonErrors: ["Choosing 25–29.9 — that is overweight."],
           },
         },
@@ -1013,7 +1013,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Match value to category.", working: "27 \\in [25, 29.9] \\to \\text{overweight}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Overweight",
+            finalAnswer: "**(c)** Overweight",
             commonErrors: ["Choosing obese — obesity starts at BMI 30."],
           },
         },
@@ -1141,7 +1141,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall the limitation.", working: "\\text{muscle vs fat}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Muscle has a higher density than fat, so BMI cannot distinguish muscle from fat",
+            finalAnswer: "**(d)** Muscle has a higher density than fat, so BMI cannot distinguish muscle from fat",
             commonErrors: ["Saying 'BMI is wrong' — it is a screening tool, not a body-composition measure."],
           },
         },
@@ -1193,7 +1193,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Recall the acronym.", working: "\\text{body mass index}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Body mass index",
+            finalAnswer: "**(b)** Body mass index",
             commonErrors: ["Guessing — BMI is always 'body mass index'."],
           },
         },

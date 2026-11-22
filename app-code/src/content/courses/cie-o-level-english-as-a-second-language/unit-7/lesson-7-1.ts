@@ -105,7 +105,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "The most marks" },
             { id: "d", text: "Exactly the same marks as short questions" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Mark distribution", statement: "Longer tasks carry more marks." }], steps: [{ reasoning: "Writing tasks such as summaries and compositions are weighted heavily.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The most marks" },
+          markscheme: { principles: [{ kind: "skill", name: "Mark distribution", statement: "Longer tasks carry more marks." }], steps: [{ reasoning: "Writing tasks such as summaries and compositions are weighted heavily.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** The most marks" },
         },
         {
           id: "oles-u7-fm-q6", difficulty: "core", totalMarks: 1,
@@ -116,7 +116,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "Pack up your bag" },
             { id: "d", text: "Check all your answers" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Checking time", statement: "Reserve final minutes for review." }], steps: [{ reasoning: "Checking catches missed points, errors and word-limit breaches.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Check all your answers" },
+          markscheme: { principles: [{ kind: "skill", name: "Checking time", statement: "Reserve final minutes for review." }], steps: [{ reasoning: "Checking catches missed points, errors and word-limit breaches.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Check all your answers" },
         },
         {
           id: "oles-u7-fm-q7", difficulty: "foundation", totalMarks: 2,
@@ -196,7 +196,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "You may skip it if you like" },
             { id: "d", text: "It must be answered first" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "convention", name: "Compulsory", statement: "Must be attempted." }], steps: [{ reasoning: "'Compulsory' means every candidate must answer it.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** You must attempt it" },
+          markscheme: { principles: [{ kind: "convention", name: "Compulsory", statement: "Must be attempted." }], steps: [{ reasoning: "'Compulsory' means every candidate must answer it.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** You must attempt it" },
         },
         {
           id: "oles-u7-fm-q15", difficulty: "foundation", totalMarks: 2,
@@ -247,7 +247,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "Translate the text" },
             { id: "d", text: "Write an essay" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Reading order", statement: "Skim before detail." }], steps: [{ reasoning: "Gist first builds the map for answers.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Skim first" },
+          markscheme: { principles: [{ kind: "skill", name: "Reading order", statement: "Skim before detail." }], steps: [{ reasoning: "Gist first builds the map for answers.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Skim first" },
         },
         {
           id: "oles-u7-ss-q2", difficulty: "core", totalMarks: 2,
@@ -311,7 +311,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "Check your spelling" },
             { id: "d", text: "Write the introduction immediately" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Directed writing", statement: "Identify requirements before writing." }], steps: [{ reasoning: "Underline content points, then plan the structure.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Underline content points and plan" },
+          markscheme: { principles: [{ kind: "skill", name: "Directed writing", statement: "Identify requirements before writing." }], steps: [{ reasoning: "Underline content points, then plan the structure.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Underline content points and plan" },
         },
         {
           id: "oles-u7-ss-q6", difficulty: "core", totalMarks: 2,
@@ -361,7 +361,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "5 minutes planning" },
             { id: "d", text: "45 minutes planning" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Planning time", statement: "Brief plan prevents chaos." }], steps: [{ reasoning: "A short plan fixes structure, tense and ending before writing.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** 5 minutes planning" },
+          markscheme: { principles: [{ kind: "skill", name: "Planning time", statement: "Brief plan prevents chaos." }], steps: [{ reasoning: "A short plan fixes structure, tense and ending before writing.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** 5 minutes planning" },
         },
         {
           id: "oles-u7-ss-q11", difficulty: "core", totalMarks: 2,
@@ -391,7 +391,7 @@ export const lesson71: Lesson = {
             { id: "c", text: "Stop suddenly mid-sentence" },
             { id: "d", text: "Resolve the story or answer the question" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Composition ending", statement: "Endings must resolve." }], steps: [{ reasoning: "Narratives need resolution; arguments need a firm conclusion.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Resolve the story or answer the question" },
+          markscheme: { principles: [{ kind: "skill", name: "Composition ending", statement: "Endings must resolve." }], steps: [{ reasoning: "Narratives need resolution; arguments need a firm conclusion.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Resolve the story or answer the question" },
         },
         {
           id: "oles-u7-ss-q14", difficulty: "foundation", totalMarks: 2,

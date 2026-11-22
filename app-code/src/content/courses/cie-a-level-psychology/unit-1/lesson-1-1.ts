@@ -241,7 +241,7 @@ export const lesson711: Lesson = {
             "steps": [
               { "reasoning": "Compliance means going along with the group publicly while privately disagreeing.", "marks": 1, "markCode": "M" }
             ],
-            "finalAnswer": "**(b)** Compliance"
+            "finalAnswer": "**(d)** Compliance"
           }
         },
         {
@@ -266,7 +266,7 @@ export const lesson711: Lesson = {
             "steps": [
               { "reasoning": "Asch found roughly one third of responses conformed to the wrong majority answer.", "marks": 1, "markCode": "M" }
             ],
-            "finalAnswer": "**(b)** About 33%"
+            "finalAnswer": "**(c)** About 33%"
           }
         },
         {
@@ -333,7 +333,7 @@ export const lesson711: Lesson = {
             "steps": [
               { "reasoning": "The agentic state means the person feels they are just carrying out orders for an authority.", "marks": 1, "markCode": "M" }
             ],
-            "finalAnswer": "**(a)** Believing you are an agent of authority"
+            "finalAnswer": "**(d)** Believing you are an agent of authority"
           }
         },
         {
@@ -349,7 +349,7 @@ export const lesson711: Lesson = {
               { "id": "c", "text": "The experimenter giving orders by telephone" },
               { "id": "d", "text": "The learner being released from the chair between trials" }
             ],
-            "borrectChoiceId": "c"
+            "correctChoiceId": "b"
           },
           markscheme: {
             "principles": [
@@ -358,7 +358,7 @@ export const lesson711: Lesson = {
             "steps": [
               { "reasoning": "Proximity of the victim increased obedience; distance reduced it.", "marks": 1, "markCode": "M" }
             ],
-            "finalAnswer": "**(c)** Learner visible in the same room"
+            "finalAnswer": "**(b)** Learner visible in the same room"
           }
         },
         {
@@ -424,7 +424,7 @@ export const lesson711: Lesson = {
             "steps": [
               { "reasoning": "The authoritarian personality (Adorno et al.) is the dispositional explanation for obedience.", "marks": 1, "markCode": "M" }
             ],
-            "finalAnswer": "**(a)** Authoritarian personality"
+            "finalAnswer": "**(d)** Authoritarian personality"
           }
         },
         {

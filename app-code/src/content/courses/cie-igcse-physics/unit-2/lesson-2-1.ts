@@ -62,7 +62,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Force unit", statement: "Newton (N)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{N}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Newton",
+            finalAnswer: "**(a)** Newton",
             commonErrors: ["Joule = energy."],
           },
         },
@@ -142,7 +142,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Momentum unit", statement: "kg m/s (p = mv)." }],
             steps: [{ reasoning: "Recall.", working: "p = mv \\Rightarrow \\text{kg m/s}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** kg m/s",
+            finalAnswer: "**(d)** kg m/s",
             commonErrors: ["Newton is force, not momentum."],
           },
         },
@@ -176,7 +176,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Impulse", statement: "FΔt = Δ(mv)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{impulse} = F \\Delta t", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** force × time = change in momentum",
+            finalAnswer: "**(d)** force × time = change in momentum",
             commonErrors: ["Force × distance is work, not impulse."],
           },
         },
@@ -232,7 +232,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Impulse", statement: "Same Δp over longer t → smaller F." }],
             steps: [{ reasoning: "Recall.", working: "F = \\frac{\\Delta p}{\\Delta t}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** increase the collision time, reducing the force",
+            finalAnswer: "**(d)** increase the collision time, reducing the force",
             commonErrors: ["Momentum change stays the same — force reduces."],
           },
         },
@@ -271,7 +271,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Momentum", statement: "p = mv — vector." }],
             steps: [{ reasoning: "Recall.", working: "\\text{momentum is vector}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Momentum",
+            finalAnswer: "**(d)** Momentum",
             commonErrors: ["Momentum has direction."],
           },
         },
@@ -306,7 +306,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Weight unit", statement: "Newton (N)." }],
             steps: [{ reasoning: "Recall.", working: "W = mg \\Rightarrow \\text{N}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** N",
+            finalAnswer: "**(d)** N",
             commonErrors: ["kg is mass."],
           },
         },
@@ -405,7 +405,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Pressure unit", statement: "Pascal (Pa)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Pa}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Pascal",
+            finalAnswer: "**(a)** Pascal",
             commonErrors: ["Newton = force."],
           },
         },
@@ -485,7 +485,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Pressure", statement: "P = F/A." }],
             steps: [{ reasoning: "Recall.", working: "P = \\frac{F}{A}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** force ÷ area",
+            finalAnswer: "**(d)** force ÷ area",
             commonErrors: ["Inverting the formula."],
           },
         },
@@ -519,7 +519,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Pressure", statement: "P = F/A — smaller A → larger P." }],
             steps: [{ reasoning: "Recall.", working: "A \\downarrow \\Rightarrow P \\uparrow", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** higher pressure",
+            finalAnswer: "**(c)** higher pressure",
             commonErrors: ["Thinking larger area gives more pressure."],
           },
         },
@@ -575,7 +575,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Fluid pressure", statement: "P = ρgh — increases with depth." }],
             steps: [{ reasoning: "Recall.", working: "P = \\rho gh", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** increases with depth",
+            finalAnswer: "**(d)** increases with depth",
             commonErrors: ["Thinking pressure is uniform in fluids."],
           },
         },
@@ -614,7 +614,7 @@ export const lessonp21: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Fluid pressure", statement: "P = ρgh — greatest at base." }],
             steps: [{ reasoning: "Recall.", working: "P \\propto h", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** water pressure increases with depth",
+            finalAnswer: "**(d)** water pressure increases with depth",
             commonErrors: ["Pressure is greatest at the base."],
           },
         },

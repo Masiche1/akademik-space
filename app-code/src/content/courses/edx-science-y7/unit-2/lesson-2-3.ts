@@ -320,7 +320,7 @@ export const lesson23: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Same outer electrons → similar properties",
+            finalAnswer: "**(c)** Same outer electrons → similar properties",
             commonErrors: ["Atomic number confusion."],
           },
         },

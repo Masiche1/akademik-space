@@ -41,7 +41,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Few large firms" },
             { id: "d", text: "Many firms selling identical products" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Perfect competition", statement: "Many firms." }], steps: [{ reasoning: "Many small firms.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Perfect competition", statement: "Many firms." }], steps: [{ reasoning: "Many small firms.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u3-ms-q2", difficulty: "core", totalMarks: 2,
@@ -109,7 +109,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Many small competitors" },
             { id: "d", text: "High capital requirements" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Barriers to entry", statement: "Obstacles for new firms." }], steps: [{ reasoning: "Large capital needs prevent new firms entering.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Barriers to entry", statement: "Obstacles for new firms." }], steps: [{ reasoning: "Large capital needs prevent new firms entering.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u3-ms-q7", difficulty: "core", totalMarks: 1,
@@ -131,7 +131,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Perfect competitor" },
             { id: "d", text: "Price taker" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Price maker", statement: "Sets own price." }], steps: [{ reasoning: "A monopoly faces no competition and can set prices.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Price maker", statement: "Sets own price." }], steps: [{ reasoning: "A monopoly faces no competition and can set prices.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u3-ms-q9", difficulty: "challenge", totalMarks: 1,
@@ -142,7 +142,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Economies of scale mean one firm can supply the whole market at lowest cost" },
             { id: "d", text: "Patents expire quickly" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Natural monopoly", statement: "Scale economies." }], steps: [{ reasoning: "One large firm achieves lowest average cost across the whole market.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Natural monopoly", statement: "Scale economies." }], steps: [{ reasoning: "One large firm achieves lowest average cost across the whole market.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u3-ms-q10", difficulty: "foundation", totalMarks: 1,
@@ -251,7 +251,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Interdependent — must watch rivals" },
             { id: "d", text: "Price takers" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Oligopoly", statement: "Interdependent." }], steps: [{ reasoning: "Watch each other.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Oligopoly", statement: "Interdependent." }], steps: [{ reasoning: "Watch each other.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u3-og-q2", difficulty: "core", totalMarks: 2,
@@ -307,7 +307,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "A barrier to trade" },
             { id: "d", text: "A government monopoly" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Cartel", statement: "Collusive agreement." }], steps: [{ reasoning: "Cartels are formal collusive agreements between firms.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Cartel", statement: "Collusive agreement." }], steps: [{ reasoning: "Cartels are formal collusive agreements between firms.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u3-og-q6", difficulty: "foundation", totalMarks: 1,
@@ -318,7 +318,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "An advertising campaign" },
             { id: "d", text: "A temporary sale" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Non-price competition", statement: "Compete on factors other than price." }], steps: [{ reasoning: "Advertising competes on promotion rather than price.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Non-price competition", statement: "Compete on factors other than price." }], steps: [{ reasoning: "Advertising competes on promotion rather than price.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u3-og-q7", difficulty: "core", totalMarks: 1,
@@ -329,7 +329,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Each firm's decisions depend on how rivals may react" },
             { id: "d", text: "Firms act completely independently" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Interdependence", statement: "Rival reactions matter." }], steps: [{ reasoning: "Few dominant firms must anticipate each other's responses.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Interdependence", statement: "Rival reactions matter." }], steps: [{ reasoning: "Few dominant firms must anticipate each other's responses.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u3-og-q8", difficulty: "core", totalMarks: 1,
@@ -340,7 +340,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "It is illegal to cut prices" },
             { id: "d", text: "Costs would automatically fall" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Price wars", statement: "Interdependence risk." }], steps: [{ reasoning: "Matching cuts reduce everyone's profits.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Price wars", statement: "Interdependence risk." }], steps: [{ reasoning: "Matching cuts reduce everyone's profits.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u3-og-q9", difficulty: "challenge", totalMarks: 1,
@@ -351,7 +351,7 @@ export const lesson33: Lesson = {
             { id: "c", text: "Only possible in perfect competition" },
             { id: "d", text: "Illegal in many countries because it harms consumers" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Collusion", statement: "Illegal in many places." }], steps: [{ reasoning: "Price fixing and market sharing reduce competition and harm consumers.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Collusion", statement: "Illegal in many places." }], steps: [{ reasoning: "Price fixing and market sharing reduce competition and harm consumers.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u3-og-q10", difficulty: "foundation", totalMarks: 1,

@@ -99,7 +99,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Additive markers", statement: "Moreover and furthermore add a point." }],
             steps: [{ reasoning: "‘Moreover’ adds a further point formally; ‘however’ contrasts, ‘therefore’ shows result.", evidence: "Also a youth centre would give", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(b)** Moreover.",
+            finalAnswer: "**(a)** Moreover.",
             commonErrors: ["Choosing ‘However’, which signals contrast."],
           },
         },

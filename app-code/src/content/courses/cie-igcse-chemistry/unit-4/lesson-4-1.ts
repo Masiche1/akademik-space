@@ -57,7 +57,7 @@ export const lesson141: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Electrolyte", statement: "Ions must be free to move." }],
             steps: [{ reasoning: "Recall requirement.", working: "\\text{molten/aqueous}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Molten or aqueous ionic compound",
+            finalAnswer: "**(c)** Molten or aqueous ionic compound",
             commonErrors: ["Solid ionic — ions fixed in lattice, can't conduct."],
           },
         },
@@ -241,7 +241,7 @@ export const lesson141: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Solid ionic", statement: "Ions held in lattice — cannot conduct." }],
             steps: [{ reasoning: "Recall.", working: "\\text{ions fixed}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** The ions are fixed in the lattice and cannot move",
+            finalAnswer: "**(d)** The ions are fixed in the lattice and cannot move",
             commonErrors: ["Saying NaCl is covalent — it's ionic but locked in place."],
           },
         },
@@ -310,7 +310,7 @@ export const lesson141: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Electroplating", statement: "Object = cathode so metal ions deposit on it." }],
             steps: [{ reasoning: "Recall.", working: "\\text{object = cathode}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Cathode",
+            finalAnswer: "**(c)** Cathode",
             commonErrors: ["Connecting to anode — the object would be oxidised/dissolved."],
           },
         },
@@ -384,7 +384,7 @@ export const lesson141: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Cell electrodes", statement: "More reactive = anode (−), loses e⁻." }],
             steps: [{ reasoning: "Recall rule.", working: "\\text{more reactive}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** The more reactive metal",
+            finalAnswer: "**(c)** The more reactive metal",
             commonErrors: ["Reversing — less reactive is positive."],
           },
         },
@@ -463,7 +463,7 @@ export const lesson141: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Cell electrodes", statement: "More reactive metal = negative electrode." }],
             steps: [{ reasoning: "Zn above Cu in series.", working: "Zn > Cu", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Zinc",
+            finalAnswer: "**(c)** Zinc",
             commonErrors: ["Choosing copper — it's less reactive, so positive."],
           },
         },
@@ -568,7 +568,7 @@ export const lesson141: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Cell requirement", statement: "Two DIFFERENT metals needed." }],
             steps: [{ reasoning: "Recall.", working: "\\text{different metals}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Zinc and copper",
+            finalAnswer: "**(c)** Zinc and copper",
             commonErrors: ["Two identical metals give no potential difference."],
           },
         },

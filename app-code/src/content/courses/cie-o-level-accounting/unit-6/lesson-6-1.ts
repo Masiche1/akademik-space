@@ -41,7 +41,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Summarizes a group of subsidiary accounts" },
             { id: "d", text: "Is kept by each customer" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Control account", statement: "Summary of group." }], steps: [{ reasoning: "Summarizes subsidiary accounts.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Summarizes a group" },
+          markscheme: { principles: [{ kind: "definition", name: "Control account", statement: "Summary of group." }], steps: [{ reasoning: "Summarizes subsidiary accounts.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Summarizes a group" },
         },
         {
           id: "olacc-u6-int-q2", difficulty: "core", totalMarks: 2,
@@ -97,7 +97,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Only control accounts" },
             { id: "d", text: "Individual personal accounts" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Subsidiary ledger", statement: "Personal accounts." }], steps: [{ reasoning: "Sales/purchases ledgers hold personal accounts.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Personal accounts" },
+          markscheme: { principles: [{ kind: "definition", name: "Subsidiary ledger", statement: "Personal accounts." }], steps: [{ reasoning: "Sales/purchases ledgers hold personal accounts.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Personal accounts" },
         },
         {
           id: "olacc-u6-int-q6", difficulty: "core", totalMarks: 2,
@@ -117,7 +117,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Expense accounts" },
             { id: "d", text: "Customer accounts" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Creditors control", statement: "Suppliers." }], steps: [{ reasoning: "Purchases ledger = suppliers.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Suppliers" },
+          markscheme: { principles: [{ kind: "definition", name: "Creditors control", statement: "Suppliers." }], steps: [{ reasoning: "Purchases ledger = suppliers.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Suppliers" },
         },
         {
           id: "olacc-u6-int-q8", difficulty: "core", totalMarks: 2,
@@ -149,7 +149,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Sales ledger only" },
             { id: "d", text: "General ledger" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Control account", statement: "In general ledger." }], steps: [{ reasoning: "Control accounts sit in the GL.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** General ledger" },
+          markscheme: { principles: [{ kind: "definition", name: "Control account", statement: "In general ledger." }], steps: [{ reasoning: "Control accounts sit in the GL.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** General ledger" },
         },
         {
           id: "olacc-u6-int-q11", difficulty: "challenge", totalMarks: 2,
@@ -183,7 +183,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "The subsidiary ledger is accurate" },
             { id: "d", text: "The business is profitable" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Reconciliation", statement: "Agreement = accuracy." }], steps: [{ reasoning: "Agreement proves the check is satisfied.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Ledger is accurate" },
+          markscheme: { principles: [{ kind: "principle", name: "Reconciliation", statement: "Agreement = accuracy." }], steps: [{ reasoning: "Agreement proves the check is satisfied.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Ledger is accurate" },
         },
         {
           id: "olacc-u6-int-q14", difficulty: "core", totalMarks: 2,
@@ -263,7 +263,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Credit" },
             { id: "d", text: "Neither" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Debtors control", statement: "Sales = debit." }], steps: [{ reasoning: "Increases debtors = debit.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Debit" },
+          markscheme: { principles: [{ kind: "principle", name: "Debtors control", statement: "Sales = debit." }], steps: [{ reasoning: "Increases debtors = debit.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Debit" },
         },
         {
           id: "olacc-u6-dc-q2", difficulty: "core", totalMarks: 2,
@@ -317,7 +317,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Credit" },
             { id: "d", text: "Neither" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Debtors control", statement: "Receipts reduce debtors." }], steps: [{ reasoning: "Receipts decrease the asset — credit.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Credit" },
+          markscheme: { principles: [{ kind: "principle", name: "Debtors control", statement: "Receipts reduce debtors." }], steps: [{ reasoning: "Receipts decrease the asset — credit.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Credit" },
         },
         {
           id: "olacc-u6-dc-q6", difficulty: "core", totalMarks: 2,
@@ -346,7 +346,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Neither side" },
             { id: "d", text: "Debit" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Debtors control", statement: "Returns inwards on debit." }], steps: [{ reasoning: "Returns reduce sales — debited in control account.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Debit" },
+          markscheme: { principles: [{ kind: "principle", name: "Debtors control", statement: "Returns inwards on debit." }], steps: [{ reasoning: "Returns reduce sales — debited in control account.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Debit" },
         },
         {
           id: "olacc-u6-dc-q9", difficulty: "challenge", totalMarks: 2,
@@ -423,7 +423,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Credit sales" },
             { id: "d", text: "Irrecoverable debts" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Debtors control", statement: "Sales increase debtors." }], steps: [{ reasoning: "Credit sales are the main increase.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Credit sales" },
+          markscheme: { principles: [{ kind: "principle", name: "Debtors control", statement: "Sales increase debtors." }], steps: [{ reasoning: "Credit sales are the main increase.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Credit sales" },
         },
         {
           id: "olacc-u6-dc-q16", difficulty: "challenge", totalMarks: 9,

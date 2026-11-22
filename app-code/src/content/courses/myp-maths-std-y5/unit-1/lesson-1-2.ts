@@ -70,7 +70,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$3x\\ge9$, so $x\\ge3$.", working: "x\\ge3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x\\ge3$",
+            finalAnswer: "**(d)** $x\\ge3$",
             commonErrors: ["Reversing the sign unnecessarily."],
             examinerNote: "B1 for (a).",
           },
@@ -181,7 +181,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Solving inequalities", statement: "Subtract 2 and divide by 5; direction is unchanged." }],
             steps: [{ reasoning: "$5x>15 \\Rightarrow x>3$.", working: "x>3", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $x>3$",
+            finalAnswer: "**(c)** $x>3$",
           },
         },
         {
@@ -443,7 +443,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "$90\\times\\frac{1000}{3600}=90\\times\\frac{5}{18}=25$ m/s.", working: "25\\text{ m/s}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 25 m/s",
+            finalAnswer: "**(d)** 25 m/s",
             commonErrors: ["Multiplying by 1000 without dividing by 3600."],
             examinerNote: "B1 for (a).",
           },
@@ -554,7 +554,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Speed conversion", statement: "km/h $\\times\\frac{1000}{3600}=$ m/s; $54\\times\\frac5{18}=15$." }],
             steps: [{ reasoning: "$54\\times\\frac{1000}{3600}=15$ m/s.", working: "15", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** 15 m/s",
+            finalAnswer: "**(c)** 15 m/s",
           },
         },
         {

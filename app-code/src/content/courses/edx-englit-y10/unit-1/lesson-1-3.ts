@@ -77,12 +77,12 @@ export const lesson13: Lesson = {
               { id: "c", text: "In the same way" },
               { id: "d", text: "Similarly" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Comparative connectives", statement: "Choose connectives that signal similarity or difference accurately." }],
             steps: [{ reasoning: "“Whereas” introduces a contrast; the others signal similarity.", marks: 1, markCode: "AO3" }],
-            finalAnswer: "**(c)** 'Whereas' marks a difference.",
+            finalAnswer: "**(b)** 'Whereas' marks a difference.",
             commonErrors: ["Confusing connectives of similarity with those of difference."],
           },
         },
@@ -209,7 +209,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Clear thesis", statement: "An opening that answers the question and signals a comparison." }],
             steps: [{ reasoning: "Option (a) gives a clear comparative argument.", marks: 1, markCode: "AO3" }],
-            finalAnswer: "**(a)** It states a comparative argument focused on the question.",
+            finalAnswer: "**(c)** It states a comparative argument focused on the question.",
             commonErrors: ["Opening with biography (b).", "Announcing intentions without an argument (c)."],
           },
         },

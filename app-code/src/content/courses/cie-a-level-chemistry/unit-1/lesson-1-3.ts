@@ -104,7 +104,7 @@ export const lesson113: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Indicator colour change",
+            finalAnswer: "**(c)** Indicator colour change",
           },
         },
         {
@@ -599,7 +599,7 @@ export const lesson113: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Pure mass / sample mass",
+            finalAnswer: "**(b)** Pure mass / sample mass",
           },
         },
         {
@@ -981,7 +981,7 @@ export const lesson113: Lesson = {
               { id: "c", text: "$C_{12}H_{24}O_{12}$" },
               { id: "d", text: "$C_3H_6O_3$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Empirical to molecular", statement: "Molecular = empirical * n." }],

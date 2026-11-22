@@ -137,7 +137,7 @@ export const lesson11: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Hardened glue and a dry brush are physical proof that he has not been working. Choice (c) shows time passing but not lack of progress, and (a) and (d) are background details.",
+              "**(c)**. Hardened glue and a dry brush are physical proof that he has not been working. Choice (c) shows time passing but not lack of progress, and (a) and (d) are background details.",
             commonErrors: [
               "Choosing (c) because it shows how long he has been there, without checking that the claim is about progress.",
             ],
@@ -453,7 +453,7 @@ export const lesson11: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Choice (c) is only a topic, and (a) and (d) are small details of the plot, not a message about life.",
+              "**(d)**. Choice (c) is only a topic, and (a) and (d) are small details of the plot, not a message about life.",
             commonErrors: [
               "Choosing a topic phrase instead of a full-sentence message.",
               "Choosing a plot detail as a theme.",
@@ -514,7 +514,7 @@ export const lesson11: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. (a) and (d) include opinions ('hero', 'foolish', 'I think'), and (c) mentions only one setting detail.",
+              "**(c)**. (a) and (d) include opinions ('hero', 'foolish', 'I think'), and (c) mentions only one setting detail.",
             commonErrors: [
               "Choosing an answer that sounds confident but contains a judgment.",
             ],

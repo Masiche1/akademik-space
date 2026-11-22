@@ -63,7 +63,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Avogadro's number is $6.02 \\times 10^{23}$, a very large positive power of ten.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $6.02 \\times 10^{23}$",
+            finalAnswer: "**(a)** $6.02 \\times 10^{23}$",
             commonErrors: ["Choosing the negative exponent, which is a tiny number.", "Swapping the digits of the exponent."],
             examinerNote: "B1 for $6.02 \\times 10^{23}$.",
           },
@@ -197,7 +197,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The empirical formula gives the simplest ratio, not the actual numbers; that is the molecular formula.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The simplest whole-number ratio of atoms of each element",
+            finalAnswer: "**(d)** The simplest whole-number ratio of atoms of each element",
             commonErrors: ["Choosing (a), which describes the molecular formula.", "Confusing it with molar mass."],
             examinerNote: "B1 for simplest whole-number ratio.",
           },

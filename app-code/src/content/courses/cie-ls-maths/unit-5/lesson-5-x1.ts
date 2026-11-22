@@ -67,7 +67,7 @@ export const exam51: Lesson = {
           totalMarks: 1,
           stem: "The interior angles of any triangle always sum to...",
           response: {"type":"mcq","choices":[ {"id":"a","text":"$90°$"}, {"id":"b","text":"$270°$"}, {"id":"c","text":"$360°$"}, {"id":"d","text":"$180°$"} ],"correctChoiceId":"d"},
-          markscheme: {"principles":[{"kind":"convention","name":"Triangle sum","statement":"Interior angles sum to $180°$."}],"steps":[{"reasoning":"Triangle angle sum is $180°$.","working":"180°","marks":1,"markCode":"B"}],"finalAnswer":"**(b)** $180°$","commonErrors":["Choosing (d) — $360°$ is angles around a point."]},
+          markscheme: {"principles":[{"kind":"convention","name":"Triangle sum","statement":"Interior angles sum to $180°$."}],"steps":[{"reasoning":"Triangle angle sum is $180°$.","working":"180°","marks":1,"markCode":"B"}],"finalAnswer":"**(d)** $180°$","commonErrors":["Choosing (d) — $360°$ is angles around a point."]},
         },
         {
           id: "cilm-u5-x1-q6",
@@ -91,7 +91,7 @@ export const exam51: Lesson = {
           totalMarks: 1,
           stem: "A circle has diameter $18$ cm. What is its radius?",
           response: {"type":"mcq","choices":[ {"id":"a","text":"$18$ cm"}, {"id":"b","text":"$9$ cm"}, {"id":"c","text":"$4.5$ cm"}, {"id":"d","text":"$36$ cm"} ],"correctChoiceId":"b"},
-          markscheme: {"principles":[{"kind":"convention","name":"Radius","statement":"$r = d/2$."}],"steps":[{"reasoning":"$r = 18\\div2 = 9$ cm.","working":"r=9","marks":1,"markCode":"B"}],"finalAnswer":"**(a)** $9$ cm","commonErrors":["Choosing (b) — radius is half the diameter."]},
+          markscheme: {"principles":[{"kind":"convention","name":"Radius","statement":"$r = d/2$."}],"steps":[{"reasoning":"$r = 18\\div2 = 9$ cm.","working":"r=9","marks":1,"markCode":"B"}],"finalAnswer":"**(b)** $9$ cm","commonErrors":["Choosing (b) — radius is half the diameter."]},
         },
         {
           id: "cilm-u5-x1-q9",
@@ -99,7 +99,7 @@ export const exam51: Lesson = {
           totalMarks: 1,
           stem: "How many lines of symmetry does a square have?",
           response: {"type":"mcq","choices":[ {"id":"a","text":"$4$"}, {"id":"b","text":"$8$"}, {"id":"c","text":"$2$"}, {"id":"d","text":"$1$"} ],"correctChoiceId":"a"},
-          markscheme: {"principles":[{"kind":"definition","name":"Symmetry","statement":"Square: 2 midlines + 2 diagonals = 4."}],"steps":[{"reasoning":"Square has $4$ lines of symmetry.","working":"4","marks":1,"markCode":"B"}],"finalAnswer":"**(b)** $4$","commonErrors":["Missing the diagonal lines."]},
+          markscheme: {"principles":[{"kind":"definition","name":"Symmetry","statement":"Square: 2 midlines + 2 diagonals = 4."}],"steps":[{"reasoning":"Square has $4$ lines of symmetry.","working":"4","marks":1,"markCode":"B"}],"finalAnswer":"**(a)** $4$","commonErrors":["Missing the diagonal lines."]},
         },
         {
           id: "cilm-u5-x1-q10",
@@ -131,7 +131,7 @@ export const exam51: Lesson = {
           totalMarks: 1,
           stem: "When two straight lines cross, vertically opposite angles are...",
           response: {"type":"mcq","choices":[ {"id":"a","text":"Sum to $180°$"}, {"id":"b","text":"Equal"}, {"id":"c","text":"Sum to $360°$"}, {"id":"d","text":"Always $90°$"} ],"correctChoiceId":"b"},
-          markscheme: {"principles":[{"kind":"convention","name":"Vertically opposite","statement":"Vertically opposite angles are equal."}],"steps":[{"reasoning":"Vertically opposite angles are equal.","working":"equal","marks":1,"markCode":"B"}],"finalAnswer":"**(a)** Equal","commonErrors":["Choosing (b) — that's adjacent angles on a line."]},
+          markscheme: {"principles":[{"kind":"convention","name":"Vertically opposite","statement":"Vertically opposite angles are equal."}],"steps":[{"reasoning":"Vertically opposite angles are equal.","working":"equal","marks":1,"markCode":"B"}],"finalAnswer":"**(b)** Equal","commonErrors":["Choosing (b) — that's adjacent angles on a line."]},
         },
         {
           id: "cilm-u5-x1-q14",
@@ -147,7 +147,7 @@ export const exam51: Lesson = {
           totalMarks: 1,
           stem: "The angles of a triangle are in the ratio $2:3:4$. What is the smallest angle?",
           response: {"type":"mcq","choices":[ {"id":"a","text":"$40°$"}, {"id":"b","text":"$60°$"}, {"id":"c","text":"$20°$"}, {"id":"d","text":"$80°$"} ],"correctChoiceId":"a"},
-          markscheme: {"principles":[{"kind":"skill","name":"Ratio angles","statement":"$9$ parts $=180°$ → each $20°$; smallest $2\\times20=40°$."}],"steps":[{"reasoning":"$180\\div9=20$ per part; smallest $=40°$.","working":"40°","marks":1,"markCode":"B"}],"finalAnswer":"**(b)** $40°$","commonErrors":["Choosing (c) — that's the middle angle."]},
+          markscheme: {"principles":[{"kind":"skill","name":"Ratio angles","statement":"$9$ parts $=180°$ → each $20°$; smallest $2\\times20=40°$."}],"steps":[{"reasoning":"$180\\div9=20$ per part; smallest $=40°$.","working":"40°","marks":1,"markCode":"B"}],"finalAnswer":"**(a)** $40°$","commonErrors":["Choosing (c) — that's the middle angle."]},
         },
         {
           id: "cilm-u5-x1-q16",

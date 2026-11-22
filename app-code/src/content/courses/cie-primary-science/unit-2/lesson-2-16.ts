@@ -51,7 +51,7 @@ export const lesson216: Lesson = {
             { id: "b", text: "Incisors" },
             { id: "c", text: "Wisdom teeth only" },
             { id: "d", text: "Canines" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Molars", statement: "Back teeth for grinding." }],
             steps: [{ reasoning: "Molars grind food at the back.", marks: 1, markCode: "A" }],
@@ -277,7 +277,7 @@ export const lesson216: Lesson = {
             { id: "b", text: "Molars" },
             { id: "c", text: "All teeth equally" },
             { id: "d", text: "Incisors" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Molars", statement: "Back teeth for grinding." }],
             steps: [{ reasoning: "Molars grind food.", marks: 1, markCode: "A" }],

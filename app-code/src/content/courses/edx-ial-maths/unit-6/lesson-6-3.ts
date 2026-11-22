@@ -94,7 +94,7 @@ export const lesson63: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** $0.5$",
+            finalAnswer: "**(c)** $0.5$",
             commonErrors: [
               "Confusing $P(Z<0)$ with $P(Z=0)$ — the latter is $0$.",
             ],
@@ -387,7 +387,7 @@ export const lesson63: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** $2\\mu+3$",
+            finalAnswer: "**(d)** $2\\mu+3$",
             commonErrors: ["Applying the transformation only to $\\sigma$."],
           },
         },

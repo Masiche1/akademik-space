@@ -65,7 +65,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Cohesion vs coherence", statement: "Cohesion = surface links; coherence = logical flow." }],
             steps: [{ reasoning: "Criterion B (Organizing): cohesion = surface, coherence = logical — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Cohesion = surface connections; coherence = logical flow",
+            finalAnswer: "**(a)** Cohesion = surface connections; coherence = logical flow",
           },
         },
         {
@@ -151,7 +151,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Cohesion vs coherence", statement: "Cohesion = surface links; coherence = logical flow." }],
             steps: [{ reasoning: "Criterion B (Organizing): cohesion = surface, coherence = logical — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Cohesion = surface connections; coherence = logical flow",
+            finalAnswer: "**(d)** Cohesion = surface connections; coherence = logical flow",
           },
         },
         {
@@ -197,7 +197,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Transitions", statement: "Contrastive transitions signal opposing ideas." }],
             steps: [{ reasoning: "Criterion B (Organizing): 'However' signals contrast — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It signals contrast — staying contradicts wanting to leave",
+            finalAnswer: "**(a)** It signals contrast — staying contradicts wanting to leave",
           },
         },
         {
@@ -223,7 +223,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Cohesion", statement: "Transitions and links create flow." }],
             steps: [{ reasoning: "Criterion B (Organizing): no transitions — ideas abrupt — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** No transitions or linking phrases — sentences abrupt",
+            finalAnswer: "**(c)** No transitions or linking phrases — sentences abrupt",
           },
         },
         {
@@ -244,7 +244,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Signposting", statement: "Explicit structural markers guide the reader." }],
             steps: [{ reasoning: "Criterion B (Organizing): signposting = structural markers — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Explicit markers of structure that guide the reader",
+            finalAnswer: "**(a)** Explicit markers of structure that guide the reader",
           },
         },
         {
@@ -306,7 +306,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Topic sentence", statement: "First sentence stating the paragraph's main idea." }],
             steps: [{ reasoning: "Criterion B (Organizing): topic sentence = main idea opener — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The first sentence stating the paragraph's main idea",
+            finalAnswer: "**(c)** The first sentence stating the paragraph's main idea",
           },
         },
         {
@@ -370,7 +370,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Macro vs micro structure", statement: "Whole-text vs paragraph-level organization." }],
             steps: [{ reasoning: "Criterion B (Organizing): macro = whole text, micro = paragraph — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Macro = whole-text organization; micro = paragraph-level structure",
+            finalAnswer: "**(c)** Macro = whole-text organization; micro = paragraph-level structure",
           },
         },
         {
@@ -444,7 +444,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "In medias res", statement: "Starting in the middle of action." }],
             steps: [{ reasoning: "Criterion B (Organizing): in medias res = middle of action — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Starting in the middle of the action",
+            finalAnswer: "**(a)** Starting in the middle of the action",
           },
         },
         {
@@ -529,7 +529,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Flashback", statement: "Jump to earlier events within the narrative." }],
             steps: [{ reasoning: "Criterion B (Organizing): flashback = earlier events — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Interrupting the present to show earlier events",
+            finalAnswer: "**(a)** Interrupting the present to show earlier events",
           },
         },
         {
@@ -570,7 +570,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Circular structure", statement: "Ending where the story began, but transformed." }],
             steps: [{ reasoning: "Criterion B (Organizing): circular = ends where began, changed — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** A narrative that ends where it began, but changed",
+            finalAnswer: "**(a)** A narrative that ends where it began, but changed",
           },
         },
         {
@@ -596,7 +596,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "In medias res", statement: "Starting mid-action creates immediate tension." }],
             steps: [{ reasoning: "Criterion B (Organizing): opens with consequence ('bullet in wall'), then 'three days earlier' = in medias res + flashback — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** In medias res — starting mid-action, then flashing back",
+            finalAnswer: "**(c)** In medias res — starting mid-action, then flashing back",
           },
         },
         {
@@ -617,7 +617,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Structural purpose", statement: "Advanced structure must enhance meaning, not confuse." }],
             steps: [{ reasoning: "Criterion B (Organizing): use when purposeful — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** When it serves a purpose — mystery, revelation, thematic resonance",
+            finalAnswer: "**(c)** When it serves a purpose — mystery, revelation, thematic resonance",
           },
         },
         {
@@ -679,7 +679,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Chronological order", statement: "Events in the order they occurred." }],
             steps: [{ reasoning: "Criterion B (Organizing): chronological = time order — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Telling events in the order they happened",
+            finalAnswer: "**(d)** Telling events in the order they happened",
           },
         },
         {
@@ -748,7 +748,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Structural clarity", statement: "Confusion ≠ sophistication; non-linear needs purpose and clarity." }],
             steps: [{ reasoning: "Criterion B (Organizing): A linear, B confusing without signposts — neither shows effective non-linear craft — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Neither — A is linear, B is confusing without purpose",
+            finalAnswer: "**(d)** Neither — A is linear, B is confusing without purpose",
           },
         },
         {

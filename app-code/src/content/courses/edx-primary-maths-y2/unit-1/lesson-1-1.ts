@@ -76,7 +76,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "100" },
               { id: "d", text: "60" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -87,7 +87,7 @@ export const lesson11: Lesson = {
               },
             ],
             steps: [{ reasoning: "50 + 10 = 60.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** 60",
+            finalAnswer: "**(d)** 60",
             commonErrors: ["Adding 1 or 5 instead of 10."],
           },
         },
@@ -292,7 +292,7 @@ export const lesson11: Lesson = {
               },
             ],
             steps: [{ reasoning: "6 tens = 60.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** 60",
+            finalAnswer: "**(a)** 60",
             commonErrors: ["Answering 6 — ignoring place value."],
           },
         },

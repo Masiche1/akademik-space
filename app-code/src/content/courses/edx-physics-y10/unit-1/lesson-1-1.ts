@@ -58,7 +58,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Distance" },
               { id: "d", text: "Velocity" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -67,7 +67,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Speed, distance and time have size only, so they are scalars. Velocity has a direction as well as a size.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Velocity",
+            finalAnswer: "**(d)** Velocity",
             commonErrors: ["Choosing speed because it sounds like velocity; speed has no direction."],
             examinerNote: "B1 for (c).",
           },
@@ -205,7 +205,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Distance divided by time is speed. Acceleration is the gradient of a velocity-time graph.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Speed",
+            finalAnswer: "**(c)** Speed",
             commonErrors: ["Choosing acceleration, which is the gradient of a velocity-time graph."],
             examinerNote: "B1 for (b).",
           },

@@ -536,7 +536,7 @@ export const lesson724: Lesson = {
                               "text": "Elevated mood and grandiosity"
                     }
           ],
-          "dorrectChoiceId": "c"
+          "correctChoiceId": "d"
 },
           markscheme: {
           "principles": [

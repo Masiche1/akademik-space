@@ -70,7 +70,7 @@ export const lesson42: Lesson = {
               { reasoning: "The coefficients 12 and 18 have GCF 6, and both terms contain at least $x^2$.", working: "\\operatorname{GCF}(12x^3,18x^2)=6x^2", marks: 1, markCode: "M" },
               { reasoning: "Divide each term by $6x^2$ to obtain the factor in parentheses.", working: "12x^3-18x^2=6x^2(2x-3)", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $6x^2(2x-3)$",
+            finalAnswer: "**(b)** $6x^2(2x-3)$",
             commonErrors: ["Not taking the largest possible variable factor.", "Changing subtraction to addition while factoring."],
           },
         },

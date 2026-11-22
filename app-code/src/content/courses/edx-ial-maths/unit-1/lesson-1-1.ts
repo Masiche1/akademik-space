@@ -193,7 +193,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$9$" },
               { id: "d", text: "$17$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -202,7 +202,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Here $a=2$, $b=-3$, $c=-2$, so $\\Delta=(-3)^2-4(2)(-2)$.", working: "9+16=25", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $25$",
+            finalAnswer: "**(b)** $25$",
             commonErrors: ["Computing $b^2+4ac$ instead of $b^2-4ac$.", "Using $c=2$ and getting $-7$."],
           },
         },

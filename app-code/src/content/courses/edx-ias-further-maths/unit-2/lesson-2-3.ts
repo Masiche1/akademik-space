@@ -60,7 +60,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Polar area", statement: "$A=\\frac12\\int r^2\\,d\\theta$." }],
             steps: [{ reasoning: "Sector area $\\frac12r^2d\\theta$ integrated.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $\\frac12\\int r^2\\,d\\theta$",
+            finalAnswer: "**(c)** $\\frac12\\int r^2\\,d\\theta$",
           },
         },
         {

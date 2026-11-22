@@ -261,7 +261,7 @@ export const lesson624: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Ghana"
+          "finalAnswer": "**(d)** Ghana"
 },
         },
         {
@@ -374,7 +374,7 @@ export const lesson624: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** African unity and solidarity"
+          "finalAnswer": "**(b)** African unity and solidarity"
 },
         },
         {
@@ -451,7 +451,7 @@ export const lesson624: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** Secessionist state in Nigeria"
+          "finalAnswer": "**(d)** Secessionist state in Nigeria"
 },
         },
         {
@@ -528,7 +528,7 @@ export const lesson624: Lesson = {
                               "markCode": "M"
                     }
           ],
-          "finalAnswer": "**(a)** African Union"
+          "finalAnswer": "**(b)** African Union"
 },
         },
         {
@@ -614,7 +614,7 @@ export const lesson624: Lesson = {
                               "markCode": "A"
                     }
           ],
-          "finalAnswer": "**(a)** Weak institutions and instability"
+          "finalAnswer": "**(d)** Weak institutions and instability"
 },
         },
         {

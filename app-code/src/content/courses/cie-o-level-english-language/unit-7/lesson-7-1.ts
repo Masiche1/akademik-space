@@ -65,7 +65,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Implicit = suggested.", working: "suggested", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Suggested but not stated",
+            finalAnswer: "**(b)** Suggested but not stated",
             commonErrors: ["Choosing (b) — that's explicit."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Implicit = suggested, not stated.", working: "implicit", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Suggested but not stated directly",
+        finalAnswer: "**(d)** Suggested but not stated directly",
         commonErrors: ["Confusing with explicit."],
       },
     },
@@ -196,7 +196,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Subtext = underlying meaning.", working: "subtext", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Underlying meaning beneath the surface",
+        finalAnswer: "**(b)** Underlying meaning beneath the surface",
         commonErrors: ["Confusing with explicit text."],
       },
     },
@@ -248,7 +248,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Nuance = subtle differences.", working: "nuance", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Subtle differences in meaning",
+        finalAnswer: "**(c)** Subtle differences in meaning",
         commonErrors: ["Missing subtle distinctions."],
       },
     },
@@ -274,7 +274,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Explicit = stated directly.", working: "explicit", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Stated directly and clearly",
+        finalAnswer: "**(c)** Stated directly and clearly",
         commonErrors: ["Confusing with implicit."],
       },
     },
@@ -506,7 +506,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Topic sentence = main idea.", working: "main idea", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Main idea of paragraph",
+            finalAnswer: "**(b)** Main idea of paragraph",
             commonErrors: ["Choosing (b) — not always first."],
           },
         },
@@ -611,7 +611,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Topic sentence = main idea.", working: "topic", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** States the main idea of a paragraph",
+        finalAnswer: "**(c)** States the main idea of a paragraph",
         commonErrors: ["Confusing with supporting sentence."],
       },
     },
@@ -637,7 +637,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Chronological = time order.", working: "chronological", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Organised by time order",
+        finalAnswer: "**(b)** Organised by time order",
         commonErrors: ["Confusing with other organisations."],
       },
     },
@@ -663,7 +663,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Cohesion = how parts connect.", working: "cohesion", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** How parts connect — pronouns, conjunctions, transitions",
+        finalAnswer: "**(d)** How parts connect — pronouns, conjunctions, transitions",
         commonErrors: ["Missing connections between parts."],
       },
     },
@@ -689,7 +689,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Thematic = grouped by topic.", working: "thematic", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Grouping by topic or idea",
+        finalAnswer: "**(c)** Grouping by topic or idea",
         commonErrors: ["Confusing with chronological."],
       },
     },
@@ -715,7 +715,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Paragraph = topic→support→conclusion.", working: "paragraph", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Topic sentence → support → conclusion",
+        finalAnswer: "**(d)** Topic sentence → support → conclusion",
         commonErrors: ["Random organisation."],
       },
     },
@@ -947,7 +947,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "Purpose, audience, tone.", working: "elements", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Purpose, audience, tone",
+            finalAnswer: "**(c)** Purpose, audience, tone",
             commonErrors: ["Only surface features — need deeper analysis."],
           },
         },
@@ -1052,7 +1052,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Compare multiple features.", working: "features", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Purpose, audience, tone, language, structure",
+        finalAnswer: "**(b)** Purpose, audience, tone, language, structure",
         commonErrors: ["Comparing only one aspect."],
       },
     },
@@ -1078,7 +1078,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Similarities = shared features.", working: "similarities", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Shared purpose, tone, techniques, structure",
+        finalAnswer: "**(c)** Shared purpose, tone, techniques, structure",
         commonErrors: ["Finding only differences."],
       },
     },
@@ -1104,7 +1104,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Differences = distinct features.", working: "differences", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Distinct purpose, audience, tone, language, structure",
+        finalAnswer: "**(d)** Distinct purpose, audience, tone, language, structure",
         commonErrors: ["Finding only similarities."],
       },
     },
@@ -1130,7 +1130,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Comparison reveals similarities/differences.", working: "purpose", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** To understand similarities, differences, and effects",
+        finalAnswer: "**(c)** To understand similarities, differences, and effects",
         commonErrors: ["Comparing only length."],
       },
     },
@@ -1156,7 +1156,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Identify features before comparing.", working: "features", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Purpose, audience, tone, language, structure",
+        finalAnswer: "**(c)** Purpose, audience, tone, language, structure",
         commonErrors: ["Comparing without identifying features."],
       },
     },
@@ -1493,7 +1493,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Bias = one-sided view.", working: "bias", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** One-sided perspective favouring one view",
+        finalAnswer: "**(d)** One-sided perspective favouring one view",
         commonErrors: ["Confusing bias with balance."],
       },
     },
@@ -1519,7 +1519,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Loaded language signals bias.", working: "loaded", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Loaded language",
+        finalAnswer: "**(b)** Loaded language",
         commonErrors: ["Missing bias indicators."],
       },
     },
@@ -1545,7 +1545,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Check sources and evidence.", working: "sources", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Sources, evidence quality, logical consistency",
+        finalAnswer: "**(c)** Sources, evidence quality, logical consistency",
         commonErrors: ["Accepting unverified claims."],
       },
     },
@@ -1571,7 +1571,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Critical reading = evaluation.", working: "evaluate", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Evaluate texts — bias, purpose, reliability",
+        finalAnswer: "**(b)** Evaluate texts — bias, purpose, reliability",
         commonErrors: ["Passive reading only."],
       },
     },
@@ -1597,7 +1597,7 @@ export const lesson71: Lesson = {
         steps: [
           { reasoning: "Purpose = why written.", working: "purpose", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Identifying why the text was written",
+        finalAnswer: "**(b)** Identifying why the text was written",
         commonErrors: ["Missing writer's agenda."],
       },
     },

@@ -112,7 +112,7 @@ export const lesson122: Lesson = {
               },
               { reasoning: "Answer: lied dialogue.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'I don't care,' she lied",
+            finalAnswer: "**(a)** 'I don't care,' she lied",
             commonErrors: ["Choosing description not dialogue."],
           },
         },
@@ -253,7 +253,7 @@ export const lesson122: Lesson = {
             steps: [
               { reasoning: "All senses listed.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Sight, sound, smell, touch, taste",
+            finalAnswer: "**(c)** Sight, sound, smell, touch, taste",
             commonErrors: ["Missing senses."],
           },
         },

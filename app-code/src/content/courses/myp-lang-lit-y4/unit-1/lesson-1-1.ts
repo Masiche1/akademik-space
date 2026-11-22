@@ -67,7 +67,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): comparison looks at multiple features — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Theme, perspective, language, structure and effect",
+            finalAnswer: "**(c)** Theme, perspective, language, structure and effect",
           },
         },
         {
@@ -167,7 +167,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'whereas' signals contrast — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** whereas",
+            finalAnswer: "**(a)** whereas",
           },
         },
         {
@@ -224,7 +224,7 @@ export const lesson11: Lesson = {
               { reasoning: "Criterion A (Analysing): perspective and language are meaningful comparison features — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): page count, font and price are surface features irrelevant to analysis.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Perspective and language",
+            finalAnswer: "**(a)** Perspective and language",
           },
         },
         {
@@ -263,7 +263,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "Text A uses the word 'the' more often" },
               { id: "d", text: "Text A is on page 1; Text B is on page 2" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -273,7 +273,7 @@ export const lesson11: Lesson = {
               { reasoning: "Criterion A (Analysing): word counts and page numbers are surface features; theme and technique are meaningful — (c).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): (c) identifies shared theme AND contrasting treatment — a complete comparison.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Both explore grief, but A shows it through a funeral while B shows it through silence",
+            finalAnswer: "**(a)** Both explore grief, but A shows it through a funeral while B shows it through silence",
           },
         },
         {
@@ -352,7 +352,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): effect = reader response — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** How each text makes the reader feel or respond",
+            finalAnswer: "**(c)** How each text makes the reader feel or respond",
           },
         },
         {
@@ -400,7 +400,7 @@ export const lesson11: Lesson = {
               { reasoning: "Criterion A (Analysing): (b) identifies connection ('both explore loss') and contrast ('however... silence vs anger').", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): other options are judgments or facts without comparative analysis.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Both explore loss; however, Text A shows it through silence while Text B shows it through anger.",
+            finalAnswer: "**(d)** Both explore loss; however, Text A shows it through silence while Text B shows it through anger.",
           },
         },
         {
@@ -509,7 +509,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): intertextuality = texts referencing each other — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** When a text references or responds to another text",
+            finalAnswer: "**(c)** When a text references or responds to another text",
           },
         },
         {
@@ -607,7 +607,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): parody = mocking imitation — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A text that mocks or imitates another text for comic effect",
+            finalAnswer: "**(a)** A text that mocks or imitates another text for comic effect",
           },
         },
         {
@@ -651,7 +651,7 @@ export const lesson11: Lesson = {
               { reasoning: "Criterion A (Analysing): adaptation — same story retold in film with changes — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): changed ending shows reinterpretation, not copying.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Adaptation",
+            finalAnswer: "**(d)** Adaptation",
           },
         },
         {
@@ -771,7 +771,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): allusion = indirect reference — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** An indirect reference to another text, person or event",
+            finalAnswer: "**(a)** An indirect reference to another text, person or event",
           },
         },
         {
@@ -815,7 +815,7 @@ export const lesson11: Lesson = {
               { reasoning: "Criterion A (Analysing): adaptation retells for new audience/medium — (b).", marks: 1, markCode: "A" },
               { reasoning: "Criterion A (Analysing): it preserves the core story while changing form or emphasis.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A retelling of a story for a new audience or medium",
+            finalAnswer: "**(d)** A retelling of a story for a new audience or medium",
           },
         },
         {

@@ -70,7 +70,7 @@ export const lesson62: Lesson = {
               { reasoning: "Blend is the quality of sounds merging into a unified whole.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Sounds merging smoothly into a unified whole",
+            finalAnswer: "**(a)** Sounds merging smoothly into a unified whole",
             commonErrors: [
               "Confusing blend (tone merging) with balance (volume).",
             ],
@@ -171,7 +171,7 @@ export const lesson62: Lesson = {
               { reasoning: "Balance is adjusting volume so all parts are heard.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Adjusting relative volumes so all parts are heard",
+            finalAnswer: "**(a)** Adjusting relative volumes so all parts are heard",
             commonErrors: [
               "Confusing balance with blend or tempo matching.",
             ],
@@ -200,7 +200,7 @@ export const lesson62: Lesson = {
               { reasoning: "Eye contact acts as a cue for entries.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A cue coordinating the entry",
+            finalAnswer: "**(d)** A cue coordinating the entry",
             commonErrors: [
               "Underestimating non-verbal cues in coordination.",
             ],
@@ -229,7 +229,7 @@ export const lesson62: Lesson = {
               { reasoning: "A cue is a signal coordinating entries and changes.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A signal coordinating entries and changes",
+            finalAnswer: "**(d)** A signal coordinating entries and changes",
             commonErrors: [
               "Confusing cues with score markings.",
             ],
@@ -258,7 +258,7 @@ export const lesson62: Lesson = {
               { reasoning: "Accompaniment should support so melody projects.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Reduce volume so the melody projects",
+            finalAnswer: "**(c)** Reduce volume so the melody projects",
             commonErrors: [
               "Competing with the melody instead of supporting it.",
             ],
@@ -287,7 +287,7 @@ export const lesson62: Lesson = {
               { reasoning: "Rehearsal aims for automatic, spontaneous coordination.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Automatic coordination so performance feels spontaneous",
+            finalAnswer: "**(c)** Automatic coordination so performance feels spontaneous",
             commonErrors: [
               "Thinking rehearsal only builds individual technique.",
             ],
@@ -316,7 +316,7 @@ export const lesson62: Lesson = {
               { reasoning: "Slow practice builds shared timing and coordination.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Building shared timing and coordination",
+            finalAnswer: "**(a)** Building shared timing and coordination",
             commonErrors: [
               "Practising fast from the start without coordination.",
             ],
@@ -345,7 +345,7 @@ export const lesson62: Lesson = {
               { reasoning: "Blend is matching tone so parts merge.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Matching tone quality so parts merge into one sound",
+            finalAnswer: "**(c)** Matching tone quality so parts merge into one sound",
             commonErrors: [
               "Confusing blend with balance or unison playing.",
             ],
@@ -374,7 +374,7 @@ export const lesson62: Lesson = {
               { reasoning: "Unified performances share tempo, dynamics and expression.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Share tempo, dynamics and expression through constant communication",
+            finalAnswer: "**(a)** Share tempo, dynamics and expression through constant communication",
             commonErrors: [
               "Thinking unity means identical playing rather than coordinated parts.",
             ],
@@ -623,7 +623,7 @@ export const lesson62: Lesson = {
               { reasoning: "Stage presence is the performer's energy and engagement that connects with the audience.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The performer's energy and engagement that connects with the audience",
+            finalAnswer: "**(c)** The performer's energy and engagement that connects with the audience",
             commonErrors: [
               "Confusing stage presence with venue or equipment quality.",
             ],
@@ -724,7 +724,7 @@ export const lesson62: Lesson = {
               { reasoning: "Visual elements communicate emotion alongside sound.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Eye contact, facial expression and body language",
+            finalAnswer: "**(d)** Eye contact, facial expression and body language",
             commonErrors: [
               "Focusing only on technical execution.",
             ],
@@ -753,7 +753,7 @@ export const lesson62: Lesson = {
               { reasoning: "Reframing channels arousal energy into performance.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** It channels the same energy into performance",
+            finalAnswer: "**(d)** It channels the same energy into performance",
             commonErrors: [
               "Trying to eliminate nerves rather than manage them.",
             ],
@@ -782,7 +782,7 @@ export const lesson62: Lesson = {
               { reasoning: "Continuing preserves performance integrity.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Continue without visible reaction",
+            finalAnswer: "**(c)** Continue without visible reaction",
             commonErrors: [
               "Stopping or apologising visibly when mistakes occur.",
             ],
@@ -898,7 +898,7 @@ export const lesson62: Lesson = {
               { reasoning: "Performance is communication of musical intention.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Communication of musical intention to an audience",
+            finalAnswer: "**(d)** Communication of musical intention to an audience",
             commonErrors: [
               "Treating performance as mere technical execution.",
             ],
@@ -927,7 +927,7 @@ export const lesson62: Lesson = {
               { reasoning: "Emotional connection makes performances memorable.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Emotional connection and musical communication",
+            finalAnswer: "**(d)** Emotional connection and musical communication",
             commonErrors: [
               "Believing technical accuracy alone creates memorable performance.",
             ],

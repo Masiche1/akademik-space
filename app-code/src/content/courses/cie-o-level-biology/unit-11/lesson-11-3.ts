@@ -161,7 +161,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall a valid disadvantage.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Waste can pollute water and overcrowding can spread disease",
+            finalAnswer: "**(c)** Waste can pollute water and overcrowding can spread disease",
             commonErrors: ["Choosing low yield — intensive farming aims for high yield."],
           },
         },
@@ -187,7 +187,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall a valid disadvantage.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It is expensive to set up and needs energy for lighting/climate control",
+            finalAnswer: "**(a)** It is expensive to set up and needs energy for lighting/climate control",
             commonErrors: ["Thinking hydroponics uses no resources — energy and nutrients are still needed."],
           },
         },
@@ -213,7 +213,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall the trade-off.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It can reduce genetic diversity and make crops vulnerable",
+            finalAnswer: "**(d)** It can reduce genetic diversity and make crops vulnerable",
             commonErrors: ["Confusing selective breeding with genetic engineering."],
           },
         },
@@ -239,7 +239,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Choose the sustainable practice.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Crop rotation and reduced chemical inputs",
+            finalAnswer: "**(d)** Crop rotation and reduced chemical inputs",
             commonErrors: ["Choosing maximum pesticide — that is unsustainable."],
           },
         },
@@ -395,7 +395,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall a valid advantage.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It can grow without soil and allows precise nutrient control",
+            finalAnswer: "**(a)** It can grow without soil and allows precise nutrient control",
             commonErrors: ["Choosing 'needs no nutrients' — nutrient solution is essential."],
           },
         },
@@ -471,7 +471,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{up the chain}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Increasing toxin concentration up the food chain",
+            finalAnswer: "**(c)** Increasing toxin concentration up the food chain",
             commonErrors: ["Confusing with bioaccumulation — that's within one organism."],
           },
         },
@@ -617,7 +617,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall the threshold.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Below 5.6",
+            finalAnswer: "**(d)** Below 5.6",
             commonErrors: ["Using pH 7 — that is neutral, not the acid rain threshold."],
           },
         },
@@ -669,7 +669,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall the acidic gases.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** SO₂ and NOₓ",
+            finalAnswer: "**(c)** SO₂ and NOₓ",
             commonErrors: ["Choosing CO₂/methane — those are greenhouse gases."],
           },
         },
@@ -799,7 +799,7 @@ export const lesson113: Lesson = {
             steps: [
               { reasoning: "Recall the food-chain effect.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Toxins biomagnify up the food chain as predators eat contaminated prey",
+            finalAnswer: "**(d)** Toxins biomagnify up the food chain as predators eat contaminated prey",
             commonErrors: ["Thinking producers have highest concentrations — predators are highest."],
           },
         },

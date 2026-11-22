@@ -819,7 +819,7 @@ export const lesson311: Lesson = {
               { id: "c", text: "$MgO$" },
               { id: "d", text: "$Na_2O$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Oxide acidity", statement: "Non-metal oxides are acidic." }],

@@ -272,7 +272,7 @@ export const lesson343: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** 1973",
+            finalAnswer: "**(d)** 1973",
           },
         },
         {
@@ -384,7 +384,7 @@ export const lesson343: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(b)** The My Lai massacre",
+            finalAnswer: "**(c)** The My Lai massacre",
           },
         },
         {
@@ -472,7 +472,7 @@ export const lesson343: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** US reluctance to intervene militarily abroad after Vietnam",
+              "**(a)** US reluctance to intervene militarily abroad after Vietnam",
           },
         },
         {
@@ -558,7 +558,7 @@ export const lesson343: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Domestic opposition and the cost of the war made continued involvement untenable",
+              "**(d)** Domestic opposition and the cost of the war made continued involvement untenable",
           },
         },
         {
@@ -694,7 +694,7 @@ export const lesson343: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Communist victory and the reunification of Vietnam",
+              "**(c)** Communist victory and the reunification of Vietnam",
           },
         },
         {

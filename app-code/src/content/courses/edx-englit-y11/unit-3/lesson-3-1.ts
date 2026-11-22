@@ -81,7 +81,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Irony", statement: "The boast of greatness is undone by the reality of ruin." }],
             steps: [{ reasoning: "The flat statement contrasts with the king's boast, showing that all has vanished.", evidence: "Nothing beside remains", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** The ruler's power has completely vanished.",
+            finalAnswer: "**(b)** The ruler's power has completely vanished.",
             commonErrors: ["Choosing (b), which only describes what the traveller sees."],
           },
         },
@@ -220,7 +220,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Anaphora", statement: "Repetition at the start of lines builds emphasis and cumulative effect." }],
             steps: [{ reasoning: "The repeated 'every' shows that no one escapes the suffering.", evidence: "In every cry of every Man", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** It suggests that suffering is universal.",
+            finalAnswer: "**(b)** It suggests that suffering is universal.",
             commonErrors: ["Choosing (b) and reading the repetition literally."],
           },
         },

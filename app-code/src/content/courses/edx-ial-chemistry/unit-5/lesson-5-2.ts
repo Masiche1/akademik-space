@@ -389,7 +389,7 @@ export const lesson52: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(b)** The appropriate technique is record the titre to the nearest 0.05 cm³.",
+            "finalAnswer": "**(a)** The appropriate technique is record the titre to the nearest 0.05 cm³.",
             "commonErrors": [
               "Choosing an unrelated technique."
             ]

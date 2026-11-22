@@ -405,7 +405,7 @@ export const lesson51: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. It is a mutual partnership, not competition or predation.",
+              "**(d)**. It is a mutual partnership, not competition or predation.",
             commonErrors: [
               "Reading 'in exchange for' as one-sided — it is mutual benefit.",
             ],
@@ -667,7 +667,7 @@ export const lesson51: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Secrete means to produce and release.",
+            finalAnswer: "**(d)**. Secrete means to produce and release.",
             commonErrors: [
               "Choosing (d) — the skeleton is structural, not reproductive.",
             ],

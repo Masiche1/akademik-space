@@ -65,7 +65,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Firm + factual achieves the goal without alienating.", working: "\\text{firm/factual}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Polite, firm and factual",
+            finalAnswer: "**(d)** Polite, firm and factual",
             commonErrors: ["Choosing (a) — aggression weakens the complaint's effectiveness."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson72: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Complaint tone", statement: "Complaints need firmness and evidence, not aggression." }],
             steps: [{ reasoning: "A calm factual tone makes the complaint credible and easier to resolve.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Calm, firm and factual",
+            finalAnswer: "**(d)** Calm, firm and factual",
             commonErrors: ["Choosing aggression — it weakens the complaint."],
           },
         },
@@ -201,7 +201,7 @@ export const lesson72: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Complaint purpose", statement: "A complaint must state the problem, impact and requested action." }],
             steps: [{ reasoning: "The reader needs facts and a clear resolution request.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** What happened, why it matters and what you want done",
+            finalAnswer: "**(d)** What happened, why it matters and what you want done",
             commonErrors: ["Focusing on emotion rather than the required action."],
           },
         },
@@ -239,7 +239,7 @@ export const lesson72: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Audience profile", statement: "Understanding reader knowledge, concerns and expectations guides adaptation." }],
             steps: [{ reasoning: "Audience profile helps choose register, content and emphasis.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** What the reader knows, cares about and expects",
+            finalAnswer: "**(c)** What the reader knows, cares about and expects",
             commonErrors: ["Confusing audience with topic."],
           },
         },
@@ -274,12 +274,12 @@ export const lesson72: Lesson = {
               { id: "c", text: "It was really quite difficult." },
               { id: "d", text: "The thing that happened was kind of bad." },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Clarity", statement: "Precise words and complete information make meaning unambiguous." }],
             steps: [{ reasoning: "(c) names exactly what happened and when.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(c)** The projector stopped working during the lesson.",
+            finalAnswer: "**(b)** The projector stopped working during the lesson.",
             commonErrors: ["Choosing vague or incomplete wording."],
           },
         },
@@ -357,7 +357,7 @@ export const lesson72: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Filler", statement: "Words like 'basically' often add no meaning." }],
             steps: [{ reasoning: "'Basically' usually restates or weakens the message and can be cut.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** basically",
+            finalAnswer: "**(c)** basically",
             commonErrors: ["Removing a word that carries necessary meaning."],
           },
         },
@@ -431,7 +431,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Invitations need complete event details.", working: "\\text{what/when/where}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** What, when, where and how to respond",
+            finalAnswer: "**(c)** What, when, where and how to respond",
             commonErrors: ["Choosing (a) — incomplete information."],
           },
         },
@@ -580,7 +580,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "RSVP gives the host the information and deadline needed to plan.", working: "\\text{RSVP}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** 'RSVP by 10 May to confirm attendance'",
+            finalAnswer: "**(a)** 'RSVP by 10 May to confirm attendance'",
             commonErrors: ["Choosing informal phrasing unsuitable for a formal invitation."],
           },
         },
@@ -624,7 +624,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Employers need relevance, evidence and a reason to respond.", working: "\\text{relevance+evidence}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Purpose, relevant qualifications, why you fit, and a call to action",
+            finalAnswer: "**(d)** Purpose, relevant qualifications, why you fit, and a call to action",
             commonErrors: ["Choosing (a) — cover letters are focused, not autobiographical."],
           },
         },
@@ -670,7 +670,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "'The thing' identifies nothing — the thanks cannot be genuine or specific.", working: "\\text{unspecific}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** 'Thanks for the thing.'",
+            finalAnswer: "**(c)** 'Thanks for the thing.'",
             commonErrors: ["Choosing a specific opening — the task asks for the weak one."],
           },
         },
@@ -735,7 +735,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Guest numbers and catering depend on confirmed attendance.", working: "\\text{planning}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Reply if you can attend — it lets the host plan",
+            finalAnswer: "**(b)** Reply if you can attend — it lets the host plan",
             commonErrors: ["Thinking RSVP is decorative rather than functional."],
           },
         },

@@ -73,7 +73,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "8/20 + 5/20 = 13/20.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 13/20",
+            finalAnswer: "**(a)** 13/20",
             commonErrors: ["Adding denominators: 3/9."],
           },
         },
@@ -269,7 +269,7 @@ export const lesson71: Lesson = {
             steps: [
               { reasoning: "7.89 ÷ 100 = 0.0789.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 0.0789",
+            finalAnswer: "**(c)** 0.0789",
             commonErrors: ["Shifting only one place → 0.789."],
           },
         },

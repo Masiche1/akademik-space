@@ -99,7 +99,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Simile and personification", statement: "‘Like’ marks the simile; the tower is given the feelings of an animal." }],
             steps: [{ reasoning: "The comparison uses ‘like’, and gives the tower a human or animal fear.", evidence: "shuddered like a frightened animal", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(b)** Simile and personification, because it compares the tower to a frightened animal.",
+            finalAnswer: "**(a)** Simile and personification, because it compares the tower to a frightened animal.",
             commonErrors: ["Choosing alliteration because of the repeated sounds in ‘frightened’ and ‘shuddered’; they are not the same sound.", "Choosing onomatopoeia because ‘shuddered’ sounds dramatic."],
           },
         },
@@ -237,7 +237,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Embedding", statement: "A short quotation is woven into the grammar of your own sentence and followed by comment." }],
             steps: [{ reasoning: "Option (b) uses one word inside a sentence and adds an interpretation of it.", evidence: "hoards", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(b)** It embeds one word and explains it.",
+            finalAnswer: "**(d)** It embeds one word and explains it.",
             commonErrors: ["Choosing (a), which uses the longest quotation without comment.", "Choosing (c) or (d), which label rather than embed."],
           },
         },

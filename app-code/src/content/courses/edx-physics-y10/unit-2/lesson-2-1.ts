@@ -68,7 +68,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Current is how much charge passes a point each second, that is, the rate of flow of charge.", working: "I = \\frac{Q}{t}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The rate of flow of charge",
+            finalAnswer: "**(d)** The rate of flow of charge",
             commonErrors: ["Choosing (a), which defines potential difference.", "Choosing (c), which defines resistance."],
             examinerNote: "B1 for (b).",
           },
@@ -208,7 +208,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "There is only one loop, so the same current flows through both lamps.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The current is the same through both lamps.",
+            finalAnswer: "**(d)** The current is the same through both lamps.",
             commonErrors: ["Choosing (b) or (c), which are true of parallel circuits.", "Choosing (d): a break in a series loop stops all current."],
             examinerNote: "B1 for (a).",
           },

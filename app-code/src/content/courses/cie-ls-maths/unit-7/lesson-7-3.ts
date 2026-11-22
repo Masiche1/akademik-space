@@ -65,7 +65,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Reflect in y-axis flips x only: $(-4,7)$.", working: "(-4,7)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(-4, 7)$",
+            finalAnswer: "**(d)** $(-4, 7)$",
             commonErrors: ["Choosing (b) — that's x-axis reflection."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Reflect in x-axis flips $y$: $(4,-7)$.", working: "(4,-7)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(4, -7)$",
+            finalAnswer: "**(d)** $(4, -7)$",
             commonErrors: ["Choosing (b) — that's y-axis reflection."],
           },
         },
@@ -231,7 +231,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Mirror-image buildings → reflection in the river's line.", working: "reflection", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Reflection in the river line",
+            finalAnswer: "**(d)** Reflection in the river line",
             commonErrors: ["Choosing (a) — translation preserves orientation; mirror images flip."],
           },
         },
@@ -337,7 +337,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Facing opposite directions across the street → reflection.", working: "reflection", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Reflection in the street's centre line",
+            finalAnswer: "**(d)** Reflection in the street's centre line",
             commonErrors: ["Choosing (a) — translation wouldn't reverse the facing direction."],
           },
         },
@@ -473,7 +473,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Repeated translations slide the motif along the border.", working: "\\text{translation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Repeated translation",
+            finalAnswer: "**(d)** Repeated translation",
             commonErrors: ["Choosing (b) — single reflection creates one mirror pair, not a repeating pattern."],
           },
         },
@@ -578,7 +578,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Glide reflection = reflection + translation.", working: "reflect+translate", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A reflection followed by a translation",
+            finalAnswer: "**(a)** A reflection followed by a translation",
             commonErrors: ["Choosing (d) — no flipping occurs in pure translation."],
           },
         },
@@ -639,7 +639,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Turning motifs around a centre → rotations.", working: "rotation", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Rotations",
+            finalAnswer: "**(c)** Rotations",
             commonErrors: ["Choosing (a) — translations don't turn motifs."],
           },
         },
@@ -701,7 +701,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Same-orientation repeats → translation symmetry.", working: "translation symmetry", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Translation symmetry",
+            finalAnswer: "**(c)** Translation symmetry",
             commonErrors: ["Choosing (a) — same-direction arrows aren't mirror images."],
           },
         },
@@ -745,7 +745,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Alternate flipping while sliding = glide reflection.", working: "glide reflection", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Glide reflection",
+            finalAnswer: "**(c)** Glide reflection",
             commonErrors: ["Choosing (a) — pure translation keeps orientation; alternation flips."],
           },
         },

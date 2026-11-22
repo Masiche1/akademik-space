@@ -137,7 +137,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Ammonia", statement: "Basic — blue litmus." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Blue",
+            finalAnswer: "**(d)** Blue",
             commonErrors: ["NH₃ is basic."],
           },
         },
@@ -155,7 +155,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "NH₃+HCl", statement: "NH₃ + HCl → NH₄Cl." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** NH₄Cl",
+            finalAnswer: "**(d)** NH₄Cl",
             commonErrors: ["Wrong ammonium formula."],
           },
         },
@@ -318,7 +318,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "NH₄Cl", statement: "Acidic (NH₄⁺ weak acid)." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Acidic",
+            finalAnswer: "**(c)** Acidic",
             commonErrors: ["Thinking ammonium = ammonia = basic."],
           },
         },
@@ -336,7 +336,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "NH₃ + acid", statement: "Ammonium salt." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ammonium salt",
+            finalAnswer: "**(c)** Ammonium salt",
             commonErrors: ["NH₃ is a base, forms ammonium ions."],
           },
         },
@@ -382,7 +382,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Amphoteric", statement: "Both acid and base." }],
             steps: [{ reasoning: "Recall.", working: "\\text{acid + base}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Reacts as both acid and base",
+            finalAnswer: "**(d)** Reacts as both acid and base",
             commonErrors: ["Confusing with basic oxide."],
           },
         },
@@ -462,7 +462,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Amphoteric", statement: "Al(OH)₃ reacts with acid and base." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Al(OH)₃",
+            finalAnswer: "**(d)** Al(OH)₃",
             commonErrors: ["NaOH is a base only; Na₂O is basic oxide."],
           },
         },
@@ -480,7 +480,7 @@ export const lesson173: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Amphoteric", statement: "Al(OH)₃ + NaOH → NaAlO₂ + H₂O." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** NaAlO₂ (aluminate)",
+            finalAnswer: "**(a)** NaAlO₂ (aluminate)",
             commonErrors: ["Aluminium is not displaced."],
           },
         },
@@ -589,11 +589,11 @@ export const lesson173: Lesson = {
             { id: "b", text: "MgO" },
             { id: "c", text: "Na₂O" },
             { id: "d", text: "CaO" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "property", name: "Amphoteric oxides", statement: "Al₂O₃, ZnO, PbO." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Al₂O₃",
+            finalAnswer: "**(a)** Al₂O₃",
             commonErrors: ["MgO is basic only."],
           },
         },

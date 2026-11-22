@@ -147,7 +147,7 @@ export const lesson92: Lesson = {
             { id: "b", text: "$(2,5)$ and $(4,10)$" },
             { id: "c", text: "$(2,5)$ and $(-2,-5)$" },
             { id: "d", text: "$(2,5)$ and $(5,2)$" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Equal vectors", statement: "Same components, regardless of position." }], steps: [{ reasoning: "Only identical components are equal.", marks: 1, markCode: "A" }], finalAnswer: "$(2,5)$ and $(2,5)$" },
         },
         {

@@ -55,7 +55,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Air resistance on a falling leaf" },
               { id: "d", text: "Friction between a shoe and the floor" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -64,7 +64,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Magnets can attract or repel each other across a gap, so the magnetic force does not need contact.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** The force between two magnets",
+            finalAnswer: "**(b)** The force between two magnets",
             commonErrors: ["Choosing air resistance because the air is invisible and seems to act at a distance; it only acts where the air touches the object.", "Choosing tension, forgetting that the rope must touch the object."],
             examinerNote: "B1 for magnetic force only.",
           },
@@ -188,7 +188,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "$\\text{speed}=\\text{distance}+\\text{time}$" },
               { id: "d", text: "$\\text{speed}=\\dfrac{\\text{distance}}{\\text{time}}$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -197,7 +197,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Speed is the distance travelled per unit of time, so divide distance by time.", working: "v=\\frac{s}{t}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $\\text{speed}=\\dfrac{\\text{distance}}{\\text{time}}$",
+            finalAnswer: "**(d)** $\\text{speed}=\\dfrac{\\text{distance}}{\\text{time}}$",
             commonErrors: ["Inverting the equation to time divided by distance.", "Multiplying distance and time, which gives a quantity measured in metre-seconds."],
             examinerNote: "B1 for the correct equation.",
           },

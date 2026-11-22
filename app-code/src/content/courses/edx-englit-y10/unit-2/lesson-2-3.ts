@@ -64,7 +64,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Stage direction as symbol", statement: "Lighting can symbolise changes in mood or truth." }],
             steps: [{ reasoning: "Harder light suggests exposure and examination.", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(b)** The harsher light suggests the family is now exposed and scrutinised.",
+            finalAnswer: "**(d)** The harsher light suggests the family is now exposed and scrutinised.",
             commonErrors: ["Reading the lighting literally (a)."],
           },
         },
@@ -194,7 +194,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Thesis", statement: "An arguable claim that answers the question." }],
             steps: [{ reasoning: "Option (b) makes a clear argument about purpose.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** It is a clear, arguable thesis.",
+            finalAnswer: "**(a)** It is a clear, arguable thesis.",
             commonErrors: ["Choosing a statement of fact rather than an argument."],
           },
         },

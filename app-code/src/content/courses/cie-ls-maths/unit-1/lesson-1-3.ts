@@ -57,7 +57,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$\\frac{2}{4}=\\frac{1}{2}$" },
               { id: "d", text: "$\\frac{1}{6}$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -169,7 +169,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$\\frac{2}{5}=\\frac{4}{10}$, so $\\frac{4}{10}+\\frac{1}{10}=\\frac{5}{10}=\\frac{1}{2}$.", working: "\\frac{4}{10}+\\frac{1}{10}=\\frac{5}{10}=\\frac{1}{2}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $\\frac{1}{2}$",
+            finalAnswer: "**(c)** $\\frac{1}{2}$",
             commonErrors: ["Choosing (a) — adding denominators is never allowed."],
           },
         },
@@ -195,7 +195,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$\\frac{3\\times2}{4\\times9}=\\frac{6}{36}=\\frac{1}{6}$.", working: "\\frac{6}{36}=\\frac{1}{6}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{1}{6}$",
+            finalAnswer: "**(d)** $\\frac{1}{6}$",
             commonErrors: ["Choosing (b) — adding fractions instead of multiplying."],
           },
         },
@@ -247,7 +247,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$2\\frac{1}{4}=\\frac{9}{4}$ and $1\\frac{1}{2}=\\frac{6}{4}$; sum $=\\frac{15}{4}=3\\frac{3}{4}$.", working: "\\frac{9}{4}+\\frac{6}{4}=\\frac{15}{4}=3\\frac{3}{4}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3\\frac{3}{4}$",
+            finalAnswer: "**(d)** $3\\frac{3}{4}$",
             commonErrors: ["Choosing (b) — adding wholes and fractions separately without carrying the $\\frac{3}{4}$ correctly."],
           },
         },
@@ -476,7 +476,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$4 \\times 2 = 8$ first, then $3 + 8 = 11$.", working: "3 + 8 = 11", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $11$",
+            finalAnswer: "**(c)** $11$",
             commonErrors: ["Choosing (a) — $(3+4)\\times2=14$ ignores BIDMAS."],
           },
         },
@@ -581,7 +581,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$4 \\div 2 = 2$ first, then $20 - 2 = 18$.", working: "20-2=18", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $18$",
+            finalAnswer: "**(d)** $18$",
             commonErrors: ["Choosing (a) — working left to right, $(20-4)\\div2=8$, ignores that division comes before subtraction.", "Choosing (d) — $20-4\\times2=12$ multiplies instead of dividing."],
           },
         },
@@ -598,7 +598,7 @@ export const lesson13: Lesson = {
               { id: "c", text: "$63$" },
               { id: "d", text: "$9$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -607,7 +607,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$6.3 \\div 0.7 = 63 \\div 7 = 9$.", working: "63\\div7=9", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $9$",
+            finalAnswer: "**(d)** $9$",
             commonErrors: ["Choosing (b) — multiplying by 100 instead of 10 gives an answer 10 times too big."],
           },
         },
@@ -633,7 +633,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$2 \\times 3 = 6$ first, then $10 - 6 = 4$.", working: "10-6=4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $4$",
+            finalAnswer: "**(c)** $4$",
             commonErrors: ["Choosing (a) — $(10-2)\\times3=24$ treats subtraction as coming first."],
           },
         },
@@ -659,7 +659,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$\\frac{1}{2}\\times8=4$ first, then $4+3=7$.", working: "4+3=7", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $7$",
+            finalAnswer: "**(c)** $7$",
             commonErrors: ["Choosing (c) — $(\\frac{1}{2}+3)\\times8$ misreads the order."],
           },
         },
@@ -685,7 +685,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$18 \\div 0.5 = 180 \\div 5 = 36$; then $36 + 3 = 39$.", working: "36+3=39", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $39$",
+            finalAnswer: "**(c)** $39$",
             commonErrors: ["Choosing (b) — $18\\div(0.5+3)$ wrongly groups the addition inside the division."],
           },
         },

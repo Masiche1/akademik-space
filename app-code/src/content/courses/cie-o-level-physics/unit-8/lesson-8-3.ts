@@ -59,7 +59,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Expansion", statement: "Heat → expand." }],
             steps: [{ reasoning: "Recall.", working: "\\text{expand}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Expand",
+            finalAnswer: "**(a)** Expand",
             commonErrors: ["Water ice anomaly exception."],
           },
         },
@@ -139,7 +139,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Expansion", statement: "Heating → particles vibrate more → expand." }],
             steps: [{ reasoning: "Recall.", working: "\\text{expand}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Expands",
+            finalAnswer: "**(a)** Expands",
             commonErrors: ["Thinking heating contracts materials."],
           },
         },
@@ -157,7 +157,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Bimetal", statement: "Different expansion rates → bending." }],
             steps: [{ reasoning: "Recall.", working: "\\alpha_1 \\neq \\alpha_2 \\Rightarrow \\text{bend}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The two metals expand by different amounts",
+            finalAnswer: "**(a)** The two metals expand by different amounts",
             commonErrors: ["Thinking the strip expands uniformly."],
           },
         },
@@ -258,11 +258,11 @@ export const lessonp83: Lesson = {
             { id: "b", text: "Gases" },
             { id: "c", text: "Liquids" },
             { id: "d", text: "All expand equally" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Expansion", statement: "Gases expand most, then liquids, then solids." }],
             steps: [{ reasoning: "Recall.", working: "\\text{gas} > \\text{liquid} > \\text{solid}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Gases",
+            finalAnswer: "**(b)** Gases",
             commonErrors: ["Thinking solids expand most because metals do relatively."],
           },
         },
@@ -296,7 +296,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Bimetal", statement: "Bends toward metal expanding less." }],
             steps: [{ reasoning: "Recall.", working: "\\text{bends toward less expansion}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The smaller expansion coefficient",
+            finalAnswer: "**(d)** The smaller expansion coefficient",
             commonErrors: ["Reversing the bend direction."],
           },
         },
@@ -375,7 +375,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Flask", statement: "Vacuum prevents conduction/convection." }],
             steps: [{ reasoning: "Recall.", working: "\\text{vacuum}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Vacuum",
+            finalAnswer: "**(c)** Vacuum",
             commonErrors: ["Air conducts too much."],
           },
         },
@@ -473,7 +473,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Insulation", statement: "Trapped air reduces conduction." }],
             steps: [{ reasoning: "Recall.", working: "\\text{air gap}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** An air gap between the panes is a poor conductor",
+            finalAnswer: "**(a)** An air gap between the panes is a poor conductor",
             commonErrors: ["Saying it's the glass itself — it's the trapped air."],
           },
         },
@@ -561,7 +561,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Radiation", statement: "Shiny surfaces reflect infrared." }],
             steps: [{ reasoning: "Recall.", working: "\\text{silvered = reflect IR}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The silvered surfaces",
+            finalAnswer: "**(d)** The silvered surfaces",
             commonErrors: ["Choosing vacuum — that stops conduction/convection only."],
           },
         },
@@ -596,7 +596,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Convection", statement: "Stopping air movement reduces convective loss." }],
             steps: [{ reasoning: "Recall.", working: "\\text{air movement} = \\text{convection}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Convection currents of warm air escaping",
+            finalAnswer: "**(d)** Convection currents of warm air escaping",
             commonErrors: ["Confusing with conduction through materials."],
           },
         },
@@ -650,7 +650,7 @@ export const lessonp83: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Radiation", statement: "Shiny surface reflects IR back into room." }],
             steps: [{ reasoning: "Recall.", working: "\\text{reflect IR}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Reflecting infrared radiation back into the room",
+            finalAnswer: "**(c)** Reflecting infrared radiation back into the room",
             commonErrors: ["Saying foil absorbs heat — it reflects it."],
           },
         },

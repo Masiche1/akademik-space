@@ -315,7 +315,7 @@ export const lesson231: Lesson = {
           totalMarks: 1,
           stem: "What does a volta signal?",
           response: { type: "mcq", choices: [ { id: "a", text: "A turn in argument or tone" }, { id: "b", text: "A change of poet" }, { id: "c", text: "The end of rhyme" }, { id: "d", text: "A stage direction" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "technique", name: "Volta", statement: "A structural turn shifts argument or feeling." }], steps: [{ reasoning: "Volta marks a deliberate shift.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Turn in argument or tone", commonErrors: ["Treating the volta as decoration."] },
+          markscheme: { principles: [{ kind: "technique", name: "Volta", statement: "A structural turn shifts argument or feeling." }], steps: [{ reasoning: "Volta marks a deliberate shift.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Turn in argument or tone", commonErrors: ["Treating the volta as decoration."] },
         },
         {
           id: "cial-e-u3-pf-q7",
@@ -331,7 +331,7 @@ export const lesson231: Lesson = {
           totalMarks: 1,
           stem: "What effect does enjambment usually create?",
           response: { type: "mcq", choices: [ { id: "a", text: "Momentum across the line break" }, { id: "b", text: "Perfect rhyme" }, { id: "c", text: "A fixed metre" }, { id: "d", text: "A pause and closure" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "technique", name: "Enjambment", statement: "Running syntax across lines creates flow and momentum." }], steps: [{ reasoning: "Enjambment delays closure.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Momentum across the break", commonErrors: ["Confusing enjambment with end-stopping."] },
+          markscheme: { principles: [{ kind: "technique", name: "Enjambment", statement: "Running syntax across lines creates flow and momentum." }], steps: [{ reasoning: "Enjambment delays closure.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Momentum across the break", commonErrors: ["Confusing enjambment with end-stopping."] },
         },
         {
           id: "cial-e-u3-pf-q9",
@@ -339,7 +339,7 @@ export const lesson231: Lesson = {
           totalMarks: 1,
           stem: "Why might slant rhyme be used instead of perfect rhyme?",
           response: { type: "mcq", choices: [ { id: "a", text: "It creates tension or unease through near-miss sound" }, { id: "b", text: "It is easier to spell" }, { id: "c", text: "It guarantees a volta" }, { id: "d", text: "It removes all rhythm" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "technique", name: "Slant rhyme", statement: "Near rhyme can unsettle or complicate musicality." }], steps: [{ reasoning: "Imperfect rhyme creates sonic tension.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Tension or unease", commonErrors: ["Treating slant rhyme as an error."] },
+          markscheme: { principles: [{ kind: "technique", name: "Slant rhyme", statement: "Near rhyme can unsettle or complicate musicality." }], steps: [{ reasoning: "Imperfect rhyme creates sonic tension.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Tension or unease", commonErrors: ["Treating slant rhyme as an error."] },
         },
         {
           id: "cial-e-u3-pf-q10",
@@ -461,7 +461,7 @@ export const lesson231: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Human qualities to non-human",
+            finalAnswer: "**(b)** Human qualities to non-human",
             commonErrors: ["Confusing with metaphor."],
           },
         },
@@ -682,7 +682,7 @@ export const lesson231: Lesson = {
           totalMarks: 1,
           stem: "What distinguishes a simile from a metaphor?",
           response: { type: "mcq", choices: [ { id: "a", text: "A metaphor gives human qualities" }, { id: "b", text: "A metaphor always rhymes" }, { id: "c", text: "A simile uses 'like' or 'as'" }, { id: "d", text: "A simile is only in prose" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Simile", statement: "Explicit comparison using like/as." }], steps: [{ reasoning: "Simile marks comparison openly.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Uses 'like' or 'as'", commonErrors: ["Confusing simile with metaphor."] },
+          markscheme: { principles: [{ kind: "definition", name: "Simile", statement: "Explicit comparison using like/as." }], steps: [{ reasoning: "Simile marks comparison openly.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Uses 'like' or 'as'", commonErrors: ["Confusing simile with metaphor."] },
         },
         {
           id: "cial-e-u3-pl-q6",
@@ -698,7 +698,7 @@ export const lesson231: Lesson = {
           totalMarks: 1,
           stem: "Why is the speaker not always the poet?",
           response: { type: "mcq", choices: [ { id: "a", text: "The voice may be constructed, ironic or fictional" }, { id: "b", text: "It makes analysis unnecessary" }, { id: "c", text: "Speakers cannot have feelings" }, { id: "d", text: "Poets never use 'I'" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "skill", name: "Speaker vs poet", statement: "The poetic voice is a crafted persona." }], steps: [{ reasoning: "The 'I' is a literary construct, not autobiography by default.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** The voice may be constructed", commonErrors: ["Assuming first person equals the poet."] },
+          markscheme: { principles: [{ kind: "skill", name: "Speaker vs poet", statement: "The poetic voice is a crafted persona." }], steps: [{ reasoning: "The 'I' is a literary construct, not autobiography by default.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** The voice may be constructed", commonErrors: ["Assuming first person equals the poet."] },
         },
         {
           id: "cial-e-u3-pl-q8",
@@ -706,7 +706,7 @@ export const lesson231: Lesson = {
           totalMarks: 1,
           stem: "Which device repeats initial consonant sounds?",
           response: { type: "mcq", choices: [ { id: "a", text: "Alliteration" }, { id: "b", text: "Metaphor" }, { id: "c", text: "Assonance" }, { id: "d", text: "Volta" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "technique", name: "Alliteration", statement: "Repeated consonants create sonic pattern." }], steps: [{ reasoning: "Alliteration repeats consonant sounds.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Alliteration", commonErrors: ["Confusing with assonance."] },
+          markscheme: { principles: [{ kind: "technique", name: "Alliteration", statement: "Repeated consonants create sonic pattern." }], steps: [{ reasoning: "Alliteration repeats consonant sounds.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Alliteration", commonErrors: ["Confusing with assonance."] },
         },
         {
           id: "cial-e-u3-pl-q9",
@@ -714,7 +714,7 @@ export const lesson231: Lesson = {
           totalMarks: 1,
           stem: "What effect can first-person voice create?",
           response: { type: "mcq", choices: [ { id: "a", text: "Automatic irony" }, { id: "b", text: "Objective distance only" }, { id: "c", text: "No emotional effect" }, { id: "d", text: "Intimacy and subjectivity" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "technique", name: "First-person voice", statement: "Direct subjectivity creates closeness." }], steps: [{ reasoning: "First person gives access to a personal perspective.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Intimacy and subjectivity", commonErrors: ["Treating voice as neutral."] },
+          markscheme: { principles: [{ kind: "technique", name: "First-person voice", statement: "Direct subjectivity creates closeness." }], steps: [{ reasoning: "First person gives access to a personal perspective.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Intimacy and subjectivity", commonErrors: ["Treating voice as neutral."] },
         },
         {
           id: "cial-e-u3-pl-q10",

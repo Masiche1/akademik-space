@@ -296,7 +296,7 @@ export const lesson33: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Melts on overload",
+            finalAnswer: "**(d)** Melts on overload",
             commonErrors: ["Confusing with other devices."],
           },
         },

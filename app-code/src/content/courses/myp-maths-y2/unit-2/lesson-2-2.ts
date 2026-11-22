@@ -179,7 +179,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Subtract 6, then divide by 2.", working: "2x=8\\Rightarrow x=4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x=4$",
+            finalAnswer: "**(c)** $x=4$",
             commonErrors: ["Subtracting 6 from 14 but not dividing, giving 8."],
             examinerNote: "B1 for choice (a).",
           },
@@ -206,7 +206,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Add 5 to both sides, then divide by 3.", working: "3x=15\\Rightarrow x=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $x=5$",
+            finalAnswer: "**(a)** $x=5$",
             commonErrors: ["Subtracting 5 instead of adding, giving $x=\\frac{5}{3}$."],
             examinerNote: "B1 for choice (b).",
           },
@@ -272,7 +272,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Multiply both sides by 2, then divide by 5.", working: "5x=20\\Rightarrow x=4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x=4$",
+            finalAnswer: "**(c)** $x=4$",
             commonErrors: ["Dividing 10 by 5 and forgetting the 2, giving 2 or 25."],
             examinerNote: "B1 for choice (a).",
           },
@@ -339,7 +339,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Substitute $x=-2$: left side $3(-2)+8=2$, right side $2$, so it balances.", working: "-6+8=2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $3x+8=2$",
+            finalAnswer: "**(d)** $3x+8=2$",
             commonErrors: ["Checking only one side of each equation."],
             examinerNote: "B1 for choice (a).",
           },
@@ -514,7 +514,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Subtract 5 from both sides.", working: "x+5>9\\Rightarrow x>4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x>4$",
+            finalAnswer: "**(d)** $x>4$",
             commonErrors: ["Reversing the sign for no reason, giving $x<4$.", "Adding 5 instead of subtracting, giving $x>14$.", "Subtracting 9 from 5, giving $x>-4$."],
             examinerNote: "B1 for x > 4.",
           },
@@ -621,7 +621,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Add 3 to both sides.", working: "x-3<7\\Rightarrow x<10", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x<10$",
+            finalAnswer: "**(d)** $x<10$",
             commonErrors: ["Reversing the sign for no reason."],
             examinerNote: "B1 for choice (a).",
           },
@@ -648,7 +648,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Divide both sides by 2; dividing by a positive number keeps the sign.", working: "x>4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $x>4$",
+            finalAnswer: "**(a)** $x>4$",
             commonErrors: ["Reversing the sign to $x<4$."],
             examinerNote: "B1 for choice (b).",
           },
@@ -714,7 +714,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Subtract 2 from both sides of (a): $x\\ge-2$. Check the others give different solutions.", working: "x+2\\ge0\\Rightarrow x\\ge-2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x+2\\ge0$",
+            finalAnswer: "**(c)** $x+2\\ge0$",
             commonErrors: ["Choosing (b), which gives $x\\le2$."],
             examinerNote: "B1 for choice (a).",
           },
@@ -772,7 +772,7 @@ export const lesson22: Lesson = {
               { id: "c", text: "$x\\le-1$" },
               { id: "d", text: "$x<-1$" },
             ],
-            correctChoiceIa: "d",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -781,7 +781,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Closed circle means the end value is included and shading right means $x$ is greater than or equal to $-1$.", working: "x\\ge-1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** $x\\ge-1$",
+            finalAnswer: "**(a)** $x\\ge-1$",
             commonErrors: ["Choosing (c), which would need an open circle."],
             examinerNote: "B1 for choice (d).",
           },

@@ -69,7 +69,7 @@ export const lesson33: Lesson = {
               { reasoning: "Find the constant difference between terms.", working: "9-4=5", marks: 1, markCode: "M" },
               { reasoning: "Advance two additional steps from the fourth term to the sixth term.", working: "a_6=19+2(5)=29", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $29$",
+            finalAnswer: "**(a)** $29$",
             commonErrors: ["Returning the fifth term, 24, after adding only once to the fourth term.", "Multiplying the position by the common difference without using the first term correctly."],
           },
         },
@@ -185,7 +185,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "$192$" },
               { id: "d", text: "$48$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -195,7 +195,7 @@ export const lesson33: Lesson = {
               { reasoning: "Find the multiplier between consecutive terms.", working: "\\frac{6}{3}=2", marks: 1, markCode: "M" },
               { reasoning: "Multiply the fourth term by the ratio twice to reach the sixth term.", working: "a_6=24(2)^2=96", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $96$",
+            finalAnswer: "**(a)** $96$",
             commonErrors: ["Returning the fifth term, 48, instead of the sixth.", "Using a constant difference instead of the common ratio."],
           },
         },

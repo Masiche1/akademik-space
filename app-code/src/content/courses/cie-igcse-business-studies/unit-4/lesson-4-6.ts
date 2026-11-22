@@ -120,7 +120,7 @@ export const lesson46: Lesson = {
           },
         ],
         finalAnswer:
-          "**(b)** Business's voluntary duty to society beyond profit",
+          "**(a)** Business's voluntary duty to society beyond profit",
       },
     },
     {
@@ -154,7 +154,7 @@ export const lesson46: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Anyone affected by or affecting the business",
+        finalAnswer: "**(c)** Anyone affected by or affecting the business",
       },
     },
     {
@@ -391,7 +391,7 @@ export const lesson46: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Increasing interconnectedness of world economies",
+        finalAnswer: "**(d)** Increasing interconnectedness of world economies",
       },
     },
     {
@@ -669,7 +669,7 @@ export const lesson46: Lesson = {
             markCode: "M",
           },
         ],
-        finalAnswer: "**(b)** Political",
+        finalAnswer: "**(c)** Political",
       },
     },
     {

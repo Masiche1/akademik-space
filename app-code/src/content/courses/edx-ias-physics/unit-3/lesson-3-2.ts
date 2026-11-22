@@ -99,7 +99,7 @@ export const lesson32: Lesson = {
                 "text": "0.1 mm"
               }
             ],
-            "borrectChoiceId": "c"
+            "correctChoiceId": "b"
           },
           "markscheme": {
             "principles": [
@@ -116,7 +116,7 @@ export const lesson32: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(c)** A mm-graduated rule has 1 mm resolution.",
+            "finalAnswer": "**(b)** A mm-graduated rule has 1 mm resolution.",
             "commonErrors": [
               "Confusing resolution with range."
             ]
@@ -389,7 +389,7 @@ export const lesson32: Lesson = {
                 "markCode": "B"
               }
             ],
-            "finalAnswer": "**(b)** The appropriate technique is plot a graph and determine the gradient from the line of best fit.",
+            "finalAnswer": "**(a)** The appropriate technique is plot a graph and determine the gradient from the line of best fit.",
             "commonErrors": [
               "Choosing an unrelated technique."
             ]

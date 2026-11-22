@@ -69,7 +69,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'My name is Tom' is the correct word order.", working: "My name is Tom.", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** My name is Tom.",
+            finalAnswer: "**(c)** My name is Tom.",
             commonErrors: ["Translating word order from the first language."],
             examinerNote: "C1 for (b).",
           },
@@ -164,7 +164,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'My name is Kim' is correct English word order.", working: "My name is Kim.", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** My name is Kim.",
+            finalAnswer: "**(d)** My name is Kim.",
             commonErrors: ["Translating word order from the first language."],
             examinerNote: "C1 for (b).",
           },
@@ -266,7 +266,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — polite delivery = smile, clarity, steady speed.", working: "smile and speak clearly", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Smile and speak clearly and slowly",
+            finalAnswer: "**(a)** Smile and speak clearly and slowly",
             commonErrors: ["Choosing fast talking — it is harder to understand."],
             examinerNote: "C1 for (b).",
           },
@@ -293,7 +293,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — returning 'Nice to meet you too' keeps the exchange friendly.", working: "Nice to meet you too", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Nice to meet you too",
+            finalAnswer: "**(a)** Nice to meet you too",
             commonErrors: ["Choosing an unrelated question as the reply."],
             examinerNote: "C1 for (b).",
           },
@@ -371,7 +371,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'I am from Spain' has correct word order.", working: "I am from Spain.", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I am from Spain.",
+            finalAnswer: "**(a)** I am from Spain.",
             commonErrors: ["Choosing (d) — that is a question, not a statement."],
             examinerNote: "D1 for (b).",
           },
@@ -404,7 +404,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — Jack's last words are 'Nice to meet you.'", working: "Nice to meet you", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Nice to meet you",
+            finalAnswer: "**(d)** Nice to meet you",
             commonErrors: ["Choosing Sara's line — the question is about Jack."],
             examinerNote: "B1 for (b).",
           },
@@ -511,7 +511,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "When" },
               { id: "d", text: "Where" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -520,7 +520,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'where' = place; 'when' = time; 'why' = reason.", working: "where", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(c)** Where",
+            finalAnswer: "**(d)** Where",
             commonErrors: ["Confusing 'where' with 'when'."],
             examinerNote: "C1 for (c).",
           },
@@ -613,7 +613,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "When" },
               { id: "d", text: "Who" },
             ],
-            correctChoiceIc: "d",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -622,7 +622,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'when' = time.", working: "When", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(d)** When",
+            finalAnswer: "**(c)** When",
             commonErrors: ["Confusing 'when' with 'where'."],
             examinerNote: "C1 for (d).",
           },
@@ -640,7 +640,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "A place" },
               { id: "d", text: "The way something is done" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -649,7 +649,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'how' asks about the way/manner.", working: "the way something is done", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(c)** The way something is done",
+            finalAnswer: "**(d)** The way something is done",
             commonErrors: ["Confusing 'how' with 'what'."],
             examinerNote: "C1 for (c).",
           },
@@ -718,7 +718,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — 'who' = person.", working: "Who", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** Who",
+            finalAnswer: "**(c)** Who",
             commonErrors: ["Choosing 'what' — that asks about things."],
             examinerNote: "C1 for (b).",
           },
@@ -745,7 +745,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion C: Speaking — asking back 'How are you?' continues the exchange.", working: "How are you?", marks: 1, markCode: "C" },
             ],
-            finalAnswer: "**(b)** How are you?",
+            finalAnswer: "**(a)** How are you?",
             commonErrors: ["Choosing a question that does not fit the topic."],
             examinerNote: "C1 for (b).",
           },
@@ -856,7 +856,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A: Listening — B answers 'Science.'", working: "Science", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Science",
+            finalAnswer: "**(c)** Science",
             commonErrors: ["Choosing 'art' — that is A's preference."],
             examinerNote: "A1 for (b).",
           },

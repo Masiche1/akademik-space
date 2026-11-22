@@ -193,7 +193,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Adenine and cytosine" },
               { id: "d", text: "Guanine and thymine" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -393,7 +393,7 @@ export const lesson21: Lesson = {
               { id: "c", text: "Missense substitution" },
               { id: "d", text: "Frameshift caused by an insertion or deletion" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

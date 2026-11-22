@@ -43,7 +43,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Capital" },
             { id: "d", text: "Sales revenue" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Sales returns", statement: "Reduce sales." }], steps: [{ reasoning: "Reduces sales.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sales revenue" },
+          markscheme: { principles: [{ kind: "definition", name: "Sales returns", statement: "Reduce sales." }], steps: [{ reasoning: "Reduces sales.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Sales revenue" },
         },
         {
           id: "olacc-u4-ret-q2", difficulty: "core", totalMarks: 2,
@@ -99,7 +99,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "A customer returns goods" },
             { id: "d", text: "A supplier returns goods" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Credit note", statement: "For customer returns." }], steps: [{ reasoning: "A credit note reduces what the customer owes after returning goods.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A customer returns goods" },
+          markscheme: { principles: [{ kind: "definition", name: "Credit note", statement: "For customer returns." }], steps: [{ reasoning: "A credit note reduces what the customer owes after returning goods.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** A customer returns goods" },
         },
         {
           id: "olacc-u4-ret-q6", difficulty: "core", totalMarks: 1,
@@ -179,7 +179,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Sales account and debtors" },
             { id: "d", text: "Sales Returns account (debit) and debtors' accounts (credit)" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "SR posting", statement: "Dr returns, Cr debtors." }], steps: [{ reasoning: "Sales returns debit Sales Returns and credit customers' accounts.", marks: 1, markCode: "M" }], finalAnswer: "**(b)** Sales Returns Dr, debtors Cr" },
+          markscheme: { principles: [{ kind: "principle", name: "SR posting", statement: "Dr returns, Cr debtors." }], steps: [{ reasoning: "Sales returns debit Sales Returns and credit customers' accounts.", marks: 1, markCode: "M" }], finalAnswer: "**(d)** Sales Returns Dr, debtors Cr" },
         },
         {
           id: "olacc-u4-ret-q14", difficulty: "challenge", totalMarks: 4,
@@ -253,7 +253,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Purchases made" },
             { id: "d", text: "Bank payments" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "SR day book", statement: "Credit notes." }], steps: [{ reasoning: "Credit notes.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Credit notes" },
+          markscheme: { principles: [{ kind: "definition", name: "SR day book", statement: "Credit notes." }], steps: [{ reasoning: "Credit notes.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Credit notes" },
         },
         {
           id: "olacc-u4-rb-q2", difficulty: "core", totalMarks: 2,
@@ -309,7 +309,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Debit notes issued to suppliers" },
             { id: "d", text: "Credit notes issued to customers" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "PR day book", statement: "Debit notes to suppliers." }], steps: [{ reasoning: "The purchases returns day book records debit notes sent to suppliers.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Debit notes to suppliers" },
+          markscheme: { principles: [{ kind: "definition", name: "PR day book", statement: "Debit notes to suppliers." }], steps: [{ reasoning: "The purchases returns day book records debit notes sent to suppliers.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Debit notes to suppliers" },
         },
         {
           id: "olacc-u4-rb-q6", difficulty: "core", totalMarks: 1,
@@ -320,7 +320,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Date, document number, name and amount" },
             { id: "d", text: "Profit and loss" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Day book columns", statement: "Chronological detail." }], steps: [{ reasoning: "Each entry records date, document number, name and amount.", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Date, document number, name, amount" },
+          markscheme: { principles: [{ kind: "definition", name: "Day book columns", statement: "Chronological detail." }], steps: [{ reasoning: "Each entry records date, document number, name and amount.", marks: 1, markCode: "M" }], finalAnswer: "**(c)** Date, document number, name, amount" },
         },
         {
           id: "olacc-u4-rb-q7", difficulty: "core", totalMarks: 2,
@@ -389,7 +389,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Capital" },
             { id: "d", text: "Sales revenue" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Sales returns", statement: "Reduce sales." }], steps: [{ reasoning: "Sales returns are deducted from sales revenue.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sales revenue" },
+          markscheme: { principles: [{ kind: "definition", name: "Sales returns", statement: "Reduce sales." }], steps: [{ reasoning: "Sales returns are deducted from sales revenue.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Sales revenue" },
         },
         {
           id: "olacc-u4-rb-q14", difficulty: "challenge", totalMarks: 4,

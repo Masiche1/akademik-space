@@ -75,7 +75,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Shift in focus", statement: "A move from a wide view to a narrower one draws the reader into a character." }],
             steps: [{ reasoning: "Paragraph one describes the station and Eleanor's happiness; paragraph two explains her history and why she is travelling.", evidence: "She was going to her brother.", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** The writer moves from the general bustle to Eleanor's personal story.",
+            finalAnswer: "**(d)** The writer moves from the general bustle to Eleanor's personal story.",
             commonErrors: ["Choosing (b) because the train arrives in paragraph three, not two.", "Choosing (d) because India is mentioned but not described."],
           },
         },
@@ -214,7 +214,7 @@ export const lesson13: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Tone", statement: "The writer's attitude, shown by word choice and comparisons." }],
             steps: [{ reasoning: "The comparison to an 'eccentric uncle' is gentle and fond, so the tone is affectionately amused.", evidence: "an eccentric uncle", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** Affectionately amused: the 'eccentric uncle' simile is warm and humorous.",
+            finalAnswer: "**(b)** Affectionately amused: the 'eccentric uncle' simile is warm and humorous.",
             commonErrors: ["Choosing (c) because 'nobody much minded' sounds indifferent; that is the villagers' attitude, not the writer's."],
           },
         },

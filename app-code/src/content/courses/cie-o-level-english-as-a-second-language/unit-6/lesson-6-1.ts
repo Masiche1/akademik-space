@@ -41,7 +41,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "The main idea and purpose" },
             { id: "d", text: "Only the numbers" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Gist", statement: "First listen = main idea." }], steps: [{ reasoning: "Gist listening targets the overall meaning.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The main idea and purpose" },
+          markscheme: { principles: [{ kind: "skill", name: "Gist", statement: "First listen = main idea." }], steps: [{ reasoning: "Gist listening targets the overall meaning.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** The main idea and purpose" },
         },
         {
           id: "oles-u6-gi-q2", difficulty: "core", totalMarks: 2,
@@ -105,7 +105,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Start writing an essay" },
             { id: "d", text: "Ignore all instructions" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Prediction", statement: "Questions tell you what to listen for." }], steps: [{ reasoning: "Reading questions first focuses your listening.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Read questions and predict" },
+          markscheme: { principles: [{ kind: "skill", name: "Prediction", statement: "Questions tell you what to listen for." }], steps: [{ reasoning: "Reading questions first focuses your listening.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Read questions and predict" },
         },
         {
           id: "oles-u6-gi-q6", difficulty: "core", totalMarks: 2,
@@ -119,7 +119,7 @@ export const lesson61: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Gist", statement: "Main idea, not detail." }], steps: [
             { reasoning: "'Mainly about' asks for the gist.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** the gist" },
+          ], finalAnswer: "**(b)** the gist" },
         },
         {
           id: "oles-u6-gi-q7", difficulty: "foundation", totalMarks: 1,
@@ -141,7 +141,7 @@ export const lesson61: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Prediction", statement: "Questions predict the information type." }], steps: [
             { reasoning: "'Price' signals numbers and money vocabulary.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** numbers and money words" },
+          ], finalAnswer: "**(d)** numbers and money words" },
         },
         {
           id: "oles-u6-gi-q9", difficulty: "core", totalMarks: 2,
@@ -172,7 +172,7 @@ export const lesson61: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Gist", statement: "First listen targets the overall sense." }], steps: [
             { reasoning: "You cannot catch every word; focusing on the main idea is realistic and effective.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** impossible and distracts from the main idea" },
+          ], finalAnswer: "**(b)** impossible and distracts from the main idea" },
         },
         {
           id: "oles-u6-gi-q12", difficulty: "challenge", totalMarks: 2,
@@ -192,7 +192,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Every exact detail" },
             { id: "d", text: "The general sense of what is heard" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Gist", statement: "General sense without detail." }], steps: [{ reasoning: "Gist = overall meaning.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** general sense" },
+          markscheme: { principles: [{ kind: "definition", name: "Gist", statement: "General sense without detail." }], steps: [{ reasoning: "Gist = overall meaning.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** general sense" },
         },
         {
           id: "oles-u6-gi-q14", difficulty: "challenge", totalMarks: 4,
@@ -225,7 +225,7 @@ export const lesson61: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Gist", statement: "Topic + purpose on first listen." }], steps: [
             { reasoning: "Topic and purpose are the gist targets.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** topic and purpose" },
+          ], finalAnswer: "**(b)** topic and purpose" },
         },
       ],
     },
@@ -256,7 +256,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Neither" },
             { id: "d", text: "Tuesday" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Corrections", statement: "Corrections override earlier info." }], steps: [{ reasoning: "The correction 'Tuesday' replaces 'Monday'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Tuesday" },
+          markscheme: { principles: [{ kind: "skill", name: "Corrections", statement: "Corrections override earlier info." }], steps: [{ reasoning: "The correction 'Tuesday' replaces 'Monday'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Tuesday" },
         },
         {
           id: "oles-u6-de-q2", difficulty: "core", totalMarks: 2,
@@ -334,7 +334,7 @@ export const lesson61: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Corrections", statement: "The corrected version wins." }], steps: [
             { reasoning: "'Sorry' signals a correction → Thursday.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** Thursday" },
+          ], finalAnswer: "**(b)** Thursday" },
         },
         {
           id: "oles-u6-de-q7", difficulty: "foundation", totalMarks: 1,
@@ -356,7 +356,7 @@ export const lesson61: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Numbers", statement: "Write digits as you hear them." }], steps: [
             { reasoning: "Memory of exact numbers is unreliable — write immediately.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** write digits immediately" },
+          ], finalAnswer: "**(c)** write digits immediately" },
         },
         {
           id: "oles-u6-de-q9", difficulty: "core", totalMarks: 2,
@@ -387,7 +387,7 @@ export const lesson61: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Distractors", statement: "Wrong options test careful listening." }], steps: [
             { reasoning: "Wrong-then-correct is a deliberate test of attention.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** tests the correction" },
+          ], finalAnswer: "**(b)** tests the correction" },
         },
         {
           id: "oles-u6-de-q12", difficulty: "challenge", totalMarks: 2,
@@ -407,7 +407,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "The speaker's correction" },
             { id: "d", text: "Information that sounds relevant but is not the answer" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Distractor", statement: "Sounds relevant but is not the answer." }], steps: [{ reasoning: "Distractors trick careless listeners.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** sounds relevant but wrong" },
+          markscheme: { principles: [{ kind: "definition", name: "Distractor", statement: "Sounds relevant but is not the answer." }], steps: [{ reasoning: "Distractors trick careless listeners.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** sounds relevant but wrong" },
         },
         {
           id: "oles-u6-de-q14", difficulty: "challenge", totalMarks: 4,
@@ -440,7 +440,7 @@ export const lesson61: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Numbers", statement: "Immediate recording beats memory." }], steps: [
             { reasoning: "Writing digits immediately preserves accuracy.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** write digits immediately" },
+          ], finalAnswer: "**(c)** write digits immediately" },
         },
       ],
     },

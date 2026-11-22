@@ -98,7 +98,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Magnetic patterns on platters" },
             { id: "d", text: "Pits read by a laser" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Optical storage", statement: "Laser-read pits." }], steps: [{ reasoning: "Optical media use laser-read pits.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Pits read by a laser" },
+          markscheme: { principles: [{ kind: "definition", name: "Optical storage", statement: "Laser-read pits." }], steps: [{ reasoning: "Optical media use laser-read pits.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Pits read by a laser" },
         },
         {
           id: "olict-u2-st-q6", difficulty: "core", totalMarks: 1,
@@ -109,7 +109,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "HDD" },
             { id: "d", text: "SSD" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "SSD", statement: "Solid-state, no moving parts." }], steps: [{ reasoning: "SSD uses flash — no moving parts.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** SSD" },
+          markscheme: { principles: [{ kind: "definition", name: "SSD", statement: "Solid-state, no moving parts." }], steps: [{ reasoning: "SSD uses flash — no moving parts.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** SSD" },
         },
         {
           id: "olict-u2-st-q7", difficulty: "foundation", totalMarks: 2,
@@ -158,7 +158,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Removable media" },
             { id: "d", text: "Magnetic secondary storage" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Primary storage", statement: "RAM/ROM inside computer." }], steps: [{ reasoning: "RAM is primary storage.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Primary storage" },
+          markscheme: { principles: [{ kind: "definition", name: "Primary storage", statement: "RAM/ROM inside computer." }], steps: [{ reasoning: "RAM is primary storage.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Primary storage" },
         },
         {
           id: "olict-u2-st-q12", difficulty: "core", totalMarks: 1,
@@ -169,7 +169,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "USB flash drive" },
             { id: "d", text: "SSD" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Optical storage", statement: "CD/DVD/Blu-ray." }], steps: [{ reasoning: "Blu-ray is optical media.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Blu-ray disc" },
+          markscheme: { principles: [{ kind: "definition", name: "Optical storage", statement: "CD/DVD/Blu-ray." }], steps: [{ reasoning: "Blu-ray is optical media.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Blu-ray disc" },
         },
         {
           id: "olict-u2-st-q13", difficulty: "challenge", totalMarks: 3,
@@ -190,7 +190,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Cache" },
             { id: "d", text: "USB flash drive" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Secondary storage", statement: "Outside main memory." }], steps: [{ reasoning: "USB is external permanent storage.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** USB flash drive" },
+          markscheme: { principles: [{ kind: "definition", name: "Secondary storage", statement: "Outside main memory." }], steps: [{ reasoning: "USB is external permanent storage.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** USB flash drive" },
         },
         {
           id: "olict-u2-st-q15", difficulty: "challenge", totalMarks: 4,
@@ -255,7 +255,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Paper tape" },
             { id: "d", text: "SSD" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Storage choice", statement: "Speed for OS." }], steps: [{ reasoning: "SSD fastest.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** SSD" },
+          markscheme: { principles: [{ kind: "principle", name: "Storage choice", statement: "Speed for OS." }], steps: [{ reasoning: "SSD fastest.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** SSD" },
         },
         {
           id: "olict-u2-cs-q2", difficulty: "core", totalMarks: 2,
@@ -322,7 +322,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Memory card" },
             { id: "d", text: "Projector" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Storage choice", statement: "Capacity for archives." }], steps: [{ reasoning: "HDD gives large cheap capacity for archives.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Large-capacity HDD" },
+          markscheme: { principles: [{ kind: "principle", name: "Storage choice", statement: "Capacity for archives." }], steps: [{ reasoning: "HDD gives large cheap capacity for archives.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Large-capacity HDD" },
         },
         {
           id: "olict-u2-cs-q7", difficulty: "foundation", totalMarks: 2,
@@ -342,7 +342,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Blu-ray disc" },
             { id: "d", text: "Server HDD" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Storage choice", statement: "Portable for small transfers." }], steps: [{ reasoning: "USB is portable and sufficient for homework.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** USB flash drive" },
+          markscheme: { principles: [{ kind: "principle", name: "Storage choice", statement: "Portable for small transfers." }], steps: [{ reasoning: "USB is portable and sufficient for homework.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** USB flash drive" },
         },
         {
           id: "olict-u2-cs-q9", difficulty: "core", totalMarks: 2,
@@ -373,7 +373,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "Paper manuals" },
             { id: "d", text: "3D printing discs" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Distribution", statement: "Downloads are cheap." }], steps: [{ reasoning: "Downloads cost almost nothing per copy.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Online download" },
+          markscheme: { principles: [{ kind: "principle", name: "Distribution", statement: "Downloads are cheap." }], steps: [{ reasoning: "Downloads cost almost nothing per copy.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Online download" },
         },
         {
           id: "olict-u2-cs-q12", difficulty: "core", totalMarks: 2,
@@ -403,7 +403,7 @@ export const lesson22: Lesson = {
             { id: "c", text: "CD" },
             { id: "d", text: "Memory card (SD card)" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Mobile storage", statement: "Flash is compact and durable." }], steps: [{ reasoning: "SD card is compact, fast and shock-resistant.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Memory card (SD card)" },
+          markscheme: { principles: [{ kind: "principle", name: "Mobile storage", statement: "Flash is compact and durable." }], steps: [{ reasoning: "SD card is compact, fast and shock-resistant.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Memory card (SD card)" },
         },
         {
           id: "olict-u2-cs-q15", difficulty: "challenge", totalMarks: 4,

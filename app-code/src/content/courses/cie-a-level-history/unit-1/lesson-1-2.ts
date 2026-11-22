@@ -241,7 +241,7 @@ export const lesson612: Lesson = {
             steps: [
               { reasoning: "SALT was the superpower arms-control negotiation.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** Strategic Arms Limitation Talks"
+            finalAnswer: "**(c)** Strategic Arms Limitation Talks"
           }
         },
         {
@@ -348,7 +348,7 @@ export const lesson612: Lesson = {
             steps: [
               { reasoning: "The 1979 invasion revived US-Soviet hostility and sanctions.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** The Soviet invasion of Afghanistan in 1979"
+            finalAnswer: "**(c)** The Soviet invasion of Afghanistan in 1979"
           }
         },
         {
@@ -412,7 +412,7 @@ export const lesson612: Lesson = {
             steps: [
               { reasoning: "Detente reduced tension but did not remove the rivalry.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** It managed rivalry without removing ideological or geopolitical competition"
+            finalAnswer: "**(c)** It managed rivalry without removing ideological or geopolitical competition"
           }
         },
         {
@@ -456,7 +456,7 @@ export const lesson612: Lesson = {
             steps: [
               { reasoning: "Arsenal growth deterred direct attack but made limited conflict riskier.", marks: 1, markCode: "M" }
             ],
-            finalAnswer: "**(a)** It prevented direct superpower war but intensified insecurity and proxy conflict"
+            finalAnswer: "**(d)** It prevented direct superpower war but intensified insecurity and proxy conflict"
           }
         },
         {

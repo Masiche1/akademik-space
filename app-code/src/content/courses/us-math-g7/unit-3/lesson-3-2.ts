@@ -58,7 +58,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "$94\\ \\text{in.}^3$" },
               { id: "d", text: "$12\\ \\text{in.}^3$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -67,7 +67,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Multiply length, width and height.", working: "V = 5 \\times 4 \\times 3 = 60", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $60\\ \\text{in.}^3$",
+            finalAnswer: "**(a)** $60\\ \\text{in.}^3$",
             commonErrors: ["Adding the dimensions, $5 + 4 + 3 = 12$.", "Finding the surface area, $94\\ \\text{in.}^2$, instead of the volume."],
           },
         },
@@ -207,7 +207,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Only $5 + 7 = 12 > 10$ works. The others fail: $3 + 4 = 7 < 8$, $2 + 3 = 5$ is not greater than $5$, and $6 + 6 = 12 < 13$.", working: "5 + 7 > 10", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $5$ cm, $7$ cm, $10$ cm",
+            finalAnswer: "**(d)** $5$ cm, $7$ cm, $10$ cm",
             commonErrors: ["Accepting $2, 3, 5$ because the sum equals the third side. The sides would lie flat on a line."],
           },
         },

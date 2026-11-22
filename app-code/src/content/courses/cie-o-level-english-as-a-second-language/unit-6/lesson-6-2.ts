@@ -105,7 +105,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Linking phrases" },
             { id: "d", text: "Grammar mistakes" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "technique", name: "Linking phrases", statement: "Fill pauses naturally." }], steps: [{ reasoning: "They link ideas and buy thinking time.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** linking phrases" },
+          markscheme: { principles: [{ kind: "technique", name: "Linking phrases", statement: "Fill pauses naturally." }], steps: [{ reasoning: "They link ideas and buy thinking time.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** linking phrases" },
         },
         {
           id: "oles-u6-fl-q6", difficulty: "core", totalMarks: 2,
@@ -119,7 +119,7 @@ export const lesson62: Lesson = {
           markscheme: { principles: [{ kind: "technique", name: "Linking phrases", statement: "Buy time while sounding fluent." }], steps: [
             { reasoning: "Linking phrases fill pauses naturally.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** use a linking phrase" },
+          ], finalAnswer: "**(d)** use a linking phrase" },
         },
         {
           id: "oles-u6-fl-q7", difficulty: "foundation", totalMarks: 1,
@@ -172,7 +172,7 @@ export const lesson62: Lesson = {
           markscheme: { principles: [{ kind: "skill", name: "Fluency", statement: "Smooth continuous speech." }], steps: [
             { reasoning: "Fluency = smooth flow at a reasonable pace, not raw speed.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** smooth flow, not speed" },
+          ], finalAnswer: "**(c)** smooth flow, not speed" },
         },
         {
           id: "oles-u6-fl-q12", difficulty: "challenge", totalMarks: 2,
@@ -225,7 +225,7 @@ export const lesson62: Lesson = {
           markscheme: { principles: [{ kind: "technique", name: "Linking phrases", statement: "Fill pauses naturally." }], steps: [
             { reasoning: "Linking phrases buy time and keep speech flowing.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** uses linking phrases" },
+          ], finalAnswer: "**(d)** uses linking phrases" },
         },
       ],
     },
@@ -256,7 +256,7 @@ export const lesson62: Lesson = {
             { id: "c", text: "Using correct grammar" },
             { id: "d", text: "Spelling correctly" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Word stress", statement: "One stressed syllable." }], steps: [{ reasoning: "Stress = emphasised syllable.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Emphasised syllable" },
+          markscheme: { principles: [{ kind: "definition", name: "Word stress", statement: "One stressed syllable." }], steps: [{ reasoning: "Stress = emphasised syllable.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Emphasised syllable" },
         },
         {
           id: "oles-u6-pr-q2", difficulty: "core", totalMarks: 2,
@@ -334,7 +334,7 @@ export const lesson62: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Content words", statement: "Nouns, verbs, adjectives stressed." }], steps: [
             { reasoning: "Content words carry sentence stress; function words stay weak.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(a)** content words" },
+          ], finalAnswer: "**(d)** content words" },
         },
         {
           id: "oles-u6-pr-q7", difficulty: "foundation", totalMarks: 1,
@@ -440,7 +440,7 @@ export const lesson62: Lesson = {
           markscheme: { principles: [{ kind: "convention", name: "Word stress", statement: "Learn stress patterns per word." }], steps: [
             { reasoning: "'Photography' stresses the second syllable: phoTOgraphy.", marks: 1, markCode: "AO1" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(b)** phoTOgraphy" },
+          ], finalAnswer: "**(d)** phoTOgraphy" },
         },
       ],
     },

@@ -64,7 +64,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Reflection", statement: "Reflection in the $y$-axis changes the sign of the $x$-coordinate only." }],
             steps: [{ reasoning: "Change the sign of the $x$-coordinate.", working: "(3,2)\\to(-3,2)", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $(-3,2)$",
+            finalAnswer: "**(d)** $(-3,2)$",
             commonErrors: ["Reflecting in the $x$-axis, giving $(3,-2)$.", "Swapping the coordinates (reflection in $y=x$)."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Back bearing", statement: "The back bearing differs by $180^\\circ$." }],
             steps: [{ reasoning: "Add $180^\\circ$ to $70^\\circ$.", working: "70+180=250", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** $250^\\circ$",
+            finalAnswer: "**(d)** $250^\\circ$",
             commonErrors: ["Subtracting from $180^\\circ$, giving $110^\\circ$.", "Subtracting from $360^\\circ$, giving $290^\\circ$."],
           },
         },

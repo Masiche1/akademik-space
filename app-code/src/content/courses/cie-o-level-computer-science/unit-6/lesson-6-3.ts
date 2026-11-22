@@ -41,7 +41,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Uses no electricity" },
             { id: "d", text: "Learns patterns from data" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "AI", statement: "Learns from data vs fixed rules." }], steps: [{ reasoning: "AI learns patterns.", working: "\\text{learn}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Learns from data" },
+          markscheme: { principles: [{ kind: "definition", name: "AI", statement: "Learns from data vs fixed rules." }], steps: [{ reasoning: "AI learns patterns.", working: "\\text{learn}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Learns from data" },
         },
         {
           id: "olcs-u6-ai-q2", difficulty: "core", totalMarks: 2,
@@ -96,7 +96,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "An AI technique that learns patterns from data" },
             { id: "d", text: "A database" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Machine learning", statement: "Learning from data." }], steps: [{ reasoning: "ML learns patterns from data.", working: "\\text{learn}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Learns from data" },
+          markscheme: { principles: [{ kind: "definition", name: "Machine learning", statement: "Learning from data." }], steps: [{ reasoning: "ML learns patterns from data.", working: "\\text{learn}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Learns from data" },
         },
         {
           id: "olcs-u6-ai-q6", difficulty: "foundation", totalMarks: 1,
@@ -154,7 +154,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Always correct" },
             { id: "d", text: "Manual decisions" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "AI outputs", statement: "Predictions can be wrong." }], steps: [{ reasoning: "AI gives likely answers, not certainty.", working: "\\text{probability}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Probabilistic, not guaranteed" },
+          markscheme: { principles: [{ kind: "principle", name: "AI outputs", statement: "Predictions can be wrong." }], steps: [{ reasoning: "AI gives likely answers, not certainty.", working: "\\text{probability}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Probabilistic, not guaranteed" },
         },
         {
           id: "olcs-u6-ai-q12", difficulty: "core", totalMarks: 1,
@@ -184,7 +184,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Narrow — good at one specific task" },
             { id: "d", text: "General human-level intelligence" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Narrow AI", statement: "One-task specialists." }], steps: [{ reasoning: "Today's AI is narrow, not general.", working: "\\text{narrow}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Narrow AI" },
+          markscheme: { principles: [{ kind: "principle", name: "Narrow AI", statement: "One-task specialists." }], steps: [{ reasoning: "Today's AI is narrow, not general.", working: "\\text{narrow}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Narrow AI" },
         },
         {
           id: "olcs-u6-ai-q15", difficulty: "core", totalMarks: 2,
@@ -250,7 +250,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "A knowledge base and inference engine" },
             { id: "d", text: "A robot arm" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Expert system", statement: "Knowledge base + inference engine." }], steps: [{ reasoning: "Expert system = KB + engine.", working: "\\text{KB+engine}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Knowledge base + inference engine" },
+          markscheme: { principles: [{ kind: "definition", name: "Expert system", statement: "Knowledge base + inference engine." }], steps: [{ reasoning: "Expert system = KB + engine.", working: "\\text{KB+engine}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Knowledge base + inference engine" },
         },
         {
           id: "olcs-u6-as-q2", difficulty: "core", totalMarks: 2,
@@ -305,7 +305,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "A web browser" },
             { id: "d", text: "A knowledge base and an inference engine" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Expert system", statement: "Knowledge base + inference engine." }], steps: [{ reasoning: "Expert system = KB + engine.", working: "\\text{KB+engine}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Knowledge base + inference engine" },
+          markscheme: { principles: [{ kind: "definition", name: "Expert system", statement: "Knowledge base + inference engine." }], steps: [{ reasoning: "Expert system = KB + engine.", working: "\\text{KB+engine}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Knowledge base + inference engine" },
         },
         {
           id: "olcs-u6-as-q6", difficulty: "foundation", totalMarks: 1,
@@ -343,7 +343,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Driving cars" },
             { id: "d", text: "Every possible task" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Expert systems", statement: "Narrow, rule-based domains." }], steps: [{ reasoning: "Expert systems work in narrow domains.", working: "\\text{narrow}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Narrow domains" },
+          markscheme: { principles: [{ kind: "principle", name: "Expert systems", statement: "Narrow, rule-based domains." }], steps: [{ reasoning: "Expert systems work in narrow domains.", working: "\\text{narrow}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Narrow domains" },
         },
         {
           id: "olcs-u6-as-q10", difficulty: "core", totalMarks: 2,
@@ -393,7 +393,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "More colours" },
             { id: "d", text: "Privacy and job displacement" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "AI ethics", statement: "Privacy, jobs, autonomy." }], steps: [{ reasoning: "Privacy and job loss are key concerns.", working: "\\text{ethics}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Privacy and job displacement" },
+          markscheme: { principles: [{ kind: "principle", name: "AI ethics", statement: "Privacy, jobs, autonomy." }], steps: [{ reasoning: "Privacy and job loss are key concerns.", working: "\\text{ethics}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Privacy and job displacement" },
         },
         {
           id: "olcs-u6-as-q15", difficulty: "core", totalMarks: 2,

@@ -53,7 +53,7 @@ export const lesson181: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Extraction", statement: "Very reactive metals need electrolysis." }],
             steps: [{ reasoning: "Recall.", working: "\\text{Al = electrolysis}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Electrolysis",
+            finalAnswer: "**(d)** Electrolysis",
             commonErrors: ["Carbon reduction — Al too reactive for that."],
           },
         },
@@ -129,11 +129,11 @@ export const lesson181: Lesson = {
             { id: "b", text: "Iron" },
             { id: "c", text: "Gold" },
             { id: "d", text: "Aluminium" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "property", name: "Extraction", statement: "Very reactive metals need electrolysis." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Aluminium",
+            finalAnswer: "**(d)** Aluminium",
             commonErrors: ["Cu and Au need only heating/simple methods."],
           },
         },
@@ -147,11 +147,11 @@ export const lesson181: Lesson = {
             { id: "b", text: "Gold" },
             { id: "c", text: "Iron" },
             { id: "d", text: "Aluminium" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "property", name: "Reactivity", statement: "Au/Ag/Cu low — native." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Gold",
+            finalAnswer: "**(b)** Gold",
             commonErrors: ["Na is very reactive."],
           },
         },
@@ -312,7 +312,7 @@ export const lesson181: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Iron ore", statement: "Haematite Fe₂O₃." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Haematite",
+            finalAnswer: "**(d)** Haematite",
             commonErrors: ["Bauxite is aluminium ore."],
           },
         },
@@ -376,7 +376,7 @@ export const lesson181: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Rusting", statement: "Needs O₂ + H₂O." }],
             steps: [{ reasoning: "Recall.", working: "O_2 + H_2O", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Oxygen and water",
+            finalAnswer: "**(d)** Oxygen and water",
             commonErrors: ["Only one — both required."],
           },
         },
@@ -474,7 +474,7 @@ export const lesson181: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Galvanising", statement: "Zinc coating." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Zinc",
+            finalAnswer: "**(d)** Zinc",
             commonErrors: ["Tin plating is different."],
           },
         },
@@ -594,7 +594,7 @@ export const lesson181: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Sacrificial", statement: "Zn more reactive than Fe." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Zinc is more reactive than iron",
+            finalAnswer: "**(d)** Zinc is more reactive than iron",
             commonErrors: ["Tin is less reactive — scratch exposes iron."],
           },
         },
@@ -636,7 +636,7 @@ export const lesson181: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Barrier", statement: "Paint/oil/plastic blocks O₂+H₂O." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Painting",
+            finalAnswer: "**(b)** Painting",
             commonErrors: ["Salt speeds rusting."],
           },
         },
@@ -654,7 +654,7 @@ export const lesson181: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Alloys", statement: "Lattice disruption → harder." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Different sized atoms disrupt the lattice",
+            finalAnswer: "**(c)** Different sized atoms disrupt the lattice",
             commonErrors: ["Not about atom count."],
           },
         },

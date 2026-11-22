@@ -425,7 +425,7 @@ export const lesson11: Lesson = {
             { id: "b", text: "Bored" },
             { id: "c", text: "Happy" },
             { id: "d", text: "Worried or upset" },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "skill", name: "Inference", statement: "Use clues to infer feelings." }],
             steps: [

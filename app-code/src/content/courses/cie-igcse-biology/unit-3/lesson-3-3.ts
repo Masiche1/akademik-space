@@ -65,7 +65,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall the covering.", working: "\\text{enamel}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Enamel",
+            finalAnswer: "**(d)** Enamel",
             commonErrors: ["Choosing dentine — that's beneath enamel."],
           },
         },
@@ -159,7 +159,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall the fact.", working: "\\text{enamel}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Tooth enamel",
+            finalAnswer: "**(c)** Tooth enamel",
             commonErrors: ["Choosing bone — enamel is harder than bone."],
           },
         },
@@ -185,7 +185,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Match shape to function.", working: "\\text{pointed} \\to \\text{canine} \\to \\text{tear}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Canines",
+            finalAnswer: "**(d)** Canines",
             commonErrors: ["Choosing incisors — those are flat for cutting."],
           },
         },
@@ -211,7 +211,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall the function.", working: "\\text{incisors} \\to \\text{cut/biting}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Cut and bite food",
+            finalAnswer: "**(c)** Cut and bite food",
             commonErrors: ["Choosing grind — that is molars' job."],
           },
         },
@@ -339,7 +339,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall dentine's role.", working: "\\text{bulk/support}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Forms the bulk of the tooth beneath the enamel and supports it",
+            finalAnswer: "**(b)** Forms the bulk of the tooth beneath the enamel and supports it",
             commonErrors: ["Choosing 'hardest layer' — that is enamel."],
           },
         },
@@ -365,7 +365,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Match function to type.", working: "\\text{tear} \\to \\text{canine}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Canines",
+            finalAnswer: "**(c)** Canines",
             commonErrors: ["Choosing incisors — they cut, not tear."],
           },
         },
@@ -391,7 +391,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall the term.", working: "\\text{milk teeth}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Milk teeth",
+            finalAnswer: "**(c)** Milk teeth",
             commonErrors: ["Confusing with permanent dentition."],
           },
         },
@@ -465,7 +465,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall definition.", working: "\\text{muscle waves}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Wave-like muscle contractions moving food along the gut",
+            finalAnswer: "**(b)** Wave-like muscle contractions moving food along the gut",
             commonErrors: ["Choosing 'chewing' — that's mechanical digestion in mouth."],
           },
         },
@@ -585,7 +585,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall bile's mechanism.", working: "\\text{emulsify}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Emulsifying large fat droplets into small droplets",
+            finalAnswer: "**(d)** Emulsifying large fat droplets into small droplets",
             commonErrors: ["Thinking bile contains lipase — it does not."],
           },
         },
@@ -611,7 +611,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall the muscles involved.", working: "\\text{circular + longitudinal}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Circular and longitudinal muscles in the gut wall",
+            finalAnswer: "**(d)** Circular and longitudinal muscles in the gut wall",
             commonErrors: ["Choosing skeletal muscle — peristalsis is involuntary smooth muscle."],
           },
         },
@@ -739,7 +739,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Link emulsification to enzyme efficiency.", working: "\\text{emulsify} \\to \\text{surface area}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Emulsifies fats, greatly increasing the surface area for lipase",
+            finalAnswer: "**(d)** Emulsifies fats, greatly increasing the surface area for lipase",
             commonErrors: ["Claiming bile 'contains lipase' — it only aids lipase."],
           },
         },
@@ -765,7 +765,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Recall the site.", working: "\\text{large intestine}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Large intestine",
+            finalAnswer: "**(b)** Large intestine",
             commonErrors: ["Choosing small intestine — that absorbs nutrients; large intestine absorbs water."],
           },
         },

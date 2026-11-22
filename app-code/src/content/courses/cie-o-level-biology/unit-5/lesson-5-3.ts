@@ -141,7 +141,7 @@ export const lesson53: Lesson = {
           id: "olbio-u5-lung-volumes-q5", difficulty: "foundation", totalMarks: 1,
           stem: "What is tidal volume?",
           response: { type: "mcq", choices: [ { id: "a", text: "Maximum air exhaled after maximum inhalation" }, { id: "b", text: "Air moved in and out in one normal breath" }, { id: "c", text: "Air remaining after maximum exhalation" }, { id: "d", text: "Extra air inhaled forcefully" } ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Tidal volume", statement: "Tidal volume is about 500 cm3 moved during one normal breath." }], steps: [{ reasoning: "Recall definition.", working: "\\text{normal breath}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Air moved in and out in one normal breath", commonErrors: ["Vital capacity is the maximum volume, not tidal volume."] },
+          markscheme: { principles: [{ kind: "definition", name: "Tidal volume", statement: "Tidal volume is about 500 cm3 moved during one normal breath." }], steps: [{ reasoning: "Recall definition.", working: "\\text{normal breath}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Air moved in and out in one normal breath", commonErrors: ["Vital capacity is the maximum volume, not tidal volume."] },
         },
         {
           id: "olbio-u5-lung-volumes-q6", difficulty: "foundation", totalMarks: 1,
@@ -153,7 +153,7 @@ export const lesson53: Lesson = {
           id: "olbio-u5-lung-volumes-q7", difficulty: "core", totalMarks: 1,
           stem: "Which instrument measures lung volumes?",
           response: { type: "mcq", choices: [ { id: "a", text: "Thermometer" }, { id: "b", text: "Spirometer" }, { id: "c", text: "Barometer" }, { id: "d", text: "Glucometer" } ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "technique", name: "Spirometry", statement: "Spirometry measures lung volumes such as tidal volume and vital capacity." }], steps: [{ reasoning: "Match instrument to function.", working: "\\text{spirometer}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Spirometer", commonErrors: ["A barometer measures atmospheric pressure."] },
+          markscheme: { principles: [{ kind: "technique", name: "Spirometry", statement: "Spirometry measures lung volumes such as tidal volume and vital capacity." }], steps: [{ reasoning: "Match instrument to function.", working: "\\text{spirometer}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Spirometer", commonErrors: ["A barometer measures atmospheric pressure."] },
         },
         {
           id: "olbio-u5-lung-volumes-q8", difficulty: "core", totalMarks: 1,
@@ -165,7 +165,7 @@ export const lesson53: Lesson = {
           id: "olbio-u5-lung-volumes-q9", difficulty: "challenge", totalMarks: 1,
           stem: "What is the main clinical use of spirometry?",
           response: { type: "mcq", choices: [ { id: "a", text: "Measuring blood pressure" }, { id: "b", text: "Testing blood glucose" }, { id: "c", text: "Diagnosing and monitoring lung diseases such as asthma or COPD" }, { id: "d", text: "Counting heartbeats" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "technique", name: "Spirometry uses", statement: "Spirometry helps diagnose asthma, COPD and other lung disorders." }], steps: [{ reasoning: "Link spirometry to lung function.", working: "\\text{lung function}", marks: 1, markCode: "M" }], finalAnswer: "**(a)** Diagnosing and monitoring lung diseases such as asthma or COPD", commonErrors: ["Spirometry does not measure blood pressure or glucose."] },
+          markscheme: { principles: [{ kind: "technique", name: "Spirometry uses", statement: "Spirometry helps diagnose asthma, COPD and other lung disorders." }], steps: [{ reasoning: "Link spirometry to lung function.", working: "\\text{lung function}", marks: 1, markCode: "M" }], finalAnswer: "**(c)** Diagnosing and monitoring lung diseases such as asthma or COPD", commonErrors: ["Spirometry does not measure blood pressure or glucose."] },
         },
         {
           id: "olbio-u5-lung-volumes-q10", difficulty: "foundation", totalMarks: 1,
@@ -275,7 +275,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "Recall function.", working: "\\text{move mucus up}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Beat mucus upward to be swallowed",
+            finalAnswer: "**(b)** Beat mucus upward to be swallowed",
             commonErrors: ["Choosing 'produce mucus' — that's goblet cells."],
           },
         },
@@ -351,19 +351,19 @@ export const lesson53: Lesson = {
           id: "olbio-u5-airway-smoking-q5", difficulty: "foundation", totalMarks: 1,
           stem: "Which cells produce mucus in the airways?",
           response: { type: "mcq", choices: [ { id: "a", text: "Neurones" }, { id: "b", text: "Ciliated cells" }, { id: "c", text: "Goblet cells" }, { id: "d", text: "Red blood cells" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "property", name: "Airway defences", statement: "Goblet cells produce mucus; cilia move it upward for swallowing." }], steps: [{ reasoning: "Match cell to mucus production.", working: "\\text{goblet cells}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Goblet cells", commonErrors: ["Cilia move mucus but do not produce it."] },
+          markscheme: { principles: [{ kind: "property", name: "Airway defences", statement: "Goblet cells produce mucus; cilia move it upward for swallowing." }], steps: [{ reasoning: "Match cell to mucus production.", working: "\\text{goblet cells}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Goblet cells", commonErrors: ["Cilia move mucus but do not produce it."] },
         },
         {
           id: "olbio-u5-airway-smoking-q6", difficulty: "foundation", totalMarks: 1,
           stem: "What is the main role of cilia in the trachea and bronchi?",
           response: { type: "mcq", choices: [ { id: "a", text: "Produce surfactant" }, { id: "b", text: "Exchange oxygen" }, { id: "c", text: "Store carbon dioxide" }, { id: "d", text: "Move mucus and trapped particles upward" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "property", name: "Cilia function", statement: "Cilia sweep mucus containing trapped dust and pathogens upward to be swallowed." }], steps: [{ reasoning: "Recall ciliary action.", working: "\\text{cilia beat upward}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Move mucus and trapped particles upward", commonErrors: ["Surfactant is produced in alveoli, not by cilia."] },
+          markscheme: { principles: [{ kind: "property", name: "Cilia function", statement: "Cilia sweep mucus containing trapped dust and pathogens upward to be swallowed." }], steps: [{ reasoning: "Recall ciliary action.", working: "\\text{cilia beat upward}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Move mucus and trapped particles upward", commonErrors: ["Surfactant is produced in alveoli, not by cilia."] },
         },
         {
           id: "olbio-u5-airway-smoking-q7", difficulty: "core", totalMarks: 1,
           stem: "How does tar in tobacco smoke affect the airways?",
           response: { type: "mcq", choices: [ { id: "a", text: "It dissolves mucus completely" }, { id: "b", text: "It increases oxygen transport" }, { id: "c", text: "It damages cilia and alveoli" }, { id: "d", text: "It strengthens cilia" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "property", name: "Tar effects", statement: "Tar damages cilia, causing mucus build-up, and destroys alveolar walls causing emphysema." }], steps: [{ reasoning: "Identify tar damage.", working: "\\text{tar damage}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** It damages cilia and alveoli", commonErrors: ["Tar does not strengthen cilia."] },
+          markscheme: { principles: [{ kind: "property", name: "Tar effects", statement: "Tar damages cilia, causing mucus build-up, and destroys alveolar walls causing emphysema." }], steps: [{ reasoning: "Identify tar damage.", working: "\\text{tar damage}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** It damages cilia and alveoli", commonErrors: ["Tar does not strengthen cilia."] },
         },
         {
           id: "olbio-u5-airway-smoking-q8", difficulty: "core", totalMarks: 1,

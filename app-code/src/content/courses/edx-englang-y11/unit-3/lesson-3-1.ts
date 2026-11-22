@@ -103,7 +103,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Simile", statement: "Compares two things with 'as' or 'like' to bring out shared qualities." }],
             steps: [{ reasoning: "'Old' piano keys are yellowed with age, so the glow is warm but faded.", evidence: "yellow as old piano keys", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** Faded, nostalgic warmth.",
+            finalAnswer: "**(c)** Faded, nostalgic warmth.",
             commonErrors: ["Taking the comparison literally (d).", "Ignoring the word 'old' (c)."],
           },
         },
@@ -239,7 +239,7 @@ export const lesson31: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Adjective choice", statement: "'Metronomic' suggests mechanical, unrelenting repetition." }],
             steps: [{ reasoning: "A metronome ticks steadily, so the click is regular and grating; Mara 'wanted, quite badly, to stop' it.", evidence: "a small, metronomic click that she wanted, quite badly, to stop", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** A nervous, repetitive habit that irritates Mara.",
+            finalAnswer: "**(d)** A nervous, repetitive habit that irritates Mara.",
             commonErrors: ["Taking 'metronomic' literally as music (c)."],
           },
         },

@@ -70,7 +70,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — option b is precise, qualified and academic.", working: "hedged", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** 'Social media may contribute to reduced attention in some adolescents.'",
+            finalAnswer: "**(c)** 'Social media may contribute to reduced attention in some adolescents.'",
             commonErrors: ["Choosing dramatic but imprecise language."],
             examinerNote: "D1 for (b).",
           },
@@ -213,7 +213,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — hedging signals calibrated confidence, not weakness.", working: "accuracy", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** To show awareness of uncertainty and protect accuracy",
+            finalAnswer: "**(a)** To show awareness of uncertainty and protect accuracy",
             commonErrors: ["Seeing hedging as a flaw."],
             examinerNote: "D1 for (b).",
           },
@@ -326,7 +326,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — B replaces 'terrible disaster' with 'significant disruption'.", working: "precise", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Version B",
+            finalAnswer: "**(c)** Version B",
             commonErrors: ["Thinking stronger adjectives are more academic."],
             examinerNote: "D1 for (b).",
           },
@@ -438,7 +438,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — correlational data support 'suggest', not 'prove'.", working: "suggest", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** suggest",
+            finalAnswer: "**(a)** suggest",
             commonErrors: ["Using 'prove' for correlational data."],
             examinerNote: "D1 for (b).",
           },
@@ -508,7 +508,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'suggest'/'may' match correlational evidence appropriately.", working: "rigour", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** It shows the writer's claim matches the strength of the evidence",
+            finalAnswer: "**(d)** It shows the writer's claim matches the strength of the evidence",
             commonErrors: ["Seeing caution as indecision."],
             examinerNote: "D1 for (b).",
           },
@@ -566,7 +566,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — nominalisation = verb/adjective to noun.", working: "noun", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Turning a verb or adjective into a noun",
+            finalAnswer: "**(d)** Turning a verb or adjective into a noun",
             commonErrors: ["Confusing nominalisation with simplification."],
             examinerNote: "D1 for (b).",
           },
@@ -709,7 +709,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'although' concedes a point before contrast.", working: "concession", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Concession or contrast",
+            finalAnswer: "**(d)** Concession or contrast",
             commonErrors: ["Confusing concession with cause."],
             examinerNote: "D1 for (b).",
           },
@@ -742,7 +742,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'its implementation was inconsistent' is the main claim.", working: "main clause", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** its implementation was inconsistent",
+            finalAnswer: "**(d)** its implementation was inconsistent",
             commonErrors: ["Choosing the concessive clause as main."],
             examinerNote: "D1 for (b).",
           },
@@ -928,7 +928,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'although' introduces conceded contrast.", working: "although", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** although",
+            finalAnswer: "**(c)** although",
             commonErrors: ["Choosing a causal connector for concession."],
             examinerNote: "D1 for (b).",
           },

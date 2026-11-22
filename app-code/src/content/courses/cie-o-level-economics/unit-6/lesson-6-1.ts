@@ -98,7 +98,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Human Development Index" },
             { id: "d", text: "High Development Industry" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "HDI", statement: "Development measure." }], steps: [{ reasoning: "Correct expansion.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "HDI", statement: "Development measure." }], steps: [{ reasoning: "Correct expansion.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u6-dev-q6", difficulty: "foundation", totalMarks: 2,
@@ -166,7 +166,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Having no access to television" },
             { id: "d", text: "Being unable to meet basic survival needs such as food, shelter and clothing" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Absolute poverty", statement: "Subsistence level." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Absolute poverty", statement: "Subsistence level." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u6-dev-q12", difficulty: "challenge", totalMarks: 4,
@@ -213,7 +213,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Includes improvements in health, education and living standards, not just output" },
             { id: "d", text: "Only applies to rich countries" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Development", statement: "Broader than growth." }], steps: [{ reasoning: "Correct distinction.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Development", statement: "Broader than growth." }], steps: [{ reasoning: "Correct distinction.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u6-dev-q16", difficulty: "challenge", totalMarks: 9,
@@ -268,7 +268,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Commodity prices are volatile" },
             { id: "d", text: "They attract investment" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Primary dependence", statement: "Volatile prices." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Primary dependence", statement: "Volatile prices." }], steps: [{ reasoning: "Correct.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u6-bar-q2", difficulty: "core", totalMarks: 2,
@@ -323,7 +323,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Improves health outcomes" },
             { id: "d", text: "Limits the supply of skilled workers and productivity" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Literacy barrier", statement: "Skills constraint." }], steps: [{ reasoning: "Correct mechanism.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Literacy barrier", statement: "Skills constraint." }], steps: [{ reasoning: "Correct mechanism.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u6-bar-q6", difficulty: "foundation", totalMarks: 2,
@@ -346,7 +346,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Commodity prices are volatile and can crash" },
             { id: "d", text: "They require no labour" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Primary dependence", statement: "Price volatility." }], steps: [{ reasoning: "Correct reason.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Primary dependence", statement: "Price volatility." }], steps: [{ reasoning: "Correct reason.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u6-bar-q8", difficulty: "core", totalMarks: 2,
@@ -438,7 +438,7 @@ export const lesson61: Lesson = {
             { id: "c", text: "Improves the rule of law" },
             { id: "d", text: "Raises literacy rates" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Conflict barrier", statement: "Destruction and uncertainty." }], steps: [{ reasoning: "Correct mechanism.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Conflict barrier", statement: "Destruction and uncertainty." }], steps: [{ reasoning: "Correct mechanism.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u6-bar-q16", difficulty: "challenge", totalMarks: 9,

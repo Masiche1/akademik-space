@@ -63,7 +63,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Ice takes up more volume than the liquid, so it exerts force that widens cracks.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Water expands when it freezes.",
+            finalAnswer: "**(c)** Water expands when it freezes.",
             commonErrors: ["Choosing (c): dissolving causes chemical weathering, not frost wedging.", "Choosing (d): water is polar, not non-polar."],
             examinerNote: "B1 for (b).",
           },
@@ -192,7 +192,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "The initial warming leads to changes that cause still more warming, so it is amplified.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Positive feedback, because the change is amplified",
+            finalAnswer: "**(d)** Positive feedback, because the change is amplified",
             commonErrors: ["Choosing (a) or (d): a negative feedback reduces the original change.", "Thinking positive means beneficial."],
             examinerNote: "B1 for (b).",
           },

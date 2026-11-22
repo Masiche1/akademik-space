@@ -267,7 +267,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Restriction enzymes leave sticky ends.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Restriction enzyme",
+            finalAnswer: "**(d)** Restriction enzyme",
             commonErrors: ["Confusing sticky ends with ligation."],
           },
         },
@@ -367,7 +367,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "ori lets the plasmid replicate in the host.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** It allows the plasmid to replicate inside the host cell",
+            finalAnswer: "**(c)** It allows the plasmid to replicate inside the host cell",
             commonErrors: ["Confusing ori with selectable marker."],
           },
         },
@@ -420,7 +420,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Transformation = DNA uptake.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Introducing foreign DNA into the bacterial cells",
+            finalAnswer: "**(b)** Introducing foreign DNA into the bacterial cells",
             commonErrors: ["Confusing transformation with selection."],
           },
         },
@@ -450,7 +450,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Recombinant = DNA from different sources joined.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** It contains DNA joined from more than one source",
+            finalAnswer: "**(c)** It contains DNA joined from more than one source",
             commonErrors: ["Thinking recombinant means identical to host."],
           },
         },
@@ -625,7 +625,7 @@ export const lesson91: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Polymerase chain reaction",
+            finalAnswer: "**(b)** Polymerase chain reaction",
             commonErrors: ["Misremembering acronym."],
           },
         },
@@ -882,7 +882,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Smaller fragments travel further.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** The smallest fragment",
+            finalAnswer: "**(d)** The smallest fragment",
             commonErrors: ["Thinking larger fragments travel further."],
           },
         },
@@ -965,7 +965,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Primers bind template and start synthesis.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** They bind to complementary template sequences and provide a starting point for DNA synthesis",
+            finalAnswer: "**(c)** They bind to complementary template sequences and provide a starting point for DNA synthesis",
             commonErrors: ["Confusing primers with Taq polymerase."],
           },
         },
@@ -1042,7 +1042,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "PCR amplifies DNA for analysis.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Amplifying a small sample of DNA so it can be analysed",
+            finalAnswer: "**(b)** Amplifying a small sample of DNA so it can be analysed",
             commonErrors: ["Confusing PCR with restriction digestion or ligation."],
           },
         },
@@ -1136,7 +1136,7 @@ export const lesson91: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Nucleus from adult cell into enucleated egg",
+            finalAnswer: "**(c)** Nucleus from adult cell into enucleated egg",
             commonErrors: ["Confusing with tissue culture."],
           },
         },
@@ -1314,7 +1314,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Tissue culture clones plants.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Growing small pieces of plant tissue into whole plants",
+            finalAnswer: "**(b)** Growing small pieces of plant tissue into whole plants",
             commonErrors: ["Confusing with fermentation."],
           },
         },
@@ -1415,7 +1415,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Hybridomas are immortal and secrete one antibody type.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Unlimited identical antibodies can be produced from an immortal cell line",
+            finalAnswer: "**(d)** Unlimited identical antibodies can be produced from an immortal cell line",
             commonErrors: ["Claiming mAbs are made chemically."],
           },
         },
@@ -1468,7 +1468,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "mAbs used in tests and diagnosis.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Pregnancy tests and disease diagnosis",
+            finalAnswer: "**(b)** Pregnancy tests and disease diagnosis",
             commonErrors: ["Confusing mAbs with enzymes or antibodies in general."],
           },
         },
@@ -1546,7 +1546,7 @@ export const lesson91: Lesson = {
             steps: [
               { reasoning: "Insulin is produced by GM bacteria.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Human insulin",
+            finalAnswer: "**(d)** Human insulin",
             commonErrors: ["Choosing a non-biological product."],
           },
         },

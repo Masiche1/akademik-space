@@ -57,7 +57,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Natural selection", statement: "Allele frequency changes in populations." }],
             steps: [{ reasoning: "Individuals don't evolve; populations do.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Populations",
+            finalAnswer: "**(a)** Populations",
           },
         },
         {
@@ -171,7 +171,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Allopatric", statement: "Geographic barrier separates." }],
             steps: [{ reasoning: "allo = other place.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Geographic isolation",
+            finalAnswer: "**(d)** Geographic isolation",
           },
         },
         {

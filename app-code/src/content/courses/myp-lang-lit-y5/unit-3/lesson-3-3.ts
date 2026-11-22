@@ -64,7 +64,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Evaluation", statement: "Good evaluation = criteria + evidence." }],
             steps: [{ reasoning: "Criterion B (Organizing): evaluation needs criteria + evidence — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Using criteria and evidence",
+            finalAnswer: "**(a)** Using criteria and evidence",
           },
         },
         {
@@ -149,7 +149,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Evaluation", statement: "Credible evaluation = criteria + evidence + balance." }],
             steps: [{ reasoning: "Criterion B (Organizing): criteria + evidence + balance — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Using criteria and evidence, and acknowledging strengths and weaknesses",
+            finalAnswer: "**(c)** Using criteria and evidence, and acknowledging strengths and weaknesses",
           },
         },
         {
@@ -195,7 +195,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Balanced evaluation", statement: "Strengths + weaknesses = credible." }],
             steps: [{ reasoning: "Criterion B (Organizing): 'clear', 'fluent' strengths vs 'thin' weakness — balanced — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Balanced evaluation — strengths and weakness",
+            finalAnswer: "**(c)** Balanced evaluation — strengths and weakness",
           },
         },
         {
@@ -221,7 +221,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Evidence-based evaluation", statement: "Evaluation needs criteria + evidence, not just opinion." }],
             steps: [{ reasoning: "Criterion B (Organizing): 'great', 'loved' = opinion without evidence — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** No criteria or evidence — vague praise without specific features",
+            finalAnswer: "**(a)** No criteria or evidence — vague praise without specific features",
           },
         },
         {
@@ -304,7 +304,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Evidence-based evaluation", statement: "Judgment + criteria + evidence." }],
             steps: [{ reasoning: "Criterion B (Organizing): evidence-based = judgments backed by specific features — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Supporting judgments with specific features from the text",
+            finalAnswer: "**(a)** Supporting judgments with specific features from the text",
           },
         },
         {
@@ -374,7 +374,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Credible criticism", statement: "Specific criteria make even negative evaluations credible." }],
             steps: [{ reasoning: "Criterion B (Organizing): cites structure, evidence, conclusion — specific criteria — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** It cites specific criteria — structure, evidence, conclusion",
+            finalAnswer: "**(d)** It cites specific criteria — structure, evidence, conclusion",
           },
         },
         {
@@ -449,7 +449,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Revision order", statement: "Big picture first, details last." }],
             steps: [{ reasoning: "Criterion B (Organizing): content → structure → language → mechanics — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Content/structure first, then language/mechanics",
+            finalAnswer: "**(c)** Content/structure first, then language/mechanics",
           },
         },
         {
@@ -534,7 +534,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Revision order", statement: "Big picture first, details last." }],
             steps: [{ reasoning: "Criterion B (Organizing): content → structure → language → mechanics — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Content and structure first, then language and mechanics",
+            finalAnswer: "**(a)** Content and structure first, then language and mechanics",
           },
         },
         {
@@ -575,7 +575,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Revision vs editing", statement: "Revision = content/structure; editing = language/mechanics." }],
             steps: [{ reasoning: "Criterion B (Organizing): revision = big picture, editing = details — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Revision improves content and structure; editing fixes language and mechanics",
+            finalAnswer: "**(c)** Revision improves content and structure; editing fixes language and mechanics",
           },
         },
         {
@@ -601,7 +601,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Revision", statement: "Repetitive, undeveloped structure needs revision." }],
             steps: [{ reasoning: "Criterion B (Organizing): 'I will talk about' ×3 — repetitive, no substance — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Repetitive structure — 'I will talk about' repeated with no development",
+            finalAnswer: "**(c)** Repetitive structure — 'I will talk about' repeated with no development",
           },
         },
         {
@@ -622,7 +622,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Peer review", statement: "Feedback identifies what you miss." }],
             steps: [{ reasoning: "Criterion B (Organizing): peer review = fresh perspective feedback — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** To get fresh eyes and specific feedback",
+            finalAnswer: "**(a)** To get fresh eyes and specific feedback",
           },
         },
         {
@@ -753,7 +753,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Revision priority", statement: "Fix structure/argument before details." }],
             steps: [{ reasoning: "Criterion B (Organizing): no thesis/development = structural problem — fix first — (b).", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The argument/structure — no thesis, no development, generic conclusion",
+            finalAnswer: "**(d)** The argument/structure — no thesis, no development, generic conclusion",
           },
         },
         {

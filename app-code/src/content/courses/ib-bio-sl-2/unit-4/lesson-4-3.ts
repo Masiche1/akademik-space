@@ -124,7 +124,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Sampling a known area to estimate density or population size",
+              "**(c)** Sampling a known area to estimate density or population size",
             commonErrors: [
               "Confusing quadrats with mark-recapture, which is used for mobile animals.",
             ],
@@ -171,7 +171,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** 600 woodlice",
+            finalAnswer: "**(c)** 600 woodlice",
             commonErrors: [
               "Dividing in the wrong order, e.g. (150 × 30) / 120 = 37.5.",
               "Forgetting that the estimate assumes marks are not lost.",
@@ -428,7 +428,7 @@ export const lesson43: Lesson = {
                 text: "Resources are abundant and the population grows at an accelerating rate",
               },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -455,7 +455,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** Resources abundant, accelerating growth",
+            finalAnswer: "**(d)** Resources abundant, accelerating growth",
             commonErrors: [
               "Describing logistic-phase features (limiting resources, level curve) as exponential.",
             ],
@@ -652,7 +652,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Prevents bias so the sample is representative",
+              "**(c)** Prevents bias so the sample is representative",
             commonErrors: [
               "Thinking random sampling counts every individual — it only estimates the population.",
             ],
@@ -903,7 +903,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Birth rate equals death rate as resources limit growth",
+              "**(a)** Birth rate equals death rate as resources limit growth",
             commonErrors: [
               "Thinking the population stops because individuals 'choose' not to reproduce.",
             ],
@@ -1282,7 +1282,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Algal bloom followed by oxygen depletion (eutrophication)",
+              "**(d)** Algal bloom followed by oxygen depletion (eutrophication)",
             commonErrors: [
               "Assuming more nutrients always increase biodiversity — excess nutrients cause eutrophication.",
             ],
@@ -1455,7 +1455,7 @@ export const lesson43: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** A stable, self-perpetuating community",
+            finalAnswer: "**(a)** A stable, self-perpetuating community",
             commonErrors: ["Confusing climax with pioneer or seral stages."],
             examinerNote: "B1 for (b).",
           },
@@ -1504,7 +1504,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Lichens/mosses → grasses → shrubs → trees",
+            finalAnswer: "**(d)** Lichens/mosses → grasses → shrubs → trees",
             commonErrors: [
               "Starting with trees — they cannot colonise bare rock without soil.",
             ],
@@ -1696,7 +1696,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The stable triple bond requires nitrogen fixation first",
+              "**(c)** The stable triple bond requires nitrogen fixation first",
             commonErrors: [
               "Saying nitrogen is 'absent' — it is abundant but chemically unavailable.",
             ],
@@ -1757,7 +1757,7 @@ export const lesson43: Lesson = {
               { id: "c", text: "Nitrogen fixation" },
               { id: "d", text: "Photosynthesis" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1776,7 +1776,7 @@ export const lesson43: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** Denitrification",
+            finalAnswer: "**(b)** Denitrification",
             commonErrors: [
               "Confusing fixation (adding nitrogen to soil) with denitrification (returning it to air).",
             ],
@@ -1929,7 +1929,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Burning fossil fuels and applying synthetic fertilisers",
+              "**(c)** Burning fossil fuels and applying synthetic fertilisers",
             commonErrors: [
               "Choosing activities that remove or cycle nitrogen naturally rather than adding reactive forms.",
             ],

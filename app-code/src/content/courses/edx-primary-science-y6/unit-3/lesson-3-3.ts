@@ -92,7 +92,7 @@ export const lesson313: Lesson = {
               { reasoning: "Recall definition.", marks: 1, markCode: "M" },
               { reasoning: "Answer: bending.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Light bending in new medium",
+            finalAnswer: "**(a)** Light bending in new medium",
             commonErrors: ["Confused with reflection."],
           },
         },
@@ -211,7 +211,7 @@ export const lesson313: Lesson = {
             steps: [
               { reasoning: "Sound = vibrations.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Vibrations",
+            finalAnswer: "**(c)** Vibrations",
             commonErrors: ["Wrong cause."],
           },
         },

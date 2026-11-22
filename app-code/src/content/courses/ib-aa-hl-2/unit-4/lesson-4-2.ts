@@ -409,7 +409,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $45$",
+            finalAnswer: "**(b)** $45$",
             commonErrors: [
               "Using $3\\mathrm{Var}(X)=15$.",
               "Adding the constant: $9\\times5+1=46$.",
@@ -455,7 +455,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.49$",
+            finalAnswer: "**(b)** $0.49$",
             commonErrors: [
               "Reporting $\\mathrm{E}(X^2)=1.7$ as the variance.",
               "Computing $\\mathrm{E}(X)^2=1.21$ and stopping there.",
@@ -608,7 +608,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $44$",
+            finalAnswer: "**(d)** $44$",
             commonErrors: [
               "Using $\\mathrm{Var}(X)=20-3=17$.",
               "Computing $2\\mathrm{Var}(X)=22$ instead of $4\\mathrm{Var}(X)$.",
@@ -937,7 +937,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $6$",
+            finalAnswer: "**(d)** $6$",
             commonErrors: [
               "Reporting $\\mathrm{Var}(2X-3)=16$ instead of taking the square root.",
               "Adding the constant: $4+3=7$ or similar.",
@@ -988,7 +988,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $25$",
+            finalAnswer: "**(c)** $25$",
             commonErrors: [
               "Using $5\\mathrm{Var}(X)=5$.",
               "Adding the constant $-2$ to the variance.",
@@ -1072,7 +1072,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac12$",
+            finalAnswer: "**(b)** $\\frac12$",
             commonErrors: [
               "Forgetting the factor $\\frac12$ when integrating $x$, obtaining $k=1$ from $\\int_0^2 kx=2k$ wrongly as $4k$ or $k/2$.",
             ],
@@ -1424,7 +1424,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $\\frac32$",
+            finalAnswer: "**(b)** $\\frac32$",
             commonErrors: [
               "Integrating $f(x)$ rather than $xf(x)$.",
               "Using degree mode on the calculator.",
@@ -1586,7 +1586,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.5$",
+            finalAnswer: "**(d)** $0.5$",
             commonErrors: [
               "Solving $6x(1-x)=\\frac12$ for the mode rather than the median.",
               "Assuming median equals mode for a skewed pdf; here symmetry makes them equal.",
@@ -1899,7 +1899,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $0.5$",
+            finalAnswer: "**(c)** $0.5$",
             commonErrors: [
               "Computing $\\int_0^1 f$ with an arithmetic slip.",
               "Assuming the mean or median is 0 without checking symmetry — here it is justified.",
@@ -1944,7 +1944,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** $1.6$",
+            finalAnswer: "**(b)** $1.6$",
             commonErrors: [
               "Integrating $f$ instead of $xf$.",
               "Using $\\frac{x^5}{20}$ evaluated incorrectly as $\\frac{32}{4}=8$.",

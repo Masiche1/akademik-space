@@ -65,7 +65,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "PERT weights the most likely estimate four times.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{a+4m+b}{6}$",
+            finalAnswer: "**(b)** $\\frac{a+4m+b}{6}$",
             commonErrors: ["Using equal weights for all three estimates."],
           },
         },
@@ -198,7 +198,7 @@ export const lesson53: Lesson = {
             steps: [
               { reasoning: "$r=0.73$ is a uniform random value used for sampling.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** A uniform random value",
+            finalAnswer: "**(c)** A uniform random value",
             commonErrors: ["Interpreting $r$ as a probability directly."],
           },
         },

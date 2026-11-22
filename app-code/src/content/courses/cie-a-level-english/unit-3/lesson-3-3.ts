@@ -99,7 +99,7 @@ export const lesson233: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(a)** Arguable claim",
+            finalAnswer: "**(d)** Arguable claim",
             commonErrors: ["Confusing with summary."],
           },
         },
@@ -305,7 +305,7 @@ export const lesson233: Lesson = {
           totalMarks: 1,
           stem: "What should a strong thesis do?",
           response: { type: "mcq", choices: [ { id: "a", text: "Retell the poem" }, { id: "b", text: "State the poet's age" }, { id: "c", text: "Present an arguable interpretive claim" }, { id: "d", text: "List every rhyme" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "technique", name: "Thesis", statement: "An arguable claim guides the essay." }], steps: [{ reasoning: "A thesis argues an interpretation.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Arguable interpretive claim", commonErrors: ["Writing a summary instead of a claim."] },
+          markscheme: { principles: [{ kind: "technique", name: "Thesis", statement: "An arguable claim guides the essay." }], steps: [{ reasoning: "A thesis argues an interpretation.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Arguable interpretive claim", commonErrors: ["Writing a summary instead of a claim."] },
         },
         {
           id: "cial-e-u3-pe-q6",
@@ -313,7 +313,7 @@ export const lesson233: Lesson = {
           totalMarks: 1,
           stem: "What are the three parts of a PEE paragraph?",
           response: { type: "mcq", choices: [ { id: "a", text: "Point, evidence, explanation" }, { id: "b", text: "Question, answer, quote" }, { id: "c", text: "Plot, emotion, ending" }, { id: "d", text: "Poem, essay, poet" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "convention", name: "PEE", statement: "Point, evidence and explanation." }], steps: [{ reasoning: "PEE structures analytical paragraphs.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Point, evidence, explanation", commonErrors: ["Quoting without explanation."] },
+          markscheme: { principles: [{ kind: "convention", name: "PEE", statement: "Point, evidence and explanation." }], steps: [{ reasoning: "PEE structures analytical paragraphs.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Point, evidence, explanation", commonErrors: ["Quoting without explanation."] },
         },
         {
           id: "cial-e-u3-pe-q7",
@@ -321,7 +321,7 @@ export const lesson233: Lesson = {
           totalMarks: 1,
           stem: "Why should quotations be brief and integrated?",
           response: { type: "mcq", choices: [ { id: "a", text: "Long quotes prove more" }, { id: "b", text: "They reduce marks" }, { id: "c", text: "They let analysis dominate and show control" }, { id: "d", text: "They remove the need for a thesis" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "technique", name: "Integrated quotation", statement: "Short embedded quotes support analysis." }], steps: [{ reasoning: "Integration keeps argument central.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Analysis dominates", commonErrors: ["Using long block quotes without comment."] },
+          markscheme: { principles: [{ kind: "technique", name: "Integrated quotation", statement: "Short embedded quotes support analysis." }], steps: [{ reasoning: "Integration keeps argument central.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Analysis dominates", commonErrors: ["Using long block quotes without comment."] },
         },
         {
           id: "cial-e-u3-pe-q8",
@@ -329,7 +329,7 @@ export const lesson233: Lesson = {
           totalMarks: 1,
           stem: "What should the conclusion of a poetry essay do?",
           response: { type: "mcq", choices: [ { id: "a", text: "Reach an evaluative judgement" }, { id: "b", text: "Summarise every point" }, { id: "c", text: "Introduce a new poem" }, { id: "d", text: "Repeat the thesis exactly" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "skill", name: "Evaluative conclusion", statement: "A judgement demonstrates critical engagement." }], steps: [{ reasoning: "The conclusion should evaluate effectiveness.", marks: 1, markCode: "AO3" }], finalAnswer: "**(b)** Evaluative judgement", commonErrors: ["Ending with summary."] },
+          markscheme: { principles: [{ kind: "skill", name: "Evaluative conclusion", statement: "A judgement demonstrates critical engagement." }], steps: [{ reasoning: "The conclusion should evaluate effectiveness.", marks: 1, markCode: "AO3" }], finalAnswer: "**(a)** Evaluative judgement", commonErrors: ["Ending with summary."] },
         },
         {
           id: "cial-e-u3-pe-q9",
@@ -337,7 +337,7 @@ export const lesson233: Lesson = {
           totalMarks: 1,
           stem: "Why should paragraphs link back to the thesis?",
           response: { type: "mcq", choices: [ { id: "a", text: "It maintains a coherent argument" }, { id: "b", text: "It makes the essay longer" }, { id: "c", text: "It repeats the same words" }, { id: "d", text: "It allows unrelated points" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "convention", name: "Paragraph cohesion", statement: "Links keep analysis unified." }], steps: [{ reasoning: "Thesis links prevent fragmented analysis.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Maintains coherent argument", commonErrors: ["Writing paragraphs as isolated comments."] },
+          markscheme: { principles: [{ kind: "convention", name: "Paragraph cohesion", statement: "Links keep analysis unified." }], steps: [{ reasoning: "Thesis links prevent fragmented analysis.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Maintains coherent argument", commonErrors: ["Writing paragraphs as isolated comments."] },
         },
         {
           id: "cial-e-u3-pe-q10",
@@ -688,7 +688,7 @@ export const lesson233: Lesson = {
           totalMarks: 1,
           stem: "What should annotation include?",
           response: { type: "mcq", choices: [ { id: "a", text: "The poet's biography" }, { id: "b", text: "A new thesis" }, { id: "c", text: "Key words, imagery, sound and structure" }, { id: "d", text: "Only difficult vocabulary" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "technique", name: "Annotation", statement: "Mark words, images, sounds and structure." }], steps: [{ reasoning: "Annotation records features for later argument.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Key words, imagery, sound, structure", commonErrors: ["Annotating without a purpose."] },
+          markscheme: { principles: [{ kind: "technique", name: "Annotation", statement: "Mark words, images, sounds and structure." }], steps: [{ reasoning: "Annotation records features for later argument.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Key words, imagery, sound, structure", commonErrors: ["Annotating without a purpose."] },
         },
         {
           id: "cial-e-u3-pr-q7",
@@ -696,7 +696,7 @@ export const lesson233: Lesson = {
           totalMarks: 1,
           stem: "How should annotations be used after marking the poem?",
           response: { type: "mcq", choices: [ { id: "a", text: "Grouped into themes and patterns" }, { id: "b", text: "Ignored" }, { id: "c", text: "Used only for quotation" }, { id: "d", text: "Copied into a list" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "skill", name: "Annotation to argument", statement: "Patterns become the thesis." }], steps: [{ reasoning: "Grouping reveals significant patterns.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Grouped into themes", commonErrors: ["Leaving annotations unconnected."] },
+          markscheme: { principles: [{ kind: "skill", name: "Annotation to argument", statement: "Patterns become the thesis." }], steps: [{ reasoning: "Grouping reveals significant patterns.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Grouped into themes", commonErrors: ["Leaving annotations unconnected."] },
         },
         {
           id: "cial-e-u3-pr-q8",
@@ -704,7 +704,7 @@ export const lesson233: Lesson = {
           totalMarks: 1,
           stem: "What is a motif in close reading?",
           response: { type: "mcq", choices: [ { id: "a", text: "The title" }, { id: "b", text: "A stanza break" }, { id: "c", text: "A single rhyme sound" }, { id: "d", text: "A recurring image or idea developing theme" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Motif", statement: "Recurring element developing meaning." }], steps: [{ reasoning: "Motifs repeat to build theme.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Recurring image or idea", commonErrors: ["Confusing motif with theme itself."] },
+          markscheme: { principles: [{ kind: "definition", name: "Motif", statement: "Recurring element developing meaning." }], steps: [{ reasoning: "Motifs repeat to build theme.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Recurring image or idea", commonErrors: ["Confusing motif with theme itself."] },
         },
         {
           id: "cial-e-u3-pr-q9",
@@ -712,7 +712,7 @@ export const lesson233: Lesson = {
           totalMarks: 1,
           stem: "Where should a thesis come from in close reading?",
           response: { type: "mcq", choices: [ { id: "a", text: "The poet's nationality" }, { id: "b", text: "The first line only" }, { id: "c", text: "A dictionary definition" }, { id: "d", text: "The most significant pattern found in annotations" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Thesis from pattern", statement: "Significant patterns support an arguable claim." }], steps: [{ reasoning: "The thesis emerges from evidence patterns.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Most significant pattern", commonErrors: ["Imposing a thesis before reading closely."] },
+          markscheme: { principles: [{ kind: "skill", name: "Thesis from pattern", statement: "Significant patterns support an arguable claim." }], steps: [{ reasoning: "The thesis emerges from evidence patterns.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Most significant pattern", commonErrors: ["Imposing a thesis before reading closely."] },
         },
         {
           id: "cial-e-u3-pr-q10",

@@ -167,7 +167,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'believe' is the correct spelling.", working: "believe", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** believe",
+            finalAnswer: "**(c)** believe",
             commonErrors: ["'beleive' — the classic i/e swap."],
             examinerNote: "D1 for (b).",
           },
@@ -194,7 +194,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — '!' shows excitement correctly.", working: "What a fantastic goal!", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(a)** What a fantastic goal!",
+            finalAnswer: "**(b)** What a fantastic goal!",
             commonErrors: ["Using a full stop for an exclamation."],
             examinerNote: "D1 for (a).",
           },
@@ -221,7 +221,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'Tom's' is the correct possessive form.", working: "Tom's bag", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** That is Tom's bag.",
+            finalAnswer: "**(d)** That is Tom's bag.",
             commonErrors: ["Missing the apostrophe."],
             examinerNote: "D1 for (b).",
           },
@@ -398,7 +398,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — commas between list items are correct.", working: "apples, oranges and bananas", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** I bought apples, oranges and bananas.",
+            finalAnswer: "**(d)** I bought apples, oranges and bananas.",
             commonErrors: ["Missing commas or comma in wrong place."],
             examinerNote: "D1 for (b).",
           },
@@ -513,7 +513,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — proofreading = finding and fixing mistakes.", working: "find and fix mistakes", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** To find and fix mistakes",
+            finalAnswer: "**(d)** To find and fix mistakes",
             commonErrors: ["Thinking proofreading means rewriting the whole text."],
             examinerNote: "D1 for (b).",
           },
@@ -637,7 +637,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — backwards reading breaks the 'auto-correct' habit.", working: "auto-correcting", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It stops your brain from auto-correcting, so wrong spellings stand out",
+            finalAnswer: "**(a)** It stops your brain from auto-correcting, so wrong spellings stand out",
             commonErrors: ["Thinking it is just a fun trick with no purpose."],
             examinerNote: "B1 for (b).",
           },
@@ -655,7 +655,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "A spelling error" },
               { id: "d", text: "A punctuation error" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -664,7 +664,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'she go' should be 'she goes' — agreement error.", working: "missing -s", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(c)** A verb agreement error (missing -s)",
+            finalAnswer: "**(b)** A verb agreement error (missing -s)",
             commonErrors: ["Calling it a spelling error — the letters are fine, the form is wrong."],
             examinerNote: "D1 for (c).",
           },
@@ -795,7 +795,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — sentence-level punctuation is checked early in the routine.", working: "capitals + end marks", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** Capitals at sentence starts and end marks",
+            finalAnswer: "**(c)** Capitals at sentence starts and end marks",
             commonErrors: ["Checking content ideas first — proofreading is about errors, not ideas."],
             examinerNote: "D1 for (b).",
           },
@@ -853,7 +853,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion D: Writing — 'doesn't like' is correct.", working: "doesn't like", marks: 1, markCode: "D" },
             ],
-            finalAnswer: "**(b)** She doesn't like homework.",
+            finalAnswer: "**(d)** She doesn't like homework.",
             commonErrors: ["'don't' with 'she' — needs 'doesn't'."],
             examinerNote: "D1 for (b).",
           },

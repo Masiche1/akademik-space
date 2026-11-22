@@ -68,7 +68,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "Longer wavelengths mean the sources are receding, which shows that the universe is expanding.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The galaxies are moving away from us, because space is expanding",
+            finalAnswer: "**(b)** The galaxies are moving away from us, because space is expanding",
             commonErrors: ["Choosing (b); approaching sources show blueshift.", "Confusing redshift with the color of a cool star."],
             examinerNote: "B1 for galaxies moving away / universe expanding.",
           },
@@ -198,7 +198,7 @@ export const lesson12: Lesson = {
             steps: [
               { reasoning: "To sweep equal areas in equal time, the planet must move faster when the line is shorter, near the Sun.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** When it is closest to the Sun",
+            finalAnswer: "**(a)** When it is closest to the Sun",
             commonErrors: ["Thinking that planets move at constant speed in circular orbits.", "Thinking that a planet speeds up as it moves away from the Sun."],
             examinerNote: "B1 for closest to the Sun / perihelion.",
           },

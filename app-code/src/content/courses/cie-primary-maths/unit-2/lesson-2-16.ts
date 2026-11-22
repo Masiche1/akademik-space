@@ -153,7 +153,7 @@ export const lesson216: Lesson = {
             { id: "b", text: "reflex" },
             { id: "c", text: "right" },
             { id: "d", text: "acute" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Obtuse angle", statement: "Between 90° and 180°." }],
             steps: [{ reasoning: "$90 < 150 < 180$ → obtuse.", marks: 1, markCode: "A" }],

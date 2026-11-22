@@ -213,7 +213,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Organ", statement: "An organ contains different tissues working together." }],
             steps: [{ reasoning: "The heart is made of muscle, blood and nerve tissues.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Heart",
+            finalAnswer: "**(b)** Heart",
           },
         },
         {
@@ -261,7 +261,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Digestive system", statement: "Stomach, liver and intestines are digestive organs." }],
             steps: [{ reasoning: "Stomach and liver are organs involved in digestion.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Stomach and liver",
+            finalAnswer: "**(c)** Stomach and liver",
           },
         },
         {
@@ -294,7 +294,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Stem cell", statement: "Stem cells are unspecialised and can differentiate." }],
             steps: [{ reasoning: "Stem cells have the potential to become specialised cells.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** An unspecialised cell that can become different cell types",
+            finalAnswer: "**(d)** An unspecialised cell that can become different cell types",
           },
         },
         {
@@ -498,7 +498,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Stem cell", statement: "Stem cells are unspecialised and can differentiate." }],
             steps: [{ reasoning: "Stem cells have the potential to become different cell types.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** An unspecialised cell that can become specialised",
+            finalAnswer: "**(d)** An unspecialised cell that can become specialised",
           },
         },
         {
@@ -545,7 +545,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Differentiation", statement: "Gene activation controls which proteins a cell produces." }],
             steps: [{ reasoning: "Specific genes are switched on during differentiation.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Activation of specific genes",
+            finalAnswer: "**(c)** Activation of specific genes",
           },
         },
         {
@@ -626,7 +626,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Division of labour", statement: "Specialised cells perform different roles." }],
             steps: [{ reasoning: "Different cell types handle different functions.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Different cells perform different specialised jobs",
+            finalAnswer: "**(c)** Different cells perform different specialised jobs",
           },
         },
         {
@@ -674,7 +674,7 @@ export const lesson23: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Stem cell therapy", statement: "Stem cells may regenerate damaged tissues." }],
             steps: [{ reasoning: "Stem cells can differentiate into needed cell types.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** Repairing damaged tissues",
+            finalAnswer: "**(c)** Repairing damaged tissues",
           },
         },
       ],

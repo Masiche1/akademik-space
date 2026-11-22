@@ -68,7 +68,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "A community contains several species, so it is larger than a population but does not include abiotic factors.", working: "\\text{community} = \\text{all populations in an area}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)**",
+            finalAnswer: "**(a)**",
             commonErrors: ["Choosing (a), which defines a population.", "Choosing (c), which defines a habitat.", "Choosing (d), which defines an ecosystem because it includes non-living factors."],
             examinerNote: "B1 for (b).",
           },

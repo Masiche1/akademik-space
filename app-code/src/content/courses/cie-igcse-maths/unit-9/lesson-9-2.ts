@@ -65,7 +65,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the proof method.", working: "k\\mathbf{v}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Scalar multiple",
+            finalAnswer: "**(c)** Scalar multiple",
             commonErrors: ["Trying to prove equal length instead of parallel."],
           },
         },
@@ -161,7 +161,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the proof strategy.", working: "\\text{convenient vertex}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** At a simplifying vertex",
+            finalAnswer: "**(c)** At a simplifying vertex",
             commonErrors: ["Choosing an arbitrary point and making algebra harder."],
           },
         },
@@ -205,7 +205,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the theorem.", working: "DE = (1/2) BC", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Parallel and half the length",
+            finalAnswer: "**(c)** Parallel and half the length",
             commonErrors: ["Forgetting the factor $\\frac12$."],
           },
         },
@@ -268,7 +268,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the proof method.", working: "AB=DC and AD=BC", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Opposite side vectors equal",
+            finalAnswer: "**(c)** Opposite side vectors equal",
             commonErrors: ["Stopping after proving only one pair parallel."],
           },
         },
@@ -314,7 +314,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the property.", working: "AG:GM=2:1", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2:1$ from the vertex",
+            finalAnswer: "**(d)** $2:1$ from the vertex",
             commonErrors: ["Reversing the ratio."],
           },
         },
@@ -340,7 +340,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Factor $\\frac12$ scales length by half; direction unchanged → parallel.", working: "k=1/2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Parallel; half",
+            finalAnswer: "**(c)** Parallel; half",
             commonErrors: ["Ignoring the length factor."],
           },
         },
@@ -465,7 +465,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the strategy.", working: "\\text{convenient vertex}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** At a simplifying vertex",
+            finalAnswer: "**(b)** At a simplifying vertex",
             commonErrors: ["Choosing the centre when a vertex is simpler."],
           },
         },
@@ -560,7 +560,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the strategy.", working: "\\text{assign position vectors}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Assign position vectors",
+            finalAnswer: "**(c)** Assign position vectors",
             commonErrors: ["Starting calculations without a clear setup."],
           },
         },
@@ -667,7 +667,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall the formula.", working: "n a + m b over m+n", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{n\\mathbf{a}+m\\mathbf{b}}{m+n}$",
+            finalAnswer: "**(b)** $\\frac{n\\mathbf{a}+m\\mathbf{b}}{m+n}$",
             commonErrors: ["Not reversing the weights."],
           },
         },
@@ -714,7 +714,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "$\\frac13\\begin{pmatrix}6\\\\9\\end{pmatrix}=\\begin{pmatrix}2\\\\3\\end{pmatrix}$.", working: "(2,3)", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $(2,3)$",
+            finalAnswer: "**(c)** $(2,3)$",
             commonErrors: ["Dividing by 2 instead of 3."],
           },
         },
@@ -740,7 +740,7 @@ export const lesson92: Lesson = {
             steps: [
               { reasoning: "Recall exam technique.", working: "\\text{justify algebraically}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Algebraic working leading to the result",
+            finalAnswer: "**(c)** Algebraic working leading to the result",
             commonErrors: ["Writing only the answer — no marks for unsupported results."],
           },
         },

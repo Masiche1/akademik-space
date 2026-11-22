@@ -72,7 +72,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Both energy and orientation conditions required.", working: "E_a+\\text{orientation}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Sufficient energy and correct orientation",
+            finalAnswer: "**(b)** Sufficient energy and correct orientation",
             commonErrors: ["Saying any collision causes reaction."],
             examinerNote: "B1 for (a).",
           },
@@ -188,7 +188,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "More particles in the same volume collide more often.", working: "\\text{concentration}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Increasing concentration",
+            finalAnswer: "**(c)** Increasing concentration",
             commonErrors: ["Choosing temperature — that changes both frequency and energy."],
             examinerNote: "B1 for (a).",
           },
@@ -515,7 +515,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Gradient = change/time = rate.", working: "\\text{gradient}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Steepest part",
+            finalAnswer: "**(c)** Steepest part",
             commonErrors: ["Confusing final volume with rate."],
             examinerNote: "B1 for (a).",
           },
@@ -631,7 +631,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Steepest gradient = greatest change per unit time = maximum rate.", working: "\\text{gradient}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Steepest part",
+            finalAnswer: "**(c)** Steepest part",
             commonErrors: ["Confusing final volume with rate."],
             examinerNote: "B1 for (a).",
           },

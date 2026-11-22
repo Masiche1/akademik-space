@@ -41,7 +41,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Photo editor" },
             { id: "d", text: "Spreadsheet" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "System software", statement: "Manages the machine." }], steps: [{ reasoning: "OS is system software.", working: "\\text{OS}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Operating system" },
+          markscheme: { principles: [{ kind: "definition", name: "System software", statement: "Manages the machine." }], steps: [{ reasoning: "OS is system software.", working: "\\text{OS}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Operating system" },
         },
         {
           id: "olcs-u4-st-q2", difficulty: "core", totalMarks: 2,
@@ -107,7 +107,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Photo editor" },
             { id: "d", text: "Operating system" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "OS", statement: "Manages hardware resources." }], steps: [{ reasoning: "The OS manages hardware.", working: "\\text{OS}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Operating system" },
+          markscheme: { principles: [{ kind: "definition", name: "OS", statement: "Manages hardware resources." }], steps: [{ reasoning: "The OS manages hardware.", working: "\\text{OS}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Operating system" },
         },
         {
           id: "olcs-u4-st-q7", difficulty: "foundation", totalMarks: 1,
@@ -154,7 +154,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Play games" },
             { id: "d", text: "Maintain and protect the computer" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Utility", statement: "Maintenance tools." }], steps: [{ reasoning: "Utilities maintain/protect.", working: "\\text{maintenance}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Maintain and protect" },
+          markscheme: { principles: [{ kind: "definition", name: "Utility", statement: "Maintenance tools." }], steps: [{ reasoning: "Utilities maintain/protect.", working: "\\text{maintenance}", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Maintain and protect" },
         },
         {
           id: "olcs-u4-st-q12", difficulty: "challenge", totalMarks: 4,
@@ -176,7 +176,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "A type of virus" },
             { id: "d", text: "A network cable" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Firmware", statement: "Chip-based control software." }], steps: [{ reasoning: "Firmware lives on chips.", working: "\\text{chip}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Chip control software" },
+          markscheme: { principles: [{ kind: "definition", name: "Firmware", statement: "Chip-based control software." }], steps: [{ reasoning: "Firmware lives on chips.", working: "\\text{chip}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Chip control software" },
         },
         {
           id: "olcs-u4-st-q14", difficulty: "core", totalMarks: 1,
@@ -302,7 +302,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Ignores the device" },
             { id: "d", text: "Shuts down immediately" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Interrupt handling", statement: "Finish instruction, then handle." }], steps: [{ reasoning: "CPU completes the current instruction first.", working: "\\text{finish}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Finishes current instruction" },
+          markscheme: { principles: [{ kind: "principle", name: "Interrupt handling", statement: "Finish instruction, then handle." }], steps: [{ reasoning: "CPU completes the current instruction first.", working: "\\text{finish}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Finishes current instruction" },
         },
         {
           id: "olcs-u4-int-q6", difficulty: "core", totalMarks: 1,
@@ -313,7 +313,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Interrupt service routine" },
             { id: "d", text: "Input/output signal router" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "ISR", statement: "Interrupt service routine." }], steps: [{ reasoning: "ISR = interrupt service routine.", working: "\\text{ISR}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Interrupt service routine" },
+          markscheme: { principles: [{ kind: "definition", name: "ISR", statement: "Interrupt service routine." }], steps: [{ reasoning: "ISR = interrupt service routine.", working: "\\text{ISR}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Interrupt service routine" },
         },
         {
           id: "olcs-u4-int-q7", difficulty: "foundation", totalMarks: 1,
@@ -360,7 +360,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Screen update" },
             { id: "d", text: "Keyboard keypress" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Non-maskable", statement: "Critical interrupts cannot be disabled." }], steps: [{ reasoning: "Hardware failure is critical and always handled.", working: "\\text{failure}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Hardware failure" },
+          markscheme: { principles: [{ kind: "definition", name: "Non-maskable", statement: "Critical interrupts cannot be disabled." }], steps: [{ reasoning: "Hardware failure is critical and always handled.", working: "\\text{failure}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Hardware failure" },
         },
         {
           id: "olcs-u4-int-q12", difficulty: "challenge", totalMarks: 4,
@@ -382,7 +382,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Network packet arrival" },
             { id: "d", text: "Timer tick" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Interrupt sources", statement: "Devices needing attention." }], steps: [{ reasoning: "Wallpaper change is a user action, not a device interrupt.", working: "\\text{wallpaper}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Changing the desktop wallpaper" },
+          markscheme: { principles: [{ kind: "principle", name: "Interrupt sources", statement: "Devices needing attention." }], steps: [{ reasoning: "Wallpaper change is a user action, not a device interrupt.", working: "\\text{wallpaper}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Changing the desktop wallpaper" },
         },
         {
           id: "olcs-u4-int-q14", difficulty: "core", totalMarks: 1,

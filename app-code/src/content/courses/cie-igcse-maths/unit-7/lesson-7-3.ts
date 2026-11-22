@@ -64,7 +64,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Count the mirror lines.", working: "4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $4$",
+            finalAnswer: "**(c)** $4$",
             commonErrors: ["Counting only the horizontal and vertical lines (missing the diagonals)."],
           },
         },
@@ -158,10 +158,10 @@ export const lesson73: Lesson = {
             { id: "c", text: "$1$" },
             { id: "d", text: "$3$" }
  ],
-            dorrectChoiceId: "c" },
+            correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "property", name: "Rotational symmetry", statement: "An equilateral triangle maps onto itself every $120^\\circ$." } ],
             steps: [ { reasoning: "Order $=360^\\circ/120^\\circ=3$.", working: "3", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(c)** $3$", commonErrors: ["Counting only one rotation."] },
+            finalAnswer: "**(d)** $3$", commonErrors: ["Counting only one rotation."] },
         },
         {
           id: "ciem-u7-symmetry-q7", difficulty: "core", totalMarks: 2,
@@ -182,10 +182,10 @@ export const lesson73: Lesson = {
             { id: "c", text: "$4$" },
             { id: "d", text: "$1$" }
  ],
-            correctChoiceIb: "d" },
+            correctChoiceId: "b" },
           markscheme: { principles: [ { kind: "property", name: "Circle symmetry", statement: "Every diameter is a line of symmetry." } ],
             steps: [ { reasoning: "Any diameter reflects the circle onto itself.", working: "\\infty", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(d)** Infinitely many", commonErrors: ["Counting only horizontal and vertical diameters."] },
+            finalAnswer: "**(b)** Infinitely many", commonErrors: ["Counting only horizontal and vertical diameters."] },
         },
         {
           id: "ciem-u7-symmetry-q9", difficulty: "core", totalMarks: 2,
@@ -219,7 +219,7 @@ export const lesson73: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "property", name: "Rotational symmetry", statement: "A square maps onto itself every $90^\\circ$." } ],
             steps: [ { reasoning: "Order $4$ needs $90^\\circ$ rotational symmetry.", working: "\\text{square}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** A square", commonErrors: ["Choosing the rectangle."] },
+            finalAnswer: "**(d)** A square", commonErrors: ["Choosing the rectangle."] },
         },
         {
           id: "ciem-u7-symmetry-q12", difficulty: "core", totalMarks: 3,
@@ -265,7 +265,7 @@ export const lesson73: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "definition", name: "Order", statement: "Order includes the identity/original position." } ],
             steps: [ { reasoning: "Recall the definition.", working: "\\text{include original}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(b)** Original plus each mapping rotation", commonErrors: ["Excluding the original position."] },
+            finalAnswer: "**(d)** Original plus each mapping rotation", commonErrors: ["Excluding the original position."] },
         },
         {
           id: "ciem-u7-symmetry-q16", difficulty: "challenge", totalMarks: 6,
@@ -338,7 +338,7 @@ export const lesson73: Lesson = {
             steps: [
               { reasoning: "Connect unchanged image to symmetry.", working: "\\text{line of symmetry}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** The line is a line of symmetry",
+            finalAnswer: "**(d)** The line is a line of symmetry",
             commonErrors: ["Thinking the transformation did nothing."],
           },
         },
@@ -422,7 +422,7 @@ export const lesson73: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "convention", name: "Full description", statement: "A rotation needs centre, angle and direction." } ],
             steps: [ { reasoning: "Recall the required elements.", working: "\\text{centre, angle, direction}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(a)** Centre, angle and direction", commonErrors: ["Omitting direction."] },
+            finalAnswer: "**(d)** Centre, angle and direction", commonErrors: ["Omitting direction."] },
         },
         {
           id: "ciem-u7-transformation-problems-q6", difficulty: "core", totalMarks: 1,
@@ -436,7 +436,7 @@ export const lesson73: Lesson = {
             correctChoiceId: "b" },
           markscheme: { principles: [ { kind: "technique", name: "Verification", statement: "Use a second point to distinguish possible transformations." } ],
             steps: [ { reasoning: "A second pair tests whether all points move identically or reflect.", working: "\\text{second pair}", marks: 1, markCode: "B" } ],
-            finalAnswer: "**(a)** A second object–image pair", commonErrors: ["Guessing from one point."] },
+            finalAnswer: "**(b)** A second object–image pair", commonErrors: ["Guessing from one point."] },
         },
         {
           id: "ciem-u7-transformation-problems-q7", difficulty: "core", totalMarks: 2,
@@ -543,7 +543,7 @@ export const lesson73: Lesson = {
             correctChoiceId: "d" },
           markscheme: { principles: [ { kind: "property", name: "Two reflections", statement: "Parallel mirror lines give translation by twice the gap." } ],
             steps: [ { reasoning: "Double the separation.", working: "2\\times6=12", marks: 1, markCode: "M" } ],
-            finalAnswer: "**(b)** Translation by $12$ units", commonErrors: ["Using the gap once."] },
+            finalAnswer: "**(d)** Translation by $12$ units", commonErrors: ["Using the gap once."] },
         },
         {
           id: "ciem-u7-transformation-problems-q16", difficulty: "challenge", totalMarks: 6,

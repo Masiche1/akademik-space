@@ -232,7 +232,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Alkanes = CₙH₂ₙ₊₂.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** CₙH₂ₙ₊₂",
+            finalAnswer: "**(a)** CₙH₂ₙ₊₂",
             commonErrors: ["Alkenes formula confused."],
           },
         },
@@ -430,7 +430,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Sodium → yellow.", marks: 2, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Yellow",
+            finalAnswer: "**(a)** Yellow",
             commonErrors: ["Lithium confused — crimson."],
           },
         },

@@ -262,7 +262,7 @@ export const lesson134: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Manages hardware and runs programs",
+            finalAnswer: "**(d)** Manages hardware and runs programs",
           },
         },
         {
@@ -327,7 +327,7 @@ export const lesson134: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Core component managing resources",
+            finalAnswer: "**(b)** Core component managing resources",
           },
         },
         {
@@ -423,7 +423,7 @@ export const lesson134: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Word processor",
+            finalAnswer: "**(d)** Word processor",
           },
         },
         {

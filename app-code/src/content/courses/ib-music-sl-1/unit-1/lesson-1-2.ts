@@ -70,7 +70,7 @@ export const lesson12: Lesson = {
               { reasoning: "Crescendo means a gradual increase in loudness.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Gradually getting louder",
+            finalAnswer: "**(c)** Gradually getting louder",
             commonErrors: [
               "Confusing crescendo (getting louder) with diminuendo (getting softer).",
             ],
@@ -177,7 +177,7 @@ export const lesson12: Lesson = {
               { reasoning: "Pianissimo is the extreme of the soft dynamic range.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Very soft",
+            finalAnswer: "**(c)** Very soft",
             commonErrors: [
               "Confusing p (piano, soft) with f (forte, loud).",
             ],
@@ -264,7 +264,7 @@ export const lesson12: Lesson = {
               { reasoning: "Rubato is controlled tempo flexibility, not a change of the underlying pulse.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Expressive flexibility of tempo within the music's pulse",
+            finalAnswer: "**(c)** Expressive flexibility of tempo within the music's pulse",
             commonErrors: [
               "Confusing rubato with ritardando or a metronome change.",
             ],
@@ -322,7 +322,7 @@ export const lesson12: Lesson = {
               { reasoning: "An accent asks for a stronger, more prominent attack on the note.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The note should be emphasised with a stronger attack",
+            finalAnswer: "**(a)** The note should be emphasised with a stronger attack",
             commonErrors: [
               "Confusing accent with tenuto or dynamic marking.",
             ],
@@ -524,7 +524,7 @@ export const lesson12: Lesson = {
               { reasoning: "Wind tone depends on breath support, embouchure and controlled air speed.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Breath support, embouchure and air speed",
+            finalAnswer: "**(d)** Breath support, embouchure and air speed",
             commonErrors: [
               "Attributing tone quality to external factors rather than technique.",
             ],
@@ -625,7 +625,7 @@ export const lesson12: Lesson = {
               { reasoning: "String tone depends on how the bow contacts the string.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Bow angle, bow pressure and sounding point",
+            finalAnswer: "**(c)** Bow angle, bow pressure and sounding point",
             commonErrors: [
               "Attributing string tone to factors outside the player's control.",
             ],
@@ -683,7 +683,7 @@ export const lesson12: Lesson = {
               { reasoning: "Warming up prepares muscles, breath and focus for the physical demands of playing.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Physical readiness, injury prevention and mental focus",
+            finalAnswer: "**(a)** Physical readiness, injury prevention and mental focus",
             commonErrors: [
               "Skipping warm-ups and risking strain or poor tone at the start.",
             ],
@@ -712,7 +712,7 @@ export const lesson12: Lesson = {
               { reasoning: "Slow practice lets the player monitor and correct technique, which speed then preserves.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Builds control and correct technique before speed is added",
+            finalAnswer: "**(d)** Builds control and correct technique before speed is added",
             commonErrors: [
               "Rushing to tempo before establishing evenness and control.",
             ],
@@ -770,7 +770,7 @@ export const lesson12: Lesson = {
               { reasoning: "Endurance comes from rest and recovery plus proper physical preparation, not over-practice.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Adequate rest, hydration, warm-ups and vocal/instrument care",
+            finalAnswer: "**(a)** Adequate rest, hydration, warm-ups and vocal/instrument care",
             commonErrors: [
               "Believing more practice hours always means better endurance.",
             ],

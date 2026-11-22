@@ -197,7 +197,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Flow conservation requires inflow = outflow at each intermediate vertex.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Inflow equals outflow",
+            finalAnswer: "**(c)** Inflow equals outflow",
             commonErrors: ["Thinking flow accumulates at vertices."],
           },
         },
@@ -330,7 +330,7 @@ export const lesson101: Lesson = {
             steps: [
               { reasoning: "Critical activities have zero float.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $0$",
+            finalAnswer: "**(c)** $0$",
             commonErrors: ["Thinking float equals duration."],
           },
         },

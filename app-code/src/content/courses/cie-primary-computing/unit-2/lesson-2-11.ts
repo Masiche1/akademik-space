@@ -230,7 +230,7 @@ export const lesson211: Lesson = {
             steps: [
               { reasoning: "Broadcast sends a named message that all listening sprites can react to.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** A message sent to all sprites",
+            finalAnswer: "**(b)** A message sent to all sprites",
           },
         },
         {
@@ -265,7 +265,7 @@ export const lesson211: Lesson = {
               { reasoning: "Every sprite with a 'when I receive game over' block reacts.", marks: 1, markCode: "M" },
               { reasoning: "Broadcasts reach all listening sprites.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** All sprites listening for it",
+            finalAnswer: "**(d)** All sprites listening for it",
           },
         },
         {
@@ -284,7 +284,7 @@ export const lesson211: Lesson = {
             steps: [
               { reasoning: "Event handler = code that runs when an event (click, key, message) occurs.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Code triggered by an event",
+            finalAnswer: "**(d)** Code triggered by an event",
           },
         },
         {
@@ -320,7 +320,7 @@ export const lesson211: Lesson = {
               { reasoning: "One sprite clones confetti when needed, then deletes them — no 50 permanent sprites.", marks: 1, markCode: "M" },
               { reasoning: "Cleaner project and easier to manage.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** On-demand copies, less clutter",
+            finalAnswer: "**(b)** On-demand copies, less clutter",
           },
         },
         {

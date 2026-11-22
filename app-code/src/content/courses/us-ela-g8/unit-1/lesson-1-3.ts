@@ -146,7 +146,7 @@ export const lesson13: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The passage moves hour by hour. There is no flashback (a), only one character (c), and the ending is calm, not a problem (d).",
+              "**(c)**. The passage moves hour by hour. There is no flashback (a), only one character (c), and the ending is calm, not a problem (d).",
             commonErrors: [
               "Choosing (d) because the other version has a surprise ending.",
             ],
@@ -462,7 +462,7 @@ export const lesson13: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. The pattern of an insult followed by planned revenge is kept. The setting (b) and characters (c) are changed, and the ending (d) is also changed because Mara makes peace.",
+              "**(d)**. The pattern of an insult followed by planned revenge is kept. The setting (b) and characters (c) are changed, and the ending (d) is also changed because Mara makes peace.",
             commonErrors: [
               "Choosing (d) because it repeats the lesson, without checking that Mara changes the ending.",
             ],

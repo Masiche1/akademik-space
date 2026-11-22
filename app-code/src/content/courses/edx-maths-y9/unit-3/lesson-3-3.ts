@@ -65,7 +65,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "AAA fixes the shape but not the size, so triangles with the same angles can be enlargements of each other. The other three conditions all fix the size.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** AAA",
+            finalAnswer: "**(b)** AAA",
             commonErrors: ["Thinking equal angles are enough to make triangles identical.", "Believing SAS works with a non-included angle."],
           },
         },
@@ -197,7 +197,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "12 cm" },
               { id: "d", text: "15 cm" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -207,7 +207,7 @@ export const lesson33: Lesson = {
               { reasoning: "Find the scale factor from the shorter sides.", working: "10\\div4=2.5", marks: 1, markCode: "M" },
               { reasoning: "Multiply the longer side by the scale factor.", working: "6\\times2.5=15", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** 15 cm",
+            finalAnswer: "**(d)** 15 cm",
             commonErrors: ["Adding 6 to both sides (additive thinking), giving 12 cm.", "Using a scale factor of 2 or 3."],
           },
         },

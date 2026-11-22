@@ -73,7 +73,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "Right" },
               { id: "d", text: "Obtuse" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -90,7 +90,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** Obtuse",
+            finalAnswer: "**(d)** Obtuse",
             commonErrors: ["Choosing reflex — 125 < 180."],
           },
         },
@@ -284,7 +284,7 @@ export const lesson41: Lesson = {
               { id: "c", text: "Right-angled" },
               { id: "d", text: "Equilateral" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -301,7 +301,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** Equilateral",
+            finalAnswer: "**(d)** Equilateral",
             commonErrors: ["Confusing with isosceles (2 equal)."],
           },
         },

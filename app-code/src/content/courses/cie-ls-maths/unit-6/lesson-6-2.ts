@@ -65,7 +65,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Non-overlapping parts → add areas.", working: "A_1 + A_2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Add the two rectangle areas",
+            finalAnswer: "**(c)** Add the two rectangle areas",
             commonErrors: ["Choosing (c) — that's perimeter, not area."],
           },
         },
@@ -167,7 +167,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Composite area = sum of parts or big minus cut-out.", working: "split/subtract", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Split it into rectangles or subtract a missing corner",
+            finalAnswer: "**(c)** Split it into rectangles or subtract a missing corner",
             commonErrors: ["Choosing (c) — bounding box overcounts the missing corner."],
           },
         },
@@ -228,7 +228,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Internal split lines are not part of the boundary.", working: "outer only", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Not counted — only the outer boundary counts",
+            finalAnswer: "**(c)** Not counted — only the outer boundary counts",
             commonErrors: ["Including split lines — they aren't on the boundary."],
           },
         },
@@ -290,7 +290,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Cut-outs → subtract from the larger shape.", working: "big - cutout", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** A large shape has a piece cut out of it",
+            finalAnswer: "**(d)** A large shape has a piece cut out of it",
             commonErrors: ["Confusing it with the addition method."],
           },
         },
@@ -325,7 +325,7 @@ export const lesson62: Lesson = {
               { id: "c", text: "Multiply the longest and shortest sides" },
               { id: "d", text: "$2 \\times$ (bounding rectangle perimeter)" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -334,7 +334,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Perimeter = sum of outer boundary edges only.", working: "outer boundary", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Trace and sum only the outer boundary edges",
+            finalAnswer: "**(a)** Trace and sum only the outer boundary edges",
             commonErrors: ["Choosing (a) — bounding rectangle perimeter is wrong for L-shapes."],
           },
         },
@@ -395,7 +395,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "$300 - 5\\times4 - 3\\times3 = 300-20-9 = 271$.", working: "271", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $271$ units²",
+            finalAnswer: "**(b)** $271$ units²",
             commonErrors: ["Choosing (b) — forgot to subtract the cut-outs."],
           },
         },
@@ -699,7 +699,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Drawing → real: multiply by the scale factor.", working: "\\times n", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Multiply by the scale factor",
+            finalAnswer: "**(d)** Multiply by the scale factor",
             commonErrors: ["Choosing (a) — that's real → drawing."],
           },
         },
@@ -734,7 +734,7 @@ export const lesson62: Lesson = {
               { id: "c", text: "$k$" },
               { id: "d", text: "$3k$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -743,7 +743,7 @@ export const lesson62: Lesson = {
             steps: [
               { reasoning: "Volume scales by $k^3$ (three dimensions).", working: "k^3", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $k^3$",
+            finalAnswer: "**(b)** $k^3$",
             commonErrors: ["Choosing (b) — that's the AREA scale factor."],
           },
         },

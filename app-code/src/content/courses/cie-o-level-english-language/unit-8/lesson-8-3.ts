@@ -65,7 +65,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Mock = full practice.", working: "full", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Full practice exam",
+            finalAnswer: "**(b)** Full practice exam",
             commonErrors: ["Choosing (b) — that's single question."],
           },
         },
@@ -170,7 +170,7 @@ export const lesson83: Lesson = {
         steps: [
           { reasoning: "Mock paper = simulated exam.", working: "mock", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Practice exam under exam conditions",
+        finalAnswer: "**(b)** Practice exam under exam conditions",
         commonErrors: ["Confusing with real exam."],
       },
     },
@@ -196,7 +196,7 @@ export const lesson83: Lesson = {
         steps: [
           { reasoning: "Mocks identify weaknesses and build confidence.", working: "purpose", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Identify weaknesses and build exam confidence",
+        finalAnswer: "**(b)** Identify weaknesses and build exam confidence",
         commonErrors: ["Taking mocks without analysis."],
       },
     },
@@ -222,7 +222,7 @@ export const lesson83: Lesson = {
         steps: [
           { reasoning: "Simulate exam conditions.", working: "conditions", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Timed, quiet environment, then analyse results",
+        finalAnswer: "**(c)** Timed, quiet environment, then analyse results",
         commonErrors: ["Not simulating conditions."],
       },
     },
@@ -248,7 +248,7 @@ export const lesson83: Lesson = {
         steps: [
           { reasoning: "Analyse results after mock.", working: "analyse", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Analyse mistakes and revise weak areas",
+        finalAnswer: "**(d)** Analyse mistakes and revise weak areas",
         commonErrors: ["Not analysing results."],
       },
     },
@@ -274,7 +274,7 @@ export const lesson83: Lesson = {
         steps: [
           { reasoning: "Complete as many as possible.", working: "many", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** As many as possible before the exam",
+        finalAnswer: "**(b)** As many as possible before the exam",
         commonErrors: ["Too few mocks."],
       },
     },
@@ -506,7 +506,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Knowledge = don't know.", working: "know", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Don't know content",
+            finalAnswer: "**(d)** Don't know content",
             commonErrors: ["Choosing (b) — that's careless error."],
           },
         },
@@ -611,7 +611,7 @@ export const lesson83: Lesson = {
         steps: [
           { reasoning: "Error analysis = systematic fixing.", working: "analysis", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Systematically identifying and fixing mistakes",
+        finalAnswer: "**(b)** Systematically identifying and fixing mistakes",
         commonErrors: ["Ignoring mistakes."],
       },
     },
@@ -663,7 +663,7 @@ export const lesson83: Lesson = {
         steps: [
           { reasoning: "Multiple error types.", working: "types", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Grammar, punctuation, spelling, register",
+        finalAnswer: "**(c)** Grammar, punctuation, spelling, register",
         commonErrors: ["Only focusing on one error type."],
       },
     },
@@ -689,7 +689,7 @@ export const lesson83: Lesson = {
         steps: [
           { reasoning: "Categorise by type.", working: "categorise", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** By type to identify patterns",
+        finalAnswer: "**(d)** By type to identify patterns",
         commonErrors: ["Not categorising."],
       },
     },
@@ -947,7 +947,7 @@ export const lesson83: Lesson = {
             steps: [
               { reasoning: "Content = know material.", working: "know", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Knowing all material",
+            finalAnswer: "**(c)** Knowing all material",
             commonErrors: ["Choosing (d) — confidence without knowledge fails."],
           },
         },
@@ -1052,7 +1052,7 @@ export const lesson83: Lesson = {
         steps: [
           { reasoning: "Check content, skills, practical.", working: "checklist", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Content readiness, skill readiness, practical prep",
+        finalAnswer: "**(c)** Content readiness, skill readiness, practical prep",
         commonErrors: ["Neglecting checklist."],
       },
     },
@@ -1078,7 +1078,7 @@ export const lesson83: Lesson = {
         steps: [
           { reasoning: "Content readiness = know material.", working: "content", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Knowing all syllabus material",
+        finalAnswer: "**(c)** Knowing all syllabus material",
         commonErrors: ["Only checking one area."],
       },
     },
@@ -1104,7 +1104,7 @@ export const lesson83: Lesson = {
         steps: [
           { reasoning: "Skill readiness = practised techniques.", working: "skill", marks: 1, markCode: "AO2" },
         ],
-        finalAnswer: "**(a)** Practised exam techniques and question types",
+        finalAnswer: "**(b)** Practised exam techniques and question types",
         commonErrors: ["Only reviewing content."],
       },
     },
@@ -1130,7 +1130,7 @@ export const lesson83: Lesson = {
         steps: [
           { reasoning: "Practical prep: materials, sleep, route.", working: "practical", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Organise materials, get enough sleep, plan route",
+        finalAnswer: "**(c)** Organise materials, get enough sleep, plan route",
         commonErrors: ["Neglecting practical prep."],
       },
     },
@@ -1156,7 +1156,7 @@ export const lesson83: Lesson = {
         steps: [
           { reasoning: "Start checklist a week before.", working: "timing", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** A week before the exam",
+        finalAnswer: "**(b)** A week before the exam",
         commonErrors: ["Starting too late."],
       },
     },

@@ -138,7 +138,7 @@ export const lesson220: Lesson = {
             { id: "b", text: "Igneous" },
             { id: "c", text: "Sedimentary" },
             { id: "d", text: "Metamorphic" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Igneous", statement: "Formed from cooled magma/lava." }],
             steps: [{ reasoning: "Cooled magma → igneous rock.", marks: 1, markCode: "A" }],

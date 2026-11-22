@@ -7,6 +7,18 @@ const TECH: TextExtract = {
   text: "The attention economy operates through several mechanisms. First, **algorithmic curation**: platforms use machine learning to predict what content will maximize engagement for each user. Second, **variable rewards**: the same psychological principle that makes slot machines addictive — unpredictable feedback creates compulsive checking. Third, **social proof**: engagement metrics (likes, shares) signal popularity, triggering our tendency to conform.\n\nThese mechanisms exploit evolved psychological vulnerabilities. Our brains are wired to seek novelty, respond to social signals, and pursue rewards. The platforms didn't create these vulnerabilities — they industrialized them. The result is what critics call 'persuasion architecture': design choices that make certain behaviors easier than others, not through force but through frictionless defaults.",
 };
 
+const INFO: TextExtract = {
+  title: "Informational Text: The Attention Economy",
+  author: "Written for Akademik Space",
+  text: "In 2023, the average American spent 7 hours and 4 minutes per day looking at screens — more time than any other waking activity except sleep. This isn't an accident of technology. It's a business model.\n\nSocial media platforms generate revenue through advertising. Advertising revenue depends on engagement — time spent, clicks, shares. The platforms' algorithms are optimized to maximize these metrics, which means optimizing for content that captures and holds attention. Emotional content outperforms neutral content. Outrage outperforms nuance.\n\nFormer Google designer Tristan Harris calls this 'the race to the bottom of the brain stem' — a competition to hijack the most primitive neurological responses. The result isn't just distracted users; it's a public sphere where complex problems get reduced to tribal conflicts, where misinformation spreads faster than corrections, and where democratic deliberation becomes nearly impossible.\n\nThe attention economy doesn't just sell products. It sells a version of reality — one optimized for engagement rather than accuracy. Understanding this mechanism is the first step toward resisting it.",
+};
+
+const INFO2: TextExtract = {
+  title: "Informational Text: Microplastics in the Food Chain",
+  author: "Written for Akademik Space",
+  text: "Microplastics — plastic particles smaller than 5 millimeters — have been found in every major ocean, in Arctic sea ice, in drinking water, and in human blood. A 2022 study detected microplastic particles in 80% of human blood samples tested.\n\nThe health implications remain uncertain. Laboratory studies show microplastics can cause inflammation and cellular damage in animal tissues. Human epidemiological data is still limited — we don't yet know the long-term effects of chronic low-dose exposure. What we do know is that plastic production has increased 200-fold since 1950, and less than 10% is recycled.\n\nThe precautionary principle suggests we should act before harm is proven, not after. But the plastics industry argues that evidence of harm is insufficient to justify restrictions. This tension between scientific uncertainty and policy action defines many environmental debates.",
+};
+
 const ANNOTATED: TextExtract = {
   title: "Annotated Informational Text",
   author: "Written for Akademik Space",
@@ -120,7 +132,7 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Unpredictable feedback creating compulsive behavior.",
+              "**(d)**. Unpredictable feedback creating compulsive behavior.",
             commonErrors: ["Choosing (d) — likes are example, not definition."],
           },
         },
@@ -342,7 +354,7 @@ export const lesson52: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)**. Makes claim concrete and quantified.",
+            finalAnswer: "**(a)**. Makes claim concrete and quantified.",
             commonErrors: ["Thinking statistics are just decoration."],
           },
         },
@@ -560,7 +572,7 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. Problem → mechanism → evidence → implication.",
+              "**(a)**. Problem → mechanism → evidence → implication.",
             commonErrors: ["Thinking different topics = different structure."],
           },
         },

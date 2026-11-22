@@ -65,7 +65,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "Thesis = the claim the whole argument supports.", working: "\\text{main claim}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** The main claim or position",
+            finalAnswer: "**(a)** The main claim or position",
             commonErrors: ["Choosing (a) — evidence supports the thesis, it is not the thesis."],
           },
         },
@@ -166,7 +166,7 @@ export const lesson61: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Thesis", statement: "The thesis is the debatable position the whole argument supports." }],
             steps: [{ reasoning: "'Schools should start later' is a claim to be argued; the others are evidence or facts.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Schools should start later.",
+            finalAnswer: "**(a)** Schools should start later.",
             commonErrors: ["Choosing (a) — a study result is evidence, not the position."],
           },
         },
@@ -217,7 +217,7 @@ export const lesson61: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Credible evidence", statement: "Statistics and peer-reviewed research outweigh anecdote and opinion." }],
             steps: [{ reasoning: "A large peer-reviewed study is systematic, replicable evidence.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** A peer-reviewed study of 10,000 students showing improved attendance with later starts",
+            finalAnswer: "**(c)** A peer-reviewed study of 10,000 students showing improved attendance with later starts",
             commonErrors: ["Choosing (c) — one anecdote cannot support a general claim."],
           },
         },
@@ -322,7 +322,7 @@ export const lesson61: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Evidence quality", statement: "Evidence must be credible and relevant — feelings are not evidence." }],
             steps: [{ reasoning: "'It feels right' is opinion, not verifiable evidence.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Reason: schools should start later. Evidence: 'it just feels right.'",
+            finalAnswer: "**(c)** Reason: schools should start later. Evidence: 'it just feels right.'",
             commonErrors: ["Choosing (c) — attendance data is strong relevant evidence."],
           },
         },
@@ -436,7 +436,7 @@ export const lesson61: Lesson = {
             steps: [
               { reasoning: "First-person plural pronouns create shared identity.", working: "\\text{'we'}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Inclusive pronouns",
+            finalAnswer: "**(c)** Inclusive pronouns",
             commonErrors: ["Choosing (a) — emotive language is about feeling, not pronouns."],
           },
         },
@@ -537,7 +537,7 @@ export const lesson61: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Ethos", statement: "Ethos is appeal through the speaker's credibility and authority." }],
             steps: [{ reasoning: "'As a doctor, I can tell you...' establishes ethos — trust in the speaker.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** The writer's credibility",
+            finalAnswer: "**(a)** The writer's credibility",
             commonErrors: ["Confusing ethos with pathos — ethos is credibility, pathos is emotion."],
           },
         },
@@ -588,7 +588,7 @@ export const lesson61: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Rhetorical question", statement: "A question asked for effect, not answer — it involves the reader." }],
             steps: [{ reasoning: "The question expects no literal answer; it pressures the reader to agree.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Rhetorical question",
+            finalAnswer: "**(d)** Rhetorical question",
             commonErrors: ["Calling it a genuine question — rhetorical questions are not answered."],
           },
         },
@@ -641,7 +641,7 @@ export const lesson61: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Rule of three", statement: "Three parallel items create rhythm and a sense of completeness." }],
             steps: [{ reasoning: "Three parallel clauses ('we came, we saw, we conquered') is the classic triad.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** We came, we saw, we conquered.",
+            finalAnswer: "**(d)** We came, we saw, we conquered.",
             commonErrors: ["Choosing (d) — that is a logical statement, not a triad."],
           },
         },

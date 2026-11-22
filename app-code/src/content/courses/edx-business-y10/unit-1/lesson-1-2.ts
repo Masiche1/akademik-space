@@ -67,7 +67,7 @@ export const lesson12: Lesson = {
               { id: "c", text: "Primary" },
               { id: "d", text: "Tertiary" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -84,7 +84,7 @@ export const lesson12: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(c)** Tertiary",
+            finalAnswer: "**(d)** Tertiary",
             commonErrors: ["Primary/secondary confused."],
           },
         },

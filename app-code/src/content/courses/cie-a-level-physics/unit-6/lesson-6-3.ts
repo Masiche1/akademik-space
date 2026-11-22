@@ -142,7 +142,7 @@ export const lesson613: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Neutron", statement: "Neutron = udd — one up + two down quarks; charge 0." }],
             steps: [{ reasoning: "udd gives charge $2/3 - 1/3 - 1/3 = 0$.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** $udd$",
+            finalAnswer: "**(c)** $udd$",
           },
         },
         {
@@ -182,7 +182,7 @@ export const lesson613: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Meson", statement: "Meson = quark + antiquark (e.g. pion)." }],
             steps: [{ reasoning: "Mesons are quark–antiquark pairs.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** quark–antiquark pair",
+            finalAnswer: "**(a)** quark–antiquark pair",
           },
         },
         {
@@ -234,12 +234,12 @@ export const lesson613: Lesson = {
               { id: "c", text: "pion" },
               { id: "d", text: "muon" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Lepton", statement: "Leptons: electron, muon, tau, neutrinos — fundamental particles." }],
             steps: [{ reasoning: "Muon is a lepton; proton/neutron are baryons, pion is a meson.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** muon",
+            finalAnswer: "**(d)** muon",
           },
         },
         {
@@ -279,7 +279,7 @@ export const lesson613: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Positron", statement: "Positron $= e^+$ — antiparticle of electron; same mass, charge $+e$." }],
             steps: [{ reasoning: "Positron is the electron's antiparticle.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** antiparticle of electron, charge $+e$",
+            finalAnswer: "**(b)** antiparticle of electron, charge $+e$",
           },
         },
         {
@@ -336,7 +336,7 @@ export const lesson613: Lesson = {
           markscheme: {
             principles: [{ kind: "law", name: "Strong force", statement: "Colour force binds quarks; strongest of the four fundamental forces." }],
             steps: [{ reasoning: "Strong (colour) force binds quarks.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** strong nuclear (colour) force",
+            finalAnswer: "**(a)** strong nuclear (colour) force",
           },
         },
         {
@@ -488,7 +488,7 @@ export const lesson613: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Bubble chamber", statement: "Charged particles ionise superheated liquid → trails of bubbles." }],
             steps: [{ reasoning: "Bubble chamber uses superheated liquid hydrogen.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** superheated liquid hydrogen",
+            finalAnswer: "**(d)** superheated liquid hydrogen",
           },
         },
         {
@@ -625,7 +625,7 @@ export const lesson613: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Calorimeter", statement: "Calorimeters absorb particles and measure deposited energy." }],
             steps: [{ reasoning: "Calorimeter measures energy.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** calorimeter",
+            finalAnswer: "**(c)** calorimeter",
           },
         },
         {
@@ -682,7 +682,7 @@ export const lesson613: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Neutrino", statement: "Neutrinos interact extremely weakly → huge detectors needed." }],
             steps: [{ reasoning: "Weak interaction only → rarely interact with matter.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** interact only via the weak force",
+            finalAnswer: "**(d)** interact only via the weak force",
           },
         },
         {

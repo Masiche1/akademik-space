@@ -69,7 +69,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): free verse means no fixed rhyme or rhythm — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A poem without fixed rhyme or rhythm",
+            finalAnswer: "**(a)** A poem without fixed rhyme or rhythm",
           },
         },
         {
@@ -171,7 +171,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Stanza", statement: "A stanza is a group of lines in a poem." }],
             steps: [{ reasoning: "Criterion A (Analysing): a stanza is like a paragraph — a group of lines, (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** A group of lines, like a paragraph",
+            finalAnswer: "**(a)** A group of lines, like a paragraph",
           },
         },
         {
@@ -192,7 +192,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Rhyme scheme", statement: "Label rhyming end-words with letters." }],
             steps: [{ reasoning: "Criterion A (Analysing): park/spark (A) and ground/sound (B) give ABAB — (a).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** ABAB",
+            finalAnswer: "**(c)** ABAB",
           },
         },
         {
@@ -324,7 +324,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Free verse", statement: "Free verse has no fixed rhyme or rhythm." }],
             steps: [{ reasoning: "Criterion A (Analysing): free verse = no fixed rhyme or rhythm — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** A poem without fixed rhyme or rhythm",
+            finalAnswer: "**(c)** A poem without fixed rhyme or rhythm",
           },
         },
         {
@@ -423,7 +423,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'buzz' sounds like the noise it describes — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Buzz",
+            finalAnswer: "**(d)** Buzz",
           },
         },
         {
@@ -509,7 +509,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Alliteration", statement: "Alliteration repeats beginning sounds ('slippery, slithering')." }],
             steps: [{ reasoning: "Criterion A (Analysing): alliteration repeats beginning sounds — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Repeating the same beginning sound",
+            finalAnswer: "**(c)** Repeating the same beginning sound",
           },
         },
         {
@@ -530,7 +530,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Onomatopoeia", statement: "Sound words imitate the noise they name." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'crackle' sounds like the noise it describes — (a).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** Crackle",
+            finalAnswer: "**(d)** Crackle",
           },
         },
         {
@@ -623,7 +623,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Reading aloud", statement: "The ear catches rhythm and rhyme problems." }],
             steps: [{ reasoning: "Criterion D (Using language): reading aloud checks whether the poem sounds right — (a).", marks: 1, markCode: "D" }],
-            finalAnswer: "**(a)** To check rhyme and rhythm sound right",
+            finalAnswer: "**(d)** To check rhyme and rhythm sound right",
           },
         },
         {
@@ -683,7 +683,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Imagery", statement: "Imagery is words that appeal to the senses." }],
             steps: [{ reasoning: "Criterion A (Analysing): imagery = sensory words that paint pictures — (a).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** Words that appeal to the five senses and paint pictures",
+            finalAnswer: "**(c)** Words that appeal to the five senses and paint pictures",
           },
         },
         {
@@ -699,12 +699,12 @@ export const lesson32: Lesson = {
               { id: "c", text: "The ground was covered in snow" },
               { id: "d", text: "The snow whispered down all night" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Sound words", statement: "Sound words imitate noises — 'whispered' imitates soft snow." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'whispered' is a sound word that imitates soft falling snow — (c).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** The snow whispered down all night",
+            finalAnswer: "**(d)** The snow whispered down all night",
           },
         },
         {

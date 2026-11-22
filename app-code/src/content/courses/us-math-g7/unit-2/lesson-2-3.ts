@@ -66,7 +66,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Subtract $5$ from both sides, then divide both sides by $3$.", working: "3x=15,\\quad x=5", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $x=5$",
+            finalAnswer: "**(b)** $x=5$",
             commonErrors: ["Adding $5$ instead of subtracting, giving $x=\\frac{25}{3}$.", "Forgetting to divide by $3$, giving $x=15$."],
           },
         },
@@ -192,7 +192,7 @@ export const lesson23: Lesson = {
               { id: "c", text: "$x>4$" },
               { id: "d", text: "$x<7$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -201,7 +201,7 @@ export const lesson23: Lesson = {
             steps: [
               { reasoning: "Subtract $3$ from both sides, then divide by the positive number $2$; the sign stays the same.", working: "2x<8,\\quad x<4", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $x<4$",
+            finalAnswer: "**(a)** $x<4$",
             commonErrors: ["Adding $3$ instead of subtracting, giving $x<7$.", "Reversing the sign when dividing by a positive number."],
           },
         },

@@ -127,7 +127,7 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Argumentative essays take a clear position; discursive essays explore multiple views",
+              "**(a)** Argumentative essays take a clear position; discursive essays explore multiple views",
             commonErrors: [
               "Thinking argumentative means ignoring other views — it means answering them.",
             ],
@@ -339,7 +339,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Defend one clear position",
+            finalAnswer: "**(c)** Defend one clear position",
             commonErrors: [
               "Thinking an argumentative essay cannot acknowledge other views.",
             ],
@@ -382,7 +382,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** In its own paragraph before the conclusion",
+            finalAnswer: "**(a)** In its own paragraph before the conclusion",
             commonErrors: [
               "Burying the counter-argument inside a supporting paragraph.",
             ],
@@ -433,7 +433,7 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Although uniforms limit expression, their benefits outweigh the cost.",
+              "**(c)** Although uniforms limit expression, their benefits outweigh the cost.",
             commonErrors: ["Conceding without returning to your position."],
           },
         },
@@ -526,7 +526,7 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** It ignores complexity and cannot convince a sceptical reader",
+              "**(d)** It ignores complexity and cannot convince a sceptical reader",
             commonErrors: [
               "Believing ignoring opposition makes an argument stronger.",
             ],
@@ -579,7 +579,7 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Homework reinforces learning because repeated practice helps students retain material.",
+              "**(a)** Homework reinforces learning because repeated practice helps students retain material.",
             commonErrors: [
               "Choosing the longest sentence rather than the most developed reasoning.",
             ],
@@ -987,7 +987,7 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Discursive essays explore multiple views; argumentative essays defend one position",
+              "**(d)** Discursive essays explore multiple views; argumentative essays defend one position",
             commonErrors: [
               "Forcing a discursive essay into an argumentative shape.",
             ],
@@ -1212,7 +1212,7 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** It explores a topic from multiple perspectives",
+              "**(a)** It explores a topic from multiple perspectives",
             commonErrors: [
               "Confusing discursive exploration with argumentative defence.",
             ],
@@ -1255,7 +1255,7 @@ export const lesson52: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Supporters argue that...",
+            finalAnswer: "**(c)** Supporters argue that...",
             commonErrors: ["Using phrases that assert a view as obvious fact."],
           },
         },
@@ -1356,7 +1356,7 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Presenting a weak, distorted version of the opposing view to defeat it easily",
+              "**(a)** Presenting a weak, distorted version of the opposing view to defeat it easily",
             commonErrors: [
               "Weakening the opposing view so your conclusion seems obvious.",
             ],
@@ -1403,7 +1403,7 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** While both views have merit, the evidence suggests View A is stronger.",
+              "**(a)** While both views have merit, the evidence suggests View A is stronger.",
             commonErrors: [
               "Dismissing one perspective instead of synthesising both.",
             ],
@@ -1450,7 +1450,7 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Discursive essays present several perspectives fairly before a considered conclusion",
+              "**(a)** Discursive essays present several perspectives fairly before a considered conclusion",
             commonErrors: [
               "Forcing a discursive plan into an argumentative shape.",
             ],

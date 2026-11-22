@@ -79,7 +79,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Superlative", statement: "A superlative expresses the extreme degree of a feeling." }],
             steps: [{ reasoning: "'The last man in the world' is a superlative that expresses absolute refusal.", evidence: "the last man in the world", marks: 1, markCode: "AO2" }],
-            finalAnswer: "**(a)** 'the last man in the world'",
+            finalAnswer: "**(b)** 'the last man in the world'",
             commonErrors: ["Choosing a time phrase such as 'the very beginning', which shows duration, not intensity."],
           },
         },
@@ -219,7 +219,7 @@ export const lesson21: Lesson = {
           markscheme: {
             principles: [{ kind: "context", name: "Marriage and money", statement: "In Regency society a man's income determined his desirability." }],
             steps: [{ reasoning: "The community values Darcy by his income, which spreads quickly by report.", evidence: "ten thousand a year", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** They are very interested in his wealth.",
+            finalAnswer: "**(c)** They are very interested in his wealth.",
             commonErrors: ["Taking the phrase as praise of Darcy's character."],
           },
         },

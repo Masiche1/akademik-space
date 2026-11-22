@@ -195,7 +195,7 @@ export const lesson32: Lesson = {
               { reasoning: "Check whether consecutive differences stay fixed.", working: "18-12=6;\\quad 27-18=9;\\quad 40.5-27=13.5", marks: 1, markCode: "M" },
               { reasoning: "The consecutive ratios are equal, indicating exponential change.", working: "\\frac{18}{12}=\\frac{27}{18}=\\frac{40.5}{27}=1.5", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Exponential, because the consecutive ratios are all $1.5$.",
+            finalAnswer: "**(a)** Exponential, because the consecutive ratios are all $1.5$.",
             commonErrors: ["Assuming the first difference continues because it happens to equal 6.", "Confusing a constant ratio with a constant difference."],
           },
         },

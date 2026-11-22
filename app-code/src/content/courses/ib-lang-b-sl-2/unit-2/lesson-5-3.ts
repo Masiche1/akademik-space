@@ -121,7 +121,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Plan ~15%, write ~65%, check ~20%",
+            finalAnswer: "**(d)** Plan ~15%, write ~65%, check ~20%",
             commonErrors: [
               "Spending all time writing and leaving errors unchecked.",
             ],
@@ -343,7 +343,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Poor allocation loses marks through unfinished or unchecked work",
+              "**(a)** Poor allocation loses marks through unfinished or unchecked work",
             commonErrors: [
               "Believing writing speed alone determines exam success.",
             ],
@@ -434,7 +434,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Write a shortened two-to-three-sentence conclusion",
+              "**(a)** Write a shortened two-to-three-sentence conclusion",
             commonErrors: [
               "Skipping the conclusion completely — every essay needs closure.",
             ],
@@ -480,7 +480,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** If time runs short, the most important points are already covered",
+              "**(d)** If time runs short, the most important points are already covered",
             commonErrors: [
               "Saving the best material for last and losing it to the clock.",
             ],
@@ -526,7 +526,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Perfectionism breaks idea flow and risks an unfinished essay",
+              "**(c)** Perfectionism breaks idea flow and risks an unfinished essay",
             commonErrors: [
               "Stalling on the first paragraph and never finishing.",
             ],
@@ -977,7 +977,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Task fulfilment, organisation, language and communication",
+              "**(d)** Task fulfilment, organisation, language and communication",
             commonErrors: ["Believing perfect grammar alone earns top marks."],
           },
         },
@@ -1193,7 +1193,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Task fulfilment and language",
+            finalAnswer: "**(a)** Task fulfilment and language",
             commonErrors: ["Believing only surface accuracy is assessed."],
           },
         },
@@ -1238,7 +1238,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Answering the prompt in the required text type and register",
+              "**(c)** Answering the prompt in the required text type and register",
             commonErrors: [
               "Writing well but answering a different question than the one asked.",
             ],
@@ -1280,7 +1280,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Content and task fulfilment",
+            finalAnswer: "**(a)** Content and task fulfilment",
             commonErrors: [
               "Starting revision with surface errors before checking content.",
             ],
@@ -1326,7 +1326,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Checking for surface errors: spelling, punctuation and grammar",
+              "**(a)** Checking for surface errors: spelling, punctuation and grammar",
             commonErrors: [
               "Confusing proofreading (surface) with revision (structural).",
             ],
@@ -1373,7 +1373,7 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Varied vocabulary and structures show control of the language",
+              "**(d)** Varied vocabulary and structures show control of the language",
             commonErrors: [
               "Revising only for error-free sentences while repeating weak words.",
             ],
@@ -1416,7 +1416,7 @@ export const lesson53: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Checking paragraph order and linkers",
+            finalAnswer: "**(a)** Checking paragraph order and linkers",
             commonErrors: ["Checking grammar while ignoring paragraph order."],
           },
         },

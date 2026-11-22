@@ -170,7 +170,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Subject line follows salutation.", working: "subject", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Subject line",
+            finalAnswer: "**(b)** Subject line",
             commonErrors: ["Choosing (b) — the valediction closes the letter."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Known name 'Mr Khan' requires 'Yours sincerely'.", working: "sincerely", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Yours sincerely",
+            finalAnswer: "**(a)** Yours sincerely",
             commonErrors: ["Choosing (a) — 'Yours faithfully' pairs with 'Dear Sir/Madam'."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Subject line summarises purpose.", working: "purpose", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** To summarise the purpose of the letter briefly",
+            finalAnswer: "**(b)** To summarise the purpose of the letter briefly",
             commonErrors: ["Thinking it is decorative — it must state purpose."],
           },
         },
@@ -248,7 +248,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Name appears under signature after valediction.", working: "signature", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Below the valediction under the signature",
+            finalAnswer: "**(d)** Below the valediction under the signature",
             commonErrors: ["Placing it at the top — name goes at the end."],
           },
         },
@@ -274,7 +274,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Enclosure = attached documents.", working: "enclosure", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Additional documents are attached",
+            finalAnswer: "**(c)** Additional documents are attached",
             commonErrors: ["Confusing with postscript — P.S. adds a note, Encl. adds documents."],
           },
         },
@@ -500,7 +500,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Problem, details, remedy.", working: "elements", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Problem, details, remedy",
+            finalAnswer: "**(c)** Problem, details, remedy",
             commonErrors: ["Missing remedy — key element."],
           },
         },
@@ -605,7 +605,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Faulty product = complaint.", working: "complaint", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Complaint letter",
+            finalAnswer: "**(c)** Complaint letter",
             commonErrors: ["Choosing application — that is for jobs or courses."],
           },
         },
@@ -631,7 +631,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Applications must sell the applicant's qualifications.", working: "qualifications", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** Highlighting qualifications and experience",
+            finalAnswer: "**(b)** Highlighting qualifications and experience",
             commonErrors: ["Choosing (b)/(c)/(d) — all letters need those."],
           },
         },
@@ -657,7 +657,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Aggressive tone undermines a formal complaint.", working: "tone", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** It is too aggressive and may weaken the request",
+            finalAnswer: "**(c)** It is too aggressive and may weaken the request",
             commonErrors: ["Thinking stronger language always persuades."],
           },
         },
@@ -683,7 +683,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Request + reasons + specifics needed.", working: "request", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Exactly what they need and why",
+            finalAnswer: "**(b)** Exactly what they need and why",
             commonErrors: ["Vague requests — must specify clearly."],
           },
         },
@@ -709,7 +709,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Event invitation = invitation letter.", working: "invitation", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Invitation letter",
+            finalAnswer: "**(d)** Invitation letter",
             commonErrors: ["Confusing with request — an invitation offers, not asks for."],
           },
         },
@@ -1038,7 +1038,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Option (a) states content clearly and briefly.", working: "clear", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Question about homework",
+            finalAnswer: "**(c)** Question about homework",
             commonErrors: ["Choosing vague options like 'Hi' or 'Read this'."],
           },
         },
@@ -1090,7 +1090,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Close friends = informal register.", working: "informal", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** Informal",
+            finalAnswer: "**(d)** Informal",
             commonErrors: ["Using formal register with friends — it sounds stiff."],
           },
         },
@@ -1116,7 +1116,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Standard email order starts with subject.", working: "order", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Subject → greeting → body → closing → signature",
+            finalAnswer: "**(c)** Subject → greeting → body → closing → signature",
             commonErrors: ["Putting signature before body — wrong order."],
           },
         },
@@ -1142,7 +1142,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Emails are flexible and instant.", working: "flexible", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** More flexible and faster to send",
+            finalAnswer: "**(c)** More flexible and faster to send",
             commonErrors: ["Thinking emails must be more formal than letters."],
           },
         },
@@ -1365,7 +1365,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Report = factual.", working: "factual", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Factual account",
+            finalAnswer: "**(b)** Factual account",
             commonErrors: ["Choosing (b) — reports are objective."],
           },
         },
@@ -1522,7 +1522,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Problem goes in the introduction.", working: "problem", marks: 1, markCode: "AO2" },
             ],
-            finalAnswer: "**(a)** Introduction",
+            finalAnswer: "**(c)** Introduction",
             commonErrors: ["Skipping problem context — proposals need justification."],
           },
         },
@@ -1548,7 +1548,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Passive voice and technical terms are typical.", working: "passive", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Passive voice and technical terms",
+            finalAnswer: "**(c)** Passive voice and technical terms",
             commonErrors: ["Choosing slang — reports use formal register."],
           },
         },
@@ -1574,7 +1574,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Recommendations = actions from findings.", working: "actions", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** To suggest actions based on findings",
+            finalAnswer: "**(c)** To suggest actions based on findings",
             commonErrors: ["Thinking recommendations repeat findings verbatim."],
           },
         },
@@ -1797,7 +1797,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Purpose/audience first.", working: "purpose", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(a)** Purpose and audience",
+            finalAnswer: "**(b)** Purpose and audience",
             commonErrors: ["Starting to write — need to analyse task."],
           },
         },
@@ -1902,7 +1902,7 @@ export const lesson51: Lesson = {
         steps: [
           { reasoning: "Analyse the task before writing.", working: "analyse", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Read the task carefully and identify requirements",
+        finalAnswer: "**(b)** Read the task carefully and identify requirements",
         commonErrors: ["Writing without reading — loses marks on requirements."],
       },
     },
@@ -1928,7 +1928,7 @@ export const lesson51: Lesson = {
         steps: [
           { reasoning: "Formal letter requires both addresses.", working: "addresses", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Sender's address and recipient's address",
+        finalAnswer: "**(b)** Sender's address and recipient's address",
         commonErrors: ["Omitting addresses — key format marks lost."],
       },
     },
@@ -1954,7 +1954,7 @@ export const lesson51: Lesson = {
         steps: [
           { reasoning: "Semi-formal = polite but less stiff.", working: "semi", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Polite but less stiff than fully formal",
+        finalAnswer: "**(d)** Polite but less stiff than fully formal",
         commonErrors: ["Confusing semi-formal with informal."],
       },
     },
@@ -1980,7 +1980,7 @@ export const lesson51: Lesson = {
         steps: [
           { reasoning: "Check word count and format after writing.", working: "check", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Word count and format conventions",
+        finalAnswer: "**(b)** Word count and format conventions",
         commonErrors: ["Skipping the check — loses easy marks."],
       },
     },
@@ -2006,7 +2006,7 @@ export const lesson51: Lesson = {
         steps: [
           { reasoning: "Wrong register fails task requirements.", working: "register", marks: 1, markCode: "AO1" },
         ],
-        finalAnswer: "**(a)** Wrong register for the audience",
+        finalAnswer: "**(b)** Wrong register for the audience",
         commonErrors: ["Thinking paragraphs or greetings are mistakes."],
       },
     },

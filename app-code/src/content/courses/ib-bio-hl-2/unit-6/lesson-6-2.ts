@@ -135,7 +135,7 @@ export const lesson62: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Increasing the surface area and steepening the concentration gradient",
+              "**(a)** Increasing the surface area and steepening the concentration gradient",
             commonErrors: [
               "Thinking thicker membranes help — thickness is in the denominator.",
             ],
@@ -194,7 +194,7 @@ export const lesson62: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Cooperative binding — binding of one O$_2$ molecule makes it easier for subsequent molecules to bind",
+              "**(a)** Cooperative binding — binding of one O$_2$ molecule makes it easier for subsequent molecules to bind",
             commonErrors: [
               "Attributing the shape to myoglobin or simple diffusion — cooperative haemoglobin binding is the cause.",
             ],
@@ -412,7 +412,7 @@ export const lesson62: Lesson = {
               { id: "c", text: "The partial pressure gradient" },
               { id: "d", text: "The temperature of the blood" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -440,7 +440,7 @@ export const lesson62: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** The thickness (diffusion distance) of the exchange surface",
+              "**(a)** The thickness (diffusion distance) of the exchange surface",
             commonErrors: [
               "Choosing surface area — area is in the numerator; a LARGER area increases the rate.",
             ],
@@ -556,7 +556,7 @@ export const lesson62: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The curve shifts right (Bohr effect), lowering haemoglobin's oxygen affinity so more oxygen is unloaded to the active muscle",
+              "**(a)** The curve shifts right (Bohr effect), lowering haemoglobin's oxygen affinity so more oxygen is unloaded to the active muscle",
             commonErrors: [
               "Thinking a right shift increases affinity — right = lower affinity = easier unloading; left = higher affinity = easier loading.",
             ],
@@ -737,7 +737,7 @@ export const lesson62: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Low $\\text{pO}_2$ stimulates EPO release, which increases red blood cell production, raising the blood's oxygen-carrying capacity",
+              "**(a)** Low $\\text{pO}_2$ stimulates EPO release, which increases red blood cell production, raising the blood's oxygen-carrying capacity",
             commonErrors: [
               "Confusing the Bohr effect with acclimatisation — the right shift aids unloading but does not increase oxygen CAPACITY; more RBCs do.",
             ],
@@ -850,7 +850,7 @@ export const lesson62: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Airflow (ventilation) to each lung region is matched to the blood flow (perfusion) through that region",
+              "**(c)** Airflow (ventilation) to each lung region is matched to the blood flow (perfusion) through that region",
             commonErrors: [
               "Describing it as identical ventilation everywhere — matching is regional, not uniform.",
             ],
@@ -1075,7 +1075,7 @@ export const lesson62: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Deoxygenated haemoglobin binds CO$_2$ more readily than oxygenated haemoglobin, so CO$_2$ is loaded in tissues and released in the lungs",
+              "**(d)** Deoxygenated haemoglobin binds CO$_2$ more readily than oxygenated haemoglobin, so CO$_2$ is loaded in tissues and released in the lungs",
             commonErrors: [
               "Reversing the effect — it is DEoxygenated Hb that binds CO$_2$ more strongly.",
             ],
@@ -1213,7 +1213,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** A surge in LH",
+            finalAnswer: "**(d)** A surge in LH",
             commonErrors: [
               "Choosing FSH — FSH stimulates follicle growth earlier; the LH surge is the ovulation trigger.",
             ],
@@ -1341,7 +1341,7 @@ export const lesson62: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Exogenous oestrogen and progestogen maintain high steroid levels, so negative feedback suppresses FSH and LH — no LH surge means no ovulation",
+              "**(c)** Exogenous oestrogen and progestogen maintain high steroid levels, so negative feedback suppresses FSH and LH — no LH surge means no ovulation",
             commonErrors: [
               "Thinking the pill only blocks sperm — its main effect is hormonal suppression of ovulation.",
             ],
@@ -1511,7 +1511,7 @@ export const lesson62: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** The corpus luteum secretes progesterone",
+            finalAnswer: "**(b)** The corpus luteum secretes progesterone",
             commonErrors: [
               "Attributing progesterone to oestrogen-only secretion — the corpus luteum's dominant product is progesterone.",
             ],
@@ -1581,7 +1581,7 @@ export const lesson62: Lesson = {
                 text: "It triggers the LH surge that causes ovulation",
               },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1616,7 +1616,7 @@ export const lesson62: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** It maintains and prepares the endometrium for implantation and, via negative feedback, suppresses further ovulation",
+              "**(a)** It maintains and prepares the endometrium for implantation and, via negative feedback, suppresses further ovulation",
             commonErrors: [
               "Attributing the LH surge to progesterone — the surge is triggered by high oestrogen before ovulation.",
             ],
@@ -1748,7 +1748,7 @@ export const lesson62: Lesson = {
               { id: "c", text: "A copper IUD alone" },
               { id: "d", text: "The combined oral contraceptive pill alone" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1789,7 +1789,7 @@ export const lesson62: Lesson = {
               },
             ],
             finalAnswer:
-              "**(c)** A long-acting reversible contraceptive (implant or IUD) PLUS condoms",
+              "**(a)** A long-acting reversible contraceptive (implant or IUD) PLUS condoms",
             commonErrors: [
               "Recommending a hormonal method alone — it prevents pregnancy but not STIs.",
             ],
@@ -2101,7 +2101,7 @@ export const lesson62: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** It blocks the vas deferens so sperm cannot enter the semen; reversal is unreliable because the cut ends scar and may not rejoin successfully",
+              "**(c)** It blocks the vas deferens so sperm cannot enter the semen; reversal is unreliable because the cut ends scar and may not rejoin successfully",
             commonErrors: [
               "Saying it stops ejaculation — ejaculation continues; only sperm are absent.",
             ],
@@ -2159,7 +2159,7 @@ export const lesson62: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** It slightly increases the risk of venous thromboembolism (blood clots), so contraindications such as smoking over age 35 or history of clots must be screened for",
+              "**(d)** It slightly increases the risk of venous thromboembolism (blood clots), so contraindications such as smoking over age 35 or history of clots must be screened for",
             commonErrors: [
               "Claiming fertility is permanently affected — suppression is reversible after stopping the method.",
             ],

@@ -140,7 +140,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The other choices focus on literal details of the story rather than the writer's insight.",
+              "**(a)** The other choices focus on literal details of the story rather than the writer's insight.",
             commonErrors: [
               "Choosing a literal lesson (such as (c)) instead of the writer's reflective idea.",
             ],
@@ -201,7 +201,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** He is shown as patient and supportive, not careless. (a) misreads his quiet presence as indifference, and (d) goes beyond the text.",
+              "**(a)** He is shown as patient and supportive, not careless. (a) misreads his quiet presence as indifference, and (d) goes beyond the text.",
             commonErrors: [
               "Choosing (a): the earlier detail that he lent the bicycle every morning shows care.",
             ],
@@ -492,7 +492,7 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Views, architects, and engineers appear in the piece but are only parts of the absurd argument, not its target.",
+              "**(a)** Views, architects, and engineers appear in the piece but are only parts of the absurd argument, not its target.",
             commonErrors: [
               "Choosing (c), which is only one of the objections the narrator brushes aside.",
             ],

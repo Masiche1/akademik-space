@@ -67,7 +67,7 @@ export const lesson53: Lesson = {
               { reasoning: "The comparative thesis determines the essay's direction.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A comparative thesis",
+            finalAnswer: "**(d)** A comparative thesis",
           },
         },
         {
@@ -166,7 +166,7 @@ export const lesson53: Lesson = {
               { reasoning: "The standard split reserves ~10% for planning, ~65% for writing and ~15% for review.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 10/40/10",
+            finalAnswer: "**(a)** 10/40/10",
           },
         },
         {
@@ -270,7 +270,7 @@ export const lesson53: Lesson = {
               { reasoning: "If time runs short, the skeleton still yields a structured essay — coherence survives even when prose is thin.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Coherence survives time pressure",
+            finalAnswer: "**(a)** Coherence survives time pressure",
           },
         },
         {
@@ -296,7 +296,7 @@ export const lesson53: Lesson = {
               { reasoning: "45 minutes scales to roughly 8 planning, 30 writing, 7 review — preserving the proportions.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 8/30/7",
+            finalAnswer: "**(d)** 8/30/7",
           },
         },
         {
@@ -485,7 +485,7 @@ export const lesson53: Lesson = {
               { reasoning: "Addressing the question means relevance — analysis must serve the question's terms.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Every paragraph serves the question",
+            finalAnswer: "**(c)** Every paragraph serves the question",
           },
         },
         {
@@ -590,7 +590,7 @@ export const lesson53: Lesson = {
               { reasoning: "The criteria span knowledge to communication — analysis, synthesis and evaluation sit at their core.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Knowledge to communication",
+            finalAnswer: "**(a)** Knowledge to communication",
           },
         },
         {
@@ -616,7 +616,7 @@ export const lesson53: Lesson = {
               { reasoning: "Text-based analysis ties every interpretive claim to evidence — imagery, structure, diction — from the text itself.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Claims grounded in textual evidence",
+            finalAnswer: "**(d)** Claims grounded in textual evidence",
           },
         },
         {
@@ -642,7 +642,7 @@ export const lesson53: Lesson = {
               { reasoning: "The essay never engages 'power' — the question's central term — so its analysis, however skilful, is irrelevant.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Fails to address the question",
+            finalAnswer: "**(c)** Fails to address the question",
           },
         },
         {
@@ -694,7 +694,7 @@ export const lesson53: Lesson = {
               { reasoning: "A framework provides structure while responsiveness ensures the commentary engages this extract's actual features.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Flexible framework, responsive engagement",
+            finalAnswer: "**(c)** Flexible framework, responsive engagement",
           },
         },
         {
@@ -720,7 +720,7 @@ export const lesson53: Lesson = {
               { reasoning: "Synthesis goes beyond listing — it resolves the accumulated comparison into a judgement about the texts' relationship.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Conclusion resolves the comparison",
+            finalAnswer: "**(d)** Conclusion resolves the comparison",
           },
         },
         {

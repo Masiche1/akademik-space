@@ -45,7 +45,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Fall in GDP" },
             { id: "d", text: "Sustained rise in general price level" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Inflation", statement: "Price rise." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Inflation", statement: "Price rise." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u4-inf-q2", difficulty: "core", totalMarks: 2,
@@ -102,7 +102,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "A rise in unemployment only" },
             { id: "d", text: "A fall in GDP only" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Deflation", statement: "Falling prices." }], steps: [{ reasoning: "Deflation is the opposite of inflation — sustained price falls.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Deflation", statement: "Falling prices." }], steps: [{ reasoning: "Deflation is the opposite of inflation — sustained price falls.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u4-inf-q6", difficulty: "foundation", totalMarks: 1,
@@ -113,7 +113,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Increased imports" },
             { id: "d", text: "Falling wages" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Demand-pull inflation", statement: "Too much demand." }], steps: [{ reasoning: "Strong demand pulls prices up as supply struggles to keep pace.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Demand-pull inflation", statement: "Too much demand." }], steps: [{ reasoning: "Strong demand pulls prices up as supply struggles to keep pace.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u4-inf-q7", difficulty: "core", totalMarks: 1,
@@ -124,7 +124,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Government budget surpluses" },
             { id: "d", text: "Falling interest rates" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Cost-push inflation", statement: "Rising costs." }], steps: [{ reasoning: "Higher input costs are passed on as higher prices.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Cost-push inflation", statement: "Rising costs." }], steps: [{ reasoning: "Higher input costs are passed on as higher prices.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u4-inf-q8", difficulty: "core", totalMarks: 1,
@@ -135,7 +135,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Changes in the average price level" },
             { id: "d", text: "The number of unemployed" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "CPI", statement: "Average price measure." }], steps: [{ reasoning: "CPI tracks a basket of goods to measure inflation.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "CPI", statement: "Average price measure." }], steps: [{ reasoning: "CPI tracks a basket of goods to measure inflation.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u4-inf-q9", difficulty: "challenge", totalMarks: 1,
@@ -146,7 +146,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Their purchasing power falls as prices rise" },
             { id: "d", text: "Prices of all goods fall" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Inflation effects", statement: "Purchasing power." }], steps: [{ reasoning: "Fixed incomes buy less when prices rise.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Inflation effects", statement: "Purchasing power." }], steps: [{ reasoning: "Fixed incomes buy less when prices rise.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u4-inf-q10", difficulty: "foundation", totalMarks: 1,
@@ -326,7 +326,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "The total accumulated government borrowing over time" },
             { id: "d", text: "Government spending this year" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "National debt", statement: "Accumulated borrowing." }], steps: [{ reasoning: "National debt is the stock of past borrowing.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "National debt", statement: "Accumulated borrowing." }], steps: [{ reasoning: "National debt is the stock of past borrowing.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u4-bud-q7", difficulty: "core", totalMarks: 1,
@@ -337,7 +337,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Debt is zero" },
             { id: "d", text: "Tax revenue equals government spending" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Balanced budget", statement: "T = G." }], steps: [{ reasoning: "Balanced means revenue and spending are equal.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Balanced budget", statement: "T = G." }], steps: [{ reasoning: "Balanced means revenue and spending are equal.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olec-u4-bud-q8", difficulty: "core", totalMarks: 1,
@@ -348,7 +348,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "Reducing taxes" },
             { id: "d", text: "Printing money only" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Budget deficit", statement: "Financed by borrowing." }], steps: [{ reasoning: "Governments borrow to cover the gap between spending and revenue.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Budget deficit", statement: "Financed by borrowing." }], steps: [{ reasoning: "Governments borrow to cover the gap between spending and revenue.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u4-bud-q9", difficulty: "challenge", totalMarks: 1,
@@ -359,7 +359,7 @@ export const lesson43: Lesson = {
             { id: "c", text: "It never changes" },
             { id: "d", text: "It measures only interest payments" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Debt/GDP", statement: "Relative measure." }], steps: [{ reasoning: "GDP shows the size of the economy that must service the debt.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Debt/GDP", statement: "Relative measure." }], steps: [{ reasoning: "GDP shows the size of the economy that must service the debt.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u4-bud-q10", difficulty: "foundation", totalMarks: 1,

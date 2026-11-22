@@ -98,7 +98,7 @@ export const lesson31: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** 12",
+            finalAnswer: "**(d)** 12",
             commonErrors: [
               "Adding 3 + 4 = 7 — groups must be multiplied, not added.",
             ],

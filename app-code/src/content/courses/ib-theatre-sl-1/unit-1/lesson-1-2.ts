@@ -70,7 +70,7 @@ export const lesson12: Lesson = {
               { reasoning: "Projection is being heard clearly by the whole audience through technique, not volume alone.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Being heard clearly by the entire audience",
+            finalAnswer: "**(d)** Being heard clearly by the entire audience",
             commonErrors: [
               "Confusing projection (clear audibility) with shouting (volume).",
             ],
@@ -177,7 +177,7 @@ export const lesson12: Lesson = {
               { reasoning: "Articulation is precise pronunciation of consonants and vowels so words are understood.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The clarity with which words are pronounced",
+            finalAnswer: "**(d)** The clarity with which words are pronounced",
             commonErrors: [
               "Confusing articulation (clarity) with volume or pace.",
             ],
@@ -206,7 +206,7 @@ export const lesson12: Lesson = {
               { reasoning: "Breath support powers long phrases and steady tone without audible gasping.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Sustain phrases without gasping and maintain vocal control",
+            finalAnswer: "**(d)** Sustain phrases without gasping and maintain vocal control",
             commonErrors: [
               "Thinking breath support is only about volume, not phrase sustain.",
             ],
@@ -235,7 +235,7 @@ export const lesson12: Lesson = {
               { reasoning: "The four vocal variables — pitch, pace, volume, quality — together create a distinctive character voice.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (a) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Pitch, pace, volume and quality",
+            finalAnswer: "**(b)** Pitch, pace, volume and quality",
             commonErrors: [
               "Reducing character voice to a single vocal feature.",
             ],
@@ -264,7 +264,7 @@ export const lesson12: Lesson = {
               { reasoning: "Dialect signals who the character is socially and regionally, and must stay consistent and respectful.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Communicate a character's regional or social identity believably and consistently",
+            finalAnswer: "**(c)** Communicate a character's regional or social identity believably and consistently",
             commonErrors: [
               "Using dialect as caricature or display rather than characterisation.",
             ],
@@ -533,7 +533,7 @@ export const lesson12: Lesson = {
               { reasoning: "Physicality is how body language expresses character personality.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** How a character's body posture, movement and gesture express personality",
+            finalAnswer: "**(c)** How a character's body posture, movement and gesture express personality",
             commonErrors: [
               "Confusing physicality (body language) with appearance or costume.",
             ],
@@ -634,7 +634,7 @@ export const lesson12: Lesson = {
               { reasoning: "Physical vocabulary is the set of repeated physical habits that make each character distinctive.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The specific ways different characters walk, gesture, occupy space and move",
+            finalAnswer: "**(a)** The specific ways different characters walk, gesture, occupy space and move",
             commonErrors: [
               "Confusing physical vocabulary with spoken language or costume.",
             ],
@@ -692,7 +692,7 @@ export const lesson12: Lesson = {
               { reasoning: "The audience learns to read a character through repeated physical habits; inconsistency breaks belief.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Because consistency makes the character believable and readable to the audience",
+            finalAnswer: "**(d)** Because consistency makes the character believable and readable to the audience",
             commonErrors: [
               "Changing physical choices randomly between scenes.",
             ],
@@ -721,7 +721,7 @@ export const lesson12: Lesson = {
               { reasoning: "Confident characters expand into space with open gestures and direct gaze.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Take up space, move with open gestures and hold eye contact",
+            finalAnswer: "**(c)** Take up space, move with open gestures and hold eye contact",
             commonErrors: [
               "Playing confidence only through loud speech, not body language.",
             ],
@@ -750,7 +750,7 @@ export const lesson12: Lesson = {
               { reasoning: "Physicalisation follows analysis of background, desires and fears — otherwise choices are arbitrary.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Who the person is — background, desires and fears",
+            finalAnswer: "**(d)** Who the person is — background, desires and fears",
             commonErrors: [
               "Starting with external traits before understanding the character.",
             ],

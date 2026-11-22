@@ -64,7 +64,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Symbol", statement: "Something representing something else." }],
             steps: [{ reasoning: "Criterion A (Analysing): symbol = represents something else — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Something that represents something else",
+            finalAnswer: "**(a)** Something that represents something else",
           },
         },
         {
@@ -149,7 +149,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Conventional symbol", statement: "Dove = peace through cultural convention." }],
             steps: [{ reasoning: "Criterion A (Analysing): dove conventionally = peace — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Peace",
+            finalAnswer: "**(c)** Peace",
           },
         },
         {
@@ -221,7 +221,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Symbolism", statement: "Objects can symbolise hidden emotions or past events." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'creased, faded, never thrown away' — sentimental preservation of memory — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** A cherished memory or an unfinished past she cannot let go",
+            finalAnswer: "**(a)** A cherished memory or an unfinished past she cannot let go",
           },
         },
         {
@@ -242,7 +242,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Motif", statement: "A recurring symbol or image throughout a text." }],
             steps: [{ reasoning: "Criterion A (Analysing): motif = recurring symbol with developing significance — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** A motif is a recurring symbol whose meaning develops across the text",
+            finalAnswer: "**(c)** A motif is a recurring symbol whose meaning develops across the text",
           },
         },
         {
@@ -304,7 +304,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Motif", statement: "Recurring symbol or image throughout a text." }],
             steps: [{ reasoning: "Criterion A (Analysing): motif = recurring symbol — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** A recurring symbol or image that accumulates meaning",
+            finalAnswer: "**(a)** A recurring symbol or image that accumulates meaning",
           },
         },
         {
@@ -373,7 +373,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Symbolic ambiguity", statement: "Symbols gain meaning from context — here grief and renewal." }],
             steps: [{ reasoning: "Criterion A (Analysing): planted 'over' the burial place + 'thorns first, then flowers' — grief yielding beauty — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** They symbolise grief transformed — beauty grown over loss, pain (thorns) preceding bloom",
+            finalAnswer: "**(c)** They symbolise grief transformed — beauty grown over loss, pain (thorns) preceding bloom",
           },
         },
         {
@@ -447,7 +447,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Olfactory imagery", statement: "Smell imagery appeals to the sense of smell." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'scent' = smell — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Smell",
+            finalAnswer: "**(d)** Smell",
           },
         },
         {
@@ -532,7 +532,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Olfactory imagery", statement: "Smell imagery appeals to the sense of smell." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'smell' explicitly states olfactory — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Smell",
+            finalAnswer: "**(d)** Smell",
           },
         },
         {
@@ -578,7 +578,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Tactile imagery", statement: "Touch imagery appeals to the sense of touch." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'felt cool against her skin' = touch — (a); 'blue' is visual.", marks: 1, markCode: "A" }],
-            finalAnswer: "**(a)** Detail A — 'felt cool against her skin' appeals to touch",
+            finalAnswer: "**(c)** Detail A — 'felt cool against her skin' appeals to touch",
           },
         },
         {
@@ -604,7 +604,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Imagery and mood", statement: "Auditory imagery can create atmosphere and tension." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'moaned', 'broken', 'slammed' — harsh sounds create unease — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Ominous and uneasy",
+            finalAnswer: "**(d)** Ominous and uneasy",
           },
         },
         {
@@ -625,12 +625,12 @@ export const lesson12: Lesson = {
               { id: "c", text: "Sound — 'crackled', 'murmured'" },
               { id: "d", text: "Smell is implied but not stated" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Sensory inventory", statement: "Check which senses are actually described, not implied." }],
             steps: [{ reasoning: "Criterion A (Analysing): sound (crackled, murmured) and sight (steam curled) are engaged; taste is not described — (c).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(c)** Taste — the bread's flavour is described",
+            finalAnswer: "**(a)** Taste — the bread's flavour is described",
           },
         },
         {
@@ -761,7 +761,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Tactile imagery", statement: "Touch imagery can externalise emotion." }],
             steps: [{ reasoning: "Criterion A (Analysing): 'folded', 'small enough' — tactile action; repeated folding mirrors suppressed emotion — (b).", marks: 1, markCode: "A" }],
-            finalAnswer: "**(b)** Tactile — the folding action externalises grief and restraint",
+            finalAnswer: "**(c)** Tactile — the folding action externalises grief and restraint",
           },
         },
         {

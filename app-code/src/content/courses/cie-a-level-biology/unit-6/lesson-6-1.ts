@@ -216,7 +216,7 @@ export const lesson611: Lesson = {
             steps: [
               { reasoning: "Nephron = kidney unit.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Nephron",
+            finalAnswer: "**(c)** Nephron",
             commonErrors: ["Confusing with neuron."],
           },
         },
@@ -549,7 +549,7 @@ export const lesson611: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Antidiuretic hormone",
+            finalAnswer: "**(d)** Antidiuretic hormone",
             commonErrors: ["Thinking it's an enzyme."],
           },
         },

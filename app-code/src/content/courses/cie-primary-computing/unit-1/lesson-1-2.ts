@@ -125,7 +125,7 @@ export const lesson12: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Algorithm", statement: "Ordered step-by-step instructions." }],
             steps: [{ reasoning: "A recipe is ordered steps for a task; the others are not algorithms.", marks: 1, markCode: "M" }],
-            finalAnswer: "**(a)** A recipe with ordered steps",
+            finalAnswer: "**(d)** A recipe with ordered steps",
           },
         },
         {
@@ -160,7 +160,7 @@ export const lesson12: Lesson = {
               { reasoning: "'Walk straight' has no distance — the walker cannot know when to stop.", marks: 1, markCode: "M" },
               { reasoning: "Vague instructions cause errors; precision fixes them.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** The instruction is too vague — no distance given",
+            finalAnswer: "**(c)** The instruction is too vague — no distance given",
           },
         },
         {
@@ -247,7 +247,7 @@ export const lesson12: Lesson = {
               { reasoning: "Same directions, different result — the instructions likely contain a mistake or vagueness.", marks: 1, markCode: "M" },
               { reasoning: "Debugging means finding and fixing that mistake.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** The directions were too vague or had a mistake",
+            finalAnswer: "**(c)** The directions were too vague or had a mistake",
           },
         },
         {
@@ -283,7 +283,7 @@ export const lesson12: Lesson = {
               { reasoning: "Waking up must come first; eating before brushing teeth is also illogical.", marks: 1, markCode: "M" },
               { reasoning: "Only (b) gives a sensible order.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Wake up, get dressed, brush teeth, eat breakfast",
+            finalAnswer: "**(d)** Wake up, get dressed, brush teeth, eat breakfast",
           },
         },
         {

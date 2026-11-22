@@ -70,7 +70,7 @@ export const lesson31: Lesson = {
               { reasoning: "Devising is collaborative creation of original theatre without a script.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Creating theatre collaboratively without a pre-existing script",
+            finalAnswer: "**(c)** Creating theatre collaboratively without a pre-existing script",
             commonErrors: [
               "Confusing devising with script interpretation or solo writing.",
             ],
@@ -161,7 +161,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Stimulus" },
               { id: "d", text: "Rehearsing a published script" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -171,7 +171,7 @@ export const lesson31: Lesson = {
               { reasoning: "Devising creates original theatre without a script, so rehearsing a published script is not part of it.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (c) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** Rehearsing a published script",
+            finalAnswer: "**(d)** Rehearsing a published script",
             commonErrors: [
               "Confusing devising with script rehearsal.",
             ],
@@ -200,7 +200,7 @@ export const lesson31: Lesson = {
               { reasoning: "A stimulus is the starting point — an image, text, question or theme — that opens exploration.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A starting point that opens exploration",
+            finalAnswer: "**(a)** A starting point that opens exploration",
             commonErrors: [
               "Thinking a stimulus must prescribe the final outcome.",
             ],
@@ -229,7 +229,7 @@ export const lesson31: Lesson = {
               { reasoning: "Research gathers material — interviews, observations, texts — that informs the devised work.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Gathering material to inform the work",
+            finalAnswer: "**(d)** Gathering material to inform the work",
             commonErrors: [
               "Reducing research to desk-based fact-finding only.",
             ],
@@ -287,7 +287,7 @@ export const lesson31: Lesson = {
               { reasoning: "Quantity matters because editing will cut most material; generating widely increases the chance of discovering gems.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Quantity increases the chance of finding strong moments",
+            finalAnswer: "**(d)** Quantity increases the chance of finding strong moments",
             commonErrors: [
               "Assuming every generated moment must appear in the final piece.",
             ],
@@ -514,7 +514,7 @@ export const lesson31: Lesson = {
               { reasoning: "Editing selects and structures the strongest material into coherent form.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Selecting and structuring the strongest generated material",
+            finalAnswer: "**(d)** Selecting and structuring the strongest generated material",
             commonErrors: [
               "Thinking devising ends with generation rather than editing.",
             ],
@@ -615,7 +615,7 @@ export const lesson31: Lesson = {
               { reasoning: "Generation produces a surplus of material so editing can select the strongest moments.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Creating much more material than needed",
+            finalAnswer: "**(c)** Creating much more material than needed",
             commonErrors: [
               "Confusing generation with writing the final script.",
             ],
@@ -644,7 +644,7 @@ export const lesson31: Lesson = {
               { reasoning: "Devised theme emerges organically as the ensemble reviews and shapes generated material.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Emerges from the material the ensemble discovers",
+            finalAnswer: "**(a)** Emerges from the material the ensemble discovers",
             commonErrors: [
               "Imposing a theme before exploring the material.",
             ],
@@ -673,7 +673,7 @@ export const lesson31: Lesson = {
               { reasoning: "Image work uses pictures as prompts for physical improvisation that generates material.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Responding to images physically through improvisation",
+            finalAnswer: "**(c)** Responding to images physically through improvisation",
             commonErrors: [
               "Confusing image work with set or costume design.",
             ],
@@ -702,7 +702,7 @@ export const lesson31: Lesson = {
               { reasoning: "Interview material — real words, stories and perspectives — is used as prompts for scenes.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Real people's words and stories as prompts",
+            finalAnswer: "**(c)** Real people's words and stories as prompts",
             commonErrors: [
               "Using interviews as decoration rather than as scene material.",
             ],
@@ -760,7 +760,7 @@ export const lesson31: Lesson = {
               { reasoning: "The structure should serve the content; chronological, fragmented or circular may all fit depending on the material.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The structure that best serves the content",
+            finalAnswer: "**(a)** The structure that best serves the content",
             commonErrors: [
               "Assuming one structure is always correct.",
             ],

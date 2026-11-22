@@ -237,7 +237,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "8+2 = 10.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** 10",
+            finalAnswer: "**(c)** 10",
           },
         },
         {
@@ -262,7 +262,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "2^3 = 8 values (000 to 111).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** 8",
+            finalAnswer: "**(b)** 8",
           },
         },
         {
@@ -287,7 +287,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "9 = 8+1 → bits 8 and 1 set → 1001.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** 1001",
+            finalAnswer: "**(c)** 1001",
           },
         },
         {
@@ -337,7 +337,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "Fixed-width storage cannot hold larger values → overflow.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Wraps around or causes an error (overflow)",
+            finalAnswer: "**(d)** Wraps around or causes an error (overflow)",
           },
         },
         {
@@ -362,7 +362,7 @@ export const lesson51: Lesson = {
             steps: [
               { reasoning: "2^8 = 256 values, 0–255; max is 255.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 255",
+            finalAnswer: "**(d)** 255",
           },
         },
         {

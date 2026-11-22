@@ -303,7 +303,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Ice-albedo feedback",
+            finalAnswer: "**(c)** Ice-albedo feedback",
             commonErrors: ["Choosing a non-feedback process."],
           },
         },
@@ -370,7 +370,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Correct aim identified.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Limit warming well below 2°C",
+            finalAnswer: "**(c)** Limit warming well below 2°C",
             commonErrors: ["Overstating it as a binding emissions ban."],
           },
         },
@@ -543,7 +543,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "CO2 is the dominant anthropogenic GHG.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Carbon dioxide",
+            finalAnswer: "**(b)** Carbon dioxide",
             commonErrors: ["Choosing oxygen — not a greenhouse gas driver."],
           },
         },
@@ -778,7 +778,7 @@ export const lesson41: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Income/wealth inequality",
+            finalAnswer: "**(d)** Income/wealth inequality",
             commonErrors: ["Confusing it with GDP or HDI."],
           },
         },
@@ -1001,7 +1001,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "Correct definition.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Same access to services and chances",
+            finalAnswer: "**(d)** Same access to services and chances",
             commonErrors: ["Confusing equal opportunity with equal outcomes."],
           },
         },
@@ -1138,7 +1138,7 @@ export const lesson41: Lesson = {
             steps: [
               { reasoning: "HDI combines the three dimensions.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Human Development Index",
+            finalAnswer: "**(c)** Human Development Index",
             commonErrors: ["Confusing HDI with Gini — Gini measures inequality only."],
           },
         },

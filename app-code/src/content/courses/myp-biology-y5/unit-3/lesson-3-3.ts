@@ -71,7 +71,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Most threatened species lose habitat to agriculture, logging and development.", working: "\\text{habitat loss}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Habitat destruction",
+            finalAnswer: "**(c)** Habitat destruction",
             commonErrors: ["Choosing natural disasters — they are not the dominant modern driver."],
             examinerNote: "B1 for (b).",
           },
@@ -206,7 +206,7 @@ export const lesson33: Lesson = {
           totalMarks: 1,
           stem: "What is a trophic cascade?",
           response: { type: "mcq", choices: [ { id: "a", text: "The movement of water in xylem" }, { id: "b", text: "A type of nutrient cycle" }, { id: "c", text: "A change in one trophic level that affects levels below and above it" }, { id: "d", text: "A method of cloning" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Trophic cascade", statement: "Removal of a top predator can change prey numbers and then vegetation and ecosystem structure." }], steps: [{ reasoning: "Effects ripple through food-web levels.", working: "cascade", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A change in one trophic level that affects levels below and above it" },
+          markscheme: { principles: [{ kind: "definition", name: "Trophic cascade", statement: "Removal of a top predator can change prey numbers and then vegetation and ecosystem structure." }], steps: [{ reasoning: "Effects ripple through food-web levels.", working: "cascade", marks: 1, markCode: "B" }], finalAnswer: "**(c)** A change in one trophic level that affects levels below and above it" },
         },
         {
           id: "mypb5-u3-impact-q10",
@@ -234,7 +234,7 @@ export const lesson33: Lesson = {
           totalMarks: 1,
           stem: "Why are invasive species a threat to ecosystems?",
           response: { type: "mcq", choices: [ { id: "a", text: "They can outcompete native species and disrupt food webs" }, { id: "b", text: "They always improve biodiversity" }, { id: "c", text: "They increase soil nutrients everywhere" }, { id: "d", text: "They prevent all pollution" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Invasive species", statement: "Non-native species that spread rapidly can displace natives and alter ecosystems." }], steps: [{ reasoning: "Examples include rabbits in Australia and kudzu vines.", working: "invasive", marks: 1, markCode: "B" }], finalAnswer: "**(b)** They can outcompete native species and disrupt food webs" },
+          markscheme: { principles: [{ kind: "definition", name: "Invasive species", statement: "Non-native species that spread rapidly can displace natives and alter ecosystems." }], steps: [{ reasoning: "Examples include rabbits in Australia and kudzu vines.", working: "invasive", marks: 1, markCode: "B" }], finalAnswer: "**(a)** They can outcompete native species and disrupt food webs" },
         },
         {
           id: "mypb5-u3-impact-q13",
@@ -262,7 +262,7 @@ export const lesson33: Lesson = {
           totalMarks: 1,
           stem: "Which pollution type can create dead zones in aquatic ecosystems?",
           response: { type: "mcq", choices: [ { id: "a", text: "Lower temperature only" }, { id: "b", text: "Nutrient enrichment causing eutrophication" }, { id: "c", text: "Increased oxygen only" }, { id: "d", text: "Reduced light only" } ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Eutrophication", statement: "Nutrient pollution causes algal blooms and oxygen depletion." }], steps: [{ reasoning: "Decomposers remove oxygen, creating hypoxic dead zones.", working: "dead\\text{ zone}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Nutrient enrichment causing eutrophication" },
+          markscheme: { principles: [{ kind: "principle", name: "Eutrophication", statement: "Nutrient pollution causes algal blooms and oxygen depletion." }], steps: [{ reasoning: "Decomposers remove oxygen, creating hypoxic dead zones.", working: "dead\\text{ zone}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Nutrient enrichment causing eutrophication" },
         },
         {
           id: "mypb5-u3-impact-q16",
@@ -270,7 +270,7 @@ export const lesson33: Lesson = {
           totalMarks: 1,
           stem: "Why is extinction considered irreversible?",
           response: { type: "mcq", choices: [ { id: "a", text: "Extinction only affects one population temporarily" }, { id: "b", text: "All species are endangered" }, { id: "c", text: "Extinct species can always be cloned" }, { id: "d", text: "The last individual has died and the species cannot reproduce" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Extinction", statement: "Extinction is the permanent loss of a species when the last individual dies." }], steps: [{ reasoning: "Without living members, the species cannot recover naturally.", working: "permanent", marks: 1, markCode: "B" }], finalAnswer: "**(a)** The last individual has died and the species cannot reproduce" },
+          markscheme: { principles: [{ kind: "definition", name: "Extinction", statement: "Extinction is the permanent loss of a species when the last individual dies." }], steps: [{ reasoning: "Without living members, the species cannot recover naturally.", working: "permanent", marks: 1, markCode: "B" }], finalAnswer: "**(d)** The last individual has died and the species cannot reproduce" },
         },
       ],
     },
@@ -326,7 +326,7 @@ export const lesson33: Lesson = {
             steps: [
               { reasoning: "Zoos breed species away from their natural habitat.", working: "\\text{ex situ}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Ex situ conservation",
+            finalAnswer: "**(c)** Ex situ conservation",
             commonErrors: ["Confusing in situ (protected habitat) with ex situ (captivity)."],
             examinerNote: "B1 for (b).",
           },
@@ -517,7 +517,7 @@ export const lesson33: Lesson = {
           totalMarks: 1,
           stem: "What is the purpose of a wildlife corridor?",
           response: { type: "mcq", choices: [ { id: "a", text: "To stop all migration" }, { id: "b", text: "To connect habitats and allow movement between populations" }, { id: "c", text: "To keep animals in zoos" }, { id: "d", text: "To increase pollution" } ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Wildlife corridor", statement: "Corridors link habitats, allowing gene flow and reducing isolation." }], steps: [{ reasoning: "They help maintain genetic diversity and population viability.", working: "corridor", marks: 1, markCode: "B" }], finalAnswer: "**(a)** To connect habitats and allow movement between populations" },
+          markscheme: { principles: [{ kind: "definition", name: "Wildlife corridor", statement: "Corridors link habitats, allowing gene flow and reducing isolation." }], steps: [{ reasoning: "They help maintain genetic diversity and population viability.", working: "corridor", marks: 1, markCode: "B" }], finalAnswer: "**(b)** To connect habitats and allow movement between populations" },
         },
         {
           id: "mypb5-u3-cons-q16",
@@ -525,7 +525,7 @@ export const lesson33: Lesson = {
           totalMarks: 1,
           stem: "When is captive breeding most useful?",
           response: { type: "mcq", choices: [ { id: "a", text: "When a species is endangered and needs numbers increased before reintroduction" }, { id: "b", text: "Only when a species is extinct" }, { id: "c", text: "Never, because it replaces in situ conservation" }, { id: "d", text: "When habitat is abundant and stable" } ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Captive breeding", statement: "Captive breeding increases numbers of endangered species for possible reintroduction." }], steps: [{ reasoning: "It is an ex situ insurance strategy, not a replacement for habitat protection.", working: "captive\\text{ breeding}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** When a species is endangered and needs numbers increased before reintroduction" },
+          markscheme: { principles: [{ kind: "definition", name: "Captive breeding", statement: "Captive breeding increases numbers of endangered species for possible reintroduction." }], steps: [{ reasoning: "It is an ex situ insurance strategy, not a replacement for habitat protection.", working: "captive\\text{ breeding}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** When a species is endangered and needs numbers increased before reintroduction" },
         },
       ],
     },

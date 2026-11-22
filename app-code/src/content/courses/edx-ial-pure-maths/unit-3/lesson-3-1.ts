@@ -64,7 +64,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The identity holds for every angle.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $1$",
+            finalAnswer: "**(d)** $1$",
             commonErrors: ["Thinking the value depends on the angle."],
           },
         },
@@ -193,7 +193,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "$\\sin\\theta=0.5$ at $\\frac{\\pi}{6}$ and $\\frac{5\\pi}{6}$ — two solutions.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2$",
+            finalAnswer: "**(d)** $2$",
             commonErrors: ["Forgetting the second quadrant solution."],
           },
         },

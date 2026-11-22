@@ -70,7 +70,7 @@ export const lesson13: Lesson = {
               { reasoning: "Ensemble awareness is responding to and supporting the whole group in real time.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Awareness of the whole group and responding to other performers",
+            finalAnswer: "**(a)** Awareness of the whole group and responding to other performers",
             commonErrors: [
               "Confusing ensemble awareness with individual line knowledge.",
             ],
@@ -171,7 +171,7 @@ export const lesson13: Lesson = {
               { reasoning: "An ensemble is the company of performers who create the performance collaboratively.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A group of performers working together as a company",
+            finalAnswer: "**(a)** A group of performers working together as a company",
             commonErrors: [
               "Thinking ensemble refers to one performer rather than the group.",
             ],
@@ -229,7 +229,7 @@ export const lesson13: Lesson = {
               { reasoning: "A status shift reverses who dominates — a key source of dramatic tension and comedy.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The relative power between characters reverses — e.g. a servant outsmarts the master",
+            finalAnswer: "**(a)** The relative power between characters reverses — e.g. a servant outsmarts the master",
             commonErrors: [
               "Thinking status is fixed for a whole scene rather than capable of shifting.",
             ],
@@ -258,7 +258,7 @@ export const lesson13: Lesson = {
               { reasoning: "Trust falls and similar exercises build the safety and reliance a cohesive ensemble needs.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The group's trust, communication and cohesion",
+            finalAnswer: "**(c)** The group's trust, communication and cohesion",
             commonErrors: [
               "Seeing ensemble exercises as separate from actual performance skill.",
             ],
@@ -287,7 +287,7 @@ export const lesson13: Lesson = {
               { reasoning: "Focus stealing unbalances the stage picture and undermines the ensemble's shared storytelling.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The group image becomes unbalanced and the scene loses clarity",
+            finalAnswer: "**(a)** The group image becomes unbalanced and the scene loses clarity",
             commonErrors: [
               "Judging ensemble scenes by individual star power rather than group balance.",
             ],
@@ -316,7 +316,7 @@ export const lesson13: Lesson = {
               { reasoning: "Mirroring trains performers to watch and respond to partners instantaneously.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Matching a partner's movement in real time to build awareness and responsiveness",
+            finalAnswer: "**(c)** Matching a partner's movement in real time to build awareness and responsiveness",
             commonErrors: [
               "Seeing mirroring as an individual exercise rather than a relational one.",
             ],
@@ -527,7 +527,7 @@ export const lesson13: Lesson = {
               { reasoning: "Yes, and means accepting offers and building on them rather than blocking.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Accept offers and build on them",
+            finalAnswer: "**(d)** Accept offers and build on them",
             commonErrors: [
               "Confusing yes-and (accept and build) with simple agreement.",
             ],
@@ -628,7 +628,7 @@ export const lesson13: Lesson = {
               { reasoning: "Blocking negates a partner's offer ('there's no door here'), stopping the scene's forward motion.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Rejecting or negating a partner's suggestion, which stalls the scene",
+            finalAnswer: "**(d)** Rejecting or negating a partner's suggestion, which stalls the scene",
             commonErrors: [
               "Confusing blocking (negating) with yes-and (accepting).",
             ],
@@ -657,7 +657,7 @@ export const lesson13: Lesson = {
               { reasoning: "True listening means reacting to what partners actually do and say right now.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Responding to what is actually happening in the moment rather than your planned response",
+            finalAnswer: "**(a)** Responding to what is actually happening in the moment rather than your planned response",
             commonErrors: [
               "Planning your response instead of listening to your partner.",
             ],
@@ -686,7 +686,7 @@ export const lesson13: Lesson = {
               { reasoning: "Emotion walks let performers explore how feelings translate into movement and posture.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Move across the space as a character or emotional state",
+            finalAnswer: "**(a)** Move across the space as a character or emotional state",
             commonErrors: [
               "Thinking improv games only produce spoken material.",
             ],
@@ -715,7 +715,7 @@ export const lesson13: Lesson = {
               { reasoning: "Devised theatre builds performances from improvisation rather than starting with a script.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The primary creative process from which material is shaped",
+            finalAnswer: "**(d)** The primary creative process from which material is shaped",
             commonErrors: [
               "Seeing improvisation as separate from serious theatre-making.",
             ],
@@ -773,7 +773,7 @@ export const lesson13: Lesson = {
               { reasoning: "Hesitant or half-committed choices give partners nothing solid to build on.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Going with each choice fully without hesitation or half-measures",
+            finalAnswer: "**(d)** Going with each choice fully without hesitation or half-measures",
             commonErrors: [
               "Playing choices tentatively 'to stay safe'.",
             ],

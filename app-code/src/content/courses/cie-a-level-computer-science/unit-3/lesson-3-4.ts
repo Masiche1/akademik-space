@@ -256,7 +256,7 @@ export const lesson144: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Known iteration count",
+            finalAnswer: "**(b)** Known iteration count",
           },
         },
         {
@@ -318,7 +318,7 @@ export const lesson144: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Sends result to caller",
+            finalAnswer: "**(d)** Sends result to caller",
           },
         },
         {
@@ -413,7 +413,7 @@ export const lesson144: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Integer",
+            finalAnswer: "**(c)** Integer",
           },
         },
         {
@@ -507,7 +507,7 @@ export const lesson144: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Exits the loop immediately",
+            finalAnswer: "**(b)** Exits the loop immediately",
           },
         },
         {
@@ -608,7 +608,7 @@ export const lesson144: Lesson = {
                 markCode: "M",
               },
             ],
-            finalAnswer: "**(a)** Parameter in definition; argument in call",
+            finalAnswer: "**(c)** Parameter in definition; argument in call",
           },
         },
       ],

@@ -41,7 +41,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Basic to advanced" },
             { id: "d", text: "Advanced to basic" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Maslow", statement: "Basic→advanced." }], steps: [{ reasoning: "Physiological first.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Maslow", statement: "Basic→advanced." }], steps: [{ reasoning: "Physiological first.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u4-mo-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Social needs" },
             { id: "d", text: "Esteem needs" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Maslow", statement: "Basic needs first." }], steps: [{ reasoning: "Physiological needs are the base.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Maslow", statement: "Basic needs first." }], steps: [{ reasoning: "Physiological needs are the base.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u4-mo-q6", difficulty: "core", totalMarks: 1,
@@ -109,7 +109,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Recognition for good work" },
             { id: "d", text: "Job security" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Herzberg", statement: "Motivators." }], steps: [{ reasoning: "Recognition is a motivator; the others are hygiene factors.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Herzberg", statement: "Motivators." }], steps: [{ reasoning: "Recognition is a motivator; the others are hygiene factors.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u4-mo-q7", difficulty: "foundation", totalMarks: 1,
@@ -120,7 +120,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Internal satisfaction from the work itself" },
             { id: "d", text: "A cash bonus" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Intrinsic motivation", statement: "Internal drive." }], steps: [{ reasoning: "Intrinsic = satisfaction from the work itself.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Intrinsic motivation", statement: "Internal drive." }], steps: [{ reasoning: "Intrinsic = satisfaction from the work itself.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u4-mo-q8", difficulty: "core", totalMarks: 2,
@@ -173,7 +173,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Physiological needs" },
             { id: "d", text: "Safety needs" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Maslow", statement: "Need order." }], steps: [{ reasoning: "Order: physiological → safety → social → esteem → self-actualisation.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Esteem needs" },
+          markscheme: { principles: [{ kind: "definition", name: "Maslow", statement: "Need order." }], steps: [{ reasoning: "Order: physiological → safety → social → esteem → self-actualisation.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Esteem needs" },
         },
         {
           id: "olbus-u4-mo-q13", difficulty: "core", totalMarks: 2,
@@ -193,7 +193,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Prevent dissatisfaction but do not motivate" },
             { id: "d", text: "Always motivate employees" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Hygiene factors", statement: "Prevent dissatisfaction." }], steps: [{ reasoning: "Hygiene factors prevent dissatisfaction only.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Hygiene factors", statement: "Prevent dissatisfaction." }], steps: [{ reasoning: "Hygiene factors prevent dissatisfaction only.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u4-mo-q15", difficulty: "core", totalMarks: 2,
@@ -325,7 +325,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Flexible working hours" },
             { id: "d", text: "Profit sharing" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Non-financial rewards", statement: "Non-monetary." }], steps: [{ reasoning: "Flexible hours are non-financial; others are monetary.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Non-financial rewards", statement: "Non-monetary." }], steps: [{ reasoning: "Flexible hours are non-financial; others are monetary.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u4-rw-q7", difficulty: "foundation", totalMarks: 1,
@@ -389,7 +389,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Training" },
             { id: "d", text: "Job security" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Commission", statement: "Performance-linked." }], steps: [{ reasoning: "Commission varies directly with sales.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Commission" },
+          markscheme: { principles: [{ kind: "principle", name: "Commission", statement: "Performance-linked." }], steps: [{ reasoning: "Commission varies directly with sales.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Commission" },
         },
         {
           id: "olbus-u4-rw-q13", difficulty: "core", totalMarks: 2,
@@ -409,7 +409,7 @@ export const lesson41: Lesson = {
             { id: "c", text: "Longer working hours" },
             { id: "d", text: "Recognition, training and autonomy" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Non-financial rewards", statement: "Non-monetary." }], steps: [{ reasoning: "Recognition/training/autonomy are non-financial.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Non-financial rewards", statement: "Non-monetary." }], steps: [{ reasoning: "Recognition/training/autonomy are non-financial.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u4-rw-q15", difficulty: "core", totalMarks: 2,

@@ -57,7 +57,7 @@ export const lesson163: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Dynamic equilibrium", statement: "Equal rates, constant concentrations." }],
             steps: [{ reasoning: "Recall.", working: "\\text{equal rates}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Forward and reverse continue at equal rates",
+            finalAnswer: "**(d)** Forward and reverse continue at equal rates",
             commonErrors: ["Thinking reactions stop at equilibrium."],
           },
         },
@@ -133,11 +133,11 @@ export const lesson163: Lesson = {
             { id: "b", text: "Equal" },
             { id: "c", text: "Forward faster" },
             { id: "d", text: "Reverse faster" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Dynamic equilibrium", statement: "Equal rates." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Equal",
+            finalAnswer: "**(b)** Equal",
             commonErrors: ["Rates equal, not zero."],
           },
         },
@@ -151,11 +151,11 @@ export const lesson163: Lesson = {
             { id: "b", text: "Shift equilibrium right" },
             { id: "c", text: "Increase temperature" },
             { id: "d", text: "Shift equilibrium left" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Catalyst", statement: "No shift in position." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Not shift equilibrium, only speed attainment",
+            finalAnswer: "**(a)** Not shift equilibrium, only speed attainment",
             commonErrors: ["Catalyst affects rate not position."],
           },
         },
@@ -266,7 +266,7 @@ export const lesson163: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Equilibrium", statement: "Constant concentrations." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Constant",
+            finalAnswer: "**(d)** Constant",
             commonErrors: ["Not necessarily equal."],
           },
         },
@@ -310,7 +310,7 @@ export const lesson163: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Reversible arrow", statement: "⇌ both directions." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** ⇌",
+            finalAnswer: "**(c)** ⇌",
             commonErrors: ["→ is irreversible."],
           },
         },
@@ -328,7 +328,7 @@ export const lesson163: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Pressure", statement: "Fewer gas moles favoured." }],
             steps: [{ reasoning: "4 → 2 mol gas.", working: "4 \\to 2", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** NH₃",
+            finalAnswer: "**(d)** NH₃",
             commonErrors: ["Reversing the shift."],
           },
         },
@@ -454,7 +454,7 @@ export const lesson163: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Contact process", statement: "Makes H₂SO₄." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Sulphuric acid",
+            finalAnswer: "**(c)** Sulphuric acid",
             commonErrors: ["Haber makes ammonia."],
           },
         },
@@ -472,7 +472,7 @@ export const lesson163: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Contact catalyst", statement: "V₂O₅." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** V₂O₅",
+            finalAnswer: "**(d)** V₂O₅",
             commonErrors: ["Fe is Haber."],
           },
         },
@@ -635,7 +635,7 @@ export const lesson163: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Catalyst", statement: "Rate not position." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** To reach equilibrium faster",
+            finalAnswer: "**(c)** To reach equilibrium faster",
             commonErrors: ["Catalyst does not increase yield."],
           },
         },
@@ -653,7 +653,7 @@ export const lesson163: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Catalyst", statement: "Regenerated unchanged." }],
             steps: [{ reasoning: "Recall.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Unchanged at the end",
+            finalAnswer: "**(a)** Unchanged at the end",
             commonErrors: ["Catalysts are not consumed."],
           },
         },

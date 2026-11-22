@@ -62,7 +62,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Focus", statement: "$x^2=4ay$ has focus $(0,a)$." }],
             steps: [{ reasoning: "$4a=12\\Rightarrow a=3$, focus $(0,3)$.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $(0,3)$",
+            finalAnswer: "**(d)** $(0,3)$",
           },
         },
         {
@@ -182,7 +182,7 @@ export const lesson32: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Asymptotes", statement: "For $xy=c^2$ the asymptotes are the coordinate axes." }],
             steps: [{ reasoning: "As $x\\to0$, $y\\to\\infty$ and vice versa — axes are asymptotes.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $x=0$ and $y=0$",
+            finalAnswer: "**(c)** $x=0$ and $y=0$",
           },
         },
         {

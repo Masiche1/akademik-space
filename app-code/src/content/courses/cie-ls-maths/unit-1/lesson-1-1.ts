@@ -57,7 +57,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$70$" },
               { id: "d", text: "$7000$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -66,7 +66,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "In $3742$, the digits are $3$ thousands, $7$ hundreds, $4$ tens, $2$ units.", working: "\\text{hundreds}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $700$",
+            finalAnswer: "**(a)** $700$",
             commonErrors: ["Counting from the right including the decimal — $\\.8$ does not change integer places."],
           },
         },
@@ -171,7 +171,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Tenths is $4$, hundredths is $7$, thousandths is $5$ — so the $5$ contributes $0.005$? No: $0.475$ has digits $4$ tenths, $7$ hundredths, $5$ thousandths.", working: "\\text{thousandths}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $0.005$",
+            finalAnswer: "**(d)** $0.005$",
             commonErrors: ["Confusing the digits — the $5$ is in the thousandths place, worth $0.005$."],
           },
         },
@@ -205,7 +205,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$0.088$" },
               { id: "d", text: "$0.8$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -214,7 +214,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Pad to three places: $0.800$, $0.080$, $0.808$, $0.088$. Largest is $0.808$.", working: "0.808 > 0.800 > 0.088 > 0.080", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $0.808$",
+            finalAnswer: "**(a)** $0.808$",
             commonErrors: ["Choosing $0.8$ — it equals $0.800$, which is less than $0.808$."],
           },
         },
@@ -286,7 +286,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$7.8\\underline{5}$ — $5$ or more rounds up: $7.9$.", working: "7.9", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $7.9$",
+            finalAnswer: "**(c)** $7.9$",
             commonErrors: ["Choosing $7.8$ — rounding down on a $5$; the rule rounds up at $5$ or more."],
           },
         },
@@ -477,7 +477,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$21=3\\times7$, $33=3\\times11$, $39=3\\times13$ — all composite. $29$ has no factors other than 1 and 29.", working: "\\text{check divisibility}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $29$",
+            finalAnswer: "**(a)** $29$",
             commonErrors: ["Choosing $21$ — odd numbers are not automatically prime."],
           },
         },
@@ -573,7 +573,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "$65$" },
               { id: "d", text: "$61$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -582,7 +582,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$51=3\\times17$, $57=3\\times19$, $65=5\\times13$ — all composite. $61$ has no factors other than 1 and 61.", working: "\\text{check divisibility}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $61$",
+            finalAnswer: "**(d)** $61$",
             commonErrors: ["Choosing $51$ or $57$ — they look prime but both have factor $3$."],
           },
         },
@@ -643,7 +643,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$72 = 8 \\times 9 = 2^3 \\times 3^2$. Option (c) uses composite $8$ and $9$; (d) uses $4$, not prime.", working: "2^3 \\times 3^2", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2^3 \\times 3^2$",
+            finalAnswer: "**(d)** $2^3 \\times 3^2$",
             commonErrors: ["Choosing (c) — $8$ and $9$ are not prime, so it is not a prime factorisation."],
           },
         },
@@ -750,7 +750,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "$6 \\times 6 = 36$. The others give $32, 35, 30$.", working: "6\\times6=36", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** $6 \\times 6$",
+            finalAnswer: "**(c)** $6 \\times 6$",
             commonErrors: ["Choosing (a) — $4\\times8=32$, not $36$."],
           },
         },

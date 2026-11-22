@@ -57,7 +57,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Pupil", statement: "Controls light entry." }],
             steps: [{ reasoning: "Recall.", working: "\\text{iris/pupil}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Iris/pupil",
+            finalAnswer: "**(a)** Iris/pupil",
             commonErrors: ["Confusing with lens (focus)."],
           },
         },
@@ -137,7 +137,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Cornea", statement: "Transparent front surface causing first refraction." }],
             steps: [{ reasoning: "Recall the light path.", working: "\\text{cornea first}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** The cornea",
+            finalAnswer: "**(a)** The cornea",
             commonErrors: ["Naming the lens as the first refracting surface."],
           },
         },
@@ -171,7 +171,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Accommodation", statement: "Ciliary muscles alter lens shape." }],
             steps: [{ reasoning: "Recall which muscles act on the lens.", working: "\\text{ciliary muscles}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Ciliary muscles",
+            finalAnswer: "**(d)** Ciliary muscles",
             commonErrors: ["Confusing iris muscles with lens muscles."],
           },
         },
@@ -205,7 +205,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Accommodation", statement: "Near vision requires a thicker lens." }],
             steps: [{ reasoning: "Recall near-focus accommodation.", working: "\\text{thicker, more converging}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Thicker and more converging",
+            finalAnswer: "**(c)** Thicker and more converging",
             commonErrors: ["Reversing near and distant focusing."],
           },
         },
@@ -223,7 +223,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Pupil", statement: "Dilates in dim light." }],
             steps: [{ reasoning: "Recall pupil response to light level.", working: "\\text{larger in dim light}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Dim light",
+            finalAnswer: "**(d)** Dim light",
             commonErrors: ["Thinking the pupil controls focus."],
           },
         },
@@ -288,11 +288,11 @@ export const lessonp53: Lesson = {
             { id: "b", text: "Cornea" },
             { id: "c", text: "Iris" },
             { id: "d", text: "Ciliary muscle" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Optic nerve", statement: "Transmits visual signals." }],
             steps: [{ reasoning: "Recall the signal pathway.", working: "\\text{optic nerve}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(c)** Optic nerve",
+            finalAnswer: "**(a)** Optic nerve",
             commonErrors: ["Naming the lens as the signal carrier."],
           },
         },
@@ -379,7 +379,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Myopia", statement: "Image before retina." }],
             steps: [{ reasoning: "Recall.", working: "\\text{before retina}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Before retina",
+            finalAnswer: "**(a)** Before retina",
             commonErrors: ["Confusing with long sight."],
           },
         },
@@ -459,7 +459,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Hypermetropia", statement: "Image would form behind retina." }],
             steps: [{ reasoning: "Recall long-sighted image position.", working: "\\text{behind retina}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Behind the retina",
+            finalAnswer: "**(c)** Behind the retina",
             commonErrors: ["Confusing long sight with short sight."],
           },
         },
@@ -493,7 +493,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Presbyopia", statement: "Age-related loss of accommodation." }],
             steps: [{ reasoning: "Recall the cause of presbyopia.", working: "\\text{lens loses flexibility}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Loss of flexibility of the lens with age",
+            finalAnswer: "**(a)** Loss of flexibility of the lens with age",
             commonErrors: ["Confusing presbyopia with myopia or hypermetropia."],
           },
         },
@@ -527,7 +527,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Correction", statement: "Convex lens for hypermetropia." }],
             steps: [{ reasoning: "Recall long-sight correction.", working: "\\text{convex}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Convex",
+            finalAnswer: "**(a)** Convex",
             commonErrors: ["Using a concave lens, which is for short sight."],
           },
         },
@@ -579,7 +579,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "property", name: "Hypermetropia", statement: "Distant vision clearer than near vision." }],
             steps: [{ reasoning: "Recall hypermetropia symptoms.", working: "\\text{near blurred}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Distant objects clearly but near objects blurred",
+            finalAnswer: "**(a)** Distant objects clearly but near objects blurred",
             commonErrors: ["Confusing hypermetropia with myopia."],
           },
         },
@@ -613,7 +613,7 @@ export const lessonp53: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Presbyopia correction", statement: "Convex lenses add convergence for near vision." }],
             steps: [{ reasoning: "Recall reading-glass correction.", working: "\\text{convex}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Convex lenses",
+            finalAnswer: "**(c)** Convex lenses",
             commonErrors: ["Using a concave lens for near vision."],
           },
         },

@@ -77,7 +77,7 @@ export const lesson102: Lesson = {
               { id: "c", text: "Scheduling CPU processes" },
               { id: "d", text: "Editing documents" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -95,7 +95,7 @@ export const lesson102: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(c)** Editing documents",
+            finalAnswer: "**(d)** Editing documents",
             commonErrors: ["Thinking OS does all tasks."],
           },
         },
@@ -336,7 +336,7 @@ export const lesson102: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** Antivirus",
+            finalAnswer: "**(d)** Antivirus",
             commonErrors: ["Confusing with backup."],
           },
         },

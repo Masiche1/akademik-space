@@ -380,7 +380,7 @@ export const lesson15: Lesson = {
                               "text": "40"
                     }
           ],
-          "aorrectChoiceId": "c"
+          "correctChoiceId": "a"
 },
           markscheme: {
           "principles": [

@@ -65,7 +65,7 @@ export const lesson72: Lesson = {
             steps: [
               { reasoning: "Points on a downward straight line give perfect negative correlation, $r=-1$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $-1$",
+            finalAnswer: "**(d)** $-1$",
             commonErrors: ["Thinking $r$ must be positive."],
           },
         },

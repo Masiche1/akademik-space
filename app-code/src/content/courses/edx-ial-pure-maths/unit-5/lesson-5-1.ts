@@ -61,7 +61,7 @@ export const lesson51: Lesson = {
           markscheme: {
             principles: [{ kind: "formula", name: "Modulus", statement: "$|z|=\\sqrt{x^2+y^2}$." }],
             steps: [{ reasoning: "$\\sqrt{9+16}=5$.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $5$",
+            finalAnswer: "**(b)** $5$",
             commonErrors: ["Adding $3+4$ instead of using Pythagoras."],
           },
         },
@@ -185,7 +185,7 @@ export const lesson51: Lesson = {
           markscheme: {
             principles: [{ kind: "theorem", name: "nth roots", statement: "$z^n=w$ has exactly $n$ distinct roots." }],
             steps: [{ reasoning: "Cubic has three cube roots.", marks: 1, markCode: "B" }],
-            finalAnswer: "**(a)** $3$",
+            finalAnswer: "**(b)** $3$",
           },
         },
         {

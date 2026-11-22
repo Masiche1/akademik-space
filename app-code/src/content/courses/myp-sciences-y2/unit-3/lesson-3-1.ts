@@ -73,7 +73,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "A vacuum contains no particles, so there is nothing to pass the vibrations on. Sound is also faster in solids than in air, and loudness depends on amplitude, not frequency.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Sound cannot travel through a vacuum because there are no particles to vibrate.",
+            finalAnswer: "**(a)** Sound cannot travel through a vacuum because there are no particles to vibrate.",
             commonErrors: ["Thinking sound travels slowly through a vacuum rather than not at all.", "Confusing loudness (amplitude) with pitch (frequency).", "Thinking sound is fastest in gases."],
             examinerNote: "B1 for (b).",
           },
@@ -200,7 +200,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Loudness is linked to amplitude; pitch is linked to frequency.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Amplitude",
+            finalAnswer: "**(d)** Amplitude",
             commonErrors: ["Confusing loudness with pitch."],
             examinerNote: "B1 for choice (b).",
           },
@@ -218,7 +218,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Air (a gas)" },
               { id: "d", text: "Sea water (a liquid)" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -227,7 +227,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Particles in a solid are closest together, so vibrations pass on fastest.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** A steel rail (a solid)",
+            finalAnswer: "**(b)** A steel rail (a solid)",
             commonErrors: ["Choosing air because we hear sound in air most often."],
             examinerNote: "B1 for choice (c).",
           },
@@ -389,7 +389,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "With less air (a poorer medium) the sound gets quieter and finally stops in a vacuum.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It fades and disappears as the air is removed",
+            finalAnswer: "**(d)** It fades and disappears as the air is removed",
             commonErrors: ["Thinking sound travels through vacuum more slowly rather than not at all."],
             examinerNote: "B1 for choice (b).",
           },
@@ -407,7 +407,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "A singing voice at 500 Hz" },
               { id: "d", text: "A whistle at 1000 Hz" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -416,7 +416,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "50 000 Hz is above the human limit of about 20 000 Hz, so it is ultrasound and cannot be heard.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** A bat call at 50 000 Hz",
+            finalAnswer: "**(b)** A bat call at 50 000 Hz",
             commonErrors: ["Choosing the lowest frequency; 50 Hz is still within hearing range."],
             examinerNote: "B1 for choice (c).",
           },
@@ -506,7 +506,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "By the law of reflection, the angle of reflection equals the angle of incidence, $40^\\circ$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $40^\\circ$",
+            finalAnswer: "**(b)** $40^\\circ$",
             commonErrors: ["Choosing 50 degrees, the angle between the ray and the mirror surface.", "Choosing 80 degrees, the angle between the incident and reflected rays.", "Choosing 140 degrees from subtracting from 180."],
             examinerNote: "B1 for 40 degrees.",
           },
@@ -605,7 +605,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Both angles are measured from the normal, not from the mirror surface.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The normal",
+            finalAnswer: "**(c)** The normal",
             commonErrors: ["Measuring from the mirror surface instead of the normal."],
             examinerNote: "B1 for choice (b).",
           },
@@ -632,7 +632,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Entering a denser material (air to glass) the ray bends towards the normal.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It bends towards the normal",
+            finalAnswer: "**(a)** It bends towards the normal",
             commonErrors: ["Reversing the rule and choosing 'away from the normal'."],
             examinerNote: "B1 for choice (b).",
           },
@@ -650,7 +650,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Red light" },
               { id: "d", text: "Green light" },
             ],
-            correctChoiceIb: "d",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -659,7 +659,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "The red filter lets only red through; the green filter absorbs red, so almost nothing reaches the screen.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(d)** Almost no light",
+            finalAnswer: "**(b)** Almost no light",
             commonErrors: ["Thinking the colours combine to make yellow."],
             examinerNote: "B1 for choice (d).",
           },
@@ -836,7 +836,7 @@ export const lesson31: Lesson = {
               { id: "c", text: "Red" },
               { id: "d", text: "Violet" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -845,7 +845,7 @@ export const lesson31: Lesson = {
             steps: [
               { reasoning: "Violet light is slowed the most in glass, so it is refracted the most.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Violet",
+            finalAnswer: "**(d)** Violet",
             commonErrors: ["Choosing red, which bends least."],
             examinerNote: "B1 for choice (c).",
           },

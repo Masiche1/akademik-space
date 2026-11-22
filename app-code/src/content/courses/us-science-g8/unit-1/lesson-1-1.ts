@@ -55,7 +55,7 @@ export const lesson11: Lesson = {
               { id: "c", text: "It is speeding up." },
               { id: "d", text: "It is moving at a constant speed." },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -64,7 +64,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The distance stays the same while time passes, so the object is not moving.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** It is stationary.",
+            finalAnswer: "**(a)** It is stationary.",
             commonErrors: ["Thinking a flat line means constant speed; that is true for a speed-time graph, not a distance-time graph."],
             examinerNote: "B1 for stationary / not moving.",
           },
@@ -191,7 +191,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "The car slows, but the passenger keeps moving forward because of inertia until a force (the seat belt) acts.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** First law.",
+            finalAnswer: "**(c)** First law.",
             commonErrors: ["Choosing the third law because a pair of forces exists; the lurch comes from inertia."],
             examinerNote: "B1 for first law / inertia.",
           },

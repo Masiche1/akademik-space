@@ -626,7 +626,7 @@ export const lesson112: Lesson = {
               { id: "c", text: "Equal to the momentum of one mass" },
               { id: "d", text: "It cannot be determined without the speed" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Vector momentum", statement: "Momenta in opposite directions subtract." }],

@@ -70,7 +70,7 @@ export const lesson52: Lesson = {
               { reasoning: "Set design creates the physical environment of the play.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Create the physical environment of the play",
+            finalAnswer: "**(a)** Create the physical environment of the play",
             commonErrors: [
               "Confusing set design (environment) with costume or seating.",
             ],
@@ -171,7 +171,7 @@ export const lesson52: Lesson = {
               { reasoning: "Costumes define character, period and situation through clothing choices.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Define character and period",
+            finalAnswer: "**(c)** Define character and period",
             commonErrors: [
               "Confusing costume design with set design.",
             ],
@@ -229,7 +229,7 @@ export const lesson52: Lesson = {
               { reasoning: "Confinement is served by claustrophobic, enclosed physical space.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A small, claustrophobic set suggesting entrapment",
+            finalAnswer: "**(d)** A small, claustrophobic set suggesting entrapment",
             commonErrors: [
               "Choosing sets for convenience rather than thematic fit.",
             ],
@@ -258,7 +258,7 @@ export const lesson52: Lesson = {
               { reasoning: "Realistic setting plus distorted lighting can express characters' inner worlds distorting reality.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Tension between perceived reality and psychological distortion",
+            finalAnswer: "**(c)** Tension between perceived reality and psychological distortion",
             commonErrors: [
               "Assuming contrasting design elements are always incoherent.",
             ],
@@ -287,7 +287,7 @@ export const lesson52: Lesson = {
               { reasoning: "Sound design includes music, effects and ambient/atmospheric sound.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Music, sound effects and ambient sound",
+            finalAnswer: "**(a)** Music, sound effects and ambient sound",
             commonErrors: [
               "Reducing sound design to dialogue alone.",
             ],
@@ -316,7 +316,7 @@ export const lesson52: Lesson = {
               { reasoning: "Integration of all four elements serving one concept creates cohesion.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Set, costume, lighting and sound work together to serve the concept",
+            finalAnswer: "**(c)** Set, costume, lighting and sound work together to serve the concept",
             commonErrors: [
               "Judging cohesion by one element alone.",
             ],
@@ -345,7 +345,7 @@ export const lesson52: Lesson = {
               { reasoning: "Contradictory design signals break the audience's belief in the world.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Feel confused and lose trust in the production's world",
+            finalAnswer: "**(c)** Feel confused and lose trust in the production's world",
             commonErrors: [
               "Assuming audiences will automatically reconcile contradictions.",
             ],
@@ -512,7 +512,7 @@ export const lesson52: Lesson = {
               { reasoning: "A strong stage picture has one clear visual focus guiding the eye.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** One clear visual focus that guides the audience's eye",
+            finalAnswer: "**(d)** One clear visual focus that guides the audience's eye",
             commonErrors: [
               "Creating cluttered stage pictures without clear focus.",
             ],
@@ -613,7 +613,7 @@ export const lesson52: Lesson = {
               { reasoning: "The stage picture is the live visual composition the audience sees.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The visual composition of the stage at any moment",
+            finalAnswer: "**(a)** The visual composition of the stage at any moment",
             commonErrors: [
               "Confusing stage picture with static set design.",
             ],
@@ -671,7 +671,7 @@ export const lesson52: Lesson = {
               { reasoning: "Without a dominant focal point the audience's eye has nowhere to rest.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Lack of a clear visual focus",
+            finalAnswer: "**(c)** Lack of a clear visual focus",
             commonErrors: [
               "Blaming casting or costumes rather than composition.",
             ],
@@ -700,7 +700,7 @@ export const lesson52: Lesson = {
               { reasoning: "Light plus peripheral positioning creates clear visual hierarchy without emptying the stage.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Lighting the focal actor and placing others at the edges or in shadow",
+            finalAnswer: "**(c)** Lighting the focal actor and placing others at the edges or in shadow",
             commonErrors: [
               "Removing actors rather than composing focus.",
             ],
@@ -758,7 +758,7 @@ export const lesson52: Lesson = {
               { reasoning: "Dynamic pictures evolve through movement, levels and focus as the drama unfolds.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Change with the drama — movement, level shifts, focus changes",
+            finalAnswer: "**(a)** Change with the drama — movement, level shifts, focus changes",
             commonErrors: [
               "Confusing dynamic pictures with static tableaux.",
             ],
@@ -787,7 +787,7 @@ export const lesson52: Lesson = {
               { reasoning: "Without visual change the stage feels inert regardless of dialogue.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Dead and lifeless to the audience",
+            finalAnswer: "**(a)** Dead and lifeless to the audience",
             commonErrors: [
               "Assuming dialogue alone can sustain a static picture.",
             ],

@@ -137,7 +137,7 @@ export const lesson142: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "OILRIG", statement: "Oxidation Is Loss of electrons." }],
             steps: [{ reasoning: "Recall.", working: "O \\to \\text{loss}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Loss of electrons",
+            finalAnswer: "**(c)** Loss of electrons",
             commonErrors: ["Reversing OILRIG — oxidation is LOSS."],
           },
         },
@@ -243,7 +243,7 @@ export const lesson142: Lesson = {
           markscheme: {
             principles: [{ kind: "principle", name: "Oxidising agent", statement: "Species that is reduced." }],
             steps: [{ reasoning: "Cu²⁺ → Cu is reduced.", working: "Cu^{2+} + 2e^- \\to Cu", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Cu²⁺",
+            finalAnswer: "**(c)** Cu²⁺",
             commonErrors: ["Choosing Zn — it's oxidised, so it's the reducing agent."],
           },
         },
@@ -386,7 +386,7 @@ export const lesson142: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Oxidation half-eqn", statement: "Electrons on product side (lost)." }],
             steps: [{ reasoning: "Recall.", working: "\\text{e}^- \\text{ on right}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Zn → Zn²⁺ + 2e⁻",
+            finalAnswer: "**(a)** Zn → Zn²⁺ + 2e⁻",
             commonErrors: ["Picking reduction — electrons on wrong side."],
           },
         },
@@ -572,7 +572,7 @@ export const lesson142: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Oxidation half-eqn", statement: "e⁻ lost → products." }],
             steps: [{ reasoning: "Recall.", working: "e^- \\text{ on right}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Product side (right)",
+            finalAnswer: "**(c)** Product side (right)",
             commonErrors: ["Putting them left — that's reduction."],
           },
         },
@@ -641,7 +641,7 @@ export const lesson142: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Half-equation", statement: "Reduction: e⁻ on reactant side." }],
             steps: [{ reasoning: "Recall.", working: "e^- \\text{ left for reduction}", marks: 1, markCode: "B" }],
-            finalAnswer: "**(b)** Reactant side",
+            finalAnswer: "**(c)** Reactant side",
             commonErrors: ["Putting them on product side — that's oxidation."],
           },
         },

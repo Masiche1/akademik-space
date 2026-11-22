@@ -108,7 +108,7 @@ export const lesson42: Lesson = {
 ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "definition", name: "Systematic error", statement: "Consistent offset — calibration/zero issues." }],
             steps: [{ reasoning: "Consistent offset = systematic.", marks: 2, markCode: "AO1" }],
-            finalAnswer: "**(b)** Systematic", commonErrors: ["Random assumed — random scatters."] },
+            finalAnswer: "**(c)** Systematic", commonErrors: ["Random assumed — random scatters."] },
         },
         {
           id: "esc10-u4-evaluation-q2", difficulty: "core", totalMarks: 3,

@@ -417,7 +417,7 @@ export const lesson22: Lesson = {
             { id: "b", text: "Sight" },
             { id: "c", text: "Hearing" },
             { id: "d", text: "Smell" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Sensory description", statement: "Use words for the five senses." }],
             steps: [{ reasoning: "'Warm' is touch/temperature; 'tasty' is taste.", marks: 1, markCode: "AO2" }],

@@ -94,7 +94,7 @@ export const lesson43: Lesson = {
               { id: "c", text: "$0.40$" },
               { id: "d", text: "$0.60$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -120,7 +120,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $0.60$",
+            finalAnswer: "**(d)** $0.60$",
             commonErrors: [
               "Answering $0.40$ — that is $q$, the recessive allele frequency, not $p$.",
               "Taking $p = \\sqrt{0.16}$ directly.",
@@ -201,7 +201,7 @@ export const lesson43: Lesson = {
               { id: "c", text: "$0.24$" },
               { id: "d", text: "$0.36$" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -240,7 +240,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(c)** $0.48$",
+            finalAnswer: "**(b)** $0.48$",
             commonErrors: [
               "Computing $pq = 0.24$ instead of $2pq$ — forgetting heterozygotes can form in two ways ($Ab$ and $aB$).",
             ],
@@ -403,7 +403,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** $2pq$",
+            finalAnswer: "**(d)** $2pq$",
             commonErrors: [
               "Answering $pq$ — that omits the two ways a heterozygote can be formed.",
             ],
@@ -451,7 +451,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The frequency of recessive homozygotes",
+            finalAnswer: "**(d)** The frequency of recessive homozygotes",
             commonErrors: [
               "Confusing $q$ with $q^2$ — $q$ is the allele frequency, $q^2$ is the recessive homozygote frequency.",
             ],
@@ -717,7 +717,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Heterozygotes have frequency $2pq$, which is much greater than $q^2$ when $q$ is small",
+              "**(a)** Heterozygotes have frequency $2pq$, which is much greater than $q^2$ when $q$ is small",
             commonErrors: [
               "Thinking carriers have two copies — carriers are heterozygous with one copy.",
             ],
@@ -1197,7 +1197,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** A population of 50 individuals on an isolated island",
+              "**(d)** A population of 50 individuals on an isolated island",
             commonErrors: [
               "Choosing the largest population — drift weakens as $N$ grows.",
             ],
@@ -1252,7 +1252,7 @@ export const lesson43: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** The bottleneck effect",
+            finalAnswer: "**(d)** The bottleneck effect",
             commonErrors: [
               "Confusing bottleneck with founder effect — founder applies when a new population is founded, bottleneck when an existing one crashes.",
             ],
@@ -1327,7 +1327,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Gene flow will gradually make the allele frequencies more similar between the islands",
+              "**(c)** Gene flow will gradually make the allele frequencies more similar between the islands",
             commonErrors: [
               "Thinking migration speeds divergence — it does the opposite by mixing gene pools.",
             ],
@@ -1845,7 +1845,7 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Genotype frequencies change — typically fewer heterozygotes — while allele frequencies may be unchanged",
+              "**(c)** Genotype frequencies change — typically fewer heterozygotes — while allele frequencies may be unchanged",
             commonErrors: [
               "Claiming allele frequencies must change — non-random mating redistributes genotypes but not the allele pool.",
             ],

@@ -279,7 +279,7 @@ export const lesson212: Lesson = {
             steps: [
               { reasoning: "1000 = 1×8 = 8.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** 8",
+            finalAnswer: "**(c)** 8",
           },
         },
         {
@@ -315,7 +315,7 @@ export const lesson212: Lesson = {
               { reasoning: "n bits give 2^n values: 2^4 = 16.", marks: 1, markCode: "M" },
               { reasoning: "4 bits → 16 values (0-15).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** 16",
+            finalAnswer: "**(b)** 16",
           },
         },
         {

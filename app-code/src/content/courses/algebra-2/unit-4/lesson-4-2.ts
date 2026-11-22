@@ -64,7 +64,7 @@ export const lesson42: Lesson = {
               { reasoning: "Factor the trinomial into two binomials whose product is $6$ and whose sum is $-5$.", working: "x^2-5x+6=(x-2)(x-3)", marks: 1, markCode: "M" },
               { reasoning: "Set each factor equal to zero and solve both linear equations.", working: "x-2=0 \\quad\\text{or}\\quad x-3=0 \\implies x=2 \\text{ or } x=3", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** $x=2$ or $x=3$.",
+            finalAnswer: "**(c)** $x=2$ or $x=3$.",
             commonErrors: ["Giving the factor constants with the wrong signs as roots.", "Reporting only one of the two solutions."],
           },
         },
@@ -196,7 +196,7 @@ export const lesson42: Lesson = {
             { id: "b", text: "No roots in any number system" },
             { id: "c", text: "Two distinct real roots" },
             { id: "d", text: "One repeated real root" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [
               { kind: "formula", name: "Discriminant", statement: "$D=b^2-4ac$." },
@@ -206,7 +206,7 @@ export const lesson42: Lesson = {
               { reasoning: "Identify the coefficients and calculate the discriminant.", working: "a=2,\\;b=-4,\\;c=5;\\qquad D=(-4)^2-4(2)(5)=16-40=-24", marks: 1, markCode: "M" },
               { reasoning: "Since the discriminant is negative, the equation has no real roots, although it does have two complex roots.", marks: 1, markCode: "R" },
             ],
-            finalAnswer: "**(c)** No real roots; two nonreal complex roots.",
+            finalAnswer: "**(a)** No real roots; two nonreal complex roots.",
             commonErrors: ["Calling the equation rootless in every number system.", "Treating a negative discriminant as one repeated root."],
           },
         },

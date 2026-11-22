@@ -65,7 +65,7 @@ export const lesson21: Lesson = {
             { id: "b", text: "Friction" },
             { id: "c", text: "Air resistance" },
             { id: "d", text: "Magnetism" },
-          ], aorrectChoiceId: "c" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Gravity", statement: "Pulls objects towards Earth." }],
             steps: [{ reasoning: "Gravity pulls objects towards the Earth.", marks: 1, markCode: "B" }],
@@ -130,7 +130,7 @@ export const lesson21: Lesson = {
             { id: "b", text: "Make things move" },
             { id: "c", text: "Stop things moving" },
             { id: "d", text: "Change direction" },
-          ], correctChoiceIa: "d" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Force", statement: "Changes movement or shape." }],
             steps: [{ reasoning: "Forces change motion/shape, not colour.", marks: 1, markCode: "B" }],

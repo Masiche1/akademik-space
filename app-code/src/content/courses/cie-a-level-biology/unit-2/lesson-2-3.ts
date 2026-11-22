@@ -97,7 +97,7 @@ export const lesson223b: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Hydrogen bond",
+            finalAnswer: "**(b)** Hydrogen bond",
             commonErrors: ["Confusing with covalent bonds within a molecule."],
           },
         },
@@ -263,7 +263,7 @@ export const lesson223b: Lesson = {
             steps: [
               { reasoning: "Oxygen attracts bonding electrons, becoming slightly negative.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\delta^-$ oxygen, $\\delta^+$ hydrogen",
+            finalAnswer: "**(c)** $\\delta^-$ oxygen, $\\delta^+$ hydrogen",
             commonErrors: ["Reversing the signs of the partial charges."],
           },
         },
@@ -293,7 +293,7 @@ export const lesson223b: Lesson = {
             steps: [
               { reasoning: "High specific heat capacity stabilises temperature.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** High specific heat capacity",
+            finalAnswer: "**(d)** High specific heat capacity",
             commonErrors: ["Choosing low density, which relates to ice."],
           },
         },
@@ -383,7 +383,7 @@ export const lesson223b: Lesson = {
             steps: [
               { reasoning: "Floating ice reduces heat loss from water below.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Insulates water beneath",
+            finalAnswer: "**(b)** Insulates water beneath",
             commonErrors: ["Thinking ice sinks and freezes the whole water body."],
           },
         },
@@ -413,7 +413,7 @@ export const lesson223b: Lesson = {
             steps: [
               { reasoning: "Polarity allows water to interact with charged and polar species.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Dissolves ions and polar molecules",
+            finalAnswer: "**(c)** Dissolves ions and polar molecules",
             commonErrors: ["Claiming water dissolves everything equally."],
           },
         },
@@ -817,7 +817,7 @@ export const lesson223b: Lesson = {
             steps: [
               { reasoning: "The enzyme is regenerated unchanged.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Unchanged and reusable",
+            finalAnswer: "**(c)** Unchanged and reusable",
             commonErrors: ["Thinking enzymes are used up."],
           },
         },
@@ -877,7 +877,7 @@ export const lesson223b: Lesson = {
             steps: [
               { reasoning: "Complementary shapes give specificity.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Active site fits substrate",
+            finalAnswer: "**(d)** Active site fits substrate",
             commonErrors: ["Ignoring shape complementarity."],
           },
         },
@@ -907,7 +907,7 @@ export const lesson223b: Lesson = {
             steps: [
               { reasoning: "Loss of tertiary structure prevents substrate binding.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Bonds disrupted; shape lost",
+            finalAnswer: "**(c)** Bonds disrupted; shape lost",
             commonErrors: ["Saying the enzyme is destroyed permanently in all cases."],
           },
         },
@@ -937,7 +937,7 @@ export const lesson223b: Lesson = {
             steps: [
               { reasoning: "Activity is maximal near optimum pH.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Optimum pH varies by enzyme",
+            finalAnswer: "**(b)** Optimum pH varies by enzyme",
             commonErrors: ["Assuming all enzymes work best at pH 7."],
           },
         },
@@ -967,7 +967,7 @@ export const lesson223b: Lesson = {
             steps: [
               { reasoning: "Non-competitive binding changes active-site shape indirectly.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Non-competitive inhibitor",
+            finalAnswer: "**(d)** Non-competitive inhibitor",
             commonErrors: ["Confusing it with competitive inhibition."],
           },
         },

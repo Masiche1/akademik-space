@@ -67,7 +67,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Differentiate term by term: $4x^3\\to12x^2$, $-5x\\to-5$, $2\\to0$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $12x^2-5$",
+            finalAnswer: "**(d)** $12x^2-5$",
             commonErrors: ["Leaving the constant as $2$ instead of $0$.", "Differentiating $4x^3$ to $4x^2$ without multiplying by the power."],
           },
         },
@@ -198,7 +198,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Raise the power by 1 and divide by the new power: $\\int6x^2\\,dx=6\\times\\frac{x^3}{3}+c=2x^3+c$.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $2x^3+c$",
+            finalAnswer: "**(c)** $2x^3+c$",
             commonErrors: ["Differentiating instead of integrating.", "Forgetting $+c$.", "Dividing by $n$ instead of $n+1$."],
           },
         },

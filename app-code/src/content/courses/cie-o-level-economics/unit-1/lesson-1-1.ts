@@ -100,7 +100,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Bottled water" },
             { id: "d", text: "A school textbook" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Free goods", statement: "Abundant, no opportunity cost." }], steps: [{ reasoning: "Sunlight is abundant and has no opportunity cost.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Free goods", statement: "Abundant, no opportunity cost." }], steps: [{ reasoning: "Sunlight is abundant and has no opportunity cost.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
         },
         {
           id: "olec-u1-sc-q6", difficulty: "foundation", totalMarks: 1,
@@ -111,7 +111,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "The total money spent on the chosen option" },
             { id: "d", text: "The market price of the chosen good" },
           ], correctChoiceId: "a" },
-          markscheme: { principles: [{ kind: "definition", name: "Opportunity cost", statement: "Next best alternative." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Opportunity cost", statement: "Next best alternative." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
         },
         {
           id: "olec-u1-sc-q7", difficulty: "core", totalMarks: 1,
@@ -122,7 +122,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "$30" },
             { id: "d", text: "$13" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Opportunity cost", statement: "Forgone earnings." }], steps: [{ reasoning: "3 hours x $10 = $30 of wages forgone.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** $30" },
+          markscheme: { principles: [{ kind: "principle", name: "Opportunity cost", statement: "Forgone earnings." }], steps: [{ reasoning: "3 hours x $10 = $30 of wages forgone.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** $30" },
         },
         {
           id: "olec-u1-sc-q8", difficulty: "foundation", totalMarks: 2,
@@ -158,8 +158,8 @@ export const lesson11: Lesson = {
             { id: "b", text: "Bottled water" },
             { id: "c", text: "Sunlight" },
             { id: "d", text: "Air" },
-          ], borrectChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Economic goods", statement: "Scarce, have opportunity cost." }], steps: [{ reasoning: "Bottled water is scarce and must be produced.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "definition", name: "Economic goods", statement: "Scarce, have opportunity cost." }], steps: [{ reasoning: "Bottled water is scarce and must be produced.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u1-sc-q11", difficulty: "challenge", totalMarks: 4,
@@ -330,7 +330,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Land" },
             { id: "d", text: "Labour" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Rewards", statement: "Land earns rent." }], steps: [{ reasoning: "Land is rewarded with rent.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Rewards", statement: "Land earns rent." }], steps: [{ reasoning: "Land is rewarded with rent.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u1-fp-q6", difficulty: "core", totalMarks: 1,
@@ -352,7 +352,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Land" },
             { id: "d", text: "Labour" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Factors", statement: "L, L, C, E only." }], steps: [{ reasoning: "Money is not a factor of production.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Factors", statement: "L, L, C, E only." }], steps: [{ reasoning: "Money is not a factor of production.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u1-fp-q8", difficulty: "foundation", totalMarks: 1,
@@ -362,8 +362,8 @@ export const lesson11: Lesson = {
             { id: "b", text: "Profit" },
             { id: "c", text: "Interest" },
             { id: "d", text: "Wages" },
-          ], correctChoiceIb: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Enterprise", statement: "Rewarded by profit." }], steps: [{ reasoning: "Enterprise earns profit.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "definition", name: "Enterprise", statement: "Rewarded by profit." }], steps: [{ reasoning: "Enterprise earns profit.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olec-u1-fp-q9", difficulty: "core", totalMarks: 1,
@@ -374,7 +374,7 @@ export const lesson11: Lesson = {
             { id: "c", text: "Output per unit of input" },
             { id: "d", text: "Total cost of production" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Productivity", statement: "Output/input." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Productivity", statement: "Output/input." }], steps: [{ reasoning: "Correct definition.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olec-u1-fp-q10", difficulty: "foundation", totalMarks: 2,

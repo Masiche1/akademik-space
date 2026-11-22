@@ -63,7 +63,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Velocity is a vector; its direction keeps changing, so there is an acceleration, and it points toward the center.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** It is directed toward the center of the circle.",
+            finalAnswer: "**(d)** It is directed toward the center of the circle.",
             commonErrors: ["Thinking constant speed means zero acceleration.", "Believing an outward force acts on the car (confusing it with the sensation of being pushed outward)."],
             examinerNote: "B1 for choice (a).",
           },
@@ -191,7 +191,7 @@ export const lesson22: Lesson = {
             steps: [
               { reasoning: "Doubling $r$ multiplies $r^2$ by 4, so the force is divided by 4.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $F/4$",
+            finalAnswer: "**(b)** $F/4$",
             commonErrors: ["Treating the force as inversely proportional to $r$ rather than $r^2$, giving $F/2$."],
             examinerNote: "B1 for choice (a).",
           },

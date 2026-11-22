@@ -92,7 +92,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Simile", statement: "Uses 'like' to compare lamps to moons." }],
             steps: [{ reasoning: "'like captured moons' is a comparison using 'like'.", evidence: "like captured moons", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** Simile.",
+            finalAnswer: "**(d)** Simile.",
             commonErrors: ["Choosing alliteration because the sentence contains repeated sounds."],
           },
         },
@@ -222,7 +222,7 @@ export const lesson33: Lesson = {
           markscheme: {
             principles: [{ kind: "skill", name: "Planning", statement: "A short plan improves structure and saves time." }],
             steps: [{ reasoning: "Planning improves control of structure and ending.", marks: 1, markCode: "AO4" }],
-            finalAnswer: "**(a)** Plan the structure, key images and ending.",
+            finalAnswer: "**(b)** Plan the structure, key images and ending.",
             commonErrors: ["Believing more words means more marks (b)."],
           },
         },

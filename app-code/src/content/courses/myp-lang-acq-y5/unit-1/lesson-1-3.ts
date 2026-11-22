@@ -187,7 +187,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — subtext is implied, not literal.", working: "implied", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The underlying meaning or attitude beneath the surface text",
+            finalAnswer: "**(a)** The underlying meaning or attitude beneath the surface text",
             commonErrors: ["Confusing subtext with literal content."],
             examinerNote: "B1 for (b).",
           },
@@ -214,7 +214,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'minor hiccup' minimises a serious problem.", working: "understatement", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Understatement",
+            finalAnswer: "**(d)** Understatement",
             commonErrors: ["Reading 'hiccup' literally as a small event."],
             examinerNote: "B1 for (b).",
           },
@@ -445,7 +445,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — omitting victims' voices privileges other perspectives.", working: "perspective", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The framing may privilege official or perpetrator perspectives",
+            finalAnswer: "**(a)** The framing may privilege official or perpetrator perspectives",
             commonErrors: ["Assuming omissions carry no meaning."],
             examinerNote: "B1 for (b).",
           },
@@ -515,7 +515,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — the praising agency designed the plan, so praise is suspect.", working: "conflict", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The praise may be compromised by a conflict of interest",
+            finalAnswer: "**(d)** The praise may be compromised by a conflict of interest",
             commonErrors: ["Accepting superlative praise without checking the source."],
             examinerNote: "B1 for (b).",
           },
@@ -573,7 +573,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — context shapes meaning.", working: "context", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Because culture, history and social norms shape interpretation",
+            finalAnswer: "**(a)** Because culture, history and social norms shape interpretation",
             commonErrors: ["Assuming gestures have universal meaning."],
             examinerNote: "B1 for (b).",
           },
@@ -690,7 +690,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'everyone' treats a diverse group as uniform.", working: "overgeneralisation", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Because it overgeneralises a diverse group",
+            finalAnswer: "**(a)** Because it overgeneralises a diverse group",
             commonErrors: ["Thinking cultural description itself is forbidden."],
             examinerNote: "B1 for (b).",
           },
@@ -717,7 +717,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'in some contexts' and 'may' limit the claim appropriately.", working: "cautious", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** In some contexts, people may do X.",
+            finalAnswer: "**(a)** In some contexts, people may do X.",
             commonErrors: ["Choosing absolute phrasing."],
             examinerNote: "B1 for (b).",
           },
@@ -948,7 +948,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — the four-part structure is the most precise and cautious.", working: "4-part", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Similarity + difference + possible reason + limit",
+            finalAnswer: "**(d)** Similarity + difference + possible reason + limit",
             commonErrors: ["Choosing the simplest contrast without qualification."],
             examinerNote: "B1 for (b).",
           },
@@ -1017,7 +1017,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion B: Reading — 'may vary' acknowledges diversity; 'always' essentialises.", working: "nuance", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It avoids an absolute generalisation about a whole country",
+            finalAnswer: "**(d)** It avoids an absolute generalisation about a whole country",
             commonErrors: ["Thinking longer sentences are automatically better."],
             examinerNote: "B1 for (b).",
           },

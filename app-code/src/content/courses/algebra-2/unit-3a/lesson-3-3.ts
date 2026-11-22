@@ -60,7 +60,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "$g(x)=2(x-4)+1$" },
               { id: "d", text: "$g(x)=2x-3$" },
             ],
-            aorrectChoiceId: "c",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -71,7 +71,7 @@ export const lesson33: Lesson = {
               { reasoning: "Represent an upward shift of 4 by adding 4 to the function output.", working: "g(x)=f(x)+4", marks: 1, markCode: "M" },
               { reasoning: "Substitute the original rule and combine constants.", working: "g(x)=2x+1+4=2x+5", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(c)** $g(x)=2x+5$",
+            finalAnswer: "**(a)** $g(x)=2x+5$",
             commonErrors: ["Subtracting 4, which shifts the graph down.", "Using $x-4$ inside the function, which is a horizontal shift."],
           },
         },
@@ -235,7 +235,7 @@ export const lesson33: Lesson = {
               { id: "c", text: "$g(x)=3x+4$" },
               { id: "d", text: "$g(x)=-3x+4$" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -247,7 +247,7 @@ export const lesson33: Lesson = {
               { reasoning: "Simplify the expression; the constant term is unchanged.", working: "g(x)=-3x+4", marks: 1, markCode: "A" },
               { reasoning: "Identify the option with the reflected equation.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** $g(x)=-3x+4$",
+            finalAnswer: "**(d)** $g(x)=-3x+4$",
             commonErrors: ["Negating the whole function, which reflects across the $x$-axis.", "Changing the sign of the constant term when reflecting across the $y$-axis."],
           },
         },
@@ -375,7 +375,7 @@ export const lesson33: Lesson = {
               { reasoning: "The input is unchanged, so the $x$-coordinate stays the same.", working: "x'=x", marks: 1, markCode: "B" },
               { reasoning: "Multiply the output by 3; because 3 is greater than 1, this is a vertical stretch.", working: "y'=3y\\quad\\Rightarrow\\quad(x,y)\\mapsto(x,3y)", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** $(x,y)\\mapsto(x,3y)$; a vertical stretch by a factor of 3.",
+            finalAnswer: "**(d)** $(x,y)\\mapsto(x,3y)$; a vertical stretch by a factor of 3.",
             commonErrors: ["Multiplying the $x$-coordinate, which would change the input rather than the output."],
           },
         },

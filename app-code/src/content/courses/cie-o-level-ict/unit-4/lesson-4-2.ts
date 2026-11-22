@@ -97,7 +97,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "The licence expires daily" },
             { id: "d", text: "It slows the computer" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Antivirus updates", statement: "New threats." }], steps: [{ reasoning: "Updates add signatures for new malware.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** New malware threats appear constantly" },
+          markscheme: { principles: [{ kind: "principle", name: "Antivirus updates", statement: "New threats." }], steps: [{ reasoning: "Updates add signatures for new malware.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** New malware threats appear constantly" },
         },
         {
           id: "olict-u4-df-q6", difficulty: "core", totalMarks: 1,
@@ -108,7 +108,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Your date of birth" },
             { id: "d", text: "Your email address" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "2FA", statement: "Second verification." }], steps: [{ reasoning: "Phone code is a second factor.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A code sent to your phone" },
+          markscheme: { principles: [{ kind: "definition", name: "2FA", statement: "Second verification." }], steps: [{ reasoning: "Phone code is a second factor.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** A code sent to your phone" },
         },
         {
           id: "olict-u4-df-q7", difficulty: "foundation", totalMarks: 2,
@@ -137,7 +137,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Data confidentiality" },
             { id: "d", text: "Computer speed" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "principle", name: "Encryption", statement: "Unreadable data." }], steps: [{ reasoning: "Encryption keeps data secret.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Data confidentiality" },
+          markscheme: { principles: [{ kind: "principle", name: "Encryption", statement: "Unreadable data." }], steps: [{ reasoning: "Encryption keeps data secret.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Data confidentiality" },
         },
         {
           id: "olict-u4-df-q10", difficulty: "core", totalMarks: 2,
@@ -168,7 +168,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "A faster mouse" },
             { id: "d", text: "More staff" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Backups", statement: "Recovery from ransomware." }], steps: [{ reasoning: "Backups allow restoration.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Recent backups" },
+          markscheme: { principles: [{ kind: "principle", name: "Backups", statement: "Recovery from ransomware." }], steps: [{ reasoning: "Backups allow restoration.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Recent backups" },
         },
         {
           id: "olict-u4-df-q13", difficulty: "core", totalMarks: 2,
@@ -188,7 +188,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Battery life" },
             { id: "d", text: "Who can view or edit data" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Permissions", statement: "Access rules." }], steps: [{ reasoning: "Permissions govern access.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Who can view or edit data" },
+          markscheme: { principles: [{ kind: "definition", name: "Permissions", statement: "Access rules." }], steps: [{ reasoning: "Permissions govern access.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Who can view or edit data" },
         },
         {
           id: "olict-u4-df-q15", difficulty: "challenge", totalMarks: 4,
@@ -210,7 +210,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Using a firewall" },
             { id: "d", text: "Encrypting stored data" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Defences", statement: "vs bad practice." }], steps: [{ reasoning: "Sticky note is a risk, not a defence.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Writing your password on a sticky note" },
+          markscheme: { principles: [{ kind: "principle", name: "Defences", statement: "vs bad practice." }], steps: [{ reasoning: "Sticky note is a risk, not a defence.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Writing your password on a sticky note" },
         },
       ],
     },
@@ -240,7 +240,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Share data freely" },
             { id: "d", text: "Keep personal data secure" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Data protection", statement: "Secure personal data." }], steps: [{ reasoning: "Keep data secure.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Keep data secure" },
+          markscheme: { principles: [{ kind: "definition", name: "Data protection", statement: "Secure personal data." }], steps: [{ reasoning: "Keep data secure.", marks: 1, markCode: "B" }], finalAnswer: "**(d)** Keep data secure" },
         },
         {
           id: "olict-u4-dp-q2", difficulty: "core", totalMarks: 2,
@@ -295,7 +295,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Only the data that is needed" },
             { id: "d", text: "No data at all" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Data minimisation", statement: "Only what's needed." }], steps: [{ reasoning: "Collect only necessary data.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Only the data that is needed" },
+          markscheme: { principles: [{ kind: "definition", name: "Data minimisation", statement: "Only what's needed." }], steps: [{ reasoning: "Collect only necessary data.", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Only the data that is needed" },
         },
         {
           id: "olict-u4-dp-q6", difficulty: "core", totalMarks: 1,
@@ -306,7 +306,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Never" },
             { id: "d", text: "For any purpose" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Purpose limitation", statement: "Stated use only." }], steps: [{ reasoning: "Use only for stated purpose.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** For the stated purpose it was collected" },
+          markscheme: { principles: [{ kind: "definition", name: "Purpose limitation", statement: "Stated use only." }], steps: [{ reasoning: "Use only for stated purpose.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** For the stated purpose it was collected" },
         },
         {
           id: "olict-u4-dp-q7", difficulty: "foundation", totalMarks: 2,
@@ -335,7 +335,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Hide it" },
             { id: "d", text: "Ignore it" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Breach reporting", statement: "Notify + report." }], steps: [{ reasoning: "Breach must be reported.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Report it and inform affected people" },
+          markscheme: { principles: [{ kind: "principle", name: "Breach reporting", statement: "Notify + report." }], steps: [{ reasoning: "Breach must be reported.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Report it and inform affected people" },
         },
         {
           id: "olict-u4-dp-q10", difficulty: "core", totalMarks: 2,
@@ -366,7 +366,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Keep data forever" },
             { id: "d", text: "Share data freely" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Storage limitation", statement: "Delete when done." }], steps: [{ reasoning: "Delete when no longer needed.", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Delete data when no longer needed" },
+          markscheme: { principles: [{ kind: "definition", name: "Storage limitation", statement: "Delete when done." }], steps: [{ reasoning: "Delete when no longer needed.", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Delete data when no longer needed" },
         },
         {
           id: "olict-u4-dp-q13", difficulty: "foundation", totalMarks: 2,

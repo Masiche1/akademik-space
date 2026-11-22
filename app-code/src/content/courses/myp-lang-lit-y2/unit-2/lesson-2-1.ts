@@ -188,7 +188,7 @@ export const lesson21: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): 'Although it was late' (subject 'it', verb 'was') + 'she kept working' = two clauses — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Two",
+            finalAnswer: "**(a)** Two",
           },
         },
         {

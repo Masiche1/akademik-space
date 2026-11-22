@@ -336,7 +336,7 @@ export const lesson53: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(a)** Distance via inverse-square law",
+            finalAnswer: "**(c)** Distance via inverse-square law",
             commonErrors: ["Thinking brightness falls linearly with distance."],
           },
         },

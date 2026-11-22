@@ -230,7 +230,7 @@ export const lesson18: Lesson = {
             steps: [
               { reasoning: "'repeat 6' runs everything inside the loop 6 times.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Runs the blocks inside 6 times",
+            finalAnswer: "**(b)** Runs the blocks inside 6 times",
           },
         },
         {
@@ -279,7 +279,7 @@ export const lesson18: Lesson = {
             steps: [
               { reasoning: "An infinite loop repeats forever; it is a bug that freezes programs.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** A loop that never stops",
+            finalAnswer: "**(b)** A loop that never stops",
           },
         },
         {
@@ -315,7 +315,7 @@ export const lesson18: Lesson = {
               { reasoning: "'repeat forever' never ends — that is the bug.", marks: 1, markCode: "M" },
               { reasoning: "Fix: use a counted repeat (e.g. repeat 20) or a condition that ends.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Infinite loop — use a counted repeat",
+            finalAnswer: "**(c)** Infinite loop — use a counted repeat",
           },
         },
         {

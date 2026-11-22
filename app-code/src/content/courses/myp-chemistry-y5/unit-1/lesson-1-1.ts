@@ -71,7 +71,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "2n² for n=2 gives 2×4 = 8 electrons.", working: "2\\times2^2=8", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 8",
+            finalAnswer: "**(c)** 8",
             commonErrors: ["Using n² instead of 2n², giving 4."],
             examinerNote: "B1 for (a).",
           },
@@ -186,7 +186,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "2n² for n=3 gives 2×9 = 18 electrons.", working: "2\\times3^2=18", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 18",
+            finalAnswer: "**(b)** 18",
             commonErrors: ["Using 8 because shell 2 holds 8."],
             examinerNote: "B1 for (a).",
           },
@@ -213,7 +213,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "After 3p comes 4s in the aufbau sequence.", working: "3p\\to4s", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 4s",
+            finalAnswer: "**(d)** 4s",
             commonErrors: ["Choosing 3d — 4s fills before 3d."],
             examinerNote: "B1 for (a).",
           },
@@ -377,7 +377,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "10 electrons fill 1s²2s²2p⁶ completely.", working: "1s^2\\,2s^2\\,2p^6", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** 1s²2s²2p⁶",
+            finalAnswer: "**(d)** 1s²2s²2p⁶",
             commonErrors: ["Adding a 3s electron — neon's outer shell is already full."],
             examinerNote: "B1 for (a).",
           },
@@ -537,7 +537,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Valence electrons determine bonding and reactivity.", working: "\\text{valence}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Same valence electrons",
+            finalAnswer: "**(b)** Same valence electrons",
             commonErrors: ["Saying same number of shells — that is a period."],
             examinerNote: "B1 for (a).",
           },
@@ -652,7 +652,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Period reflects the outermost shell containing electrons.", working: "\\text{period}=n_{max}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Highest occupied shell",
+            finalAnswer: "**(b)** Highest occupied shell",
             commonErrors: ["Confusing period with group (valence electrons)."],
             examinerNote: "B1 for (a).",
           },
@@ -679,7 +679,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "Si sits on the metalloid diagonal between metals and non-metals.", working: "\\text{Si metalloid}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Silicon",
+            finalAnswer: "**(d)** Silicon",
             commonErrors: ["Classifying silicon as a non-metal because it is not lustrous."],
             examinerNote: "B1 for (a).",
           },
@@ -843,7 +843,7 @@ export const lesson11: Lesson = {
             steps: [
               { reasoning: "f-block = lanthanides and actinides.", working: "\\text{f-block}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** Lanthanides and actinides",
+            finalAnswer: "**(d)** Lanthanides and actinides",
             commonErrors: ["Confusing f-block with d-block transition metals."],
             examinerNote: "B1 for (a).",
           },

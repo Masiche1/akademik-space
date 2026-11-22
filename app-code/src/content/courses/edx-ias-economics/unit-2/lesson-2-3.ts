@@ -93,7 +93,7 @@ export const lesson23: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(b)** Below average",
+            finalAnswer: "**(d)** Below average",
             commonErrors: ["Absolute confused."],
           },
         },

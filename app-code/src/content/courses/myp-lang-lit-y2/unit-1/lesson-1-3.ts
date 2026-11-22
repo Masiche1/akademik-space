@@ -72,7 +72,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Criterion A (Analysing): evidence = details/quotations supporting your point — (b).", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Details or quotations from the text that support your point",
+            finalAnswer: "**(c)** Details or quotations from the text that support your point",
           },
         },
         {

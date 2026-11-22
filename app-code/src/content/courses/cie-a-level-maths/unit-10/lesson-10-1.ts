@@ -119,7 +119,7 @@ export const lesson101: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Iteration", statement: "Substitute x₀ into g(x)." }],
             steps: [{ reasoning: "$x_1 = (1+6)^{1/3} = 7^{1/3} \\approx 1.91$.", marks: 1, markCode: "M" }],
-            finalAnswer: "**(a)** $x_1 \\approx 1.91$",
+            finalAnswer: "**(d)** $x_1 \\approx 1.91$",
           },
         },
         {
@@ -191,7 +191,7 @@ export const lesson101: Lesson = {
               { reasoning: "The differences between successive iterates shrink: $1 \\to 0.5 \\to 0.167 \\to 0.083 \\to \\cdots$", marks: 1, markCode: "M" },
               { reasoning: "Converging to the golden ratio $\\approx 1.618$.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** Converging to $\\approx 1.62$",
+            finalAnswer: "**(b)** Converging to $\\approx 1.62$",
           },
         },
         {
@@ -226,7 +226,7 @@ export const lesson101: Lesson = {
           markscheme: {
             principles: [{ kind: "theorem", name: "Sign change", statement: "Same signs do not rule out a root." }],
             steps: [{ reasoning: "Without a sign change we cannot guarantee a root, but none is excluded either.", marks: 1, markCode: "M" }],
-            finalAnswer: "**(b)** A root may still exist",
+            finalAnswer: "**(a)** A root may still exist",
           },
         },
         {

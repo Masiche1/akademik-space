@@ -77,7 +77,7 @@ export const lesson11: Lesson = {
                 markCode: "B",
               },
             ],
-            finalAnswer: "**(b)** sun",
+            finalAnswer: "**(d)** sun",
             commonErrors: [
               "Choosing 'cat' because it starts with a letter, not the right sound.",
             ],
@@ -110,7 +110,7 @@ export const lesson11: Lesson = {
               { reasoning: "ch = /ch/ sound.", marks: 1, markCode: "B" },
               { reasoning: "Answer: c and h.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(a)** c and h",
+            finalAnswer: "**(b)** c and h",
             commonErrors: ["Picking sh — different digraph."],
           },
         },

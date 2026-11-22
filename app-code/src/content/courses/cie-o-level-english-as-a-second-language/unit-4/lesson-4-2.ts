@@ -105,7 +105,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Long sentences" },
             { id: "d", text: "A list of adjectives" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Sensory detail", statement: "Words for the five senses." }], steps: [{ reasoning: "Sensory detail covers sight, sound, smell, taste, touch.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Words about the five senses" },
+          markscheme: { principles: [{ kind: "definition", name: "Sensory detail", statement: "Words for the five senses." }], steps: [{ reasoning: "Sensory detail covers sight, sound, smell, taste, touch.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Words about the five senses" },
         },
         {
           id: "oles-u4-de-q6", difficulty: "core", totalMarks: 2,
@@ -125,7 +125,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "It was a good day" },
             { id: "d", text: "The beach was nice" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "technique", name: "Multi-sense", statement: "Several senses = vivid picture." }], steps: [{ reasoning: "(a) has sound, taste and touch.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The hiss of the tide, the salty spray, the gritty sand" },
+          markscheme: { principles: [{ kind: "technique", name: "Multi-sense", statement: "Several senses = vivid picture." }], steps: [{ reasoning: "(a) has sound, taste and touch.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** The hiss of the tide, the salty spray, the gritty sand" },
         },
         {
           id: "oles-u4-de-q8", difficulty: "core", totalMarks: 2,
@@ -248,7 +248,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Create a picture in the reader's mind" },
             { id: "d", text: "List facts in order" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Description", statement: "Creates mental pictures." }], steps: [{ reasoning: "Description appeals to the senses to build images.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Create a picture in the reader's mind" },
+          markscheme: { principles: [{ kind: "definition", name: "Description", statement: "Creates mental pictures." }], steps: [{ reasoning: "Description appeals to the senses to build images.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Create a picture in the reader's mind" },
         },
       ],
     },
@@ -343,7 +343,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "State your opinion clearly" },
             { id: "d", text: "List every fact you know" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Introduction", statement: "Opinion stated clearly." }], steps: [{ reasoning: "The stance comes first, then reasons.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** State your opinion clearly" },
+          markscheme: { principles: [{ kind: "convention", name: "Introduction", statement: "Opinion stated clearly." }], steps: [{ reasoning: "The stance comes first, then reasons.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** State your opinion clearly" },
         },
         {
           id: "oles-u4-ar-q6", difficulty: "core", totalMarks: 2,
@@ -394,7 +394,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "Ignored completely" },
             { id: "d", text: "Acknowledged briefly" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Balance", statement: "Acknowledge the other side briefly." }], steps: [{ reasoning: "Brief acknowledgement adds credibility.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Acknowledged briefly" },
+          markscheme: { principles: [{ kind: "skill", name: "Balance", statement: "Acknowledge the other side briefly." }], steps: [{ reasoning: "Brief acknowledgement adds credibility.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Acknowledged briefly" },
         },
         {
           id: "oles-u4-ar-q11", difficulty: "challenge", totalMarks: 9,
@@ -472,7 +472,7 @@ export const lesson42: Lesson = {
             { id: "c", text: "No opinion is given" },
             { id: "d", text: "The essay is half finished" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Balanced", statement: "Fair consideration of sides." }], steps: [{ reasoning: "Balanced = acknowledging the other side fairly.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Both sides are considered fairly" },
+          markscheme: { principles: [{ kind: "definition", name: "Balanced", statement: "Fair consideration of sides." }], steps: [{ reasoning: "Balanced = acknowledging the other side fairly.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Both sides are considered fairly" },
         },
         {
           id: "oles-u4-ar-q16", difficulty: "core", totalMarks: 2,

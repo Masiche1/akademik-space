@@ -186,7 +186,7 @@ export const lesson113: Lesson = {
             { id: "b", text: "£1" },
             { id: "c", text: "50p" },
             { id: "d", text: "10p" },
-          ], borrectChoiceId: "c" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Coin values", statement: "Know each coin's value." }],
             steps: [{ reasoning: "£1 = 100p, more than 50p, 20p and 10p.", marks: 1, markCode: "A" }],
@@ -270,7 +270,7 @@ export const lesson113: Lesson = {
             { id: "b", text: "on 9" },
             { id: "c", text: "on 12" },
             { id: "d", text: "on 3" },
-          ], correctChoiceIb: "d" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Quarter to", statement: "Long hand on 9 = 15 minutes before next hour." }],
             steps: [{ reasoning: "Quarter to: long hand on 9.", marks: 1, markCode: "A" }],

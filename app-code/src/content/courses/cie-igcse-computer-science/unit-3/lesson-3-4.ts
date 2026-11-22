@@ -237,7 +237,7 @@ export const lesson74: Lesson = {
             steps: [
               { reasoning: "Python strings use zero-based indexing, so s[0] is 'd'.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** 'd'",
+            finalAnswer: "**(b)** 'd'",
           },
         },
         {
@@ -312,7 +312,7 @@ export const lesson74: Lesson = {
             steps: [
               { reasoning: "nums.append(x) adds x to the end of nums.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** .append()",
+            finalAnswer: "**(c)** .append()",
           },
         },
         {
@@ -337,7 +337,7 @@ export const lesson74: Lesson = {
             steps: [
               { reasoning: "Strings are immutable, so a new string must be created for changes.", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** Strings are immutable",
+            finalAnswer: "**(d)** Strings are immutable",
           },
         },
         {

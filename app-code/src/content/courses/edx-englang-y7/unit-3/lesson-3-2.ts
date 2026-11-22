@@ -98,7 +98,7 @@ export const lesson32: Lesson = {
                 markCode: "AO2",
               },
             ],
-            finalAnswer: "**(b)** Sensationalised for clicks",
+            finalAnswer: "**(a)** Sensationalised for clicks",
             commonErrors: ["Confusing with normal headlines."],
           },
         },
@@ -347,7 +347,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Currency, Relevance, Authority, Accuracy, Purpose",
+              "**(a)** Currency, Relevance, Authority, Accuracy, Purpose",
             commonErrors: ["Wrong expansion."],
           },
         },

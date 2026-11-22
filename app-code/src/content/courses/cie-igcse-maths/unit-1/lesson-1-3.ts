@@ -66,7 +66,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Extract the largest square factor: $72=36\\times2$.", working: "\\sqrt{72}=\\sqrt{36}\\times\\sqrt{2}=6\\sqrt{2}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $6\\sqrt{2}$",
+            finalAnswer: "**(c)** $6\\sqrt{2}$",
             commonErrors: ["Splitting as $\\sqrt{8}\\times\\sqrt{9}$ and stopping early.", "Choosing $2\\sqrt{36}$, which equals 12, not $\\sqrt{72}\\approx8.49$."],
           },
         },
@@ -163,7 +163,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Extract the largest square factor: $48=16\\times3$.", working: "\\sqrt{48}=\\sqrt{16}\\times\\sqrt{3}=4\\sqrt{3}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $4\\sqrt{3}$",
+            finalAnswer: "**(d)** $4\\sqrt{3}$",
             commonErrors: ["Stopping at $2\\sqrt{12}$, which still contains a square factor.", "Writing $\\sqrt{48}=\\sqrt{16}\\times\\sqrt{3}$ then miscomputing as $16\\sqrt{3}$."],
           },
         },
@@ -190,7 +190,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$\\sqrt{20}=2\\sqrt{5}$ and $\\sqrt{45}=3\\sqrt{5}$; like surds add.", working: "2\\sqrt{5}+3\\sqrt{5}=5\\sqrt{5}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $5\\sqrt{5}$",
+            finalAnswer: "**(b)** $5\\sqrt{5}$",
             commonErrors: ["Adding under one root to get $\\sqrt{65}$.", "Multiplying the surds instead of adding."],
           },
         },
@@ -216,7 +216,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Expand all three terms: $9+6\\sqrt{5}+5$.", working: "(3+\\sqrt{5})^2=9+2\\times3\\times\\sqrt{5}+5=14+6\\sqrt{5}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $14+6\\sqrt{5}$",
+            finalAnswer: "**(b)** $14+6\\sqrt{5}$",
             commonErrors: ["Writing $(3+\\sqrt{5})^2=9+5=14$ and losing the middle term.", "Treating $2\\times3\\times\\sqrt{5}$ as $\\sqrt{30}$."],
           },
         },
@@ -396,7 +396,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "This is a conjugate pair: $(\\sqrt{3})^2-(\\sqrt{6})^2=3-6$.", working: "3-6=-3", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $-3$",
+            finalAnswer: "**(d)** $-3$",
             commonErrors: ["Computing $3-6=3$ with a sign slip.", "Trying to combine $\\sqrt{3}-\\sqrt{6}$ as a single surd."],
           },
         },
@@ -422,7 +422,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "$\\sqrt{6}\\times\\sqrt{24}=\\sqrt{144}=12$.", working: "\\sqrt{6\\times24}=\\sqrt{144}=12", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $12$",
+            finalAnswer: "**(c)** $12$",
             commonErrors: ["Adding under the root: $\\sqrt{6+24}=\\sqrt{30}$.", "Writing $144$ without taking the root."],
           },
         },
@@ -479,7 +479,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Multiply top and bottom by $\\sqrt{5}$; the denominator becomes 5.", working: "\\frac{\\sqrt{5}}{\\sqrt{5}\\times\\sqrt{5}}=\\frac{\\sqrt{5}}{5}", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(a)** $\\frac{\\sqrt{5}}{5}$",
+            finalAnswer: "**(b)** $\\frac{\\sqrt{5}}{5}$",
             commonErrors: ["Multiplying only the numerator.", "Writing $\\frac{1}{5}$ by cancelling the surds."],
           },
         },
@@ -593,7 +593,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Multiply top and bottom by $\\sqrt{7}$; the denominator becomes $7$.", working: "\\frac{3\\sqrt{7}}{\\sqrt{7}\\times\\sqrt{7}}=\\frac{3\\sqrt{7}}{7}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $\\frac{3\\sqrt{7}}{7}$",
+            finalAnswer: "**(d)** $\\frac{3\\sqrt{7}}{7}$",
             commonErrors: ["Multiplying only the numerator.", "Dividing by $7$ twice to get $\\frac{3\\sqrt{7}}{49}$."],
           },
         },
@@ -619,7 +619,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "The conjugate changes the sign of the surd term only.", working: "5-\\sqrt{2}\\ \\longrightarrow\\ 5+\\sqrt{2}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(b)** $5+\\sqrt{2}$",
+            finalAnswer: "**(c)** $5+\\sqrt{2}$",
             commonErrors: ["Changing the sign of the whole expression to get $-5+\\sqrt{2}$.", "Multiplying instead of changing the sign."],
           },
         },
@@ -822,7 +822,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Multiply by the conjugate $3+\\sqrt{2}$; the denominator becomes $9-2=7$.", working: "\\frac{2(3+\\sqrt{2})}{7}=\\frac{6+2\\sqrt{2}}{7}", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $\\frac{6+2\\sqrt{2}}{7}$",
+            finalAnswer: "**(b)** $\\frac{6+2\\sqrt{2}}{7}$",
             commonErrors: ["Multiplying by $3-\\sqrt{2}$ again, giving choice (d)'s numerator.", "Using denominator $9+2=11$."],
           },
         },
@@ -848,7 +848,7 @@ export const lesson13: Lesson = {
             steps: [
               { reasoning: "Multiply by the conjugate $\\sqrt{5}+1$; the denominator becomes $5-1=4$.", working: "\\frac{4(\\sqrt{5}+1)}{4}=\\sqrt{5}+1", marks: 1, markCode: "M" },
             ],
-            finalAnswer: "**(a)** $\\sqrt{5}+1$",
+            finalAnswer: "**(c)** $\\sqrt{5}+1$",
             commonErrors: ["Forgetting to multiply the numerator by 4 as well, giving choice (d).", "Using denominator $5+1=6$."],
           },
         },

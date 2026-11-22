@@ -151,7 +151,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)**. The passage traces causes (gravity, rotation, alignment) to their effects (tides).",
+              "**(c)**. The passage traces causes (gravity, rotation, alignment) to their effects (tides).",
             commonErrors: [
               "Choosing (a) because the passage mentions 'each day'.",
             ],
@@ -209,7 +209,7 @@ export const lesson32: Lesson = {
                 markCode: "AO4",
               },
             ],
-            finalAnswer: "**(b)**. The sentence adds a second, parallel fact.",
+            finalAnswer: "**(a)**. The sentence adds a second, parallel fact.",
             commonErrors: [
               "Choosing (a), assuming every second fact is caused by the first.",
             ],
@@ -529,7 +529,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. The past story is a second plot line linked to Marisol's present race.",
+              "**(c)**. The past story is a second plot line linked to Marisol's present race.",
             commonErrors: [
               "Choosing (b); the narrator remains the same third-person voice.",
             ],
@@ -585,7 +585,7 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)**. The brevity speeds the pace and creates urgency.",
+              "**(c)**. The brevity speeds the pace and creates urgency.",
             commonErrors: [
               "Choosing (b); short sentences usually speed, not slow, the pace.",
             ],

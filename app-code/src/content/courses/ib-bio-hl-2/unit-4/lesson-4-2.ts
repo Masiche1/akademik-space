@@ -125,7 +125,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Temporal prezygotic isolation",
+            finalAnswer: "**(a)** Temporal prezygotic isolation",
             commonErrors: [
               "Calling it postzygotic — no zygote is ever formed.",
             ],
@@ -180,7 +180,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Postzygotic hybrid sterility",
+            finalAnswer: "**(d)** Postzygotic hybrid sterility",
             commonErrors: [
               "Confusing sterility with inviability — the mule is born healthy; only its gametes fail.",
             ],
@@ -252,7 +252,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Sympatric speciation driven by divergent selection on host use, reinforced by reproductive isolation",
+              "**(a)** Sympatric speciation driven by divergent selection on host use, reinforced by reproductive isolation",
             commonErrors: [
               "Assuming speciation requires geographic isolation — sympatric speciation via host shifts is documented in insects.",
             ],
@@ -432,7 +432,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Speciation caused by a geographic barrier that stops gene flow between populations",
+              "**(d)** Speciation caused by a geographic barrier that stops gene flow between populations",
             commonErrors: [
               "Confusing allopatric with sympatric — sympatric speciation occurs without geographic separation.",
             ],
@@ -483,7 +483,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Prevent fertilisation from occurring at all",
+            finalAnswer: "**(d)** Prevent fertilisation from occurring at all",
             commonErrors: [
               "Describing postzygotic barriers — those act after fertilisation on hybrid viability or fertility.",
             ],
@@ -557,7 +557,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Allopatric speciation completed by a postzygotic barrier",
+              "**(d)** Allopatric speciation completed by a postzygotic barrier",
             commonErrors: [
               "Saying no speciation has occurred — sterile hybrids demonstrate reproductive isolation, which defines separate species.",
             ],
@@ -769,7 +769,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The polyploid produces gametes with an extra chromosome set, so hybrids with the diploid parent are triploid and usually sterile — instant reproductive isolation",
+              "**(d)** The polyploid produces gametes with an extra chromosome set, so hybrids with the diploid parent are triploid and usually sterile — instant reproductive isolation",
             commonErrors: [
               "Thinking polyploids are always sterile — many plant polyploids are fertile with each other; they are isolated from the diploid parent.",
             ],
@@ -1266,7 +1266,7 @@ export const lesson42: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(b)** Adaptive radiation",
+            finalAnswer: "**(a)** Adaptive radiation",
             commonErrors: [
               "Choosing convergent evolution — the finches are related and diverged; convergence applies to unrelated lineages.",
             ],
@@ -1328,7 +1328,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Convergent evolution driven by similar selective pressures in water",
+              "**(a)** Convergent evolution driven by similar selective pressures in water",
             commonErrors: [
               "Calling the traits homologous — they have different embryonic origins despite similar function.",
             ],
@@ -1403,7 +1403,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Mass extinction emptied niches, and surviving lineages underwent adaptive radiation into vacated ecological roles",
+              "**(d)** Mass extinction emptied niches, and surviving lineages underwent adaptive radiation into vacated ecological roles",
             commonErrors: [
               "Thinking extinction itself causes speciation — extinction only creates the ecological opportunity; selection does the rest.",
             ],
@@ -1586,7 +1586,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The rapid diversification of one ancestor into many species that occupy different ecological niches",
+              "**(c)** The rapid diversification of one ancestor into many species that occupy different ecological niches",
             commonErrors: [
               "Confusing adaptive radiation with convergent evolution — radiation is divergence within a lineage; convergence is similarity across unrelated lineages.",
             ],
@@ -1647,7 +1647,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** The wings of bats and birds evolving independently for flight",
+              "**(d)** The wings of bats and birds evolving independently for flight",
             commonErrors: [
               "Choosing finch beaks — those are homologous structures diverging from a common ancestor, not convergent traits.",
             ],
@@ -1920,7 +1920,7 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer:
-              "**(b)** Convergent evolution — similar selective pressures produced similar adaptations in unrelated lineages",
+              "**(d)** Convergent evolution — similar selective pressures produced similar adaptations in unrelated lineages",
             commonErrors: [
               "Calling the skulls homologous — check ancestry first; convergent traits look alike but have different origins.",
             ],

@@ -67,7 +67,7 @@ export const lesson62: Lesson = {
               { reasoning: "A framework guides coverage; the text determines emphasis.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Flexible checklist",
+            finalAnswer: "**(d)** Flexible checklist",
           },
         },
         {
@@ -171,7 +171,7 @@ export const lesson62: Lesson = {
               { reasoning: "The four framework areas are context, structure, language and themes.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Context, structure, language, themes",
+            finalAnswer: "**(c)** Context, structure, language, themes",
           },
         },
         {
@@ -197,7 +197,7 @@ export const lesson62: Lesson = {
               { reasoning: "Anchors make analysis concrete — the claim is tied to the text.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A specific quotation or detail that grounds a claim",
+            finalAnswer: "**(a)** A specific quotation or detail that grounds a claim",
           },
         },
         {
@@ -224,7 +224,7 @@ export const lesson62: Lesson = {
               { reasoning: "Scripted commentary ignores the text's actual features.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Follows the text's actual features and adjusts emphasis",
+            finalAnswer: "**(a)** Follows the text's actual features and adjusts emphasis",
           },
         },
         {
@@ -277,7 +277,7 @@ export const lesson62: Lesson = {
               { reasoning: "The checklist prevents omissions; the extract decides the content.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Ensures coverage while the text determines content",
+            finalAnswer: "**(a)** Ensures coverage while the text determines content",
           },
         },
         {
@@ -304,7 +304,7 @@ export const lesson62: Lesson = {
               { reasoning: "Generic observations about length or rhyme cannot support the claim.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** The 'they say'/'insist' contrast",
+            finalAnswer: "**(a)** The 'they say'/'insist' contrast",
           },
         },
         {
@@ -514,7 +514,7 @@ export const lesson62: Lesson = {
               { reasoning: "Structured practice with self-review builds consistent process.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Structured repetition with self-review",
+            finalAnswer: "**(c)** Structured repetition with self-review",
           },
         },
         {
@@ -613,7 +613,7 @@ export const lesson62: Lesson = {
               { reasoning: "The cycle builds a repeatable process with built-in feedback.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Extract → framework → record → listen → improve → repeat",
+            finalAnswer: "**(c)** Extract → framework → record → listen → improve → repeat",
           },
         },
         {
@@ -639,7 +639,7 @@ export const lesson62: Lesson = {
               { reasoning: "A reliable process survives exam pressure; perfection is impossible.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** A consistent, reliable process executable under pressure",
+            finalAnswer: "**(d)** A consistent, reliable process executable under pressure",
           },
         },
         {
@@ -693,7 +693,7 @@ export const lesson62: Lesson = {
               { reasoning: "General questions produce general, unhelpful answers.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** 'Where did you lose me?'",
+            finalAnswer: "**(a)** 'Where did you lose me?'",
           },
         },
         {
@@ -719,7 +719,7 @@ export const lesson62: Lesson = {
               { reasoning: "You cannot hear your own pace or fillers while speaking.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Reveals habits invisible in the moment",
+            finalAnswer: "**(d)** Reveals habits invisible in the moment",
           },
         },
         {
@@ -746,7 +746,7 @@ export const lesson62: Lesson = {
               { reasoning: "Examiners reward engagement with the specific text.", marks: 1, markCode: "M" },
               { reasoning: "Therefore choice (b) is correct.", marks: 1, markCode: "A" },
             ],
-            finalAnswer: "**(b)** Ignores what the actual text does",
+            finalAnswer: "**(a)** Ignores what the actual text does",
           },
         },
         {

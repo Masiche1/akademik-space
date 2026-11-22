@@ -56,7 +56,7 @@ export const lesson81: Lesson = {
               { id: "c", text: "The bell rang, and the class rushed out." },
               { id: "d", text: "When the bell rang, everyone left." },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -65,7 +65,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "Only (c) has a single independent clause.", working: "\\text{one clause}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(c)** The bell rang.",
+            finalAnswer: "**(b)** The bell rang.",
             commonErrors: ["Choosing (a) — that is compound (two independent clauses)."],
           },
         },
@@ -161,12 +161,12 @@ export const lesson81: Lesson = {
               { id: "c", text: "The bell rang; the class left." },
               { id: "d", text: "Because the bell rang, the class rushed out." },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Complex sentence", statement: "One independent clause plus at least one dependent clause." }],
             steps: [{ reasoning: "'Because the bell rang' is dependent; 'the class rushed out' is independent.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(c)** Because the bell rang, the class rushed out.",
+            finalAnswer: "**(d)** Because the bell rang, the class rushed out.",
             commonErrors: ["Choosing (b) — two independents joined by 'and' is compound."],
           },
         },
@@ -217,7 +217,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Complex effect", statement: "Dependent clauses express logical relationships — cause, time, contrast." }],
             steps: [{ reasoning: "'Because/although/when' clauses encode relationships compound sentences cannot.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** It shows dependency — cause, contrast or condition",
+            finalAnswer: "**(a)** It shows dependency — cause, contrast or condition",
             commonErrors: ["Choosing (a) — joining equal ideas is what COMPOUND sentences do."],
           },
         },
@@ -322,7 +322,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "technique", name: "Variety", statement: "Three consecutive simple sentences are monotonous." }],
             steps: [{ reasoning: "(a) is three simple sentences in a row — no variety.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** The bell rang. The class left. The teacher smiled.",
+            finalAnswer: "**(d)** The bell rang. The class left. The teacher smiled.",
             commonErrors: ["Choosing (b)-(d) — those each contain varied sentence types."],
           },
         },
@@ -432,7 +432,7 @@ export const lesson81: Lesson = {
             steps: [
               { reasoning: "'Because the rain stopped' is incomplete — needs a main clause.", working: "\\text{'because'}", marks: 1, markCode: "AO1" },
             ],
-            finalAnswer: "**(b)** Because the rain stopped",
+            finalAnswer: "**(c)** Because the rain stopped",
             commonErrors: ["Choosing (a) — that is independent."],
           },
         },
@@ -533,7 +533,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "definition", name: "Subordinating conjunction", statement: "Because/although/when/if/while/since introduce dependent clauses." }],
             steps: [{ reasoning: "'Because' is subordinating; 'and/but/or' are coordinating.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Because",
+            finalAnswer: "**(d)** Because",
             commonErrors: ["Choosing 'and' — coordinating conjunctions join equals, they don't subordinate."],
           },
         },
@@ -584,7 +584,7 @@ export const lesson81: Lesson = {
           markscheme: {
             principles: [{ kind: "convention", name: "Comma after fronted dependent", statement: "A dependent clause before the main clause takes a comma." }],
             steps: [{ reasoning: "Comma separates the fronted dependent clause from the independent clause.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** Because it was late, we went home.",
+            finalAnswer: "**(a)** Because it was late, we went home.",
             commonErrors: ["Choosing (d) — semicolons join independent clauses only."],
           },
         },
@@ -632,12 +632,12 @@ export const lesson81: Lesson = {
               { id: "c", text: "'Because' between clauses" },
               { id: "d", text: "'And' between two independent clauses" },
             ],
-            dorrectChoiceId: "c",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Compound joining", statement: "Coordinating conjunctions (and/but/or) join independent clauses." }],
             steps: [{ reasoning: "'And' coordinates equals → compound; because/although/when subordinate → complex.", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(c)** 'And' between two independent clauses",
+            finalAnswer: "**(d)** 'And' between two independent clauses",
             commonErrors: ["Choosing 'because' — that creates a dependent clause (complex)."],
           },
         },

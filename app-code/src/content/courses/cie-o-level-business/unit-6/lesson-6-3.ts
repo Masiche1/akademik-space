@@ -42,7 +42,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Number of competitors" },
             { id: "d", text: "Percentage of total market sales" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Market share", statement: "% of market." }], steps: [{ reasoning: "Share of sales.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Market share", statement: "% of market." }], steps: [{ reasoning: "Share of sales.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u6-comp-q2", difficulty: "core", totalMarks: 2,
@@ -98,7 +98,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "A few large firms" },
             { id: "d", text: "Only foreign firms" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "definition", name: "Oligopoly", statement: "Few firms." }], steps: [{ reasoning: "Oligopoly = few large firms.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Oligopoly", statement: "Few firms." }], steps: [{ reasoning: "Oligopoly = few large firms.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Correct" },
         },
         {
           id: "olbus-u6-comp-q6", difficulty: "foundation", totalMarks: 1,
@@ -109,7 +109,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Prices are always low" },
             { id: "d", text: "There is perfect competition" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Monopoly", statement: "One dominant firm." }], steps: [{ reasoning: "Monopoly = single dominant seller.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Monopoly", statement: "One dominant firm." }], steps: [{ reasoning: "Monopoly = single dominant seller.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u6-comp-q7", difficulty: "core", totalMarks: 1,
@@ -120,7 +120,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Buying out all competitors" },
             { id: "d", text: "Making a product distinct from rivals' products" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Differentiation", statement: "Distinct product." }], steps: [{ reasoning: "Differentiation makes product unique.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Differentiation", statement: "Distinct product." }], steps: [{ reasoning: "Differentiation makes product unique.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u6-comp-q8", difficulty: "core", totalMarks: 1,
@@ -131,7 +131,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Improving product quality" },
             { id: "d", text: "Offering lower prices than competitors" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Price competition", statement: "Cost leadership." }], steps: [{ reasoning: "Price competition = lower prices.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Price competition", statement: "Cost leadership." }], steps: [{ reasoning: "Price competition = lower prices.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u6-comp-q9", difficulty: "core", totalMarks: 1,
@@ -142,7 +142,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "A new product launches" },
             { id: "d", text: "The market is fully supplied with little room for growth" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "definition", name: "Market saturation", statement: "No growth." }], steps: [{ reasoning: "Saturation = market fully supplied.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Market saturation", statement: "No growth." }], steps: [{ reasoning: "Saturation = market fully supplied.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u6-comp-q10", difficulty: "core", totalMarks: 2,
@@ -309,7 +309,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Sells only locally" },
             { id: "d", text: "Never exports" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Multinational", statement: "Multi-country firm." }], steps: [{ reasoning: "Operates across borders.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "definition", name: "Multinational", statement: "Multi-country firm." }], steps: [{ reasoning: "Operates across borders.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u6-glob-q6", difficulty: "foundation", totalMarks: 1,
@@ -331,7 +331,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Lower taxes everywhere" },
             { id: "d", text: "Guaranteed higher prices" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Globalisation opportunities", statement: "Market access." }], steps: [{ reasoning: "Global reach = bigger markets.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Globalisation opportunities", statement: "Market access." }], steps: [{ reasoning: "Global reach = bigger markets.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u6-glob-q8", difficulty: "core", totalMarks: 1,
@@ -342,7 +342,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Only imports are affected" },
             { id: "d", text: "Prices never change" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "principle", name: "Exchange rate risk", statement: "Currency fluctuation." }], steps: [{ reasoning: "FX movements change values.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Exchange rate risk", statement: "Currency fluctuation." }], steps: [{ reasoning: "FX movements change values.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Correct" },
         },
         {
           id: "olbus-u6-glob-q9", difficulty: "core", totalMarks: 1,
@@ -353,7 +353,7 @@ export const lesson63: Lesson = {
             { id: "c", text: "Only local markets" },
             { id: "d", text: "Increased international competition" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "principle", name: "Globalisation", statement: "Competition effect." }], steps: [{ reasoning: "Global markets = more rivals.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Correct" },
+          markscheme: { principles: [{ kind: "principle", name: "Globalisation", statement: "Competition effect." }], steps: [{ reasoning: "Global markets = more rivals.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** Correct" },
         },
         {
           id: "olbus-u6-glob-q10", difficulty: "core", totalMarks: 2,

@@ -74,7 +74,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The current to be measured must flow through the ammeter, so it is placed in the same loop as the lamp, in series.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** In series with the lamp",
+            finalAnswer: "**(a)** In series with the lamp",
             commonErrors: ["Confusing the ammeter with a voltmeter, which is connected in parallel."],
             examinerNote: "B1 for in series.",
           },
@@ -179,7 +179,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The voltmeter measures the potential difference between two points, so it is connected across (in parallel with) the lamp.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** In parallel across the lamp",
+            finalAnswer: "**(a)** In parallel across the lamp",
             commonErrors: ["Confusing the voltmeter with an ammeter, which goes in series."],
             examinerNote: "B1 for choice (b).",
           },
@@ -206,7 +206,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "With one path, the same current flows through every component; it is not 'used up' or shared.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** It is the same at every point in the circuit",
+            finalAnswer: "**(a)** It is the same at every point in the circuit",
             commonErrors: ["Thinking the current is divided between components like voltage."],
             examinerNote: "B1 for choice (b).",
           },
@@ -233,7 +233,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Each branch has its own path, so only the broken branch stops conducting; the others keep the full supply pd.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Only the broken lamp goes out; the other branches keep working",
+            finalAnswer: "**(d)** Only the broken lamp goes out; the other branches keep working",
             commonErrors: ["Applying the series-circuit rule that everything switches off."],
             examinerNote: "B1 for choice (b).",
           },
@@ -395,7 +395,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The battery's pd is the energy it supplies to each unit of charge flowing round the circuit.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** The energy the battery gives to each unit of charge",
+            finalAnswer: "**(a)** The energy the battery gives to each unit of charge",
             commonErrors: ["Confusing pd with current."],
             examinerNote: "B1 for choice (b).",
           },
@@ -422,7 +422,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Only in parallel does each lamp have its own path, so one can break without affecting the other.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Parallel",
+            finalAnswer: "**(d)** Parallel",
             commonErrors: ["Choosing series because it is simpler."],
             examinerNote: "B1 for choice (b).",
           },
@@ -604,7 +604,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Amps (A)" },
               { id: "d", text: "Volts (V)" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -613,7 +613,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Resistance is measured in ohms; volts measure pd and amps measure current.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Ohms ($\\Omega$)",
+            finalAnswer: "**(b)** Ohms ($\\Omega$)",
             commonErrors: ["Confusing ohms with volts."],
             examinerNote: "B1 for choice (c).",
           },
@@ -631,7 +631,7 @@ export const lesson32: Lesson = {
               { id: "c", text: "Rubber" },
               { id: "d", text: "Glass" },
             ],
-            borrectChoiceId: "c",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -640,7 +640,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "Copper is a metal and a good conductor; plastic, rubber and glass are insulators.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(c)** Copper",
+            finalAnswer: "**(b)** Copper",
             commonErrors: ["Choosing plastic because it is flexible."],
             examinerNote: "B1 for choice (c).",
           },
@@ -667,7 +667,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "$I = \\frac{12}{4} = 3$ A.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** 3 A",
+            finalAnswer: "**(d)** 3 A",
             commonErrors: ["Multiplying V and R to get 48."],
             examinerNote: "B1 for choice (b).",
           },
@@ -862,7 +862,7 @@ export const lesson32: Lesson = {
             steps: [
               { reasoning: "The plastic coating is an insulator that stops people touching the live conductor and prevents short circuits.", marks: 1, markCode: "B" },
             ],
-            finalAnswer: "**(b)** Plastic is an insulator that prevents contact with live wires",
+            finalAnswer: "**(c)** Plastic is an insulator that prevents contact with live wires",
             commonErrors: ["Thinking the coating carries the current."],
             examinerNote: "B1 for choice (b).",
           },

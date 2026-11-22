@@ -41,7 +41,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Read the questions and predict answers" },
             { id: "d", text: "Memorise the questions" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Preparation", statement: "Predict before listening." }], steps: [{ reasoning: "Reading questions first focuses listening.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Read and predict" },
+          markscheme: { principles: [{ kind: "skill", name: "Preparation", statement: "Predict before listening." }], steps: [{ reasoning: "Reading questions first focuses listening.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Read and predict" },
         },
         {
           id: "oles-u7-li-q2", difficulty: "core", totalMarks: 2,
@@ -155,7 +155,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Write down everything you hear" },
             { id: "d", text: "Stop paying attention" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Recovery", statement: "Move on, recover later." }], steps: [{ reasoning: "Missing one answer does not mean missing the rest.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Keep listening for the next question" },
+          markscheme: { principles: [{ kind: "skill", name: "Recovery", statement: "Move on, recover later." }], steps: [{ reasoning: "Missing one answer does not mean missing the rest.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Keep listening for the next question" },
         },
         {
           id: "oles-u7-li-q11", difficulty: "core", totalMarks: 2,
@@ -185,7 +185,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Closing your eyes to relax" },
             { id: "d", text: "Doing another section's writing" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Preparation time", statement: "Predict, don't memorise." }], steps: [{ reasoning: "Prediction focuses listening; memorising wastes the time.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Predicting the type of answer each question needs" },
+          markscheme: { principles: [{ kind: "skill", name: "Preparation time", statement: "Predict, don't memorise." }], steps: [{ reasoning: "Prediction focuses listening; memorising wastes the time.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Predicting the type of answer each question needs" },
         },
         {
           id: "oles-u7-li-q14", difficulty: "foundation", totalMarks: 2,
@@ -246,7 +246,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Give full answers with reasons" },
             { id: "d", text: "Memorise a script" },
           ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "skill", name: "Full answers", statement: "Extend with reasons/examples." }], steps: [{ reasoning: "Full answers show range and fluency.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Full answers with reasons" },
+          markscheme: { principles: [{ kind: "skill", name: "Full answers", statement: "Extend with reasons/examples." }], steps: [{ reasoning: "Full answers show range and fluency.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Full answers with reasons" },
         },
         {
           id: "oles-u7-sp-q2", difficulty: "core", totalMarks: 2,
@@ -310,7 +310,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Ask the examiner to end the test" },
             { id: "d", text: "Pause briefly, then give your best answer" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Recovery", statement: "Pause briefly, answer fully." }], steps: [{ reasoning: "A short pause then an attempt beats silence or giving up.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Pause briefly, then give your best answer" },
+          markscheme: { principles: [{ kind: "skill", name: "Recovery", statement: "Pause briefly, answer fully." }], steps: [{ reasoning: "A short pause then an attempt beats silence or giving up.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Pause briefly, then give your best answer" },
         },
         {
           id: "oles-u7-sp-q6", difficulty: "core", totalMarks: 2,
@@ -361,7 +361,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "A written script to memorise" },
             { id: "d", text: "A grammar rule" },
           ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "definition", name: "Prompt", statement: "The cue that starts your answer." }], steps: [{ reasoning: "The prompt is the examiner's question or cue for your response.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** The examiner's question or cue" },
+          markscheme: { principles: [{ kind: "definition", name: "Prompt", statement: "The cue that starts your answer." }], steps: [{ reasoning: "The prompt is the examiner's question or cue for your response.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** The examiner's question or cue" },
         },
         {
           id: "oles-u7-sp-q11", difficulty: "core", totalMarks: 2,
@@ -371,11 +371,11 @@ export const lesson73: Lesson = {
             { id: "b", text: "Sport." },
             { id: "c", text: "I don't know." },
             { id: "d", text: "Yes, I do. I play football every weekend because I enjoy it with my friends." },
-          ], dorrectChoiceId: "c" },
+          ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "skill", name: "Full answers", statement: "Answer + reason/example." }], steps: [
             { reasoning: "A full answer gives the direct answer plus a reason and example.", marks: 1, markCode: "AO2" },
             { reasoning: "Correct choice.", marks: 1, markCode: "AO3" },
-          ], finalAnswer: "**(c)** Yes, I do. I play football every weekend..." },
+          ], finalAnswer: "**(d)** Yes, I do. I play football every weekend..." },
         },
         {
           id: "oles-u7-sp-q12", difficulty: "challenge", totalMarks: 9,
@@ -428,7 +428,7 @@ export const lesson73: Lesson = {
             { id: "c", text: "Counted as a wrong answer" },
             { id: "d", text: "Fine — short pauses are better than rushed wrong answers" },
           ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "skill", name: "Pausing", statement: "Think briefly, keep going." }], steps: [{ reasoning: "A short pause is natural; long silence is the problem.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Fine — short pauses are better than rushed wrong answers" },
+          markscheme: { principles: [{ kind: "skill", name: "Pausing", statement: "Think briefly, keep going." }], steps: [{ reasoning: "A short pause is natural; long silence is the problem.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Fine — short pauses are better than rushed wrong answers" },
         },
         {
           id: "oles-u7-sp-q15", difficulty: "challenge", totalMarks: 4,

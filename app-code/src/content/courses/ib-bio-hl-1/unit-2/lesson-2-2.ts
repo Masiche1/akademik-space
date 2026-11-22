@@ -123,7 +123,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Photolysis of water",
+            finalAnswer: "**(b)** Photolysis of water",
             commonErrors: [
               "Confusing the source of electrons (water) with the final acceptor ($NADP^+$).",
             ],
@@ -398,7 +398,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** P680; water is the ultimate electron donor.",
+            finalAnswer: "**(c)** P680; water is the ultimate electron donor.",
             commonErrors: ["Swapping the roles of P680 and P700."],
           },
         },
@@ -441,7 +441,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Ferredoxin",
+            finalAnswer: "**(c)** Ferredoxin",
             commonErrors: [
               "Naming ATP synthase, which uses protons rather than receiving electrons directly.",
             ],
@@ -490,7 +490,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** They broaden light absorption and transfer energy to the reaction centre.",
+              "**(d)** They broaden light absorption and transfer energy to the reaction centre.",
             commonErrors: [
               "Claiming accessory pigments carry out carbon fixation or water splitting.",
             ],
@@ -534,7 +534,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Oxygen, protons and electrons",
+            finalAnswer: "**(d)** Oxygen, protons and electrons",
             commonErrors: [
               "Including NADPH or ATP, which are products of later stages rather than photolysis itself.",
             ],
@@ -592,7 +592,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** Water → PSII → ETC → PSI → ferredoxin → $NADP^+$",
+              "**(c)** Water → PSII → ETC → PSI → ferredoxin → $NADP^+$",
             commonErrors: ["Reversing the order of the two photosystems."],
           },
         },
@@ -1062,7 +1062,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Neither — cyclic produces only ATP",
+            finalAnswer: "**(b)** Neither — cyclic produces only ATP",
             commonErrors: [
               "Thinking cyclic flow produces NADPH — it recycles electrons instead of reducing $NADP^+$.",
             ],
@@ -1324,7 +1324,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** ATP only",
+            finalAnswer: "**(c)** ATP only",
             commonErrors: [
               "Thinking cyclic photophosphorylation produces NADPH.",
             ],
@@ -1369,7 +1369,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** ATP, NADPH and oxygen",
+            finalAnswer: "**(d)** ATP, NADPH and oxygen",
             commonErrors: [
               "Omitting oxygen because it is released rather than transferred as an electron carrier.",
             ],
@@ -1414,7 +1414,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** Ferredoxin",
+            finalAnswer: "**(c)** Ferredoxin",
             commonErrors: [
               "Saying water supplies the electrons — cyclic flow recycles electrons already in the system.",
             ],
@@ -1468,7 +1468,7 @@ export const lesson22: Lesson = {
                 markCode: "A",
               },
             ],
-            finalAnswer: "**(a)** From the stroma into the thylakoid lumen",
+            finalAnswer: "**(c)** From the stroma into the thylakoid lumen",
             commonErrors: [
               "Reversing the direction — protons flow back out to the stroma during chemiosmosis.",
             ],
@@ -1517,7 +1517,7 @@ export const lesson22: Lesson = {
               },
             ],
             finalAnswer:
-              "**(a)** It uses the proton gradient to phosphorylate ADP.",
+              "**(d)** It uses the proton gradient to phosphorylate ADP.",
             commonErrors: [
               "Confusing ATP synthase with RuBisCO or the oxygen-evolving complex.",
             ],

@@ -96,7 +96,7 @@ export const lesson222: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Multiple viewpoints",
+            finalAnswer: "**(c)** Multiple viewpoints",
             commonErrors: ["Confusing with descriptive or narrative."],
           },
         },
@@ -329,7 +329,7 @@ export const lesson222: Lesson = {
           totalMarks: 1,
           stem: "Which tone is most persuasive in discursive writing?",
           response: { type: "mcq", choices: [ { id: "a", text: "Confused and vague" }, { id: "b", text: "Measured and reasonable" }, { id: "c", text: "Aggressive and insulting" }, { id: "d", text: "Dismissive and jokey" } ], correctChoiceId: "b" },
-          markscheme: { principles: [{ kind: "skill", name: "Persuasive tone", statement: "Reasonableness persuades; extremity alienates." }], steps: [{ reasoning: "A measured tone maintains credibility.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Measured and reasonable", commonErrors: ["Thinking emotional intensity equals persuasion."] },
+          markscheme: { principles: [{ kind: "skill", name: "Persuasive tone", statement: "Reasonableness persuades; extremity alienates." }], steps: [{ reasoning: "A measured tone maintains credibility.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** Measured and reasonable", commonErrors: ["Thinking emotional intensity equals persuasion."] },
         },
         {
           id: "cial-e-u2-di-q8",
@@ -337,7 +337,7 @@ export const lesson222: Lesson = {
           totalMarks: 1,
           stem: "What should a discursive conclusion do?",
           response: { type: "mcq", choices: [ { id: "a", text: "List every argument again" }, { id: "b", text: "Repeat the introduction word for word" }, { id: "c", text: "Offer a reasoned position after weighing viewpoints" }, { id: "d", text: "Introduce a new topic" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Discursive conclusion", statement: "A reasoned position synthesises the discussion." }], steps: [{ reasoning: "The conclusion should judge the balance of views.", marks: 1, markCode: "AO3" }], finalAnswer: "**(b)** Reasoned position", commonErrors: ["Summarising without taking a position."] },
+          markscheme: { principles: [{ kind: "convention", name: "Discursive conclusion", statement: "A reasoned position synthesises the discussion." }], steps: [{ reasoning: "The conclusion should judge the balance of views.", marks: 1, markCode: "AO3" }], finalAnswer: "**(c)** Reasoned position", commonErrors: ["Summarising without taking a position."] },
         },
         {
           id: "cial-e-u2-di-q9",
@@ -345,7 +345,7 @@ export const lesson222: Lesson = {
           totalMarks: 1,
           stem: "Which phrase best shows nuanced discursive balance?",
           response: { type: "mcq", choices: [ { id: "a", text: "This is obviously stupid" }, { id: "b", text: "Everyone agrees" }, { id: "c", text: "While X has force, Y must also be considered" }, { id: "d", text: "I do not care" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "technique", name: "Nuance", statement: "Concessive phrasing acknowledges complexity." }], steps: [{ reasoning: "The concessive structure balances competing claims.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** While X has force, Y must also be considered", commonErrors: ["Using absolute claims that ignore complexity."] },
+          markscheme: { principles: [{ kind: "technique", name: "Nuance", statement: "Concessive phrasing acknowledges complexity." }], steps: [{ reasoning: "The concessive structure balances competing claims.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** While X has force, Y must also be considered", commonErrors: ["Using absolute claims that ignore complexity."] },
         },
         {
           id: "cial-e-u2-di-q10",
@@ -469,7 +469,7 @@ export const lesson222: Lesson = {
                 markCode: "AO1",
               },
             ],
-            finalAnswer: "**(a)** Yours faithfully",
+            finalAnswer: "**(b)** Yours faithfully",
             commonErrors: [
               "Choosing 'Yours sincerely' — needs named recipient.",
             ],
@@ -693,7 +693,7 @@ export const lesson222: Lesson = {
           totalMarks: 1,
           stem: "Which salutation is appropriate when the recipient's name is unknown?",
           response: { type: "mcq", choices: [ { id: "a", text: "Hi there" }, { id: "b", text: "Yo" }, { id: "c", text: "To whom it may not concern" }, { id: "d", text: "Dear Sir or Madam" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Formal salutation", statement: "Unknown recipient uses 'Dear Sir or Madam'." }], steps: [{ reasoning: "Formal unknown-recipient letters use the standard salutation.", marks: 1, markCode: "AO1" }], finalAnswer: "**(a)** Dear Sir or Madam", commonErrors: ["Using an informal greeting."] },
+          markscheme: { principles: [{ kind: "convention", name: "Formal salutation", statement: "Unknown recipient uses 'Dear Sir or Madam'." }], steps: [{ reasoning: "Formal unknown-recipient letters use the standard salutation.", marks: 1, markCode: "AO1" }], finalAnswer: "**(d)** Dear Sir or Madam", commonErrors: ["Using an informal greeting."] },
         },
         {
           id: "cial-e-u2-tx-q6",
@@ -701,7 +701,7 @@ export const lesson222: Lesson = {
           totalMarks: 1,
           stem: "Which closing pairs with 'Dear Mr Smith'?",
           response: { type: "mcq", choices: [ { id: "a", text: "Yours faithfully" }, { id: "b", text: "See you" }, { id: "c", text: "Yours sincerely" }, { id: "d", text: "TTYL" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Letter closings", statement: "Named recipient pairs with 'Yours sincerely'." }], steps: [{ reasoning: "Named recipient requires 'Yours sincerely'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(b)** Yours sincerely", commonErrors: ["Mixing named and unnamed conventions."] },
+          markscheme: { principles: [{ kind: "convention", name: "Letter closings", statement: "Named recipient pairs with 'Yours sincerely'." }], steps: [{ reasoning: "Named recipient requires 'Yours sincerely'.", marks: 1, markCode: "AO1" }], finalAnswer: "**(c)** Yours sincerely", commonErrors: ["Mixing named and unnamed conventions."] },
         },
         {
           id: "cial-e-u2-tx-q7",
@@ -717,7 +717,7 @@ export const lesson222: Lesson = {
           totalMarks: 1,
           stem: "Which feature most distinguishes a proposal from a report?",
           response: { type: "mcq", choices: [ { id: "a", text: "A proposal is longer" }, { id: "b", text: "A proposal has no audience" }, { id: "c", text: "A proposal avoids headings" }, { id: "d", text: "A proposal argues for a solution and its benefits" } ], correctChoiceId: "d" },
-          markscheme: { principles: [{ kind: "convention", name: "Proposal", statement: "Problem, solution, benefits and costs." }], steps: [{ reasoning: "Proposals persuade toward a recommended action.", marks: 1, markCode: "AO2" }], finalAnswer: "**(b)** It argues for a solution", commonErrors: ["Treating a proposal as purely factual."] },
+          markscheme: { principles: [{ kind: "convention", name: "Proposal", statement: "Problem, solution, benefits and costs." }], steps: [{ reasoning: "Proposals persuade toward a recommended action.", marks: 1, markCode: "AO2" }], finalAnswer: "**(d)** It argues for a solution", commonErrors: ["Treating a proposal as purely factual."] },
         },
         {
           id: "cial-e-u2-tx-q9",
@@ -725,7 +725,7 @@ export const lesson222: Lesson = {
           totalMarks: 1,
           stem: "Why should the purpose of a formal letter appear early?",
           response: { type: "mcq", choices: [ { id: "a", text: "It allows casual language" }, { id: "b", text: "It makes the letter look longer" }, { id: "c", text: "It saves the reader time and frames the request" }, { id: "d", text: "It hides the complaint" } ], correctChoiceId: "c" },
-          markscheme: { principles: [{ kind: "convention", name: "Purpose early", statement: "Clear early purpose suits transactional efficiency." }], steps: [{ reasoning: "Early purpose lets the reader act quickly.", marks: 1, markCode: "AO2" }], finalAnswer: "**(a)** Saves time and frames request", commonErrors: ["Burying the purpose in the final paragraph."] },
+          markscheme: { principles: [{ kind: "convention", name: "Purpose early", statement: "Clear early purpose suits transactional efficiency." }], steps: [{ reasoning: "Early purpose lets the reader act quickly.", marks: 1, markCode: "AO2" }], finalAnswer: "**(c)** Saves time and frames request", commonErrors: ["Burying the purpose in the final paragraph."] },
         },
         {
           id: "cial-e-u2-tx-q10",
